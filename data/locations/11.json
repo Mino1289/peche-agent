@@ -1,0 +1,1342 @@
+{
+  "meta": {
+    "zone_id": 11,
+    "zone_nom": "Zone 11",
+    "nb_plans": 79,
+    "nb_geocoded": 75,
+    "pct_geocoded": 94.9,
+    "source_file": "zones/11.json"
+  },
+  "locations": [
+    {
+      "id": 592,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Réservoir Baskatong, à l'exception des plans d'eau suivants ci-dessous de l'AFC:",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Réservoir Baskatong, à l'exception des plans d'eau suivants ci-dessous de l'AFC:",
+      "nom_search": "aire faunique communautaire du reservoir baskatong reservoir baskatong a l exception des plans d eau suivants ci dessous de l afc",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong reservoir baskatong a l exception des plans d eau suivants ci dessous de l afc"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 12188,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie au Sable - La partie comprise entre une droite reliant les points 46°39'11.99'' N., 75°44'3.05\" O. et 46°39'15.93'' N, 75°44'1.47' O. et l'embouchure du ruisseau sans nom situé au fond de la baie ( 46°37'50\" N., 75°42'45,8\" O. ).",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie au Sable - La partie comprise entre une droite reliant les points 46°39'11.99'' N., 75°44'3.05\" O. et 46°39'15.93'' N, 75°44'1.47' O. et l'embouchure du ruisseau sans nom situé au fond de la baie",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie au sable la partie comprise entre une droite reliant les points 46 39 11 99 n 75 44 3 05 o et 46 39 15 93 n 75 44 1 47 o et l embouchure du ruisseau sans nom situe au fond de la baie 46 37 50 n 75 42 45 8 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie au sable la partie comprise entre une droite reliant les points 46 39 11 99 n 75 44 3 05 o et 46 39 15 93 n 75 44 1 47 o et l embouchure du ruisseau sans nom situe au fond de la baie 46 37 50 n 75 42 45 8 o )"
+      ],
+      "lat": 46.653331,
+      "lon": -75.734181
+    },
+    {
+      "id": 1086,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie Gens de Terre - La partie comprise entre le côté aval du pont Lépine ( 46°55'11,63\" N., 76°07'2,38\" O. ) située sur la rivière Gens de terre et une droite reliant les points 46°52'37,23\" N., 75°57'56,41\" O. et 46°52'27,20\" N., 75°58'1,11\" O. incluant le ruisseau de la Côte Jaune jusqu'au côté aval du pont du chemin de la Zec Petawaga ( 46°54'43,47\" N., 75°59'58,67\" O. ).",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Gens de Terre - La partie comprise entre le côté aval du pont Lépine",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie gens de terre la partie comprise entre le cote aval du pont lepine 46 55 11 63 n 76 07 2 38 o ) situee sur la riviere gens de terre et une droite reliant les points 46 52 37 23 n 75 57 56 41 o et 46 52 27 20 n 75 58 1 11 o incluant le ruisseau de la cote jaune jusqu au cote aval du pont du chemin de la zec petawaga 46 54 43 47 n 75 59 58 67 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie gens de terre la partie comprise entre le cote aval du pont lepine 46 55 11 63 n 76 07 2 38 o ) situee sur la riviere gens de terre et une droite reliant les points 46 52 37 23 n 75 57 56 41 o et 46 52 27 20 n 75 58 1 11 o incluant le ruisseau de la cote jaune jusqu au cote aval du pont du chemin de la zec petawaga 46 54 43 47 n 75 59 58 67 o )"
+      ],
+      "lat": 46.919897,
+      "lon": -76.117328
+    },
+    {
+      "id": 1084,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie Philomène - La partie comprise entre entre une droite reliant les points 46°43'9.12\" N., 75°50'8,90\" O. et 46°43'5.79\" N., 75°50'4,72\" O. située en aval de la partie la plus étroite de l'exutoire de la baie jusqu'au rétrécissement de la Baie Philomène délimitée par une droite reliant les points 46°39'07\" N., 75°50'50\" O. et 46°39'06\" N., 75°50'44\" O. excluant le lac sans nom (Canard) ( 46°40'49\" N., 75°51'19\" O. )",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Philomène - La partie comprise entre entre une droite reliant les points 46°43'9.12\" N., 75°50'8,90\" O. et 46°43'5.79\" N., 75°50'4,72\" O. située en aval de la partie la plus étroite de l'exutoire de la baie jusqu'au rétrécissement de la Baie Philomène délimitée par une droite reliant les points 46°39'07\" N., 75°50'50\" O. et 46°39'06\" N., 75°50'44\" O. excluant le lac sans nom",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie philomene la partie comprise entre entre une droite reliant les points 46 43 9 12 n 75 50 8 90 o et 46 43 5 79 n 75 50 4 72 o situee en aval de la partie la plus etroite de l exutoire de la baie jusqu au retrecissement de la baie philomene delimitee par une droite reliant les points 46 39 07 n 75 50 50 o et 46 39 06 n 75 50 44 o excluant le lac sans nom canard) 46 40 49 n 75 51 19 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie philomene la partie comprise entre entre une droite reliant les points 46 43 9 12 n 75 50 8 90 o et 46 43 5 79 n 75 50 4 72 o situee en aval de la partie la plus etroite de l exutoire de la baie jusqu au retrecissement de la baie philomene delimitee par une droite reliant les points 46 39 07 n 75 50 50 o et 46 39 06 n 75 50 44 o excluant le lac sans nom canard) 46 40 49 n 75 51 19 o )"
+      ],
+      "lat": 46.7192,
+      "lon": -75.835806
+    },
+    {
+      "id": 12623,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie Philomène - La partie comprise entre le rétrécissement délimitée par une droite reliant les points 46°39'07\" N., 75°50'50\" O. et 46°39'06\" N., 75°50'44\" O. jusqu'aux limites de l'aire faunique communautaire dans le ruisseau Philomène ( 46°37'12'' N., 75°49'05'' O. ) et par l'exutoire du ruisseau Caronna ( 46°37'51'' N., 75°50'14'' O. )",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Philomène - La partie comprise entre le rétrécissement délimitée par une droite reliant les points 46°39'07\" N., 75°50'50\" O. et 46°39'06\" N., 75°50'44\" O. jusqu'aux limites de l'aire faunique communautaire dans le ruisseau Philomène",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie philomene la partie comprise entre le retrecissement delimitee par une droite reliant les points 46 39 07 n 75 50 50 o et 46 39 06 n 75 50 44 o jusqu aux limites de l aire faunique communautaire dans le ruisseau philomene 46 37 12 n 75 49 05 o ) et par l exutoire du ruisseau caronna 46 37 51 n 75 50 14 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie philomene la partie comprise entre le retrecissement delimitee par une droite reliant les points 46 39 07 n 75 50 50 o et 46 39 06 n 75 50 44 o jusqu aux limites de l aire faunique communautaire dans le ruisseau philomene 46 37 12 n 75 49 05 o ) et par l exutoire du ruisseau caronna 46 37 51 n 75 50 14 o )"
+      ],
+      "lat": 46.651944,
+      "lon": -75.847222
+    },
+    {
+      "id": 12191,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie sans nom (Baie Notawassi) - La partie comprise entre l'embouchure de la rivière Notawassi ( 46°55'35,73'' N., 75°41'16,43'' O. et une droite au sud de la baie reliant les points 46°54'10,68'' N., 75°40'40,84'' O. et 46°54'11,18'' N., 75°40'33,03'' O.",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie sans nom",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie sans nom baie notawassi) la partie comprise entre l embouchure de la riviere notawassi 46 55 35 73 n 75 41 16 43 o et une droite au sud de la baie reliant les points 46 54 10 68 n 75 40 40 84 o et 46 54 11 18 n 75 40 33 03 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie sans nom baie notawassi) la partie comprise entre l embouchure de la riviere notawassi 46 55 35 73 n 75 41 16 43 o et une droite au sud de la baie reliant les points 46 54 10 68 n 75 40 40 84 o et 46 54 11 18 n 75 40 33 03 o"
+      ],
+      "lat": 46.926592,
+      "lon": -75.687897
+    },
+    {
+      "id": 12185,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie Sans nom (Rivière Petawaga) - La baie délimitée au Nord par l'embouchure du cours d'eau sans nom reliant le réservoir au lac Usher ( 46°54'49,69\" N., 75°54'36,07\" O. ) et par l'embouchure du ruisseau Demerest ( 46°54'49,11\" N., 75°54'24,36\" O. ), à l'est dans la rivière Petawaga jusqu'à l\"embouchure du cours d'eau sans nom reliant le réservoir au lac Penny) et au sud par une droite reliant les points 46°51'46,73\" N., 75°53'52,38\" O. , 46°51'37,69\" N., 75°53'56,21\" O. et 46°52'5,46\"N., 75°52'21,09\" O.",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Sans nom",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie sans nom riviere petawaga) la baie delimitee au nord par l embouchure du cours d eau sans nom reliant le reservoir au lac usher 46 54 49 69 n 75 54 36 07 o ) et par l embouchure du ruisseau demerest 46 54 49 11 n 75 54 24 36 o ) a l est dans la riviere petawaga jusqu a l embouchure du cours d eau sans nom reliant le reservoir au lac penny) et au sud par une droite reliant les points 46 51 46 73 n 75 53 52 38 o 46 51 37 69 n 75 53 56 21 o et 46 52 5 46 n 75 52 21 09 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie sans nom riviere petawaga) la baie delimitee au nord par l embouchure du cours d eau sans nom reliant le reservoir au lac usher 46 54 49 69 n 75 54 36 07 o ) et par l embouchure du ruisseau demerest 46 54 49 11 n 75 54 24 36 o ) a l est dans la riviere petawaga jusqu a l embouchure du cours d eau sans nom reliant le reservoir au lac penny) et au sud par une droite reliant les points 46 51 46 73 n 75 53 52 38 o 46 51 37 69 n 75 53 56 21 o et 46 52 5 46 n 75 52 21 09 o"
+      ],
+      "lat": 46.913803,
+      "lon": -75.910019
+    },
+    {
+      "id": 12193,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie Sans nom - La partie située en amont délimitée par une droite reliant les points ( 46°55'57,99'' N., 75°32'19,96'' O. ) et ( 46°55'58,07'' N., 75°32'15,85'' O. ) jusqu'au fond de la baie incluant une partie du cours d'eau sans nom ( 46°55'2,58'' N., 75°32,50,94'' O. ).",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Sans nom - La partie située en amont délimitée par une droite reliant les points",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie sans nom la partie situee en amont delimitee par une droite reliant les points 46 55 57 99 n 75 32 19 96 o ) et 46 55 58 07 n 75 32 15 85 o ) jusqu au fond de la baie incluant une partie du cours d eau sans nom 46 55 2 58 n 75 32 50 94 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie sans nom la partie situee en amont delimitee par une droite reliant les points 46 55 57 99 n 75 32 19 96 o ) et 46 55 58 07 n 75 32 15 85 o ) jusqu au fond de la baie incluant une partie du cours d eau sans nom 46 55 2 58 n 75 32 50 94 o )"
+      ],
+      "lat": 46.932775,
+      "lon": -75.538878
+    },
+    {
+      "id": 12184,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Baie Windigo - La partie comprise entre une droite à son embouchure reliant les points 46°45'57.65'' N., 75°42'45.78'' O. et 46°46'4.07'' N., 75°42'40.49'' O. et l'embouchure du ruisseau Windigo ( 46°45'37.65'' N., 75°42'18.86'' O. )",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Windigo - La partie comprise entre une droite à son embouchure reliant les points 46°45'57.65'' N., 75°42'45.78'' O. et 46°46'4.07'' N., 75°42'40.49'' O. et l'embouchure du ruisseau Windigo",
+      "nom_search": "aire faunique communautaire du reservoir baskatong baie windigo la partie comprise entre une droite a son embouchure reliant les points 46 45 57 65 n 75 42 45 78 o et 46 46 4 07 n 75 42 40 49 o et l embouchure du ruisseau windigo 46 45 37 65 n 75 42 18 86 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong baie windigo la partie comprise entre une droite a son embouchure reliant les points 46 45 57 65 n 75 42 45 78 o et 46 46 4 07 n 75 42 40 49 o et l embouchure du ruisseau windigo 46 45 37 65 n 75 42 18 86 o )"
+      ],
+      "lat": 46.766014,
+      "lon": -75.712717
+    },
+    {
+      "id": 12189,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Lac Caméra - La partie comprise entre l'embouchure du ruisseau du Butor au Nord ( 46°59'7,2\" N., 75°33'30,5\" O. ) incluant la baie Guidon jusqu'à sa limite ouest ( 46°57'1,97\" N., 75°35'25,85\" O. ) et son embouchure dans le réservoir Baskatong délimitée par une droite reliant les points 46°57'42,58\" N., 75°33'11,96\" O. et 46°57'40,27\" N., 75°33'11\" O.",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Lac Caméra - La partie comprise entre l'embouchure du ruisseau du Butor au Nord",
+      "nom_search": "aire faunique communautaire du reservoir baskatong lac camera la partie comprise entre l embouchure du ruisseau du butor au nord 46 59 7 2 n 75 33 30 5 o ) incluant la baie guidon jusqu a sa limite ouest 46 57 1 97 n 75 35 25 85 o ) et son embouchure dans le reservoir baskatong delimitee par une droite reliant les points 46 57 42 58 n 75 33 11 96 o et 46 57 40 27 n 75 33 11 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong lac camera la partie comprise entre l embouchure du ruisseau du butor au nord 46 59 7 2 n 75 33 30 5 o ) incluant la baie guidon jusqu a sa limite ouest 46 57 1 97 n 75 35 25 85 o ) et son embouchure dans le reservoir baskatong delimitee par une droite reliant les points 46 57 42 58 n 75 33 11 96 o et 46 57 40 27 n 75 33 11 o"
+      ],
+      "lat": 46.985333,
+      "lon": -75.558472
+    },
+    {
+      "id": 1088,
+      "zone_id": 11,
+      "nom_brut": "Aire Faunique Communautaire du réservoir Baskatong - Rivière Gatineau - La partie comprise entre le côté aval du pont de fer de la CIP surplombant les rapides Ceizur ( 47°04'56,77\" N., 75°45'10,41\" O. ) et une droite reliant les points 47°01'1,38\" N., 75°42'44,31\" O. et 47°01'00\" N., 75°42'32,81\" O. située à 1,5 km en aval de la pointe du dépôt de l'Esturgeon.",
+      "nom": "Aire Faunique Communautaire du réservoir Baskatong - Rivière Gatineau - La partie comprise entre le côté aval du pont de fer de la CIP surplombant les rapides Ceizur",
+      "nom_search": "aire faunique communautaire du reservoir baskatong riviere gatineau la partie comprise entre le cote aval du pont de fer de la cip surplombant les rapides ceizur 47 04 56 77 n 75 45 10 41 o ) et une droite reliant les points 47 01 1 38 n 75 42 44 31 o et 47 01 00 n 75 42 32 81 o situee a 1 5 km en aval de la pointe du depot de l esturgeon",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du réservoir Baskatong",
+      "aliases": [
+        "aire faunique communautaire du reservoir baskatong",
+        "aire faunique communautaire du reservoir baskatong riviere gatineau la partie comprise entre le cote aval du pont de fer de la cip surplombant les rapides ceizur 47 04 56 77 n 75 45 10 41 o ) et une droite reliant les points 47 01 1 38 n 75 42 44 31 o et 47 01 00 n 75 42 32 81 o situee a 1 5 km en aval de la pointe du depot de l esturgeon"
+      ],
+      "lat": 47.082436,
+      "lon": -75.752892
+    },
+    {
+      "id": 629,
+      "zone_id": 11,
+      "nom_brut": "Lac aux Cyprès ( 46°52'15\" N., 75°11'45\" O. , Municipalité de Mont-Saint-Michel)",
+      "nom": "Lac aux Cyprès",
+      "nom_search": "lac aux cypres 46 52 15 n 75 11 45 o municipalite de mont saint michel)",
+      "segment_label": null,
+      "river_base_name": "Lac aux Cyprès",
+      "aliases": [
+        "aux cypres",
+        "aux cypres 46 52 15 n 75 11 45 o municipalite de mont saint michel)",
+        "lac aux cypres",
+        "lac aux cypres 46 52 15 n 75 11 45 o municipalite de mont saint michel)"
+      ],
+      "lat": 46.870833,
+      "lon": -75.195833
+    },
+    {
+      "id": 692,
+      "zone_id": 11,
+      "nom_brut": "Lac aux Poissons ( 46°36'52\" N., 74°48'48\" O. , Municipalité de L'Ascension)",
+      "nom": "Lac aux Poissons",
+      "nom_search": "lac aux poissons 46 36 52 n 74 48 48 o municipalite de l ascension)",
+      "segment_label": null,
+      "river_base_name": "Lac aux Poissons",
+      "aliases": [
+        "aux poissons",
+        "aux poissons 46 36 52 n 74 48 48 o municipalite de l ascension)",
+        "lac aux poissons",
+        "lac aux poissons 46 36 52 n 74 48 48 o municipalite de l ascension)"
+      ],
+      "lat": 46.614444,
+      "lon": -74.813333
+    },
+    {
+      "id": 624,
+      "zone_id": 11,
+      "nom_brut": "Lac Bertrand - ( 46°37'56\" N., 75°23'45\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Bertrand",
+      "nom_search": "lac bertrand 46 37 56 n 75 23 45 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Bertrand -",
+      "aliases": [
+        "bertrand",
+        "bertrand 46 37 56 n 75 23 45 o municipalite de ferme neuve)",
+        "lac bertrand",
+        "lac bertrand 46 37 56 n 75 23 45 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.632222,
+      "lon": -75.395833
+    },
+    {
+      "id": 647,
+      "zone_id": 11,
+      "nom_brut": "Lac Béthune - ( 46°51'18\" N., 75°27'55\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Béthune",
+      "nom_search": "lac bethune 46 51 18 n 75 27 55 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Béthune -",
+      "aliases": [
+        "bethune",
+        "bethune 46 51 18 n 75 27 55 o municipalite de ferme neuve)",
+        "lac bethune",
+        "lac bethune 46 51 18 n 75 27 55 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.855,
+      "lon": -75.465278
+    },
+    {
+      "id": 625,
+      "zone_id": 11,
+      "nom_brut": "Lac Bitobi - ( 46°42'21\" N., 75°57'41\" O. , Municipalité de Grand-Remous)",
+      "nom": "Lac Bitobi",
+      "nom_search": "lac bitobi 46 42 21 n 75 57 41 o municipalite de grand remous)",
+      "segment_label": null,
+      "river_base_name": "Lac Bitobi -",
+      "aliases": [
+        "bitobi",
+        "bitobi 46 42 21 n 75 57 41 o municipalite de grand remous)",
+        "lac bitobi",
+        "lac bitobi 46 42 21 n 75 57 41 o municipalite de grand remous)"
+      ],
+      "lat": 46.705833,
+      "lon": -75.961389
+    },
+    {
+      "id": 10680,
+      "zone_id": 11,
+      "nom_brut": "Lac Borcoman - ( 46°46'08\" N., 75°36'34\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Borcoman",
+      "nom_search": "lac borcoman 46 46 08 n 75 36 34 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Borcoman -",
+      "aliases": [
+        "borcoman",
+        "borcoman 46 46 08 n 75 36 34 o municipalite de ferme neuve)",
+        "lac borcoman",
+        "lac borcoman 46 46 08 n 75 36 34 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.768889,
+      "lon": -75.609444
+    },
+    {
+      "id": 654,
+      "zone_id": 11,
+      "nom_brut": "Lac Boucher ( 46°53'59\" N., 75°24'51\" O. , Municipalité de Sainte-Anne-du-Lac)",
+      "nom": "Lac Boucher",
+      "nom_search": "lac boucher 46 53 59 n 75 24 51 o municipalite de sainte anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Boucher",
+      "aliases": [
+        "boucher",
+        "boucher 46 53 59 n 75 24 51 o municipalite de sainte anne du lac)",
+        "lac boucher",
+        "lac boucher 46 53 59 n 75 24 51 o municipalite de sainte anne du lac)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.899722,
+      "lon": -75.414167
+    },
+    {
+      "id": 650,
+      "zone_id": 11,
+      "nom_brut": "Lac Brochet ( 46°30'01\" N., 74°44'40\" O. , Municipalité de L'Ascension)",
+      "nom": "Lac Brochet",
+      "nom_search": "lac brochet 46 30 01 n 74 44 40 o municipalite de l ascension)",
+      "segment_label": null,
+      "river_base_name": "Lac Brochet",
+      "aliases": [
+        "brochet",
+        "brochet 46 30 01 n 74 44 40 o municipalite de l ascension)",
+        "lac brochet",
+        "lac brochet 46 30 01 n 74 44 40 o municipalite de l ascension)"
+      ],
+      "lat": 46.500278,
+      "lon": -74.744444
+    },
+    {
+      "id": 3196,
+      "zone_id": 11,
+      "nom_brut": "Lac Chaud - ( 46°27'09'' N., 74°46'06'' O. )",
+      "nom": "Lac Chaud",
+      "nom_search": "lac chaud 46 27 09 n 74 46 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chaud -",
+      "aliases": [
+        "chaud",
+        "chaud 46 27 09 n 74 46 06 o )",
+        "lac chaud",
+        "lac chaud 46 27 09 n 74 46 06 o )"
+      ],
+      "lat": 46.4525,
+      "lon": -74.768333
+    },
+    {
+      "id": 3218,
+      "zone_id": 11,
+      "nom_brut": "Lac Clair (anciennement lac Vert) ( 46°37'34\" N., 75°42'48\" O. , Municipalité de Mont-Laurier)",
+      "nom": "Lac Clair",
+      "nom_search": "lac clair anciennement lac vert) 46 37 34 n 75 42 48 o municipalite de mont laurier)",
+      "segment_label": null,
+      "river_base_name": "Lac Clair",
+      "aliases": [
+        "clair",
+        "clair anciennement lac vert) 46 37 34 n 75 42 48 o municipalite de mont laurier)",
+        "lac clair",
+        "lac clair anciennement lac vert) 46 37 34 n 75 42 48 o municipalite de mont laurier)"
+      ],
+      "lat": 46.626111,
+      "lon": -75.713333
+    },
+    {
+      "id": 3222,
+      "zone_id": 11,
+      "nom_brut": "Lac de la Bouette ( 46°43'30\" N., 75°34'39\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac de la Bouette",
+      "nom_search": "lac de la bouette 46 43 30 n 75 34 39 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac de la Bouette",
+      "aliases": [
+        "de la bouette",
+        "de la bouette 46 43 30 n 75 34 39 o municipalite de ferme neuve)",
+        "lac de la bouette",
+        "lac de la bouette 46 43 30 n 75 34 39 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.725,
+      "lon": -75.5775
+    },
+    {
+      "id": 656,
+      "zone_id": 11,
+      "nom_brut": "Lac de la Montagne (Courtemanche) ( 46°43'10\" N., 75°33'20\" O. )(Municipalité de Ferme-Neuve)",
+      "nom": "Lac de la Montagne",
+      "nom_search": "lac de la montagne courtemanche) 46 43 10 n 75 33 20 o ) municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac de la Montagne",
+      "aliases": [
+        "de la montagne",
+        "de la montagne courtemanche) 46 43 10 n 75 33 20 o ) municipalite de ferme neuve)",
+        "lac de la montagne",
+        "lac de la montagne courtemanche) 46 43 10 n 75 33 20 o ) municipalite de ferme neuve)"
+      ],
+      "lat": 46.719444,
+      "lon": -75.555556
+    },
+    {
+      "id": 10700,
+      "zone_id": 11,
+      "nom_brut": "Lac des Cornes ( 46°43'30\" N., 75°09'19\" O. , Municipalité de Chute-Saint-Philippe)",
+      "nom": "Lac des Cornes",
+      "nom_search": "lac des cornes 46 43 30 n 75 09 19 o municipalite de chute saint philippe)",
+      "segment_label": null,
+      "river_base_name": "Lac des Cornes",
+      "aliases": [
+        "des cornes",
+        "des cornes 46 43 30 n 75 09 19 o municipalite de chute saint philippe)",
+        "lac des cornes",
+        "lac des cornes 46 43 30 n 75 09 19 o municipalite de chute saint philippe)"
+      ],
+      "lat": 46.725,
+      "lon": -75.155278
+    },
+    {
+      "id": 3226,
+      "zone_id": 11,
+      "nom_brut": "Lac des Îles ( 46°43'27\" N., 75°34'03\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac des Îles",
+      "nom_search": "lac des iles 46 43 27 n 75 34 03 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac des Îles",
+      "aliases": [
+        "des iles",
+        "des iles 46 43 27 n 75 34 03 o municipalite de ferme neuve)",
+        "lac des iles",
+        "lac des iles 46 43 27 n 75 34 03 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.724167,
+      "lon": -75.5675
+    },
+    {
+      "id": 662,
+      "zone_id": 11,
+      "nom_brut": "Lac des Journalistes - ( 46°42'56\" N., 75°27'46\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac des Journalistes",
+      "nom_search": "lac des journalistes 46 42 56 n 75 27 46 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac des Journalistes -",
+      "aliases": [
+        "des journalistes",
+        "des journalistes 46 42 56 n 75 27 46 o municipalite de ferme neuve)",
+        "lac des journalistes",
+        "lac des journalistes 46 42 56 n 75 27 46 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.715556,
+      "lon": -75.462778
+    },
+    {
+      "id": 3220,
+      "zone_id": 11,
+      "nom_brut": "Lac du Club ( 46°37'29\" N., 75°32'06\" O. , Municipalité de Mont-Laurier)",
+      "nom": "Lac du Club",
+      "nom_search": "lac du club 46 37 29 n 75 32 06 o municipalite de mont laurier)",
+      "segment_label": null,
+      "river_base_name": "Lac du Club",
+      "aliases": [
+        "du club",
+        "du club 46 37 29 n 75 32 06 o municipalite de mont laurier)",
+        "lac du club",
+        "lac du club 46 37 29 n 75 32 06 o municipalite de mont laurier)"
+      ],
+      "lat": 46.624722,
+      "lon": -75.535
+    },
+    {
+      "id": 3224,
+      "zone_id": 11,
+      "nom_brut": "Lac Flapper ( 46°47'50\" N., 75°38'13\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Flapper",
+      "nom_search": "lac flapper 46 47 50 n 75 38 13 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Flapper",
+      "aliases": [
+        "flapper",
+        "flapper 46 47 50 n 75 38 13 o municipalite de ferme neuve)",
+        "lac flapper",
+        "lac flapper 46 47 50 n 75 38 13 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.797222,
+      "lon": -75.636944
+    },
+    {
+      "id": 3166,
+      "zone_id": 11,
+      "nom_brut": "Lac Gervais ( 46°46'23\" N., 75°52'28\" O. ) (Municipalité de Grand-Remous)",
+      "nom": "Lac Gervais",
+      "nom_search": "lac gervais 46 46 23 n 75 52 28 o ) municipalite de grand remous)",
+      "segment_label": null,
+      "river_base_name": "Lac Gervais",
+      "aliases": [
+        "gervais",
+        "gervais 46 46 23 n 75 52 28 o ) municipalite de grand remous)",
+        "lac gervais",
+        "lac gervais 46 46 23 n 75 52 28 o ) municipalite de grand remous)"
+      ],
+      "lat": 46.773056,
+      "lon": -75.874444
+    },
+    {
+      "id": 3117,
+      "zone_id": 11,
+      "nom_brut": "Lac Grand lac Rabot - ( 46°51'50\" N., 75°24'46\" O. , Municipalité de Sainte-Anne-du-Lac)",
+      "nom": "Lac Grand lac Rabot",
+      "nom_search": "lac grand lac rabot 46 51 50 n 75 24 46 o municipalite de sainte anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Rabot -",
+      "aliases": [
+        "grand lac rabot",
+        "grand lac rabot 46 51 50 n 75 24 46 o municipalite de sainte anne du lac)",
+        "lac grand lac rabot",
+        "lac grand lac rabot 46 51 50 n 75 24 46 o municipalite de sainte anne du lac)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.863889,
+      "lon": -75.412778
+    },
+    {
+      "id": 660,
+      "zone_id": 11,
+      "nom_brut": "Lac Grand lac Serpent ( 46°57'26\" N., 75°25'10\" O. )(Municipalité de Sainte-Anne-du-Lac)",
+      "nom": "Lac Grand lac Serpent",
+      "nom_search": "lac grand lac serpent 46 57 26 n 75 25 10 o ) municipalite de sainte anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Serpent",
+      "aliases": [
+        "grand lac serpent",
+        "grand lac serpent 46 57 26 n 75 25 10 o ) municipalite de sainte anne du lac)",
+        "lac grand lac serpent",
+        "lac grand lac serpent 46 57 26 n 75 25 10 o ) municipalite de sainte anne du lac)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.957222,
+      "lon": -75.419444
+    },
+    {
+      "id": 630,
+      "zone_id": 11,
+      "nom_brut": "Lac Hamel - ( 46°54'34\" N., 75°16'11\" O. , Municipalité de Sainte-Anne-du-Lac)",
+      "nom": "Lac Hamel",
+      "nom_search": "lac hamel 46 54 34 n 75 16 11 o municipalite de sainte anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Hamel -",
+      "aliases": [
+        "hamel",
+        "hamel 46 54 34 n 75 16 11 o municipalite de sainte anne du lac)",
+        "lac hamel",
+        "lac hamel 46 54 34 n 75 16 11 o municipalite de sainte anne du lac)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.909444,
+      "lon": -75.269722
+    },
+    {
+      "id": 631,
+      "zone_id": 11,
+      "nom_brut": "Lac Hardy - ( 46°35'50\" N., 75°49'02\" O. , Municipalité de Grand-Remous)",
+      "nom": "Lac Hardy",
+      "nom_search": "lac hardy 46 35 50 n 75 49 02 o municipalite de grand remous)",
+      "segment_label": null,
+      "river_base_name": "Lac Hardy -",
+      "aliases": [
+        "hardy",
+        "hardy 46 35 50 n 75 49 02 o municipalite de grand remous)",
+        "lac hardy",
+        "lac hardy 46 35 50 n 75 49 02 o municipalite de grand remous)"
+      ],
+      "lat": 46.597222,
+      "lon": -75.817222
+    },
+    {
+      "id": 2801,
+      "zone_id": 11,
+      "nom_brut": "Lac Howard - ( 46°35'54\" N., 75°39'50\" O. , Municipalité de Mont-Laurier)",
+      "nom": "Lac Howard",
+      "nom_search": "lac howard 46 35 54 n 75 39 50 o municipalite de mont laurier)",
+      "segment_label": null,
+      "river_base_name": "Lac Howard -",
+      "aliases": [
+        "howard",
+        "howard 46 35 54 n 75 39 50 o municipalite de mont laurier)",
+        "lac howard",
+        "lac howard 46 35 54 n 75 39 50 o municipalite de mont laurier)"
+      ],
+      "lat": 46.598333,
+      "lon": -75.663889
+    },
+    {
+      "id": 677,
+      "zone_id": 11,
+      "nom_brut": "Lac Lacroix ( 46°43'05\" N., 76°01'11\" O. , Municipalité de Montcerf-Lytton)",
+      "nom": "Lac Lacroix",
+      "nom_search": "lac lacroix 46 43 05 n 76 01 11 o municipalite de montcerf lytton)",
+      "segment_label": null,
+      "river_base_name": "Lac Lacroix",
+      "aliases": [
+        "lac lacroix",
+        "lac lacroix 46 43 05 n 76 01 11 o municipalite de montcerf lytton)",
+        "lacroix",
+        "lacroix 46 43 05 n 76 01 11 o municipalite de montcerf lytton)"
+      ],
+      "lat": 46.718056,
+      "lon": -76.019722
+    },
+    {
+      "id": 633,
+      "zone_id": 11,
+      "nom_brut": "Lac Lafontaine - ( 46°42'19\" N., 75°28'47\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Lafontaine",
+      "nom_search": "lac lafontaine 46 42 19 n 75 28 47 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Lafontaine -",
+      "aliases": [
+        "lac lafontaine",
+        "lac lafontaine 46 42 19 n 75 28 47 o municipalite de ferme neuve)",
+        "lafontaine",
+        "lafontaine 46 42 19 n 75 28 47 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.705278,
+      "lon": -75.479722
+    },
+    {
+      "id": 667,
+      "zone_id": 11,
+      "nom_brut": "Lac Lafrance ( 46°43'02\" N., 76°00'45\" O. , Municipalité de Montcerf-Lytton)",
+      "nom": "Lac Lafrance",
+      "nom_search": "lac lafrance 46 43 02 n 76 00 45 o municipalite de montcerf lytton)",
+      "segment_label": null,
+      "river_base_name": "Lac Lafrance",
+      "aliases": [
+        "lac lafrance",
+        "lac lafrance 46 43 02 n 76 00 45 o municipalite de montcerf lytton)",
+        "lafrance",
+        "lafrance 46 43 02 n 76 00 45 o municipalite de montcerf lytton)"
+      ],
+      "lat": 46.717222,
+      "lon": -76.0125
+    },
+    {
+      "id": 634,
+      "zone_id": 11,
+      "nom_brut": "Lac L'Allier - ( 46°54'02\" N., 75°15'37\" O. , Municipalité de Saint-Anne-du-Lac)",
+      "nom": "Lac L'Allier",
+      "nom_search": "lac l allier 46 54 02 n 75 15 37 o municipalite de saint anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac L'Allier -",
+      "aliases": [
+        "l allier",
+        "l allier 46 54 02 n 75 15 37 o municipalite de saint anne du lac)",
+        "lac l allier",
+        "lac l allier 46 54 02 n 75 15 37 o municipalite de saint anne du lac)"
+      ],
+      "lat": 46.900556,
+      "lon": -75.260278
+    },
+    {
+      "id": 635,
+      "zone_id": 11,
+      "nom_brut": "Lac Léona - ( 46°47'08\" N., 75°30'47\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Léona",
+      "nom_search": "lac leona 46 47 08 n 75 30 47 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Léona -",
+      "aliases": [
+        "lac leona",
+        "lac leona 46 47 08 n 75 30 47 o municipalite de ferme neuve)",
+        "leona",
+        "leona 46 47 08 n 75 30 47 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.785556,
+      "lon": -75.513056
+    },
+    {
+      "id": 12600,
+      "zone_id": 11,
+      "nom_brut": "Lac Lynch ( 46°31'04'' N., 74°44'33'' O. )",
+      "nom": "Lac Lynch",
+      "nom_search": "lac lynch 46 31 04 n 74 44 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lynch",
+      "aliases": [
+        "lac lynch",
+        "lac lynch 46 31 04 n 74 44 33 o )",
+        "lynch",
+        "lynch 46 31 04 n 74 44 33 o )"
+      ],
+      "lat": 46.517778,
+      "lon": -74.7425
+    },
+    {
+      "id": 651,
+      "zone_id": 11,
+      "nom_brut": "Lac Macaza - ( 46°22'59\" N., 74°44'31\" O. , Municipalité de La Macaza)",
+      "nom": "Lac Macaza",
+      "nom_search": "lac macaza 46 22 59 n 74 44 31 o municipalite de la macaza)",
+      "segment_label": null,
+      "river_base_name": "Lac Macaza -",
+      "aliases": [
+        "lac macaza",
+        "lac macaza 46 22 59 n 74 44 31 o municipalite de la macaza)",
+        "macaza",
+        "macaza 46 22 59 n 74 44 31 o municipalite de la macaza)"
+      ],
+      "lat": 46.383056,
+      "lon": -74.741944
+    },
+    {
+      "id": 2800,
+      "zone_id": 11,
+      "nom_brut": "Lac Major - ( 46°50'11\" N., 75°30'43\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Major",
+      "nom_search": "lac major 46 50 11 n 75 30 43 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Major -",
+      "aliases": [
+        "lac major",
+        "lac major 46 50 11 n 75 30 43 o municipalite de ferme neuve)",
+        "major",
+        "major 46 50 11 n 75 30 43 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.836389,
+      "lon": -75.511944
+    },
+    {
+      "id": 3056,
+      "zone_id": 11,
+      "nom_brut": "Lac Marquis ( 46°40' N., 75°14' O. , Municipalité de Chute-Saint-Philippe)",
+      "nom": "Lac Marquis",
+      "nom_search": "lac marquis 46 40 n 75 14 o municipalite de chute saint philippe)",
+      "segment_label": null,
+      "river_base_name": "Lac Marquis",
+      "aliases": [
+        "lac marquis",
+        "lac marquis 46 40 n 75 14 o municipalite de chute saint philippe)",
+        "marquis",
+        "marquis 46 40 n 75 14 o municipalite de chute saint philippe)"
+      ],
+      "lat": 46.666667,
+      "lon": -75.233333
+    },
+    {
+      "id": 683,
+      "zone_id": 11,
+      "nom_brut": "Lac Miroir (Municipalité de Mont-Tremblant) ( 46°12'40\" N., 74°35'15\" O. )",
+      "nom": "Lac Miroir",
+      "nom_search": "lac miroir municipalite de mont tremblant) 46 12 40 n 74 35 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Miroir",
+      "aliases": [
+        "lac miroir",
+        "lac miroir municipalite de mont tremblant) 46 12 40 n 74 35 15 o )",
+        "miroir",
+        "miroir municipalite de mont tremblant) 46 12 40 n 74 35 15 o )"
+      ],
+      "lat": 46.211111,
+      "lon": -74.5875
+    },
+    {
+      "id": 11560,
+      "zone_id": 11,
+      "nom_brut": "Lac Moore (Municipalité de Mont-Tremblant) ( 46°11'42\" N., 74°37'03\" O. )",
+      "nom": "Lac Moore",
+      "nom_search": "lac moore municipalite de mont tremblant) 46 11 42 n 74 37 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Moore",
+      "aliases": [
+        "lac moore",
+        "lac moore municipalite de mont tremblant) 46 11 42 n 74 37 03 o )",
+        "moore",
+        "moore municipalite de mont tremblant) 46 11 42 n 74 37 03 o )"
+      ],
+      "lat": 46.195,
+      "lon": -74.6175
+    },
+    {
+      "id": 637,
+      "zone_id": 11,
+      "nom_brut": "Lac Noir ( 46°55'04\" N., 75°15'02\" O. , Municipalité de Saint-Anne-du-Lac)",
+      "nom": "Lac Noir",
+      "nom_search": "lac noir 46 55 04 n 75 15 02 o municipalite de saint anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Noir",
+      "aliases": [
+        "lac noir",
+        "lac noir 46 55 04 n 75 15 02 o municipalite de saint anne du lac)",
+        "noir",
+        "noir 46 55 04 n 75 15 02 o municipalite de saint anne du lac)"
+      ],
+      "lat": 46.917778,
+      "lon": -75.250556
+    },
+    {
+      "id": 638,
+      "zone_id": 11,
+      "nom_brut": "Lac Ouellette - ( 46°43'10\" N., 75°26'15\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Ouellette",
+      "nom_search": "lac ouellette 46 43 10 n 75 26 15 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Ouellette -",
+      "aliases": [
+        "lac ouellette",
+        "lac ouellette 46 43 10 n 75 26 15 o municipalite de ferme neuve)",
+        "ouellette",
+        "ouellette 46 43 10 n 75 26 15 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.719444,
+      "lon": -75.4375
+    },
+    {
+      "id": 3228,
+      "zone_id": 11,
+      "nom_brut": "Lac Palais (anciennement lac de la Truite Rouge) ( 46°46'26\" N., 75°37'06\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Palais",
+      "nom_search": "lac palais anciennement lac de la truite rouge) 46 46 26 n 75 37 06 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Palais",
+      "aliases": [
+        "lac palais",
+        "lac palais anciennement lac de la truite rouge) 46 46 26 n 75 37 06 o municipalite de ferme neuve)",
+        "palais",
+        "palais anciennement lac de la truite rouge) 46 46 26 n 75 37 06 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.773889,
+      "lon": -75.618333
+    },
+    {
+      "id": 639,
+      "zone_id": 11,
+      "nom_brut": "Lac Papineau - ( 46°46'44\" N., 75°24'55\" O. , Municipalité de Mont-Saint-Michel)",
+      "nom": "Lac Papineau",
+      "nom_search": "lac papineau 46 46 44 n 75 24 55 o municipalite de mont saint michel)",
+      "segment_label": null,
+      "river_base_name": "Lac Papineau -",
+      "aliases": [
+        "lac papineau",
+        "lac papineau 46 46 44 n 75 24 55 o municipalite de mont saint michel)",
+        "papineau",
+        "papineau 46 46 44 n 75 24 55 o municipalite de mont saint michel)"
+      ],
+      "lat": 46.778889,
+      "lon": -75.415278
+    },
+    {
+      "id": 10702,
+      "zone_id": 11,
+      "nom_brut": "Lac Pérodeau ( 46°45'42\" N., 75°09'14\" O. , Municipalité de Chute-Saint-Philippe)",
+      "nom": "Lac Pérodeau",
+      "nom_search": "lac perodeau 46 45 42 n 75 09 14 o municipalite de chute saint philippe)",
+      "segment_label": null,
+      "river_base_name": "Lac Pérodeau",
+      "aliases": [
+        "lac perodeau",
+        "lac perodeau 46 45 42 n 75 09 14 o municipalite de chute saint philippe)",
+        "perodeau",
+        "perodeau 46 45 42 n 75 09 14 o municipalite de chute saint philippe)"
+      ],
+      "lat": 46.761667,
+      "lon": -75.153889
+    },
+    {
+      "id": 648,
+      "zone_id": 11,
+      "nom_brut": "Lac Petit lac Béthune - ( 46°50'48\" N., 75°28'06\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Petit lac Béthune",
+      "nom_search": "lac petit lac bethune 46 50 48 n 75 28 06 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Béthune -",
+      "aliases": [
+        "lac petit lac bethune",
+        "lac petit lac bethune 46 50 48 n 75 28 06 o municipalite de ferme neuve)",
+        "petit lac bethune",
+        "petit lac bethune 46 50 48 n 75 28 06 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.846667,
+      "lon": -75.468333
+    },
+    {
+      "id": 688,
+      "zone_id": 11,
+      "nom_brut": "Lac Petit lac Caribou ( 46°17'59\" N., 74°43'09\" O. ) (Municipalité de Labelle)",
+      "nom": "Lac Petit lac Caribou",
+      "nom_search": "lac petit lac caribou 46 17 59 n 74 43 09 o ) municipalite de labelle)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Caribou",
+      "aliases": [
+        "lac petit lac caribou",
+        "lac petit lac caribou 46 17 59 n 74 43 09 o ) municipalite de labelle)",
+        "petit lac caribou",
+        "petit lac caribou 46 17 59 n 74 43 09 o ) municipalite de labelle)"
+      ],
+      "lat": 46.299722,
+      "lon": -74.719167
+    },
+    {
+      "id": 2553,
+      "zone_id": 11,
+      "nom_brut": "Lac Petit lac Kiamika - ( 46°38'45\" N., 75°13'46\" O. , Municipalité de Chute-Saint-Philippe)",
+      "nom": "Lac Petit lac Kiamika",
+      "nom_search": "lac petit lac kiamika 46 38 45 n 75 13 46 o municipalite de chute saint philippe)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Kiamika -",
+      "aliases": [
+        "lac petit lac kiamika",
+        "lac petit lac kiamika 46 38 45 n 75 13 46 o municipalite de chute saint philippe)",
+        "petit lac kiamika",
+        "petit lac kiamika 46 38 45 n 75 13 46 o municipalite de chute saint philippe)"
+      ],
+      "lat": 46.645833,
+      "lon": -75.229444
+    },
+    {
+      "id": 640,
+      "zone_id": 11,
+      "nom_brut": "Lac Philomène - ( 46°39'26\" N., 75°51'59\" O. , Municipalité de Grand-Remous)",
+      "nom": "Lac Philomène",
+      "nom_search": "lac philomene 46 39 26 n 75 51 59 o municipalite de grand remous)",
+      "segment_label": null,
+      "river_base_name": "Lac Philomène -",
+      "aliases": [
+        "lac philomene",
+        "lac philomene 46 39 26 n 75 51 59 o municipalite de grand remous)",
+        "philomene",
+        "philomene 46 39 26 n 75 51 59 o municipalite de grand remous)"
+      ],
+      "lat": 46.657222,
+      "lon": -75.866389
+    },
+    {
+      "id": 641,
+      "zone_id": 11,
+      "nom_brut": "Lac Pionnier - ( 46°39'00\" N., 75°28'32\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Pionnier",
+      "nom_search": "lac pionnier 46 39 00 n 75 28 32 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Pionnier -",
+      "aliases": [
+        "lac pionnier",
+        "lac pionnier 46 39 00 n 75 28 32 o municipalite de ferme neuve)",
+        "pionnier",
+        "pionnier 46 39 00 n 75 28 32 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.65,
+      "lon": -75.475556
+    },
+    {
+      "id": 658,
+      "zone_id": 11,
+      "nom_brut": "Lac René ( 46°37'41\" N., 75°41'19\" O. , Municipalité de Mont-Laurier)",
+      "nom": "Lac René",
+      "nom_search": "lac rene 46 37 41 n 75 41 19 o municipalite de mont laurier)",
+      "segment_label": null,
+      "river_base_name": "Lac René",
+      "aliases": [
+        "lac rene",
+        "lac rene 46 37 41 n 75 41 19 o municipalite de mont laurier)",
+        "rene",
+        "rene 46 37 41 n 75 41 19 o municipalite de mont laurier)"
+      ],
+      "lat": 46.628056,
+      "lon": -75.688611
+    },
+    {
+      "id": 643,
+      "zone_id": 11,
+      "nom_brut": "Lac Saguay - ( 46°30'10\" N., 75°08'30\" O. , Municipalité de Lac-Saguay)",
+      "nom": "Lac Saguay",
+      "nom_search": "lac saguay 46 30 10 n 75 08 30 o municipalite de lac saguay)",
+      "segment_label": null,
+      "river_base_name": "Lac Saguay -",
+      "aliases": [
+        "lac saguay",
+        "lac saguay 46 30 10 n 75 08 30 o municipalite de lac saguay)",
+        "saguay",
+        "saguay 46 30 10 n 75 08 30 o municipalite de lac saguay)"
+      ],
+      "lat": 46.502778,
+      "lon": -75.141667
+    },
+    {
+      "id": 694,
+      "zone_id": 11,
+      "nom_brut": "Lac Saint-Paul - ( 46°42'21\" N., 75°20'16\" O. , Municipalité de Lac-Saint-Paul)",
+      "nom": "Lac Saint-Paul",
+      "nom_search": "lac saint paul 46 42 21 n 75 20 16 o municipalite de lac saint paul)",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Paul -",
+      "aliases": [
+        "lac saint paul",
+        "lac saint paul 46 42 21 n 75 20 16 o municipalite de lac saint paul)",
+        "saint paul",
+        "saint paul 46 42 21 n 75 20 16 o municipalite de lac saint paul)"
+      ],
+      "lat": 46.705833,
+      "lon": -75.337778
+    },
+    {
+      "id": 644,
+      "zone_id": 11,
+      "nom_brut": "Lac Scotchman - ( 46°45'47\" N., 75°36'18\" O. , Municipalité de Ferme-Neuve)",
+      "nom": "Lac Scotchman",
+      "nom_search": "lac scotchman 46 45 47 n 75 36 18 o municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Lac Scotchman -",
+      "aliases": [
+        "lac scotchman",
+        "lac scotchman 46 45 47 n 75 36 18 o municipalite de ferme neuve)",
+        "scotchman",
+        "scotchman 46 45 47 n 75 36 18 o municipalite de ferme neuve)"
+      ],
+      "lat": 46.763056,
+      "lon": -75.605
+    },
+    {
+      "id": 645,
+      "zone_id": 11,
+      "nom_brut": "Lac Tapani - ( 46°54'34\" N., 75°19'21\" O. , Municipalité de Sainte-Anne-du-Lac)",
+      "nom": "Lac Tapani",
+      "nom_search": "lac tapani 46 54 34 n 75 19 21 o municipalite de sainte anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Tapani -",
+      "aliases": [
+        "lac tapani",
+        "lac tapani 46 54 34 n 75 19 21 o municipalite de sainte anne du lac)",
+        "st e",
+        "ste e",
+        "tapani",
+        "tapani 46 54 34 n 75 19 21 o municipalite de sainte anne du lac)"
+      ],
+      "lat": 46.909444,
+      "lon": -75.3225
+    },
+    {
+      "id": 652,
+      "zone_id": 11,
+      "nom_brut": "Lac Tibériade - ( 46°31'31\" N., 74°58'53\" O. , Municipalité de Rivière-Rouge)",
+      "nom": "Lac Tibériade",
+      "nom_search": "lac tiberiade 46 31 31 n 74 58 53 o municipalite de riviere rouge)",
+      "segment_label": null,
+      "river_base_name": "Lac Tibériade -",
+      "aliases": [
+        "lac tiberiade",
+        "lac tiberiade 46 31 31 n 74 58 53 o municipalite de riviere rouge)",
+        "tiberiade",
+        "tiberiade 46 31 31 n 74 58 53 o municipalite de riviere rouge)"
+      ],
+      "lat": 46.525278,
+      "lon": -74.981389
+    },
+    {
+      "id": 2802,
+      "zone_id": 11,
+      "nom_brut": "Lac Tremblant - ( 46°14'48\" N., 74°38'06\" O. , Municipalités de Lac-Tremblant-Nord et de Mont-Tremblant)",
+      "nom": "Lac Tremblant",
+      "nom_search": "lac tremblant 46 14 48 n 74 38 06 o municipalites de lac tremblant nord et de mont tremblant)",
+      "segment_label": null,
+      "river_base_name": "Lac Tremblant -",
+      "aliases": [
+        "lac tremblant",
+        "lac tremblant 46 14 48 n 74 38 06 o municipalites de lac tremblant nord et de mont tremblant)",
+        "tremblant",
+        "tremblant 46 14 48 n 74 38 06 o municipalites de lac tremblant nord et de mont tremblant)"
+      ],
+      "lat": 46.246667,
+      "lon": -74.635
+    },
+    {
+      "id": 3057,
+      "zone_id": 11,
+      "nom_brut": "Réservoir Kiamika ( 46°40' N., 75°04' O. , Municipalités de Chute-Saint-Philippe, de Rivière-Rouge, de Lac-Douaire et de Lac Saguay)",
+      "nom": "Réservoir Kiamika",
+      "nom_search": "reservoir kiamika 46 40 n 75 04 o municipalites de chute saint philippe de riviere rouge de lac douaire et de lac saguay)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Kiamika",
+      "aliases": [
+        "kiamika",
+        "kiamika 46 40 n 75 04 o municipalites de chute saint philippe de riviere rouge de lac douaire et de lac saguay)",
+        "reservoir kiamika",
+        "reservoir kiamika 46 40 n 75 04 o municipalites de chute saint philippe de riviere rouge de lac douaire et de lac saguay)"
+      ],
+      "lat": 46.666667,
+      "lon": -75.066667
+    },
+    {
+      "id": 696,
+      "zone_id": 11,
+      "nom_brut": "Rivière d'Argent entre le pont qui la traverse ( 46°58'25\" N., 75°29'23\" O. ) au nord-est du lac Georges (limite de la zec Mitchinamecus) et un point situé à 100 m en aval de ce pont (Municipalité de Saint-Anne-du-Lac).",
+      "nom": "Rivière d'Argent entre le pont qui la traverse",
+      "nom_search": "riviere d argent entre le pont qui la traverse 46 58 25 n 75 29 23 o ) au nord est du lac georges limite de la zec mitchinamecus) et un point situe a 100 m en aval de ce pont municipalite de saint anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Rivière d'Argent",
+      "aliases": [
+        "d argent",
+        "d argent entre le pont qui la traverse 46 58 25 n 75 29 23 o ) au nord est du lac georges limite de la zec mitchinamecus) et un point situe a 100 m en aval de ce pont municipalite de saint anne du lac)",
+        "riviere d argent",
+        "riviere d argent entre le pont qui la traverse 46 58 25 n 75 29 23 o ) au nord est du lac georges limite de la zec mitchinamecus) et un point situe a 100 m en aval de ce pont municipalite de saint anne du lac)"
+      ],
+      "lat": 46.973611,
+      "lon": -75.489722
+    },
+    {
+      "id": 726,
+      "zone_id": 11,
+      "nom_brut": "Rivière des Cornes entre le réservoir Kiamika et le lac des Cornes ( 46°42' N., 75°09' O. ) ainsi que de l'embouchure de la rivière des Cornes, dans le réservoir Kiamika, jusqu'à une ligne perpendiculaire au courant reliant la rive sud de l'île Luc à la rive est de la baie du réservoir Kiamika (Municipalité de Chute-Saint-Philippe).",
+      "nom": "Rivière des Cornes entre le réservoir Kiamika et le lac des Cornes",
+      "nom_search": "riviere des cornes entre le reservoir kiamika et le lac des cornes 46 42 n 75 09 o ) ainsi que de l embouchure de la riviere des cornes dans le reservoir kiamika jusqu a une ligne perpendiculaire au courant reliant la rive sud de l ile luc a la rive est de la baie du reservoir kiamika municipalite de chute saint philippe)",
+      "segment_label": null,
+      "river_base_name": "Rivière des Cornes",
+      "aliases": [
+        "des cornes",
+        "des cornes entre le reservoir kiamika et le lac des cornes 46 42 n 75 09 o ) ainsi que de l embouchure de la riviere des cornes dans le reservoir kiamika jusqu a une ligne perpendiculaire au courant reliant la rive sud de l ile luc a la rive est de la baie du reservoir kiamika municipalite de chute saint philippe)",
+        "riviere des cornes",
+        "riviere des cornes entre le reservoir kiamika et le lac des cornes 46 42 n 75 09 o ) ainsi que de l embouchure de la riviere des cornes dans le reservoir kiamika jusqu a une ligne perpendiculaire au courant reliant la rive sud de l ile luc a la rive est de la baie du reservoir kiamika municipalite de chute saint philippe)"
+      ],
+      "lat": 46.7,
+      "lon": -75.15
+    },
+    {
+      "id": 708,
+      "zone_id": 11,
+      "nom_brut": "Rivière du Lièvre entre le rapide Chaudière ( 46°47'2,4'' N., 75°18'49,7'' O. ) au nord de Mont-Saint-Michel et le pont de la route 117 ( 46°33'00\" N., 75°30'55\" O. ), à Mont-Laurier.",
+      "nom": "Rivière du Lièvre entre le rapide Chaudière",
+      "nom_search": "riviere du lievre entre le rapide chaudiere 46 47 2 4 n 75 18 49 7 o ) au nord de mont saint michel et le pont de la route 117 46 33 00 n 75 30 55 o ) a mont laurier",
+      "segment_label": null,
+      "river_base_name": "Rivière du Lièvre",
+      "aliases": [
+        "du lievre",
+        "du lievre entre le rapide chaudiere 46 47 2 4 n 75 18 49 7 o ) au nord de mont saint michel et le pont de la route 117 46 33 00 n 75 30 55 o ) a mont laurier",
+        "riviere du lievre",
+        "riviere du lievre entre le rapide chaudiere 46 47 2 4 n 75 18 49 7 o ) au nord de mont saint michel et le pont de la route 117 46 33 00 n 75 30 55 o ) a mont laurier"
+      ],
+      "lat": 46.784,
+      "lon": -75.313806
+    },
+    {
+      "id": 702,
+      "zone_id": 11,
+      "nom_brut": "Rivière Gatineau entre le barrage Mercier ( 46°43'04'' N., 75°59'03'' O. ) et la première île située à environ 1,8 km en aval, correspondant à une droite joignant les points 46°42'12'' N., 75°58'31'' O. et 46°42'12'' N., 75°58'41'' O. (Municipalité de Grand-Remous).",
+      "nom": "Rivière Gatineau entre le barrage Mercier",
+      "nom_search": "riviere gatineau entre le barrage mercier 46 43 04 n 75 59 03 o ) et la premiere ile situee a environ 1 8 km en aval correspondant a une droite joignant les points 46 42 12 n 75 58 31 o et 46 42 12 n 75 58 41 o municipalite de grand remous)",
+      "segment_label": null,
+      "river_base_name": "Rivière Gatineau",
+      "aliases": [
+        "gatineau",
+        "gatineau entre le barrage mercier 46 43 04 n 75 59 03 o ) et la premiere ile situee a environ 1 8 km en aval correspondant a une droite joignant les points 46 42 12 n 75 58 31 o et 46 42 12 n 75 58 41 o municipalite de grand remous)",
+        "riviere gatineau",
+        "riviere gatineau entre le barrage mercier 46 43 04 n 75 59 03 o ) et la premiere ile situee a environ 1 8 km en aval correspondant a une droite joignant les points 46 42 12 n 75 58 31 o et 46 42 12 n 75 58 41 o municipalite de grand remous)"
+      ],
+      "lat": 46.717778,
+      "lon": -75.984167
+    },
+    {
+      "id": 2320,
+      "zone_id": 11,
+      "nom_brut": "Rivière Kiamika entre le pont de la route 117 ( 46°33'25\" N., 75°21'55\" O. ) et le pont du chemin des Quatre-Fourches ( 46°35' N., 75°18' O. ) (Municipalité de Lac-des-Écorces).",
+      "nom": "Rivière Kiamika entre le pont de la route 117",
+      "nom_search": "riviere kiamika entre le pont de la route 117 46 33 25 n 75 21 55 o ) et le pont du chemin des quatre fourches 46 35 n 75 18 o ) municipalite de lac des ecorces)",
+      "segment_label": null,
+      "river_base_name": "Rivière Kiamika",
+      "aliases": [
+        "kiamika",
+        "kiamika entre le pont de la route 117 46 33 25 n 75 21 55 o ) et le pont du chemin des quatre fourches 46 35 n 75 18 o ) municipalite de lac des ecorces)",
+        "riviere kiamika",
+        "riviere kiamika entre le pont de la route 117 46 33 25 n 75 21 55 o ) et le pont du chemin des quatre fourches 46 35 n 75 18 o ) municipalite de lac des ecorces)"
+      ],
+      "lat": 46.556944,
+      "lon": -75.365278
+    },
+    {
+      "id": 712,
+      "zone_id": 11,
+      "nom_brut": "Rivière Kiamika Entre une ligne perpendiculaire au courant reliant un point sur la rive est ( 46°44'36\" N., 75°00'37\" O. ) jusqu'au point sur la rive ouest ( 46°44'36\" N., 75°00'39\" O. ) et l'embouchure du lac Franchère de la ZEC Maison-de-Pierre ( 46°44'47\" N., 74°59'49\" O. ). (Municipalité de Lac-Douaire)",
+      "nom": "Rivière Kiamika Entre une ligne perpendiculaire au courant reliant un point sur la rive est",
+      "nom_search": "riviere kiamika entre une ligne perpendiculaire au courant reliant un point sur la rive est 46 44 36 n 75 00 37 o ) jusqu au point sur la rive ouest 46 44 36 n 75 00 39 o ) et l embouchure du lac franchere de la zec maison de pierre 46 44 47 n 74 59 49 o ) municipalite de lac douaire)",
+      "segment_label": null,
+      "river_base_name": "Rivière Kiamika",
+      "aliases": [
+        "kiamika",
+        "kiamika entre une ligne perpendiculaire au courant reliant un point sur la rive est 46 44 36 n 75 00 37 o ) jusqu au point sur la rive ouest 46 44 36 n 75 00 39 o ) et l embouchure du lac franchere de la zec maison de pierre 46 44 47 n 74 59 49 o ) municipalite de lac douaire)",
+        "riviere kiamika",
+        "riviere kiamika entre une ligne perpendiculaire au courant reliant un point sur la rive est 46 44 36 n 75 00 37 o ) jusqu au point sur la rive ouest 46 44 36 n 75 00 39 o ) et l embouchure du lac franchere de la zec maison de pierre 46 44 47 n 74 59 49 o ) municipalite de lac douaire)"
+      ],
+      "lat": 46.743333,
+      "lon": -75.010278
+    },
+    {
+      "id": 729,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau aux Bleuets Ouest entre son embouchure dans le réservoir Kiamika délimité par une ligne perpendiculaire au courant reliant le point 46°39'11\" N., 75°01'52\" O. , et le point 46°39'08\" N., 75°01'49\" O. , et le lac aux Bleuets ( 46°39' N., 75°00' O. ) (Municipalité de Rivière-Rouge).",
+      "nom": "Ruisseau aux Bleuets Ouest entre son embouchure dans le réservoir Kiamika délimité par une ligne perpendiculaire au courant reliant le point 46°39'11\" N., 75°01'52\" O. , et le point 46°39'08\" N., 75°01'49\" O. , et le lac aux Bleuets",
+      "nom_search": "ruisseau aux bleuets ouest entre son embouchure dans le reservoir kiamika delimite par une ligne perpendiculaire au courant reliant le point 46 39 11 n 75 01 52 o et le point 46 39 08 n 75 01 49 o et le lac aux bleuets 46 39 n 75 00 o ) municipalite de riviere rouge)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau aux Bleuets Ouest",
+      "aliases": [
+        "aux bleuets ouest",
+        "aux bleuets ouest entre son embouchure dans le reservoir kiamika delimite par une ligne perpendiculaire au courant reliant le point 46 39 11 n 75 01 52 o et le point 46 39 08 n 75 01 49 o et le lac aux bleuets 46 39 n 75 00 o ) municipalite de riviere rouge)",
+        "ruisseau aux bleuets ouest",
+        "ruisseau aux bleuets ouest entre son embouchure dans le reservoir kiamika delimite par une ligne perpendiculaire au courant reliant le point 46 39 11 n 75 01 52 o et le point 46 39 08 n 75 01 49 o et le lac aux bleuets 46 39 n 75 00 o ) municipalite de riviere rouge)"
+      ],
+      "lat": 46.653056,
+      "lon": -75.031111
+    },
+    {
+      "id": 735,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau Busby entre le lac Tapani vers l'amont jusqu'au deuxième pont qui traverse le ruisseau (limite de la zec Mitchinamecus)( 46°57' N., 75°16' O. ) (Municipalité de Saint-Anne-du-Lac).",
+      "nom": "Ruisseau Busby entre le lac Tapani vers l'amont jusqu'au deuxième pont qui traverse le ruisseau",
+      "nom_search": "ruisseau busby entre le lac tapani vers l amont jusqu au deuxieme pont qui traverse le ruisseau limite de la zec mitchinamecus) 46 57 n 75 16 o ) municipalite de saint anne du lac)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Busby",
+      "aliases": [
+        "busby",
+        "busby entre le lac tapani vers l amont jusqu au deuxieme pont qui traverse le ruisseau limite de la zec mitchinamecus) 46 57 n 75 16 o ) municipalite de saint anne du lac)",
+        "ruisseau busby",
+        "ruisseau busby entre le lac tapani vers l amont jusqu au deuxieme pont qui traverse le ruisseau limite de la zec mitchinamecus) 46 57 n 75 16 o ) municipalite de saint anne du lac)"
+      ],
+      "lat": 46.95,
+      "lon": -75.266667
+    },
+    {
+      "id": 12621,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau Caronna - La partie comprise entre la limite sud de l'air faunique communautaire du réservoir Baskatong ( 46°37'51'' N., 75°50'14'' O. ) et le lac Caronna ( 46°36'59'' N., 75°49'53'' O. ), incluant un lac Sans nom ( 46°37'02'' N., 75°49'44'' O. ) (Municipalité de Grand-Remous).",
+      "nom": "Ruisseau Caronna - La partie comprise entre la limite sud de l'air faunique communautaire du réservoir Baskatong",
+      "nom_search": "ruisseau caronna la partie comprise entre la limite sud de l air faunique communautaire du reservoir baskatong 46 37 51 n 75 50 14 o ) et le lac caronna 46 36 59 n 75 49 53 o ) incluant un lac sans nom 46 37 02 n 75 49 44 o ) municipalite de grand remous)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Caronna",
+      "aliases": [
+        "caronna",
+        "caronna la partie comprise entre la limite sud de l air faunique communautaire du reservoir baskatong 46 37 51 n 75 50 14 o ) et le lac caronna 46 36 59 n 75 49 53 o ) incluant un lac sans nom 46 37 02 n 75 49 44 o ) municipalite de grand remous)",
+        "ruisseau caronna",
+        "ruisseau caronna la partie comprise entre la limite sud de l air faunique communautaire du reservoir baskatong 46 37 51 n 75 50 14 o ) et le lac caronna 46 36 59 n 75 49 53 o ) incluant un lac sans nom 46 37 02 n 75 49 44 o ) municipalite de grand remous)"
+      ],
+      "lat": 46.630833,
+      "lon": -75.837222
+    },
+    {
+      "id": 2321,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau Castelneau entre son embouchure dans le réservoir Kiamika délimitée par une ligne perpendiculaire au courant reliant le point 46°44'36\" N., 75°00'48\" O. , et le point 46°44'36\" N., 75°00'45\" O. et un point situé en amont du pont qui traverse juste à l'ouest du poste d'accueil de la ZEC Maison-de-Pierre ( 46°43'15\" N., 74°58'40\" O. ) (Municipalités de Lac-Douaire et de Rivière-Rouge).",
+      "nom": "Ruisseau Castelneau entre son embouchure dans le réservoir Kiamika délimitée par une ligne perpendiculaire au courant reliant le point 46°44'36\" N., 75°00'48\" O. , et le point 46°44'36\" N., 75°00'45\" O. et un point situé en amont du pont qui traverse juste à l'ouest du poste d'accueil de la ZEC Maison-de-Pierre",
+      "nom_search": "ruisseau castelneau entre son embouchure dans le reservoir kiamika delimitee par une ligne perpendiculaire au courant reliant le point 46 44 36 n 75 00 48 o et le point 46 44 36 n 75 00 45 o et un point situe en amont du pont qui traverse juste a l ouest du poste d accueil de la zec maison de pierre 46 43 15 n 74 58 40 o ) municipalites de lac douaire et de riviere rouge)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Castelneau",
+      "aliases": [
+        "castelneau",
+        "castelneau entre son embouchure dans le reservoir kiamika delimitee par une ligne perpendiculaire au courant reliant le point 46 44 36 n 75 00 48 o et le point 46 44 36 n 75 00 45 o et un point situe en amont du pont qui traverse juste a l ouest du poste d accueil de la zec maison de pierre 46 43 15 n 74 58 40 o ) municipalites de lac douaire et de riviere rouge)",
+        "ruisseau castelneau",
+        "ruisseau castelneau entre son embouchure dans le reservoir kiamika delimitee par une ligne perpendiculaire au courant reliant le point 46 44 36 n 75 00 48 o et le point 46 44 36 n 75 00 45 o et un point situe en amont du pont qui traverse juste a l ouest du poste d accueil de la zec maison de pierre 46 43 15 n 74 58 40 o ) municipalites de lac douaire et de riviere rouge)"
+      ],
+      "lat": 46.743333,
+      "lon": -75.013333
+    },
+    {
+      "id": 719,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau des Journalistes ( 46°42'04'' N., 75°27'27,9'' O. ) entre le lac des Journalistes et la rivière du Lièvre (Municipalité de Ferme-Neuve).",
+      "nom": "Ruisseau des Journalistes",
+      "nom_search": "ruisseau des journalistes 46 42 04 n 75 27 27 9 o ) entre le lac des journalistes et la riviere du lievre municipalite de ferme neuve)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau des Journalistes",
+      "aliases": [
+        "des journalistes",
+        "des journalistes 46 42 04 n 75 27 27 9 o ) entre le lac des journalistes et la riviere du lievre municipalite de ferme neuve)",
+        "ruisseau des journalistes",
+        "ruisseau des journalistes 46 42 04 n 75 27 27 9 o ) entre le lac des journalistes et la riviere du lievre municipalite de ferme neuve)"
+      ],
+      "lat": 46.701111,
+      "lon": -75.45775
+    },
+    {
+      "id": 730,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau des Sources entre le ponceau de la route 117 et un point situé à 1,5 km en aval de ce ponceau (Municipalité de Mont-Laurier).",
+      "nom": "Ruisseau des Sources entre le ponceau de la route 117 et un point situé à 1,5 km en aval de ce ponceau",
+      "nom_search": "ruisseau des sources entre le ponceau de la route 117 et un point situe a 1 5 km en aval de ce ponceau municipalite de mont laurier)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau des Sources",
+      "aliases": [
+        "des sources",
+        "des sources entre le ponceau de la route 117 et un point situe a 1 5 km en aval de ce ponceau municipalite de mont laurier)",
+        "ruisseau des sources",
+        "ruisseau des sources entre le ponceau de la route 117 et un point situe a 1 5 km en aval de ce ponceau municipalite de mont laurier)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 720,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau Ouellette entre un point situé à 50 m en aval de la 9e avenue, à Ferme-Neuve, et un point situé à 200 m en amont de cette avenue.",
+      "nom": "Ruisseau Ouellette entre un point situé à 50 m en aval de la 9e avenue, à Ferme-Neuve, et un point situé à 200 m en amont de cette avenue.",
+      "nom_search": "ruisseau ouellette entre un point situe a 50 m en aval de la 9e avenue a ferme neuve et un point situe a 200 m en amont de cette avenue",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Ouellette",
+      "aliases": [
+        "ouellette",
+        "ouellette entre un point situe a 50 m en aval de la 9e avenue a ferme neuve et un point situe a 200 m en amont de cette avenue",
+        "ruisseau ouellette",
+        "ruisseau ouellette entre un point situe a 50 m en aval de la 9e avenue a ferme neuve et un point situe a 200 m en amont de cette avenue"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 738,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau Philomène - La partie comprise entre la limite sud de l'Aire faunique communautaire du réservoir Baskatong ( 46°37'12'' N., 75°49'05'' O. ) et le pont ( 46°37'3.67\" N., 75°48'11\" O. ) de la route reliant la baie au Sable à la route 117.",
+      "nom": "Ruisseau Philomène - La partie comprise entre la limite sud de l'Aire faunique communautaire du réservoir Baskatong",
+      "nom_search": "ruisseau philomene la partie comprise entre la limite sud de l aire faunique communautaire du reservoir baskatong 46 37 12 n 75 49 05 o ) et le pont 46 37 3 67 n 75 48 11 o ) de la route reliant la baie au sable a la route 117",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Philomène",
+      "aliases": [
+        "philomene",
+        "philomene la partie comprise entre la limite sud de l aire faunique communautaire du reservoir baskatong 46 37 12 n 75 49 05 o ) et le pont 46 37 3 67 n 75 48 11 o ) de la route reliant la baie au sable a la route 117",
+        "ruisseau philomene",
+        "ruisseau philomene la partie comprise entre la limite sud de l aire faunique communautaire du reservoir baskatong 46 37 12 n 75 49 05 o ) et le pont 46 37 3 67 n 75 48 11 o ) de la route reliant la baie au sable a la route 117"
+      ],
+      "lat": 46.62,
+      "lon": -75.818056
+    },
+    {
+      "id": 699,
+      "zone_id": 11,
+      "nom_brut": "Ruisseau Sans nom (du lac Chub) (Municipalité de Sainte-Anne-du-Lac) du pont de la chute du déversoir du lac Chub ( 46°57'12\" N., 75°29'37\" O. ) sur une distance de 100 m vers l'aval.",
+      "nom": "Ruisseau Sans nom",
+      "nom_search": "ruisseau sans nom du lac chub) municipalite de sainte anne du lac) du pont de la chute du deversoir du lac chub 46 57 12 n 75 29 37 o ) sur une distance de 100 m vers l aval",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom du lac chub) municipalite de sainte anne du lac) du pont de la chute du deversoir du lac chub 46 57 12 n 75 29 37 o ) sur une distance de 100 m vers l aval",
+        "sans nom",
+        "sans nom du lac chub) municipalite de sainte anne du lac) du pont de la chute du deversoir du lac chub 46 57 12 n 75 29 37 o ) sur une distance de 100 m vers l aval",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.953333,
+      "lon": -75.493611
+    },
+    {
+      "id": 2399,
+      "zone_id": 11,
+      "nom_brut": "Zec Petawaga",
+      "nom": "Zec Petawaga",
+      "nom_search": "zec petawaga",
+      "segment_label": null,
+      "river_base_name": "Zec Petawaga",
+      "aliases": [
+        "zec petawaga"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "zone_id": 29,
+    "zone_nom": "Zone 25",
+    "nb_plans": 7,
+    "nb_geocoded": 6,
+    "pct_geocoded": 85.7,
+    "source_file": "zones/29.json"
+  },
+  "locations": [
+    {
+      "id": 1911,
+      "zone_id": 29,
+      "nom_brut": "Lac Old Mill - ( 45°54'34\" N., 76°54'53\" O. ) (Municipalité de Waltham)",
+      "nom": "Lac Old Mill",
+      "nom_search": "lac old mill 45 54 34 n 76 54 53 o ) municipalite de waltham)",
+      "segment_label": null,
+      "river_base_name": "Lac Old Mill -",
+      "aliases": [
+        "lac old mill",
+        "lac old mill 45 54 34 n 76 54 53 o ) municipalite de waltham)",
+        "old mill",
+        "old mill 45 54 34 n 76 54 53 o ) municipalite de waltham)"
+      ],
+      "lat": 45.909444,
+      "lon": -76.914722
+    },
+    {
+      "id": 1913,
+      "zone_id": 29,
+      "nom_brut": "Lac Sans nom (Petit lac Bell) ( 46°11'43\" N., 77°42'02\" O. , Municipalité de Rapides-des-Joachims)",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom petit lac bell) 46 11 43 n 77 42 02 o municipalite de rapides des joachims)",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom petit lac bell) 46 11 43 n 77 42 02 o municipalite de rapides des joachims)",
+        "sans nom",
+        "sans nom petit lac bell) 46 11 43 n 77 42 02 o municipalite de rapides des joachims)"
+      ],
+      "lat": 46.195278,
+      "lon": -77.700556
+    },
+    {
+      "id": 3122,
+      "zone_id": 29,
+      "nom_brut": "Parc National de Plaisance à l'exception de la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault ( 45°35'26\" N., 75°10'18\" O. ).",
+      "nom": "Parc National de Plaisance à l'exception de la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault",
+      "nom_search": "parc national de plaisance a l exception de la partie de la baie noire situee dans un rayon de 30 m a partir du pont legault 45 35 26 n 75 10 18 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National de Plaisance",
+      "aliases": [
+        "parc national de plaisance",
+        "parc national de plaisance a l exception de la partie de la baie noire situee dans un rayon de 30 m a partir du pont legault 45 35 26 n 75 10 18 o )"
+      ],
+      "lat": 45.590556,
+      "lon": -75.171667
+    },
+    {
+      "id": 3123,
+      "zone_id": 29,
+      "nom_brut": "Parc National de Plaisance la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault ( 45°35'26\" N., 75°10'18\" O. ).",
+      "nom": "Parc National de Plaisance la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault",
+      "nom_search": "parc national de plaisance la partie de la baie noire situee dans un rayon de 30 m a partir du pont legault 45 35 26 n 75 10 18 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National de Plaisance la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault",
+      "aliases": [
+        "parc national de plaisance la partie de la baie noire situee dans un rayon de 30 m a partir du pont legault",
+        "parc national de plaisance la partie de la baie noire situee dans un rayon de 30 m a partir du pont legault 45 35 26 n 75 10 18 o )"
+      ],
+      "lat": 45.590556,
+      "lon": -75.171667
+    },
+    {
+      "id": 1916,
+      "zone_id": 29,
+      "nom_brut": "Rivière des Outaouais entre le barrage du lac Témiscamingue et une ligne tracée est-ouest à 6 km en aval de ce barrage. (Municipalité de Témiscaming)",
+      "nom": "Rivière des Outaouais entre le barrage du lac Témiscamingue et une ligne tracée est-ouest à 6 km en aval de ce barrage.",
+      "nom_search": "riviere des outaouais entre le barrage du lac temiscamingue et une ligne tracee est ouest a 6 km en aval de ce barrage municipalite de temiscaming)",
+      "segment_label": null,
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais entre le barrage du lac temiscamingue et une ligne tracee est ouest a 6 km en aval de ce barrage municipalite de temiscaming)",
+        "riviere des outaouais",
+        "riviere des outaouais entre le barrage du lac temiscamingue et une ligne tracee est ouest a 6 km en aval de ce barrage municipalite de temiscaming)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2233,
+      "zone_id": 29,
+      "nom_brut": "Rivière des Outaouais La partie du lac McConnell comprise entre une droite reliant le point 46°12'30'' N., 77°42'21.58'' O. et le point 46°12'33.78'' N., 77°42'17.02'' O. , située en amont de la digue (ancienne route d'hiver) et le rétrécissement de la rivière (à 1,3 km en aval du pont) engendré par la pointe ouest de la Baie Colton et une pointe sur l'Île de Rapides-des-Joachims, correspondant à une droite joignant les points 46°12'14'' N., 77°41'11'' O. et 46°12'07'' N., 77°41'14'' O. (Municipalité de Rapides-des-Joachims).",
+      "nom": "Rivière des Outaouais La partie du lac McConnell comprise entre une droite reliant le point 46°12'30'' N., 77°42'21.58'' O. et le point 46°12'33.78'' N., 77°42'17.02'' O. , située en amont de la digue",
+      "nom_search": "riviere des outaouais la partie du lac mcconnell comprise entre une droite reliant le point 46 12 30 n 77 42 21 58 o et le point 46 12 33 78 n 77 42 17 02 o situee en amont de la digue ancienne route d hiver) et le retrecissement de la riviere a 1 3 km en aval du pont) engendre par la pointe ouest de la baie colton et une pointe sur l ile de rapides des joachims correspondant a une droite joignant les points 46 12 14 n 77 41 11 o et 46 12 07 n 77 41 14 o municipalite de rapides des joachims)",
+      "segment_label": null,
+      "river_base_name": "Rivière des Outaouais La partie du lac McConnell comprise",
+      "aliases": [
+        "des outaouais la partie du lac mcconnell comprise",
+        "des outaouais la partie du lac mcconnell comprise entre une droite reliant le point 46 12 30 n 77 42 21 58 o et le point 46 12 33 78 n 77 42 17 02 o situee en amont de la digue ancienne route d hiver) et le retrecissement de la riviere a 1 3 km en aval du pont) engendre par la pointe ouest de la baie colton et une pointe sur l ile de rapides des joachims correspondant a une droite joignant les points 46 12 14 n 77 41 11 o et 46 12 07 n 77 41 14 o municipalite de rapides des joachims)",
+        "riviere des outaouais la partie du lac mcconnell comprise",
+        "riviere des outaouais la partie du lac mcconnell comprise entre une droite reliant le point 46 12 30 n 77 42 21 58 o et le point 46 12 33 78 n 77 42 17 02 o situee en amont de la digue ancienne route d hiver) et le retrecissement de la riviere a 1 3 km en aval du pont) engendre par la pointe ouest de la baie colton et une pointe sur l ile de rapides des joachims correspondant a une droite joignant les points 46 12 14 n 77 41 11 o et 46 12 07 n 77 41 14 o municipalite de rapides des joachims)"
+      ],
+      "lat": 46.208333,
+      "lon": -77.705994
+    },
+    {
+      "id": 1915,
+      "zone_id": 29,
+      "nom_brut": "Rivière du Lièvre entre le côté en aval du pont Major de la route 148 ( 45°32'35\" N., 75°25'31\" O. ) et la ligne à haute tension située immédiatement en amont de l'île à Cruchet, correspondant à une droite joignant les points 45°32'00\" N., 75°25'53\" O. et 45°31'58\" N., 75°25'46\" O. (Ville de Gatineau)",
+      "nom": "Rivière du Lièvre entre le côté en aval du pont Major de la route 148",
+      "nom_search": "riviere du lievre entre le cote en aval du pont major de la route 148 45 32 35 n 75 25 31 o ) et la ligne a haute tension situee immediatement en amont de l ile a cruchet correspondant a une droite joignant les points 45 32 00 n 75 25 53 o et 45 31 58 n 75 25 46 o ville de gatineau)",
+      "segment_label": null,
+      "river_base_name": "Rivière du Lièvre",
+      "aliases": [
+        "du lievre",
+        "du lievre entre le cote en aval du pont major de la route 148 45 32 35 n 75 25 31 o ) et la ligne a haute tension situee immediatement en amont de l ile a cruchet correspondant a une droite joignant les points 45 32 00 n 75 25 53 o et 45 31 58 n 75 25 46 o ville de gatineau)",
+        "riviere du lievre",
+        "riviere du lievre entre le cote en aval du pont major de la route 148 45 32 35 n 75 25 31 o ) et la ligne a haute tension situee immediatement en amont de l ile a cruchet correspondant a une droite joignant les points 45 32 00 n 75 25 53 o et 45 31 58 n 75 25 46 o ville de gatineau)"
+      ],
+      "lat": 45.543056,
+      "lon": -75.425278
+    }
+  ]
+}

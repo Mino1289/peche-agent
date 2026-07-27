@@ -1,0 +1,3321 @@
+{
+  "meta": {
+    "zone_id": 31,
+    "zone_nom": "Zone 27",
+    "saison_id": 220,
+    "saison": "Du 1er avril 2026 au 31 mars 2027",
+    "fetched_at": "2026-06-11T04:07:46+00:00",
+    "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31",
+    "nb_endroits_total": 67,
+    "nb_endroits_avec_id": 66
+  },
+  "regles_generales": [
+    {
+      "segment": "Règles de la zone",
+      "periodes": [
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Bar rayé",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Chevalier cuivré",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Poulamon atlantique",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Saumon atlantique",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Ombles (omble de fontaine, omble chevalier)",
+              "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Ouananiche",
+              "limite_prise": "3",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Truite arc-en-ciel",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Truite fardée et truite brune",
+              "limite_prise": "5 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 30 novembre 2026",
+          "especes": [
+            {
+              "espece": "Éperlan arc-en-ciel",
+              "limite_prise": "120",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Marigane noire",
+              "limite_prise": "30",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Perchaude",
+              "limite_prise": "50",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+          "especes": [
+            {
+              "espece": "Brochets",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Doré jaune et doré noir",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+          "especes": [
+            {
+              "espece": "Esturgeons",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+          "especes": [
+            {
+              "espece": "Achigans",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Maskinongé et maskinongé tigré",
+              "limite_prise": "2 en tout",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Touladi, moulac et lacmou",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "45 cm et plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": "Dans les eaux comprises à l'intérieur des territoires particuliers: 2 en tout"
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+          "especes": [
+            {
+              "espece": "Autres espèces",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans_eau": [
+    {
+      "id": 1984,
+      "nom": "Eaux de la rivière du Gouffre Rivière Bras du Nord-Ouest entre son embouchure et le barrage situé au point 47°26'23\" N., 70°32'08\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1984&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre son embouchure et le barrage situé au point 47°26'23\" N., 70°32'08\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mai 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1986,
+      "nom": "Eaux de la rivière du Gouffre Rivière de la Mare entre son embouchure et le côté en aval du pont de la route 138 situé au point 47°28'24''N., 70°31'48'' O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1986&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre son embouchure et le côté en aval du pont de la route 138 situé au point 47°28'24''N., 70°31'48'' O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mai 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1977,
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre a) entre le côté en aval du pont du CN situé au point 47°26'31'' N., 70°29'43'' O. et le côté aval du pont du rang Saint-Jean-Baptiste.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1977&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) entre le côté en aval du pont du CN situé au point 47°26'31'' N., 70°29'43'' O. et le côté aval du pont du rang Saint-Jean-Baptiste.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mai 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2787,
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre b) entre le côté en aval du pont du rang Saint-Jean-Baptiste et la fosse Antonien située au point 47°35'07\" N., 70°31'46\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2787&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) entre le côté en aval du pont du rang Saint-Jean-Baptiste et la fosse Antonien située au point 47°35'07\" N., 70°31'46\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1978,
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre c) entre la fosse Antonien située au point ( 47°35'07\" N., 70°31'46\" O. ) et les bornes situées à 1,5 km en aval du pont situé à l'extrémité nord du rang de Chicago Ouest.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1978&id_saisn=220",
+      "segments": [
+        {
+          "segment": "c) entre la fosse Antonien située au point ( 47°35'07\" N., 70°31'46\" O. ) et les bornes situées à 1,5 km en aval du pont situé à l'extrémité nord du rang de Chicago Ouest.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": null,
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre d) entre les bornes situées à 1,5 km en aval du pont situé à l'extrémité nord du rang de Chicago Ouest et ce pont.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": 1980,
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre e) entre le pont situé à l'extrémité nord du rang de Chicago Ouest et la chute située au point 47°46'11\" N., 70°33'07\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1980&id_saisn=220",
+      "segments": [
+        {
+          "segment": "e) entre le pont situé à l'extrémité nord du rang de Chicago Ouest et la chute située au point 47°46'11\" N., 70°33'07\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1982,
+      "nom": "Eaux de la rivière du Gouffre Rivière Le Gros Bras entre sa confluence avec la rivière du Gouffre et la chute située au point 47°35'01\" N., 70°33'36\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1982&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre sa confluence avec la rivière du Gouffre et la chute située au point 47°35'01\" N., 70°33'36\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mai 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1988,
+      "nom": "Eaux de la rivière du Gouffre Rivière le Petit Bras entre son embouchure et la chute située au point 47°34'50\" N., 70°34'40\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1988&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre son embouchure et la chute située au point 47°34'50\" N., 70°34'40\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mai 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2494,
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée situé à l'intérieur du parc.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2494&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée situé à l'intérieur du parc.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier, la partie située à l'extrémité nord du parc national de la Jacques-Cartier entre les accès 7,5 et 9,5 de la route 14 situés à l'intérieur du parc.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1996,
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Cassian entre son embouchure et un point situé à 47°02'25\" N., 71°29'50\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1996&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre son embouchure et un point situé à 47°02'25\" N., 71°29'50\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3130,
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier c) entre le barrage de Donnacona ( 46°40'39\" N., 71°44'46\" O. ) et la limite ouest de la base militaire de Valcartier ( 46°53'52\" N., 71°31'01\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3130&id_saisn=220",
+      "segments": [
+        {
+          "segment": "c) entre le barrage de Donnacona ( 46°40'39\" N., 71°44'46\" O. ) et la limite ouest de la base militaire de Valcartier ( 46°53'52\" N., 71°31'01\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11601,
+      "nom": "Eaux du bassin Louise ( 46°49'09'' N., 71°12'21'' O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=11601&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°49'09'' N., 71°12'21'' O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Marigane noire",
+                  "limite_prise": "30",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1960,
+      "nom": "Lac à la Hache (Saint-Ubalde) ( 46°50'03\" N., 72°13'30\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1960&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac à la Hache (Saint-Ubalde) ( 46°50'03\" N., 72°13'30\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3245,
+      "nom": "Lac à l'Anguille (MRC Portneuf) ( 46°46'49\" N., 72°11'25\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3245&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°46'49\" N., 72°11'25\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2234,
+      "nom": "Lac Blanc (Saint-Ubalde) ( 46°49'09\" N., 72°16'18\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2234&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Blanc (Saint-Ubalde) ( 46°49'09\" N., 72°16'18\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1958,
+      "nom": "Lac de la Baie des Rochers (MRC Charlevoix-Est) ( 47°56'31\" N., 69°53'14\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1958&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac de la Baie des Rochers (MRC Charlevoix-Est) ( 47°56'31\" N., 69°53'14\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "0 gardé",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3161,
+      "nom": "Lac de la Mine (Notre-Dame-de-Montauban) ( 46°49'49\" N., 72°20'00\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3161&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac de la Mine (Notre-Dame-de-Montauban) ( 46°49'49\" N., 72°20'00\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2235,
+      "nom": "Lac de la Morelle (Saint-Ubalde) ( 46°48'45\" N., 72°10'44\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2235&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac de la Morelle (Saint-Ubalde) ( 46°48'45\" N., 72°10'44\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3253,
+      "nom": "Lac du Port aux Quilles (MRC Charlevoix-Est) ( 47°56'36\" N., 69°57'16\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3253&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°56'36\" N., 69°57'16\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3247,
+      "nom": "Lac en Coeur (Saint-Alban) ( 46°47'13\" N., 72°10'39\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3247&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°47'13\" N., 72°10'39\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10741,
+      "nom": "Lac Long ( 46°50'21\" N., 72°08'24\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=10741&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Long ( 46°50'21\" N., 72°08'24\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10742,
+      "nom": "Lac Montauban ( 46°52'58\" N., 72°10'04\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=10742&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Montauban ( 46°52'58\" N., 72°10'04\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3251,
+      "nom": "Lac Nairne (MRC Charlevoix-Est) ( 47°41'09\" N., 70°20'57\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3251&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°41'09\" N., 70°20'57\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11281,
+      "nom": "Lac Noir (Saint-Siméon) ( 47°51'07\" N., 69°54'59\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=11281&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(Saint-Siméon) ( 47°51'07\" N., 69°54'59\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1961,
+      "nom": "Lac Saint-Augustin ( 46°44'54\" N., 71°23'38\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1961&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Saint-Augustin ( 46°44'54\" N., 71°23'38\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1964,
+      "nom": "Lac Sainte-Marie (Saint-Aimé-des-Lacs)( 47°40'54\" N., 70°17'32\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1964&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Sainte-Marie (Saint-Aimé-des-Lacs)( 47°40'54\" N., 70°17'32\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10740,
+      "nom": "Lac Saint-Joseph ( 46°54'50\" N., 71°38'39\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=10740&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Saint-Joseph ( 46°54'50\" N., 71°38'39\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "nom": "Lac Saint-Joseph (Baie de Duchesnay) la partie du lac située au sud d'une droite joignant un point situé à 46°52'45\" N., 71°38'37\" O. à un point sur la rive est du lac situé à 46°52'35\" N., 71°37'55\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1963&id_saisn=220",
+      "segments": [
+        {
+          "segment": "la partie du lac située au sud d'une droite joignant un point situé à 46°52'45\" N., 71°38'37\" O. à un point sur la rive est du lac situé à 46°52'35\" N., 71°37'55\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1966,
+      "nom": "Lac Sept-Îles (Saint-Raymond, canton Gosford) ( 46°56'02\" N., 71°44'48\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1966&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°56'02\" N., 71°44'48\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1967,
+      "nom": "Lac Sergent ( 46°52'33\" N., 71°42'56\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1967&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Sergent ( 46°52'33\" N., 71°42'56\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2989,
+      "nom": "Lac Simon (MRC Portneuf) ( 46°53'42\" N., 72°01'25\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2989&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Simon (MRC Portneuf) ( 46°53'42\" N., 72°01'25\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11320,
+      "nom": "Parc National de la Jacques-Cartier, à l'exception de la rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée, entre les kilomètres 7,5 et 9,5 de la route 14 ainsi que plusieurs lacs",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=11320&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Parc National de la Jacques-Cartier, à l'exception de la rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée, entre les kilomètres 7,5 et 9,5 de la route 14 ainsi que plusieurs lacs",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "S'informer auprès du poste d'accueil pour connaitre les modalités de pêche dans ce territoire."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2490,
+      "nom": "Parc National des Grands-Jardins",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2490&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Parc National des Grands-Jardins",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3006,
+      "nom": "Parc National des Hautes-Gorges-de-la-Rivière-Malbaie à l'exception de la rivière Malbaie entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables situé au point 47°53'31\" N., 70°28'37\" O. (Voir aussi rivière Malbaie)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=3006&id_saisn=220",
+      "segments": [
+        {
+          "segment": "à l'exception de la rivière Malbaie entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables situé au point 47°53'31\" N., 70°28'37\" O. (Voir aussi rivière Malbaie)",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2339,
+      "nom": "Réserve Faunique de Portneuf",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2339&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Réserve Faunique de Portneuf",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2329,
+      "nom": "Réserve Faunique des Laurentides",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2329&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Réserve Faunique des Laurentides",
+          "periodes": [
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "2",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12821,
+      "nom": "Rivière du Cabanage - La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=12821&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 30 cm",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2016,
+      "nom": "Rivière du Portage a) La partie comprise entre son embouchure et la limite est de la pourvoirie Raoul Lavoie ( 48°09'33\" N., 70°03'56\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2016&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) La partie comprise entre son embouchure et la limite est de la pourvoirie Raoul Lavoie ( 48°09'33\" N., 70°03'56\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 30 cm",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": "NOTE : Communiquez avec la Zec environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": "NOTE : Communiquez avec la Zec environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": "NOTE : Communiquez avec la Zec environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2017,
+      "nom": "Rivière du Portage b) La partie comprise entre les limites est ( 48°09'33\" N., 70°03'56\" O. ) et ouest ( 48°07'09\" N., 70°10'33\" O. ) de la pourvoirie Raoul Lavoie.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2017&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) La partie comprise entre les limites est ( 48°09'33\" N., 70°03'56\" O. ) et ouest ( 48°07'09\" N., 70°10'33\" O. ) de la pourvoirie Raoul Lavoie.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2000,
+      "nom": "Rivière Malbaie a) entre le côté en aval du pont de la route 138 et une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont ( 47°41'30'' N., 70°12'34'' O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2000&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) entre le côté en aval du pont de la route 138 et une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont ( 47°41'30'' N., 70°12'34'' O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12460,
+      "nom": "Rivière Malbaie b) entre une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont ( 47°41'30'' N., 70°12'34'' O. ) et une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont ( 47°41'49,2'' N., 70°13' 24,6'' O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=12460&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) entre une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont ( 47°41'30'' N., 70°12'34'' O. ) et une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont ( 47°41'49,2'' N., 70°13' 24,6'' O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": "NOTE : Consultez cette page environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": "NOTE : Consultez cette page environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12520,
+      "nom": "Rivière Malbaie c) entre une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont ( 47°41'49,2'' N., 70°13' 24,6'' O. ) et un point situé à 25 m en aval du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=12520&id_saisn=220",
+      "segments": [
+        {
+          "segment": "c) entre une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont ( 47°41'49,2'' N., 70°13' 24,6'' O. ) et un point situé à 25 m en aval du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2002,
+      "nom": "Rivière Malbaie d) entre un point situé à 25 m en aval du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. ) et le câble en acier en amont du barrage de l'usine de papier ( 47°42'17\" N., 70°13'50\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2002&id_saisn=220",
+      "segments": [
+        {
+          "segment": "d) entre un point situé à 25 m en aval du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. ) et le câble en acier en amont du barrage de l'usine de papier ( 47°42'17\" N., 70°13'50\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2791,
+      "nom": "Rivière Malbaie e) entre le câble en acier en amont du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. ) et la limite sud de la zec des Martres ( 47°44'54\" N., 70°21'58\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2791&id_saisn=220",
+      "segments": [
+        {
+          "segment": "e) entre le câble en acier en amont du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. ) et la limite sud de la zec des Martres ( 47°44'54\" N., 70°21'58\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2004,
+      "nom": "Rivière Malbaie f) entre la limite sud de la zec des Martres ( 47°44'54\" N., 70°21'58\" O. ) et la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2004&id_saisn=220",
+      "segments": [
+        {
+          "segment": "f) entre la limite sud de la zec des Martres ( 47°44'54\" N., 70°21'58\" O. ) et la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2005,
+      "nom": "Rivière Malbaie g) entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables ( 47°53'33\" N., 70°28'39\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2005&id_saisn=220",
+      "segments": [
+        {
+          "segment": "g) entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables ( 47°53'33\" N., 70°28'39\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": "Communiquez avec Saumon rivière Malbaie environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche avec une ligne flottante seulement",
+                  "note": "Communiquez avec Saumon rivière Malbaie environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1970,
+      "nom": "Rivière Montmorency entre le pied de la chute Montmorency et l'emprise nord de la route 138.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1970&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Montmorency entre le pied de la chute Montmorency et l'emprise nord de la route 138.",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2239,
+      "nom": "Rivière Petit Saguenay a) La partie comprise entre son embouchure ( 48°14'11,4\" N., 70°05'58,3\" O. ) et le côté en aval du pont du chemin des Chutes ( 48°08'49\" N., 70°01'59\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2239&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) La partie comprise entre son embouchure ( 48°14'11,4\" N., 70°05'58,3\" O. ) et le côté en aval du pont du chemin des Chutes ( 48°08'49\" N., 70°01'59\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 30 cm",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": "NOTE : Communiquez avec la Zec environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": "NOTE : Communiquez avec la Zec environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": "NOTE : Communiquez avec la Zec environ 24 heures avant de vous y rendre si vous souhaitez pêcher ce secteur, car il pourrait être fermé pour cause de stress thermique critique"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2012,
+      "nom": "Rivière Petit Saguenay b) La partie comprise entre le côté en aval du pont du chemin des Chutes ( 48°08'49\" N., 70°01'59\" O. ) et la limite est du Domaine Laforest ( 48°01'31\" N., 70°08'10\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2012&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) La partie comprise entre le côté en aval du pont du chemin des Chutes ( 48°08'49\" N., 70°01'59\" O. ) et la limite est du Domaine Laforest ( 48°01'31\" N., 70°08'10\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2013,
+      "nom": "Rivière Petit Saguenay c) La partie comprise entre la limite est du Domaine Laforest et la limite est de la zec du Lac-au-Sable ( 47°59'37\" N., 70°14'43\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2013&id_saisn=220",
+      "segments": [
+        {
+          "segment": "c) La partie comprise entre la limite est du Domaine Laforest et la limite est de la zec du Lac-au-Sable ( 47°59'37\" N., 70°14'43\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mai 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1972,
+      "nom": "Rivière Sainte-Anne (Portneuf) entre le côté en amont du pont de la route 138 et le côté amont du pont de l'autoroute 40.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1972&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Sainte-Anne (Portneuf) entre le côté en amont du pont de la route 138 et le côté amont du pont de l'autoroute 40.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 26 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Poulamon atlantique",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Rivière Sainte-Anne (Portneuf) entre le côté en amont du pont de l'autoroute 40 et le barrage de Saint-Alban.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Poulamon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2008,
+      "nom": "Rivière Snigole entre son embouchure et la chute située au point 47°42'43\" N., 70°14'58\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2008&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre son embouchure et la chute située au point 47°42'43\" N., 70°14'58\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1974,
+      "nom": "Ruisseau Gagouette - La partie comprise entre son embouchure au lac Nairne et le pont situé dans le rang 2 (Miscoutine) dans la municipalité de Saint-Aimé-des-Lacs.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1974&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Ruisseau Gagouette - La partie comprise entre son embouchure au lac Nairne et le pont situé dans le rang 2 (Miscoutine) dans la municipalité de Saint-Aimé-des-Lacs.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11880,
+      "nom": "Station Forestière de Duchesnay à l'exclusion des eaux du lac au Chien ( 46°56'29\" N., 71°43'14\" O. ) et de la rivière Ontaritzi.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=11880&id_saisn=220",
+      "segments": [
+        {
+          "segment": "à l'exclusion des eaux du lac au Chien ( 46°56'29\" N., 71°43'14\" O. ) et de la rivière Ontaritzi.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2347,
+      "nom": "Zec Batiscan-Neilson",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2347&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Batiscan-Neilson",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2352,
+      "nom": "Zec Buteux-Bas-Saguenay",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2352&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Buteux-Bas-Saguenay",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2405,
+      "nom": "Zec de la Rivière Blanche",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2405&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec de la Rivière Blanche",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2387,
+      "nom": "Zec des Martres à l'exception des rivières Malbaie et du Gouffre",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2387&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec des Martres à l'exception des rivières Malbaie et du Gouffre",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "Sauf le saumon"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2375,
+      "nom": "Zec du Lac-au-Sable",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=2375&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec du Lac-au-Sable",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

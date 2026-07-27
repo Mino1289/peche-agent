@@ -1,0 +1,4026 @@
+{
+  "meta": {
+    "zone_id": 30,
+    "zone_nom": "Zone 26",
+    "saison_id": 220,
+    "saison": "Du 1er avril 2026 au 31 mars 2027",
+    "fetched_at": "2026-06-11T04:06:54+00:00",
+    "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30",
+    "nb_endroits_total": 56,
+    "nb_endroits_avec_id": 56
+  },
+  "regles_generales": [
+    {
+      "segment": "Règles de la zone",
+      "periodes": [
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Bar rayé",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Chevalier cuivré",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Ombles (omble de fontaine, omble chevalier)",
+              "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Ouananiche",
+              "limite_prise": "3",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Truite arc-en-ciel",
+              "limite_prise": "10",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Truite fardée et truite brune",
+              "limite_prise": "5 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 30 novembre 2026",
+          "especes": [
+            {
+              "espece": "Éperlan arc-en-ciel",
+              "limite_prise": "120",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Marigane noire",
+              "limite_prise": "30",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Perchaude",
+              "limite_prise": "50",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+          "especes": [
+            {
+              "espece": "Brochets",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Doré jaune et doré noir",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+          "especes": [
+            {
+              "espece": "Esturgeons",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+          "especes": [
+            {
+              "espece": "Achigans",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Maskinongé et maskinongé tigré",
+              "limite_prise": "2 en tout",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Touladi, moulac et lacmou",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "45 cm et plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": "Dans les eaux comprises à l'intérieur des territoires particuliers: 2 en tout"
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+          "especes": [
+            {
+              "espece": "Autres espèces",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans_eau": [
+    {
+      "id": 1928,
+      "nom": "Lac à Beauce ( 47°19'46\" N., 72°45'08\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1928&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°19'46\" N., 72°45'08\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3051,
+      "nom": "Lac aux Sables ( 46°52'56\" N., 72°21'57\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3051&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°52'56\" N., 72°21'57\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1919,
+      "nom": "Lac Barnard ( 46°39'16\" N., 73°04'02\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1919&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°39'16\" N., 73°04'02\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3241,
+      "nom": "Lac Brochet (La Bostonnais) ( 47°30'49\" N., 72°42'07\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3241&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°30'49\" N., 72°42'07\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1922,
+      "nom": "Lac Carrion (lac Brûlé) ( 47°27'05\" N., 72°58'34\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1922&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Carrion (lac Brûlé) ( 47°27'05\" N., 72°58'34\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10483,
+      "nom": "Lac Châteauvert ( 47°39'24\" N., 73°55'15\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=10483&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Châteauvert ( 47°39'24\" N., 73°55'15\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1939,
+      "nom": "Lac Clair (La Tuque) ( 47°15'34\" N., 72°46'44\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1939&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°15'34\" N., 72°46'44\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1936,
+      "nom": "Lac Croche (canton Chavigny) ( 46°56'26\" N., 72°24'47\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1936&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Croche (canton Chavigny) ( 46°56'26\" N., 72°24'47\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11261,
+      "nom": "Lac Croche (Sainte-Thècle) ( 46°49'55\" N., 72°30'00\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=11261&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(Sainte-Thècle) ( 46°49'55\" N., 72°30'00\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3177,
+      "nom": "Lac Cuisy ( 47°16'57\" N., 72°42'45\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3177&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°16'57\" N., 72°42'45\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1923,
+      "nom": "Lac Cutaway ( 47°26'16\" N., 72°52'14\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1923&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Cutaway ( 47°26'16\" N., 72°52'14\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3242,
+      "nom": "Lac des Chicots (Sainte-Thècle) ( 46°48'06\" N., 72°31'03\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3242&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°48'06\" N., 72°31'03\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1930,
+      "nom": "Lac des Îles (Grandes-Piles) ( 46°45'23\" N., 72°43'22\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1930&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac des Îles (Grandes-Piles) ( 46°45'23\" N., 72°43'22\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3175,
+      "nom": "Lac des Pins Rouges ( 46°36'17\" N., 73°07'07\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3175&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°36'17\" N., 73°07'07\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10484,
+      "nom": "Lac des Souris ( 46°35'00\" N., 72°59'39\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=10484&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac des Souris ( 46°35'00\" N., 72°59'39\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1946,
+      "nom": "Lac des Trois Caribous (cantons Larue, Laure) ( 47°35'46\" N., 72°09'01\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1946&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac des Trois Caribous (cantons Larue, Laure) ( 47°35'46\" N., 72°09'01\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3052,
+      "nom": "Lac du Missionnaire ( 46°55'00\" N., 72°33'37\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3052&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°55'00\" N., 72°33'37\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11581,
+      "nom": "Lac du Pendu ( 47°25'21\" N., 72°45'06\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=11581&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°25'21\" N., 72°45'06\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10480,
+      "nom": "Lac Édouard ( 47°36'44\" N., 72°21'43\" O. ) excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ).La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=10480&id_saisn=220",
+      "segments": [
+        {
+          "segment": "excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ).La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 27 février 2027 au 7 mars 2027",
+              "especes": [
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 27 février 2027 au 7 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3180,
+      "nom": "Lac Édouard ( 47°36'44\" N., 72°21'43\" O. ) secteur La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ) correspondant à la partie au sud d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17\" N., 72°22'54\" O. en rive est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3180&id_saisn=220",
+      "segments": [
+        {
+          "segment": "secteur La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ) correspondant à la partie au sud d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17\" N., 72°22'54\" O. en rive est.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1921,
+      "nom": "Lac en Croix ( 46°38'48\" N., 73°02'07\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1921&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°38'48\" N., 73°02'07\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1929,
+      "nom": "Lac Flamand ( 47°32'37\" N., 73°25'18\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1929&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Flamand ( 47°32'37\" N., 73°25'18\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12680,
+      "nom": "Lac Fontaine ( 46°49'08'' N., 72°39'34'' O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=12680&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Fontaine ( 46°49'08'' N., 72°39'34'' O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1924,
+      "nom": "Lac Germain ( 47°26'54\" N., 72°54'05\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1924&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Germain ( 47°26'54\" N., 72°54'05\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10481,
+      "nom": "Lac Grand lac Long ( 46°32'28\" N., 72°57'01\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=10481&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Grand lac Long ( 46°32'28\" N., 72°57'01\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "0 gardé",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2632,
+      "nom": "Lac La Tuque ( 47°27'38\" N., 72°56'55\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2632&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°27'38\" N., 72°56'55\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1925,
+      "nom": "Lac Lagon ( 47°27'46\" N., 72°55'06\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1925&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Lagon ( 47°27'46\" N., 72°55'06\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1931,
+      "nom": "Lac Lamarre (Shawinigan) ( 46°41'13\" N., 72°47'26\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1931&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Lamarre (Shawinigan) ( 46°41'13\" N., 72°47'26\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1943,
+      "nom": "Lac Larose (canton Belleau) ( 46°36'16\" N., 73°04'00\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1943&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Larose (canton Belleau) ( 46°36'16\" N., 73°04'00\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1934,
+      "nom": "Lac Méduse ( 46°47'19\" N., 72°44'08\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1934&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Méduse ( 46°47'19\" N., 72°44'08\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1945,
+      "nom": "Lac Mékinac ( 47°03'43\" N., 72°40'39\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1945&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Mékinac ( 47°03'43\" N., 72°40'39\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1932,
+      "nom": "Lac Saint-Alexis ( 46°28'07\" N., 73°08'47\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1932&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Saint-Alexis ( 46°28'07\" N., 73°08'47\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er décembre 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1937,
+      "nom": "Lac Saint-Laurent (canton Chavigny) ( 46°57'00\" N., 72°23'57\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1937&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Saint-Laurent (canton Chavigny) ( 46°57'00\" N., 72°23'57\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3050,
+      "nom": "Lac Touladi ( 47°45'06\" N., 73°01'58\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3050&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°45'06\" N., 73°01'58\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10485,
+      "nom": "Lac Touridi ( 47°41'04\" N., 73°59'24\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=10485&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Touridi ( 47°41'04\" N., 73°59'24\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3243,
+      "nom": "Lac Traverse (Sainte-Thècle) ( 46°50'53\" N., 72°32'02\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=3243&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°50'53\" N., 72°32'02\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1926,
+      "nom": "Lac Triangle ( 47°26'25\" N., 72°56'28\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1926&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Triangle ( 47°26'25\" N., 72°56'28\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Mêmes que la zone",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1948,
+      "nom": "Lac Vlimeux (Saint-Roch-de-Mékinac) ( 46°50'41\" N., 72°41'43\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1948&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°50'41\" N., 72°41'43\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2342,
+      "nom": "Réserve Faunique du Saint-Maurice",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2342&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Réserve Faunique du Saint-Maurice",
+          "periodes": [
+            {
+              "periode": "Période Du 10 mai 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Kokani",
+                  "limite_prise": "2",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "2",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 7 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2333,
+      "nom": "Réserve Faunique Mastigouche",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2333&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Réserve Faunique Mastigouche",
+          "periodes": [
+            {
+              "periode": "Période Du 10 mai 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "2",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 7 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1950,
+      "nom": "Rivière aux Brochets entre son embouchure ( 47°07'43'' N., 72°36'56'' O. ) et l'émissaire du lac Chat ( 47°09'20'' N., 72°37'48'' O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1950&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre son embouchure ( 47°07'43'' N., 72°36'56'' O. ) et l'émissaire du lac Chat ( 47°09'20'' N., 72°37'48'' O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1955,
+      "nom": "Rivière Bostonnais entre son embouchure et le pont de la route 155.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1955&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Bostonnais entre son embouchure et le pont de la route 155.",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1952,
+      "nom": "Rivière du Milieu entre la ligne d'énergie électrique ( 47°06'33'' N., 72°37'16'' O. ) et l'émissaire du lac Charlie ( 47°11'44'' N., 72°34'20'' O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1952&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre la ligne d'énergie électrique ( 47°06'33'' N., 72°37'16'' O. ) et l'émissaire du lac Charlie ( 47°11'44'' N., 72°34'20'' O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1953,
+      "nom": "Rivière Sacacomie entre son embouchure dans le lac Saint-Alexis et le vieux barrage de la scierie Charbonneau situé à 1,75 km.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1953&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Sacacomie entre son embouchure dans le lac Saint-Alexis et le vieux barrage de la scierie Charbonneau situé à 1,75 km.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1957,
+      "nom": "Rivière Saint-Maurice - La rivière incluant le réservoir Blanc et la rivière Flamand",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=1957&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Saint-Maurice - La rivière incluant le réservoir Blanc et la rivière Flamand",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2349,
+      "nom": "Zec Borgia",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2349&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Borgia",
+          "periodes": [
+            {
+              "periode": "Période Du 8 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 8 mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 8 mai 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2358,
+      "nom": "Zec Chapeau-de-Paille",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2358&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Chapeau-de-Paille",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 18 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2348,
+      "nom": "Zec de la Bessonne",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2348&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec de la Bessonne",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2368,
+      "nom": "Zec Frémont",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2368&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Frémont",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2369,
+      "nom": "Zec Gros-Brochet",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2369&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Gros-Brochet",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2370,
+      "nom": "Zec Jeannotte",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2370&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Jeannotte",
+          "periodes": [
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2373,
+      "nom": "Zec Kiskissink",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2373&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Kiskissink",
+          "periodes": [
+            {
+              "periode": "Période Du 8 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 8 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2361,
+      "nom": "Zec La Croche",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2361&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec La Croche",
+          "periodes": [
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2391,
+      "nom": "Zec Menokeosawin",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2391&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Menokeosawin",
+          "periodes": [
+            {
+              "periode": "Période Du 8 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 8 mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 8 mai 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2407,
+      "nom": "Zec Tawachiche",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2407&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Tawachiche",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2410,
+      "nom": "Zec Wessonneau",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=2410&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Zec Wessonneau",
+          "periodes": [
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "2 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3060 @@
+{
+  "meta": {
+    "zone_id": 10,
+    "zone_nom": "Zone 10",
+    "nb_plans": 179,
+    "nb_geocoded": 164,
+    "pct_geocoded": 91.6,
+    "source_file": "zones/10.json"
+  },
+  "locations": [
+    {
+      "id": 419,
+      "zone_id": 10,
+      "nom_brut": "Lac à la Barbue ( 46°03'38\" N., 75°54'09\" O. , Municipalité de Gracefield)",
+      "nom": "Lac à la Barbue",
+      "nom_search": "lac a la barbue 46 03 38 n 75 54 09 o municipalite de gracefield)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Barbue",
+      "aliases": [
+        "a la barbue",
+        "a la barbue 46 03 38 n 75 54 09 o municipalite de gracefield)",
+        "lac a la barbue",
+        "lac a la barbue 46 03 38 n 75 54 09 o municipalite de gracefield)"
+      ],
+      "lat": 46.060556,
+      "lon": -75.9025
+    },
+    {
+      "id": 10157,
+      "zone_id": 10,
+      "nom_brut": "Lac à la Croix ( 45°51'20\" N., 74°48'34\" O. ,Municipalités de Boileau et Notre-Dame-de-Bonsecours)",
+      "nom": "Lac à la Croix",
+      "nom_search": "lac a la croix 45 51 20 n 74 48 34 o municipalites de boileau et notre dame de bonsecours)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Croix",
+      "aliases": [
+        "a la croix",
+        "a la croix 45 51 20 n 74 48 34 o municipalites de boileau et notre dame de bonsecours)",
+        "lac a la croix",
+        "lac a la croix 45 51 20 n 74 48 34 o municipalites de boileau et notre dame de bonsecours)"
+      ],
+      "lat": 45.855556,
+      "lon": -74.809444
+    },
+    {
+      "id": 437,
+      "zone_id": 10,
+      "nom_brut": "Lac à la Garlette ( 45°56'56\" N., 75°50'49\" O. , Municipalité de Lac-Sainte-Marie)",
+      "nom": "Lac à la Garlette",
+      "nom_search": "lac a la garlette 45 56 56 n 75 50 49 o municipalite de lac sainte marie)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Garlette",
+      "aliases": [
+        "a la garlette",
+        "a la garlette 45 56 56 n 75 50 49 o municipalite de lac sainte marie)",
+        "lac a la garlette",
+        "lac a la garlette 45 56 56 n 75 50 49 o municipalite de lac sainte marie)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.948889,
+      "lon": -75.846944
+    },
+    {
+      "id": 10125,
+      "zone_id": 10,
+      "nom_brut": "Lac à la Loutre ( 45°59'43\" N., 74°39'15\" O. , Municipalité d'Huberdeau).",
+      "nom": "Lac à la Loutre",
+      "nom_search": "lac a la loutre 45 59 43 n 74 39 15 o municipalite d huberdeau)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Loutre",
+      "aliases": [
+        "a la loutre",
+        "a la loutre 45 59 43 n 74 39 15 o municipalite d huberdeau)",
+        "lac a la loutre",
+        "lac a la loutre 45 59 43 n 74 39 15 o municipalite d huberdeau)"
+      ],
+      "lat": 45.995278,
+      "lon": -74.654167
+    },
+    {
+      "id": 10224,
+      "zone_id": 10,
+      "nom_brut": "Lac à la Truite (TNO de Lac-Nilgaut)( 46°14'33\" N., 76°55'28\" O. ).",
+      "nom": "Lac à la Truite",
+      "nom_search": "lac a la truite tno de lac nilgaut) 46 14 33 n 76 55 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Truite",
+      "aliases": [
+        "a la truite",
+        "a la truite tno de lac nilgaut) 46 14 33 n 76 55 28 o )",
+        "lac a la truite",
+        "lac a la truite tno de lac nilgaut) 46 14 33 n 76 55 28 o )"
+      ],
+      "lat": 46.2425,
+      "lon": -76.924444
+    },
+    {
+      "id": 414,
+      "zone_id": 10,
+      "nom_brut": "Lac à la Truite (Municipalités de Gracefield et Notre-Dame-du-Laus)( 46°05'20\" N., 75°45'37\" O. ).",
+      "nom": "Lac à la Truite",
+      "nom_search": "lac a la truite municipalites de gracefield et notre dame du laus) 46 05 20 n 75 45 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Truite",
+      "aliases": [
+        "a la truite",
+        "a la truite municipalites de gracefield et notre dame du laus) 46 05 20 n 75 45 37 o )",
+        "lac a la truite",
+        "lac a la truite municipalites de gracefield et notre dame du laus) 46 05 20 n 75 45 37 o )"
+      ],
+      "lat": 46.088889,
+      "lon": -75.760278
+    },
+    {
+      "id": 10101,
+      "zone_id": 10,
+      "nom_brut": "Lac Ambroise ( 46°19'12\" N., 75°46'23\" O. , Municipalité de Déléage)",
+      "nom": "Lac Ambroise",
+      "nom_search": "lac ambroise 46 19 12 n 75 46 23 o municipalite de deleage)",
+      "segment_label": null,
+      "river_base_name": "Lac Ambroise",
+      "aliases": [
+        "ambroise",
+        "ambroise 46 19 12 n 75 46 23 o municipalite de deleage)",
+        "lac ambroise",
+        "lac ambroise 46 19 12 n 75 46 23 o municipalite de deleage)"
+      ],
+      "lat": 46.32,
+      "lon": -75.773056
+    },
+    {
+      "id": 480,
+      "zone_id": 10,
+      "nom_brut": "Lac au Foin (Municipalités de Notre-Dame-du-Laus et Notre-Dame-de-Pontmain) ( 46°10'51\" N., 75°43'55\" O. )",
+      "nom": "Lac au Foin",
+      "nom_search": "lac au foin municipalites de notre dame du laus et notre dame de pontmain) 46 10 51 n 75 43 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac au Foin",
+      "aliases": [
+        "au foin",
+        "au foin municipalites de notre dame du laus et notre dame de pontmain) 46 10 51 n 75 43 55 o )",
+        "lac au foin",
+        "lac au foin municipalites de notre dame du laus et notre dame de pontmain) 46 10 51 n 75 43 55 o )"
+      ],
+      "lat": 46.180833,
+      "lon": -75.731944
+    },
+    {
+      "id": 3014,
+      "zone_id": 10,
+      "nom_brut": "Lac aux Castors - (Municipalité de La Minerve)( 46°11'54\" N., 75°02'51\" O. ).",
+      "nom": "Lac aux Castors",
+      "nom_search": "lac aux castors municipalite de la minerve) 46 11 54 n 75 02 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Castors -",
+      "aliases": [
+        "aux castors",
+        "aux castors municipalite de la minerve) 46 11 54 n 75 02 51 o )",
+        "lac aux castors",
+        "lac aux castors municipalite de la minerve) 46 11 54 n 75 02 51 o )"
+      ],
+      "lat": 46.198333,
+      "lon": -75.0475
+    },
+    {
+      "id": 10209,
+      "zone_id": 10,
+      "nom_brut": "Lac aux Vers ( 46°09'05\" N., 77°08'38\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac aux Vers",
+      "nom_search": "lac aux vers 46 09 05 n 77 08 38 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac aux Vers",
+      "aliases": [
+        "aux vers",
+        "aux vers 46 09 05 n 77 08 38 o tno de lac nilgaut)",
+        "lac aux vers",
+        "lac aux vers 46 09 05 n 77 08 38 o tno de lac nilgaut)"
+      ],
+      "lat": 46.151389,
+      "lon": -77.143889
+    },
+    {
+      "id": 416,
+      "zone_id": 10,
+      "nom_brut": "Lac Babiche (Notre-Dame-de-Pontmain) ( 46°15'28\" N., 75°42'46\" O. )",
+      "nom": "Lac Babiche",
+      "nom_search": "lac babiche notre dame de pontmain) 46 15 28 n 75 42 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Babiche",
+      "aliases": [
+        "babiche",
+        "babiche notre dame de pontmain) 46 15 28 n 75 42 46 o )",
+        "lac babiche",
+        "lac babiche notre dame de pontmain) 46 15 28 n 75 42 46 o )"
+      ],
+      "lat": 46.257778,
+      "lon": -75.712778
+    },
+    {
+      "id": 10141,
+      "zone_id": 10,
+      "nom_brut": "Lac Barnes ( 45°44'55\" N., 76°20'37\" O. , Municipalité de Thorne)",
+      "nom": "Lac Barnes",
+      "nom_search": "lac barnes 45 44 55 n 76 20 37 o municipalite de thorne)",
+      "segment_label": null,
+      "river_base_name": "Lac Barnes",
+      "aliases": [
+        "barnes",
+        "barnes 45 44 55 n 76 20 37 o municipalite de thorne)",
+        "lac barnes",
+        "lac barnes 45 44 55 n 76 20 37 o municipalite de thorne)"
+      ],
+      "lat": 45.748611,
+      "lon": -76.343611
+    },
+    {
+      "id": 2826,
+      "zone_id": 10,
+      "nom_brut": "Lac Bell ( 46°03'38\" N., 76°37'50\" O. , Municipalités de Mansfield-et-Pontefract et Lac-Nilgaut)",
+      "nom": "Lac Bell",
+      "nom_search": "lac bell 46 03 38 n 76 37 50 o municipalites de mansfield et pontefract et lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Bell",
+      "aliases": [
+        "bell",
+        "bell 46 03 38 n 76 37 50 o municipalites de mansfield et pontefract et lac nilgaut)",
+        "lac bell",
+        "lac bell 46 03 38 n 76 37 50 o municipalites de mansfield et pontefract et lac nilgaut)"
+      ],
+      "lat": 46.060556,
+      "lon": -76.630556
+    },
+    {
+      "id": 10143,
+      "zone_id": 10,
+      "nom_brut": "Lac Bellemare ( 45°51'01\" N., 76°28'37\" O. , Municipalité d'Otter Lake)",
+      "nom": "Lac Bellemare",
+      "nom_search": "lac bellemare 45 51 01 n 76 28 37 o municipalite d otter lake)",
+      "segment_label": null,
+      "river_base_name": "Lac Bellemare",
+      "aliases": [
+        "bellemare",
+        "bellemare 45 51 01 n 76 28 37 o municipalite d otter lake)",
+        "lac bellemare",
+        "lac bellemare 45 51 01 n 76 28 37 o municipalite d otter lake)"
+      ],
+      "lat": 45.850278,
+      "lon": -76.476944
+    },
+    {
+      "id": 2997,
+      "zone_id": 10,
+      "nom_brut": "Lac Bigelow (Municipalité de Notre-Dame-du-Laus) ( 46°03'45\" N.,75°38'57\" O. )",
+      "nom": "Lac Bigelow",
+      "nom_search": "lac bigelow municipalite de notre dame du laus) 46 03 45 n 75 38 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bigelow",
+      "aliases": [
+        "bigelow",
+        "bigelow municipalite de notre dame du laus) 46 03 45 n 75 38 57 o )",
+        "lac bigelow",
+        "lac bigelow municipalite de notre dame du laus) 46 03 45 n 75 38 57 o )"
+      ],
+      "lat": 46.0625,
+      "lon": -75.649167
+    },
+    {
+      "id": 475,
+      "zone_id": 10,
+      "nom_brut": "Lac Bisson (municipalité de Kiamika) le lac ainsi que la partie comprise entre son déversoir jusqu'à un point situé à 500 m en aval vers le lac François.",
+      "nom": "Lac Bisson",
+      "nom_search": "lac bisson municipalite de kiamika) le lac ainsi que la partie comprise entre son deversoir jusqu a un point situe a 500 m en aval vers le lac francois",
+      "segment_label": null,
+      "river_base_name": "Lac Bisson",
+      "aliases": [
+        "bisson",
+        "bisson municipalite de kiamika) le lac ainsi que la partie comprise entre son deversoir jusqu a un point situe a 500 m en aval vers le lac francois",
+        "lac bisson",
+        "lac bisson municipalite de kiamika) le lac ainsi que la partie comprise entre son deversoir jusqu a un point situe a 500 m en aval vers le lac francois"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2950,
+      "zone_id": 10,
+      "nom_brut": "Lac Bitobi ( 46°06'13\" N., 75°56'48\" O. , Municipalité de Gracefield)",
+      "nom": "Lac Bitobi",
+      "nom_search": "lac bitobi 46 06 13 n 75 56 48 o municipalite de gracefield)",
+      "segment_label": null,
+      "river_base_name": "Lac Bitobi",
+      "aliases": [
+        "bitobi",
+        "bitobi 46 06 13 n 75 56 48 o municipalite de gracefield)",
+        "lac bitobi",
+        "lac bitobi 46 06 13 n 75 56 48 o municipalite de gracefield)"
+      ],
+      "lat": 46.103611,
+      "lon": -75.946667
+    },
+    {
+      "id": 2829,
+      "zone_id": 10,
+      "nom_brut": "Lac Blais ( 45°56'03\" N., 75°10'05\" O. ,Municipalités de Montpellier et Lac-Simon)",
+      "nom": "Lac Blais",
+      "nom_search": "lac blais 45 56 03 n 75 10 05 o municipalites de montpellier et lac simon)",
+      "segment_label": null,
+      "river_base_name": "Lac Blais",
+      "aliases": [
+        "blais",
+        "blais 45 56 03 n 75 10 05 o municipalites de montpellier et lac simon)",
+        "lac blais",
+        "lac blais 45 56 03 n 75 10 05 o municipalites de montpellier et lac simon)"
+      ],
+      "lat": 45.934167,
+      "lon": -75.168056
+    },
+    {
+      "id": 10103,
+      "zone_id": 10,
+      "nom_brut": "Lac Blue Sea ( 46°13'26\" N., 76°03'18\" O. ,Municipalités de Blue Sea et Messines)",
+      "nom": "Lac Blue Sea",
+      "nom_search": "lac blue sea 46 13 26 n 76 03 18 o municipalites de blue sea et messines)",
+      "segment_label": null,
+      "river_base_name": "Lac Blue Sea",
+      "aliases": [
+        "blue sea",
+        "blue sea 46 13 26 n 76 03 18 o municipalites de blue sea et messines)",
+        "lac blue sea",
+        "lac blue sea 46 13 26 n 76 03 18 o municipalites de blue sea et messines)"
+      ],
+      "lat": 46.223889,
+      "lon": -76.055
+    },
+    {
+      "id": 2830,
+      "zone_id": 10,
+      "nom_brut": "Lac Boisseau - (Municipalité de La Conception)( 46°10'52\" N., 74°49'05\" O. )",
+      "nom": "Lac Boisseau",
+      "nom_search": "lac boisseau municipalite de la conception) 46 10 52 n 74 49 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Boisseau -",
+      "aliases": [
+        "boisseau",
+        "boisseau municipalite de la conception) 46 10 52 n 74 49 05 o )",
+        "lac boisseau",
+        "lac boisseau municipalite de la conception) 46 10 52 n 74 49 05 o )"
+      ],
+      "lat": 46.181111,
+      "lon": -74.818056
+    },
+    {
+      "id": 10145,
+      "zone_id": 10,
+      "nom_brut": "Lac Bonin ( 45°40'11\" N., 75°41'47\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac Bonin",
+      "nom_search": "lac bonin 45 40 11 n 75 41 47 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac Bonin",
+      "aliases": [
+        "bonin",
+        "bonin 45 40 11 n 75 41 47 o municipalite de val des monts)",
+        "lac bonin",
+        "lac bonin 45 40 11 n 75 41 47 o municipalite de val des monts)"
+      ],
+      "lat": 45.669722,
+      "lon": -75.696389
+    },
+    {
+      "id": 422,
+      "zone_id": 10,
+      "nom_brut": "Lac Boutin ( 46°16'42\" N., 76°05'26\" O. , Municipalité de Messines)",
+      "nom": "Lac Boutin",
+      "nom_search": "lac boutin 46 16 42 n 76 05 26 o municipalite de messines)",
+      "segment_label": null,
+      "river_base_name": "Lac Boutin",
+      "aliases": [
+        "boutin",
+        "boutin 46 16 42 n 76 05 26 o municipalite de messines)",
+        "lac boutin",
+        "lac boutin 46 16 42 n 76 05 26 o municipalite de messines)"
+      ],
+      "lat": 46.278333,
+      "lon": -76.090556
+    },
+    {
+      "id": 10147,
+      "zone_id": 10,
+      "nom_brut": "Lac Britannique ( 45°45'08\" N., 75°15'37\" O. , Municipalité de Mulgrave-et-Derry)",
+      "nom": "Lac Britannique",
+      "nom_search": "lac britannique 45 45 08 n 75 15 37 o municipalite de mulgrave et derry)",
+      "segment_label": null,
+      "river_base_name": "Lac Britannique",
+      "aliases": [
+        "britannique",
+        "britannique 45 45 08 n 75 15 37 o municipalite de mulgrave et derry)",
+        "lac britannique",
+        "lac britannique 45 45 08 n 75 15 37 o municipalite de mulgrave et derry)"
+      ],
+      "lat": 45.752222,
+      "lon": -75.260278
+    },
+    {
+      "id": 10226,
+      "zone_id": 10,
+      "nom_brut": "Lac Butler ( 46°15'01\" N., 75°37'02\" O. )(Municipalités de Notre-Dame-de-Pontmain)",
+      "nom": "Lac Butler",
+      "nom_search": "lac butler 46 15 01 n 75 37 02 o ) municipalites de notre dame de pontmain)",
+      "segment_label": null,
+      "river_base_name": "Lac Butler",
+      "aliases": [
+        "butler",
+        "butler 46 15 01 n 75 37 02 o ) municipalites de notre dame de pontmain)",
+        "lac butler",
+        "lac butler 46 15 01 n 75 37 02 o ) municipalites de notre dame de pontmain)"
+      ],
+      "lat": 46.250278,
+      "lon": -75.617222
+    },
+    {
+      "id": 2962,
+      "zone_id": 10,
+      "nom_brut": "Lac Cameron - (Municipalité de Amherst)( 46°06'44\" N., 74°49'41\" O. )",
+      "nom": "Lac Cameron",
+      "nom_search": "lac cameron municipalite de amherst) 46 06 44 n 74 49 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cameron -",
+      "aliases": [
+        "cameron",
+        "cameron municipalite de amherst) 46 06 44 n 74 49 41 o )",
+        "lac cameron",
+        "lac cameron municipalite de amherst) 46 06 44 n 74 49 41 o )"
+      ],
+      "lat": 46.112222,
+      "lon": -74.828056
+    },
+    {
+      "id": 10149,
+      "zone_id": 10,
+      "nom_brut": "Lac Cameron (Municipalité de Low)( 45°46'15\" N., 76°06'50\" O. )",
+      "nom": "Lac Cameron",
+      "nom_search": "lac cameron municipalite de low) 45 46 15 n 76 06 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cameron",
+      "aliases": [
+        "cameron",
+        "cameron municipalite de low) 45 46 15 n 76 06 50 o )",
+        "lac cameron",
+        "lac cameron municipalite de low) 45 46 15 n 76 06 50 o )"
+      ],
+      "lat": 45.770833,
+      "lon": -76.113889
+    },
+    {
+      "id": 478,
+      "zone_id": 10,
+      "nom_brut": "Lac Campion (Municipalité de Notre-Dame-du-Laus) ( 46°07'32\" N., 75°38'54\" O. )",
+      "nom": "Lac Campion",
+      "nom_search": "lac campion municipalite de notre dame du laus) 46 07 32 n 75 38 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Campion",
+      "aliases": [
+        "campion",
+        "campion municipalite de notre dame du laus) 46 07 32 n 75 38 54 o )",
+        "lac campion",
+        "lac campion municipalite de notre dame du laus) 46 07 32 n 75 38 54 o )"
+      ],
+      "lat": 46.125556,
+      "lon": -75.648333
+    },
+    {
+      "id": 10902,
+      "zone_id": 10,
+      "nom_brut": "Lac Cayamant ( 46°06'23\" N., 76°16'38\" O. ,Municipalité de Cayamant)",
+      "nom": "Lac Cayamant",
+      "nom_search": "lac cayamant 46 06 23 n 76 16 38 o municipalite de cayamant)",
+      "segment_label": null,
+      "river_base_name": "Lac Cayamant",
+      "aliases": [
+        "cayamant",
+        "cayamant 46 06 23 n 76 16 38 o municipalite de cayamant)",
+        "lac cayamant",
+        "lac cayamant 46 06 23 n 76 16 38 o municipalite de cayamant)"
+      ],
+      "lat": 46.106389,
+      "lon": -76.277222
+    },
+    {
+      "id": 483,
+      "zone_id": 10,
+      "nom_brut": "Lac Chapleau (Municipalité de La Minerve)( 46°13'37\" N., 74°56'56\" O. ).",
+      "nom": "Lac Chapleau",
+      "nom_search": "lac chapleau municipalite de la minerve) 46 13 37 n 74 56 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chapleau",
+      "aliases": [
+        "chapleau",
+        "chapleau municipalite de la minerve) 46 13 37 n 74 56 56 o )",
+        "lac chapleau",
+        "lac chapleau municipalite de la minerve) 46 13 37 n 74 56 56 o )"
+      ],
+      "lat": 46.226944,
+      "lon": -74.948889
+    },
+    {
+      "id": 2837,
+      "zone_id": 10,
+      "nom_brut": "Lac Clair ( 45°44'12\" N., 75°48'04\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac Clair",
+      "nom_search": "lac clair 45 44 12 n 75 48 04 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac Clair",
+      "aliases": [
+        "clair",
+        "clair 45 44 12 n 75 48 04 o municipalite de val des monts)",
+        "lac clair",
+        "lac clair 45 44 12 n 75 48 04 o municipalite de val des monts)"
+      ],
+      "lat": 45.736667,
+      "lon": -75.801111
+    },
+    {
+      "id": 569,
+      "zone_id": 10,
+      "nom_brut": "Lac Cole Seulement ses tributaires (Municipalité de Mulgrave-et-Derry)",
+      "nom": "Lac Cole Seulement ses tributaires",
+      "nom_search": "lac cole seulement ses tributaires municipalite de mulgrave et derry)",
+      "segment_label": null,
+      "river_base_name": "Lac Cole Seulement ses tributaires",
+      "aliases": [
+        "cole seulement ses tributaires",
+        "cole seulement ses tributaires municipalite de mulgrave et derry)",
+        "lac cole seulement ses tributaires",
+        "lac cole seulement ses tributaires municipalite de mulgrave et derry)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 10155,
+      "zone_id": 10,
+      "nom_brut": "Lac Creux ( 46°03'29\" N., 76°22'13\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac Creux",
+      "nom_search": "lac creux 46 03 29 n 76 22 13 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Creux",
+      "aliases": [
+        "creux",
+        "creux 46 03 29 n 76 22 13 o tno de lac nilgaut)",
+        "lac creux",
+        "lac creux 46 03 29 n 76 22 13 o tno de lac nilgaut)"
+      ],
+      "lat": 46.058056,
+      "lon": -76.370278
+    },
+    {
+      "id": 425,
+      "zone_id": 10,
+      "nom_brut": "Lac Croche ( 45°55'48\" N., 75°10'33\" O. , Municipalité de Montpellier)",
+      "nom": "Lac Croche",
+      "nom_search": "lac croche 45 55 48 n 75 10 33 o municipalite de montpellier)",
+      "segment_label": null,
+      "river_base_name": "Lac Croche",
+      "aliases": [
+        "croche",
+        "croche 45 55 48 n 75 10 33 o municipalite de montpellier)",
+        "lac croche",
+        "lac croche 45 55 48 n 75 10 33 o municipalite de montpellier)"
+      ],
+      "lat": 45.93,
+      "lon": -75.175833
+    },
+    {
+      "id": 10151,
+      "zone_id": 10,
+      "nom_brut": "Lac de la Carpe ( 46°03'12\" N., 74°52'25\" O. , Municipalité de Lac-des-Plages)",
+      "nom": "Lac de la Carpe",
+      "nom_search": "lac de la carpe 46 03 12 n 74 52 25 o municipalite de lac des plages)",
+      "segment_label": null,
+      "river_base_name": "Lac de la Carpe",
+      "aliases": [
+        "de la carpe",
+        "de la carpe 46 03 12 n 74 52 25 o municipalite de lac des plages)",
+        "lac de la carpe",
+        "lac de la carpe 46 03 12 n 74 52 25 o municipalite de lac des plages)"
+      ],
+      "lat": 46.053333,
+      "lon": -74.873611
+    },
+    {
+      "id": 2847,
+      "zone_id": 10,
+      "nom_brut": "Lac de la Décharge - (Municipalité de Amherst)( 46°07'06\" N., 74°48'12\" O. )",
+      "nom": "Lac de la Décharge",
+      "nom_search": "lac de la decharge municipalite de amherst) 46 07 06 n 74 48 12 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Décharge -",
+      "aliases": [
+        "de la decharge",
+        "de la decharge municipalite de amherst) 46 07 06 n 74 48 12 o )",
+        "lac de la decharge",
+        "lac de la decharge municipalite de amherst) 46 07 06 n 74 48 12 o )"
+      ],
+      "lat": 46.118333,
+      "lon": -74.803333
+    },
+    {
+      "id": 497,
+      "zone_id": 10,
+      "nom_brut": "Lac de la Ferme ( 46°01'04\" N., 75°05'55\" O. , Municipalité de Duhamel)",
+      "nom": "Lac de la Ferme",
+      "nom_search": "lac de la ferme 46 01 04 n 75 05 55 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Lac de la Ferme",
+      "aliases": [
+        "de la ferme",
+        "de la ferme 46 01 04 n 75 05 55 o municipalite de duhamel)",
+        "lac de la ferme",
+        "lac de la ferme 46 01 04 n 75 05 55 o municipalite de duhamel)"
+      ],
+      "lat": 46.017778,
+      "lon": -75.098611
+    },
+    {
+      "id": 10121,
+      "zone_id": 10,
+      "nom_brut": "Lac de la Sucrerie ( 46°06'46\" N., 74°53'58\" O. , Municipalité d'Amherst).",
+      "nom": "Lac de la Sucrerie",
+      "nom_search": "lac de la sucrerie 46 06 46 n 74 53 58 o municipalite d amherst)",
+      "segment_label": null,
+      "river_base_name": "Lac de la Sucrerie",
+      "aliases": [
+        "de la sucrerie",
+        "de la sucrerie 46 06 46 n 74 53 58 o municipalite d amherst)",
+        "lac de la sucrerie",
+        "lac de la sucrerie 46 06 46 n 74 53 58 o municipalite d amherst)"
+      ],
+      "lat": 46.112778,
+      "lon": -74.899444
+    },
+    {
+      "id": 11420,
+      "zone_id": 10,
+      "nom_brut": "Lac de l'Achigan ( 46°23'19\" N., 75°46'25\" O. , Municipalité de Déléage)",
+      "nom": "Lac de l'Achigan",
+      "nom_search": "lac de l achigan 46 23 19 n 75 46 25 o municipalite de deleage)",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Achigan",
+      "aliases": [
+        "de l achigan",
+        "de l achigan 46 23 19 n 75 46 25 o municipalite de deleage)",
+        "lac de l achigan",
+        "lac de l achigan 46 23 19 n 75 46 25 o municipalite de deleage)"
+      ],
+      "lat": 46.388611,
+      "lon": -75.773611
+    },
+    {
+      "id": 2959,
+      "zone_id": 10,
+      "nom_brut": "Lac de l'Aigle - (Municipalité de Notre-Dame-du-Laus)( 46°06'44\" N., 75°27'48\" O. )",
+      "nom": "Lac de l'Aigle",
+      "nom_search": "lac de l aigle municipalite de notre dame du laus) 46 06 44 n 75 27 48 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Aigle -",
+      "aliases": [
+        "de l aigle",
+        "de l aigle municipalite de notre dame du laus) 46 06 44 n 75 27 48 o )",
+        "lac de l aigle",
+        "lac de l aigle municipalite de notre dame du laus) 46 06 44 n 75 27 48 o )"
+      ],
+      "lat": 46.112222,
+      "lon": -75.463333
+    },
+    {
+      "id": 402,
+      "zone_id": 10,
+      "nom_brut": "Lac de l'Argile (Municipalités de Val-des-Bois et Notre-Dame-de-la-Salette)( 45°51'37\" N., 75°33'42\" O. ).",
+      "nom": "Lac de l'Argile",
+      "nom_search": "lac de l argile municipalites de val des bois et notre dame de la salette) 45 51 37 n 75 33 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Argile",
+      "aliases": [
+        "de l argile",
+        "de l argile municipalites de val des bois et notre dame de la salette) 45 51 37 n 75 33 42 o )",
+        "lac de l argile",
+        "lac de l argile municipalites de val des bois et notre dame de la salette) 45 51 37 n 75 33 42 o )"
+      ],
+      "lat": 45.860278,
+      "lon": -75.561667
+    },
+    {
+      "id": 401,
+      "zone_id": 10,
+      "nom_brut": "Lac de l'Argile Seulement ses tributaires (Municipalités de Val-des-Bois et Notre-Dame-de-la-Salette)",
+      "nom": "Lac de l'Argile Seulement ses tributaires",
+      "nom_search": "lac de l argile seulement ses tributaires municipalites de val des bois et notre dame de la salette)",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Argile Seulement ses tributaires",
+      "aliases": [
+        "de l argile seulement ses tributaires",
+        "de l argile seulement ses tributaires municipalites de val des bois et notre dame de la salette)",
+        "lac de l argile seulement ses tributaires",
+        "lac de l argile seulement ses tributaires municipalites de val des bois et notre dame de la salette)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3013,
+      "zone_id": 10,
+      "nom_brut": "Lac de l'Écluse ( 45°43'49\" N., 75°46'45\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac de l'Écluse",
+      "nom_search": "lac de l ecluse 45 43 49 n 75 46 45 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Écluse",
+      "aliases": [
+        "de l ecluse",
+        "de l ecluse 45 43 49 n 75 46 45 o municipalite de val des monts)",
+        "lac de l ecluse",
+        "lac de l ecluse 45 43 49 n 75 46 45 o municipalite de val des monts)"
+      ],
+      "lat": 45.730278,
+      "lon": -75.779167
+    },
+    {
+      "id": 427,
+      "zone_id": 10,
+      "nom_brut": "Lac Dénommé ( 46°12'55\" N., 76°04'31\" O. , Municipalité de Blue Sea)",
+      "nom": "Lac Dénommé",
+      "nom_search": "lac denomme 46 12 55 n 76 04 31 o municipalite de blue sea)",
+      "segment_label": null,
+      "river_base_name": "Lac Dénommé",
+      "aliases": [
+        "denomme",
+        "denomme 46 12 55 n 76 04 31 o municipalite de blue sea)",
+        "lac denomme",
+        "lac denomme 46 12 55 n 76 04 31 o municipalite de blue sea)"
+      ],
+      "lat": 46.215278,
+      "lon": -76.075278
+    },
+    {
+      "id": 2961,
+      "zone_id": 10,
+      "nom_brut": "Lac des Bagnoles ( 45°59'49\" N., 75°49'34\" O. , Municipalité de Lac-Sainte-Marie)",
+      "nom": "Lac des Bagnoles",
+      "nom_search": "lac des bagnoles 45 59 49 n 75 49 34 o municipalite de lac sainte marie)",
+      "segment_label": null,
+      "river_base_name": "Lac des Bagnoles",
+      "aliases": [
+        "des bagnoles",
+        "des bagnoles 45 59 49 n 75 49 34 o municipalite de lac sainte marie)",
+        "lac des bagnoles",
+        "lac des bagnoles 45 59 49 n 75 49 34 o municipalite de lac sainte marie)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.996944,
+      "lon": -75.826111
+    },
+    {
+      "id": 11061,
+      "zone_id": 10,
+      "nom_brut": "Lac des Écorces ( 46°31'28\" N., 75°25'02\" O. ) ainsi que ses tributaires",
+      "nom": "Lac des Écorces",
+      "nom_search": "lac des ecorces 46 31 28 n 75 25 02 o ) ainsi que ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Lac des Écorces",
+      "aliases": [
+        "des ecorces",
+        "des ecorces 46 31 28 n 75 25 02 o ) ainsi que ses tributaires",
+        "lac des ecorces",
+        "lac des ecorces 46 31 28 n 75 25 02 o ) ainsi que ses tributaires"
+      ],
+      "lat": 46.524444,
+      "lon": -75.417222
+    },
+    {
+      "id": 2963,
+      "zone_id": 10,
+      "nom_brut": "Lac des Grandes Baies ( 46°22'23\" N., 75°06'54\" O. , Municipalité de Nominingue)",
+      "nom": "Lac des Grandes Baies",
+      "nom_search": "lac des grandes baies 46 22 23 n 75 06 54 o municipalite de nominingue)",
+      "segment_label": null,
+      "river_base_name": "Lac des Grandes Baies",
+      "aliases": [
+        "des grandes baies",
+        "des grandes baies 46 22 23 n 75 06 54 o municipalite de nominingue)",
+        "lac des grandes baies",
+        "lac des grandes baies 46 22 23 n 75 06 54 o municipalite de nominingue)"
+      ],
+      "lat": 46.373056,
+      "lon": -75.115
+    },
+    {
+      "id": 3020,
+      "zone_id": 10,
+      "nom_brut": "Lac des Îles (Mont-Laurier et Saint-Aimé-du-lac-des-Îles) ( 46°27'47\" N., 75°32'17\" O. )",
+      "nom": "Lac des Îles",
+      "nom_search": "lac des iles mont laurier et saint aime du lac des iles) 46 27 47 n 75 32 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Îles",
+      "aliases": [
+        "des iles",
+        "des iles mont laurier et saint aime du lac des iles) 46 27 47 n 75 32 17 o )",
+        "lac des iles",
+        "lac des iles mont laurier et saint aime du lac des iles) 46 27 47 n 75 32 17 o )"
+      ],
+      "lat": 46.463056,
+      "lon": -75.538056
+    },
+    {
+      "id": 11441,
+      "zone_id": 10,
+      "nom_brut": "Lac des Isles (Municipalité de Lac-Ernest)( 46°17'18\" N., 75°03'16\" O. )",
+      "nom": "Lac des Isles",
+      "nom_search": "lac des isles municipalite de lac ernest) 46 17 18 n 75 03 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Isles",
+      "aliases": [
+        "des isles",
+        "des isles municipalite de lac ernest) 46 17 18 n 75 03 16 o )",
+        "lac des isles",
+        "lac des isles municipalite de lac ernest) 46 17 18 n 75 03 16 o )"
+      ],
+      "lat": 46.288333,
+      "lon": -75.054444
+    },
+    {
+      "id": 3115,
+      "zone_id": 10,
+      "nom_brut": "Lac des Pères - ( 46°14'15\" N., 75°51'02\" O. , Municipalités de Bouchette et de Sainte-Thérèse-de-la-Gatineau)",
+      "nom": "Lac des Pères",
+      "nom_search": "lac des peres 46 14 15 n 75 51 02 o municipalites de bouchette et de sainte therese de la gatineau)",
+      "segment_label": null,
+      "river_base_name": "Lac des Pères -",
+      "aliases": [
+        "des peres",
+        "des peres 46 14 15 n 75 51 02 o municipalites de bouchette et de sainte therese de la gatineau)",
+        "lac des peres",
+        "lac des peres 46 14 15 n 75 51 02 o municipalites de bouchette et de sainte therese de la gatineau)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.2375,
+      "lon": -75.850556
+    },
+    {
+      "id": 2918,
+      "zone_id": 10,
+      "nom_brut": "Lac des Plages ( 45°59'35\" N., 74°53'57\" O. , Municipalité de Lac-des-Plages)",
+      "nom": "Lac des Plages",
+      "nom_search": "lac des plages 45 59 35 n 74 53 57 o municipalite de lac des plages)",
+      "segment_label": null,
+      "river_base_name": "Lac des Plages",
+      "aliases": [
+        "des plages",
+        "des plages 45 59 35 n 74 53 57 o municipalite de lac des plages)",
+        "lac des plages",
+        "lac des plages 45 59 35 n 74 53 57 o municipalite de lac des plages)"
+      ],
+      "lat": 45.993056,
+      "lon": -74.899167
+    },
+    {
+      "id": 3216,
+      "zone_id": 10,
+      "nom_brut": "Lac des Sources (anciennement lac Brochet) ( 46°33'23\" N., 75°34'44\" O. , Municipalité de Mont-Laurier)",
+      "nom": "Lac des Sources",
+      "nom_search": "lac des sources anciennement lac brochet) 46 33 23 n 75 34 44 o municipalite de mont laurier)",
+      "segment_label": null,
+      "river_base_name": "Lac des Sources",
+      "aliases": [
+        "des sources",
+        "des sources anciennement lac brochet) 46 33 23 n 75 34 44 o municipalite de mont laurier)",
+        "lac des sources",
+        "lac des sources anciennement lac brochet) 46 33 23 n 75 34 44 o municipalite de mont laurier)"
+      ],
+      "lat": 46.556389,
+      "lon": -75.578889
+    },
+    {
+      "id": 2940,
+      "zone_id": 10,
+      "nom_brut": "Lac des Trente et Un Milles - ( 46°12'22\" N., 75°48'36\" O. , Municipalités de Gracefield, Bouchette, Sainte-Thérèse-de-la-Gatineau, Déléage, Notre-Dame-de-Pontmain)",
+      "nom": "Lac des Trente et Un Milles",
+      "nom_search": "lac des trente et un milles 46 12 22 n 75 48 36 o municipalites de gracefield bouchette sainte therese de la gatineau deleage notre dame de pontmain)",
+      "segment_label": null,
+      "river_base_name": "Lac des Trente et Un Milles -",
+      "aliases": [
+        "des trente et un milles",
+        "des trente et un milles 46 12 22 n 75 48 36 o municipalites de gracefield bouchette sainte therese de la gatineau deleage notre dame de pontmain)",
+        "lac des trente et un milles",
+        "lac des trente et un milles 46 12 22 n 75 48 36 o municipalites de gracefield bouchette sainte therese de la gatineau deleage notre dame de pontmain)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.206111,
+      "lon": -75.81
+    },
+    {
+      "id": 2941,
+      "zone_id": 10,
+      "nom_brut": "Lac des Trois Montagnes - (Municipalité de La Conception)( 46°09'37\" N., 74°46'20\" O. ).",
+      "nom": "Lac des Trois Montagnes",
+      "nom_search": "lac des trois montagnes municipalite de la conception) 46 09 37 n 74 46 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Trois Montagnes -",
+      "aliases": [
+        "des trois montagnes",
+        "des trois montagnes municipalite de la conception) 46 09 37 n 74 46 20 o )",
+        "lac des trois montagnes",
+        "lac des trois montagnes municipalite de la conception) 46 09 37 n 74 46 20 o )"
+      ],
+      "lat": 46.160278,
+      "lon": -74.772222
+    },
+    {
+      "id": 2951,
+      "zone_id": 10,
+      "nom_brut": "Lac Désert - (Municipalité de La Minerve)( 46°16'47\" N., 74°54'29\" O. ).",
+      "nom": "Lac Désert",
+      "nom_search": "lac desert municipalite de la minerve) 46 16 47 n 74 54 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Désert -",
+      "aliases": [
+        "desert",
+        "desert municipalite de la minerve) 46 16 47 n 74 54 29 o )",
+        "lac desert",
+        "lac desert municipalite de la minerve) 46 16 47 n 74 54 29 o )"
+      ],
+      "lat": 46.279722,
+      "lon": -74.908056
+    },
+    {
+      "id": 2850,
+      "zone_id": 10,
+      "nom_brut": "Lac Dodds ( 45°43'06\" N., 75°36'26\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac Dodds",
+      "nom_search": "lac dodds 45 43 06 n 75 36 26 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac Dodds",
+      "aliases": [
+        "dodds",
+        "dodds 45 43 06 n 75 36 26 o municipalite de val des monts)",
+        "lac dodds",
+        "lac dodds 45 43 06 n 75 36 26 o municipalite de val des monts)"
+      ],
+      "lat": 45.718333,
+      "lon": -75.607222
+    },
+    {
+      "id": 2834,
+      "zone_id": 10,
+      "nom_brut": "Lac du Cardinal ( 45°50'52\" N., 75°47'45\" O. , Municipalité de Denholm)",
+      "nom": "Lac du Cardinal",
+      "nom_search": "lac du cardinal 45 50 52 n 75 47 45 o municipalite de denholm)",
+      "segment_label": null,
+      "river_base_name": "Lac du Cardinal",
+      "aliases": [
+        "du cardinal",
+        "du cardinal 45 50 52 n 75 47 45 o municipalite de denholm)",
+        "lac du cardinal",
+        "lac du cardinal 45 50 52 n 75 47 45 o municipalite de denholm)"
+      ],
+      "lat": 45.847778,
+      "lon": -75.795833
+    },
+    {
+      "id": 10153,
+      "zone_id": 10,
+      "nom_brut": "Lac du Castor Blanc ( 46°32'30\" N., 75°47'26\" O. , Municipalité d'Aumond)",
+      "nom": "Lac du Castor Blanc",
+      "nom_search": "lac du castor blanc 46 32 30 n 75 47 26 o municipalite d aumond)",
+      "segment_label": null,
+      "river_base_name": "Lac du Castor Blanc",
+      "aliases": [
+        "du castor blanc",
+        "du castor blanc 46 32 30 n 75 47 26 o municipalite d aumond)",
+        "lac du castor blanc",
+        "lac du castor blanc 46 32 30 n 75 47 26 o municipalite d aumond)"
+      ],
+      "lat": 46.541667,
+      "lon": -75.790556
+    },
+    {
+      "id": 3044,
+      "zone_id": 10,
+      "nom_brut": "Lac du Corbeau (Municipalité de Notre-Dame-du-Laus)( 46°11'48\" N., 75°28'30\" O. ).",
+      "nom": "Lac du Corbeau",
+      "nom_search": "lac du corbeau municipalite de notre dame du laus) 46 11 48 n 75 28 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Corbeau",
+      "aliases": [
+        "du corbeau",
+        "du corbeau municipalite de notre dame du laus) 46 11 48 n 75 28 30 o )",
+        "lac du corbeau",
+        "lac du corbeau municipalite de notre dame du laus) 46 11 48 n 75 28 30 o )"
+      ],
+      "lat": 46.196667,
+      "lon": -75.475
+    },
+    {
+      "id": 431,
+      "zone_id": 10,
+      "nom_brut": "Lac du Dépôt ( 45°58'31\" N., 76°40'52\" O. , Municipalité de Mansfield-et- Pontefract)",
+      "nom": "Lac du Dépôt",
+      "nom_search": "lac du depot 45 58 31 n 76 40 52 o municipalite de mansfield et pontefract)",
+      "segment_label": null,
+      "river_base_name": "Lac du Dépôt",
+      "aliases": [
+        "du depot",
+        "du depot 45 58 31 n 76 40 52 o municipalite de mansfield et pontefract)",
+        "lac du depot",
+        "lac du depot 45 58 31 n 76 40 52 o municipalite de mansfield et pontefract)"
+      ],
+      "lat": 45.975278,
+      "lon": -76.681111
+    },
+    {
+      "id": 10198,
+      "zone_id": 10,
+      "nom_brut": "Lac du Rang ( 45°51'33\" N., 76°17'04\" O. , Municipalité d'Alleyn-et-Cawood)",
+      "nom": "Lac du Rang",
+      "nom_search": "lac du rang 45 51 33 n 76 17 04 o municipalite d alleyn et cawood)",
+      "segment_label": null,
+      "river_base_name": "Lac du Rang",
+      "aliases": [
+        "du rang",
+        "du rang 45 51 33 n 76 17 04 o municipalite d alleyn et cawood)",
+        "lac du rang",
+        "lac du rang 45 51 33 n 76 17 04 o municipalite d alleyn et cawood)"
+      ],
+      "lat": 45.859167,
+      "lon": -76.284444
+    },
+    {
+      "id": 10225,
+      "zone_id": 10,
+      "nom_brut": "Lac Dudley ( 46°16'13\" N., 75°35'26\" O. )(Municipalités de Notre-Dame-de-Pontmain)",
+      "nom": "Lac Dudley",
+      "nom_search": "lac dudley 46 16 13 n 75 35 26 o ) municipalites de notre dame de pontmain)",
+      "segment_label": null,
+      "river_base_name": "Lac Dudley",
+      "aliases": [
+        "dudley",
+        "dudley 46 16 13 n 75 35 26 o ) municipalites de notre dame de pontmain)",
+        "lac dudley",
+        "lac dudley 46 16 13 n 75 35 26 o ) municipalites de notre dame de pontmain)"
+      ],
+      "lat": 46.270278,
+      "lon": -75.590556
+    },
+    {
+      "id": 2853,
+      "zone_id": 10,
+      "nom_brut": "Lac Dumont ( 46°03'58\" N., 76°26'51\" O. , Incluant la rivière Dumont, de l'exutoire du lac jusqu'à la fin du premier rapide, situé à environ 1,6 km en aval,, soit entre les points 46°00'37\" N., 76°28'08\" O. et 46°00'36\" N., 76°28'09\" O. , TNO de Lac-Nilgaut et municipalité de Otter Lake)",
+      "nom": "Lac Dumont",
+      "nom_search": "lac dumont 46 03 58 n 76 26 51 o incluant la riviere dumont de l exutoire du lac jusqu a la fin du premier rapide situe a environ 1 6 km en aval soit entre les points 46 00 37 n 76 28 08 o et 46 00 36 n 76 28 09 o tno de lac nilgaut et municipalite de otter lake)",
+      "segment_label": null,
+      "river_base_name": "Lac Dumont",
+      "aliases": [
+        "dumont",
+        "dumont 46 03 58 n 76 26 51 o incluant la riviere dumont de l exutoire du lac jusqu a la fin du premier rapide situe a environ 1 6 km en aval soit entre les points 46 00 37 n 76 28 08 o et 46 00 36 n 76 28 09 o tno de lac nilgaut et municipalite de otter lake)",
+        "lac dumont",
+        "lac dumont 46 03 58 n 76 26 51 o incluant la riviere dumont de l exutoire du lac jusqu a la fin du premier rapide situe a environ 1 6 km en aval soit entre les points 46 00 37 n 76 28 08 o et 46 00 36 n 76 28 09 o tno de lac nilgaut et municipalite de otter lake)"
+      ],
+      "lat": 46.066111,
+      "lon": -76.4475
+    },
+    {
+      "id": 2854,
+      "zone_id": 10,
+      "nom_brut": "Lac Earhart - (Municipalité de Notre-Dame-du-Laus)( 46°05'13\" N., 75°26'03\" O. ).",
+      "nom": "Lac Earhart",
+      "nom_search": "lac earhart municipalite de notre dame du laus) 46 05 13 n 75 26 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Earhart -",
+      "aliases": [
+        "earhart",
+        "earhart municipalite de notre dame du laus) 46 05 13 n 75 26 03 o )",
+        "lac earhart",
+        "lac earhart municipalite de notre dame du laus) 46 05 13 n 75 26 03 o )"
+      ],
+      "lat": 46.086944,
+      "lon": -75.434167
+    },
+    {
+      "id": 2839,
+      "zone_id": 10,
+      "nom_brut": "Lac en Coeur ( 45°46'11\" N., 75°14'03\" O. , Municipalités de Mulgrave-et-Derry et de Ripon)",
+      "nom": "Lac en Coeur",
+      "nom_search": "lac en coeur 45 46 11 n 75 14 03 o municipalites de mulgrave et derry et de ripon)",
+      "segment_label": null,
+      "river_base_name": "Lac en Coeur",
+      "aliases": [
+        "en coeur",
+        "en coeur 45 46 11 n 75 14 03 o municipalites de mulgrave et derry et de ripon)",
+        "lac en coeur",
+        "lac en coeur 45 46 11 n 75 14 03 o municipalites de mulgrave et derry et de ripon)"
+      ],
+      "lat": 45.769722,
+      "lon": -75.234167
+    },
+    {
+      "id": 10161,
+      "zone_id": 10,
+      "nom_brut": "Lac Findlay ( 45°58'10\" N., 76°53'34\" O. , Municipalité de Waltham)",
+      "nom": "Lac Findlay",
+      "nom_search": "lac findlay 45 58 10 n 76 53 34 o municipalite de waltham)",
+      "segment_label": null,
+      "river_base_name": "Lac Findlay",
+      "aliases": [
+        "findlay",
+        "findlay 45 58 10 n 76 53 34 o municipalite de waltham)",
+        "lac findlay",
+        "lac findlay 45 58 10 n 76 53 34 o municipalite de waltham)"
+      ],
+      "lat": 45.969444,
+      "lon": -76.892778
+    },
+    {
+      "id": 3054,
+      "zone_id": 10,
+      "nom_brut": "Lac Fiset (Notre-Dame-de-Pontmain) ( 46°15'01\" N., 75°43'40\" O. )",
+      "nom": "Lac Fiset",
+      "nom_search": "lac fiset notre dame de pontmain) 46 15 01 n 75 43 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Fiset",
+      "aliases": [
+        "fiset",
+        "fiset notre dame de pontmain) 46 15 01 n 75 43 40 o )",
+        "lac fiset",
+        "lac fiset notre dame de pontmain) 46 15 01 n 75 43 40 o )"
+      ],
+      "lat": 46.250278,
+      "lon": -75.727778
+    },
+    {
+      "id": 554,
+      "zone_id": 10,
+      "nom_brut": "Lac François entre un point situé à 100 m en amont et un autre situé à 100 m en aval du pont qui sépare le lac François et le Petit lac François ( 46°29'27'' N., 75°19'02'' O. )(municipalité de Kiamika).",
+      "nom": "Lac François entre un point situé à 100 m en amont et un autre situé à 100 m en aval du pont qui sépare le lac François et le Petit lac François",
+      "nom_search": "lac francois entre un point situe a 100 m en amont et un autre situe a 100 m en aval du pont qui separe le lac francois et le petit lac francois 46 29 27 n 75 19 02 o ) municipalite de kiamika)",
+      "segment_label": null,
+      "river_base_name": "Lac François",
+      "aliases": [
+        "francois",
+        "francois entre un point situe a 100 m en amont et un autre situe a 100 m en aval du pont qui separe le lac francois et le petit lac francois 46 29 27 n 75 19 02 o ) municipalite de kiamika)",
+        "lac francois",
+        "lac francois entre un point situe a 100 m en amont et un autre situe a 100 m en aval du pont qui separe le lac francois et le petit lac francois 46 29 27 n 75 19 02 o ) municipalite de kiamika)"
+      ],
+      "lat": 46.490833,
+      "lon": -75.317222
+    },
+    {
+      "id": 2860,
+      "zone_id": 10,
+      "nom_brut": "Lac Gagnon ( 46°06'33\" N., 75°07'37\" O. , Municipalité de Duhamel)",
+      "nom": "Lac Gagnon",
+      "nom_search": "lac gagnon 46 06 33 n 75 07 37 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Lac Gagnon",
+      "aliases": [
+        "gagnon",
+        "gagnon 46 06 33 n 75 07 37 o municipalite de duhamel)",
+        "lac gagnon",
+        "lac gagnon 46 06 33 n 75 07 37 o municipalite de duhamel)"
+      ],
+      "lat": 46.109167,
+      "lon": -75.126944
+    },
+    {
+      "id": 2862,
+      "zone_id": 10,
+      "nom_brut": "Lac Galarneau ( 46°08'47\" N., 76°08'34\" O. , Municipalités de Mansfield-et-Pontefract et de Lac-Nilgaut)",
+      "nom": "Lac Galarneau",
+      "nom_search": "lac galarneau 46 08 47 n 76 08 34 o municipalites de mansfield et pontefract et de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Galarneau",
+      "aliases": [
+        "galarneau",
+        "galarneau 46 08 47 n 76 08 34 o municipalites de mansfield et pontefract et de lac nilgaut)",
+        "lac galarneau",
+        "lac galarneau 46 08 47 n 76 08 34 o municipalites de mansfield et pontefract et de lac nilgaut)"
+      ],
+      "lat": 46.146389,
+      "lon": -76.142778
+    },
+    {
+      "id": 2863,
+      "zone_id": 10,
+      "nom_brut": "Lac Gatineau - (Municipalité de Mont-Laurier)( 46°32'58\" N., 75°39'19\" O. ).",
+      "nom": "Lac Gatineau",
+      "nom_search": "lac gatineau municipalite de mont laurier) 46 32 58 n 75 39 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gatineau -",
+      "aliases": [
+        "gatineau",
+        "gatineau municipalite de mont laurier) 46 32 58 n 75 39 19 o )",
+        "lac gatineau",
+        "lac gatineau municipalite de mont laurier) 46 32 58 n 75 39 19 o )"
+      ],
+      "lat": 46.549444,
+      "lon": -75.655278
+    },
+    {
+      "id": 501,
+      "zone_id": 10,
+      "nom_brut": "Lac Gaucher ( 46°23'34'' N., 75°36'12'' O. ) (Saint-Aimé-du-Lac-des-Îles)",
+      "nom": "Lac Gaucher",
+      "nom_search": "lac gaucher 46 23 34 n 75 36 12 o ) saint aime du lac des iles)",
+      "segment_label": null,
+      "river_base_name": "Lac Gaucher",
+      "aliases": [
+        "gaucher",
+        "gaucher 46 23 34 n 75 36 12 o ) saint aime du lac des iles)",
+        "lac gaucher",
+        "lac gaucher 46 23 34 n 75 36 12 o ) saint aime du lac des iles)"
+      ],
+      "lat": 46.392778,
+      "lon": -75.603333
+    },
+    {
+      "id": 10163,
+      "zone_id": 10,
+      "nom_brut": "Lac Gaudry ( 46°01'20\" N., 76°39'54\" O. , Municipalité de Mansfield-et-Pontefract)",
+      "nom": "Lac Gaudry",
+      "nom_search": "lac gaudry 46 01 20 n 76 39 54 o municipalite de mansfield et pontefract)",
+      "segment_label": null,
+      "river_base_name": "Lac Gaudry",
+      "aliases": [
+        "gaudry",
+        "gaudry 46 01 20 n 76 39 54 o municipalite de mansfield et pontefract)",
+        "lac gaudry",
+        "lac gaudry 46 01 20 n 76 39 54 o municipalite de mansfield et pontefract)"
+      ],
+      "lat": 46.022222,
+      "lon": -76.665
+    },
+    {
+      "id": 10165,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand lac à Roy ( 45°49'04\" N., 75°12'05\" O. , Municipalité de Ripon)",
+      "nom": "Lac Grand lac à Roy",
+      "nom_search": "lac grand lac a roy 45 49 04 n 75 12 05 o municipalite de ripon)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac à Roy",
+      "aliases": [
+        "grand lac a roy",
+        "grand lac a roy 45 49 04 n 75 12 05 o municipalite de ripon)",
+        "lac grand lac a roy",
+        "lac grand lac a roy 45 49 04 n 75 12 05 o municipalite de ripon)"
+      ],
+      "lat": 45.817778,
+      "lon": -75.201389
+    },
+    {
+      "id": 3053,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand lac des Cèdres (Municipalités de Messines et Kitigan Zibi)( 46°18'04\" N., 76°06'54\" O. ).",
+      "nom": "Lac Grand lac des Cèdres",
+      "nom_search": "lac grand lac des cedres municipalites de messines et kitigan zibi) 46 18 04 n 76 06 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac des Cèdres",
+      "aliases": [
+        "grand lac des cedres",
+        "grand lac des cedres municipalites de messines et kitigan zibi) 46 18 04 n 76 06 54 o )",
+        "lac grand lac des cedres",
+        "lac grand lac des cedres municipalites de messines et kitigan zibi) 46 18 04 n 76 06 54 o )"
+      ],
+      "lat": 46.301111,
+      "lon": -76.115
+    },
+    {
+      "id": 3114,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand lac du Cerf - (Municipalité de Lac-du-Cerf)( 46°16'17\" N., 75°29'54\" O. ).",
+      "nom": "Lac Grand lac du Cerf",
+      "nom_search": "lac grand lac du cerf municipalite de lac du cerf) 46 16 17 n 75 29 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac du Cerf -",
+      "aliases": [
+        "grand lac du cerf",
+        "grand lac du cerf municipalite de lac du cerf) 46 16 17 n 75 29 54 o )",
+        "lac grand lac du cerf",
+        "lac grand lac du cerf municipalite de lac du cerf) 46 16 17 n 75 29 54 o )"
+      ],
+      "lat": 46.271389,
+      "lon": -75.498333
+    },
+    {
+      "id": 2867,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand lac du Pin Rouge ( 45°48'33\" N., 75°12'33\" O. , Municipalité de Ripon)",
+      "nom": "Lac Grand lac du Pin Rouge",
+      "nom_search": "lac grand lac du pin rouge 45 48 33 n 75 12 33 o municipalite de ripon)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac du Pin Rouge",
+      "aliases": [
+        "grand lac du pin rouge",
+        "grand lac du pin rouge 45 48 33 n 75 12 33 o municipalite de ripon)",
+        "lac grand lac du pin rouge",
+        "lac grand lac du pin rouge 45 48 33 n 75 12 33 o municipalite de ripon)"
+      ],
+      "lat": 45.809167,
+      "lon": -75.209167
+    },
+    {
+      "id": 506,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand lac Nominingue - (Municipalité de Nominingue) ( 46°25'55\" N., 74°58'50\" O. )",
+      "nom": "Lac Grand lac Nominingue",
+      "nom_search": "lac grand lac nominingue municipalite de nominingue) 46 25 55 n 74 58 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Nominingue -",
+      "aliases": [
+        "grand lac nominingue",
+        "grand lac nominingue municipalite de nominingue) 46 25 55 n 74 58 50 o )",
+        "lac grand lac nominingue",
+        "lac grand lac nominingue municipalite de nominingue) 46 25 55 n 74 58 50 o )"
+      ],
+      "lat": 46.431944,
+      "lon": -74.980556
+    },
+    {
+      "id": 2869,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand lac Rond ( 46°14'41\" N., 75°53'14\" O. , Municipalités de Bouchette et de Sainte-Thérèse-de-la-Gatineau)",
+      "nom": "Lac Grand lac Rond",
+      "nom_search": "lac grand lac rond 46 14 41 n 75 53 14 o municipalites de bouchette et de sainte therese de la gatineau)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Rond",
+      "aliases": [
+        "grand lac rond",
+        "grand lac rond 46 14 41 n 75 53 14 o municipalites de bouchette et de sainte therese de la gatineau)",
+        "lac grand lac rond",
+        "lac grand lac rond 46 14 41 n 75 53 14 o municipalites de bouchette et de sainte therese de la gatineau)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.244722,
+      "lon": -75.887222
+    },
+    {
+      "id": 2865,
+      "zone_id": 10,
+      "nom_brut": "Lac Grand ( 45°41'07\" N., 75°39'00\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac Grand",
+      "nom_search": "lac grand 45 41 07 n 75 39 00 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand",
+      "aliases": [
+        "grand",
+        "grand 45 41 07 n 75 39 00 o municipalite de val des monts)",
+        "lac grand",
+        "lac grand 45 41 07 n 75 39 00 o municipalite de val des monts)"
+      ],
+      "lat": 45.685278,
+      "lon": -75.65
+    },
+    {
+      "id": 2871,
+      "zone_id": 10,
+      "nom_brut": "Lac Hawk ( 45°48'21\" N., 75°20'24\" O. , Municipalité de Mulgrave-et-Derry)",
+      "nom": "Lac Hawk",
+      "nom_search": "lac hawk 45 48 21 n 75 20 24 o municipalite de mulgrave et derry)",
+      "segment_label": null,
+      "river_base_name": "Lac Hawk",
+      "aliases": [
+        "hawk",
+        "hawk 45 48 21 n 75 20 24 o municipalite de mulgrave et derry)",
+        "lac hawk",
+        "lac hawk 45 48 21 n 75 20 24 o municipalite de mulgrave et derry)"
+      ],
+      "lat": 45.805833,
+      "lon": -75.34
+    },
+    {
+      "id": 435,
+      "zone_id": 10,
+      "nom_brut": "Lac Heafey ( 46°15'45\" N., 76°08'33\" O. , Municipalité de Messines)",
+      "nom": "Lac Heafey",
+      "nom_search": "lac heafey 46 15 45 n 76 08 33 o municipalite de messines)",
+      "segment_label": null,
+      "river_base_name": "Lac Heafey",
+      "aliases": [
+        "heafey",
+        "heafey 46 15 45 n 76 08 33 o municipalite de messines)",
+        "lac heafey",
+        "lac heafey 46 15 45 n 76 08 33 o municipalite de messines)"
+      ],
+      "lat": 46.2625,
+      "lon": -76.1425
+    },
+    {
+      "id": 2872,
+      "zone_id": 10,
+      "nom_brut": "Lac Hickey - ( 45°45'48\" N., 76°05'28\" O. , Municipalités de Mansfield-et-Pontefract et d'Otter Lake)",
+      "nom": "Lac Hickey",
+      "nom_search": "lac hickey 45 45 48 n 76 05 28 o municipalites de mansfield et pontefract et d otter lake)",
+      "segment_label": null,
+      "river_base_name": "Lac Hickey -",
+      "aliases": [
+        "hickey",
+        "hickey 45 45 48 n 76 05 28 o municipalites de mansfield et pontefract et d otter lake)",
+        "lac hickey",
+        "lac hickey 45 45 48 n 76 05 28 o municipalites de mansfield et pontefract et d otter lake)"
+      ],
+      "lat": 45.763333,
+      "lon": -76.091111
+    },
+    {
+      "id": 10167,
+      "zone_id": 10,
+      "nom_brut": "Lac Hilaire ( 46°03'12\" N., 76°22'49\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac Hilaire",
+      "nom_search": "lac hilaire 46 03 12 n 76 22 49 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Hilaire",
+      "aliases": [
+        "hilaire",
+        "hilaire 46 03 12 n 76 22 49 o tno de lac nilgaut)",
+        "lac hilaire",
+        "lac hilaire 46 03 12 n 76 22 49 o tno de lac nilgaut)"
+      ],
+      "lat": 46.053333,
+      "lon": -76.380278
+    },
+    {
+      "id": 2874,
+      "zone_id": 10,
+      "nom_brut": "Lac Iroquois ( 46°02'59\" N., 75°10'07\" O. , Municipalité de Duhamel)",
+      "nom": "Lac Iroquois",
+      "nom_search": "lac iroquois 46 02 59 n 75 10 07 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Lac Iroquois",
+      "aliases": [
+        "iroquois",
+        "iroquois 46 02 59 n 75 10 07 o municipalite de duhamel)",
+        "lac iroquois",
+        "lac iroquois 46 02 59 n 75 10 07 o municipalite de duhamel)"
+      ],
+      "lat": 46.049722,
+      "lon": -75.168611
+    },
+    {
+      "id": 10169,
+      "zone_id": 10,
+      "nom_brut": "Lac Johnson ( 45°46'41\" N., 76°23'33\" O. , Municipalité de Thorne)",
+      "nom": "Lac Johnson",
+      "nom_search": "lac johnson 45 46 41 n 76 23 33 o municipalite de thorne)",
+      "segment_label": null,
+      "river_base_name": "Lac Johnson",
+      "aliases": [
+        "johnson",
+        "johnson 45 46 41 n 76 23 33 o municipalite de thorne)",
+        "lac johnson",
+        "lac johnson 45 46 41 n 76 23 33 o municipalite de thorne)"
+      ],
+      "lat": 45.778056,
+      "lon": -76.3925
+    },
+    {
+      "id": 2879,
+      "zone_id": 10,
+      "nom_brut": "Lac Kensington ( 46°23'50\" N., 75°43'04\" O. , Municipalités de Déléage et de Notre-Dame-de-Pontmain)",
+      "nom": "Lac Kensington",
+      "nom_search": "lac kensington 46 23 50 n 75 43 04 o municipalites de deleage et de notre dame de pontmain)",
+      "segment_label": null,
+      "river_base_name": "Lac Kensington",
+      "aliases": [
+        "kensington",
+        "kensington 46 23 50 n 75 43 04 o municipalites de deleage et de notre dame de pontmain)",
+        "lac kensington",
+        "lac kensington 46 23 50 n 75 43 04 o municipalites de deleage et de notre dame de pontmain)"
+      ],
+      "lat": 46.397222,
+      "lon": -75.717778
+    },
+    {
+      "id": 2902,
+      "zone_id": 10,
+      "nom_brut": "Lac La Minerve - (Municipalité de La Minerve)( 46°13'18\" N., 75°01'46\" O. ).",
+      "nom": "Lac La Minerve",
+      "nom_search": "lac la minerve municipalite de la minerve) 46 13 18 n 75 01 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac La Minerve -",
+      "aliases": [
+        "la minerve",
+        "la minerve municipalite de la minerve) 46 13 18 n 75 01 46 o )",
+        "lac la minerve",
+        "lac la minerve municipalite de la minerve) 46 13 18 n 75 01 46 o )"
+      ],
+      "lat": 46.221667,
+      "lon": -75.029444
+    },
+    {
+      "id": 2881,
+      "zone_id": 10,
+      "nom_brut": "Lac la Rouge ( 46°04'04\" N., 74°59'02\" O. , Municipalité de Lac-des-Plages)",
+      "nom": "Lac la Rouge",
+      "nom_search": "lac la rouge 46 04 04 n 74 59 02 o municipalite de lac des plages)",
+      "segment_label": null,
+      "river_base_name": "Lac la Rouge",
+      "aliases": [
+        "la rouge",
+        "la rouge 46 04 04 n 74 59 02 o municipalite de lac des plages)",
+        "lac la rouge",
+        "lac la rouge 46 04 04 n 74 59 02 o municipalite de lac des plages)"
+      ],
+      "lat": 46.067778,
+      "lon": -74.983889
+    },
+    {
+      "id": 2882,
+      "zone_id": 10,
+      "nom_brut": "Lac Labelle - (Municipalité de Labelle)( 46°13'44\" N., 74°51'13\" O. ).",
+      "nom": "Lac Labelle",
+      "nom_search": "lac labelle municipalite de labelle) 46 13 44 n 74 51 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Labelle -",
+      "aliases": [
+        "labelle",
+        "labelle municipalite de labelle) 46 13 44 n 74 51 13 o )",
+        "lac labelle",
+        "lac labelle municipalite de labelle) 46 13 44 n 74 51 13 o )"
+      ],
+      "lat": 46.228889,
+      "lon": -74.853611
+    },
+    {
+      "id": 2884,
+      "zone_id": 10,
+      "nom_brut": "Lac Lady ( 45°50'15\" N., 75°20'05\" O. , Municipalité de Mulgrave-et-Derry)",
+      "nom": "Lac Lady",
+      "nom_search": "lac lady 45 50 15 n 75 20 05 o municipalite de mulgrave et derry)",
+      "segment_label": null,
+      "river_base_name": "Lac Lady",
+      "aliases": [
+        "lac lady",
+        "lac lady 45 50 15 n 75 20 05 o municipalite de mulgrave et derry)",
+        "lady",
+        "lady 45 50 15 n 75 20 05 o municipalite de mulgrave et derry)"
+      ],
+      "lat": 45.8375,
+      "lon": -75.334722
+    },
+    {
+      "id": 2887,
+      "zone_id": 10,
+      "nom_brut": "Lac Lafontaine ( 46°04'27\" N., 75°10'23\" O. , Municipalité de Duhamel)",
+      "nom": "Lac Lafontaine",
+      "nom_search": "lac lafontaine 46 04 27 n 75 10 23 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Lac Lafontaine",
+      "aliases": [
+        "lac lafontaine",
+        "lac lafontaine 46 04 27 n 75 10 23 o municipalite de duhamel)",
+        "lafontaine",
+        "lafontaine 46 04 27 n 75 10 23 o municipalite de duhamel)"
+      ],
+      "lat": 46.074167,
+      "lon": -75.173056
+    },
+    {
+      "id": 10171,
+      "zone_id": 10,
+      "nom_brut": "Lac Laforest ( 46°05'55\" N., 76°31'27\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac Laforest",
+      "nom_search": "lac laforest 46 05 55 n 76 31 27 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Laforest",
+      "aliases": [
+        "lac laforest",
+        "lac laforest 46 05 55 n 76 31 27 o tno de lac nilgaut)",
+        "laforest",
+        "laforest 46 05 55 n 76 31 27 o tno de lac nilgaut)"
+      ],
+      "lat": 46.098611,
+      "lon": -76.524167
+    },
+    {
+      "id": 505,
+      "zone_id": 10,
+      "nom_brut": "Lac Lesage - (Municipalités de Nominingue, de Lac-Ernest et de La Minerve)( 46°18'38\" N., 75°02'30\" O. )",
+      "nom": "Lac Lesage",
+      "nom_search": "lac lesage municipalites de nominingue de lac ernest et de la minerve) 46 18 38 n 75 02 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lesage -",
+      "aliases": [
+        "lac lesage",
+        "lac lesage municipalites de nominingue de lac ernest et de la minerve) 46 18 38 n 75 02 30 o )",
+        "lesage",
+        "lesage municipalites de nominingue de lac ernest et de la minerve) 46 18 38 n 75 02 30 o )"
+      ],
+      "lat": 46.310556,
+      "lon": -75.041667
+    },
+    {
+      "id": 442,
+      "zone_id": 10,
+      "nom_brut": "Lac Logue ( 46°38'24\" N., 76°05'07\" O. , Municipalité de Montcerf-Lytton)",
+      "nom": "Lac Logue",
+      "nom_search": "lac logue 46 38 24 n 76 05 07 o municipalite de montcerf lytton)",
+      "segment_label": null,
+      "river_base_name": "Lac Logue",
+      "aliases": [
+        "lac logue",
+        "lac logue 46 38 24 n 76 05 07 o municipalite de montcerf lytton)",
+        "logue",
+        "logue 46 38 24 n 76 05 07 o municipalite de montcerf lytton)"
+      ],
+      "lat": 46.64,
+      "lon": -76.085278
+    },
+    {
+      "id": 10181,
+      "zone_id": 10,
+      "nom_brut": "Lac Long ( 45°42'07\" N., 75°19'30\" O. , Municipalité de Mayo)",
+      "nom": "Lac Long",
+      "nom_search": "lac long 45 42 07 n 75 19 30 o municipalite de mayo)",
+      "segment_label": null,
+      "river_base_name": "Lac Long",
+      "aliases": [
+        "lac long",
+        "lac long 45 42 07 n 75 19 30 o municipalite de mayo)",
+        "long",
+        "long 45 42 07 n 75 19 30 o municipalite de mayo)"
+      ],
+      "lat": 45.701944,
+      "lon": -75.325
+    },
+    {
+      "id": 2893,
+      "zone_id": 10,
+      "nom_brut": "Lac Marie-Louise - (Municipalité de La Minerve)( 46°14'01\" N., 74°58'18\" O. )",
+      "nom": "Lac Marie-Louise",
+      "nom_search": "lac marie louise municipalite de la minerve) 46 14 01 n 74 58 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Marie-Louise -",
+      "aliases": [
+        "lac marie louise",
+        "lac marie louise municipalite de la minerve) 46 14 01 n 74 58 18 o )",
+        "marie louise",
+        "marie louise municipalite de la minerve) 46 14 01 n 74 58 18 o )"
+      ],
+      "lat": 46.233611,
+      "lon": -74.971667
+    },
+    {
+      "id": 10961,
+      "zone_id": 10,
+      "nom_brut": "Lac McArthur ( 45°42'29\" N., 75°40'13\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac McArthur",
+      "nom_search": "lac mcarthur 45 42 29 n 75 40 13 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac McArthur",
+      "aliases": [
+        "lac mcarthur",
+        "lac mcarthur 45 42 29 n 75 40 13 o municipalite de val des monts)",
+        "mcarthur",
+        "mcarthur 45 42 29 n 75 40 13 o municipalite de val des monts)"
+      ],
+      "lat": 45.708056,
+      "lon": -75.670278
+    },
+    {
+      "id": 10183,
+      "zone_id": 10,
+      "nom_brut": "Lac McArthur ( 45°50'41\" N., 75°51'31\" O. , Municipalité de Denholm)",
+      "nom": "Lac McArthur",
+      "nom_search": "lac mcarthur 45 50 41 n 75 51 31 o municipalite de denholm)",
+      "segment_label": null,
+      "river_base_name": "Lac McArthur",
+      "aliases": [
+        "lac mcarthur",
+        "lac mcarthur 45 50 41 n 75 51 31 o municipalite de denholm)",
+        "mcarthur",
+        "mcarthur 45 50 41 n 75 51 31 o municipalite de denholm)"
+      ],
+      "lat": 45.844722,
+      "lon": -75.858611
+    },
+    {
+      "id": 2899,
+      "zone_id": 10,
+      "nom_brut": "Lac McFee ( 45°42'53\" N., 75°37'20\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac McFee",
+      "nom_search": "lac mcfee 45 42 53 n 75 37 20 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac McFee",
+      "aliases": [
+        "lac mcfee",
+        "lac mcfee 45 42 53 n 75 37 20 o municipalite de val des monts)",
+        "mcfee",
+        "mcfee 45 42 53 n 75 37 20 o municipalite de val des monts)"
+      ],
+      "lat": 45.714722,
+      "lon": -75.622222
+    },
+    {
+      "id": 2901,
+      "zone_id": 10,
+      "nom_brut": "Lac McGregor ( 45°39'26\" N., 75°38'47\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac McGregor",
+      "nom_search": "lac mcgregor 45 39 26 n 75 38 47 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac McGregor",
+      "aliases": [
+        "lac mcgregor",
+        "lac mcgregor 45 39 26 n 75 38 47 o municipalite de val des monts)",
+        "mcgregor",
+        "mcgregor 45 39 26 n 75 38 47 o municipalite de val des monts)"
+      ],
+      "lat": 45.657222,
+      "lon": -75.646389
+    },
+    {
+      "id": 571,
+      "zone_id": 10,
+      "nom_brut": "Lac McGuire Seulement ses tributaires (Municipalités de Mulgrave-et-Derry et L'Ange-Gardien)",
+      "nom": "Lac McGuire Seulement ses tributaires",
+      "nom_search": "lac mcguire seulement ses tributaires municipalites de mulgrave et derry et l ange gardien)",
+      "segment_label": null,
+      "river_base_name": "Lac McGuire Seulement ses tributaires",
+      "aliases": [
+        "lac mcguire seulement ses tributaires",
+        "lac mcguire seulement ses tributaires municipalites de mulgrave et derry et l ange gardien)",
+        "mcguire seulement ses tributaires",
+        "mcguire seulement ses tributaires municipalites de mulgrave et derry et l ange gardien)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 10186,
+      "zone_id": 10,
+      "nom_brut": "Lac McKay ( 45°59'56\" N., 76°38'22\" O. , Municipalités de Mansfield-et-Pontefract et d'Otter Lake)",
+      "nom": "Lac McKay",
+      "nom_search": "lac mckay 45 59 56 n 76 38 22 o municipalites de mansfield et pontefract et d otter lake)",
+      "segment_label": null,
+      "river_base_name": "Lac McKay",
+      "aliases": [
+        "lac mckay",
+        "lac mckay 45 59 56 n 76 38 22 o municipalites de mansfield et pontefract et d otter lake)",
+        "mckay",
+        "mckay 45 59 56 n 76 38 22 o municipalites de mansfield et pontefract et d otter lake)"
+      ],
+      "lat": 45.998889,
+      "lon": -76.639444
+    },
+    {
+      "id": 3022,
+      "zone_id": 10,
+      "nom_brut": "Lac McPhee (Municipalité de Lac-du-Cerf)( 46°15'58'' N., 75°28'14'' O. )",
+      "nom": "Lac McPhee",
+      "nom_search": "lac mcphee municipalite de lac du cerf) 46 15 58 n 75 28 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac McPhee",
+      "aliases": [
+        "lac mcphee",
+        "lac mcphee municipalite de lac du cerf) 46 15 58 n 75 28 14 o )",
+        "mcphee",
+        "mcphee municipalite de lac du cerf) 46 15 58 n 75 28 14 o )"
+      ],
+      "lat": 46.266111,
+      "lon": -75.470556
+    },
+    {
+      "id": 10188,
+      "zone_id": 10,
+      "nom_brut": "Lac Mecham ( 45°45'15\" N., 76°22'18\" O. , Municipalité de Thorne)",
+      "nom": "Lac Mecham",
+      "nom_search": "lac mecham 45 45 15 n 76 22 18 o municipalite de thorne)",
+      "segment_label": null,
+      "river_base_name": "Lac Mecham",
+      "aliases": [
+        "lac mecham",
+        "lac mecham 45 45 15 n 76 22 18 o municipalite de thorne)",
+        "mecham",
+        "mecham 45 45 15 n 76 22 18 o municipalite de thorne)"
+      ],
+      "lat": 45.754167,
+      "lon": -76.371667
+    },
+    {
+      "id": 574,
+      "zone_id": 10,
+      "nom_brut": "Lac Meech Seulement ses tributaires (Municipalité de Chelsea et Pontiac)",
+      "nom": "Lac Meech Seulement ses tributaires",
+      "nom_search": "lac meech seulement ses tributaires municipalite de chelsea et pontiac)",
+      "segment_label": null,
+      "river_base_name": "Lac Meech Seulement ses tributaires",
+      "aliases": [
+        "lac meech seulement ses tributaires",
+        "lac meech seulement ses tributaires municipalite de chelsea et pontiac)",
+        "meech seulement ses tributaires",
+        "meech seulement ses tributaires municipalite de chelsea et pontiac)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3116,
+      "zone_id": 10,
+      "nom_brut": "Lac Michel - ( 46°16'46\" N., 75°49'38\" O. , Municipalité de Sainte-Thérèse-de-la-Gatineau)",
+      "nom": "Lac Michel",
+      "nom_search": "lac michel 46 16 46 n 75 49 38 o municipalite de sainte therese de la gatineau)",
+      "segment_label": null,
+      "river_base_name": "Lac Michel -",
+      "aliases": [
+        "lac michel",
+        "lac michel 46 16 46 n 75 49 38 o municipalite de sainte therese de la gatineau)",
+        "michel",
+        "michel 46 16 46 n 75 49 38 o municipalite de sainte therese de la gatineau)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.279444,
+      "lon": -75.827222
+    },
+    {
+      "id": 10190,
+      "zone_id": 10,
+      "nom_brut": "Lac Moiseau ( 46°05'18\" N., 76°53'05\" O. , Municipalité de Waltham)",
+      "nom": "Lac Moiseau",
+      "nom_search": "lac moiseau 46 05 18 n 76 53 05 o municipalite de waltham)",
+      "segment_label": null,
+      "river_base_name": "Lac Moiseau",
+      "aliases": [
+        "lac moiseau",
+        "lac moiseau 46 05 18 n 76 53 05 o municipalite de waltham)",
+        "moiseau",
+        "moiseau 46 05 18 n 76 53 05 o municipalite de waltham)"
+      ],
+      "lat": 46.088333,
+      "lon": -76.884722
+    },
+    {
+      "id": 10192,
+      "zone_id": 10,
+      "nom_brut": "Lac Moorhead ( 46°10'04\" N., 76°31'37\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac Moorhead",
+      "nom_search": "lac moorhead 46 10 04 n 76 31 37 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Moorhead",
+      "aliases": [
+        "lac moorhead",
+        "lac moorhead 46 10 04 n 76 31 37 o tno de lac nilgaut)",
+        "moorhead",
+        "moorhead 46 10 04 n 76 31 37 o tno de lac nilgaut)"
+      ],
+      "lat": 46.167778,
+      "lon": -76.526944
+    },
+    {
+      "id": 10127,
+      "zone_id": 10,
+      "nom_brut": "Lac Moreno ( 46°25'27\" N., 75°09'03\" O. , Municipalité de Nominingue).",
+      "nom": "Lac Moreno",
+      "nom_search": "lac moreno 46 25 27 n 75 09 03 o municipalite de nominingue)",
+      "segment_label": null,
+      "river_base_name": "Lac Moreno",
+      "aliases": [
+        "lac moreno",
+        "lac moreno 46 25 27 n 75 09 03 o municipalite de nominingue)",
+        "moreno",
+        "moreno 46 25 27 n 75 09 03 o municipalite de nominingue)"
+      ],
+      "lat": 46.424167,
+      "lon": -75.150833
+    },
+    {
+      "id": 456,
+      "zone_id": 10,
+      "nom_brut": "Lac Mulet ( 45°57'16\" N., 75°13'04\" O. , Municipalité de Montpellier)",
+      "nom": "Lac Mulet",
+      "nom_search": "lac mulet 45 57 16 n 75 13 04 o municipalite de montpellier)",
+      "segment_label": null,
+      "river_base_name": "Lac Mulet",
+      "aliases": [
+        "lac mulet",
+        "lac mulet 45 57 16 n 75 13 04 o municipalite de montpellier)",
+        "mulet",
+        "mulet 45 57 16 n 75 13 04 o municipalite de montpellier)"
+      ],
+      "lat": 45.954444,
+      "lon": -75.217778
+    },
+    {
+      "id": 2968,
+      "zone_id": 10,
+      "nom_brut": "Lac Normandeau ( 45°50'37\" N., 75°49'29\" O. , Municipalité de Denholm)",
+      "nom": "Lac Normandeau",
+      "nom_search": "lac normandeau 45 50 37 n 75 49 29 o municipalite de denholm)",
+      "segment_label": null,
+      "river_base_name": "Lac Normandeau",
+      "aliases": [
+        "lac normandeau",
+        "lac normandeau 45 50 37 n 75 49 29 o municipalite de denholm)",
+        "normandeau",
+        "normandeau 45 50 37 n 75 49 29 o municipalite de denholm)"
+      ],
+      "lat": 45.843611,
+      "lon": -75.824722
+    },
+    {
+      "id": 2908,
+      "zone_id": 10,
+      "nom_brut": "Lac Papineau ( 45°48'34\" N., 74°45'46\" O. , Municipalités de Boileau, Notre-Dame-de-Bonsecours, Harrington et Grenville-sur-la-Rouge)",
+      "nom": "Lac Papineau",
+      "nom_search": "lac papineau 45 48 34 n 74 45 46 o municipalites de boileau notre dame de bonsecours harrington et grenville sur la rouge)",
+      "segment_label": null,
+      "river_base_name": "Lac Papineau",
+      "aliases": [
+        "lac papineau",
+        "lac papineau 45 48 34 n 74 45 46 o municipalites de boileau notre dame de bonsecours harrington et grenville sur la rouge)",
+        "papineau",
+        "papineau 45 48 34 n 74 45 46 o municipalites de boileau notre dame de bonsecours harrington et grenville sur la rouge)"
+      ],
+      "lat": 45.809444,
+      "lon": -74.762778
+    },
+    {
+      "id": 508,
+      "zone_id": 10,
+      "nom_brut": "Lac Paquin ( 46°08'01\" N., 76°02'58\" O. , Municipalité de Gracefield)",
+      "nom": "Lac Paquin",
+      "nom_search": "lac paquin 46 08 01 n 76 02 58 o municipalite de gracefield)",
+      "segment_label": null,
+      "river_base_name": "Lac Paquin",
+      "aliases": [
+        "lac paquin",
+        "lac paquin 46 08 01 n 76 02 58 o municipalite de gracefield)",
+        "paquin",
+        "paquin 46 08 01 n 76 02 58 o municipalite de gracefield)"
+      ],
+      "lat": 46.133611,
+      "lon": -76.049444
+    },
+    {
+      "id": 2910,
+      "zone_id": 10,
+      "nom_brut": "Lac Patterson ( 46°08'29\" N., 76°12'11\" O. , Municipalité de Cayamant)",
+      "nom": "Lac Patterson",
+      "nom_search": "lac patterson 46 08 29 n 76 12 11 o municipalite de cayamant)",
+      "segment_label": null,
+      "river_base_name": "Lac Patterson",
+      "aliases": [
+        "lac patterson",
+        "lac patterson 46 08 29 n 76 12 11 o municipalite de cayamant)",
+        "patterson",
+        "patterson 46 08 29 n 76 12 11 o municipalite de cayamant)"
+      ],
+      "lat": 46.141389,
+      "lon": -76.203056
+    },
+    {
+      "id": 410,
+      "zone_id": 10,
+      "nom_brut": "Lac Pemichangan (Municipalité de Gracefield et Lac-Sainte-Marie)( 46°03'31\" N., 75°51'02\" O. ).",
+      "nom": "Lac Pemichangan",
+      "nom_search": "lac pemichangan municipalite de gracefield et lac sainte marie) 46 03 31 n 75 51 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pemichangan",
+      "aliases": [
+        "lac pemichangan",
+        "lac pemichangan municipalite de gracefield et lac sainte marie) 46 03 31 n 75 51 02 o )",
+        "pemichangan",
+        "pemichangan municipalite de gracefield et lac sainte marie) 46 03 31 n 75 51 02 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.058611,
+      "lon": -75.850556
+    },
+    {
+      "id": 2912,
+      "zone_id": 10,
+      "nom_brut": "Lac Petit lac à la Truite ( 45°57'08\" N., 75°50'19\" O. , Municipalité de Lac-Sainte-Marie)",
+      "nom": "Lac Petit lac à la Truite",
+      "nom_search": "lac petit lac a la truite 45 57 08 n 75 50 19 o municipalite de lac sainte marie)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac à la Truite",
+      "aliases": [
+        "lac petit lac a la truite",
+        "lac petit lac a la truite 45 57 08 n 75 50 19 o municipalite de lac sainte marie)",
+        "petit lac a la truite",
+        "petit lac a la truite 45 57 08 n 75 50 19 o municipalite de lac sainte marie)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.952222,
+      "lon": -75.838611
+    },
+    {
+      "id": 2970,
+      "zone_id": 10,
+      "nom_brut": "Lac Petit lac Cayamant ( 45°58'59\" N., 76°20'02\" O. , Municipalités de Otter Lake, Alleyn-et-Cawood, Cayamant)",
+      "nom": "Lac Petit lac Cayamant",
+      "nom_search": "lac petit lac cayamant 45 58 59 n 76 20 02 o municipalites de otter lake alleyn et cawood cayamant)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Cayamant",
+      "aliases": [
+        "lac petit lac cayamant",
+        "lac petit lac cayamant 45 58 59 n 76 20 02 o municipalites de otter lake alleyn et cawood cayamant)",
+        "petit lac cayamant",
+        "petit lac cayamant 45 58 59 n 76 20 02 o municipalites de otter lake alleyn et cawood cayamant)"
+      ],
+      "lat": 45.983056,
+      "lon": -76.333889
+    },
+    {
+      "id": 406,
+      "zone_id": 10,
+      "nom_brut": "Lac Petit lac des Cèdres (Municipalités de Messines et Kitigan Zibi)( 46°17'30\" N., 76°04'49\" O. ).",
+      "nom": "Lac Petit lac des Cèdres",
+      "nom_search": "lac petit lac des cedres municipalites de messines et kitigan zibi) 46 17 30 n 76 04 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac des Cèdres",
+      "aliases": [
+        "lac petit lac des cedres",
+        "lac petit lac des cedres municipalites de messines et kitigan zibi) 46 17 30 n 76 04 49 o )",
+        "petit lac des cedres",
+        "petit lac des cedres municipalites de messines et kitigan zibi) 46 17 30 n 76 04 49 o )"
+      ],
+      "lat": 46.291667,
+      "lon": -76.080278
+    },
+    {
+      "id": 3016,
+      "zone_id": 10,
+      "nom_brut": "Lac Petit lac du Cerf - (Municipalité de Lac-du-Cerf)( 46°17'13\" N., 75°31'59\" O. ).",
+      "nom": "Lac Petit lac du Cerf",
+      "nom_search": "lac petit lac du cerf municipalite de lac du cerf) 46 17 13 n 75 31 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac du Cerf -",
+      "aliases": [
+        "lac petit lac du cerf",
+        "lac petit lac du cerf municipalite de lac du cerf) 46 17 13 n 75 31 59 o )",
+        "petit lac du cerf",
+        "petit lac du cerf municipalite de lac du cerf) 46 17 13 n 75 31 59 o )"
+      ],
+      "lat": 46.286944,
+      "lon": -75.533056
+    },
+    {
+      "id": 510,
+      "zone_id": 10,
+      "nom_brut": "Lac Petit lac Francis (Municipalité de Notre-Dame-de-Pontmain) ( 46°17'41\" N., 75°38'44\" O. )",
+      "nom": "Lac Petit lac Francis",
+      "nom_search": "lac petit lac francis municipalite de notre dame de pontmain) 46 17 41 n 75 38 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Francis",
+      "aliases": [
+        "lac petit lac francis",
+        "lac petit lac francis municipalite de notre dame de pontmain) 46 17 41 n 75 38 44 o )",
+        "petit lac francis",
+        "petit lac francis municipalite de notre dame de pontmain) 46 17 41 n 75 38 44 o )"
+      ],
+      "lat": 46.294722,
+      "lon": -75.645556
+    },
+    {
+      "id": 2914,
+      "zone_id": 10,
+      "nom_brut": "Lac Petit lac Preston ( 46°01'56\" N., 75°02'48\" O. , Municipalité de Duhamel)",
+      "nom": "Lac Petit lac Preston",
+      "nom_search": "lac petit lac preston 46 01 56 n 75 02 48 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Preston",
+      "aliases": [
+        "lac petit lac preston",
+        "lac petit lac preston 46 01 56 n 75 02 48 o municipalite de duhamel)",
+        "petit lac preston",
+        "petit lac preston 46 01 56 n 75 02 48 o municipalite de duhamel)"
+      ],
+      "lat": 46.032222,
+      "lon": -75.046667
+    },
+    {
+      "id": 10194,
+      "zone_id": 10,
+      "nom_brut": "Lac Pigeon ( 46°11'34\" N., 76°52'24\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac Pigeon",
+      "nom_search": "lac pigeon 46 11 34 n 76 52 24 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Pigeon",
+      "aliases": [
+        "lac pigeon",
+        "lac pigeon 46 11 34 n 76 52 24 o tno de lac nilgaut)",
+        "pigeon",
+        "pigeon 46 11 34 n 76 52 24 o tno de lac nilgaut)"
+      ],
+      "lat": 46.192778,
+      "lon": -76.873333
+    },
+    {
+      "id": 487,
+      "zone_id": 10,
+      "nom_brut": "Lac Pimodan (Municipalité de Kiamika)( 46°23'20\" N., 75°17'35\" O. ).",
+      "nom": "Lac Pimodan",
+      "nom_search": "lac pimodan municipalite de kiamika) 46 23 20 n 75 17 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pimodan",
+      "aliases": [
+        "lac pimodan",
+        "lac pimodan municipalite de kiamika) 46 23 20 n 75 17 35 o )",
+        "pimodan",
+        "pimodan municipalite de kiamika) 46 23 20 n 75 17 35 o )"
+      ],
+      "lat": 46.388889,
+      "lon": -75.293056
+    },
+    {
+      "id": 10196,
+      "zone_id": 10,
+      "nom_brut": "Lac Proulx ( 45°49'44\" N., 75°51'52\" O. , Municipalité de Denholm)",
+      "nom": "Lac Proulx",
+      "nom_search": "lac proulx 45 49 44 n 75 51 52 o municipalite de denholm)",
+      "segment_label": null,
+      "river_base_name": "Lac Proulx",
+      "aliases": [
+        "lac proulx",
+        "lac proulx 45 49 44 n 75 51 52 o municipalite de denholm)",
+        "proulx",
+        "proulx 45 49 44 n 75 51 52 o municipalite de denholm)"
+      ],
+      "lat": 45.828889,
+      "lon": -75.864444
+    },
+    {
+      "id": 512,
+      "zone_id": 10,
+      "nom_brut": "Lac Quinn (Municipalités de Mont-Laurier et d'Aumond)( 46°28'38\" N., 75°44'14\" O. ).",
+      "nom": "Lac Quinn",
+      "nom_search": "lac quinn municipalites de mont laurier et d aumond) 46 28 38 n 75 44 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Quinn",
+      "aliases": [
+        "lac quinn",
+        "lac quinn municipalites de mont laurier et d aumond) 46 28 38 n 75 44 14 o )",
+        "quinn",
+        "quinn municipalites de mont laurier et d aumond) 46 28 38 n 75 44 14 o )"
+      ],
+      "lat": 46.477222,
+      "lon": -75.737222
+    },
+    {
+      "id": 3019,
+      "zone_id": 10,
+      "nom_brut": "Lac Rognon (Municipalité de Amherst)( 46°04'22'' N., 74°47'58'' O. )",
+      "nom": "Lac Rognon",
+      "nom_search": "lac rognon municipalite de amherst) 46 04 22 n 74 47 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rognon",
+      "aliases": [
+        "lac rognon",
+        "lac rognon municipalite de amherst) 46 04 22 n 74 47 58 o )",
+        "rognon",
+        "rognon municipalite de amherst) 46 04 22 n 74 47 58 o )"
+      ],
+      "lat": 46.072778,
+      "lon": -74.799444
+    },
+    {
+      "id": 10200,
+      "zone_id": 10,
+      "nom_brut": "Lac Rond ( 45°41'14\" N., 75°50'09\" O. , Municipalité de La Pêche)",
+      "nom": "Lac Rond",
+      "nom_search": "lac rond 45 41 14 n 75 50 09 o municipalite de la peche)",
+      "segment_label": null,
+      "river_base_name": "Lac Rond",
+      "aliases": [
+        "lac rond",
+        "lac rond 45 41 14 n 75 50 09 o municipalite de la peche)",
+        "rond",
+        "rond 45 41 14 n 75 50 09 o municipalite de la peche)"
+      ],
+      "lat": 45.687222,
+      "lon": -75.835833
+    },
+    {
+      "id": 2921,
+      "zone_id": 10,
+      "nom_brut": "Lac Rond ( 45°52'26\" N., 75°46'27\" O. , Municipalité de Denholm)",
+      "nom": "Lac Rond",
+      "nom_search": "lac rond 45 52 26 n 75 46 27 o municipalite de denholm)",
+      "segment_label": null,
+      "river_base_name": "Lac Rond",
+      "aliases": [
+        "lac rond",
+        "lac rond 45 52 26 n 75 46 27 o municipalite de denholm)",
+        "rond",
+        "rond 45 52 26 n 75 46 27 o municipalite de denholm)"
+      ],
+      "lat": 45.873889,
+      "lon": -75.774167
+    },
+    {
+      "id": 461,
+      "zone_id": 10,
+      "nom_brut": "Lac Saint-Antoine (Municipalité de Nominingue) ( 46°23'58\" N., 75°09'37\" O. )",
+      "nom": "Lac Saint-Antoine",
+      "nom_search": "lac saint antoine municipalite de nominingue) 46 23 58 n 75 09 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Antoine",
+      "aliases": [
+        "lac saint antoine",
+        "lac saint antoine municipalite de nominingue) 46 23 58 n 75 09 37 o )",
+        "saint antoine",
+        "saint antoine municipalite de nominingue) 46 23 58 n 75 09 37 o )"
+      ],
+      "lat": 46.399444,
+      "lon": -75.160278
+    },
+    {
+      "id": 10202,
+      "zone_id": 10,
+      "nom_brut": "Lac Saint-Charles ( 45°46'26\" N., 75°52'24\" O. , Municipalités de La Pêche et Denholm)",
+      "nom": "Lac Saint-Charles",
+      "nom_search": "lac saint charles 45 46 26 n 75 52 24 o municipalites de la peche et denholm)",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Charles",
+      "aliases": [
+        "lac saint charles",
+        "lac saint charles 45 46 26 n 75 52 24 o municipalites de la peche et denholm)",
+        "saint charles",
+        "saint charles 45 46 26 n 75 52 24 o municipalites de la peche et denholm)"
+      ],
+      "lat": 45.773889,
+      "lon": -75.873333
+    },
+    {
+      "id": 489,
+      "zone_id": 10,
+      "nom_brut": "Lac Saint-Germain (Municipalités de Notre-Dame-du-Laus et de Lac-du-Cerf)( 46°13'41\" N., 75°30'18\" O. ).",
+      "nom": "Lac Saint-Germain",
+      "nom_search": "lac saint germain municipalites de notre dame du laus et de lac du cerf) 46 13 41 n 75 30 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Germain",
+      "aliases": [
+        "lac saint germain",
+        "lac saint germain municipalites de notre dame du laus et de lac du cerf) 46 13 41 n 75 30 18 o )",
+        "saint germain",
+        "saint germain municipalites de notre dame du laus et de lac du cerf) 46 13 41 n 75 30 18 o )"
+      ],
+      "lat": 46.228056,
+      "lon": -75.505
+    },
+    {
+      "id": 2925,
+      "zone_id": 10,
+      "nom_brut": "Lac Saint-Sixte ( 45°49'01\" N., 75°15'13\" O. , Municipalités de Mulgrave-et-Derry et Montpellier)",
+      "nom": "Lac Saint-Sixte",
+      "nom_search": "lac saint sixte 45 49 01 n 75 15 13 o municipalites de mulgrave et derry et montpellier)",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Sixte",
+      "aliases": [
+        "lac saint sixte",
+        "lac saint sixte 45 49 01 n 75 15 13 o municipalites de mulgrave et derry et montpellier)",
+        "saint sixte",
+        "saint sixte 45 49 01 n 75 15 13 o municipalites de mulgrave et derry et montpellier)"
+      ],
+      "lat": 45.816944,
+      "lon": -75.253611
+    },
+    {
+      "id": 491,
+      "zone_id": 10,
+      "nom_brut": "Lac Serpent (Municipalité de Notre-Dame-du-Laus)( 46°09'14\" N., 75°28'53\" O. ).",
+      "nom": "Lac Serpent",
+      "nom_search": "lac serpent municipalite de notre dame du laus) 46 09 14 n 75 28 53 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Serpent",
+      "aliases": [
+        "lac serpent",
+        "lac serpent municipalite de notre dame du laus) 46 09 14 n 75 28 53 o )",
+        "serpent",
+        "serpent municipalite de notre dame du laus) 46 09 14 n 75 28 53 o )"
+      ],
+      "lat": 46.153889,
+      "lon": -75.481389
+    },
+    {
+      "id": 2927,
+      "zone_id": 10,
+      "nom_brut": "Lac Simon ( 45°57'23\" N., 75°04'29\" O. , Municipalités de Duhamel et de Lac-Simon)",
+      "nom": "Lac Simon",
+      "nom_search": "lac simon 45 57 23 n 75 04 29 o municipalites de duhamel et de lac simon)",
+      "segment_label": null,
+      "river_base_name": "Lac Simon",
+      "aliases": [
+        "lac simon",
+        "lac simon 45 57 23 n 75 04 29 o municipalites de duhamel et de lac simon)",
+        "simon",
+        "simon 45 57 23 n 75 04 29 o municipalites de duhamel et de lac simon)"
+      ],
+      "lat": 45.956389,
+      "lon": -75.074722
+    },
+    {
+      "id": 2929,
+      "zone_id": 10,
+      "nom_brut": "Lac Smallian ( 45°49'08\" N., 75°21'25\" O. , Municipalité de Mulgrave-et-Derry)",
+      "nom": "Lac Smallian",
+      "nom_search": "lac smallian 45 49 08 n 75 21 25 o municipalite de mulgrave et derry)",
+      "segment_label": null,
+      "river_base_name": "Lac Smallian",
+      "aliases": [
+        "lac smallian",
+        "lac smallian 45 49 08 n 75 21 25 o municipalite de mulgrave et derry)",
+        "smallian",
+        "smallian 45 49 08 n 75 21 25 o municipalite de mulgrave et derry)"
+      ],
+      "lat": 45.818889,
+      "lon": -75.356944
+    },
+    {
+      "id": 2935,
+      "zone_id": 10,
+      "nom_brut": "Lac Stubbs ( 46°06'16\" N., 76°38'46\" O. , Municipalité de Mansfield-et-Pontefract)",
+      "nom": "Lac Stubbs",
+      "nom_search": "lac stubbs 46 06 16 n 76 38 46 o municipalite de mansfield et pontefract)",
+      "segment_label": null,
+      "river_base_name": "Lac Stubbs",
+      "aliases": [
+        "lac stubbs",
+        "lac stubbs 46 06 16 n 76 38 46 o municipalite de mansfield et pontefract)",
+        "stubbs",
+        "stubbs 46 06 16 n 76 38 46 o municipalite de mansfield et pontefract)"
+      ],
+      "lat": 46.104444,
+      "lon": -76.646111
+    },
+    {
+      "id": 10204,
+      "zone_id": 10,
+      "nom_brut": "Lac Terreur ( 45°43'55\" N., 75°38'33\" O. , Municipalité de Val-des-Monts)",
+      "nom": "Lac Terreur",
+      "nom_search": "lac terreur 45 43 55 n 75 38 33 o municipalite de val des monts)",
+      "segment_label": null,
+      "river_base_name": "Lac Terreur",
+      "aliases": [
+        "lac terreur",
+        "lac terreur 45 43 55 n 75 38 33 o municipalite de val des monts)",
+        "terreur",
+        "terreur 45 43 55 n 75 38 33 o municipalite de val des monts)"
+      ],
+      "lat": 45.731944,
+      "lon": -75.6425
+    },
+    {
+      "id": 10205,
+      "zone_id": 10,
+      "nom_brut": "Lac Thorne ( 45°41'13\" N., 76°21'43\" O. , Municipalité de Thorne et de Clarendon)",
+      "nom": "Lac Thorne",
+      "nom_search": "lac thorne 45 41 13 n 76 21 43 o municipalite de thorne et de clarendon)",
+      "segment_label": null,
+      "river_base_name": "Lac Thorne",
+      "aliases": [
+        "lac thorne",
+        "lac thorne 45 41 13 n 76 21 43 o municipalite de thorne et de clarendon)",
+        "thorne",
+        "thorne 45 41 13 n 76 21 43 o municipalite de thorne et de clarendon)"
+      ],
+      "lat": 45.686944,
+      "lon": -76.361944
+    },
+    {
+      "id": 10207,
+      "zone_id": 10,
+      "nom_brut": "Lac Usborne ( 46°13'27\" N., 76°40'18\" O. , Municipalité de Lac-Nilgaut)",
+      "nom": "Lac Usborne",
+      "nom_search": "lac usborne 46 13 27 n 76 40 18 o municipalite de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Usborne",
+      "aliases": [
+        "lac usborne",
+        "lac usborne 46 13 27 n 76 40 18 o municipalite de lac nilgaut)",
+        "usborne",
+        "usborne 46 13 27 n 76 40 18 o municipalite de lac nilgaut)"
+      ],
+      "lat": 46.224167,
+      "lon": -76.671667
+    },
+    {
+      "id": 474,
+      "zone_id": 10,
+      "nom_brut": "Lac Vert ( 45°54'08\" N., 75°36'23\" O. , Municipalité de Val-des-Bois)",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert 45 54 08 n 75 36 23 o municipalite de val des bois)",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert 45 54 08 n 75 36 23 o municipalite de val des bois)",
+        "vert",
+        "vert 45 54 08 n 75 36 23 o municipalite de val des bois)"
+      ],
+      "lat": 45.902222,
+      "lon": -75.606389
+    },
+    {
+      "id": 3011,
+      "zone_id": 10,
+      "nom_brut": "Lac Vert ( 45°59'55\" N., 75°47'58\" O. , Municipalité de Lac-Sainte-Marie)",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert 45 59 55 n 75 47 58 o municipalite de lac sainte marie)",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert 45 59 55 n 75 47 58 o municipalite de lac sainte marie)",
+        "st e",
+        "ste e",
+        "vert",
+        "vert 45 59 55 n 75 47 58 o municipalite de lac sainte marie)"
+      ],
+      "lat": 45.998611,
+      "lon": -75.799444
+    },
+    {
+      "id": 464,
+      "zone_id": 10,
+      "nom_brut": "Lac Vert ( 46°10'30\" N., 75°29'01\" O. , Municipalité de Notre-Dame-du-Laus)",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert 46 10 30 n 75 29 01 o municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert 46 10 30 n 75 29 01 o municipalite de notre dame du laus)",
+        "vert",
+        "vert 46 10 30 n 75 29 01 o municipalite de notre dame du laus)"
+      ],
+      "lat": 46.175,
+      "lon": -75.483611
+    },
+    {
+      "id": 10123,
+      "zone_id": 10,
+      "nom_brut": "Lac Veuillot ( 46°25'32\" N., 75°09'57\" O. , Municipalité de Nominingue).",
+      "nom": "Lac Veuillot",
+      "nom_search": "lac veuillot 46 25 32 n 75 09 57 o municipalite de nominingue)",
+      "segment_label": null,
+      "river_base_name": "Lac Veuillot",
+      "aliases": [
+        "lac veuillot",
+        "lac veuillot 46 25 32 n 75 09 57 o municipalite de nominingue)",
+        "veuillot",
+        "veuillot 46 25 32 n 75 09 57 o municipalite de nominingue)"
+      ],
+      "lat": 46.425556,
+      "lon": -75.165833
+    },
+    {
+      "id": 2945,
+      "zone_id": 10,
+      "nom_brut": "Lac Viceroy ( 45°50'52\" N., 75°06'19\" O. , Municipalités de Ripon et de Lac-Simon)",
+      "nom": "Lac Viceroy",
+      "nom_search": "lac viceroy 45 50 52 n 75 06 19 o municipalites de ripon et de lac simon)",
+      "segment_label": null,
+      "river_base_name": "Lac Viceroy",
+      "aliases": [
+        "lac viceroy",
+        "lac viceroy 45 50 52 n 75 06 19 o municipalites de ripon et de lac simon)",
+        "viceroy",
+        "viceroy 45 50 52 n 75 06 19 o municipalites de ripon et de lac simon)"
+      ],
+      "lat": 45.847778,
+      "lon": -75.105278
+    },
+    {
+      "id": 2947,
+      "zone_id": 10,
+      "nom_brut": "Lac Wright ( 46°20'27\" N., 76°47'42\" O. , TNO de Lac-Nilgaut)",
+      "nom": "Lac Wright",
+      "nom_search": "lac wright 46 20 27 n 76 47 42 o tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Wright",
+      "aliases": [
+        "lac wright",
+        "lac wright 46 20 27 n 76 47 42 o tno de lac nilgaut)",
+        "wright",
+        "wright 46 20 27 n 76 47 42 o tno de lac nilgaut)"
+      ],
+      "lat": 46.340833,
+      "lon": -76.795
+    },
+    {
+      "id": 2948,
+      "zone_id": 10,
+      "nom_brut": "Lac Xavier - (Municipalité de La Conception)( 46°08'52\" N., 74°44'18\" O. ).",
+      "nom": "Lac Xavier",
+      "nom_search": "lac xavier municipalite de la conception) 46 08 52 n 74 44 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Xavier -",
+      "aliases": [
+        "lac xavier",
+        "lac xavier municipalite de la conception) 46 08 52 n 74 44 18 o )",
+        "xavier",
+        "xavier municipalite de la conception) 46 08 52 n 74 44 18 o )"
+      ],
+      "lat": 46.147778,
+      "lon": -74.738333
+    },
+    {
+      "id": 2335,
+      "zone_id": 10,
+      "nom_brut": "Réserve Faunique de Papineau-Labelle",
+      "nom": "Réserve Faunique de Papineau-Labelle",
+      "nom_search": "reserve faunique de papineau labelle",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Papineau-Labelle",
+      "aliases": [
+        "reserve faunique de papineau labelle"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 10227,
+      "zone_id": 10,
+      "nom_brut": "Réservoir aux Sables ( 46°09'30\" N., 75°41'05\" O. )(Municipalité de Notre-Dame-du-Laus)",
+      "nom": "Réservoir aux Sables",
+      "nom_search": "reservoir aux sables 46 09 30 n 75 41 05 o ) municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Réservoir aux Sables",
+      "aliases": [
+        "aux sables",
+        "aux sables 46 09 30 n 75 41 05 o ) municipalite de notre dame du laus)",
+        "reservoir aux sables",
+        "reservoir aux sables 46 09 30 n 75 41 05 o ) municipalite de notre dame du laus)"
+      ],
+      "lat": 46.158333,
+      "lon": -75.684722
+    },
+    {
+      "id": 10221,
+      "zone_id": 10,
+      "nom_brut": "Réservoir Poisson Blanc Lac Cuillèrier ( 46°06'34\" N., 75°41'38\" O. , Municipalité de Notre-Dame-du-Laus)",
+      "nom": "Réservoir Poisson Blanc Lac Cuillèrier",
+      "nom_search": "reservoir poisson blanc lac cuillerier 46 06 34 n 75 41 38 o municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Poisson Blanc Lac Cuillèrier",
+      "aliases": [
+        "poisson blanc lac cuillerier",
+        "poisson blanc lac cuillerier 46 06 34 n 75 41 38 o municipalite de notre dame du laus)",
+        "reservoir poisson blanc lac cuillerier",
+        "reservoir poisson blanc lac cuillerier 46 06 34 n 75 41 38 o municipalite de notre dame du laus)"
+      ],
+      "lat": 46.109444,
+      "lon": -75.693889
+    },
+    {
+      "id": 10222,
+      "zone_id": 10,
+      "nom_brut": "Réservoir Poisson Blanc Lac Doré ( 46°03'27\" N., 75°42'51\" O. , Municipalité de Notre-Dame-du-Laus)",
+      "nom": "Réservoir Poisson Blanc Lac Doré",
+      "nom_search": "reservoir poisson blanc lac dore 46 03 27 n 75 42 51 o municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Poisson Blanc Lac Doré",
+      "aliases": [
+        "poisson blanc lac dore",
+        "poisson blanc lac dore 46 03 27 n 75 42 51 o municipalite de notre dame du laus)",
+        "reservoir poisson blanc lac dore",
+        "reservoir poisson blanc lac dore 46 03 27 n 75 42 51 o municipalite de notre dame du laus)"
+      ],
+      "lat": 46.0575,
+      "lon": -75.714167
+    },
+    {
+      "id": 10220,
+      "zone_id": 10,
+      "nom_brut": "Réservoir Poisson Blanc Lac du Brochet ( 46°02'21\" N., 75°42'34\" O. , Municipalité de Notre-Dame-du-Laus)",
+      "nom": "Réservoir Poisson Blanc Lac du Brochet",
+      "nom_search": "reservoir poisson blanc lac du brochet 46 02 21 n 75 42 34 o municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Poisson Blanc Lac du Brochet",
+      "aliases": [
+        "poisson blanc lac du brochet",
+        "poisson blanc lac du brochet 46 02 21 n 75 42 34 o municipalite de notre dame du laus)",
+        "reservoir poisson blanc lac du brochet",
+        "reservoir poisson blanc lac du brochet 46 02 21 n 75 42 34 o municipalite de notre dame du laus)"
+      ],
+      "lat": 46.039167,
+      "lon": -75.709444
+    },
+    {
+      "id": 10223,
+      "zone_id": 10,
+      "nom_brut": "Réservoir Poisson Blanc Lac du Poisson Blanc ( 46°00'50\" N., 75°42'32\" O. , Municipalités de Notre-Dame-du-Laus, Bowman et Lac-Sainte-Marie)",
+      "nom": "Réservoir Poisson Blanc Lac du Poisson Blanc",
+      "nom_search": "reservoir poisson blanc lac du poisson blanc 46 00 50 n 75 42 32 o municipalites de notre dame du laus bowman et lac sainte marie)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Poisson Blanc Lac du Poisson Blanc",
+      "aliases": [
+        "poisson blanc lac du poisson blanc",
+        "poisson blanc lac du poisson blanc 46 00 50 n 75 42 32 o municipalites de notre dame du laus bowman et lac sainte marie)",
+        "reservoir poisson blanc lac du poisson blanc",
+        "reservoir poisson blanc lac du poisson blanc 46 00 50 n 75 42 32 o municipalites de notre dame du laus bowman et lac sainte marie)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.013889,
+      "lon": -75.708889
+    },
+    {
+      "id": 514,
+      "zone_id": 10,
+      "nom_brut": "Rivière Coulonge la partie comprise entre le côté aval du barrage hydro-électrique ( 45°52'25\" N., 76°41'06\" O. ) et la première résidence située en aval, correspondant à une droite joignant les points 45°52'43\" N., 76°42'22\" O. et 45°52'45\" N., 76°42'22\" O. (Municipalité de Mansfield-et-Pontefract).",
+      "nom": "Rivière Coulonge la partie comprise entre le côté aval du barrage hydro-électrique",
+      "nom_search": "riviere coulonge la partie comprise entre le cote aval du barrage hydro electrique 45 52 25 n 76 41 06 o ) et la premiere residence situee en aval correspondant a une droite joignant les points 45 52 43 n 76 42 22 o et 45 52 45 n 76 42 22 o municipalite de mansfield et pontefract)",
+      "segment_label": null,
+      "river_base_name": "Rivière Coulonge la partie comprise",
+      "aliases": [
+        "coulonge la partie comprise",
+        "coulonge la partie comprise entre le cote aval du barrage hydro electrique 45 52 25 n 76 41 06 o ) et la premiere residence situee en aval correspondant a une droite joignant les points 45 52 43 n 76 42 22 o et 45 52 45 n 76 42 22 o municipalite de mansfield et pontefract)",
+        "riviere coulonge la partie comprise",
+        "riviere coulonge la partie comprise entre le cote aval du barrage hydro electrique 45 52 25 n 76 41 06 o ) et la premiere residence situee en aval correspondant a une droite joignant les points 45 52 43 n 76 42 22 o et 45 52 45 n 76 42 22 o municipalite de mansfield et pontefract)"
+      ],
+      "lat": 45.873611,
+      "lon": -76.685
+    },
+    {
+      "id": 548,
+      "zone_id": 10,
+      "nom_brut": "Rivière de la Petite Nation la partie comprise entre le pont de la route 321 à Duhamel ( 46°01'21\" N., 75°04'28\" O. ) et l'embouchure de la rivière Preston, correspondant à une droite joignant les points 46°00'23\" N., 75°04'50\" O. et 46°00'23\" N., 75°04'51\" O. (Municipalité de Duhamel)",
+      "nom": "Rivière de la Petite Nation la partie comprise entre le pont de la route 321 à Duhamel",
+      "nom_search": "riviere de la petite nation la partie comprise entre le pont de la route 321 a duhamel 46 01 21 n 75 04 28 o ) et l embouchure de la riviere preston correspondant a une droite joignant les points 46 00 23 n 75 04 50 o et 46 00 23 n 75 04 51 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Rivière de la Petite Nation la partie comprise",
+      "aliases": [
+        "de la petite nation la partie comprise",
+        "de la petite nation la partie comprise entre le pont de la route 321 a duhamel 46 01 21 n 75 04 28 o ) et l embouchure de la riviere preston correspondant a une droite joignant les points 46 00 23 n 75 04 50 o et 46 00 23 n 75 04 51 o municipalite de duhamel)",
+        "riviere de la petite nation la partie comprise",
+        "riviere de la petite nation la partie comprise entre le pont de la route 321 a duhamel 46 01 21 n 75 04 28 o ) et l embouchure de la riviere preston correspondant a une droite joignant les points 46 00 23 n 75 04 50 o et 46 00 23 n 75 04 51 o municipalite de duhamel)"
+      ],
+      "lat": 46.0225,
+      "lon": -75.074444
+    },
+    {
+      "id": 547,
+      "zone_id": 10,
+      "nom_brut": "Rivière de la Petite Nation la partie comprise entre son embouchure dans le lac Simon, correspondant à une droite joignant les points 46°00'06\" N., 75°04'57\" O. et 46°00'06\" N., 75°04'59\" O. , et l'embouchure de la rivière Preston, correspondant à une droite joignant les points 46°00'23\" N., 75°04'50\" O. et 46°00'23\" N., 75°04'51\" O. (Municipalité de Duhamel).",
+      "nom": "Rivière de la Petite Nation la partie comprise entre son embouchure dans le lac Simon, correspondant à une droite joignant les points 46°00'06\" N., 75°04'57\" O. et 46°00'06\" N., 75°04'59\" O. , et l'embouchure de la rivière Preston, correspondant à une droite joignant les points 46°00'23\" N., 75°04'50\" O. et 46°00'23\" N., 75°04'51\" O.",
+      "nom_search": "riviere de la petite nation la partie comprise entre son embouchure dans le lac simon correspondant a une droite joignant les points 46 00 06 n 75 04 57 o et 46 00 06 n 75 04 59 o et l embouchure de la riviere preston correspondant a une droite joignant les points 46 00 23 n 75 04 50 o et 46 00 23 n 75 04 51 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Rivière de la Petite Nation la partie comprise",
+      "aliases": [
+        "de la petite nation la partie comprise",
+        "de la petite nation la partie comprise entre son embouchure dans le lac simon correspondant a une droite joignant les points 46 00 06 n 75 04 57 o et 46 00 06 n 75 04 59 o et l embouchure de la riviere preston correspondant a une droite joignant les points 46 00 23 n 75 04 50 o et 46 00 23 n 75 04 51 o municipalite de duhamel)",
+        "riviere de la petite nation la partie comprise",
+        "riviere de la petite nation la partie comprise entre son embouchure dans le lac simon correspondant a une droite joignant les points 46 00 06 n 75 04 57 o et 46 00 06 n 75 04 59 o et l embouchure de la riviere preston correspondant a une droite joignant les points 46 00 23 n 75 04 50 o et 46 00 23 n 75 04 51 o municipalite de duhamel)"
+      ],
+      "lat": 46.001667,
+      "lon": -75.0825
+    },
+    {
+      "id": 538,
+      "zone_id": 10,
+      "nom_brut": "Rivière du Lièvre entre le pont Paquette ( 46°33'00\" N., 75°30'55\" O. ), à Mont-Laurier (route 117) et un point à 100m en aval des rapides des Iroquois à Notre-Dame-du-Laus.",
+      "nom": "Rivière du Lièvre entre le pont Paquette",
+      "nom_search": "riviere du lievre entre le pont paquette 46 33 00 n 75 30 55 o ) a mont laurier route 117) et un point a 100m en aval des rapides des iroquois a notre dame du laus",
+      "segment_label": null,
+      "river_base_name": "Rivière du Lièvre",
+      "aliases": [
+        "du lievre",
+        "du lievre entre le pont paquette 46 33 00 n 75 30 55 o ) a mont laurier route 117) et un point a 100m en aval des rapides des iroquois a notre dame du laus",
+        "riviere du lievre",
+        "riviere du lievre entre le pont paquette 46 33 00 n 75 30 55 o ) a mont laurier route 117) et un point a 100m en aval des rapides des iroquois a notre dame du laus"
+      ],
+      "lat": 46.55,
+      "lon": -75.515278
+    },
+    {
+      "id": 539,
+      "zone_id": 10,
+      "nom_brut": "Rivière du Lièvre La partie comprise entre le côté aval des barrages de High Falls-1 ( 45°50'4\"N., 75°38'49\" O. ) et de High Falls-2 ( 45°50'24\" N., 75°38'47\" O. ) et la pointe sud de l'île à environ 2 km en aval du barrage, correspondant à une droite joignant les points 45°49'30\" N., 75°38'15\" O. et 45°49'29\" N., 75°38'08\" O. (Municipalités de Val-des-Monts, de Val-des-Bois, de Notre-Dame-de-la-Salette et Bowman).",
+      "nom": "Rivière du Lièvre La partie comprise entre le côté aval des barrages de High Falls-1",
+      "nom_search": "riviere du lievre la partie comprise entre le cote aval des barrages de high falls 1 45 50 4 n 75 38 49 o ) et de high falls 2 45 50 24 n 75 38 47 o ) et la pointe sud de l ile a environ 2 km en aval du barrage correspondant a une droite joignant les points 45 49 30 n 75 38 15 o et 45 49 29 n 75 38 08 o municipalites de val des monts de val des bois de notre dame de la salette et bowman)",
+      "segment_label": null,
+      "river_base_name": "Rivière du Lièvre La partie comprise",
+      "aliases": [
+        "du lievre la partie comprise",
+        "du lievre la partie comprise entre le cote aval des barrages de high falls 1 45 50 4 n 75 38 49 o ) et de high falls 2 45 50 24 n 75 38 47 o ) et la pointe sud de l ile a environ 2 km en aval du barrage correspondant a une droite joignant les points 45 49 30 n 75 38 15 o et 45 49 29 n 75 38 08 o municipalites de val des monts de val des bois de notre dame de la salette et bowman)",
+        "riviere du lievre la partie comprise",
+        "riviere du lievre la partie comprise entre le cote aval des barrages de high falls 1 45 50 4 n 75 38 49 o ) et de high falls 2 45 50 24 n 75 38 47 o ) et la pointe sud de l ile a environ 2 km en aval du barrage correspondant a une droite joignant les points 45 49 30 n 75 38 15 o et 45 49 29 n 75 38 08 o municipalites de val des monts de val des bois de notre dame de la salette et bowman)"
+      ],
+      "lat": 45.834444,
+      "lon": -75.646944
+    },
+    {
+      "id": 13001,
+      "zone_id": 10,
+      "nom_brut": "Rivière Gatineau - La partie comprise entre le barrage hydro-électrique des Rapides-Farmer et la première île en aval du pont Alonzo-Wright, correspondant à une droite joignant les points 45°28'56\" N., 75°44'29\" O. et 45°28'50\" N., 75°44'44\" O. ) (Municipalités de Chelsea et Gatineau)",
+      "nom": "Rivière Gatineau - La partie comprise entre le barrage hydro-électrique des Rapides-Farmer et la première île en aval du pont Alonzo-Wright, correspondant à une droite joignant les points 45°28'56\" N., 75°44'29\" O. et 45°28'50\" N., 75°44'44\" O. )",
+      "nom_search": "riviere gatineau la partie comprise entre le barrage hydro electrique des rapides farmer et la premiere ile en aval du pont alonzo wright correspondant a une droite joignant les points 45 28 56 n 75 44 29 o et 45 28 50 n 75 44 44 o ) municipalites de chelsea et gatineau)",
+      "segment_label": null,
+      "river_base_name": "Rivière Gatineau",
+      "aliases": [
+        "gatineau",
+        "gatineau la partie comprise entre le barrage hydro electrique des rapides farmer et la premiere ile en aval du pont alonzo wright correspondant a une droite joignant les points 45 28 56 n 75 44 29 o et 45 28 50 n 75 44 44 o ) municipalites de chelsea et gatineau)",
+        "riviere gatineau",
+        "riviere gatineau la partie comprise entre le barrage hydro electrique des rapides farmer et la premiere ile en aval du pont alonzo wright correspondant a une droite joignant les points 45 28 56 n 75 44 29 o et 45 28 50 n 75 44 44 o ) municipalites de chelsea et gatineau)"
+      ],
+      "lat": 45.482222,
+      "lon": -75.741389
+    },
+    {
+      "id": 518,
+      "zone_id": 10,
+      "nom_brut": "Rivière Gatineau - La partie comprise entre le pont Calumet ( 46°07'07\" N., 75°57'30\" O. ), sur le chemin de Point Comfort et la ligne de transport d'énergie traversant la rivière à environ 2.9 km en aval, correspondant à une droite joignant les points 46°06'52\" N., 75°59'38\" O. et 46°06'47\" N., 75°59'39\" O. (Municipalité de Gracefield).",
+      "nom": "Rivière Gatineau - La partie comprise entre le pont Calumet",
+      "nom_search": "riviere gatineau la partie comprise entre le pont calumet 46 07 07 n 75 57 30 o ) sur le chemin de point comfort et la ligne de transport d energie traversant la riviere a environ 2 9 km en aval correspondant a une droite joignant les points 46 06 52 n 75 59 38 o et 46 06 47 n 75 59 39 o municipalite de gracefield)",
+      "segment_label": null,
+      "river_base_name": "Rivière Gatineau",
+      "aliases": [
+        "gatineau",
+        "gatineau la partie comprise entre le pont calumet 46 07 07 n 75 57 30 o ) sur le chemin de point comfort et la ligne de transport d energie traversant la riviere a environ 2 9 km en aval correspondant a une droite joignant les points 46 06 52 n 75 59 38 o et 46 06 47 n 75 59 39 o municipalite de gracefield)",
+        "riviere gatineau",
+        "riviere gatineau la partie comprise entre le pont calumet 46 07 07 n 75 57 30 o ) sur le chemin de point comfort et la ligne de transport d energie traversant la riviere a environ 2 9 km en aval correspondant a une droite joignant les points 46 06 52 n 75 59 38 o et 46 06 47 n 75 59 39 o municipalite de gracefield)"
+      ],
+      "lat": 46.118611,
+      "lon": -75.958333
+    },
+    {
+      "id": 521,
+      "zone_id": 10,
+      "nom_brut": "Rivière Kiamika entre le pont de la route 117 et son embouchure dans le lac aux Barges (Municipalité de Lac-des-Écorces).",
+      "nom": "Rivière Kiamika entre le pont de la route 117 et son embouchure dans le lac aux Barges",
+      "nom_search": "riviere kiamika entre le pont de la route 117 et son embouchure dans le lac aux barges municipalite de lac des ecorces)",
+      "segment_label": null,
+      "river_base_name": "Rivière Kiamika",
+      "aliases": [
+        "kiamika",
+        "kiamika entre le pont de la route 117 et son embouchure dans le lac aux barges municipalite de lac des ecorces)",
+        "riviere kiamika",
+        "riviere kiamika entre le pont de la route 117 et son embouchure dans le lac aux barges municipalite de lac des ecorces)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 516,
+      "zone_id": 10,
+      "nom_brut": "Rivière Noire (Municipalité de Waltham), la partie comprise entre le côté aval du barrage hydroélectrique ( 45°55'08\" N., 76°55'13\" O. ) et la limite de la zone de pêche, correspondant à une droite joignant les points 45°54'59.6\" N., 76°55'17.2\" O. et 45°54'59.6\" N., 76°55'19.2\" O.",
+      "nom": "Rivière Noire",
+      "nom_search": "riviere noire municipalite de waltham) la partie comprise entre le cote aval du barrage hydroelectrique 45 55 08 n 76 55 13 o ) et la limite de la zone de peche correspondant a une droite joignant les points 45 54 59 6 n 76 55 17 2 o et 45 54 59 6 n 76 55 19 2 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Noire",
+      "aliases": [
+        "noire",
+        "noire municipalite de waltham) la partie comprise entre le cote aval du barrage hydroelectrique 45 55 08 n 76 55 13 o ) et la limite de la zone de peche correspondant a une droite joignant les points 45 54 59 6 n 76 55 17 2 o et 45 54 59 6 n 76 55 19 2 o",
+        "riviere noire",
+        "riviere noire municipalite de waltham) la partie comprise entre le cote aval du barrage hydroelectrique 45 55 08 n 76 55 13 o ) et la limite de la zone de peche correspondant a une droite joignant les points 45 54 59 6 n 76 55 17 2 o et 45 54 59 6 n 76 55 19 2 o"
+      ],
+      "lat": 45.918889,
+      "lon": -76.920278
+    },
+    {
+      "id": 520,
+      "zone_id": 10,
+      "nom_brut": "Rivière Picanoc entre le pont Picanoc ( 46°04'29\" N., 76°04'40\" O. ), à environ 1,5 km à l'amont de la route 105, et une droite nord-sud ( 46°04'27\" N., 76°03'15\" O. à 46°04'18\" N., 76°03'15\" O. ) réunissant ses deux rives à l'aval de l'île localisée dans son embouchure dans la rivière Gatineau (Municipalité de Gracefield).",
+      "nom": "Rivière Picanoc entre le pont Picanoc",
+      "nom_search": "riviere picanoc entre le pont picanoc 46 04 29 n 76 04 40 o ) a environ 1 5 km a l amont de la route 105 et une droite nord sud 46 04 27 n 76 03 15 o a 46 04 18 n 76 03 15 o ) reunissant ses deux rives a l aval de l ile localisee dans son embouchure dans la riviere gatineau municipalite de gracefield)",
+      "segment_label": null,
+      "river_base_name": "Rivière Picanoc",
+      "aliases": [
+        "picanoc",
+        "picanoc entre le pont picanoc 46 04 29 n 76 04 40 o ) a environ 1 5 km a l amont de la route 105 et une droite nord sud 46 04 27 n 76 03 15 o a 46 04 18 n 76 03 15 o ) reunissant ses deux rives a l aval de l ile localisee dans son embouchure dans la riviere gatineau municipalite de gracefield)",
+        "riviere picanoc",
+        "riviere picanoc entre le pont picanoc 46 04 29 n 76 04 40 o ) a environ 1 5 km a l amont de la route 105 et une droite nord sud 46 04 27 n 76 03 15 o a 46 04 18 n 76 03 15 o ) reunissant ses deux rives a l aval de l ile localisee dans son embouchure dans la riviere gatineau municipalite de gracefield)"
+      ],
+      "lat": 46.074722,
+      "lon": -76.077778
+    },
+    {
+      "id": 556,
+      "zone_id": 10,
+      "nom_brut": "Rivière Preston entre son embouchure dans la rivière de la Petite Nation ( 46°00'22\" N., 75°04'50\" O. à 46°00'23\" N., 75°04'50\" O. ) et le pont de la route 321 ( 46°00'47\" N., 75°03'36\" O. , Municipalité de Duhamel).",
+      "nom": "Rivière Preston entre son embouchure dans la rivière de la Petite Nation",
+      "nom_search": "riviere preston entre son embouchure dans la riviere de la petite nation 46 00 22 n 75 04 50 o a 46 00 23 n 75 04 50 o ) et le pont de la route 321 46 00 47 n 75 03 36 o municipalite de duhamel)",
+      "segment_label": null,
+      "river_base_name": "Rivière Preston",
+      "aliases": [
+        "preston",
+        "preston entre son embouchure dans la riviere de la petite nation 46 00 22 n 75 04 50 o a 46 00 23 n 75 04 50 o ) et le pont de la route 321 46 00 47 n 75 03 36 o municipalite de duhamel)",
+        "riviere preston",
+        "riviere preston entre son embouchure dans la riviere de la petite nation 46 00 22 n 75 04 50 o a 46 00 23 n 75 04 50 o ) et le pont de la route 321 46 00 47 n 75 03 36 o municipalite de duhamel)"
+      ],
+      "lat": 46.006111,
+      "lon": -75.080556
+    },
+    {
+      "id": 549,
+      "zone_id": 10,
+      "nom_brut": "Rivière Saguay entre le pont du chemin Chapleau et le lac Bourget (municipalité de Nominingue).",
+      "nom": "Rivière Saguay entre le pont du chemin Chapleau et le lac Bourget",
+      "nom_search": "riviere saguay entre le pont du chemin chapleau et le lac bourget municipalite de nominingue)",
+      "segment_label": null,
+      "river_base_name": "Rivière Saguay",
+      "aliases": [
+        "riviere saguay",
+        "riviere saguay entre le pont du chemin chapleau et le lac bourget municipalite de nominingue)",
+        "saguay",
+        "saguay entre le pont du chemin chapleau et le lac bourget municipalite de nominingue)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2598,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau des Cèdres entre son embouchure sur la rivière du Lièvre et la ligne de transport d'énergie électrique à haute tension située à environ 300 mètres de son embouchure ( 46°05'49\" N., 75°37'57\" O. , Municipalité de Notre-Dame-du-Laus).",
+      "nom": "Ruisseau des Cèdres entre son embouchure sur la rivière du Lièvre et la ligne de transport d'énergie électrique à haute tension située à environ 300 mètres de son embouchure",
+      "nom_search": "ruisseau des cedres entre son embouchure sur la riviere du lievre et la ligne de transport d energie electrique a haute tension situee a environ 300 metres de son embouchure 46 05 49 n 75 37 57 o municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau des Cèdres",
+      "aliases": [
+        "des cedres",
+        "des cedres entre son embouchure sur la riviere du lievre et la ligne de transport d energie electrique a haute tension situee a environ 300 metres de son embouchure 46 05 49 n 75 37 57 o municipalite de notre dame du laus)",
+        "ruisseau des cedres",
+        "ruisseau des cedres entre son embouchure sur la riviere du lievre et la ligne de transport d energie electrique a haute tension situee a environ 300 metres de son embouchure 46 05 49 n 75 37 57 o municipalite de notre dame du laus)"
+      ],
+      "lat": 46.096944,
+      "lon": -75.6325
+    },
+    {
+      "id": 558,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau Flood entre le Grand lac du Cerf et le Petit lac Flood (Municipalités de Lac-du-Cerf et de Kiamika).",
+      "nom": "Ruisseau Flood entre le Grand lac du Cerf et le Petit lac Flood",
+      "nom_search": "ruisseau flood entre le grand lac du cerf et le petit lac flood municipalites de lac du cerf et de kiamika)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Flood",
+      "aliases": [
+        "flood",
+        "flood entre le grand lac du cerf et le petit lac flood municipalites de lac du cerf et de kiamika)",
+        "ruisseau flood",
+        "ruisseau flood entre le grand lac du cerf et le petit lac flood municipalites de lac du cerf et de kiamika)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 561,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau Jourdain entre le pont de la route 117 et le Grand lac Nominingue (Municipalités de Nominingue et de Rivière-Rouge).",
+      "nom": "Ruisseau Jourdain entre le pont de la route 117 et le Grand lac Nominingue",
+      "nom_search": "ruisseau jourdain entre le pont de la route 117 et le grand lac nominingue municipalites de nominingue et de riviere rouge)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Jourdain",
+      "aliases": [
+        "jourdain",
+        "jourdain entre le pont de la route 117 et le grand lac nominingue municipalites de nominingue et de riviere rouge)",
+        "ruisseau jourdain",
+        "ruisseau jourdain entre le pont de la route 117 et le grand lac nominingue municipalites de nominingue et de riviere rouge)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 588,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau Lefebvre (Municipalité de Lac-du-Cerf) entre le lac Lefebvre et le Grand lac du Cerf ( 46°18'40\" N., 75°28'30\" O. ).",
+      "nom": "Ruisseau Lefebvre",
+      "nom_search": "ruisseau lefebvre municipalite de lac du cerf) entre le lac lefebvre et le grand lac du cerf 46 18 40 n 75 28 30 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Lefebvre",
+      "aliases": [
+        "lefebvre",
+        "lefebvre municipalite de lac du cerf) entre le lac lefebvre et le grand lac du cerf 46 18 40 n 75 28 30 o )",
+        "ruisseau lefebvre",
+        "ruisseau lefebvre municipalite de lac du cerf) entre le lac lefebvre et le grand lac du cerf 46 18 40 n 75 28 30 o )"
+      ],
+      "lat": 46.311111,
+      "lon": -75.475
+    },
+    {
+      "id": 543,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau Penniseault entre sa confluence avec la rivière des Outaouais ( 46°12'21\" N., 77°41'59\" O. ) et la première chute située environ 700 m en amont ( 46°12'39\" N., 77°41'55\" O. ). (Municipalité de Rapides-des-Joachims).",
+      "nom": "Ruisseau Penniseault entre sa confluence avec la rivière des Outaouais",
+      "nom_search": "ruisseau penniseault entre sa confluence avec la riviere des outaouais 46 12 21 n 77 41 59 o ) et la premiere chute situee environ 700 m en amont 46 12 39 n 77 41 55 o ) municipalite de rapides des joachims)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Penniseault",
+      "aliases": [
+        "penniseault",
+        "penniseault entre sa confluence avec la riviere des outaouais 46 12 21 n 77 41 59 o ) et la premiere chute situee environ 700 m en amont 46 12 39 n 77 41 55 o ) municipalite de rapides des joachims)",
+        "ruisseau penniseault",
+        "ruisseau penniseault entre sa confluence avec la riviere des outaouais 46 12 21 n 77 41 59 o ) et la premiere chute situee environ 700 m en amont 46 12 39 n 77 41 55 o ) municipalite de rapides des joachims)"
+      ],
+      "lat": 46.205833,
+      "lon": -77.699722
+    },
+    {
+      "id": 579,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau Petit ruisseau de l'Argile entre son embouchure ( 45°50'29.4\" N., 75°32'37.5\" O. ) et le chemin Thomas sud ( 45°49'37.4\" N., 75°31'55.7\" O. ) (Municipalité de Notre-Dame-de-la-Salette).",
+      "nom": "Ruisseau Petit ruisseau de l'Argile entre son embouchure",
+      "nom_search": "ruisseau petit ruisseau de l argile entre son embouchure 45 50 29 4 n 75 32 37 5 o ) et le chemin thomas sud 45 49 37 4 n 75 31 55 7 o ) municipalite de notre dame de la salette)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Petit ruisseau de l'Argile",
+      "aliases": [
+        "petit ruisseau de l argile",
+        "petit ruisseau de l argile entre son embouchure 45 50 29 4 n 75 32 37 5 o ) et le chemin thomas sud 45 49 37 4 n 75 31 55 7 o ) municipalite de notre dame de la salette)",
+        "ruisseau petit ruisseau de l argile",
+        "ruisseau petit ruisseau de l argile entre son embouchure 45 50 29 4 n 75 32 37 5 o ) et le chemin thomas sud 45 49 37 4 n 75 31 55 7 o ) municipalite de notre dame de la salette)"
+      ],
+      "lat": 45.8415,
+      "lon": -75.54375
+    },
+    {
+      "id": 3168,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau sans nom (Petit ruisseau des Cèdres) entre sa source dans le Grand lac des Cèdres, correspondant à une droite joignant les points 46°17'16\" N., 76°05'22\" O. et 46°17'14\" N., 76°05'21\" O. , et son embouchure dans le Petit lac des Cèdres, correspondant à une droite joignant les points 46°17'16\" N., 76°05'03\" O. et 46°17'16\" N., 76°05'02\" O. (Municipalité de Messines).",
+      "nom": "Ruisseau sans nom",
+      "nom_search": "ruisseau sans nom petit ruisseau des cedres) entre sa source dans le grand lac des cedres correspondant a une droite joignant les points 46 17 16 n 76 05 22 o et 46 17 14 n 76 05 21 o et son embouchure dans le petit lac des cedres correspondant a une droite joignant les points 46 17 16 n 76 05 03 o et 46 17 16 n 76 05 02 o municipalite de messines)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom petit ruisseau des cedres) entre sa source dans le grand lac des cedres correspondant a une droite joignant les points 46 17 16 n 76 05 22 o et 46 17 14 n 76 05 21 o et son embouchure dans le petit lac des cedres correspondant a une droite joignant les points 46 17 16 n 76 05 03 o et 46 17 16 n 76 05 02 o municipalite de messines)",
+        "sans nom",
+        "sans nom petit ruisseau des cedres) entre sa source dans le grand lac des cedres correspondant a une droite joignant les points 46 17 16 n 76 05 22 o et 46 17 14 n 76 05 21 o et son embouchure dans le petit lac des cedres correspondant a une droite joignant les points 46 17 16 n 76 05 03 o et 46 17 16 n 76 05 02 o municipalite de messines)"
+      ],
+      "lat": 46.287778,
+      "lon": -76.089444
+    },
+    {
+      "id": 11460,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau sans nom (Post Creek ou Passe Crique) La partie comprise entre son embouchure avec la rivière Gatineau correspondant à une droite joignant les points 46°15'12\" N., 75°55'35\" O. et 46°15'12\" N., 75°55'37. O. jusqu'à l'embouchure du grand lac Rond correspondant à une droite joignant les points 46°15'03\" N., 75°55'14\" O. et 46°15'00\" N., 75°55'14\" O.",
+      "nom": "Ruisseau sans nom",
+      "nom_search": "ruisseau sans nom post creek ou passe crique) la partie comprise entre son embouchure avec la riviere gatineau correspondant a une droite joignant les points 46 15 12 n 75 55 35 o et 46 15 12 n 75 55 37 o jusqu a l embouchure du grand lac rond correspondant a une droite joignant les points 46 15 03 n 75 55 14 o et 46 15 00 n 75 55 14 o",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom post creek ou passe crique) la partie comprise entre son embouchure avec la riviere gatineau correspondant a une droite joignant les points 46 15 12 n 75 55 35 o et 46 15 12 n 75 55 37 o jusqu a l embouchure du grand lac rond correspondant a une droite joignant les points 46 15 03 n 75 55 14 o et 46 15 00 n 75 55 14 o",
+        "sans nom",
+        "sans nom post creek ou passe crique) la partie comprise entre son embouchure avec la riviere gatineau correspondant a une droite joignant les points 46 15 12 n 75 55 35 o et 46 15 12 n 75 55 37 o jusqu a l embouchure du grand lac rond correspondant a une droite joignant les points 46 15 03 n 75 55 14 o et 46 15 00 n 75 55 14 o"
+      ],
+      "lat": 46.253333,
+      "lon": -75.926389
+    },
+    {
+      "id": 591,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau sans nom entre le lac à la Truite ( 46°00'09\" N., 77°11'54\" O. ) et son embouchure dans la rivière des Outaouais ( 46°00'24\" N., 77°15'33\" O. ), incluant les lacs Manny ( 45°59'46\" N., 77°13'19\"O. ) et Downey ( 46°00'26\" N., 77°14'16\" O. ) ainsi que leurs tributaires (Municipalité de Sheenboro).",
+      "nom": "Ruisseau sans nom entre le lac à la Truite",
+      "nom_search": "ruisseau sans nom entre le lac a la truite 46 00 09 n 77 11 54 o ) et son embouchure dans la riviere des outaouais 46 00 24 n 77 15 33 o ) incluant les lacs manny 45 59 46 n 77 13 19 o ) et downey 46 00 26 n 77 14 16 o ) ainsi que leurs tributaires municipalite de sheenboro)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom entre le lac a la truite 46 00 09 n 77 11 54 o ) et son embouchure dans la riviere des outaouais 46 00 24 n 77 15 33 o ) incluant les lacs manny 45 59 46 n 77 13 19 o ) et downey 46 00 26 n 77 14 16 o ) ainsi que leurs tributaires municipalite de sheenboro)",
+        "sans nom",
+        "sans nom entre le lac a la truite 46 00 09 n 77 11 54 o ) et son embouchure dans la riviere des outaouais 46 00 24 n 77 15 33 o ) incluant les lacs manny 45 59 46 n 77 13 19 o ) et downey 46 00 26 n 77 14 16 o ) ainsi que leurs tributaires municipalite de sheenboro)"
+      ],
+      "lat": 46.0025,
+      "lon": -77.198333
+    },
+    {
+      "id": 563,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau sans nom reliant les lacs des Trois Montagnes (Simon) et Boisseau (municipalité de la Conception).",
+      "nom": "Ruisseau sans nom reliant les lacs des Trois Montagnes",
+      "nom_search": "ruisseau sans nom reliant les lacs des trois montagnes simon) et boisseau municipalite de la conception)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom reliant les lacs des Trois Montagnes",
+      "aliases": [
+        "ruisseau sans nom reliant les lacs des trois montagnes",
+        "ruisseau sans nom reliant les lacs des trois montagnes simon) et boisseau municipalite de la conception)",
+        "sans nom reliant les lacs des trois montagnes",
+        "sans nom reliant les lacs des trois montagnes simon) et boisseau municipalite de la conception)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2596,
+      "zone_id": 10,
+      "nom_brut": "Ruisseau Serpent (cantons Bigelow et Wells) de son embouchure sur la rivière du Lièvre jusqu'aux piliers de l'ancien pont situés à environ 300 mètres de cette embouchure ( 46°05'09\" N., 75°37'02\" O. , Municipalité de Notre-Dame-du-Laus).",
+      "nom": "Ruisseau Serpent",
+      "nom_search": "ruisseau serpent cantons bigelow et wells) de son embouchure sur la riviere du lievre jusqu aux piliers de l ancien pont situes a environ 300 metres de cette embouchure 46 05 09 n 75 37 02 o municipalite de notre dame du laus)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Serpent",
+      "aliases": [
+        "ruisseau serpent",
+        "ruisseau serpent cantons bigelow et wells) de son embouchure sur la riviere du lievre jusqu aux piliers de l ancien pont situes a environ 300 metres de cette embouchure 46 05 09 n 75 37 02 o municipalite de notre dame du laus)",
+        "serpent",
+        "serpent cantons bigelow et wells) de son embouchure sur la riviere du lievre jusqu aux piliers de l ancien pont situes a environ 300 metres de cette embouchure 46 05 09 n 75 37 02 o municipalite de notre dame du laus)"
+      ],
+      "lat": 46.085833,
+      "lon": -75.617222
+    },
+    {
+      "id": 2351,
+      "zone_id": 10,
+      "nom_brut": "Zec Bras-Coupé-Désert",
+      "nom": "Zec Bras-Coupé-Désert",
+      "nom_search": "zec bras coupe desert",
+      "segment_label": null,
+      "river_base_name": "Zec Bras-Coupé-Désert",
+      "aliases": [
+        "zec bras coupe desert"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2400,
+      "zone_id": 10,
+      "nom_brut": "Zec Pontiac",
+      "nom": "Zec Pontiac",
+      "nom_search": "zec pontiac",
+      "segment_label": null,
+      "river_base_name": "Zec Pontiac",
+      "aliases": [
+        "zec pontiac"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2401,
+      "zone_id": 10,
+      "nom_brut": "Zec Rapides-des-Joachims",
+      "nom": "Zec Rapides-des-Joachims",
+      "nom_search": "zec rapides des joachims",
+      "segment_label": null,
+      "river_base_name": "Zec Rapides-des-Joachims",
+      "aliases": [
+        "zec rapides des joachims"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2406,
+      "zone_id": 10,
+      "nom_brut": "Zec Saint-Patrice",
+      "nom": "Zec Saint-Patrice",
+      "nom_search": "zec saint patrice",
+      "segment_label": null,
+      "river_base_name": "Zec Saint-Patrice",
+      "aliases": [
+        "zec saint patrice"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

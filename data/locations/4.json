@@ -1,0 +1,642 @@
+{
+  "meta": {
+    "zone_id": 4,
+    "zone_nom": "Zone 4",
+    "nb_plans": 38,
+    "nb_geocoded": 33,
+    "pct_geocoded": 86.8,
+    "source_file": "zones/4.json"
+  },
+  "locations": [
+    {
+      "id": 524,
+      "zone_id": 4,
+      "nom_brut": "Lac Aylmer ( 45°49'12\" N., 71°20'29\" O. ), la partie comprise au sud de la route 112 à Disraeli.",
+      "nom": "Lac Aylmer",
+      "nom_search": "lac aylmer 45 49 12 n 71 20 29 o ) la partie comprise au sud de la route 112 a disraeli",
+      "segment_label": null,
+      "river_base_name": "Lac Aylmer",
+      "aliases": [
+        "aylmer",
+        "aylmer 45 49 12 n 71 20 29 o ) la partie comprise au sud de la route 112 a disraeli",
+        "lac aylmer",
+        "lac aylmer 45 49 12 n 71 20 29 o ) la partie comprise au sud de la route 112 a disraeli"
+      ],
+      "lat": 45.82,
+      "lon": -71.341389
+    },
+    {
+      "id": 536,
+      "zone_id": 4,
+      "nom_brut": "Lac Drolet - ( 45°44'19\" N., 70°52'36\" O. )",
+      "nom": "Lac Drolet",
+      "nom_search": "lac drolet 45 44 19 n 70 52 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Drolet -",
+      "aliases": [
+        "drolet",
+        "drolet 45 44 19 n 70 52 36 o )",
+        "lac drolet",
+        "lac drolet 45 44 19 n 70 52 36 o )"
+      ],
+      "lat": 45.738611,
+      "lon": -70.876667
+    },
+    {
+      "id": 12120,
+      "zone_id": 4,
+      "nom_brut": "Lac Elgin et ses tributaires ( 45°44'54\" N., 71°20'10\" O. )",
+      "nom": "Lac Elgin et ses tributaires",
+      "nom_search": "lac elgin et ses tributaires 45 44 54 n 71 20 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Elgin et ses tributaires",
+      "aliases": [
+        "elgin et ses tributaires",
+        "elgin et ses tributaires 45 44 54 n 71 20 10 o )",
+        "lac elgin et ses tributaires",
+        "lac elgin et ses tributaires 45 44 54 n 71 20 10 o )"
+      ],
+      "lat": 45.748333,
+      "lon": -71.336111
+    },
+    {
+      "id": 528,
+      "zone_id": 4,
+      "nom_brut": "Lac Fortin ( 46°07'08\" N., 70°51'23\" O. )",
+      "nom": "Lac Fortin",
+      "nom_search": "lac fortin 46 07 08 n 70 51 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Fortin",
+      "aliases": [
+        "fortin",
+        "fortin 46 07 08 n 70 51 23 o )",
+        "lac fortin",
+        "lac fortin 46 07 08 n 70 51 23 o )"
+      ],
+      "lat": 46.118889,
+      "lon": -70.856389
+    },
+    {
+      "id": 534,
+      "zone_id": 4,
+      "nom_brut": "Lac Grand lac Saint-François (incluant les parties du lac comprises dans le parc national de Frontenac)( 45°53'55\" N., 71°09'30\" O. )",
+      "nom": "Lac Grand lac Saint-François",
+      "nom_search": "lac grand lac saint francois incluant les parties du lac comprises dans le parc national de frontenac) 45 53 55 n 71 09 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Saint-François",
+      "aliases": [
+        "grand lac saint francois",
+        "grand lac saint francois incluant les parties du lac comprises dans le parc national de frontenac) 45 53 55 n 71 09 30 o )",
+        "lac grand lac saint francois",
+        "lac grand lac saint francois incluant les parties du lac comprises dans le parc national de frontenac) 45 53 55 n 71 09 30 o )"
+      ],
+      "lat": 45.898611,
+      "lon": -71.158333
+    },
+    {
+      "id": 529,
+      "zone_id": 4,
+      "nom_brut": "Lac Louise ( 45°43'36\" N., 71°24'59\" O. )",
+      "nom": "Lac Louise",
+      "nom_search": "lac louise 45 43 36 n 71 24 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Louise",
+      "aliases": [
+        "lac louise",
+        "lac louise 45 43 36 n 71 24 59 o )",
+        "louise",
+        "louise 45 43 36 n 71 24 59 o )"
+      ],
+      "lat": 45.726667,
+      "lon": -71.416389
+    },
+    {
+      "id": 530,
+      "zone_id": 4,
+      "nom_brut": "Lac McGill ( 45°35'32\" N., 71°17'09\" O. )",
+      "nom": "Lac McGill",
+      "nom_search": "lac mcgill 45 35 32 n 71 17 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac McGill",
+      "aliases": [
+        "lac mcgill",
+        "lac mcgill 45 35 32 n 71 17 09 o )",
+        "mcgill",
+        "mcgill 45 35 32 n 71 17 09 o )"
+      ],
+      "lat": 45.592222,
+      "lon": -71.285833
+    },
+    {
+      "id": 542,
+      "zone_id": 4,
+      "nom_brut": "Lac Mégantic ( 45°30'50\" N., 72°52'40\" O. )",
+      "nom": "Lac Mégantic",
+      "nom_search": "lac megantic 45 30 50 n 72 52 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Mégantic",
+      "aliases": [
+        "lac megantic",
+        "lac megantic 45 30 50 n 72 52 40 o )",
+        "megantic",
+        "megantic 45 30 50 n 72 52 40 o )"
+      ],
+      "lat": 45.513889,
+      "lon": -72.877778
+    },
+    {
+      "id": 12121,
+      "zone_id": 4,
+      "nom_brut": "Lac Mégantic ( 45°30'50\" N., 72°52'40\" O. ) Les tributaires du lac",
+      "nom": "Lac Mégantic",
+      "nom_search": "lac megantic 45 30 50 n 72 52 40 o ) les tributaires du lac",
+      "segment_label": null,
+      "river_base_name": "Lac Mégantic",
+      "aliases": [
+        "lac megantic",
+        "lac megantic 45 30 50 n 72 52 40 o ) les tributaires du lac",
+        "megantic",
+        "megantic 45 30 50 n 72 52 40 o ) les tributaires du lac"
+      ],
+      "lat": 45.513889,
+      "lon": -72.877778
+    },
+    {
+      "id": 531,
+      "zone_id": 4,
+      "nom_brut": "Lac Moffatt ( 45°34'03\" N., 71°18'48\" O. )",
+      "nom": "Lac Moffatt",
+      "nom_search": "lac moffatt 45 34 03 n 71 18 48 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Moffatt",
+      "aliases": [
+        "lac moffatt",
+        "lac moffatt 45 34 03 n 71 18 48 o )",
+        "moffatt",
+        "moffatt 45 34 03 n 71 18 48 o )"
+      ],
+      "lat": 45.5675,
+      "lon": -71.313333
+    },
+    {
+      "id": 544,
+      "zone_id": 4,
+      "nom_brut": "Lac Petit lac Lambton ( 45°53'54\" N., 71°07'02\" O. )",
+      "nom": "Lac Petit lac Lambton",
+      "nom_search": "lac petit lac lambton 45 53 54 n 71 07 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Lambton",
+      "aliases": [
+        "lac petit lac lambton",
+        "lac petit lac lambton 45 53 54 n 71 07 02 o )",
+        "petit lac lambton",
+        "petit lac lambton 45 53 54 n 71 07 02 o )"
+      ],
+      "lat": 45.898333,
+      "lon": -71.117222
+    },
+    {
+      "id": 535,
+      "zone_id": 4,
+      "nom_brut": "Lac Petit lac Vaseux ( 45°36'01\" N., 71°18'40\" O. )",
+      "nom": "Lac Petit lac Vaseux",
+      "nom_search": "lac petit lac vaseux 45 36 01 n 71 18 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Vaseux",
+      "aliases": [
+        "lac petit lac vaseux",
+        "lac petit lac vaseux 45 36 01 n 71 18 40 o )",
+        "petit lac vaseux",
+        "petit lac vaseux 45 36 01 n 71 18 40 o )"
+      ],
+      "lat": 45.600278,
+      "lon": -71.311111
+    },
+    {
+      "id": 2993,
+      "zone_id": 4,
+      "nom_brut": "Lac Raquette (St-Benoit-Labre, 46°06'43\" N., 70°48'04\" O. )",
+      "nom": "Lac Raquette",
+      "nom_search": "lac raquette saint benoit labre 46 06 43 n 70 48 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Raquette",
+      "aliases": [
+        "lac raquette",
+        "lac raquette saint benoit labre 46 06 43 n 70 48 04 o )",
+        "raquette",
+        "raquette saint benoit labre 46 06 43 n 70 48 04 o )"
+      ],
+      "lat": 46.111944,
+      "lon": -70.801111
+    },
+    {
+      "id": 541,
+      "zone_id": 4,
+      "nom_brut": "Lac Ruel ( 45°49'53\" N., 71°08'20\" O. )",
+      "nom": "Lac Ruel",
+      "nom_search": "lac ruel 45 49 53 n 71 08 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ruel",
+      "aliases": [
+        "lac ruel",
+        "lac ruel 45 49 53 n 71 08 20 o )",
+        "ruel",
+        "ruel 45 49 53 n 71 08 20 o )"
+      ],
+      "lat": 45.831389,
+      "lon": -71.138889
+    },
+    {
+      "id": 2995,
+      "zone_id": 4,
+      "nom_brut": "Lac Sartigan (Saint-Alfred, 46°08'56\" N., 70°46'35\" O. )",
+      "nom": "Lac Sartigan",
+      "nom_search": "lac sartigan saint alfred 46 08 56 n 70 46 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sartigan",
+      "aliases": [
+        "lac sartigan",
+        "lac sartigan saint alfred 46 08 56 n 70 46 35 o )",
+        "sartigan",
+        "sartigan saint alfred 46 08 56 n 70 46 35 o )"
+      ],
+      "lat": 46.148889,
+      "lon": -70.776389
+    },
+    {
+      "id": 525,
+      "zone_id": 4,
+      "nom_brut": "Lac Welland ( 45°40'50\" N., 71°32'04\" O. )",
+      "nom": "Lac Welland",
+      "nom_search": "lac welland 45 40 50 n 71 32 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Welland",
+      "aliases": [
+        "lac welland",
+        "lac welland 45 40 50 n 71 32 04 o )",
+        "welland",
+        "welland 45 40 50 n 71 32 04 o )"
+      ],
+      "lat": 45.680556,
+      "lon": -71.534444
+    },
+    {
+      "id": 2488,
+      "zone_id": 4,
+      "nom_brut": "Parc National de Frontenac à l'exception des lacs suivants: Grand lac Saint-François, lac à la Barbue, lac des Îles et lac des Ours.",
+      "nom": "Parc National de Frontenac à l'exception des lacs suivants: Grand lac Saint-François, lac à la Barbue, lac des Îles et lac des Ours.",
+      "nom_search": "parc national de frontenac a l exception des lacs suivants grand lac saint francois lac a la barbue lac des iles et lac des ours",
+      "segment_label": null,
+      "river_base_name": "Parc National de Frontenac",
+      "aliases": [
+        "parc national de frontenac",
+        "parc national de frontenac a l exception des lacs suivants grand lac saint francois lac a la barbue lac des iles et lac des ours"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2592,
+      "zone_id": 4,
+      "nom_brut": "Parc National de Frontenac Lac à la Barbue ( 45°49'10\" N., 71°11'15\" O. )",
+      "nom": "Parc National de Frontenac Lac à la Barbue",
+      "nom_search": "parc national de frontenac lac a la barbue 45 49 10 n 71 11 15 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National de Frontenac Lac à la Barbue",
+      "aliases": [
+        "parc national de frontenac lac a la barbue",
+        "parc national de frontenac lac a la barbue 45 49 10 n 71 11 15 o )"
+      ],
+      "lat": 45.819444,
+      "lon": -71.1875
+    },
+    {
+      "id": 2593,
+      "zone_id": 4,
+      "nom_brut": "Parc National de Frontenac Lac des Îles ( 45°47'28\" N., 71°11'25\" O. )",
+      "nom": "Parc National de Frontenac Lac des Îles",
+      "nom_search": "parc national de frontenac lac des iles 45 47 28 n 71 11 25 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National de Frontenac Lac des Îles",
+      "aliases": [
+        "parc national de frontenac lac des iles",
+        "parc national de frontenac lac des iles 45 47 28 n 71 11 25 o )"
+      ],
+      "lat": 45.791111,
+      "lon": -71.190278
+    },
+    {
+      "id": 2594,
+      "zone_id": 4,
+      "nom_brut": "Parc National de Frontenac Lac des Ours ( 45°51'08\" N., 71°11'32\" O. )",
+      "nom": "Parc National de Frontenac Lac des Ours",
+      "nom_search": "parc national de frontenac lac des ours 45 51 08 n 71 11 32 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National de Frontenac Lac des Ours",
+      "aliases": [
+        "parc national de frontenac lac des ours",
+        "parc national de frontenac lac des ours 45 51 08 n 71 11 32 o )"
+      ],
+      "lat": 45.852222,
+      "lon": -71.192222
+    },
+    {
+      "id": 2496,
+      "zone_id": 4,
+      "nom_brut": "Parc National du Mont-Mégantic",
+      "nom": "Parc National du Mont-Mégantic",
+      "nom_search": "parc national du mont megantic",
+      "segment_label": null,
+      "river_base_name": "Parc National du Mont-Mégantic",
+      "aliases": [
+        "parc national du mont megantic"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 546,
+      "zone_id": 4,
+      "nom_brut": "Rivière Ashberham du Petit lac Saint-François au lac Grand Saint-François.",
+      "nom": "Rivière Ashberham du Petit lac Saint-François au lac Grand Saint-François.",
+      "nom_search": "riviere ashberham du petit lac saint francois au lac grand saint francois",
+      "segment_label": null,
+      "river_base_name": "Rivière Ashberham du Petit lac Saint-François au lac Grand Saint-François.",
+      "aliases": [
+        "ashberham du petit lac saint francois au lac grand saint francois",
+        "riviere ashberham du petit lac saint francois au lac grand saint francois"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 557,
+      "zone_id": 4,
+      "nom_brut": "Rivière aux Bluets entre le Grand lac Saint-François et le pont de la route 108 ( 45°52'59\" N., 71°00'58\" O. ).",
+      "nom": "Rivière aux Bluets entre le Grand lac Saint-François et le pont de la route 108",
+      "nom_search": "riviere aux bluets entre le grand lac saint francois et le pont de la route 108 45 52 59 n 71 00 58 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Bluets",
+      "aliases": [
+        "aux bluets",
+        "aux bluets entre le grand lac saint francois et le pont de la route 108 45 52 59 n 71 00 58 o )",
+        "riviere aux bluets",
+        "riviere aux bluets entre le grand lac saint francois et le pont de la route 108 45 52 59 n 71 00 58 o )"
+      ],
+      "lat": 45.883056,
+      "lon": -71.016111
+    },
+    {
+      "id": 12124,
+      "zone_id": 4,
+      "nom_brut": "Rivière Chaudière c) La partie comprise entre la limite sud-est de l'emprise de la route 112 à Vallée-Jonction ( 46°22' 26,18\" N., 70°55'45,05\" O. ) et le barrage Sartigan à St-Georges de Beauce ( 46°05'47,32\" N., 70°39'12,55\" O. )",
+      "nom": "Rivière Chaudière c) La partie comprise entre la limite sud-est de l'emprise de la route 112 à Vallée-Jonction",
+      "nom_search": "riviere chaudiere c) la partie comprise entre la limite sud est de l emprise de la route 112 a vallee jonction 46 22 26 18 n 70 55 45 05 o ) et le barrage sartigan a saint georges de beauce 46 05 47 32 n 70 39 12 55 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Chaudière  La partie comprise",
+      "aliases": [
+        "chaudiere c) la partie comprise entre la limite sud est de l emprise de la route 112 a vallee jonction 46 22 26 18 n 70 55 45 05 o ) et le barrage sartigan a saint georges de beauce 46 05 47 32 n 70 39 12 55 o )",
+        "chaudiere la partie comprise",
+        "riviere chaudiere c) la partie comprise entre la limite sud est de l emprise de la route 112 a vallee jonction 46 22 26 18 n 70 55 45 05 o ) et le barrage sartigan a saint georges de beauce 46 05 47 32 n 70 39 12 55 o )",
+        "riviere chaudiere la partie comprise"
+      ],
+      "lat": 46.373939,
+      "lon": -70.929181
+    },
+    {
+      "id": 586,
+      "zone_id": 4,
+      "nom_brut": "Rivière Chaudière d) La partie entre le pont de la voie ferrée et le barrage Mégantic (Lac Mégantic) ( 45°34'24\" N., 70°52'50\" O. ).",
+      "nom": "Rivière Chaudière d) La partie entre le pont de la voie ferrée et le barrage Mégantic",
+      "nom_search": "riviere chaudiere d) la partie entre le pont de la voie ferree et le barrage megantic lac megantic) 45 34 24 n 70 52 50 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Chaudière  La partie",
+      "aliases": [
+        "chaudiere d) la partie entre le pont de la voie ferree et le barrage megantic lac megantic) 45 34 24 n 70 52 50 o )",
+        "chaudiere la partie",
+        "riviere chaudiere d) la partie entre le pont de la voie ferree et le barrage megantic lac megantic) 45 34 24 n 70 52 50 o )",
+        "riviere chaudiere la partie"
+      ],
+      "lat": 45.573333,
+      "lon": -70.880556
+    },
+    {
+      "id": 582,
+      "zone_id": 4,
+      "nom_brut": "Rivière Clinton de son embouchure jusqu'au côté amont du pont de la route 212 ( 45°22'28\" N., 70°57'30\" O. ).",
+      "nom": "Rivière Clinton de son embouchure jusqu'au côté amont du pont de la route 212",
+      "nom_search": "riviere clinton de son embouchure jusqu au cote amont du pont de la route 212 45 22 28 n 70 57 30 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Clinton de son embouchure jusqu'au côté amont du pont de la route 212",
+      "aliases": [
+        "clinton de son embouchure jusqu au cote amont du pont de la route 212",
+        "clinton de son embouchure jusqu au cote amont du pont de la route 212 45 22 28 n 70 57 30 o )",
+        "riviere clinton de son embouchure jusqu au cote amont du pont de la route 212",
+        "riviere clinton de son embouchure jusqu au cote amont du pont de la route 212 45 22 28 n 70 57 30 o )"
+      ],
+      "lat": 45.374444,
+      "lon": -70.958333
+    },
+    {
+      "id": 578,
+      "zone_id": 4,
+      "nom_brut": "Rivière Coulombe du pont de la route 161 à son embouchure dans le lac Aylmer, y compris la baie à son embouchure ( 45°49'22'' N., 71°23'35'' O. )",
+      "nom": "Rivière Coulombe du pont de la route 161 à son embouchure dans le lac Aylmer, y compris la baie à son embouchure",
+      "nom_search": "riviere coulombe du pont de la route 161 a son embouchure dans le lac aylmer y compris la baie a son embouchure 45 49 22 n 71 23 35 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Coulombe du pont de la route 161 à son embouchure dans le lac Aylmer, y compris la baie à son embouchure",
+      "aliases": [
+        "coulombe du pont de la route 161 a son embouchure dans le lac aylmer y compris la baie a son embouchure",
+        "coulombe du pont de la route 161 a son embouchure dans le lac aylmer y compris la baie a son embouchure 45 49 22 n 71 23 35 o )",
+        "riviere coulombe du pont de la route 161 a son embouchure dans le lac aylmer y compris la baie a son embouchure",
+        "riviere coulombe du pont de la route 161 a son embouchure dans le lac aylmer y compris la baie a son embouchure 45 49 22 n 71 23 35 o )"
+      ],
+      "lat": 45.822778,
+      "lon": -71.393056
+    },
+    {
+      "id": 565,
+      "zone_id": 4,
+      "nom_brut": "Rivière de l'Or du Grand lac Saint-François jusqu'au pont de la route 267 ( 46°01'26\" N., 71°13'51\" O. ).",
+      "nom": "Rivière de l'Or du Grand lac Saint-François jusqu'au pont de la route 267",
+      "nom_search": "riviere de l or du grand lac saint francois jusqu au pont de la route 267 46 01 26 n 71 13 51 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière de l'Or du Grand lac Saint-François jusqu'au pont de la route 267",
+      "aliases": [
+        "de l or du grand lac saint francois jusqu au pont de la route 267",
+        "de l or du grand lac saint francois jusqu au pont de la route 267 46 01 26 n 71 13 51 o )",
+        "riviere de l or du grand lac saint francois jusqu au pont de la route 267",
+        "riviere de l or du grand lac saint francois jusqu au pont de la route 267 46 01 26 n 71 13 51 o )"
+      ],
+      "lat": 46.023889,
+      "lon": -71.230833
+    },
+    {
+      "id": 12123,
+      "zone_id": 4,
+      "nom_brut": "Rivière des Indiens La partie comprise entre sa confluence avec le lac aux Araignées ( 45°29'13\" N., 70°48'08\" O. ) et sa source.",
+      "nom": "Rivière des Indiens La partie comprise entre sa confluence avec le lac aux Araignées",
+      "nom_search": "riviere des indiens la partie comprise entre sa confluence avec le lac aux araignees 45 29 13 n 70 48 08 o ) et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière des Indiens La partie comprise",
+      "aliases": [
+        "des indiens la partie comprise",
+        "des indiens la partie comprise entre sa confluence avec le lac aux araignees 45 29 13 n 70 48 08 o ) et sa source",
+        "riviere des indiens la partie comprise",
+        "riviere des indiens la partie comprise entre sa confluence avec le lac aux araignees 45 29 13 n 70 48 08 o ) et sa source"
+      ],
+      "lat": 45.486944,
+      "lon": -70.802222
+    },
+    {
+      "id": 2667,
+      "zone_id": 4,
+      "nom_brut": "Rivière Felton de son embouchure jusqu'au côté amont du pont de la route 108 ( 45°44'04\" N., 71°07'46\" O. ).",
+      "nom": "Rivière Felton de son embouchure jusqu'au côté amont du pont de la route 108",
+      "nom_search": "riviere felton de son embouchure jusqu au cote amont du pont de la route 108 45 44 04 n 71 07 46 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Felton de son embouchure jusqu'au côté amont du pont de la route 108",
+      "aliases": [
+        "felton de son embouchure jusqu au cote amont du pont de la route 108",
+        "felton de son embouchure jusqu au cote amont du pont de la route 108 45 44 04 n 71 07 46 o )",
+        "riviere felton de son embouchure jusqu au cote amont du pont de la route 108",
+        "riviere felton de son embouchure jusqu au cote amont du pont de la route 108 45 44 04 n 71 07 46 o )"
+      ],
+      "lat": 45.734444,
+      "lon": -71.129444
+    },
+    {
+      "id": 572,
+      "zone_id": 4,
+      "nom_brut": "Rivière Muskrat du pont du 4e rang ( 45°59'45\" N., 71°09'30\" O. ) jusqu'au pont de la route 267 ( 46°00'35\" N., 71°08'02\" O. ).",
+      "nom": "Rivière Muskrat du pont du 4e rang",
+      "nom_search": "riviere muskrat du pont du 4e rang 45 59 45 n 71 09 30 o ) jusqu au pont de la route 267 46 00 35 n 71 08 02 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Muskrat du pont du 4e rang",
+      "aliases": [
+        "muskrat du pont du 4e rang",
+        "muskrat du pont du 4e rang 45 59 45 n 71 09 30 o ) jusqu au pont de la route 267 46 00 35 n 71 08 02 o )",
+        "riviere muskrat du pont du 4e rang",
+        "riviere muskrat du pont du 4e rang 45 59 45 n 71 09 30 o ) jusqu au pont de la route 267 46 00 35 n 71 08 02 o )"
+      ],
+      "lat": 45.995833,
+      "lon": -71.158333
+    },
+    {
+      "id": 587,
+      "zone_id": 4,
+      "nom_brut": "Rivière Saint-François a) entre le Grand lac Saint-François et le côté aval du pont de la route 263.",
+      "nom": "Rivière Saint-François a) entre le Grand lac Saint-François et le côté aval du pont de la route 263.",
+      "nom_search": "riviere saint francois a) entre le grand lac saint francois et le cote aval du pont de la route 263",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saint-François",
+      "aliases": [
+        "riviere saint francois",
+        "riviere saint francois a) entre le grand lac saint francois et le cote aval du pont de la route 263",
+        "saint francois",
+        "saint francois a) entre le grand lac saint francois et le cote aval du pont de la route 263"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 593,
+      "zone_id": 4,
+      "nom_brut": "Rivière Saint-François c) entre le pont de la route 161 à Saint-Gérard et la pointe aval de l'île qui est située aux coordonnées 45°45'13\" N., 71°24'30\" O.",
+      "nom": "Rivière Saint-François c) entre le pont de la route 161 à Saint-Gérard et la pointe aval de l'île qui est située aux coordonnées 45°45'13\" N., 71°24'30\" O.",
+      "nom_search": "riviere saint francois c) entre le pont de la route 161 a saint gerard et la pointe aval de l ile qui est situee aux coordonnees 45 45 13 n 71 24 30 o",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Saint-François",
+      "aliases": [
+        "riviere saint francois",
+        "riviere saint francois c) entre le pont de la route 161 a saint gerard et la pointe aval de l ile qui est situee aux coordonnees 45 45 13 n 71 24 30 o",
+        "saint francois",
+        "saint francois c) entre le pont de la route 161 a saint gerard et la pointe aval de l ile qui est situee aux coordonnees 45 45 13 n 71 24 30 o"
+      ],
+      "lat": 45.753611,
+      "lon": -71.408333
+    },
+    {
+      "id": 594,
+      "zone_id": 4,
+      "nom_brut": "Rivière Saint-François d) entre le barrage hydro-électrique à Westbury situé aux coordonnées 45°29'51\" N., 71°37'11\" O. et la pointe aval de l'île aux coordonnées 45°29'49\" N., 71°37'25\" O.",
+      "nom": "Rivière Saint-François d) entre le barrage hydro-électrique à Westbury situé aux coordonnées 45°29'51\" N., 71°37'11\" O. et la pointe aval de l'île aux coordonnées 45°29'49\" N., 71°37'25\" O.",
+      "nom_search": "riviere saint francois d) entre le barrage hydro electrique a westbury situe aux coordonnees 45 29 51 n 71 37 11 o et la pointe aval de l ile aux coordonnees 45 29 49 n 71 37 25 o",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Saint-François",
+      "aliases": [
+        "riviere saint francois",
+        "riviere saint francois d) entre le barrage hydro electrique a westbury situe aux coordonnees 45 29 51 n 71 37 11 o et la pointe aval de l ile aux coordonnees 45 29 49 n 71 37 25 o",
+        "saint francois",
+        "saint francois d) entre le barrage hydro electrique a westbury situe aux coordonnees 45 29 51 n 71 37 11 o et la pointe aval de l ile aux coordonnees 45 29 49 n 71 37 25 o"
+      ],
+      "lat": 45.4975,
+      "lon": -71.619722
+    },
+    {
+      "id": 595,
+      "zone_id": 4,
+      "nom_brut": "Rivière Saint-François e) entre barrage d'East Angus situé aux coordonnées 45°28'56\" N., 71°39'45\" O. et le pont du chemin de fer situé aux coordonnées 45°29'04\" N., 71°39'55\" O.",
+      "nom": "Rivière Saint-François e) entre barrage d'East Angus situé aux coordonnées 45°28'56\" N., 71°39'45\" O. et le pont du chemin de fer situé aux coordonnées 45°29'04\" N., 71°39'55\" O.",
+      "nom_search": "riviere saint francois e) entre barrage d east angus situe aux coordonnees 45 28 56 n 71 39 45 o et le pont du chemin de fer situe aux coordonnees 45 29 04 n 71 39 55 o",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Saint-François",
+      "aliases": [
+        "riviere saint francois",
+        "riviere saint francois e) entre barrage d east angus situe aux coordonnees 45 28 56 n 71 39 45 o et le pont du chemin de fer situe aux coordonnees 45 29 04 n 71 39 55 o",
+        "saint francois",
+        "saint francois e) entre barrage d east angus situe aux coordonnees 45 28 56 n 71 39 45 o et le pont du chemin de fer situe aux coordonnees 45 29 04 n 71 39 55 o"
+      ],
+      "lat": 45.482222,
+      "lon": -71.6625
+    },
+    {
+      "id": 597,
+      "zone_id": 4,
+      "nom_brut": "Rivière Sauvage de son embouchure jusqu'au côté amont du pont de la route 108 ( 45°45'54\" N., 71°05'50\" O. ).",
+      "nom": "Rivière Sauvage de son embouchure jusqu'au côté amont du pont de la route 108",
+      "nom_search": "riviere sauvage de son embouchure jusqu au cote amont du pont de la route 108 45 45 54 n 71 05 50 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Sauvage de son embouchure jusqu'au côté amont du pont de la route 108",
+      "aliases": [
+        "riviere sauvage de son embouchure jusqu au cote amont du pont de la route 108",
+        "riviere sauvage de son embouchure jusqu au cote amont du pont de la route 108 45 45 54 n 71 05 50 o )",
+        "sauvage de son embouchure jusqu au cote amont du pont de la route 108",
+        "sauvage de son embouchure jusqu au cote amont du pont de la route 108 45 45 54 n 71 05 50 o )"
+      ],
+      "lat": 45.765,
+      "lon": -71.097222
+    },
+    {
+      "id": 583,
+      "zone_id": 4,
+      "nom_brut": "Rivière Victoria de sa source à son embouchure ( 45°33' N., 70°56' O. ).",
+      "nom": "Rivière Victoria de sa source à son embouchure",
+      "nom_search": "riviere victoria de sa source a son embouchure 45 33 n 70 56 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Victoria de sa source à son embouchure",
+      "aliases": [
+        "riviere victoria de sa source a son embouchure",
+        "riviere victoria de sa source a son embouchure 45 33 n 70 56 o )",
+        "victoria de sa source a son embouchure",
+        "victoria de sa source a son embouchure 45 33 n 70 56 o )"
+      ],
+      "lat": 45.55,
+      "lon": -70.933333
+    },
+    {
+      "id": 2381,
+      "zone_id": 4,
+      "nom_brut": "Zec Louise-Gosford",
+      "nom": "Zec Louise-Gosford",
+      "nom_search": "zec louise gosford",
+      "segment_label": null,
+      "river_base_name": "Zec Louise-Gosford",
+      "aliases": [
+        "zec louise gosford"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

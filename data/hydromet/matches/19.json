@@ -1,0 +1,1982 @@
+{
+  "meta": {
+    "zone_id": 19,
+    "radius_km": 25.0,
+    "nb_with_coords": 126,
+    "nb_station_matched": 46
+  },
+  "matches": [
+    {
+      "plan_id": 2309,
+      "plan_nom": "Eaux de la rivière de la Trinité Crique Rimouski entre sa confluence avec la rivière de la Trinité et un point situé à 0,9 km en amont",
+      "lat": 49.679167,
+      "lon": -67.460556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1590,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière de la Trinité a)",
+      "lat": 49.641111,
+      "lon": -67.478611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1591,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière de la Trinité b)",
+      "lat": 49.641111,
+      "lon": -67.478611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1593,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière de la Trinité c)",
+      "lat": 49.731944,
+      "lon": -67.433333,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 21.6,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 21.6
+      }
+    },
+    {
+      "plan_id": 2608,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "lat": 49.407778,
+      "lon": -67.440278,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 17.72,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 17.72
+      }
+    },
+    {
+      "plan_id": 2610,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "lat": 49.496111,
+      "lon": -67.453889,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 23.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 23.43
+      }
+    },
+    {
+      "plan_id": 2612,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "lat": 49.574722,
+      "lon": -67.481944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2614,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "lat": 49.727778,
+      "lon": -67.430556,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 21.64,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 21.64
+      }
+    },
+    {
+      "plan_id": 2617,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "lat": 49.767222,
+      "lon": -67.45,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 21.3,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 21.3
+      }
+    },
+    {
+      "plan_id": 2619,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "lat": 49.779722,
+      "lon": -67.470278,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 22.4,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 22.4
+      }
+    },
+    {
+      "plan_id": 2620,
+      "plan_nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec le ruisseau Fafard et un point situé à 1,5 km en amont",
+      "lat": 49.646111,
+      "lon": -67.502222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1596,
+      "plan_nom": "Eaux de la rivière de la Trinité Ruisseau Bilodeau entre sa confluence avec la rivière de la Trinité et un point situé à 7,4 km en amont",
+      "lat": 49.449444,
+      "lon": -67.328611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1600,
+      "plan_nom": "Eaux de la rivière de la Trinité Ruisseau Fafard entre sa confluence avec la rivière de la Trinité et un point situé à 1,1 km en amont",
+      "lat": 49.635833,
+      "lon": -67.500833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1539,
+      "plan_nom": "Eaux de la rivière Godbout Rivière Bignell entre sa confluence avec la rivière Godbout et un lac sans nom",
+      "lat": 49.691944,
+      "lon": -67.695278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1542,
+      "plan_nom": "Eaux de la rivière Godbout Rivière Étienne entre sa confluence avec la rivière Godbout et un lac sans nom",
+      "lat": 49.485556,
+      "lon": -67.787778,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 19.73,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 19.73
+      }
+    },
+    {
+      "plan_id": 1524,
+      "plan_nom": "Eaux de la rivière Godbout Rivière Godbout b)",
+      "lat": 49.332778,
+      "lon": -67.665556,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 0.83,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 0.83
+      }
+    },
+    {
+      "plan_id": 1525,
+      "plan_nom": "Eaux de la rivière Godbout Rivière Godbout c)",
+      "lat": 49.332778,
+      "lon": -67.665556,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 0.83,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 0.83
+      }
+    },
+    {
+      "plan_id": 1530,
+      "plan_nom": "Eaux de la rivière Godbout Rivière Godbout f)",
+      "lat": 49.693889,
+      "lon": -67.855833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1550,
+      "plan_nom": "Eaux de la rivière Godbout Rivière Mon Oncle entre sa confluence avec la rivière Godbout et un point situé à 100 m en amont",
+      "lat": 49.380278,
+      "lon": -67.690556,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 6.09,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 6.09
+      }
+    },
+    {
+      "plan_id": 2603,
+      "plan_nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Beauzèle",
+      "lat": 49.766944,
+      "lon": -67.661944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2604,
+      "plan_nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Beauzèle",
+      "lat": 49.780556,
+      "lon": -67.625556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2601,
+      "plan_nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Étienne",
+      "lat": 49.461389,
+      "lon": -67.707778,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 15.03,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 15.03
+      }
+    },
+    {
+      "plan_id": 2599,
+      "plan_nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Godbout",
+      "lat": 49.700833,
+      "lon": -67.874444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2602,
+      "plan_nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec le ruisseau Frigon",
+      "lat": 49.725556,
+      "lon": -67.939167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2605,
+      "plan_nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec un tributaire sans nom de la rivière Beauzèle",
+      "lat": 49.751944,
+      "lon": -67.618889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1535,
+      "plan_nom": "Eaux de la rivière Godbout Ruisseau Ashini-Est entre sa confluence avec la rivière Godbout et un point situé à 4,6 km en amont",
+      "lat": 49.563611,
+      "lon": -67.620556,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 26.01,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 26.01
+      }
+    },
+    {
+      "plan_id": 1537,
+      "plan_nom": "Eaux de la rivière Godbout Ruisseau Ashini-Ouest entre sa confluence avec la rivière Godbout et un point situé à 1,4 km en amont",
+      "lat": 49.673611,
+      "lon": -67.750278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1544,
+      "plan_nom": "Eaux de la rivière Godbout Ruisseau Frigon entre sa confluence avec la rivière Godbout et un point situé à 9 km en amont",
+      "lat": 49.709167,
+      "lon": -67.948333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2627,
+      "plan_nom": "Lac à Jacques",
+      "lat": 48.8625,
+      "lon": -69.0475,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1001,
+      "plan_nom": "Lac à Jules",
+      "lat": 49.743333,
+      "lon": -69.145833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12200,
+      "plan_nom": "Lac à Tabac",
+      "lat": 49.385556,
+      "lon": -67.6375,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 6.22,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 6.22
+      }
+    },
+    {
+      "plan_id": 2468,
+      "plan_nom": "Lac Aber",
+      "lat": 49.245556,
+      "lon": -68.150278,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 8.6,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 8.6
+      }
+    },
+    {
+      "plan_id": 971,
+      "plan_nom": "Lac Anne",
+      "lat": 49.550278,
+      "lon": -68.989167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 978,
+      "plan_nom": "Lac au Brochet",
+      "lat": 49.666667,
+      "lon": -69.6,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1015,
+      "plan_nom": "Lac aux Perles",
+      "lat": 49.191667,
+      "lon": -69.833611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 973,
+      "plan_nom": "Lac Betchie",
+      "lat": 49.670556,
+      "lon": -69.984722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 975,
+      "plan_nom": "Lac Boucher",
+      "lat": 49.488889,
+      "lon": -68.979722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2774,
+      "plan_nom": "Lac de la Montagne",
+      "lat": 49.133611,
+      "lon": -69.818889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2469,
+      "plan_nom": "Lac de l'Aqueduc",
+      "lat": 48.153889,
+      "lon": -69.698889,
+      "stations": [
+        {
+          "id": "03424",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Baie Ste-Catherine",
+          "lat": 48.126333,
+          "lon": -69.72975,
+          "distance_km": 3.83,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062803",
+          "plan_eau": "Rivière Sainte-Marguerite Nord-Est",
+          "description": "À 1,7 km de la rivière Sainte-Marguerite",
+          "lat": 48.268,
+          "lon": -69.909,
+          "distance_km": 20.08,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03424",
+      "station": {
+        "id": "03424",
+        "plan_eau": "Rivière Saguenay",
+        "description": "À Baie Ste-Catherine",
+        "lat": 48.126333,
+        "lon": -69.72975,
+        "distance_km": 3.83
+      }
+    },
+    {
+      "plan_id": 996,
+      "plan_nom": "Lac de l'Île",
+      "lat": 49.164167,
+      "lon": -69.905278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 980,
+      "plan_nom": "Lac des Caribous",
+      "lat": 49.1425,
+      "lon": -69.906944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1010,
+      "plan_nom": "Lac des Montagnais",
+      "lat": 49.668333,
+      "lon": -69.099167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 984,
+      "plan_nom": "Lac Dissimieux",
+      "lat": 49.863889,
+      "lon": -69.796944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 987,
+      "plan_nom": "Lac Dodier",
+      "lat": 49.55,
+      "lon": -69.4,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 982,
+      "plan_nom": "Lac du Décès",
+      "lat": 49.6375,
+      "lon": -69.312222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2770,
+      "plan_nom": "Lac du Grand Portage",
+      "lat": 49.126389,
+      "lon": -69.838333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1017,
+      "plan_nom": "Lac du Raccourci",
+      "lat": 49.333333,
+      "lon": -69.116667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1021,
+      "plan_nom": "Lac du Retard",
+      "lat": 49.69,
+      "lon": -69.116944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1025,
+      "plan_nom": "Lac du Sault-aux-Cochons",
+      "lat": 49.273611,
+      "lon": -69.958611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 989,
+      "plan_nom": "Lac Dubuc",
+      "lat": 49.323056,
+      "lon": -69.864167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 992,
+      "plan_nom": "Lac Édouard",
+      "lat": 49.598056,
+      "lon": -69.588056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10860,
+      "plan_nom": "Lac Fléché",
+      "lat": 49.994722,
+      "lon": -68.182778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1039,
+      "plan_nom": "Lac Gilles",
+      "lat": 48.752222,
+      "lon": -69.305,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 994,
+      "plan_nom": "Lac Grimoult",
+      "lat": 49.766111,
+      "lon": -69.738333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1041,
+      "plan_nom": "Lac John",
+      "lat": 48.723333,
+      "lon": -69.336389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 999,
+      "plan_nom": "Lac Kakuskanus",
+      "lat": 49.220833,
+      "lon": -69.986389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1003,
+      "plan_nom": "Lac Kamiltaukas",
+      "lat": 49.620833,
+      "lon": -68.938056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1005,
+      "plan_nom": "Lac Letemplier",
+      "lat": 49.456111,
+      "lon": -68.783611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1043,
+      "plan_nom": "Lac Miracle",
+      "lat": 48.737778,
+      "lon": -69.304167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1012,
+      "plan_nom": "Lac Nid",
+      "lat": 49.403889,
+      "lon": -68.969167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1045,
+      "plan_nom": "Lac Petit lac du Sault-aux Cochons",
+      "lat": 49.245278,
+      "lon": -69.914444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1008,
+      "plan_nom": "Lac Petit lac Letemplier",
+      "lat": 49.425556,
+      "lon": -68.757778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1023,
+      "plan_nom": "Lac Roy",
+      "lat": 49.75,
+      "lon": -69.9,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1047,
+      "plan_nom": "Lac Sans Baie",
+      "lat": 49.291111,
+      "lon": -68.207222,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 5.06,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 5.06
+      }
+    },
+    {
+      "plan_id": 3104,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.630556,
+      "lon": -69.344444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3105,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.633333,
+      "lon": -69.361111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3106,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.641667,
+      "lon": -69.355556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1027,
+      "plan_nom": "Lac Sédillot",
+      "lat": 49.527222,
+      "lon": -69.111667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1029,
+      "plan_nom": "Lac Uchichicau",
+      "lat": 49.7775,
+      "lon": -69.696389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1031,
+      "plan_nom": "Lac Violette",
+      "lat": 49.9125,
+      "lon": -69.879444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10862,
+      "plan_nom": "Réservoir aux Outardes-2",
+      "lat": 49.385278,
+      "lon": -68.579167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10863,
+      "plan_nom": "Réservoir aux Outardes-3",
+      "lat": 49.584167,
+      "lon": -68.765556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10864,
+      "plan_nom": "Réservoir aux Outardes-4",
+      "lat": 49.738333,
+      "lon": -68.906667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10861,
+      "plan_nom": "Réservoir Betsiamites",
+      "lat": 49.207778,
+      "lon": -69.287222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10865,
+      "plan_nom": "Réservoir Manic-1",
+      "lat": 49.246667,
+      "lon": -68.398611,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 19.45,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 19.45
+      }
+    },
+    {
+      "plan_id": 10866,
+      "plan_nom": "Réservoir Manic-2",
+      "lat": 49.515,
+      "lon": -68.3975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10867,
+      "plan_nom": "Réservoir Manic-3",
+      "lat": 49.927778,
+      "lon": -68.633333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2481,
+      "plan_nom": "Réservoir Pipmuacan",
+      "lat": 49.424167,
+      "lon": -69.8925,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3352,
+      "plan_nom": "Rivière à la chasse Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°12'04\" N., 68°11'38\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.201111,
+      "lon": -68.193889,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 13.79,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 13.79
+      }
+    },
+    {
+      "plan_id": 3366,
+      "plan_nom": "Rivière à Labrie Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°22'49\" N., 67°19'18\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.380278,
+      "lon": -67.321667,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 24.73,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 24.73
+      }
+    },
+    {
+      "plan_id": 3350,
+      "plan_nom": "Rivière Amédée Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°11'13,056\" N., 68°14'17,569\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.18696,
+      "lon": -68.238214,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 16.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 16.21
+      }
+    },
+    {
+      "plan_id": 2472,
+      "plan_nom": "Rivière au Loup Marin - La partie comprise entre la chute infranchissable du 13 km",
+      "lat": 49.392222,
+      "lon": -68.729167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1049,
+      "plan_nom": "Rivière aux Anglais entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°15'23\" N., 68°07'56\" O. et le côté en aval du pont de la route 138.",
+      "lat": 49.256389,
+      "lon": -68.132222,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 7.6,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 7.6
+      }
+    },
+    {
+      "plan_id": 3342,
+      "plan_nom": "Rivière aux Outardes - La partie comprise entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°08'7,9\" N., 68°23'9,8\" O. et le côté aval du barrage Outardes-2, ainsi que tous ses tributaires.",
+      "lat": 49.135528,
+      "lon": -68.386056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3338,
+      "plan_nom": "Rivière aux Rosiers Entre sa source et le côté aval du pont de la route 138",
+      "lat": 49.060837,
+      "lon": -68.584219,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3378,
+      "plan_nom": "Rivière Baie des sables Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°53'35\" N., 66°59'50\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.893056,
+      "lon": -66.997222,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 14.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 14.55
+      }
+    },
+    {
+      "plan_id": 3318,
+      "plan_nom": "Rivière Blanche Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 48°49'25\" N., 68°57'17\" O. , ainsi que tous ses tributaires.",
+      "lat": 48.823611,
+      "lon": -68.954722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12261,
+      "plan_nom": "Rivière Boucher - La partie comprise entre le lac du Décès",
+      "lat": 49.628333,
+      "lon": -69.3,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3320,
+      "plan_nom": "Rivière Colombier Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 48°49'37\" N., 68°54'02\" O. , ainsi que tous ses tributaires.",
+      "lat": 48.826944,
+      "lon": -68.900556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3322,
+      "plan_nom": "Rivière de Papinachois Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°00'4,5\" N., 68°38'12,1\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.00125,
+      "lon": -68.636694,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1060,
+      "plan_nom": "Rivière des Escoumins a)",
+      "lat": 48.344722,
+      "lon": -69.408056,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 5.68,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 5.68
+      }
+    },
+    {
+      "plan_id": 1061,
+      "plan_nom": "Rivière des Escoumins b)",
+      "lat": 48.344722,
+      "lon": -69.408056,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 5.68,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 5.68
+      }
+    },
+    {
+      "plan_id": 1501,
+      "plan_nom": "Rivière des Escoumins c)",
+      "lat": 48.345833,
+      "lon": -69.446944,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 3.46,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 3.46
+      }
+    },
+    {
+      "plan_id": 1503,
+      "plan_nom": "Rivière des Escoumins d)",
+      "lat": 48.345833,
+      "lon": -69.446944,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 3.46,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 3.46
+      }
+    },
+    {
+      "plan_id": 2479,
+      "plan_nom": "Rivière des Escoumins e)",
+      "lat": 48.371389,
+      "lon": -69.473889,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 0.02,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 0.02
+      }
+    },
+    {
+      "plan_id": 1506,
+      "plan_nom": "Rivière des Escoumins f)",
+      "lat": 48.371389,
+      "lon": -69.473889,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 0.02,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 0.02
+      }
+    },
+    {
+      "plan_id": 2304,
+      "plan_nom": "Rivière des Escoumins g)",
+      "lat": 48.468889,
+      "lon": -69.717222,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 20.99,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 20.99
+      }
+    },
+    {
+      "plan_id": 1510,
+      "plan_nom": "Rivière des Escoumins h)",
+      "lat": 48.468889,
+      "lon": -69.717222,
+      "stations": [
+        {
+          "id": "070204",
+          "plan_eau": "Rivière des Escoumins",
+          "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+          "lat": 48.371389,
+          "lon": -69.473611,
+          "distance_km": 20.99,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "070204",
+      "station": {
+        "id": "070204",
+        "plan_eau": "Rivière des Escoumins",
+        "description": "À 9,0 km de l'embouchure de la rivière des Escoumins",
+        "lat": 48.371389,
+        "lon": -69.473611,
+        "distance_km": 20.99
+      }
+    },
+    {
+      "plan_id": 1058,
+      "plan_nom": "Rivière du Calumet entre le côté en aval du pont de la route 138 et la chute située à 49°37'28\" N., 67°15'16\" O. ainsi que les tributaires fréquentés par le saumon.",
+      "lat": 49.624444,
+      "lon": -67.254444,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 22.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 22.55
+      }
+    },
+    {
+      "plan_id": 1053,
+      "plan_nom": "Rivière du Calumet entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°35'38\" N., 67°14'08\" O. et le côté en aval du pont de la route 138.",
+      "lat": 49.593889,
+      "lon": -67.235556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2416,
+      "plan_nom": "Rivière du Pont entre son embouchure et la limite de montaison du saumon située au point 49°47'08\"N, 67°11'33\"O.",
+      "lat": 49.785556,
+      "lon": -67.1925,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 4.2,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 4.2
+      }
+    },
+    {
+      "plan_id": 3376,
+      "plan_nom": "Rivière Grande rivière Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°50'52\" N., 67°5'27\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.847778,
+      "lon": -67.090833,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 6.18,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 6.18
+      }
+    },
+    {
+      "plan_id": 3380,
+      "plan_nom": "Rivière île de Mai Entre sa source et une droite joignant le point 49°55'36\" N., 66°58'50\" O. au point 49°55'36\" N., 66°58'48\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.926667,
+      "lon": -66.980556,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 17.82,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 17.82
+      }
+    },
+    {
+      "plan_id": 1568,
+      "plan_nom": "Rivière Laval a)",
+      "lat": 48.7725,
+      "lon": -69.051944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1569,
+      "plan_nom": "Rivière Laval b)",
+      "lat": 48.7725,
+      "lon": -69.051944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1570,
+      "plan_nom": "Rivière Laval c)",
+      "lat": 48.7725,
+      "lon": -69.051944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1573,
+      "plan_nom": "Rivière Laval d)",
+      "lat": 48.835556,
+      "lon": -69.065556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2307,
+      "plan_nom": "Rivière Mistassini",
+      "lat": 49.386111,
+      "lon": -68.046944,
+      "stations": [
+        {
+          "id": "071203",
+          "plan_eau": "Rivière aux Anglais",
+          "description": "À la décharge du lac Inconnu à Baie-Comeau",
+          "lat": 49.322778,
+          "lon": -68.157194,
+          "distance_km": 10.65,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071203",
+      "station": {
+        "id": "071203",
+        "plan_eau": "Rivière aux Anglais",
+        "description": "À la décharge du lac Inconnu à Baie-Comeau",
+        "lat": 49.322778,
+        "lon": -68.157194,
+        "distance_km": 10.65
+      }
+    },
+    {
+      "plan_id": 1585,
+      "plan_nom": "Rivière Pentecôte",
+      "lat": 49.790556,
+      "lon": -67.263333,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 7.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 7.77
+      }
+    },
+    {
+      "plan_id": 1584,
+      "plan_nom": "Rivière Pentecôte",
+      "lat": 49.778333,
+      "lon": -67.160278,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 4.49,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 4.49
+      }
+    },
+    {
+      "plan_id": 3368,
+      "plan_nom": "Rivière Petit Mai Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°26'49\" N., 67°15'43\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.446944,
+      "lon": -67.261944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3132,
+      "plan_nom": "Rivière Petite rivière de la Trinité La partie dans la zec Trinité",
+      "lat": 49.560278,
+      "lon": -67.319167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3372,
+      "plan_nom": "Rivière Petite rivière du Calumet Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°37'00\" N., 67°12'56\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.616667,
+      "lon": -67.215556,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 22.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 22.76
+      }
+    },
+    {
+      "plan_id": 3358,
+      "plan_nom": "Rivière Petite Rivière Godbout Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'35\" N., 67°35'03\" O. , ainsi que tous ses tributaires, excluant le lac à Tabac",
+      "lat": 49.326389,
+      "lon": -67.584167,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 5.13,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 5.13
+      }
+    },
+    {
+      "plan_id": 3340,
+      "plan_nom": "Rivière Ragueneau Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°04'24\" N., 68°31'33\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.073333,
+      "lon": -68.525833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3374,
+      "plan_nom": "Rivière Riverin Entre sa source et une droite passant par le point 49°47'09\" N., 67°09'26\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.785833,
+      "lon": -67.157222,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 3.68,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 3.68
+      }
+    },
+    {
+      "plan_id": 3344,
+      "plan_nom": "Rivière Saint-Athanase Ouest Entre sa source et le côté amont du pont du chemin de la Baie Saint-Ludger",
+      "lat": 49.094722,
+      "lon": -68.310556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3354,
+      "plan_nom": "Rivière Saint-Nicolas Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'10\" N., 67°47'29\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.319444,
+      "lon": -67.791389,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 9.99,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 9.99
+      }
+    },
+    {
+      "plan_id": 3385,
+      "plan_nom": "Rivière Sans nom Entre sa source et une droite joignant le point 49°05'41\" N., 68°13'22\" O. au point 49°05'42\" N., 68°13'21\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.094722,
+      "lon": -68.222778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3382,
+      "plan_nom": "Rivière Vachon Entre sa source et une droite joignant le point 49°57'24\" N., 66°58'21\" O. au point 49°57'27\" N., 66°58'18\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.956667,
+      "lon": -66.9725,
+      "stations": [
+        {
+          "id": "071801",
+          "plan_eau": "Rivière Riverin",
+          "description": "À environ 6.3 km de l'embouchure",
+          "lat": 49.818608,
+          "lon": -67.164114,
+          "distance_km": 20.59,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071801",
+      "station": {
+        "id": "071801",
+        "plan_eau": "Rivière Riverin",
+        "description": "À environ 6.3 km de l'embouchure",
+        "lat": 49.818608,
+        "lon": -67.164114,
+        "distance_km": 20.59
+      }
+    },
+    {
+      "plan_id": 3360,
+      "plan_nom": "Ruisseau Blanc Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'21\" N., 67°33'39\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.3225,
+      "lon": -67.560833,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 6.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 6.86
+      }
+    },
+    {
+      "plan_id": 3316,
+      "plan_nom": "Ruisseau Jean-Raymond Entre sa source et le côté aval du pont de la route 138",
+      "lat": 48.766667,
+      "lon": -69.065833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3370,
+      "plan_nom": "Ruisseau Long Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°32'01\" N., 67°14'02\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.533611,
+      "lon": -67.233889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3356,
+      "plan_nom": "Ruisseau Petit Ruisseau Saint-Nicolas Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°18'38\" N., 67°42'45\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.310556,
+      "lon": -67.7125,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 4.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 4.76
+      }
+    },
+    {
+      "plan_id": 3362,
+      "plan_nom": "Ruisseau Raymond Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'28\" N., 67°29'52\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.324444,
+      "lon": -67.497778,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 11.39,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 11.39
+      }
+    },
+    {
+      "plan_id": 3364,
+      "plan_nom": "Ruisseau Saint-Augustin Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'29\" N., 67°25'02\" O. , ainsi que tous ses tributaires.",
+      "lat": 49.324722,
+      "lon": -67.417222,
+      "stations": [
+        {
+          "id": "071401",
+          "plan_eau": "Rivière Godbout",
+          "description": "À 1,6 km en amont du pont-route 138",
+          "lat": 49.33075,
+          "lon": -67.654583,
+          "distance_km": 17.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "071401",
+      "station": {
+        "id": "071401",
+        "plan_eau": "Rivière Godbout",
+        "description": "À 1,6 km en amont du pont-route 138",
+        "lat": 49.33075,
+        "lon": -67.654583,
+        "distance_km": 17.21
+      }
+    }
+  ]
+}

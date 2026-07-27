@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "zone_id": 25,
+    "zone_nom": "Zone 22 sud",
+    "nb_plans": 29,
+    "nb_geocoded": 26,
+    "pct_geocoded": 89.7,
+    "source_file": "zones/25.json"
+  },
+  "locations": [
+    {
+      "id": 3004,
+      "zone_id": 25,
+      "nom_brut": "Lac Boisrobert ( 51°34'35\" N., 77°09'50\" O. )",
+      "nom": "Lac Boisrobert",
+      "nom_search": "lac boisrobert 51 34 35 n 77 09 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Boisrobert",
+      "aliases": [
+        "boisrobert",
+        "boisrobert 51 34 35 n 77 09 50 o )",
+        "lac boisrobert",
+        "lac boisrobert 51 34 35 n 77 09 50 o )"
+      ],
+      "lat": 51.576389,
+      "lon": -77.163889
+    },
+    {
+      "id": 1612,
+      "zone_id": 25,
+      "nom_brut": "Lac Colomb ( 51°02'17\" N., 77°40'55\" O. )",
+      "nom": "Lac Colomb",
+      "nom_search": "lac colomb 51 02 17 n 77 40 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Colomb",
+      "aliases": [
+        "colomb",
+        "colomb 51 02 17 n 77 40 55 o )",
+        "lac colomb",
+        "lac colomb 51 02 17 n 77 40 55 o )"
+      ],
+      "lat": 51.038056,
+      "lon": -77.681944
+    },
+    {
+      "id": 1613,
+      "zone_id": 25,
+      "nom_brut": "Lac Dana ( 50°53'03\" N., 77°20'15\" O. )",
+      "nom": "Lac Dana",
+      "nom_search": "lac dana 50 53 03 n 77 20 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Dana",
+      "aliases": [
+        "dana",
+        "dana 50 53 03 n 77 20 15 o )",
+        "lac dana",
+        "lac dana 50 53 03 n 77 20 15 o )"
+      ],
+      "lat": 50.884167,
+      "lon": -77.3375
+    },
+    {
+      "id": 1614,
+      "zone_id": 25,
+      "nom_brut": "Lac Desorsons ( 50°48'33\" N., 77°39'49\" O. )",
+      "nom": "Lac Desorsons",
+      "nom_search": "lac desorsons 50 48 33 n 77 39 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Desorsons",
+      "aliases": [
+        "desorsons",
+        "desorsons 50 48 33 n 77 39 49 o )",
+        "lac desorsons",
+        "lac desorsons 50 48 33 n 77 39 49 o )"
+      ],
+      "lat": 50.809167,
+      "lon": -77.663611
+    },
+    {
+      "id": 1626,
+      "zone_id": 25,
+      "nom_brut": "Lac en Terres I et II de Mistissini (chacun des lacs)",
+      "nom": "Lac en Terres I et II de Mistissini",
+      "nom_search": "lac en terres i et ii de mistissini chacun des lacs)",
+      "segment_label": null,
+      "river_base_name": "Lac en Terres I et II de Mistissini",
+      "aliases": [
+        "en terres i et ii de mistissini",
+        "en terres i et ii de mistissini chacun des lacs)",
+        "lac en terres i et ii de mistissini",
+        "lac en terres i et ii de mistissini chacun des lacs)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1632,
+      "zone_id": 25,
+      "nom_brut": "Lac Evans ( 50°54'13\" N., 76°57'53\" O. )",
+      "nom": "Lac Evans",
+      "nom_search": "lac evans 50 54 13 n 76 57 53 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Evans",
+      "aliases": [
+        "evans",
+        "evans 50 54 13 n 76 57 53 o )",
+        "lac evans",
+        "lac evans 50 54 13 n 76 57 53 o )"
+      ],
+      "lat": 50.903611,
+      "lon": -76.964722
+    },
+    {
+      "id": 1615,
+      "zone_id": 25,
+      "nom_brut": "Lac Hamel ( 50°02'48\" N., 78°48'05\" O. )",
+      "nom": "Lac Hamel",
+      "nom_search": "lac hamel 50 02 48 n 78 48 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hamel",
+      "aliases": [
+        "hamel",
+        "hamel 50 02 48 n 78 48 05 o )",
+        "lac hamel",
+        "lac hamel 50 02 48 n 78 48 05 o )"
+      ],
+      "lat": 50.046667,
+      "lon": -78.801389
+    },
+    {
+      "id": 1616,
+      "zone_id": 25,
+      "nom_brut": "Lac Katutupisisikanuch (Allard) ( 50°42'49\" N., 77°39'42\" O. )",
+      "nom": "Lac Katutupisisikanuch",
+      "nom_search": "lac katutupisisikanuch allard) 50 42 49 n 77 39 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Katutupisisikanuch",
+      "aliases": [
+        "katutupisisikanuch",
+        "katutupisisikanuch allard) 50 42 49 n 77 39 42 o )",
+        "lac katutupisisikanuch",
+        "lac katutupisisikanuch allard) 50 42 49 n 77 39 42 o )"
+      ],
+      "lat": 50.713611,
+      "lon": -77.661667
+    },
+    {
+      "id": 1617,
+      "zone_id": 25,
+      "nom_brut": "Lac Leduc ( 50°03'19\" N., 78°48'13\" O. )",
+      "nom": "Lac Leduc",
+      "nom_search": "lac leduc 50 03 19 n 78 48 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Leduc",
+      "aliases": [
+        "lac leduc",
+        "lac leduc 50 03 19 n 78 48 13 o )",
+        "leduc",
+        "leduc 50 03 19 n 78 48 13 o )"
+      ],
+      "lat": 50.055278,
+      "lon": -78.803611
+    },
+    {
+      "id": 1618,
+      "zone_id": 25,
+      "nom_brut": "Lac Matis ( 50°01'01\" N., 78°47'28\" O. )",
+      "nom": "Lac Matis",
+      "nom_search": "lac matis 50 01 01 n 78 47 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Matis",
+      "aliases": [
+        "lac matis",
+        "lac matis 50 01 01 n 78 47 28 o )",
+        "matis",
+        "matis 50 01 01 n 78 47 28 o )"
+      ],
+      "lat": 50.016944,
+      "lon": -78.791111
+    },
+    {
+      "id": 1619,
+      "zone_id": 25,
+      "nom_brut": "Lac Mirabelli ( 51°52'33\" N., 77°22'35\" O. )",
+      "nom": "Lac Mirabelli",
+      "nom_search": "lac mirabelli 51 52 33 n 77 22 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Mirabelli",
+      "aliases": [
+        "lac mirabelli",
+        "lac mirabelli 51 52 33 n 77 22 35 o )",
+        "mirabelli",
+        "mirabelli 51 52 33 n 77 22 35 o )"
+      ],
+      "lat": 51.875833,
+      "lon": -77.376389
+    },
+    {
+      "id": 1621,
+      "zone_id": 25,
+      "nom_brut": "Lac Nicole ( 51°35' N., 76°32' O. )",
+      "nom": "Lac Nicole",
+      "nom_search": "lac nicole 51 35 n 76 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nicole",
+      "aliases": [
+        "lac nicole",
+        "lac nicole 51 35 n 76 32 o )",
+        "nicole",
+        "nicole 51 35 n 76 32 o )"
+      ],
+      "lat": 51.583333,
+      "lon": -76.533333
+    },
+    {
+      "id": 1622,
+      "zone_id": 25,
+      "nom_brut": "Lac Ouescapis ( 50°14'51\" N., 76°59'52\" O. )",
+      "nom": "Lac Ouescapis",
+      "nom_search": "lac ouescapis 50 14 51 n 76 59 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ouescapis",
+      "aliases": [
+        "lac ouescapis",
+        "lac ouescapis 50 14 51 n 76 59 52 o )",
+        "ouescapis",
+        "ouescapis 50 14 51 n 76 59 52 o )"
+      ],
+      "lat": 50.2475,
+      "lon": -76.997778
+    },
+    {
+      "id": 1623,
+      "zone_id": 25,
+      "nom_brut": "Lac Quénonisca ( 50°35'37\" N., 76°32'03\" O. )",
+      "nom": "Lac Quénonisca",
+      "nom_search": "lac quenonisca 50 35 37 n 76 32 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Quénonisca",
+      "aliases": [
+        "lac quenonisca",
+        "lac quenonisca 50 35 37 n 76 32 03 o )",
+        "quenonisca",
+        "quenonisca 50 35 37 n 76 32 03 o )"
+      ],
+      "lat": 50.593611,
+      "lon": -76.534167
+    },
+    {
+      "id": 1627,
+      "zone_id": 25,
+      "nom_brut": "Lac Rodayer ( 50°51'24\" N., 77°41'55\" O. )",
+      "nom": "Lac Rodayer",
+      "nom_search": "lac rodayer 50 51 24 n 77 41 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rodayer",
+      "aliases": [
+        "lac rodayer",
+        "lac rodayer 50 51 24 n 77 41 55 o )",
+        "rodayer",
+        "rodayer 50 51 24 n 77 41 55 o )"
+      ],
+      "lat": 50.856667,
+      "lon": -77.698611
+    },
+    {
+      "id": 1628,
+      "zone_id": 25,
+      "nom_brut": "Lac Saint-Pé ( 50°07'01\" N., 78°48'52\" O. )",
+      "nom": "Lac Saint-Pé",
+      "nom_search": "lac saint pe 50 07 01 n 78 48 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Pé",
+      "aliases": [
+        "lac saint pe",
+        "lac saint pe 50 07 01 n 78 48 52 o )",
+        "saint pe",
+        "saint pe 50 07 01 n 78 48 52 o )"
+      ],
+      "lat": 50.116944,
+      "lon": -78.814444
+    },
+    {
+      "id": 1629,
+      "zone_id": 25,
+      "nom_brut": "Lac Salamandre ( 50°37'10\" N., 76°38'38\" O. )",
+      "nom": "Lac Salamandre",
+      "nom_search": "lac salamandre 50 37 10 n 76 38 38 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Salamandre",
+      "aliases": [
+        "lac salamandre",
+        "lac salamandre 50 37 10 n 76 38 38 o )",
+        "salamandre",
+        "salamandre 50 37 10 n 76 38 38 o )"
+      ],
+      "lat": 50.619444,
+      "lon": -76.643889
+    },
+    {
+      "id": 2415,
+      "zone_id": 25,
+      "nom_brut": "Lac sans nom ( 51°43' N., 75°59' O. )",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom 51 43 n 75 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 51 43 n 75 59 o )",
+        "sans nom",
+        "sans nom 51 43 n 75 59 o )"
+      ],
+      "lat": 51.716667,
+      "lon": -75.983333
+    },
+    {
+      "id": 1630,
+      "zone_id": 25,
+      "nom_brut": "Lac Soscumica ( 50°16'21\" N., 77°27'33\" O. )",
+      "nom": "Lac Soscumica",
+      "nom_search": "lac soscumica 50 16 21 n 77 27 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Soscumica",
+      "aliases": [
+        "lac soscumica",
+        "lac soscumica 50 16 21 n 77 27 33 o )",
+        "soscumica",
+        "soscumica 50 16 21 n 77 27 33 o )"
+      ],
+      "lat": 50.2725,
+      "lon": -77.459167
+    },
+    {
+      "id": 1631,
+      "zone_id": 25,
+      "nom_brut": "Lac Storm ( 50°49'01\" N., 76°22'57\" O. )",
+      "nom": "Lac Storm",
+      "nom_search": "lac storm 50 49 01 n 76 22 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Storm",
+      "aliases": [
+        "lac storm",
+        "lac storm 50 49 01 n 76 22 57 o )",
+        "storm",
+        "storm 50 49 01 n 76 22 57 o )"
+      ],
+      "lat": 50.816944,
+      "lon": -76.3825
+    },
+    {
+      "id": 1624,
+      "zone_id": 25,
+      "nom_brut": "Lac Tiwaskuhikan ( 51°30'08\" N., 77°18'26\" O. )",
+      "nom": "Lac Tiwaskuhikan",
+      "nom_search": "lac tiwaskuhikan 51 30 08 n 77 18 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tiwaskuhikan",
+      "aliases": [
+        "lac tiwaskuhikan",
+        "lac tiwaskuhikan 51 30 08 n 77 18 26 o )",
+        "tiwaskuhikan",
+        "tiwaskuhikan 51 30 08 n 77 18 26 o )"
+      ],
+      "lat": 51.502222,
+      "lon": -77.307222
+    },
+    {
+      "id": 1625,
+      "zone_id": 25,
+      "nom_brut": "Lac Triaud ( 50°04'00\" N., 78°48'27\" O. ) Canton Jérémie",
+      "nom": "Lac Triaud",
+      "nom_search": "lac triaud 50 04 00 n 78 48 27 o ) canton jeremie",
+      "segment_label": null,
+      "river_base_name": "Lac Triaud",
+      "aliases": [
+        "lac triaud",
+        "lac triaud 50 04 00 n 78 48 27 o ) canton jeremie",
+        "triaud",
+        "triaud 50 04 00 n 78 48 27 o ) canton jeremie"
+      ],
+      "lat": 50.066667,
+      "lon": -78.8075
+    },
+    {
+      "id": 2324,
+      "zone_id": 25,
+      "nom_brut": "Réserve Faunique Assinica",
+      "nom": "Réserve Faunique Assinica",
+      "nom_search": "reserve faunique assinica",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique Assinica",
+      "aliases": [
+        "reserve faunique assinica"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2328,
+      "zone_id": 25,
+      "nom_brut": "Réserve Faunique des Lacs-Albanel-Mistassini-et-Waconichi",
+      "nom": "Réserve Faunique des Lacs-Albanel-Mistassini-et-Waconichi",
+      "nom_search": "reserve faunique des lacs albanel mistassini et waconichi",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique des Lacs-Albanel-Mistassini-et-Waconichi",
+      "aliases": [
+        "reserve faunique des lacs albanel mistassini et waconichi"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2417,
+      "zone_id": 25,
+      "nom_brut": "Rivière Broadback - La partie comprise entre la limite ouest de la réserve faunique Assinica ( 50°43'01\" N., 76°00'00\" O. ), une droite joignant les points 50°42'56,1\" N., 76°23'30,1\" O. et 50°42'49\" N., 76°23'13,8\" O. , située au nord du lac Quénonisca, et son embouchure dans la baie du Corbeau du lac Évans, soit une droite joignant les points 50°48'25\" N., 76°44'31,33\" O. et 50°42'27\" N., 76°44'07,29\" O.",
+      "nom": "Rivière Broadback - La partie comprise entre la limite ouest de la réserve faunique Assinica",
+      "nom_search": "riviere broadback la partie comprise entre la limite ouest de la reserve faunique assinica 50 43 01 n 76 00 00 o ) une droite joignant les points 50 42 56 1 n 76 23 30 1 o et 50 42 49 n 76 23 13 8 o situee au nord du lac quenonisca et son embouchure dans la baie du corbeau du lac evans soit une droite joignant les points 50 48 25 n 76 44 31 33 o et 50 42 27 n 76 44 07 29 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Broadback",
+      "aliases": [
+        "broadback",
+        "broadback la partie comprise entre la limite ouest de la reserve faunique assinica 50 43 01 n 76 00 00 o ) une droite joignant les points 50 42 56 1 n 76 23 30 1 o et 50 42 49 n 76 23 13 8 o situee au nord du lac quenonisca et son embouchure dans la baie du corbeau du lac evans soit une droite joignant les points 50 48 25 n 76 44 31 33 o et 50 42 27 n 76 44 07 29 o",
+        "riviere broadback",
+        "riviere broadback la partie comprise entre la limite ouest de la reserve faunique assinica 50 43 01 n 76 00 00 o ) une droite joignant les points 50 42 56 1 n 76 23 30 1 o et 50 42 49 n 76 23 13 8 o situee au nord du lac quenonisca et son embouchure dans la baie du corbeau du lac evans soit une droite joignant les points 50 48 25 n 76 44 31 33 o et 50 42 27 n 76 44 07 29 o"
+      ],
+      "lat": 50.716944,
+      "lon": -76.0
+    },
+    {
+      "id": 2546,
+      "zone_id": 25,
+      "nom_brut": "Rivière Chabinoche - La partie comprise entre une droite joignant les points 50°38'56,8\" N., 77°08'08,4\" O. et 50°39'16,2\" N., 77°08'10,3\" O. située en amont de son embouchure dans le lac Ouagama, et son embouchure dans le lac Évans, soit une droite joignant les points 50°42'14,2\" N., 77°08'31,7\" O. et 50°42'25\" N., 71°08'31,7\" O.",
+      "nom": "Rivière Chabinoche - La partie comprise entre une droite joignant les points 50°38'56,8\" N., 77°08'08,4\" O. et 50°39'16,2\" N., 77°08'10,3\" O. située en amont de son embouchure dans le lac Ouagama, et son embouchure dans le lac Évans, soit une droite joignant les points 50°42'14,2\" N., 77°08'31,7\" O. et 50°42'25\" N., 71°08'31,7\" O.",
+      "nom_search": "riviere chabinoche la partie comprise entre une droite joignant les points 50 38 56 8 n 77 08 08 4 o et 50 39 16 2 n 77 08 10 3 o situee en amont de son embouchure dans le lac ouagama et son embouchure dans le lac evans soit une droite joignant les points 50 42 14 2 n 77 08 31 7 o et 50 42 25 n 71 08 31 7 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Chabinoche",
+      "aliases": [
+        "chabinoche",
+        "chabinoche la partie comprise entre une droite joignant les points 50 38 56 8 n 77 08 08 4 o et 50 39 16 2 n 77 08 10 3 o situee en amont de son embouchure dans le lac ouagama et son embouchure dans le lac evans soit une droite joignant les points 50 42 14 2 n 77 08 31 7 o et 50 42 25 n 71 08 31 7 o",
+        "riviere chabinoche",
+        "riviere chabinoche la partie comprise entre une droite joignant les points 50 38 56 8 n 77 08 08 4 o et 50 39 16 2 n 77 08 10 3 o situee en amont de son embouchure dans le lac ouagama et son embouchure dans le lac evans soit une droite joignant les points 50 42 14 2 n 77 08 31 7 o et 50 42 25 n 71 08 31 7 o"
+      ],
+      "lat": 50.649111,
+      "lon": -77.135667
+    },
+    {
+      "id": 1643,
+      "zone_id": 25,
+      "nom_brut": "Rivière Chabinoche (Fourche est) - La partie comprise entre une droite passant par le point 50°34'41,1\" N., 77°03'56,3\" O. située à 300 mètres en amont du pont et une droite joignant les points 50°36'44,6\" N., 77°07'59,8\" O. et 50°36'52\" N., 77°07'27,4\" O. située en aval de son embouchure dans le lac Ouagama.",
+      "nom": "Rivière Chabinoche",
+      "nom_search": "riviere chabinoche fourche est) la partie comprise entre une droite passant par le point 50 34 41 1 n 77 03 56 3 o situee a 300 metres en amont du pont et une droite joignant les points 50 36 44 6 n 77 07 59 8 o et 50 36 52 n 77 07 27 4 o situee en aval de son embouchure dans le lac ouagama",
+      "segment_label": null,
+      "river_base_name": "Rivière Chabinoche",
+      "aliases": [
+        "chabinoche",
+        "chabinoche fourche est) la partie comprise entre une droite passant par le point 50 34 41 1 n 77 03 56 3 o situee a 300 metres en amont du pont et une droite joignant les points 50 36 44 6 n 77 07 59 8 o et 50 36 52 n 77 07 27 4 o situee en aval de son embouchure dans le lac ouagama",
+        "riviere chabinoche",
+        "riviere chabinoche fourche est) la partie comprise entre une droite passant par le point 50 34 41 1 n 77 03 56 3 o situee a 300 metres en amont du pont et une droite joignant les points 50 36 44 6 n 77 07 59 8 o et 50 36 52 n 77 07 27 4 o situee en aval de son embouchure dans le lac ouagama"
+      ],
+      "lat": 50.578083,
+      "lon": -77.065639
+    },
+    {
+      "id": 1646,
+      "zone_id": 25,
+      "nom_brut": "Rivière Salamandre - La partie comprise entre une droite reliant les points 50°46'45,93\" N., 76°34'46,34\" O. et 50°46'43,93\" N., 76°34'46,28\" O. et sa confluence avec la rivière Broadback.",
+      "nom": "Rivière Salamandre - La partie comprise entre une droite reliant les points 50°46'45,93\" N., 76°34'46,34\" O. et 50°46'43,93\" N., 76°34'46,28\" O. et sa confluence avec la rivière Broadback.",
+      "nom_search": "riviere salamandre la partie comprise entre une droite reliant les points 50 46 45 93 n 76 34 46 34 o et 50 46 43 93 n 76 34 46 28 o et sa confluence avec la riviere broadback",
+      "segment_label": null,
+      "river_base_name": "Rivière Salamandre",
+      "aliases": [
+        "riviere salamandre",
+        "riviere salamandre la partie comprise entre une droite reliant les points 50 46 45 93 n 76 34 46 34 o et 50 46 43 93 n 76 34 46 28 o et sa confluence avec la riviere broadback",
+        "salamandre",
+        "salamandre la partie comprise entre une droite reliant les points 50 46 45 93 n 76 34 46 34 o et 50 46 43 93 n 76 34 46 28 o et sa confluence avec la riviere broadback"
+      ],
+      "lat": 50.779425,
+      "lon": -76.579539
+    },
+    {
+      "id": 1638,
+      "zone_id": 25,
+      "nom_brut": "Ruisseau Bordeleau - La partie comprise entre le lac Bordeleau ( 50°06'25\" N., 73°57'34\" O. ) et le lac Waconichi ( 50°03'07\" N., 74°04'03\" O. )(cantons Bignell et Richardson)",
+      "nom": "Ruisseau Bordeleau - La partie comprise entre le lac Bordeleau",
+      "nom_search": "ruisseau bordeleau la partie comprise entre le lac bordeleau 50 06 25 n 73 57 34 o ) et le lac waconichi 50 03 07 n 74 04 03 o ) cantons bignell et richardson)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Bordeleau",
+      "aliases": [
+        "bordeleau",
+        "bordeleau la partie comprise entre le lac bordeleau 50 06 25 n 73 57 34 o ) et le lac waconichi 50 03 07 n 74 04 03 o ) cantons bignell et richardson)",
+        "ruisseau bordeleau",
+        "ruisseau bordeleau la partie comprise entre le lac bordeleau 50 06 25 n 73 57 34 o ) et le lac waconichi 50 03 07 n 74 04 03 o ) cantons bignell et richardson)"
+      ],
+      "lat": 50.106944,
+      "lon": -73.959444
+    }
+  ]
+}

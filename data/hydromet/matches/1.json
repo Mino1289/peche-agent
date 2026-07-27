@@ -1,0 +1,2237 @@
+{
+  "meta": {
+    "zone_id": 1,
+    "radius_km": 25.0,
+    "nb_with_coords": 99,
+    "nb_station_matched": 62
+  },
+  "matches": [
+    {
+      "plan_id": 45,
+      "plan_nom": "Lac au Saumon",
+      "lat": 48.420278,
+      "lon": -67.326111,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 12.04,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 12.04
+      }
+    },
+    {
+      "plan_id": 10460,
+      "plan_nom": "Lac D'Amours",
+      "lat": 49.042222,
+      "lon": -64.520556,
+      "stations": [
+        {
+          "id": "020503",
+          "plan_eau": "Rivière au Renard",
+          "description": "Au pont-route 196 à 3 km de l'embouchure",
+          "lat": 48.988521,
+          "lon": -64.418763,
+          "distance_km": 9.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02330",
+          "plan_eau": "Golfe du Saint-Laurent",
+          "description": "Golfe du Saint-Laurent, à Rivière-au-Renard",
+          "lat": 48.997,
+          "lon": -64.3805,
+          "distance_km": 11.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "020602",
+          "plan_eau": "Rivière Dartmouth",
+          "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+          "lat": 48.978,
+          "lon": -64.7,
+          "distance_km": 14.91,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020503",
+      "station": {
+        "id": "020503",
+        "plan_eau": "Rivière au Renard",
+        "description": "Au pont-route 196 à 3 km de l'embouchure",
+        "lat": 48.988521,
+        "lon": -64.418763,
+        "distance_km": 9.53
+      }
+    },
+    {
+      "plan_id": 44,
+      "plan_nom": "Lac de Saint-Damase",
+      "lat": 48.653611,
+      "lon": -67.809167,
+      "stations": [
+        {
+          "id": "021702",
+          "plan_eau": "Rivière Blanche",
+          "description": "À 3,5 km en amont du pont-route 132",
+          "lat": 48.76705,
+          "lon": -67.66602,
+          "distance_km": 16.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 23.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021702",
+      "station": {
+        "id": "021702",
+        "plan_eau": "Rivière Blanche",
+        "description": "À 3,5 km en amont du pont-route 132",
+        "lat": 48.76705,
+        "lon": -67.66602,
+        "distance_km": 16.41
+      }
+    },
+    {
+      "plan_id": 42,
+      "plan_nom": "Lac du Moulin",
+      "lat": 49.053889,
+      "lon": -64.494167,
+      "stations": [
+        {
+          "id": "020503",
+          "plan_eau": "Rivière au Renard",
+          "description": "Au pont-route 196 à 3 km de l'embouchure",
+          "lat": 48.988521,
+          "lon": -64.418763,
+          "distance_km": 9.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02330",
+          "plan_eau": "Golfe du Saint-Laurent",
+          "description": "Golfe du Saint-Laurent, à Rivière-au-Renard",
+          "lat": 48.997,
+          "lon": -64.3805,
+          "distance_km": 10.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "020602",
+          "plan_eau": "Rivière Dartmouth",
+          "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+          "lat": 48.978,
+          "lon": -64.7,
+          "distance_km": 17.22,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020503",
+      "station": {
+        "id": "020503",
+        "plan_eau": "Rivière au Renard",
+        "description": "Au pont-route 196 à 3 km de l'embouchure",
+        "lat": 48.988521,
+        "lon": -64.418763,
+        "distance_km": 9.11
+      }
+    },
+    {
+      "plan_id": 43,
+      "plan_nom": "Lac du Portage",
+      "lat": 48.651389,
+      "lon": -67.590833,
+      "stations": [
+        {
+          "id": "021702",
+          "plan_eau": "Rivière Blanche",
+          "description": "À 3,5 km en amont du pont-route 132",
+          "lat": 48.76705,
+          "lon": -67.66602,
+          "distance_km": 13.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 14.13,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 20.6,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "021605",
+          "plan_eau": "Rivière Matane",
+          "description": "Du côté ouest du barrage Mathieu-D'Amours",
+          "lat": 48.843361,
+          "lon": -67.529361,
+          "distance_km": 21.82,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021702",
+      "station": {
+        "id": "021702",
+        "plan_eau": "Rivière Blanche",
+        "description": "À 3,5 km en amont du pont-route 132",
+        "lat": 48.76705,
+        "lon": -67.66602,
+        "distance_km": 13.99
+      }
+    },
+    {
+      "plan_id": 41,
+      "plan_nom": "Lac J'arrive",
+      "lat": 49.248889,
+      "lon": -65.376111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 46,
+      "plan_nom": "Lac York",
+      "lat": 48.9675,
+      "lon": -65.426111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1507,
+      "plan_nom": "Rivière à Gagnon",
+      "lat": 48.466389,
+      "lon": -64.516667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3281,
+      "plan_nom": "Rivière Angers - La partie comprise entre sa confluence avec la rivière Cascapédia",
+      "lat": 48.309897,
+      "lon": -65.962844,
+      "stations": [
+        {
+          "id": "010902",
+          "plan_eau": "Rivière Petite Cascapédia",
+          "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+          "lat": 48.232,
+          "lon": -65.733,
+          "distance_km": 19.09,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "010902",
+      "station": {
+        "id": "010902",
+        "plan_eau": "Rivière Petite Cascapédia",
+        "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+        "lat": 48.232,
+        "lon": -65.733,
+        "distance_km": 19.09
+      }
+    },
+    {
+      "plan_id": 208,
+      "plan_nom": "Rivière Assemetquagan a) entre sa confluence avec la rivière Matapédia",
+      "lat": 48.081667,
+      "lon": -67.097222,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 3.81,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 3.81
+      }
+    },
+    {
+      "plan_id": 209,
+      "plan_nom": "Rivière Assemetquagan b) entre le côté en aval du pont de la route 132",
+      "lat": 48.078889,
+      "lon": -67.096944,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 4.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "01BJ007",
+          "plan_eau": "Rivière Ristigouche",
+          "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+          "lat": 47.908611,
+          "lon": -66.948056,
+          "distance_km": 21.94,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 4.06
+      }
+    },
+    {
+      "plan_id": 210,
+      "plan_nom": "Rivière Assemetquagan c) entre sa confluence avec le ruisseau Creux",
+      "lat": 48.191111,
+      "lon": -67.018611,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 12.4,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 12.4
+      }
+    },
+    {
+      "plan_id": 50,
+      "plan_nom": "Rivière Beattie entre le côté en aval du pont de la rue de la plage",
+      "lat": 48.582222,
+      "lon": -64.292222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 56,
+      "plan_nom": "Rivière Bonaventure a) entre le côté en aval du pont de la route 132 et le côté en aval des anciens ponts de la route 132",
+      "lat": 48.046944,
+      "lon": -65.470556,
+      "stations": [
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 16.9,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "010802",
+      "station": {
+        "id": "010802",
+        "plan_eau": "Rivière Bonaventure",
+        "description": "À 2,4 km en amont du ruisseau Creux",
+        "lat": 48.187,
+        "lon": -65.559,
+        "distance_km": 16.9
+      }
+    },
+    {
+      "plan_id": 11700,
+      "plan_nom": "Rivière Bonaventure b) entre le côté en aval des anciens ponts de la route 132",
+      "lat": 48.046944,
+      "lon": -65.470556,
+      "stations": [
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 16.9,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "010802",
+      "station": {
+        "id": "010802",
+        "plan_eau": "Rivière Bonaventure",
+        "description": "À 2,4 km en amont du ruisseau Creux",
+        "lat": 48.187,
+        "lon": -65.559,
+        "distance_km": 16.9
+      }
+    },
+    {
+      "plan_id": 57,
+      "plan_nom": "Rivière Bonaventure c) entre la fosse du Malin",
+      "lat": 48.103056,
+      "lon": -65.460278,
+      "stations": [
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 11.86,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "010802",
+      "station": {
+        "id": "010802",
+        "plan_eau": "Rivière Bonaventure",
+        "description": "À 2,4 km en amont du ruisseau Creux",
+        "lat": 48.187,
+        "lon": -65.559,
+        "distance_km": 11.86
+      }
+    },
+    {
+      "plan_id": 58,
+      "plan_nom": "Rivière Bonaventure d) entre un point situé à 100 m en amont de la fosse à saumon Double Crossing",
+      "lat": 48.444967,
+      "lon": -65.468356,
+      "stations": [
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 29.46,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "010802",
+      "station": {
+        "id": "010802",
+        "plan_eau": "Rivière Bonaventure",
+        "description": "À 2,4 km en amont du ruisseau Creux",
+        "lat": 48.187,
+        "lon": -65.559,
+        "distance_km": 29.46
+      }
+    },
+    {
+      "plan_id": 63,
+      "plan_nom": "Rivière Bonaventure e) entre un point situé à 100 en aval du Petit lac Bonaventure",
+      "lat": 48.789911,
+      "lon": -65.571744,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 64,
+      "plan_nom": "Rivière Bonaventure f) entre la limite sud de la réserve faunique des Chic-Chocs",
+      "lat": 48.824722,
+      "lon": -65.595,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1500,
+      "plan_nom": "Rivière Branche de l'Est",
+      "lat": 48.591667,
+      "lon": -64.700833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1199,
+      "plan_nom": "Rivière Branche du Lac entre son embouchure",
+      "lat": 48.672778,
+      "lon": -66.199167,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 5.44,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 5.44
+      }
+    },
+    {
+      "plan_id": 68,
+      "plan_nom": "Rivière Cap-Chat a) entre le côté en aval du pont de la route 132 et le côté en aval des assises de l'ancien pont de la route 132",
+      "lat": 49.0971,
+      "lon": -66.679633,
+      "stations": [
+        {
+          "id": "021407",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 9,7 km en amont du pont-route 132",
+          "lat": 49.044,
+          "lon": -66.476,
+          "distance_km": 15.97,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021407",
+      "station": {
+        "id": "021407",
+        "plan_eau": "Rivière Sainte-Anne",
+        "description": "À 9,7 km en amont du pont-route 132",
+        "lat": 49.044,
+        "lon": -66.476,
+        "distance_km": 15.97
+      }
+    },
+    {
+      "plan_id": 69,
+      "plan_nom": "Rivière Cap-Chat b) entre le côté en aval des assises de l'ancien pont de la route 132",
+      "lat": 49.0971,
+      "lon": -66.679633,
+      "stations": [
+        {
+          "id": "021407",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 9,7 km en amont du pont-route 132",
+          "lat": 49.044,
+          "lon": -66.476,
+          "distance_km": 15.97,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021407",
+      "station": {
+        "id": "021407",
+        "plan_eau": "Rivière Sainte-Anne",
+        "description": "À 9,7 km en amont du pont-route 132",
+        "lat": 49.044,
+        "lon": -66.476,
+        "distance_km": 15.97
+      }
+    },
+    {
+      "plan_id": 70,
+      "plan_nom": "Rivière Cap-Chat c) entre un point situé à 30 m en amont de la fosse à saumon Pineault",
+      "lat": 48.864772,
+      "lon": -66.784019,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 71,
+      "plan_nom": "Rivière Cap-Chat d) entre l'embouchure du ruisseau Bascon",
+      "lat": 48.829722,
+      "lon": -66.751944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 73,
+      "plan_nom": "Rivière Cascapédia a) entre le côté en aval des piliers de l'ancien pont de la route 132",
+      "lat": 48.212933,
+      "lon": -65.902139,
+      "stations": [
+        {
+          "id": "010902",
+          "plan_eau": "Rivière Petite Cascapédia",
+          "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+          "lat": 48.232,
+          "lon": -65.733,
+          "distance_km": 12.71,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "010902",
+      "station": {
+        "id": "010902",
+        "plan_eau": "Rivière Petite Cascapédia",
+        "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+        "lat": 48.232,
+        "lon": -65.733,
+        "distance_km": 12.71
+      }
+    },
+    {
+      "plan_id": 74,
+      "plan_nom": "Rivière Cascapédia b) entre les ponts Gérard-D.-Lévesque situés à Cascapédia-Saint-Jules et la chute du Dix-septième mille",
+      "lat": 48.81805,
+      "lon": -66.353367,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 25.12,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 25.12
+      }
+    },
+    {
+      "plan_id": 77,
+      "plan_nom": "Rivière Cascapédia c) entre la chute du Dix-septième mille",
+      "lat": 48.81805,
+      "lon": -66.353367,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 25.12,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 25.12
+      }
+    },
+    {
+      "plan_id": 212,
+      "plan_nom": "Rivière Causapscal a) entre sa confluence avec la rivière Matapédia",
+      "lat": 48.353611,
+      "lon": -67.2225,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 22.69,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 28.16,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 22.69
+      }
+    },
+    {
+      "plan_id": 213,
+      "plan_nom": "Rivière Causapscal b) entre le côté en aval du pont de la route 132",
+      "lat": 48.353889,
+      "lon": -67.221667,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 22.71,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 22.71
+      }
+    },
+    {
+      "plan_id": 214,
+      "plan_nom": "Rivière Causapscal c) entre une ligne perpendiculaire au courant située à 50 m en amont de la fosse à saumon Martel",
+      "lat": 48.464722,
+      "lon": -67.229722,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 16.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 16.43
+      }
+    },
+    {
+      "plan_id": 88,
+      "plan_nom": "Rivière Dartmouth b) entre le côté en aval du pont Bouchard, à Corte-Real, et la fin du secteur 6",
+      "lat": 49.028889,
+      "lon": -64.761611,
+      "stations": [
+        {
+          "id": "020602",
+          "plan_eau": "Rivière Dartmouth",
+          "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+          "lat": 48.978,
+          "lon": -64.7,
+          "distance_km": 7.23,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020602",
+      "station": {
+        "id": "020602",
+        "plan_eau": "Rivière Dartmouth",
+        "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+        "lat": 48.978,
+        "lon": -64.7,
+        "distance_km": 7.23
+      }
+    },
+    {
+      "plan_id": 3282,
+      "plan_nom": "Rivière Dartmouth c) entre la fin du secteur 6",
+      "lat": 49.028889,
+      "lon": -64.761667,
+      "stations": [
+        {
+          "id": "020602",
+          "plan_eau": "Rivière Dartmouth",
+          "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+          "lat": 48.978,
+          "lon": -64.7,
+          "distance_km": 7.23,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020602",
+      "station": {
+        "id": "020602",
+        "plan_eau": "Rivière Dartmouth",
+        "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+        "lat": 48.978,
+        "lon": -64.7,
+        "distance_km": 7.23
+      }
+    },
+    {
+      "plan_id": 90,
+      "plan_nom": "Rivière Dartmouth d) entre la fin du secteur 7",
+      "lat": 49.032778,
+      "lon": -64.767778,
+      "stations": [
+        {
+          "id": "020602",
+          "plan_eau": "Rivière Dartmouth",
+          "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+          "lat": 48.978,
+          "lon": -64.7,
+          "distance_km": 7.84,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020602",
+      "station": {
+        "id": "020602",
+        "plan_eau": "Rivière Dartmouth",
+        "description": "À 1,6 km en amont du ruisseau du Pas de Dame",
+        "lat": 48.978,
+        "lon": -64.7,
+        "distance_km": 7.84
+      }
+    },
+    {
+      "plan_id": 222,
+      "plan_nom": "Rivière de Mont-Louis entre le côté en aval du pont de la route 132 et sa confluence avec son tributaire en provenance du lac Haroué",
+      "lat": 49.065833,
+      "lon": -65.630556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 95,
+      "plan_nom": "Rivière du Grand Pabos Ouest b) entre le côté en aval du pont de la route 132 et l'embouchure du ruisseau Laroche",
+      "lat": 48.316667,
+      "lon": -64.868333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 96,
+      "plan_nom": "Rivière du Grand Pabos Ouest c) entre l'embouchure du ruisseau Laroche",
+      "lat": 48.316667,
+      "lon": -64.868333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 99,
+      "plan_nom": "Rivière du Grand Pabos b) entre le côté en aval du pont de la route 132 et un point situé aux Grosses Chutes",
+      "lat": 48.404444,
+      "lon": -64.959722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 100,
+      "plan_nom": "Rivière du Grand Pabos c) entre un point situé aux Grosses Chutes",
+      "lat": 48.404444,
+      "lon": -64.959722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 231,
+      "plan_nom": "Rivière du Petit Pabos b) entre le côté en aval du pont de la route 132 et l'embouchure du ruisseau du 18 milles",
+      "lat": 48.47,
+      "lon": -64.763889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 233,
+      "plan_nom": "Rivière du Petit Pabos c) entre l'embouchure du ruisseau du 18 milles",
+      "lat": 48.47,
+      "lon": -64.763889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1498,
+      "plan_nom": "Rivière Grande Rivière Est",
+      "lat": 48.495833,
+      "lon": -64.562778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1499,
+      "plan_nom": "Rivière Grande Rivière Nord",
+      "lat": 48.5925,
+      "lon": -64.704722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1508,
+      "plan_nom": "Rivière Grande Rivière Ouest",
+      "lat": 48.455833,
+      "lon": -64.535556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 66,
+      "plan_nom": "Rivière Hall entre sa confluence avec la rivière Bonaventure",
+      "lat": 48.086111,
+      "lon": -65.440278,
+      "stations": [
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 14.26,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "010802",
+      "station": {
+        "id": "010802",
+        "plan_eau": "Rivière Bonaventure",
+        "description": "À 2,4 km en amont du ruisseau Creux",
+        "lat": 48.187,
+        "lon": -65.559,
+        "distance_km": 14.26
+      }
+    },
+    {
+      "plan_id": 102,
+      "plan_nom": "Rivière La Grande Rivière a) entre le côté en aval du pont de la route 132 et un point situé à 25 m en aval de la barrière de rétention",
+      "lat": 48.533611,
+      "lon": -64.635278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 103,
+      "plan_nom": "Rivière La Grande Rivière b) entre un point situé à 25 m en aval de la barrière de rétention",
+      "lat": 48.533611,
+      "lon": -64.635278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11720,
+      "plan_nom": "Rivière Madeleine a) entre une droite passant par le Cap de la Madeleine au point 49°15'00'' N., 65°19'26.4\" O. et la pointe de la Dune à l'est de la rivière au point 49°14'55.68\" N., 65°19'22.8\" O. et le côté en aval du pont de la route 132. Ce secteur n'a pas le statut de rivière à saumon.",
+      "lat": 49.25,
+      "lon": -65.324,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 133,
+      "plan_nom": "Rivière Madeleine c) entre une droite passant par un point situé à 23 m en aval de l'entrée inférieure de la passe migratoire de la rivière Madeleine et l'embouchure du ruisseau Tremblay",
+      "lat": 49.189167,
+      "lon": -65.287222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 136,
+      "plan_nom": "Rivière Madeleine d) entre l'embouchure du ruisseau Tremblay",
+      "lat": 49.189167,
+      "lon": -65.287222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 143,
+      "plan_nom": "Rivière Madeleine e) entre la limite sud du canton La Rivière",
+      "lat": 48.972778,
+      "lon": -65.712222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 146,
+      "plan_nom": "Rivière Malbaie a) entre le côté en aval du pont du CN, le côté en aval du pont de la rue de la plage",
+      "lat": 48.582222,
+      "lon": -64.292222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 152,
+      "plan_nom": "Rivière Matane a) la partie comprise entre le côté en aval du pont de la route 132",
+      "lat": 48.8475,
+      "lon": -67.528611,
+      "stations": [
+        {
+          "id": "021605",
+          "plan_eau": "Rivière Matane",
+          "description": "Du côté ouest du barrage Mathieu-D'Amours",
+          "lat": 48.843361,
+          "lon": -67.529361,
+          "distance_km": 0.46,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 8.22,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021605",
+      "station": {
+        "id": "021605",
+        "plan_eau": "Rivière Matane",
+        "description": "Du côté ouest du barrage Mathieu-D'Amours",
+        "lat": 48.843361,
+        "lon": -67.529361,
+        "distance_km": 0.46
+      }
+    },
+    {
+      "plan_id": 155,
+      "plan_nom": "Rivière Matane c) la partie comprise entre le barrage Mathieu-d'Amours",
+      "lat": 48.646111,
+      "lon": -67.280917,
+      "stations": [
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 23.74,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "021605",
+          "plan_eau": "Rivière Matane",
+          "description": "Du côté ouest du barrage Mathieu-D'Amours",
+          "lat": 48.843361,
+          "lon": -67.529361,
+          "distance_km": 28.51,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021601",
+      "station": {
+        "id": "021601",
+        "plan_eau": "Rivière Matane",
+        "description": "À 8,5 km en amont du pont-route 132 à Matane",
+        "lat": 48.774,
+        "lon": -67.54,
+        "distance_km": 23.74
+      }
+    },
+    {
+      "plan_id": 12080,
+      "plan_nom": "Rivière Matane d) la partie de la fosse Cap Seize comprise entre une droite joignant le point 48°38'46\" N., 67°16'51,3\" O. en rive nord et le point 48°38'44,5\" N., 67°16'51,3\" O. en rive sud, et une droite joignant le point 48°38'45\" N., 67°16'49\" O. en rive nord et le point 48°38'44\" N., 67°16'50\" O. en rive sud",
+      "lat": 48.646111,
+      "lon": -67.280917,
+      "stations": [
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 23.74,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "021605",
+          "plan_eau": "Rivière Matane",
+          "description": "Du côté ouest du barrage Mathieu-D'Amours",
+          "lat": 48.843361,
+          "lon": -67.529361,
+          "distance_km": 28.51,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021601",
+      "station": {
+        "id": "021601",
+        "plan_eau": "Rivière Matane",
+        "description": "À 8,5 km en amont du pont-route 132 à Matane",
+        "lat": 48.774,
+        "lon": -67.54,
+        "distance_km": 23.74
+      }
+    },
+    {
+      "plan_id": 157,
+      "plan_nom": "Rivière Matane e) la partie de la fosse Cap Seize comprise entre une droite joignant le point 48°38'45\" N., 67°16'49\" O. en rive nord et le point 48°38'44\" N., 67°16'50\" O. en rive sud, et une droite joignant le point 48°38'45\" N., 67°16'48\" O. en rive nord et le point 48°38'43\" N., 67°16'48\" O. en rive sud.",
+      "lat": 48.645833,
+      "lon": -67.280278,
+      "stations": [
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 23.8,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "021605",
+          "plan_eau": "Rivière Matane",
+          "description": "Du côté ouest du barrage Mathieu-D'Amours",
+          "lat": 48.843361,
+          "lon": -67.529361,
+          "distance_km": 28.57,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021601",
+      "station": {
+        "id": "021601",
+        "plan_eau": "Rivière Matane",
+        "description": "À 8,5 km en amont du pont-route 132 à Matane",
+        "lat": 48.774,
+        "lon": -67.54,
+        "distance_km": 23.8
+      }
+    },
+    {
+      "plan_id": 167,
+      "plan_nom": "Rivière Matane f) la partie comprise entre une droite joignant le point 48°38'45\" N., 67°16'48\" O. en rive nord et le point 48°38'43\" N., 67°16'48\" O. en rive sud et une droite passant par le point situé à 180 m en aval de l'embouchure de la rivière Bonjour",
+      "lat": 48.645833,
+      "lon": -67.28,
+      "stations": [
+        {
+          "id": "021601",
+          "plan_eau": "Rivière Matane",
+          "description": "À 8,5 km en amont du pont-route 132 à Matane",
+          "lat": 48.774,
+          "lon": -67.54,
+          "distance_km": 23.81,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "021605",
+          "plan_eau": "Rivière Matane",
+          "description": "Du côté ouest du barrage Mathieu-D'Amours",
+          "lat": 48.843361,
+          "lon": -67.529361,
+          "distance_km": 28.58,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021601",
+      "station": {
+        "id": "021601",
+        "plan_eau": "Rivière Matane",
+        "description": "À 8,5 km en amont du pont-route 132 à Matane",
+        "lat": 48.774,
+        "lon": -67.54,
+        "distance_km": 23.81
+      }
+    },
+    {
+      "plan_id": 172,
+      "plan_nom": "Rivière Matapédia b) entre une droite perpendiculaire au courant située à 50 m en amont de son embouchure passant par le point",
+      "lat": 47.971111,
+      "lon": -66.943333,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 20.6,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 20.6
+      }
+    },
+    {
+      "plan_id": 173,
+      "plan_nom": "Rivière Matapédia c) entre le côté en aval du pont du CN à Millstream",
+      "lat": 48.064167,
+      "lon": -67.103611,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 5.25,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 5.25
+      }
+    },
+    {
+      "plan_id": 206,
+      "plan_nom": "Rivière Matapédia d) entre le côté en aval du pont de Causapscal",
+      "lat": 48.355,
+      "lon": -67.224167,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 22.49,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 28.34,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 22.49
+      }
+    },
+    {
+      "plan_id": 217,
+      "plan_nom": "Rivière Mitis a) entre son embouchure",
+      "lat": 48.630833,
+      "lon": -68.133611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 218,
+      "plan_nom": "Rivière Mitis b) entre le côté en aval du pont de la route 132",
+      "lat": 48.62,
+      "lon": -68.139167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 219,
+      "plan_nom": "Rivière Mitis c) entre la limite en amont de la propriété des Immeubles Boisbrillant",
+      "lat": 48.62,
+      "lon": -68.139167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 220,
+      "plan_nom": "Rivière Mitis d) entre le barrage de la Mitis-2",
+      "lat": 48.546389,
+      "lon": -68.131389,
+      "stations": [
+        {
+          "id": "021916",
+          "plan_eau": "Rivière Petite Neigette",
+          "description": "À 0,5 km en aval  du lac à la Peinture",
+          "lat": 48.419722,
+          "lon": -68.356111,
+          "distance_km": 21.74,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021916",
+      "station": {
+        "id": "021916",
+        "plan_eau": "Rivière Petite Neigette",
+        "description": "À 0,5 km en aval  du lac à la Peinture",
+        "lat": 48.419722,
+        "lon": -68.356111,
+        "distance_km": 21.74
+      }
+    },
+    {
+      "plan_id": 51,
+      "plan_nom": "Rivière Murphy entre le côté en aval du pont de la rue de la plage",
+      "lat": 48.582222,
+      "lon": -64.292222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 224,
+      "plan_nom": "Rivière Nouvelle a) entre l'embouchure du ruisseau de la Cloche",
+      "lat": 48.114722,
+      "lon": -66.281389,
+      "stations": [
+        {
+          "id": "011204",
+          "plan_eau": "Rivière Nouvelle",
+          "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+          "lat": 48.159,
+          "lon": -66.349,
+          "distance_km": 7.03,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011204",
+      "station": {
+        "id": "011204",
+        "plan_eau": "Rivière Nouvelle",
+        "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+        "lat": 48.159,
+        "lon": -66.349,
+        "distance_km": 7.03
+      }
+    },
+    {
+      "plan_id": 225,
+      "plan_nom": "Rivière Nouvelle b) entre un point situé à 25 m en amont de l'embouchure de la Petite rivière Nouvelle",
+      "lat": 48.302222,
+      "lon": -66.512222,
+      "stations": [
+        {
+          "id": "011204",
+          "plan_eau": "Rivière Nouvelle",
+          "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+          "lat": 48.159,
+          "lon": -66.349,
+          "distance_km": 19.99,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011204",
+      "station": {
+        "id": "011204",
+        "plan_eau": "Rivière Nouvelle",
+        "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+        "lat": 48.159,
+        "lon": -66.349,
+        "distance_km": 19.99
+      }
+    },
+    {
+      "plan_id": 84,
+      "plan_nom": "Rivière Petite rivière Cascapédia Est entre l'embouchure du ruisseau Lesseps",
+      "lat": 48.685278,
+      "lon": -65.790833,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 28.26,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 28.26
+      }
+    },
+    {
+      "plan_id": 3172,
+      "plan_nom": "Rivière Petite rivière Cascapédia Est entre son embouchure",
+      "lat": 48.367222,
+      "lon": -65.763611,
+      "stations": [
+        {
+          "id": "010902",
+          "plan_eau": "Rivière Petite Cascapédia",
+          "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+          "lat": 48.232,
+          "lon": -65.733,
+          "distance_km": 15.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "010902",
+      "station": {
+        "id": "010902",
+        "plan_eau": "Rivière Petite Cascapédia",
+        "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+        "lat": 48.232,
+        "lon": -65.733,
+        "distance_km": 15.21
+      }
+    },
+    {
+      "plan_id": 85,
+      "plan_nom": "Rivière Petite rivière Cascapédia Ouest entre l'embouchure du ruisseau des Six Milles",
+      "lat": 48.716389,
+      "lon": -65.985278,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 16.45,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 16.45
+      }
+    },
+    {
+      "plan_id": 3173,
+      "plan_nom": "Rivière Petite rivière Cascapédia Ouest entre son embouchure",
+      "lat": 48.366944,
+      "lon": -65.765278,
+      "stations": [
+        {
+          "id": "010902",
+          "plan_eau": "Rivière Petite Cascapédia",
+          "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+          "lat": 48.232,
+          "lon": -65.733,
+          "distance_km": 15.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "010902",
+      "station": {
+        "id": "010902",
+        "plan_eau": "Rivière Petite Cascapédia",
+        "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+        "lat": 48.232,
+        "lon": -65.733,
+        "distance_km": 15.19
+      }
+    },
+    {
+      "plan_id": 80,
+      "plan_nom": "Rivière Petite rivière Cascapédia b) entre le côté en aval du pont de la route 132 et un point représentant le prolongement de la ligne de division des rangs V et VI du canton de New Richmond correspondant à la limite en aval de la zec Petite rivière Cascapédia",
+      "lat": 48.215833,
+      "lon": -65.761667,
+      "stations": [
+        {
+          "id": "010902",
+          "plan_eau": "Rivière Petite Cascapédia",
+          "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+          "lat": 48.232,
+          "lon": -65.733,
+          "distance_km": 2.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 15.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "010902",
+      "station": {
+        "id": "010902",
+        "plan_eau": "Rivière Petite Cascapédia",
+        "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+        "lat": 48.232,
+        "lon": -65.733,
+        "distance_km": 2.78
+      }
+    },
+    {
+      "plan_id": 81,
+      "plan_nom": "Rivière Petite rivière Cascapédia c) entre un point représentant le prolongement de la ligne de division des rangs V et VI du canton de New Richmond correspondant à la limite en aval de la zec Petite rivière Cascapédia",
+      "lat": 48.215833,
+      "lon": -65.761667,
+      "stations": [
+        {
+          "id": "010902",
+          "plan_eau": "Rivière Petite Cascapédia",
+          "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+          "lat": 48.232,
+          "lon": -65.733,
+          "distance_km": 2.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "010802",
+          "plan_eau": "Rivière Bonaventure",
+          "description": "À 2,4 km en amont du ruisseau Creux",
+          "lat": 48.187,
+          "lon": -65.559,
+          "distance_km": 15.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "010902",
+      "station": {
+        "id": "010902",
+        "plan_eau": "Rivière Petite Cascapédia",
+        "description": "À 0,9 km sur la rive gauche en aval du pont-route couvert à Saint-Edgar",
+        "lat": 48.232,
+        "lon": -65.733,
+        "distance_km": 2.78
+      }
+    },
+    {
+      "plan_id": 1528,
+      "plan_nom": "Rivière Petite rivière Nouvelle entre son embouchure",
+      "lat": 48.302222,
+      "lon": -66.512222,
+      "stations": [
+        {
+          "id": "011204",
+          "plan_eau": "Rivière Nouvelle",
+          "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+          "lat": 48.159,
+          "lon": -66.349,
+          "distance_km": 19.99,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011204",
+      "station": {
+        "id": "011204",
+        "plan_eau": "Rivière Nouvelle",
+        "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+        "lat": 48.159,
+        "lon": -66.349,
+        "distance_km": 19.99
+      }
+    },
+    {
+      "plan_id": 52,
+      "plan_nom": "Rivière Portage entre le côté en aval du pont de la rue de la plage",
+      "lat": 48.582222,
+      "lon": -64.292222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 247,
+      "plan_nom": "Rivière Port-Daniel du Milieu",
+      "lat": 48.196944,
+      "lon": -64.975556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 242,
+      "plan_nom": "Rivière Port-Daniel a) entre le côté en aval du pont de la route 132 et le pont de la rivière Port-Daniel, rang VI",
+      "lat": 48.218611,
+      "lon": -64.956389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 243,
+      "plan_nom": "Rivière Port-Daniel b) entre le pont de la rivière Port-Daniel",
+      "lat": 48.251111,
+      "lon": -64.968889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 244,
+      "plan_nom": "Rivière Port-Daniel c) entre la barrière d'arrêt au point 48°15'04\" N., 64°58'08\" O. et sa source.",
+      "lat": 48.251111,
+      "lon": -64.968889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 252,
+      "plan_nom": "Rivière Ristigouche a) entre une ligne transversale reliant les deux rives, de la Coulée Ferguson au Québec au Ruisseau Copeland au Nouveau- Brunswick et le pont du CN à Matapédia",
+      "lat": 47.976806,
+      "lon": -66.928889,
+      "stations": [
+        {
+          "id": "01BJ007",
+          "plan_eau": "Rivière Ristigouche",
+          "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+          "lat": 47.908611,
+          "lon": -66.948056,
+          "distance_km": 7.72,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 20.89,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "01BJ007",
+      "station": {
+        "id": "01BJ007",
+        "plan_eau": "Rivière Ristigouche",
+        "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+        "lat": 47.908611,
+        "lon": -66.948056,
+        "distance_km": 7.72
+      }
+    },
+    {
+      "plan_id": 254,
+      "plan_nom": "Rivière Ristigouche b) entre le pont du CN à Matapédia",
+      "lat": 47.976806,
+      "lon": -66.928889,
+      "stations": [
+        {
+          "id": "01BJ007",
+          "plan_eau": "Rivière Ristigouche",
+          "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+          "lat": 47.908611,
+          "lon": -66.948056,
+          "distance_km": 7.72,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 20.89,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "01BJ007",
+      "station": {
+        "id": "01BJ007",
+        "plan_eau": "Rivière Ristigouche",
+        "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+        "lat": 47.908611,
+        "lon": -66.948056,
+        "distance_km": 7.72
+      }
+    },
+    {
+      "plan_id": 265,
+      "plan_nom": "Rivière Sainte-Anne Nord-Est entre sa confluence avec la rivière Sainte-Anne",
+      "lat": 48.948611,
+      "lon": -66.128056,
+      "stations": [
+        {
+          "id": "021407",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 9,7 km en amont du pont-route 132",
+          "lat": 49.044,
+          "lon": -66.476,
+          "distance_km": 27.51,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021407",
+      "station": {
+        "id": "021407",
+        "plan_eau": "Rivière Sainte-Anne",
+        "description": "À 9,7 km en amont du pont-route 132",
+        "lat": 49.044,
+        "lon": -66.476,
+        "distance_km": 27.51
+      }
+    },
+    {
+      "plan_id": 260,
+      "plan_nom": "Rivière Sainte-Anne b) entre le côté en aval du pont de la route 132 et la limite nord du parc national de la Gaspésie",
+      "lat": 48.9825,
+      "lon": -66.403056,
+      "stations": [
+        {
+          "id": "021407",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 9,7 km en amont du pont-route 132",
+          "lat": 49.044,
+          "lon": -66.476,
+          "distance_km": 8.66,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021407",
+      "station": {
+        "id": "021407",
+        "plan_eau": "Rivière Sainte-Anne",
+        "description": "À 9,7 km en amont du pont-route 132",
+        "lat": 49.044,
+        "lon": -66.476,
+        "distance_km": 8.66
+      }
+    },
+    {
+      "plan_id": 262,
+      "plan_nom": "Rivière Sainte-Anne c) entre la limite nord du parc national de la Gaspésie",
+      "lat": 48.9825,
+      "lon": -66.403056,
+      "stations": [
+        {
+          "id": "021407",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 9,7 km en amont du pont-route 132",
+          "lat": 49.044,
+          "lon": -66.476,
+          "distance_km": 8.66,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "021407",
+      "station": {
+        "id": "021407",
+        "plan_eau": "Rivière Sainte-Anne",
+        "description": "À 9,7 km en amont du pont-route 132",
+        "lat": 49.044,
+        "lon": -66.476,
+        "distance_km": 8.66
+      }
+    },
+    {
+      "plan_id": 268,
+      "plan_nom": "Rivière Saint-Jean a) entre une droite joignant la limite de séparation des lots 1 et D",
+      "lat": 48.789861,
+      "lon": -64.389722,
+      "stations": [
+        {
+          "id": "020503",
+          "plan_eau": "Rivière au Renard",
+          "description": "Au pont-route 196 à 3 km de l'embouchure",
+          "lat": 48.988521,
+          "lon": -64.418763,
+          "distance_km": 22.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02330",
+          "plan_eau": "Golfe du Saint-Laurent",
+          "description": "Golfe du Saint-Laurent, à Rivière-au-Renard",
+          "lat": 48.997,
+          "lon": -64.3805,
+          "distance_km": 23.04,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020503",
+      "station": {
+        "id": "020503",
+        "plan_eau": "Rivière au Renard",
+        "description": "Au pont-route 196 à 3 km de l'embouchure",
+        "lat": 48.988521,
+        "lon": -64.418763,
+        "distance_km": 22.19
+      }
+    },
+    {
+      "plan_id": 269,
+      "plan_nom": "Rivière Saint-Jean b) entre la limite de séparation des cantons York et Douglas, correspondant à une droite joignant les points 48°46'18\" N., 64°27'02\" O. et 48°46'14\" N., 64°27'02\" O. , et l'embouchure du ruisseau Sirois",
+      "lat": 48.771667,
+      "lon": -64.450556,
+      "stations": [
+        {
+          "id": "020503",
+          "plan_eau": "Rivière au Renard",
+          "description": "Au pont-route 196 à 3 km de l'embouchure",
+          "lat": 48.988521,
+          "lon": -64.418763,
+          "distance_km": 24.22,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020503",
+      "station": {
+        "id": "020503",
+        "plan_eau": "Rivière au Renard",
+        "description": "Au pont-route 196 à 3 km de l'embouchure",
+        "lat": 48.988521,
+        "lon": -64.418763,
+        "distance_km": 24.22
+      }
+    },
+    {
+      "plan_id": 12240,
+      "plan_nom": "Rivière Saint-Jean c) entre l'embouchure du ruisseau Sirois",
+      "lat": 48.721708,
+      "lon": -65.066253,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 14.48,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 14.48
+      }
+    },
+    {
+      "plan_id": 270,
+      "plan_nom": "Rivière Saint-Jean d) entre l'embouchure de la rivière Saint-Jean Sud",
+      "lat": 48.718333,
+      "lon": -65.103056,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 16.83,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 16.83
+      }
+    },
+    {
+      "plan_id": 267,
+      "plan_nom": "Rivière Saint-Jean entre la limite en aval du barachois",
+      "lat": 48.789861,
+      "lon": -64.389722,
+      "stations": [
+        {
+          "id": "020503",
+          "plan_eau": "Rivière au Renard",
+          "description": "Au pont-route 196 à 3 km de l'embouchure",
+          "lat": 48.988521,
+          "lon": -64.418763,
+          "distance_km": 22.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02330",
+          "plan_eau": "Golfe du Saint-Laurent",
+          "description": "Golfe du Saint-Laurent, à Rivière-au-Renard",
+          "lat": 48.997,
+          "lon": -64.3805,
+          "distance_km": 23.04,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "020503",
+      "station": {
+        "id": "020503",
+        "plan_eau": "Rivière au Renard",
+        "description": "Au pont-route 196 à 3 km de l'embouchure",
+        "lat": 48.988521,
+        "lon": -64.418763,
+        "distance_km": 22.19
+      }
+    },
+    {
+      "plan_id": 274,
+      "plan_nom": "Rivière York a) entre le côté en aval du pont de la route 132 et une ligne joignant la limite de séparation des lots 22 et 23",
+      "lat": 48.830833,
+      "lon": -64.572222,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 25.38,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 25.38
+      }
+    },
+    {
+      "plan_id": 276,
+      "plan_nom": "Rivière York b) entre une ligne joignant la limite de séparation des lots 22 et 23",
+      "lat": 48.830833,
+      "lon": -64.572222,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 25.38,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 25.38
+      }
+    },
+    {
+      "plan_id": 278,
+      "plan_nom": "Rivière York c.1) entre le côté en aval du pont de Wakeham et l'embouchure du ruisseau Patch",
+      "lat": 48.926944,
+      "lon": -65.11,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 19.42,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 19.42
+      }
+    },
+    {
+      "plan_id": 280,
+      "plan_nom": "Rivière York c.2) entre l'embouchure du ruisseau Patch",
+      "lat": 48.926944,
+      "lon": -65.11,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 19.42,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 19.42
+      }
+    },
+    {
+      "plan_id": 281,
+      "plan_nom": "Rivière York d) entre l'embouchure du ruisseau Castor",
+      "lat": 48.888056,
+      "lon": -65.190278,
+      "stations": [
+        {
+          "id": "020404",
+          "plan_eau": "Rivière York",
+          "description": "À 1,4 km en aval du ruisseau Dinner Island",
+          "lat": 48.807,
+          "lon": -64.917,
+          "distance_km": 21.93,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "020404",
+      "station": {
+        "id": "020404",
+        "plan_eau": "Rivière York",
+        "description": "À 1,4 km en aval du ruisseau Dinner Island",
+        "lat": 48.807,
+        "lon": -64.917,
+        "distance_km": 21.93
+      }
+    },
+    {
+      "plan_id": 1505,
+      "plan_nom": "Ruisseau Blanc",
+      "lat": 48.53,
+      "lon": -64.546389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2658,
+      "plan_nom": "Ruisseau des Mineurs a) entre sa confluence avec la rivière Cascapédia et la limite de la réserve faunique de Dunière",
+      "lat": 48.643056,
+      "lon": -66.401389,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 17.37,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 17.37
+      }
+    },
+    {
+      "plan_id": 2659,
+      "plan_nom": "Ruisseau des Mineurs b) entre la limite de la réserve faunique de Dunière",
+      "lat": 48.643056,
+      "lon": -66.401389,
+      "stations": [
+        {
+          "id": "011003",
+          "plan_eau": "Rivière Cascapédia",
+          "description": "À 2,5 km en aval du ruisseau Berry",
+          "lat": 48.629,
+          "lon": -66.166,
+          "distance_km": 17.37,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011003",
+      "station": {
+        "id": "011003",
+        "plan_eau": "Rivière Cascapédia",
+        "description": "À 2,5 km en aval du ruisseau Berry",
+        "lat": 48.629,
+        "lon": -66.166,
+        "distance_km": 17.37
+      }
+    },
+    {
+      "plan_id": 1502,
+      "plan_nom": "Ruisseau Malbaie",
+      "lat": 48.518056,
+      "lon": -64.560833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1533,
+      "plan_nom": "Ruisseau Mann entre son point de confluence avec la rivière Nouvelle",
+      "lat": 48.163333,
+      "lon": -66.362778,
+      "stations": [
+        {
+          "id": "011204",
+          "plan_eau": "Rivière Nouvelle",
+          "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+          "lat": 48.159,
+          "lon": -66.349,
+          "distance_km": 1.13,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011204",
+      "station": {
+        "id": "011204",
+        "plan_eau": "Rivière Nouvelle",
+        "description": "À 0,2 km en amont du pont-route 132 à Nouvelle",
+        "lat": 48.159,
+        "lon": -66.349,
+        "distance_km": 1.13
+      }
+    }
+  ]
+}

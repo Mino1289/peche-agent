@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "zone_id": 25,
+    "radius_km": 25.0,
+    "nb_with_coords": 26,
+    "nb_station_matched": 5
+  },
+  "matches": [
+    {
+      "plan_id": 3004,
+      "plan_nom": "Lac Boisrobert",
+      "lat": 51.576389,
+      "lon": -77.163889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1612,
+      "plan_nom": "Lac Colomb",
+      "lat": 51.038056,
+      "lon": -77.681944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1613,
+      "plan_nom": "Lac Dana",
+      "lat": 50.884167,
+      "lon": -77.3375,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1614,
+      "plan_nom": "Lac Desorsons",
+      "lat": 50.809167,
+      "lon": -77.663611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1632,
+      "plan_nom": "Lac Evans",
+      "lat": 50.903611,
+      "lon": -76.964722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1615,
+      "plan_nom": "Lac Hamel",
+      "lat": 50.046667,
+      "lon": -78.801389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1616,
+      "plan_nom": "Lac Katutupisisikanuch",
+      "lat": 50.713611,
+      "lon": -77.661667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1617,
+      "plan_nom": "Lac Leduc",
+      "lat": 50.055278,
+      "lon": -78.803611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1618,
+      "plan_nom": "Lac Matis",
+      "lat": 50.016944,
+      "lon": -78.791111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1619,
+      "plan_nom": "Lac Mirabelli",
+      "lat": 51.875833,
+      "lon": -77.376389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1621,
+      "plan_nom": "Lac Nicole",
+      "lat": 51.583333,
+      "lon": -76.533333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1622,
+      "plan_nom": "Lac Ouescapis",
+      "lat": 50.2475,
+      "lon": -76.997778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1623,
+      "plan_nom": "Lac Quénonisca",
+      "lat": 50.593611,
+      "lon": -76.534167,
+      "stations": [
+        {
+          "id": "080809",
+          "plan_eau": "Rivière Broadback",
+          "description": "À la sortie du lac Kenoniska",
+          "lat": 50.745806,
+          "lon": -76.387944,
+          "distance_km": 19.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080809",
+      "station": {
+        "id": "080809",
+        "plan_eau": "Rivière Broadback",
+        "description": "À la sortie du lac Kenoniska",
+        "lat": 50.745806,
+        "lon": -76.387944,
+        "distance_km": 19.81
+      }
+    },
+    {
+      "plan_id": 1627,
+      "plan_nom": "Lac Rodayer",
+      "lat": 50.856667,
+      "lon": -77.698611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1628,
+      "plan_nom": "Lac Saint-Pé",
+      "lat": 50.116944,
+      "lon": -78.814444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1629,
+      "plan_nom": "Lac Salamandre",
+      "lat": 50.619444,
+      "lon": -76.643889,
+      "stations": [
+        {
+          "id": "080809",
+          "plan_eau": "Rivière Broadback",
+          "description": "À la sortie du lac Kenoniska",
+          "lat": 50.745806,
+          "lon": -76.387944,
+          "distance_km": 22.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080809",
+      "station": {
+        "id": "080809",
+        "plan_eau": "Rivière Broadback",
+        "description": "À la sortie du lac Kenoniska",
+        "lat": 50.745806,
+        "lon": -76.387944,
+        "distance_km": 22.86
+      }
+    },
+    {
+      "plan_id": 2415,
+      "plan_nom": "Lac sans nom",
+      "lat": 51.716667,
+      "lon": -75.983333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1630,
+      "plan_nom": "Lac Soscumica",
+      "lat": 50.2725,
+      "lon": -77.459167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1631,
+      "plan_nom": "Lac Storm",
+      "lat": 50.816944,
+      "lon": -76.3825,
+      "stations": [
+        {
+          "id": "080809",
+          "plan_eau": "Rivière Broadback",
+          "description": "À la sortie du lac Kenoniska",
+          "lat": 50.745806,
+          "lon": -76.387944,
+          "distance_km": 7.92,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080809",
+      "station": {
+        "id": "080809",
+        "plan_eau": "Rivière Broadback",
+        "description": "À la sortie du lac Kenoniska",
+        "lat": 50.745806,
+        "lon": -76.387944,
+        "distance_km": 7.92
+      }
+    },
+    {
+      "plan_id": 1624,
+      "plan_nom": "Lac Tiwaskuhikan",
+      "lat": 51.502222,
+      "lon": -77.307222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1625,
+      "plan_nom": "Lac Triaud",
+      "lat": 50.066667,
+      "lon": -78.8075,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2417,
+      "plan_nom": "Rivière Broadback - La partie comprise entre la limite ouest de la réserve faunique Assinica",
+      "lat": 50.716944,
+      "lon": -76.0,
+      "stations": [
+        {
+          "id": "080809",
+          "plan_eau": "Rivière Broadback",
+          "description": "À la sortie du lac Kenoniska",
+          "lat": 50.745806,
+          "lon": -76.387944,
+          "distance_km": 27.49,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "080809",
+      "station": {
+        "id": "080809",
+        "plan_eau": "Rivière Broadback",
+        "description": "À la sortie du lac Kenoniska",
+        "lat": 50.745806,
+        "lon": -76.387944,
+        "distance_km": 27.49
+      }
+    },
+    {
+      "plan_id": 2546,
+      "plan_nom": "Rivière Chabinoche - La partie comprise entre une droite joignant les points 50°38'56,8\" N., 77°08'08,4\" O. et 50°39'16,2\" N., 77°08'10,3\" O. située en amont de son embouchure dans le lac Ouagama, et son embouchure dans le lac Évans, soit une droite joignant les points 50°42'14,2\" N., 77°08'31,7\" O. et 50°42'25\" N., 71°08'31,7\" O.",
+      "lat": 50.649111,
+      "lon": -77.135667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1643,
+      "plan_nom": "Rivière Chabinoche",
+      "lat": 50.578083,
+      "lon": -77.065639,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1646,
+      "plan_nom": "Rivière Salamandre - La partie comprise entre une droite reliant les points 50°46'45,93\" N., 76°34'46,34\" O. et 50°46'43,93\" N., 76°34'46,28\" O. et sa confluence avec la rivière Broadback.",
+      "lat": 50.779425,
+      "lon": -76.579539,
+      "stations": [
+        {
+          "id": "080809",
+          "plan_eau": "Rivière Broadback",
+          "description": "À la sortie du lac Kenoniska",
+          "lat": 50.745806,
+          "lon": -76.387944,
+          "distance_km": 13.98,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "080809",
+      "station": {
+        "id": "080809",
+        "plan_eau": "Rivière Broadback",
+        "description": "À la sortie du lac Kenoniska",
+        "lat": 50.745806,
+        "lon": -76.387944,
+        "distance_km": 13.98
+      }
+    },
+    {
+      "plan_id": 1638,
+      "plan_nom": "Ruisseau Bordeleau - La partie comprise entre le lac Bordeleau",
+      "lat": 50.106944,
+      "lon": -73.959444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "zone_id": 13,
+    "radius_km": 25.0,
+    "nb_with_coords": 24,
+    "nb_station_matched": 3
+  },
+  "matches": [
+    {
+      "plan_id": 2668,
+      "plan_nom": "Lac Amyot",
+      "lat": 47.965833,
+      "lon": -76.857778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2669,
+      "plan_nom": "Lac Augier",
+      "lat": 48.651389,
+      "lon": -76.764167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2670,
+      "plan_nom": "Lac Barthou",
+      "lat": 47.874722,
+      "lon": -76.946944,
+      "stations": [
+        {
+          "id": "043030",
+          "plan_eau": "Rivière Capitachouane",
+          "description": "Dans la ZEC Capitachouane",
+          "lat": 47.728806,
+          "lon": -76.714583,
+          "distance_km": 23.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043030",
+      "station": {
+        "id": "043030",
+        "plan_eau": "Rivière Capitachouane",
+        "description": "Dans la ZEC Capitachouane",
+        "lat": 47.728806,
+        "lon": -76.714583,
+        "distance_km": 23.76
+      }
+    },
+    {
+      "plan_id": 2671,
+      "plan_nom": "Lac Cavendish",
+      "lat": 47.993333,
+      "lon": -76.299167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 741,
+      "plan_nom": "Lac Clair",
+      "lat": 48.301389,
+      "lon": -77.171667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2673,
+      "plan_nom": "Lac Clais",
+      "lat": 48.103333,
+      "lon": -76.707778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2693,
+      "plan_nom": "Lac Cuillère",
+      "lat": 48.671944,
+      "lon": -76.715,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2694,
+      "plan_nom": "Lac Denain",
+      "lat": 47.893889,
+      "lon": -76.989167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2685,
+      "plan_nom": "Lac des Terrasses",
+      "lat": 48.640278,
+      "lon": -75.925278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2695,
+      "plan_nom": "Lac Desforges",
+      "lat": 48.742222,
+      "lon": -76.740833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2674,
+      "plan_nom": "Lac Draper",
+      "lat": 47.990556,
+      "lon": -76.875278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2678,
+      "plan_nom": "Lac Hoswart",
+      "lat": 48.65,
+      "lon": -76.702222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2696,
+      "plan_nom": "Lac Matchi-Manitou",
+      "lat": 48.016111,
+      "lon": -77.049444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2682,
+      "plan_nom": "Lac Rioux",
+      "lat": 48.001389,
+      "lon": -76.319722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2688,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.546944,
+      "lon": -76.605833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2692,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.558889,
+      "lon": -76.656667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2687,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.637778,
+      "lon": -75.973056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2691,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.653056,
+      "lon": -76.788333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2690,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.679722,
+      "lon": -76.039444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2689,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.889167,
+      "lon": -76.44,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 742,
+      "plan_nom": "Lac Wyeth",
+      "lat": 48.096667,
+      "lon": -77.393333,
+      "stations": [
+        {
+          "id": "080106",
+          "plan_eau": "Rivière Bourlamaque",
+          "description": "À 1,1 km en amont du pont de la route 117",
+          "lat": 48.089444,
+          "lon": -77.670414,
+          "distance_km": 20.59,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080106",
+      "station": {
+        "id": "080106",
+        "plan_eau": "Rivière Bourlamaque",
+        "description": "À 1,1 km en amont du pont de la route 117",
+        "lat": 48.089444,
+        "lon": -77.670414,
+        "distance_km": 20.59
+      }
+    },
+    {
+      "plan_id": 10260,
+      "plan_nom": "Lac Ypres",
+      "lat": 47.947778,
+      "lon": -76.921389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2698,
+      "plan_nom": "Lac Yser",
+      "lat": 47.909722,
+      "lon": -76.869167,
+      "stations": [
+        {
+          "id": "043030",
+          "plan_eau": "Rivière Capitachouane",
+          "description": "Dans la ZEC Capitachouane",
+          "lat": 47.728806,
+          "lon": -76.714583,
+          "distance_km": 23.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043030",
+      "station": {
+        "id": "043030",
+        "plan_eau": "Rivière Capitachouane",
+        "description": "Dans la ZEC Capitachouane",
+        "lat": 47.728806,
+        "lon": -76.714583,
+        "distance_km": 23.19
+      }
+    },
+    {
+      "plan_id": 744,
+      "plan_nom": "Rivière Delestres la partie comprise entre son embouchure dans le lac Parent et le premier rapide en amont, situé au point 48°40'52\" N., 76°54'25\" O.",
+      "lat": 48.681111,
+      "lon": -76.906944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

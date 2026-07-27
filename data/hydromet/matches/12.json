@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "zone_id": 12,
+    "radius_km": 25.0,
+    "nb_with_coords": 19,
+    "nb_station_matched": 0
+  },
+  "matches": [
+    {
+      "plan_id": 10257,
+      "plan_nom": "Lac à la Truite",
+      "lat": 46.2425,
+      "lon": -76.924444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2746,
+      "plan_nom": "Lac Antoine",
+      "lat": 46.366111,
+      "lon": -76.980833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10241,
+      "plan_nom": "Lac Baptiste",
+      "lat": 46.3875,
+      "lon": -77.136667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2748,
+      "plan_nom": "Lac Branssat",
+      "lat": 46.420556,
+      "lon": -77.04,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10243,
+      "plan_nom": "Lac Bresse",
+      "lat": 46.514167,
+      "lon": -77.246111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2750,
+      "plan_nom": "Lac Bruce",
+      "lat": 46.728056,
+      "lon": -77.322222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11481,
+      "plan_nom": "Lac Brûlé",
+      "lat": 46.943889,
+      "lon": -77.1975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2752,
+      "plan_nom": "Lac Chavannes",
+      "lat": 46.858333,
+      "lon": -77.147778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10247,
+      "plan_nom": "Lac Croucher",
+      "lat": 46.951389,
+      "lon": -77.513056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10245,
+      "plan_nom": "Lac de Coste",
+      "lat": 46.529444,
+      "lon": -77.290278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 740,
+      "plan_nom": "Lac Duval",
+      "lat": 46.308889,
+      "lon": -76.911944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10249,
+      "plan_nom": "Lac Gerland",
+      "lat": 46.464444,
+      "lon": -77.066667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2760,
+      "plan_nom": "Lac Ingley",
+      "lat": 46.616389,
+      "lon": -77.750556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2762,
+      "plan_nom": "Lac Lynch",
+      "lat": 46.406667,
+      "lon": -77.090278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10251,
+      "plan_nom": "Lac Maniluve",
+      "lat": 46.822222,
+      "lon": -77.134444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10253,
+      "plan_nom": "Lac Nagard",
+      "lat": 46.359722,
+      "lon": -77.140833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2764,
+      "plan_nom": "Lac Nougon",
+      "lat": 46.699444,
+      "lon": -77.498889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10255,
+      "plan_nom": "Lac Sudrie",
+      "lat": 46.541389,
+      "lon": -77.284722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2768,
+      "plan_nom": "Lac Vaucour",
+      "lat": 46.680556,
+      "lon": -77.590556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

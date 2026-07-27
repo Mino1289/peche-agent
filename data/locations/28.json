@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "zone_id": 28,
+    "zone_nom": "Zone 24",
+    "nb_plans": 2,
+    "nb_geocoded": 2,
+    "pct_geocoded": 100.0,
+    "source_file": "zones/28.json"
+  },
+  "locations": [
+    {
+      "id": 1153,
+      "zone_id": 28,
+      "nom_brut": "Rivière de Pas la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+      "nom": "Rivière de Pas la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+      "nom_search": "riviere de pas la partie de cette riviere comprise dans la zone 24 entre les points 55 49 13 n 65 03 13 o et 55 28 30 n 65 07 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière de Pas la partie de cette rivière comprise dans la zone 24",
+      "aliases": [
+        "de pas la partie de cette riviere comprise dans la zone 24",
+        "de pas la partie de cette riviere comprise dans la zone 24 entre les points 55 49 13 n 65 03 13 o et 55 28 30 n 65 07 00 o",
+        "riviere de pas la partie de cette riviere comprise dans la zone 24",
+        "riviere de pas la partie de cette riviere comprise dans la zone 24 entre les points 55 49 13 n 65 03 13 o et 55 28 30 n 65 07 00 o"
+      ],
+      "lat": 55.820278,
+      "lon": -65.053611
+    },
+    {
+      "id": 1151,
+      "zone_id": 28,
+      "nom_brut": "Rivière George la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+      "nom": "Rivière George la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+      "nom_search": "riviere george la partie de cette riviere comprise dans la zone 24 entre une ligne reliant les points 56 32 07 n 64 43 58 o et 56 30 57 n 64 45 41 o et une ligne reliant les points 56 02 08 n 64 44 28 o et 56 01 52 n 64 44 54 o",
+      "segment_label": null,
+      "river_base_name": "Rivière George la partie de cette rivière comprise dans la zone 24",
+      "aliases": [
+        "george la partie de cette riviere comprise dans la zone 24",
+        "george la partie de cette riviere comprise dans la zone 24 entre une ligne reliant les points 56 32 07 n 64 43 58 o et 56 30 57 n 64 45 41 o et une ligne reliant les points 56 02 08 n 64 44 28 o et 56 01 52 n 64 44 54 o",
+        "riviere george la partie de cette riviere comprise dans la zone 24",
+        "riviere george la partie de cette riviere comprise dans la zone 24 entre une ligne reliant les points 56 32 07 n 64 43 58 o et 56 30 57 n 64 45 41 o et une ligne reliant les points 56 02 08 n 64 44 28 o et 56 01 52 n 64 44 54 o"
+      ],
+      "lat": 56.535278,
+      "lon": -64.732778
+    }
+  ]
+}

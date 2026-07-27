@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "zone_id": 22,
+    "zone_nom": "Zone 20",
+    "nb_plans": 27,
+    "nb_geocoded": 5,
+    "pct_geocoded": 18.5,
+    "source_file": "zones/22.json"
+  },
+  "locations": [
+    {
+      "id": 1401,
+      "zone_id": 22,
+      "nom_brut": "Lac Saint-Georges ( 49°49'18\" N., 64°20'18\" O. )",
+      "nom": "Lac Saint-Georges",
+      "nom_search": "lac saint georges 49 49 18 n 64 20 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Georges",
+      "aliases": [
+        "lac saint georges",
+        "lac saint georges 49 49 18 n 64 20 18 o )",
+        "saint georges",
+        "saint georges 49 49 18 n 64 20 18 o )"
+      ],
+      "lat": 49.821667,
+      "lon": -64.338333
+    },
+    {
+      "id": 2484,
+      "zone_id": 22,
+      "nom_brut": "Parc National d'Anticosti",
+      "nom": "Parc National d'Anticosti",
+      "nom_search": "parc national d anticosti",
+      "segment_label": null,
+      "river_base_name": "Parc National d'Anticosti",
+      "aliases": [
+        "parc national d anticosti"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1446,
+      "zone_id": 22,
+      "nom_brut": "Rivière à la Loutre entre la limite de la fosse no 2 située en amont et sa source, ainsi que ses tributaires fréquentés par le saumon.",
+      "nom": "Rivière à la Loutre entre la limite de la fosse no 2 située en amont et sa source, ainsi que ses tributaires fréquentés par le saumon.",
+      "nom_search": "riviere a la loutre entre la limite de la fosse no 2 situee en amont et sa source ainsi que ses tributaires frequentes par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière à la Loutre",
+      "aliases": [
+        "a la loutre",
+        "a la loutre entre la limite de la fosse no 2 situee en amont et sa source ainsi que ses tributaires frequentes par le saumon",
+        "riviere a la loutre",
+        "riviere a la loutre entre la limite de la fosse no 2 situee en amont et sa source ainsi que ses tributaires frequentes par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1422,
+      "zone_id": 22,
+      "nom_brut": "Rivière à la Patate entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière à la Patate entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere a la patate entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière à la Patate",
+      "aliases": [
+        "a la patate",
+        "a la patate entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere a la patate",
+        "riviere a la patate entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1416,
+      "zone_id": 22,
+      "nom_brut": "Rivière à l'Huile entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière à l'Huile entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere a l huile entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière à l'Huile",
+      "aliases": [
+        "a l huile",
+        "a l huile entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere a l huile",
+        "riviere a l huile entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1406,
+      "zone_id": 22,
+      "nom_brut": "Rivière aux Cailloux entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière aux Cailloux entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere aux cailloux entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Cailloux",
+      "aliases": [
+        "aux cailloux",
+        "aux cailloux entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere aux cailloux",
+        "riviere aux cailloux entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1426,
+      "zone_id": 22,
+      "nom_brut": "Rivière aux Plats entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière aux Plats entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere aux plats entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Plats",
+      "aliases": [
+        "aux plats",
+        "aux plats entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere aux plats",
+        "riviere aux plats entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1442,
+      "zone_id": 22,
+      "nom_brut": "Rivière aux Saumons entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière aux Saumons entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere aux saumons entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Saumons",
+      "aliases": [
+        "aux saumons",
+        "aux saumons entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere aux saumons",
+        "riviere aux saumons entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1431,
+      "zone_id": 22,
+      "nom_brut": "Rivière Bec-Scie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le lac Faure, à l'exception du lac Elsie (Sans-Bout) ( 49°45'33\" N., 64°00'50\" O. ), ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Bec-Scie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le lac Faure, à l'exception du lac Elsie",
+      "nom_search": "riviere bec scie entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et le lac faure a l exception du lac elsie sans bout) 49 45 33 n 64 00 50 o ) ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Bec-Scie",
+      "aliases": [
+        "bec scie",
+        "bec scie entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et le lac faure a l exception du lac elsie sans bout) 49 45 33 n 64 00 50 o ) ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere bec scie",
+        "riviere bec scie entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et le lac faure a l exception du lac elsie sans bout) 49 45 33 n 64 00 50 o ) ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": 49.759167,
+      "lon": -64.013889
+    },
+    {
+      "id": 1402,
+      "zone_id": 22,
+      "nom_brut": "Rivière Bell entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Bell entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere bell entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Bell",
+      "aliases": [
+        "bell",
+        "bell entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere bell",
+        "riviere bell entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1410,
+      "zone_id": 22,
+      "nom_brut": "Rivière Chicotte entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Chicotte entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere chicotte entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Chicotte",
+      "aliases": [
+        "chicotte",
+        "chicotte entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere chicotte",
+        "riviere chicotte entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1412,
+      "zone_id": 22,
+      "nom_brut": "Rivière Dauphiné entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Dauphiné entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere dauphine entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Dauphiné",
+      "aliases": [
+        "dauphine",
+        "dauphine entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere dauphine",
+        "riviere dauphine entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1438,
+      "zone_id": 22,
+      "nom_brut": "Rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere de la chaloupe entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière de la Chaloupe",
+      "aliases": [
+        "de la chaloupe",
+        "de la chaloupe entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere de la chaloupe",
+        "riviere de la chaloupe entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1424,
+      "zone_id": 22,
+      "nom_brut": "Rivière du Pavillon entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière du Pavillon entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere du pavillon entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière du Pavillon",
+      "aliases": [
+        "du pavillon",
+        "du pavillon entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere du pavillon",
+        "riviere du pavillon entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1454,
+      "zone_id": 22,
+      "nom_brut": "Rivière du Renard entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière du Renard entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere du renard entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière du Renard",
+      "aliases": [
+        "du renard",
+        "du renard entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere du renard",
+        "riviere du renard entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1440,
+      "zone_id": 22,
+      "nom_brut": "Rivière Ferrée entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Ferrée entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere ferree entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Ferrée",
+      "aliases": [
+        "ferree",
+        "ferree entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere ferree",
+        "riviere ferree entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1414,
+      "zone_id": 22,
+      "nom_brut": "Rivière Galiote entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Galiote entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere galiote entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Galiote",
+      "aliases": [
+        "galiote",
+        "galiote entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere galiote",
+        "riviere galiote entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1444,
+      "zone_id": 22,
+      "nom_brut": "Rivière Jupiter entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Jupiter entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere jupiter entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Jupiter",
+      "aliases": [
+        "jupiter",
+        "jupiter entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere jupiter",
+        "riviere jupiter entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1418,
+      "zone_id": 22,
+      "nom_brut": "Rivière Maccan entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Maccan entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere maccan entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Maccan",
+      "aliases": [
+        "maccan",
+        "maccan entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere maccan",
+        "riviere maccan entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1451,
+      "zone_id": 22,
+      "nom_brut": "Rivière McDonald entre le côté en aval du pont ( 49°45'27\" N., 63°03'46\" O. ) de la route Trans-Anticostienne et sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière McDonald entre le côté en aval du pont",
+      "nom_search": "riviere mcdonald entre le cote en aval du pont 49 45 27 n 63 03 46 o ) de la route trans anticostienne et sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière McDonald",
+      "aliases": [
+        "mcdonald",
+        "mcdonald entre le cote en aval du pont 49 45 27 n 63 03 46 o ) de la route trans anticostienne et sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere mcdonald",
+        "riviere mcdonald entre le cote en aval du pont 49 45 27 n 63 03 46 o ) de la route trans anticostienne et sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": 49.7575,
+      "lon": -63.062778
+    },
+    {
+      "id": 1450,
+      "zone_id": 22,
+      "nom_brut": "Rivière McDonald entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le côté en aval du pont ( 49°45'27\" N., 63°03'46\" O. ) de la route Trans-Anticostienne, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière McDonald entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le côté en aval du pont",
+      "nom_search": "riviere mcdonald entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et le cote en aval du pont 49 45 27 n 63 03 46 o ) de la route trans anticostienne ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière McDonald",
+      "aliases": [
+        "mcdonald",
+        "mcdonald entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et le cote en aval du pont 49 45 27 n 63 03 46 o ) de la route trans anticostienne ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere mcdonald",
+        "riviere mcdonald entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et le cote en aval du pont 49 45 27 n 63 03 46 o ) de la route trans anticostienne ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": 49.7575,
+      "lon": -63.062778
+    },
+    {
+      "id": 1408,
+      "zone_id": 22,
+      "nom_brut": "Rivière Petite rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Petite rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere petite riviere de la chaloupe entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière de la Chaloupe",
+      "aliases": [
+        "petite riviere de la chaloupe",
+        "petite riviere de la chaloupe entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere petite riviere de la chaloupe",
+        "riviere petite riviere de la chaloupe entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1452,
+      "zone_id": 22,
+      "nom_brut": "Rivière Petite rivière de la Loutre entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source,ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Petite rivière de la Loutre entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source,ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere petite riviere de la loutre entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière de la Loutre",
+      "aliases": [
+        "petite riviere de la loutre",
+        "petite riviere de la loutre entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "riviere petite riviere de la loutre",
+        "riviere petite riviere de la loutre entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1429,
+      "zone_id": 22,
+      "nom_brut": "Rivière Sainte-Marie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, à l'exception du lac Grand lac Sainte-Marie ( 49°44'54\" N., 63°52'59\" O. ), ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Sainte-Marie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, à l'exception du lac Grand lac Sainte-Marie",
+      "nom_search": "riviere sainte marie entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source a l exception du lac grand lac sainte marie 49 44 54 n 63 52 59 o ) ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Sainte-Marie",
+      "aliases": [
+        "riviere sainte marie",
+        "riviere sainte marie entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source a l exception du lac grand lac sainte marie 49 44 54 n 63 52 59 o ) ainsi que les tributaires de ce secteur frequente par le saumon",
+        "sainte marie",
+        "sainte marie entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source a l exception du lac grand lac sainte marie 49 44 54 n 63 52 59 o ) ainsi que les tributaires de ce secteur frequente par le saumon",
+        "st e",
+        "ste e"
+      ],
+      "lat": 49.748333,
+      "lon": -63.883056
+    },
+    {
+      "id": 1456,
+      "zone_id": 22,
+      "nom_brut": "Rivière Vauréal entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et la chute Vauréal ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Rivière Vauréal entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et la chute Vauréal ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "riviere vaureal entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et la chute vaureal ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Vauréal",
+      "aliases": [
+        "riviere vaureal",
+        "riviere vaureal entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et la chute vaureal ainsi que les tributaires de ce secteur frequente par le saumon",
+        "vaureal",
+        "vaureal entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de la riviere et la chute vaureal ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1404,
+      "zone_id": 22,
+      "nom_brut": "Ruisseau Box entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Ruisseau Box entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "ruisseau box entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Box",
+      "aliases": [
+        "box",
+        "box entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "ruisseau box",
+        "ruisseau box entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1420,
+      "zone_id": 22,
+      "nom_brut": "Ruisseau Martin entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom": "Ruisseau Martin entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "nom_search": "ruisseau martin entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Martin",
+      "aliases": [
+        "martin",
+        "martin entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon",
+        "ruisseau martin",
+        "ruisseau martin entre le prolongement de deux droites epousant la direction generale du littoral sur 1 km de part et d autre de cette riviere et de sa source ainsi que les tributaires de ce secteur frequente par le saumon"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

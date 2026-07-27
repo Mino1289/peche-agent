@@ -1,0 +1,1318 @@
+{
+  "meta": {
+    "zone_id": 14,
+    "zone_nom": "Zone 13 ouest",
+    "nb_plans": 78,
+    "nb_geocoded": 71,
+    "pct_geocoded": 91.0,
+    "source_file": "zones/14.json"
+  },
+  "locations": [
+    {
+      "id": 10301,
+      "zone_id": 14,
+      "nom_brut": "Baie de Kipawa la partie du réservoir Kipawa située à l'ouest d'une droite reliant le point 46°46'47\" N., 78°58'39\" O. et 46°46'59\" N., 78°58'53\" O. (Canton Gendreau).",
+      "nom": "Baie de Kipawa la partie du réservoir Kipawa située à l'ouest d'une droite reliant le point 46°46'47\" N., 78°58'39\" O. et 46°46'59\" N., 78°58'53\" O.",
+      "nom_search": "baie de kipawa la partie du reservoir kipawa situee a l ouest d une droite reliant le point 46 46 47 n 78 58 39 o et 46 46 59 n 78 58 53 o canton gendreau)",
+      "segment_label": null,
+      "river_base_name": "Baie de Kipawa la partie du réservoir Kipawa située à l'ouest d'une droite reliant le point 46°46'47\" N., 78°58'39\" O. et 46°46'59\" N., 78°58'53\" O.",
+      "aliases": [
+        "baie de kipawa la partie du reservoir kipawa situee a l ouest d une droite reliant le point 46 46 47 n 78 58 39 o et 46 46 59 n 78 58 53 o",
+        "baie de kipawa la partie du reservoir kipawa situee a l ouest d une droite reliant le point 46 46 47 n 78 58 39 o et 46 46 59 n 78 58 53 o canton gendreau)"
+      ],
+      "lat": 46.779722,
+      "lon": -78.9775
+    },
+    {
+      "id": 784,
+      "zone_id": 14,
+      "nom_brut": "Lac à la Truite (Simard) ( 48°39'40\" N., 78°17'50\" O. ), canton Trécesson",
+      "nom": "Lac à la Truite",
+      "nom_search": "lac a la truite simard) 48 39 40 n 78 17 50 o ) canton trecesson",
+      "segment_label": null,
+      "river_base_name": "Lac à la Truite",
+      "aliases": [
+        "a la truite",
+        "a la truite simard) 48 39 40 n 78 17 50 o ) canton trecesson",
+        "lac a la truite",
+        "lac a la truite simard) 48 39 40 n 78 17 50 o ) canton trecesson"
+      ],
+      "lat": 48.661111,
+      "lon": -78.297222
+    },
+    {
+      "id": 2716,
+      "zone_id": 14,
+      "nom_brut": "Lac à l'Eau Claire - ( 46°40'26\" N., 79°03'11\" O. )",
+      "nom": "Lac à l'Eau Claire",
+      "nom_search": "lac a l eau claire 46 40 26 n 79 03 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à l'Eau Claire -",
+      "aliases": [
+        "a l eau claire",
+        "a l eau claire 46 40 26 n 79 03 11 o )",
+        "lac a l eau claire",
+        "lac a l eau claire 46 40 26 n 79 03 11 o )"
+      ],
+      "lat": 46.673889,
+      "lon": -79.053056
+    },
+    {
+      "id": 772,
+      "zone_id": 14,
+      "nom_brut": "Lac Abitibi ( 48°40'19\" N., 79°22'55\" O. )",
+      "nom": "Lac Abitibi",
+      "nom_search": "lac abitibi 48 40 19 n 79 22 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Abitibi",
+      "aliases": [
+        "abitibi",
+        "abitibi 48 40 19 n 79 22 55 o )",
+        "lac abitibi",
+        "lac abitibi 48 40 19 n 79 22 55 o )"
+      ],
+      "lat": 48.671944,
+      "lon": -79.381944
+    },
+    {
+      "id": 3207,
+      "zone_id": 14,
+      "nom_brut": "Lac Ab-Rono ( 47°53'28\" N., 78°10'13\" O. )",
+      "nom": "Lac Ab-Rono",
+      "nom_search": "lac ab rono 47 53 28 n 78 10 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ab-Rono",
+      "aliases": [
+        "ab rono",
+        "ab rono 47 53 28 n 78 10 13 o )",
+        "lac ab rono",
+        "lac ab rono 47 53 28 n 78 10 13 o )"
+      ],
+      "lat": 47.891111,
+      "lon": -78.170278
+    },
+    {
+      "id": 2706,
+      "zone_id": 14,
+      "nom_brut": "Lac Aldor - ( 47°12'23\" N., 79°08'07\" O. )",
+      "nom": "Lac Aldor",
+      "nom_search": "lac aldor 47 12 23 n 79 08 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Aldor -",
+      "aliases": [
+        "aldor",
+        "aldor 47 12 23 n 79 08 07 o )",
+        "lac aldor",
+        "lac aldor 47 12 23 n 79 08 07 o )"
+      ],
+      "lat": 47.206389,
+      "lon": -79.135278
+    },
+    {
+      "id": 2708,
+      "zone_id": 14,
+      "nom_brut": "Lac Aubry - ( 47°04'14\" N., 78°58'29\" O. )",
+      "nom": "Lac Aubry",
+      "nom_search": "lac aubry 47 04 14 n 78 58 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Aubry -",
+      "aliases": [
+        "aubry",
+        "aubry 47 04 14 n 78 58 29 o )",
+        "lac aubry",
+        "lac aubry 47 04 14 n 78 58 29 o )"
+      ],
+      "lat": 47.070556,
+      "lon": -78.974722
+    },
+    {
+      "id": 799,
+      "zone_id": 14,
+      "nom_brut": "Lac aux Sables - La partie de son tributaire nord-est comprise entre une droite situé à 100 m en aval de son embouchure dans le lac, reliant les points 47°23'06'' N., 78°41'43'' O. et 47°23'10'' N., 78°41'48'' O. et la station de pompage de Belleterre ( 47°23'18'' N., 78°41'32'' O. )(Canton Guillet)",
+      "nom": "Lac aux Sables - La partie de son tributaire nord-est comprise entre une droite situé à 100 m en aval de son embouchure dans le lac, reliant les points 47°23'06'' N., 78°41'43'' O. et 47°23'10'' N., 78°41'48'' O. et la station de pompage de Belleterre",
+      "nom_search": "lac aux sables la partie de son tributaire nord est comprise entre une droite situe a 100 m en aval de son embouchure dans le lac reliant les points 47 23 06 n 78 41 43 o et 47 23 10 n 78 41 48 o et la station de pompage de belleterre 47 23 18 n 78 41 32 o ) canton guillet)",
+      "segment_label": null,
+      "river_base_name": "Lac aux Sables",
+      "aliases": [
+        "aux sables",
+        "aux sables la partie de son tributaire nord est comprise entre une droite situe a 100 m en aval de son embouchure dans le lac reliant les points 47 23 06 n 78 41 43 o et 47 23 10 n 78 41 48 o et la station de pompage de belleterre 47 23 18 n 78 41 32 o ) canton guillet)",
+        "lac aux sables",
+        "lac aux sables la partie de son tributaire nord est comprise entre une droite situe a 100 m en aval de son embouchure dans le lac reliant les points 47 23 06 n 78 41 43 o et 47 23 10 n 78 41 48 o et la station de pompage de belleterre 47 23 18 n 78 41 32 o ) canton guillet)"
+      ],
+      "lat": 47.385,
+      "lon": -78.695278
+    },
+    {
+      "id": 2709,
+      "zone_id": 14,
+      "nom_brut": "Lac Bat - ( 47°02'53\" N., 79°01'01\" O. )",
+      "nom": "Lac Bat",
+      "nom_search": "lac bat 47 02 53 n 79 01 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bat -",
+      "aliases": [
+        "bat",
+        "bat 47 02 53 n 79 01 01 o )",
+        "lac bat",
+        "lac bat 47 02 53 n 79 01 01 o )"
+      ],
+      "lat": 47.048056,
+      "lon": -79.016944
+    },
+    {
+      "id": 11161,
+      "zone_id": 14,
+      "nom_brut": "Lac Bellisle - la partie de l'émissaire de ce lac comprise entre le réservoir Kipawa et le premier élargissement ( 47°07'53\" N., 78°58'46\" O. ) ainsi que la baie du réservoir Kipawa en aval de cet émissaire jusqu'à une droite reliant les points 47°08'02\" N., 79°00'01\" O. et 47°07'58\" N., 79°00'01\" O. (canton Bruchési)",
+      "nom": "Lac Bellisle - la partie de l'émissaire de ce lac comprise entre le réservoir Kipawa et le premier élargissement",
+      "nom_search": "lac bellisle la partie de l emissaire de ce lac comprise entre le reservoir kipawa et le premier elargissement 47 07 53 n 78 58 46 o ) ainsi que la baie du reservoir kipawa en aval de cet emissaire jusqu a une droite reliant les points 47 08 02 n 79 00 01 o et 47 07 58 n 79 00 01 o canton bruchesi)",
+      "segment_label": null,
+      "river_base_name": "Lac Bellisle",
+      "aliases": [
+        "bellisle",
+        "bellisle la partie de l emissaire de ce lac comprise entre le reservoir kipawa et le premier elargissement 47 07 53 n 78 58 46 o ) ainsi que la baie du reservoir kipawa en aval de cet emissaire jusqu a une droite reliant les points 47 08 02 n 79 00 01 o et 47 07 58 n 79 00 01 o canton bruchesi)",
+        "lac bellisle",
+        "lac bellisle la partie de l emissaire de ce lac comprise entre le reservoir kipawa et le premier elargissement 47 07 53 n 78 58 46 o ) ainsi que la baie du reservoir kipawa en aval de cet emissaire jusqu a une droite reliant les points 47 08 02 n 79 00 01 o et 47 07 58 n 79 00 01 o canton bruchesi)"
+      ],
+      "lat": 47.131389,
+      "lon": -78.979444
+    },
+    {
+      "id": 773,
+      "zone_id": 14,
+      "nom_brut": "Lac Berry - ( 48°46'41\" N., 78°22'19\" O. , canton Berry)",
+      "nom": "Lac Berry",
+      "nom_search": "lac berry 48 46 41 n 78 22 19 o canton berry)",
+      "segment_label": null,
+      "river_base_name": "Lac Berry -",
+      "aliases": [
+        "berry",
+        "berry 48 46 41 n 78 22 19 o canton berry)",
+        "lac berry",
+        "lac berry 48 46 41 n 78 22 19 o canton berry)"
+      ],
+      "lat": 48.778056,
+      "lon": -78.371944
+    },
+    {
+      "id": 10282,
+      "zone_id": 14,
+      "nom_brut": "Lac Black ( 46°54'01\" N., 78°08'17\" O. )",
+      "nom": "Lac Black",
+      "nom_search": "lac black 46 54 01 n 78 08 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Black",
+      "aliases": [
+        "black",
+        "black 46 54 01 n 78 08 17 o )",
+        "lac black",
+        "lac black 46 54 01 n 78 08 17 o )"
+      ],
+      "lat": 46.900278,
+      "lon": -78.138056
+    },
+    {
+      "id": 2710,
+      "zone_id": 14,
+      "nom_brut": "Lac Bois-Franc (Booth) - ( 46°45'39\" N., 78°36'31\" O. )",
+      "nom": "Lac Bois-Franc",
+      "nom_search": "lac bois franc booth) 46 45 39 n 78 36 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bois-Franc",
+      "aliases": [
+        "bois franc",
+        "bois franc booth) 46 45 39 n 78 36 31 o )",
+        "lac bois franc",
+        "lac bois franc booth) 46 45 39 n 78 36 31 o )"
+      ],
+      "lat": 46.760833,
+      "lon": -78.608611
+    },
+    {
+      "id": 2711,
+      "zone_id": 14,
+      "nom_brut": "Lac Burden - ( 47°10'44\" N., 79°07'49\" O. )",
+      "nom": "Lac Burden",
+      "nom_search": "lac burden 47 10 44 n 79 07 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Burden -",
+      "aliases": [
+        "burden",
+        "burden 47 10 44 n 79 07 49 o )",
+        "lac burden",
+        "lac burden 47 10 44 n 79 07 49 o )"
+      ],
+      "lat": 47.178889,
+      "lon": -79.130278
+    },
+    {
+      "id": 785,
+      "zone_id": 14,
+      "nom_brut": "Lac Castagnier ( 48°43'49\" N., 77°46'05\" O. )",
+      "nom": "Lac Castagnier",
+      "nom_search": "lac castagnier 48 43 49 n 77 46 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Castagnier",
+      "aliases": [
+        "castagnier",
+        "castagnier 48 43 49 n 77 46 05 o )",
+        "lac castagnier",
+        "lac castagnier 48 43 49 n 77 46 05 o )"
+      ],
+      "lat": 48.730278,
+      "lon": -77.768056
+    },
+    {
+      "id": 2712,
+      "zone_id": 14,
+      "nom_brut": "Lac Choquette - ( 47°05'17\" N., 78°58'33\" O. )",
+      "nom": "Lac Choquette",
+      "nom_search": "lac choquette 47 05 17 n 78 58 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Choquette -",
+      "aliases": [
+        "choquette",
+        "choquette 47 05 17 n 78 58 33 o )",
+        "lac choquette",
+        "lac choquette 47 05 17 n 78 58 33 o )"
+      ],
+      "lat": 47.088056,
+      "lon": -78.975833
+    },
+    {
+      "id": 2713,
+      "zone_id": 14,
+      "nom_brut": "Lac Clair - ( 46°32'11\" N., 78°45'50\" O. )",
+      "nom": "Lac Clair",
+      "nom_search": "lac clair 46 32 11 n 78 45 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Clair -",
+      "aliases": [
+        "clair",
+        "clair 46 32 11 n 78 45 50 o )",
+        "lac clair",
+        "lac clair 46 32 11 n 78 45 50 o )"
+      ],
+      "lat": 46.536389,
+      "lon": -78.763889
+    },
+    {
+      "id": 2714,
+      "zone_id": 14,
+      "nom_brut": "Lac Clément - ( 47°01'08\" N., 78°58'17\" O. )",
+      "nom": "Lac Clément",
+      "nom_search": "lac clement 47 01 08 n 78 58 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Clément -",
+      "aliases": [
+        "clement",
+        "clement 47 01 08 n 78 58 17 o )",
+        "lac clement",
+        "lac clement 47 01 08 n 78 58 17 o )"
+      ],
+      "lat": 47.018889,
+      "lon": -78.971389
+    },
+    {
+      "id": 767,
+      "zone_id": 14,
+      "nom_brut": "Lac de la Petite Prairie (canton Béarn) ( 47°16'48\" N., 79°15'22\" O. )",
+      "nom": "Lac de la Petite Prairie",
+      "nom_search": "lac de la petite prairie canton bearn) 47 16 48 n 79 15 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Petite Prairie",
+      "aliases": [
+        "de la petite prairie",
+        "de la petite prairie canton bearn) 47 16 48 n 79 15 22 o )",
+        "lac de la petite prairie",
+        "lac de la petite prairie canton bearn) 47 16 48 n 79 15 22 o )"
+      ],
+      "lat": 47.28,
+      "lon": -79.256111
+    },
+    {
+      "id": 761,
+      "zone_id": 14,
+      "nom_brut": "Lac Déry (Canton Duprat, 48°25'24\" N., 79°07'46\" O. )",
+      "nom": "Lac Déry",
+      "nom_search": "lac dery canton duprat 48 25 24 n 79 07 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Déry",
+      "aliases": [
+        "dery",
+        "dery canton duprat 48 25 24 n 79 07 46 o )",
+        "lac dery",
+        "lac dery canton duprat 48 25 24 n 79 07 46 o )"
+      ],
+      "lat": 48.423333,
+      "lon": -79.129444
+    },
+    {
+      "id": 775,
+      "zone_id": 14,
+      "nom_brut": "Lac des Bois (canton Gaboury, 47°19'22\" N., 78°58'00\" O. )",
+      "nom": "Lac des Bois",
+      "nom_search": "lac des bois canton gaboury 47 19 22 n 78 58 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Bois",
+      "aliases": [
+        "des bois",
+        "des bois canton gaboury 47 19 22 n 78 58 00 o )",
+        "lac des bois",
+        "lac des bois canton gaboury 47 19 22 n 78 58 00 o )"
+      ],
+      "lat": 47.322778,
+      "lon": -78.966667
+    },
+    {
+      "id": 759,
+      "zone_id": 14,
+      "nom_brut": "Lac des Soeurs ( 48°10'49\" N., 77°43'11\" O. )",
+      "nom": "Lac des Soeurs",
+      "nom_search": "lac des soeurs 48 10 49 n 77 43 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Soeurs",
+      "aliases": [
+        "des soeurs",
+        "des soeurs 48 10 49 n 77 43 11 o )",
+        "lac des soeurs",
+        "lac des soeurs 48 10 49 n 77 43 11 o )"
+      ],
+      "lat": 48.180278,
+      "lon": -77.719722
+    },
+    {
+      "id": 763,
+      "zone_id": 14,
+      "nom_brut": "Lac Despériers (Canton Beauchastel, 48°11'10\" N., 79°09'33\" O. )",
+      "nom": "Lac Despériers",
+      "nom_search": "lac desperiers canton beauchastel 48 11 10 n 79 09 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Despériers",
+      "aliases": [
+        "desperiers",
+        "desperiers canton beauchastel 48 11 10 n 79 09 33 o )",
+        "lac desperiers",
+        "lac desperiers canton beauchastel 48 11 10 n 79 09 33 o )"
+      ],
+      "lat": 48.186111,
+      "lon": -79.159167
+    },
+    {
+      "id": 2717,
+      "zone_id": 14,
+      "nom_brut": "Lac du Grand Couteau (Galt) ( 47°09'13\" N., 79°07'44\" O. )",
+      "nom": "Lac du Grand Couteau",
+      "nom_search": "lac du grand couteau galt) 47 09 13 n 79 07 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Grand Couteau",
+      "aliases": [
+        "du grand couteau",
+        "du grand couteau galt) 47 09 13 n 79 07 44 o )",
+        "lac du grand couteau",
+        "lac du grand couteau galt) 47 09 13 n 79 07 44 o )"
+      ],
+      "lat": 47.153611,
+      "lon": -79.128889
+    },
+    {
+      "id": 10280,
+      "zone_id": 14,
+      "nom_brut": "Lac du Moulin ( 46°46'42\" N., 79°00'12\" O. )",
+      "nom": "Lac du Moulin",
+      "nom_search": "lac du moulin 46 46 42 n 79 00 12 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Moulin",
+      "aliases": [
+        "du moulin",
+        "du moulin 46 46 42 n 79 00 12 o )",
+        "lac du moulin",
+        "lac du moulin 46 46 42 n 79 00 12 o )"
+      ],
+      "lat": 46.778333,
+      "lon": -79.003333
+    },
+    {
+      "id": 2715,
+      "zone_id": 14,
+      "nom_brut": "Lac en Coeur - ( 47°10'41\" N., 79°02'24\" O. )",
+      "nom": "Lac en Coeur",
+      "nom_search": "lac en coeur 47 10 41 n 79 02 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac en Coeur -",
+      "aliases": [
+        "en coeur",
+        "en coeur 47 10 41 n 79 02 24 o )",
+        "lac en coeur",
+        "lac en coeur 47 10 41 n 79 02 24 o )"
+      ],
+      "lat": 47.178056,
+      "lon": -79.04
+    },
+    {
+      "id": 771,
+      "zone_id": 14,
+      "nom_brut": "Lac Florentien ( 47°53'44\" N., 78°10'21\" O. )",
+      "nom": "Lac Florentien",
+      "nom_search": "lac florentien 47 53 44 n 78 10 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Florentien",
+      "aliases": [
+        "florentien",
+        "florentien 47 53 44 n 78 10 21 o )",
+        "lac florentien",
+        "lac florentien 47 53 44 n 78 10 21 o )"
+      ],
+      "lat": 47.895556,
+      "lon": -78.1725
+    },
+    {
+      "id": 2727,
+      "zone_id": 14,
+      "nom_brut": "Lac Gordon - (à la Truite) ( 46°46'53\" N., 79°06'35\" O. )",
+      "nom": "Lac Gordon",
+      "nom_search": "lac gordon a la truite) 46 46 53 n 79 06 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gordon -",
+      "aliases": [
+        "gordon",
+        "gordon a la truite) 46 46 53 n 79 06 35 o )",
+        "lac gordon",
+        "lac gordon a la truite) 46 46 53 n 79 06 35 o )"
+      ],
+      "lat": 46.781389,
+      "lon": -79.109722
+    },
+    {
+      "id": 3040,
+      "zone_id": 14,
+      "nom_brut": "Lac Grand Lac Georges - ( 46°46'32\" N., 78°44'09\" O. )",
+      "nom": "Lac Grand Lac Georges",
+      "nom_search": "lac grand lac georges 46 46 32 n 78 44 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand Lac Georges -",
+      "aliases": [
+        "grand lac georges",
+        "grand lac georges 46 46 32 n 78 44 09 o )",
+        "lac grand lac georges",
+        "lac grand lac georges 46 46 32 n 78 44 09 o )"
+      ],
+      "lat": 46.775556,
+      "lon": -78.735833
+    },
+    {
+      "id": 2733,
+      "zone_id": 14,
+      "nom_brut": "Lac Grant - ( 47°15'11\" N., 79°00'49\" O. )",
+      "nom": "Lac Grant",
+      "nom_search": "lac grant 47 15 11 n 79 00 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grant -",
+      "aliases": [
+        "grant",
+        "grant 47 15 11 n 79 00 49 o )",
+        "lac grant",
+        "lac grant 47 15 11 n 79 00 49 o )"
+      ],
+      "lat": 47.253056,
+      "lon": -79.013611
+    },
+    {
+      "id": 2734,
+      "zone_id": 14,
+      "nom_brut": "Lac Guay - ( 47°12'34\" N., 79°01'48\" O. )",
+      "nom": "Lac Guay",
+      "nom_search": "lac guay 47 12 34 n 79 01 48 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Guay -",
+      "aliases": [
+        "guay",
+        "guay 47 12 34 n 79 01 48 o )",
+        "lac guay",
+        "lac guay 47 12 34 n 79 01 48 o )"
+      ],
+      "lat": 47.209444,
+      "lon": -79.03
+    },
+    {
+      "id": 765,
+      "zone_id": 14,
+      "nom_brut": "Lac Hector (Canton Beauchastel, 48°10'41\" N., 79°10'32\" O. )",
+      "nom": "Lac Hector",
+      "nom_search": "lac hector canton beauchastel 48 10 41 n 79 10 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hector",
+      "aliases": [
+        "hector",
+        "hector canton beauchastel 48 10 41 n 79 10 32 o )",
+        "lac hector",
+        "lac hector canton beauchastel 48 10 41 n 79 10 32 o )"
+      ],
+      "lat": 48.178056,
+      "lon": -79.175556
+    },
+    {
+      "id": 11201,
+      "zone_id": 14,
+      "nom_brut": "Lac Kipawa (Chute Turtle) - la partie comprise entre une droite reliant les points 46°54'19\" N., 78°51'42\" O. et 46°54'17\" N., 78°51'24\" O. et une droite reliant les points 46°54'05\" N., 78°51'45\" O. et 46°54'02\" N., 78°51'29\" O. , incluant ladite chute. (Canton Atwater)",
+      "nom": "Lac Kipawa",
+      "nom_search": "lac kipawa chute turtle) la partie comprise entre une droite reliant les points 46 54 19 n 78 51 42 o et 46 54 17 n 78 51 24 o et une droite reliant les points 46 54 05 n 78 51 45 o et 46 54 02 n 78 51 29 o incluant ladite chute canton atwater)",
+      "segment_label": null,
+      "river_base_name": "Lac Kipawa",
+      "aliases": [
+        "kipawa",
+        "kipawa chute turtle) la partie comprise entre une droite reliant les points 46 54 19 n 78 51 42 o et 46 54 17 n 78 51 24 o et une droite reliant les points 46 54 05 n 78 51 45 o et 46 54 02 n 78 51 29 o incluant ladite chute canton atwater)",
+        "lac kipawa",
+        "lac kipawa chute turtle) la partie comprise entre une droite reliant les points 46 54 19 n 78 51 42 o et 46 54 17 n 78 51 24 o et une droite reliant les points 46 54 05 n 78 51 45 o et 46 54 02 n 78 51 29 o incluant ladite chute canton atwater)"
+      ],
+      "lat": 46.905278,
+      "lon": -78.861667
+    },
+    {
+      "id": 3278,
+      "zone_id": 14,
+      "nom_brut": "Lac Laniel 1 ( 47°02'58\" N., 79°15'11\" O. )",
+      "nom": "Lac Laniel 1",
+      "nom_search": "lac laniel 1 47 02 58 n 79 15 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Laniel 1",
+      "aliases": [
+        "lac laniel 1",
+        "lac laniel 1 47 02 58 n 79 15 11 o )",
+        "laniel 1",
+        "laniel 1 47 02 58 n 79 15 11 o )"
+      ],
+      "lat": 47.049444,
+      "lon": -79.253056
+    },
+    {
+      "id": 3279,
+      "zone_id": 14,
+      "nom_brut": "Lac Laniel 2 ( 47°00'41\" N., 79°16'18\" O. )",
+      "nom": "Lac Laniel 2",
+      "nom_search": "lac laniel 2 47 00 41 n 79 16 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Laniel 2",
+      "aliases": [
+        "lac laniel 2",
+        "lac laniel 2 47 00 41 n 79 16 18 o )",
+        "laniel 2",
+        "laniel 2 47 00 41 n 79 16 18 o )"
+      ],
+      "lat": 47.011389,
+      "lon": -79.271667
+    },
+    {
+      "id": 2983,
+      "zone_id": 14,
+      "nom_brut": "Lac Laperrière ( 47°17'55\" N., 79°26'25\" O. )",
+      "nom": "Lac Laperrière",
+      "nom_search": "lac laperriere 47 17 55 n 79 26 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Laperrière",
+      "aliases": [
+        "lac laperriere",
+        "lac laperriere 47 17 55 n 79 26 25 o )",
+        "laperriere",
+        "laperriere 47 17 55 n 79 26 25 o )"
+      ],
+      "lat": 47.298611,
+      "lon": -79.440278
+    },
+    {
+      "id": 2720,
+      "zone_id": 14,
+      "nom_brut": "Lac Marin - ( 46°32'13\" N., 78°49'22\" O. )",
+      "nom": "Lac Marin",
+      "nom_search": "lac marin 46 32 13 n 78 49 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Marin -",
+      "aliases": [
+        "lac marin",
+        "lac marin 46 32 13 n 78 49 22 o )",
+        "marin",
+        "marin 46 32 13 n 78 49 22 o )"
+      ],
+      "lat": 46.536944,
+      "lon": -78.822778
+    },
+    {
+      "id": 2722,
+      "zone_id": 14,
+      "nom_brut": "Lac Memewin - ( 46°28'03\" N., 78°41'60\" O. )",
+      "nom": "Lac Memewin",
+      "nom_search": "lac memewin 46 28 03 n 78 41 60 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Memewin -",
+      "aliases": [
+        "lac memewin",
+        "lac memewin 46 28 03 n 78 41 60 o )",
+        "memewin",
+        "memewin 46 28 03 n 78 41 60 o )"
+      ],
+      "lat": 46.4675,
+      "lon": -78.7
+    },
+    {
+      "id": 797,
+      "zone_id": 14,
+      "nom_brut": "Lac Moran (canton Laperrière) - la partie comprise entre une droite en amont du vieux barrage reliant les points 47°10'34\" N., 79°04'44\" O. et 47°10' 34\" N., 79°04'42\" O. et une droite en aval de ce dit barrage reliant les points 47°10'03'' N., 79°04'12'' O. , 47°09'55\" N., 79°04'25\" O. et 47°09'50'' N., 79°04'31'' O.",
+      "nom": "Lac Moran",
+      "nom_search": "lac moran canton laperriere) la partie comprise entre une droite en amont du vieux barrage reliant les points 47 10 34 n 79 04 44 o et 47 10 34 n 79 04 42 o et une droite en aval de ce dit barrage reliant les points 47 10 03 n 79 04 12 o 47 09 55 n 79 04 25 o et 47 09 50 n 79 04 31 o",
+      "segment_label": null,
+      "river_base_name": "Lac Moran",
+      "aliases": [
+        "lac moran",
+        "lac moran canton laperriere) la partie comprise entre une droite en amont du vieux barrage reliant les points 47 10 34 n 79 04 44 o et 47 10 34 n 79 04 42 o et une droite en aval de ce dit barrage reliant les points 47 10 03 n 79 04 12 o 47 09 55 n 79 04 25 o et 47 09 50 n 79 04 31 o",
+        "moran",
+        "moran canton laperriere) la partie comprise entre une droite en amont du vieux barrage reliant les points 47 10 34 n 79 04 44 o et 47 10 34 n 79 04 42 o et une droite en aval de ce dit barrage reliant les points 47 10 03 n 79 04 12 o 47 09 55 n 79 04 25 o et 47 09 50 n 79 04 31 o"
+      ],
+      "lat": 47.176111,
+      "lon": -79.078889
+    },
+    {
+      "id": 780,
+      "zone_id": 14,
+      "nom_brut": "Lac Noranda (Canton Rouyn, 48°14'20\" N., 79°02'19\" O. )",
+      "nom": "Lac Noranda",
+      "nom_search": "lac noranda canton rouyn 48 14 20 n 79 02 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Noranda",
+      "aliases": [
+        "lac noranda",
+        "lac noranda canton rouyn 48 14 20 n 79 02 19 o )",
+        "noranda",
+        "noranda canton rouyn 48 14 20 n 79 02 19 o )"
+      ],
+      "lat": 48.238889,
+      "lon": -79.038611
+    },
+    {
+      "id": 2999,
+      "zone_id": 14,
+      "nom_brut": "Lac Petit lac George ( 46°45'56\" N., 78°41'58\" O. )",
+      "nom": "Lac Petit lac George",
+      "nom_search": "lac petit lac george 46 45 56 n 78 41 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac George",
+      "aliases": [
+        "lac petit lac george",
+        "lac petit lac george 46 45 56 n 78 41 58 o )",
+        "petit lac george",
+        "petit lac george 46 45 56 n 78 41 58 o )"
+      ],
+      "lat": 46.765556,
+      "lon": -78.699444
+    },
+    {
+      "id": 779,
+      "zone_id": 14,
+      "nom_brut": "Lac Petit lac Long ( 47°28'11\" N., 79°15'12\" O. ) (canton Baby)",
+      "nom": "Lac Petit lac Long",
+      "nom_search": "lac petit lac long 47 28 11 n 79 15 12 o ) canton baby)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Long",
+      "aliases": [
+        "lac petit lac long",
+        "lac petit lac long 47 28 11 n 79 15 12 o ) canton baby)",
+        "petit lac long",
+        "petit lac long 47 28 11 n 79 15 12 o ) canton baby)"
+      ],
+      "lat": 47.469722,
+      "lon": -79.253333
+    },
+    {
+      "id": 2723,
+      "zone_id": 14,
+      "nom_brut": "Lac Petit Otter - ( 46°43'08\" N., 78°49'17\" O. )",
+      "nom": "Lac Petit Otter",
+      "nom_search": "lac petit otter 46 43 08 n 78 49 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit Otter -",
+      "aliases": [
+        "lac petit otter",
+        "lac petit otter 46 43 08 n 78 49 17 o )",
+        "petit otter",
+        "petit otter 46 43 08 n 78 49 17 o )"
+      ],
+      "lat": 46.718889,
+      "lon": -78.821389
+    },
+    {
+      "id": 10281,
+      "zone_id": 14,
+      "nom_brut": "Lac Plassez ( 46°55'37\" N., 78°08'30\" O. )",
+      "nom": "Lac Plassez",
+      "nom_search": "lac plassez 46 55 37 n 78 08 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Plassez",
+      "aliases": [
+        "lac plassez",
+        "lac plassez 46 55 37 n 78 08 30 o )",
+        "plassez",
+        "plassez 46 55 37 n 78 08 30 o )"
+      ],
+      "lat": 46.926944,
+      "lon": -78.141667
+    },
+    {
+      "id": 782,
+      "zone_id": 14,
+      "nom_brut": "Lac Rousselot (canton Laverlochère, 47°21'12\" N., 79°15'26\" O. )",
+      "nom": "Lac Rousselot",
+      "nom_search": "lac rousselot canton laverlochere 47 21 12 n 79 15 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rousselot",
+      "aliases": [
+        "lac rousselot",
+        "lac rousselot canton laverlochere 47 21 12 n 79 15 26 o )",
+        "rousselot",
+        "rousselot canton laverlochere 47 21 12 n 79 15 26 o )"
+      ],
+      "lat": 47.353333,
+      "lon": -79.257222
+    },
+    {
+      "id": 2724,
+      "zone_id": 14,
+      "nom_brut": "Lac Saint-Amand - ( 47°14'08\" N., 79°08'32\" O. )",
+      "nom": "Lac Saint-Amand",
+      "nom_search": "lac saint amand 47 14 08 n 79 08 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Amand -",
+      "aliases": [
+        "lac saint amand",
+        "lac saint amand 47 14 08 n 79 08 32 o )",
+        "saint amand",
+        "saint amand 47 14 08 n 79 08 32 o )"
+      ],
+      "lat": 47.235556,
+      "lon": -79.142222
+    },
+    {
+      "id": 2730,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 46°46'52\" N., 78°41'25\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 46 46 52 n 78 41 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 46 46 52 n 78 41 25 o )",
+        "sans nom",
+        "sans nom 46 46 52 n 78 41 25 o )"
+      ],
+      "lat": 46.781111,
+      "lon": -78.690278
+    },
+    {
+      "id": 2731,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 46°49'42\" N., 78°53'07\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 46 49 42 n 78 53 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 46 49 42 n 78 53 07 o )",
+        "sans nom",
+        "sans nom 46 49 42 n 78 53 07 o )"
+      ],
+      "lat": 46.828333,
+      "lon": -78.885278
+    },
+    {
+      "id": 2732,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°05'26\" N., 78°57'59\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 05 26 n 78 57 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 05 26 n 78 57 59 o )",
+        "sans nom",
+        "sans nom 47 05 26 n 78 57 59 o )"
+      ],
+      "lat": 47.090556,
+      "lon": -78.966389
+    },
+    {
+      "id": 3184,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°52'51\" N., 78°10'41\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 52 51 n 78 10 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 52 51 n 78 10 41 o )",
+        "sans nom",
+        "sans nom 47 52 51 n 78 10 41 o )"
+      ],
+      "lat": 47.880833,
+      "lon": -78.178056
+    },
+    {
+      "id": 2704,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°52'58\" N., 78°10'52\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 52 58 n 78 10 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 52 58 n 78 10 52 o )",
+        "sans nom",
+        "sans nom 47 52 58 n 78 10 52 o )"
+      ],
+      "lat": 47.882778,
+      "lon": -78.181111
+    },
+    {
+      "id": 2705,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°53'14\" N., 78°10'21\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 53 14 n 78 10 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 53 14 n 78 10 21 o )",
+        "sans nom",
+        "sans nom 47 53 14 n 78 10 21 o )"
+      ],
+      "lat": 47.887222,
+      "lon": -78.1725
+    },
+    {
+      "id": 3183,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°53'16\" N., 78°09'57\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 53 16 n 78 09 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 53 16 n 78 09 57 o )",
+        "sans nom",
+        "sans nom 47 53 16 n 78 09 57 o )"
+      ],
+      "lat": 47.887778,
+      "lon": -78.165833
+    },
+    {
+      "id": 3185,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°53'16\" N., 78°10'41\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 53 16 n 78 10 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 53 16 n 78 10 41 o )",
+        "sans nom",
+        "sans nom 47 53 16 n 78 10 41 o )"
+      ],
+      "lat": 47.887778,
+      "lon": -78.178056
+    },
+    {
+      "id": 3186,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°53'26\" N., 78°10'31\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 53 26 n 78 10 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 53 26 n 78 10 31 o )",
+        "sans nom",
+        "sans nom 47 53 26 n 78 10 31 o )"
+      ],
+      "lat": 47.890556,
+      "lon": -78.175278
+    },
+    {
+      "id": 3182,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°54'08\" N., 78°09'37\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 54 08 n 78 09 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 54 08 n 78 09 37 o )",
+        "sans nom",
+        "sans nom 47 54 08 n 78 09 37 o )"
+      ],
+      "lat": 47.902222,
+      "lon": -78.160278
+    },
+    {
+      "id": 3181,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom ( 47°54'18\" N., 78°09'59\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 47 54 18 n 78 09 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 47 54 18 n 78 09 59 o )",
+        "sans nom",
+        "sans nom 47 54 18 n 78 09 59 o )"
+      ],
+      "lat": 47.905,
+      "lon": -78.166389
+    },
+    {
+      "id": 3195,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom (Aubé) ( 48°48'17'' N., 79°09'55'' O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom aube) 48 48 17 n 79 09 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom aube) 48 48 17 n 79 09 55 o )",
+        "sans nom",
+        "sans nom aube) 48 48 17 n 79 09 55 o )"
+      ],
+      "lat": 48.804722,
+      "lon": -79.165278
+    },
+    {
+      "id": 757,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom (de la Ville, 48°48'23\" N., 79°10'01\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom de la ville 48 48 23 n 79 10 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom de la ville 48 48 23 n 79 10 01 o )",
+        "sans nom",
+        "sans nom de la ville 48 48 23 n 79 10 01 o )"
+      ],
+      "lat": 48.806389,
+      "lon": -79.166944
+    },
+    {
+      "id": 2699,
+      "zone_id": 14,
+      "nom_brut": "Lac Sans nom (des pompiers) ( 46°46'31'' N., 78°59'03'' O. )(Canton Gendreau)",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom des pompiers) 46 46 31 n 78 59 03 o ) canton gendreau)",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom des pompiers) 46 46 31 n 78 59 03 o ) canton gendreau)",
+        "sans nom",
+        "sans nom des pompiers) 46 46 31 n 78 59 03 o ) canton gendreau)"
+      ],
+      "lat": 46.775278,
+      "lon": -78.984167
+    },
+    {
+      "id": 2725,
+      "zone_id": 14,
+      "nom_brut": "Lac Smith - ( 46°45'33\" N., 78°49'25\" O. )",
+      "nom": "Lac Smith",
+      "nom_search": "lac smith 46 45 33 n 78 49 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Smith -",
+      "aliases": [
+        "lac smith",
+        "lac smith 46 45 33 n 78 49 25 o )",
+        "smith",
+        "smith 46 45 33 n 78 49 25 o )"
+      ],
+      "lat": 46.759167,
+      "lon": -78.823611
+    },
+    {
+      "id": 2726,
+      "zone_id": 14,
+      "nom_brut": "Lac Tee - ( 46°47'04\"N., 79°02'19\" O. )",
+      "nom": "Lac Tee",
+      "nom_search": "lac tee 46 47 04 n 79 02 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tee -",
+      "aliases": [
+        "lac tee",
+        "lac tee 46 47 04 n 79 02 19 o )",
+        "tee",
+        "tee 46 47 04 n 79 02 19 o )"
+      ],
+      "lat": 46.784444,
+      "lon": -79.038611
+    },
+    {
+      "id": 2728,
+      "zone_id": 14,
+      "nom_brut": "Lac Villedonne - ( 46°51'42\" N., 78°43'44\" O. )",
+      "nom": "Lac Villedonne",
+      "nom_search": "lac villedonne 46 51 42 n 78 43 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Villedonne -",
+      "aliases": [
+        "lac villedonne",
+        "lac villedonne 46 51 42 n 78 43 44 o )",
+        "villedonne",
+        "villedonne 46 51 42 n 78 43 44 o )"
+      ],
+      "lat": 46.861667,
+      "lon": -78.728889
+    },
+    {
+      "id": 2729,
+      "zone_id": 14,
+      "nom_brut": "Lac Windy - ( 46°47'04\" N., 78°48'19\" O. )",
+      "nom": "Lac Windy",
+      "nom_search": "lac windy 46 47 04 n 78 48 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Windy -",
+      "aliases": [
+        "lac windy",
+        "lac windy 46 47 04 n 78 48 19 o )",
+        "windy",
+        "windy 46 47 04 n 78 48 19 o )"
+      ],
+      "lat": 46.784444,
+      "lon": -78.805278
+    },
+    {
+      "id": 2483,
+      "zone_id": 14,
+      "nom_brut": "Parc National d'Aiguebelle",
+      "nom": "Parc National d'Aiguebelle",
+      "nom_search": "parc national d aiguebelle",
+      "segment_label": null,
+      "river_base_name": "Parc National d'Aiguebelle",
+      "aliases": [
+        "parc national d aiguebelle"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2332,
+      "zone_id": 14,
+      "nom_brut": "Réserve Faunique La Vérendrye",
+      "nom": "Réserve Faunique La Vérendrye",
+      "nom_search": "reserve faunique la verendrye",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique La Vérendrye",
+      "aliases": [
+        "reserve faunique la verendrye"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3255,
+      "zone_id": 14,
+      "nom_brut": "Réservoir Decelles rapide 16 (rivière des Outaouais) la partie comprise entre trois droites perpendiculaires au courant sur la rivière des Outaouais et reliant deux rives opposées: - La première droite, constituant la limite Est, relie les points 47°46'54\" N., 77°53'23\" O. et 47°46'44\" N., 77°53'24\" O. ; - La seconde droite, constituant la limite Nord-Ouest, relie les points 47°46'50\" N., 77°56'38\" O. et 47°46'40\" N., 77°56'08\" O. ; - Finalement, la troisième droite, constituant la limite Sud-Ouest, relie les points 47°46'19\" N., 77°57'05\" O. et 47°46'07\" N., 77°56'52\" O. (Canton Jourdan).",
+      "nom": "Réservoir Decelles rapide 16",
+      "nom_search": "reservoir decelles rapide 16 riviere des outaouais) la partie comprise entre trois droites perpendiculaires au courant sur la riviere des outaouais et reliant deux rives opposees la premiere droite constituant la limite est relie les points 47 46 54 n 77 53 23 o et 47 46 44 n 77 53 24 o la seconde droite constituant la limite nord ouest relie les points 47 46 50 n 77 56 38 o et 47 46 40 n 77 56 08 o finalement la troisieme droite constituant la limite sud ouest relie les points 47 46 19 n 77 57 05 o et 47 46 07 n 77 56 52 o canton jourdan)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Decelles rapide 16",
+      "aliases": [
+        "decelles rapide 16",
+        "decelles rapide 16 riviere des outaouais) la partie comprise entre trois droites perpendiculaires au courant sur la riviere des outaouais et reliant deux rives opposees la premiere droite constituant la limite est relie les points 47 46 54 n 77 53 23 o et 47 46 44 n 77 53 24 o la seconde droite constituant la limite nord ouest relie les points 47 46 50 n 77 56 38 o et 47 46 40 n 77 56 08 o finalement la troisieme droite constituant la limite sud ouest relie les points 47 46 19 n 77 57 05 o et 47 46 07 n 77 56 52 o canton jourdan)",
+        "reservoir decelles rapide 16",
+        "reservoir decelles rapide 16 riviere des outaouais) la partie comprise entre trois droites perpendiculaires au courant sur la riviere des outaouais et reliant deux rives opposees la premiere droite constituant la limite est relie les points 47 46 54 n 77 53 23 o et 47 46 44 n 77 53 24 o la seconde droite constituant la limite nord ouest relie les points 47 46 50 n 77 56 38 o et 47 46 40 n 77 56 08 o finalement la troisieme droite constituant la limite sud ouest relie les points 47 46 19 n 77 57 05 o et 47 46 07 n 77 56 52 o canton jourdan)"
+      ],
+      "lat": 47.781667,
+      "lon": -77.889722
+    },
+    {
+      "id": 11140,
+      "zone_id": 14,
+      "nom_brut": "Réservoir Kipawa - Lac Audoin (Canton Atwater) - la partie du réservoir Kipawa dans le secteur appelé « lac Audoin » délimitée par une première droite reliant les points 46°50'55\" N., 78°47'48\" O. et 46°50'49\" N., 78°47'32\" O. et une seconde droite reliant les points 46°51'08\" N., 78°47'19\" O. et 46°51'07\" N., 78°47'17\" O.",
+      "nom": "Réservoir Kipawa - Lac Audoin",
+      "nom_search": "reservoir kipawa lac audoin canton atwater) la partie du reservoir kipawa dans le secteur appele lac audoin delimitee par une premiere droite reliant les points 46 50 55 n 78 47 48 o et 46 50 49 n 78 47 32 o et une seconde droite reliant les points 46 51 08 n 78 47 19 o et 46 51 07 n 78 47 17 o",
+      "segment_label": null,
+      "river_base_name": "Réservoir Kipawa",
+      "aliases": [
+        "kipawa",
+        "kipawa lac audoin canton atwater) la partie du reservoir kipawa dans le secteur appele lac audoin delimitee par une premiere droite reliant les points 46 50 55 n 78 47 48 o et 46 50 49 n 78 47 32 o et une seconde droite reliant les points 46 51 08 n 78 47 19 o et 46 51 07 n 78 47 17 o",
+        "reservoir kipawa",
+        "reservoir kipawa lac audoin canton atwater) la partie du reservoir kipawa dans le secteur appele lac audoin delimitee par une premiere droite reliant les points 46 50 55 n 78 47 48 o et 46 50 49 n 78 47 32 o et une seconde droite reliant les points 46 51 08 n 78 47 19 o et 46 51 07 n 78 47 17 o"
+      ],
+      "lat": 46.848611,
+      "lon": -78.796667
+    },
+    {
+      "id": 3034,
+      "zone_id": 14,
+      "nom_brut": "Réservoir Kipawa (les lacs Kipawa, Desquerac, Grindstone, Hunter, Mclachlin, Hunter's point et la rivière entre le lac Audouin et le lac Hunter's point)",
+      "nom": "Réservoir Kipawa",
+      "nom_search": "reservoir kipawa les lacs kipawa desquerac grindstone hunter mclachlin hunter s point et la riviere entre le lac audouin et le lac hunter s point)",
+      "segment_label": null,
+      "river_base_name": "Réservoir Kipawa",
+      "aliases": [
+        "kipawa",
+        "kipawa les lacs kipawa desquerac grindstone hunter mclachlin hunter s point et la riviere entre le lac audouin et le lac hunter s point)",
+        "reservoir kipawa",
+        "reservoir kipawa les lacs kipawa desquerac grindstone hunter mclachlin hunter s point et la riviere entre le lac audouin et le lac hunter s point)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 801,
+      "zone_id": 14,
+      "nom_brut": "Rivière Barrière (canton Rémigny) - la partie comprise entre une droite reliant les points 47°45'39'' N., 79°12'41'' O. et 47°45'41'' N., 79°12'40'' O. et une droite reliant les points 47°45'27'' N., 79°12'28'' O. et 47°45'30'' N., 79°12'24'' O.",
+      "nom": "Rivière Barrière",
+      "nom_search": "riviere barriere canton remigny) la partie comprise entre une droite reliant les points 47 45 39 n 79 12 41 o et 47 45 41 n 79 12 40 o et une droite reliant les points 47 45 27 n 79 12 28 o et 47 45 30 n 79 12 24 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Barrière",
+      "aliases": [
+        "barriere",
+        "barriere canton remigny) la partie comprise entre une droite reliant les points 47 45 39 n 79 12 41 o et 47 45 41 n 79 12 40 o et une droite reliant les points 47 45 27 n 79 12 28 o et 47 45 30 n 79 12 24 o",
+        "riviere barriere",
+        "riviere barriere canton remigny) la partie comprise entre une droite reliant les points 47 45 39 n 79 12 41 o et 47 45 41 n 79 12 40 o et une droite reliant les points 47 45 27 n 79 12 28 o et 47 45 30 n 79 12 24 o"
+      ],
+      "lat": 47.760833,
+      "lon": -79.211389
+    },
+    {
+      "id": 787,
+      "zone_id": 14,
+      "nom_brut": "Rivière Castagnier - la partie comprise entre son embouchure ( 48°42'53'' N., 77°46'55'' O. ) et un point à 200 m en amont ( 48°42'47'' N., 77°46'54'' O. ) (Canton Duverny)",
+      "nom": "Rivière Castagnier - la partie comprise entre son embouchure",
+      "nom_search": "riviere castagnier la partie comprise entre son embouchure 48 42 53 n 77 46 55 o ) et un point a 200 m en amont 48 42 47 n 77 46 54 o ) canton duverny)",
+      "segment_label": null,
+      "river_base_name": "Rivière Castagnier",
+      "aliases": [
+        "castagnier",
+        "castagnier la partie comprise entre son embouchure 48 42 53 n 77 46 55 o ) et un point a 200 m en amont 48 42 47 n 77 46 54 o ) canton duverny)",
+        "riviere castagnier",
+        "riviere castagnier la partie comprise entre son embouchure 48 42 53 n 77 46 55 o ) et un point a 200 m en amont 48 42 47 n 77 46 54 o ) canton duverny)"
+      ],
+      "lat": 48.714722,
+      "lon": -77.781944
+    },
+    {
+      "id": 3280,
+      "zone_id": 14,
+      "nom_brut": "Rivière Kipawa (Canton Booth) -la partie comprise entre trois droites perpendiculaires au courant sur la rivière Kipawa et reliant deux rives opposées: - La première droite, constituant la limite est, relie les points 46°50'13''N., 78°36'12''O. et 46°50'21''N.,78°36'05''O. - La seconde droite constituant la limite nord-ouest relie les points 46°50'19''N., 78°36'49''O. et 46°50'27''N., 78°36'49''O. - Finalement, la troisième droite, constituant la limite sud-ouest, relie les points 46°50'15''N., 78°36'37''O. et 46°50'15''N., 78°36'43''O.",
+      "nom": "Rivière Kipawa",
+      "nom_search": "riviere kipawa canton booth) la partie comprise entre trois droites perpendiculaires au courant sur la riviere kipawa et reliant deux rives opposees la premiere droite constituant la limite est relie les points 46 50 13 n 78 36 12 o et 46 50 21 n 78 36 05 o la seconde droite constituant la limite nord ouest relie les points 46 50 19 n 78 36 49 o et 46 50 27 n 78 36 49 o finalement la troisieme droite constituant la limite sud ouest relie les points 46 50 15 n 78 36 37 o et 46 50 15 n 78 36 43 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Kipawa",
+      "aliases": [
+        "kipawa",
+        "kipawa canton booth) la partie comprise entre trois droites perpendiculaires au courant sur la riviere kipawa et reliant deux rives opposees la premiere droite constituant la limite est relie les points 46 50 13 n 78 36 12 o et 46 50 21 n 78 36 05 o la seconde droite constituant la limite nord ouest relie les points 46 50 19 n 78 36 49 o et 46 50 27 n 78 36 49 o finalement la troisieme droite constituant la limite sud ouest relie les points 46 50 15 n 78 36 37 o et 46 50 15 n 78 36 43 o",
+        "riviere kipawa",
+        "riviere kipawa canton booth) la partie comprise entre trois droites perpendiculaires au courant sur la riviere kipawa et reliant deux rives opposees la premiere droite constituant la limite est relie les points 46 50 13 n 78 36 12 o et 46 50 21 n 78 36 05 o la seconde droite constituant la limite nord ouest relie les points 46 50 19 n 78 36 49 o et 46 50 27 n 78 36 49 o finalement la troisieme droite constituant la limite sud ouest relie les points 46 50 15 n 78 36 37 o et 46 50 15 n 78 36 43 o"
+      ],
+      "lat": 46.836944,
+      "lon": -78.603333
+    },
+    {
+      "id": 10321,
+      "zone_id": 14,
+      "nom_brut": "Rivière La Sarre compris entre une ligne joignant le point 48°50'33\" N., 79°13'32\" O. en rive ouest et le point 48°50'30\" N., 79°13'29\" O. en rive est (barrage La Sarre 2) et une ligne joignant le point 48°50'12\" N., 79°13'44\" O. en rive ouest et le point 48°50'12\" N., 79°13'40\" O. en rive est à la hauteur du rang 8-9 (canton La Sarre)",
+      "nom": "Rivière La Sarre compris entre une ligne joignant le point 48°50'33\" N., 79°13'32\" O. en rive ouest et le point 48°50'30\" N., 79°13'29\" O. en rive est",
+      "nom_search": "riviere la sarre compris entre une ligne joignant le point 48 50 33 n 79 13 32 o en rive ouest et le point 48 50 30 n 79 13 29 o en rive est barrage la sarre 2) et une ligne joignant le point 48 50 12 n 79 13 44 o en rive ouest et le point 48 50 12 n 79 13 40 o en rive est a la hauteur du rang 8 9 canton la sarre)",
+      "segment_label": null,
+      "river_base_name": "Rivière La Sarre compris",
+      "aliases": [
+        "la sarre compris",
+        "la sarre compris entre une ligne joignant le point 48 50 33 n 79 13 32 o en rive ouest et le point 48 50 30 n 79 13 29 o en rive est barrage la sarre 2) et une ligne joignant le point 48 50 12 n 79 13 44 o en rive ouest et le point 48 50 12 n 79 13 40 o en rive est a la hauteur du rang 8 9 canton la sarre)",
+        "riviere la sarre compris",
+        "riviere la sarre compris entre une ligne joignant le point 48 50 33 n 79 13 32 o en rive ouest et le point 48 50 30 n 79 13 29 o en rive est barrage la sarre 2) et une ligne joignant le point 48 50 12 n 79 13 44 o en rive ouest et le point 48 50 12 n 79 13 40 o en rive est a la hauteur du rang 8 9 canton la sarre)"
+      ],
+      "lat": 48.8425,
+      "lon": -79.225556
+    },
+    {
+      "id": 789,
+      "zone_id": 14,
+      "nom_brut": "Ruisseau Collin - la partie comprise entre son embouchure ( 48°42'56'' N., 77°44'01'' O. ) et un point situé à 200 m en amont ( 48°42'56'' N., 77°43'52'' O. ) (Canton La Morandière).",
+      "nom": "Ruisseau Collin - la partie comprise entre son embouchure",
+      "nom_search": "ruisseau collin la partie comprise entre son embouchure 48 42 56 n 77 44 01 o ) et un point situe a 200 m en amont 48 42 56 n 77 43 52 o ) canton la morandiere)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Collin",
+      "aliases": [
+        "collin",
+        "collin la partie comprise entre son embouchure 48 42 56 n 77 44 01 o ) et un point situe a 200 m en amont 48 42 56 n 77 43 52 o ) canton la morandiere)",
+        "ruisseau collin",
+        "ruisseau collin la partie comprise entre son embouchure 48 42 56 n 77 44 01 o ) et un point situe a 200 m en amont 48 42 56 n 77 43 52 o ) canton la morandiere)"
+      ],
+      "lat": 48.715556,
+      "lon": -77.733611
+    },
+    {
+      "id": 2364,
+      "zone_id": 14,
+      "nom_brut": "Zec Dumoine",
+      "nom": "Zec Dumoine",
+      "nom_search": "zec dumoine",
+      "segment_label": null,
+      "river_base_name": "Zec Dumoine",
+      "aliases": [
+        "zec dumoine"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2372,
+      "zone_id": 14,
+      "nom_brut": "Zec Kipawa",
+      "nom": "Zec Kipawa",
+      "nom_search": "zec kipawa",
+      "segment_label": null,
+      "river_base_name": "Zec Kipawa",
+      "aliases": [
+        "zec kipawa"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2383,
+      "zone_id": 14,
+      "nom_brut": "Zec Maganasipi",
+      "nom": "Zec Maganasipi",
+      "nom_search": "zec maganasipi",
+      "segment_label": null,
+      "river_base_name": "Zec Maganasipi",
+      "aliases": [
+        "zec maganasipi"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2403,
+      "zone_id": 14,
+      "nom_brut": "Zec Restigo",
+      "nom": "Zec Restigo",
+      "nom_search": "zec restigo",
+      "segment_label": null,
+      "river_base_name": "Zec Restigo",
+      "aliases": [
+        "zec restigo"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

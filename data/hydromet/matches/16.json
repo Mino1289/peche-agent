@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "zone_id": 16,
+    "radius_km": 25.0,
+    "nb_with_coords": 10,
+    "nb_station_matched": 7
+  },
+  "matches": [
+    {
+      "plan_id": 3408,
+      "plan_nom": "Lac Hénault",
+      "lat": 46.425,
+      "lon": -73.426111,
+      "stations": [
+        {
+          "id": "052606",
+          "plan_eau": "Rivière Mastigouche",
+          "description": "À 0,1 km en aval du lac Sainte-Rose",
+          "lat": 46.442,
+          "lon": -73.462,
+          "distance_km": 3.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "490",
+          "plan_eau": "Rivière Mastigouche",
+          "description": "À 10 km en amont du lac Maskinongé, à Mandeville",
+          "lat": 46.403583,
+          "lon": -73.389126,
+          "distance_km": 3.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052603",
+          "plan_eau": "Lac Maskinongé",
+          "description": "À Saint-Gabriel-de-Brandon",
+          "lat": 46.304,
+          "lon": -73.397,
+          "distance_km": 13.64,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052604",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "Sur la rivière Maskinongé à Saint-Didace",
+          "lat": 46.3267,
+          "lon": -73.2777,
+          "distance_km": 15.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 19.82,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 22.1,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052606",
+      "station": {
+        "id": "052606",
+        "plan_eau": "Rivière Mastigouche",
+        "description": "À 0,1 km en aval du lac Sainte-Rose",
+        "lat": 46.442,
+        "lon": -73.462,
+        "distance_km": 3.34
+      }
+    },
+    {
+      "plan_id": 12340,
+      "plan_nom": "Lac Kempt",
+      "lat": 47.440278,
+      "lon": -74.253889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2744,
+      "plan_nom": "Lac Morialice",
+      "lat": 47.234167,
+      "lon": -74.2825,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3287,
+      "plan_nom": "Lac Quesnel",
+      "lat": 46.386389,
+      "lon": -73.515,
+      "stations": [
+        {
+          "id": "052606",
+          "plan_eau": "Rivière Mastigouche",
+          "description": "À 0,1 km en aval du lac Sainte-Rose",
+          "lat": 46.442,
+          "lon": -73.462,
+          "distance_km": 7.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "490",
+          "plan_eau": "Rivière Mastigouche",
+          "description": "À 10 km en amont du lac Maskinongé, à Mandeville",
+          "lat": 46.403583,
+          "lon": -73.389126,
+          "distance_km": 9.84,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 11.8,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052603",
+          "plan_eau": "Lac Maskinongé",
+          "description": "À Saint-Gabriel-de-Brandon",
+          "lat": 46.304,
+          "lon": -73.397,
+          "distance_km": 12.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052604",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "Sur la rivière Maskinongé à Saint-Didace",
+          "lat": 46.3267,
+          "lon": -73.2777,
+          "distance_km": 19.38,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052606",
+      "station": {
+        "id": "052606",
+        "plan_eau": "Rivière Mastigouche",
+        "description": "À 0,1 km en aval du lac Sainte-Rose",
+        "lat": 46.442,
+        "lon": -73.462,
+        "distance_km": 7.4
+      }
+    },
+    {
+      "plan_id": 3288,
+      "plan_nom": "Lac Sainte-Rose",
+      "lat": 46.451111,
+      "lon": -73.465833,
+      "stations": [
+        {
+          "id": "052606",
+          "plan_eau": "Rivière Mastigouche",
+          "description": "À 0,1 km en aval du lac Sainte-Rose",
+          "lat": 46.442,
+          "lon": -73.462,
+          "distance_km": 1.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "490",
+          "plan_eau": "Rivière Mastigouche",
+          "description": "À 10 km en amont du lac Maskinongé, à Mandeville",
+          "lat": 46.403583,
+          "lon": -73.389126,
+          "distance_km": 7.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052603",
+          "plan_eau": "Lac Maskinongé",
+          "description": "À Saint-Gabriel-de-Brandon",
+          "lat": 46.304,
+          "lon": -73.397,
+          "distance_km": 17.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 18.92,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052604",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "Sur la rivière Maskinongé à Saint-Didace",
+          "lat": 46.3267,
+          "lon": -73.2777,
+          "distance_km": 19.99,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 24.76,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052606",
+      "station": {
+        "id": "052606",
+        "plan_eau": "Rivière Mastigouche",
+        "description": "À 0,1 km en aval du lac Sainte-Rose",
+        "lat": 46.442,
+        "lon": -73.462,
+        "distance_km": 1.05
+      }
+    },
+    {
+      "plan_id": 860,
+      "plan_nom": "Lac Saint-Louis",
+      "lat": 46.558056,
+      "lon": -73.800833,
+      "stations": [
+        {
+          "id": "050119",
+          "plan_eau": "Rivière Matawin",
+          "description": "À 4,0 km en aval du pont-route 131 à Saint-Michel-des-Saints",
+          "lat": 46.684111,
+          "lon": -73.914803,
+          "distance_km": 16.5,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050119",
+      "station": {
+        "id": "050119",
+        "plan_eau": "Rivière Matawin",
+        "description": "À 4,0 km en aval du pont-route 131 à Saint-Michel-des-Saints",
+        "lat": 46.684111,
+        "lon": -73.914803,
+        "distance_km": 16.5
+      }
+    },
+    {
+      "plan_id": 861,
+      "plan_nom": "Réservoir Taureau",
+      "lat": 46.766667,
+      "lon": -73.833333,
+      "stations": [
+        {
+          "id": "050119",
+          "plan_eau": "Rivière Matawin",
+          "description": "À 4,0 km en aval du pont-route 131 à Saint-Michel-des-Saints",
+          "lat": 46.684111,
+          "lon": -73.914803,
+          "distance_km": 11.08,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050119",
+      "station": {
+        "id": "050119",
+        "plan_eau": "Rivière Matawin",
+        "description": "À 4,0 km en aval du pont-route 131 à Saint-Michel-des-Saints",
+        "lat": 46.684111,
+        "lon": -73.914803,
+        "distance_km": 11.08
+      }
+    },
+    {
+      "plan_id": 863,
+      "plan_nom": "Rivière du Diable entre l'embouchure de la rivière Le Boulé",
+      "lat": 46.185,
+      "lon": -74.519167,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 10.06,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 10.06
+      }
+    },
+    {
+      "plan_id": 865,
+      "plan_nom": "Rivière Manouane La partie comprise entre le barrage Kempt",
+      "lat": 47.536944,
+      "lon": -74.185,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 858,
+      "plan_nom": "Ruisseau Castelneau entre le pont du poste d'accueil de la zec Maison-de-Pierre",
+      "lat": 46.720833,
+      "lon": -74.9775,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 14.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 22.01,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 14.95
+      }
+    }
+  ]
+}

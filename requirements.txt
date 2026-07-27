@@ -1,0 +1,40 @@
+# Phase 0 - urllib stdlib pour le sync règlements.
+# Phase 2 - hydrométrie : reprojection EPSG:32198 -> WGS84.
+pyproj>=3.7
+
+# Phase 5 - LLM provider (Gemini)
+google-genai>=1.0
+
+# Phase 7 - encodage compact TOON pour les tool_responses (~-50% tokens)
+toon-format @ git+https://github.com/toon-format/toon-python.git
+
+# Phase 6 - UI + serveur HTTP + SSE
+streamlit>=1.40
+fastapi[standard]>=0.115
+uvicorn>=0.30
+
+# Config
+python-dotenv>=1.0
+
+# MCP server (outils exposés à Cursor)
+mcp>=1.0
+
+# Carte interactive
+folium>=0.18
+streamlit-folium>=0.22
+
+# Répertoire barrages CEHQ (lecture .xls)
+xlrd>=2.0
+
+# Carte — sync spatial (LCE, bassins)
+geopandas>=1.0
+
+# Multi-agent LangGraph + observabilité
+langchain-core>=0.3
+langchain-google-genai>=2.0
+langgraph>=0.6
+langsmith>=0.3
+
+# Tests
+pytest>=8.0
+

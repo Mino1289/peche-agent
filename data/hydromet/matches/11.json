@@ -1,0 +1,2769 @@
+{
+  "meta": {
+    "zone_id": 11,
+    "radius_km": 25.0,
+    "nb_with_coords": 75,
+    "nb_station_matched": 73
+  },
+  "matches": [
+    {
+      "plan_id": 12188,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie au Sable - La partie comprise entre une droite reliant les points 46°39'11.99'' N., 75°44'3.05\" O. et 46°39'15.93'' N, 75°44'1.47' O. et l'embouchure du ruisseau sans nom situé au fond de la baie",
+      "lat": 46.653331,
+      "lon": -75.734181,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 24.47,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 24.47
+      }
+    },
+    {
+      "plan_id": 1086,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Gens de Terre - La partie comprise entre le côté aval du pont Lépine",
+      "lat": 46.919897,
+      "lon": -76.117328,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1084,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Philomène - La partie comprise entre entre une droite reliant les points 46°43'9.12\" N., 75°50'8,90\" O. et 46°43'5.79\" N., 75°50'4,72\" O. située en aval de la partie la plus étroite de l'exutoire de la baie jusqu'au rétrécissement de la Baie Philomène délimitée par une droite reliant les points 46°39'07\" N., 75°50'50\" O. et 46°39'06\" N., 75°50'44\" O. excluant le lac sans nom",
+      "lat": 46.7192,
+      "lon": -75.835806,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 21.25,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 21.25
+      }
+    },
+    {
+      "plan_id": 12623,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Philomène - La partie comprise entre le rétrécissement délimitée par une droite reliant les points 46°39'07\" N., 75°50'50\" O. et 46°39'06\" N., 75°50'44\" O. jusqu'aux limites de l'aire faunique communautaire dans le ruisseau Philomène",
+      "lat": 46.651944,
+      "lon": -75.847222,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 16.32,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 16.32
+      }
+    },
+    {
+      "plan_id": 12191,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie sans nom",
+      "lat": 46.926592,
+      "lon": -75.687897,
+      "stations": [
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 18.1,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040830",
+      "station": {
+        "id": "040830",
+        "plan_eau": "Rivière Gatineau",
+        "description": "À la tête des rapides Ceizur",
+        "lat": 47.083,
+        "lon": -75.754,
+        "distance_km": 18.1
+      }
+    },
+    {
+      "plan_id": 12185,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Sans nom",
+      "lat": 46.913803,
+      "lon": -75.910019,
+      "stations": [
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 22.23,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040830",
+      "station": {
+        "id": "040830",
+        "plan_eau": "Rivière Gatineau",
+        "description": "À la tête des rapides Ceizur",
+        "lat": 47.083,
+        "lon": -75.754,
+        "distance_km": 22.23
+      }
+    },
+    {
+      "plan_id": 12193,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Sans nom - La partie située en amont délimitée par une droite reliant les points",
+      "lat": 46.932775,
+      "lon": -75.538878,
+      "stations": [
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 23.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 23.82,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040830",
+      "station": {
+        "id": "040830",
+        "plan_eau": "Rivière Gatineau",
+        "description": "À la tête des rapides Ceizur",
+        "lat": 47.083,
+        "lon": -75.754,
+        "distance_km": 23.35
+      }
+    },
+    {
+      "plan_id": 12184,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Windigo - La partie comprise entre une droite à son embouchure reliant les points 46°45'57.65'' N., 75°42'45.78'' O. et 46°46'4.07'' N., 75°42'40.49'' O. et l'embouchure du ruisseau Windigo",
+      "lat": 46.766014,
+      "lon": -75.712717,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12189,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Lac Caméra - La partie comprise entre l'embouchure du ruisseau du Butor au Nord",
+      "lat": 46.985333,
+      "lon": -75.558472,
+      "stations": [
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 18.37,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040830",
+      "station": {
+        "id": "040830",
+        "plan_eau": "Rivière Gatineau",
+        "description": "À la tête des rapides Ceizur",
+        "lat": 47.083,
+        "lon": -75.754,
+        "distance_km": 18.37
+      }
+    },
+    {
+      "plan_id": 1088,
+      "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Rivière Gatineau - La partie comprise entre le côté aval du pont de fer de la CIP surplombant les rapides Ceizur",
+      "lat": 47.082436,
+      "lon": -75.752892,
+      "stations": [
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 0.1,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040830",
+      "station": {
+        "id": "040830",
+        "plan_eau": "Rivière Gatineau",
+        "description": "À la tête des rapides Ceizur",
+        "lat": 47.083,
+        "lon": -75.754,
+        "distance_km": 0.1
+      }
+    },
+    {
+      "plan_id": 629,
+      "plan_nom": "Lac aux Cyprès",
+      "lat": 46.870833,
+      "lon": -75.195833,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 13.01,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 24.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 13.01
+      }
+    },
+    {
+      "plan_id": 692,
+      "plan_nom": "Lac aux Poissons",
+      "lat": 46.614444,
+      "lon": -74.813333,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 23.64,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 23.64
+      }
+    },
+    {
+      "plan_id": 624,
+      "plan_nom": "Lac Bertrand",
+      "lat": 46.632222,
+      "lon": -75.395833,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 9.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 11.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 13.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 18.15,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 20.91,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 9.48
+      }
+    },
+    {
+      "plan_id": 647,
+      "plan_nom": "Lac Béthune",
+      "lat": 46.855,
+      "lon": -75.465278,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 14.02,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 14.02
+      }
+    },
+    {
+      "plan_id": 625,
+      "plan_nom": "Lac Bitobi",
+      "lat": 46.705833,
+      "lon": -75.961389,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 14.24,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 14.24
+      }
+    },
+    {
+      "plan_id": 10680,
+      "plan_nom": "Lac Borcoman",
+      "lat": 46.768889,
+      "lon": -75.609444,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 22.72,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 22.72
+      }
+    },
+    {
+      "plan_id": 654,
+      "plan_nom": "Lac Boucher",
+      "lat": 46.899722,
+      "lon": -75.414167,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 14.94,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 14.94
+      }
+    },
+    {
+      "plan_id": 650,
+      "plan_nom": "Lac Brochet",
+      "lat": 46.500278,
+      "lon": -74.744444,
+      "stations": [
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 16.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 23.14,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040241",
+      "station": {
+        "id": "040241",
+        "plan_eau": "Lac Barrière",
+        "description": "À 8 km en aval de la ville de Rivière Rouge",
+        "lat": 46.3648,
+        "lon": -74.8168,
+        "distance_km": 16.05
+      }
+    },
+    {
+      "plan_id": 3196,
+      "plan_nom": "Lac Chaud",
+      "lat": 46.4525,
+      "lon": -74.768333,
+      "stations": [
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 10.44,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 22.02,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040241",
+      "station": {
+        "id": "040241",
+        "plan_eau": "Lac Barrière",
+        "description": "À 8 km en aval de la ville de Rivière Rouge",
+        "lat": 46.3648,
+        "lon": -74.8168,
+        "distance_km": 10.44
+      }
+    },
+    {
+      "plan_id": 3218,
+      "plan_nom": "Lac Clair",
+      "lat": 46.626111,
+      "lon": -75.713333,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 24.1,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 24.1
+      }
+    },
+    {
+      "plan_id": 3222,
+      "plan_nom": "Lac de la Bouette",
+      "lat": 46.725,
+      "lon": -75.5775,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 21.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 23.07,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 21.3
+      }
+    },
+    {
+      "plan_id": 656,
+      "plan_nom": "Lac de la Montagne",
+      "lat": 46.719444,
+      "lon": -75.555556,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 19.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 21.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 24.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 19.94
+      }
+    },
+    {
+      "plan_id": 10700,
+      "plan_nom": "Lac des Cornes",
+      "lat": 46.725,
+      "lon": -75.155278,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 10.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 10.89,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 13.68,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 10.86
+      }
+    },
+    {
+      "plan_id": 3226,
+      "plan_nom": "Lac des Îles",
+      "lat": 46.724167,
+      "lon": -75.5675,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 20.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 22.6,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 20.61
+      }
+    },
+    {
+      "plan_id": 662,
+      "plan_nom": "Lac des Journalistes",
+      "lat": 46.715556,
+      "lon": -75.462778,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 13.84,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 18.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 18.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 23.8,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 13.84
+      }
+    },
+    {
+      "plan_id": 3220,
+      "plan_nom": "Lac du Club",
+      "lat": 46.624722,
+      "lon": -75.535,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 12.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 17.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 22.17,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 24.63,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 12.28
+      }
+    },
+    {
+      "plan_id": 3224,
+      "plan_nom": "Lac Flapper",
+      "lat": 46.797222,
+      "lon": -75.636944,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 24.78,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 24.78
+      }
+    },
+    {
+      "plan_id": 3166,
+      "plan_nom": "Lac Gervais",
+      "lat": 46.773056,
+      "lon": -75.874444,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 23.99,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 23.99
+      }
+    },
+    {
+      "plan_id": 3117,
+      "plan_nom": "Lac Grand lac Rabot",
+      "lat": 46.863889,
+      "lon": -75.412778,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 11.65,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 11.65
+      }
+    },
+    {
+      "plan_id": 660,
+      "plan_nom": "Lac Grand lac Serpent",
+      "lat": 46.957222,
+      "lon": -75.419444,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 20.82,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 20.82
+      }
+    },
+    {
+      "plan_id": 630,
+      "plan_nom": "Lac Hamel",
+      "lat": 46.909444,
+      "lon": -75.269722,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 14.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 14.21
+      }
+    },
+    {
+      "plan_id": 631,
+      "plan_nom": "Lac Hardy",
+      "lat": 46.597222,
+      "lon": -75.817222,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 17.12,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 17.12
+      }
+    },
+    {
+      "plan_id": 2801,
+      "plan_nom": "Lac Howard",
+      "lat": 46.598333,
+      "lon": -75.663889,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 19.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 23.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 19.53
+      }
+    },
+    {
+      "plan_id": 677,
+      "plan_nom": "Lac Lacroix",
+      "lat": 46.718056,
+      "lon": -76.019722,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 14.33,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 14.33
+      }
+    },
+    {
+      "plan_id": 633,
+      "plan_nom": "Lac Lafontaine",
+      "lat": 46.705278,
+      "lon": -75.479722,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 15.55,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 18.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 18.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 23.04,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 15.55
+      }
+    },
+    {
+      "plan_id": 667,
+      "plan_nom": "Lac Lafrance",
+      "lat": 46.717222,
+      "lon": -76.0125,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 14.31,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 14.31
+      }
+    },
+    {
+      "plan_id": 634,
+      "plan_nom": "Lac L'Allier",
+      "lat": 46.900556,
+      "lon": -75.260278,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 13.44,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 13.44
+      }
+    },
+    {
+      "plan_id": 635,
+      "plan_nom": "Lac Léona",
+      "lat": 46.785556,
+      "lon": -75.513056,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 15.31,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 15.31
+      }
+    },
+    {
+      "plan_id": 12600,
+      "plan_nom": "Lac Lynch",
+      "lat": 46.517778,
+      "lon": -74.7425,
+      "stations": [
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 17.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 24.25,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040241",
+      "station": {
+        "id": "040241",
+        "plan_eau": "Lac Barrière",
+        "description": "À 8 km en aval de la ville de Rivière Rouge",
+        "lat": 46.3648,
+        "lon": -74.8168,
+        "distance_km": 17.94
+      }
+    },
+    {
+      "plan_id": 651,
+      "plan_nom": "Lac Macaza",
+      "lat": 46.383056,
+      "lon": -74.741944,
+      "stations": [
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 6.09,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 18.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 24.79,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040241",
+      "station": {
+        "id": "040241",
+        "plan_eau": "Lac Barrière",
+        "description": "À 8 km en aval de la ville de Rivière Rouge",
+        "lat": 46.3648,
+        "lon": -74.8168,
+        "distance_km": 6.09
+      }
+    },
+    {
+      "plan_id": 2800,
+      "plan_nom": "Lac Major",
+      "lat": 46.836389,
+      "lon": -75.511944,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 16.25,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 16.25
+      }
+    },
+    {
+      "plan_id": 3056,
+      "plan_nom": "Lac Marquis",
+      "lat": 46.666667,
+      "lon": -75.233333,
+      "stations": [
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 2.13,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 9.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 14.46,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 19.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 21.33,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040627",
+      "station": {
+        "id": "040627",
+        "plan_eau": "Rivière Kiamika",
+        "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+        "lat": 46.65,
+        "lon": -75.247,
+        "distance_km": 2.13
+      }
+    },
+    {
+      "plan_id": 683,
+      "plan_nom": "Lac Miroir",
+      "lat": 46.211111,
+      "lon": -74.5875,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 10.75,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 18.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 19.17,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 23.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 24.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 24.55,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040106",
+          "plan_eau": "Lac Manitou",
+          "description": "Au lac Manitou à Sainte-Agathe-des-Monts",
+          "lat": 46.074417,
+          "lon": -74.336,
+          "distance_km": 24.63,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 10.75
+      }
+    },
+    {
+      "plan_id": 11560,
+      "plan_nom": "Lac Moore",
+      "lat": 46.195,
+      "lon": -74.6175,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 8.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 18.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 21.68,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 24.31,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 8.98
+      }
+    },
+    {
+      "plan_id": 637,
+      "plan_nom": "Lac Noir",
+      "lat": 46.917778,
+      "lon": -75.250556,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 15.49,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 15.49
+      }
+    },
+    {
+      "plan_id": 638,
+      "plan_nom": "Lac Ouellette",
+      "lat": 46.719444,
+      "lon": -75.4375,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 12.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 16.46,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 19.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 23.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 12.02
+      }
+    },
+    {
+      "plan_id": 3228,
+      "plan_nom": "Lac Palais",
+      "lat": 46.773889,
+      "lon": -75.618333,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 23.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 23.36
+      }
+    },
+    {
+      "plan_id": 639,
+      "plan_nom": "Lac Papineau",
+      "lat": 46.778889,
+      "lon": -75.415278,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 7.89,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 19.24,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 7.89
+      }
+    },
+    {
+      "plan_id": 10702,
+      "plan_nom": "Lac Pérodeau",
+      "lat": 46.761667,
+      "lon": -75.153889,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 12.32,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 14.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 14.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 12.32
+      }
+    },
+    {
+      "plan_id": 648,
+      "plan_nom": "Lac Petit lac Béthune",
+      "lat": 46.846667,
+      "lon": -75.468333,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 13.73,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 13.73
+      }
+    },
+    {
+      "plan_id": 688,
+      "plan_nom": "Lac Petit lac Caribou",
+      "lat": 46.299722,
+      "lon": -74.719167,
+      "stations": [
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 10.42,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 18.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 20.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 22.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040241",
+      "station": {
+        "id": "040241",
+        "plan_eau": "Lac Barrière",
+        "description": "À 8 km en aval de la ville de Rivière Rouge",
+        "lat": 46.3648,
+        "lon": -74.8168,
+        "distance_km": 10.42
+      }
+    },
+    {
+      "plan_id": 2553,
+      "plan_nom": "Lac Petit lac Kiamika",
+      "lat": 46.645833,
+      "lon": -75.229444,
+      "stations": [
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 1.42,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 8.39,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040627",
+      "station": {
+        "id": "040627",
+        "plan_eau": "Rivière Kiamika",
+        "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+        "lat": 46.65,
+        "lon": -75.247,
+        "distance_km": 1.42
+      }
+    },
+    {
+      "plan_id": 640,
+      "plan_nom": "Lac Philomène",
+      "lat": 46.657222,
+      "lon": -75.866389,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 15.29,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 15.29
+      }
+    },
+    {
+      "plan_id": 641,
+      "plan_nom": "Lac Pionnier",
+      "lat": 46.65,
+      "lon": -75.475556,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 12.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 17.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 17.45,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 19.51,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 12.1
+      }
+    },
+    {
+      "plan_id": 658,
+      "plan_nom": "Lac René",
+      "lat": 46.628056,
+      "lon": -75.688611,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 22.43,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 22.43
+      }
+    },
+    {
+      "plan_id": 643,
+      "plan_nom": "Lac Saguay",
+      "lat": 46.502778,
+      "lon": -75.141667,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 14.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 18.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 18.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 21.81,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 14.23
+      }
+    },
+    {
+      "plan_id": 694,
+      "plan_nom": "Lac Saint-Paul",
+      "lat": 46.705833,
+      "lon": -75.337778,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 9.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 9.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 18.5,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 18.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 22.39,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 9.02
+      }
+    },
+    {
+      "plan_id": 644,
+      "plan_nom": "Lac Scotchman",
+      "lat": 46.763056,
+      "lon": -75.605,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 22.45,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 22.45
+      }
+    },
+    {
+      "plan_id": 645,
+      "plan_nom": "Lac Tapani",
+      "lat": 46.909444,
+      "lon": -75.3225,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 13.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 13.86
+      }
+    },
+    {
+      "plan_id": 652,
+      "plan_nom": "Lac Tibériade",
+      "lat": 46.525278,
+      "lon": -74.981389,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 15.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 21.85,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 24.58,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 15.85
+      }
+    },
+    {
+      "plan_id": 2802,
+      "plan_nom": "Lac Tremblant",
+      "lat": 46.246667,
+      "lon": -74.635,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 14.86,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 17.31,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 19.17,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 23.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 24.31,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 14.86
+      }
+    },
+    {
+      "plan_id": 3057,
+      "plan_nom": "Réservoir Kiamika",
+      "lat": 46.666667,
+      "lon": -75.066667,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 5.87,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 13.89,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 5.87
+      }
+    },
+    {
+      "plan_id": 696,
+      "plan_nom": "Rivière d'Argent entre le pont qui la traverse",
+      "lat": 46.973611,
+      "lon": -75.489722,
+      "stations": [
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 23.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 24.95,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040830",
+      "station": {
+        "id": "040830",
+        "plan_eau": "Rivière Gatineau",
+        "description": "À la tête des rapides Ceizur",
+        "lat": 47.083,
+        "lon": -75.754,
+        "distance_km": 23.43
+      }
+    },
+    {
+      "plan_id": 726,
+      "plan_nom": "Rivière des Cornes entre le réservoir Kiamika et le lac des Cornes",
+      "lat": 46.7,
+      "lon": -75.15,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 8.07,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 9.26,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 8.07
+      }
+    },
+    {
+      "plan_id": 708,
+      "plan_nom": "Rivière du Lièvre entre le rapide Chaudière",
+      "lat": 46.784,
+      "lon": -75.313806,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 0.18,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 0.18
+      }
+    },
+    {
+      "plan_id": 702,
+      "plan_nom": "Rivière Gatineau entre le barrage Mercier",
+      "lat": 46.717778,
+      "lon": -75.984167,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 14.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 14.86
+      }
+    },
+    {
+      "plan_id": 2320,
+      "plan_nom": "Rivière Kiamika entre le pont de la route 117",
+      "lat": 46.556944,
+      "lon": -75.365278,
+      "stations": [
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 13.74,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 20.29,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040627",
+      "station": {
+        "id": "040627",
+        "plan_eau": "Rivière Kiamika",
+        "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+        "lat": 46.65,
+        "lon": -75.247,
+        "distance_km": 13.74
+      }
+    },
+    {
+      "plan_id": 712,
+      "plan_nom": "Rivière Kiamika Entre une ligne perpendiculaire au courant reliant un point sur la rive est",
+      "lat": 46.743333,
+      "lon": -75.010278,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 15.21,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 20.82,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 15.21
+      }
+    },
+    {
+      "plan_id": 729,
+      "plan_nom": "Ruisseau aux Bleuets Ouest entre son embouchure dans le réservoir Kiamika délimité par une ligne perpendiculaire au courant reliant le point 46°39'11\" N., 75°01'52\" O. , et le point 46°39'08\" N., 75°01'49\" O. , et le lac aux Bleuets",
+      "lat": 46.653056,
+      "lon": -75.031111,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 7.4,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 16.48,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 7.4
+      }
+    },
+    {
+      "plan_id": 735,
+      "plan_nom": "Ruisseau Busby entre le lac Tapani vers l'amont jusqu'au deuxième pont qui traverse le ruisseau",
+      "lat": 46.95,
+      "lon": -75.266667,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 18.67,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 18.67
+      }
+    },
+    {
+      "plan_id": 12621,
+      "plan_nom": "Ruisseau Caronna - La partie comprise entre la limite sud de l'air faunique communautaire du réservoir Baskatong",
+      "lat": 46.630833,
+      "lon": -75.837222,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 16.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 16.21
+      }
+    },
+    {
+      "plan_id": 2321,
+      "plan_nom": "Ruisseau Castelneau entre son embouchure dans le réservoir Kiamika délimitée par une ligne perpendiculaire au courant reliant le point 46°44'36\" N., 75°00'48\" O. , et le point 46°44'36\" N., 75°00'45\" O. et un point situé en amont du pont qui traverse juste à l'ouest du poste d'accueil de la ZEC Maison-de-Pierre",
+      "lat": 46.743333,
+      "lon": -75.013333,
+      "stations": [
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 15.08,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 20.62,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040608",
+      "station": {
+        "id": "040608",
+        "plan_eau": "Rivière Kiamika",
+        "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+        "lat": 46.63,
+        "lon": -75.122,
+        "distance_km": 15.08
+      }
+    },
+    {
+      "plan_id": 719,
+      "plan_nom": "Ruisseau des Journalistes",
+      "lat": 46.701111,
+      "lon": -75.45775,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 14.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 17.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 17.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 22.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 14.5
+      }
+    },
+    {
+      "plan_id": 738,
+      "plan_nom": "Ruisseau Philomène - La partie comprise entre la limite sud de l'Aire faunique communautaire du réservoir Baskatong",
+      "lat": 46.62,
+      "lon": -75.818056,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 17.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 17.36
+      }
+    },
+    {
+      "plan_id": 699,
+      "plan_nom": "Ruisseau Sans nom",
+      "lat": 46.953333,
+      "lon": -75.493611,
+      "stations": [
+        {
+          "id": "040624",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+          "lat": 46.785,
+          "lon": -75.312,
+          "distance_km": 23.26,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040830",
+          "plan_eau": "Rivière Gatineau",
+          "description": "À la tête des rapides Ceizur",
+          "lat": 47.083,
+          "lon": -75.754,
+          "distance_km": 24.44,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040624",
+      "station": {
+        "id": "040624",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "À 2,2 km en amont du pont-route 311 à Lac-Saint-Paul",
+        "lat": 46.785,
+        "lon": -75.312,
+        "distance_km": 23.26
+      }
+    }
+  ]
+}

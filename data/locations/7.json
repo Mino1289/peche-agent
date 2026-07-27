@@ -1,0 +1,638 @@
+{
+  "meta": {
+    "zone_id": 7,
+    "zone_nom": "Zone 7",
+    "nb_plans": 38,
+    "nb_geocoded": 28,
+    "pct_geocoded": 73.7,
+    "source_file": "zones/7.json"
+  },
+  "locations": [
+    {
+      "id": null,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) a) La partie comprise entre la limite ouest de la zone 7 et le côté en aval du pont Laviolette (incluant le lac Saint-Pierre et son archipel) jusqu'à la ligne des hautes eaux.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) a) la partie comprise entre la limite ouest de la zone 7 et le cote en aval du pont laviolette incluant le lac saint pierre et son archipel) jusqu a la ligne des hautes eaux",
+      "segment_label": "a)",
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) a) la partie comprise entre la limite ouest de la zone 7 et le cote en aval du pont laviolette incluant le lac saint pierre et son archipel) jusqu a la ligne des hautes eaux"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2508,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) b) Secteur du Chenal aux Corbeaux, entre une ligne reliant l'extrémité sud-ouest de l'île à la Pierre ( 46°04'43\" N., 73°01'49\" O. ) à l'extrémité sud-ouest de l'île de Grâce ( 46°04'18\" N., 73°02'23\" O. ) et une ligne perpendiculaire à l'île à la Pierre située à 1 km en aval de son extrémité sud-ouest ( 46°04'57\" N., 73°01'35\" O. ) et joignant l'île de Grâce ( 46°05'01\" N., 73°01'40\" O. ).",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) b) secteur du chenal aux corbeaux entre une ligne reliant l extremite sud ouest de l ile a la pierre 46 04 43 n 73 01 49 o ) a l extremite sud ouest de l ile de grace 46 04 18 n 73 02 23 o ) et une ligne perpendiculaire a l ile a la pierre situee a 1 km en aval de son extremite sud ouest 46 04 57 n 73 01 35 o ) et joignant l ile de grace 46 05 01 n 73 01 40 o )",
+      "segment_label": "b)",
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) b) secteur du chenal aux corbeaux entre une ligne reliant l extremite sud ouest de l ile a la pierre 46 04 43 n 73 01 49 o ) a l extremite sud ouest de l ile de grace 46 04 18 n 73 02 23 o ) et une ligne perpendiculaire a l ile a la pierre situee a 1 km en aval de son extremite sud ouest 46 04 57 n 73 01 35 o ) et joignant l ile de grace 46 05 01 n 73 01 40 o )"
+      ],
+      "lat": 46.078611,
+      "lon": -73.030278
+    },
+    {
+      "id": 2100,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) c) Secteur du Petit barrage entre l'île Ronde et l'île Madame, entre une ligne perpendiculaire à l'île Madame ( 46°04'51\" N., 73°05'16\" O. ) et joignant l'extrémité sud-ouest de l'île Ronde ( 46°04'39\" N., 73°04'58\" O. ) et une ligne perpendiculaire à l'île Madame ( 46°05'27\" N., 73°04'39\" O. ) qui passe au niveau de la bouée jaune ( 46°05'24\" N., 73°04'31\" O. ) indiquant la présence du barrage et qui joint ensuite la rive nord-ouest de l'île ronde ( 46°05'21\" N., 73°04'24\" O. ).",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) c) secteur du petit barrage entre l ile ronde et l ile madame entre une ligne perpendiculaire a l ile madame 46 04 51 n 73 05 16 o ) et joignant l extremite sud ouest de l ile ronde 46 04 39 n 73 04 58 o ) et une ligne perpendiculaire a l ile madame 46 05 27 n 73 04 39 o ) qui passe au niveau de la bouee jaune 46 05 24 n 73 04 31 o ) indiquant la presence du barrage et qui joint ensuite la rive nord ouest de l ile ronde 46 05 21 n 73 04 24 o )",
+      "segment_label": "c)",
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) c) secteur du petit barrage entre l ile ronde et l ile madame entre une ligne perpendiculaire a l ile madame 46 04 51 n 73 05 16 o ) et joignant l extremite sud ouest de l ile ronde 46 04 39 n 73 04 58 o ) et une ligne perpendiculaire a l ile madame 46 05 27 n 73 04 39 o ) qui passe au niveau de la bouee jaune 46 05 24 n 73 04 31 o ) indiquant la presence du barrage et qui joint ensuite la rive nord ouest de l ile ronde 46 05 21 n 73 04 24 o )"
+      ],
+      "lat": 46.080833,
+      "lon": -73.087778
+    },
+    {
+      "id": 2509,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) d) Secteur du Grand barrage entre l'île Ronde et l'île de Grâce, entre une ligne reliant les extrémités sud-ouest de l'île de Grâce ( 46°04'10\" N., 73°03'51\" O. ) et de l'île Ronde ( 46°04'39\" N., 73°04'58\" O. ) et une ligne perpendiculaire à l'île de Grâce ( 46°04'53\" N., 73°03'34\" O. ) qui passe au niveau de la bouée jaune ( 46°05'00\" N., 73°03'55\" O. ) indiquant la présence du barrage et qui joint ensuite la rive sud-est de l'île Ronde. ( 46°05'07\" N., 73°04'14\" O. ).",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) d) secteur du grand barrage entre l ile ronde et l ile de grace entre une ligne reliant les extremites sud ouest de l ile de grace 46 04 10 n 73 03 51 o ) et de l ile ronde 46 04 39 n 73 04 58 o ) et une ligne perpendiculaire a l ile de grace 46 04 53 n 73 03 34 o ) qui passe au niveau de la bouee jaune 46 05 00 n 73 03 55 o ) indiquant la presence du barrage et qui joint ensuite la rive sud est de l ile ronde 46 05 07 n 73 04 14 o )",
+      "segment_label": "d)",
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) d) secteur du grand barrage entre l ile ronde et l ile de grace entre une ligne reliant les extremites sud ouest de l ile de grace 46 04 10 n 73 03 51 o ) et de l ile ronde 46 04 39 n 73 04 58 o ) et une ligne perpendiculaire a l ile de grace 46 04 53 n 73 03 34 o ) qui passe au niveau de la bouee jaune 46 05 00 n 73 03 55 o ) indiquant la presence du barrage et qui joint ensuite la rive sud est de l ile ronde 46 05 07 n 73 04 14 o )"
+      ],
+      "lat": 46.069444,
+      "lon": -73.064167
+    },
+    {
+      "id": 11500,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) e) Secteur du Refuge faunique de Pointe-du-Lac (secteur compris entre les points 46°17'7,8\" N., 72°42'7,2\" O. , 46°16'24,6\" N., 72°40'12\" O. , 46°15'57,96\" N., 72°40'37,2\" O. et 46°16'10,2\" N., 72°41'45,6\" O. )",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) e) secteur du refuge faunique de pointe du lac secteur compris entre les points 46 17 7 8 n 72 42 7 2 o 46 16 24 6 n 72 40 12 o 46 15 57 96 n 72 40 37 2 o et 46 16 10 2 n 72 41 45 6 o )",
+      "segment_label": "e)",
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) fleuve saint laurent aire faunique communautaire du lac saint pierre) e) secteur du refuge faunique de pointe du lac secteur compris entre les points 46 17 7 8 n 72 42 7 2 o 46 16 24 6 n 72 40 12 o 46 15 57 96 n 72 40 37 2 o et 46 16 10 2 n 72 41 45 6 o )"
+      ],
+      "lat": 46.2855,
+      "lon": -72.702
+    },
+    {
+      "id": null,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.1) du Loup (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 138.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 1) du loup aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 138",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 1) du loup aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 138"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.2) Maskinongé (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 138.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 2) maskinonge aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 138",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 2) maskinonge aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 138"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.3) Nicolet (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 132.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 3) nicolet aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 132",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 3) nicolet aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.4) Saint-François (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 132.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 4) saint francois aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 132",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 4) saint francois aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval des ponts de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 7,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.5) Yamaska (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au pont de la route 132.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 5) yamaska aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au pont de la route 132",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 8) riviere a 5) yamaska aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au pont de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1156,
+      "zone_id": 7,
+      "nom_brut": "Fleuve Saint-Laurent (secteur non situé dans l'aire faunique communautaire du lac Saint-Pierre) entre le côté en aval du pont Pierre-Laporte et une ligne joignant un point situé à 50 m en aval du quai de Batiscan sur la rive nord ( 46°30'03\" N., 72°14'44\" O. ), et un point situé à 50 m en aval du quai de Saint-Pierre-les-Becquets sur la rive sud ( 46°30'28\" N., 72°12'19\" O. ), ainsi que les parties des rivières se situant entre les routes 132 et 138. * Note : Les rivières suivantes font partie du fleuve Saint-Laurent : Bélisle et le Grand Bras, en aval du pont de la route 138; du Cap Rouge, en aval du pont de la rue Saint-Félix; Jacques-Cartier et Portneuf, en aval du pont du CN.",
+      "nom": "Fleuve Saint-Laurent",
+      "nom_search": "fleuve saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) entre le cote en aval du pont pierre laporte et une ligne joignant un point situe a 50 m en aval du quai de batiscan sur la rive nord 46 30 03 n 72 14 44 o ) et un point situe a 50 m en aval du quai de saint pierre les becquets sur la rive sud 46 30 28 n 72 12 19 o ) ainsi que les parties des rivieres se situant entre les routes 132 et 138 note les rivieres suivantes font partie du fleuve saint laurent belisle et le grand bras en aval du pont de la route 138 du cap rouge en aval du pont de la rue saint felix jacques cartier et portneuf en aval du pont du cn",
+      "segment_label": null,
+      "river_base_name": "Fleuve Saint-Laurent",
+      "aliases": [
+        "fleuve saint laurent",
+        "fleuve saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) entre le cote en aval du pont pierre laporte et une ligne joignant un point situe a 50 m en aval du quai de batiscan sur la rive nord 46 30 03 n 72 14 44 o ) et un point situe a 50 m en aval du quai de saint pierre les becquets sur la rive sud 46 30 28 n 72 12 19 o ) ainsi que les parties des rivieres se situant entre les routes 132 et 138 note les rivieres suivantes font partie du fleuve saint laurent belisle et le grand bras en aval du pont de la route 138 du cap rouge en aval du pont de la rue saint felix jacques cartier et portneuf en aval du pont du cn",
+        "saint laurent",
+        "saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) entre le cote en aval du pont pierre laporte et une ligne joignant un point situe a 50 m en aval du quai de batiscan sur la rive nord 46 30 03 n 72 14 44 o ) et un point situe a 50 m en aval du quai de saint pierre les becquets sur la rive sud 46 30 28 n 72 12 19 o ) ainsi que les parties des rivieres se situant entre les routes 132 et 138 note les rivieres suivantes font partie du fleuve saint laurent belisle et le grand bras en aval du pont de la route 138 du cap rouge en aval du pont de la rue saint felix jacques cartier et portneuf en aval du pont du cn"
+      ],
+      "lat": 46.500833,
+      "lon": -72.245556
+    },
+    {
+      "id": 1157,
+      "zone_id": 7,
+      "nom_brut": "Fleuve Saint-Laurent (secteur non situé dans l'aire faunique communautaire du lac Saint-Pierre) entre une ligne joignant un point situé à 50 m en aval du quai de Batiscan sur la rive nord ( 46°30'03\" N., 72°14'44\" O. ), et un point situé à 50 m en aval du quai de Saint-Pierre-les-Becquets sur la rive sud ( 46°30'28\" N., 72°12'19\" O. ) et le côté en aval du pont Laviolette, ainsi que les parties des rivières se situant entre les routes 132 et 138.",
+      "nom": "Fleuve Saint-Laurent",
+      "nom_search": "fleuve saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) entre une ligne joignant un point situe a 50 m en aval du quai de batiscan sur la rive nord 46 30 03 n 72 14 44 o ) et un point situe a 50 m en aval du quai de saint pierre les becquets sur la rive sud 46 30 28 n 72 12 19 o ) et le cote en aval du pont laviolette ainsi que les parties des rivieres se situant entre les routes 132 et 138",
+      "segment_label": null,
+      "river_base_name": "Fleuve Saint-Laurent",
+      "aliases": [
+        "fleuve saint laurent",
+        "fleuve saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) entre une ligne joignant un point situe a 50 m en aval du quai de batiscan sur la rive nord 46 30 03 n 72 14 44 o ) et un point situe a 50 m en aval du quai de saint pierre les becquets sur la rive sud 46 30 28 n 72 12 19 o ) et le cote en aval du pont laviolette ainsi que les parties des rivieres se situant entre les routes 132 et 138",
+        "saint laurent",
+        "saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) entre une ligne joignant un point situe a 50 m en aval du quai de batiscan sur la rive nord 46 30 03 n 72 14 44 o ) et un point situe a 50 m en aval du quai de saint pierre les becquets sur la rive sud 46 30 28 n 72 12 19 o ) et le cote en aval du pont laviolette ainsi que les parties des rivieres se situant entre les routes 132 et 138"
+      ],
+      "lat": 46.500833,
+      "lon": -72.245556
+    },
+    {
+      "id": 12580,
+      "zone_id": 7,
+      "nom_brut": "Lac à la Tortue ( 46°37'40'' N., 72°36'51'' O. )",
+      "nom": "Lac à la Tortue",
+      "nom_search": "lac a la tortue 46 37 40 n 72 36 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Tortue",
+      "aliases": [
+        "a la tortue",
+        "a la tortue 46 37 40 n 72 36 51 o )",
+        "lac a la tortue",
+        "lac a la tortue 46 37 40 n 72 36 51 o )"
+      ],
+      "lat": 46.627778,
+      "lon": -72.614167
+    },
+    {
+      "id": 111,
+      "zone_id": 7,
+      "nom_brut": "Lac Aylmer entre le côté sud du pont de la route 112 jusqu'au premier rétrécissement en amont, situé au point 45°55'07\" N., 71°22'41\" O.",
+      "nom": "Lac Aylmer entre le côté sud du pont de la route 112 jusqu'au premier rétrécissement en amont, situé au point 45°55'07\" N., 71°22'41\" O.",
+      "nom_search": "lac aylmer entre le cote sud du pont de la route 112 jusqu au premier retrecissement en amont situe au point 45 55 07 n 71 22 41 o",
+      "segment_label": null,
+      "river_base_name": "Lac Aylmer",
+      "aliases": [
+        "aylmer",
+        "aylmer entre le cote sud du pont de la route 112 jusqu au premier retrecissement en amont situe au point 45 55 07 n 71 22 41 o",
+        "lac aylmer",
+        "lac aylmer entre le cote sud du pont de la route 112 jusqu au premier retrecissement en amont situe au point 45 55 07 n 71 22 41 o"
+      ],
+      "lat": 45.918611,
+      "lon": -71.378056
+    },
+    {
+      "id": 112,
+      "zone_id": 7,
+      "nom_brut": "Lac Aylmer entre le premier rétrécissement en amont du pont de la route 112 situé au point 45°55'07\" N., 71°22'41\" O. , et la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O.",
+      "nom": "Lac Aylmer entre le premier rétrécissement en amont du pont de la route 112 situé au point 45°55'07\" N., 71°22'41\" O. , et la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O.",
+      "nom_search": "lac aylmer entre le premier retrecissement en amont du pont de la route 112 situe au point 45 55 07 n 71 22 41 o et la pointe situee a l embouchure de la riviere coleraine au point 45 56 35 n 71 22 48 o",
+      "segment_label": null,
+      "river_base_name": "Lac Aylmer",
+      "aliases": [
+        "aylmer",
+        "aylmer entre le premier retrecissement en amont du pont de la route 112 situe au point 45 55 07 n 71 22 41 o et la pointe situee a l embouchure de la riviere coleraine au point 45 56 35 n 71 22 48 o",
+        "lac aylmer",
+        "lac aylmer entre le premier retrecissement en amont du pont de la route 112 situe au point 45 55 07 n 71 22 41 o et la pointe situee a l embouchure de la riviere coleraine au point 45 56 35 n 71 22 48 o"
+      ],
+      "lat": 45.918611,
+      "lon": -71.378056
+    },
+    {
+      "id": 113,
+      "zone_id": 7,
+      "nom_brut": "Lac de l'Est (canton Garthby, paroisse de Disraeli)",
+      "nom": "Lac de l'Est",
+      "nom_search": "lac de l est canton garthby paroisse de disraeli)",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Est",
+      "aliases": [
+        "de l est",
+        "de l est canton garthby paroisse de disraeli)",
+        "lac de l est",
+        "lac de l est canton garthby paroisse de disraeli)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 116,
+      "zone_id": 7,
+      "nom_brut": "Lac Joseph ( 46°12'21\" N., 71°32'48\" O. )(canton Inverness)",
+      "nom": "Lac Joseph",
+      "nom_search": "lac joseph 46 12 21 n 71 32 48 o ) canton inverness)",
+      "segment_label": null,
+      "river_base_name": "Lac Joseph",
+      "aliases": [
+        "joseph",
+        "joseph 46 12 21 n 71 32 48 o ) canton inverness)",
+        "lac joseph",
+        "lac joseph 46 12 21 n 71 32 48 o ) canton inverness)"
+      ],
+      "lat": 46.205833,
+      "lon": -71.546667
+    },
+    {
+      "id": 117,
+      "zone_id": 7,
+      "nom_brut": "Lac Les Trois Lacs ( 45°48'02\" N., 71°53'20\" O. )",
+      "nom": "Lac Les Trois Lacs",
+      "nom_search": "lac les trois lacs 45 48 02 n 71 53 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Les Trois Lacs",
+      "aliases": [
+        "lac les trois lacs",
+        "lac les trois lacs 45 48 02 n 71 53 20 o )",
+        "les trois lacs",
+        "les trois lacs 45 48 02 n 71 53 20 o )"
+      ],
+      "lat": 45.800556,
+      "lon": -71.888889
+    },
+    {
+      "id": 118,
+      "zone_id": 7,
+      "nom_brut": "Lac William ( 46°07'17\" N., 71°34'13\" O. )",
+      "nom": "Lac William",
+      "nom_search": "lac william 46 07 17 n 71 34 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac William",
+      "aliases": [
+        "lac william",
+        "lac william 46 07 17 n 71 34 13 o )",
+        "william",
+        "william 46 07 17 n 71 34 13 o )"
+      ],
+      "lat": 46.121389,
+      "lon": -71.570278
+    },
+    {
+      "id": 122,
+      "zone_id": 7,
+      "nom_brut": "Rivière Batiscan entre le côté aval du pont de la route 138 et le premier pilier formé d'enrochement ( 46°33'06\" N., 72°22'36\" O. ), situé à 6 km en aval du barrage de Saint-Narcisse.",
+      "nom": "Rivière Batiscan entre le côté aval du pont de la route 138 et le premier pilier formé d'enrochement",
+      "nom_search": "riviere batiscan entre le cote aval du pont de la route 138 et le premier pilier forme d enrochement 46 33 06 n 72 22 36 o ) situe a 6 km en aval du barrage de saint narcisse",
+      "segment_label": null,
+      "river_base_name": "Rivière Batiscan",
+      "aliases": [
+        "batiscan",
+        "batiscan entre le cote aval du pont de la route 138 et le premier pilier forme d enrochement 46 33 06 n 72 22 36 o ) situe a 6 km en aval du barrage de saint narcisse",
+        "riviere batiscan",
+        "riviere batiscan entre le cote aval du pont de la route 138 et le premier pilier forme d enrochement 46 33 06 n 72 22 36 o ) situe a 6 km en aval du barrage de saint narcisse"
+      ],
+      "lat": 46.551667,
+      "lon": -72.376667
+    },
+    {
+      "id": 131,
+      "zone_id": 7,
+      "nom_brut": "Rivière Batiscan entre le premier pilier formé d'enrochement ( 46°33'06\" N., 72°22'36\" O. ) situé à 6 km en aval du barrage de Saint-Narcisse et le dit barrage ( 46°33'29\" N., 72°24'48\" O. ).",
+      "nom": "Rivière Batiscan entre le premier pilier formé d'enrochement",
+      "nom_search": "riviere batiscan entre le premier pilier forme d enrochement 46 33 06 n 72 22 36 o ) situe a 6 km en aval du barrage de saint narcisse et le dit barrage 46 33 29 n 72 24 48 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Batiscan",
+      "aliases": [
+        "batiscan",
+        "batiscan entre le premier pilier forme d enrochement 46 33 06 n 72 22 36 o ) situe a 6 km en aval du barrage de saint narcisse et le dit barrage 46 33 29 n 72 24 48 o )",
+        "riviere batiscan",
+        "riviere batiscan entre le premier pilier forme d enrochement 46 33 06 n 72 22 36 o ) situe a 6 km en aval du barrage de saint narcisse et le dit barrage 46 33 29 n 72 24 48 o )"
+      ],
+      "lat": 46.551667,
+      "lon": -72.376667
+    },
+    {
+      "id": 10340,
+      "zone_id": 7,
+      "nom_brut": "Rivière Bécancour - La partie entre la route 132 et le pont ferroviaire situé 4 km en amont ( 46°19'44\" N., 72°24'59\" O. )",
+      "nom": "Rivière Bécancour - La partie entre la route 132 et le pont ferroviaire situé 4 km en amont",
+      "nom_search": "riviere becancour la partie entre la route 132 et le pont ferroviaire situe 4 km en amont 46 19 44 n 72 24 59 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Bécancour",
+      "aliases": [
+        "becancour",
+        "becancour la partie entre la route 132 et le pont ferroviaire situe 4 km en amont 46 19 44 n 72 24 59 o )",
+        "riviere becancour",
+        "riviere becancour la partie entre la route 132 et le pont ferroviaire situe 4 km en amont 46 19 44 n 72 24 59 o )"
+      ],
+      "lat": 46.328889,
+      "lon": -72.416389
+    },
+    {
+      "id": 137,
+      "zone_id": 7,
+      "nom_brut": "Rivière Bécancour - La partie entre le lac William et le lac à la Truite ( 46°05'15'' N., 71°30'57'' O. ).",
+      "nom": "Rivière Bécancour - La partie entre le lac William et le lac à la Truite",
+      "nom_search": "riviere becancour la partie entre le lac william et le lac a la truite 46 05 15 n 71 30 57 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Bécancour",
+      "aliases": [
+        "becancour",
+        "becancour la partie entre le lac william et le lac a la truite 46 05 15 n 71 30 57 o )",
+        "riviere becancour",
+        "riviere becancour la partie entre le lac william et le lac a la truite 46 05 15 n 71 30 57 o )"
+      ],
+      "lat": 46.0875,
+      "lon": -71.515833
+    },
+    {
+      "id": 134,
+      "zone_id": 7,
+      "nom_brut": "Rivière Bécancour - La partie entre le lac William et le lac Joseph.",
+      "nom": "Rivière Bécancour - La partie entre le lac William et le lac Joseph.",
+      "nom_search": "riviere becancour la partie entre le lac william et le lac joseph",
+      "segment_label": null,
+      "river_base_name": "Rivière Bécancour",
+      "aliases": [
+        "becancour",
+        "becancour la partie entre le lac william et le lac joseph",
+        "riviere becancour",
+        "riviere becancour la partie entre le lac william et le lac joseph"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 140,
+      "zone_id": 7,
+      "nom_brut": "Rivière Chaudière a) La partie comprise entre une droite reliant les points 46°44' 30.325\" N., 71°16' 39.533\" O. et 46°44' 32.269\" N., 71° 16'35.749\" O. (côté en amont des pylônes du vieux pont Garneau) et le côté amont du barrage du Parc des chutes à Lévis ( 46°42'52,2'' N., 71°16'56,8'' O. )",
+      "nom": "Rivière Chaudière a) La partie comprise entre une droite reliant les points 46°44' 30.325\" N., 71°16' 39.533\" O. et 46°44' 32.269\" N., 71° 16'35.749\" O.",
+      "nom_search": "riviere chaudiere a) la partie comprise entre une droite reliant les points 46 44 30 325 n 71 16 39 533 o et 46 44 32 269 n 71 16 35 749 o cote en amont des pylones du vieux pont garneau) et le cote amont du barrage du parc des chutes a levis 46 42 52 2 n 71 16 56 8 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Chaudière  La partie comprise",
+      "aliases": [
+        "chaudiere a) la partie comprise entre une droite reliant les points 46 44 30 325 n 71 16 39 533 o et 46 44 32 269 n 71 16 35 749 o cote en amont des pylones du vieux pont garneau) et le cote amont du barrage du parc des chutes a levis 46 42 52 2 n 71 16 56 8 o )",
+        "chaudiere la partie comprise",
+        "riviere chaudiere a) la partie comprise entre une droite reliant les points 46 44 30 325 n 71 16 39 533 o et 46 44 32 269 n 71 16 35 749 o cote en amont des pylones du vieux pont garneau) et le cote amont du barrage du parc des chutes a levis 46 42 52 2 n 71 16 56 8 o )",
+        "riviere chaudiere la partie comprise"
+      ],
+      "lat": 46.741757,
+      "lon": -71.277648
+    },
+    {
+      "id": 12140,
+      "zone_id": 7,
+      "nom_brut": "Rivière Chaudière b) La partie comprise entre le côté amont du barrage du Parc des chutes à Lévis ( 46°42'52,2'' N., 71°16'56,8'' O. ) et la limite sud-est de l'emprise de la route 112 à Vallée-Jonction ( 46°22'26.18\" N., 70°55' 45.05\" O. )",
+      "nom": "Rivière Chaudière b) La partie comprise entre le côté amont du barrage du Parc des chutes à Lévis",
+      "nom_search": "riviere chaudiere b) la partie comprise entre le cote amont du barrage du parc des chutes a levis 46 42 52 2 n 71 16 56 8 o ) et la limite sud est de l emprise de la route 112 a vallee jonction 46 22 26 18 n 70 55 45 05 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Chaudière  La partie comprise",
+      "aliases": [
+        "chaudiere b) la partie comprise entre le cote amont du barrage du parc des chutes a levis 46 42 52 2 n 71 16 56 8 o ) et la limite sud est de l emprise de la route 112 a vallee jonction 46 22 26 18 n 70 55 45 05 o )",
+        "chaudiere la partie comprise",
+        "riviere chaudiere b) la partie comprise entre le cote amont du barrage du parc des chutes a levis 46 42 52 2 n 71 16 56 8 o ) et la limite sud est de l emprise de la route 112 a vallee jonction 46 22 26 18 n 70 55 45 05 o )",
+        "riviere chaudiere la partie comprise"
+      ],
+      "lat": 46.7145,
+      "lon": -71.282444
+    },
+    {
+      "id": 147,
+      "zone_id": 7,
+      "nom_brut": "Rivière Coleraine entre la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O. , et le deuxième pont de chemin de fer en amont situé au point 45°56'56\" N., 71°22'20\" O.",
+      "nom": "Rivière Coleraine entre la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O. , et le deuxième pont de chemin de fer en amont situé au point 45°56'56\" N., 71°22'20\" O.",
+      "nom_search": "riviere coleraine entre la pointe situee a l embouchure de la riviere coleraine au point 45 56 35 n 71 22 48 o et le deuxieme pont de chemin de fer en amont situe au point 45 56 56 n 71 22 20 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Coleraine",
+      "aliases": [
+        "coleraine",
+        "coleraine entre la pointe situee a l embouchure de la riviere coleraine au point 45 56 35 n 71 22 48 o et le deuxieme pont de chemin de fer en amont situe au point 45 56 56 n 71 22 20 o",
+        "riviere coleraine",
+        "riviere coleraine entre la pointe situee a l embouchure de la riviere coleraine au point 45 56 35 n 71 22 48 o et le deuxieme pont de chemin de fer en amont situe au point 45 56 56 n 71 22 20 o"
+      ],
+      "lat": 45.943056,
+      "lon": -71.38
+    },
+    {
+      "id": 141,
+      "zone_id": 7,
+      "nom_brut": "Rivière du Chêne entre le côté en aval du pont de la route 226 et le côté en amont du pont de la route 132.",
+      "nom": "Rivière du Chêne entre le côté en aval du pont de la route 226 et le côté en amont du pont de la route 132.",
+      "nom_search": "riviere du chene entre le cote en aval du pont de la route 226 et le cote en amont du pont de la route 132",
+      "segment_label": null,
+      "river_base_name": "Rivière du Chêne",
+      "aliases": [
+        "du chene",
+        "du chene entre le cote en aval du pont de la route 226 et le cote en amont du pont de la route 132",
+        "riviere du chene",
+        "riviere du chene entre le cote en aval du pont de la route 226 et le cote en amont du pont de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 151,
+      "zone_id": 7,
+      "nom_brut": "Rivière du Loup entre le pont de la route 138 vers l'amont et le pont Masson ( 46°17'49\" N., 72°54'43\" O. ).",
+      "nom": "Rivière du Loup entre le pont de la route 138 vers l'amont et le pont Masson",
+      "nom_search": "riviere du loup entre le pont de la route 138 vers l amont et le pont masson 46 17 49 n 72 54 43 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Loup",
+      "aliases": [
+        "du loup",
+        "du loup entre le pont de la route 138 vers l amont et le pont masson 46 17 49 n 72 54 43 o )",
+        "riviere du loup",
+        "riviere du loup entre le pont de la route 138 vers l amont et le pont masson 46 17 49 n 72 54 43 o )"
+      ],
+      "lat": 46.296944,
+      "lon": -72.911944
+    },
+    {
+      "id": 158,
+      "zone_id": 7,
+      "nom_brut": "Rivière Maskinongé entre le pont de la route 138 vers l'amont et le barrage du village de Saint-Joseph-de-Maskinongé ( 46°13'44\" N., 73°01'02\" O. ).",
+      "nom": "Rivière Maskinongé entre le pont de la route 138 vers l'amont et le barrage du village de Saint-Joseph-de-Maskinongé",
+      "nom_search": "riviere maskinonge entre le pont de la route 138 vers l amont et le barrage du village de saint joseph de maskinonge 46 13 44 n 73 01 02 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Maskinongé",
+      "aliases": [
+        "maskinonge",
+        "maskinonge entre le pont de la route 138 vers l amont et le barrage du village de saint joseph de maskinonge 46 13 44 n 73 01 02 o )",
+        "riviere maskinonge",
+        "riviere maskinonge entre le pont de la route 138 vers l amont et le barrage du village de saint joseph de maskinonge 46 13 44 n 73 01 02 o )"
+      ],
+      "lat": 46.228889,
+      "lon": -73.017222
+    },
+    {
+      "id": 11400,
+      "zone_id": 7,
+      "nom_brut": "Rivière Nicolet Centre entre son embouchure et le côté en aval du pont de la route 216, à Wotton.",
+      "nom": "Rivière Nicolet Centre entre son embouchure et le côté en aval du pont de la route 216, à Wotton.",
+      "nom_search": "riviere nicolet centre entre son embouchure et le cote en aval du pont de la route 216 a wotton",
+      "segment_label": null,
+      "river_base_name": "Rivière Nicolet Centre",
+      "aliases": [
+        "nicolet centre",
+        "nicolet centre entre son embouchure et le cote en aval du pont de la route 216 a wotton",
+        "riviere nicolet centre",
+        "riviere nicolet centre entre son embouchure et le cote en aval du pont de la route 216 a wotton"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 11520,
+      "zone_id": 7,
+      "nom_brut": "Rivière Nicolet - La partie comprise entre le point 45°54'15\" N., 71°45'35\" O. en amont du pont du rang Leclerc et le point 45°54'23\" N., 71°46'38\" O. en amont du pont du rang Leclerc, correspondant au secteur 3 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+      "nom": "Rivière Nicolet - La partie comprise entre le point 45°54'15\" N., 71°45'35\" O. en amont du pont du rang Leclerc et le point 45°54'23\" N., 71°46'38\" O. en amont du pont du rang Leclerc, correspondant au secteur 3 de Pêche Nicolet",
+      "nom_search": "riviere nicolet la partie comprise entre le point 45 54 15 n 71 45 35 o en amont du pont du rang leclerc et le point 45 54 23 n 71 46 38 o en amont du pont du rang leclerc correspondant au secteur 3 de peche nicolet saint remi de tingwick)",
+      "segment_label": null,
+      "river_base_name": "Rivière Nicolet",
+      "aliases": [
+        "nicolet",
+        "nicolet la partie comprise entre le point 45 54 15 n 71 45 35 o en amont du pont du rang leclerc et le point 45 54 23 n 71 46 38 o en amont du pont du rang leclerc correspondant au secteur 3 de peche nicolet saint remi de tingwick)",
+        "riviere nicolet",
+        "riviere nicolet la partie comprise entre le point 45 54 15 n 71 45 35 o en amont du pont du rang leclerc et le point 45 54 23 n 71 46 38 o en amont du pont du rang leclerc correspondant au secteur 3 de peche nicolet saint remi de tingwick)"
+      ],
+      "lat": 45.904167,
+      "lon": -71.759722
+    },
+    {
+      "id": 11521,
+      "zone_id": 7,
+      "nom_brut": "Rivière Nicolet - La partie comprise entre le point 45°54'24\" N., 71°46'39\" O. et le point 45°55'13\" N., 71°47'16\" O. en aval du pont du rang Leclerc, correspondant au secteur 4 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+      "nom": "Rivière Nicolet - La partie comprise entre le point 45°54'24\" N., 71°46'39\" O. et le point 45°55'13\" N., 71°47'16\" O. en aval du pont du rang Leclerc, correspondant au secteur 4 de Pêche Nicolet",
+      "nom_search": "riviere nicolet la partie comprise entre le point 45 54 24 n 71 46 39 o et le point 45 55 13 n 71 47 16 o en aval du pont du rang leclerc correspondant au secteur 4 de peche nicolet saint remi de tingwick)",
+      "segment_label": null,
+      "river_base_name": "Rivière Nicolet",
+      "aliases": [
+        "nicolet",
+        "nicolet la partie comprise entre le point 45 54 24 n 71 46 39 o et le point 45 55 13 n 71 47 16 o en aval du pont du rang leclerc correspondant au secteur 4 de peche nicolet saint remi de tingwick)",
+        "riviere nicolet",
+        "riviere nicolet la partie comprise entre le point 45 54 24 n 71 46 39 o et le point 45 55 13 n 71 47 16 o en aval du pont du rang leclerc correspondant au secteur 4 de peche nicolet saint remi de tingwick)"
+      ],
+      "lat": 45.906667,
+      "lon": -71.7775
+    },
+    {
+      "id": 11522,
+      "zone_id": 7,
+      "nom_brut": "Rivière Nicolet - La partie comprise entre le point 45°56'15\" N., 71°47'57\" O. et le point 45°56'32\" N., 71°47'56\" O. (ligne hydroélectrique); La partie comprise entre le point 45°57'06\" N., 71°48'38\" O. et le point 45°57'06\" N., 71°49'02\" O. (F364); La partie comprise entre le point 45°57'04\" N., 71°49'17\" O. et le point 45°58'12\" N., 71°51'05\"O. (Pont de l'accueil), correspondant au secteur 5 de Pêche Nicolet (Chesterville)",
+      "nom": "Rivière Nicolet - La partie comprise entre le point 45°56'15\" N., 71°47'57\" O. et le point 45°56'32\" N., 71°47'56\" O.",
+      "nom_search": "riviere nicolet la partie comprise entre le point 45 56 15 n 71 47 57 o et le point 45 56 32 n 71 47 56 o ligne hydroelectrique) la partie comprise entre le point 45 57 06 n 71 48 38 o et le point 45 57 06 n 71 49 02 o f364) la partie comprise entre le point 45 57 04 n 71 49 17 o et le point 45 58 12 n 71 51 05 o pont de l accueil) correspondant au secteur 5 de peche nicolet chesterville)",
+      "segment_label": null,
+      "river_base_name": "Rivière Nicolet",
+      "aliases": [
+        "nicolet",
+        "nicolet la partie comprise entre le point 45 56 15 n 71 47 57 o et le point 45 56 32 n 71 47 56 o ligne hydroelectrique) la partie comprise entre le point 45 57 06 n 71 48 38 o et le point 45 57 06 n 71 49 02 o f364) la partie comprise entre le point 45 57 04 n 71 49 17 o et le point 45 58 12 n 71 51 05 o pont de l accueil) correspondant au secteur 5 de peche nicolet chesterville)",
+        "riviere nicolet",
+        "riviere nicolet la partie comprise entre le point 45 56 15 n 71 47 57 o et le point 45 56 32 n 71 47 56 o ligne hydroelectrique) la partie comprise entre le point 45 57 06 n 71 48 38 o et le point 45 57 06 n 71 49 02 o f364) la partie comprise entre le point 45 57 04 n 71 49 17 o et le point 45 58 12 n 71 51 05 o pont de l accueil) correspondant au secteur 5 de peche nicolet chesterville)"
+      ],
+      "lat": 45.9375,
+      "lon": -71.799167
+    },
+    {
+      "id": 3164,
+      "zone_id": 7,
+      "nom_brut": "Rivière Pot au Beurre (Baie de Lavallière) - La partie de de la rivière ainsi que ses tributaires bornés au sud par la portion de la route 132 comprise entre les rivières Richelieu ( 46°02'30\" N., 73°07'01\" O. ) et Yamaska ( 46°00'17\" N., 72°54'43\" O. ), au nord-Ouest par le fleuve St-Laurent et à l'Est par la rivière Yamaska.",
+      "nom": "Rivière Pot au Beurre",
+      "nom_search": "riviere pot au beurre baie de lavalliere) la partie de de la riviere ainsi que ses tributaires bornes au sud par la portion de la route 132 comprise entre les rivieres richelieu 46 02 30 n 73 07 01 o ) et yamaska 46 00 17 n 72 54 43 o ) au nord ouest par le fleuve saint laurent et a l est par la riviere yamaska",
+      "segment_label": null,
+      "river_base_name": "Rivière Pot au Beurre",
+      "aliases": [
+        "pot au beurre",
+        "pot au beurre baie de lavalliere) la partie de de la riviere ainsi que ses tributaires bornes au sud par la portion de la route 132 comprise entre les rivieres richelieu 46 02 30 n 73 07 01 o ) et yamaska 46 00 17 n 72 54 43 o ) au nord ouest par le fleuve saint laurent et a l est par la riviere yamaska",
+        "riviere pot au beurre",
+        "riviere pot au beurre baie de lavalliere) la partie de de la riviere ainsi que ses tributaires bornes au sud par la portion de la route 132 comprise entre les rivieres richelieu 46 02 30 n 73 07 01 o ) et yamaska 46 00 17 n 72 54 43 o ) au nord ouest par le fleuve saint laurent et a l est par la riviere yamaska"
+      ],
+      "lat": 46.041667,
+      "lon": -73.116944
+    },
+    {
+      "id": 164,
+      "zone_id": 7,
+      "nom_brut": "Rivière Saint-Maurice a) entre le pont de la route 138 vers l'amont et la pointe à Poulin (club de golf Ki-8-EB, 46°23'09\" N., 72°36'42\" O. ).",
+      "nom": "Rivière Saint-Maurice a) entre le pont de la route 138 vers l'amont et la pointe à Poulin",
+      "nom_search": "riviere saint maurice a) entre le pont de la route 138 vers l amont et la pointe a poulin club de golf ki 8 eb 46 23 09 n 72 36 42 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saint-Maurice",
+      "aliases": [
+        "riviere saint maurice",
+        "riviere saint maurice a) entre le pont de la route 138 vers l amont et la pointe a poulin club de golf ki 8 eb 46 23 09 n 72 36 42 o )",
+        "saint maurice",
+        "saint maurice a) entre le pont de la route 138 vers l amont et la pointe a poulin club de golf ki 8 eb 46 23 09 n 72 36 42 o )"
+      ],
+      "lat": 46.385833,
+      "lon": -72.611667
+    },
+    {
+      "id": 166,
+      "zone_id": 7,
+      "nom_brut": "Rivière Saint-Maurice b) entre la pointe à Poulin (club de golf Ki-8-EB, 46°23'09\" N., 72°36'42\" O. ) et la 3e ligne de transport d'électricité ( 46°25'58\" N., 72°43'29\" O. ) située à 2,1 km en aval du barrage de La Gabelle.",
+      "nom": "Rivière Saint-Maurice b) entre la pointe à Poulin",
+      "nom_search": "riviere saint maurice b) entre la pointe a poulin club de golf ki 8 eb 46 23 09 n 72 36 42 o ) et la 3e ligne de transport d electricite 46 25 58 n 72 43 29 o ) situee a 2 1 km en aval du barrage de la gabelle",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Saint-Maurice",
+      "aliases": [
+        "riviere saint maurice",
+        "riviere saint maurice b) entre la pointe a poulin club de golf ki 8 eb 46 23 09 n 72 36 42 o ) et la 3e ligne de transport d electricite 46 25 58 n 72 43 29 o ) situee a 2 1 km en aval du barrage de la gabelle",
+        "saint maurice",
+        "saint maurice b) entre la pointe a poulin club de golf ki 8 eb 46 23 09 n 72 36 42 o ) et la 3e ligne de transport d electricite 46 25 58 n 72 43 29 o ) situee a 2 1 km en aval du barrage de la gabelle"
+      ],
+      "lat": 46.385833,
+      "lon": -72.611667
+    },
+    {
+      "id": 3237,
+      "zone_id": 7,
+      "nom_brut": "Rivière Saint-Maurice c) entre le barrage de La Gabelle ( 46°26'56\" N., 72°44'23\" O. ) et la 3e ligne de transport d'électricité ( 46°25'58\" N., 72°43'29\" O. ) située à 2,1 km en aval du barrage.",
+      "nom": "Rivière Saint-Maurice c) entre le barrage de La Gabelle",
+      "nom_search": "riviere saint maurice c) entre le barrage de la gabelle 46 26 56 n 72 44 23 o ) et la 3e ligne de transport d electricite 46 25 58 n 72 43 29 o ) situee a 2 1 km en aval du barrage",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Saint-Maurice",
+      "aliases": [
+        "riviere saint maurice",
+        "riviere saint maurice c) entre le barrage de la gabelle 46 26 56 n 72 44 23 o ) et la 3e ligne de transport d electricite 46 25 58 n 72 43 29 o ) situee a 2 1 km en aval du barrage",
+        "saint maurice",
+        "saint maurice c) entre le barrage de la gabelle 46 26 56 n 72 44 23 o ) et la 3e ligne de transport d electricite 46 25 58 n 72 43 29 o ) situee a 2 1 km en aval du barrage"
+      ],
+      "lat": 46.448889,
+      "lon": -72.739722
+    }
+  ]
+}

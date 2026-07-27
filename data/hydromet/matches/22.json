@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "zone_id": 22,
+    "radius_km": 25.0,
+    "nb_with_coords": 5,
+    "nb_station_matched": 0
+  },
+  "matches": [
+    {
+      "plan_id": 1401,
+      "plan_nom": "Lac Saint-Georges",
+      "lat": 49.821667,
+      "lon": -64.338333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1431,
+      "plan_nom": "Rivière Bec-Scie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le lac Faure, à l'exception du lac Elsie",
+      "lat": 49.759167,
+      "lon": -64.013889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1451,
+      "plan_nom": "Rivière McDonald entre le côté en aval du pont",
+      "lat": 49.7575,
+      "lon": -63.062778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1450,
+      "plan_nom": "Rivière McDonald entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le côté en aval du pont",
+      "lat": 49.7575,
+      "lon": -63.062778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1429,
+      "plan_nom": "Rivière Sainte-Marie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, à l'exception du lac Grand lac Sainte-Marie",
+      "lat": 49.748333,
+      "lon": -63.883056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

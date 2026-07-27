@@ -1,0 +1,931 @@
+{
+  "meta": {
+    "zone_id": 30,
+    "zone_nom": "Zone 26",
+    "nb_plans": 56,
+    "nb_geocoded": 40,
+    "pct_geocoded": 71.4,
+    "source_file": "zones/30.json"
+  },
+  "locations": [
+    {
+      "id": 1928,
+      "zone_id": 30,
+      "nom_brut": "Lac à Beauce ( 47°19'46\" N., 72°45'08\" O. )",
+      "nom": "Lac à Beauce",
+      "nom_search": "lac a beauce 47 19 46 n 72 45 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à Beauce",
+      "aliases": [
+        "a beauce",
+        "a beauce 47 19 46 n 72 45 08 o )",
+        "lac a beauce",
+        "lac a beauce 47 19 46 n 72 45 08 o )"
+      ],
+      "lat": 47.329444,
+      "lon": -72.752222
+    },
+    {
+      "id": 3051,
+      "zone_id": 30,
+      "nom_brut": "Lac aux Sables ( 46°52'56\" N., 72°21'57\" O. )",
+      "nom": "Lac aux Sables",
+      "nom_search": "lac aux sables 46 52 56 n 72 21 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Sables",
+      "aliases": [
+        "aux sables",
+        "aux sables 46 52 56 n 72 21 57 o )",
+        "lac aux sables",
+        "lac aux sables 46 52 56 n 72 21 57 o )"
+      ],
+      "lat": 46.882222,
+      "lon": -72.365833
+    },
+    {
+      "id": 1919,
+      "zone_id": 30,
+      "nom_brut": "Lac Barnard ( 46°39'16\" N., 73°04'02\" O. )",
+      "nom": "Lac Barnard",
+      "nom_search": "lac barnard 46 39 16 n 73 04 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Barnard",
+      "aliases": [
+        "barnard",
+        "barnard 46 39 16 n 73 04 02 o )",
+        "lac barnard",
+        "lac barnard 46 39 16 n 73 04 02 o )"
+      ],
+      "lat": 46.654444,
+      "lon": -73.067222
+    },
+    {
+      "id": 3241,
+      "zone_id": 30,
+      "nom_brut": "Lac Brochet (La Bostonnais) ( 47°30'49\" N., 72°42'07\" O. )",
+      "nom": "Lac Brochet",
+      "nom_search": "lac brochet la bostonnais) 47 30 49 n 72 42 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Brochet",
+      "aliases": [
+        "brochet",
+        "brochet la bostonnais) 47 30 49 n 72 42 07 o )",
+        "lac brochet",
+        "lac brochet la bostonnais) 47 30 49 n 72 42 07 o )"
+      ],
+      "lat": 47.513611,
+      "lon": -72.701944
+    },
+    {
+      "id": 1922,
+      "zone_id": 30,
+      "nom_brut": "Lac Carrion (lac Brûlé) ( 47°27'05\" N., 72°58'34\" O. )",
+      "nom": "Lac Carrion",
+      "nom_search": "lac carrion lac brule) 47 27 05 n 72 58 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Carrion",
+      "aliases": [
+        "carrion",
+        "carrion lac brule) 47 27 05 n 72 58 34 o )",
+        "lac carrion",
+        "lac carrion lac brule) 47 27 05 n 72 58 34 o )"
+      ],
+      "lat": 47.451389,
+      "lon": -72.976111
+    },
+    {
+      "id": 10483,
+      "zone_id": 30,
+      "nom_brut": "Lac Châteauvert ( 47°39'24\" N., 73°55'15\" O. )",
+      "nom": "Lac Châteauvert",
+      "nom_search": "lac chateauvert 47 39 24 n 73 55 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Châteauvert",
+      "aliases": [
+        "chateauvert",
+        "chateauvert 47 39 24 n 73 55 15 o )",
+        "lac chateauvert",
+        "lac chateauvert 47 39 24 n 73 55 15 o )"
+      ],
+      "lat": 47.656667,
+      "lon": -73.920833
+    },
+    {
+      "id": 1939,
+      "zone_id": 30,
+      "nom_brut": "Lac Clair (La Tuque) ( 47°15'34\" N., 72°46'44\" O. )",
+      "nom": "Lac Clair",
+      "nom_search": "lac clair la tuque) 47 15 34 n 72 46 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Clair",
+      "aliases": [
+        "clair",
+        "clair la tuque) 47 15 34 n 72 46 44 o )",
+        "lac clair",
+        "lac clair la tuque) 47 15 34 n 72 46 44 o )"
+      ],
+      "lat": 47.259444,
+      "lon": -72.778889
+    },
+    {
+      "id": 1936,
+      "zone_id": 30,
+      "nom_brut": "Lac Croche (canton Chavigny) ( 46°56'26\" N., 72°24'47\" O. )",
+      "nom": "Lac Croche",
+      "nom_search": "lac croche canton chavigny) 46 56 26 n 72 24 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Croche",
+      "aliases": [
+        "croche",
+        "croche canton chavigny) 46 56 26 n 72 24 47 o )",
+        "lac croche",
+        "lac croche canton chavigny) 46 56 26 n 72 24 47 o )"
+      ],
+      "lat": 46.940556,
+      "lon": -72.413056
+    },
+    {
+      "id": 11261,
+      "zone_id": 30,
+      "nom_brut": "Lac Croche (Sainte-Thècle) ( 46°49'55\" N., 72°30'00\" O. )",
+      "nom": "Lac Croche",
+      "nom_search": "lac croche sainte thecle) 46 49 55 n 72 30 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Croche",
+      "aliases": [
+        "croche",
+        "croche sainte thecle) 46 49 55 n 72 30 00 o )",
+        "lac croche",
+        "lac croche sainte thecle) 46 49 55 n 72 30 00 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.831944,
+      "lon": -72.5
+    },
+    {
+      "id": 3177,
+      "zone_id": 30,
+      "nom_brut": "Lac Cuisy ( 47°16'57\" N., 72°42'45\" O. )",
+      "nom": "Lac Cuisy",
+      "nom_search": "lac cuisy 47 16 57 n 72 42 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cuisy",
+      "aliases": [
+        "cuisy",
+        "cuisy 47 16 57 n 72 42 45 o )",
+        "lac cuisy",
+        "lac cuisy 47 16 57 n 72 42 45 o )"
+      ],
+      "lat": 47.2825,
+      "lon": -72.7125
+    },
+    {
+      "id": 1923,
+      "zone_id": 30,
+      "nom_brut": "Lac Cutaway ( 47°26'16\" N., 72°52'14\" O. )",
+      "nom": "Lac Cutaway",
+      "nom_search": "lac cutaway 47 26 16 n 72 52 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cutaway",
+      "aliases": [
+        "cutaway",
+        "cutaway 47 26 16 n 72 52 14 o )",
+        "lac cutaway",
+        "lac cutaway 47 26 16 n 72 52 14 o )"
+      ],
+      "lat": 47.437778,
+      "lon": -72.870556
+    },
+    {
+      "id": 3242,
+      "zone_id": 30,
+      "nom_brut": "Lac des Chicots (Sainte-Thècle) ( 46°48'06\" N., 72°31'03\" O. )",
+      "nom": "Lac des Chicots",
+      "nom_search": "lac des chicots sainte thecle) 46 48 06 n 72 31 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Chicots",
+      "aliases": [
+        "des chicots",
+        "des chicots sainte thecle) 46 48 06 n 72 31 03 o )",
+        "lac des chicots",
+        "lac des chicots sainte thecle) 46 48 06 n 72 31 03 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.801667,
+      "lon": -72.5175
+    },
+    {
+      "id": 1930,
+      "zone_id": 30,
+      "nom_brut": "Lac des Îles (Grandes-Piles) ( 46°45'23\" N., 72°43'22\" O. )",
+      "nom": "Lac des Îles",
+      "nom_search": "lac des iles grandes piles) 46 45 23 n 72 43 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Îles",
+      "aliases": [
+        "des iles",
+        "des iles grandes piles) 46 45 23 n 72 43 22 o )",
+        "lac des iles",
+        "lac des iles grandes piles) 46 45 23 n 72 43 22 o )"
+      ],
+      "lat": 46.756389,
+      "lon": -72.722778
+    },
+    {
+      "id": 3175,
+      "zone_id": 30,
+      "nom_brut": "Lac des Pins Rouges ( 46°36'17\" N., 73°07'07\" O. )",
+      "nom": "Lac des Pins Rouges",
+      "nom_search": "lac des pins rouges 46 36 17 n 73 07 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Pins Rouges",
+      "aliases": [
+        "des pins rouges",
+        "des pins rouges 46 36 17 n 73 07 07 o )",
+        "lac des pins rouges",
+        "lac des pins rouges 46 36 17 n 73 07 07 o )"
+      ],
+      "lat": 46.604722,
+      "lon": -73.118611
+    },
+    {
+      "id": 10484,
+      "zone_id": 30,
+      "nom_brut": "Lac des Souris ( 46°35'00\" N., 72°59'39\" O. )",
+      "nom": "Lac des Souris",
+      "nom_search": "lac des souris 46 35 00 n 72 59 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Souris",
+      "aliases": [
+        "des souris",
+        "des souris 46 35 00 n 72 59 39 o )",
+        "lac des souris",
+        "lac des souris 46 35 00 n 72 59 39 o )"
+      ],
+      "lat": 46.583333,
+      "lon": -72.994167
+    },
+    {
+      "id": 1946,
+      "zone_id": 30,
+      "nom_brut": "Lac des Trois Caribous (cantons Larue, Laure) ( 47°35'46\" N., 72°09'01\" O. )",
+      "nom": "Lac des Trois Caribous",
+      "nom_search": "lac des trois caribous cantons larue laure) 47 35 46 n 72 09 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Trois Caribous",
+      "aliases": [
+        "des trois caribous",
+        "des trois caribous cantons larue laure) 47 35 46 n 72 09 01 o )",
+        "lac des trois caribous",
+        "lac des trois caribous cantons larue laure) 47 35 46 n 72 09 01 o )"
+      ],
+      "lat": 47.596111,
+      "lon": -72.150278
+    },
+    {
+      "id": 3052,
+      "zone_id": 30,
+      "nom_brut": "Lac du Missionnaire ( 46°55'00\" N., 72°33'37\" O. )",
+      "nom": "Lac du Missionnaire",
+      "nom_search": "lac du missionnaire 46 55 00 n 72 33 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Missionnaire",
+      "aliases": [
+        "du missionnaire",
+        "du missionnaire 46 55 00 n 72 33 37 o )",
+        "lac du missionnaire",
+        "lac du missionnaire 46 55 00 n 72 33 37 o )"
+      ],
+      "lat": 46.916667,
+      "lon": -72.560278
+    },
+    {
+      "id": 11581,
+      "zone_id": 30,
+      "nom_brut": "Lac du Pendu ( 47°25'21\" N., 72°45'06\" O. )",
+      "nom": "Lac du Pendu",
+      "nom_search": "lac du pendu 47 25 21 n 72 45 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Pendu",
+      "aliases": [
+        "du pendu",
+        "du pendu 47 25 21 n 72 45 06 o )",
+        "lac du pendu",
+        "lac du pendu 47 25 21 n 72 45 06 o )"
+      ],
+      "lat": 47.4225,
+      "lon": -72.751667
+    },
+    {
+      "id": 10480,
+      "zone_id": 30,
+      "nom_brut": "Lac Édouard ( 47°36'44\" N., 72°21'43\" O. ) excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ).La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
+      "nom": "Lac Édouard",
+      "nom_search": "lac edouard 47 36 44 n 72 21 43 o ) excluant la grande baie 47 30 56 n 72 23 16 o ) la partie au nord d une droite reliant les points 47 32 18 n 72 22 55 o en rive ouest et 47 32 17 n 72 22 54 o en rive est",
+      "segment_label": null,
+      "river_base_name": "Lac Édouard",
+      "aliases": [
+        "edouard",
+        "edouard 47 36 44 n 72 21 43 o ) excluant la grande baie 47 30 56 n 72 23 16 o ) la partie au nord d une droite reliant les points 47 32 18 n 72 22 55 o en rive ouest et 47 32 17 n 72 22 54 o en rive est",
+        "lac edouard",
+        "lac edouard 47 36 44 n 72 21 43 o ) excluant la grande baie 47 30 56 n 72 23 16 o ) la partie au nord d une droite reliant les points 47 32 18 n 72 22 55 o en rive ouest et 47 32 17 n 72 22 54 o en rive est"
+      ],
+      "lat": 47.612222,
+      "lon": -72.361944
+    },
+    {
+      "id": 3180,
+      "zone_id": 30,
+      "nom_brut": "Lac Édouard ( 47°36'44\" N., 72°21'43\" O. ) secteur La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ) correspondant à la partie au sud d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17\" N., 72°22'54\" O. en rive est.",
+      "nom": "Lac Édouard",
+      "nom_search": "lac edouard 47 36 44 n 72 21 43 o ) secteur la grande baie 47 30 56 n 72 23 16 o ) correspondant a la partie au sud d une droite reliant les points 47 32 18 n 72 22 55 o en rive ouest et 47 32 17 n 72 22 54 o en rive est",
+      "segment_label": null,
+      "river_base_name": "Lac Édouard",
+      "aliases": [
+        "edouard",
+        "edouard 47 36 44 n 72 21 43 o ) secteur la grande baie 47 30 56 n 72 23 16 o ) correspondant a la partie au sud d une droite reliant les points 47 32 18 n 72 22 55 o en rive ouest et 47 32 17 n 72 22 54 o en rive est",
+        "lac edouard",
+        "lac edouard 47 36 44 n 72 21 43 o ) secteur la grande baie 47 30 56 n 72 23 16 o ) correspondant a la partie au sud d une droite reliant les points 47 32 18 n 72 22 55 o en rive ouest et 47 32 17 n 72 22 54 o en rive est"
+      ],
+      "lat": 47.612222,
+      "lon": -72.361944
+    },
+    {
+      "id": 1921,
+      "zone_id": 30,
+      "nom_brut": "Lac en Croix ( 46°38'48\" N., 73°02'07\" O. )",
+      "nom": "Lac en Croix",
+      "nom_search": "lac en croix 46 38 48 n 73 02 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac en Croix",
+      "aliases": [
+        "en croix",
+        "en croix 46 38 48 n 73 02 07 o )",
+        "lac en croix",
+        "lac en croix 46 38 48 n 73 02 07 o )"
+      ],
+      "lat": 46.646667,
+      "lon": -73.035278
+    },
+    {
+      "id": 1929,
+      "zone_id": 30,
+      "nom_brut": "Lac Flamand ( 47°32'37\" N., 73°25'18\" O. )",
+      "nom": "Lac Flamand",
+      "nom_search": "lac flamand 47 32 37 n 73 25 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Flamand",
+      "aliases": [
+        "flamand",
+        "flamand 47 32 37 n 73 25 18 o )",
+        "lac flamand",
+        "lac flamand 47 32 37 n 73 25 18 o )"
+      ],
+      "lat": 47.543611,
+      "lon": -73.421667
+    },
+    {
+      "id": 12680,
+      "zone_id": 30,
+      "nom_brut": "Lac Fontaine ( 46°49'08'' N., 72°39'34'' O. )",
+      "nom": "Lac Fontaine",
+      "nom_search": "lac fontaine 46 49 08 n 72 39 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Fontaine",
+      "aliases": [
+        "fontaine",
+        "fontaine 46 49 08 n 72 39 34 o )",
+        "lac fontaine",
+        "lac fontaine 46 49 08 n 72 39 34 o )"
+      ],
+      "lat": 46.818889,
+      "lon": -72.659444
+    },
+    {
+      "id": 1924,
+      "zone_id": 30,
+      "nom_brut": "Lac Germain ( 47°26'54\" N., 72°54'05\" O. )",
+      "nom": "Lac Germain",
+      "nom_search": "lac germain 47 26 54 n 72 54 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Germain",
+      "aliases": [
+        "germain",
+        "germain 47 26 54 n 72 54 05 o )",
+        "lac germain",
+        "lac germain 47 26 54 n 72 54 05 o )"
+      ],
+      "lat": 47.448333,
+      "lon": -72.901389
+    },
+    {
+      "id": 10481,
+      "zone_id": 30,
+      "nom_brut": "Lac Grand lac Long ( 46°32'28\" N., 72°57'01\" O. )",
+      "nom": "Lac Grand lac Long",
+      "nom_search": "lac grand lac long 46 32 28 n 72 57 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Long",
+      "aliases": [
+        "grand lac long",
+        "grand lac long 46 32 28 n 72 57 01 o )",
+        "lac grand lac long",
+        "lac grand lac long 46 32 28 n 72 57 01 o )"
+      ],
+      "lat": 46.541111,
+      "lon": -72.950278
+    },
+    {
+      "id": 2632,
+      "zone_id": 30,
+      "nom_brut": "Lac La Tuque ( 47°27'38\" N., 72°56'55\" O. )",
+      "nom": "Lac La Tuque",
+      "nom_search": "lac la tuque 47 27 38 n 72 56 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac La Tuque",
+      "aliases": [
+        "la tuque",
+        "la tuque 47 27 38 n 72 56 55 o )",
+        "lac la tuque",
+        "lac la tuque 47 27 38 n 72 56 55 o )"
+      ],
+      "lat": 47.460556,
+      "lon": -72.948611
+    },
+    {
+      "id": 1925,
+      "zone_id": 30,
+      "nom_brut": "Lac Lagon ( 47°27'46\" N., 72°55'06\" O. )",
+      "nom": "Lac Lagon",
+      "nom_search": "lac lagon 47 27 46 n 72 55 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lagon",
+      "aliases": [
+        "lac lagon",
+        "lac lagon 47 27 46 n 72 55 06 o )",
+        "lagon",
+        "lagon 47 27 46 n 72 55 06 o )"
+      ],
+      "lat": 47.462778,
+      "lon": -72.918333
+    },
+    {
+      "id": 1931,
+      "zone_id": 30,
+      "nom_brut": "Lac Lamarre (Shawinigan) ( 46°41'13\" N., 72°47'26\" O. )",
+      "nom": "Lac Lamarre",
+      "nom_search": "lac lamarre shawinigan) 46 41 13 n 72 47 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lamarre",
+      "aliases": [
+        "lac lamarre",
+        "lac lamarre shawinigan) 46 41 13 n 72 47 26 o )",
+        "lamarre",
+        "lamarre shawinigan) 46 41 13 n 72 47 26 o )"
+      ],
+      "lat": 46.686944,
+      "lon": -72.790556
+    },
+    {
+      "id": 1943,
+      "zone_id": 30,
+      "nom_brut": "Lac Larose (canton Belleau) ( 46°36'16\" N., 73°04'00\" O. )",
+      "nom": "Lac Larose",
+      "nom_search": "lac larose canton belleau) 46 36 16 n 73 04 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Larose",
+      "aliases": [
+        "lac larose",
+        "lac larose canton belleau) 46 36 16 n 73 04 00 o )",
+        "larose",
+        "larose canton belleau) 46 36 16 n 73 04 00 o )"
+      ],
+      "lat": 46.604444,
+      "lon": -73.066667
+    },
+    {
+      "id": 1934,
+      "zone_id": 30,
+      "nom_brut": "Lac Méduse ( 46°47'19\" N., 72°44'08\" O. )",
+      "nom": "Lac Méduse",
+      "nom_search": "lac meduse 46 47 19 n 72 44 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Méduse",
+      "aliases": [
+        "lac meduse",
+        "lac meduse 46 47 19 n 72 44 08 o )",
+        "meduse",
+        "meduse 46 47 19 n 72 44 08 o )"
+      ],
+      "lat": 46.788611,
+      "lon": -72.735556
+    },
+    {
+      "id": 1945,
+      "zone_id": 30,
+      "nom_brut": "Lac Mékinac ( 47°03'43\" N., 72°40'39\" O. )",
+      "nom": "Lac Mékinac",
+      "nom_search": "lac mekinac 47 03 43 n 72 40 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Mékinac",
+      "aliases": [
+        "lac mekinac",
+        "lac mekinac 47 03 43 n 72 40 39 o )",
+        "mekinac",
+        "mekinac 47 03 43 n 72 40 39 o )"
+      ],
+      "lat": 47.061944,
+      "lon": -72.6775
+    },
+    {
+      "id": 1932,
+      "zone_id": 30,
+      "nom_brut": "Lac Saint-Alexis ( 46°28'07\" N., 73°08'47\" O. )",
+      "nom": "Lac Saint-Alexis",
+      "nom_search": "lac saint alexis 46 28 07 n 73 08 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Alexis",
+      "aliases": [
+        "lac saint alexis",
+        "lac saint alexis 46 28 07 n 73 08 47 o )",
+        "saint alexis",
+        "saint alexis 46 28 07 n 73 08 47 o )"
+      ],
+      "lat": 46.468611,
+      "lon": -73.146389
+    },
+    {
+      "id": 1937,
+      "zone_id": 30,
+      "nom_brut": "Lac Saint-Laurent (canton Chavigny) ( 46°57'00\" N., 72°23'57\" O. )",
+      "nom": "Lac Saint-Laurent",
+      "nom_search": "lac saint laurent canton chavigny) 46 57 00 n 72 23 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Laurent",
+      "aliases": [
+        "lac saint laurent",
+        "lac saint laurent canton chavigny) 46 57 00 n 72 23 57 o )",
+        "saint laurent",
+        "saint laurent canton chavigny) 46 57 00 n 72 23 57 o )"
+      ],
+      "lat": 46.95,
+      "lon": -72.399167
+    },
+    {
+      "id": 3050,
+      "zone_id": 30,
+      "nom_brut": "Lac Touladi ( 47°45'06\" N., 73°01'58\" O. )",
+      "nom": "Lac Touladi",
+      "nom_search": "lac touladi 47 45 06 n 73 01 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Touladi",
+      "aliases": [
+        "lac touladi",
+        "lac touladi 47 45 06 n 73 01 58 o )",
+        "touladi",
+        "touladi 47 45 06 n 73 01 58 o )"
+      ],
+      "lat": 47.751667,
+      "lon": -73.032778
+    },
+    {
+      "id": 10485,
+      "zone_id": 30,
+      "nom_brut": "Lac Touridi ( 47°41'04\" N., 73°59'24\" O. )",
+      "nom": "Lac Touridi",
+      "nom_search": "lac touridi 47 41 04 n 73 59 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Touridi",
+      "aliases": [
+        "lac touridi",
+        "lac touridi 47 41 04 n 73 59 24 o )",
+        "touridi",
+        "touridi 47 41 04 n 73 59 24 o )"
+      ],
+      "lat": 47.684444,
+      "lon": -73.99
+    },
+    {
+      "id": 3243,
+      "zone_id": 30,
+      "nom_brut": "Lac Traverse (Sainte-Thècle) ( 46°50'53\" N., 72°32'02\" O. )",
+      "nom": "Lac Traverse",
+      "nom_search": "lac traverse sainte thecle) 46 50 53 n 72 32 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Traverse",
+      "aliases": [
+        "lac traverse",
+        "lac traverse sainte thecle) 46 50 53 n 72 32 02 o )",
+        "st e",
+        "ste e",
+        "traverse",
+        "traverse sainte thecle) 46 50 53 n 72 32 02 o )"
+      ],
+      "lat": 46.848056,
+      "lon": -72.533889
+    },
+    {
+      "id": 1926,
+      "zone_id": 30,
+      "nom_brut": "Lac Triangle ( 47°26'25\" N., 72°56'28\" O. )",
+      "nom": "Lac Triangle",
+      "nom_search": "lac triangle 47 26 25 n 72 56 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Triangle",
+      "aliases": [
+        "lac triangle",
+        "lac triangle 47 26 25 n 72 56 28 o )",
+        "triangle",
+        "triangle 47 26 25 n 72 56 28 o )"
+      ],
+      "lat": 47.440278,
+      "lon": -72.941111
+    },
+    {
+      "id": 1948,
+      "zone_id": 30,
+      "nom_brut": "Lac Vlimeux (Saint-Roch-de-Mékinac) ( 46°50'41\" N., 72°41'43\" O. )",
+      "nom": "Lac Vlimeux",
+      "nom_search": "lac vlimeux saint roch de mekinac) 46 50 41 n 72 41 43 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vlimeux",
+      "aliases": [
+        "lac vlimeux",
+        "lac vlimeux saint roch de mekinac) 46 50 41 n 72 41 43 o )",
+        "vlimeux",
+        "vlimeux saint roch de mekinac) 46 50 41 n 72 41 43 o )"
+      ],
+      "lat": 46.844722,
+      "lon": -72.695278
+    },
+    {
+      "id": 2342,
+      "zone_id": 30,
+      "nom_brut": "Réserve Faunique du Saint-Maurice",
+      "nom": "Réserve Faunique du Saint-Maurice",
+      "nom_search": "reserve faunique du saint maurice",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique du Saint-Maurice",
+      "aliases": [
+        "reserve faunique du saint maurice"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2333,
+      "zone_id": 30,
+      "nom_brut": "Réserve Faunique Mastigouche",
+      "nom": "Réserve Faunique Mastigouche",
+      "nom_search": "reserve faunique mastigouche",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique Mastigouche",
+      "aliases": [
+        "reserve faunique mastigouche"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1950,
+      "zone_id": 30,
+      "nom_brut": "Rivière aux Brochets entre son embouchure ( 47°07'43'' N., 72°36'56'' O. ) et l'émissaire du lac Chat ( 47°09'20'' N., 72°37'48'' O. ).",
+      "nom": "Rivière aux Brochets entre son embouchure",
+      "nom_search": "riviere aux brochets entre son embouchure 47 07 43 n 72 36 56 o ) et l emissaire du lac chat 47 09 20 n 72 37 48 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Brochets",
+      "aliases": [
+        "aux brochets",
+        "aux brochets entre son embouchure 47 07 43 n 72 36 56 o ) et l emissaire du lac chat 47 09 20 n 72 37 48 o )",
+        "riviere aux brochets",
+        "riviere aux brochets entre son embouchure 47 07 43 n 72 36 56 o ) et l emissaire du lac chat 47 09 20 n 72 37 48 o )"
+      ],
+      "lat": 47.128611,
+      "lon": -72.615556
+    },
+    {
+      "id": 1955,
+      "zone_id": 30,
+      "nom_brut": "Rivière Bostonnais entre son embouchure et le pont de la route 155.",
+      "nom": "Rivière Bostonnais entre son embouchure et le pont de la route 155.",
+      "nom_search": "riviere bostonnais entre son embouchure et le pont de la route 155",
+      "segment_label": null,
+      "river_base_name": "Rivière Bostonnais",
+      "aliases": [
+        "bostonnais",
+        "bostonnais entre son embouchure et le pont de la route 155",
+        "riviere bostonnais",
+        "riviere bostonnais entre son embouchure et le pont de la route 155"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1952,
+      "zone_id": 30,
+      "nom_brut": "Rivière du Milieu entre la ligne d'énergie électrique ( 47°06'33'' N., 72°37'16'' O. ) et l'émissaire du lac Charlie ( 47°11'44'' N., 72°34'20'' O. ).",
+      "nom": "Rivière du Milieu entre la ligne d'énergie électrique",
+      "nom_search": "riviere du milieu entre la ligne d energie electrique 47 06 33 n 72 37 16 o ) et l emissaire du lac charlie 47 11 44 n 72 34 20 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Milieu",
+      "aliases": [
+        "du milieu",
+        "du milieu entre la ligne d energie electrique 47 06 33 n 72 37 16 o ) et l emissaire du lac charlie 47 11 44 n 72 34 20 o )",
+        "riviere du milieu",
+        "riviere du milieu entre la ligne d energie electrique 47 06 33 n 72 37 16 o ) et l emissaire du lac charlie 47 11 44 n 72 34 20 o )"
+      ],
+      "lat": 47.109167,
+      "lon": -72.621111
+    },
+    {
+      "id": 1953,
+      "zone_id": 30,
+      "nom_brut": "Rivière Sacacomie entre son embouchure dans le lac Saint-Alexis et le vieux barrage de la scierie Charbonneau situé à 1,75 km.",
+      "nom": "Rivière Sacacomie entre son embouchure dans le lac Saint-Alexis et le vieux barrage de la scierie Charbonneau situé à 1,75 km.",
+      "nom_search": "riviere sacacomie entre son embouchure dans le lac saint alexis et le vieux barrage de la scierie charbonneau situe a 1 75 km",
+      "segment_label": null,
+      "river_base_name": "Rivière Sacacomie",
+      "aliases": [
+        "riviere sacacomie",
+        "riviere sacacomie entre son embouchure dans le lac saint alexis et le vieux barrage de la scierie charbonneau situe a 1 75 km",
+        "sacacomie",
+        "sacacomie entre son embouchure dans le lac saint alexis et le vieux barrage de la scierie charbonneau situe a 1 75 km"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1957,
+      "zone_id": 30,
+      "nom_brut": "Rivière Saint-Maurice - La rivière incluant le réservoir Blanc et la rivière Flamand",
+      "nom": "Rivière Saint-Maurice - La rivière incluant le réservoir Blanc et la rivière Flamand",
+      "nom_search": "riviere saint maurice la riviere incluant le reservoir blanc et la riviere flamand",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Maurice",
+      "aliases": [
+        "riviere saint maurice",
+        "riviere saint maurice la riviere incluant le reservoir blanc et la riviere flamand",
+        "saint maurice",
+        "saint maurice la riviere incluant le reservoir blanc et la riviere flamand"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2349,
+      "zone_id": 30,
+      "nom_brut": "Zec Borgia",
+      "nom": "Zec Borgia",
+      "nom_search": "zec borgia",
+      "segment_label": null,
+      "river_base_name": "Zec Borgia",
+      "aliases": [
+        "zec borgia"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2358,
+      "zone_id": 30,
+      "nom_brut": "Zec Chapeau-de-Paille",
+      "nom": "Zec Chapeau-de-Paille",
+      "nom_search": "zec chapeau de paille",
+      "segment_label": null,
+      "river_base_name": "Zec Chapeau-de-Paille",
+      "aliases": [
+        "zec chapeau de paille"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2348,
+      "zone_id": 30,
+      "nom_brut": "Zec de la Bessonne",
+      "nom": "Zec de la Bessonne",
+      "nom_search": "zec de la bessonne",
+      "segment_label": null,
+      "river_base_name": "Zec de la Bessonne",
+      "aliases": [
+        "zec de la bessonne"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2368,
+      "zone_id": 30,
+      "nom_brut": "Zec Frémont",
+      "nom": "Zec Frémont",
+      "nom_search": "zec fremont",
+      "segment_label": null,
+      "river_base_name": "Zec Frémont",
+      "aliases": [
+        "zec fremont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2369,
+      "zone_id": 30,
+      "nom_brut": "Zec Gros-Brochet",
+      "nom": "Zec Gros-Brochet",
+      "nom_search": "zec gros brochet",
+      "segment_label": null,
+      "river_base_name": "Zec Gros-Brochet",
+      "aliases": [
+        "zec gros brochet"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2370,
+      "zone_id": 30,
+      "nom_brut": "Zec Jeannotte",
+      "nom": "Zec Jeannotte",
+      "nom_search": "zec jeannotte",
+      "segment_label": null,
+      "river_base_name": "Zec Jeannotte",
+      "aliases": [
+        "zec jeannotte"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2373,
+      "zone_id": 30,
+      "nom_brut": "Zec Kiskissink",
+      "nom": "Zec Kiskissink",
+      "nom_search": "zec kiskissink",
+      "segment_label": null,
+      "river_base_name": "Zec Kiskissink",
+      "aliases": [
+        "zec kiskissink"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2361,
+      "zone_id": 30,
+      "nom_brut": "Zec La Croche",
+      "nom": "Zec La Croche",
+      "nom_search": "zec la croche",
+      "segment_label": null,
+      "river_base_name": "Zec La Croche",
+      "aliases": [
+        "zec la croche"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2391,
+      "zone_id": 30,
+      "nom_brut": "Zec Menokeosawin",
+      "nom": "Zec Menokeosawin",
+      "nom_search": "zec menokeosawin",
+      "segment_label": null,
+      "river_base_name": "Zec Menokeosawin",
+      "aliases": [
+        "zec menokeosawin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2407,
+      "zone_id": 30,
+      "nom_brut": "Zec Tawachiche",
+      "nom": "Zec Tawachiche",
+      "nom_search": "zec tawachiche",
+      "segment_label": null,
+      "river_base_name": "Zec Tawachiche",
+      "aliases": [
+        "zec tawachiche"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2410,
+      "zone_id": 30,
+      "nom_brut": "Zec Wessonneau",
+      "nom": "Zec Wessonneau",
+      "nom_search": "zec wessonneau",
+      "segment_label": null,
+      "river_base_name": "Zec Wessonneau",
+      "aliases": [
+        "zec wessonneau"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

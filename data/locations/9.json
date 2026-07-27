@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "zone_id": 9,
+    "zone_nom": "Zone 9",
+    "nb_plans": 26,
+    "nb_geocoded": 25,
+    "pct_geocoded": 96.2,
+    "source_file": "zones/9.json"
+  },
+  "locations": [
+    {
+      "id": 286,
+      "zone_id": 9,
+      "nom_brut": "Lac Archambault incluant ses tributaires et ses baies (Saint-Donat)( 46°18'20\" N., 74°14'51\" O. ).",
+      "nom": "Lac Archambault incluant ses tributaires et ses baies",
+      "nom_search": "lac archambault incluant ses tributaires et ses baies saint donat) 46 18 20 n 74 14 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Archambault incluant ses tributaires et ses baies",
+      "aliases": [
+        "archambault incluant ses tributaires et ses baies",
+        "archambault incluant ses tributaires et ses baies saint donat) 46 18 20 n 74 14 51 o )",
+        "lac archambault incluant ses tributaires et ses baies",
+        "lac archambault incluant ses tributaires et ses baies saint donat) 46 18 20 n 74 14 51 o )"
+      ],
+      "lat": 46.305556,
+      "lon": -74.2475
+    },
+    {
+      "id": 339,
+      "zone_id": 9,
+      "nom_brut": "Lac Blanc ( 46°19'54\" N., 74°12'57\" O. )",
+      "nom": "Lac Blanc",
+      "nom_search": "lac blanc 46 19 54 n 74 12 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Blanc",
+      "aliases": [
+        "blanc",
+        "blanc 46 19 54 n 74 12 57 o )",
+        "lac blanc",
+        "lac blanc 46 19 54 n 74 12 57 o )"
+      ],
+      "lat": 46.331667,
+      "lon": -74.215833
+    },
+    {
+      "id": 12320,
+      "zone_id": 9,
+      "nom_brut": "Lac des Cerfs ( 46°10'02\" N., 73°53'03\" O. )",
+      "nom": "Lac des Cerfs",
+      "nom_search": "lac des cerfs 46 10 02 n 73 53 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Cerfs",
+      "aliases": [
+        "des cerfs",
+        "des cerfs 46 10 02 n 73 53 03 o )",
+        "lac des cerfs",
+        "lac des cerfs 46 10 02 n 73 53 03 o )"
+      ],
+      "lat": 46.167222,
+      "lon": -73.884167
+    },
+    {
+      "id": 10581,
+      "zone_id": 9,
+      "nom_brut": "Lac des Cygnes ( 46°10'07\" N., 73°53'14\" O. )",
+      "nom": "Lac des Cygnes",
+      "nom_search": "lac des cygnes 46 10 07 n 73 53 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Cygnes",
+      "aliases": [
+        "des cygnes",
+        "des cygnes 46 10 07 n 73 53 14 o )",
+        "lac des cygnes",
+        "lac des cygnes 46 10 07 n 73 53 14 o )"
+      ],
+      "lat": 46.168611,
+      "lon": -73.887222
+    },
+    {
+      "id": 10083,
+      "zone_id": 9,
+      "nom_brut": "Lac des Îles ( 46°06'06\" N., 74°01'57\" O. )",
+      "nom": "Lac des Îles",
+      "nom_search": "lac des iles 46 06 06 n 74 01 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Îles",
+      "aliases": [
+        "des iles",
+        "des iles 46 06 06 n 74 01 57 o )",
+        "lac des iles",
+        "lac des iles 46 06 06 n 74 01 57 o )"
+      ],
+      "lat": 46.101667,
+      "lon": -74.0325
+    },
+    {
+      "id": 359,
+      "zone_id": 9,
+      "nom_brut": "Lac des Sables (Sainte-Agathe-des-Monts)( 46°02'37\" N., 74°18'10\" O. )",
+      "nom": "Lac des Sables",
+      "nom_search": "lac des sables sainte agathe des monts) 46 02 37 n 74 18 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Sables",
+      "aliases": [
+        "des sables",
+        "des sables sainte agathe des monts) 46 02 37 n 74 18 10 o )",
+        "lac des sables",
+        "lac des sables sainte agathe des monts) 46 02 37 n 74 18 10 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.043611,
+      "lon": -74.302778
+    },
+    {
+      "id": 329,
+      "zone_id": 9,
+      "nom_brut": "Lac Écho (Saint-Hippolyte) ( 45°53'15\" N., 74°01'23\" O. )",
+      "nom": "Lac Écho",
+      "nom_search": "lac echo saint hippolyte) 45 53 15 n 74 01 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Écho",
+      "aliases": [
+        "echo",
+        "echo saint hippolyte) 45 53 15 n 74 01 23 o )",
+        "lac echo",
+        "lac echo saint hippolyte) 45 53 15 n 74 01 23 o )"
+      ],
+      "lat": 45.8875,
+      "lon": -74.023056
+    },
+    {
+      "id": 3305,
+      "zone_id": 9,
+      "nom_brut": "Lac Hersey ( 46°04'32\" N., 73°57'33\" O. )",
+      "nom": "Lac Hersey",
+      "nom_search": "lac hersey 46 04 32 n 73 57 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hersey",
+      "aliases": [
+        "hersey",
+        "hersey 46 04 32 n 73 57 33 o )",
+        "lac hersey",
+        "lac hersey 46 04 32 n 73 57 33 o )"
+      ],
+      "lat": 46.075556,
+      "lon": -73.959167
+    },
+    {
+      "id": 10081,
+      "zone_id": 9,
+      "nom_brut": "Lac Louisa (municipalité de Wentworth) ( 45°46'09\" N., 74°25'08\" O. )",
+      "nom": "Lac Louisa",
+      "nom_search": "lac louisa municipalite de wentworth) 45 46 09 n 74 25 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Louisa",
+      "aliases": [
+        "lac louisa",
+        "lac louisa municipalite de wentworth) 45 46 09 n 74 25 08 o )",
+        "louisa",
+        "louisa municipalite de wentworth) 45 46 09 n 74 25 08 o )"
+      ],
+      "lat": 45.769167,
+      "lon": -74.418889
+    },
+    {
+      "id": 2979,
+      "zone_id": 9,
+      "nom_brut": "Lac Manitou ( 46°03'36\" N., 74°22'30\" O. )",
+      "nom": "Lac Manitou",
+      "nom_search": "lac manitou 46 03 36 n 74 22 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Manitou",
+      "aliases": [
+        "lac manitou",
+        "lac manitou 46 03 36 n 74 22 30 o )",
+        "manitou",
+        "manitou 46 03 36 n 74 22 30 o )"
+      ],
+      "lat": 46.06,
+      "lon": -74.375
+    },
+    {
+      "id": 327,
+      "zone_id": 9,
+      "nom_brut": "Lac Maskinongé (Mont-Tremblant) ( 46°05'26\" N., 74°35'54\" O. )",
+      "nom": "Lac Maskinongé",
+      "nom_search": "lac maskinonge mont tremblant) 46 05 26 n 74 35 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Maskinongé",
+      "aliases": [
+        "lac maskinonge",
+        "lac maskinonge mont tremblant) 46 05 26 n 74 35 54 o )",
+        "maskinonge",
+        "maskinonge mont tremblant) 46 05 26 n 74 35 54 o )"
+      ],
+      "lat": 46.090556,
+      "lon": -74.598333
+    },
+    {
+      "id": 3233,
+      "zone_id": 9,
+      "nom_brut": "Lac Morgan (Chertsey) ( 46°08'17\" N., 73°45'55\" O. )",
+      "nom": "Lac Morgan",
+      "nom_search": "lac morgan chertsey) 46 08 17 n 73 45 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Morgan",
+      "aliases": [
+        "lac morgan",
+        "lac morgan chertsey) 46 08 17 n 73 45 55 o )",
+        "morgan",
+        "morgan chertsey) 46 08 17 n 73 45 55 o )"
+      ],
+      "lat": 46.138056,
+      "lon": -73.765278
+    },
+    {
+      "id": 3194,
+      "zone_id": 9,
+      "nom_brut": "Lac Narcisse ( 46°01'16\" N., 74°32'22\" O. )",
+      "nom": "Lac Narcisse",
+      "nom_search": "lac narcisse 46 01 16 n 74 32 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Narcisse",
+      "aliases": [
+        "lac narcisse",
+        "lac narcisse 46 01 16 n 74 32 22 o )",
+        "narcisse",
+        "narcisse 46 01 16 n 74 32 22 o )"
+      ],
+      "lat": 46.021111,
+      "lon": -74.539444
+    },
+    {
+      "id": 334,
+      "zone_id": 9,
+      "nom_brut": "Lac Ouareau (Saint-Donat)( 46°17'03\" N., 74°08'35\" O. )",
+      "nom": "Lac Ouareau",
+      "nom_search": "lac ouareau saint donat) 46 17 03 n 74 08 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ouareau",
+      "aliases": [
+        "lac ouareau",
+        "lac ouareau saint donat) 46 17 03 n 74 08 35 o )",
+        "ouareau",
+        "ouareau saint donat) 46 17 03 n 74 08 35 o )"
+      ],
+      "lat": 46.284167,
+      "lon": -74.143056
+    },
+    {
+      "id": 11041,
+      "zone_id": 9,
+      "nom_brut": "Lac Pierre (Saint-Alphonse-Rodriguez) ( 46°11'45\" N., 73°41'01\" O. )",
+      "nom": "Lac Pierre",
+      "nom_search": "lac pierre saint alphonse rodriguez) 46 11 45 n 73 41 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pierre",
+      "aliases": [
+        "lac pierre",
+        "lac pierre saint alphonse rodriguez) 46 11 45 n 73 41 01 o )",
+        "pierre",
+        "pierre saint alphonse rodriguez) 46 11 45 n 73 41 01 o )"
+      ],
+      "lat": 46.195833,
+      "lon": -73.683611
+    },
+    {
+      "id": 362,
+      "zone_id": 9,
+      "nom_brut": "Lac Raymond (Val-Morin)( 46°00'14\" N., 74°09'38\" O. )",
+      "nom": "Lac Raymond",
+      "nom_search": "lac raymond val morin) 46 00 14 n 74 09 38 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Raymond",
+      "aliases": [
+        "lac raymond",
+        "lac raymond val morin) 46 00 14 n 74 09 38 o )",
+        "raymond",
+        "raymond val morin) 46 00 14 n 74 09 38 o )"
+      ],
+      "lat": 46.003889,
+      "lon": -74.160556
+    },
+    {
+      "id": 11040,
+      "zone_id": 9,
+      "nom_brut": "Lac Sans nom (Chertsey) ( 46°08'17\" N., 73°46'18\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom chertsey) 46 08 17 n 73 46 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom chertsey) 46 08 17 n 73 46 18 o )",
+        "sans nom",
+        "sans nom chertsey) 46 08 17 n 73 46 18 o )"
+      ],
+      "lat": 46.138056,
+      "lon": -73.771667
+    },
+    {
+      "id": 11020,
+      "zone_id": 9,
+      "nom_brut": "Lac Sans nom (Sourire) (Chertsey) ( 46°08'17\" N., 73°46'23\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom sourire) chertsey) 46 08 17 n 73 46 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom sourire) chertsey) 46 08 17 n 73 46 23 o )",
+        "sans nom",
+        "sans nom sourire) chertsey) 46 08 17 n 73 46 23 o )"
+      ],
+      "lat": 46.138056,
+      "lon": -73.773056
+    },
+    {
+      "id": 3313,
+      "zone_id": 9,
+      "nom_brut": "Lac Tire (Sant-Donat) ( 46°20'18\" N., 74°14'08\" O. )",
+      "nom": "Lac Tire",
+      "nom_search": "lac tire sant donat) 46 20 18 n 74 14 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tire",
+      "aliases": [
+        "lac tire",
+        "lac tire sant donat) 46 20 18 n 74 14 08 o )",
+        "tire",
+        "tire sant donat) 46 20 18 n 74 14 08 o )"
+      ],
+      "lat": 46.338333,
+      "lon": -74.235556
+    },
+    {
+      "id": 3309,
+      "zone_id": 9,
+      "nom_brut": "Lac Vert (Saint-Alphonse-Rodriguez) ( 46°11'03\" N., 73°43'07\" O. )",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert saint alphonse rodriguez) 46 11 03 n 73 43 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert saint alphonse rodriguez) 46 11 03 n 73 43 07 o )",
+        "vert",
+        "vert saint alphonse rodriguez) 46 11 03 n 73 43 07 o )"
+      ],
+      "lat": 46.184167,
+      "lon": -73.718611
+    },
+    {
+      "id": 12161,
+      "zone_id": 9,
+      "nom_brut": "Rivière Doncaster - La partie comprise dans le Parc de la rivière Doncaster entre les points 45°58'48.5\" N., 74°04'29.8\" O. et 45°58'0.7\" N., 74°05'58.42\" O.",
+      "nom": "Rivière Doncaster - La partie comprise dans le Parc de la rivière Doncaster entre les points 45°58'48.5\" N., 74°04'29.8\" O. et 45°58'0.7\" N., 74°05'58.42\" O.",
+      "nom_search": "riviere doncaster la partie comprise dans le parc de la riviere doncaster entre les points 45 58 48 5 n 74 04 29 8 o et 45 58 0 7 n 74 05 58 42 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Doncaster",
+      "aliases": [
+        "doncaster",
+        "doncaster la partie comprise dans le parc de la riviere doncaster entre les points 45 58 48 5 n 74 04 29 8 o et 45 58 0 7 n 74 05 58 42 o",
+        "riviere doncaster",
+        "riviere doncaster la partie comprise dans le parc de la riviere doncaster entre les points 45 58 48 5 n 74 04 29 8 o et 45 58 0 7 n 74 05 58 42 o"
+      ],
+      "lat": 45.980139,
+      "lon": -74.074944
+    },
+    {
+      "id": 12163,
+      "zone_id": 9,
+      "nom_brut": "Rivière du Nord - La partie comprise entre le pont de l'autoroute 15 ( 45°45'41\" N., 74°00'7,96\" O. ) et le barrage Rolland ( 45°45'11\" N., 74°00'55,96\" O. )",
+      "nom": "Rivière du Nord - La partie comprise entre le pont de l'autoroute 15",
+      "nom_search": "riviere du nord la partie comprise entre le pont de l autoroute 15 45 45 41 n 74 00 7 96 o ) et le barrage rolland 45 45 11 n 74 00 55 96 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Nord",
+      "aliases": [
+        "du nord",
+        "du nord la partie comprise entre le pont de l autoroute 15 45 45 41 n 74 00 7 96 o ) et le barrage rolland 45 45 11 n 74 00 55 96 o )",
+        "riviere du nord",
+        "riviere du nord la partie comprise entre le pont de l autoroute 15 45 45 41 n 74 00 7 96 o ) et le barrage rolland 45 45 11 n 74 00 55 96 o )"
+      ],
+      "lat": 45.761389,
+      "lon": -74.002211
+    },
+    {
+      "id": 299,
+      "zone_id": 9,
+      "nom_brut": "Rivière Ouareau entre le pont de la route 125 et le lac Blanc.",
+      "nom": "Rivière Ouareau entre le pont de la route 125 et le lac Blanc.",
+      "nom_search": "riviere ouareau entre le pont de la route 125 et le lac blanc",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouareau",
+      "aliases": [
+        "ouareau",
+        "ouareau entre le pont de la route 125 et le lac blanc",
+        "riviere ouareau",
+        "riviere ouareau entre le pont de la route 125 et le lac blanc"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 311,
+      "zone_id": 9,
+      "nom_brut": "Rivière Ouareau entre les lacs Blanc et Ouareau ( 46°18'54\" N., 74°11'20\" O. ).",
+      "nom": "Rivière Ouareau entre les lacs Blanc et Ouareau",
+      "nom_search": "riviere ouareau entre les lacs blanc et ouareau 46 18 54 n 74 11 20 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouareau",
+      "aliases": [
+        "ouareau",
+        "ouareau entre les lacs blanc et ouareau 46 18 54 n 74 11 20 o )",
+        "riviere ouareau",
+        "riviere ouareau entre les lacs blanc et ouareau 46 18 54 n 74 11 20 o )"
+      ],
+      "lat": 46.315,
+      "lon": -74.188889
+    },
+    {
+      "id": 373,
+      "zone_id": 9,
+      "nom_brut": "Ruisseau sans nom entre les lacs Sainte-Marie et Théodore ( 45°57'29\" N., 74°16'31\" O. ).",
+      "nom": "Ruisseau sans nom entre les lacs Sainte-Marie et Théodore",
+      "nom_search": "ruisseau sans nom entre les lacs sainte marie et theodore 45 57 29 n 74 16 31 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom entre les lacs sainte marie et theodore 45 57 29 n 74 16 31 o )",
+        "sans nom",
+        "sans nom entre les lacs sainte marie et theodore 45 57 29 n 74 16 31 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.958056,
+      "lon": -74.275278
+    },
+    {
+      "id": 376,
+      "zone_id": 9,
+      "nom_brut": "Ruisseau sans nom entre les lacs Saint-Joseph et Sainte-Marie ( 45°58'13\" N., 74°19'02\" O. ).",
+      "nom": "Ruisseau sans nom entre les lacs Saint-Joseph et Sainte-Marie",
+      "nom_search": "ruisseau sans nom entre les lacs saint joseph et sainte marie 45 58 13 n 74 19 02 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom entre les lacs saint joseph et sainte marie 45 58 13 n 74 19 02 o )",
+        "sans nom",
+        "sans nom entre les lacs saint joseph et sainte marie 45 58 13 n 74 19 02 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.970278,
+      "lon": -74.317222
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "zone_id": 3,
+    "radius_km": 25.0,
+    "nb_with_coords": 9,
+    "nb_station_matched": 5
+  },
+  "matches": [
+    {
+      "plan_id": 448,
+      "plan_nom": "Lac aux Canards",
+      "lat": 46.833611,
+      "lon": -70.814722,
+      "stations": [
+        {
+          "id": "023106",
+          "plan_eau": "Rivière du Sud",
+          "description": "À 1,0 km en amont du pont-route Rang du Sault à Saint-Raphaël",
+          "lat": 46.82,
+          "lon": -70.756,
+          "distance_km": 4.72,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023004",
+          "plan_eau": "Rivière Boyer",
+          "description": "À 0,1 km en aval du pont de train à Saint-Charles-de-Bellechasse",
+          "lat": 46.816,
+          "lon": -70.901,
+          "distance_km": 6.85,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03110",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Fleuve Saint, à Saint-Laurent, Île d'Orléans",
+          "lat": 46.858167,
+          "lon": -71.003333,
+          "distance_km": 14.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023002",
+          "plan_eau": "Rivière Boyer Sud",
+          "description": "En amont du pont-route du chemin de la Grande-Grillade",
+          "lat": 46.707528,
+          "lon": -70.960528,
+          "distance_km": 17.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03100",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Saint-François",
+          "lat": 46.9965,
+          "lon": -70.808167,
+          "distance_km": 18.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023303",
+          "plan_eau": "Rivière Etchemin",
+          "description": "Au pont-route 173 à Saint-Henri-de-Lévis",
+          "lat": 46.691,
+          "lon": -71.068,
+          "distance_km": 24.97,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023106",
+      "station": {
+        "id": "023106",
+        "plan_eau": "Rivière du Sud",
+        "description": "À 1,0 km en amont du pont-route Rang du Sault à Saint-Raphaël",
+        "lat": 46.82,
+        "lon": -70.756,
+        "distance_km": 4.72
+      }
+    },
+    {
+      "plan_id": 443,
+      "plan_nom": "Lac Beaumont",
+      "lat": 46.778333,
+      "lon": -70.9875,
+      "stations": [
+        {
+          "id": "023004",
+          "plan_eau": "Rivière Boyer",
+          "description": "À 0,1 km en aval du pont de train à Saint-Charles-de-Bellechasse",
+          "lat": 46.816,
+          "lon": -70.901,
+          "distance_km": 7.8,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023002",
+          "plan_eau": "Rivière Boyer Sud",
+          "description": "En amont du pont-route du chemin de la Grande-Grillade",
+          "lat": 46.707528,
+          "lon": -70.960528,
+          "distance_km": 8.14,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03110",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Fleuve Saint, à Saint-Laurent, Île d'Orléans",
+          "lat": 46.858167,
+          "lon": -71.003333,
+          "distance_km": 8.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023303",
+          "plan_eau": "Rivière Etchemin",
+          "description": "Au pont-route 173 à Saint-Henri-de-Lévis",
+          "lat": 46.691,
+          "lon": -71.068,
+          "distance_km": 11.49,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "396",
+          "plan_eau": "Ruisseau Rouge                                                                                                                                                                                                                                                ",
+          "description": "À l'embouchure, près de la rue Saint-Laurent, à Lévis",
+          "lat": 46.780852,
+          "lon": -71.201549,
+          "distance_km": 16.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03248",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Au port de Québec",
+          "lat": 46.811111,
+          "lon": -71.201944,
+          "distance_km": 16.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "051001",
+          "plan_eau": "Rivière Montmorency",
+          "description": "À 0,6 km en aval du barrage des Marches-Naturelles",
+          "lat": 46.896,
+          "lon": -71.152,
+          "distance_km": 18.1,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023106",
+          "plan_eau": "Rivière du Sud",
+          "description": "À 1,0 km en amont du pont-route Rang du Sault à Saint-Raphaël",
+          "lat": 46.82,
+          "lon": -70.756,
+          "distance_km": 18.22,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023004",
+      "station": {
+        "id": "023004",
+        "plan_eau": "Rivière Boyer",
+        "description": "À 0,1 km en aval du pont de train à Saint-Charles-de-Bellechasse",
+        "lat": 46.816,
+        "lon": -70.901,
+        "distance_km": 7.8
+      }
+    },
+    {
+      "plan_id": 446,
+      "plan_nom": "Lac Bringé",
+      "lat": 47.109722,
+      "lon": -70.169444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3065,
+      "plan_nom": "Lac Collin",
+      "lat": 46.716667,
+      "lon": -70.292222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 438,
+      "plan_nom": "Lac des Abénaquis",
+      "lat": 46.163611,
+      "lon": -70.361389,
+      "stations": [
+        {
+          "id": "023428",
+          "plan_eau": "Rivière du Loup",
+          "description": "Au pont-route à Saint-Côme-Linière",
+          "lat": 46.06,
+          "lon": -70.532,
+          "distance_km": 17.48,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023422",
+          "plan_eau": "Rivière Famine",
+          "description": "À 6,3 km en amont du pont-route 173 à Saint-Georges",
+          "lat": 46.167,
+          "lon": -70.639,
+          "distance_km": 21.38,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023446",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0.2 km en amont du barrage Sartigan",
+          "lat": 46.095942,
+          "lon": -70.650736,
+          "distance_km": 23.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023429",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0,1 km en aval du barrage Sartigan",
+          "lat": 46.096,
+          "lon": -70.654,
+          "distance_km": 23.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Saint-Georges",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 271 à Saint-Georges",
+          "lat": 46.12,
+          "lon": -70.6732,
+          "distance_km": 24.51,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023428",
+      "station": {
+        "id": "023428",
+        "plan_eau": "Rivière du Loup",
+        "description": "Au pont-route à Saint-Côme-Linière",
+        "lat": 46.06,
+        "lon": -70.532,
+        "distance_km": 17.48
+      }
+    },
+    {
+      "plan_id": 452,
+      "plan_nom": "Lac Frontière",
+      "lat": 46.706667,
+      "lon": -70.001111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 457,
+      "plan_nom": "Lac Saint-Charles",
+      "lat": 46.779722,
+      "lon": -70.963611,
+      "stations": [
+        {
+          "id": "050904",
+          "plan_eau": "Rivière Saint-Charles",
+          "description": "À 0,8 km en amont de la Lorette",
+          "lat": 46.816,
+          "lon": -71.319,
+          "distance_km": 27.35,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050904",
+      "station": {
+        "id": "050904",
+        "plan_eau": "Rivière Saint-Charles",
+        "description": "À 0,8 km en amont de la Lorette",
+        "lat": 46.816,
+        "lon": -71.319,
+        "distance_km": 27.35
+      }
+    },
+    {
+      "plan_id": 3262,
+      "plan_nom": "Lac Trois-Saumons",
+      "lat": 47.126667,
+      "lon": -70.186944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1608,
+      "plan_nom": "Rivière Etchemin en amont du pont à Sainte-Claire",
+      "lat": 46.595833,
+      "lon": -70.869444,
+      "stations": [
+        {
+          "id": "023303",
+          "plan_eau": "Rivière Etchemin",
+          "description": "Au pont-route 173 à Saint-Henri-de-Lévis",
+          "lat": 46.691,
+          "lon": -71.068,
+          "distance_km": 18.49,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "023303",
+      "station": {
+        "id": "023303",
+        "plan_eau": "Rivière Etchemin",
+        "description": "Au pont-route 173 à Saint-Henri-de-Lévis",
+        "lat": 46.691,
+        "lon": -71.068,
+        "distance_km": 18.49
+      }
+    }
+  ]
+}

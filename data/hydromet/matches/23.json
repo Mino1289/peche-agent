@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "zone_id": 23,
+    "radius_km": 25.0,
+    "nb_with_coords": 27,
+    "nb_station_matched": 13
+  },
+  "matches": [
+    {
+      "plan_id": 11300,
+      "plan_nom": "La partie de la zone 21 désignée comme « aire marine protégée du Banc-des-Américains » l'espace maritime du golfe du Saint-Laurent qui se compose du fond marin et du sous-sol et qui est compris à l'intérieur des limites ci-après décrites: En partant du point",
+      "lat": 48.75,
+      "lon": -64.14,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3208,
+      "plan_nom": "Eaux des Îles-de-la-Madeleine Étang du Ouest",
+      "lat": 47.261111,
+      "lon": -61.994167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2985,
+      "plan_nom": "Eaux La partie de la zone 21",
+      "lat": 48.747778,
+      "lon": -64.161667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11780,
+      "plan_nom": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage entre une droite reliant la Pointe Santerre de Rimouski",
+      "lat": 48.3975,
+      "lon": -68.673056,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 8.88,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 8.88
+      }
+    },
+    {
+      "plan_id": 12000,
+      "plan_nom": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage entre une droite reliant l'embouchure de la rivière des Grands Méchins à Les Méchins",
+      "lat": 49.003611,
+      "lon": -66.97,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12321,
+      "plan_nom": "Eaux La partie de la zone 21 comprise entre le côté aval du pont Pierre-Laporte et une droite reliant, au sud du Saint-Laurent, la Pointe Santerre de Rimouski",
+      "lat": 48.397372,
+      "lon": -68.673122,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 8.89,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "02985",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Rimouski",
+          "lat": 48.478333,
+          "lon": -68.513667,
+          "distance_km": 14.81,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 8.89
+      }
+    },
+    {
+      "plan_id": 12300,
+      "plan_nom": "Eaux La partie de la zone 21 comprise entre une droite reliant, au sud du Saint-Laurent, la Pointe Santerre de Rimouski",
+      "lat": 48.397372,
+      "lon": -68.673122,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 8.89,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "02985",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Rimouski",
+          "lat": 48.478333,
+          "lon": -68.513667,
+          "distance_km": 14.81,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 8.89
+      }
+    },
+    {
+      "plan_id": 10800,
+      "plan_nom": "Eaux La partie de la zone 21 située à l'est d'une droite reliant la pointe ouest de l'Île de Kegaska",
+      "lat": 50.175278,
+      "lon": -61.279167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3314,
+      "plan_nom": "Eaux La partie de la zone 21 située entre une droite joignant l'embouchure de la rivière Sainte-Marguerite",
+      "lat": 50.146944,
+      "lon": -66.580556,
+      "stations": [
+        {
+          "id": "02780",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Sept-Îles",
+          "lat": 50.194833,
+          "lon": -66.376833,
+          "distance_km": 15.46,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02780",
+      "station": {
+        "id": "02780",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Sept-Îles",
+        "lat": 50.194833,
+        "lon": -66.376833,
+        "distance_km": 15.46
+      }
+    },
+    {
+      "plan_id": 12422,
+      "plan_nom": "Rivière à Mars - Les eaux comprises entre les points 48°20'25\" N., 70°52'39\" O. , 48°20'21\" N., 70°52'22\" O. , 48°20'13,9\" N., 70°52'36,5\" O. et 48°20'18,8\" N., 70°52'40,7\" O.",
+      "lat": 48.340278,
+      "lon": -70.8775,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 17.49,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 17.49
+      }
+    },
+    {
+      "plan_id": 12381,
+      "plan_nom": "Rivière Aguanish",
+      "lat": 50.219722,
+      "lon": -62.095,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1464,
+      "plan_nom": "Rivière aux Outardes entre une droite reliant la pointe aux Outardes",
+      "lat": 49.044167,
+      "lon": -68.463056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12401,
+      "plan_nom": "Rivière aux Rochers a)",
+      "lat": 50.013889,
+      "lon": -66.877778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12402,
+      "plan_nom": "Rivière aux Rochers a.1)",
+      "lat": 50.018056,
+      "lon": -66.874444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12383,
+      "plan_nom": "Rivière Betsiamites entre une droite joignant la pointe nord du banc des Canadiens à la pointe de Betsiamites et une droite joignant le point 48°55'53'' N., 68°41'28'' O. au point 48°56'00'' N., 68°41'07'' O.",
+      "lat": 48.931389,
+      "lon": -68.691111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1495,
+      "plan_nom": "Rivière de Mont-Louis entre le côté en aval du pont de la route 132 et une droite reliant les points 49°14'15\" N., 65°43'16\" O. et 49°14'24\" N., 65°44'58\" O. Ce secteur n'a pas le statut d'une rivière à saumon.",
+      "lat": 49.2375,
+      "lon": -65.721111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3235,
+      "plan_nom": "Rivière du Gouffre entre son embouchure, délimitée par une droite joignant l'extrémité sud-est du quai",
+      "lat": 47.429167,
+      "lon": -70.488333,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 14.88,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 14.88
+      }
+    },
+    {
+      "plan_id": 3273,
+      "plan_nom": "Rivière du Petit Pabos entre le côté aval du pont du CN et une droite reliant, à l'ouest, la pointe du cap situé au 48°22'06\" N., 64°35'33\" O. et, à l'est, l'escalier donnant accès à la plage",
+      "lat": 48.368333,
+      "lon": -64.5925,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1473,
+      "plan_nom": "Rivière du Sud entre la partie en aval du barrage situé au point 46°59'12\" N., 70°32'59\" O. et une droite joignant l'extrémité du quai de Montmagny 46°59'25\" N., 70°33'12\" O. et la pointe aux Oies 46°59'36\" N., 70°33'00\" O.",
+      "lat": 46.986667,
+      "lon": -70.549722,
+      "stations": [
+        {
+          "id": "023106",
+          "plan_eau": "Rivière du Sud",
+          "description": "À 1,0 km en amont du pont-route Rang du Sault à Saint-Raphaël",
+          "lat": 46.82,
+          "lon": -70.756,
+          "distance_km": 24.27,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "023106",
+      "station": {
+        "id": "023106",
+        "plan_eau": "Rivière du Sud",
+        "description": "À 1,0 km en amont du pont-route Rang du Sault à Saint-Raphaël",
+        "lat": 46.82,
+        "lon": -70.756,
+        "distance_km": 24.27
+      }
+    },
+    {
+      "plan_id": 1487,
+      "plan_nom": "Rivière La Grande Rivière entre la ligne qui relie la limite est du lot 123-7",
+      "lat": 48.397408,
+      "lon": -64.503842,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1489,
+      "plan_nom": "Rivière Malbaie",
+      "lat": 47.653056,
+      "lon": -70.15,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 6.83,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 6.83
+      }
+    },
+    {
+      "plan_id": 3043,
+      "plan_nom": "Rivière Ouelle entre le côté aval du pont de la route 132, situé au point 47°25'55\" N., 70°00'59\" O. et une droite reliant l'embouchure du ruisseau Gagnon au point 47°25'08\" N., 70°02'42\" O. et la Pointe de la Rivière Ouelle au point 47°25'31\" N., 70°03'39\" O.",
+      "lat": 47.431944,
+      "lon": -70.016389,
+      "stations": [
+        {
+          "id": "022704",
+          "plan_eau": "Rivière Ouelle",
+          "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+          "lat": 47.381,
+          "lon": -69.954,
+          "distance_km": 7.36,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022704",
+      "station": {
+        "id": "022704",
+        "plan_eau": "Rivière Ouelle",
+        "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+        "lat": 47.381,
+        "lon": -69.954,
+        "distance_km": 7.36
+      }
+    },
+    {
+      "plan_id": 12362,
+      "plan_nom": "Rivière Piashti a)",
+      "lat": 50.278611,
+      "lon": -62.811389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12040,
+      "plan_nom": "Rivière Saguenay a) La partie comprise entre une droite perpendiculaire au courant passant par le côté en amont de la flèche du littorale",
+      "lat": 48.439722,
+      "lon": -70.902222,
+      "stations": [
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 12.01,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 12.18,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03460",
+      "station": {
+        "id": "03460",
+        "plan_eau": "Rivière Saguenay",
+        "description": "À Port-Alfred",
+        "lat": 48.33401,
+        "lon": -70.86917,
+        "distance_km": 12.01
+      }
+    },
+    {
+      "plan_id": 1469,
+      "plan_nom": "Rivière Saguenay a) La partie comprise entre une droite perpendiculaire au courant passant par le côté en amont de la flèche du littorale",
+      "lat": 48.439722,
+      "lon": -70.902222,
+      "stations": [
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 12.01,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 12.18,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03460",
+      "station": {
+        "id": "03460",
+        "plan_eau": "Rivière Saguenay",
+        "description": "À Port-Alfred",
+        "lat": 48.33401,
+        "lon": -70.86917,
+        "distance_km": 12.01
+      }
+    },
+    {
+      "plan_id": 1468,
+      "plan_nom": "Rivière Saguenay b) La partie comprise entre une droite transversale joignant la route 138 entre Tadoussac et Baie-Sainte-Catherine et une ligne perpendiculaire au courant passant par le côté en amont de la flèche du littorale",
+      "lat": 48.439722,
+      "lon": -70.902222,
+      "stations": [
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 12.01,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 12.18,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03460",
+      "station": {
+        "id": "03460",
+        "plan_eau": "Rivière Saguenay",
+        "description": "À Port-Alfred",
+        "lat": 48.33401,
+        "lon": -70.86917,
+        "distance_km": 12.01
+      }
+    },
+    {
+      "plan_id": 1475,
+      "plan_nom": "Ruisseau de l'Église",
+      "lat": 46.832222,
+      "lon": -71.011944,
+      "stations": [
+        {
+          "id": "03110",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Fleuve Saint, à Saint-Laurent, Île d'Orléans",
+          "lat": 46.858167,
+          "lon": -71.003333,
+          "distance_km": 2.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023004",
+          "plan_eau": "Rivière Boyer",
+          "description": "À 0,1 km en aval du pont de train à Saint-Charles-de-Bellechasse",
+          "lat": 46.816,
+          "lon": -70.901,
+          "distance_km": 8.63,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "051001",
+          "plan_eau": "Rivière Montmorency",
+          "description": "À 0,6 km en aval du barrage des Marches-Naturelles",
+          "lat": 46.896,
+          "lon": -71.152,
+          "distance_km": 12.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023002",
+          "plan_eau": "Rivière Boyer Sud",
+          "description": "En amont du pont-route du chemin de la Grande-Grillade",
+          "lat": 46.707528,
+          "lon": -70.960528,
+          "distance_km": 14.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03248",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Au port de Québec",
+          "lat": 46.811111,
+          "lon": -71.201944,
+          "distance_km": 14.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "054001",
+          "plan_eau": "Rivière Beauport",
+          "description": "À 100 mètres en aval de la chute du Parc des Cascades, secteur Beauport à Québec",
+          "lat": 46.865,
+          "lon": -71.207222,
+          "distance_km": 15.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "396",
+          "plan_eau": "Ruisseau Rouge                                                                                                                                                                                                                                                ",
+          "description": "À l'embouchure, près de la rue Saint-Laurent, à Lévis",
+          "lat": 46.780852,
+          "lon": -71.201549,
+          "distance_km": 15.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023303",
+          "plan_eau": "Rivière Etchemin",
+          "description": "Au pont-route 173 à Saint-Henri-de-Lévis",
+          "lat": 46.691,
+          "lon": -71.068,
+          "distance_km": 16.27,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03110",
+      "station": {
+        "id": "03110",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "Fleuve Saint, à Saint-Laurent, Île d'Orléans",
+        "lat": 46.858167,
+        "lon": -71.003333,
+        "distance_km": 2.96
+      }
+    }
+  ]
+}

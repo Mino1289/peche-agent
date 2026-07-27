@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "zone_id": 28,
+    "zone_nom": "Zone 24",
+    "saison_id": 220,
+    "saison": "Du 1er avril 2026 au 31 mars 2027",
+    "fetched_at": "2026-06-11T04:06:44+00:00",
+    "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=28",
+    "nb_endroits_total": 2,
+    "nb_endroits_avec_id": 2
+  },
+  "regles_generales": [
+    {
+      "segment": "Règles de la zone",
+      "periodes": [
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Chevalier cuivré",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Corégones, esturgeon jaune, meuniers, lotte, laquaiche argentée et laquaiche aux yeux d'or",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er juin 2026 au 7 septembre 2026",
+          "especes": [
+            {
+              "espece": "Brochets",
+              "limite_prise": "10 en tout",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Omble chevalier",
+              "limite_prise": "5",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Omble de fontaine",
+              "limite_prise": "15 ou 8 kg + 1 omble, selon la première limite atteinte",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Ouananiche",
+              "limite_prise": "4",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Saumon atlantique",
+              "limite_prise": "1 petit pris et gardé",
+              "limite_longueur": "petit (au moins 30 cm et moins de 63 cm) et grand (63 cm et plus)",
+              "engin": "Pêche à la ligne seulement",
+              "note": "Ailleurs que dans les rivières à saumon. Permis de pêche au saumon obligatoire."
+            },
+            {
+              "espece": "Touladi, moulac et lacmou",
+              "limite_prise": "3 en tout",
+              "limite_longueur": "moins de 60 cm et au plus 1 mesurant 60 cm ou plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er juin 2026 au 7 septembre 2026 - Autres espèces",
+          "especes": [
+            {
+              "espece": "Autres espèces",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "moins de 90 cm",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans_eau": [
+    {
+      "id": 1153,
+      "nom": "Rivière de Pas la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=28&id_endro=1153&id_saisn=220",
+      "segments": [
+        {
+          "segment": "la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Corégones, esturgeon jaune, meuniers, lotte, laquaiche argentée et laquaiche aux yeux d'or",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 août 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "5",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "15 ou 8 kg + 1 omble, selon la première limite atteinte",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "2 dont au plus 1 grand",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 60 cm et au plus 1 mesurant 60 cm ou plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 août 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "15 ou 8 kg + 1 omble, selon la première limite atteinte",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 60 cm et au plus 1 mesurant 60 cm ou plus",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 août 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "5",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "2 dont au plus 1 grand",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "moins de 90 cm",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 août 2026 au 30 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "moins de 90 cm",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1151,
+      "nom": "Rivière George la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=28&id_endro=1151&id_saisn=220",
+      "segments": [
+        {
+          "segment": "la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Corégones, esturgeon jaune, meuniers, lotte, laquaiche argentée et laquaiche aux yeux d'or",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 août 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "5",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "15 ou 8 kg + 1 omble, selon la première limite atteinte",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "2 dont au plus 1 grand",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 60 cm et au plus 1 mesurant 60 cm ou plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 août 2026 au 7 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Omble de fontaine",
+                  "limite_prise": "15 ou 8 kg + 1 omble, selon la première limite atteinte",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "moins de 60 cm et au plus 1 mesurant 60 cm ou plus",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 août 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Omble chevalier",
+                  "limite_prise": "5",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "2 dont au plus 1 grand",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 15 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "moins de 90 cm",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 août 2026 au 30 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "moins de 90 cm",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

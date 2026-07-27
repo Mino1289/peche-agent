@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "zone_id": 2652,
+    "radius_km": 25.0,
+    "nb_with_coords": 21,
+    "nb_station_matched": 2
+  },
+  "matches": [
+    {
+      "plan_id": 10560,
+      "plan_nom": "Réservoir aux Outardes - 4",
+      "lat": 50.134444,
+      "lon": -69.119167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10561,
+      "plan_nom": "Réservoir Manic - 3",
+      "lat": 50.130556,
+      "lon": -68.642778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1252,
+      "plan_nom": "Rivière à l'Eau Dorée",
+      "lat": 50.743611,
+      "lon": -66.235556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1314,
+      "plan_nom": "Rivière aux Rochers b)",
+      "lat": 50.086944,
+      "lon": -66.995833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1315,
+      "plan_nom": "Rivière aux Rochers c)",
+      "lat": 50.086944,
+      "lon": -66.995833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1316,
+      "plan_nom": "Rivière aux Rochers d)",
+      "lat": 50.131667,
+      "lon": -67.133056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1258,
+      "plan_nom": "Rivière Caopacho",
+      "lat": 51.31,
+      "lon": -66.266667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1256,
+      "plan_nom": "Rivière Joseph",
+      "lat": 50.969722,
+      "lon": -66.3375,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1248,
+      "plan_nom": "Rivière Katchipitonkas",
+      "lat": 51.020556,
+      "lon": -65.880556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1318,
+      "plan_nom": "Rivière MacDonald a)",
+      "lat": 50.131667,
+      "lon": -67.119444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1319,
+      "plan_nom": "Rivière MacDonald b)",
+      "lat": 50.171667,
+      "lon": -67.267222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1320,
+      "plan_nom": "Rivière MacDonald c)",
+      "lat": 50.172222,
+      "lon": -67.273611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1321,
+      "plan_nom": "Rivière MacDonald d)",
+      "lat": 50.172222,
+      "lon": -67.273611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2805,
+      "plan_nom": "Rivière Moisie e)",
+      "lat": 50.307778,
+      "lon": -66.202778,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 5.1,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 5.1
+      }
+    },
+    {
+      "plan_id": 2806,
+      "plan_nom": "Rivière Moisie f)",
+      "lat": 50.309722,
+      "lon": -66.203611,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 4.91,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 4.91
+      }
+    },
+    {
+      "plan_id": 1240,
+      "plan_nom": "Rivière Moisie g)",
+      "lat": 51.325556,
+      "lon": -66.309167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1244,
+      "plan_nom": "Rivière Nipissis",
+      "lat": 50.901667,
+      "lon": -65.955556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1323,
+      "plan_nom": "Rivière Ronald",
+      "lat": 50.1725,
+      "lon": -67.261667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1242,
+      "plan_nom": "Rivière Taoti",
+      "lat": 51.75,
+      "lon": -66.333333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1246,
+      "plan_nom": "Rivière Wacouno",
+      "lat": 51.023333,
+      "lon": -65.853056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1170,
+      "plan_nom": "Ruisseau sans nom entre l'émissaire du Lac Daviault",
+      "lat": 52.785833,
+      "lon": -67.103611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

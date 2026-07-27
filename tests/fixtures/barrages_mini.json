@@ -1,0 +1,29 @@
+{
+  "fetched_at": "2026-01-01T00:00:00Z",
+  "source": "test",
+  "nb_barrages": 2,
+  "barrages": [
+    {
+      "numero": "X-001",
+      "nom": "Barrage Kénogami",
+      "plan_eau": "Lac Kénogami",
+      "municipalite": "Saguenay",
+      "mrc": "Test",
+      "categorie": "Barrage",
+      "lat": 48.45,
+      "lon": -71.25,
+      "url_fiche": "https://example.com"
+    },
+    {
+      "numero": "X-002",
+      "nom": "Barrage Test",
+      "plan_eau": "Rivière Test",
+      "municipalite": "Testville",
+      "mrc": "Test",
+      "categorie": "Petit barrage",
+      "lat": 48.51,
+      "lon": -71.30,
+      "url_fiche": "https://example.com"
+    }
+  ]
+}

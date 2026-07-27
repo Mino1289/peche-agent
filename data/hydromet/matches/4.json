@@ -1,0 +1,2191 @@
+{
+  "meta": {
+    "zone_id": 4,
+    "radius_km": 25.0,
+    "nb_with_coords": 33,
+    "nb_station_matched": 33
+  },
+  "matches": [
+    {
+      "plan_id": 524,
+      "plan_nom": "Lac Aylmer",
+      "lat": 45.82,
+      "lon": -71.341389,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 1.94,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 1.94
+      }
+    },
+    {
+      "plan_id": 536,
+      "plan_nom": "Lac Drolet",
+      "lat": 45.738611,
+      "lon": -70.876667,
+      "stations": [
+        {
+          "id": "023427",
+          "plan_eau": "Rivière Chaudière",
+          "description": "En aval du barrage Mégantic",
+          "lat": 45.573056,
+          "lon": -70.880444,
+          "distance_km": 18.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023409",
+          "plan_eau": "Lac Mégantic",
+          "description": "Au lac Mégantic à Lac-Mégantic",
+          "lat": 45.573,
+          "lon": -70.88,
+          "distance_km": 18.42,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023427",
+      "station": {
+        "id": "023427",
+        "plan_eau": "Rivière Chaudière",
+        "description": "En aval du barrage Mégantic",
+        "lat": 45.573056,
+        "lon": -70.880444,
+        "distance_km": 18.41
+      }
+    },
+    {
+      "plan_id": 12120,
+      "plan_nom": "Lac Elgin et ses tributaires",
+      "lat": 45.748333,
+      "lon": -71.336111,
+      "stations": [
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 5.6,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 5.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 5.75,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 6.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 6.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 14.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030282",
+          "plan_eau": "Rivière au Saumon",
+          "description": "À 1,9 km en amont du ruisseau McGill",
+          "lat": 45.58,
+          "lon": -71.385,
+          "distance_km": 19.1,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 22.05,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030278",
+      "station": {
+        "id": "030278",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 0,1 km en aval du barrage Aylmer",
+        "lat": 45.760361,
+        "lon": -71.406222,
+        "distance_km": 5.6
+      }
+    },
+    {
+      "plan_id": 528,
+      "plan_nom": "Lac Fortin",
+      "lat": 46.118889,
+      "lon": -70.856389,
+      "stations": [
+        {
+          "id": "Beauceville",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 108 à Beauceville",
+          "lat": 46.211,
+          "lon": -70.776,
+          "distance_km": 11.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Saint-Georges",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 271 à Saint-Georges",
+          "lat": 46.12,
+          "lon": -70.6732,
+          "distance_km": 14.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023451",
+          "plan_eau": "Bras Saint-Victor",
+          "description": "à 3.5 km en aval de La Guadeloupe",
+          "lat": 45.998205,
+          "lon": -70.917963,
+          "distance_km": 14.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023429",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0,1 km en aval du barrage Sartigan",
+          "lat": 46.096,
+          "lon": -70.654,
+          "distance_km": 15.81,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023446",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0.2 km en amont du barrage Sartigan",
+          "lat": 46.095942,
+          "lon": -70.650736,
+          "distance_km": 16.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023422",
+          "plan_eau": "Rivière Famine",
+          "description": "À 6,3 km en amont du pont-route 173 à Saint-Georges",
+          "lat": 46.167,
+          "lon": -70.639,
+          "distance_km": 17.58,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Saint-Joseph-de-Beauce",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 276 à Saint-Joseph",
+          "lat": 46.308,
+          "lon": -70.8853,
+          "distance_km": 21.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023448",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À Saint-Martin à la passerelle de motoneige",
+          "lat": 45.948,
+          "lon": -70.655,
+          "distance_km": 24.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "Beauceville",
+      "station": {
+        "id": "Beauceville",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au pont-route 108 à Beauceville",
+        "lat": 46.211,
+        "lon": -70.776,
+        "distance_km": 11.97
+      }
+    },
+    {
+      "plan_id": 534,
+      "plan_nom": "Lac Grand lac Saint-François",
+      "lat": 45.898611,
+      "lon": -71.158333,
+      "stations": [
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 10.5,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 10.68,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 24.54,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 24.6,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 25.35,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030225",
+      "station": {
+        "id": "030225",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 0,6 km en aval du barrage Jules-Allard",
+        "lat": 45.942556,
+        "lon": -71.278528,
+        "distance_km": 10.5
+      }
+    },
+    {
+      "plan_id": 529,
+      "plan_nom": "Lac Louise",
+      "lat": 45.726667,
+      "lon": -71.416389,
+      "stations": [
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 1.33,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030289",
+      "station": {
+        "id": "030289",
+        "plan_eau": "Lac Louise",
+        "description": "À Weedon",
+        "lat": 45.738,
+        "lon": -71.422,
+        "distance_km": 1.33
+      }
+    },
+    {
+      "plan_id": 530,
+      "plan_nom": "Lac McGill",
+      "lat": 45.592222,
+      "lon": -71.285833,
+      "stations": [
+        {
+          "id": "030282",
+          "plan_eau": "Rivière au Saumon",
+          "description": "À 1,9 km en amont du ruisseau McGill",
+          "lat": 45.58,
+          "lon": -71.385,
+          "distance_km": 7.84,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 15.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 19.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 20.31,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 20.91,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 20.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 24.0,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030282",
+      "station": {
+        "id": "030282",
+        "plan_eau": "Rivière au Saumon",
+        "description": "À 1,9 km en amont du ruisseau McGill",
+        "lat": 45.58,
+        "lon": -71.385,
+        "distance_km": 7.84
+      }
+    },
+    {
+      "plan_id": 542,
+      "plan_nom": "Lac Mégantic",
+      "lat": 45.513889,
+      "lon": -72.877778,
+      "stations": [
+        {
+          "id": "030304",
+          "plan_eau": "Rivière Noire",
+          "description": "À 7,6 km de la Yamaska",
+          "lat": 45.5,
+          "lon": -72.906,
+          "distance_km": 2.69,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 4.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 13.66,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030348",
+          "plan_eau": "Ruisseau Runnels",
+          "description": "À 30 mètres en aval du pont-route de Saint-Valérien-de-Milton",
+          "lat": 45.591194,
+          "lon": -72.689072,
+          "distance_km": 17.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 18.74,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030429",
+          "plan_eau": "Ruisseau à l'Ours",
+          "description": "À Saint-Jean-Baptiste",
+          "lat": 45.521722,
+          "lon": -73.123111,
+          "distance_km": 19.13,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030315",
+          "plan_eau": "Rivière Noire",
+          "description": "à 2,3 km en amont du pont-route 116",
+          "lat": 45.63813,
+          "lon": -72.654172,
+          "distance_km": 22.22,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030309",
+          "plan_eau": "Réservoir Choinière",
+          "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+          "lat": 45.41775,
+          "lon": -72.609917,
+          "distance_km": 23.47,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030304",
+      "station": {
+        "id": "030304",
+        "plan_eau": "Rivière Noire",
+        "description": "À 7,6 km de la Yamaska",
+        "lat": 45.5,
+        "lon": -72.906,
+        "distance_km": 2.69
+      }
+    },
+    {
+      "plan_id": 12121,
+      "plan_nom": "Lac Mégantic",
+      "lat": 45.513889,
+      "lon": -72.877778,
+      "stations": [
+        {
+          "id": "030304",
+          "plan_eau": "Rivière Noire",
+          "description": "À 7,6 km de la Yamaska",
+          "lat": 45.5,
+          "lon": -72.906,
+          "distance_km": 2.69,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 4.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 13.66,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030348",
+          "plan_eau": "Ruisseau Runnels",
+          "description": "À 30 mètres en aval du pont-route de Saint-Valérien-de-Milton",
+          "lat": 45.591194,
+          "lon": -72.689072,
+          "distance_km": 17.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 18.74,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030429",
+          "plan_eau": "Ruisseau à l'Ours",
+          "description": "À Saint-Jean-Baptiste",
+          "lat": 45.521722,
+          "lon": -73.123111,
+          "distance_km": 19.13,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030315",
+          "plan_eau": "Rivière Noire",
+          "description": "à 2,3 km en amont du pont-route 116",
+          "lat": 45.63813,
+          "lon": -72.654172,
+          "distance_km": 22.22,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030309",
+          "plan_eau": "Réservoir Choinière",
+          "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+          "lat": 45.41775,
+          "lon": -72.609917,
+          "distance_km": 23.47,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030304",
+      "station": {
+        "id": "030304",
+        "plan_eau": "Rivière Noire",
+        "description": "À 7,6 km de la Yamaska",
+        "lat": 45.5,
+        "lon": -72.906,
+        "distance_km": 2.69
+      }
+    },
+    {
+      "plan_id": 531,
+      "plan_nom": "Lac Moffatt",
+      "lat": 45.5675,
+      "lon": -71.313333,
+      "stations": [
+        {
+          "id": "030282",
+          "plan_eau": "Rivière au Saumon",
+          "description": "À 1,9 km en amont du ruisseau McGill",
+          "lat": 45.58,
+          "lon": -71.385,
+          "distance_km": 5.75,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 15.74,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 20.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 21.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 22.63,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 22.69,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030282",
+      "station": {
+        "id": "030282",
+        "plan_eau": "Rivière au Saumon",
+        "description": "À 1,9 km en amont du ruisseau McGill",
+        "lat": 45.58,
+        "lon": -71.385,
+        "distance_km": 5.75
+      }
+    },
+    {
+      "plan_id": 544,
+      "plan_nom": "Lac Petit lac Lambton",
+      "lat": 45.898333,
+      "lon": -71.117222,
+      "stations": [
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 13.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 13.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023451",
+          "plan_eau": "Bras Saint-Victor",
+          "description": "à 3.5 km en aval de La Guadeloupe",
+          "lat": 45.998205,
+          "lon": -70.917963,
+          "distance_km": 18.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 19.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030225",
+      "station": {
+        "id": "030225",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 0,6 km en aval du barrage Jules-Allard",
+        "lat": 45.942556,
+        "lon": -71.278528,
+        "distance_km": 13.41
+      }
+    },
+    {
+      "plan_id": 535,
+      "plan_nom": "Lac Petit lac Vaseux",
+      "lat": 45.600278,
+      "lon": -71.311111,
+      "stations": [
+        {
+          "id": "030282",
+          "plan_eau": "Rivière au Saumon",
+          "description": "À 1,9 km en amont du ruisseau McGill",
+          "lat": 45.58,
+          "lon": -71.385,
+          "distance_km": 6.18,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 13.83,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 17.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 18.63,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 19.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 19.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 22.93,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030282",
+      "station": {
+        "id": "030282",
+        "plan_eau": "Rivière au Saumon",
+        "description": "À 1,9 km en amont du ruisseau McGill",
+        "lat": 45.58,
+        "lon": -71.385,
+        "distance_km": 6.18
+      }
+    },
+    {
+      "plan_id": 2993,
+      "plan_nom": "Lac Raquette",
+      "lat": 46.111944,
+      "lon": -70.801111,
+      "stations": [
+        {
+          "id": "Saint-Georges",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 271 à Saint-Georges",
+          "lat": 46.12,
+          "lon": -70.6732,
+          "distance_km": 9.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Beauceville",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 108 à Beauceville",
+          "lat": 46.211,
+          "lon": -70.776,
+          "distance_km": 11.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023429",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0,1 km en aval du barrage Sartigan",
+          "lat": 46.096,
+          "lon": -70.654,
+          "distance_km": 11.48,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023446",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0.2 km en amont du barrage Sartigan",
+          "lat": 46.095942,
+          "lon": -70.650736,
+          "distance_km": 11.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023422",
+          "plan_eau": "Rivière Famine",
+          "description": "À 6,3 km en amont du pont-route 173 à Saint-Georges",
+          "lat": 46.167,
+          "lon": -70.639,
+          "distance_km": 13.91,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023451",
+          "plan_eau": "Bras Saint-Victor",
+          "description": "à 3.5 km en aval de La Guadeloupe",
+          "lat": 45.998205,
+          "lon": -70.917963,
+          "distance_km": 15.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023448",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À Saint-Martin à la passerelle de motoneige",
+          "lat": 45.948,
+          "lon": -70.655,
+          "distance_km": 21.44,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023428",
+          "plan_eau": "Rivière du Loup",
+          "description": "Au pont-route à Saint-Côme-Linière",
+          "lat": 46.06,
+          "lon": -70.532,
+          "distance_km": 21.54,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "Saint-Georges",
+      "station": {
+        "id": "Saint-Georges",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au pont-route 271 à Saint-Georges",
+        "lat": 46.12,
+        "lon": -70.6732,
+        "distance_km": 9.9
+      }
+    },
+    {
+      "plan_id": 541,
+      "plan_nom": "Lac Ruel",
+      "lat": 45.831389,
+      "lon": -71.138889,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 14.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 16.42,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 16.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 22.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 22.18,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 22.76,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 24.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 14.77
+      }
+    },
+    {
+      "plan_id": 2995,
+      "plan_nom": "Lac Sartigan",
+      "lat": 46.148889,
+      "lon": -70.776389,
+      "stations": [
+        {
+          "id": "Beauceville",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 108 à Beauceville",
+          "lat": 46.211,
+          "lon": -70.776,
+          "distance_km": 6.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Saint-Georges",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 271 à Saint-Georges",
+          "lat": 46.12,
+          "lon": -70.6732,
+          "distance_km": 8.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023422",
+          "plan_eau": "Rivière Famine",
+          "description": "À 6,3 km en amont du pont-route 173 à Saint-Georges",
+          "lat": 46.167,
+          "lon": -70.639,
+          "distance_km": 10.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023429",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0,1 km en aval du barrage Sartigan",
+          "lat": 46.096,
+          "lon": -70.654,
+          "distance_km": 11.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023446",
+          "plan_eau": "Rivière Chaudière",
+          "description": "À 0.2 km en amont du barrage Sartigan",
+          "lat": 46.095942,
+          "lon": -70.650736,
+          "distance_km": 11.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Saint-Joseph-de-Beauce",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 276 à Saint-Joseph",
+          "lat": 46.308,
+          "lon": -70.8853,
+          "distance_km": 19.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023451",
+          "plan_eau": "Bras Saint-Victor",
+          "description": "à 3.5 km en aval de La Guadeloupe",
+          "lat": 45.998205,
+          "lon": -70.917963,
+          "distance_km": 20.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023428",
+          "plan_eau": "Rivière du Loup",
+          "description": "Au pont-route à Saint-Côme-Linière",
+          "lat": 46.06,
+          "lon": -70.532,
+          "distance_km": 21.28,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "Beauceville",
+      "station": {
+        "id": "Beauceville",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au pont-route 108 à Beauceville",
+        "lat": 46.211,
+        "lon": -70.776,
+        "distance_km": 6.91
+      }
+    },
+    {
+      "plan_id": 525,
+      "plan_nom": "Lac Welland",
+      "lat": 45.680556,
+      "lon": -71.534444,
+      "stations": [
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 5.69,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 10.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 12.57,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 13.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 13.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030282",
+          "plan_eau": "Rivière au Saumon",
+          "description": "À 1,9 km en amont du ruisseau McGill",
+          "lat": 45.58,
+          "lon": -71.385,
+          "distance_km": 16.13,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 21.38,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030284",
+      "station": {
+        "id": "030284",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 0,5 km en aval de la centrale de Weedon",
+        "lat": 45.658389,
+        "lon": -71.468389,
+        "distance_km": 5.69
+      }
+    },
+    {
+      "plan_id": 2592,
+      "plan_nom": "Parc National de Frontenac Lac à la Barbue",
+      "lat": 45.819444,
+      "lon": -71.1875,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 10.83,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 15.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 16.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 18.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 18.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 18.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 20.32,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 10.83
+      }
+    },
+    {
+      "plan_id": 2593,
+      "plan_nom": "Parc National de Frontenac Lac des Îles",
+      "lat": 45.791111,
+      "lon": -71.190278,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 10.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 17.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 17.09,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 17.56,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 18.17,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 18.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 18.92,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 10.66
+      }
+    },
+    {
+      "plan_id": 2594,
+      "plan_nom": "Parc National de Frontenac Lac des Ours",
+      "lat": 45.852222,
+      "lon": -71.192222,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 11.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 12.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 12.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 19.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 19.48,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 20.17,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 21.88,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 11.56
+      }
+    },
+    {
+      "plan_id": 557,
+      "plan_nom": "Rivière aux Bluets entre le Grand lac Saint-François et le pont de la route 108",
+      "lat": 45.883056,
+      "lon": -71.016111,
+      "stations": [
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 21.33,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 21.35,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030201",
+      "station": {
+        "id": "030201",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+        "lat": 45.951,
+        "lon": -71.274,
+        "distance_km": 21.33
+      }
+    },
+    {
+      "plan_id": 12124,
+      "plan_nom": "Rivière Chaudière c) La partie comprise entre la limite sud-est de l'emprise de la route 112 à Vallée-Jonction",
+      "lat": 46.373939,
+      "lon": -70.929181,
+      "stations": [
+        {
+          "id": "Vallée-Jonction",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 112 à Vallée-Jonction",
+          "lat": 46.374,
+          "lon": -70.9292,
+          "distance_km": 0.01,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "Saint-Joseph-de-Beauce",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 276 à Saint-Joseph",
+          "lat": 46.308,
+          "lon": -70.8853,
+          "distance_km": 8.07,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "Sainte-Marie",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 216 à Sainte-Marie",
+          "lat": 46.4372,
+          "lon": -71.0235,
+          "distance_km": 10.09,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "Scott",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au nord du pont-route 171 à Scott",
+          "lat": 46.5036,
+          "lon": -71.0723,
+          "distance_km": 18.11,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "Beauceville",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 108 à Beauceville",
+          "lat": 46.211,
+          "lon": -70.776,
+          "distance_km": 21.61,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "Vallée-Jonction",
+      "station": {
+        "id": "Vallée-Jonction",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au pont-route 112 à Vallée-Jonction",
+        "lat": 46.374,
+        "lon": -70.9292,
+        "distance_km": 0.01
+      }
+    },
+    {
+      "plan_id": 586,
+      "plan_nom": "Rivière Chaudière d) La partie entre le pont de la voie ferrée et le barrage Mégantic",
+      "lat": 45.573333,
+      "lon": -70.880556,
+      "stations": [
+        {
+          "id": "023427",
+          "plan_eau": "Rivière Chaudière",
+          "description": "En aval du barrage Mégantic",
+          "lat": 45.573056,
+          "lon": -70.880444,
+          "distance_km": 0.03,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "023409",
+          "plan_eau": "Lac Mégantic",
+          "description": "Au lac Mégantic à Lac-Mégantic",
+          "lat": 45.573,
+          "lon": -70.88,
+          "distance_km": 0.06,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "023427",
+      "station": {
+        "id": "023427",
+        "plan_eau": "Rivière Chaudière",
+        "description": "En aval du barrage Mégantic",
+        "lat": 45.573056,
+        "lon": -70.880444,
+        "distance_km": 0.03
+      }
+    },
+    {
+      "plan_id": 582,
+      "plan_nom": "Rivière Clinton de son embouchure jusqu'au côté amont du pont de la route 212",
+      "lat": 45.374444,
+      "lon": -70.958333,
+      "stations": [
+        {
+          "id": "023427",
+          "plan_eau": "Rivière Chaudière",
+          "description": "En aval du barrage Mégantic",
+          "lat": 45.573056,
+          "lon": -70.880444,
+          "distance_km": 22.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023409",
+          "plan_eau": "Lac Mégantic",
+          "description": "Au lac Mégantic à Lac-Mégantic",
+          "lat": 45.573,
+          "lon": -70.88,
+          "distance_km": 22.91,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023427",
+      "station": {
+        "id": "023427",
+        "plan_eau": "Rivière Chaudière",
+        "description": "En aval du barrage Mégantic",
+        "lat": 45.573056,
+        "lon": -70.880444,
+        "distance_km": 22.9
+      }
+    },
+    {
+      "plan_id": 578,
+      "plan_nom": "Rivière Coulombe du pont de la route 161 à son embouchure dans le lac Aylmer, y compris la baie à son embouchure",
+      "lat": 45.822778,
+      "lon": -71.393056,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 5.51,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 5.51
+      }
+    },
+    {
+      "plan_id": 565,
+      "plan_nom": "Rivière de l'Or du Grand lac Saint-François jusqu'au pont de la route 267",
+      "lat": 46.023889,
+      "lon": -71.230833,
+      "stations": [
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 8.76,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 9.77,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030201",
+      "station": {
+        "id": "030201",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+        "lat": 45.951,
+        "lon": -71.274,
+        "distance_km": 8.76
+      }
+    },
+    {
+      "plan_id": 12123,
+      "plan_nom": "Rivière des Indiens La partie comprise entre sa confluence avec le lac aux Araignées",
+      "lat": 45.486944,
+      "lon": -70.802222,
+      "stations": [
+        {
+          "id": "023409",
+          "plan_eau": "Lac Mégantic",
+          "description": "Au lac Mégantic à Lac-Mégantic",
+          "lat": 45.573,
+          "lon": -70.88,
+          "distance_km": 11.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023427",
+          "plan_eau": "Rivière Chaudière",
+          "description": "En aval du barrage Mégantic",
+          "lat": 45.573056,
+          "lon": -70.880444,
+          "distance_km": 11.35,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023409",
+      "station": {
+        "id": "023409",
+        "plan_eau": "Lac Mégantic",
+        "description": "Au lac Mégantic à Lac-Mégantic",
+        "lat": 45.573,
+        "lon": -70.88,
+        "distance_km": 11.33
+      }
+    },
+    {
+      "plan_id": 2667,
+      "plan_nom": "Rivière Felton de son embouchure jusqu'au côté amont du pont de la route 108",
+      "lat": 45.734444,
+      "lon": -71.129444,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 17.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 21.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 21.67,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 21.87,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 22.71,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 17.21
+      }
+    },
+    {
+      "plan_id": 572,
+      "plan_nom": "Rivière Muskrat du pont du 4e rang",
+      "lat": 45.995833,
+      "lon": -71.158333,
+      "stations": [
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 10.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 11.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023451",
+          "plan_eau": "Bras Saint-Victor",
+          "description": "à 3.5 km en aval de La Guadeloupe",
+          "lat": 45.998205,
+          "lon": -70.917963,
+          "distance_km": 18.57,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 24.75,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030201",
+      "station": {
+        "id": "030201",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+        "lat": 45.951,
+        "lon": -71.274,
+        "distance_km": 10.23
+      }
+    },
+    {
+      "plan_id": 593,
+      "plan_nom": "Rivière Saint-François c) entre le pont de la route 161 à Saint-Gérard et la pointe aval de l'île qui est située aux coordonnées 45°45'13\" N., 71°24'30\" O.",
+      "lat": 45.753611,
+      "lon": -71.408333,
+      "stations": [
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 0.15,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 0.77,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 0.84,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 11.57,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 23.29,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 24.29,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030298",
+      "station": {
+        "id": "030298",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 1 km en aval du barrage Aylmer",
+        "lat": 45.752917,
+        "lon": -71.409972,
+        "distance_km": 0.15
+      }
+    },
+    {
+      "plan_id": 594,
+      "plan_nom": "Rivière Saint-François d) entre le barrage hydro-électrique à Westbury situé aux coordonnées 45°29'51\" N., 71°37'11\" O. et la pointe aval de l'île aux coordonnées 45°29'49\" N., 71°37'25\" O.",
+      "lat": 45.4975,
+      "lon": -71.619722,
+      "stations": [
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 12.45,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 21.42,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 23.34,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030206",
+      "station": {
+        "id": "030206",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+        "lat": 45.448596,
+        "lon": -71.7633,
+        "distance_km": 12.45
+      }
+    },
+    {
+      "plan_id": 595,
+      "plan_nom": "Rivière Saint-François e) entre barrage d'East Angus situé aux coordonnées 45°28'56\" N., 71°39'45\" O. et le pont du chemin de fer situé aux coordonnées 45°29'04\" N., 71°39'55\" O.",
+      "lat": 45.482222,
+      "lon": -71.6625,
+      "stations": [
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 8.7,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 19.6,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 24.74,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 28.56,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030206",
+      "station": {
+        "id": "030206",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+        "lat": 45.448596,
+        "lon": -71.7633,
+        "distance_km": 8.7
+      }
+    },
+    {
+      "plan_id": 597,
+      "plan_nom": "Rivière Sauvage de son embouchure jusqu'au côté amont du pont de la route 108",
+      "lat": 45.765,
+      "lon": -71.097222,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 18.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 23.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 23.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 24.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 24.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 24.8,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 18.32
+      }
+    },
+    {
+      "plan_id": 583,
+      "plan_nom": "Rivière Victoria de sa source à son embouchure",
+      "lat": 45.55,
+      "lon": -70.933333,
+      "stations": [
+        {
+          "id": "023427",
+          "plan_eau": "Rivière Chaudière",
+          "description": "En aval du barrage Mégantic",
+          "lat": 45.573056,
+          "lon": -70.880444,
+          "distance_km": 4.85,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023409",
+          "plan_eau": "Lac Mégantic",
+          "description": "Au lac Mégantic à Lac-Mégantic",
+          "lat": 45.573,
+          "lon": -70.88,
+          "distance_km": 4.88,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "023427",
+      "station": {
+        "id": "023427",
+        "plan_eau": "Rivière Chaudière",
+        "description": "En aval du barrage Mégantic",
+        "lat": 45.573056,
+        "lon": -70.880444,
+        "distance_km": 4.85
+      }
+    }
+  ]
+}

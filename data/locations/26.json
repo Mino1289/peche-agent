@@ -1,0 +1,1386 @@
+{
+  "meta": {
+    "zone_id": 26,
+    "zone_nom": "Zone 23 nord",
+    "nb_plans": 82,
+    "nb_geocoded": 78,
+    "pct_geocoded": 95.1,
+    "source_file": "zones/26.json"
+  },
+  "locations": [
+    {
+      "id": 1794,
+      "zone_id": 26,
+      "nom_brut": "Anse Bell entre les points 59°58'02\" N., 65°07'50\" O. et 59°53'39\" N., 65°00'38\" O.",
+      "nom": "Anse Bell entre les points 59°58'02\" N., 65°07'50\" O. et 59°53'39\" N., 65°00'38\" O.",
+      "nom_search": "anse bell entre les points 59 58 02 n 65 07 50 o et 59 53 39 n 65 00 38 o",
+      "segment_label": null,
+      "river_base_name": "Anse Bell",
+      "aliases": [
+        "anse bell",
+        "anse bell entre les points 59 58 02 n 65 07 50 o et 59 53 39 n 65 00 38 o"
+      ],
+      "lat": 59.967222,
+      "lon": -65.130556
+    },
+    {
+      "id": 1796,
+      "zone_id": 26,
+      "nom_brut": "Anse Davis (Inlet), entre les points 59°15' N., 65°37' O. et 59°10' N., 65°34' O.",
+      "nom": "Anse Davis",
+      "nom_search": "anse davis inlet) entre les points 59 15 n 65 37 o et 59 10 n 65 34 o",
+      "segment_label": null,
+      "river_base_name": "Anse Davis",
+      "aliases": [
+        "anse davis",
+        "anse davis inlet) entre les points 59 15 n 65 37 o et 59 10 n 65 34 o"
+      ],
+      "lat": 59.25,
+      "lon": -65.616667
+    },
+    {
+      "id": 1799,
+      "zone_id": 26,
+      "nom_brut": "Anse Gregson (Inlet), entre les points 59°15'9,5'' N., 65°33'51'' O. et 59°08'24'' N., 65°28'37'' O.",
+      "nom": "Anse Gregson",
+      "nom_search": "anse gregson inlet) entre les points 59 15 9 5 n 65 33 51 o et 59 08 24 n 65 28 37 o",
+      "segment_label": null,
+      "river_base_name": "Anse Gregson",
+      "aliases": [
+        "anse gregson",
+        "anse gregson inlet) entre les points 59 15 9 5 n 65 33 51 o et 59 08 24 n 65 28 37 o"
+      ],
+      "lat": 59.252639,
+      "lon": -65.564167
+    },
+    {
+      "id": 2313,
+      "zone_id": 26,
+      "nom_brut": "Anse Sans nom * entre les points 59°28' N., 65°22' O. et 59°24' N., 65°15' O. * entre les points 59°25' N., 65°25' O. et 59°23' N., 65°19' O.",
+      "nom": "Anse Sans nom * entre les points 59°28' N., 65°22' O. et 59°24' N., 65°15' O. * entre les points 59°25' N., 65°25' O. et 59°23' N., 65°19' O.",
+      "nom_search": "anse sans nom entre les points 59 28 n 65 22 o et 59 24 n 65 15 o entre les points 59 25 n 65 25 o et 59 23 n 65 19 o",
+      "segment_label": null,
+      "river_base_name": "Anse Sans nom *",
+      "aliases": [
+        "anse sans nom",
+        "anse sans nom entre les points 59 28 n 65 22 o et 59 24 n 65 15 o entre les points 59 25 n 65 25 o et 59 23 n 65 19 o"
+      ],
+      "lat": 59.466667,
+      "lon": -65.366667
+    },
+    {
+      "id": 1802,
+      "zone_id": 26,
+      "nom_brut": "Anse Weymouth ( 59°20'42\" N., 65°28'25\" O. )",
+      "nom": "Anse Weymouth",
+      "nom_search": "anse weymouth 59 20 42 n 65 28 25 o )",
+      "segment_label": null,
+      "river_base_name": "Anse Weymouth",
+      "aliases": [
+        "anse weymouth",
+        "anse weymouth 59 20 42 n 65 28 25 o )"
+      ],
+      "lat": 59.345,
+      "lon": -65.473611
+    },
+    {
+      "id": 2275,
+      "zone_id": 26,
+      "nom_brut": "Baie Tasikallak (Terres II de Kangiqsualujjuaq)( 58°57'59\" N., 65°26'31\" O. )",
+      "nom": "Baie Tasikallak",
+      "nom_search": "baie tasikallak terres ii de kangiqsualujjuaq) 58 57 59 n 65 26 31 o )",
+      "segment_label": null,
+      "river_base_name": "Baie Tasikallak",
+      "aliases": [
+        "baie tasikallak",
+        "baie tasikallak terres ii de kangiqsualujjuaq) 58 57 59 n 65 26 31 o )"
+      ],
+      "lat": 58.966389,
+      "lon": -65.441944
+    },
+    {
+      "id": 1747,
+      "zone_id": 26,
+      "nom_brut": "Eaux du coude Allipaaq (Terres I, Salluit)( 62°04'48\" N., 74°41'40\" O. )",
+      "nom": "Eaux du coude Allipaaq",
+      "nom_search": "eaux du coude allipaaq terres i salluit) 62 04 48 n 74 41 40 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux du coude Allipaaq",
+      "aliases": [
+        "eaux du coude allipaaq",
+        "eaux du coude allipaaq terres i salluit) 62 04 48 n 74 41 40 o )"
+      ],
+      "lat": 62.08,
+      "lon": -74.694444
+    },
+    {
+      "id": 1804,
+      "zone_id": 26,
+      "nom_brut": "Fjord Alluviaq entre les points 59°29'40,26\" N., 65°23'02,57\" O. et 59°22'18,84\" N., 64°56'23,53\" O.",
+      "nom": "Fjord Alluviaq entre les points 59°29'40,26\" N., 65°23'02,57\" O. et 59°22'18,84\" N., 64°56'23,53\" O.",
+      "nom_search": "fjord alluviaq entre les points 59 29 40 26 n 65 23 02 57 o et 59 22 18 84 n 64 56 23 53 o",
+      "segment_label": null,
+      "river_base_name": "Fjord Alluviaq",
+      "aliases": [
+        "fjord alluviaq",
+        "fjord alluviaq entre les points 59 29 40 26 n 65 23 02 57 o et 59 22 18 84 n 64 56 23 53 o"
+      ],
+      "lat": 59.494517,
+      "lon": -65.384047
+    },
+    {
+      "id": 2276,
+      "zone_id": 26,
+      "nom_brut": "Lac Aannaniavik ( 58°39'43\" N., 66°28'25\" O. )",
+      "nom": "Lac Aannaniavik",
+      "nom_search": "lac aannaniavik 58 39 43 n 66 28 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Aannaniavik",
+      "aliases": [
+        "aannaniavik",
+        "aannaniavik 58 39 43 n 66 28 25 o )",
+        "lac aannaniavik",
+        "lac aannaniavik 58 39 43 n 66 28 25 o )"
+      ],
+      "lat": 58.661944,
+      "lon": -66.473611
+    },
+    {
+      "id": 1745,
+      "zone_id": 26,
+      "nom_brut": "Lac Aatamialuk (Terres I, Salluit)( 62°03' N., 75°41' O. )",
+      "nom": "Lac Aatamialuk",
+      "nom_search": "lac aatamialuk terres i salluit) 62 03 n 75 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Aatamialuk",
+      "aliases": [
+        "aatamialuk",
+        "aatamialuk terres i salluit) 62 03 n 75 41 o )",
+        "lac aatamialuk",
+        "lac aatamialuk terres i salluit) 62 03 n 75 41 o )"
+      ],
+      "lat": 62.05,
+      "lon": -75.683333
+    },
+    {
+      "id": 1708,
+      "zone_id": 26,
+      "nom_brut": "Lac Amaluttuq (Terres II, (Quaqtaq)( 60°43'09\" N., 69°44'29\" O. )",
+      "nom": "Lac Amaluttuq",
+      "nom_search": "lac amaluttuq terres ii quaqtaq) 60 43 09 n 69 44 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Amaluttuq",
+      "aliases": [
+        "amaluttuq",
+        "amaluttuq terres ii quaqtaq) 60 43 09 n 69 44 29 o )",
+        "lac amaluttuq",
+        "lac amaluttuq terres ii quaqtaq) 60 43 09 n 69 44 29 o )"
+      ],
+      "lat": 60.719167,
+      "lon": -69.741389
+    },
+    {
+      "id": 2277,
+      "zone_id": 26,
+      "nom_brut": "Lac Amarutaliup ( 58°38' N., 66°28' O. )",
+      "nom": "Lac Amarutaliup",
+      "nom_search": "lac amarutaliup 58 38 n 66 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Amarutaliup",
+      "aliases": [
+        "amarutaliup",
+        "amarutaliup 58 38 n 66 28 o )",
+        "lac amarutaliup",
+        "lac amarutaliup 58 38 n 66 28 o )"
+      ],
+      "lat": 58.633333,
+      "lon": -66.466667
+    },
+    {
+      "id": 3058,
+      "zone_id": 26,
+      "nom_brut": "Lac Annabel ( 55°03'42\" N., 67°06'34\" O. )",
+      "nom": "Lac Annabel",
+      "nom_search": "lac annabel 55 03 42 n 67 06 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Annabel",
+      "aliases": [
+        "annabel",
+        "annabel 55 03 42 n 67 06 34 o )",
+        "lac annabel",
+        "lac annabel 55 03 42 n 67 06 34 o )"
+      ],
+      "lat": 55.061667,
+      "lon": -67.109444
+    },
+    {
+      "id": 2279,
+      "zone_id": 26,
+      "nom_brut": "Lac aux Goélands (Terres II)( 55°28'02\" N., 64°14'19\" O. )",
+      "nom": "Lac aux Goélands",
+      "nom_search": "lac aux goelands terres ii) 55 28 02 n 64 14 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Goélands",
+      "aliases": [
+        "aux goelands",
+        "aux goelands terres ii) 55 28 02 n 64 14 19 o )",
+        "lac aux goelands",
+        "lac aux goelands terres ii) 55 28 02 n 64 14 19 o )"
+      ],
+      "lat": 55.467222,
+      "lon": -64.238611
+    },
+    {
+      "id": 1763,
+      "zone_id": 26,
+      "nom_brut": "Lac Ballantyne (Terres II (Kuujjuaq)), entre les points 58°47' N., 69°10' O. et 58°27' N., 69°10' O.",
+      "nom": "Lac Ballantyne",
+      "nom_search": "lac ballantyne terres ii kuujjuaq)) entre les points 58 47 n 69 10 o et 58 27 n 69 10 o",
+      "segment_label": null,
+      "river_base_name": "Lac Ballantyne",
+      "aliases": [
+        "ballantyne",
+        "ballantyne terres ii kuujjuaq)) entre les points 58 47 n 69 10 o et 58 27 n 69 10 o",
+        "lac ballantyne",
+        "lac ballantyne terres ii kuujjuaq)) entre les points 58 47 n 69 10 o et 58 27 n 69 10 o"
+      ],
+      "lat": 58.783333,
+      "lon": -69.166667
+    },
+    {
+      "id": 2288,
+      "zone_id": 26,
+      "nom_brut": "Lac Bérard (Terres II de Tasiujaq - 58°28'40\" N., 70°03'21\" O. )",
+      "nom": "Lac Bérard",
+      "nom_search": "lac berard terres ii de tasiujaq 58 28 40 n 70 03 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bérard",
+      "aliases": [
+        "berard",
+        "berard terres ii de tasiujaq 58 28 40 n 70 03 21 o )",
+        "lac berard",
+        "lac berard terres ii de tasiujaq 58 28 40 n 70 03 21 o )"
+      ],
+      "lat": 58.477778,
+      "lon": -70.055833
+    },
+    {
+      "id": 3059,
+      "zone_id": 26,
+      "nom_brut": "Lac Cacher ( 54°48' N., 66°50' O. )",
+      "nom": "Lac Cacher",
+      "nom_search": "lac cacher 54 48 n 66 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cacher",
+      "aliases": [
+        "cacher",
+        "cacher 54 48 n 66 50 o )",
+        "lac cacher",
+        "lac cacher 54 48 n 66 50 o )"
+      ],
+      "lat": 54.8,
+      "lon": -66.833333
+    },
+    {
+      "id": 1758,
+      "zone_id": 26,
+      "nom_brut": "Lac Chaunet (Terres II de Kangirsuk)( 60°13'35\" N., 70°15'38\" O. )",
+      "nom": "Lac Chaunet",
+      "nom_search": "lac chaunet terres ii de kangirsuk) 60 13 35 n 70 15 38 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chaunet",
+      "aliases": [
+        "chaunet",
+        "chaunet terres ii de kangirsuk) 60 13 35 n 70 15 38 o )",
+        "lac chaunet",
+        "lac chaunet terres ii de kangirsuk) 60 13 35 n 70 15 38 o )"
+      ],
+      "lat": 60.226389,
+      "lon": -70.260556
+    },
+    {
+      "id": 1710,
+      "zone_id": 26,
+      "nom_brut": "Lac Deharveng (Terres I, (Tasiujaq)( 58°23'27\" N., 69°58'07\" O. )",
+      "nom": "Lac Deharveng",
+      "nom_search": "lac deharveng terres i tasiujaq) 58 23 27 n 69 58 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Deharveng",
+      "aliases": [
+        "deharveng",
+        "deharveng terres i tasiujaq) 58 23 27 n 69 58 07 o )",
+        "lac deharveng",
+        "lac deharveng terres i tasiujaq) 58 23 27 n 69 58 07 o )"
+      ],
+      "lat": 58.390833,
+      "lon": -69.968611
+    },
+    {
+      "id": 1765,
+      "zone_id": 26,
+      "nom_brut": "Lac Diana (Terres II (Kuujjuaq) ( 58°26' N., 68°58' O. ))",
+      "nom": "Lac Diana",
+      "nom_search": "lac diana terres ii kuujjuaq) 58 26 n 68 58 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Diana",
+      "aliases": [
+        "diana",
+        "diana terres ii kuujjuaq) 58 26 n 68 58 o ))",
+        "lac diana",
+        "lac diana terres ii kuujjuaq) 58 26 n 68 58 o ))"
+      ],
+      "lat": 58.433333,
+      "lon": -68.966667
+    },
+    {
+      "id": 2278,
+      "zone_id": 26,
+      "nom_brut": "Lac Ducreux ( 57°45' N., 69°33' O. )",
+      "nom": "Lac Ducreux",
+      "nom_search": "lac ducreux 57 45 n 69 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ducreux",
+      "aliases": [
+        "ducreux",
+        "ducreux 57 45 n 69 33 o )",
+        "lac ducreux",
+        "lac ducreux 57 45 n 69 33 o )"
+      ],
+      "lat": 57.75,
+      "lon": -69.55
+    },
+    {
+      "id": 2289,
+      "zone_id": 26,
+      "nom_brut": "Lac Dulhut (Terres II de Tasiujaq - 58°40'46\" N., 70°37'42\" O. )",
+      "nom": "Lac Dulhut",
+      "nom_search": "lac dulhut terres ii de tasiujaq 58 40 46 n 70 37 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Dulhut",
+      "aliases": [
+        "dulhut",
+        "dulhut terres ii de tasiujaq 58 40 46 n 70 37 42 o )",
+        "lac dulhut",
+        "lac dulhut terres ii de tasiujaq 58 40 46 n 70 37 42 o )"
+      ],
+      "lat": 58.679444,
+      "lon": -70.628333
+    },
+    {
+      "id": 1812,
+      "zone_id": 26,
+      "nom_brut": "Lac Duquet entre les points 62°07' N., 74°34' O. et 62°02' N., 74°31' O.",
+      "nom": "Lac Duquet entre les points 62°07' N., 74°34' O. et 62°02' N., 74°31' O.",
+      "nom_search": "lac duquet entre les points 62 07 n 74 34 o et 62 02 n 74 31 o",
+      "segment_label": null,
+      "river_base_name": "Lac Duquet",
+      "aliases": [
+        "duquet",
+        "duquet entre les points 62 07 n 74 34 o et 62 02 n 74 31 o",
+        "lac duquet",
+        "lac duquet entre les points 62 07 n 74 34 o et 62 02 n 74 31 o"
+      ],
+      "lat": 62.116667,
+      "lon": -74.566667
+    },
+    {
+      "id": 2273,
+      "zone_id": 26,
+      "nom_brut": "Lac Fougeraye (Terres II de Kangiqsualujjuaq)( 58°31'30\" N., 66°20'37\" O. )",
+      "nom": "Lac Fougeraye",
+      "nom_search": "lac fougeraye terres ii de kangiqsualujjuaq) 58 31 30 n 66 20 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Fougeraye",
+      "aliases": [
+        "fougeraye",
+        "fougeraye terres ii de kangiqsualujjuaq) 58 31 30 n 66 20 37 o )",
+        "lac fougeraye",
+        "lac fougeraye terres ii de kangiqsualujjuaq) 58 31 30 n 66 20 37 o )"
+      ],
+      "lat": 58.525,
+      "lon": -66.343611
+    },
+    {
+      "id": 1769,
+      "zone_id": 26,
+      "nom_brut": "Lac Françoys-Malherbe (Terres II (Salluit)), entre les points 62°07' N., 74°15' O. et 61°55' N., 74°15' O.",
+      "nom": "Lac Françoys-Malherbe",
+      "nom_search": "lac francoys malherbe terres ii salluit)) entre les points 62 07 n 74 15 o et 61 55 n 74 15 o",
+      "segment_label": null,
+      "river_base_name": "Lac Françoys-Malherbe",
+      "aliases": [
+        "francoys malherbe",
+        "francoys malherbe terres ii salluit)) entre les points 62 07 n 74 15 o et 61 55 n 74 15 o",
+        "lac francoys malherbe",
+        "lac francoys malherbe terres ii salluit)) entre les points 62 07 n 74 15 o et 61 55 n 74 15 o"
+      ],
+      "lat": 62.116667,
+      "lon": -74.25
+    },
+    {
+      "id": 2281,
+      "zone_id": 26,
+      "nom_brut": "Lac Inconnu ( 57°48'21\" N., 69°31'45\" O. )",
+      "nom": "Lac Inconnu",
+      "nom_search": "lac inconnu 57 48 21 n 69 31 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Inconnu",
+      "aliases": [
+        "inconnu",
+        "inconnu 57 48 21 n 69 31 45 o )",
+        "lac inconnu",
+        "lac inconnu 57 48 21 n 69 31 45 o )"
+      ],
+      "lat": 57.805833,
+      "lon": -69.529167
+    },
+    {
+      "id": 2271,
+      "zone_id": 26,
+      "nom_brut": "Lac Iqalattuuq (Terres II de Kangiqsujjuaq)( 60°30'53\" N., 72°02'45\" O. )",
+      "nom": "Lac Iqalattuuq",
+      "nom_search": "lac iqalattuuq terres ii de kangiqsujjuaq) 60 30 53 n 72 02 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Iqalattuuq",
+      "aliases": [
+        "iqalattuuq",
+        "iqalattuuq terres ii de kangiqsujjuaq) 60 30 53 n 72 02 45 o )",
+        "lac iqalattuuq",
+        "lac iqalattuuq terres ii de kangiqsujjuaq) 60 30 53 n 72 02 45 o )"
+      ],
+      "lat": 60.514722,
+      "lon": -72.045833
+    },
+    {
+      "id": 1712,
+      "zone_id": 26,
+      "nom_brut": "Lac Iqaluppilik (Terres II, (Quaqtaq)( 60°42'30\" N., 69°43'10\" O. )",
+      "nom": "Lac Iqaluppilik",
+      "nom_search": "lac iqaluppilik terres ii quaqtaq) 60 42 30 n 69 43 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Iqaluppilik",
+      "aliases": [
+        "iqaluppilik",
+        "iqaluppilik terres ii quaqtaq) 60 42 30 n 69 43 10 o )",
+        "lac iqaluppilik",
+        "lac iqaluppilik terres ii quaqtaq) 60 42 30 n 69 43 10 o )"
+      ],
+      "lat": 60.708333,
+      "lon": -69.719444
+    },
+    {
+      "id": 1739,
+      "zone_id": 26,
+      "nom_brut": "Lac Isuilutaq (Terres II d'Inukjuak ( 58°41'47\" N., 78°12'14\" O. ))",
+      "nom": "Lac Isuilutaq",
+      "nom_search": "lac isuilutaq terres ii d inukjuak 58 41 47 n 78 12 14 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Isuilutaq",
+      "aliases": [
+        "isuilutaq",
+        "isuilutaq terres ii d inukjuak 58 41 47 n 78 12 14 o ))",
+        "lac isuilutaq",
+        "lac isuilutaq terres ii d inukjuak 58 41 47 n 78 12 14 o ))"
+      ],
+      "lat": 58.696389,
+      "lon": -78.203889
+    },
+    {
+      "id": 2274,
+      "zone_id": 26,
+      "nom_brut": "Lac Kupaaluk (Terres II de Kangiqsualujjuaq)( 58°29'04\" N., 65°54'24\" O. )",
+      "nom": "Lac Kupaaluk",
+      "nom_search": "lac kupaaluk terres ii de kangiqsualujjuaq) 58 29 04 n 65 54 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kupaaluk",
+      "aliases": [
+        "kupaaluk",
+        "kupaaluk terres ii de kangiqsualujjuaq) 58 29 04 n 65 54 24 o )",
+        "lac kupaaluk",
+        "lac kupaaluk terres ii de kangiqsualujjuaq) 58 29 04 n 65 54 24 o )"
+      ],
+      "lat": 58.484444,
+      "lon": -65.906667
+    },
+    {
+      "id": 1772,
+      "zone_id": 26,
+      "nom_brut": "Lac La Roncière (Terres II (Kangiqsualujjuaq)), entre les points 58°23' N., 66°24' O. et 58°09' N., 66°01' O.",
+      "nom": "Lac La Roncière",
+      "nom_search": "lac la ronciere terres ii kangiqsualujjuaq)) entre les points 58 23 n 66 24 o et 58 09 n 66 01 o",
+      "segment_label": null,
+      "river_base_name": "Lac La Roncière",
+      "aliases": [
+        "la ronciere",
+        "la ronciere terres ii kangiqsualujjuaq)) entre les points 58 23 n 66 24 o et 58 09 n 66 01 o",
+        "lac la ronciere",
+        "lac la ronciere terres ii kangiqsualujjuaq)) entre les points 58 23 n 66 24 o et 58 09 n 66 01 o"
+      ],
+      "lat": 58.383333,
+      "lon": -66.4
+    },
+    {
+      "id": 1714,
+      "zone_id": 26,
+      "nom_brut": "Lac Lachance ( 58°17'20\" N., 70°00'58\" O. ) (Terres II, (Tasiujaq))",
+      "nom": "Lac Lachance",
+      "nom_search": "lac lachance 58 17 20 n 70 00 58 o ) terres ii tasiujaq))",
+      "segment_label": null,
+      "river_base_name": "Lac Lachance",
+      "aliases": [
+        "lac lachance",
+        "lac lachance 58 17 20 n 70 00 58 o ) terres ii tasiujaq))",
+        "lachance",
+        "lachance 58 17 20 n 70 00 58 o ) terres ii tasiujaq))"
+      ],
+      "lat": 58.288889,
+      "lon": -70.016111
+    },
+    {
+      "id": 2282,
+      "zone_id": 26,
+      "nom_brut": "Lac Le Fer (Terres III)( 55°18'12\" N., 67°20'26\" O. )",
+      "nom": "Lac Le Fer",
+      "nom_search": "lac le fer terres iii) 55 18 12 n 67 20 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Le Fer",
+      "aliases": [
+        "lac le fer",
+        "lac le fer terres iii) 55 18 12 n 67 20 26 o )",
+        "le fer",
+        "le fer terres iii) 55 18 12 n 67 20 26 o )"
+      ],
+      "lat": 55.303333,
+      "lon": -67.340556
+    },
+    {
+      "id": 2283,
+      "zone_id": 26,
+      "nom_brut": "Lac Livaudière ( 57°50'30\" N., 69°30'56\" O. )",
+      "nom": "Lac Livaudière",
+      "nom_search": "lac livaudiere 57 50 30 n 69 30 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Livaudière",
+      "aliases": [
+        "lac livaudiere",
+        "lac livaudiere 57 50 30 n 69 30 56 o )",
+        "livaudiere",
+        "livaudiere 57 50 30 n 69 30 56 o )"
+      ],
+      "lat": 57.841667,
+      "lon": -69.515556
+    },
+    {
+      "id": 1749,
+      "zone_id": 26,
+      "nom_brut": "Lac Mistinibi ( 55°57'34\" N., 64°04'26\" O. )",
+      "nom": "Lac Mistinibi",
+      "nom_search": "lac mistinibi 55 57 34 n 64 04 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Mistinibi",
+      "aliases": [
+        "lac mistinibi",
+        "lac mistinibi 55 57 34 n 64 04 26 o )",
+        "mistinibi",
+        "mistinibi 55 57 34 n 64 04 26 o )"
+      ],
+      "lat": 55.959444,
+      "lon": -64.073889
+    },
+    {
+      "id": 1716,
+      "zone_id": 26,
+      "nom_brut": "Lac Moriné ( 60°11'07\" N., 69°52'58\" O. ) (Terres II, (Kangirsuk))",
+      "nom": "Lac Moriné",
+      "nom_search": "lac morine 60 11 07 n 69 52 58 o ) terres ii kangirsuk))",
+      "segment_label": null,
+      "river_base_name": "Lac Moriné",
+      "aliases": [
+        "lac morine",
+        "lac morine 60 11 07 n 69 52 58 o ) terres ii kangirsuk))",
+        "morine",
+        "morine 60 11 07 n 69 52 58 o ) terres ii kangirsuk))"
+      ],
+      "lat": 60.185278,
+      "lon": -69.882778
+    },
+    {
+      "id": 1718,
+      "zone_id": 26,
+      "nom_brut": "Lac Nagyaraaluk ( 60°44'05\" N., 70°57'26\" O. ) (Terres II, (Quaqtaq))",
+      "nom": "Lac Nagyaraaluk",
+      "nom_search": "lac nagyaraaluk 60 44 05 n 70 57 26 o ) terres ii quaqtaq))",
+      "segment_label": null,
+      "river_base_name": "Lac Nagyaraaluk",
+      "aliases": [
+        "lac nagyaraaluk",
+        "lac nagyaraaluk 60 44 05 n 70 57 26 o ) terres ii quaqtaq))",
+        "nagyaraaluk",
+        "nagyaraaluk 60 44 05 n 70 57 26 o ) terres ii quaqtaq))"
+      ],
+      "lat": 60.734722,
+      "lon": -70.957222
+    },
+    {
+      "id": 1741,
+      "zone_id": 26,
+      "nom_brut": "Lac Nauligarvilaap Tasialunga (Terres II d'Inukjuak ( 58°46'07\" N., 78°03'54\" O. ))",
+      "nom": "Lac Nauligarvilaap Tasialunga",
+      "nom_search": "lac nauligarvilaap tasialunga terres ii d inukjuak 58 46 07 n 78 03 54 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Nauligarvilaap Tasialunga",
+      "aliases": [
+        "lac nauligarvilaap tasialunga",
+        "lac nauligarvilaap tasialunga terres ii d inukjuak 58 46 07 n 78 03 54 o ))",
+        "nauligarvilaap tasialunga",
+        "nauligarvilaap tasialunga terres ii d inukjuak 58 46 07 n 78 03 54 o ))"
+      ],
+      "lat": 58.768611,
+      "lon": -78.065
+    },
+    {
+      "id": 1723,
+      "zone_id": 26,
+      "nom_brut": "Lac Ningniugninnait Tasignat (Terres I de Kangiqsualujjuaq, (Old Women)( 58°45' N., 65°55' O. )",
+      "nom": "Lac Ningniugninnait Tasignat",
+      "nom_search": "lac ningniugninnait tasignat terres i de kangiqsualujjuaq old women) 58 45 n 65 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ningniugninnait Tasignat",
+      "aliases": [
+        "lac ningniugninnait tasignat",
+        "lac ningniugninnait tasignat terres i de kangiqsualujjuaq old women) 58 45 n 65 55 o )",
+        "ningniugninnait tasignat",
+        "ningniugninnait tasignat terres i de kangiqsualujjuaq old women) 58 45 n 65 55 o )"
+      ],
+      "lat": 58.75,
+      "lon": -65.916667
+    },
+    {
+      "id": 2284,
+      "zone_id": 26,
+      "nom_brut": "Lac Roberts ( 60°22'18\" N., 70°25'06\" O. )",
+      "nom": "Lac Roberts",
+      "nom_search": "lac roberts 60 22 18 n 70 25 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Roberts",
+      "aliases": [
+        "lac roberts",
+        "lac roberts 60 22 18 n 70 25 06 o )",
+        "roberts",
+        "roberts 60 22 18 n 70 25 06 o )"
+      ],
+      "lat": 60.371667,
+      "lon": -70.418333
+    },
+    {
+      "id": 1705,
+      "zone_id": 26,
+      "nom_brut": "Lac Stewart (Terres I de Kuujjuak, ( 58°10'37\" N., 68°26'17\" O. ))",
+      "nom": "Lac Stewart",
+      "nom_search": "lac stewart terres i de kuujjuak 58 10 37 n 68 26 17 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Stewart",
+      "aliases": [
+        "lac stewart",
+        "lac stewart terres i de kuujjuak 58 10 37 n 68 26 17 o ))",
+        "stewart",
+        "stewart terres i de kuujjuak 58 10 37 n 68 26 17 o ))"
+      ],
+      "lat": 58.176944,
+      "lon": -68.438056
+    },
+    {
+      "id": 3062,
+      "zone_id": 26,
+      "nom_brut": "Lac Tait ( 55°07' N., 66°48' O. )Terres I-BN Kawawachikamach",
+      "nom": "Lac Tait",
+      "nom_search": "lac tait 55 07 n 66 48 o )terres i bn kawawachikamach",
+      "segment_label": null,
+      "river_base_name": "Lac Tait",
+      "aliases": [
+        "lac tait",
+        "lac tait 55 07 n 66 48 o )terres i bn kawawachikamach",
+        "tait",
+        "tait 55 07 n 66 48 o )terres i bn kawawachikamach"
+      ],
+      "lat": 55.116667,
+      "lon": -66.8
+    },
+    {
+      "id": 2285,
+      "zone_id": 26,
+      "nom_brut": "Lac Tasiataq ( 58°45'16\" N., 71°46'34\" O. )",
+      "nom": "Lac Tasiataq",
+      "nom_search": "lac tasiataq 58 45 16 n 71 46 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tasiataq",
+      "aliases": [
+        "lac tasiataq",
+        "lac tasiataq 58 45 16 n 71 46 34 o )",
+        "tasiataq",
+        "tasiataq 58 45 16 n 71 46 34 o )"
+      ],
+      "lat": 58.754444,
+      "lon": -71.776111
+    },
+    {
+      "id": 2272,
+      "zone_id": 26,
+      "nom_brut": "Lac Tasikallaapik (Terres I de Tasiujaq - ( 58°35'50\" N., 69°42'30\" O. ))",
+      "nom": "Lac Tasikallaapik",
+      "nom_search": "lac tasikallaapik terres i de tasiujaq 58 35 50 n 69 42 30 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Tasikallaapik",
+      "aliases": [
+        "lac tasikallaapik",
+        "lac tasikallaapik terres i de tasiujaq 58 35 50 n 69 42 30 o ))",
+        "tasikallaapik",
+        "tasikallaapik terres i de tasiujaq 58 35 50 n 69 42 30 o ))"
+      ],
+      "lat": 58.597222,
+      "lon": -69.708333
+    },
+    {
+      "id": 1703,
+      "zone_id": 26,
+      "nom_brut": "Lac Tasirluk (Terres I de Kuujjuak, ( 58°05'42\" N., 68°28'05\" O. ))",
+      "nom": "Lac Tasirluk",
+      "nom_search": "lac tasirluk terres i de kuujjuak 58 05 42 n 68 28 05 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Tasirluk",
+      "aliases": [
+        "lac tasirluk",
+        "lac tasirluk terres i de kuujjuak 58 05 42 n 68 28 05 o ))",
+        "tasirluk",
+        "tasirluk terres i de kuujjuak 58 05 42 n 68 28 05 o ))"
+      ],
+      "lat": 58.095,
+      "lon": -68.468056
+    },
+    {
+      "id": 1755,
+      "zone_id": 26,
+      "nom_brut": "Lac Tassy (Terres II de Kawawachikamach)( 55°56'34\" N., 67°15'36\" O. )",
+      "nom": "Lac Tassy",
+      "nom_search": "lac tassy terres ii de kawawachikamach) 55 56 34 n 67 15 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tassy",
+      "aliases": [
+        "lac tassy",
+        "lac tassy terres ii de kawawachikamach) 55 56 34 n 67 15 36 o )",
+        "tassy",
+        "tassy terres ii de kawawachikamach) 55 56 34 n 67 15 36 o )"
+      ],
+      "lat": 55.942778,
+      "lon": -67.26
+    },
+    {
+      "id": 2286,
+      "zone_id": 26,
+      "nom_brut": "Lac Tesialuk (Terres III)( 58°22'58\" N., 66°59'44\" O. )",
+      "nom": "Lac Tesialuk",
+      "nom_search": "lac tesialuk terres iii) 58 22 58 n 66 59 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tesialuk",
+      "aliases": [
+        "lac tesialuk",
+        "lac tesialuk terres iii) 58 22 58 n 66 59 44 o )",
+        "tesialuk",
+        "tesialuk terres iii) 58 22 58 n 66 59 44 o )"
+      ],
+      "lat": 58.382778,
+      "lon": -66.995556
+    },
+    {
+      "id": 1751,
+      "zone_id": 26,
+      "nom_brut": "Lac Théophile-Poitras ( 55°31'00\" N., 64°30'46\" O. )",
+      "nom": "Lac Théophile-Poitras",
+      "nom_search": "lac theophile poitras 55 31 00 n 64 30 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Théophile-Poitras",
+      "aliases": [
+        "lac theophile poitras",
+        "lac theophile poitras 55 31 00 n 64 30 46 o )",
+        "theophile poitras",
+        "theophile poitras 55 31 00 n 64 30 46 o )"
+      ],
+      "lat": 55.516667,
+      "lon": -64.512778
+    },
+    {
+      "id": 1760,
+      "zone_id": 26,
+      "nom_brut": "Lac Tunulliup ( 58°27'39\" N., 66°33'29\" O. )",
+      "nom": "Lac Tunulliup",
+      "nom_search": "lac tunulliup 58 27 39 n 66 33 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tunulliup",
+      "aliases": [
+        "lac tunulliup",
+        "lac tunulliup 58 27 39 n 66 33 29 o )",
+        "tunulliup",
+        "tunulliup 58 27 39 n 66 33 29 o )"
+      ],
+      "lat": 58.460833,
+      "lon": -66.558056
+    },
+    {
+      "id": 2287,
+      "zone_id": 26,
+      "nom_brut": "Lac Turcotte ( 58°08' N., 68°49' O. )",
+      "nom": "Lac Turcotte",
+      "nom_search": "lac turcotte 58 08 n 68 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Turcotte",
+      "aliases": [
+        "lac turcotte",
+        "lac turcotte 58 08 n 68 49 o )",
+        "turcotte",
+        "turcotte 58 08 n 68 49 o )"
+      ],
+      "lat": 58.133333,
+      "lon": -68.816667
+    },
+    {
+      "id": 2270,
+      "zone_id": 26,
+      "nom_brut": "Lac Ujarasujjulik (Terres I, Kangiqsualujjuaq)( 58°45'49\" N., 65°48'10\" O. )",
+      "nom": "Lac Ujarasujjulik",
+      "nom_search": "lac ujarasujjulik terres i kangiqsualujjuaq) 58 45 49 n 65 48 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ujarasujjulik",
+      "aliases": [
+        "lac ujarasujjulik",
+        "lac ujarasujjulik terres i kangiqsualujjuaq) 58 45 49 n 65 48 10 o )",
+        "ujarasujjulik",
+        "ujarasujjulik terres i kangiqsualujjuaq) 58 45 49 n 65 48 10 o )"
+      ],
+      "lat": 58.763611,
+      "lon": -65.802778
+    },
+    {
+      "id": 3060,
+      "zone_id": 26,
+      "nom_brut": "Lac Vacher ( 54°55' N., 66°55' O. )",
+      "nom": "Lac Vacher",
+      "nom_search": "lac vacher 54 55 n 66 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vacher",
+      "aliases": [
+        "lac vacher",
+        "lac vacher 54 55 n 66 55 o )",
+        "vacher",
+        "vacher 54 55 n 66 55 o )"
+      ],
+      "lat": 54.916667,
+      "lon": -66.916667
+    },
+    {
+      "id": 1720,
+      "zone_id": 26,
+      "nom_brut": "Lac Woussen (Terres I de Kangirsuk, ( 60°04'02\" N., 70°16'35\" O. ))",
+      "nom": "Lac Woussen",
+      "nom_search": "lac woussen terres i de kangirsuk 60 04 02 n 70 16 35 o ))",
+      "segment_label": null,
+      "river_base_name": "Lac Woussen",
+      "aliases": [
+        "lac woussen",
+        "lac woussen terres i de kangirsuk 60 04 02 n 70 16 35 o ))",
+        "woussen",
+        "woussen terres i de kangirsuk 60 04 02 n 70 16 35 o ))"
+      ],
+      "lat": 60.067222,
+      "lon": -70.276389
+    },
+    {
+      "id": 1825,
+      "zone_id": 26,
+      "nom_brut": "Rivière à la Baleine entre une ligne reliant le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
+      "nom": "Rivière à la Baleine entre une ligne reliant le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
+      "nom_search": "riviere a la baleine entre une ligne reliant le point 56 50 22 n 66 29 36 o en aval du lac ninawawe et le point 56 37 24 n 66 12 00 o a l embouchure du lac ninawawe",
+      "segment_label": null,
+      "river_base_name": "Rivière à la Baleine",
+      "aliases": [
+        "a la baleine",
+        "a la baleine entre une ligne reliant le point 56 50 22 n 66 29 36 o en aval du lac ninawawe et le point 56 37 24 n 66 12 00 o a l embouchure du lac ninawawe",
+        "riviere a la baleine",
+        "riviere a la baleine entre une ligne reliant le point 56 50 22 n 66 29 36 o en aval du lac ninawawe et le point 56 37 24 n 66 12 00 o a l embouchure du lac ninawawe"
+      ],
+      "lat": 56.839444,
+      "lon": -66.493333
+    },
+    {
+      "id": 1824,
+      "zone_id": 26,
+      "nom_brut": "Rivière à la Baleine entre une ligne reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. au point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe.",
+      "nom": "Rivière à la Baleine entre une ligne reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. au point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe.",
+      "nom_search": "riviere a la baleine entre une ligne reliant les points 58 00 00 n 67 43 33 o et 58 00 00 n 67 42 18 o au point 56 50 22 n 66 29 36 o en aval du lac ninawawe",
+      "segment_label": null,
+      "river_base_name": "Rivière à la Baleine",
+      "aliases": [
+        "a la baleine",
+        "a la baleine entre une ligne reliant les points 58 00 00 n 67 43 33 o et 58 00 00 n 67 42 18 o au point 56 50 22 n 66 29 36 o en aval du lac ninawawe",
+        "riviere a la baleine",
+        "riviere a la baleine entre une ligne reliant les points 58 00 00 n 67 43 33 o et 58 00 00 n 67 42 18 o au point 56 50 22 n 66 29 36 o en aval du lac ninawawe"
+      ],
+      "lat": 58.0,
+      "lon": -67.725833
+    },
+    {
+      "id": 1775,
+      "zone_id": 26,
+      "nom_brut": "Rivière Abrat * (Terres II Kangiqsualujjuaq), entre les points 59°14'27'' N., 65°18'23'' O. et 59°03'49'' N., 65°06'53'' O. * (Terres III, Killiniq), entre les points 59°03'56\" N., 65°06'50\" O. et 59°03'42\" N., 65°02'36\" O.",
+      "nom": "Rivière Abrat *",
+      "nom_search": "riviere abrat terres ii kangiqsualujjuaq) entre les points 59 14 27 n 65 18 23 o et 59 03 49 n 65 06 53 o terres iii killiniq) entre les points 59 03 56 n 65 06 50 o et 59 03 42 n 65 02 36 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Abrat *",
+      "aliases": [
+        "abrat",
+        "abrat terres ii kangiqsualujjuaq) entre les points 59 14 27 n 65 18 23 o et 59 03 49 n 65 06 53 o terres iii killiniq) entre les points 59 03 56 n 65 06 50 o et 59 03 42 n 65 02 36 o",
+        "riviere abrat",
+        "riviere abrat terres ii kangiqsualujjuaq) entre les points 59 14 27 n 65 18 23 o et 59 03 49 n 65 06 53 o terres iii killiniq) entre les points 59 03 56 n 65 06 50 o et 59 03 42 n 65 02 36 o"
+      ],
+      "lat": 59.240833,
+      "lon": -65.306389
+    },
+    {
+      "id": 1779,
+      "zone_id": 26,
+      "nom_brut": "Rivière Alluviaq (Terres II, Killiniq) entre les points 59°22'19\" N., 64°56'22\" O. et 59°02'59\" N., 64°32'21\" O.",
+      "nom": "Rivière Alluviaq",
+      "nom_search": "riviere alluviaq terres ii killiniq) entre les points 59 22 19 n 64 56 22 o et 59 02 59 n 64 32 21 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Alluviaq",
+      "aliases": [
+        "alluviaq",
+        "alluviaq terres ii killiniq) entre les points 59 22 19 n 64 56 22 o et 59 02 59 n 64 32 21 o",
+        "riviere alluviaq",
+        "riviere alluviaq terres ii killiniq) entre les points 59 22 19 n 64 56 22 o et 59 02 59 n 64 32 21 o"
+      ],
+      "lat": 59.371944,
+      "lon": -64.939444
+    },
+    {
+      "id": 1788,
+      "zone_id": 26,
+      "nom_brut": "Rivière Arnaud (Terres II, Kangirsuk), entre les points 59°59' N., 71°53' O. et 60°01' N., 70°44' O.",
+      "nom": "Rivière Arnaud",
+      "nom_search": "riviere arnaud terres ii kangirsuk) entre les points 59 59 n 71 53 o et 60 01 n 70 44 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Arnaud",
+      "aliases": [
+        "arnaud",
+        "arnaud terres ii kangirsuk) entre les points 59 59 n 71 53 o et 60 01 n 70 44 o",
+        "riviere arnaud",
+        "riviere arnaud terres ii kangirsuk) entre les points 59 59 n 71 53 o et 60 01 n 70 44 o"
+      ],
+      "lat": 59.983333,
+      "lon": -71.883333
+    },
+    {
+      "id": 10820,
+      "zone_id": 26,
+      "nom_brut": "Rivière Arnaud (Terres III, Kangirsuk), entre les points 60°01' N., 70°44' O. et 60°01' N., 70°23' O.",
+      "nom": "Rivière Arnaud",
+      "nom_search": "riviere arnaud terres iii kangirsuk) entre les points 60 01 n 70 44 o et 60 01 n 70 23 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Arnaud",
+      "aliases": [
+        "arnaud",
+        "arnaud terres iii kangirsuk) entre les points 60 01 n 70 44 o et 60 01 n 70 23 o",
+        "riviere arnaud",
+        "riviere arnaud terres iii kangirsuk) entre les points 60 01 n 70 44 o et 60 01 n 70 23 o"
+      ],
+      "lat": 60.016667,
+      "lon": -70.733333
+    },
+    {
+      "id": 1827,
+      "zone_id": 26,
+      "nom_brut": "Rivière aux Feuilles entre une ligne reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une ligne reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
+      "nom": "Rivière aux Feuilles entre une ligne reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une ligne reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
+      "nom_search": "riviere aux feuilles entre une ligne reliant les points 58 45 30 n 70 08 42 o et 58 46 56 n 70 07 57 o et une ligne reliant les points 57 23 36 n 74 30 00 o et 57 25 34 n 74 30 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Feuilles",
+      "aliases": [
+        "aux feuilles",
+        "aux feuilles entre une ligne reliant les points 58 45 30 n 70 08 42 o et 58 46 56 n 70 07 57 o et une ligne reliant les points 57 23 36 n 74 30 00 o et 57 25 34 n 74 30 00 o",
+        "riviere aux feuilles",
+        "riviere aux feuilles entre une ligne reliant les points 58 45 30 n 70 08 42 o et 58 46 56 n 70 07 57 o et une ligne reliant les points 57 23 36 n 74 30 00 o et 57 25 34 n 74 30 00 o"
+      ],
+      "lat": 58.758333,
+      "lon": -70.145
+    },
+    {
+      "id": 1844,
+      "zone_id": 26,
+      "nom_brut": "Rivière aux Mélèzes entre le point 57°12'00\" N., 71°38'00\" O. et une ligne reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
+      "nom": "Rivière aux Mélèzes entre le point 57°12'00\" N., 71°38'00\" O. et une ligne reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
+      "nom_search": "riviere aux melezes entre le point 57 12 00 n 71 38 00 o et une ligne reliant les points 56 52 30 n 72 50 00 o et 56 52 20 n 72 50 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Mélèzes",
+      "aliases": [
+        "aux melezes",
+        "aux melezes entre le point 57 12 00 n 71 38 00 o et une ligne reliant les points 56 52 30 n 72 50 00 o et 56 52 20 n 72 50 00 o",
+        "riviere aux melezes",
+        "riviere aux melezes entre le point 57 12 00 n 71 38 00 o et une ligne reliant les points 56 52 30 n 72 50 00 o et 56 52 20 n 72 50 00 o"
+      ],
+      "lat": 57.2,
+      "lon": -71.633333
+    },
+    {
+      "id": 1843,
+      "zone_id": 26,
+      "nom_brut": "Rivière aux Mélèzes entre les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
+      "nom": "Rivière aux Mélèzes entre les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
+      "nom_search": "riviere aux melezes entre les points 57 23 11 n 70 39 00 o et 57 23 32 n 70 38 59 o et les points 57 12 10 n 71 38 02 o et 57 12 52 n 71 38 07 o",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Mélèzes",
+      "aliases": [
+        "aux melezes",
+        "aux melezes entre les points 57 23 11 n 70 39 00 o et 57 23 32 n 70 38 59 o et les points 57 12 10 n 71 38 02 o et 57 12 52 n 71 38 07 o",
+        "riviere aux melezes",
+        "riviere aux melezes entre les points 57 23 11 n 70 39 00 o et 57 23 32 n 70 38 59 o et les points 57 12 10 n 71 38 02 o et 57 12 52 n 71 38 07 o"
+      ],
+      "lat": 57.386389,
+      "lon": -70.65
+    },
+    {
+      "id": 1842,
+      "zone_id": 26,
+      "nom_brut": "Rivière aux Mélèzes entre une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
+      "nom": "Rivière aux Mélèzes entre une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
+      "nom_search": "riviere aux melezes entre une ligne reliant les points 57 41 24 n 69 27 00 o et 57 41 00 n 69 27 00 o et les points 57 23 11 n 70 39 00 o et 57 23 32 n 70 38 59 o",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Mélèzes",
+      "aliases": [
+        "aux melezes",
+        "aux melezes entre une ligne reliant les points 57 41 24 n 69 27 00 o et 57 41 00 n 69 27 00 o et les points 57 23 11 n 70 39 00 o et 57 23 32 n 70 38 59 o",
+        "riviere aux melezes",
+        "riviere aux melezes entre une ligne reliant les points 57 41 24 n 69 27 00 o et 57 41 00 n 69 27 00 o et les points 57 23 11 n 70 39 00 o et 57 23 32 n 70 38 59 o"
+      ],
+      "lat": 57.69,
+      "lon": -69.45
+    },
+    {
+      "id": 1791,
+      "zone_id": 26,
+      "nom_brut": "Rivière Barnoin (Terres II, Kangiqsuallujjuaq), entre les points 58°40' N., 65°37' O. et 58°32' N., 65°28' O. et 58°28' N., 65°21' O. et 58°16' N., 65°11' O.",
+      "nom": "Rivière Barnoin",
+      "nom_search": "riviere barnoin terres ii kangiqsuallujjuaq) entre les points 58 40 n 65 37 o et 58 32 n 65 28 o et 58 28 n 65 21 o et 58 16 n 65 11 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Barnoin",
+      "aliases": [
+        "barnoin",
+        "barnoin terres ii kangiqsuallujjuaq) entre les points 58 40 n 65 37 o et 58 32 n 65 28 o et 58 28 n 65 21 o et 58 16 n 65 11 o",
+        "riviere barnoin",
+        "riviere barnoin terres ii kangiqsuallujjuaq) entre les points 58 40 n 65 37 o et 58 32 n 65 28 o et 58 28 n 65 21 o et 58 16 n 65 11 o"
+      ],
+      "lat": 58.666667,
+      "lon": -65.616667
+    },
+    {
+      "id": 1807,
+      "zone_id": 26,
+      "nom_brut": "Rivière Barnoin (Terres III), entre les points 58°31'46,15\" N., 65°17'18,31\" O. et 58°25' N., 65°00' O.",
+      "nom": "Rivière Barnoin",
+      "nom_search": "riviere barnoin terres iii) entre les points 58 31 46 15 n 65 17 18 31 o et 58 25 n 65 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Barnoin",
+      "aliases": [
+        "barnoin",
+        "barnoin terres iii) entre les points 58 31 46 15 n 65 17 18 31 o et 58 25 n 65 00 o",
+        "riviere barnoin",
+        "riviere barnoin terres iii) entre les points 58 31 46 15 n 65 17 18 31 o et 58 25 n 65 00 o"
+      ],
+      "lat": 58.529486,
+      "lon": -65.288419
+    },
+    {
+      "id": 1782,
+      "zone_id": 26,
+      "nom_brut": "Rivière Bérard (Terres I et II, Tasiujaq), entre les points 58°35' N., 70°02' O. et 58°38' N., 69°59' O.",
+      "nom": "Rivière Bérard",
+      "nom_search": "riviere berard terres i et ii tasiujaq) entre les points 58 35 n 70 02 o et 58 38 n 69 59 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Bérard",
+      "aliases": [
+        "berard",
+        "berard terres i et ii tasiujaq) entre les points 58 35 n 70 02 o et 58 38 n 69 59 o",
+        "riviere berard",
+        "riviere berard terres i et ii tasiujaq) entre les points 58 35 n 70 02 o et 58 38 n 69 59 o"
+      ],
+      "lat": 58.583333,
+      "lon": -70.033333
+    },
+    {
+      "id": 10840,
+      "zone_id": 26,
+      "nom_brut": "Rivière Caniapiscau La partie entre sa confluence avec la Rivière Koksoak et la Chute du Calcaire située à 27 km en amont.",
+      "nom": "Rivière Caniapiscau La partie entre sa confluence avec la Rivière Koksoak et la Chute du Calcaire située à 27 km en amont.",
+      "nom_search": "riviere caniapiscau la partie entre sa confluence avec la riviere koksoak et la chute du calcaire situee a 27 km en amont",
+      "segment_label": null,
+      "river_base_name": "Rivière Caniapiscau La partie",
+      "aliases": [
+        "caniapiscau la partie",
+        "caniapiscau la partie entre sa confluence avec la riviere koksoak et la chute du calcaire situee a 27 km en amont",
+        "riviere caniapiscau la partie",
+        "riviere caniapiscau la partie entre sa confluence avec la riviere koksoak et la chute du calcaire situee a 27 km en amont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1836,
+      "zone_id": 26,
+      "nom_brut": "Rivière de Pas entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
+      "nom": "Rivière de Pas entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
+      "nom_search": "riviere de pas entre le point 55 28 30 n 65 07 00 o et le point 55 09 02 n 65 37 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière de Pas",
+      "aliases": [
+        "de pas",
+        "de pas entre le point 55 28 30 n 65 07 00 o et le point 55 09 02 n 65 37 00 o",
+        "riviere de pas",
+        "riviere de pas entre le point 55 28 30 n 65 07 00 o et le point 55 09 02 n 65 37 00 o"
+      ],
+      "lat": 55.475,
+      "lon": -65.116667
+    },
+    {
+      "id": 1835,
+      "zone_id": 26,
+      "nom_brut": "Rivière de Pas entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
+      "nom": "Rivière de Pas entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
+      "nom_search": "riviere de pas entre son point de confluence avec la riviere george delimite par une ligne reliant les points 55 53 04 n 64 45 54 o et 55 53 04 n 64 45 18 o et le point 55 49 31 n 65 03 18 o",
+      "segment_label": null,
+      "river_base_name": "Rivière de Pas",
+      "aliases": [
+        "de pas",
+        "de pas entre son point de confluence avec la riviere george delimite par une ligne reliant les points 55 53 04 n 64 45 54 o et 55 53 04 n 64 45 18 o et le point 55 49 31 n 65 03 18 o",
+        "riviere de pas",
+        "riviere de pas entre son point de confluence avec la riviere george delimite par une ligne reliant les points 55 53 04 n 64 45 54 o et 55 53 04 n 64 45 18 o et le point 55 49 31 n 65 03 18 o"
+      ],
+      "lat": 55.884444,
+      "lon": -64.765
+    },
+    {
+      "id": 1848,
+      "zone_id": 26,
+      "nom_brut": "Rivière Delay entre son point de confluence avec la rivière Du Gué délimité par une ligne reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une ligne reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
+      "nom": "Rivière Delay entre son point de confluence avec la rivière Du Gué délimité par une ligne reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une ligne reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
+      "nom_search": "riviere delay entre son point de confluence avec la riviere du gue delimite par une ligne reliant les points 56 56 42 n 71 28 18 o et 56 56 24 n 71 28 18 o et une ligne reliant les points 56 14 59 n 70 50 19 o et 56 14 47 n 70 50 35 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Delay",
+      "aliases": [
+        "delay",
+        "delay entre son point de confluence avec la riviere du gue delimite par une ligne reliant les points 56 56 42 n 71 28 18 o et 56 56 24 n 71 28 18 o et une ligne reliant les points 56 14 59 n 70 50 19 o et 56 14 47 n 70 50 35 o",
+        "riviere delay",
+        "riviere delay entre son point de confluence avec la riviere du gue delimite par une ligne reliant les points 56 56 42 n 71 28 18 o et 56 56 24 n 71 28 18 o et une ligne reliant les points 56 14 59 n 70 50 19 o et 56 14 47 n 70 50 35 o"
+      ],
+      "lat": 56.945,
+      "lon": -71.471667
+    },
+    {
+      "id": 1846,
+      "zone_id": 26,
+      "nom_brut": "Rivière du Gué entre son point de confluence avec la rivière aux Mélèzes délimité par une ligne reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une ligne reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
+      "nom": "Rivière du Gué entre son point de confluence avec la rivière aux Mélèzes délimité par une ligne reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une ligne reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
+      "nom_search": "riviere du gue entre son point de confluence avec la riviere aux melezes delimite par une ligne reliant les points 57 21 00 n 70 43 54 o et 57 21 00 n 70 45 24 o et une ligne reliant les points 56 37 06 n 72 20 00 o et 56 37 10 n 72 20 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Gué",
+      "aliases": [
+        "du gue",
+        "du gue entre son point de confluence avec la riviere aux melezes delimite par une ligne reliant les points 57 21 00 n 70 43 54 o et 57 21 00 n 70 45 24 o et une ligne reliant les points 56 37 06 n 72 20 00 o et 56 37 10 n 72 20 00 o",
+        "riviere du gue",
+        "riviere du gue entre son point de confluence avec la riviere aux melezes delimite par une ligne reliant les points 57 21 00 n 70 43 54 o et 57 21 00 n 70 45 24 o et une ligne reliant les points 56 37 06 n 72 20 00 o et 56 37 10 n 72 20 00 o"
+      ],
+      "lat": 57.35,
+      "lon": -70.731667
+    },
+    {
+      "id": 1810,
+      "zone_id": 26,
+      "nom_brut": "Rivière Duquet entre les points 62°02' N., 74°31' O. et 61°57' N., 74°40' O.",
+      "nom": "Rivière Duquet entre les points 62°02' N., 74°31' O. et 61°57' N., 74°40' O.",
+      "nom_search": "riviere duquet entre les points 62 02 n 74 31 o et 61 57 n 74 40 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Duquet",
+      "aliases": [
+        "duquet",
+        "duquet entre les points 62 02 n 74 31 o et 61 57 n 74 40 o",
+        "riviere duquet",
+        "riviere duquet entre les points 62 02 n 74 31 o et 61 57 n 74 40 o"
+      ],
+      "lat": 62.033333,
+      "lon": -74.516667
+    },
+    {
+      "id": 1838,
+      "zone_id": 26,
+      "nom_brut": "Rivière Ford entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
+      "nom": "Rivière Ford entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
+      "nom_search": "riviere ford entre son point de confluence avec la riviere george delimite par une ligne reliant les points 58 10 44 n 65 47 00 o et 58 10 34 n 65 47 00 o et le point 58 08 56 n 65 35 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Ford",
+      "aliases": [
+        "ford",
+        "ford entre son point de confluence avec la riviere george delimite par une ligne reliant les points 58 10 44 n 65 47 00 o et 58 10 34 n 65 47 00 o et le point 58 08 56 n 65 35 00 o",
+        "riviere ford",
+        "riviere ford entre son point de confluence avec la riviere george delimite par une ligne reliant les points 58 10 44 n 65 47 00 o et 58 10 34 n 65 47 00 o et le point 58 08 56 n 65 35 00 o"
+      ],
+      "lat": 58.178889,
+      "lon": -65.783333
+    },
+    {
+      "id": 1831,
+      "zone_id": 26,
+      "nom_brut": "Rivière George * entre une ligne reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
+      "nom": "Rivière George * entre une ligne reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
+      "nom_search": "riviere george entre une ligne reliant les points 58 41 59 n 66 03 00 o et 58 39 11 n 66 02 58 o et la limite nord de la zone 24 delimitee par une ligne reliant les points 56 32 07 n 64 43 58 o et 56 30 57 n 64 45 41 o entre la limite sud de la zone 24 delimitee par une ligne reliant les points 56 02 08 n 64 44 28 o et 56 01 52 n 64 44 54 o et l extremite nord de l ile situee au confluent des rivieres georges et de pas au point 55 53 04 n 64 45 38 o entre l extremite nord de l ile situee au confluent des rivieres georges et de pas au point 55 53 04 n 64 45 38 o et le point 55 17 00 n 64 29 52 o",
+      "segment_label": null,
+      "river_base_name": "Rivière George *",
+      "aliases": [
+        "george",
+        "george entre une ligne reliant les points 58 41 59 n 66 03 00 o et 58 39 11 n 66 02 58 o et la limite nord de la zone 24 delimitee par une ligne reliant les points 56 32 07 n 64 43 58 o et 56 30 57 n 64 45 41 o entre la limite sud de la zone 24 delimitee par une ligne reliant les points 56 02 08 n 64 44 28 o et 56 01 52 n 64 44 54 o et l extremite nord de l ile situee au confluent des rivieres georges et de pas au point 55 53 04 n 64 45 38 o entre l extremite nord de l ile situee au confluent des rivieres georges et de pas au point 55 53 04 n 64 45 38 o et le point 55 17 00 n 64 29 52 o",
+        "riviere george",
+        "riviere george entre une ligne reliant les points 58 41 59 n 66 03 00 o et 58 39 11 n 66 02 58 o et la limite nord de la zone 24 delimitee par une ligne reliant les points 56 32 07 n 64 43 58 o et 56 30 57 n 64 45 41 o entre la limite sud de la zone 24 delimitee par une ligne reliant les points 56 02 08 n 64 44 28 o et 56 01 52 n 64 44 54 o et l extremite nord de l ile situee au confluent des rivieres georges et de pas au point 55 53 04 n 64 45 38 o entre l extremite nord de l ile situee au confluent des rivieres georges et de pas au point 55 53 04 n 64 45 38 o et le point 55 17 00 n 64 29 52 o"
+      ],
+      "lat": 58.699722,
+      "lon": -66.05
+    },
+    {
+      "id": 2315,
+      "zone_id": 26,
+      "nom_brut": "Rivière Goudalie la partie de la rivière comprise entre son point de confluence avec la rivière aux Feuilles, délimité par une ligne reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une ligne reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
+      "nom": "Rivière Goudalie la partie de la rivière comprise entre son point de confluence avec la rivière aux Feuilles, délimité par une ligne reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une ligne reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
+      "nom_search": "riviere goudalie la partie de la riviere comprise entre son point de confluence avec la riviere aux feuilles delimite par une ligne reliant les points 57 56 18 n 72 58 32 o et 57 55 44 n 72 58 44 o et une ligne reliant les points 58 02 42 n 73 19 00 o et 58 02 18 n 73 19 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Goudalie la partie de la rivière comprise",
+      "aliases": [
+        "goudalie la partie de la riviere comprise",
+        "goudalie la partie de la riviere comprise entre son point de confluence avec la riviere aux feuilles delimite par une ligne reliant les points 57 56 18 n 72 58 32 o et 57 55 44 n 72 58 44 o et une ligne reliant les points 58 02 42 n 73 19 00 o et 58 02 18 n 73 19 00 o",
+        "riviere goudalie la partie de la riviere comprise",
+        "riviere goudalie la partie de la riviere comprise entre son point de confluence avec la riviere aux feuilles delimite par une ligne reliant les points 57 56 18 n 72 58 32 o et 57 55 44 n 72 58 44 o et une ligne reliant les points 58 02 42 n 73 19 00 o et 58 02 18 n 73 19 00 o"
+      ],
+      "lat": 57.938333,
+      "lon": -72.975556
+    },
+    {
+      "id": 1840,
+      "zone_id": 26,
+      "nom_brut": "Rivière Koksoak entre une ligne reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
+      "nom": "Rivière Koksoak entre une ligne reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
+      "nom_search": "riviere koksoak entre une ligne reliant les points 58 32 59 n 68 11 08 o et 58 31 50 n 68 07 32 o et une ligne reliant les points 57 41 24 n 69 27 00 o et 57 41 00 n 69 27 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Koksoak",
+      "aliases": [
+        "koksoak",
+        "koksoak entre une ligne reliant les points 58 32 59 n 68 11 08 o et 58 31 50 n 68 07 32 o et une ligne reliant les points 57 41 24 n 69 27 00 o et 57 41 00 n 69 27 00 o",
+        "riviere koksoak",
+        "riviere koksoak entre une ligne reliant les points 58 32 59 n 68 11 08 o et 58 31 50 n 68 07 32 o et une ligne reliant les points 57 41 24 n 69 27 00 o et 57 41 00 n 69 27 00 o"
+      ],
+      "lat": 58.549722,
+      "lon": -68.185556
+    },
+    {
+      "id": 1815,
+      "zone_id": 26,
+      "nom_brut": "Rivière Koroc la partie située en Terres II, Kangiqsualujjuaq.",
+      "nom": "Rivière Koroc la partie située en Terres II, Kangiqsualujjuaq.",
+      "nom_search": "riviere koroc la partie situee en terres ii kangiqsualujjuaq",
+      "segment_label": null,
+      "river_base_name": "Rivière Koroc la partie située en Terres II, Kangiqsualujjuaq.",
+      "aliases": [
+        "koroc la partie situee en terres ii kangiqsualujjuaq",
+        "riviere koroc la partie situee en terres ii kangiqsualujjuaq"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1818,
+      "zone_id": 26,
+      "nom_brut": "Rivière Lagrevé entre la décharge du lac Qamanikuluk, située en Terres II de Kangiqsualujjuaq et sa jonction avec la baie d'Ungava, à l'exception du lac Tunulliup.",
+      "nom": "Rivière Lagrevé entre la décharge du lac Qamanikuluk, située en Terres II de Kangiqsualujjuaq et sa jonction avec la baie d'Ungava, à l'exception du lac Tunulliup.",
+      "nom_search": "riviere lagreve entre la decharge du lac qamanikuluk situee en terres ii de kangiqsualujjuaq et sa jonction avec la baie d ungava a l exception du lac tunulliup",
+      "segment_label": null,
+      "river_base_name": "Rivière Lagrevé",
+      "aliases": [
+        "lagreve",
+        "lagreve entre la decharge du lac qamanikuluk situee en terres ii de kangiqsualujjuaq et sa jonction avec la baie d ungava a l exception du lac tunulliup",
+        "riviere lagreve",
+        "riviere lagreve entre la decharge du lac qamanikuluk situee en terres ii de kangiqsualujjuaq et sa jonction avec la baie d ungava a l exception du lac tunulliup"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1850,
+      "zone_id": 26,
+      "nom_brut": "Rivière Maricourt entre son point de confluence avec la rivière Delay délimité par une ligne reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
+      "nom": "Rivière Maricourt entre son point de confluence avec la rivière Delay délimité par une ligne reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
+      "nom_search": "riviere maricourt entre son point de confluence avec la riviere delay delimite par une ligne reliant les points 56 31 38 n 71 04 40 o et 56 31 42 n 71 04 40 o et le point 56 33 04 n 70 55 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Maricourt",
+      "aliases": [
+        "maricourt",
+        "maricourt entre son point de confluence avec la riviere delay delimite par une ligne reliant les points 56 31 38 n 71 04 40 o et 56 31 42 n 71 04 40 o et le point 56 33 04 n 70 55 00 o",
+        "riviere maricourt",
+        "riviere maricourt entre son point de confluence avec la riviere delay delimite par une ligne reliant les points 56 31 38 n 71 04 40 o et 56 31 42 n 71 04 40 o et le point 56 33 04 n 70 55 00 o"
+      ],
+      "lat": 56.527222,
+      "lon": -71.077778
+    },
+    {
+      "id": 1785,
+      "zone_id": 26,
+      "nom_brut": "Rivière Péladeau (Terres II, Aupaluk et Tasiujaq), entre les points 58°50' N., 70°45' O. et 58°35' N., 70°30' O.",
+      "nom": "Rivière Péladeau",
+      "nom_search": "riviere peladeau terres ii aupaluk et tasiujaq) entre les points 58 50 n 70 45 o et 58 35 n 70 30 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Péladeau",
+      "aliases": [
+        "peladeau",
+        "peladeau terres ii aupaluk et tasiujaq) entre les points 58 50 n 70 45 o et 58 35 n 70 30 o",
+        "riviere peladeau",
+        "riviere peladeau terres ii aupaluk et tasiujaq) entre les points 58 50 n 70 45 o et 58 35 n 70 30 o"
+      ],
+      "lat": 58.833333,
+      "lon": -70.75
+    },
+    {
+      "id": 1814,
+      "zone_id": 26,
+      "nom_brut": "Rivière Qurlutuq entre les points 58°26'47,17\" N., 66°43'43,90\" O. et 58°21' N., 66°40' O.",
+      "nom": "Rivière Qurlutuq entre les points 58°26'47,17\" N., 66°43'43,90\" O. et 58°21' N., 66°40' O.",
+      "nom_search": "riviere qurlutuq entre les points 58 26 47 17 n 66 43 43 90 o et 58 21 n 66 40 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Qurlutuq",
+      "aliases": [
+        "qurlutuq",
+        "qurlutuq entre les points 58 26 47 17 n 66 43 43 90 o et 58 21 n 66 40 o",
+        "riviere qurlutuq",
+        "riviere qurlutuq entre les points 58 26 47 17 n 66 43 43 90 o et 58 21 n 66 40 o"
+      ],
+      "lat": 58.446436,
+      "lon": -66.728861
+    },
+    {
+      "id": 1820,
+      "zone_id": 26,
+      "nom_brut": "Rivière Wakeham la partie située en Terres II, Kangiqsujuaq.",
+      "nom": "Rivière Wakeham la partie située en Terres II, Kangiqsujuaq.",
+      "nom_search": "riviere wakeham la partie situee en terres ii kangiqsujuaq",
+      "segment_label": null,
+      "river_base_name": "Rivière Wakeham la partie située en Terres II, Kangiqsujuaq.",
+      "aliases": [
+        "riviere wakeham la partie situee en terres ii kangiqsujuaq",
+        "wakeham la partie situee en terres ii kangiqsujuaq"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

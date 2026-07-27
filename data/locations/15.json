@@ -1,0 +1,705 @@
+{
+  "meta": {
+    "zone_id": 15,
+    "zone_nom": "Zone 14",
+    "nb_plans": 45,
+    "nb_geocoded": 44,
+    "pct_geocoded": 97.8,
+    "source_file": "zones/15.json"
+  },
+  "locations": [
+    {
+      "id": 807,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Les eaux en amont du barrage Gouin, incluant les lacs et les baies qui forment le réservoir ainsi que les plans d'eau qui s'y jettent jusqu'à la ligne des hautes eaux modifiées (cote d'élévation 405,08 m), à l'exception des eaux ci-après.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Les eaux en amont du barrage Gouin, incluant les lacs et les baies qui forment le réservoir ainsi que les plans d'eau qui s'y jettent jusqu'à la ligne des hautes eaux modifiées",
+      "nom_search": "aire faunique communautaire reservoir gouin les eaux en amont du barrage gouin incluant les lacs et les baies qui forment le reservoir ainsi que les plans d eau qui s y jettent jusqu a la ligne des hautes eaux modifiees cote d elevation 405 08 m) a l exception des eaux ci apres",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin les eaux en amont du barrage gouin incluant les lacs et les baies qui forment le reservoir ainsi que les plans d eau qui s y jettent jusqu a la ligne des hautes eaux modifiees cote d elevation 405 08 m) a l exception des eaux ci apres"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1091,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie Adolphe-Poisson (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°23'34\" N., 75°25'31\" O. en rive sud-est et 48°23'42\" N., 75°25'37\" O. en rive nord-ouest et le fond de la baie située au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Adolphe-Poisson",
+      "nom_search": "aire faunique communautaire reservoir gouin baie adolphe poisson aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 23 34 n 75 25 31 o en rive sud est et 48 23 42 n 75 25 37 o en rive nord ouest et le fond de la baie situee au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie adolphe poisson aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 23 34 n 75 25 31 o en rive sud est et 48 23 42 n 75 25 37 o en rive nord ouest et le fond de la baie situee au sud"
+      ],
+      "lat": 48.392778,
+      "lon": -75.425278
+    },
+    {
+      "id": 1093,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie de l'Est (Sulte) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°20'23\" N., 74°56'11\" O. en rive nord-est et 48°20'11\" N., 74°56'21\" O. en rive sud-ouest et le fond de la baie située au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie de l'Est",
+      "nom_search": "aire faunique communautaire reservoir gouin baie de l est sulte) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 20 23 n 74 56 11 o en rive nord est et 48 20 11 n 74 56 21 o en rive sud ouest et le fond de la baie situee au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie de l est sulte) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 20 23 n 74 56 11 o en rive nord est et 48 20 11 n 74 56 21 o en rive sud ouest et le fond de la baie situee au sud"
+      ],
+      "lat": 48.339722,
+      "lon": -74.936389
+    },
+    {
+      "id": 11541,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie du Cinq Milles - (aire faunique communautaire du réservoir Gouin) La partie au sud-ouest d'une droite reliant les points 48°21'25\" N., 74°30'34\" O. en rive sud-est et 48°21'41\" N., 74°31'03\" O. en rive nord-ouest jusqu'au point 48°21'22\" N., 74°31'11\" O. situé sur la décharge du lac des Cinq Milles.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Cinq Milles",
+      "nom_search": "aire faunique communautaire reservoir gouin baie du cinq milles aire faunique communautaire du reservoir gouin) la partie au sud ouest d une droite reliant les points 48 21 25 n 74 30 34 o en rive sud est et 48 21 41 n 74 31 03 o en rive nord ouest jusqu au point 48 21 22 n 74 31 11 o situe sur la decharge du lac des cinq milles",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie du cinq milles aire faunique communautaire du reservoir gouin) la partie au sud ouest d une droite reliant les points 48 21 25 n 74 30 34 o en rive sud est et 48 21 41 n 74 31 03 o en rive nord ouest jusqu au point 48 21 22 n 74 31 11 o situe sur la decharge du lac des cinq milles"
+      ],
+      "lat": 48.356944,
+      "lon": -74.509444
+    },
+    {
+      "id": 1095,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie du Guide (Aventurier) - (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°34'27\" N., 74°33'02\" O. en rive nord, 48°34'25\" N., 74°33'02\" O. sur l'îlot et 48°34'18\" N., 74°32'58\" O. en rive sud et l'embouchure du ruisseau situé au nord et le fond de la baie située à l'est.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Guide",
+      "nom_search": "aire faunique communautaire reservoir gouin baie du guide aventurier) aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 34 27 n 74 33 02 o en rive nord 48 34 25 n 74 33 02 o sur l ilot et 48 34 18 n 74 32 58 o en rive sud et l embouchure du ruisseau situe au nord et le fond de la baie situee a l est",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie du guide aventurier) aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 34 27 n 74 33 02 o en rive nord 48 34 25 n 74 33 02 o sur l ilot et 48 34 18 n 74 32 58 o en rive sud et l embouchure du ruisseau situe au nord et le fond de la baie situee a l est"
+      ],
+      "lat": 48.574167,
+      "lon": -74.550556
+    },
+    {
+      "id": 1097,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie du Lion d'Or (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°22'48\" N., 74°19'54\" O. en rive ouest et 48°22'46\" N., 74°19'51\" O. en rive est et le fond de la baie située à l'ouest.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Lion d'Or",
+      "nom_search": "aire faunique communautaire reservoir gouin baie du lion d or aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 22 48 n 74 19 54 o en rive ouest et 48 22 46 n 74 19 51 o en rive est et le fond de la baie situee a l ouest",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie du lion d or aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 22 48 n 74 19 54 o en rive ouest et 48 22 46 n 74 19 51 o en rive est et le fond de la baie situee a l ouest"
+      ],
+      "lat": 48.38,
+      "lon": -74.331667
+    },
+    {
+      "id": 2269,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie du Rocket (aire faunique communautaire du réservoir Gouin) à l'ouest, d'une ligne reliant les points 48°32'54\" N., 74°36'35\" O. en rive sud, 48°33'04\" N., 74°36'45\" O. sur un îlot et 48°33'11\" N., 74°36'48\" O. en rive nord, et à l'ouest du point 48°33'59\" N., 74°36'53\" O. et au sud du point 48°34'55\" N., 74°37'36\" O.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Rocket",
+      "nom_search": "aire faunique communautaire reservoir gouin baie du rocket aire faunique communautaire du reservoir gouin) a l ouest d une ligne reliant les points 48 32 54 n 74 36 35 o en rive sud 48 33 04 n 74 36 45 o sur un ilot et 48 33 11 n 74 36 48 o en rive nord et a l ouest du point 48 33 59 n 74 36 53 o et au sud du point 48 34 55 n 74 37 36 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie du rocket aire faunique communautaire du reservoir gouin) a l ouest d une ligne reliant les points 48 32 54 n 74 36 35 o en rive sud 48 33 04 n 74 36 45 o sur un ilot et 48 33 11 n 74 36 48 o en rive nord et a l ouest du point 48 33 59 n 74 36 53 o et au sud du point 48 34 55 n 74 37 36 o"
+      ],
+      "lat": 48.548333,
+      "lon": -74.609722
+    },
+    {
+      "id": 1109,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie du Sud (Apokwatcimew) - (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°18'18\" N., 75°05'28\" O. en rive nord, 48°18'13\" N., 75°05'30\" O. sur l'îlot et 48°18'08\" N., 75°05'21\" O. en rive sud et le fond de la baie à l'est.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Sud",
+      "nom_search": "aire faunique communautaire reservoir gouin baie du sud apokwatcimew) aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 18 18 n 75 05 28 o en rive nord 48 18 13 n 75 05 30 o sur l ilot et 48 18 08 n 75 05 21 o en rive sud et le fond de la baie a l est",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie du sud apokwatcimew) aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 18 18 n 75 05 28 o en rive nord 48 18 13 n 75 05 30 o sur l ilot et 48 18 08 n 75 05 21 o en rive sud et le fond de la baie a l est"
+      ],
+      "lat": 48.305,
+      "lon": -75.091111
+    },
+    {
+      "id": 1101,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie Eskwaskwakamak (du Mathieu) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°44'35\" N., 74°49'52\" O. en rive ouest et 48°44'37\" N., 74°49'43\" O. en rive est et le pont sur la rivière Mathieu vers le nord.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Eskwaskwakamak",
+      "nom_search": "aire faunique communautaire reservoir gouin baie eskwaskwakamak du mathieu) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 44 35 n 74 49 52 o en rive ouest et 48 44 37 n 74 49 43 o en rive est et le pont sur la riviere mathieu vers le nord",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie eskwaskwakamak du mathieu) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 44 35 n 74 49 52 o en rive ouest et 48 44 37 n 74 49 43 o en rive est et le pont sur la riviere mathieu vers le nord"
+      ],
+      "lat": 48.743056,
+      "lon": -74.831111
+    },
+    {
+      "id": 1103,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie Mattawa (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°21'29\" N., 75°22'20\" O. en rive ouest et 48°21'27\" N., 75°22'14\" O. en rive est et le fond de la baie située à l'ouest et le rétrécissement au sud situé au point 48°20'55\" N., 75°22'38\" O.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Mattawa",
+      "nom_search": "aire faunique communautaire reservoir gouin baie mattawa aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 21 29 n 75 22 20 o en rive ouest et 48 21 27 n 75 22 14 o en rive est et le fond de la baie situee a l ouest et le retrecissement au sud situe au point 48 20 55 n 75 22 38 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie mattawa aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 21 29 n 75 22 20 o en rive ouest et 48 21 27 n 75 22 14 o en rive est et le fond de la baie situee a l ouest et le retrecissement au sud situe au point 48 20 55 n 75 22 38 o"
+      ],
+      "lat": 48.358056,
+      "lon": -75.372222
+    },
+    {
+      "id": 1107,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie Piciw Minikanan (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°25'12\" N., 75°26'49\" O. en rive ouest et, 48°25'11\" N., 75°26'37\" O. en rive est, jusqu'au pont situé au point 48°24'37\" N., 75°28'35\" O. , incluant les baies au nord et au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Piciw Minikanan",
+      "nom_search": "aire faunique communautaire reservoir gouin baie piciw minikanan aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 25 12 n 75 26 49 o en rive ouest et 48 25 11 n 75 26 37 o en rive est jusqu au pont situe au point 48 24 37 n 75 28 35 o incluant les baies au nord et au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie piciw minikanan aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 25 12 n 75 26 49 o en rive ouest et 48 25 11 n 75 26 37 o en rive est jusqu au pont situe au point 48 24 37 n 75 28 35 o incluant les baies au nord et au sud"
+      ],
+      "lat": 48.42,
+      "lon": -75.446944
+    },
+    {
+      "id": 1111,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Baie Saraana (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°21'57\" N., 75°17'44\" O. en rive ouest et 48°21'56\" N., 75°17'41\" O. en rive est et à l'ouest du point 48°21'00\" N., 75°17'37\" O. jusqu'au fond de la baie au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Saraana",
+      "nom_search": "aire faunique communautaire reservoir gouin baie saraana aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 21 57 n 75 17 44 o en rive ouest et 48 21 56 n 75 17 41 o en rive est et a l ouest du point 48 21 00 n 75 17 37 o jusqu au fond de la baie au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin baie saraana aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 21 57 n 75 17 44 o en rive ouest et 48 21 56 n 75 17 41 o en rive est et a l ouest du point 48 21 00 n 75 17 37 o jusqu au fond de la baie au sud"
+      ],
+      "lat": 48.365833,
+      "lon": -75.295556
+    },
+    {
+      "id": 1114,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman (aire faunique communautaire du réservoir Gouin) (Chapman Nord), entre une droite reliant les points 48°21'54\" N., 74°40'09\" O. en rive nord-est et 48°21'49\" N., 74°40'13\" O. sur l'îlot et 48°21'46\" N., 74°40'15\" O. en rive sud-ouest jusqu'aux chutes sur le tributaire à l'est et le fond de la baie au sud et à l'ouest.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman",
+      "nom_search": "aire faunique communautaire reservoir gouin lac chapman aire faunique communautaire du reservoir gouin) chapman nord) entre une droite reliant les points 48 21 54 n 74 40 09 o en rive nord est et 48 21 49 n 74 40 13 o sur l ilot et 48 21 46 n 74 40 15 o en rive sud ouest jusqu aux chutes sur le tributaire a l est et le fond de la baie au sud et a l ouest",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac chapman aire faunique communautaire du reservoir gouin) chapman nord) entre une droite reliant les points 48 21 54 n 74 40 09 o en rive nord est et 48 21 49 n 74 40 13 o sur l ilot et 48 21 46 n 74 40 15 o en rive sud ouest jusqu aux chutes sur le tributaire a l est et le fond de la baie au sud et a l ouest"
+      ],
+      "lat": 48.365,
+      "lon": -74.669167
+    },
+    {
+      "id": 1113,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman (aire faunique communautaire du réservoir Gouin) (Montagnard), entre une droite reliant les points 48°20'17\" N., 74°40'23\" O. en rive sud et 48°20'22\" N., 74°40'21\" O. en rive nord et le fond de la baie au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman",
+      "nom_search": "aire faunique communautaire reservoir gouin lac chapman aire faunique communautaire du reservoir gouin) montagnard) entre une droite reliant les points 48 20 17 n 74 40 23 o en rive sud et 48 20 22 n 74 40 21 o en rive nord et le fond de la baie au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac chapman aire faunique communautaire du reservoir gouin) montagnard) entre une droite reliant les points 48 20 17 n 74 40 23 o en rive sud et 48 20 22 n 74 40 21 o en rive nord et le fond de la baie au sud"
+      ],
+      "lat": 48.338056,
+      "lon": -74.673056
+    },
+    {
+      "id": 3171,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette (Delâge) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°16'18\" N., 74°28'42\" O. en rive nord-est et 48°16'11\" N., 74°28'51\" O. en rive sud-ouest et une droite reliant les points 48°15'32\" N., 74°30'11\" O. en rive ouest et 48°15'31\" N., 74°30'14\" O. en rive est.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette",
+      "nom_search": "aire faunique communautaire reservoir gouin lac de la galette delage) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 16 18 n 74 28 42 o en rive nord est et 48 16 11 n 74 28 51 o en rive sud ouest et une droite reliant les points 48 15 32 n 74 30 11 o en rive ouest et 48 15 31 n 74 30 14 o en rive est",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac de la galette delage) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 16 18 n 74 28 42 o en rive nord est et 48 16 11 n 74 28 51 o en rive sud ouest et une droite reliant les points 48 15 32 n 74 30 11 o en rive ouest et 48 15 31 n 74 30 14 o en rive est"
+      ],
+      "lat": 48.271667,
+      "lon": -74.478333
+    },
+    {
+      "id": 1136,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette (Motard) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°18'08\" N., 74°26'50\" O. en rive sud-est, 48°18'17\" N., 74°27'06\" O. au sud de l'île, la rive est de l'île et le point 48°18'24\" N., 74°27'16\" O. en rive nord-ouest et le pont situé à environ 4,3 kilomètres en amont sur la rivière Leblanc (Motard).",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette",
+      "nom_search": "aire faunique communautaire reservoir gouin lac de la galette motard) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 18 08 n 74 26 50 o en rive sud est 48 18 17 n 74 27 06 o au sud de l ile la rive est de l ile et le point 48 18 24 n 74 27 16 o en rive nord ouest et le pont situe a environ 4 3 kilometres en amont sur la riviere leblanc motard)",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac de la galette motard) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 18 08 n 74 26 50 o en rive sud est 48 18 17 n 74 27 06 o au sud de l ile la rive est de l ile et le point 48 18 24 n 74 27 16 o en rive nord ouest et le pont situe a environ 4 3 kilometres en amont sur la riviere leblanc motard)"
+      ],
+      "lat": 48.302222,
+      "lon": -74.447222
+    },
+    {
+      "id": 1116,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel (de l'Antenne ou Déziel Nord) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°35'20\" N., 74°24'43\" O. en rive est et 48°35'22\" N., 74°24'56\" O. en rive ouest et le fond de la baie au nord.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel",
+      "nom_search": "aire faunique communautaire reservoir gouin lac deziel de l antenne ou deziel nord) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 35 20 n 74 24 43 o en rive est et 48 35 22 n 74 24 56 o en rive ouest et le fond de la baie au nord",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac deziel de l antenne ou deziel nord) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 35 20 n 74 24 43 o en rive est et 48 35 22 n 74 24 56 o en rive ouest et le fond de la baie au nord"
+      ],
+      "lat": 48.588889,
+      "lon": -74.411944
+    },
+    {
+      "id": 1120,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel (Déziel Sud) - (aire faunique communautaire du réservoir Gouin) entre la rive ouest de la baie et une droite reliant les points 48°33'08\" N., 74°24'12\" O. en rive nord et 48°33'02\" N., 74°24'12\" O. au nord de l'île, suivant la rive ouest de l'île, reliant les points 48°32'45\" N., 74°24'15\" O. au sud de l'île et 48°32'44\" N., 74°24'17\" O. sur la rive sud, suivant la rive sud-est de la baie et reliant les points 48°32'33\" N., 74°24'24\" O. sur la rive est, 48°32'33\" N., 74°24'29\" O. sur l'île et 48°32'39\" N., 74°24'30\" O. en rive nord.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel",
+      "nom_search": "aire faunique communautaire reservoir gouin lac deziel deziel sud) aire faunique communautaire du reservoir gouin) entre la rive ouest de la baie et une droite reliant les points 48 33 08 n 74 24 12 o en rive nord et 48 33 02 n 74 24 12 o au nord de l ile suivant la rive ouest de l ile reliant les points 48 32 45 n 74 24 15 o au sud de l ile et 48 32 44 n 74 24 17 o sur la rive sud suivant la rive sud est de la baie et reliant les points 48 32 33 n 74 24 24 o sur la rive est 48 32 33 n 74 24 29 o sur l ile et 48 32 39 n 74 24 30 o en rive nord",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac deziel deziel sud) aire faunique communautaire du reservoir gouin) entre la rive ouest de la baie et une droite reliant les points 48 33 08 n 74 24 12 o en rive nord et 48 33 02 n 74 24 12 o au nord de l ile suivant la rive ouest de l ile reliant les points 48 32 45 n 74 24 15 o au sud de l ile et 48 32 44 n 74 24 17 o sur la rive sud suivant la rive sud est de la baie et reliant les points 48 32 33 n 74 24 24 o sur la rive est 48 32 33 n 74 24 29 o sur l ile et 48 32 39 n 74 24 30 o en rive nord"
+      ],
+      "lat": 48.552222,
+      "lon": -74.403333
+    },
+    {
+      "id": 1118,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac du Déserteur (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°34'13\" N., 74°20'01\" O. en rive nord, 48°34'03\" N., 74°20'03\" O. et 48°33'49\" N., 74°20'02\" O. sur des îlots et 48°33'20\" N., 74°20'03\" O. en rive sud et le fond de la baie à l'est, incluant les cours d'eau jusqu'au point 48°33'47\" N., 74°18'53\" O. au nord et 48°33'29\" N., 74°18'47\" O. au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac du Déserteur",
+      "nom_search": "aire faunique communautaire reservoir gouin lac du deserteur aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 34 13 n 74 20 01 o en rive nord 48 34 03 n 74 20 03 o et 48 33 49 n 74 20 02 o sur des ilots et 48 33 20 n 74 20 03 o en rive sud et le fond de la baie a l est incluant les cours d eau jusqu au point 48 33 47 n 74 18 53 o au nord et 48 33 29 n 74 18 47 o au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac du deserteur aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 34 13 n 74 20 01 o en rive nord 48 34 03 n 74 20 03 o et 48 33 49 n 74 20 02 o sur des ilots et 48 33 20 n 74 20 03 o en rive sud et le fond de la baie a l est incluant les cours d eau jusqu au point 48 33 47 n 74 18 53 o au nord et 48 33 29 n 74 18 47 o au sud"
+      ],
+      "lat": 48.570278,
+      "lon": -74.333611
+    },
+    {
+      "id": 3259,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac du Poète (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°24'35\" N., 75°30'50\" O. en rive ouest et 48°24'31\" N., 75°30'36\" O. en rive est et le fond de la baie au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac du Poète",
+      "nom_search": "aire faunique communautaire reservoir gouin lac du poete aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 24 35 n 75 30 50 o en rive ouest et 48 24 31 n 75 30 36 o en rive est et le fond de la baie au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac du poete aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 24 35 n 75 30 50 o en rive ouest et 48 24 31 n 75 30 36 o en rive est et le fond de la baie au sud"
+      ],
+      "lat": 48.409722,
+      "lon": -75.513889
+    },
+    {
+      "id": 1124,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Duchet (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°39'33\" N., 74°42'19\" O. en rive nord et 48°39'18\" N., 74°42'15\" O. en rive sud et le fond des baies, incluant le lac Duchet.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Duchet",
+      "nom_search": "aire faunique communautaire reservoir gouin lac duchet aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 39 33 n 74 42 19 o en rive nord et 48 39 18 n 74 42 15 o en rive sud et le fond des baies incluant le lac duchet",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac duchet aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 39 33 n 74 42 19 o en rive nord et 48 39 18 n 74 42 15 o en rive sud et le fond des baies incluant le lac duchet"
+      ],
+      "lat": 48.659167,
+      "lon": -74.705278
+    },
+    {
+      "id": 1105,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Jean (du Petit Vison ou Vison Est) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°27'16\" N., 74°11'05\" O. en rive ouest et 48°27'16\" N., 74°11'00\" O. en rive est et le fond de la baie vers l'est.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Jean",
+      "nom_search": "aire faunique communautaire reservoir gouin lac jean du petit vison ou vison est) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 27 16 n 74 11 05 o en rive ouest et 48 27 16 n 74 11 00 o en rive est et le fond de la baie vers l est",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac jean du petit vison ou vison est) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 27 16 n 74 11 05 o en rive ouest et 48 27 16 n 74 11 00 o en rive est et le fond de la baie vers l est"
+      ],
+      "lat": 48.454444,
+      "lon": -74.184722
+    },
+    {
+      "id": 2267,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan (aire faunique communautaire du réservoir Gouin) (Leclerc), les parties à l'est des rétrécissements situés au point 48°39'29\" N., 74°35'20\" O. et 48°39'14\" N., 74°35'21\" O. et entre une droite reliant les points 48°39'44\" N., 74°34'53\" O. en rive ouest et 48°39'41\" N., 74°34'05\" O. en rive est incluant, la rivière au sud-est et l'embouchure du lac Leclerc.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan",
+      "nom_search": "aire faunique communautaire reservoir gouin lac magnan aire faunique communautaire du reservoir gouin) leclerc) les parties a l est des retrecissements situes au point 48 39 29 n 74 35 20 o et 48 39 14 n 74 35 21 o et entre une droite reliant les points 48 39 44 n 74 34 53 o en rive ouest et 48 39 41 n 74 34 05 o en rive est incluant la riviere au sud est et l embouchure du lac leclerc",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac magnan aire faunique communautaire du reservoir gouin) leclerc) les parties a l est des retrecissements situes au point 48 39 29 n 74 35 20 o et 48 39 14 n 74 35 21 o et entre une droite reliant les points 48 39 44 n 74 34 53 o en rive ouest et 48 39 41 n 74 34 05 o en rive est incluant la riviere au sud est et l embouchure du lac leclerc"
+      ],
+      "lat": 48.658056,
+      "lon": -74.588889
+    },
+    {
+      "id": 2268,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan (aire faunique communautaire du réservoir Gouin) (Passe Pirotew Pawctikw), à l'est d'une droite reliant les points 48°43'32\" N., 74°30'26\" O. en rive sud et 48°43'42\" N., 74°30'16\" O. en rive nord, incluant la baie au nord et vers l'est et les cours d'eau qui s'y jettent.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan",
+      "nom_search": "aire faunique communautaire reservoir gouin lac magnan aire faunique communautaire du reservoir gouin) passe pirotew pawctikw) a l est d une droite reliant les points 48 43 32 n 74 30 26 o en rive sud et 48 43 42 n 74 30 16 o en rive nord incluant la baie au nord et vers l est et les cours d eau qui s y jettent",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac magnan aire faunique communautaire du reservoir gouin) passe pirotew pawctikw) a l est d une droite reliant les points 48 43 32 n 74 30 26 o en rive sud et 48 43 42 n 74 30 16 o en rive nord incluant la baie au nord et vers l est et les cours d eau qui s y jettent"
+      ],
+      "lat": 48.725556,
+      "lon": -74.507222
+    },
+    {
+      "id": 1099,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Marmette (Garancières) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°22'32\" N., 74°43'13\" O. en rive ouest et 48°22'35\" N., 74°43'08\" O. en rive est vers l'ouest jusqu'au fond de la baie et vers le sud jusqu'au rétrécissement situé au point 48°21'35\" N., 74°43'16\" O.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Marmette",
+      "nom_search": "aire faunique communautaire reservoir gouin lac marmette garancieres) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 22 32 n 74 43 13 o en rive ouest et 48 22 35 n 74 43 08 o en rive est vers l ouest jusqu au fond de la baie et vers le sud jusqu au retrecissement situe au point 48 21 35 n 74 43 16 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac marmette garancieres) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 22 32 n 74 43 13 o en rive ouest et 48 22 35 n 74 43 08 o en rive est vers l ouest jusqu au fond de la baie et vers le sud jusqu au retrecissement situe au point 48 21 35 n 74 43 16 o"
+      ],
+      "lat": 48.375556,
+      "lon": -74.720278
+    },
+    {
+      "id": 1130,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Mikisiw Amirakanan (Barouette) - (aire faunique communautaire du réservoir Gouin) la rivière Wacekamiw au sud d'une droite reliant les points 48°30'43\" N., 74°49'52\" O. en rive est et 48°30'42\" N., 74°49'55\" O. en rive ouest et le fond de la baie au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Mikisiw Amirakanan",
+      "nom_search": "aire faunique communautaire reservoir gouin lac mikisiw amirakanan barouette) aire faunique communautaire du reservoir gouin) la riviere wacekamiw au sud d une droite reliant les points 48 30 43 n 74 49 52 o en rive est et 48 30 42 n 74 49 55 o en rive ouest et le fond de la baie au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac mikisiw amirakanan barouette) aire faunique communautaire du reservoir gouin) la riviere wacekamiw au sud d une droite reliant les points 48 30 43 n 74 49 52 o en rive est et 48 30 42 n 74 49 55 o en rive ouest et le fond de la baie au sud"
+      ],
+      "lat": 48.511944,
+      "lon": -74.831111
+    },
+    {
+      "id": 1132,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Miller (Simard) - (aire faunique communautaire du réservoir Gouin) les parties, incluant les baies, au sud du point 48°38'57\" N., 75°10'00\" O. situées entre une droite reliant les points 48°39'05\" N., 75°09'24\" O. en rive est et 48°39'07\" N., 75°09'34\" O. en rive ouest et le lac Simard.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Miller",
+      "nom_search": "aire faunique communautaire reservoir gouin lac miller simard) aire faunique communautaire du reservoir gouin) les parties incluant les baies au sud du point 48 38 57 n 75 10 00 o situees entre une droite reliant les points 48 39 05 n 75 09 24 o en rive est et 48 39 07 n 75 09 34 o en rive ouest et le lac simard",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac miller simard) aire faunique communautaire du reservoir gouin) les parties incluant les baies au sud du point 48 38 57 n 75 10 00 o situees entre une droite reliant les points 48 39 05 n 75 09 24 o en rive est et 48 39 07 n 75 09 34 o en rive ouest et le lac simard"
+      ],
+      "lat": 48.649167,
+      "lon": -75.166667
+    },
+    {
+      "id": 1126,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Petit Brochu (de la Grosse Pluie) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°35'43\" N., 74°28'38\" O. en rive ouest et 48°35'44\" N., 74°28'19\" O. sur l'îlot et 48°35'45\" N., 74°28'15\" O. en rive est et le fond de la baie au nord.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Petit Brochu",
+      "nom_search": "aire faunique communautaire reservoir gouin lac petit brochu de la grosse pluie) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 35 43 n 74 28 38 o en rive ouest et 48 35 44 n 74 28 19 o sur l ilot et 48 35 45 n 74 28 15 o en rive est et le fond de la baie au nord",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac petit brochu de la grosse pluie) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 35 43 n 74 28 38 o en rive ouest et 48 35 44 n 74 28 19 o sur l ilot et 48 35 45 n 74 28 15 o en rive est et le fond de la baie au nord"
+      ],
+      "lat": 48.595278,
+      "lon": -74.477222
+    },
+    {
+      "id": 1134,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Lac Witiko (ruisseau à l'Eau Claire ou pont de la Sylva) - (aire faunique communautaire du réservoir Gouin) la partie au nord d'une droite reliant les points 48°47'51\" N., 74°36'58\" O. en rive est et 48°47'46\" N., 74°37'06\" O. en rive ouest vers l'amont, incluant le lac Witiko et les baies à l'est, à l'ouest et au nord-ouest, et vers le nord jusqu'au point 48°50'56\" N., 74°36'43\" O. sur le ruisseau à l'Eau Claire.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Witiko",
+      "nom_search": "aire faunique communautaire reservoir gouin lac witiko ruisseau a l eau claire ou pont de la sylva) aire faunique communautaire du reservoir gouin) la partie au nord d une droite reliant les points 48 47 51 n 74 36 58 o en rive est et 48 47 46 n 74 37 06 o en rive ouest vers l amont incluant le lac witiko et les baies a l est a l ouest et au nord ouest et vers le nord jusqu au point 48 50 56 n 74 36 43 o sur le ruisseau a l eau claire",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin lac witiko ruisseau a l eau claire ou pont de la sylva) aire faunique communautaire du reservoir gouin) la partie au nord d une droite reliant les points 48 47 51 n 74 36 58 o en rive est et 48 47 46 n 74 37 06 o en rive ouest vers l amont incluant le lac witiko et les baies a l est a l ouest et au nord ouest et vers le nord jusqu au point 48 50 56 n 74 36 43 o sur le ruisseau a l eau claire"
+      ],
+      "lat": 48.7975,
+      "lon": -74.616111
+    },
+    {
+      "id": 814,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Rivière Jean-Pierre (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°18'34\" N., 74°14'22\" O. en rive est, 48°18'25\" N., 74°14'42\" O. au nord de l'îlot et, 48°18'07\" N., 74°14'30\" O. en rive ouest et le premier pont situé en amont sur le tributaire à l'est.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Jean-Pierre",
+      "nom_search": "aire faunique communautaire reservoir gouin riviere jean pierre aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 18 34 n 74 14 22 o en rive est 48 18 25 n 74 14 42 o au nord de l ilot et 48 18 07 n 74 14 30 o en rive ouest et le premier pont situe en amont sur le tributaire a l est",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin riviere jean pierre aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 18 34 n 74 14 22 o en rive est 48 18 25 n 74 14 42 o au nord de l ilot et 48 18 07 n 74 14 30 o en rive ouest et le premier pont situe en amont sur le tributaire a l est"
+      ],
+      "lat": 48.309444,
+      "lon": -74.239444
+    },
+    {
+      "id": 1145,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Rivière Kakospictikweak (lac Omina) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°46'40\" N., 74°45'07\" O. en rive nord et 48°46'36\" N., 74°45'09\" O. en rive sud et le pont situé en amont sur la rivière Kakospictikweak.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Kakospictikweak",
+      "nom_search": "aire faunique communautaire reservoir gouin riviere kakospictikweak lac omina) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 46 40 n 74 45 07 o en rive nord et 48 46 36 n 74 45 09 o en rive sud et le pont situe en amont sur la riviere kakospictikweak",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin riviere kakospictikweak lac omina) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 46 40 n 74 45 07 o en rive nord et 48 46 36 n 74 45 09 o en rive sud et le pont situe en amont sur la riviere kakospictikweak"
+      ],
+      "lat": 48.777778,
+      "lon": -74.751944
+    },
+    {
+      "id": 1140,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Rivière Némio (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°26'00\" N., 74°55'52\" O. en rive ouest, 48°26'01\" N., 74°55'44\" O. en rive est et le fond de la baie au sud.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Némio",
+      "nom_search": "aire faunique communautaire reservoir gouin riviere nemio aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 26 00 n 74 55 52 o en rive ouest 48 26 01 n 74 55 44 o en rive est et le fond de la baie au sud",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin riviere nemio aire faunique communautaire du reservoir gouin) entre une ligne reliant les points 48 26 00 n 74 55 52 o en rive ouest 48 26 01 n 74 55 44 o en rive est et le fond de la baie au sud"
+      ],
+      "lat": 48.433333,
+      "lon": -74.931111
+    },
+    {
+      "id": 1147,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Rivière Oskélanéo (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°15'35\" N., 75°07'26\" O. en rive sud et 48°15'38\" N., 75°07'35\" O. en rive nord et le premier pont situé en amont sur la rivière Oskélanéo ( 48°14'57\" N., 75°08'33\" O. ).",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Oskélanéo",
+      "nom_search": "aire faunique communautaire reservoir gouin riviere oskelaneo aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 15 35 n 75 07 26 o en rive sud et 48 15 38 n 75 07 35 o en rive nord et le premier pont situe en amont sur la riviere oskelaneo 48 14 57 n 75 08 33 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin riviere oskelaneo aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 15 35 n 75 07 26 o en rive sud et 48 15 38 n 75 07 35 o en rive nord et le premier pont situe en amont sur la riviere oskelaneo 48 14 57 n 75 08 33 o )"
+      ],
+      "lat": 48.259722,
+      "lon": -75.123889
+    },
+    {
+      "id": 1142,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Rivière Toussaint (Obedjiwan ouest) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°42'15\" N., 74°57'01\" O. en rive nord et 48°42'12\" N., 74°56'59\" O. et le fond de la baie à l'est et vers le nord sur la rivière Toussaint jusqu'au point 48°43'03\" N., 74°56'16\" O.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Toussaint",
+      "nom_search": "aire faunique communautaire reservoir gouin riviere toussaint obedjiwan ouest) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 42 15 n 74 57 01 o en rive nord et 48 42 12 n 74 56 59 o et le fond de la baie a l est et vers le nord sur la riviere toussaint jusqu au point 48 43 03 n 74 56 16 o",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin riviere toussaint obedjiwan ouest) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 42 15 n 74 57 01 o en rive nord et 48 42 12 n 74 56 59 o et le fond de la baie a l est et vers le nord sur la riviere toussaint jusqu au point 48 43 03 n 74 56 16 o"
+      ],
+      "lat": 48.704167,
+      "lon": -74.950278
+    },
+    {
+      "id": 1122,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Rivière Wapous (lac Déziel) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°34'58\" N., 74°22'13\" O. en rive est et 48°34'59\" N., 74°22'16\" O. en rive ouest et le lac Wapous ( 48°37'30\" N., 74°19'57\" O. ).",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Wapous",
+      "nom_search": "aire faunique communautaire reservoir gouin riviere wapous lac deziel) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 34 58 n 74 22 13 o en rive est et 48 34 59 n 74 22 16 o en rive ouest et le lac wapous 48 37 30 n 74 19 57 o )",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin riviere wapous lac deziel) aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 34 58 n 74 22 13 o en rive est et 48 34 59 n 74 22 16 o en rive ouest et le lac wapous 48 37 30 n 74 19 57 o )"
+      ],
+      "lat": 48.582778,
+      "lon": -74.370278
+    },
+    {
+      "id": 1149,
+      "zone_id": 15,
+      "nom_brut": "Aire Faunique Communautaire réservoir Gouin - Ruisseau de la Rencontre (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°40'42\" N., 75°03'01\" O. en rive est et 48°40'48\" N., 75°03'07\" O. en rive ouest et le point 48°46'17\" N., 75°02'05\" O. situé sur le ruisseau de la Rencontre, incluant la baie à l'ouest, soit le lac Natow.",
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Ruisseau de la Rencontre",
+      "nom_search": "aire faunique communautaire reservoir gouin ruisseau de la rencontre aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 40 42 n 75 03 01 o en rive est et 48 40 48 n 75 03 07 o en rive ouest et le point 48 46 17 n 75 02 05 o situe sur le ruisseau de la rencontre incluant la baie a l ouest soit le lac natow",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire réservoir Gouin",
+      "aliases": [
+        "aire faunique communautaire reservoir gouin",
+        "aire faunique communautaire reservoir gouin ruisseau de la rencontre aire faunique communautaire du reservoir gouin) entre une droite reliant les points 48 40 42 n 75 03 01 o en rive est et 48 40 48 n 75 03 07 o en rive ouest et le point 48 46 17 n 75 02 05 o situe sur le ruisseau de la rencontre incluant la baie a l ouest soit le lac natow"
+      ],
+      "lat": 48.678333,
+      "lon": -75.050278
+    },
+    {
+      "id": 828,
+      "zone_id": 15,
+      "nom_brut": "Lac des Dix Milles ( 47°53'57\" N., 74°48'23\" O. )(cantons Bazin et Landry)",
+      "nom": "Lac des Dix Milles",
+      "nom_search": "lac des dix milles 47 53 57 n 74 48 23 o ) cantons bazin et landry)",
+      "segment_label": null,
+      "river_base_name": "Lac des Dix Milles",
+      "aliases": [
+        "des dix milles",
+        "des dix milles 47 53 57 n 74 48 23 o ) cantons bazin et landry)",
+        "lac des dix milles",
+        "lac des dix milles 47 53 57 n 74 48 23 o ) cantons bazin et landry)"
+      ],
+      "lat": 47.899167,
+      "lon": -74.806389
+    },
+    {
+      "id": 820,
+      "zone_id": 15,
+      "nom_brut": "Lac du Marteau (canton Bourassa)( 48°14'27\" N., 73°58'00\" O. )",
+      "nom": "Lac du Marteau",
+      "nom_search": "lac du marteau canton bourassa) 48 14 27 n 73 58 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Marteau",
+      "aliases": [
+        "du marteau",
+        "du marteau canton bourassa) 48 14 27 n 73 58 00 o )",
+        "lac du marteau",
+        "lac du marteau canton bourassa) 48 14 27 n 73 58 00 o )"
+      ],
+      "lat": 48.240833,
+      "lon": -73.966667
+    },
+    {
+      "id": 826,
+      "zone_id": 15,
+      "nom_brut": "Lac du Tabac ( 47°40'57\" N., 74°25'25\" O. )(comté Saint-Maurice)",
+      "nom": "Lac du Tabac",
+      "nom_search": "lac du tabac 47 40 57 n 74 25 25 o ) comte saint maurice)",
+      "segment_label": null,
+      "river_base_name": "Lac du Tabac",
+      "aliases": [
+        "du tabac",
+        "du tabac 47 40 57 n 74 25 25 o ) comte saint maurice)",
+        "lac du tabac",
+        "lac du tabac 47 40 57 n 74 25 25 o ) comte saint maurice)"
+      ],
+      "lat": 47.6825,
+      "lon": -74.423611
+    },
+    {
+      "id": 816,
+      "zone_id": 15,
+      "nom_brut": "Lac Foie (canton Leblanc)( 48°19'00\" N., 74°17'07\" O. )",
+      "nom": "Lac Foie",
+      "nom_search": "lac foie canton leblanc) 48 19 00 n 74 17 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Foie",
+      "aliases": [
+        "foie",
+        "foie canton leblanc) 48 19 00 n 74 17 07 o )",
+        "lac foie",
+        "lac foie canton leblanc) 48 19 00 n 74 17 07 o )"
+      ],
+      "lat": 48.316667,
+      "lon": -74.285278
+    },
+    {
+      "id": 818,
+      "zone_id": 15,
+      "nom_brut": "Lac Guénette ( 47°54'22\" N., 74°20'06\" O. )(cantons Suzor et Letondal)",
+      "nom": "Lac Guénette",
+      "nom_search": "lac guenette 47 54 22 n 74 20 06 o ) cantons suzor et letondal)",
+      "segment_label": null,
+      "river_base_name": "Lac Guénette",
+      "aliases": [
+        "guenette",
+        "guenette 47 54 22 n 74 20 06 o ) cantons suzor et letondal)",
+        "lac guenette",
+        "lac guenette 47 54 22 n 74 20 06 o ) cantons suzor et letondal)"
+      ],
+      "lat": 47.906111,
+      "lon": -74.335
+    },
+    {
+      "id": 830,
+      "zone_id": 15,
+      "nom_brut": "Lac Head ( 47°46'33\" N., 74°36'37\" O. )(canton Dandurand)",
+      "nom": "Lac Head",
+      "nom_search": "lac head 47 46 33 n 74 36 37 o ) canton dandurand)",
+      "segment_label": null,
+      "river_base_name": "Lac Head",
+      "aliases": [
+        "head",
+        "head 47 46 33 n 74 36 37 o ) canton dandurand)",
+        "lac head",
+        "lac head 47 46 33 n 74 36 37 o ) canton dandurand)"
+      ],
+      "lat": 47.775833,
+      "lon": -74.610278
+    },
+    {
+      "id": 2743,
+      "zone_id": 15,
+      "nom_brut": "Lac Mix - ( 47°27'35\" N., 76°05'17\" O. , TNO de Lac-Lenôtre)",
+      "nom": "Lac Mix",
+      "nom_search": "lac mix 47 27 35 n 76 05 17 o tno de lac lenotre)",
+      "segment_label": null,
+      "river_base_name": "Lac Mix -",
+      "aliases": [
+        "lac mix",
+        "lac mix 47 27 35 n 76 05 17 o tno de lac lenotre)",
+        "mix",
+        "mix 47 27 35 n 76 05 17 o tno de lac lenotre)"
+      ],
+      "lat": 47.459722,
+      "lon": -76.088056
+    },
+    {
+      "id": 822,
+      "zone_id": 15,
+      "nom_brut": "Lac Peter ( 48°14'21\" N., 74°12'19\" O. )",
+      "nom": "Lac Peter",
+      "nom_search": "lac peter 48 14 21 n 74 12 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Peter",
+      "aliases": [
+        "lac peter",
+        "lac peter 48 14 21 n 74 12 19 o )",
+        "peter",
+        "peter 48 14 21 n 74 12 19 o )"
+      ],
+      "lat": 48.239167,
+      "lon": -74.205278
+    },
+    {
+      "id": 824,
+      "zone_id": 15,
+      "nom_brut": "Lac Vaillant ( 48°09'38\" N., 74°13'32\" O. )(cantons Dansereau et Decelles)",
+      "nom": "Lac Vaillant",
+      "nom_search": "lac vaillant 48 09 38 n 74 13 32 o ) cantons dansereau et decelles)",
+      "segment_label": null,
+      "river_base_name": "Lac Vaillant",
+      "aliases": [
+        "lac vaillant",
+        "lac vaillant 48 09 38 n 74 13 32 o ) cantons dansereau et decelles)",
+        "vaillant",
+        "vaillant 48 09 38 n 74 13 32 o ) cantons dansereau et decelles)"
+      ],
+      "lat": 48.160556,
+      "lon": -74.225556
+    }
+  ]
+}

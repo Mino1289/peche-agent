@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "zone_id": 16,
+    "zone_nom": "Zone 15",
+    "nb_plans": 22,
+    "nb_geocoded": 10,
+    "pct_geocoded": 45.5,
+    "source_file": "zones/16.json"
+  },
+  "locations": [
+    {
+      "id": 3408,
+      "zone_id": 16,
+      "nom_brut": "Lac Hénault ( 46°25'30\" N., 73°25'34\" O. )",
+      "nom": "Lac Hénault",
+      "nom_search": "lac henault 46 25 30 n 73 25 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hénault",
+      "aliases": [
+        "henault",
+        "henault 46 25 30 n 73 25 34 o )",
+        "lac henault",
+        "lac henault 46 25 30 n 73 25 34 o )"
+      ],
+      "lat": 46.425,
+      "lon": -73.426111
+    },
+    {
+      "id": 12340,
+      "zone_id": 16,
+      "nom_brut": "Lac Kempt ( 47°26'25\" N., 74°15'14\" O. )",
+      "nom": "Lac Kempt",
+      "nom_search": "lac kempt 47 26 25 n 74 15 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kempt",
+      "aliases": [
+        "kempt",
+        "kempt 47 26 25 n 74 15 14 o )",
+        "lac kempt",
+        "lac kempt 47 26 25 n 74 15 14 o )"
+      ],
+      "lat": 47.440278,
+      "lon": -74.253889
+    },
+    {
+      "id": 2744,
+      "zone_id": 16,
+      "nom_brut": "Lac Morialice ( 47°14'03'' N., 74°16'57'' O. )",
+      "nom": "Lac Morialice",
+      "nom_search": "lac morialice 47 14 03 n 74 16 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Morialice",
+      "aliases": [
+        "lac morialice",
+        "lac morialice 47 14 03 n 74 16 57 o )",
+        "morialice",
+        "morialice 47 14 03 n 74 16 57 o )"
+      ],
+      "lat": 47.234167,
+      "lon": -74.2825
+    },
+    {
+      "id": 3287,
+      "zone_id": 16,
+      "nom_brut": "Lac Quesnel ( 46°23'11\" N., 73°30'54\" O. )",
+      "nom": "Lac Quesnel",
+      "nom_search": "lac quesnel 46 23 11 n 73 30 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Quesnel",
+      "aliases": [
+        "lac quesnel",
+        "lac quesnel 46 23 11 n 73 30 54 o )",
+        "quesnel",
+        "quesnel 46 23 11 n 73 30 54 o )"
+      ],
+      "lat": 46.386389,
+      "lon": -73.515
+    },
+    {
+      "id": 3288,
+      "zone_id": 16,
+      "nom_brut": "Lac Sainte-Rose ( 46°27'04\" N., 73°27'57\" O. )",
+      "nom": "Lac Sainte-Rose",
+      "nom_search": "lac sainte rose 46 27 04 n 73 27 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sainte-Rose",
+      "aliases": [
+        "lac sainte rose",
+        "lac sainte rose 46 27 04 n 73 27 57 o )",
+        "sainte rose",
+        "sainte rose 46 27 04 n 73 27 57 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.451111,
+      "lon": -73.465833
+    },
+    {
+      "id": 860,
+      "zone_id": 16,
+      "nom_brut": "Lac Saint-Louis ( 46°33'29\" N., 73°48'03\" O. , Saint-Zénon)",
+      "nom": "Lac Saint-Louis",
+      "nom_search": "lac saint louis 46 33 29 n 73 48 03 o saint zenon)",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Louis",
+      "aliases": [
+        "lac saint louis",
+        "lac saint louis 46 33 29 n 73 48 03 o saint zenon)",
+        "saint louis",
+        "saint louis 46 33 29 n 73 48 03 o saint zenon)"
+      ],
+      "lat": 46.558056,
+      "lon": -73.800833
+    },
+    {
+      "id": 2499,
+      "zone_id": 16,
+      "nom_brut": "Parc National du Mont-Tremblant",
+      "nom": "Parc National du Mont-Tremblant",
+      "nom_search": "parc national du mont tremblant",
+      "segment_label": null,
+      "river_base_name": "Parc National du Mont-Tremblant",
+      "aliases": [
+        "parc national du mont tremblant"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2411,
+      "zone_id": 16,
+      "nom_brut": "Réserve Faunique Rouge-Matawin",
+      "nom": "Réserve Faunique Rouge-Matawin",
+      "nom_search": "reserve faunique rouge matawin",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique Rouge-Matawin",
+      "aliases": [
+        "reserve faunique rouge matawin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 861,
+      "zone_id": 16,
+      "nom_brut": "Réservoir Taureau ( 46°46' N., 73°50' O. )",
+      "nom": "Réservoir Taureau",
+      "nom_search": "reservoir taureau 46 46 n 73 50 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Taureau",
+      "aliases": [
+        "reservoir taureau",
+        "reservoir taureau 46 46 n 73 50 o )",
+        "taureau",
+        "taureau 46 46 n 73 50 o )"
+      ],
+      "lat": 46.766667,
+      "lon": -73.833333
+    },
+    {
+      "id": 863,
+      "zone_id": 16,
+      "nom_brut": "Rivière du Diable entre l'embouchure de la rivière Le Boulé ( 46°11'06\" N., 74°31'09\" O. ) et le ruisseau de l'Avalanche situé au point ( 46°11'35\" N., 74°34'11\" O. ).",
+      "nom": "Rivière du Diable entre l'embouchure de la rivière Le Boulé",
+      "nom_search": "riviere du diable entre l embouchure de la riviere le boule 46 11 06 n 74 31 09 o ) et le ruisseau de l avalanche situe au point 46 11 35 n 74 34 11 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Diable",
+      "aliases": [
+        "du diable",
+        "du diable entre l embouchure de la riviere le boule 46 11 06 n 74 31 09 o ) et le ruisseau de l avalanche situe au point 46 11 35 n 74 34 11 o )",
+        "riviere du diable",
+        "riviere du diable entre l embouchure de la riviere le boule 46 11 06 n 74 31 09 o ) et le ruisseau de l avalanche situe au point 46 11 35 n 74 34 11 o )"
+      ],
+      "lat": 46.185,
+      "lon": -74.519167
+    },
+    {
+      "id": 865,
+      "zone_id": 16,
+      "nom_brut": "Rivière Manouane La partie comprise entre le barrage Kempt ( 47°32'13\" N., 74°11'06\" O. ) et le lac Manouane ( 47°32'32'' N., 74°10'39\" O. )",
+      "nom": "Rivière Manouane La partie comprise entre le barrage Kempt",
+      "nom_search": "riviere manouane la partie comprise entre le barrage kempt 47 32 13 n 74 11 06 o ) et le lac manouane 47 32 32 n 74 10 39 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Manouane La partie comprise",
+      "aliases": [
+        "manouane la partie comprise",
+        "manouane la partie comprise entre le barrage kempt 47 32 13 n 74 11 06 o ) et le lac manouane 47 32 32 n 74 10 39 o )",
+        "riviere manouane la partie comprise",
+        "riviere manouane la partie comprise entre le barrage kempt 47 32 13 n 74 11 06 o ) et le lac manouane 47 32 32 n 74 10 39 o )"
+      ],
+      "lat": 47.536944,
+      "lon": -74.185
+    },
+    {
+      "id": 855,
+      "zone_id": 16,
+      "nom_brut": "Rivière Némiscachingue entre la limite de la zone 14 et le lac Némiscachingue.",
+      "nom": "Rivière Némiscachingue entre la limite de la zone 14 et le lac Némiscachingue.",
+      "nom_search": "riviere nemiscachingue entre la limite de la zone 14 et le lac nemiscachingue",
+      "segment_label": null,
+      "river_base_name": "Rivière Némiscachingue",
+      "aliases": [
+        "nemiscachingue",
+        "nemiscachingue entre la limite de la zone 14 et le lac nemiscachingue",
+        "riviere nemiscachingue",
+        "riviere nemiscachingue entre la limite de la zone 14 et le lac nemiscachingue"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 858,
+      "zone_id": 16,
+      "nom_brut": "Ruisseau Castelneau entre le pont du poste d'accueil de la zec Maison-de-Pierre ( 46°43'15\" N., 74°58'39\" O. ) jusqu'à l'émissaire du lac de la Dame ( 46°43'18\" N., 74°57'39\" O. ).",
+      "nom": "Ruisseau Castelneau entre le pont du poste d'accueil de la zec Maison-de-Pierre",
+      "nom_search": "ruisseau castelneau entre le pont du poste d accueil de la zec maison de pierre 46 43 15 n 74 58 39 o ) jusqu a l emissaire du lac de la dame 46 43 18 n 74 57 39 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Castelneau",
+      "aliases": [
+        "castelneau",
+        "castelneau entre le pont du poste d accueil de la zec maison de pierre 46 43 15 n 74 58 39 o ) jusqu a l emissaire du lac de la dame 46 43 18 n 74 57 39 o )",
+        "ruisseau castelneau",
+        "ruisseau castelneau entre le pont du poste d accueil de la zec maison de pierre 46 43 15 n 74 58 39 o ) jusqu a l emissaire du lac de la dame 46 43 18 n 74 57 39 o )"
+      ],
+      "lat": 46.720833,
+      "lon": -74.9775
+    },
+    {
+      "id": 2350,
+      "zone_id": 16,
+      "nom_brut": "Zec Boullé",
+      "nom": "Zec Boullé",
+      "nom_search": "zec boulle",
+      "segment_label": null,
+      "river_base_name": "Zec Boullé",
+      "aliases": [
+        "zec boulle"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2360,
+      "zone_id": 16,
+      "nom_brut": "Zec Collin",
+      "nom": "Zec Collin",
+      "nom_search": "zec collin",
+      "segment_label": null,
+      "river_base_name": "Zec Collin",
+      "aliases": [
+        "zec collin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2384,
+      "zone_id": 16,
+      "nom_brut": "Zec de la Maison-de-Pierre",
+      "nom": "Zec de la Maison-de-Pierre",
+      "nom_search": "zec de la maison de pierre",
+      "segment_label": null,
+      "river_base_name": "Zec de la Maison-de-Pierre",
+      "aliases": [
+        "zec de la maison de pierre"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2395,
+      "zone_id": 16,
+      "nom_brut": "Zec des Nymphes",
+      "nom": "Zec des Nymphes",
+      "nom_search": "zec des nymphes",
+      "segment_label": null,
+      "river_base_name": "Zec des Nymphes",
+      "aliases": [
+        "zec des nymphes"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2378,
+      "zone_id": 16,
+      "nom_brut": "Zec Lavigne",
+      "nom": "Zec Lavigne",
+      "nom_search": "zec lavigne",
+      "segment_label": null,
+      "river_base_name": "Zec Lavigne",
+      "aliases": [
+        "zec lavigne"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2379,
+      "zone_id": 16,
+      "nom_brut": "Zec Lesueur",
+      "nom": "Zec Lesueur",
+      "nom_search": "zec lesueur",
+      "segment_label": null,
+      "river_base_name": "Zec Lesueur",
+      "aliases": [
+        "zec lesueur"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2390,
+      "zone_id": 16,
+      "nom_brut": "Zec Mazana",
+      "nom": "Zec Mazana",
+      "nom_search": "zec mazana",
+      "segment_label": null,
+      "river_base_name": "Zec Mazana",
+      "aliases": [
+        "zec mazana"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2392,
+      "zone_id": 16,
+      "nom_brut": "Zec Mitchinamecus",
+      "nom": "Zec Mitchinamecus",
+      "nom_search": "zec mitchinamecus",
+      "segment_label": null,
+      "river_base_name": "Zec Mitchinamecus",
+      "aliases": [
+        "zec mitchinamecus"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2394,
+      "zone_id": 16,
+      "nom_brut": "Zec Normandie",
+      "nom": "Zec Normandie",
+      "nom_search": "zec normandie",
+      "segment_label": null,
+      "river_base_name": "Zec Normandie",
+      "aliases": [
+        "zec normandie"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

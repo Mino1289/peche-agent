@@ -1,0 +1,2660 @@
+{
+  "meta": {
+    "zone_id": 6,
+    "radius_km": 25.0,
+    "nb_with_coords": 40,
+    "nb_station_matched": 40
+  },
+  "matches": [
+    {
+      "plan_id": 689,
+      "plan_nom": "Lac à la Truite",
+      "lat": 45.345,
+      "lon": -72.151111,
+      "stations": [
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 8.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 8.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 14.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 15.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 16.2,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 19.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 20.7,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 21.57,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030268",
+      "station": {
+        "id": "030268",
+        "plan_eau": "Lac Stukely",
+        "description": "Au lac Stukely à Orford",
+        "lat": 45.393972,
+        "lon": -72.226056,
+        "distance_km": 8.0
+      }
+    },
+    {
+      "plan_id": 665,
+      "plan_nom": "Lac Boissonneault",
+      "lat": 45.596111,
+      "lon": -71.905,
+      "stations": [
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 8.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 19.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 20.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 21.18,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030101",
+          "plan_eau": "Rivière Nicolet Sud-Ouest",
+          "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+          "lat": 45.792,
+          "lon": -71.968,
+          "distance_km": 22.32,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 22.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030234",
+          "plan_eau": "Rivière Eaton",
+          "description": "À 0,6 km de la rivière Saint-François",
+          "lat": 45.468,
+          "lon": -71.655,
+          "distance_km": 24.13,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "899",
+      "station": {
+        "id": "899",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Pont  des Papetiers (amont)",
+        "lat": 45.567774,
+        "lon": -72.008221,
+        "distance_km": 8.63
+      }
+    },
+    {
+      "plan_id": 754,
+      "plan_nom": "Lac Boivin",
+      "lat": 45.402222,
+      "lon": -72.696389,
+      "stations": [
+        {
+          "id": "030326",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+          "lat": 45.417,
+          "lon": -72.61,
+          "distance_km": 6.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030309",
+          "plan_eau": "Réservoir Choinière",
+          "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+          "lat": 45.41775,
+          "lon": -72.609917,
+          "distance_km": 6.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 8.04,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 13.76,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 13.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 15.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 15.37,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 15.8,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030326",
+      "station": {
+        "id": "030326",
+        "plan_eau": "Rivière Yamaska Nord",
+        "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+        "lat": 45.417,
+        "lon": -72.61,
+        "distance_km": 6.94
+      }
+    },
+    {
+      "plan_id": 666,
+      "plan_nom": "Lac Brompton",
+      "lat": 45.429444,
+      "lon": -72.148889,
+      "stations": [
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 4.79,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030247",
+      "station": {
+        "id": "030247",
+        "plan_eau": "Lac Brompton",
+        "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+        "lat": 45.470806,
+        "lon": -72.131528,
+        "distance_km": 4.79
+      }
+    },
+    {
+      "plan_id": 668,
+      "plan_nom": "Lac Brousseau",
+      "lat": 45.333333,
+      "lon": -72.436667,
+      "stations": [
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 6.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 6.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 6.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 12.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 13.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 15.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030326",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+          "lat": 45.417,
+          "lon": -72.61,
+          "distance_km": 16.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030309",
+          "plan_eau": "Réservoir Choinière",
+          "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+          "lat": 45.41775,
+          "lon": -72.609917,
+          "distance_km": 16.47,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030332",
+      "station": {
+        "id": "030332",
+        "plan_eau": "Lac Waterloo",
+        "description": "Au lac Waterloo à Waterloo",
+        "lat": 45.338,
+        "lon": -72.516,
+        "distance_km": 6.22
+      }
+    },
+    {
+      "plan_id": 661,
+      "plan_nom": "Lac d'Argent",
+      "lat": 45.310278,
+      "lon": -72.314167,
+      "stations": [
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 11.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 12.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 16.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 16.26,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 16.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 16.55,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 17.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 21.89,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030268",
+      "station": {
+        "id": "030268",
+        "plan_eau": "Lac Stukely",
+        "description": "Au lac Stukely à Orford",
+        "lat": 45.393972,
+        "lon": -72.226056,
+        "distance_km": 11.58
+      }
+    },
+    {
+      "plan_id": 670,
+      "plan_nom": "Lac Desmarais",
+      "lat": 45.461667,
+      "lon": -72.118889,
+      "stations": [
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 1.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 11.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 14.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 17.1,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 18.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 21.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 22.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 23.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030247",
+      "station": {
+        "id": "030247",
+        "plan_eau": "Lac Brompton",
+        "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+        "lat": 45.470806,
+        "lon": -72.131528,
+        "distance_km": 1.42
+      }
+    },
+    {
+      "plan_id": 672,
+      "plan_nom": "Lac Lovering",
+      "lat": 45.180833,
+      "lon": -72.155833,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 9.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 17.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 18.96,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 23.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 23.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 24.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030297",
+          "plan_eau": "Lac Lyster",
+          "description": "À Coaticook",
+          "lat": 45.036389,
+          "lon": -71.911756,
+          "distance_km": 25.0,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 9.58
+      }
+    },
+    {
+      "plan_id": 673,
+      "plan_nom": "Lac Magog",
+      "lat": 45.3,
+      "lon": -72.033333,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 10.62,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 10.62
+      }
+    },
+    {
+      "plan_id": 675,
+      "plan_nom": "Lac Massawippi",
+      "lat": 45.215833,
+      "lon": -72.0,
+      "stations": [
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 8.11,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 19.65,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030220",
+      "station": {
+        "id": "030220",
+        "plan_eau": "Rivière Massawippi",
+        "description": "À 1,6 km en aval du lac Massawippi",
+        "lat": 45.284,
+        "lon": -71.963,
+        "distance_km": 8.11
+      }
+    },
+    {
+      "plan_id": 12125,
+      "plan_nom": "Lac Massawippi",
+      "lat": 45.215833,
+      "lon": -72.0,
+      "stations": [
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 8.11,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 19.65,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030220",
+      "station": {
+        "id": "030220",
+        "plan_eau": "Rivière Massawippi",
+        "description": "À 1,6 km en aval du lac Massawippi",
+        "lat": 45.284,
+        "lon": -71.963,
+        "distance_km": 8.11
+      }
+    },
+    {
+      "plan_id": 3009,
+      "plan_nom": "Lac Memphrémagog",
+      "lat": 45.133333,
+      "lon": -72.266667,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 17.02,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 17.02
+      }
+    },
+    {
+      "plan_id": 3010,
+      "plan_nom": "Lac Memphrémagog",
+      "lat": 45.133333,
+      "lon": -72.266667,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 17.02,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 17.02
+      }
+    },
+    {
+      "plan_id": 671,
+      "plan_nom": "Lac Miroir",
+      "lat": 45.594722,
+      "lon": -71.604167,
+      "stations": [
+        {
+          "id": "030284",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,5 km en aval de la centrale de Weedon",
+          "lat": 45.658389,
+          "lon": -71.468389,
+          "distance_km": 12.71,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030234",
+          "plan_eau": "Rivière Eaton",
+          "description": "À 0,6 km de la rivière Saint-François",
+          "lat": 45.468,
+          "lon": -71.655,
+          "distance_km": 14.64,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030282",
+          "plan_eau": "Rivière au Saumon",
+          "description": "À 1,9 km en amont du ruisseau McGill",
+          "lat": 45.58,
+          "lon": -71.385,
+          "distance_km": 17.13,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "380",
+          "plan_eau": "Rivière Eaton",
+          "description": "Au pont de la route 108",
+          "lat": 45.4143,
+          "lon": -71.6226,
+          "distance_km": 20.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 20.44,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 21.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 23.18,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 23.99,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030284",
+      "station": {
+        "id": "030284",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 0,5 km en aval de la centrale de Weedon",
+        "lat": 45.658389,
+        "lon": -71.468389,
+        "distance_km": 12.71
+      }
+    },
+    {
+      "plan_id": 678,
+      "plan_nom": "Lac Montjoie",
+      "lat": 45.4075,
+      "lon": -72.098889,
+      "stations": [
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 7.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 10.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 16.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 16.39,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 17.36,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 17.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 19.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 19.49,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030247",
+      "station": {
+        "id": "030247",
+        "plan_eau": "Lac Brompton",
+        "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+        "lat": 45.470806,
+        "lon": -72.131528,
+        "distance_km": 7.49
+      }
+    },
+    {
+      "plan_id": 681,
+      "plan_nom": "Lac Parker",
+      "lat": 45.327778,
+      "lon": -72.313889,
+      "stations": [
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 10.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 13.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 14.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 15.84,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 15.87,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 16.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 18.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 21.35,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030268",
+      "station": {
+        "id": "030268",
+        "plan_eau": "Lac Stukely",
+        "description": "Au lac Stukely à Orford",
+        "lat": 45.393972,
+        "lon": -72.226056,
+        "distance_km": 10.06
+      }
+    },
+    {
+      "plan_id": 684,
+      "plan_nom": "Lac Petit lac Saint-François",
+      "lat": 45.533333,
+      "lon": -72.033333,
+      "stations": [
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 4.3,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 17.34,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 18.09,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 23.06,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "899",
+      "station": {
+        "id": "899",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Pont  des Papetiers (amont)",
+        "lat": 45.567774,
+        "lon": -72.008221,
+        "distance_km": 4.3
+      }
+    },
+    {
+      "plan_id": 682,
+      "plan_nom": "Lac Roxton",
+      "lat": 45.466667,
+      "lon": -72.65,
+      "stations": [
+        {
+          "id": "030309",
+          "plan_eau": "Réservoir Choinière",
+          "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+          "lat": 45.41775,
+          "lon": -72.609917,
+          "distance_km": 6.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030326",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+          "lat": 45.417,
+          "lon": -72.61,
+          "distance_km": 6.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 13.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030348",
+          "plan_eau": "Ruisseau Runnels",
+          "description": "À 30 mètres en aval du pont-route de Saint-Valérien-de-Milton",
+          "lat": 45.591194,
+          "lon": -72.689072,
+          "distance_km": 14.18,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 15.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 16.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 16.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 17.72,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030309",
+      "station": {
+        "id": "030309",
+        "plan_eau": "Réservoir Choinière",
+        "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+        "lat": 45.41775,
+        "lon": -72.609917,
+        "distance_km": 6.27
+      }
+    },
+    {
+      "plan_id": 2973,
+      "plan_nom": "Lac Simoneau",
+      "lat": 45.412222,
+      "lon": -72.189444,
+      "stations": [
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 3.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 7.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 12.67,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 16.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 22.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 22.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 22.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 23.46,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030268",
+      "station": {
+        "id": "030268",
+        "plan_eau": "Lac Stukely",
+        "description": "Au lac Stukely à Orford",
+        "lat": 45.393972,
+        "lon": -72.226056,
+        "distance_km": 3.51
+      }
+    },
+    {
+      "plan_id": 685,
+      "plan_nom": "Lac Stoke",
+      "lat": 45.518611,
+      "lon": -71.811389,
+      "stations": [
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 8.64,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030234",
+          "plan_eau": "Rivière Eaton",
+          "description": "À 0,6 km de la rivière Saint-François",
+          "lat": 45.468,
+          "lon": -71.655,
+          "distance_km": 13.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 13.91,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 16.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 17.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "380",
+          "plan_eau": "Rivière Eaton",
+          "description": "Au pont de la route 108",
+          "lat": 45.4143,
+          "lon": -71.6226,
+          "distance_km": 18.74,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030206",
+      "station": {
+        "id": "030206",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+        "lat": 45.448596,
+        "lon": -71.7633,
+        "distance_km": 8.64
+      }
+    },
+    {
+      "plan_id": 704,
+      "plan_nom": "Lac Stukely",
+      "lat": 45.375278,
+      "lon": -72.251944,
+      "stations": [
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 2.9,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030268",
+      "station": {
+        "id": "030268",
+        "plan_eau": "Lac Stukely",
+        "description": "Au lac Stukely à Orford",
+        "lat": 45.393972,
+        "lon": -72.226056,
+        "distance_km": 2.9
+      }
+    },
+    {
+      "plan_id": 691,
+      "plan_nom": "Lac Wallace",
+      "lat": 45.016667,
+      "lon": -71.633333,
+      "stations": [
+        {
+          "id": "030297",
+          "plan_eau": "Lac Lyster",
+          "description": "À Coaticook",
+          "lat": 45.036389,
+          "lon": -71.911756,
+          "distance_km": 21.99,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030297",
+      "station": {
+        "id": "030297",
+        "plan_eau": "Lac Lyster",
+        "description": "À Coaticook",
+        "lat": 45.036389,
+        "lon": -71.911756,
+        "distance_km": 21.99
+      }
+    },
+    {
+      "plan_id": 755,
+      "plan_nom": "Réservoir Choinière",
+      "lat": 45.428333,
+      "lon": -72.602778,
+      "stations": [
+        {
+          "id": "030309",
+          "plan_eau": "Réservoir Choinière",
+          "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+          "lat": 45.41775,
+          "lon": -72.609917,
+          "distance_km": 1.3,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030309",
+      "station": {
+        "id": "030309",
+        "plan_eau": "Réservoir Choinière",
+        "description": "À 0,2 km en amont du pont-route à Shefford-Vale",
+        "lat": 45.41775,
+        "lon": -72.609917,
+        "distance_km": 1.3
+      }
+    },
+    {
+      "plan_id": 721,
+      "plan_nom": "Rivière au Saumon entre le barrage Bombardier",
+      "lat": 45.470861,
+      "lon": -72.132056,
+      "stations": [
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 0.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 11.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 14.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 16.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 20.29,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 21.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 22.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 24.62,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030247",
+      "station": {
+        "id": "030247",
+        "plan_eau": "Lac Brompton",
+        "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+        "lat": 45.470806,
+        "lon": -72.131528,
+        "distance_km": 0.04
+      }
+    },
+    {
+      "plan_id": 706,
+      "plan_nom": "Rivière aux Cerises du pont de l'autoroute 10",
+      "lat": 45.293333,
+      "lon": -72.166667,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 2.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 12.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 15.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 15.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 19.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 20.81,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 21.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 22.7,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 2.98
+      }
+    },
+    {
+      "plan_id": 725,
+      "plan_nom": "Rivière Magog entre le lac Magog",
+      "lat": 45.333889,
+      "lon": -72.022222,
+      "stations": [
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 7.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 7.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 10.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 11.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 13.14,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 13.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 13.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 17.27,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030220",
+      "station": {
+        "id": "030220",
+        "plan_eau": "Rivière Massawippi",
+        "description": "À 1,6 km en aval du lac Massawippi",
+        "lat": 45.284,
+        "lon": -71.963,
+        "distance_km": 7.23
+      }
+    },
+    {
+      "plan_id": 698,
+      "plan_nom": "Rivière Magog entre le lac Memphrémagog",
+      "lat": 45.263611,
+      "lon": -72.158611,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 0.4,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 0.4
+      }
+    },
+    {
+      "plan_id": 12126,
+      "plan_nom": "Rivière Magog La partie comprise entre le barrage de la Dominion Textile à Magog",
+      "lat": 45.263056,
+      "lon": -72.143889,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 1.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 13.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 14.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 15.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 19.15,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 19.83,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 23.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 24.99,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 1.38
+      }
+    },
+    {
+      "plan_id": 12128,
+      "plan_nom": "Rivière Massawippi - La partie comprise entre le barrage de North Hatley",
+      "lat": 45.283333,
+      "lon": -71.963333,
+      "stations": [
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 0.08,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 12.01,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030220",
+      "station": {
+        "id": "030220",
+        "plan_eau": "Rivière Massawippi",
+        "description": "À 1,6 km en aval du lac Massawippi",
+        "lat": 45.284,
+        "lon": -71.963,
+        "distance_km": 0.08
+      }
+    },
+    {
+      "plan_id": 745,
+      "plan_nom": "Rivière Niger entre le pont du chemin de Way's Mills",
+      "lat": 45.133889,
+      "lon": -72.003056,
+      "stations": [
+        {
+          "id": "030297",
+          "plan_eau": "Lac Lyster",
+          "description": "À Coaticook",
+          "lat": 45.036389,
+          "lon": -71.911756,
+          "distance_km": 13.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 16.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 16.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 18.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 18.51,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 19.26,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030297",
+      "station": {
+        "id": "030297",
+        "plan_eau": "Lac Lyster",
+        "description": "À Coaticook",
+        "lat": 45.036389,
+        "lon": -71.911756,
+        "distance_km": 13.0
+      }
+    },
+    {
+      "plan_id": 747,
+      "plan_nom": "Rivière Saint-François a) entre le pont de la route 112 à Sherbrooke",
+      "lat": 45.403056,
+      "lon": -71.886667,
+      "stations": [
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 0.37,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 10.88,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 20.62,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030208",
+      "station": {
+        "id": "030208",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+        "lat": 45.406,
+        "lon": -71.889,
+        "distance_km": 0.37
+      }
+    },
+    {
+      "plan_id": 748,
+      "plan_nom": "Rivière Saint-François b) entre le barrage à Bromptonville",
+      "lat": 45.478333,
+      "lon": -71.9525,
+      "stations": [
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 9.45,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 10.85,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 13.98,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 15.12,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 25.95,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030208",
+      "station": {
+        "id": "030208",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+        "lat": 45.406,
+        "lon": -71.889,
+        "distance_km": 9.45
+      }
+    },
+    {
+      "plan_id": 2316,
+      "plan_nom": "Rivière Saint-François c) entre le pont du CN à Richmond",
+      "lat": 45.674167,
+      "lon": -72.178611,
+      "stations": [
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 2.28,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 17.76,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "912",
+      "station": {
+        "id": "912",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Pont F.-Coburn (amont)",
+        "lat": 45.665267,
+        "lon": -72.152108,
+        "distance_km": 2.28
+      }
+    },
+    {
+      "plan_id": 3236,
+      "plan_nom": "Rivière Saint-François d) entre le pont ferroviaire de Drummondville",
+      "lat": 45.887222,
+      "lon": -72.481944,
+      "stations": [
+        {
+          "id": "030299",
+          "plan_eau": "Rivière Saint-Germain",
+          "description": "Au pont du boulevard des Pins à Drummondville",
+          "lat": 45.896539,
+          "lon": -72.505486,
+          "distance_km": 2.1,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030103",
+          "plan_eau": "Rivière Nicolet",
+          "description": "À 5,8 km en aval de la Bulstrode",
+          "lat": 46.06,
+          "lon": -72.313,
+          "distance_km": 23.23,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030299",
+      "station": {
+        "id": "030299",
+        "plan_eau": "Rivière Saint-Germain",
+        "description": "Au pont du boulevard des Pins à Drummondville",
+        "lat": 45.896539,
+        "lon": -72.505486,
+        "distance_km": 2.1
+      }
+    },
+    {
+      "plan_id": 751,
+      "plan_nom": "Rivière Watopeka entre la rivière Saint-François",
+      "lat": 45.563889,
+      "lon": -72.005,
+      "stations": [
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 0.5,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 16.06,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 19.75,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 22.78,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "899",
+      "station": {
+        "id": "899",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Pont  des Papetiers (amont)",
+        "lat": 45.567774,
+        "lon": -72.008221,
+        "distance_km": 0.5
+      }
+    },
+    {
+      "plan_id": 10060,
+      "plan_nom": "Rivière Watopeka partie nommée \"étang McCarthy\" comprise entre le barrage McCarthy",
+      "lat": 45.615556,
+      "lon": -71.856944,
+      "stations": [
+        {
+          "id": "899",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont  des Papetiers (amont)",
+          "lat": 45.567774,
+          "lon": -72.008221,
+          "distance_km": 12.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030206",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au pont-route 112 à Ascot                                                                                                                                                                                                                                     ",
+          "lat": 45.448596,
+          "lon": -71.7633,
+          "distance_km": 19.95,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030101",
+          "plan_eau": "Rivière Nicolet Sud-Ouest",
+          "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+          "lat": 45.792,
+          "lon": -71.968,
+          "distance_km": 21.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030234",
+          "plan_eau": "Rivière Eaton",
+          "description": "À 0,6 km de la rivière Saint-François",
+          "lat": 45.468,
+          "lon": -71.655,
+          "distance_km": 22.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030208",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au parc Saint-François, en face de l'embouchure de la rivière Magog",
+          "lat": 45.406,
+          "lon": -71.889,
+          "distance_km": 23.44,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "912",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Pont F.-Coburn (amont)",
+          "lat": 45.665267,
+          "lon": -72.152108,
+          "distance_km": 23.6,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "899",
+      "station": {
+        "id": "899",
+        "plan_eau": "Rivière Saint-François",
+        "description": "Pont  des Papetiers (amont)",
+        "lat": 45.567774,
+        "lon": -72.008221,
+        "distance_km": 12.91
+      }
+    },
+    {
+      "plan_id": 753,
+      "plan_nom": "Rivière Yamaska La partie de la rivière ainsi que ses tributaires situés dans la zone 6, y compris le lac Boivin",
+      "lat": 45.402222,
+      "lon": -72.696389,
+      "stations": [
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 13.76,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030302",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 0,6 km en amont du pont-route de la 235 à Farnham",
+          "lat": 45.283,
+          "lon": -72.966,
+          "distance_km": 24.89,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030353",
+      "station": {
+        "id": "030353",
+        "plan_eau": "Rivière Yamaska",
+        "description": "Au pont du Chemin de Matapédia",
+        "lat": 45.301686,
+        "lon": -72.593792,
+        "distance_km": 13.76
+      }
+    },
+    {
+      "plan_id": 716,
+      "plan_nom": "Ruisseau Brook entre le pont de la route 143 à Hatley",
+      "lat": 45.180833,
+      "lon": -71.990278,
+      "stations": [
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 10.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 11.67,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 13.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 13.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 16.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030297",
+          "plan_eau": "Lac Lyster",
+          "description": "À Coaticook",
+          "lat": 45.036389,
+          "lon": -71.911756,
+          "distance_km": 17.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "896",
+          "plan_eau": "Rivière Massawippi",
+          "description": "Pont Malory - Lennoxville (aval)",
+          "lat": 45.360583,
+          "lon": -71.855933,
+          "distance_km": 22.58,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030241",
+      "station": {
+        "id": "030241",
+        "plan_eau": "Lac Massawipi",
+        "description": "Au quai passerelle à North Hatley",
+        "lat": 45.276306,
+        "lon": -71.9735,
+        "distance_km": 10.7
+      }
+    },
+    {
+      "plan_id": 711,
+      "plan_nom": "Ruisseau Castle",
+      "lat": 45.259722,
+      "lon": -72.193556,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 2.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 15.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 17.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 18.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030215",
+          "plan_eau": "Rivière Coaticook",
+          "description": "À 1,3 km en aval du pont-route 143 à Waterville",
+          "lat": 45.284,
+          "lon": -71.901,
+          "distance_km": 23.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030283",
+          "plan_eau": "Rivière Coaticook",
+          "description": "Sur la rivière Coaticook à Waterville",
+          "lat": 45.279194,
+          "lon": -71.891472,
+          "distance_km": 23.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030247",
+          "plan_eau": "Lac Brompton",
+          "description": "Au lac Brompton à Saint-Denis-de-Brompton",
+          "lat": 45.470806,
+          "lon": -72.131528,
+          "distance_km": 23.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 24.66,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 2.7
+      }
+    },
+    {
+      "plan_id": 1592,
+      "plan_nom": "Ruisseau Taylor",
+      "lat": 45.115306,
+      "lon": -72.257306,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 18.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 23.01,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 18.48
+      }
+    }
+  ]
+}

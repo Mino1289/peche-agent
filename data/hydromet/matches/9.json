@@ -1,0 +1,1535 @@
+{
+  "meta": {
+    "zone_id": 9,
+    "radius_km": 25.0,
+    "nb_with_coords": 25,
+    "nb_station_matched": 25
+  },
+  "matches": [
+    {
+      "plan_id": 286,
+      "plan_nom": "Lac Archambault incluant ses tributaires et ses baies",
+      "lat": 46.305556,
+      "lon": -74.2475,
+      "stations": [
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 13.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 20.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 20.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 20.95,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 21.15,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 24.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040101",
+      "station": {
+        "id": "040101",
+        "plan_eau": "Lac de la Montagne-Noire",
+        "description": "Au lac de la Montagne Noire à Lantier",
+        "lat": 46.182556,
+        "lon": -74.276667,
+        "distance_km": 13.86
+      }
+    },
+    {
+      "plan_id": 339,
+      "plan_nom": "Lac Blanc",
+      "lat": 46.331667,
+      "lon": -74.215833,
+      "stations": [
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 17.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 22.66,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 23.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 24.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 24.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040101",
+      "station": {
+        "id": "040101",
+        "plan_eau": "Lac de la Montagne-Noire",
+        "description": "Au lac de la Montagne Noire à Lantier",
+        "lat": 46.182556,
+        "lon": -74.276667,
+        "distance_km": 17.23
+      }
+    },
+    {
+      "plan_id": 12320,
+      "plan_nom": "Lac des Cerfs",
+      "lat": 46.167222,
+      "lon": -73.884167,
+      "stations": [
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 19.81,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 19.89,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 20.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 20.5,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052237",
+      "station": {
+        "id": "052237",
+        "plan_eau": "Lac Rawdon",
+        "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+        "lat": 46.044926,
+        "lon": -73.697271,
+        "distance_km": 19.81
+      }
+    },
+    {
+      "plan_id": 10581,
+      "plan_nom": "Lac des Cygnes",
+      "lat": 46.168611,
+      "lon": -73.887222,
+      "stations": [
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 19.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 20.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 20.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 20.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040129",
+      "station": {
+        "id": "040129",
+        "plan_eau": "Rivière Doncaster",
+        "description": "À 0,3 km en aval de la décharge du lac Élevé",
+        "lat": 46.096361,
+        "lon": -74.121131,
+        "distance_km": 19.73
+      }
+    },
+    {
+      "plan_id": 10083,
+      "plan_nom": "Lac des Îles",
+      "lat": 46.101667,
+      "lon": -74.0325,
+      "stations": [
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 6.86,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 8.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040122",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,5 km en aval du pont du C.P. près de Sainte-Agathe-des-Monts",
+          "lat": 46.046419,
+          "lon": -74.252537,
+          "distance_km": 18.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 18.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 18.91,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 19.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 20.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 21.33,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040129",
+      "station": {
+        "id": "040129",
+        "plan_eau": "Rivière Doncaster",
+        "description": "À 0,3 km en aval de la décharge du lac Élevé",
+        "lat": 46.096361,
+        "lon": -74.121131,
+        "distance_km": 6.86
+      }
+    },
+    {
+      "plan_id": 359,
+      "plan_nom": "Lac des Sables",
+      "lat": 46.043611,
+      "lon": -74.302778,
+      "stations": [
+        {
+          "id": "040107",
+          "plan_eau": "Lac des Sables",
+          "description": "Au lac des Sables à Sainte-Agathe-des-Monts",
+          "lat": 46.053028,
+          "lon": -74.308,
+          "distance_km": 1.12,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040107",
+      "station": {
+        "id": "040107",
+        "plan_eau": "Lac des Sables",
+        "description": "Au lac des Sables à Sainte-Agathe-des-Monts",
+        "lat": 46.053028,
+        "lon": -74.308,
+        "distance_km": 1.12
+      }
+    },
+    {
+      "plan_id": 329,
+      "plan_nom": "Lac Écho",
+      "lat": 45.8875,
+      "lon": -74.023056,
+      "stations": [
+        {
+          "id": "561",
+          "plan_eau": "Rivière du Nord",
+          "description": "Rue des Frangins (aval)",
+          "lat": 45.850919,
+          "lon": -74.06635,
+          "distance_km": 5.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040110",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 4,8 km en amont du pont du C.N. à Saint-Jérôme",
+          "lat": 45.795,
+          "lon": -74.013,
+          "distance_km": 10.31,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052240",
+          "plan_eau": "Rivière Beauport",
+          "description": "à 1 km de la confluence avec la rivière de l'Achigan",
+          "lat": 45.897879,
+          "lon": -73.862469,
+          "distance_km": 12.48,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040134",
+          "plan_eau": "Ruisseau Bonniebrook",
+          "description": "En amont du pont de la rue du Mont Castel",
+          "lat": 45.766931,
+          "lon": -74.137295,
+          "distance_km": 16.07,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 16.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040109",
+          "plan_eau": "Lac Théodore",
+          "description": "Au lac Théodore à Val-Morin",
+          "lat": 45.961694,
+          "lon": -74.247667,
+          "distance_km": 19.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 24.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "561",
+      "station": {
+        "id": "561",
+        "plan_eau": "Rivière du Nord",
+        "description": "Rue des Frangins (aval)",
+        "lat": 45.850919,
+        "lon": -74.06635,
+        "distance_km": 5.27
+      }
+    },
+    {
+      "plan_id": 3305,
+      "plan_nom": "Lac Hersey",
+      "lat": 46.075556,
+      "lon": -73.959167,
+      "stations": [
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 8.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 12.7,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 20.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 20.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052240",
+          "plan_eau": "Rivière Beauport",
+          "description": "à 1 km de la confluence avec la rivière de l'Achigan",
+          "lat": 45.897879,
+          "lon": -73.862469,
+          "distance_km": 21.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040122",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,5 km en aval du pont du C.P. près de Sainte-Agathe-des-Monts",
+          "lat": 46.046419,
+          "lon": -74.252537,
+          "distance_km": 22.87,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 24.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 24.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040108",
+      "station": {
+        "id": "040108",
+        "plan_eau": "Rivière du Nord",
+        "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+        "lat": 46.030694,
+        "lon": -74.055722,
+        "distance_km": 8.97
+      }
+    },
+    {
+      "plan_id": 10081,
+      "plan_nom": "Lac Louisa",
+      "lat": 45.769167,
+      "lon": -74.418889,
+      "stations": [
+        {
+          "id": "040204",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont de la chute McNeil",
+          "lat": 45.738,
+          "lon": -74.689,
+          "distance_km": 21.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040135",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 8 km de l'embouchure à Saint-André d'Argenteuil",
+          "lat": 45.58142,
+          "lon": -74.360457,
+          "distance_km": 21.36,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040134",
+          "plan_eau": "Ruisseau Bonniebrook",
+          "description": "En amont du pont de la rue du Mont Castel",
+          "lat": 45.766931,
+          "lon": -74.137295,
+          "distance_km": 21.84,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040204",
+      "station": {
+        "id": "040204",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont de la chute McNeil",
+        "lat": 45.738,
+        "lon": -74.689,
+        "distance_km": 21.24
+      }
+    },
+    {
+      "plan_id": 2979,
+      "plan_nom": "Lac Manitou",
+      "lat": 46.06,
+      "lon": -74.375,
+      "stations": [
+        {
+          "id": "040106",
+          "plan_eau": "Lac Manitou",
+          "description": "Au lac Manitou à Sainte-Agathe-des-Monts",
+          "lat": 46.074417,
+          "lon": -74.336,
+          "distance_km": 3.41,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040106",
+      "station": {
+        "id": "040106",
+        "plan_eau": "Lac Manitou",
+        "description": "Au lac Manitou à Sainte-Agathe-des-Monts",
+        "lat": 46.074417,
+        "lon": -74.336,
+        "distance_km": 3.41
+      }
+    },
+    {
+      "plan_id": 327,
+      "plan_nom": "Lac Maskinongé",
+      "lat": 46.090556,
+      "lon": -74.598333,
+      "stations": [
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 23.96,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040240",
+      "station": {
+        "id": "040240",
+        "plan_eau": "Rivière Maskinongé",
+        "description": "1 km en amont de Boileau",
+        "lat": 45.911094,
+        "lon": -74.769957,
+        "distance_km": 23.96
+      }
+    },
+    {
+      "plan_id": 3233,
+      "plan_nom": "Lac Morgan",
+      "lat": 46.138056,
+      "lon": -73.765278,
+      "stations": [
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 11.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 12.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 24.13,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052237",
+      "station": {
+        "id": "052237",
+        "plan_eau": "Lac Rawdon",
+        "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+        "lat": 46.044926,
+        "lon": -73.697271,
+        "distance_km": 11.61
+      }
+    },
+    {
+      "plan_id": 3194,
+      "plan_nom": "Lac Narcisse",
+      "lat": 46.021111,
+      "lon": -74.539444,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 11.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 11.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040106",
+          "plan_eau": "Lac Manitou",
+          "description": "Au lac Manitou à Sainte-Agathe-des-Monts",
+          "lat": 46.074417,
+          "lon": -74.336,
+          "distance_km": 16.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040107",
+          "plan_eau": "Lac des Sables",
+          "description": "Au lac des Sables à Sainte-Agathe-des-Monts",
+          "lat": 46.053028,
+          "lon": -74.308,
+          "distance_km": 18.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 21.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 21.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 21.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040122",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,5 km en aval du pont du C.P. près de Sainte-Agathe-des-Monts",
+          "lat": 46.046419,
+          "lon": -74.252537,
+          "distance_km": 22.33,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 11.5
+      }
+    },
+    {
+      "plan_id": 334,
+      "plan_nom": "Lac Ouareau",
+      "lat": 46.284167,
+      "lon": -74.143056,
+      "stations": [
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 15.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 20.95,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 21.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 21.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 21.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 24.7,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040101",
+      "station": {
+        "id": "040101",
+        "plan_eau": "Lac de la Montagne-Noire",
+        "description": "Au lac de la Montagne Noire à Lantier",
+        "lat": 46.182556,
+        "lon": -74.276667,
+        "distance_km": 15.27
+      }
+    },
+    {
+      "plan_id": 11041,
+      "plan_nom": "Lac Pierre",
+      "lat": 46.195833,
+      "lon": -73.683611,
+      "stations": [
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 16.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 16.81,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 18.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052401",
+          "plan_eau": "Rivière Bayonne",
+          "description": "À Saint-Félix-de-Valois",
+          "lat": 46.157092,
+          "lon": -73.390803,
+          "distance_km": 22.95,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052228",
+      "station": {
+        "id": "052228",
+        "plan_eau": "Rivière Noire",
+        "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+        "lat": 46.341,
+        "lon": -73.654,
+        "distance_km": 16.3
+      }
+    },
+    {
+      "plan_id": 362,
+      "plan_nom": "Lac Raymond",
+      "lat": 46.003889,
+      "lon": -74.160556,
+      "stations": [
+        {
+          "id": "040109",
+          "plan_eau": "Lac Théodore",
+          "description": "Au lac Théodore à Val-Morin",
+          "lat": 45.961694,
+          "lon": -74.247667,
+          "distance_km": 8.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040122",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,5 km en aval du pont du C.P. près de Sainte-Agathe-des-Monts",
+          "lat": 46.046419,
+          "lon": -74.252537,
+          "distance_km": 8.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 8.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 10.72,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040107",
+          "plan_eau": "Lac des Sables",
+          "description": "Au lac des Sables à Sainte-Agathe-des-Monts",
+          "lat": 46.053028,
+          "lon": -74.308,
+          "distance_km": 12.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 12.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 15.56,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 15.56,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040109",
+      "station": {
+        "id": "040109",
+        "plan_eau": "Lac Théodore",
+        "description": "Au lac Théodore à Val-Morin",
+        "lat": 45.961694,
+        "lon": -74.247667,
+        "distance_km": 8.2
+      }
+    },
+    {
+      "plan_id": 11040,
+      "plan_nom": "Lac Sans nom",
+      "lat": 46.138056,
+      "lon": -73.771667,
+      "stations": [
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 11.84,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 12.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 24.31,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 24.95,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052237",
+      "station": {
+        "id": "052237",
+        "plan_eau": "Lac Rawdon",
+        "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+        "lat": 46.044926,
+        "lon": -73.697271,
+        "distance_km": 11.84
+      }
+    },
+    {
+      "plan_id": 11020,
+      "plan_nom": "Lac Sans nom",
+      "lat": 46.138056,
+      "lon": -73.773056,
+      "stations": [
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 11.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 13.01,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 24.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040108",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Masson à Sainte-Marguerite-du-Lac-Masson",
+          "lat": 46.030694,
+          "lon": -74.055722,
+          "distance_km": 24.86,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052237",
+      "station": {
+        "id": "052237",
+        "plan_eau": "Lac Rawdon",
+        "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+        "lat": 46.044926,
+        "lon": -73.697271,
+        "distance_km": 11.89
+      }
+    },
+    {
+      "plan_id": 3313,
+      "plan_nom": "Lac Tire",
+      "lat": 46.338333,
+      "lon": -74.235556,
+      "stations": [
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 17.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040212",
+          "plan_eau": "Ruisseau Saint-Louis",
+          "description": "À 0,3 km de la rivière du Diable",
+          "lat": 46.37375,
+          "lon": -74.50475,
+          "distance_km": 21.03,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 24.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 24.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 24.68,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040101",
+      "station": {
+        "id": "040101",
+        "plan_eau": "Lac de la Montagne-Noire",
+        "description": "Au lac de la Montagne Noire à Lantier",
+        "lat": 46.182556,
+        "lon": -74.276667,
+        "distance_km": 17.61
+      }
+    },
+    {
+      "plan_id": 3309,
+      "plan_nom": "Lac Vert",
+      "lat": 46.184167,
+      "lon": -73.718611,
+      "stations": [
+        {
+          "id": "052237",
+          "plan_eau": "Lac Rawdon",
+          "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+          "lat": 46.044926,
+          "lon": -73.697271,
+          "distance_km": 15.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 17.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052228",
+          "plan_eau": "Rivière Noire",
+          "description": "À 2,6 km en amont du pont-route à Sainte-Émélie-de-l'Énergie",
+          "lat": 46.341,
+          "lon": -73.654,
+          "distance_km": 18.13,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052237",
+      "station": {
+        "id": "052237",
+        "plan_eau": "Lac Rawdon",
+        "description": "À Rawdon près du pont-barrage                                                                                                                                                                                                                                 ",
+        "lat": 46.044926,
+        "lon": -73.697271,
+        "distance_km": 15.57
+      }
+    },
+    {
+      "plan_id": 12161,
+      "plan_nom": "Rivière Doncaster - La partie comprise dans le Parc de la rivière Doncaster entre les points 45°58'48.5\" N., 74°04'29.8\" O. et 45°58'0.7\" N., 74°05'58.42\" O.",
+      "lat": 45.980139,
+      "lon": -74.074944,
+      "stations": [
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 13.41,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040129",
+      "station": {
+        "id": "040129",
+        "plan_eau": "Rivière Doncaster",
+        "description": "À 0,3 km en aval de la décharge du lac Élevé",
+        "lat": 46.096361,
+        "lon": -74.121131,
+        "distance_km": 13.41
+      }
+    },
+    {
+      "plan_id": 12163,
+      "plan_nom": "Rivière du Nord - La partie comprise entre le pont de l'autoroute 15",
+      "lat": 45.761389,
+      "lon": -74.002211,
+      "stations": [
+        {
+          "id": "040110",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 4,8 km en amont du pont du C.N. à Saint-Jérôme",
+          "lat": 45.795,
+          "lon": -74.013,
+          "distance_km": 3.83,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "561",
+          "plan_eau": "Rivière du Nord",
+          "description": "Rue des Frangins (aval)",
+          "lat": 45.850919,
+          "lon": -74.06635,
+          "distance_km": 11.13,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040110",
+      "station": {
+        "id": "040110",
+        "plan_eau": "Rivière du Nord",
+        "description": "À 4,8 km en amont du pont du C.N. à Saint-Jérôme",
+        "lat": 45.795,
+        "lon": -74.013,
+        "distance_km": 3.83
+      }
+    },
+    {
+      "plan_id": 311,
+      "plan_nom": "Rivière Ouareau entre les lacs Blanc et Ouareau",
+      "lat": 46.315,
+      "lon": -74.188889,
+      "stations": [
+        {
+          "id": "040101",
+          "plan_eau": "Lac de la Montagne-Noire",
+          "description": "Au lac de la Montagne Noire à Lantier",
+          "lat": 46.182556,
+          "lon": -74.276667,
+          "distance_km": 16.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040102",
+          "plan_eau": "Lac Papineau",
+          "description": "Au lac Papineau à Sainte-Agathe-des-Monts",
+          "lat": 46.127083,
+          "lon": -74.306722,
+          "distance_km": 22.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 22.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 22.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040129",
+          "plan_eau": "Rivière Doncaster",
+          "description": "À 0,3 km en aval de la décharge du lac Élevé",
+          "lat": 46.096361,
+          "lon": -74.121131,
+          "distance_km": 24.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040101",
+      "station": {
+        "id": "040101",
+        "plan_eau": "Lac de la Montagne-Noire",
+        "description": "Au lac de la Montagne Noire à Lantier",
+        "lat": 46.182556,
+        "lon": -74.276667,
+        "distance_km": 16.2
+      }
+    },
+    {
+      "plan_id": 373,
+      "plan_nom": "Ruisseau sans nom entre les lacs Sainte-Marie et Théodore",
+      "lat": 45.958056,
+      "lon": -74.275278,
+      "stations": [
+        {
+          "id": "040109",
+          "plan_eau": "Lac Théodore",
+          "description": "Au lac Théodore à Val-Morin",
+          "lat": 45.961694,
+          "lon": -74.247667,
+          "distance_km": 2.17,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040109",
+      "station": {
+        "id": "040109",
+        "plan_eau": "Lac Théodore",
+        "description": "Au lac Théodore à Val-Morin",
+        "lat": 45.961694,
+        "lon": -74.247667,
+        "distance_km": 2.17
+      }
+    },
+    {
+      "plan_id": 376,
+      "plan_nom": "Ruisseau sans nom entre les lacs Saint-Joseph et Sainte-Marie",
+      "lat": 45.970278,
+      "lon": -74.317222,
+      "stations": [
+        {
+          "id": "040109",
+          "plan_eau": "Lac Théodore",
+          "description": "Au lac Théodore à Val-Morin",
+          "lat": 45.961694,
+          "lon": -74.247667,
+          "distance_km": 5.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040107",
+          "plan_eau": "Lac des Sables",
+          "description": "Au lac des Sables à Sainte-Agathe-des-Monts",
+          "lat": 46.053028,
+          "lon": -74.308,
+          "distance_km": 9.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040122",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,5 km en aval du pont du C.P. près de Sainte-Agathe-des-Monts",
+          "lat": 46.046419,
+          "lon": -74.252537,
+          "distance_km": 9.83,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040106",
+          "plan_eau": "Lac Manitou",
+          "description": "Au lac Manitou à Sainte-Agathe-des-Monts",
+          "lat": 46.074417,
+          "lon": -74.336,
+          "distance_km": 11.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040104",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au lac Brûlé à Sainte-Agathe-des-Monts",
+          "lat": 46.083176,
+          "lon": -74.279744,
+          "distance_km": 12.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 15.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040132",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 0,01 km en aval du barrage Ludger",
+          "lat": 46.118247,
+          "lon": -74.276691,
+          "distance_km": 16.75,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040103",
+          "plan_eau": "Lac Ludger",
+          "description": "Au lac Ludger à Sainte-Agathe-des-Monts",
+          "lat": 46.118982,
+          "lon": -74.275347,
+          "distance_km": 16.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040109",
+      "station": {
+        "id": "040109",
+        "plan_eau": "Lac Théodore",
+        "description": "Au lac Théodore à Val-Morin",
+        "lat": 45.961694,
+        "lon": -74.247667,
+        "distance_km": 5.46
+      }
+    }
+  ]
+}

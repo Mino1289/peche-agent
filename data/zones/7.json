@@ -1,0 +1,3823 @@
+{
+  "meta": {
+    "zone_id": 7,
+    "zone_nom": "Zone 7",
+    "saison_id": 220,
+    "saison": "Du 1er avril 2026 au 31 mars 2027",
+    "fetched_at": "2026-06-11T03:49:50+00:00",
+    "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7",
+    "nb_endroits_total": 39,
+    "nb_endroits_avec_id": 33
+  },
+  "regles_generales": [
+    {
+      "segment": "Règles de la zone",
+      "periodes": [
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Bar rayé",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Chevalier cuivré",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Saumon atlantique",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Ombles (omble de fontaine, omble chevalier)",
+              "limite_prise": "10 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Ouananiche",
+              "limite_prise": "3",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Touladi, moulac et lacmou",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "60 cm et plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": "Dans les eaux comprises à l'intérieur des territoires particuliers: 2 en tout"
+            },
+            {
+              "espece": "Truite arc-en-ciel",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Truite fardée et truite brune",
+              "limite_prise": "5 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Éperlan arc-en-ciel",
+              "limite_prise": "120",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Marigane noire",
+              "limite_prise": "30",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Perchaude",
+              "limite_prise": "50",
+              "limite_longueur": "",
+              "engin": "",
+              "note": "Il y a un moratoire sur la pêche sportive et commerciale à la perchaude au lac Saint-Pierre et dans le secteur du fleuve Saint-Laurent, entre le pont Laviolette et Saint-Pierre-les-Becquets."
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 mai 2026 au 31 mai 2026",
+          "especes": [
+            {
+              "espece": "Doré jaune",
+              "limite_prise": "6",
+              "limite_longueur": "37 cm à 53 cm inclusivement",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Brochets",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er juin 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Doré jaune et doré noir",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+          "especes": [
+            {
+              "espece": "Esturgeons",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+          "especes": [
+            {
+              "espece": "Maskinongé et maskinongé tigré",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "137 cm et plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Achigans",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 26 décembre 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Poulamon atlantique",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+          "especes": [
+            {
+              "espece": "Autres espèces",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans_eau": [
+    {
+      "id": null,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) a) La partie comprise entre la limite ouest de la zone 7 et le côté en aval du pont Laviolette (incluant le lac Saint-Pierre et son archipel) jusqu'à la ligne des hautes eaux.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": 2508,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) b) Secteur du Chenal aux Corbeaux, entre une ligne reliant l'extrémité sud-ouest de l'île à la Pierre ( 46°04'43\" N., 73°01'49\" O. ) à l'extrémité sud-ouest de l'île de Grâce ( 46°04'18\" N., 73°02'23\" O. ) et une ligne perpendiculaire à l'île à la Pierre située à 1 km en aval de son extrémité sud-ouest ( 46°04'57\" N., 73°01'35\" O. ) et joignant l'île de Grâce ( 46°05'01\" N., 73°01'40\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=2508&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) Secteur du Chenal aux Corbeaux, entre une ligne reliant l'extrémité sud-ouest de l'île à la Pierre ( 46°04'43\" N., 73°01'49\" O. ) à l'extrémité sud-ouest de l'île de Grâce ( 46°04'18\" N., 73°02'23\" O. ) et une ligne perpendiculaire à l'île à la Pierre située à 1 km en aval de son extrémité sud-ouest ( 46°04'57\" N., 73°01'35\" O. ) et joignant l'île de Grâce ( 46°05'01\" N., 73°01'40\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevaliers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Meuniers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Ces eaux font partie du moratoire sur la pêche sportive et commerciale à la perchaude ."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2100,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) c) Secteur du Petit barrage entre l'île Ronde et l'île Madame, entre une ligne perpendiculaire à l'île Madame ( 46°04'51\" N., 73°05'16\" O. ) et joignant l'extrémité sud-ouest de l'île Ronde ( 46°04'39\" N., 73°04'58\" O. ) et une ligne perpendiculaire à l'île Madame ( 46°05'27\" N., 73°04'39\" O. ) qui passe au niveau de la bouée jaune ( 46°05'24\" N., 73°04'31\" O. ) indiquant la présence du barrage et qui joint ensuite la rive nord-ouest de l'île ronde ( 46°05'21\" N., 73°04'24\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=2100&id_saisn=220",
+      "segments": [
+        {
+          "segment": "c) Secteur du Petit barrage entre l'île Ronde et l'île Madame, entre une ligne perpendiculaire à l'île Madame ( 46°04'51\" N., 73°05'16\" O. ) et joignant l'extrémité sud-ouest de l'île Ronde ( 46°04'39\" N., 73°04'58\" O. ) et une ligne perpendiculaire à l'île Madame ( 46°05'27\" N., 73°04'39\" O. ) qui passe au niveau de la bouée jaune ( 46°05'24\" N., 73°04'31\" O. ) indiquant la présence du barrage et qui joint ensuite la rive nord-ouest de l'île ronde ( 46°05'21\" N., 73°04'24\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevaliers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Meuniers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Ces eaux font partie du moratoire sur la pêche sportive et commerciale à la perchaude ."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2509,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) d) Secteur du Grand barrage entre l'île Ronde et l'île de Grâce, entre une ligne reliant les extrémités sud-ouest de l'île de Grâce ( 46°04'10\" N., 73°03'51\" O. ) et de l'île Ronde ( 46°04'39\" N., 73°04'58\" O. ) et une ligne perpendiculaire à l'île de Grâce ( 46°04'53\" N., 73°03'34\" O. ) qui passe au niveau de la bouée jaune ( 46°05'00\" N., 73°03'55\" O. ) indiquant la présence du barrage et qui joint ensuite la rive sud-est de l'île Ronde. ( 46°05'07\" N., 73°04'14\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=2509&id_saisn=220",
+      "segments": [
+        {
+          "segment": "d) Secteur du Grand barrage entre l'île Ronde et l'île de Grâce, entre une ligne reliant les extrémités sud-ouest de l'île de Grâce ( 46°04'10\" N., 73°03'51\" O. ) et de l'île Ronde ( 46°04'39\" N., 73°04'58\" O. ) et une ligne perpendiculaire à l'île de Grâce ( 46°04'53\" N., 73°03'34\" O. ) qui passe au niveau de la bouée jaune ( 46°05'00\" N., 73°03'55\" O. ) indiquant la présence du barrage et qui joint ensuite la rive sud-est de l'île Ronde. ( 46°05'07\" N., 73°04'14\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevaliers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Meuniers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Ces eaux font partie du moratoire sur la pêche sportive et commerciale à la perchaude ."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11500,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) e) Secteur du Refuge faunique de Pointe-du-Lac (secteur compris entre les points 46°17'7,8\" N., 72°42'7,2\" O. , 46°16'24,6\" N., 72°40'12\" O. , 46°15'57,96\" N., 72°40'37,2\" O. et 46°16'10,2\" N., 72°41'45,6\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=11500&id_saisn=220",
+      "segments": [
+        {
+          "segment": "e) Secteur du Refuge faunique de Pointe-du-Lac (secteur compris entre les points 46°17'7,8\" N., 72°42'7,2\" O. , 46°16'24,6\" N., 72°40'12\" O. , 46°15'57,96\" N., 72°40'37,2\" O. et 46°16'10,2\" N., 72°41'45,6\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevaliers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Meuniers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Ces eaux font partie du moratoire sur la pêche sportive et commerciale à la perchaude ."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 24 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 24 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 24 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 27 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 24 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 27 décembre 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": null,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.1) du Loup (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 138.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": null,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.2) Maskinongé (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 138.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": null,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.3) Nicolet (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 132.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": null,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.4) Saint-François (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval des ponts de la route 132.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": null,
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 8) Rivière - a.5) Yamaska (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au pont de la route 132.",
+      "segment_only": true,
+      "source_url": null,
+      "segments": []
+    },
+    {
+      "id": 1156,
+      "nom": "Fleuve Saint-Laurent (secteur non situé dans l'aire faunique communautaire du lac Saint-Pierre) entre le côté en aval du pont Pierre-Laporte et une ligne joignant un point situé à 50 m en aval du quai de Batiscan sur la rive nord ( 46°30'03\" N., 72°14'44\" O. ), et un point situé à 50 m en aval du quai de Saint-Pierre-les-Becquets sur la rive sud ( 46°30'28\" N., 72°12'19\" O. ), ainsi que les parties des rivières se situant entre les routes 132 et 138. * Note : Les rivières suivantes font partie du fleuve Saint-Laurent : Bélisle et le Grand Bras, en aval du pont de la route 138; du Cap Rouge, en aval du pont de la rue Saint-Félix; Jacques-Cartier et Portneuf, en aval du pont du CN.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=1156&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le côté en aval du pont Pierre-Laporte et une ligne joignant un point situé à 50 m en aval du quai de Batiscan sur la rive nord ( 46°30'03\" N., 72°14'44\" O. ), et un point situé à 50 m en aval du quai de Saint-Pierre-les-Becquets sur la rive sud ( 46°30'28\" N., 72°12'19\" O. ), ainsi que les parties des rivières se situant entre les routes 132 et 138. * Note : Les rivières suivantes font partie du fleuve Saint-Laurent : Bélisle et le Grand Bras, en aval du pont de la route 138; du Cap Rouge, en aval du pont de la rue Saint-Félix; Jacques-Cartier et Portneuf, en aval du pont du CN.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Il y a un moratoire sur la pêche sportive et commerciale à la perchaude au lac Saint-Pierre et dans le secteur du fleuve Saint-Laurent, entre le pont Laviolette et Saint-Pierre-les-Becquets."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 26 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Poulamon atlantique",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1157,
+      "nom": "Fleuve Saint-Laurent (secteur non situé dans l'aire faunique communautaire du lac Saint-Pierre) entre une ligne joignant un point situé à 50 m en aval du quai de Batiscan sur la rive nord ( 46°30'03\" N., 72°14'44\" O. ), et un point situé à 50 m en aval du quai de Saint-Pierre-les-Becquets sur la rive sud ( 46°30'28\" N., 72°12'19\" O. ) et le côté en aval du pont Laviolette, ainsi que les parties des rivières se situant entre les routes 132 et 138.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=1157&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne joignant un point situé à 50 m en aval du quai de Batiscan sur la rive nord ( 46°30'03\" N., 72°14'44\" O. ), et un point situé à 50 m en aval du quai de Saint-Pierre-les-Becquets sur la rive sud ( 46°30'28\" N., 72°12'19\" O. ) et le côté en aval du pont Laviolette, ainsi que les parties des rivières se situant entre les routes 132 et 138.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Ces eaux font partie du moratoire sur la pêche sportive et commerciale à la perchaude ."
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 26 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Poulamon atlantique",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12580,
+      "nom": "Lac à la Tortue ( 46°37'40'' N., 72°36'51'' O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=12580&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac à la Tortue ( 46°37'40'' N., 72°36'51'' O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "nom": "Lac Aylmer entre le côté sud du pont de la route 112 jusqu'au premier rétrécissement en amont, situé au point 45°55'07\" N., 71°22'41\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=111&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le côté sud du pont de la route 112 jusqu'au premier rétrécissement en amont, situé au point 45°55'07\" N., 71°22'41\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 22 avril 2026",
+              "especes": [
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "Pêche à l'épuisette et / ou au carrelet seulement.",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 14 mai 2026",
+              "especes": [
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne, à l'arc, à l'arbalète, au harpon en nageant, à l'épuisette et au carrelet",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne, à l'arc, à l'arbalète et au harpon en nageant",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "nom": "Lac Aylmer entre le premier rétrécissement en amont du pont de la route 112 situé au point 45°55'07\" N., 71°22'41\" O. , et la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=112&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le premier rétrécissement en amont du pont de la route 112 situé au point 45°55'07\" N., 71°22'41\" O. , et la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "nom": "Lac de l'Est (canton Garthby, paroisse de Disraeli)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=113&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac de l'Est (canton Garthby, paroisse de Disraeli)",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "nom": "Lac Joseph ( 46°12'21\" N., 71°32'48\" O. )(canton Inverness)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=116&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 46°12'21\" N., 71°32'48\" O. )(canton Inverness)",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "nom": "Lac Les Trois Lacs ( 45°48'02\" N., 71°53'20\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=117&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Les Trois Lacs ( 45°48'02\" N., 71°53'20\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "60 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "nom": "Lac William ( 46°07'17\" N., 71°34'13\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=118&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac William ( 46°07'17\" N., 71°34'13\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "nom": "Rivière Batiscan entre le côté aval du pont de la route 138 et le premier pilier formé d'enrochement ( 46°33'06\" N., 72°22'36\" O. ), situé à 6 km en aval du barrage de Saint-Narcisse.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=122&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le côté aval du pont de la route 138 et le premier pilier formé d'enrochement ( 46°33'06\" N., 72°22'36\" O. ), situé à 6 km en aval du barrage de Saint-Narcisse.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Il y a un moratoire sur la pêche sportive et commerciale à la perchaude au lac Saint-Pierre et dans le secteur du fleuve Saint-Laurent, entre le pont Laviolette et Saint-Pierre-les-Becquets."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 26 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Poulamon atlantique",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "nom": "Rivière Batiscan entre le premier pilier formé d'enrochement ( 46°33'06\" N., 72°22'36\" O. ) situé à 6 km en aval du barrage de Saint-Narcisse et le dit barrage ( 46°33'29\" N., 72°24'48\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=131&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le premier pilier formé d'enrochement ( 46°33'06\" N., 72°22'36\" O. ) situé à 6 km en aval du barrage de Saint-Narcisse et le dit barrage ( 46°33'29\" N., 72°24'48\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10340,
+      "nom": "Rivière Bécancour - La partie entre la route 132 et le pont ferroviaire situé 4 km en amont ( 46°19'44\" N., 72°24'59\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=10340&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie entre la route 132 et le pont ferroviaire situé 4 km en amont ( 46°19'44\" N., 72°24'59\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Il y a un moratoire sur la pêche sportive et commerciale à la perchaude au lac Saint-Pierre et dans le secteur du fleuve Saint-Laurent, entre le pont Laviolette et Saint-Pierre-les-Becquets."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "nom": "Rivière Bécancour - La partie entre le lac William et le lac à la Truite ( 46°05'15'' N., 71°30'57'' O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=137&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie entre le lac William et le lac à la Truite ( 46°05'15'' N., 71°30'57'' O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "nom": "Rivière Bécancour - La partie entre le lac William et le lac Joseph.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=134&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Bécancour - La partie entre la route 132 et le pont ferroviaire situé 4 km en amont ( 46°19'44\" N., 72°24'59\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": "Il y a un moratoire sur la pêche sportive et commerciale à la perchaude au lac Saint-Pierre et dans le secteur du fleuve Saint-Laurent, entre le pont Laviolette et Saint-Pierre-les-Becquets."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Rivière Bécancour - La partie entre le lac William et le lac à la Truite ( 46°05'15'' N., 71°30'57'' O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Rivière Bécancour - La partie entre le lac William et le lac Joseph.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "nom": "Rivière Chaudière a) La partie comprise entre une droite reliant les points 46°44' 30.325\" N., 71°16' 39.533\" O. et 46°44' 32.269\" N., 71° 16'35.749\" O. (côté en amont des pylônes du vieux pont Garneau) et le côté amont du barrage du Parc des chutes à Lévis ( 46°42'52,2'' N., 71°16'56,8'' O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=140&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) La partie comprise entre une droite reliant les points 46°44' 30.325\" N., 71°16' 39.533\" O. et 46°44' 32.269\" N., 71° 16'35.749\" O. (côté en amont des pylônes du vieux pont Garneau) et le côté amont du barrage du Parc des chutes à Lévis ( 46°42'52,2'' N., 71°16'56,8'' O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "60 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Marigane noire",
+                  "limite_prise": "30",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12140,
+      "nom": "Rivière Chaudière b) La partie comprise entre le côté amont du barrage du Parc des chutes à Lévis ( 46°42'52,2'' N., 71°16'56,8'' O. ) et la limite sud-est de l'emprise de la route 112 à Vallée-Jonction ( 46°22'26.18\" N., 70°55' 45.05\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=12140&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) La partie comprise entre le côté amont du barrage du Parc des chutes à Lévis ( 46°42'52,2'' N., 71°16'56,8'' O. ) et la limite sud-est de l'emprise de la route 112 à Vallée-Jonction ( 46°22'26.18\" N., 70°55' 45.05\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "nom": "Rivière Coleraine entre la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O. , et le deuxième pont de chemin de fer en amont situé au point 45°56'56\" N., 71°22'20\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=147&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O. , et le deuxième pont de chemin de fer en amont situé au point 45°56'56\" N., 71°22'20\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "nom": "Rivière du Chêne entre le côté en aval du pont de la route 226 et le côté en amont du pont de la route 132.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=141&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière du Chêne entre le côté en aval du pont de la route 226 et le côté en amont du pont de la route 132.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Poulamon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "60 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "nom": "Rivière du Loup entre le pont de la route 138 vers l'amont et le pont Masson ( 46°17'49\" N., 72°54'43\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=151&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le pont de la route 138 vers l'amont et le pont Masson ( 46°17'49\" N., 72°54'43\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "nom": "Rivière Maskinongé entre le pont de la route 138 vers l'amont et le barrage du village de Saint-Joseph-de-Maskinongé ( 46°13'44\" N., 73°01'02\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=158&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le pont de la route 138 vers l'amont et le barrage du village de Saint-Joseph-de-Maskinongé ( 46°13'44\" N., 73°01'02\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11400,
+      "nom": "Rivière Nicolet Centre entre son embouchure et le côté en aval du pont de la route 216, à Wotton.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=11400&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Nicolet - La partie comprise entre le point 45°54'15\" N., 71°45'35\" O. en amont du pont du rang Leclerc et le point 45°54'23\" N., 71°46'38\" O. en amont du pont du rang Leclerc, correspondant au secteur 3 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Rivière Nicolet - La partie comprise entre le point 45°54'24\" N., 71°46'39\" O. et le point 45°55'13\" N., 71°47'16\" O. en aval du pont du rang Leclerc, correspondant au secteur 4 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Rivière Nicolet - La partie comprise entre le point 45°56'15\" N., 71°47'57\" O. et le point 45°56'32\" N., 71°47'56\" O. (ligne hydroélectrique); La partie comprise entre le point 45°57'06\" N., 71°48'38\" O. et le point 45°57'06\" N., 71°49'02\" O. (F364); La partie comprise entre le point 45°57'04\" N., 71°49'17\" O. et le point 45°58'12\" N., 71°51'05\"O. (Pont de l'accueil), correspondant au secteur 5 de Pêche Nicolet (Chesterville)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11520,
+      "nom": "Rivière Nicolet - La partie comprise entre le point 45°54'15\" N., 71°45'35\" O. en amont du pont du rang Leclerc et le point 45°54'23\" N., 71°46'38\" O. en amont du pont du rang Leclerc, correspondant au secteur 3 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=11520&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie comprise entre le point 45°54'15\" N., 71°45'35\" O. en amont du pont du rang Leclerc et le point 45°54'23\" N., 71°46'38\" O. en amont du pont du rang Leclerc, correspondant au secteur 3 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11521,
+      "nom": "Rivière Nicolet - La partie comprise entre le point 45°54'24\" N., 71°46'39\" O. et le point 45°55'13\" N., 71°47'16\" O. en aval du pont du rang Leclerc, correspondant au secteur 4 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=11521&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie comprise entre le point 45°54'24\" N., 71°46'39\" O. et le point 45°55'13\" N., 71°47'16\" O. en aval du pont du rang Leclerc, correspondant au secteur 4 de Pêche Nicolet (Saint-Rémi-de-Tingwick)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11522,
+      "nom": "Rivière Nicolet - La partie comprise entre le point 45°56'15\" N., 71°47'57\" O. et le point 45°56'32\" N., 71°47'56\" O. (ligne hydroélectrique); La partie comprise entre le point 45°57'06\" N., 71°48'38\" O. et le point 45°57'06\" N., 71°49'02\" O. (F364); La partie comprise entre le point 45°57'04\" N., 71°49'17\" O. et le point 45°58'12\" N., 71°51'05\"O. (Pont de l'accueil), correspondant au secteur 5 de Pêche Nicolet (Chesterville)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=11522&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie comprise entre le point 45°56'15\" N., 71°47'57\" O. et le point 45°56'32\" N., 71°47'56\" O. (ligne hydroélectrique); La partie comprise entre le point 45°57'06\" N., 71°48'38\" O. et le point 45°57'06\" N., 71°49'02\" O. (F364); La partie comprise entre le point 45°57'04\" N., 71°49'17\" O. et le point 45°58'12\" N., 71°51'05\"O. (Pont de l'accueil), correspondant au secteur 5 de Pêche Nicolet (Chesterville)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Mêmes que la zone - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3164,
+      "nom": "Rivière Pot au Beurre (Baie de Lavallière) - La partie de de la rivière ainsi que ses tributaires bornés au sud par la portion de la route 132 comprise entre les rivières Richelieu ( 46°02'30\" N., 73°07'01\" O. ) et Yamaska ( 46°00'17\" N., 72°54'43\" O. ), au nord-Ouest par le fleuve St-Laurent et à l'Est par la rivière Yamaska.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=3164&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La partie de de la rivière ainsi que ses tributaires bornés au sud par la portion de la route 132 comprise entre les rivières Richelieu ( 46°02'30\" N., 73°07'01\" O. ) et Yamaska ( 46°00'17\" N., 72°54'43\" O. ), au nord-Ouest par le fleuve St-Laurent et à l'Est par la rivière Yamaska.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevaliers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Meuniers",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 octobre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "nom": "Rivière Saint-Maurice a) entre le pont de la route 138 vers l'amont et la pointe à Poulin (club de golf Ki-8-EB, 46°23'09\" N., 72°36'42\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=164&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) entre le pont de la route 138 vers l'amont et la pointe à Poulin (club de golf Ki-8-EB, 46°23'09\" N., 72°36'42\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "nom": "Rivière Saint-Maurice b) entre la pointe à Poulin (club de golf Ki-8-EB, 46°23'09\" N., 72°36'42\" O. ) et la 3e ligne de transport d'électricité ( 46°25'58\" N., 72°43'29\" O. ) située à 2,1 km en aval du barrage de La Gabelle.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=166&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) entre la pointe à Poulin (club de golf Ki-8-EB, 46°23'09\" N., 72°36'42\" O. ) et la 3e ligne de transport d'électricité ( 46°25'58\" N., 72°43'29\" O. ) située à 2,1 km en aval du barrage de La Gabelle.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 31 mai 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune",
+                  "limite_prise": "2",
+                  "limite_longueur": "37 cm à 53 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3237,
+      "nom": "Rivière Saint-Maurice c) entre le barrage de La Gabelle ( 46°26'56\" N., 72°44'23\" O. ) et la 3e ligne de transport d'électricité ( 46°25'58\" N., 72°43'29\" O. ) située à 2,1 km en aval du barrage.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=7&id_endro=3237&id_saisn=220",
+      "segments": [
+        {
+          "segment": "c) entre le barrage de La Gabelle ( 46°26'56\" N., 72°44'23\" O. ) et la 3e ligne de transport d'électricité ( 46°25'58\" N., 72°43'29\" O. ) située à 2,1 km en aval du barrage.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Chevalier cuivré",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "Esturgeon jaune: 80 cm à 130 cm inclusivement Esturgeon noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 19 décembre 2026",
+              "especes": [
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "137 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "56 cm à 70 cm inclusivement",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 20 décembre 2026 au 15 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout dont au plus 2 dorés jaunes",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

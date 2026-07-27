@@ -1,0 +1,1258 @@
+{
+  "fetched_at": "2026-06-12T20:43:48Z",
+  "source": "https://api-iwls.dfo-mpo.gc.ca",
+  "region": "QUE",
+  "nb_stations": 125,
+  "stations": [
+    {
+      "station_id": "5cebf1de3d0f4a073c4bba8f",
+      "code": "03045",
+      "nom": "Pointe-au-Pic",
+      "nom_alternatif": "",
+      "lat": 47.621667,
+      "lon": -70.140833,
+      "operating": false,
+      "type": "SEASONAL"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaaa",
+      "code": "03057",
+      "nom": "Saint-Joseph-de-la-Rive",
+      "nom_alternatif": "",
+      "lat": 47.448833,
+      "lon": -70.3655,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaae",
+      "code": "03060",
+      "nom": "Cap-aux-Corbeaux",
+      "nom_alternatif": "",
+      "lat": 47.4255,
+      "lon": -70.455667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbab2",
+      "code": "03070",
+      "nom": "Sault-au-Cochon",
+      "nom_alternatif": "",
+      "lat": 47.199667,
+      "lon": -70.635833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaba",
+      "code": "03087",
+      "nom": "Sainte-Anne-de-Beaupré",
+      "nom_alternatif": "",
+      "lat": 47.0185,
+      "lon": -70.9255,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbabe",
+      "code": "03095",
+      "nom": "Montmorency",
+      "nom_alternatif": "",
+      "lat": 46.881167,
+      "lon": -71.144667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbad5",
+      "code": "03100",
+      "nom": "Saint-François I.O.",
+      "nom_alternatif": "Saint-Francois I.O.",
+      "lat": 46.9965,
+      "lon": -70.808167,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbad8",
+      "code": "03105",
+      "nom": "Saint-Jean I.O.",
+      "nom_alternatif": "",
+      "lat": 46.915667,
+      "lon": -70.8965,
+      "operating": false,
+      "type": "SEASONAL"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbae6",
+      "code": "03110",
+      "nom": "Saint-Laurent I.O.",
+      "nom_alternatif": "",
+      "lat": 46.85816667,
+      "lon": -71.00333333,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbae9",
+      "code": "03120",
+      "nom": "Île Verte",
+      "nom_alternatif": "",
+      "lat": 48.051167,
+      "lon": -69.424667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaed",
+      "code": "03125",
+      "nom": "Gros-Cacouna",
+      "nom_alternatif": "",
+      "lat": 47.9275,
+      "lon": -69.513667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaf1",
+      "code": "03130",
+      "nom": "Rivière-du-Loup",
+      "nom_alternatif": "",
+      "lat": 47.846833,
+      "lon": -69.571833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaf5",
+      "code": "03140",
+      "nom": "Île aux Lièvres",
+      "nom_alternatif": "Îles-aux-Lièvres",
+      "lat": 47.801167,
+      "lon": -69.770667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbaf9",
+      "code": "03160",
+      "nom": "Pointe-aux-Orignaux",
+      "nom_alternatif": "",
+      "lat": 47.487,
+      "lon": -70.025833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbafd",
+      "code": "03170",
+      "nom": "Saint-Jean-Port-Joli",
+      "nom_alternatif": "",
+      "lat": 47.216167,
+      "lon": -70.274667,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb02",
+      "code": "03180",
+      "nom": "L'Isle-aux-Grues",
+      "nom_alternatif": "L'ile-aux-Grues",
+      "lat": 47.055333,
+      "lon": -70.5315,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb05",
+      "code": "03190",
+      "nom": "La Grosse Île",
+      "nom_alternatif": "",
+      "lat": 47.0195,
+      "lon": -70.670833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb09",
+      "code": "03200",
+      "nom": "Berthier-sur-Mer",
+      "nom_alternatif": "",
+      "lat": 46.936167,
+      "lon": -70.737333,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb11",
+      "code": "03250",
+      "nom": "Lauzon",
+      "nom_alternatif": "Québec (Lauzon)",
+      "lat": 46.8325,
+      "lon": -71.157833,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb15",
+      "code": "03251",
+      "nom": "Immigration Wharf",
+      "nom_alternatif": "",
+      "lat": 46.7923,
+      "lon": -71.2265,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb19",
+      "code": "03264",
+      "nom": "Quai des Cageux",
+      "nom_alternatif": "Quai Irving",
+      "lat": 46.755,
+      "lon": -71.2715,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1de3d0f4a073c4bbb1d",
+      "code": "03270",
+      "nom": "Saint-Nicolas",
+      "nom_alternatif": "",
+      "lat": 46.712,
+      "lon": -71.378833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb38",
+      "code": "03280",
+      "nom": "Neuville",
+      "nom_alternatif": "",
+      "lat": 46.6965,
+      "lon": -71.572833,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb3f",
+      "code": "03295",
+      "nom": "Pointe Platon",
+      "nom_alternatif": "Pointe-au-Platon",
+      "lat": 46.670833,
+      "lon": -71.846,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb56",
+      "code": "03300",
+      "nom": "Portneuf",
+      "nom_alternatif": "",
+      "lat": 46.681167,
+      "lon": -71.877167,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb5f",
+      "code": "03325",
+      "nom": "Grondines",
+      "nom_alternatif": "",
+      "lat": 46.585333,
+      "lon": -72.038833,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb76",
+      "code": "03335",
+      "nom": "Deschaillons-sur-Saint-Laurent",
+      "nom_alternatif": "Deschaillons",
+      "lat": 46.561033,
+      "lon": -72.106222,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb7a",
+      "code": "03337",
+      "nom": "Les Bricailles",
+      "nom_alternatif": "Brickyard",
+      "lat": 46.549833,
+      "lon": -72.134333,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb91",
+      "code": "03345",
+      "nom": "Batiscan",
+      "nom_alternatif": "",
+      "lat": 46.500333,
+      "lon": -72.245833,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbb95",
+      "code": "03350",
+      "nom": "Champlain",
+      "nom_alternatif": "",
+      "lat": 46.440167,
+      "lon": -72.339667,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbbac",
+      "code": "03360",
+      "nom": "Trois-Rivières",
+      "nom_alternatif": "",
+      "lat": 46.3405,
+      "lon": -72.539167,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbbaf",
+      "code": "03425",
+      "nom": "Tadoussac",
+      "nom_alternatif": "",
+      "lat": 48.138333,
+      "lon": -69.714,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbbb2",
+      "code": "03440",
+      "nom": "L'Anse-Saint-Jean",
+      "nom_alternatif": "Anse Saint-Jean",
+      "lat": 48.245,
+      "lon": -70.179667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbbc6",
+      "code": "03460",
+      "nom": "Port-Alfred",
+      "nom_alternatif": "Port Alfred",
+      "lat": 48.3339,
+      "lon": -70.869267,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbbe2",
+      "code": "03480",
+      "nom": "Chicoutimi",
+      "nom_alternatif": "",
+      "lat": 48.43083333,
+      "lon": -71.05483333,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1df3d0f4a073c4bbc09",
+      "code": "03030",
+      "nom": "Saint-Siméon",
+      "nom_alternatif": "",
+      "lat": 47.840667,
+      "lon": -69.873167,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e03d0f4a073c4bbd92",
+      "code": "02985",
+      "nom": "Rimouski",
+      "nom_alternatif": "",
+      "lat": 48.478333,
+      "lon": -68.513667,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e03d0f4a073c4bbda9",
+      "code": "03353",
+      "nom": "Bécancour",
+      "nom_alternatif": "Becancour",
+      "lat": 46.400333,
+      "lon": -72.3795,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf06",
+      "code": "01966",
+      "nom": "Île d'Entrée",
+      "nom_alternatif": "",
+      "lat": 47.277444,
+      "lon": -61.718639,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf09",
+      "code": "01981",
+      "nom": "Pointe-Basse",
+      "nom_alternatif": "Pointe Basse",
+      "lat": 47.389806,
+      "lon": -61.789035,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf0c",
+      "code": "01986",
+      "nom": "Old-Harry",
+      "nom_alternatif": "Old Harry Head",
+      "lat": 47.570755,
+      "lon": -61.467094,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf0f",
+      "code": "01987",
+      "nom": "Leslie",
+      "nom_alternatif": "Leslie Grosse Île",
+      "lat": 47.627778,
+      "lon": -61.515667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf11",
+      "code": "01988",
+      "nom": "Grosse Île - Mine Seleine",
+      "nom_alternatif": "Mine Seleine",
+      "lat": 47.610739,
+      "lon": -61.560078,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf14",
+      "code": "01990",
+      "nom": "L'Étang-du-Nord",
+      "nom_alternatif": "Étang du Nord",
+      "lat": 47.37,
+      "lon": -61.958922,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf21",
+      "code": "02230",
+      "nom": "Bonaventure",
+      "nom_alternatif": "",
+      "lat": 48.037623,
+      "lon": -65.481124,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf24",
+      "code": "02260",
+      "nom": "Newport",
+      "nom_alternatif": "Newport Point",
+      "lat": 48.284376,
+      "lon": -64.71932,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf27",
+      "code": "02285",
+      "nom": "Sainte-Thérèse-de-Gaspé",
+      "nom_alternatif": "Petite Rivière Est",
+      "lat": 48.415011,
+      "lon": -64.39517,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf2a",
+      "code": "02309",
+      "nom": "Mal-Bay",
+      "nom_alternatif": "Malbay",
+      "lat": 48.620111,
+      "lon": -64.199972,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf2d",
+      "code": "02335",
+      "nom": "L'Anse-à-Valleau",
+      "nom_alternatif": "Anse à Valleau",
+      "lat": 49.081,
+      "lon": -64.544667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf2f",
+      "code": "02580",
+      "nom": "Île des Esquimaux",
+      "nom_alternatif": "Rivière Saint-Paul",
+      "lat": 51.424,
+      "lon": -57.7025,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf39",
+      "code": "02826",
+      "nom": "Godbout",
+      "nom_alternatif": "",
+      "lat": 49.322167,
+      "lon": -67.592667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf3c",
+      "code": "02883",
+      "nom": "Portneuf-sur-Mer",
+      "nom_alternatif": "Sainte-Anne-de-Portneuf",
+      "lat": 48.640833,
+      "lon": -69.093333,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf47",
+      "code": "02975",
+      "nom": "Pointe aux Cenelles",
+      "nom_alternatif": "Pointe-aux-Cenelles",
+      "lat": 48.642833,
+      "lon": -68.166667,
+      "operating": true,
+      "type": "SEASONAL"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf4b",
+      "code": "03052",
+      "nom": "Cap-aux-Oies",
+      "nom_alternatif": "",
+      "lat": 47.487167,
+      "lon": -70.232667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf4e",
+      "code": "03058",
+      "nom": "Saint-Bernard-sur-Mer",
+      "nom_alternatif": "Saint-Bernard, Île aux Coudres",
+      "lat": 47.4205,
+      "lon": -70.392167,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf62",
+      "code": "03071",
+      "nom": "Rocher de Neptune",
+      "nom_alternatif": "Rocher-Neptune",
+      "lat": 47.161667,
+      "lon": -70.6075,
+      "operating": false,
+      "type": "SEASONAL"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf65",
+      "code": "03122",
+      "nom": "L'Isle-Verte",
+      "nom_alternatif": "Chenal de l'Île Verte",
+      "lat": 48.024667,
+      "lon": -69.408,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf67",
+      "code": "03145",
+      "nom": "Le Petit Pèlerin",
+      "nom_alternatif": "Le Petit Pelerin",
+      "lat": 47.701,
+      "lon": -69.758333,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf69",
+      "code": "03150",
+      "nom": "La Grande Île",
+      "nom_alternatif": "Grande-ile",
+      "lat": 47.624167,
+      "lon": -69.860833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf6f",
+      "code": "03260",
+      "nom": "Saint-Romuald",
+      "nom_alternatif": "St-Romuald",
+      "lat": 46.761333,
+      "lon": -71.240333,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e13d0f4a073c4bbf73",
+      "code": "03304",
+      "nom": "Lotbinière (moulin à blé)",
+      "nom_alternatif": "Moulin a Ble",
+      "lat": 46.650667,
+      "lon": -71.889833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bbfbb",
+      "code": "02196",
+      "nom": "Miguasha",
+      "nom_alternatif": "",
+      "lat": 48.09878599,
+      "lon": -66.34707575,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc035",
+      "code": "02269",
+      "nom": "Chandler",
+      "nom_alternatif": "",
+      "lat": 48.34205,
+      "lon": -64.657065,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc038",
+      "code": "02295",
+      "nom": "L'Anse-à-Beaufils",
+      "nom_alternatif": "Anse-à-Beaufils",
+      "lat": 48.472174,
+      "lon": -64.30779,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc03b",
+      "code": "02314",
+      "nom": "L'Anse-à-Brillant",
+      "nom_alternatif": "Anse-à-Brillant",
+      "lat": 48.72065004,
+      "lon": -64.29060876,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc03d",
+      "code": "02415",
+      "nom": "Baie du Renard",
+      "nom_alternatif": "Baie-du-Renard",
+      "lat": 49.281667,
+      "lon": -61.834,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc040",
+      "code": "02577",
+      "nom": "Vieux-Fort",
+      "nom_alternatif": "Baie du Vieux Fort",
+      "lat": 51.421833,
+      "lon": -57.8145,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc043",
+      "code": "02583",
+      "nom": "Middle Bay",
+      "nom_alternatif": "Middle-Bay",
+      "lat": 51.463,
+      "lon": -57.485,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc046",
+      "code": "02815",
+      "nom": "Baie-Trinité",
+      "nom_alternatif": "",
+      "lat": 49.42165872,
+      "lon": -67.28240575,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc048",
+      "code": "03000",
+      "nom": "Île Bicquette",
+      "nom_alternatif": "",
+      "lat": 48.4155,
+      "lon": -68.893333,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc04b",
+      "code": "03466",
+      "nom": "Grande-Anse",
+      "nom_alternatif": "",
+      "lat": 48.401667,
+      "lon": -70.832833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc0df",
+      "code": "03265",
+      "nom": "Pont de Québec",
+      "nom_alternatif": "",
+      "lat": 46.745581,
+      "lon": -71.287938,
+      "operating": false,
+      "type": "VIRTUAL"
+    },
+    {
+      "station_id": "5cebf1e23d0f4a073c4bc0f6",
+      "code": "03248",
+      "nom": "Vieux-Québec",
+      "nom_alternatif": "",
+      "lat": 46.811111,
+      "lon": -71.20175,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc269",
+      "code": "01960",
+      "nom": "Anse à la Cabane",
+      "nom_alternatif": "Millerand",
+      "lat": 47.21766667,
+      "lon": -61.98541667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc26e",
+      "code": "01964",
+      "nom": "Havre-Aubert",
+      "nom_alternatif": "Havre Aubert",
+      "lat": 47.235189,
+      "lon": -61.828083,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc285",
+      "code": "01970",
+      "nom": "Cap-aux-Meules",
+      "nom_alternatif": "Grindstone Wharf",
+      "lat": 47.378861,
+      "lon": -61.857283,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc288",
+      "code": "01985",
+      "nom": "Grande-Entrée",
+      "nom_alternatif": "Grande Entrée",
+      "lat": 47.555842,
+      "lon": -61.558949,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2bf",
+      "code": "02200",
+      "nom": "Carleton",
+      "nom_alternatif": "Carleton Center",
+      "lat": 48.100181,
+      "lon": -66.130929,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2c2",
+      "code": "02215",
+      "nom": "Pointe Howatson",
+      "nom_alternatif": "Les Caps Noirs, Black Cape",
+      "lat": 48.137764,
+      "lon": -65.836794,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2c5",
+      "code": "02235",
+      "nom": "Paspébiac",
+      "nom_alternatif": "Paspebiac",
+      "lat": 48.018652,
+      "lon": -65.257383,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2c8",
+      "code": "02240",
+      "nom": "Saint-Godefroi",
+      "nom_alternatif": "St-Godefroi",
+      "lat": 48.073804,
+      "lon": -65.113371,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2cb",
+      "code": "02250",
+      "nom": "Port-Daniel-Gascons",
+      "nom_alternatif": "",
+      "lat": 48.182612,
+      "lon": -64.96142,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2ce",
+      "code": "02253",
+      "nom": "Gascons",
+      "nom_alternatif": "",
+      "lat": 48.19073,
+      "lon": -64.861547,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2d1",
+      "code": "02279",
+      "nom": "Grande-Rivière",
+      "nom_alternatif": "",
+      "lat": 48.392651,
+      "lon": -64.492455,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2d3",
+      "code": "02290",
+      "nom": "Cap-d'Espoir",
+      "nom_alternatif": "Cap-D'Espoir",
+      "lat": 48.414713,
+      "lon": -64.327389,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2d5",
+      "code": "02310",
+      "nom": "Pointe Saint-Pierre",
+      "nom_alternatif": "",
+      "lat": 48.633389,
+      "lon": -64.166,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2d8",
+      "code": "02319",
+      "nom": "Sandy Beach",
+      "nom_alternatif": "Sandy Beach Wharf",
+      "lat": 48.825917,
+      "lon": -64.440722,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2de",
+      "code": "02340",
+      "nom": "Cloridorme",
+      "nom_alternatif": "",
+      "lat": 49.185833,
+      "lon": -64.847833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2e1",
+      "code": "02350",
+      "nom": "Grande-Vallée",
+      "nom_alternatif": "Grande-Vallee",
+      "lat": 49.229833,
+      "lon": -65.1345,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2e4",
+      "code": "02360",
+      "nom": "Port-Menier",
+      "nom_alternatif": "Port Menier",
+      "lat": 49.811667,
+      "lon": -64.366667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2e7",
+      "code": "02375",
+      "nom": "Pointe du Sud-Ouest",
+      "nom_alternatif": "Southwest Point",
+      "lat": 49.395,
+      "lon": -63.59,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2f0",
+      "code": "02470",
+      "nom": "Mingan",
+      "nom_alternatif": "",
+      "lat": 50.289167,
+      "lon": -64.020167,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2f3",
+      "code": "02480",
+      "nom": "Havre-Saint-Pierre",
+      "nom_alternatif": "",
+      "lat": 50.237056,
+      "lon": -63.609194,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2f6",
+      "code": "02490",
+      "nom": "Baie-Johan-Beetz",
+      "nom_alternatif": "Baie Johan Beetz",
+      "lat": 50.283667,
+      "lon": -62.810167,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2f9",
+      "code": "02510",
+      "nom": "Natashquan",
+      "nom_alternatif": "Natashquan Harbour",
+      "lat": 50.189167,
+      "lon": -61.8415,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2fc",
+      "code": "02518",
+      "nom": "Kegaska",
+      "nom_alternatif": "Kégashka",
+      "lat": 50.184286,
+      "lon": -61.263938,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc2ff",
+      "code": "02530",
+      "nom": "Gethsémani",
+      "nom_alternatif": "Gethsemani",
+      "lat": 50.212108,
+      "lon": -60.689319,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc302",
+      "code": "02550",
+      "nom": "Harrington Harbour",
+      "nom_alternatif": "Harrington-Harbour",
+      "lat": 50.496333,
+      "lon": -59.476,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc305",
+      "code": "02554",
+      "nom": "Tête-à-la-Baleine",
+      "nom_alternatif": "Tête-a-la-Baleine",
+      "lat": 50.68,
+      "lon": -59.24,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc308",
+      "code": "02556",
+      "nom": "Baie des Moutons",
+      "nom_alternatif": "Baie-des-Moutons",
+      "lat": 50.769304,
+      "lon": -59.03234,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e33d0f4a073c4bc30b",
+      "code": "02558",
+      "nom": "La Tabatière",
+      "nom_alternatif": "Baie de la Tabatière",
+      "lat": 50.838294,
+      "lon": -58.972951,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc30e",
+      "code": "02564",
+      "nom": "Saint-Augustin",
+      "nom_alternatif": "St Augustin",
+      "lat": 51.176333,
+      "lon": -58.534667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc313",
+      "code": "02588",
+      "nom": "Blanc-Sablon",
+      "nom_alternatif": "Blanc Sablon",
+      "lat": 51.415333,
+      "lon": -57.150667,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc330",
+      "code": "02750",
+      "nom": "Rivière-au-Tonnerre",
+      "nom_alternatif": "",
+      "lat": 50.273333,
+      "lon": -64.761001,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc347",
+      "code": "02780",
+      "nom": "Sept-Îles",
+      "nom_alternatif": "Seven Islands",
+      "lat": 50.200369,
+      "lon": -66.385102,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc34a",
+      "code": "02790",
+      "nom": "Port-Cartier",
+      "nom_alternatif": "",
+      "lat": 50.0325,
+      "lon": -66.7875,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc34d",
+      "code": "02840",
+      "nom": "Baie-Comeau",
+      "nom_alternatif": "",
+      "lat": 49.231333,
+      "lon": -68.131001,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc350",
+      "code": "02880",
+      "nom": "Forestville",
+      "nom_alternatif": "",
+      "lat": 48.738333,
+      "lon": -69.052167,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc353",
+      "code": "02900",
+      "nom": "Les Escoumins",
+      "nom_alternatif": "",
+      "lat": 48.346167,
+      "lon": -69.388833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc356",
+      "code": "02920",
+      "nom": "Mont-Louis",
+      "nom_alternatif": "",
+      "lat": 49.235167,
+      "lon": -65.7375,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc35a",
+      "code": "02935",
+      "nom": "Sainte-Anne-des-Monts",
+      "nom_alternatif": "",
+      "lat": 49.134,
+      "lon": -66.485833,
+      "operating": false,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc35e",
+      "code": "02940",
+      "nom": "Cap-Chat",
+      "nom_alternatif": "",
+      "lat": 49.098333,
+      "lon": -66.6815,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc361",
+      "code": "02945",
+      "nom": "Le Gros Méchins",
+      "nom_alternatif": "",
+      "lat": 49.005833,
+      "lon": -66.9775,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc364",
+      "code": "02955",
+      "nom": "Matane",
+      "nom_alternatif": "",
+      "lat": 48.853333,
+      "lon": -67.533167,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc368",
+      "code": "02980",
+      "nom": "Pointe-au-Père",
+      "nom_alternatif": "",
+      "lat": 48.519167,
+      "lon": -68.473167,
+      "operating": false,
+      "type": "DISCONTINUED"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc36c",
+      "code": "02995",
+      "nom": "Le Bic",
+      "nom_alternatif": "Bic",
+      "lat": 48.377167,
+      "lon": -68.7265,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc370",
+      "code": "03005",
+      "nom": "Trois-Pistoles",
+      "nom_alternatif": "",
+      "lat": 48.134667,
+      "lon": -69.186833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc427",
+      "code": "03424",
+      "nom": "Baie-Sainte-Catherine",
+      "nom_alternatif": "Anse du Portage",
+      "lat": 48.126333,
+      "lon": -69.72975,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5cebf1e43d0f4a073c4bc4c3",
+      "code": "02330",
+      "nom": "Rivière-au-Renard",
+      "nom_alternatif": "",
+      "lat": 48.997,
+      "lon": -64.3805,
+      "operating": true,
+      "type": "PERMANENT"
+    },
+    {
+      "station_id": "5dd3064ce0fdc4b9b4be65e2",
+      "code": "01976",
+      "nom": "Havre-aux-Maisons",
+      "nom_alternatif": "House Harbour",
+      "lat": 47.405333,
+      "lon": -61.836,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5dd30650e0fdc4b9b4be6bed",
+      "code": "02581",
+      "nom": "Baie Chevalier",
+      "nom_alternatif": "",
+      "lat": 51.432483,
+      "lon": -57.638472,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5dd30650e0fdc4b9b4be6bee",
+      "code": "02579",
+      "nom": "Rivière-Saint-Paul",
+      "nom_alternatif": "Rivière-St-Paul",
+      "lat": 51.4711,
+      "lon": -57.7075,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5dd30650e0fdc4b9b4be6c00",
+      "code": "02933",
+      "nom": "Petite-Tourelle",
+      "nom_alternatif": "Saint-Joachim-de-Tourelle",
+      "lat": 49.167833,
+      "lon": -66.372833,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "5ec57dff511c1b05269d0073",
+      "code": "03104",
+      "nom": "Bouée K136",
+      "nom_alternatif": "",
+      "lat": 46.924833,
+      "lon": -70.869,
+      "operating": false,
+      "type": "VIRTUAL"
+    },
+    {
+      "station_id": "5ec57f12511c1b05269d0bf1",
+      "code": "03072",
+      "nom": "Bouée K92",
+      "nom_alternatif": "",
+      "lat": 47.158517,
+      "lon": -70.658167,
+      "operating": false,
+      "type": "VIRTUAL"
+    }
+  ]
+}

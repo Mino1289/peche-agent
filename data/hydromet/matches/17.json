@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "zone_id": 17,
+    "radius_km": 25.0,
+    "nb_with_coords": 8,
+    "nb_station_matched": 2
+  },
+  "matches": [
+    {
+      "plan_id": 10881,
+      "plan_nom": "Lac aux Loutres",
+      "lat": 48.919167,
+      "lon": -75.793333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 880,
+      "plan_nom": "Lac Bissonnette",
+      "lat": 49.016389,
+      "lon": -79.0975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2539,
+      "plan_nom": "Lac Nelson",
+      "lat": 48.988611,
+      "lon": -74.454444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2541,
+      "plan_nom": "Lac Oloron",
+      "lat": 49.103056,
+      "lon": -79.386944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10880,
+      "plan_nom": "Lac Turgeon",
+      "lat": 49.024167,
+      "lon": -79.020833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 883,
+      "plan_nom": "Rivière Allard de son affluent comprise entre 100 m en amont du secteur appelé « Les petites chutes »",
+      "lat": 49.812778,
+      "lon": -77.792222,
+      "stations": [
+        {
+          "id": "080707",
+          "plan_eau": "Rivière Bell",
+          "description": "À 7,7 km en amont du lac Matagami",
+          "lat": 49.754611,
+          "lon": -77.617028,
+          "distance_km": 14.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080707",
+      "station": {
+        "id": "080707",
+        "plan_eau": "Rivière Bell",
+        "description": "À 7,7 km en amont du lac Matagami",
+        "lat": 49.754611,
+        "lon": -77.617028,
+        "distance_km": 14.14
+      }
+    },
+    {
+      "plan_id": 885,
+      "plan_nom": "Rivière Gouault entre son embouchure dans le lac MacIvor",
+      "lat": 49.810556,
+      "lon": -77.918333,
+      "stations": [
+        {
+          "id": "080707",
+          "plan_eau": "Rivière Bell",
+          "description": "À 7,7 km en amont du lac Matagami",
+          "lat": 49.754611,
+          "lon": -77.617028,
+          "distance_km": 22.51,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080707",
+      "station": {
+        "id": "080707",
+        "plan_eau": "Rivière Bell",
+        "description": "À 7,7 km en amont du lac Matagami",
+        "lat": 49.754611,
+        "lon": -77.617028,
+        "distance_km": 22.51
+      }
+    },
+    {
+      "plan_id": 887,
+      "plan_nom": "Rivière Wilson entre un point situé à 200 m en aval de son embouchure dans le lac Quévillon",
+      "lat": 49.084444,
+      "lon": -76.864722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

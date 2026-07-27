@@ -1,0 +1,2589 @@
+{
+  "meta": {
+    "zone_id": 19,
+    "zone_nom": "Zone 18",
+    "nb_plans": 157,
+    "nb_geocoded": 126,
+    "pct_geocoded": 80.3,
+    "source_file": "zones/19.json"
+  },
+  "locations": [
+    {
+      "id": 1032,
+      "zone_id": 19,
+      "nom_brut": "Centre D'Études Et De Recherches et de recherches Manicouagan (incluant tous les plans d'eau et les tributaires)",
+      "nom": "Centre D'Études Et De Recherches et de recherches Manicouagan",
+      "nom_search": "centre d etudes et de recherches et de recherches manicouagan incluant tous les plans d eau et les tributaires)",
+      "segment_label": null,
+      "river_base_name": "Centre D'Études Et De Recherches et de recherches Manicouagan",
+      "aliases": [
+        "centre d etudes et de recherches et de recherches manicouagan",
+        "centre d etudes et de recherches et de recherches manicouagan incluant tous les plans d eau et les tributaires)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2309,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Crique Rimouski entre sa confluence avec la rivière de la Trinité et un point situé à 0,9 km en amont ( 49°40'45\" N., 67°27'38\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Crique Rimouski entre sa confluence avec la rivière de la Trinité et un point situé à 0,9 km en amont",
+      "nom_search": "eaux de la riviere de la trinite crique rimouski entre sa confluence avec la riviere de la trinite et un point situe a 0 9 km en amont 49 40 45 n 67 27 38 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Crique Rimouski",
+      "aliases": [
+        "eaux de la riviere de la trinite crique rimouski",
+        "eaux de la riviere de la trinite crique rimouski entre sa confluence avec la riviere de la trinite et un point situe a 0 9 km en amont 49 40 45 n 67 27 38 o )"
+      ],
+      "lat": 49.679167,
+      "lon": -67.460556
+    },
+    {
+      "id": 1590,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière de la Trinité a)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant les deux rives à un point situé à 175 m en aval du pont de la route 138 et le côté en aval du pont du 22 milles ( 49°38'28\" N., 67°28'43\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière de la Trinité a)",
+      "nom_search": "eaux de la riviere de la trinite riviere de la trinite a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les deux rives a un point situe a 175 m en aval du pont de la route 138 et le cote en aval du pont du 22 milles 49 38 28 n 67 28 43 o )",
+      "segment_label": "a)",
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière de la Trinité",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere de la trinite",
+        "eaux de la riviere de la trinite riviere de la trinite a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les deux rives a un point situe a 175 m en aval du pont de la route 138 et le cote en aval du pont du 22 milles 49 38 28 n 67 28 43 o )"
+      ],
+      "lat": 49.641111,
+      "lon": -67.478611
+    },
+    {
+      "id": 1591,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière de la Trinité b)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont du 22 milles ( 49°38'28\" N., 67°28'43\" O. ) et la ligne de transport d'énergie électrique ( 49°43'55\" N., 67°26'00\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière de la Trinité b)",
+      "nom_search": "eaux de la riviere de la trinite riviere de la trinite b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont du 22 milles 49 38 28 n 67 28 43 o ) et la ligne de transport d energie electrique 49 43 55 n 67 26 00 o )",
+      "segment_label": "b)",
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière de la Trinité",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere de la trinite",
+        "eaux de la riviere de la trinite riviere de la trinite b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont du 22 milles 49 38 28 n 67 28 43 o ) et la ligne de transport d energie electrique 49 43 55 n 67 26 00 o )"
+      ],
+      "lat": 49.641111,
+      "lon": -67.478611
+    },
+    {
+      "id": 1593,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière de la Trinité c)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la ligne de transport d'énergie électrique ( 49°43'55\" N., 67°26'00\" O. ) et la limite nord de la zec de la Rivière-de-la-Trinité.",
+      "nom": "Eaux de la rivière de la Trinité Rivière de la Trinité c)",
+      "nom_search": "eaux de la riviere de la trinite riviere de la trinite c) ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne de transport d energie electrique 49 43 55 n 67 26 00 o ) et la limite nord de la zec de la riviere de la trinite",
+      "segment_label": "c)",
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière de la Trinité",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere de la trinite",
+        "eaux de la riviere de la trinite riviere de la trinite c) ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne de transport d energie electrique 49 43 55 n 67 26 00 o ) et la limite nord de la zec de la riviere de la trinite"
+      ],
+      "lat": 49.731944,
+      "lon": -67.433333
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière de la Trinité d)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la limite nord de la zec de la Rivière-de-la-Trinité et sa source.",
+      "nom": "Eaux de la rivière de la Trinité Rivière de la Trinité d)",
+      "nom_search": "eaux de la riviere de la trinite riviere de la trinite d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite nord de la zec de la riviere de la trinite et sa source",
+      "segment_label": "d)",
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière de la Trinité",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere de la trinite",
+        "eaux de la riviere de la trinite riviere de la trinite d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite nord de la zec de la riviere de la trinite et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2608,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité ( 49°24'28\" N., 67°26'25\" O. ) et un point situé à 2 km en amont ( 49°23'59\" N., 67°26'55\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 24 28 n 67 26 25 o ) et un point situe a 2 km en amont 49 23 59 n 67 26 55 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 24 28 n 67 26 25 o ) et un point situe a 2 km en amont 49 23 59 n 67 26 55 o )"
+      ],
+      "lat": 49.407778,
+      "lon": -67.440278
+    },
+    {
+      "id": 2610,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité ( 49°29'46\" N., 67°27'14\" O. ) et un point situé à 0,4 km en amont ( 49°29'56\" N., 67°27'09\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 29 46 n 67 27 14 o ) et un point situe a 0 4 km en amont 49 29 56 n 67 27 09 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 29 46 n 67 27 14 o ) et un point situe a 0 4 km en amont 49 29 56 n 67 27 09 o )"
+      ],
+      "lat": 49.496111,
+      "lon": -67.453889
+    },
+    {
+      "id": 2612,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité ( 49°34'29\" N., 67°28'55\" O. ) et un point situé à 0,5 km en amont ( 49°34'41\" N., 67°29'11\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 34 29 n 67 28 55 o ) et un point situe a 0 5 km en amont 49 34 41 n 67 29 11 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 34 29 n 67 28 55 o ) et un point situe a 0 5 km en amont 49 34 41 n 67 29 11 o )"
+      ],
+      "lat": 49.574722,
+      "lon": -67.481944
+    },
+    {
+      "id": 2614,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité ( 49°43'40\" N., 67°25'50\" O. ) et un point situé à 2,2 km en amont ( 49°43'17\" N., 67°25'09\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 43 40 n 67 25 50 o ) et un point situe a 2 2 km en amont 49 43 17 n 67 25 09 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 43 40 n 67 25 50 o ) et un point situe a 2 2 km en amont 49 43 17 n 67 25 09 o )"
+      ],
+      "lat": 49.727778,
+      "lon": -67.430556
+    },
+    {
+      "id": 2617,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité ( 49°46'02\" N., 67°27'00\" O. ) et un point situé à 0,7 km en amont ( 49°46'19\" N., 67°26'53\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 46 02 n 67 27 00 o ) et un point situe a 0 7 km en amont 49 46 19 n 67 26 53 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 46 02 n 67 27 00 o ) et un point situe a 0 7 km en amont 49 46 19 n 67 26 53 o )"
+      ],
+      "lat": 49.767222,
+      "lon": -67.45
+    },
+    {
+      "id": 2619,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité ( 49°46'47\" N., 67°28'13\" O. ) et un point situé à 1,9 km en amont ( 49°46'26\" N., 67°29'30\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec la rivière de la Trinité",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 46 47 n 67 28 13 o ) et un point situe a 1 9 km en amont 49 46 26 n 67 29 30 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec la riviere de la trinite 49 46 47 n 67 28 13 o ) et un point situe a 1 9 km en amont 49 46 26 n 67 29 30 o )"
+      ],
+      "lat": 49.779722,
+      "lon": -67.470278
+    },
+    {
+      "id": 2620,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec le ruisseau Fafard et un point situé à 1,5 km en amont ( 49°38'46\" N., 67°30'08\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Rivière sans nom entre sa confluence avec le ruisseau Fafard et un point situé à 1,5 km en amont",
+      "nom_search": "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec le ruisseau fafard et un point situe a 1 5 km en amont 49 38 46 n 67 30 08 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere de la trinite riviere sans nom",
+        "eaux de la riviere de la trinite riviere sans nom entre sa confluence avec le ruisseau fafard et un point situe a 1 5 km en amont 49 38 46 n 67 30 08 o )"
+      ],
+      "lat": 49.646111,
+      "lon": -67.502222
+    },
+    {
+      "id": 1596,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Ruisseau Bilodeau entre sa confluence avec la rivière de la Trinité et un point situé à 7,4 km en amont ( 49°26'58\" N., 67°19'43\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Ruisseau Bilodeau entre sa confluence avec la rivière de la Trinité et un point situé à 7,4 km en amont",
+      "nom_search": "eaux de la riviere de la trinite ruisseau bilodeau entre sa confluence avec la riviere de la trinite et un point situe a 7 4 km en amont 49 26 58 n 67 19 43 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Ruisseau Bilodeau",
+      "aliases": [
+        "eaux de la riviere de la trinite ruisseau bilodeau",
+        "eaux de la riviere de la trinite ruisseau bilodeau entre sa confluence avec la riviere de la trinite et un point situe a 7 4 km en amont 49 26 58 n 67 19 43 o )"
+      ],
+      "lat": 49.449444,
+      "lon": -67.328611
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Ruisseau Earle entre sa confluence avec la rivière de la Trinité et le lac Earle.",
+      "nom": "Eaux de la rivière de la Trinité Ruisseau Earle entre sa confluence avec la rivière de la Trinité et le lac Earle.",
+      "nom_search": "eaux de la riviere de la trinite ruisseau earle entre sa confluence avec la riviere de la trinite et le lac earle",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Ruisseau Earle",
+      "aliases": [
+        "eaux de la riviere de la trinite ruisseau earle",
+        "eaux de la riviere de la trinite ruisseau earle entre sa confluence avec la riviere de la trinite et le lac earle"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1600,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Ruisseau Fafard entre sa confluence avec la rivière de la Trinité et un point situé à 1,1 km en amont ( 49°38'09\" N., 67°30'03\" O. ).",
+      "nom": "Eaux de la rivière de la Trinité Ruisseau Fafard entre sa confluence avec la rivière de la Trinité et un point situé à 1,1 km en amont",
+      "nom_search": "eaux de la riviere de la trinite ruisseau fafard entre sa confluence avec la riviere de la trinite et un point situe a 1 1 km en amont 49 38 09 n 67 30 03 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Ruisseau Fafard",
+      "aliases": [
+        "eaux de la riviere de la trinite ruisseau fafard",
+        "eaux de la riviere de la trinite ruisseau fafard entre sa confluence avec la riviere de la trinite et un point situe a 1 1 km en amont 49 38 09 n 67 30 03 o )"
+      ],
+      "lat": 49.635833,
+      "lon": -67.500833
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Ruisseau Sainte-Croix entre sa confluence avec la rivière de la Trinité et le lac Sainte-Croix.",
+      "nom": "Eaux de la rivière de la Trinité Ruisseau Sainte-Croix entre sa confluence avec la rivière de la Trinité et le lac Sainte-Croix.",
+      "nom_search": "eaux de la riviere de la trinite ruisseau sainte croix entre sa confluence avec la riviere de la trinite et le lac sainte croix",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Ruisseau Sainte-Croix",
+      "aliases": [
+        "eaux de la riviere de la trinite ruisseau sainte croix",
+        "eaux de la riviere de la trinite ruisseau sainte croix entre sa confluence avec la riviere de la trinite et le lac sainte croix",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière de la Trinité Ruisseau Théodore entre sa confluence avec la rivière de la Trinité et le lac Théodore.",
+      "nom": "Eaux de la rivière de la Trinité Ruisseau Théodore entre sa confluence avec la rivière de la Trinité et le lac Théodore.",
+      "nom_search": "eaux de la riviere de la trinite ruisseau theodore entre sa confluence avec la riviere de la trinite et le lac theodore",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière de la Trinité Ruisseau Théodore",
+      "aliases": [
+        "eaux de la riviere de la trinite ruisseau theodore",
+        "eaux de la riviere de la trinite ruisseau theodore entre sa confluence avec la riviere de la trinite et le lac theodore"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Beauzèle entre sa confluence avec la rivière Godbout-Est et le lac Beauzèle.",
+      "nom": "Eaux de la rivière Godbout Rivière Beauzèle entre sa confluence avec la rivière Godbout-Est et le lac Beauzèle.",
+      "nom_search": "eaux de la riviere godbout riviere beauzele entre sa confluence avec la riviere godbout est et le lac beauzele",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Beauzèle",
+      "aliases": [
+        "eaux de la riviere godbout riviere beauzele",
+        "eaux de la riviere godbout riviere beauzele entre sa confluence avec la riviere godbout est et le lac beauzele"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1539,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Bignell entre sa confluence avec la rivière Godbout et un lac sans nom ( 49°41'31\" N., 67°41'43\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière Bignell entre sa confluence avec la rivière Godbout et un lac sans nom",
+      "nom_search": "eaux de la riviere godbout riviere bignell entre sa confluence avec la riviere godbout et un lac sans nom 49 41 31 n 67 41 43 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Bignell",
+      "aliases": [
+        "eaux de la riviere godbout riviere bignell",
+        "eaux de la riviere godbout riviere bignell entre sa confluence avec la riviere godbout et un lac sans nom 49 41 31 n 67 41 43 o )"
+      ],
+      "lat": 49.691944,
+      "lon": -67.695278
+    },
+    {
+      "id": 1542,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Étienne entre sa confluence avec la rivière Godbout et un lac sans nom ( 49°29'08\" N., 67°47'16\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière Étienne entre sa confluence avec la rivière Godbout et un lac sans nom",
+      "nom_search": "eaux de la riviere godbout riviere etienne entre sa confluence avec la riviere godbout et un lac sans nom 49 29 08 n 67 47 16 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Étienne",
+      "aliases": [
+        "eaux de la riviere godbout riviere etienne",
+        "eaux de la riviere godbout riviere etienne entre sa confluence avec la riviere godbout et un lac sans nom 49 29 08 n 67 47 16 o )"
+      ],
+      "lat": 49.485556,
+      "lon": -67.787778
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout a)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant l'extrémité ouest de la pointe de la Baie des Molson à la rive opposée et la ligne de transport d'énergie électrique située à 1 km en amont.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout a)",
+      "nom_search": "eaux de la riviere godbout riviere godbout a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant l extremite ouest de la pointe de la baie des molson a la rive opposee et la ligne de transport d energie electrique situee a 1 km en amont",
+      "segment_label": "a)",
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout",
+        "eaux de la riviere godbout riviere godbout a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant l extremite ouest de la pointe de la baie des molson a la rive opposee et la ligne de transport d energie electrique situee a 1 km en amont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1524,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout b)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la ligne de transport d'énergie électrique et une ligne joignant le point 49°19'58\" N., 67°39'56\" O. en rive ouest au point 49°20'04\" N., 67°39'56\" O. en rive est.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout b)",
+      "nom_search": "eaux de la riviere godbout riviere godbout b) ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne de transport d energie electrique et une ligne joignant le point 49 19 58 n 67 39 56 o en rive ouest au point 49 20 04 n 67 39 56 o en rive est",
+      "segment_label": "b)",
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout",
+        "eaux de la riviere godbout riviere godbout b) ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne de transport d energie electrique et une ligne joignant le point 49 19 58 n 67 39 56 o en rive ouest au point 49 20 04 n 67 39 56 o en rive est"
+      ],
+      "lat": 49.332778,
+      "lon": -67.665556
+    },
+    {
+      "id": 1525,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout c)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 49°19'58\" N., 67°39'56\" O. en rive ouest au point 49°20'04\" N., 67°39'56\" O. en rive est et la limite ouest du bloc A du canton De Monts.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout c)",
+      "nom_search": "eaux de la riviere godbout riviere godbout c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 49 19 58 n 67 39 56 o en rive ouest au point 49 20 04 n 67 39 56 o en rive est et la limite ouest du bloc a du canton de monts",
+      "segment_label": "c)",
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout",
+        "eaux de la riviere godbout riviere godbout c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 49 19 58 n 67 39 56 o en rive ouest au point 49 20 04 n 67 39 56 o en rive est et la limite ouest du bloc a du canton de monts"
+      ],
+      "lat": 49.332778,
+      "lon": -67.665556
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout d)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la limite ouest du bloc A du canton De Monts et une ligne perpendiculaire au courant située à 60 m en aval de la chute du 14 milles.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout d)",
+      "nom_search": "eaux de la riviere godbout riviere godbout d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite ouest du bloc a du canton de monts et une ligne perpendiculaire au courant situee a 60 m en aval de la chute du 14 milles",
+      "segment_label": "d)",
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout",
+        "eaux de la riviere godbout riviere godbout d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite ouest du bloc a du canton de monts et une ligne perpendiculaire au courant situee a 60 m en aval de la chute du 14 milles"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout e)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant située à 60 m en aval de la chute du 14 milles et cette chute.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout e)",
+      "nom_search": "eaux de la riviere godbout riviere godbout e) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 60 m en aval de la chute du 14 milles et cette chute",
+      "segment_label": "e)",
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout",
+        "eaux de la riviere godbout riviere godbout e) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 60 m en aval de la chute du 14 milles et cette chute"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1530,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout f)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la chute du 14 milles et la limite est de la pourvoirie du lac Cyprès formée par les points 49°41'38\" N., 67°51'21\" O. en rive est et 49°41'34\" N., 67°51'23\" O. en rive ouest.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout f)",
+      "nom_search": "eaux de la riviere godbout riviere godbout f) ainsi que les tributaires de ce secteur frequente par le saumon) entre la chute du 14 milles et la limite est de la pourvoirie du lac cypres formee par les points 49 41 38 n 67 51 21 o en rive est et 49 41 34 n 67 51 23 o en rive ouest",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout f)",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout f)",
+        "eaux de la riviere godbout riviere godbout f) ainsi que les tributaires de ce secteur frequente par le saumon) entre la chute du 14 milles et la limite est de la pourvoirie du lac cypres formee par les points 49 41 38 n 67 51 21 o en rive est et 49 41 34 n 67 51 23 o en rive ouest"
+      ],
+      "lat": 49.693889,
+      "lon": -67.855833
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout g)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la limite est de la pourvoirie du lac Cyprès et sa source.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout g)",
+      "nom_search": "eaux de la riviere godbout riviere godbout g) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite est de la pourvoirie du lac cypres et sa source",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout g)",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout g)",
+        "eaux de la riviere godbout riviere godbout g) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite est de la pourvoirie du lac cypres et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Godbout-Est entre sa confluence avec la rivière Godbout et la digue sud du lac Sainte-Anne.",
+      "nom": "Eaux de la rivière Godbout Rivière Godbout-Est entre sa confluence avec la rivière Godbout et la digue sud du lac Sainte-Anne.",
+      "nom_search": "eaux de la riviere godbout riviere godbout est entre sa confluence avec la riviere godbout et la digue sud du lac sainte anne",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Godbout-Est",
+      "aliases": [
+        "eaux de la riviere godbout riviere godbout est",
+        "eaux de la riviere godbout riviere godbout est entre sa confluence avec la riviere godbout et la digue sud du lac sainte anne",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1550,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière Mon Oncle entre sa confluence avec la rivière Godbout et un point situé à 100 m en amont ( 49°22'49\" N., 67°41'26\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière Mon Oncle entre sa confluence avec la rivière Godbout et un point situé à 100 m en amont",
+      "nom_search": "eaux de la riviere godbout riviere mon oncle entre sa confluence avec la riviere godbout et un point situe a 100 m en amont 49 22 49 n 67 41 26 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière Mon Oncle",
+      "aliases": [
+        "eaux de la riviere godbout riviere mon oncle",
+        "eaux de la riviere godbout riviere mon oncle entre sa confluence avec la riviere godbout et un point situe a 100 m en amont 49 22 49 n 67 41 26 o )"
+      ],
+      "lat": 49.380278,
+      "lon": -67.690556
+    },
+    {
+      "id": 2603,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Beauzèle ( 49°46'01\" N., 67°39'43\" O. ) et un lac sans nom situé à 3,2 km en amont ( 49°44'31\" N., 67°39'49\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Beauzèle",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere beauzele 49 46 01 n 67 39 43 o ) et un lac sans nom situe a 3 2 km en amont 49 44 31 n 67 39 49 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere beauzele 49 46 01 n 67 39 43 o ) et un lac sans nom situe a 3 2 km en amont 49 44 31 n 67 39 49 o )"
+      ],
+      "lat": 49.766944,
+      "lon": -67.661944
+    },
+    {
+      "id": 2604,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Beauzèle ( 49°46'50\" N., 67°37'32\" O. ) et un lac sans nom situé à 6,1 km en amont ( 49°44'10\" N., 67°37'01\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Beauzèle",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere beauzele 49 46 50 n 67 37 32 o ) et un lac sans nom situe a 6 1 km en amont 49 44 10 n 67 37 01 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere beauzele 49 46 50 n 67 37 32 o ) et un lac sans nom situe a 6 1 km en amont 49 44 10 n 67 37 01 o )"
+      ],
+      "lat": 49.780556,
+      "lon": -67.625556
+    },
+    {
+      "id": 2601,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Étienne ( 49°27'41\" N., 67°42'28\" O. ) et un point situé à 5,5 km en amont ( 49°30'17\" N., 67°43'25\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Étienne",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere etienne 49 27 41 n 67 42 28 o ) et un point situe a 5 5 km en amont 49 30 17 n 67 43 25 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere etienne 49 27 41 n 67 42 28 o ) et un point situe a 5 5 km en amont 49 30 17 n 67 43 25 o )"
+      ],
+      "lat": 49.461389,
+      "lon": -67.707778
+    },
+    {
+      "id": 2599,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Godbout ( 49°42'03\" N., 67°52'28\" O. ) et un lac sans nom situé à 5 km en amont ( 49°41'06\" N., 67°54'31\" O. ).",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Godbout",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere godbout 49 42 03 n 67 52 28 o ) et un lac sans nom situe a 5 km en amont 49 41 06 n 67 54 31 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere godbout 49 42 03 n 67 52 28 o ) et un lac sans nom situe a 5 km en amont 49 41 06 n 67 54 31 o )"
+      ],
+      "lat": 49.700833,
+      "lon": -67.874444
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Godbout et le lac Godbout.",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec la rivière Godbout et le lac Godbout.",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere godbout et le lac godbout",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec la riviere godbout et le lac godbout"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2602,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec le ruisseau Frigon ( 49°43'32\" N., 67°56'21\" O. ) et le lac Pesetone.",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec le ruisseau Frigon",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec le ruisseau frigon 49 43 32 n 67 56 21 o ) et le lac pesetone",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec le ruisseau frigon 49 43 32 n 67 56 21 o ) et le lac pesetone"
+      ],
+      "lat": 49.725556,
+      "lon": -67.939167
+    },
+    {
+      "id": 2605,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec un tributaire sans nom de la rivière Beauzèle ( 49°45'07\" N., 67°37'08\" O. ) et le Lac Devoble.",
+      "nom": "Eaux de la rivière Godbout Rivière sans nom entre sa confluence avec un tributaire sans nom de la rivière Beauzèle",
+      "nom_search": "eaux de la riviere godbout riviere sans nom entre sa confluence avec un tributaire sans nom de la riviere beauzele 49 45 07 n 67 37 08 o ) et le lac devoble",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Rivière sans nom",
+      "aliases": [
+        "eaux de la riviere godbout riviere sans nom",
+        "eaux de la riviere godbout riviere sans nom entre sa confluence avec un tributaire sans nom de la riviere beauzele 49 45 07 n 67 37 08 o ) et le lac devoble"
+      ],
+      "lat": 49.751944,
+      "lon": -67.618889
+    },
+    {
+      "id": 1535,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Ruisseau Ashini-Est entre sa confluence avec la rivière Godbout et un point situé à 4,6 km en amont ( 49°33'49\" N., 67°37'14\" O. ).",
+      "nom": "Eaux de la rivière Godbout Ruisseau Ashini-Est entre sa confluence avec la rivière Godbout et un point situé à 4,6 km en amont",
+      "nom_search": "eaux de la riviere godbout ruisseau ashini est entre sa confluence avec la riviere godbout et un point situe a 4 6 km en amont 49 33 49 n 67 37 14 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Ruisseau Ashini-Est",
+      "aliases": [
+        "eaux de la riviere godbout ruisseau ashini est",
+        "eaux de la riviere godbout ruisseau ashini est entre sa confluence avec la riviere godbout et un point situe a 4 6 km en amont 49 33 49 n 67 37 14 o )"
+      ],
+      "lat": 49.563611,
+      "lon": -67.620556
+    },
+    {
+      "id": 1537,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Ruisseau Ashini-Ouest entre sa confluence avec la rivière Godbout et un point situé à 1,4 km en amont ( 49°40'25\" N., 67°45'01\" O. ).",
+      "nom": "Eaux de la rivière Godbout Ruisseau Ashini-Ouest entre sa confluence avec la rivière Godbout et un point situé à 1,4 km en amont",
+      "nom_search": "eaux de la riviere godbout ruisseau ashini ouest entre sa confluence avec la riviere godbout et un point situe a 1 4 km en amont 49 40 25 n 67 45 01 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Ruisseau Ashini-Ouest",
+      "aliases": [
+        "eaux de la riviere godbout ruisseau ashini ouest",
+        "eaux de la riviere godbout ruisseau ashini ouest entre sa confluence avec la riviere godbout et un point situe a 1 4 km en amont 49 40 25 n 67 45 01 o )"
+      ],
+      "lat": 49.673611,
+      "lon": -67.750278
+    },
+    {
+      "id": 1544,
+      "zone_id": 19,
+      "nom_brut": "Eaux de la rivière Godbout Ruisseau Frigon entre sa confluence avec la rivière Godbout et un point situé à 9 km en amont ( 49°42'33\" N., 67°56'54\" O. ).",
+      "nom": "Eaux de la rivière Godbout Ruisseau Frigon entre sa confluence avec la rivière Godbout et un point situé à 9 km en amont",
+      "nom_search": "eaux de la riviere godbout ruisseau frigon entre sa confluence avec la riviere godbout et un point situe a 9 km en amont 49 42 33 n 67 56 54 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Godbout Ruisseau Frigon",
+      "aliases": [
+        "eaux de la riviere godbout ruisseau frigon",
+        "eaux de la riviere godbout ruisseau frigon entre sa confluence avec la riviere godbout et un point situe a 9 km en amont 49 42 33 n 67 56 54 o )"
+      ],
+      "lat": 49.709167,
+      "lon": -67.948333
+    },
+    {
+      "id": 2627,
+      "zone_id": 19,
+      "nom_brut": "Lac à Jacques ( 48°51'45\" N., 69°02'51\" O. )",
+      "nom": "Lac à Jacques",
+      "nom_search": "lac a jacques 48 51 45 n 69 02 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à Jacques",
+      "aliases": [
+        "a jacques",
+        "a jacques 48 51 45 n 69 02 51 o )",
+        "lac a jacques",
+        "lac a jacques 48 51 45 n 69 02 51 o )"
+      ],
+      "lat": 48.8625,
+      "lon": -69.0475
+    },
+    {
+      "id": 1001,
+      "zone_id": 19,
+      "nom_brut": "Lac à Jules ( 49°44'36'' N., 69°08'45'' O. )",
+      "nom": "Lac à Jules",
+      "nom_search": "lac a jules 49 44 36 n 69 08 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à Jules",
+      "aliases": [
+        "a jules",
+        "a jules 49 44 36 n 69 08 45 o )",
+        "lac a jules",
+        "lac a jules 49 44 36 n 69 08 45 o )"
+      ],
+      "lat": 49.743333,
+      "lon": -69.145833
+    },
+    {
+      "id": 12200,
+      "zone_id": 19,
+      "nom_brut": "Lac à Tabac ( 49°23'08\" N., 67°38'15\" O. )",
+      "nom": "Lac à Tabac",
+      "nom_search": "lac a tabac 49 23 08 n 67 38 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à Tabac",
+      "aliases": [
+        "a tabac",
+        "a tabac 49 23 08 n 67 38 15 o )",
+        "lac a tabac",
+        "lac a tabac 49 23 08 n 67 38 15 o )"
+      ],
+      "lat": 49.385556,
+      "lon": -67.6375
+    },
+    {
+      "id": 2468,
+      "zone_id": 19,
+      "nom_brut": "Lac Aber (municipalité de Baie-Comeau) ( 49°14'44\" N., 68°09'01\" O. )",
+      "nom": "Lac Aber",
+      "nom_search": "lac aber municipalite de baie comeau) 49 14 44 n 68 09 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Aber",
+      "aliases": [
+        "aber",
+        "aber municipalite de baie comeau) 49 14 44 n 68 09 01 o )",
+        "lac aber",
+        "lac aber municipalite de baie comeau) 49 14 44 n 68 09 01 o )"
+      ],
+      "lat": 49.245556,
+      "lon": -68.150278
+    },
+    {
+      "id": 971,
+      "zone_id": 19,
+      "nom_brut": "Lac Anne ( 49°33'01\" N., 68°59'21\" O. )",
+      "nom": "Lac Anne",
+      "nom_search": "lac anne 49 33 01 n 68 59 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Anne",
+      "aliases": [
+        "anne",
+        "anne 49 33 01 n 68 59 21 o )",
+        "lac anne",
+        "lac anne 49 33 01 n 68 59 21 o )"
+      ],
+      "lat": 49.550278,
+      "lon": -68.989167
+    },
+    {
+      "id": 978,
+      "zone_id": 19,
+      "nom_brut": "Lac au Brochet ( 49°40'00\" N., 69°36'00\" O. )",
+      "nom": "Lac au Brochet",
+      "nom_search": "lac au brochet 49 40 00 n 69 36 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac au Brochet",
+      "aliases": [
+        "au brochet",
+        "au brochet 49 40 00 n 69 36 00 o )",
+        "lac au brochet",
+        "lac au brochet 49 40 00 n 69 36 00 o )"
+      ],
+      "lat": 49.666667,
+      "lon": -69.6
+    },
+    {
+      "id": 1015,
+      "zone_id": 19,
+      "nom_brut": "Lac aux Perles ( 49°11'30\" N., 69°50'01\" O. )",
+      "nom": "Lac aux Perles",
+      "nom_search": "lac aux perles 49 11 30 n 69 50 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Perles",
+      "aliases": [
+        "aux perles",
+        "aux perles 49 11 30 n 69 50 01 o )",
+        "lac aux perles",
+        "lac aux perles 49 11 30 n 69 50 01 o )"
+      ],
+      "lat": 49.191667,
+      "lon": -69.833611
+    },
+    {
+      "id": 973,
+      "zone_id": 19,
+      "nom_brut": "Lac Betchie ( 49°40'14\" N., 69°59'05\" O. )",
+      "nom": "Lac Betchie",
+      "nom_search": "lac betchie 49 40 14 n 69 59 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Betchie",
+      "aliases": [
+        "betchie",
+        "betchie 49 40 14 n 69 59 05 o )",
+        "lac betchie",
+        "lac betchie 49 40 14 n 69 59 05 o )"
+      ],
+      "lat": 49.670556,
+      "lon": -69.984722
+    },
+    {
+      "id": 975,
+      "zone_id": 19,
+      "nom_brut": "Lac Boucher ( 49°29'20\" N., 68°58'47\" O. )",
+      "nom": "Lac Boucher",
+      "nom_search": "lac boucher 49 29 20 n 68 58 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Boucher",
+      "aliases": [
+        "boucher",
+        "boucher 49 29 20 n 68 58 47 o )",
+        "lac boucher",
+        "lac boucher 49 29 20 n 68 58 47 o )"
+      ],
+      "lat": 49.488889,
+      "lon": -68.979722
+    },
+    {
+      "id": 2774,
+      "zone_id": 19,
+      "nom_brut": "Lac de la Montagne ( 49°08'01\" N., 69°49'08\" O. )",
+      "nom": "Lac de la Montagne",
+      "nom_search": "lac de la montagne 49 08 01 n 69 49 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Montagne",
+      "aliases": [
+        "de la montagne",
+        "de la montagne 49 08 01 n 69 49 08 o )",
+        "lac de la montagne",
+        "lac de la montagne 49 08 01 n 69 49 08 o )"
+      ],
+      "lat": 49.133611,
+      "lon": -69.818889
+    },
+    {
+      "id": 2469,
+      "zone_id": 19,
+      "nom_brut": "Lac de l'Aqueduc ( 48°09'14\" N., 69°41'56\" O. )",
+      "nom": "Lac de l'Aqueduc",
+      "nom_search": "lac de l aqueduc 48 09 14 n 69 41 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Aqueduc",
+      "aliases": [
+        "de l aqueduc",
+        "de l aqueduc 48 09 14 n 69 41 56 o )",
+        "lac de l aqueduc",
+        "lac de l aqueduc 48 09 14 n 69 41 56 o )"
+      ],
+      "lat": 48.153889,
+      "lon": -69.698889
+    },
+    {
+      "id": 996,
+      "zone_id": 19,
+      "nom_brut": "Lac de l'Île ( 49°09'51\" N., 69°54'19\" O. )",
+      "nom": "Lac de l'Île",
+      "nom_search": "lac de l ile 49 09 51 n 69 54 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Île",
+      "aliases": [
+        "de l ile",
+        "de l ile 49 09 51 n 69 54 19 o )",
+        "lac de l ile",
+        "lac de l ile 49 09 51 n 69 54 19 o )"
+      ],
+      "lat": 49.164167,
+      "lon": -69.905278
+    },
+    {
+      "id": 980,
+      "zone_id": 19,
+      "nom_brut": "Lac des Caribous ( 49°08'33\" N., 69°54'25\" O. )",
+      "nom": "Lac des Caribous",
+      "nom_search": "lac des caribous 49 08 33 n 69 54 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Caribous",
+      "aliases": [
+        "des caribous",
+        "des caribous 49 08 33 n 69 54 25 o )",
+        "lac des caribous",
+        "lac des caribous 49 08 33 n 69 54 25 o )"
+      ],
+      "lat": 49.1425,
+      "lon": -69.906944
+    },
+    {
+      "id": 1010,
+      "zone_id": 19,
+      "nom_brut": "Lac des Montagnais ( 49°40'06\" N., 69°05'57\" O. )",
+      "nom": "Lac des Montagnais",
+      "nom_search": "lac des montagnais 49 40 06 n 69 05 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Montagnais",
+      "aliases": [
+        "des montagnais",
+        "des montagnais 49 40 06 n 69 05 57 o )",
+        "lac des montagnais",
+        "lac des montagnais 49 40 06 n 69 05 57 o )"
+      ],
+      "lat": 49.668333,
+      "lon": -69.099167
+    },
+    {
+      "id": 984,
+      "zone_id": 19,
+      "nom_brut": "Lac Dissimieux ( 49°51'50\" N., 69°47'49\" O. )",
+      "nom": "Lac Dissimieux",
+      "nom_search": "lac dissimieux 49 51 50 n 69 47 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Dissimieux",
+      "aliases": [
+        "dissimieux",
+        "dissimieux 49 51 50 n 69 47 49 o )",
+        "lac dissimieux",
+        "lac dissimieux 49 51 50 n 69 47 49 o )"
+      ],
+      "lat": 49.863889,
+      "lon": -69.796944
+    },
+    {
+      "id": 987,
+      "zone_id": 19,
+      "nom_brut": "Lac Dodier ( 49°33'00\" N., 69°24'00\" O. )",
+      "nom": "Lac Dodier",
+      "nom_search": "lac dodier 49 33 00 n 69 24 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Dodier",
+      "aliases": [
+        "dodier",
+        "dodier 49 33 00 n 69 24 00 o )",
+        "lac dodier",
+        "lac dodier 49 33 00 n 69 24 00 o )"
+      ],
+      "lat": 49.55,
+      "lon": -69.4
+    },
+    {
+      "id": 982,
+      "zone_id": 19,
+      "nom_brut": "Lac du Décès ( 49°38'15\" N., 69°18'44\" O. )",
+      "nom": "Lac du Décès",
+      "nom_search": "lac du deces 49 38 15 n 69 18 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Décès",
+      "aliases": [
+        "du deces",
+        "du deces 49 38 15 n 69 18 44 o )",
+        "lac du deces",
+        "lac du deces 49 38 15 n 69 18 44 o )"
+      ],
+      "lat": 49.6375,
+      "lon": -69.312222
+    },
+    {
+      "id": 2770,
+      "zone_id": 19,
+      "nom_brut": "Lac du Grand Portage ( 49°07'35\" N., 69°50'18\" O. )",
+      "nom": "Lac du Grand Portage",
+      "nom_search": "lac du grand portage 49 07 35 n 69 50 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Grand Portage",
+      "aliases": [
+        "du grand portage",
+        "du grand portage 49 07 35 n 69 50 18 o )",
+        "lac du grand portage",
+        "lac du grand portage 49 07 35 n 69 50 18 o )"
+      ],
+      "lat": 49.126389,
+      "lon": -69.838333
+    },
+    {
+      "id": 1017,
+      "zone_id": 19,
+      "nom_brut": "Lac du Raccourci ( 49°20'00\" N., 69°07'00\" O. )",
+      "nom": "Lac du Raccourci",
+      "nom_search": "lac du raccourci 49 20 00 n 69 07 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Raccourci",
+      "aliases": [
+        "du raccourci",
+        "du raccourci 49 20 00 n 69 07 00 o )",
+        "lac du raccourci",
+        "lac du raccourci 49 20 00 n 69 07 00 o )"
+      ],
+      "lat": 49.333333,
+      "lon": -69.116667
+    },
+    {
+      "id": 1021,
+      "zone_id": 19,
+      "nom_brut": "Lac du Retard ( 49°41'24\" N., 69°07'01\" O. )",
+      "nom": "Lac du Retard",
+      "nom_search": "lac du retard 49 41 24 n 69 07 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Retard",
+      "aliases": [
+        "du retard",
+        "du retard 49 41 24 n 69 07 01 o )",
+        "lac du retard",
+        "lac du retard 49 41 24 n 69 07 01 o )"
+      ],
+      "lat": 49.69,
+      "lon": -69.116944
+    },
+    {
+      "id": 1025,
+      "zone_id": 19,
+      "nom_brut": "Lac du Sault-aux-Cochons ( 49°16'25\" N., 69°57'31\" O. )",
+      "nom": "Lac du Sault-aux-Cochons",
+      "nom_search": "lac du sault aux cochons 49 16 25 n 69 57 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Sault-aux-Cochons",
+      "aliases": [
+        "du sault aux cochons",
+        "du sault aux cochons 49 16 25 n 69 57 31 o )",
+        "lac du sault aux cochons",
+        "lac du sault aux cochons 49 16 25 n 69 57 31 o )"
+      ],
+      "lat": 49.273611,
+      "lon": -69.958611
+    },
+    {
+      "id": 989,
+      "zone_id": 19,
+      "nom_brut": "Lac Dubuc ( 49°19'23\" N., 69°51'51\" O. )",
+      "nom": "Lac Dubuc",
+      "nom_search": "lac dubuc 49 19 23 n 69 51 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Dubuc",
+      "aliases": [
+        "dubuc",
+        "dubuc 49 19 23 n 69 51 51 o )",
+        "lac dubuc",
+        "lac dubuc 49 19 23 n 69 51 51 o )"
+      ],
+      "lat": 49.323056,
+      "lon": -69.864167
+    },
+    {
+      "id": 992,
+      "zone_id": 19,
+      "nom_brut": "Lac Édouard ( 49°35'53\" N., 69°35'17\" O. )",
+      "nom": "Lac Édouard",
+      "nom_search": "lac edouard 49 35 53 n 69 35 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Édouard",
+      "aliases": [
+        "edouard",
+        "edouard 49 35 53 n 69 35 17 o )",
+        "lac edouard",
+        "lac edouard 49 35 53 n 69 35 17 o )"
+      ],
+      "lat": 49.598056,
+      "lon": -69.588056
+    },
+    {
+      "id": 10860,
+      "zone_id": 19,
+      "nom_brut": "Lac Fléché ( 49°59'41\" N., 68°10'58\" O. )",
+      "nom": "Lac Fléché",
+      "nom_search": "lac fleche 49 59 41 n 68 10 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Fléché",
+      "aliases": [
+        "fleche",
+        "fleche 49 59 41 n 68 10 58 o )",
+        "lac fleche",
+        "lac fleche 49 59 41 n 68 10 58 o )"
+      ],
+      "lat": 49.994722,
+      "lon": -68.182778
+    },
+    {
+      "id": 1039,
+      "zone_id": 19,
+      "nom_brut": "Lac Gilles ( 48°45'08\" N., 69°18'18\" O. )",
+      "nom": "Lac Gilles",
+      "nom_search": "lac gilles 48 45 08 n 69 18 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gilles",
+      "aliases": [
+        "gilles",
+        "gilles 48 45 08 n 69 18 18 o )",
+        "lac gilles",
+        "lac gilles 48 45 08 n 69 18 18 o )"
+      ],
+      "lat": 48.752222,
+      "lon": -69.305
+    },
+    {
+      "id": 994,
+      "zone_id": 19,
+      "nom_brut": "Lac Grimoult ( 49°45'58\" N., 69°44'18\" O. )",
+      "nom": "Lac Grimoult",
+      "nom_search": "lac grimoult 49 45 58 n 69 44 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grimoult",
+      "aliases": [
+        "grimoult",
+        "grimoult 49 45 58 n 69 44 18 o )",
+        "lac grimoult",
+        "lac grimoult 49 45 58 n 69 44 18 o )"
+      ],
+      "lat": 49.766111,
+      "lon": -69.738333
+    },
+    {
+      "id": 1041,
+      "zone_id": 19,
+      "nom_brut": "Lac John ( 48°43'24\" N., 69°20'11\" O. )",
+      "nom": "Lac John",
+      "nom_search": "lac john 48 43 24 n 69 20 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac John",
+      "aliases": [
+        "john",
+        "john 48 43 24 n 69 20 11 o )",
+        "lac john",
+        "lac john 48 43 24 n 69 20 11 o )"
+      ],
+      "lat": 48.723333,
+      "lon": -69.336389
+    },
+    {
+      "id": 999,
+      "zone_id": 19,
+      "nom_brut": "Lac Kakuskanus ( 49°13'15\" N., 69°59'11\" O. )",
+      "nom": "Lac Kakuskanus",
+      "nom_search": "lac kakuskanus 49 13 15 n 69 59 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kakuskanus",
+      "aliases": [
+        "kakuskanus",
+        "kakuskanus 49 13 15 n 69 59 11 o )",
+        "lac kakuskanus",
+        "lac kakuskanus 49 13 15 n 69 59 11 o )"
+      ],
+      "lat": 49.220833,
+      "lon": -69.986389
+    },
+    {
+      "id": 1003,
+      "zone_id": 19,
+      "nom_brut": "Lac Kamiltaukas ( 49°37'15\" N., 68°56'17\" O. )",
+      "nom": "Lac Kamiltaukas",
+      "nom_search": "lac kamiltaukas 49 37 15 n 68 56 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kamiltaukas",
+      "aliases": [
+        "kamiltaukas",
+        "kamiltaukas 49 37 15 n 68 56 17 o )",
+        "lac kamiltaukas",
+        "lac kamiltaukas 49 37 15 n 68 56 17 o )"
+      ],
+      "lat": 49.620833,
+      "lon": -68.938056
+    },
+    {
+      "id": 1005,
+      "zone_id": 19,
+      "nom_brut": "Lac Letemplier ( 49°27'22\" N., 68°47'01\" O. )",
+      "nom": "Lac Letemplier",
+      "nom_search": "lac letemplier 49 27 22 n 68 47 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Letemplier",
+      "aliases": [
+        "lac letemplier",
+        "lac letemplier 49 27 22 n 68 47 01 o )",
+        "letemplier",
+        "letemplier 49 27 22 n 68 47 01 o )"
+      ],
+      "lat": 49.456111,
+      "lon": -68.783611
+    },
+    {
+      "id": 1043,
+      "zone_id": 19,
+      "nom_brut": "Lac Miracle ( 48°44'16\" N., 69°18'15\" O. )",
+      "nom": "Lac Miracle",
+      "nom_search": "lac miracle 48 44 16 n 69 18 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Miracle",
+      "aliases": [
+        "lac miracle",
+        "lac miracle 48 44 16 n 69 18 15 o )",
+        "miracle",
+        "miracle 48 44 16 n 69 18 15 o )"
+      ],
+      "lat": 48.737778,
+      "lon": -69.304167
+    },
+    {
+      "id": 1012,
+      "zone_id": 19,
+      "nom_brut": "Lac Nid (du Porc, 49°24'14\" N., 68°58'09\" O. )",
+      "nom": "Lac Nid",
+      "nom_search": "lac nid du porc 49 24 14 n 68 58 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nid",
+      "aliases": [
+        "lac nid",
+        "lac nid du porc 49 24 14 n 68 58 09 o )",
+        "nid",
+        "nid du porc 49 24 14 n 68 58 09 o )"
+      ],
+      "lat": 49.403889,
+      "lon": -68.969167
+    },
+    {
+      "id": 1045,
+      "zone_id": 19,
+      "nom_brut": "Lac Petit lac du Sault-aux Cochons ( 49°14'43\" N., 69°54'52\" O. )",
+      "nom": "Lac Petit lac du Sault-aux Cochons",
+      "nom_search": "lac petit lac du sault aux cochons 49 14 43 n 69 54 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac du Sault-aux Cochons",
+      "aliases": [
+        "lac petit lac du sault aux cochons",
+        "lac petit lac du sault aux cochons 49 14 43 n 69 54 52 o )",
+        "petit lac du sault aux cochons",
+        "petit lac du sault aux cochons 49 14 43 n 69 54 52 o )"
+      ],
+      "lat": 49.245278,
+      "lon": -69.914444
+    },
+    {
+      "id": 1008,
+      "zone_id": 19,
+      "nom_brut": "Lac Petit lac Letemplier ( 49°25'32\" N., 68°45'28\" O. )",
+      "nom": "Lac Petit lac Letemplier",
+      "nom_search": "lac petit lac letemplier 49 25 32 n 68 45 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Letemplier",
+      "aliases": [
+        "lac petit lac letemplier",
+        "lac petit lac letemplier 49 25 32 n 68 45 28 o )",
+        "petit lac letemplier",
+        "petit lac letemplier 49 25 32 n 68 45 28 o )"
+      ],
+      "lat": 49.425556,
+      "lon": -68.757778
+    },
+    {
+      "id": 1023,
+      "zone_id": 19,
+      "nom_brut": "Lac Roy ( 49°45'00\" N., 69°54'00\" O. )",
+      "nom": "Lac Roy",
+      "nom_search": "lac roy 49 45 00 n 69 54 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Roy",
+      "aliases": [
+        "lac roy",
+        "lac roy 49 45 00 n 69 54 00 o )",
+        "roy",
+        "roy 49 45 00 n 69 54 00 o )"
+      ],
+      "lat": 49.75,
+      "lon": -69.9
+    },
+    {
+      "id": 1047,
+      "zone_id": 19,
+      "nom_brut": "Lac Sans Baie ( 49°17'28\" N., 68°12'26\" O. )",
+      "nom": "Lac Sans Baie",
+      "nom_search": "lac sans baie 49 17 28 n 68 12 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans Baie",
+      "aliases": [
+        "lac sans baie",
+        "lac sans baie 49 17 28 n 68 12 26 o )",
+        "sans baie",
+        "sans baie 49 17 28 n 68 12 26 o )"
+      ],
+      "lat": 49.291111,
+      "lon": -68.207222
+    },
+    {
+      "id": 3104,
+      "zone_id": 19,
+      "nom_brut": "Lac Sans nom ( 49°37'50\" N., 69°20'40\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 37 50 n 69 20 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 37 50 n 69 20 40 o )",
+        "sans nom",
+        "sans nom 49 37 50 n 69 20 40 o )"
+      ],
+      "lat": 49.630556,
+      "lon": -69.344444
+    },
+    {
+      "id": 3105,
+      "zone_id": 19,
+      "nom_brut": "Lac Sans nom ( 49°38'00\" N., 69°21'40\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 38 00 n 69 21 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 38 00 n 69 21 40 o )",
+        "sans nom",
+        "sans nom 49 38 00 n 69 21 40 o )"
+      ],
+      "lat": 49.633333,
+      "lon": -69.361111
+    },
+    {
+      "id": 3106,
+      "zone_id": 19,
+      "nom_brut": "Lac Sans nom ( 49°38'30\" N., 69°21'20\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 38 30 n 69 21 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 38 30 n 69 21 20 o )",
+        "sans nom",
+        "sans nom 49 38 30 n 69 21 20 o )"
+      ],
+      "lat": 49.641667,
+      "lon": -69.355556
+    },
+    {
+      "id": 1027,
+      "zone_id": 19,
+      "nom_brut": "Lac Sédillot ( 49°31'38\" N., 69°06'42\" O. )",
+      "nom": "Lac Sédillot",
+      "nom_search": "lac sedillot 49 31 38 n 69 06 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sédillot",
+      "aliases": [
+        "lac sedillot",
+        "lac sedillot 49 31 38 n 69 06 42 o )",
+        "sedillot",
+        "sedillot 49 31 38 n 69 06 42 o )"
+      ],
+      "lat": 49.527222,
+      "lon": -69.111667
+    },
+    {
+      "id": 1029,
+      "zone_id": 19,
+      "nom_brut": "Lac Uchichicau ( 49°46'39\" N., 69°41'47\" O. )",
+      "nom": "Lac Uchichicau",
+      "nom_search": "lac uchichicau 49 46 39 n 69 41 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Uchichicau",
+      "aliases": [
+        "lac uchichicau",
+        "lac uchichicau 49 46 39 n 69 41 47 o )",
+        "uchichicau",
+        "uchichicau 49 46 39 n 69 41 47 o )"
+      ],
+      "lat": 49.7775,
+      "lon": -69.696389
+    },
+    {
+      "id": 1031,
+      "zone_id": 19,
+      "nom_brut": "Lac Violette ( 49°54'45\" N., 69°52'46\" O. )",
+      "nom": "Lac Violette",
+      "nom_search": "lac violette 49 54 45 n 69 52 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Violette",
+      "aliases": [
+        "lac violette",
+        "lac violette 49 54 45 n 69 52 46 o )",
+        "violette",
+        "violette 49 54 45 n 69 52 46 o )"
+      ],
+      "lat": 49.9125,
+      "lon": -69.879444
+    },
+    {
+      "id": 10862,
+      "zone_id": 19,
+      "nom_brut": "Réservoir aux Outardes-2 ( 49°23'07\" N., 68°34'45\" O. )",
+      "nom": "Réservoir aux Outardes-2",
+      "nom_search": "reservoir aux outardes 2 49 23 07 n 68 34 45 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir aux Outardes-2",
+      "aliases": [
+        "aux outardes 2",
+        "aux outardes 2 49 23 07 n 68 34 45 o )",
+        "reservoir aux outardes 2",
+        "reservoir aux outardes 2 49 23 07 n 68 34 45 o )"
+      ],
+      "lat": 49.385278,
+      "lon": -68.579167
+    },
+    {
+      "id": 10863,
+      "zone_id": 19,
+      "nom_brut": "Réservoir aux Outardes-3 (Lac Katshenukamat) ( 49°35'03\" N., 68°45'56\" O. )",
+      "nom": "Réservoir aux Outardes-3",
+      "nom_search": "reservoir aux outardes 3 lac katshenukamat) 49 35 03 n 68 45 56 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir aux Outardes-3",
+      "aliases": [
+        "aux outardes 3",
+        "aux outardes 3 lac katshenukamat) 49 35 03 n 68 45 56 o )",
+        "reservoir aux outardes 3",
+        "reservoir aux outardes 3 lac katshenukamat) 49 35 03 n 68 45 56 o )"
+      ],
+      "lat": 49.584167,
+      "lon": -68.765556
+    },
+    {
+      "id": 10864,
+      "zone_id": 19,
+      "nom_brut": "Réservoir aux Outardes-4 ( 49°44'18\" N., 68°54'24\" O. )",
+      "nom": "Réservoir aux Outardes-4",
+      "nom_search": "reservoir aux outardes 4 49 44 18 n 68 54 24 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir aux Outardes-4",
+      "aliases": [
+        "aux outardes 4",
+        "aux outardes 4 49 44 18 n 68 54 24 o )",
+        "reservoir aux outardes 4",
+        "reservoir aux outardes 4 49 44 18 n 68 54 24 o )"
+      ],
+      "lat": 49.738333,
+      "lon": -68.906667
+    },
+    {
+      "id": 10861,
+      "zone_id": 19,
+      "nom_brut": "Réservoir Betsiamites (Bersimis-2) ( 49°12'28\" N., 69°17'14\" O. )",
+      "nom": "Réservoir Betsiamites",
+      "nom_search": "reservoir betsiamites bersimis 2) 49 12 28 n 69 17 14 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Betsiamites",
+      "aliases": [
+        "betsiamites",
+        "betsiamites bersimis 2) 49 12 28 n 69 17 14 o )",
+        "reservoir betsiamites",
+        "reservoir betsiamites bersimis 2) 49 12 28 n 69 17 14 o )"
+      ],
+      "lat": 49.207778,
+      "lon": -69.287222
+    },
+    {
+      "id": 10865,
+      "zone_id": 19,
+      "nom_brut": "Réservoir Manic-1 ( 49°14'48\" N., 68°23'55\" O. )",
+      "nom": "Réservoir Manic-1",
+      "nom_search": "reservoir manic 1 49 14 48 n 68 23 55 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Manic-1",
+      "aliases": [
+        "manic 1",
+        "manic 1 49 14 48 n 68 23 55 o )",
+        "reservoir manic 1",
+        "reservoir manic 1 49 14 48 n 68 23 55 o )"
+      ],
+      "lat": 49.246667,
+      "lon": -68.398611
+    },
+    {
+      "id": 10866,
+      "zone_id": 19,
+      "nom_brut": "Réservoir Manic-2 ( 49°30'54\" N., 68°23'51\" O. )",
+      "nom": "Réservoir Manic-2",
+      "nom_search": "reservoir manic 2 49 30 54 n 68 23 51 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Manic-2",
+      "aliases": [
+        "manic 2",
+        "manic 2 49 30 54 n 68 23 51 o )",
+        "reservoir manic 2",
+        "reservoir manic 2 49 30 54 n 68 23 51 o )"
+      ],
+      "lat": 49.515,
+      "lon": -68.3975
+    },
+    {
+      "id": 10867,
+      "zone_id": 19,
+      "nom_brut": "Réservoir Manic-3 ( 49°55'40\" N., 68°38'00\" O. )",
+      "nom": "Réservoir Manic-3",
+      "nom_search": "reservoir manic 3 49 55 40 n 68 38 00 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Manic-3",
+      "aliases": [
+        "manic 3",
+        "manic 3 49 55 40 n 68 38 00 o )",
+        "reservoir manic 3",
+        "reservoir manic 3 49 55 40 n 68 38 00 o )"
+      ],
+      "lat": 49.927778,
+      "lon": -68.633333
+    },
+    {
+      "id": 2481,
+      "zone_id": 19,
+      "nom_brut": "Réservoir Pipmuacan (Bersimis-1) ( 49°25'27\" N., 69°53'33\" O. )",
+      "nom": "Réservoir Pipmuacan",
+      "nom_search": "reservoir pipmuacan bersimis 1) 49 25 27 n 69 53 33 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Pipmuacan",
+      "aliases": [
+        "pipmuacan",
+        "pipmuacan bersimis 1) 49 25 27 n 69 53 33 o )",
+        "reservoir pipmuacan",
+        "reservoir pipmuacan bersimis 1) 49 25 27 n 69 53 33 o )"
+      ],
+      "lat": 49.424167,
+      "lon": -69.8925
+    },
+    {
+      "id": 3352,
+      "zone_id": 19,
+      "nom_brut": "Rivière à la chasse Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°12'04\" N., 68°11'38\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière à la chasse Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°12'04\" N., 68°11'38\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere a la chasse entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 12 04 n 68 11 38 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière à la chasse",
+      "aliases": [
+        "a la chasse",
+        "a la chasse entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 12 04 n 68 11 38 o ainsi que tous ses tributaires",
+        "riviere a la chasse",
+        "riviere a la chasse entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 12 04 n 68 11 38 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.201111,
+      "lon": -68.193889
+    },
+    {
+      "id": 3366,
+      "zone_id": 19,
+      "nom_brut": "Rivière à Labrie Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°22'49\" N., 67°19'18\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière à Labrie Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°22'49\" N., 67°19'18\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere a labrie entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 22 49 n 67 19 18 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière à Labrie",
+      "aliases": [
+        "a labrie",
+        "a labrie entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 22 49 n 67 19 18 o ainsi que tous ses tributaires",
+        "riviere a labrie",
+        "riviere a labrie entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 22 49 n 67 19 18 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.380278,
+      "lon": -67.321667
+    },
+    {
+      "id": 2628,
+      "zone_id": 19,
+      "nom_brut": "Rivière Adam entre sa confluence avec la rivière Laval et le côté en aval de la route 385.",
+      "nom": "Rivière Adam entre sa confluence avec la rivière Laval et le côté en aval de la route 385.",
+      "nom_search": "riviere adam entre sa confluence avec la riviere laval et le cote en aval de la route 385",
+      "segment_label": null,
+      "river_base_name": "Rivière Adam",
+      "aliases": [
+        "adam",
+        "adam entre sa confluence avec la riviere laval et le cote en aval de la route 385",
+        "riviere adam",
+        "riviere adam entre sa confluence avec la riviere laval et le cote en aval de la route 385"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3350,
+      "zone_id": 19,
+      "nom_brut": "Rivière Amédée Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°11'13,056\" N., 68°14'17,569\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Amédée Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°11'13,056\" N., 68°14'17,569\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere amedee entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 11 13 056 n 68 14 17 569 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Amédée",
+      "aliases": [
+        "amedee",
+        "amedee entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 11 13 056 n 68 14 17 569 o ainsi que tous ses tributaires",
+        "riviere amedee",
+        "riviere amedee entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 11 13 056 n 68 14 17 569 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.18696,
+      "lon": -68.238214
+    },
+    {
+      "id": 2472,
+      "zone_id": 19,
+      "nom_brut": "Rivière au Loup Marin - La partie comprise entre la chute infranchissable du 13 km ( 49°23'32\" N., 68°43'45\" O. ) et la passe migratoire en aval ( 49°26'49\" N., 68°40'36\" O. )",
+      "nom": "Rivière au Loup Marin - La partie comprise entre la chute infranchissable du 13 km",
+      "nom_search": "riviere au loup marin la partie comprise entre la chute infranchissable du 13 km 49 23 32 n 68 43 45 o ) et la passe migratoire en aval 49 26 49 n 68 40 36 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière au Loup Marin",
+      "aliases": [
+        "au loup marin",
+        "au loup marin la partie comprise entre la chute infranchissable du 13 km 49 23 32 n 68 43 45 o ) et la passe migratoire en aval 49 26 49 n 68 40 36 o )",
+        "riviere au loup marin",
+        "riviere au loup marin la partie comprise entre la chute infranchissable du 13 km 49 23 32 n 68 43 45 o ) et la passe migratoire en aval 49 26 49 n 68 40 36 o )"
+      ],
+      "lat": 49.392222,
+      "lon": -68.729167
+    },
+    {
+      "id": 1049,
+      "zone_id": 19,
+      "nom_brut": "Rivière aux Anglais entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°15'23\" N., 68°07'56\" O. et le côté en aval du pont de la route 138.",
+      "nom": "Rivière aux Anglais entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°15'23\" N., 68°07'56\" O. et le côté en aval du pont de la route 138.",
+      "nom_search": "riviere aux anglais entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 15 23 n 68 07 56 o et le cote en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Anglais",
+      "aliases": [
+        "aux anglais",
+        "aux anglais entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 15 23 n 68 07 56 o et le cote en aval du pont de la route 138",
+        "riviere aux anglais",
+        "riviere aux anglais entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 15 23 n 68 07 56 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 49.256389,
+      "lon": -68.132222
+    },
+    {
+      "id": 3342,
+      "zone_id": 19,
+      "nom_brut": "Rivière aux Outardes - La partie comprise entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°08'7,9\" N., 68°23'9,8\" O. et le côté aval du barrage Outardes-2, ainsi que tous ses tributaires. (voir également zone 21)",
+      "nom": "Rivière aux Outardes - La partie comprise entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°08'7,9\" N., 68°23'9,8\" O. et le côté aval du barrage Outardes-2, ainsi que tous ses tributaires.",
+      "nom_search": "riviere aux outardes la partie comprise entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 08 7 9 n 68 23 9 8 o et le cote aval du barrage outardes 2 ainsi que tous ses tributaires voir egalement zone 21)",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Outardes",
+      "aliases": [
+        "aux outardes",
+        "aux outardes la partie comprise entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 08 7 9 n 68 23 9 8 o et le cote aval du barrage outardes 2 ainsi que tous ses tributaires voir egalement zone 21)",
+        "riviere aux outardes",
+        "riviere aux outardes la partie comprise entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 08 7 9 n 68 23 9 8 o et le cote aval du barrage outardes 2 ainsi que tous ses tributaires voir egalement zone 21)"
+      ],
+      "lat": 49.135528,
+      "lon": -68.386056
+    },
+    {
+      "id": 3338,
+      "zone_id": 19,
+      "nom_brut": "Rivière aux Rosiers Entre sa source et le côté aval du pont de la route 138 ( 49°03'39,013\" N., 68°35'03,189\" O. ), ainsi que tous ses tributaires.",
+      "nom": "Rivière aux Rosiers Entre sa source et le côté aval du pont de la route 138",
+      "nom_search": "riviere aux rosiers entre sa source et le cote aval du pont de la route 138 49 03 39 013 n 68 35 03 189 o ) ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Rosiers",
+      "aliases": [
+        "aux rosiers",
+        "aux rosiers entre sa source et le cote aval du pont de la route 138 49 03 39 013 n 68 35 03 189 o ) ainsi que tous ses tributaires",
+        "riviere aux rosiers",
+        "riviere aux rosiers entre sa source et le cote aval du pont de la route 138 49 03 39 013 n 68 35 03 189 o ) ainsi que tous ses tributaires"
+      ],
+      "lat": 49.060837,
+      "lon": -68.584219
+    },
+    {
+      "id": 3378,
+      "zone_id": 19,
+      "nom_brut": "Rivière Baie des sables Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°53'35\" N., 66°59'50\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Baie des sables Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°53'35\" N., 66°59'50\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere baie des sables entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 53 35 n 66 59 50 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Baie des sables",
+      "aliases": [
+        "baie des sables",
+        "baie des sables entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 53 35 n 66 59 50 o ainsi que tous ses tributaires",
+        "riviere baie des sables",
+        "riviere baie des sables entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 53 35 n 66 59 50 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.893056,
+      "lon": -66.997222
+    },
+    {
+      "id": 3324,
+      "zone_id": 19,
+      "nom_brut": "Rivière Barthélemy Entre sa source et une droite perpendiculaire au courant joignant les deux rives à 15 mètres en amont du pont de la route 138, ainsi que tous ses tributaires.",
+      "nom": "Rivière Barthélemy Entre sa source et une droite perpendiculaire au courant joignant les deux rives à 15 mètres en amont du pont de la route 138, ainsi que tous ses tributaires.",
+      "nom_search": "riviere barthelemy entre sa source et une droite perpendiculaire au courant joignant les deux rives a 15 metres en amont du pont de la route 138 ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Barthélemy",
+      "aliases": [
+        "barthelemy",
+        "barthelemy entre sa source et une droite perpendiculaire au courant joignant les deux rives a 15 metres en amont du pont de la route 138 ainsi que tous ses tributaires",
+        "riviere barthelemy",
+        "riviere barthelemy entre sa source et une droite perpendiculaire au courant joignant les deux rives a 15 metres en amont du pont de la route 138 ainsi que tous ses tributaires"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1050,
+      "zone_id": 19,
+      "nom_brut": "Rivière Betsiamites entre une droite joignant la pointe nord du banc des Canadiens à la pointe de Betsiamites et le barrage hydroélectrique Bersimis II.",
+      "nom": "Rivière Betsiamites entre une droite joignant la pointe nord du banc des Canadiens à la pointe de Betsiamites et le barrage hydroélectrique Bersimis II.",
+      "nom_search": "riviere betsiamites entre une droite joignant la pointe nord du banc des canadiens a la pointe de betsiamites et le barrage hydroelectrique bersimis ii",
+      "segment_label": null,
+      "river_base_name": "Rivière Betsiamites",
+      "aliases": [
+        "betsiamites",
+        "betsiamites entre une droite joignant la pointe nord du banc des canadiens a la pointe de betsiamites et le barrage hydroelectrique bersimis ii",
+        "riviere betsiamites",
+        "riviere betsiamites entre une droite joignant la pointe nord du banc des canadiens a la pointe de betsiamites et le barrage hydroelectrique bersimis ii"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3318,
+      "zone_id": 19,
+      "nom_brut": "Rivière Blanche Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 48°49'25\" N., 68°57'17\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Blanche Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 48°49'25\" N., 68°57'17\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere blanche entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 48 49 25 n 68 57 17 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Blanche",
+      "aliases": [
+        "blanche",
+        "blanche entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 48 49 25 n 68 57 17 o ainsi que tous ses tributaires",
+        "riviere blanche",
+        "riviere blanche entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 48 49 25 n 68 57 17 o ainsi que tous ses tributaires"
+      ],
+      "lat": 48.823611,
+      "lon": -68.954722
+    },
+    {
+      "id": 12261,
+      "zone_id": 19,
+      "nom_brut": "Rivière Boucher - La partie comprise entre le lac du Décès ( 49°37'42'' N, 69°18'00'' O. ) et sa confluence avec la rivière Betsiamites ( 49°09'32'' N., 69°06'10'' O. )",
+      "nom": "Rivière Boucher - La partie comprise entre le lac du Décès",
+      "nom_search": "riviere boucher la partie comprise entre le lac du deces 49 37 42 n 69 18 00 o ) et sa confluence avec la riviere betsiamites 49 09 32 n 69 06 10 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Boucher",
+      "aliases": [
+        "boucher",
+        "boucher la partie comprise entre le lac du deces 49 37 42 n 69 18 00 o ) et sa confluence avec la riviere betsiamites 49 09 32 n 69 06 10 o )",
+        "riviere boucher",
+        "riviere boucher la partie comprise entre le lac du deces 49 37 42 n 69 18 00 o ) et sa confluence avec la riviere betsiamites 49 09 32 n 69 06 10 o )"
+      ],
+      "lat": 49.628333,
+      "lon": -69.3
+    },
+    {
+      "id": 2470,
+      "zone_id": 19,
+      "nom_brut": "Rivière Caouishtagamac, en aval du lac Kamiluapistes.",
+      "nom": "Rivière Caouishtagamac, en aval du lac Kamiluapistes.",
+      "nom_search": "riviere caouishtagamac en aval du lac kamiluapistes",
+      "segment_label": null,
+      "river_base_name": "Rivière Caouishtagamac, en aval du lac Kamiluapistes.",
+      "aliases": [
+        "caouishtagamac en aval du lac kamiluapistes",
+        "riviere caouishtagamac en aval du lac kamiluapistes"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3024,
+      "zone_id": 19,
+      "nom_brut": "Rivière Chatignies entre sa confluence avec la rivière des Escoumins et sa confluence avec la rivière Boulanger ( 48°29'13' N., 69°50'40' O. ).",
+      "nom": "Rivière Chatignies entre sa confluence avec la rivière des Escoumins et sa confluence avec la rivière Boulanger",
+      "nom_search": "riviere chatignies entre sa confluence avec la riviere des escoumins et sa confluence avec la riviere boulanger 48 29 13 n 69 50 40 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Chatignies",
+      "aliases": [
+        "chatignies",
+        "chatignies entre sa confluence avec la riviere des escoumins et sa confluence avec la riviere boulanger 48 29 13 n 69 50 40 o )",
+        "riviere chatignies",
+        "riviere chatignies entre sa confluence avec la riviere des escoumins et sa confluence avec la riviere boulanger 48 29 13 n 69 50 40 o )"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3320,
+      "zone_id": 19,
+      "nom_brut": "Rivière Colombier Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 48°49'37\" N., 68°54'02\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Colombier Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 48°49'37\" N., 68°54'02\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere colombier entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 48 49 37 n 68 54 02 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Colombier",
+      "aliases": [
+        "colombier",
+        "colombier entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 48 49 37 n 68 54 02 o ainsi que tous ses tributaires",
+        "riviere colombier",
+        "riviere colombier entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 48 49 37 n 68 54 02 o ainsi que tous ses tributaires"
+      ],
+      "lat": 48.826944,
+      "lon": -68.900556
+    },
+    {
+      "id": 3322,
+      "zone_id": 19,
+      "nom_brut": "Rivière de Papinachois Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°00'4,5\" N., 68°38'12,1\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière de Papinachois Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°00'4,5\" N., 68°38'12,1\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere de papinachois entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 00 4 5 n 68 38 12 1 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière de Papinachois",
+      "aliases": [
+        "de papinachois",
+        "de papinachois entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 00 4 5 n 68 38 12 1 o ainsi que tous ses tributaires",
+        "riviere de papinachois",
+        "riviere de papinachois entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 00 4 5 n 68 38 12 1 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.00125,
+      "lon": -68.636694
+    },
+    {
+      "id": 1060,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins a)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant la pointe de la Croix à la pointe de l'enrochement sur laquelle est construit le quai des Escoumins et le rapide situé à 350 mètres en amont du pont de la route 138 ( 48°20'41\" N., 69°24'29\" O. ).",
+      "nom": "Rivière des Escoumins a)",
+      "nom_search": "riviere des escoumins a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe de la croix a la pointe de l enrochement sur laquelle est construit le quai des escoumins et le rapide situe a 350 metres en amont du pont de la route 138 48 20 41 n 69 24 29 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière des Escoumins",
+      "aliases": [
+        "des escoumins",
+        "des escoumins a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe de la croix a la pointe de l enrochement sur laquelle est construit le quai des escoumins et le rapide situe a 350 metres en amont du pont de la route 138 48 20 41 n 69 24 29 o )",
+        "riviere des escoumins",
+        "riviere des escoumins a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe de la croix a la pointe de l enrochement sur laquelle est construit le quai des escoumins et le rapide situe a 350 metres en amont du pont de la route 138 48 20 41 n 69 24 29 o )"
+      ],
+      "lat": 48.344722,
+      "lon": -69.408056
+    },
+    {
+      "id": 1061,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins b)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le rapide situé à 350 mètres en amont du pont de la route 138 ( 48°20'41\" N., 69°24'29\" O. ) situé sur le lot 11 A du rang I des Escoumins et un point situé à 20 m en aval du Petit Sault ( 48°20'45\" N., 69°26'49\" O. ).",
+      "nom": "Rivière des Escoumins b)",
+      "nom_search": "riviere des escoumins b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le rapide situe a 350 metres en amont du pont de la route 138 48 20 41 n 69 24 29 o ) situe sur le lot 11 a du rang i des escoumins et un point situe a 20 m en aval du petit sault 48 20 45 n 69 26 49 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière des Escoumins",
+      "aliases": [
+        "des escoumins",
+        "des escoumins b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le rapide situe a 350 metres en amont du pont de la route 138 48 20 41 n 69 24 29 o ) situe sur le lot 11 a du rang i des escoumins et un point situe a 20 m en aval du petit sault 48 20 45 n 69 26 49 o )",
+        "riviere des escoumins",
+        "riviere des escoumins b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le rapide situe a 350 metres en amont du pont de la route 138 48 20 41 n 69 24 29 o ) situe sur le lot 11 a du rang i des escoumins et un point situe a 20 m en aval du petit sault 48 20 45 n 69 26 49 o )"
+      ],
+      "lat": 48.344722,
+      "lon": -69.408056
+    },
+    {
+      "id": 1501,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins c)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 20 m en aval du Petit Sault ( 48°20'45\" N., 69°26'49\" O. ) et un point situé à 20 m en amont dudit Petit Sault.",
+      "nom": "Rivière des Escoumins c)",
+      "nom_search": "riviere des escoumins c) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval du petit sault 48 20 45 n 69 26 49 o ) et un point situe a 20 m en amont dudit petit sault",
+      "segment_label": "c)",
+      "river_base_name": "Rivière des Escoumins",
+      "aliases": [
+        "des escoumins",
+        "des escoumins c) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval du petit sault 48 20 45 n 69 26 49 o ) et un point situe a 20 m en amont dudit petit sault",
+        "riviere des escoumins",
+        "riviere des escoumins c) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval du petit sault 48 20 45 n 69 26 49 o ) et un point situe a 20 m en amont dudit petit sault"
+      ],
+      "lat": 48.345833,
+      "lon": -69.446944
+    },
+    {
+      "id": 1503,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins d)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 20 m en amont du Petit Sault ( 48°20'45\" N., 69°26'49\" O. ) et un point situé à 20 m en aval du Grand Sault ( 48°22'17\" N., 69°28'26\" O. ).",
+      "nom": "Rivière des Escoumins d)",
+      "nom_search": "riviere des escoumins d) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont du petit sault 48 20 45 n 69 26 49 o ) et un point situe a 20 m en aval du grand sault 48 22 17 n 69 28 26 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière des Escoumins",
+      "aliases": [
+        "des escoumins",
+        "des escoumins d) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont du petit sault 48 20 45 n 69 26 49 o ) et un point situe a 20 m en aval du grand sault 48 22 17 n 69 28 26 o )",
+        "riviere des escoumins",
+        "riviere des escoumins d) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont du petit sault 48 20 45 n 69 26 49 o ) et un point situe a 20 m en aval du grand sault 48 22 17 n 69 28 26 o )"
+      ],
+      "lat": 48.345833,
+      "lon": -69.446944
+    },
+    {
+      "id": 2479,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins e)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 20 m en aval du Grand Sault ( 48°22'17\" N., 69°28'26\" O. ) et un point situé à 20 m en amont dudit Grand Sault.",
+      "nom": "Rivière des Escoumins e)",
+      "nom_search": "riviere des escoumins e) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval du grand sault 48 22 17 n 69 28 26 o ) et un point situe a 20 m en amont dudit grand sault",
+      "segment_label": "e)",
+      "river_base_name": "Rivière des Escoumins",
+      "aliases": [
+        "des escoumins",
+        "des escoumins e) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval du grand sault 48 22 17 n 69 28 26 o ) et un point situe a 20 m en amont dudit grand sault",
+        "riviere des escoumins",
+        "riviere des escoumins e) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval du grand sault 48 22 17 n 69 28 26 o ) et un point situe a 20 m en amont dudit grand sault"
+      ],
+      "lat": 48.371389,
+      "lon": -69.473889
+    },
+    {
+      "id": 1506,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins f)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 20 m en amont du Grand Sault ( 48°22'17\" N., 69°28'26\" O. ) et un point situé à 20 m en aval de la chute à Pinel ( 48°28'08\" N., 69°43'02\" O. ).",
+      "nom": "Rivière des Escoumins f)",
+      "nom_search": "riviere des escoumins f) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont du grand sault 48 22 17 n 69 28 26 o ) et un point situe a 20 m en aval de la chute a pinel 48 28 08 n 69 43 02 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière des Escoumins f)",
+      "aliases": [
+        "des escoumins f)",
+        "des escoumins f) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont du grand sault 48 22 17 n 69 28 26 o ) et un point situe a 20 m en aval de la chute a pinel 48 28 08 n 69 43 02 o )",
+        "riviere des escoumins f)",
+        "riviere des escoumins f) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont du grand sault 48 22 17 n 69 28 26 o ) et un point situe a 20 m en aval de la chute a pinel 48 28 08 n 69 43 02 o )"
+      ],
+      "lat": 48.371389,
+      "lon": -69.473889
+    },
+    {
+      "id": 2304,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins g)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 20 m en aval de la chute à Pinel ( 48°28'08\" N., 69°43'02\" O. ) et un point situé à 20 m en amont de ladite chute.",
+      "nom": "Rivière des Escoumins g)",
+      "nom_search": "riviere des escoumins g) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval de la chute a pinel 48 28 08 n 69 43 02 o ) et un point situe a 20 m en amont de ladite chute",
+      "segment_label": null,
+      "river_base_name": "Rivière des Escoumins g)",
+      "aliases": [
+        "des escoumins g)",
+        "des escoumins g) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval de la chute a pinel 48 28 08 n 69 43 02 o ) et un point situe a 20 m en amont de ladite chute",
+        "riviere des escoumins g)",
+        "riviere des escoumins g) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en aval de la chute a pinel 48 28 08 n 69 43 02 o ) et un point situe a 20 m en amont de ladite chute"
+      ],
+      "lat": 48.468889,
+      "lon": -69.717222
+    },
+    {
+      "id": 1510,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Escoumins h)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 20 m en amont de la chute à Pinel ( 48°28'08\" N., 69°43'02\" O. ) et le barrage situé à l'émissaire du lac Gorgotton ( 48°38'22\" N., 69°56'23\" O. ).",
+      "nom": "Rivière des Escoumins h)",
+      "nom_search": "riviere des escoumins h) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont de la chute a pinel 48 28 08 n 69 43 02 o ) et le barrage situe a l emissaire du lac gorgotton 48 38 22 n 69 56 23 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière des Escoumins h)",
+      "aliases": [
+        "des escoumins h)",
+        "des escoumins h) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont de la chute a pinel 48 28 08 n 69 43 02 o ) et le barrage situe a l emissaire du lac gorgotton 48 38 22 n 69 56 23 o )",
+        "riviere des escoumins h)",
+        "riviere des escoumins h) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 20 m en amont de la chute a pinel 48 28 08 n 69 43 02 o ) et le barrage situe a l emissaire du lac gorgotton 48 38 22 n 69 56 23 o )"
+      ],
+      "lat": 48.468889,
+      "lon": -69.717222
+    },
+    {
+      "id": 2625,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Pins entre sa confluence avec la rivière Laval et le lac aux Pins.",
+      "nom": "Rivière des Pins entre sa confluence avec la rivière Laval et le lac aux Pins.",
+      "nom_search": "riviere des pins entre sa confluence avec la riviere laval et le lac aux pins",
+      "segment_label": null,
+      "river_base_name": "Rivière des Pins",
+      "aliases": [
+        "des pins",
+        "des pins entre sa confluence avec la riviere laval et le lac aux pins",
+        "riviere des pins",
+        "riviere des pins entre sa confluence avec la riviere laval et le lac aux pins"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3026,
+      "zone_id": 19,
+      "nom_brut": "Rivière des Savanes entre sa confluence avec la rivière des Escoumins et un point ( 48°34'53' N., 69°55'00' O. ) situé à 4,5 km en amont.",
+      "nom": "Rivière des Savanes entre sa confluence avec la rivière des Escoumins et un point",
+      "nom_search": "riviere des savanes entre sa confluence avec la riviere des escoumins et un point 48 34 53 n 69 55 00 o ) situe a 4 5 km en amont",
+      "segment_label": null,
+      "river_base_name": "Rivière des Savanes",
+      "aliases": [
+        "des savanes",
+        "des savanes entre sa confluence avec la riviere des escoumins et un point 48 34 53 n 69 55 00 o ) situe a 4 5 km en amont",
+        "riviere des savanes",
+        "riviere des savanes entre sa confluence avec la riviere des escoumins et un point 48 34 53 n 69 55 00 o ) situe a 4 5 km en amont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1058,
+      "zone_id": 19,
+      "nom_brut": "Rivière du Calumet entre le côté en aval du pont de la route 138 et la chute située à 49°37'28\" N., 67°15'16\" O. ainsi que les tributaires fréquentés par le saumon.",
+      "nom": "Rivière du Calumet entre le côté en aval du pont de la route 138 et la chute située à 49°37'28\" N., 67°15'16\" O. ainsi que les tributaires fréquentés par le saumon.",
+      "nom_search": "riviere du calumet entre le cote en aval du pont de la route 138 et la chute situee a 49 37 28 n 67 15 16 o ainsi que les tributaires frequentes par le saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière du Calumet",
+      "aliases": [
+        "du calumet",
+        "du calumet entre le cote en aval du pont de la route 138 et la chute situee a 49 37 28 n 67 15 16 o ainsi que les tributaires frequentes par le saumon",
+        "riviere du calumet",
+        "riviere du calumet entre le cote en aval du pont de la route 138 et la chute situee a 49 37 28 n 67 15 16 o ainsi que les tributaires frequentes par le saumon"
+      ],
+      "lat": 49.624444,
+      "lon": -67.254444
+    },
+    {
+      "id": 1053,
+      "zone_id": 19,
+      "nom_brut": "Rivière du Calumet entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°35'38\" N., 67°14'08\" O. et le côté en aval du pont de la route 138.",
+      "nom": "Rivière du Calumet entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°35'38\" N., 67°14'08\" O. et le côté en aval du pont de la route 138.",
+      "nom_search": "riviere du calumet entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 35 38 n 67 14 08 o et le cote en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière du Calumet",
+      "aliases": [
+        "du calumet",
+        "du calumet entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 35 38 n 67 14 08 o et le cote en aval du pont de la route 138",
+        "riviere du calumet",
+        "riviere du calumet entre une droite perpendiculaire au courant joignant les deux rives a partir du point 49 35 38 n 67 14 08 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 49.593889,
+      "lon": -67.235556
+    },
+    {
+      "id": 2416,
+      "zone_id": 19,
+      "nom_brut": "Rivière du Pont entre son embouchure et la limite de montaison du saumon située au point 49°47'08\"N, 67°11'33\"O.",
+      "nom": "Rivière du Pont entre son embouchure et la limite de montaison du saumon située au point 49°47'08\"N, 67°11'33\"O.",
+      "nom_search": "riviere du pont entre son embouchure et la limite de montaison du saumon situee au point 49 47 08 n 67 11 33 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Pont",
+      "aliases": [
+        "du pont",
+        "du pont entre son embouchure et la limite de montaison du saumon situee au point 49 47 08 n 67 11 33 o",
+        "riviere du pont",
+        "riviere du pont entre son embouchure et la limite de montaison du saumon situee au point 49 47 08 n 67 11 33 o"
+      ],
+      "lat": 49.785556,
+      "lon": -67.1925
+    },
+    {
+      "id": 1519,
+      "zone_id": 19,
+      "nom_brut": "Rivière Franquelin (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la ligne d'énergie électrique et une droite perpendiculaire au courant située à 20 m en aval des chutes Thompson.",
+      "nom": "Rivière Franquelin",
+      "nom_search": "riviere franquelin ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne d energie electrique et une droite perpendiculaire au courant situee a 20 m en aval des chutes thompson",
+      "segment_label": null,
+      "river_base_name": "Rivière Franquelin",
+      "aliases": [
+        "franquelin",
+        "franquelin ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne d energie electrique et une droite perpendiculaire au courant situee a 20 m en aval des chutes thompson",
+        "riviere franquelin",
+        "riviere franquelin ainsi que les tributaires de ce secteur frequente par le saumon) entre la ligne d energie electrique et une droite perpendiculaire au courant situee a 20 m en aval des chutes thompson"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3376,
+      "zone_id": 19,
+      "nom_brut": "Rivière Grande rivière Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°50'52\" N., 67°5'27\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Grande rivière Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°50'52\" N., 67°5'27\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere grande riviere entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 50 52 n 67 5 27 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Grande rivière",
+      "aliases": [
+        "grande riviere",
+        "grande riviere entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 50 52 n 67 5 27 o ainsi que tous ses tributaires",
+        "riviere grande riviere",
+        "riviere grande riviere entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 50 52 n 67 5 27 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.847778,
+      "lon": -67.090833
+    },
+    {
+      "id": 3380,
+      "zone_id": 19,
+      "nom_brut": "Rivière île de Mai Entre sa source et une droite joignant le point 49°55'36\" N., 66°58'50\" O. au point 49°55'36\" N., 66°58'48\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière île de Mai Entre sa source et une droite joignant le point 49°55'36\" N., 66°58'50\" O. au point 49°55'36\" N., 66°58'48\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere ile de mai entre sa source et une droite joignant le point 49 55 36 n 66 58 50 o au point 49 55 36 n 66 58 48 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière île de Mai",
+      "aliases": [
+        "ile de mai",
+        "ile de mai entre sa source et une droite joignant le point 49 55 36 n 66 58 50 o au point 49 55 36 n 66 58 48 o ainsi que tous ses tributaires",
+        "riviere ile de mai",
+        "riviere ile de mai entre sa source et une droite joignant le point 49 55 36 n 66 58 50 o au point 49 55 36 n 66 58 48 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.926667,
+      "lon": -66.980556
+    },
+    {
+      "id": 1568,
+      "zone_id": 19,
+      "nom_brut": "Rivière Laval a)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant la pointe Laval à la pointe Orient et une droite joignant la pointe sud du bloc E en rive ouest ( 48°46'21\" N., 69°03'07\" O. ) à la pointe sud-ouest du bloc E en rive est ( 48°46'21\" N., 69°03'03\" O. ).",
+      "nom": "Rivière Laval a)",
+      "nom_search": "riviere laval a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe laval a la pointe orient et une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Laval",
+      "aliases": [
+        "laval",
+        "laval a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe laval a la pointe orient et une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o )",
+        "riviere laval",
+        "riviere laval a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe laval a la pointe orient et une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o )"
+      ],
+      "lat": 48.7725,
+      "lon": -69.051944
+    },
+    {
+      "id": 1569,
+      "zone_id": 19,
+      "nom_brut": "Rivière Laval b)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant la pointe sud du bloc E en rive ouest ( 48°46'21\" N., 69°03'07\" O. ) à la pointe sud-ouest du bloc E en rive est ( 48°46'21\" N., 69°03'03\" O. ) et une droite perpendiculaire au courant située à 500 m en amont.",
+      "nom": "Rivière Laval b)",
+      "nom_search": "riviere laval b) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o ) et une droite perpendiculaire au courant situee a 500 m en amont",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Laval",
+      "aliases": [
+        "laval",
+        "laval b) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o ) et une droite perpendiculaire au courant situee a 500 m en amont",
+        "riviere laval",
+        "riviere laval b) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o ) et une droite perpendiculaire au courant situee a 500 m en amont"
+      ],
+      "lat": 48.7725,
+      "lon": -69.051944
+    },
+    {
+      "id": 1570,
+      "zone_id": 19,
+      "nom_brut": "Rivière Laval c)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant située à 500 m en amont d'une droite joignant la pointe sud du bloc E en rive ouest ( 48°46'21\" N., 69°03'07\" O. ) à la pointe sud-ouest du bloc E en rive est ( 48°46'21\" N., 69°03'03\" O. ) et une droite reliant les points 48°50'08\" N., 69°03'56\" O. en rive ouest et 48°50'02\" N., 69°04'05\" O. en rive est.",
+      "nom": "Rivière Laval c)",
+      "nom_search": "riviere laval c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 500 m en amont d une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o ) et une droite reliant les points 48 50 08 n 69 03 56 o en rive ouest et 48 50 02 n 69 04 05 o en rive est",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Laval",
+      "aliases": [
+        "laval",
+        "laval c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 500 m en amont d une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o ) et une droite reliant les points 48 50 08 n 69 03 56 o en rive ouest et 48 50 02 n 69 04 05 o en rive est",
+        "riviere laval",
+        "riviere laval c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 500 m en amont d une droite joignant la pointe sud du bloc e en rive ouest 48 46 21 n 69 03 07 o ) a la pointe sud ouest du bloc e en rive est 48 46 21 n 69 03 03 o ) et une droite reliant les points 48 50 08 n 69 03 56 o en rive ouest et 48 50 02 n 69 04 05 o en rive est"
+      ],
+      "lat": 48.7725,
+      "lon": -69.051944
+    },
+    {
+      "id": 1573,
+      "zone_id": 19,
+      "nom_brut": "Rivière Laval d)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite reliant les points 48°50'08\" N., 69°03'56\" O. en rive ouest et 48°50'02\" N., 69°04'05\" O. en rive est et une droite perpendiculaire au courant située à 300 m en aval de la chute du 26e kilomètre.",
+      "nom": "Rivière Laval d)",
+      "nom_search": "riviere laval d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite reliant les points 48 50 08 n 69 03 56 o en rive ouest et 48 50 02 n 69 04 05 o en rive est et une droite perpendiculaire au courant situee a 300 m en aval de la chute du 26e kilometre",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Laval",
+      "aliases": [
+        "laval",
+        "laval d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite reliant les points 48 50 08 n 69 03 56 o en rive ouest et 48 50 02 n 69 04 05 o en rive est et une droite perpendiculaire au courant situee a 300 m en aval de la chute du 26e kilometre",
+        "riviere laval",
+        "riviere laval d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite reliant les points 48 50 08 n 69 03 56 o en rive ouest et 48 50 02 n 69 04 05 o en rive est et une droite perpendiculaire au courant situee a 300 m en aval de la chute du 26e kilometre"
+      ],
+      "lat": 48.835556,
+      "lon": -69.065556
+    },
+    {
+      "id": 1567,
+      "zone_id": 19,
+      "nom_brut": "Rivière Laval e)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant située à 300 m en aval de la chute du 26e kilomètre et une droite perpendiculaire au courant située à 100 m en amont de cette chute.",
+      "nom": "Rivière Laval e)",
+      "nom_search": "riviere laval e) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en aval de la chute du 26e kilometre et une droite perpendiculaire au courant situee a 100 m en amont de cette chute",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Laval",
+      "aliases": [
+        "laval",
+        "laval e) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en aval de la chute du 26e kilometre et une droite perpendiculaire au courant situee a 100 m en amont de cette chute",
+        "riviere laval",
+        "riviere laval e) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en aval de la chute du 26e kilometre et une droite perpendiculaire au courant situee a 100 m en amont de cette chute"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2473,
+      "zone_id": 19,
+      "nom_brut": "Rivière Letemplier, en aval du Petit lac Letemplier.",
+      "nom": "Rivière Letemplier, en aval du Petit lac Letemplier.",
+      "nom_search": "riviere letemplier en aval du petit lac letemplier",
+      "segment_label": null,
+      "river_base_name": "Rivière Letemplier, en aval du Petit lac Letemplier.",
+      "aliases": [
+        "letemplier en aval du petit lac letemplier",
+        "riviere letemplier en aval du petit lac letemplier"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3027,
+      "zone_id": 19,
+      "nom_brut": "Rivière Maclure entre sa confluence avec la rivière des Escoumins et le lac Maclure.",
+      "nom": "Rivière Maclure entre sa confluence avec la rivière des Escoumins et le lac Maclure.",
+      "nom_search": "riviere maclure entre sa confluence avec la riviere des escoumins et le lac maclure",
+      "segment_label": null,
+      "river_base_name": "Rivière Maclure",
+      "aliases": [
+        "maclure",
+        "maclure entre sa confluence avec la riviere des escoumins et le lac maclure",
+        "riviere maclure",
+        "riviere maclure entre sa confluence avec la riviere des escoumins et le lac maclure"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3347,
+      "zone_id": 19,
+      "nom_brut": "Rivière Manicouagan Entre le côté aval des ponts de la route 138 et l'aval des barrages Manic-1 et McCormick.",
+      "nom": "Rivière Manicouagan Entre le côté aval des ponts de la route 138 et l'aval des barrages Manic-1 et McCormick.",
+      "nom_search": "riviere manicouagan entre le cote aval des ponts de la route 138 et l aval des barrages manic 1 et mccormick",
+      "segment_label": null,
+      "river_base_name": "Rivière Manicouagan",
+      "aliases": [
+        "manicouagan",
+        "manicouagan entre le cote aval des ponts de la route 138 et l aval des barrages manic 1 et mccormick",
+        "riviere manicouagan",
+        "riviere manicouagan entre le cote aval des ponts de la route 138 et l aval des barrages manic 1 et mccormick"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1580,
+      "zone_id": 19,
+      "nom_brut": "Rivière Mistassini (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le rocher Mistassini à la pointe Mistassini et une droite perpendiculaire au courant située à 300 m en aval du pont de la route 138.",
+      "nom": "Rivière Mistassini",
+      "nom_search": "riviere mistassini ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le rocher mistassini a la pointe mistassini et une droite perpendiculaire au courant situee a 300 m en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière Mistassini",
+      "aliases": [
+        "mistassini",
+        "mistassini ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le rocher mistassini a la pointe mistassini et une droite perpendiculaire au courant situee a 300 m en aval du pont de la route 138",
+        "riviere mistassini",
+        "riviere mistassini ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le rocher mistassini a la pointe mistassini et une droite perpendiculaire au courant situee a 300 m en aval du pont de la route 138"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2307,
+      "zone_id": 19,
+      "nom_brut": "Rivière Mistassini (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant située à 300 m en aval du pont de la route 138 et la partie sud-est du lac Bourdon ( 49°23'10\" N., 68°02'49\" O. ).",
+      "nom": "Rivière Mistassini",
+      "nom_search": "riviere mistassini ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en aval du pont de la route 138 et la partie sud est du lac bourdon 49 23 10 n 68 02 49 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Mistassini",
+      "aliases": [
+        "mistassini",
+        "mistassini ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en aval du pont de la route 138 et la partie sud est du lac bourdon 49 23 10 n 68 02 49 o )",
+        "riviere mistassini",
+        "riviere mistassini ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en aval du pont de la route 138 et la partie sud est du lac bourdon 49 23 10 n 68 02 49 o )"
+      ],
+      "lat": 49.386111,
+      "lon": -68.046944
+    },
+    {
+      "id": 1585,
+      "zone_id": 19,
+      "nom_brut": "Rivière Pentecôte (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et la première chute ( 49°47'26\" N., 67°15'48\" O. ).",
+      "nom": "Rivière Pentecôte",
+      "nom_search": "riviere pentecote ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la premiere chute 49 47 26 n 67 15 48 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Pentecôte",
+      "aliases": [
+        "pentecote",
+        "pentecote ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la premiere chute 49 47 26 n 67 15 48 o )",
+        "riviere pentecote",
+        "riviere pentecote ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la premiere chute 49 47 26 n 67 15 48 o )"
+      ],
+      "lat": 49.790556,
+      "lon": -67.263333
+    },
+    {
+      "id": 1584,
+      "zone_id": 19,
+      "nom_brut": "Rivière Pentecôte (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant les pointes est ( 49°46'42\" N., 67°09'37\" O. ) et ouest ( 49°46'43\" N., 67°09'48\" O. ) de l'embouchure et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Pentecôte",
+      "nom_search": "riviere pentecote ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les pointes est 49 46 42 n 67 09 37 o ) et ouest 49 46 43 n 67 09 48 o ) de l embouchure et le cote en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière Pentecôte",
+      "aliases": [
+        "pentecote",
+        "pentecote ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les pointes est 49 46 42 n 67 09 37 o ) et ouest 49 46 43 n 67 09 48 o ) de l embouchure et le cote en aval du pont de la route 138",
+        "riviere pentecote",
+        "riviere pentecote ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les pointes est 49 46 42 n 67 09 37 o ) et ouest 49 46 43 n 67 09 48 o ) de l embouchure et le cote en aval du pont de la route 138"
+      ],
+      "lat": 49.778333,
+      "lon": -67.160278
+    },
+    {
+      "id": 3368,
+      "zone_id": 19,
+      "nom_brut": "Rivière Petit Mai Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°26'49\" N., 67°15'43\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Petit Mai Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°26'49\" N., 67°15'43\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere petit mai entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 26 49 n 67 15 43 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Petit Mai",
+      "aliases": [
+        "petit mai",
+        "petit mai entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 26 49 n 67 15 43 o ainsi que tous ses tributaires",
+        "riviere petit mai",
+        "riviere petit mai entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 26 49 n 67 15 43 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.446944,
+      "lon": -67.261944
+    },
+    {
+      "id": 1587,
+      "zone_id": 19,
+      "nom_brut": "Rivière Petite rivière de la Trinité (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant les deux rives située à 50 m en aval du pont de la route 138 et une droite perpendiculaire au courant joignant les deux rives à 10 m en amont de la chute située à 100 m en aval du ruisseau Genest.",
+      "nom": "Rivière Petite rivière de la Trinité",
+      "nom_search": "riviere petite riviere de la trinite ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les deux rives situee a 50 m en aval du pont de la route 138 et une droite perpendiculaire au courant joignant les deux rives a 10 m en amont de la chute situee a 100 m en aval du ruisseau genest",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière de la Trinité",
+      "aliases": [
+        "petite riviere de la trinite",
+        "petite riviere de la trinite ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les deux rives situee a 50 m en aval du pont de la route 138 et une droite perpendiculaire au courant joignant les deux rives a 10 m en amont de la chute situee a 100 m en aval du ruisseau genest",
+        "riviere petite riviere de la trinite",
+        "riviere petite riviere de la trinite ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les deux rives situee a 50 m en aval du pont de la route 138 et une droite perpendiculaire au courant joignant les deux rives a 10 m en amont de la chute situee a 100 m en aval du ruisseau genest"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3132,
+      "zone_id": 19,
+      "nom_brut": "Rivière Petite rivière de la Trinité La partie dans la zec Trinité (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant les deux rives à 10 m en amont de la chute située à 100 m en aval du ruisseau Genest et la 4ième chute située au point 49°33'37\" N., 67°19'09\" O.",
+      "nom": "Rivière Petite rivière de la Trinité La partie dans la zec Trinité",
+      "nom_search": "riviere petite riviere de la trinite la partie dans la zec trinite ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 10 m en amont de la chute situee a 100 m en aval du ruisseau genest et la 4ieme chute situee au point 49 33 37 n 67 19 09 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière de la Trinité La partie dans la zec Trinité",
+      "aliases": [
+        "petite riviere de la trinite la partie dans la zec trinite",
+        "petite riviere de la trinite la partie dans la zec trinite ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 10 m en amont de la chute situee a 100 m en aval du ruisseau genest et la 4ieme chute situee au point 49 33 37 n 67 19 09 o",
+        "riviere petite riviere de la trinite la partie dans la zec trinite",
+        "riviere petite riviere de la trinite la partie dans la zec trinite ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 10 m en amont de la chute situee a 100 m en aval du ruisseau genest et la 4ieme chute situee au point 49 33 37 n 67 19 09 o"
+      ],
+      "lat": 49.560278,
+      "lon": -67.319167
+    },
+    {
+      "id": 3372,
+      "zone_id": 19,
+      "nom_brut": "Rivière Petite rivière du Calumet Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°37'00\" N., 67°12'56\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Petite rivière du Calumet Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°37'00\" N., 67°12'56\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere petite riviere du calumet entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 37 00 n 67 12 56 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière du Calumet",
+      "aliases": [
+        "petite riviere du calumet",
+        "petite riviere du calumet entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 37 00 n 67 12 56 o ainsi que tous ses tributaires",
+        "riviere petite riviere du calumet",
+        "riviere petite riviere du calumet entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 37 00 n 67 12 56 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.616667,
+      "lon": -67.215556
+    },
+    {
+      "id": 3358,
+      "zone_id": 19,
+      "nom_brut": "Rivière Petite Rivière Godbout Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'35\" N., 67°35'03\" O. , ainsi que tous ses tributaires, excluant le lac à Tabac ( 49°23'08\" N., 67°38'15\" O. ).",
+      "nom": "Rivière Petite Rivière Godbout Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'35\" N., 67°35'03\" O. , ainsi que tous ses tributaires, excluant le lac à Tabac",
+      "nom_search": "riviere petite riviere godbout entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 35 n 67 35 03 o ainsi que tous ses tributaires excluant le lac a tabac 49 23 08 n 67 38 15 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite Rivière Godbout",
+      "aliases": [
+        "petite riviere godbout",
+        "petite riviere godbout entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 35 n 67 35 03 o ainsi que tous ses tributaires excluant le lac a tabac 49 23 08 n 67 38 15 o )",
+        "riviere petite riviere godbout",
+        "riviere petite riviere godbout entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 35 n 67 35 03 o ainsi que tous ses tributaires excluant le lac a tabac 49 23 08 n 67 38 15 o )"
+      ],
+      "lat": 49.326389,
+      "lon": -67.584167
+    },
+    {
+      "id": 3029,
+      "zone_id": 19,
+      "nom_brut": "Rivière Polette entre sa confluence avec la rivière des Escoumins et un point situé à 20 m en amont de la Chute à Albert Bélanger.",
+      "nom": "Rivière Polette entre sa confluence avec la rivière des Escoumins et un point situé à 20 m en amont de la Chute à Albert Bélanger.",
+      "nom_search": "riviere polette entre sa confluence avec la riviere des escoumins et un point situe a 20 m en amont de la chute a albert belanger",
+      "segment_label": null,
+      "river_base_name": "Rivière Polette",
+      "aliases": [
+        "polette",
+        "polette entre sa confluence avec la riviere des escoumins et un point situe a 20 m en amont de la chute a albert belanger",
+        "riviere polette",
+        "riviere polette entre sa confluence avec la riviere des escoumins et un point situe a 20 m en amont de la chute a albert belanger"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3340,
+      "zone_id": 19,
+      "nom_brut": "Rivière Ragueneau Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°04'24\" N., 68°31'33\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Ragueneau Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°04'24\" N., 68°31'33\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere ragueneau entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 04 24 n 68 31 33 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Ragueneau",
+      "aliases": [
+        "ragueneau",
+        "ragueneau entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 04 24 n 68 31 33 o ainsi que tous ses tributaires",
+        "riviere ragueneau",
+        "riviere ragueneau entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 04 24 n 68 31 33 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.073333,
+      "lon": -68.525833
+    },
+    {
+      "id": 3374,
+      "zone_id": 19,
+      "nom_brut": "Rivière Riverin Entre sa source et une droite passant par le point 49°47'09\" N., 67°09'26\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Riverin Entre sa source et une droite passant par le point 49°47'09\" N., 67°09'26\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere riverin entre sa source et une droite passant par le point 49 47 09 n 67 09 26 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Riverin",
+      "aliases": [
+        "riverin",
+        "riverin entre sa source et une droite passant par le point 49 47 09 n 67 09 26 o ainsi que tous ses tributaires",
+        "riviere riverin",
+        "riviere riverin entre sa source et une droite passant par le point 49 47 09 n 67 09 26 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.785833,
+      "lon": -67.157222
+    },
+    {
+      "id": 3344,
+      "zone_id": 19,
+      "nom_brut": "Rivière Saint-Athanase Ouest Entre sa source et le côté amont du pont du chemin de la Baie Saint-Ludger ( 49°05'41\" N., 68°18'38\" O. ), ainsi que tous ses tributaires.",
+      "nom": "Rivière Saint-Athanase Ouest Entre sa source et le côté amont du pont du chemin de la Baie Saint-Ludger",
+      "nom_search": "riviere saint athanase ouest entre sa source et le cote amont du pont du chemin de la baie saint ludger 49 05 41 n 68 18 38 o ) ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Athanase Ouest",
+      "aliases": [
+        "riviere saint athanase ouest",
+        "riviere saint athanase ouest entre sa source et le cote amont du pont du chemin de la baie saint ludger 49 05 41 n 68 18 38 o ) ainsi que tous ses tributaires",
+        "saint athanase ouest",
+        "saint athanase ouest entre sa source et le cote amont du pont du chemin de la baie saint ludger 49 05 41 n 68 18 38 o ) ainsi que tous ses tributaires"
+      ],
+      "lat": 49.094722,
+      "lon": -68.310556
+    },
+    {
+      "id": 3354,
+      "zone_id": 19,
+      "nom_brut": "Rivière Saint-Nicolas Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'10\" N., 67°47'29\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Saint-Nicolas Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'10\" N., 67°47'29\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere saint nicolas entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 10 n 67 47 29 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Nicolas",
+      "aliases": [
+        "riviere saint nicolas",
+        "riviere saint nicolas entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 10 n 67 47 29 o ainsi que tous ses tributaires",
+        "saint nicolas",
+        "saint nicolas entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 10 n 67 47 29 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.319444,
+      "lon": -67.791389
+    },
+    {
+      "id": 3385,
+      "zone_id": 19,
+      "nom_brut": "Rivière Sans nom Entre sa source et une droite joignant le point 49°05'41\" N., 68°13'22\" O. au point 49°05'42\" N., 68°13'21\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Sans nom Entre sa source et une droite joignant le point 49°05'41\" N., 68°13'22\" O. au point 49°05'42\" N., 68°13'21\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere sans nom entre sa source et une droite joignant le point 49 05 41 n 68 13 22 o au point 49 05 42 n 68 13 21 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Sans nom",
+      "aliases": [
+        "riviere sans nom",
+        "riviere sans nom entre sa source et une droite joignant le point 49 05 41 n 68 13 22 o au point 49 05 42 n 68 13 21 o ainsi que tous ses tributaires",
+        "sans nom",
+        "sans nom entre sa source et une droite joignant le point 49 05 41 n 68 13 22 o au point 49 05 42 n 68 13 21 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.094722,
+      "lon": -68.222778
+    },
+    {
+      "id": 3382,
+      "zone_id": 19,
+      "nom_brut": "Rivière Vachon Entre sa source et une droite joignant le point 49°57'24\" N., 66°58'21\" O. au point 49°57'27\" N., 66°58'18\" O. , ainsi que tous ses tributaires.",
+      "nom": "Rivière Vachon Entre sa source et une droite joignant le point 49°57'24\" N., 66°58'21\" O. au point 49°57'27\" N., 66°58'18\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "riviere vachon entre sa source et une droite joignant le point 49 57 24 n 66 58 21 o au point 49 57 27 n 66 58 18 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Vachon",
+      "aliases": [
+        "riviere vachon",
+        "riviere vachon entre sa source et une droite joignant le point 49 57 24 n 66 58 21 o au point 49 57 27 n 66 58 18 o ainsi que tous ses tributaires",
+        "vachon",
+        "vachon entre sa source et une droite joignant le point 49 57 24 n 66 58 21 o au point 49 57 27 n 66 58 18 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.956667,
+      "lon": -66.9725
+    },
+    {
+      "id": 3360,
+      "zone_id": 19,
+      "nom_brut": "Ruisseau Blanc Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'21\" N., 67°33'39\" O. , ainsi que tous ses tributaires.",
+      "nom": "Ruisseau Blanc Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'21\" N., 67°33'39\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "ruisseau blanc entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 21 n 67 33 39 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Blanc",
+      "aliases": [
+        "blanc",
+        "blanc entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 21 n 67 33 39 o ainsi que tous ses tributaires",
+        "ruisseau blanc",
+        "ruisseau blanc entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 21 n 67 33 39 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.3225,
+      "lon": -67.560833
+    },
+    {
+      "id": 3316,
+      "zone_id": 19,
+      "nom_brut": "Ruisseau Jean-Raymond Entre sa source et le côté aval du pont de la route 138 ( 48°46'00\" N., 69°03'57\" O. ), ainsi que tous ses tributaires.",
+      "nom": "Ruisseau Jean-Raymond Entre sa source et le côté aval du pont de la route 138",
+      "nom_search": "ruisseau jean raymond entre sa source et le cote aval du pont de la route 138 48 46 00 n 69 03 57 o ) ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Jean-Raymond",
+      "aliases": [
+        "jean raymond",
+        "jean raymond entre sa source et le cote aval du pont de la route 138 48 46 00 n 69 03 57 o ) ainsi que tous ses tributaires",
+        "ruisseau jean raymond",
+        "ruisseau jean raymond entre sa source et le cote aval du pont de la route 138 48 46 00 n 69 03 57 o ) ainsi que tous ses tributaires"
+      ],
+      "lat": 48.766667,
+      "lon": -69.065833
+    },
+    {
+      "id": 3370,
+      "zone_id": 19,
+      "nom_brut": "Ruisseau Long Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°32'01\" N., 67°14'02\" O. , ainsi que tous ses tributaires.",
+      "nom": "Ruisseau Long Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°32'01\" N., 67°14'02\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "ruisseau long entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 32 01 n 67 14 02 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Long",
+      "aliases": [
+        "long",
+        "long entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 32 01 n 67 14 02 o ainsi que tous ses tributaires",
+        "ruisseau long",
+        "ruisseau long entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 32 01 n 67 14 02 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.533611,
+      "lon": -67.233889
+    },
+    {
+      "id": 3356,
+      "zone_id": 19,
+      "nom_brut": "Ruisseau Petit Ruisseau Saint-Nicolas Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°18'38\" N., 67°42'45\" O. , ainsi que tous ses tributaires.",
+      "nom": "Ruisseau Petit Ruisseau Saint-Nicolas Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°18'38\" N., 67°42'45\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "ruisseau petit ruisseau saint nicolas entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 18 38 n 67 42 45 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Petit Ruisseau Saint-Nicolas",
+      "aliases": [
+        "petit ruisseau saint nicolas",
+        "petit ruisseau saint nicolas entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 18 38 n 67 42 45 o ainsi que tous ses tributaires",
+        "ruisseau petit ruisseau saint nicolas",
+        "ruisseau petit ruisseau saint nicolas entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 18 38 n 67 42 45 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.310556,
+      "lon": -67.7125
+    },
+    {
+      "id": 3362,
+      "zone_id": 19,
+      "nom_brut": "Ruisseau Raymond Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'28\" N., 67°29'52\" O. , ainsi que tous ses tributaires.",
+      "nom": "Ruisseau Raymond Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'28\" N., 67°29'52\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "ruisseau raymond entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 28 n 67 29 52 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Raymond",
+      "aliases": [
+        "raymond",
+        "raymond entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 28 n 67 29 52 o ainsi que tous ses tributaires",
+        "ruisseau raymond",
+        "ruisseau raymond entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 28 n 67 29 52 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.324444,
+      "lon": -67.497778
+    },
+    {
+      "id": 3364,
+      "zone_id": 19,
+      "nom_brut": "Ruisseau Saint-Augustin Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'29\" N., 67°25'02\" O. , ainsi que tous ses tributaires.",
+      "nom": "Ruisseau Saint-Augustin Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°19'29\" N., 67°25'02\" O. , ainsi que tous ses tributaires.",
+      "nom_search": "ruisseau saint augustin entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 29 n 67 25 02 o ainsi que tous ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Saint-Augustin",
+      "aliases": [
+        "ruisseau saint augustin",
+        "ruisseau saint augustin entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 29 n 67 25 02 o ainsi que tous ses tributaires",
+        "saint augustin",
+        "saint augustin entre sa source et une droite perpendiculaire au courant joignant les deux rives a partir du point 49 19 29 n 67 25 02 o ainsi que tous ses tributaires"
+      ],
+      "lat": 49.324722,
+      "lon": -67.417222
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Zec de Labrieville",
+      "nom": "Zec de Labrieville",
+      "nom_search": "zec de labrieville",
+      "segment_label": null,
+      "river_base_name": "Zec de Labrieville",
+      "aliases": [
+        "zec de labrieville"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Zec Nordique",
+      "nom": "Zec Nordique",
+      "nom_search": "zec nordique",
+      "segment_label": null,
+      "river_base_name": "Zec Nordique",
+      "aliases": [
+        "zec nordique"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Zec Trinité",
+      "nom": "Zec Trinité",
+      "nom_search": "zec trinite",
+      "segment_label": null,
+      "river_base_name": "Zec Trinité",
+      "aliases": [
+        "zec trinite"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 19,
+      "nom_brut": "Zec Varin",
+      "nom": "Zec Varin",
+      "nom_search": "zec varin",
+      "segment_label": null,
+      "river_base_name": "Zec Varin",
+      "aliases": [
+        "zec varin"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

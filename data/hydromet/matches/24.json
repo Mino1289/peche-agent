@@ -1,0 +1,640 @@
+{
+  "meta": {
+    "zone_id": 24,
+    "radius_km": 25.0,
+    "nb_with_coords": 70,
+    "nb_station_matched": 0
+  },
+  "matches": [
+    {
+      "plan_id": 1892,
+      "plan_nom": "Baie Amichinatwayasich",
+      "lat": 53.871667,
+      "lon": -77.006111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1894,
+      "plan_nom": "Baie Chapus",
+      "lat": 53.486667,
+      "lon": -77.135833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1900,
+      "plan_nom": "Baie sans nom",
+      "lat": 53.761028,
+      "lon": -73.762083,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1898,
+      "plan_nom": "Baie sans nom - La partie entre une droite joignant les points 53°44'16,1\" N., 73°53'13,9\" O. et 53°44'17,9\" N., 73°53'16,4\" O. et une droite joignant les points 53°44'38,4\" N., 73°53'55\" O. et 53°44'38,9\" N., 73°53'53,6\" O.",
+      "lat": 53.737806,
+      "lon": -73.887194,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1668,
+      "plan_nom": "Lac Achan Amikap",
+      "lat": 53.516667,
+      "lon": -77.723611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1859,
+      "plan_nom": "Lac Atihkumakw",
+      "lat": 54.273333,
+      "lon": -77.758333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2433,
+      "plan_nom": "Lac Awahagats",
+      "lat": 54.282222,
+      "lon": -77.659444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2434,
+      "plan_nom": "Lac Awisinaukamach",
+      "lat": 54.368056,
+      "lon": -77.502222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1649,
+      "plan_nom": "Lac Bison",
+      "lat": 53.783333,
+      "lon": -75.916667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1651,
+      "plan_nom": "Lac Chinusas",
+      "lat": 52.833333,
+      "lon": -77.166667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2222,
+      "plan_nom": "Lac de la Montagne du Pin",
+      "lat": 53.971944,
+      "lon": -75.622778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1652,
+      "plan_nom": "Lac De la Noue",
+      "lat": 54.749722,
+      "lon": -71.715278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1656,
+      "plan_nom": "Lac des Merisiers",
+      "lat": 53.7,
+      "lon": -76.066667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1660,
+      "plan_nom": "Lac des Oeufs",
+      "lat": 54.548333,
+      "lon": -72.4525,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1880,
+      "plan_nom": "Lac des Patriotes",
+      "lat": 53.816667,
+      "lon": -72.65,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1653,
+      "plan_nom": "Lac Desaulniers",
+      "lat": 53.568056,
+      "lon": -77.571944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1852,
+      "plan_nom": "Lac Duncan à l'exception des eaux suivantes : la partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire",
+      "lat": 53.516667,
+      "lon": -77.95,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1853,
+      "plan_nom": "Lac Duncan La partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire",
+      "lat": 53.516667,
+      "lon": -77.95,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1871,
+      "plan_nom": "Lac Ekomiak",
+      "lat": 53.377222,
+      "lon": -77.5,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1669,
+      "plan_nom": "Lac Esprit",
+      "lat": 53.431111,
+      "lon": -77.959167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2813,
+      "plan_nom": "Lac Guyer",
+      "lat": 53.528056,
+      "lon": -75.1575,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1906,
+      "plan_nom": "Lac Hélène la partie comprise dans un rayon de 200 m situé en aval de l'embouchure de la rivière au Castor",
+      "lat": 53.436944,
+      "lon": -77.505278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1873,
+      "plan_nom": "Lac Hervé",
+      "lat": 54.456389,
+      "lon": -71.229722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1654,
+      "plan_nom": "Lac Hiver",
+      "lat": 54.05,
+      "lon": -71.95,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1874,
+      "plan_nom": "Lac Kachinukamach",
+      "lat": 53.300833,
+      "lon": -77.145833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1875,
+      "plan_nom": "Lac Kachipinikaw",
+      "lat": 53.445278,
+      "lon": -77.696944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1673,
+      "plan_nom": "Lac Kachistasakaw",
+      "lat": 52.588611,
+      "lon": -77.286389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2435,
+      "plan_nom": "Lac Kanipitayapuschuwatach",
+      "lat": 54.455833,
+      "lon": -78.778889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1876,
+      "plan_nom": "Lac Kauskatikakanaw",
+      "lat": 54.0625,
+      "lon": -75.796944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1675,
+      "plan_nom": "Lac Kowkatehkakmow",
+      "lat": 53.458056,
+      "lon": -77.4375,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2436,
+      "plan_nom": "Lac Kuskips",
+      "lat": 54.260278,
+      "lon": -77.941944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2221,
+      "plan_nom": "Lac Lutrin",
+      "lat": 53.666667,
+      "lon": -76.066667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1877,
+      "plan_nom": "Lac Menarick",
+      "lat": 53.375833,
+      "lon": -77.39,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2437,
+      "plan_nom": "Lac Michisu apimiskutat",
+      "lat": 54.308333,
+      "lon": -77.95,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2438,
+      "plan_nom": "Lac Natisiskan",
+      "lat": 54.541667,
+      "lon": -78.835,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1878,
+      "plan_nom": "Lac Natwakami",
+      "lat": 54.303056,
+      "lon": -78.541944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1677,
+      "plan_nom": "Lac Nitiwapisunan",
+      "lat": 53.056667,
+      "lon": -77.349167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1659,
+      "plan_nom": "Lac Nochet",
+      "lat": 53.6,
+      "lon": -73.75,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1879,
+      "plan_nom": "Lac Orsigny",
+      "lat": 53.725833,
+      "lon": -72.588333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1661,
+      "plan_nom": "Lac Petit lac des Pins",
+      "lat": 53.923333,
+      "lon": -75.744167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2439,
+      "plan_nom": "Lac Pistinikw",
+      "lat": 54.410278,
+      "lon": -78.719167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1881,
+      "plan_nom": "Lac Polaris",
+      "lat": 53.802778,
+      "lon": -72.881111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2440,
+      "plan_nom": "Lac Roggan",
+      "lat": 54.143611,
+      "lon": -77.792222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1671,
+      "plan_nom": "Lac Saint-Joseph",
+      "lat": 53.833333,
+      "lon": -73.583333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1678,
+      "plan_nom": "Lac Sakami",
+      "lat": 53.251944,
+      "lon": -76.761389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2466,
+      "plan_nom": "Lac Sans nom",
+      "lat": 53.760833,
+      "lon": -73.449167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2467,
+      "plan_nom": "Lac Sans nom",
+      "lat": 53.762778,
+      "lon": -73.509444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2814,
+      "plan_nom": "Lac Sans nom",
+      "lat": 54.116667,
+      "lon": -71.678056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1666,
+      "plan_nom": "Lac sans nom",
+      "lat": 53.490278,
+      "lon": -77.28,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1857,
+      "plan_nom": "Lac sans nom",
+      "lat": 54.033333,
+      "lon": -77.5,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1870,
+      "plan_nom": "Lac sans nom",
+      "lat": 53.6,
+      "lon": -74.566667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1648,
+      "plan_nom": "Lac sans nom",
+      "lat": 53.723611,
+      "lon": -72.951389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3005,
+      "plan_nom": "Lac sans nom",
+      "lat": 53.729722,
+      "lon": -73.019722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2441,
+      "plan_nom": "Lac Tataskwami",
+      "lat": 54.4925,
+      "lon": -79.136389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1662,
+      "plan_nom": "Lac Thomas",
+      "lat": 53.816667,
+      "lon": -73.533333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1882,
+      "plan_nom": "Lac Tilly",
+      "lat": 53.957778,
+      "lon": -73.958056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1679,
+      "plan_nom": "Lac Utaunanis",
+      "lat": 53.903889,
+      "lon": -77.5075,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1681,
+      "plan_nom": "Lac Wisinawkamaw",
+      "lat": 52.783056,
+      "lon": -77.178611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1855,
+      "plan_nom": "Lac Yasinski * Entre un point situé à 450 m en aval de la route de la Baie-James et un point situé à 90 m en amont de cette route. * Entre un point situé à 500 m en aval de l'embouchure du tributaire situé à",
+      "lat": 53.266667,
+      "lon": -77.433333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2224,
+      "plan_nom": "Passe Anatwayach - La partie comprise entre un point situé à",
+      "lat": 54.051389,
+      "lon": -76.078889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2226,
+      "plan_nom": "Passe Pikwahipanan - La partie comprise entre un point situé à",
+      "lat": 53.878333,
+      "lon": -76.193889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1888,
+      "plan_nom": "Réservoir Laforge 1",
+      "lat": 54.351111,
+      "lon": -72.139444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1886,
+      "plan_nom": "Réservoir LG- 4",
+      "lat": 53.900833,
+      "lon": -73.250833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1890,
+      "plan_nom": "Réservoir Robert-Bourassa",
+      "lat": 53.75,
+      "lon": -77.0,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1908,
+      "plan_nom": "Rivière au Castor * entre un point situé à 100 m en aval de la ligne de transport d'énergie d'Hydro-Québec no 7060-7061",
+      "lat": 53.470278,
+      "lon": -77.393611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2228,
+      "plan_nom": "Rivière Kanaaupscow - La partie comprise entre son embouchure",
+      "lat": 54.248333,
+      "lon": -76.196944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1884,
+      "plan_nom": "Rivière Kapsaouis",
+      "lat": 54.316667,
+      "lon": -79.297222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2450,
+      "plan_nom": "Rivière La Grande Rivière - La partie comprise entre le barrage Robert-Bourassa",
+      "lat": 53.785833,
+      "lon": -77.451944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2454,
+      "plan_nom": "Rivière La Grande Rivière - La partie comprise entre une droite passant par le point 53°47'53'' N., 72°52'55'' O. située à 4 km en aval du pont Polaris sur la route Transtaïga et une droite passant par le point 53°41'55,8'' N., 72°40'05'' O. située à 20 km en amont de ce pont.",
+      "lat": 53.798056,
+      "lon": -72.881944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1664,
+      "plan_nom": "Rivière Vincelotte",
+      "lat": 54.171111,
+      "lon": -73.223611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

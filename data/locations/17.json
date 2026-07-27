@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "zone_id": 17,
+    "zone_nom": "Zone 16",
+    "nb_plans": 8,
+    "nb_geocoded": 8,
+    "pct_geocoded": 100.0,
+    "source_file": "zones/17.json"
+  },
+  "locations": [
+    {
+      "id": 10881,
+      "zone_id": 17,
+      "nom_brut": "Lac aux Loutres ( 48°55'09\" N., 75°47'36\" O. )",
+      "nom": "Lac aux Loutres",
+      "nom_search": "lac aux loutres 48 55 09 n 75 47 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Loutres",
+      "aliases": [
+        "aux loutres",
+        "aux loutres 48 55 09 n 75 47 36 o )",
+        "lac aux loutres",
+        "lac aux loutres 48 55 09 n 75 47 36 o )"
+      ],
+      "lat": 48.919167,
+      "lon": -75.793333
+    },
+    {
+      "id": 880,
+      "zone_id": 17,
+      "nom_brut": "Lac Bissonnette (municipalité de Baie-James, 49°00'59\" N., 79°05'51\" O. )",
+      "nom": "Lac Bissonnette",
+      "nom_search": "lac bissonnette municipalite de baie james 49 00 59 n 79 05 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bissonnette",
+      "aliases": [
+        "bissonnette",
+        "bissonnette municipalite de baie james 49 00 59 n 79 05 51 o )",
+        "lac bissonnette",
+        "lac bissonnette municipalite de baie james 49 00 59 n 79 05 51 o )"
+      ],
+      "lat": 49.016389,
+      "lon": -79.0975
+    },
+    {
+      "id": 2539,
+      "zone_id": 17,
+      "nom_brut": "Lac Nelson ( 48°59'19\" N., 74°27'16\" O. )",
+      "nom": "Lac Nelson",
+      "nom_search": "lac nelson 48 59 19 n 74 27 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nelson",
+      "aliases": [
+        "lac nelson",
+        "lac nelson 48 59 19 n 74 27 16 o )",
+        "nelson",
+        "nelson 48 59 19 n 74 27 16 o )"
+      ],
+      "lat": 48.988611,
+      "lon": -74.454444
+    },
+    {
+      "id": 2541,
+      "zone_id": 17,
+      "nom_brut": "Lac Oloron ( 49°06'11\" N., 79°23'13\" O. )",
+      "nom": "Lac Oloron",
+      "nom_search": "lac oloron 49 06 11 n 79 23 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Oloron",
+      "aliases": [
+        "lac oloron",
+        "lac oloron 49 06 11 n 79 23 13 o )",
+        "oloron",
+        "oloron 49 06 11 n 79 23 13 o )"
+      ],
+      "lat": 49.103056,
+      "lon": -79.386944
+    },
+    {
+      "id": 10880,
+      "zone_id": 17,
+      "nom_brut": "Lac Turgeon ( 49°01'27\" N., 79°01'15\" O. )",
+      "nom": "Lac Turgeon",
+      "nom_search": "lac turgeon 49 01 27 n 79 01 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Turgeon",
+      "aliases": [
+        "lac turgeon",
+        "lac turgeon 49 01 27 n 79 01 15 o )",
+        "turgeon",
+        "turgeon 49 01 27 n 79 01 15 o )"
+      ],
+      "lat": 49.024167,
+      "lon": -79.020833
+    },
+    {
+      "id": 883,
+      "zone_id": 17,
+      "nom_brut": "Rivière Allard de son affluent comprise entre 100 m en amont du secteur appelé « Les petites chutes » ( 49°48'46\" N., 77°47'32\" O. ) et son point de jonction avec la rivière Allard ( 49°49'29\" N., 77°46'37\" O. ).",
+      "nom": "Rivière Allard de son affluent comprise entre 100 m en amont du secteur appelé « Les petites chutes »",
+      "nom_search": "riviere allard de son affluent comprise entre 100 m en amont du secteur appele les petites chutes 49 48 46 n 77 47 32 o ) et son point de jonction avec la riviere allard 49 49 29 n 77 46 37 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Allard de son affluent comprise",
+      "aliases": [
+        "allard de son affluent comprise",
+        "allard de son affluent comprise entre 100 m en amont du secteur appele les petites chutes 49 48 46 n 77 47 32 o ) et son point de jonction avec la riviere allard 49 49 29 n 77 46 37 o )",
+        "riviere allard de son affluent comprise",
+        "riviere allard de son affluent comprise entre 100 m en amont du secteur appele les petites chutes 49 48 46 n 77 47 32 o ) et son point de jonction avec la riviere allard 49 49 29 n 77 46 37 o )"
+      ],
+      "lat": 49.812778,
+      "lon": -77.792222
+    },
+    {
+      "id": 885,
+      "zone_id": 17,
+      "nom_brut": "Rivière Gouault entre son embouchure dans le lac MacIvor ( 49°48'38\" N., 77°55'06\" O. ) et un point ( 49°52'37\" N., 77°48'22\" O. ) correspondant à la limite sud de la zone 17.",
+      "nom": "Rivière Gouault entre son embouchure dans le lac MacIvor",
+      "nom_search": "riviere gouault entre son embouchure dans le lac macivor 49 48 38 n 77 55 06 o ) et un point 49 52 37 n 77 48 22 o ) correspondant a la limite sud de la zone 17",
+      "segment_label": null,
+      "river_base_name": "Rivière Gouault",
+      "aliases": [
+        "gouault",
+        "gouault entre son embouchure dans le lac macivor 49 48 38 n 77 55 06 o ) et un point 49 52 37 n 77 48 22 o ) correspondant a la limite sud de la zone 17",
+        "riviere gouault",
+        "riviere gouault entre son embouchure dans le lac macivor 49 48 38 n 77 55 06 o ) et un point 49 52 37 n 77 48 22 o ) correspondant a la limite sud de la zone 17"
+      ],
+      "lat": 49.810556,
+      "lon": -77.918333
+    },
+    {
+      "id": 887,
+      "zone_id": 17,
+      "nom_brut": "Rivière Wilson entre un point situé à 200 m en aval de son embouchure dans le lac Quévillon ( 49°05'04\" N., 76°51'53\" O. ) et un point situé à 11 km en amont, soit au niveau du pont de la route R-1050 (connue sous le nom de chemin forestier 101 Domtar).",
+      "nom": "Rivière Wilson entre un point situé à 200 m en aval de son embouchure dans le lac Quévillon",
+      "nom_search": "riviere wilson entre un point situe a 200 m en aval de son embouchure dans le lac quevillon 49 05 04 n 76 51 53 o ) et un point situe a 11 km en amont soit au niveau du pont de la route riviere 1050 connue sous le nom de chemin forestier 101 domtar)",
+      "segment_label": null,
+      "river_base_name": "Rivière Wilson",
+      "aliases": [
+        "riviere wilson",
+        "riviere wilson entre un point situe a 200 m en aval de son embouchure dans le lac quevillon 49 05 04 n 76 51 53 o ) et un point situe a 11 km en amont soit au niveau du pont de la route riviere 1050 connue sous le nom de chemin forestier 101 domtar)",
+        "wilson",
+        "wilson entre un point situe a 200 m en aval de son embouchure dans le lac quevillon 49 05 04 n 76 51 53 o ) et un point situe a 11 km en amont soit au niveau du pont de la route riviere 1050 connue sous le nom de chemin forestier 101 domtar)"
+      ],
+      "lat": 49.084444,
+      "lon": -76.864722
+    }
+  ]
+}

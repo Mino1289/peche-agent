@@ -1,0 +1,876 @@
+{
+  "meta": {
+    "zone_id": 30,
+    "radius_km": 25.0,
+    "nb_with_coords": 40,
+    "nb_station_matched": 22
+  },
+  "matches": [
+    {
+      "plan_id": 1928,
+      "plan_nom": "Lac à Beauce",
+      "lat": 47.329444,
+      "lon": -72.752222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3051,
+      "plan_nom": "Lac aux Sables",
+      "lat": 46.882222,
+      "lon": -72.365833,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 14.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 14.81
+      }
+    },
+    {
+      "plan_id": 1919,
+      "plan_nom": "Lac Barnard",
+      "lat": 46.654444,
+      "lon": -73.067222,
+      "stations": [
+        {
+          "id": "052805",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 0,3 km en aval du ruisseau Carufel",
+          "lat": 46.601,
+          "lon": -73.186,
+          "distance_km": 10.84,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 21.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 24.94,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052805",
+      "station": {
+        "id": "052805",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 0,3 km en aval du ruisseau Carufel",
+        "lat": 46.601,
+        "lon": -73.186,
+        "distance_km": 10.84
+      }
+    },
+    {
+      "plan_id": 3241,
+      "plan_nom": "Lac Brochet",
+      "lat": 47.513611,
+      "lon": -72.701944,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 8.42,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 8.42
+      }
+    },
+    {
+      "plan_id": 1922,
+      "plan_nom": "Lac Carrion",
+      "lat": 47.451389,
+      "lon": -72.976111,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 22.93,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 22.93
+      }
+    },
+    {
+      "plan_id": 10483,
+      "plan_nom": "Lac Châteauvert",
+      "lat": 47.656667,
+      "lon": -73.920833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1939,
+      "plan_nom": "Lac Clair",
+      "lat": 47.259444,
+      "lon": -72.778889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1936,
+      "plan_nom": "Lac Croche",
+      "lat": 46.940556,
+      "lon": -72.413056,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 15.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 15.81
+      }
+    },
+    {
+      "plan_id": 11261,
+      "plan_nom": "Lac Croche",
+      "lat": 46.831944,
+      "lon": -72.5,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3177,
+      "plan_nom": "Lac Cuisy",
+      "lat": 47.2825,
+      "lon": -72.7125,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1923,
+      "plan_nom": "Lac Cutaway",
+      "lat": 47.437778,
+      "lon": -72.870556,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 18.91,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 18.91
+      }
+    },
+    {
+      "plan_id": 3242,
+      "plan_nom": "Lac des Chicots",
+      "lat": 46.801667,
+      "lon": -72.5175,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1930,
+      "plan_nom": "Lac des Îles",
+      "lat": 46.756389,
+      "lon": -72.722778,
+      "stations": [
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 19.23,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050148",
+      "station": {
+        "id": "050148",
+        "plan_eau": "Rivière Shawinigan",
+        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+        "lat": 46.584987,
+        "lon": -72.756659,
+        "distance_km": 19.23
+      }
+    },
+    {
+      "plan_id": 3175,
+      "plan_nom": "Lac des Pins Rouges",
+      "lat": 46.604722,
+      "lon": -73.118611,
+      "stations": [
+        {
+          "id": "052805",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 0,3 km en aval du ruisseau Carufel",
+          "lat": 46.601,
+          "lon": -73.186,
+          "distance_km": 5.16,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 15.78,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052805",
+      "station": {
+        "id": "052805",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 0,3 km en aval du ruisseau Carufel",
+        "lat": 46.601,
+        "lon": -73.186,
+        "distance_km": 5.16
+      }
+    },
+    {
+      "plan_id": 10484,
+      "plan_nom": "Lac des Souris",
+      "lat": 46.583333,
+      "lon": -72.994167,
+      "stations": [
+        {
+          "id": "052805",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 0,3 km en aval du ruisseau Carufel",
+          "lat": 46.601,
+          "lon": -73.186,
+          "distance_km": 14.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 17.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 18.15,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052805",
+      "station": {
+        "id": "052805",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 0,3 km en aval du ruisseau Carufel",
+        "lat": 46.601,
+        "lon": -73.186,
+        "distance_km": 14.79
+      }
+    },
+    {
+      "plan_id": 1946,
+      "plan_nom": "Lac des Trois Caribous",
+      "lat": 47.596111,
+      "lon": -72.150278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3052,
+      "plan_nom": "Lac du Missionnaire",
+      "lat": 46.916667,
+      "lon": -72.560278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11581,
+      "plan_nom": "Lac du Pendu",
+      "lat": 47.4225,
+      "lon": -72.751667,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 17.99,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 17.99
+      }
+    },
+    {
+      "plan_id": 10480,
+      "plan_nom": "Lac Édouard",
+      "lat": 47.612222,
+      "lon": -72.361944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3180,
+      "plan_nom": "Lac Édouard",
+      "lat": 47.612222,
+      "lon": -72.361944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1921,
+      "plan_nom": "Lac en Croix",
+      "lat": 46.646667,
+      "lon": -73.035278,
+      "stations": [
+        {
+          "id": "052805",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 0,3 km en aval du ruisseau Carufel",
+          "lat": 46.601,
+          "lon": -73.186,
+          "distance_km": 12.58,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 21.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 22.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052805",
+      "station": {
+        "id": "052805",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 0,3 km en aval du ruisseau Carufel",
+        "lat": 46.601,
+        "lon": -73.186,
+        "distance_km": 12.58
+      }
+    },
+    {
+      "plan_id": 1929,
+      "plan_nom": "Lac Flamand",
+      "lat": 47.543611,
+      "lon": -73.421667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12680,
+      "plan_nom": "Lac Fontaine",
+      "lat": 46.818889,
+      "lon": -72.659444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1924,
+      "plan_nom": "Lac Germain",
+      "lat": 47.448333,
+      "lon": -72.901389,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 19.25,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 19.25
+      }
+    },
+    {
+      "plan_id": 10481,
+      "plan_nom": "Lac Grand lac Long",
+      "lat": 46.541111,
+      "lon": -72.950278,
+      "stations": [
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 15.59,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 17.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052805",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 0,3 km en aval du ruisseau Carufel",
+          "lat": 46.601,
+          "lon": -73.186,
+          "distance_km": 19.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050148",
+      "station": {
+        "id": "050148",
+        "plan_eau": "Rivière Shawinigan",
+        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+        "lat": 46.584987,
+        "lon": -72.756659,
+        "distance_km": 15.59
+      }
+    },
+    {
+      "plan_id": 2632,
+      "plan_nom": "Lac La Tuque",
+      "lat": 47.460556,
+      "lon": -72.948611,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 20.7,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 20.7
+      }
+    },
+    {
+      "plan_id": 1925,
+      "plan_nom": "Lac Lagon",
+      "lat": 47.462778,
+      "lon": -72.918333,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 18.88,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 18.88
+      }
+    },
+    {
+      "plan_id": 1931,
+      "plan_nom": "Lac Lamarre",
+      "lat": 46.686944,
+      "lon": -72.790556,
+      "stations": [
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 11.63,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050148",
+      "station": {
+        "id": "050148",
+        "plan_eau": "Rivière Shawinigan",
+        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+        "lat": 46.584987,
+        "lon": -72.756659,
+        "distance_km": 11.63
+      }
+    },
+    {
+      "plan_id": 1943,
+      "plan_nom": "Lac Larose",
+      "lat": 46.604444,
+      "lon": -73.066667,
+      "stations": [
+        {
+          "id": "052805",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 0,3 km en aval du ruisseau Carufel",
+          "lat": 46.601,
+          "lon": -73.186,
+          "distance_km": 9.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 16.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 23.79,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "052805",
+      "station": {
+        "id": "052805",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 0,3 km en aval du ruisseau Carufel",
+        "lat": 46.601,
+        "lon": -73.186,
+        "distance_km": 9.12
+      }
+    },
+    {
+      "plan_id": 1934,
+      "plan_nom": "Lac Méduse",
+      "lat": 46.788611,
+      "lon": -72.735556,
+      "stations": [
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 22.7,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050148",
+      "station": {
+        "id": "050148",
+        "plan_eau": "Rivière Shawinigan",
+        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+        "lat": 46.584987,
+        "lon": -72.756659,
+        "distance_km": 22.7
+      }
+    },
+    {
+      "plan_id": 1945,
+      "plan_nom": "Lac Mékinac",
+      "lat": 47.061944,
+      "lon": -72.6775,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1932,
+      "plan_nom": "Lac Saint-Alexis",
+      "lat": 46.468611,
+      "lon": -73.146389,
+      "stations": [
+        {
+          "id": "052811",
+          "plan_eau": "Lac Saint-Alexis",
+          "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+          "lat": 46.46383,
+          "lon": -73.14318,
+          "distance_km": 0.59,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "052811",
+      "station": {
+        "id": "052811",
+        "plan_eau": "Lac Saint-Alexis",
+        "description": "À l'église de Saint-Alexis-des-Monts                                                                                                                                                                                                                          ",
+        "lat": 46.46383,
+        "lon": -73.14318,
+        "distance_km": 0.59
+      }
+    },
+    {
+      "plan_id": 1937,
+      "plan_nom": "Lac Saint-Laurent",
+      "lat": 46.95,
+      "lon": -72.399167,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 14.65,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 14.65
+      }
+    },
+    {
+      "plan_id": 3050,
+      "plan_nom": "Lac Touladi",
+      "lat": 47.751667,
+      "lon": -73.032778,
+      "stations": [
+        {
+          "id": "050144",
+          "plan_eau": "Rivière Vermillon",
+          "description": "À 0,3 km en aval de la rivière des Prairies",
+          "lat": 47.677,
+          "lon": -73.041,
+          "distance_km": 8.33,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050144",
+      "station": {
+        "id": "050144",
+        "plan_eau": "Rivière Vermillon",
+        "description": "À 0,3 km en aval de la rivière des Prairies",
+        "lat": 47.677,
+        "lon": -73.041,
+        "distance_km": 8.33
+      }
+    },
+    {
+      "plan_id": 10485,
+      "plan_nom": "Lac Touridi",
+      "lat": 47.684444,
+      "lon": -73.99,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3243,
+      "plan_nom": "Lac Traverse",
+      "lat": 46.848056,
+      "lon": -72.533889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1926,
+      "plan_nom": "Lac Triangle",
+      "lat": 47.440278,
+      "lon": -72.941111,
+      "stations": [
+        {
+          "id": "050117",
+          "plan_eau": "Rivière Croche",
+          "description": "À 2,6 km en aval du ruisseau du Huard",
+          "lat": 47.584209,
+          "lon": -72.742581,
+          "distance_km": 21.87,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050117",
+      "station": {
+        "id": "050117",
+        "plan_eau": "Rivière Croche",
+        "description": "À 2,6 km en aval du ruisseau du Huard",
+        "lat": 47.584209,
+        "lon": -72.742581,
+        "distance_km": 21.87
+      }
+    },
+    {
+      "plan_id": 1948,
+      "plan_nom": "Lac Vlimeux",
+      "lat": 46.844722,
+      "lon": -72.695278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1950,
+      "plan_nom": "Rivière aux Brochets entre son embouchure",
+      "lat": 47.128611,
+      "lon": -72.615556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1952,
+      "plan_nom": "Rivière du Milieu entre la ligne d'énergie électrique",
+      "lat": 47.109167,
+      "lon": -72.621111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

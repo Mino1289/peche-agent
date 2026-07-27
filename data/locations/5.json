@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "zone_id": 5,
+    "zone_nom": "Zone 5",
+    "nb_plans": 20,
+    "nb_geocoded": 17,
+    "pct_geocoded": 85.0,
+    "source_file": "zones/5.json"
+  },
+  "locations": [
+    {
+      "id": 609,
+      "zone_id": 5,
+      "nom_brut": "Étang Bull ( 45°14'11\" N., 72°41'47\" O. )",
+      "nom": "Étang Bull",
+      "nom_search": "etang bull 45 14 11 n 72 41 47 o )",
+      "segment_label": null,
+      "river_base_name": "Étang Bull",
+      "aliases": [
+        "bull",
+        "bull 45 14 11 n 72 41 47 o )",
+        "etang bull",
+        "etang bull 45 14 11 n 72 41 47 o )"
+      ],
+      "lat": 45.236389,
+      "lon": -72.696389
+    },
+    {
+      "id": 616,
+      "zone_id": 5,
+      "nom_brut": "Étang Peasley ( 45°13'47\" N., 72°16'36\" O. )",
+      "nom": "Étang Peasley",
+      "nom_search": "etang peasley 45 13 47 n 72 16 36 o )",
+      "segment_label": null,
+      "river_base_name": "Étang Peasley",
+      "aliases": [
+        "etang peasley",
+        "etang peasley 45 13 47 n 72 16 36 o )",
+        "peasley",
+        "peasley 45 13 47 n 72 16 36 o )"
+      ],
+      "lat": 45.229722,
+      "lon": -72.276667
+    },
+    {
+      "id": 598,
+      "zone_id": 5,
+      "nom_brut": "Lac Brome ( 45°14'55\" N., 72°30'53\" O. )",
+      "nom": "Lac Brome",
+      "nom_search": "lac brome 45 14 55 n 72 30 53 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Brome",
+      "aliases": [
+        "brome",
+        "brome 45 14 55 n 72 30 53 o )",
+        "lac brome",
+        "lac brome 45 14 55 n 72 30 53 o )"
+      ],
+      "lat": 45.248611,
+      "lon": -72.514722
+    },
+    {
+      "id": 599,
+      "zone_id": 5,
+      "nom_brut": "Lac Bromont ( 45°15'57\" N., 72°40'18\" O. )",
+      "nom": "Lac Bromont",
+      "nom_search": "lac bromont 45 15 57 n 72 40 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bromont",
+      "aliases": [
+        "bromont",
+        "bromont 45 15 57 n 72 40 18 o )",
+        "lac bromont",
+        "lac bromont 45 15 57 n 72 40 18 o )"
+      ],
+      "lat": 45.265833,
+      "lon": -72.671667
+    },
+    {
+      "id": 3160,
+      "zone_id": 5,
+      "nom_brut": "Lac Davignon ( 45°12'17\" N., 72°43'05\" O. )(voir aussi rivière Yamaska)",
+      "nom": "Lac Davignon",
+      "nom_search": "lac davignon 45 12 17 n 72 43 05 o ) voir aussi riviere yamaska)",
+      "segment_label": null,
+      "river_base_name": "Lac Davignon",
+      "aliases": [
+        "davignon",
+        "davignon 45 12 17 n 72 43 05 o ) voir aussi riviere yamaska)",
+        "lac davignon",
+        "lac davignon 45 12 17 n 72 43 05 o ) voir aussi riviere yamaska)"
+      ],
+      "lat": 45.204722,
+      "lon": -72.718056
+    },
+    {
+      "id": 611,
+      "zone_id": 5,
+      "nom_brut": "Lac Gale ( 45°16'12\" N., 72°41'43\" O. )",
+      "nom": "Lac Gale",
+      "nom_search": "lac gale 45 16 12 n 72 41 43 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gale",
+      "aliases": [
+        "gale",
+        "gale 45 16 12 n 72 41 43 o )",
+        "lac gale",
+        "lac gale 45 16 12 n 72 41 43 o )"
+      ],
+      "lat": 45.27,
+      "lon": -72.695278
+    },
+    {
+      "id": 600,
+      "zone_id": 5,
+      "nom_brut": "Lac Gilbert ( 45°13'10\" N., 72°17'23\" O. )",
+      "nom": "Lac Gilbert",
+      "nom_search": "lac gilbert 45 13 10 n 72 17 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gilbert",
+      "aliases": [
+        "gilbert",
+        "gilbert 45 13 10 n 72 17 23 o )",
+        "lac gilbert",
+        "lac gilbert 45 13 10 n 72 17 23 o )"
+      ],
+      "lat": 45.219444,
+      "lon": -72.289722
+    },
+    {
+      "id": 614,
+      "zone_id": 5,
+      "nom_brut": "Lac Libby ( 45°16'35\" N., 72°22'05\" O. )",
+      "nom": "Lac Libby",
+      "nom_search": "lac libby 45 16 35 n 72 22 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Libby",
+      "aliases": [
+        "lac libby",
+        "lac libby 45 16 35 n 72 22 05 o )",
+        "libby",
+        "libby 45 16 35 n 72 22 05 o )"
+      ],
+      "lat": 45.276389,
+      "lon": -72.368056
+    },
+    {
+      "id": 601,
+      "zone_id": 5,
+      "nom_brut": "Lac Long Pond ( 45°14'45\" N., 72°19'40\" O. )",
+      "nom": "Lac Long Pond",
+      "nom_search": "lac long pond 45 14 45 n 72 19 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Long Pond",
+      "aliases": [
+        "lac long pond",
+        "lac long pond 45 14 45 n 72 19 40 o )",
+        "long pond",
+        "long pond 45 14 45 n 72 19 40 o )"
+      ],
+      "lat": 45.245833,
+      "lon": -72.327778
+    },
+    {
+      "id": 602,
+      "zone_id": 5,
+      "nom_brut": "Lac Malaga ( 45°14'51\" N., 72°15'39\" O. )",
+      "nom": "Lac Malaga",
+      "nom_search": "lac malaga 45 14 51 n 72 15 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Malaga",
+      "aliases": [
+        "lac malaga",
+        "lac malaga 45 14 51 n 72 15 39 o )",
+        "malaga",
+        "malaga 45 14 51 n 72 15 39 o )"
+      ],
+      "lat": 45.2475,
+      "lon": -72.260833
+    },
+    {
+      "id": 603,
+      "zone_id": 5,
+      "nom_brut": "Lac Nick ( 45°12'41\" N., 72°19'33\" O. )",
+      "nom": "Lac Nick",
+      "nom_search": "lac nick 45 12 41 n 72 19 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nick",
+      "aliases": [
+        "lac nick",
+        "lac nick 45 12 41 n 72 19 33 o )",
+        "nick",
+        "nick 45 12 41 n 72 19 33 o )"
+      ],
+      "lat": 45.211389,
+      "lon": -72.325833
+    },
+    {
+      "id": 604,
+      "zone_id": 5,
+      "nom_brut": "Lac Selby ( 45°05'42\" N., 72°48'06\" O. )",
+      "nom": "Lac Selby",
+      "nom_search": "lac selby 45 05 42 n 72 48 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Selby",
+      "aliases": [
+        "lac selby",
+        "lac selby 45 05 42 n 72 48 06 o )",
+        "selby",
+        "selby 45 05 42 n 72 48 06 o )"
+      ],
+      "lat": 45.095,
+      "lon": -72.801667
+    },
+    {
+      "id": 605,
+      "zone_id": 5,
+      "nom_brut": "Lac Trousers ( 45°14'55\" N., 72°20'33\" O. )",
+      "nom": "Lac Trousers",
+      "nom_search": "lac trousers 45 14 55 n 72 20 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Trousers",
+      "aliases": [
+        "lac trousers",
+        "lac trousers 45 14 55 n 72 20 33 o )",
+        "trousers",
+        "trousers 45 14 55 n 72 20 33 o )"
+      ],
+      "lat": 45.248611,
+      "lon": -72.3425
+    },
+    {
+      "id": 606,
+      "zone_id": 5,
+      "nom_brut": "Lac Waterloo ( 45°20'03\" N., 72°31'10\" O. )",
+      "nom": "Lac Waterloo",
+      "nom_search": "lac waterloo 45 20 03 n 72 31 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Waterloo",
+      "aliases": [
+        "lac waterloo",
+        "lac waterloo 45 20 03 n 72 31 10 o )",
+        "waterloo",
+        "waterloo 45 20 03 n 72 31 10 o )"
+      ],
+      "lat": 45.334167,
+      "lon": -72.519444
+    },
+    {
+      "id": 608,
+      "zone_id": 5,
+      "nom_brut": "Lac Webster ( 45°15'38\" N., 72°15'42\" O. )",
+      "nom": "Lac Webster",
+      "nom_search": "lac webster 45 15 38 n 72 15 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Webster",
+      "aliases": [
+        "lac webster",
+        "lac webster 45 15 38 n 72 15 42 o )",
+        "webster",
+        "webster 45 15 38 n 72 15 42 o )"
+      ],
+      "lat": 45.260556,
+      "lon": -72.261667
+    },
+    {
+      "id": 620,
+      "zone_id": 5,
+      "nom_brut": "Rivière Missisquoi et ses tributaires ( 45°02'30'' N., 72°30'08'' O. )",
+      "nom": "Rivière Missisquoi et ses tributaires",
+      "nom_search": "riviere missisquoi et ses tributaires 45 02 30 n 72 30 08 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Missisquoi et ses tributaires",
+      "aliases": [
+        "missisquoi et ses tributaires",
+        "missisquoi et ses tributaires 45 02 30 n 72 30 08 o )",
+        "riviere missisquoi et ses tributaires",
+        "riviere missisquoi et ses tributaires 45 02 30 n 72 30 08 o )"
+      ],
+      "lat": 45.041667,
+      "lon": -72.502222
+    },
+    {
+      "id": 621,
+      "zone_id": 5,
+      "nom_brut": "Rivière Yamaska a) La partie de la rivière ainsi que ses tributaires situés dans la zone 5, y compris le lac Davignon, à l'exception du secteur entre le lac Brome et le premier barrage situé en aval et le secteur situé à Farnham entre le barrage à passerelle et le pont de la route 235",
+      "nom": "Rivière Yamaska a) La partie de la rivière ainsi que ses tributaires situés dans la zone 5, y compris le lac Davignon, à l'exception du secteur entre le lac Brome et le premier barrage situé en aval et le secteur situé à Farnham entre le barrage à passerelle et le pont de la route 235",
+      "nom_search": "riviere yamaska a) la partie de la riviere ainsi que ses tributaires situes dans la zone 5 y compris le lac davignon a l exception du secteur entre le lac brome et le premier barrage situe en aval et le secteur situe a farnham entre le barrage a passerelle et le pont de la route 235",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Yamaska  La partie de la rivière ainsi que ses tributaires situés dans la zone 5, y compris le lac Davignon,",
+      "aliases": [
+        "riviere yamaska a) la partie de la riviere ainsi que ses tributaires situes dans la zone 5 y compris le lac davignon a l exception du secteur entre le lac brome et le premier barrage situe en aval et le secteur situe a farnham entre le barrage a passerelle et le pont de la route 235",
+        "riviere yamaska la partie de la riviere ainsi que ses tributaires situes dans la zone 5 y compris le lac davignon",
+        "yamaska a) la partie de la riviere ainsi que ses tributaires situes dans la zone 5 y compris le lac davignon a l exception du secteur entre le lac brome et le premier barrage situe en aval et le secteur situe a farnham entre le barrage a passerelle et le pont de la route 235",
+        "yamaska la partie de la riviere ainsi que ses tributaires situes dans la zone 5 y compris le lac davignon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 623,
+      "zone_id": 5,
+      "nom_brut": "Rivière Yamaska b) entre le lac Brome ( 45°14'55\" N., 72°30'53\" O. ) et le premier barrage situé en aval.",
+      "nom": "Rivière Yamaska b) entre le lac Brome",
+      "nom_search": "riviere yamaska b) entre le lac brome 45 14 55 n 72 30 53 o ) et le premier barrage situe en aval",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Yamaska",
+      "aliases": [
+        "riviere yamaska",
+        "riviere yamaska b) entre le lac brome 45 14 55 n 72 30 53 o ) et le premier barrage situe en aval",
+        "yamaska",
+        "yamaska b) entre le lac brome 45 14 55 n 72 30 53 o ) et le premier barrage situe en aval"
+      ],
+      "lat": 45.248611,
+      "lon": -72.514722
+    },
+    {
+      "id": 626,
+      "zone_id": 5,
+      "nom_brut": "Ruisseau Castle tributaire du lac Memphrémagog.",
+      "nom": "Ruisseau Castle tributaire du lac Memphrémagog.",
+      "nom_search": "ruisseau castle tributaire du lac memphremagog",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Castle tributaire du lac Memphrémagog.",
+      "aliases": [
+        "castle tributaire du lac memphremagog",
+        "ruisseau castle tributaire du lac memphremagog"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 628,
+      "zone_id": 5,
+      "nom_brut": "Ruisseau Perkins tributaire du lac Memphrémagog.",
+      "nom": "Ruisseau Perkins tributaire du lac Memphrémagog.",
+      "nom_search": "ruisseau perkins tributaire du lac memphremagog",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Perkins tributaire du lac Memphrémagog.",
+      "aliases": [
+        "perkins tributaire du lac memphremagog",
+        "ruisseau perkins tributaire du lac memphremagog"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

@@ -1,0 +1,1269 @@
+{
+  "meta": {
+    "zone_id": 2,
+    "radius_km": 25.0,
+    "nb_with_coords": 55,
+    "nb_station_matched": 38
+  },
+  "matches": [
+    {
+      "plan_id": 309,
+      "plan_nom": "Lac à la Truite",
+      "lat": 48.213611,
+      "lon": -68.450833,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 23.47,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "021916",
+          "plan_eau": "Rivière Petite Neigette",
+          "description": "À 0,5 km en aval  du lac à la Peinture",
+          "lat": 48.419722,
+          "lon": -68.356111,
+          "distance_km": 23.96,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 23.47
+      }
+    },
+    {
+      "plan_id": 316,
+      "plan_nom": "Lac Baker",
+      "lat": 47.380833,
+      "lon": -68.715,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 19.46,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 19.46
+      }
+    },
+    {
+      "plan_id": 288,
+      "plan_nom": "Lac Biencourt",
+      "lat": 47.970833,
+      "lon": -68.529722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 292,
+      "plan_nom": "Lac de la Grande Fourche",
+      "lat": 47.773056,
+      "lon": -69.195278,
+      "stations": [
+        {
+          "id": "022513",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 1.4 km en aval du pont-route 185",
+          "lat": 47.821944,
+          "lon": -69.516667,
+          "distance_km": 24.61,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022513",
+      "station": {
+        "id": "022513",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 1.4 km en aval du pont-route 185",
+        "lat": 47.821944,
+        "lon": -69.516667,
+        "distance_km": 24.61
+      }
+    },
+    {
+      "plan_id": 306,
+      "plan_nom": "Lac de la Passe",
+      "lat": 47.835,
+      "lon": -68.694444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 307,
+      "plan_nom": "Lac de la Station",
+      "lat": 48.279444,
+      "lon": -68.877222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 318,
+      "plan_nom": "Lac de l'Est",
+      "lat": 47.205556,
+      "lon": -69.569167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 287,
+      "plan_nom": "Lac des Aigles",
+      "lat": 47.95,
+      "lon": -68.708611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 289,
+      "plan_nom": "Lac des Bouleaux",
+      "lat": 48.051667,
+      "lon": -68.594167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 301,
+      "plan_nom": "Lac du Pain de Sucre",
+      "lat": 47.815278,
+      "lon": -68.668056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 290,
+      "plan_nom": "Lac Ferré",
+      "lat": 48.220833,
+      "lon": -68.4425,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 22.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "021916",
+          "plan_eau": "Rivière Petite Neigette",
+          "description": "À 0,5 km en aval  du lac à la Peinture",
+          "lat": 48.419722,
+          "lon": -68.356111,
+          "distance_km": 23.02,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 22.93
+      }
+    },
+    {
+      "plan_id": 294,
+      "plan_nom": "Lac Grand lac Malobès",
+      "lat": 48.269444,
+      "lon": -68.86,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 319,
+      "plan_nom": "Lac Grand Lac Squatec",
+      "lat": 47.673056,
+      "lon": -68.573333,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 15.2,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 15.2
+      }
+    },
+    {
+      "plan_id": 320,
+      "plan_nom": "Lac Humqui",
+      "lat": 48.301389,
+      "lon": -67.571111,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 23.01,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 23.01
+      }
+    },
+    {
+      "plan_id": 322,
+      "plan_nom": "Lac Jerry",
+      "lat": 47.428889,
+      "lon": -68.788056,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 18.61,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 18.61
+      }
+    },
+    {
+      "plan_id": 293,
+      "plan_nom": "Lac Lavoie",
+      "lat": 47.548889,
+      "lon": -68.772778,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 13.05,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 13.05
+      }
+    },
+    {
+      "plan_id": 317,
+      "plan_nom": "Lac Le Beau Lac",
+      "lat": 47.361667,
+      "lon": -69.051389,
+      "stations": [
+        {
+          "id": "013105",
+          "plan_eau": "Lac Pohénégamook",
+          "description": "au Centre des loisirs Guy-Pelletier",
+          "lat": 47.491962,
+          "lon": -69.282256,
+          "distance_km": 22.62,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "013105",
+      "station": {
+        "id": "013105",
+        "plan_eau": "Lac Pohénégamook",
+        "description": "au Centre des loisirs Guy-Pelletier",
+        "lat": 47.491962,
+        "lon": -69.282256,
+        "distance_km": 22.62
+      }
+    },
+    {
+      "plan_id": 298,
+      "plan_nom": "Lac Martin",
+      "lat": 47.570278,
+      "lon": -68.716111,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 9.46,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 9.46
+      }
+    },
+    {
+      "plan_id": 300,
+      "plan_nom": "Lac Morin",
+      "lat": 47.629444,
+      "lon": -69.531111,
+      "stations": [
+        {
+          "id": "022501",
+          "plan_eau": "Lac Morin",
+          "description": "Au lac Morin à Saint-Alexandre-de-Kamouraska",
+          "lat": 47.65,
+          "lon": -69.51,
+          "distance_km": 2.78,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022501",
+      "station": {
+        "id": "022501",
+        "plan_eau": "Lac Morin",
+        "description": "Au lac Morin à Saint-Alexandre-de-Kamouraska",
+        "lat": 47.65,
+        "lon": -69.51,
+        "distance_km": 2.78
+      }
+    },
+    {
+      "plan_id": 291,
+      "plan_nom": "Lac Petit lac Ferré",
+      "lat": 48.239444,
+      "lon": -68.415556,
+      "stations": [
+        {
+          "id": "021916",
+          "plan_eau": "Rivière Petite Neigette",
+          "description": "À 0,5 km en aval  du lac à la Peinture",
+          "lat": 48.419722,
+          "lon": -68.356111,
+          "distance_km": 20.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 21.88,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021916",
+      "station": {
+        "id": "021916",
+        "plan_eau": "Rivière Petite Neigette",
+        "description": "À 0,5 km en aval  du lac à la Peinture",
+        "lat": 48.419722,
+        "lon": -68.356111,
+        "distance_km": 20.52
+      }
+    },
+    {
+      "plan_id": 12241,
+      "plan_nom": "Lac Petit lac Saint-Mathieu",
+      "lat": 48.180833,
+      "lon": -68.981389,
+      "stations": [
+        {
+          "id": "022301",
+          "plan_eau": "Rivière des Trois Pistoles",
+          "description": "À 2,1 km en amont du pont-route 132",
+          "lat": 48.089,
+          "lon": -69.195,
+          "distance_km": 18.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022301",
+      "station": {
+        "id": "022301",
+        "plan_eau": "Rivière des Trois Pistoles",
+        "description": "À 2,1 km en amont du pont-route 132",
+        "lat": 48.089,
+        "lon": -69.195,
+        "distance_km": 18.86
+      }
+    },
+    {
+      "plan_id": 305,
+      "plan_nom": "Lac Petit lac Squatec",
+      "lat": 47.864722,
+      "lon": -68.699722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 323,
+      "plan_nom": "Lac Pohénégamook",
+      "lat": 47.490556,
+      "lon": -69.271944,
+      "stations": [
+        {
+          "id": "013105",
+          "plan_eau": "Lac Pohénégamook",
+          "description": "au Centre des loisirs Guy-Pelletier",
+          "lat": 47.491962,
+          "lon": -69.282256,
+          "distance_km": 0.79,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "013105",
+      "station": {
+        "id": "013105",
+        "plan_eau": "Lac Pohénégamook",
+        "description": "au Centre des loisirs Guy-Pelletier",
+        "lat": 47.491962,
+        "lon": -69.282256,
+        "distance_km": 0.79
+      }
+    },
+    {
+      "plan_id": 302,
+      "plan_nom": "Lac Saint-François",
+      "lat": 47.75,
+      "lon": -69.308333,
+      "stations": [
+        {
+          "id": "022513",
+          "plan_eau": "Rivière du Loup",
+          "description": "À 1.4 km en aval du pont-route 185",
+          "lat": 47.821944,
+          "lon": -69.516667,
+          "distance_km": 17.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "022501",
+          "plan_eau": "Lac Morin",
+          "description": "Au lac Morin à Saint-Alexandre-de-Kamouraska",
+          "lat": 47.65,
+          "lon": -69.51,
+          "distance_km": 18.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "022505",
+          "plan_eau": "Rivière Fourchue",
+          "description": "À 0,2 km en aval du barrage Morin",
+          "lat": 47.650945,
+          "lon": -69.512153,
+          "distance_km": 18.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022513",
+      "station": {
+        "id": "022513",
+        "plan_eau": "Rivière du Loup",
+        "description": "À 1.4 km en aval du pont-route 185",
+        "lat": 47.821944,
+        "lon": -69.516667,
+        "distance_km": 17.5
+      }
+    },
+    {
+      "plan_id": 303,
+      "plan_nom": "Lac Saint-Jean",
+      "lat": 47.986111,
+      "lon": -68.839167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 304,
+      "plan_nom": "Lac Saint-Mathieu",
+      "lat": 48.154167,
+      "lon": -69.025,
+      "stations": [
+        {
+          "id": "022301",
+          "plan_eau": "Rivière des Trois Pistoles",
+          "description": "À 2,1 km en amont du pont-route 132",
+          "lat": 48.089,
+          "lon": -69.195,
+          "distance_km": 14.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022301",
+      "station": {
+        "id": "022301",
+        "plan_eau": "Rivière des Trois Pistoles",
+        "description": "À 2,1 km en amont du pont-route 132",
+        "lat": 48.089,
+        "lon": -69.195,
+        "distance_km": 14.55
+      }
+    },
+    {
+      "plan_id": 324,
+      "plan_nom": "Lac Témiscouata",
+      "lat": 47.682222,
+      "lon": -68.855833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3046,
+      "plan_nom": "Parc National du Lac-Témiscouata - Grand lac Touladi",
+      "lat": 47.730556,
+      "lon": -68.760278,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 24.61,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 24.61
+      }
+    },
+    {
+      "plan_id": 3047,
+      "plan_nom": "Parc National du Lac-Témiscouata - Petit lac Touladi",
+      "lat": 47.785,
+      "lon": -68.754722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 340,
+      "plan_nom": "Rivière Branche Nord",
+      "lat": 48.320556,
+      "lon": -67.559444,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 20.71,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 20.71
+      }
+    },
+    {
+      "plan_id": 387,
+      "plan_nom": "Rivière Chaude entre sa confluence avec la Grande Rivière",
+      "lat": 47.301389,
+      "lon": -69.902778,
+      "stations": [
+        {
+          "id": "022704",
+          "plan_eau": "Rivière Ouelle",
+          "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+          "lat": 47.381,
+          "lon": -69.954,
+          "distance_km": 9.66,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022704",
+      "station": {
+        "id": "022704",
+        "plan_eau": "Rivière Ouelle",
+        "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+        "lat": 47.381,
+        "lon": -69.954,
+        "distance_km": 9.66
+      }
+    },
+    {
+      "plan_id": 375,
+      "plan_nom": "Rivière du Moulin",
+      "lat": 48.064167,
+      "lon": -67.105278,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 5.21,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "01BJ007",
+          "plan_eau": "Rivière Ristigouche",
+          "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+          "lat": 47.908611,
+          "lon": -66.948056,
+          "distance_km": 20.88,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 5.21
+      }
+    },
+    {
+      "plan_id": 333,
+      "plan_nom": "Rivière du Sud-Ouest entre son embouchure",
+      "lat": 48.353889,
+      "lon": -68.759167,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 16.45,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02985",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Rimouski",
+          "lat": 48.478333,
+          "lon": -68.513667,
+          "distance_km": 22.8,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 16.45
+      }
+    },
+    {
+      "plan_id": 336,
+      "plan_nom": "Rivière Humqui a) entre sa confluence avec la rivière Matapédia",
+      "lat": 48.4625,
+      "lon": -67.429444,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 3.55,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 3.55
+      }
+    },
+    {
+      "plan_id": 337,
+      "plan_nom": "Rivière Humqui b) entre l'embouchure de la rivière Branche Nord",
+      "lat": 48.320556,
+      "lon": -67.556944,
+      "stations": [
+        {
+          "id": "011508",
+          "plan_eau": "Rivière Matapédia",
+          "description": "Au pont couvert en amont d'Amqui",
+          "lat": 48.491722,
+          "lon": -67.448833,
+          "distance_km": 20.64,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011508",
+      "station": {
+        "id": "011508",
+        "plan_eau": "Rivière Matapédia",
+        "description": "Au pont couvert en amont d'Amqui",
+        "lat": 48.491722,
+        "lon": -67.448833,
+        "distance_km": 20.64
+      }
+    },
+    {
+      "plan_id": 345,
+      "plan_nom": "Rivière Kedgwick entre la frontière Québec - Nouveau-Brunswick",
+      "lat": 48.000278,
+      "lon": -67.945833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 384,
+      "plan_nom": "Rivière La Grande Rivière a) entre sa confluence avec la rivière Ouelle",
+      "lat": 47.350556,
+      "lon": -69.926944,
+      "stations": [
+        {
+          "id": "022704",
+          "plan_eau": "Rivière Ouelle",
+          "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+          "lat": 47.381,
+          "lon": -69.954,
+          "distance_km": 3.95,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022704",
+      "station": {
+        "id": "022704",
+        "plan_eau": "Rivière Ouelle",
+        "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+        "lat": 47.381,
+        "lon": -69.954,
+        "distance_km": 3.95
+      }
+    },
+    {
+      "plan_id": 385,
+      "plan_nom": "Rivière La Grande Rivière b) entre sa confluence avec la rivière Chaude",
+      "lat": 47.301389,
+      "lon": -69.902778,
+      "stations": [
+        {
+          "id": "022704",
+          "plan_eau": "Rivière Ouelle",
+          "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+          "lat": 47.381,
+          "lon": -69.954,
+          "distance_km": 9.66,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022704",
+      "station": {
+        "id": "022704",
+        "plan_eau": "Rivière Ouelle",
+        "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+        "lat": 47.381,
+        "lon": -69.954,
+        "distance_km": 9.66
+      }
+    },
+    {
+      "plan_id": 361,
+      "plan_nom": "Rivière Milnikek a) entre sa confluence avec la rivière Matapédia",
+      "lat": 48.137222,
+      "lon": -67.153056,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 3.67,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 3.67
+      }
+    },
+    {
+      "plan_id": 363,
+      "plan_nom": "Rivière Milnikek b) entre le côté en aval du pont du CN",
+      "lat": 48.1375,
+      "lon": -67.153333,
+      "stations": [
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 3.71,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011509",
+      "station": {
+        "id": "011509",
+        "plan_eau": "Rivière Matapédia",
+        "description": "À 4 km en amont de l'Assemetquagan",
+        "lat": 48.108,
+        "lon": -67.13,
+        "distance_km": 3.71
+      }
+    },
+    {
+      "plan_id": 3260,
+      "plan_nom": "Rivière Mistigougèche entre sa confluence avec la rivière Mitis",
+      "lat": 48.448889,
+      "lon": -68.002778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 331,
+      "plan_nom": "Rivière Mistigougèche entre une droite perpendiculaire au courant passant par le point 48°23'04\" N., 68°02'41\" O. situé à 100 m en amont du pont des scouts et le lac des Eaux-Mortes",
+      "lat": 48.384444,
+      "lon": -68.044722,
+      "stations": [
+        {
+          "id": "021916",
+          "plan_eau": "Rivière Petite Neigette",
+          "description": "À 0,5 km en aval  du lac à la Peinture",
+          "lat": 48.419722,
+          "lon": -68.356111,
+          "distance_km": 23.32,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021916",
+      "station": {
+        "id": "021916",
+        "plan_eau": "Rivière Petite Neigette",
+        "description": "À 0,5 km en aval  du lac à la Peinture",
+        "lat": 48.419722,
+        "lon": -68.356111,
+        "distance_km": 23.32
+      }
+    },
+    {
+      "plan_id": 367,
+      "plan_nom": "Rivière Mitis entre le côté en aval du pont de la route 132 à Sainte-Angèle-de-Mérici",
+      "lat": 48.546389,
+      "lon": -68.131389,
+      "stations": [
+        {
+          "id": "021916",
+          "plan_eau": "Rivière Petite Neigette",
+          "description": "À 0,5 km en aval  du lac à la Peinture",
+          "lat": 48.419722,
+          "lon": -68.356111,
+          "distance_km": 21.74,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "021916",
+      "station": {
+        "id": "021916",
+        "plan_eau": "Rivière Petite Neigette",
+        "description": "À 0,5 km en aval  du lac à la Peinture",
+        "lat": 48.419722,
+        "lon": -68.356111,
+        "distance_km": 21.74
+      }
+    },
+    {
+      "plan_id": 378,
+      "plan_nom": "Rivière Ouelle - La partie comprise entre le côté en aval du pont de la route 132",
+      "lat": 47.4325,
+      "lon": -70.016389,
+      "stations": [
+        {
+          "id": "022704",
+          "plan_eau": "Rivière Ouelle",
+          "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+          "lat": 47.381,
+          "lon": -69.954,
+          "distance_km": 7.41,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022704",
+      "station": {
+        "id": "022704",
+        "plan_eau": "Rivière Ouelle",
+        "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+        "lat": 47.381,
+        "lon": -69.954,
+        "distance_km": 7.41
+      }
+    },
+    {
+      "plan_id": 392,
+      "plan_nom": "Rivière Patapédia entre la frontière Québec - Nouveau-Brunswick",
+      "lat": 48.0,
+      "lon": -67.597778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 393,
+      "plan_nom": "Rivière Patapédia entre sa confluence avec la rivière Patapédia-Est",
+      "lat": 48.078056,
+      "lon": -67.634722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 391,
+      "plan_nom": "Rivière Patapédia entre sa confluence avec la rivière Ristigouche",
+      "lat": 47.845,
+      "lon": -67.372778,
+      "stations": [
+        {
+          "id": "01BC001",
+          "plan_eau": "Rivière Ristigouche",
+          "description": "Au Nouveau-Brunswick, près de la rivière Kedgwick",
+          "lat": 47.666944,
+          "lon": -67.483056,
+          "distance_km": 21.45,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "01BC001",
+      "station": {
+        "id": "01BC001",
+        "plan_eau": "Rivière Ristigouche",
+        "description": "Au Nouveau-Brunswick, près de la rivière Kedgwick",
+        "lat": 47.666944,
+        "lon": -67.483056,
+        "distance_km": 21.45
+      }
+    },
+    {
+      "plan_id": 395,
+      "plan_nom": "Rivière Rimouski a) entre le côté en aval du pont de la route 132",
+      "lat": 48.415,
+      "lon": -68.555833,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 0.23,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 0.23
+      }
+    },
+    {
+      "plan_id": 396,
+      "plan_nom": "Rivière Rimouski b) entre une droite perpendiculaire au courant située à 250 m en aval du barrage de la Pulpe",
+      "lat": 48.411944,
+      "lon": -68.554722,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 0.12,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 0.12
+      }
+    },
+    {
+      "plan_id": 397,
+      "plan_nom": "Rivière Rimouski c) entre le barrage de la Pulpe",
+      "lat": 48.410278,
+      "lon": -68.5525,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 0.35,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 0.35
+      }
+    },
+    {
+      "plan_id": 398,
+      "plan_nom": "Rivière Rimouski d) entre la ligne de division nord du canton Macpès",
+      "lat": 48.346944,
+      "lon": -68.538056,
+      "stations": [
+        {
+          "id": "022003",
+          "plan_eau": "Rivière Rimouski",
+          "description": "À 3,7 km en amont du pont-route 132",
+          "lat": 48.413,
+          "lon": -68.555,
+          "distance_km": 7.45,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "022003",
+      "station": {
+        "id": "022003",
+        "plan_eau": "Rivière Rimouski",
+        "description": "À 3,7 km en amont du pont-route 132",
+        "lat": 48.413,
+        "lon": -68.555,
+        "distance_km": 7.45
+      }
+    },
+    {
+      "plan_id": 400,
+      "plan_nom": "Rivière Ristigouche entre l'embouchure de la rivière Matapédia",
+      "lat": 47.971944,
+      "lon": -66.940556,
+      "stations": [
+        {
+          "id": "01BJ007",
+          "plan_eau": "Rivière Ristigouche",
+          "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+          "lat": 47.908611,
+          "lon": -66.948056,
+          "distance_km": 7.06,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "011509",
+          "plan_eau": "Rivière Matapédia",
+          "description": "À 4 km en amont de l'Assemetquagan",
+          "lat": 48.108,
+          "lon": -67.13,
+          "distance_km": 20.67,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "01BJ007",
+      "station": {
+        "id": "01BJ007",
+        "plan_eau": "Rivière Ristigouche",
+        "description": "Au Nouveau-Brunswick, à  9 km de l'embouchure de la rivière Matapédia",
+        "lat": 47.908611,
+        "lon": -66.948056,
+        "distance_km": 7.06
+      }
+    },
+    {
+      "plan_id": 389,
+      "plan_nom": "Rivière Sainte-Anne entre sa confluence avec la Grande Rivière",
+      "lat": 47.258333,
+      "lon": -69.888889,
+      "stations": [
+        {
+          "id": "022704",
+          "plan_eau": "Rivière Ouelle",
+          "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+          "lat": 47.381,
+          "lon": -69.954,
+          "distance_km": 14.5,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "022704",
+      "station": {
+        "id": "022704",
+        "plan_eau": "Rivière Ouelle",
+        "description": "À 2,7 km en aval du pont-route près de Saint-Gabriel-de-Kamouraska",
+        "lat": 47.381,
+        "lon": -69.954,
+        "distance_km": 14.5
+      }
+    },
+    {
+      "plan_id": 10420,
+      "plan_nom": "Rivière Touladi - entre le ruisseau à Mac",
+      "lat": 47.679444,
+      "lon": -68.788333,
+      "stations": [
+        {
+          "id": "011707",
+          "plan_eau": "Rivière Madawaska",
+          "description": "À 6 km en aval du barrage Témiscouata",
+          "lat": 47.5375,
+          "lon": -68.599722,
+          "distance_km": 21.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "011707",
+      "station": {
+        "id": "011707",
+        "plan_eau": "Rivière Madawaska",
+        "description": "À 6 km en aval du barrage Témiscouata",
+        "lat": 47.5375,
+        "lon": -68.599722,
+        "distance_km": 21.19
+      }
+    },
+    {
+      "plan_id": 348,
+      "plan_nom": "Ruisseau Quigley entre sa confluence avec la rivière Kedgwick",
+      "lat": 48.026944,
+      "lon": -67.986111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

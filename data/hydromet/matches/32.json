@@ -1,0 +1,3241 @@
+{
+  "meta": {
+    "zone_id": 32,
+    "radius_km": 25.0,
+    "nb_with_coords": 163,
+    "nb_station_matched": 68
+  },
+  "matches": [
+    {
+      "plan_id": 928,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Lac à Jim",
+      "lat": 49.015278,
+      "lon": -72.738333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 930,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Lac Saint-Jean, les eaux entourées par les routes 169, 170 et 373 [à l'exception de la partie de la rivière Mistassini comprise entre le pont de la route 169 et une droite perpendiculaire au courant reliant le point 48°52'55,5'' N., 72°13'24'' O. et le point 48°53'9,4'' N., 72°13'29,7'' O. passant par l'extrémité en aval de la plus grande des deux îles situées immédiatement en aval de ce pont",
+      "lat": 48.882083,
+      "lon": -72.223333,
+      "stations": [
+        {
+          "id": "062102",
+          "plan_eau": "Rivière Mistassini",
+          "description": "À 3,4 km en amont de la rivière Mistassibi",
+          "lat": 48.889,
+          "lon": -72.272,
+          "distance_km": 3.64,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "062102",
+      "station": {
+        "id": "062102",
+        "plan_eau": "Rivière Mistassini",
+        "description": "À 3,4 km en amont de la rivière Mistassibi",
+        "lat": 48.889,
+        "lon": -72.272,
+        "distance_km": 3.64
+      }
+    },
+    {
+      "plan_id": 942,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, a) La partie entre le pont de la route 169 et une droite perpendiculaire au courant passant par le point 48°53'1.57\"N., 72° 54'10.51\" O. , située 200 mètres en aval de la Descente des Draveurs",
+      "lat": 48.883769,
+      "lon": -72.902919,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12780,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, b) La partie comprise entre une droite perpendiculaire au courant passant par le point 48°53'1.57\" N., 72°54'10.51\" O. , située 200 mètres en aval de la Descente des Draveurs et une droite perpendiculaire au courant passant par le point 48°54'35.24'' N., 72°56'59.71'' O. , située au pied des Rapides de l'Épinette Blanche.",
+      "lat": 48.883769,
+      "lon": -72.902919,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 956,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Mistassini - entre une droite perpendiculaire au courant reliant le point 48°52'55,5'' N., 72°13'24'' O. et le point 48°53'9,4'' N., 72°13'29,7'' O. passant par l'extrémité en aval de la plus grande des deux îles situées immédiatement en aval du pont de la route 169",
+      "lat": 48.882083,
+      "lon": -72.223333,
+      "stations": [
+        {
+          "id": "062102",
+          "plan_eau": "Rivière Mistassini",
+          "description": "À 3,4 km en amont de la rivière Mistassibi",
+          "lat": 48.889,
+          "lon": -72.272,
+          "distance_km": 3.64,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "062102",
+      "station": {
+        "id": "062102",
+        "plan_eau": "Rivière Mistassini",
+        "description": "À 3,4 km en amont de la rivière Mistassibi",
+        "lat": 48.889,
+        "lon": -72.272,
+        "distance_km": 3.64
+      }
+    },
+    {
+      "plan_id": 970,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, a) entre le côté en amont du pont de la route 169 et les bornes 48°50'27\" N., 72°03'57\" O. et 48°50'27\" N., 72°03'51\" O. situées à 200 m en aval du barrage hydroélectrique de la Chute-Blanche.",
+      "lat": 48.840833,
+      "lon": -72.065833,
+      "stations": [
+        {
+          "id": "061801",
+          "plan_eau": "Petite rivière Péribonka",
+          "description": "À 0,2 km en amont du pont-route 169",
+          "lat": 48.815,
+          "lon": -72.046,
+          "distance_km": 3.22,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061801",
+      "station": {
+        "id": "061801",
+        "plan_eau": "Petite rivière Péribonka",
+        "description": "À 0,2 km en amont du pont-route 169",
+        "lat": 48.815,
+        "lon": -72.046,
+        "distance_km": 3.22
+      }
+    },
+    {
+      "plan_id": 977,
+      "plan_nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, b) compris entre les bornes 48°50'27\" N., 72°03'57\" O. et 48°50'27\" N., 72°03'51\" O. situées à 200 m en aval du barrage hydroélectrique de la Chute-Blanche et le côté en amont du barrage de la Chute-Blanche.",
+      "lat": 48.840833,
+      "lon": -72.065833,
+      "stations": [
+        {
+          "id": "061801",
+          "plan_eau": "Petite rivière Péribonka",
+          "description": "À 0,2 km en amont du pont-route 169",
+          "lat": 48.815,
+          "lon": -72.046,
+          "distance_km": 3.22,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061801",
+      "station": {
+        "id": "061801",
+        "plan_eau": "Petite rivière Péribonka",
+        "description": "À 0,2 km en amont du pont-route 169",
+        "lat": 48.815,
+        "lon": -72.046,
+        "distance_km": 3.22
+      }
+    },
+    {
+      "plan_id": 2090,
+      "plan_nom": "Lac à la Carpe",
+      "lat": 48.219444,
+      "lon": -71.862222,
+      "stations": [
+        {
+          "id": "061020",
+          "plan_eau": "Rivière aux Écorces",
+          "description": "À 0,6 km en amont du pont-route 169",
+          "lat": 48.183,
+          "lon": -71.645,
+          "distance_km": 16.6,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061502",
+          "plan_eau": "Rivière Métabetchouane",
+          "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+          "lat": 48.376,
+          "lon": -71.997,
+          "distance_km": 20.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 24.4,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061020",
+      "station": {
+        "id": "061020",
+        "plan_eau": "Rivière aux Écorces",
+        "description": "À 0,6 km en amont du pont-route 169",
+        "lat": 48.183,
+        "lon": -71.645,
+        "distance_km": 16.6
+      }
+    },
+    {
+      "plan_id": 2126,
+      "plan_nom": "Lac à la Croix",
+      "lat": 48.396667,
+      "lon": -71.776389,
+      "stations": [
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 5.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061502",
+          "plan_eau": "Rivière Métabetchouane",
+          "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+          "lat": 48.376,
+          "lon": -71.997,
+          "distance_km": 16.45,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061307",
+      "station": {
+        "id": "061307",
+        "plan_eau": "La Belle Rivière",
+        "description": "En amont du ruisseau des Aulnaies",
+        "lat": 48.412,
+        "lon": -71.704,
+        "distance_km": 5.61
+      }
+    },
+    {
+      "plan_id": 2148,
+      "plan_nom": "Lac à la Poche",
+      "lat": 49.117222,
+      "lon": -72.143611,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 19.54,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 19.54
+      }
+    },
+    {
+      "plan_id": 10951,
+      "plan_nom": "Lac à la Truite",
+      "lat": 49.497778,
+      "lon": -72.802778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2044,
+      "plan_nom": "Lac à l'Ours",
+      "lat": 48.605556,
+      "lon": -72.802778,
+      "stations": [
+        {
+          "id": "061909",
+          "plan_eau": "Rivière aux Saumons",
+          "description": "À 1,3 km de la rivière Ashuapmushuan",
+          "lat": 48.684,
+          "lon": -72.513,
+          "distance_km": 23.01,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061901",
+          "plan_eau": "Rivière Ashuapmushuan",
+          "description": "À la tête de la chute aux Saumons",
+          "lat": 48.686,
+          "lon": -72.488,
+          "distance_km": 24.8,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061909",
+      "station": {
+        "id": "061909",
+        "plan_eau": "Rivière aux Saumons",
+        "description": "À 1,3 km de la rivière Ashuapmushuan",
+        "lat": 48.684,
+        "lon": -72.513,
+        "distance_km": 23.01
+      }
+    },
+    {
+      "plan_id": 2105,
+      "plan_nom": "Lac Abel",
+      "lat": 49.073056,
+      "lon": -72.249444,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 15.56,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062102",
+          "plan_eau": "Rivière Mistassini",
+          "description": "À 3,4 km en amont de la rivière Mistassibi",
+          "lat": 48.889,
+          "lon": -72.272,
+          "distance_km": 20.53,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 15.56
+      }
+    },
+    {
+      "plan_id": 11340,
+      "plan_nom": "Lac au Foin",
+      "lat": 49.944444,
+      "lon": -72.127222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10942,
+      "plan_nom": "Lac Augustin",
+      "lat": 48.456944,
+      "lon": -73.358333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2107,
+      "plan_nom": "Lac aux Aulnes",
+      "lat": 48.922222,
+      "lon": -72.735833,
+      "stations": [
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 22.17,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062002",
+      "station": {
+        "id": "062002",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+        "lat": 48.803778,
+        "lon": -72.492056,
+        "distance_km": 22.17
+      }
+    },
+    {
+      "plan_id": 2113,
+      "plan_nom": "Lac aux Brochets",
+      "lat": 49.050556,
+      "lon": -72.262778,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 13.7,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062102",
+          "plan_eau": "Rivière Mistassini",
+          "description": "À 3,4 km en amont de la rivière Mistassibi",
+          "lat": 48.889,
+          "lon": -72.272,
+          "distance_km": 17.98,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 13.7
+      }
+    },
+    {
+      "plan_id": 11961,
+      "plan_nom": "Lac aux Foins",
+      "lat": 49.132222,
+      "lon": -72.372778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2071,
+      "plan_nom": "Lac aux Goélands",
+      "lat": 48.315556,
+      "lon": -73.604167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10600,
+      "plan_nom": "Lac aux Hirondelles",
+      "lat": 50.015,
+      "lon": -70.391389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2552,
+      "plan_nom": "Lac aux Oiseaux",
+      "lat": 49.464167,
+      "lon": -72.053889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2109,
+      "plan_nom": "Lac Bilodeau",
+      "lat": 48.729444,
+      "lon": -71.213889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2073,
+      "plan_nom": "Lac Bonin",
+      "lat": 48.273889,
+      "lon": -73.656944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2057,
+      "plan_nom": "Lac Bouchette",
+      "lat": 48.242222,
+      "lon": -72.205833,
+      "stations": [
+        {
+          "id": "061602",
+          "plan_eau": "Rivière Ouiatchouan",
+          "description": "À 0,3 km en aval du barrage des Commissaires",
+          "lat": 48.20375,
+          "lon": -72.240111,
+          "distance_km": 4.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061601",
+          "plan_eau": "Lac des Commissaires",
+          "description": "Au lac des Commissaires à Lac-Bouchette",
+          "lat": 48.202,
+          "lon": -72.242,
+          "distance_km": 5.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061502",
+          "plan_eau": "Rivière Métabetchouane",
+          "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+          "lat": 48.376,
+          "lon": -71.997,
+          "distance_km": 21.44,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061602",
+      "station": {
+        "id": "061602",
+        "plan_eau": "Rivière Ouiatchouan",
+        "description": "À 0,3 km en aval du barrage des Commissaires",
+        "lat": 48.20375,
+        "lon": -72.240111,
+        "distance_km": 4.97
+      }
+    },
+    {
+      "plan_id": 3146,
+      "plan_nom": "Lac Brunelle",
+      "lat": 48.238889,
+      "lon": -73.356944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3066,
+      "plan_nom": "Lac Caché",
+      "lat": 49.301667,
+      "lon": -72.03,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3067,
+      "plan_nom": "Lac Carcajou",
+      "lat": 49.234167,
+      "lon": -72.938889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2027,
+      "plan_nom": "Lac Caribou",
+      "lat": 48.595556,
+      "lon": -72.795556,
+      "stations": [
+        {
+          "id": "061909",
+          "plan_eau": "Rivière aux Saumons",
+          "description": "À 1,3 km de la rivière Ashuapmushuan",
+          "lat": 48.684,
+          "lon": -72.513,
+          "distance_km": 22.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061901",
+          "plan_eau": "Rivière Ashuapmushuan",
+          "description": "À la tête de la chute aux Saumons",
+          "lat": 48.686,
+          "lon": -72.488,
+          "distance_km": 24.73,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061909",
+      "station": {
+        "id": "061909",
+        "plan_eau": "Rivière aux Saumons",
+        "description": "À 1,3 km de la rivière Ashuapmushuan",
+        "lat": 48.684,
+        "lon": -72.513,
+        "distance_km": 22.97
+      }
+    },
+    {
+      "plan_id": 2117,
+      "plan_nom": "Lac Cawachagami",
+      "lat": 48.931944,
+      "lon": -72.736944,
+      "stations": [
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 22.89,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062002",
+      "station": {
+        "id": "062002",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+        "lat": 48.803778,
+        "lon": -72.492056,
+        "distance_km": 22.89
+      }
+    },
+    {
+      "plan_id": 10944,
+      "plan_nom": "Lac Cécile",
+      "lat": 48.350556,
+      "lon": -73.105556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2029,
+      "plan_nom": "Lac Ceinture",
+      "lat": 48.858056,
+      "lon": -71.920833,
+      "stations": [
+        {
+          "id": "061801",
+          "plan_eau": "Petite rivière Péribonka",
+          "description": "À 0,2 km en amont du pont-route 169",
+          "lat": 48.815,
+          "lon": -72.046,
+          "distance_km": 10.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 20.66,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061801",
+      "station": {
+        "id": "061801",
+        "plan_eau": "Petite rivière Péribonka",
+        "description": "À 0,2 km en amont du pont-route 169",
+        "lat": 48.815,
+        "lon": -72.046,
+        "distance_km": 10.34
+      }
+    },
+    {
+      "plan_id": 3147,
+      "plan_nom": "Lac Chaumonot",
+      "lat": 47.976111,
+      "lon": -72.805833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2119,
+      "plan_nom": "Lac Chausson",
+      "lat": 49.420833,
+      "lon": -71.838333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11361,
+      "plan_nom": "Lac Citron",
+      "lat": 48.9,
+      "lon": -71.830556,
+      "stations": [
+        {
+          "id": "061801",
+          "plan_eau": "Petite rivière Péribonka",
+          "description": "À 0,2 km en amont du pont-route 169",
+          "lat": 48.815,
+          "lon": -72.046,
+          "distance_km": 18.38,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061801",
+      "station": {
+        "id": "061801",
+        "plan_eau": "Petite rivière Péribonka",
+        "description": "À 0,2 km en amont du pont-route 169",
+        "lat": 48.815,
+        "lon": -72.046,
+        "distance_km": 18.38
+      }
+    },
+    {
+      "plan_id": 2031,
+      "plan_nom": "Lac Clairvaux",
+      "lat": 48.578611,
+      "lon": -72.779722,
+      "stations": [
+        {
+          "id": "061909",
+          "plan_eau": "Rivière aux Saumons",
+          "description": "À 1,3 km de la rivière Ashuapmushuan",
+          "lat": 48.684,
+          "lon": -72.513,
+          "distance_km": 22.84,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061901",
+          "plan_eau": "Rivière Ashuapmushuan",
+          "description": "À la tête de la chute aux Saumons",
+          "lat": 48.686,
+          "lon": -72.488,
+          "distance_km": 24.54,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061909",
+      "station": {
+        "id": "061909",
+        "plan_eau": "Rivière aux Saumons",
+        "description": "À 1,3 km de la rivière Ashuapmushuan",
+        "lat": 48.684,
+        "lon": -72.513,
+        "distance_km": 22.84
+      }
+    },
+    {
+      "plan_id": 10945,
+      "plan_nom": "Lac Connelly",
+      "lat": 49.316944,
+      "lon": -71.965,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2121,
+      "plan_nom": "Lac Creux",
+      "lat": 48.716389,
+      "lon": -71.215278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2123,
+      "plan_nom": "Lac Croche",
+      "lat": 48.982778,
+      "lon": -72.681111,
+      "stations": [
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 24.23,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062002",
+      "station": {
+        "id": "062002",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+        "lat": 48.803778,
+        "lon": -72.492056,
+        "distance_km": 24.23
+      }
+    },
+    {
+      "plan_id": 3125,
+      "plan_nom": "Lac de l'Aqueduc",
+      "lat": 48.451944,
+      "lon": -71.531944,
+      "stations": [
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 13.45,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061028",
+          "plan_eau": "Rivière Pikauba",
+          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+          "lat": 48.305,
+          "lon": -71.441,
+          "distance_km": 17.67,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061029",
+          "plan_eau": "Rivière aux Sables",
+          "description": "À 75 m en amont du pont suspendu du complexe Cepal",
+          "lat": 48.372389,
+          "lon": -71.286083,
+          "distance_km": 20.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061002",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+          "lat": 48.36,
+          "lon": -71.27,
+          "distance_km": 21.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061307",
+      "station": {
+        "id": "061307",
+        "plan_eau": "La Belle Rivière",
+        "description": "En amont du ruisseau des Aulnaies",
+        "lat": 48.412,
+        "lon": -71.704,
+        "distance_km": 13.45
+      }
+    },
+    {
+      "plan_id": 3079,
+      "plan_nom": "Lac de l'Aqueduc",
+      "lat": 48.675,
+      "lon": -71.336667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2034,
+      "plan_nom": "Lac Delaunière",
+      "lat": 48.965556,
+      "lon": -72.594444,
+      "stations": [
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 19.48,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062002",
+      "station": {
+        "id": "062002",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+        "lat": 48.803778,
+        "lon": -72.492056,
+        "distance_km": 19.48
+      }
+    },
+    {
+      "plan_id": 3068,
+      "plan_nom": "Lac des Amarantes",
+      "lat": 48.936667,
+      "lon": -74.158056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3080,
+      "plan_nom": "Lac des Commissaires",
+      "lat": 48.187222,
+      "lon": -72.264167,
+      "stations": [
+        {
+          "id": "061601",
+          "plan_eau": "Lac des Commissaires",
+          "description": "Au lac des Commissaires à Lac-Bouchette",
+          "lat": 48.202,
+          "lon": -72.242,
+          "distance_km": 2.32,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061601",
+      "station": {
+        "id": "061601",
+        "plan_eau": "Lac des Commissaires",
+        "description": "Au lac des Commissaires à Lac-Bouchette",
+        "lat": 48.202,
+        "lon": -72.242,
+        "distance_km": 2.32
+      }
+    },
+    {
+      "plan_id": 3069,
+      "plan_nom": "Lac des Coudes",
+      "lat": 49.059722,
+      "lon": -72.629167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3070,
+      "plan_nom": "Lac des Habitants",
+      "lat": 48.797222,
+      "lon": -71.413889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2168,
+      "plan_nom": "Lac du Coin - La partie entre son émissaire, au point de rencontre avec le chemin forestier longeant la rivière aux Sables et les deux tuyaux de béton situés en amont",
+      "lat": 48.820556,
+      "lon": -70.565556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3157,
+      "plan_nom": "Lac du Dépôt",
+      "lat": 49.066389,
+      "lon": -72.035833,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 17.0,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 17.0
+      }
+    },
+    {
+      "plan_id": 3145,
+      "plan_nom": "Lac du Goéland",
+      "lat": 49.789444,
+      "lon": -71.679722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10943,
+      "plan_nom": "Lac du Nylon",
+      "lat": 48.684444,
+      "lon": -73.5025,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3071,
+      "plan_nom": "Lac du Petit Bras",
+      "lat": 48.617222,
+      "lon": -71.5025,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10940,
+      "plan_nom": "Lac Dulain",
+      "lat": 49.751667,
+      "lon": -71.577778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2036,
+      "plan_nom": "Lac Émile",
+      "lat": 48.643333,
+      "lon": -73.282222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3199,
+      "plan_nom": "Lac Estaire",
+      "lat": 48.321111,
+      "lon": -71.841667,
+      "stations": [
+        {
+          "id": "061502",
+          "plan_eau": "Rivière Métabetchouane",
+          "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+          "lat": 48.376,
+          "lon": -71.997,
+          "distance_km": 13.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 14.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061020",
+          "plan_eau": "Rivière aux Écorces",
+          "description": "À 0,6 km en amont du pont-route 169",
+          "lat": 48.183,
+          "lon": -71.645,
+          "distance_km": 21.16,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061502",
+      "station": {
+        "id": "061502",
+        "plan_eau": "Rivière Métabetchouane",
+        "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+        "lat": 48.376,
+        "lon": -71.997,
+        "distance_km": 13.0
+      }
+    },
+    {
+      "plan_id": 3200,
+      "plan_nom": "Lac Falardeau",
+      "lat": 49.138611,
+      "lon": -72.444722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10922,
+      "plan_nom": "Lac Gaston",
+      "lat": 48.506944,
+      "lon": -73.404167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10950,
+      "plan_nom": "Lac Gilbert",
+      "lat": 48.466111,
+      "lon": -73.41,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10946,
+      "plan_nom": "Lac Gouin",
+      "lat": 49.541667,
+      "lon": -70.239444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2128,
+      "plan_nom": "Lac Grand Brochet",
+      "lat": 49.087222,
+      "lon": -72.4975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2040,
+      "plan_nom": "Lac Grand lac Clair",
+      "lat": 49.026389,
+      "lon": -73.038333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3153,
+      "plan_nom": "Lac Gronick",
+      "lat": 49.106667,
+      "lon": -72.988056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10948,
+      "plan_nom": "Lac Kapahkueshikanapishkatsh",
+      "lat": 49.551111,
+      "lon": -72.738889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11921,
+      "plan_nom": "Lac Kapapameutanu",
+      "lat": 49.435,
+      "lon": -72.776111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3158,
+      "plan_nom": "Lac Kauashekamatsh",
+      "lat": 49.861111,
+      "lon": -71.296111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2160,
+      "plan_nom": "Lac Kénogami",
+      "lat": 48.326667,
+      "lon": -71.376667,
+      "stations": [
+        {
+          "id": "061002",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+          "lat": 48.36,
+          "lon": -71.27,
+          "distance_km": 8.71,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "061001",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Portage-des-Roches",
+          "lat": 48.309417,
+          "lon": -71.211861,
+          "distance_km": 12.34,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061002",
+      "station": {
+        "id": "061002",
+        "plan_eau": "Lac-Kénogami",
+        "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+        "lat": 48.36,
+        "lon": -71.27,
+        "distance_km": 8.71
+      }
+    },
+    {
+      "plan_id": 2161,
+      "plan_nom": "Lac Kénogami",
+      "lat": 48.326667,
+      "lon": -71.376667,
+      "stations": [
+        {
+          "id": "061002",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+          "lat": 48.36,
+          "lon": -71.27,
+          "distance_km": 8.71,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "061001",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Portage-des-Roches",
+          "lat": 48.309417,
+          "lon": -71.211861,
+          "distance_km": 12.34,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061002",
+      "station": {
+        "id": "061002",
+        "plan_eau": "Lac-Kénogami",
+        "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+        "lat": 48.36,
+        "lon": -71.27,
+        "distance_km": 8.71
+      }
+    },
+    {
+      "plan_id": 3081,
+      "plan_nom": "Lac Kénogamichiche",
+      "lat": 48.368056,
+      "lon": -71.601389,
+      "stations": [
+        {
+          "id": "061002",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+          "lat": 48.36,
+          "lon": -71.27,
+          "distance_km": 24.5,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "061001",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Portage-des-Roches",
+          "lat": 48.309417,
+          "lon": -71.211861,
+          "distance_km": 29.52,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061002",
+      "station": {
+        "id": "061002",
+        "plan_eau": "Lac-Kénogami",
+        "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+        "lat": 48.36,
+        "lon": -71.27,
+        "distance_km": 24.5
+      }
+    },
+    {
+      "plan_id": 3074,
+      "plan_nom": "Lac La Mothe",
+      "lat": 48.784167,
+      "lon": -71.154722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3073,
+      "plan_nom": "Lac Labonté",
+      "lat": 48.591111,
+      "lon": -71.445556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2133,
+      "plan_nom": "Lac Labrecque",
+      "lat": 48.681111,
+      "lon": -71.494167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2550,
+      "plan_nom": "Lac Le Barrois",
+      "lat": 48.596389,
+      "lon": -72.871111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2135,
+      "plan_nom": "Lac Loup Cervier",
+      "lat": 49.081944,
+      "lon": -72.454167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10947,
+      "plan_nom": "Lac Malfait",
+      "lat": 49.3175,
+      "lon": -72.046111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3075,
+      "plan_nom": "Lac Margane",
+      "lat": 49.9425,
+      "lon": -71.121111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3082,
+      "plan_nom": "Lac Marie-Paule",
+      "lat": 49.490556,
+      "lon": -71.200556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3148,
+      "plan_nom": "Lac Martel",
+      "lat": 48.086389,
+      "lon": -73.118889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11922,
+      "plan_nom": "Lac Mathieu",
+      "lat": 49.130278,
+      "lon": -72.359722,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 24.94,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 24.94
+      }
+    },
+    {
+      "plan_id": 10620,
+      "plan_nom": "Lac Ménicanane",
+      "lat": 48.278611,
+      "lon": -73.56,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3076,
+      "plan_nom": "Lac Montréal",
+      "lat": 49.072778,
+      "lon": -72.912222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2139,
+      "plan_nom": "Lac Noir",
+      "lat": 49.026944,
+      "lon": -72.008889,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 15.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061801",
+          "plan_eau": "Petite rivière Péribonka",
+          "description": "À 0,2 km en amont du pont-route 169",
+          "lat": 48.815,
+          "lon": -72.046,
+          "distance_km": 23.72,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062102",
+          "plan_eau": "Rivière Mistassini",
+          "description": "À 3,4 km en amont de la rivière Mistassibi",
+          "lat": 48.889,
+          "lon": -72.272,
+          "distance_km": 24.58,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 15.19
+      }
+    },
+    {
+      "plan_id": 10640,
+      "plan_nom": "Lac Onatchiway",
+      "lat": 49.041111,
+      "lon": -71.056389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12220,
+      "plan_nom": "Lac Otis",
+      "lat": 48.306111,
+      "lon": -70.651667,
+      "stations": [
+        {
+          "id": "060603",
+          "plan_eau": "Bras Rocheux",
+          "description": "À 350 m de la confluence avec la rivière Ha! Ha!                                                                                                                                                                                                              ",
+          "lat": 48.245847,
+          "lon": -70.842706,
+          "distance_km": 15.65,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 16.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "060601",
+          "plan_eau": "Rivière Ha! Ha!",
+          "description": "À 7.1 km de l'embouchure",
+          "lat": 48.2775,
+          "lon": -70.872222,
+          "distance_km": 16.62,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060603",
+      "station": {
+        "id": "060603",
+        "plan_eau": "Bras Rocheux",
+        "description": "À 350 m de la confluence avec la rivière Ha! Ha!                                                                                                                                                                                                              ",
+        "lat": 48.245847,
+        "lon": -70.842706,
+        "distance_km": 15.65
+      }
+    },
+    {
+      "plan_id": 3095,
+      "plan_nom": "Lac Ouiatchouan",
+      "lat": 48.271667,
+      "lon": -72.183889,
+      "stations": [
+        {
+          "id": "061602",
+          "plan_eau": "Rivière Ouiatchouan",
+          "description": "À 0,3 km en aval du barrage des Commissaires",
+          "lat": 48.20375,
+          "lon": -72.240111,
+          "distance_km": 8.62,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061602",
+      "station": {
+        "id": "061602",
+        "plan_eau": "Rivière Ouiatchouan",
+        "description": "À 0,3 km en aval du barrage des Commissaires",
+        "lat": 48.20375,
+        "lon": -72.240111,
+        "distance_km": 8.62
+      }
+    },
+    {
+      "plan_id": 3150,
+      "plan_nom": "Lac Ouinégomic",
+      "lat": 47.945278,
+      "lon": -73.233056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10952,
+      "plan_nom": "Lac Pamouscachiou",
+      "lat": 49.45,
+      "lon": -70.9,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2141,
+      "plan_nom": "Lac Paré",
+      "lat": 48.955833,
+      "lon": -72.621111,
+      "stations": [
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 19.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062002",
+      "station": {
+        "id": "062002",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+        "lat": 48.803778,
+        "lon": -72.492056,
+        "distance_km": 19.36
+      }
+    },
+    {
+      "plan_id": 2145,
+      "plan_nom": "Lac Pelletier",
+      "lat": 49.465833,
+      "lon": -72.020833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12221,
+      "plan_nom": "Lac Périgny",
+      "lat": 48.215556,
+      "lon": -70.470278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12720,
+      "plan_nom": "Lac Petit lac Éternité",
+      "lat": 48.232778,
+      "lon": -70.475556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10621,
+      "plan_nom": "Lac Petit lac Monikanan Ouest",
+      "lat": 48.239444,
+      "lon": -73.541111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10920,
+      "plan_nom": "Lac Petit lac Onatchiway",
+      "lat": 49.116389,
+      "lon": -71.033056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2143,
+      "plan_nom": "Lac Petit lac Savard",
+      "lat": 49.2125,
+      "lon": -71.944167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3077,
+      "plan_nom": "Lac Pileushiu",
+      "lat": 49.445556,
+      "lon": -72.834444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10949,
+      "plan_nom": "Lac Poisson blanc",
+      "lat": 49.082222,
+      "lon": -71.082222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2047,
+      "plan_nom": "Lac Potvin",
+      "lat": 48.629167,
+      "lon": -73.149722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11923,
+      "plan_nom": "Lac Rhéaume",
+      "lat": 47.888333,
+      "lon": -73.406944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2083,
+      "plan_nom": "Lac Rita",
+      "lat": 48.215833,
+      "lon": -73.396389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2049,
+      "plan_nom": "Lac Rita",
+      "lat": 49.491944,
+      "lon": -71.218611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2150,
+      "plan_nom": "Lac Rivaille",
+      "lat": 49.5225,
+      "lon": -71.890278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10941,
+      "plan_nom": "Lac Rond",
+      "lat": 49.42,
+      "lon": -72.979722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2163,
+      "plan_nom": "Lac Rond",
+      "lat": 48.376389,
+      "lon": -72.333333,
+      "stations": [
+        {
+          "id": "062914",
+          "plan_eau": "Lac Saint-Jean",
+          "description": "À Roberval (près du centre aquatique)",
+          "lat": 48.536611,
+          "lon": -72.217611,
+          "distance_km": 19.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061602",
+          "plan_eau": "Rivière Ouiatchouan",
+          "description": "À 0,3 km en aval du barrage des Commissaires",
+          "lat": 48.20375,
+          "lon": -72.240111,
+          "distance_km": 20.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061601",
+          "plan_eau": "Lac des Commissaires",
+          "description": "Au lac des Commissaires à Lac-Bouchette",
+          "lat": 48.202,
+          "lon": -72.242,
+          "distance_km": 20.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "064101",
+          "plan_eau": "Rivière aux Iroquois",
+          "description": "À 150 m en amont du pont du 3e rang à Saint-Prime",
+          "lat": 48.58315,
+          "lon": -72.379039,
+          "distance_km": 23.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061502",
+          "plan_eau": "Rivière Métabetchouane",
+          "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+          "lat": 48.376,
+          "lon": -71.997,
+          "distance_km": 24.84,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062914",
+      "station": {
+        "id": "062914",
+        "plan_eau": "Lac Saint-Jean",
+        "description": "À Roberval (près du centre aquatique)",
+        "lat": 48.536611,
+        "lon": -72.217611,
+        "distance_km": 19.75
+      }
+    },
+    {
+      "plan_id": 2165,
+      "plan_nom": "Lac Rouvray",
+      "lat": 49.317778,
+      "lon": -70.808611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3086,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.120556,
+      "lon": -72.031667,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 22.3,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 22.3
+      }
+    },
+    {
+      "plan_id": 3087,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.140278,
+      "lon": -72.157222,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 22.02,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 22.02
+      }
+    },
+    {
+      "plan_id": 3088,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.151944,
+      "lon": -72.165278,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 23.29,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 23.29
+      }
+    },
+    {
+      "plan_id": 3089,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.175833,
+      "lon": -72.1425,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3090,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.1775,
+      "lon": -72.139167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3091,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.219722,
+      "lon": -71.955556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3092,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.698056,
+      "lon": -71.6325,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3093,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.774722,
+      "lon": -71.034444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3159,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.846667,
+      "lon": -71.299444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3265,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.889167,
+      "lon": -71.7975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3264,
+      "plan_nom": "Lac Sans nom",
+      "lat": 49.898611,
+      "lon": -71.821944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2449,
+      "plan_nom": "Lac sans nom",
+      "lat": 48.305278,
+      "lon": -70.983611,
+      "stations": [
+        {
+          "id": "060601",
+          "plan_eau": "Rivière Ha! Ha!",
+          "description": "À 7.1 km de l'embouchure",
+          "lat": 48.2775,
+          "lon": -70.872222,
+          "distance_km": 8.8,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 9.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "060901",
+          "plan_eau": "Rivière du Moulin",
+          "description": "En amont du seuil à l'entrée du parc du Moulin",
+          "lat": 48.394,
+          "lon": -71.042,
+          "distance_km": 10.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 11.2,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "060603",
+          "plan_eau": "Bras Rocheux",
+          "description": "À 350 m de la confluence avec la rivière Ha! Ha!                                                                                                                                                                                                              ",
+          "lat": 48.245847,
+          "lon": -70.842706,
+          "distance_km": 12.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 15.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061004",
+          "plan_eau": "Rivière Chicoutimi",
+          "description": "À 0,3 km en aval du barrage de Portage-des-Roches",
+          "lat": 48.306,
+          "lon": -71.197,
+          "distance_km": 15.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061001",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Portage-des-Roches",
+          "lat": 48.309417,
+          "lon": -71.211861,
+          "distance_km": 16.89,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060601",
+      "station": {
+        "id": "060601",
+        "plan_eau": "Rivière Ha! Ha!",
+        "description": "À 7.1 km de l'embouchure",
+        "lat": 48.2775,
+        "lon": -70.872222,
+        "distance_km": 8.8
+      }
+    },
+    {
+      "plan_id": 3085,
+      "plan_nom": "Lac sans nom",
+      "lat": 48.443333,
+      "lon": -71.548333,
+      "stations": [
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 12.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061028",
+          "plan_eau": "Rivière Pikauba",
+          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+          "lat": 48.305,
+          "lon": -71.441,
+          "distance_km": 17.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061029",
+          "plan_eau": "Rivière aux Sables",
+          "description": "À 75 m en amont du pont suspendu du complexe Cepal",
+          "lat": 48.372389,
+          "lon": -71.286083,
+          "distance_km": 20.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061002",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+          "lat": 48.36,
+          "lon": -71.27,
+          "distance_km": 22.54,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061307",
+      "station": {
+        "id": "061307",
+        "plan_eau": "La Belle Rivière",
+        "description": "En amont du ruisseau des Aulnaies",
+        "lat": 48.412,
+        "lon": -71.704,
+        "distance_km": 12.0
+      }
+    },
+    {
+      "plan_id": 3094,
+      "plan_nom": "Lac sans nom",
+      "lat": 49.275,
+      "lon": -70.088889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2152,
+      "plan_nom": "Lac Savard",
+      "lat": 49.218056,
+      "lon": -71.961389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3078,
+      "plan_nom": "Lac Sébastien",
+      "lat": 48.658056,
+      "lon": -71.1675,
+      "stations": [
+        {
+          "id": "062701",
+          "plan_eau": "Rivière Valin",
+          "description": "À 3,5 km de l'embouchure",
+          "lat": 48.48794,
+          "lon": -70.97219,
+          "distance_km": 23.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062701",
+      "station": {
+        "id": "062701",
+        "plan_eau": "Rivière Valin",
+        "description": "À 3,5 km de l'embouchure",
+        "lat": 48.48794,
+        "lon": -70.97219,
+        "distance_km": 23.76
+      }
+    },
+    {
+      "plan_id": 2085,
+      "plan_nom": "Lac Slide",
+      "lat": 47.857778,
+      "lon": -72.735278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3084,
+      "plan_nom": "Lac Tchitogama",
+      "lat": 48.816111,
+      "lon": -71.381944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2156,
+      "plan_nom": "Lac Ushisk",
+      "lat": 49.253333,
+      "lon": -72.932222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10921,
+      "plan_nom": "Lac Vermont",
+      "lat": 48.946667,
+      "lon": -71.152778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2051,
+      "plan_nom": "Lac Vert",
+      "lat": 48.365833,
+      "lon": -71.645,
+      "stations": [
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 6.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061028",
+          "plan_eau": "Rivière Pikauba",
+          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+          "lat": 48.305,
+          "lon": -71.441,
+          "distance_km": 16.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061020",
+          "plan_eau": "Rivière aux Écorces",
+          "description": "À 0,6 km en amont du pont-route 169",
+          "lat": 48.183,
+          "lon": -71.645,
+          "distance_km": 20.33,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061307",
+      "station": {
+        "id": "061307",
+        "plan_eau": "La Belle Rivière",
+        "description": "En amont du ruisseau des Aulnaies",
+        "lat": 48.412,
+        "lon": -71.704,
+        "distance_km": 6.73
+      }
+    },
+    {
+      "plan_id": 2055,
+      "plan_nom": "Lac Vert",
+      "lat": 48.365833,
+      "lon": -71.645,
+      "stations": [
+        {
+          "id": "061307",
+          "plan_eau": "La Belle Rivière",
+          "description": "En amont du ruisseau des Aulnaies",
+          "lat": 48.412,
+          "lon": -71.704,
+          "distance_km": 6.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061028",
+          "plan_eau": "Rivière Pikauba",
+          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+          "lat": 48.305,
+          "lon": -71.441,
+          "distance_km": 16.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061020",
+          "plan_eau": "Rivière aux Écorces",
+          "description": "À 0,6 km en amont du pont-route 169",
+          "lat": 48.183,
+          "lon": -71.645,
+          "distance_km": 20.33,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "061307",
+      "station": {
+        "id": "061307",
+        "plan_eau": "La Belle Rivière",
+        "description": "En amont du ruisseau des Aulnaies",
+        "lat": 48.412,
+        "lon": -71.704,
+        "distance_km": 6.73
+      }
+    },
+    {
+      "plan_id": 2157,
+      "plan_nom": "Lac Vert",
+      "lat": 48.943889,
+      "lon": -72.7375,
+      "stations": [
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 23.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062002",
+      "station": {
+        "id": "062002",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+        "lat": 48.803778,
+        "lon": -72.492056,
+        "distance_km": 23.77
+      }
+    },
+    {
+      "plan_id": 2159,
+      "plan_nom": "Lac Yenevac",
+      "lat": 49.153889,
+      "lon": -72.150278,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 23.56,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 23.56
+      }
+    },
+    {
+      "plan_id": 12101,
+      "plan_nom": "Parc National du Fjord-du-Saguenay Rivière Éternité, la partie comprise entre une droite perpendiculaire à la borne de repère",
+      "lat": 48.2975,
+      "lon": -70.335556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3272,
+      "plan_nom": "Réservoir Péribonka entre un point en aval",
+      "lat": 49.506389,
+      "lon": -71.182222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10923,
+      "plan_nom": "Réservoir Pipmuacan",
+      "lat": 49.503056,
+      "lon": -70.340278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2198,
+      "plan_nom": "Rivière à Mars a) entre une droite joignant les points 48°20'13,9\" N., 70°52'36,5\" O. et 48°20'18,8\" N., 70°52'40,7\" O. et la limite supérieure du secteur de pêche # 2",
+      "lat": 48.337194,
+      "lon": -70.876806,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 17.22,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 17.22
+      }
+    },
+    {
+      "plan_id": 2199,
+      "plan_nom": "Rivière à Mars b) entre la limite supérieure du secteur de pêche # 2",
+      "lat": 48.328194,
+      "lon": -70.905278,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 15.32,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 15.32
+      }
+    },
+    {
+      "plan_id": 2200,
+      "plan_nom": "Rivière à Mars c) entre un point",
+      "lat": 48.304167,
+      "lon": -70.990278,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 11.04,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 11.04
+      }
+    },
+    {
+      "plan_id": 2201,
+      "plan_nom": "Rivière à Mars d) entre le pont, au bâtiment d'accueil du Centre plein air Bec-Scie et le côté en aval de la fosse no 80",
+      "lat": 48.204444,
+      "lon": -70.997778,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 0.06,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 0.06
+      }
+    },
+    {
+      "plan_id": 2202,
+      "plan_nom": "Rivière à Mars e) entre le côté en aval de la fosse no 80",
+      "lat": 48.204444,
+      "lon": -70.997778,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 0.06,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 0.06
+      }
+    },
+    {
+      "plan_id": 2203,
+      "plan_nom": "Rivière à Mars f) entre le côté en amont de la chute Castule située au point",
+      "lat": 48.163056,
+      "lon": -71.0175,
+      "stations": [
+        {
+          "id": "060704",
+          "plan_eau": "Rivière à Mars",
+          "description": "À la fosse 80 dans la zec de la rivière à Mars",
+          "lat": 48.205,
+          "lon": -70.998,
+          "distance_km": 4.88,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060704",
+      "station": {
+        "id": "060704",
+        "plan_eau": "Rivière à Mars",
+        "description": "À la fosse 80 dans la zec de la rivière à Mars",
+        "lat": 48.205,
+        "lon": -70.998,
+        "distance_km": 4.88
+      }
+    },
+    {
+      "plan_id": 2170,
+      "plan_nom": "Rivière aux Écorces - La partie entre son embouchure et la limite nord de la réserve faunique des Laurentides",
+      "lat": 48.2325,
+      "lon": -71.515556,
+      "stations": [
+        {
+          "id": "061020",
+          "plan_eau": "Rivière aux Écorces",
+          "description": "À 0,6 km en amont du pont-route 169",
+          "lat": 48.183,
+          "lon": -71.645,
+          "distance_km": 11.06,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061020",
+      "station": {
+        "id": "061020",
+        "plan_eau": "Rivière aux Écorces",
+        "description": "À 0,6 km en amont du pont-route 169",
+        "lat": 48.183,
+        "lon": -71.645,
+        "distance_km": 11.06
+      }
+    },
+    {
+      "plan_id": 3267,
+      "plan_nom": "Rivière aux Rats",
+      "lat": 48.977222,
+      "lon": -72.288056,
+      "stations": [
+        {
+          "id": "062114",
+          "plan_eau": "Rivière Mistassibi",
+          "description": "En amont de la chute Bouchard",
+          "lat": 48.942528,
+          "lon": -72.172556,
+          "distance_km": 9.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062102",
+          "plan_eau": "Rivière Mistassini",
+          "description": "À 3,4 km en amont de la rivière Mistassibi",
+          "lat": 48.889,
+          "lon": -72.272,
+          "distance_km": 9.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062002",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont du ponceau sur la route 373 (rang Saint-Cyrille)",
+          "lat": 48.803778,
+          "lon": -72.492056,
+          "distance_km": 24.38,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062114",
+      "station": {
+        "id": "062114",
+        "plan_eau": "Rivière Mistassibi",
+        "description": "En amont de la chute Bouchard",
+        "lat": 48.942528,
+        "lon": -72.172556,
+        "distance_km": 9.27
+      }
+    },
+    {
+      "plan_id": 2220,
+      "plan_nom": "Rivière Bras des Murailles",
+      "lat": 48.570833,
+      "lon": -70.415833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2179,
+      "plan_nom": "Rivière Descente des Femmes entre le côté en aval du pont situé aux points 48°23'25\" N., 70°34'14\" O. à son embouchure, au côté en aval du pont de la route 172.",
+      "lat": 48.390278,
+      "lon": -70.570556,
+      "stations": [
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 22.93,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03460",
+      "station": {
+        "id": "03460",
+        "plan_eau": "Rivière Saguenay",
+        "description": "À Port-Alfred",
+        "lat": 48.33401,
+        "lon": -70.86917,
+        "distance_km": 22.93
+      }
+    },
+    {
+      "plan_id": 12741,
+      "plan_nom": "Rivière du Moulin - La partie comprise entre le coté aval du pont du boulevard du Saguenay",
+      "lat": 48.425,
+      "lon": -71.030181,
+      "stations": [
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 2.86,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "060901",
+          "plan_eau": "Rivière du Moulin",
+          "description": "En amont du seuil à l'entrée du parc du Moulin",
+          "lat": 48.394,
+          "lon": -71.042,
+          "distance_km": 3.56,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 15.61,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03480",
+      "station": {
+        "id": "03480",
+        "plan_eau": "Rivière Saguenay",
+        "description": "En aval du pont Dubuc à Saguenay",
+        "lat": 48.433,
+        "lon": -71.067,
+        "distance_km": 2.86
+      }
+    },
+    {
+      "plan_id": 2186,
+      "plan_nom": "Rivière Ha! Ha! entre le côté en aval du pont de la route 170 et le barrage déversoir de la rivière Ha! Ha!",
+      "lat": 48.308333,
+      "lon": -70.876111,
+      "stations": [
+        {
+          "id": "060601",
+          "plan_eau": "Rivière Ha! Ha!",
+          "description": "À 7.1 km de l'embouchure",
+          "lat": 48.2775,
+          "lon": -70.872222,
+          "distance_km": 3.44,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060601",
+      "station": {
+        "id": "060601",
+        "plan_eau": "Rivière Ha! Ha!",
+        "description": "À 7.1 km de l'embouchure",
+        "lat": 48.2775,
+        "lon": -70.872222,
+        "distance_km": 3.44
+      }
+    },
+    {
+      "plan_id": 2053,
+      "plan_nom": "Rivière Métabetchouane",
+      "lat": 48.18,
+      "lon": -71.892222,
+      "stations": [
+        {
+          "id": "061502",
+          "plan_eau": "Rivière Métabetchouane",
+          "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+          "lat": 48.376,
+          "lon": -71.997,
+          "distance_km": 23.13,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061502",
+      "station": {
+        "id": "061502",
+        "plan_eau": "Rivière Métabetchouane",
+        "description": "À 9 km en amont de l'embouchure de la rivière Métabetchouane",
+        "lat": 48.376,
+        "lon": -71.997,
+        "distance_km": 23.13
+      }
+    },
+    {
+      "plan_id": 2054,
+      "plan_nom": "Rivière Ouiatchouan",
+      "lat": 48.426389,
+      "lon": -72.168889,
+      "stations": [
+        {
+          "id": "061602",
+          "plan_eau": "Rivière Ouiatchouan",
+          "description": "À 0,3 km en aval du barrage des Commissaires",
+          "lat": 48.20375,
+          "lon": -72.240111,
+          "distance_km": 25.31,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061602",
+      "station": {
+        "id": "061602",
+        "plan_eau": "Rivière Ouiatchouan",
+        "description": "À 0,3 km en aval du barrage des Commissaires",
+        "lat": 48.20375,
+        "lon": -72.240111,
+        "distance_km": 25.31
+      }
+    },
+    {
+      "plan_id": 2065,
+      "plan_nom": "Rivière Péribonka",
+      "lat": 49.0,
+      "lon": -71.335,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2291,
+      "plan_nom": "Rivière Pikauba - La partie entre le premier rapide et l'embouchure du ruisseau à la Blague",
+      "lat": 48.238611,
+      "lon": -71.445556,
+      "stations": [
+        {
+          "id": "061028",
+          "plan_eau": "Rivière Pikauba",
+          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+          "lat": 48.305,
+          "lon": -71.441,
+          "distance_km": 7.39,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "061028",
+      "station": {
+        "id": "061028",
+        "plan_eau": "Rivière Pikauba",
+        "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+        "lat": 48.305,
+        "lon": -71.441,
+        "distance_km": 7.39
+      }
+    },
+    {
+      "plan_id": 2188,
+      "plan_nom": "Rivière Saguenay a) entre la partie en aval du barrage de l'Isle-Maligne et des structures de rétention du lac Saint-Jean",
+      "lat": 48.45,
+      "lon": -71.25,
+      "stations": [
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 13.63,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03480",
+      "station": {
+        "id": "03480",
+        "plan_eau": "Rivière Saguenay",
+        "description": "En aval du pont Dubuc à Saguenay",
+        "lat": 48.433,
+        "lon": -71.067,
+        "distance_km": 13.63
+      }
+    },
+    {
+      "plan_id": 2189,
+      "plan_nom": "Rivière Saguenay b) entre une droite perpendiculaire à la rivière Saguenay passant par l'extrémité la plus en amont du barrage Chute-à-Caron, sur la rive sud de la rivière Saguenay",
+      "lat": 48.45,
+      "lon": -71.25,
+      "stations": [
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 13.63,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03480",
+      "station": {
+        "id": "03480",
+        "plan_eau": "Rivière Saguenay",
+        "description": "En aval du pont Dubuc à Saguenay",
+        "lat": 48.433,
+        "lon": -71.067,
+        "distance_km": 13.63
+      }
+    },
+    {
+      "plan_id": 2190,
+      "plan_nom": "Rivière Saguenay c) entre le pied des barrages Chute-à-Caron et Shipshaw et le côté aval du pont Dubuc",
+      "lat": 48.432667,
+      "lon": -71.0705,
+      "stations": [
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 0.26,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03460",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Port-Alfred",
+          "lat": 48.33401,
+          "lon": -70.86917,
+          "distance_km": 18.48,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03480",
+      "station": {
+        "id": "03480",
+        "plan_eau": "Rivière Saguenay",
+        "description": "En aval du pont Dubuc à Saguenay",
+        "lat": 48.433,
+        "lon": -71.067,
+        "distance_km": 0.26
+      }
+    },
+    {
+      "plan_id": 2218,
+      "plan_nom": "Rivière Sainte-Marguerite Nord-Est c) entre la chute du Seize et la chute située au point 48°40'55\" N., 70°17'04\" O. , à la partie sud-est du lac Tremblay.",
+      "lat": 48.681944,
+      "lon": -70.284444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2210,
+      "plan_nom": "Rivière Sainte-Marguerite a) entre le côté en aval de la passerelle reliant le lot 12 du rang ouest au lot D du rang est",
+      "lat": 48.386111,
+      "lon": -70.205556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2211,
+      "plan_nom": "Rivière Sainte-Marguerite b) entre un point",
+      "lat": 48.379167,
+      "lon": -70.205556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2212,
+      "plan_nom": "Rivière Sainte-Marguerite c) entre un point 48°26'10\" N., 70°26'08\" O. situé en amont de la fosse à saumon no 59 et un point 48°26'21\" N., 70°26'39\" O. situé en amont de la fosse à saumon Big Pool.",
+      "lat": 48.436111,
+      "lon": -70.435556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2213,
+      "plan_nom": "Rivière Sainte-Marguerite d) entre un point 48°26'21\" N., 70°26'39\" O. situé en amont de la fosse à saumon Big Pool et un point 48°28'13\" N., 70°33'12\" O. situé à environ 750 m en amont de la fosse à saumon Dam Pool.",
+      "lat": 48.439167,
+      "lon": -70.444167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2214,
+      "plan_nom": "Rivière Sainte-Marguerite e) entre un point 48°28'13\" N., 70°33'12\" O. situé à environ 750 m en amont de la fosse à saumon Dam Pool et la chute située dans le parc national des Monts-Valin au point 48°32'10\" N., 70°42'17\" O.",
+      "lat": 48.470278,
+      "lon": -70.553333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2294,
+      "plan_nom": "Rivière Saint-Jean a) entre le côté en aval des bornes situées aux points 48°14'21,5\" N., 70°11'55,7\" O. et 48°14'24,5\" N., 70°12'03\" O. et une droite traversant la rivière perpendiculairement au courant au point 48°12'01\" N., 70°14'33\" O. , située directement en aval de la fosse n° 32 et correspondant à la limite supérieure du secteur de pêche n° 2.",
+      "lat": 48.239306,
+      "lon": -70.198806,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 20.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062803",
+          "plan_eau": "Rivière Sainte-Marguerite Nord-Est",
+          "description": "À 1,7 km de la rivière Sainte-Marguerite",
+          "lat": 48.268,
+          "lon": -69.909,
+          "distance_km": 21.69,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 20.62
+      }
+    },
+    {
+      "plan_id": 2208,
+      "plan_nom": "Rivière Saint-Jean b) entre une droite traversant la rivière perpendiculairement au courant située au point 48°12'01\" N., 70°14'33\" O. , située directement en aval de la fosse n° 32 et correspondant à la limite supérieure du secteur de pêche n° 2, et une droite perpendiculaire au courant au point 48°11'55\" N., 70°15'10\" O. située directement en amont de la fosse 39 et correspondant à la limite supérieure du secteur de pêche no 3.",
+      "lat": 48.200278,
+      "lon": -70.2425,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 19.84,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 19.84
+      }
+    },
+    {
+      "plan_id": 10622,
+      "plan_nom": "Rivière Saint-Jean c) entre une droite traversant la rivière perpendiculairement au courant située au point 48°11'55\" N., 70°15'10\" O. située directement en amont de la fosse n° 39 et correspondant à la limite supérieure du secteur de pêche n° 3 et une droite perpendiculaire au courant située directement en aval de la fosse n° 46 , soit à 30 m en aval de la chute située au kilomètre 10,5 et aux coordonnées suivantes: 48°12'02\" N., 70°15'23\" O.",
+      "lat": 48.198611,
+      "lon": -70.252778,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 20.34,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 20.34
+      }
+    },
+    {
+      "plan_id": 2295,
+      "plan_nom": "Rivière Saint-Jean d) entre une droite perpendiculaire au courant située directement en aval de la fosse n° 46, soit 30 m en aval de la chute située au kilomètre 10,5 et au point 48°12'02\" N., 70°15'23\" O. , et une droite perpendiculaire au courant situé à 30 m en amont de la chute située au kilomètre 10,5.",
+      "lat": 48.200556,
+      "lon": -70.256389,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 20.68,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 20.68
+      }
+    },
+    {
+      "plan_id": 2296,
+      "plan_nom": "Rivière Saint-Jean e) entre une droite perpendiculaire au courant située à 30 m en amont de la chute située au kilomètre 10,5 et au point 48°12'02\" N., 70°15'23\" O. , et le barrage hydroélectrique situé en amont.",
+      "lat": 48.200556,
+      "lon": -70.256389,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 20.68,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 20.68
+      }
+    },
+    {
+      "plan_id": 2175,
+      "plan_nom": "Rivière sans nom entre une chute située à environ 2 km en aval du lac Jocelyn et correspondant aux points 48°59'43\" N., 70°34'57\" O. et un point situé à environ 1,5 km en aval et correspondant aux points 48°59'49\"N, 70°34'01\"O.",
+      "lat": 48.995278,
+      "lon": -70.5825,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2192,
+      "plan_nom": "Rivière Shipshaw - La partie comprise entre les bornes situées aux points 48°26'56\" N., 71°12'16,5\" O. et 48°26'55\" N., 71°12'18\" O. et le côté aval du pont de la rue Wilson.",
+      "lat": 48.448889,
+      "lon": -71.204583,
+      "stations": [
+        {
+          "id": "03480",
+          "plan_eau": "Rivière Saguenay",
+          "description": "En aval du pont Dubuc à Saguenay",
+          "lat": 48.433,
+          "lon": -71.067,
+          "distance_km": 10.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061029",
+          "plan_eau": "Rivière aux Sables",
+          "description": "À 75 m en amont du pont suspendu du complexe Cepal",
+          "lat": 48.372389,
+          "lon": -71.286083,
+          "distance_km": 10.42,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061002",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Pibrac-Est",
+          "lat": 48.36,
+          "lon": -71.27,
+          "distance_km": 11.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "060901",
+          "plan_eau": "Rivière du Moulin",
+          "description": "En amont du seuil à l'entrée du parc du Moulin",
+          "lat": 48.394,
+          "lon": -71.042,
+          "distance_km": 13.46,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061001",
+          "plan_eau": "Lac-Kénogami",
+          "description": "Au Lac-Kénogami au barrage de Portage-des-Roches",
+          "lat": 48.309417,
+          "lon": -71.211861,
+          "distance_km": 15.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061004",
+          "plan_eau": "Rivière Chicoutimi",
+          "description": "À 0,3 km en aval du barrage de Portage-des-Roches",
+          "lat": 48.306,
+          "lon": -71.197,
+          "distance_km": 15.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062701",
+          "plan_eau": "Rivière Valin",
+          "description": "À 3,5 km de l'embouchure",
+          "lat": 48.48794,
+          "lon": -70.97219,
+          "distance_km": 17.68,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "061028",
+          "plan_eau": "Rivière Pikauba",
+          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
+          "lat": 48.305,
+          "lon": -71.441,
+          "distance_km": 23.68,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03480",
+      "station": {
+        "id": "03480",
+        "plan_eau": "Rivière Saguenay",
+        "description": "En aval du pont Dubuc à Saguenay",
+        "lat": 48.433,
+        "lon": -71.067,
+        "distance_km": 10.3
+      }
+    },
+    {
+      "plan_id": 12702,
+      "plan_nom": "Rivière Valin - La partie comprise entre le coté aval du pont de la route 172 et le pied du premier rapide au point 48°28'17,4'' N., 70°58'53,93'' O.",
+      "lat": 48.4715,
+      "lon": -70.981647,
+      "stations": [
+        {
+          "id": "062701",
+          "plan_eau": "Rivière Valin",
+          "description": "À 3,5 km de l'embouchure",
+          "lat": 48.48794,
+          "lon": -70.97219,
+          "distance_km": 1.96,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "062701",
+      "station": {
+        "id": "062701",
+        "plan_eau": "Rivière Valin",
+        "description": "À 3,5 km de l'embouchure",
+        "lat": 48.48794,
+        "lon": -70.97219,
+        "distance_km": 1.96
+      }
+    },
+    {
+      "plan_id": 2172,
+      "plan_nom": "Ruisseau Patrice-Fortin a) La partie comprise entre un point situé à 60 m en aval du pont de la route 170",
+      "lat": 48.196944,
+      "lon": -70.247222,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 19.9,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 19.9
+      }
+    },
+    {
+      "plan_id": 12721,
+      "plan_nom": "Ruisseau Patrice-Fortin b) La partie comprise entre un point situé à 20 m en amont du pont de la route 170 et le coté aval du pont de la rue des Coteaux",
+      "lat": 48.190833,
+      "lon": -70.252439,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 19.83,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 19.83
+      }
+    }
+  ]
+}

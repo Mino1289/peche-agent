@@ -1,0 +1,278 @@
+{
+  "updated_at": "2026-06-11T04:11:34+00:00",
+  "source": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements",
+  "zones": [
+    {
+      "zone_id": 1,
+      "zone_nom": "Zone 1",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:45:22+00:00",
+      "nb_plans_eau": 129,
+      "file": "zones/1.json"
+    },
+    {
+      "zone_id": 2,
+      "zone_nom": "Zone 2",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:47:15+00:00",
+      "nb_plans_eau": 61,
+      "file": "zones/2.json"
+    },
+    {
+      "zone_id": 3,
+      "zone_nom": "Zone 3",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:48:07+00:00",
+      "nb_plans_eau": 13,
+      "file": "zones/3.json"
+    },
+    {
+      "zone_id": 4,
+      "zone_nom": "Zone 4",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:48:19+00:00",
+      "nb_plans_eau": 38,
+      "file": "zones/4.json"
+    },
+    {
+      "zone_id": 5,
+      "zone_nom": "Zone 5",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:48:53+00:00",
+      "nb_plans_eau": 20,
+      "file": "zones/5.json"
+    },
+    {
+      "zone_id": 6,
+      "zone_nom": "Zone 6",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:49:10+00:00",
+      "nb_plans_eau": 43,
+      "file": "zones/6.json"
+    },
+    {
+      "zone_id": 7,
+      "zone_nom": "Zone 7",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:49:50+00:00",
+      "nb_plans_eau": 38,
+      "file": "zones/7.json"
+    },
+    {
+      "zone_id": 8,
+      "zone_nom": "Zone 8",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:50:19+00:00",
+      "nb_plans_eau": 48,
+      "file": "zones/8.json"
+    },
+    {
+      "zone_id": 9,
+      "zone_nom": "Zone 9",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:51:01+00:00",
+      "nb_plans_eau": 26,
+      "file": "zones/9.json"
+    },
+    {
+      "zone_id": 10,
+      "zone_nom": "Zone 10",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:51:24+00:00",
+      "nb_plans_eau": 179,
+      "file": "zones/10.json"
+    },
+    {
+      "zone_id": 11,
+      "zone_nom": "Zone 11",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:54:18+00:00",
+      "nb_plans_eau": 79,
+      "file": "zones/11.json"
+    },
+    {
+      "zone_id": 12,
+      "zone_nom": "Zone 12",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:55:31+00:00",
+      "nb_plans_eau": 20,
+      "file": "zones/12.json"
+    },
+    {
+      "zone_id": 13,
+      "zone_nom": "Zone 13 est",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:55:49+00:00",
+      "nb_plans_eau": 26,
+      "file": "zones/13.json"
+    },
+    {
+      "zone_id": 14,
+      "zone_nom": "Zone 13 ouest",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:56:13+00:00",
+      "nb_plans_eau": 78,
+      "file": "zones/14.json"
+    },
+    {
+      "zone_id": 15,
+      "zone_nom": "Zone 14",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:57:23+00:00",
+      "nb_plans_eau": 45,
+      "file": "zones/15.json"
+    },
+    {
+      "zone_id": 16,
+      "zone_nom": "Zone 15",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:58:03+00:00",
+      "nb_plans_eau": 22,
+      "file": "zones/16.json"
+    },
+    {
+      "zone_id": 17,
+      "zone_nom": "Zone 16",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:58:22+00:00",
+      "nb_plans_eau": 8,
+      "file": "zones/17.json"
+    },
+    {
+      "zone_id": 18,
+      "zone_nom": "Zone 17",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:58:30+00:00",
+      "nb_plans_eau": 32,
+      "file": "zones/18.json"
+    },
+    {
+      "zone_id": 19,
+      "zone_nom": "Zone 18",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T03:58:58+00:00",
+      "nb_plans_eau": 157,
+      "file": "zones/19.json"
+    },
+    {
+      "zone_id": 3063,
+      "zone_nom": "Zone 19 nord",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:01:03+00:00",
+      "nb_plans_eau": 0,
+      "file": "zones/3063.json"
+    },
+    {
+      "zone_id": 2652,
+      "zone_nom": "Zone 19 sud - partie A",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:01:03+00:00",
+      "nb_plans_eau": 27,
+      "file": "zones/2652.json"
+    },
+    {
+      "zone_id": 2653,
+      "zone_nom": "Zone 19 sud - partie B",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:01:28+00:00",
+      "nb_plans_eau": 104,
+      "file": "zones/2653.json"
+    },
+    {
+      "zone_id": 22,
+      "zone_nom": "Zone 20",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:02:59+00:00",
+      "nb_plans_eau": 27,
+      "file": "zones/22.json"
+    },
+    {
+      "zone_id": 23,
+      "zone_nom": "Zone 21",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:03:24+00:00",
+      "nb_plans_eau": 33,
+      "file": "zones/23.json"
+    },
+    {
+      "zone_id": 24,
+      "zone_nom": "Zone 22 nord",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:03:53+00:00",
+      "nb_plans_eau": 72,
+      "file": "zones/24.json"
+    },
+    {
+      "zone_id": 25,
+      "zone_nom": "Zone 22 sud",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:04:58+00:00",
+      "nb_plans_eau": 29,
+      "file": "zones/25.json"
+    },
+    {
+      "zone_id": 26,
+      "zone_nom": "Zone 23 nord",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:05:23+00:00",
+      "nb_plans_eau": 82,
+      "file": "zones/26.json"
+    },
+    {
+      "zone_id": 27,
+      "zone_nom": "Zone 23 sud",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:06:34+00:00",
+      "nb_plans_eau": 10,
+      "file": "zones/27.json"
+    },
+    {
+      "zone_id": 28,
+      "zone_nom": "Zone 24",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:06:44+00:00",
+      "nb_plans_eau": 2,
+      "file": "zones/28.json"
+    },
+    {
+      "zone_id": 29,
+      "zone_nom": "Zone 25",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:06:46+00:00",
+      "nb_plans_eau": 7,
+      "file": "zones/29.json"
+    },
+    {
+      "zone_id": 30,
+      "zone_nom": "Zone 26",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:06:54+00:00",
+      "nb_plans_eau": 56,
+      "file": "zones/30.json"
+    },
+    {
+      "zone_id": 31,
+      "zone_nom": "Zone 27",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:07:46+00:00",
+      "nb_plans_eau": 60,
+      "file": "zones/31.json"
+    },
+    {
+      "zone_id": 32,
+      "zone_nom": "Zone 28",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:08:40+00:00",
+      "nb_plans_eau": 199,
+      "file": "zones/32.json"
+    },
+    {
+      "zone_id": 33,
+      "zone_nom": "Zone 29",
+      "saison": "Du 1er avril 2026 au 31 mars 2027",
+      "fetched_at": "2026-06-11T04:11:25+00:00",
+      "nb_plans_eau": 11,
+      "file": "zones/33.json"
+    }
+  ]
+}

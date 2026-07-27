@@ -1,0 +1,1824 @@
+{
+  "meta": {
+    "zone_id": 31,
+    "radius_km": 25.0,
+    "nb_with_coords": 46,
+    "nb_station_matched": 45
+  },
+  "matches": [
+    {
+      "plan_id": 1984,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière Bras du Nord-Ouest entre son embouchure et le barrage situé au point 47°26'23\" N., 70°32'08\" O.",
+      "lat": 47.439722,
+      "lon": -70.535556,
+      "stations": [
+        {
+          "id": "635",
+          "plan_eau": "Bras du Nord-Ouest",
+          "description": "Au Pont Gariepy",
+          "lat": 47.444889,
+          "lon": -70.510185,
+          "distance_km": 1.99,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 13.38,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "635",
+      "station": {
+        "id": "635",
+        "plan_eau": "Bras du Nord-Ouest",
+        "description": "Au Pont Gariepy",
+        "lat": 47.444889,
+        "lon": -70.510185,
+        "distance_km": 1.99
+      }
+    },
+    {
+      "plan_id": 1986,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière de la Mare entre son embouchure et le côté en aval du pont de la route 138 situé au point 47°28'24''N., 70°31'48'' O.",
+      "lat": 47.473333,
+      "lon": -70.53,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 9.64,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 9.64
+      }
+    },
+    {
+      "plan_id": 1977,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière du Gouffre a) entre le côté en aval du pont du CN situé au point 47°26'31'' N., 70°29'43'' O. et le côté aval du pont du rang Saint-Jean-Baptiste.",
+      "lat": 47.441944,
+      "lon": -70.495278,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 13.38,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 13.38
+      }
+    },
+    {
+      "plan_id": 2787,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière du Gouffre b) entre le côté en aval du pont du rang Saint-Jean-Baptiste et la fosse Antonien située au point 47°35'07\" N., 70°31'46\" O.",
+      "lat": 47.585278,
+      "lon": -70.529444,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 2.81,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 2.81
+      }
+    },
+    {
+      "plan_id": 1978,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière du Gouffre c) entre la fosse Antonien située au point",
+      "lat": 47.585278,
+      "lon": -70.529444,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 2.81,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 2.81
+      }
+    },
+    {
+      "plan_id": 1980,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière du Gouffre e) entre le pont situé à l'extrémité nord du rang de Chicago Ouest et la chute située au point 47°46'11\" N., 70°33'07\" O.",
+      "lat": 47.769722,
+      "lon": -70.551944,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 23.38,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 23.38
+      }
+    },
+    {
+      "plan_id": 1982,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière Le Gros Bras entre sa confluence avec la rivière du Gouffre et la chute située au point 47°35'01\" N., 70°33'36\" O.",
+      "lat": 47.583611,
+      "lon": -70.56,
+      "stations": [
+        {
+          "id": "548",
+          "plan_eau": "Le Gros Bras",
+          "description": "Pont Rue du Bras (amont)",
+          "lat": 47.578799,
+          "lon": -70.549767,
+          "distance_km": 0.94,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 3.46,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "548",
+      "station": {
+        "id": "548",
+        "plan_eau": "Le Gros Bras",
+        "description": "Pont Rue du Bras (amont)",
+        "lat": 47.578799,
+        "lon": -70.549767,
+        "distance_km": 0.94
+      }
+    },
+    {
+      "plan_id": 1988,
+      "plan_nom": "Eaux de la rivière du Gouffre Rivière le Petit Bras entre son embouchure et la chute située au point 47°34'50\" N., 70°34'40\" O.",
+      "lat": 47.580556,
+      "lon": -70.577778,
+      "stations": [
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 4.25,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051305",
+      "station": {
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 4.25
+      }
+    },
+    {
+      "plan_id": 1996,
+      "plan_nom": "Eaux de la rivière Jacques-Cartier Rivière Cassian entre son embouchure et un point situé à 47°02'25\" N., 71°29'50\" O.",
+      "lat": 47.040278,
+      "lon": -71.497222,
+      "stations": [
+        {
+          "id": "050801",
+          "plan_eau": "Rivière Jacques-Cartier",
+          "description": "En aval du pont du Chemin Gosford",
+          "lat": 46.893,
+          "lon": -71.526,
+          "distance_km": 16.52,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050801",
+      "station": {
+        "id": "050801",
+        "plan_eau": "Rivière Jacques-Cartier",
+        "description": "En aval du pont du Chemin Gosford",
+        "lat": 46.893,
+        "lon": -71.526,
+        "distance_km": 16.52
+      }
+    },
+    {
+      "plan_id": 3130,
+      "plan_nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier c) entre le barrage de Donnacona",
+      "lat": 46.6775,
+      "lon": -71.746111,
+      "stations": [
+        {
+          "id": "050801",
+          "plan_eau": "Rivière Jacques-Cartier",
+          "description": "En aval du pont du Chemin Gosford",
+          "lat": 46.893,
+          "lon": -71.526,
+          "distance_km": 29.24,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050801",
+      "station": {
+        "id": "050801",
+        "plan_eau": "Rivière Jacques-Cartier",
+        "description": "En aval du pont du Chemin Gosford",
+        "lat": 46.893,
+        "lon": -71.526,
+        "distance_km": 29.24
+      }
+    },
+    {
+      "plan_id": 11601,
+      "plan_nom": "Eaux du bassin Louise",
+      "lat": 46.819167,
+      "lon": -71.205833,
+      "stations": [
+        {
+          "id": "03248",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Au port de Québec",
+          "lat": 46.811111,
+          "lon": -71.201944,
+          "distance_km": 0.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "396",
+          "plan_eau": "Ruisseau Rouge                                                                                                                                                                                                                                                ",
+          "description": "À l'embouchure, près de la rue Saint-Laurent, à Lévis",
+          "lat": 46.780852,
+          "lon": -71.201549,
+          "distance_km": 4.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "054001",
+          "plan_eau": "Rivière Beauport",
+          "description": "À 100 mètres en aval de la chute du Parc des Cascades, secteur Beauport à Québec",
+          "lat": 46.865,
+          "lon": -71.207222,
+          "distance_km": 5.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050918",
+          "plan_eau": "Rivière du Berger",
+          "description": "Près de la rue Dion à Duberger",
+          "lat": 46.81558,
+          "lon": -71.294621,
+          "distance_km": 6.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050904",
+          "plan_eau": "Rivière Saint-Charles",
+          "description": "À 0,8 km en amont de la Lorette",
+          "lat": 46.816,
+          "lon": -71.319,
+          "distance_km": 8.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "051001",
+          "plan_eau": "Rivière Montmorency",
+          "description": "À 0,6 km en aval du barrage des Marches-Naturelles",
+          "lat": 46.896,
+          "lon": -71.152,
+          "distance_km": 9.47,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "Lévis",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au barrage Innergex, aux chutes de la Chaudière",
+          "lat": 46.7145,
+          "lon": -71.2823,
+          "distance_km": 13.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050917",
+          "plan_eau": "Rivière Jaune",
+          "description": "À 1.5 km en amont de l'autoroute Laurentienne                                                                                                                                                                                                                 ",
+          "lat": 46.917623,
+          "lon": -71.321815,
+          "distance_km": 14.06,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03248",
+      "station": {
+        "id": "03248",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "Au port de Québec",
+        "lat": 46.811111,
+        "lon": -71.201944,
+        "distance_km": 0.94
+      }
+    },
+    {
+      "plan_id": 1960,
+      "plan_nom": "Lac à la Hache",
+      "lat": 46.834167,
+      "lon": -72.225,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 13.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 20.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 13.97
+      }
+    },
+    {
+      "plan_id": 3245,
+      "plan_nom": "Lac à l'Anguille",
+      "lat": 46.780278,
+      "lon": -72.190278,
+      "stations": [
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 15.2,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 19.93,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050501",
+      "station": {
+        "id": "050501",
+        "plan_eau": "Rivière de la Chevrotière",
+        "description": "Sur la route du Moulin",
+        "lat": 46.73717,
+        "lon": -72.00089,
+        "distance_km": 15.2
+      }
+    },
+    {
+      "plan_id": 2234,
+      "plan_nom": "Lac Blanc",
+      "lat": 46.819167,
+      "lon": -72.271667,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 16.33,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 22.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 16.33
+      }
+    },
+    {
+      "plan_id": 1958,
+      "plan_nom": "Lac de la Baie des Rochers",
+      "lat": 47.941944,
+      "lon": -69.887222,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 19.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03424",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Baie Ste-Catherine",
+          "lat": 48.126333,
+          "lon": -69.72975,
+          "distance_km": 23.61,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 19.78
+      }
+    },
+    {
+      "plan_id": 3161,
+      "plan_nom": "Lac de la Mine",
+      "lat": 46.830278,
+      "lon": -72.333333,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 17.27,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 17.27
+      }
+    },
+    {
+      "plan_id": 2235,
+      "plan_nom": "Lac de la Morelle",
+      "lat": 46.8125,
+      "lon": -72.178889,
+      "stations": [
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 15.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 16.45,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 23.53,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050501",
+      "station": {
+        "id": "050501",
+        "plan_eau": "Rivière de la Chevrotière",
+        "description": "Sur la route du Moulin",
+        "lat": 46.73717,
+        "lon": -72.00089,
+        "distance_km": 15.93
+      }
+    },
+    {
+      "plan_id": 3253,
+      "plan_nom": "Lac du Port aux Quilles",
+      "lat": 47.943333,
+      "lon": -69.954444,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 17.46,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 17.46
+      }
+    },
+    {
+      "plan_id": 3247,
+      "plan_nom": "Lac en Coeur",
+      "lat": 46.786944,
+      "lon": -72.1775,
+      "stations": [
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 14.55,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 19.28,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 24.13,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050501",
+      "station": {
+        "id": "050501",
+        "plan_eau": "Rivière de la Chevrotière",
+        "description": "Sur la route du Moulin",
+        "lat": 46.73717,
+        "lon": -72.00089,
+        "distance_km": 14.55
+      }
+    },
+    {
+      "plan_id": 10741,
+      "plan_nom": "Lac Long",
+      "lat": 46.839167,
+      "lon": -72.14,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 14.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 15.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 20.2,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 14.27
+      }
+    },
+    {
+      "plan_id": 10742,
+      "plan_nom": "Lac Montauban",
+      "lat": 46.882778,
+      "lon": -72.167778,
+      "stations": [
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 8.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 20.58,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 22.52,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050309",
+      "station": {
+        "id": "050309",
+        "plan_eau": "Rivière à Pierre",
+        "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+        "lat": 46.959179,
+        "lon": -72.206614,
+        "distance_km": 8.99
+      }
+    },
+    {
+      "plan_id": 3251,
+      "plan_nom": "Lac Nairne",
+      "lat": 47.685833,
+      "lon": -70.349167,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 9.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "548",
+          "plan_eau": "Le Gros Bras",
+          "description": "Pont Rue du Bras (amont)",
+          "lat": 47.578799,
+          "lon": -70.549767,
+          "distance_km": 19.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 19.48,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 9.86
+      }
+    },
+    {
+      "plan_id": 11281,
+      "plan_nom": "Lac Noir",
+      "lat": 47.851944,
+      "lon": -69.916389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1961,
+      "plan_nom": "Lac Saint-Augustin",
+      "lat": 46.748333,
+      "lon": -71.393889,
+      "stations": [
+        {
+          "id": "Lévis",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au barrage Innergex, aux chutes de la Chaudière",
+          "lat": 46.7145,
+          "lon": -71.2823,
+          "distance_km": 9.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050904",
+          "plan_eau": "Rivière Saint-Charles",
+          "description": "À 0,8 km en amont de la Lorette",
+          "lat": 46.816,
+          "lon": -71.319,
+          "distance_km": 9.44,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050918",
+          "plan_eau": "Rivière du Berger",
+          "description": "Près de la rue Dion à Duberger",
+          "lat": 46.81558,
+          "lon": -71.294621,
+          "distance_km": 10.63,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023401",
+          "plan_eau": "Rivière Beaurivage",
+          "description": "À 1,1 km en aval du pont-route 171 à Saint-Étienne",
+          "lat": 46.657,
+          "lon": -71.289,
+          "distance_km": 12.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "893",
+          "plan_eau": "Rivière Beaurivage",
+          "description": "Au pont de la route 171",
+          "lat": 46.65121,
+          "lon": -71.30058,
+          "distance_km": 12.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050915",
+          "plan_eau": "Rivière Nelson",
+          "description": "Au pont de l'autoroute 573 (Henri IV), secteur Val-Bélair à Québec",
+          "lat": 46.868,
+          "lon": -71.425,
+          "distance_km": 13.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03280",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Neuville",
+          "lat": 46.6965,
+          "lon": -71.572833,
+          "distance_km": 14.81,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "396",
+          "plan_eau": "Ruisseau Rouge                                                                                                                                                                                                                                                ",
+          "description": "À l'embouchure, près de la rue Saint-Laurent, à Lévis",
+          "lat": 46.780852,
+          "lon": -71.201549,
+          "distance_km": 15.09,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "Lévis",
+      "station": {
+        "id": "Lévis",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au barrage Innergex, aux chutes de la Chaudière",
+        "lat": 46.7145,
+        "lon": -71.2823,
+        "distance_km": 9.3
+      }
+    },
+    {
+      "plan_id": 1964,
+      "plan_nom": "Lac Sainte-Marie",
+      "lat": 47.681667,
+      "lon": -70.292222,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 5.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "051305",
+          "plan_eau": "Rivière du Gouffre",
+          "description": "À 80 m en amont du pont du village de Saint-Urbain",
+          "lat": 47.56,
+          "lon": -70.53,
+          "distance_km": 22.37,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "548",
+          "plan_eau": "Le Gros Bras",
+          "description": "Pont Rue du Bras (amont)",
+          "lat": 47.578799,
+          "lon": -70.549767,
+          "distance_km": 22.43,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 5.72
+      }
+    },
+    {
+      "plan_id": 10740,
+      "plan_nom": "Lac Saint-Joseph",
+      "lat": 46.913889,
+      "lon": -71.644167,
+      "stations": [
+        {
+          "id": "050805",
+          "plan_eau": "Lac Saint-Joseph",
+          "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+          "lat": 46.8675,
+          "lon": -71.637222,
+          "distance_km": 5.19,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050805",
+      "station": {
+        "id": "050805",
+        "plan_eau": "Lac Saint-Joseph",
+        "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+        "lat": 46.8675,
+        "lon": -71.637222,
+        "distance_km": 5.19
+      }
+    },
+    {
+      "plan_id": 1963,
+      "plan_nom": "Lac Saint-Joseph",
+      "lat": 46.879167,
+      "lon": -71.643611,
+      "stations": [
+        {
+          "id": "050805",
+          "plan_eau": "Lac Saint-Joseph",
+          "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+          "lat": 46.8675,
+          "lon": -71.637222,
+          "distance_km": 1.39,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050805",
+      "station": {
+        "id": "050805",
+        "plan_eau": "Lac Saint-Joseph",
+        "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+        "lat": 46.8675,
+        "lon": -71.637222,
+        "distance_km": 1.39
+      }
+    },
+    {
+      "plan_id": 1966,
+      "plan_nom": "Lac Sept-Îles",
+      "lat": 46.933889,
+      "lon": -71.746667,
+      "stations": [
+        {
+          "id": "050813",
+          "plan_eau": "Décharge du lac Clair",
+          "description": "À 500 m à l'aval du lac Clair",
+          "lat": 46.966306,
+          "lon": -71.664167,
+          "distance_km": 7.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050409",
+          "plan_eau": "Rivière Bras du Nord",
+          "description": "À 4,5 km en amont de la Mauvaise",
+          "lat": 46.977,
+          "lon": -71.847,
+          "distance_km": 9.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050807",
+          "plan_eau": "Rivière Ontaritzi",
+          "description": "À 0,2 km en aval du barrage du lac Saint-Joseph",
+          "lat": 46.867301,
+          "lon": -71.639807,
+          "distance_km": 10.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050805",
+          "plan_eau": "Lac Saint-Joseph",
+          "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+          "lat": 46.8675,
+          "lon": -71.637222,
+          "distance_km": 11.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 13.34,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050801",
+          "plan_eau": "Rivière Jacques-Cartier",
+          "description": "En aval du pont du Chemin Gosford",
+          "lat": 46.893,
+          "lon": -71.526,
+          "distance_km": 17.37,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050702",
+          "plan_eau": "Rivière Portneuf",
+          "description": "À 7,5 km de l'embouchure de la rivière Porneuf",
+          "lat": 46.728,
+          "lon": -71.841,
+          "distance_km": 23.99,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050813",
+      "station": {
+        "id": "050813",
+        "plan_eau": "Décharge du lac Clair",
+        "description": "À 500 m à l'aval du lac Clair",
+        "lat": 46.966306,
+        "lon": -71.664167,
+        "distance_km": 7.23
+      }
+    },
+    {
+      "plan_id": 1967,
+      "plan_nom": "Lac Sergent",
+      "lat": 46.875833,
+      "lon": -71.715556,
+      "stations": [
+        {
+          "id": "050807",
+          "plan_eau": "Rivière Ontaritzi",
+          "description": "À 0,2 km en aval du barrage du lac Saint-Joseph",
+          "lat": 46.867301,
+          "lon": -71.639807,
+          "distance_km": 5.84,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050805",
+          "plan_eau": "Lac Saint-Joseph",
+          "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+          "lat": 46.8675,
+          "lon": -71.637222,
+          "distance_km": 6.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050813",
+          "plan_eau": "Décharge du lac Clair",
+          "description": "À 500 m à l'aval du lac Clair",
+          "lat": 46.966306,
+          "lon": -71.664167,
+          "distance_km": 10.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 12.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050801",
+          "plan_eau": "Rivière Jacques-Cartier",
+          "description": "En aval du pont du Chemin Gosford",
+          "lat": 46.893,
+          "lon": -71.526,
+          "distance_km": 14.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050409",
+          "plan_eau": "Rivière Bras du Nord",
+          "description": "À 4,5 km en amont de la Mauvaise",
+          "lat": 46.977,
+          "lon": -71.847,
+          "distance_km": 15.04,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050702",
+          "plan_eau": "Rivière Portneuf",
+          "description": "À 7,5 km de l'embouchure de la rivière Porneuf",
+          "lat": 46.728,
+          "lon": -71.841,
+          "distance_km": 19.01,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050812",
+          "plan_eau": "Rivière aux Pommes",
+          "description": "À 1,6 km en aval de la rivière Noire",
+          "lat": 46.696,
+          "lon": -71.688,
+          "distance_km": 20.11,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050807",
+      "station": {
+        "id": "050807",
+        "plan_eau": "Rivière Ontaritzi",
+        "description": "À 0,2 km en aval du barrage du lac Saint-Joseph",
+        "lat": 46.867301,
+        "lon": -71.639807,
+        "distance_km": 5.84
+      }
+    },
+    {
+      "plan_id": 2989,
+      "plan_nom": "Lac Simon",
+      "lat": 46.895,
+      "lon": -72.023611,
+      "stations": [
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 12.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050309",
+          "plan_eau": "Rivière à Pierre",
+          "description": "à 7,5 km de sa confluence avec la rivière Batiscan",
+          "lat": 46.959179,
+          "lon": -72.206614,
+          "distance_km": 15.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050409",
+          "plan_eau": "Rivière Bras du Nord",
+          "description": "À 4,5 km en amont de la Mauvaise",
+          "lat": 46.977,
+          "lon": -71.847,
+          "distance_km": 16.22,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050501",
+          "plan_eau": "Rivière de la Chevrotière",
+          "description": "Sur la route du Moulin",
+          "lat": 46.73717,
+          "lon": -72.00089,
+          "distance_km": 17.63,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050702",
+          "plan_eau": "Rivière Portneuf",
+          "description": "À 7,5 km de l'embouchure de la rivière Porneuf",
+          "lat": 46.728,
+          "lon": -71.841,
+          "distance_km": 23.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050408",
+      "station": {
+        "id": "050408",
+        "plan_eau": "Rivière Sainte-Anne",
+        "description": "À 1,3 km en aval du barrage à Chute-Panet",
+        "lat": 46.852,
+        "lon": -71.875,
+        "distance_km": 12.27
+      }
+    },
+    {
+      "plan_id": 3006,
+      "plan_nom": "Parc National des Hautes-Gorges-de-la-Rivière-Malbaie à l'exception de la rivière Malbaie entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables situé au point 47°53'31\" N., 70°28'37\" O.",
+      "lat": 47.891944,
+      "lon": -70.476944,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 29.3,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 29.3
+      }
+    },
+    {
+      "plan_id": 12821,
+      "plan_nom": "Rivière du Cabanage - La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+      "lat": 48.214722,
+      "lon": -70.078056,
+      "stations": [
+        {
+          "id": "062803",
+          "plan_eau": "Rivière Sainte-Marguerite Nord-Est",
+          "description": "À 1,7 km de la rivière Sainte-Marguerite",
+          "lat": 48.268,
+          "lon": -69.909,
+          "distance_km": 13.85,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 14.1,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "062803",
+      "station": {
+        "id": "062803",
+        "plan_eau": "Rivière Sainte-Marguerite Nord-Est",
+        "description": "À 1,7 km de la rivière Sainte-Marguerite",
+        "lat": 48.268,
+        "lon": -69.909,
+        "distance_km": 13.85
+      }
+    },
+    {
+      "plan_id": 2016,
+      "plan_nom": "Rivière du Portage a) La partie comprise entre son embouchure et la limite est de la pourvoirie Raoul Lavoie",
+      "lat": 48.159167,
+      "lon": -70.065556,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 7.92,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062803",
+          "plan_eau": "Rivière Sainte-Marguerite Nord-Est",
+          "description": "À 1,7 km de la rivière Sainte-Marguerite",
+          "lat": 48.268,
+          "lon": -69.909,
+          "distance_km": 16.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 7.92
+      }
+    },
+    {
+      "plan_id": 2017,
+      "plan_nom": "Rivière du Portage b) La partie comprise entre les limites est",
+      "lat": 48.159167,
+      "lon": -70.065556,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 7.92,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "062803",
+          "plan_eau": "Rivière Sainte-Marguerite Nord-Est",
+          "description": "À 1,7 km de la rivière Sainte-Marguerite",
+          "lat": 48.268,
+          "lon": -69.909,
+          "distance_km": 16.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 7.92
+      }
+    },
+    {
+      "plan_id": 2000,
+      "plan_nom": "Rivière Malbaie a) entre le côté en aval du pont de la route 138 et une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont",
+      "lat": 47.691667,
+      "lon": -70.209444,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 0.69,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 0.69
+      }
+    },
+    {
+      "plan_id": 12460,
+      "plan_nom": "Rivière Malbaie b) entre une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont",
+      "lat": 47.691667,
+      "lon": -70.209444,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 0.69,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 0.69
+      }
+    },
+    {
+      "plan_id": 12520,
+      "plan_nom": "Rivière Malbaie c) entre une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont",
+      "lat": 47.697,
+      "lon": -70.2235,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 0.53,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 0.53
+      }
+    },
+    {
+      "plan_id": 2002,
+      "plan_nom": "Rivière Malbaie d) entre un point situé à 25 m en aval du barrage de l'usine de papier",
+      "lat": 47.704444,
+      "lon": -70.230556,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 1.49,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 1.49
+      }
+    },
+    {
+      "plan_id": 2791,
+      "plan_nom": "Rivière Malbaie e) entre le câble en acier en amont du barrage de l'usine de papier",
+      "lat": 47.704444,
+      "lon": -70.230556,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 1.49,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 1.49
+      }
+    },
+    {
+      "plan_id": 2004,
+      "plan_nom": "Rivière Malbaie f) entre la limite sud de la zec des Martres",
+      "lat": 47.748333,
+      "lon": -70.366111,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 12.62,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 12.62
+      }
+    },
+    {
+      "plan_id": 2005,
+      "plan_nom": "Rivière Malbaie g) entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables",
+      "lat": 47.8925,
+      "lon": -70.4775,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 29.38,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 29.38
+      }
+    },
+    {
+      "plan_id": 2239,
+      "plan_nom": "Rivière Petit Saguenay a) La partie comprise entre son embouchure",
+      "lat": 48.2365,
+      "lon": -70.099528,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 16.87,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 16.87
+      }
+    },
+    {
+      "plan_id": 2012,
+      "plan_nom": "Rivière Petit Saguenay b) La partie comprise entre le côté en aval du pont du chemin des Chutes",
+      "lat": 48.146944,
+      "lon": -70.033056,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 6.11,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "03424",
+          "plan_eau": "Rivière Saguenay",
+          "description": "À Baie Ste-Catherine",
+          "lat": 48.126333,
+          "lon": -69.72975,
+          "distance_km": 22.62,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 6.11
+      }
+    },
+    {
+      "plan_id": 2013,
+      "plan_nom": "Rivière Petit Saguenay c) La partie comprise entre la limite est du Domaine Laforest et la limite est de la zec du Lac-au-Sable",
+      "lat": 47.993611,
+      "lon": -70.245278,
+      "stations": [
+        {
+          "id": "060102",
+          "plan_eau": "Rivière Petit Saguenay",
+          "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+          "lat": 48.092,
+          "lon": -70.03,
+          "distance_km": 19.39,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "060102",
+      "station": {
+        "id": "060102",
+        "plan_eau": "Rivière Petit Saguenay",
+        "description": "À 1 km en aval de la confluence avec la décharge du lac à David",
+        "lat": 48.092,
+        "lon": -70.03,
+        "distance_km": 19.39
+      }
+    },
+    {
+      "plan_id": 2008,
+      "plan_nom": "Rivière Snigole entre son embouchure et la chute située au point 47°42'43\" N., 70°14'58\" O.",
+      "lat": 47.711944,
+      "lon": -70.249444,
+      "stations": [
+        {
+          "id": "051502",
+          "plan_eau": "Rivière Malbaie",
+          "description": "À 0.3 km en aval du pont-route à Clermont",
+          "lat": 47.694,
+          "lon": -70.218,
+          "distance_km": 3.09,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "051502",
+      "station": {
+        "id": "051502",
+        "plan_eau": "Rivière Malbaie",
+        "description": "À 0.3 km en aval du pont-route à Clermont",
+        "lat": 47.694,
+        "lon": -70.218,
+        "distance_km": 3.09
+      }
+    },
+    {
+      "plan_id": 11880,
+      "plan_nom": "Station Forestière de Duchesnay à l'exclusion des eaux du lac au Chien",
+      "lat": 46.941389,
+      "lon": -71.720556,
+      "stations": [
+        {
+          "id": "050813",
+          "plan_eau": "Décharge du lac Clair",
+          "description": "À 500 m à l'aval du lac Clair",
+          "lat": 46.966306,
+          "lon": -71.664167,
+          "distance_km": 5.1,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050807",
+          "plan_eau": "Rivière Ontaritzi",
+          "description": "À 0,2 km en aval du barrage du lac Saint-Joseph",
+          "lat": 46.867301,
+          "lon": -71.639807,
+          "distance_km": 10.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050805",
+          "plan_eau": "Lac Saint-Joseph",
+          "description": "Au lac Saint-Joseph à Sainte-Catherine-de-la-Jacques-Cartier",
+          "lat": 46.8675,
+          "lon": -71.637222,
+          "distance_km": 10.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050409",
+          "plan_eau": "Rivière Bras du Nord",
+          "description": "À 4,5 km en amont de la Mauvaise",
+          "lat": 46.977,
+          "lon": -71.847,
+          "distance_km": 10.38,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050408",
+          "plan_eau": "Rivière Sainte-Anne",
+          "description": "À 1,3 km en aval du barrage à Chute-Panet",
+          "lat": 46.852,
+          "lon": -71.875,
+          "distance_km": 15.38,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050801",
+          "plan_eau": "Rivière Jacques-Cartier",
+          "description": "En aval du pont du Chemin Gosford",
+          "lat": 46.893,
+          "lon": -71.526,
+          "distance_km": 15.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050915",
+          "plan_eau": "Rivière Nelson",
+          "description": "Au pont de l'autoroute 573 (Henri IV), secteur Val-Bélair à Québec",
+          "lat": 46.868,
+          "lon": -71.425,
+          "distance_km": 23.89,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050813",
+      "station": {
+        "id": "050813",
+        "plan_eau": "Décharge du lac Clair",
+        "description": "À 500 m à l'aval du lac Clair",
+        "lat": 46.966306,
+        "lon": -71.664167,
+        "distance_km": 5.1
+      }
+    }
+  ]
+}

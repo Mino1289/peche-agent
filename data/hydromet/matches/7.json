@@ -1,0 +1,1186 @@
+{
+  "meta": {
+    "zone_id": 7,
+    "radius_km": 25.0,
+    "nb_with_coords": 28,
+    "nb_station_matched": 28
+  },
+  "matches": [
+    {
+      "plan_id": 2508,
+      "plan_nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "lat": 46.078611,
+      "lon": -73.030278,
+      "stations": [
+        {
+          "id": "15975",
+          "plan_eau": "Lac Saint-Pierre",
+          "description": "Au lac-Saint-Pierre",
+          "lat": 46.194833,
+          "lon": -72.8955,
+          "distance_km": 16.58,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "15975",
+      "station": {
+        "id": "15975",
+        "plan_eau": "Lac Saint-Pierre",
+        "description": "Au lac-Saint-Pierre",
+        "lat": 46.194833,
+        "lon": -72.8955,
+        "distance_km": 16.58
+      }
+    },
+    {
+      "plan_id": 2100,
+      "plan_nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "lat": 46.080833,
+      "lon": -73.087778,
+      "stations": [
+        {
+          "id": "15975",
+          "plan_eau": "Lac Saint-Pierre",
+          "description": "Au lac-Saint-Pierre",
+          "lat": 46.194833,
+          "lon": -72.8955,
+          "distance_km": 19.5,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "052235",
+          "plan_eau": "Ruisseau Saint-Pierre",
+          "description": "Au pont-route du chemin du Vieux-Moulin à 0,2 km de la route 343",
+          "lat": 45.977332,
+          "lon": -73.439895,
+          "distance_km": 29.52,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "15975",
+      "station": {
+        "id": "15975",
+        "plan_eau": "Lac Saint-Pierre",
+        "description": "Au lac-Saint-Pierre",
+        "lat": 46.194833,
+        "lon": -72.8955,
+        "distance_km": 19.5
+      }
+    },
+    {
+      "plan_id": 2509,
+      "plan_nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "lat": 46.069444,
+      "lon": -73.064167,
+      "stations": [
+        {
+          "id": "15975",
+          "plan_eau": "Lac Saint-Pierre",
+          "description": "Au lac-Saint-Pierre",
+          "lat": 46.194833,
+          "lon": -72.8955,
+          "distance_km": 19.06,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "15975",
+      "station": {
+        "id": "15975",
+        "plan_eau": "Lac Saint-Pierre",
+        "description": "Au lac-Saint-Pierre",
+        "lat": 46.194833,
+        "lon": -72.8955,
+        "distance_km": 19.06
+      }
+    },
+    {
+      "plan_id": 11500,
+      "plan_nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "lat": 46.2855,
+      "lon": -72.702,
+      "stations": [
+        {
+          "id": "15975",
+          "plan_eau": "Lac Saint-Pierre",
+          "description": "Au lac-Saint-Pierre",
+          "lat": 46.194833,
+          "lon": -72.8955,
+          "distance_km": 17.97,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "15975",
+      "station": {
+        "id": "15975",
+        "plan_eau": "Lac Saint-Pierre",
+        "description": "Au lac-Saint-Pierre",
+        "lat": 46.194833,
+        "lon": -72.8955,
+        "distance_km": 17.97
+      }
+    },
+    {
+      "plan_id": 1156,
+      "plan_nom": "Fleuve Saint-Laurent",
+      "lat": 46.500833,
+      "lon": -72.245556,
+      "stations": [
+        {
+          "id": "03345",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Batiscan",
+          "lat": 46.500333,
+          "lon": -72.245833,
+          "distance_km": 0.06,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03335",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Cap-à-la-Roche",
+          "lat": 46.561,
+          "lon": -72.105833,
+          "distance_km": 12.61,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03353",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Bécancour",
+          "lat": 46.400333,
+          "lon": -72.3795,
+          "distance_km": 15.17,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03360",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Trois-Rivières",
+          "lat": 46.3405,
+          "lon": -72.539167,
+          "distance_km": 28.71,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03345",
+      "station": {
+        "id": "03345",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Batiscan",
+        "lat": 46.500333,
+        "lon": -72.245833,
+        "distance_km": 0.06
+      }
+    },
+    {
+      "plan_id": 1157,
+      "plan_nom": "Fleuve Saint-Laurent",
+      "lat": 46.500833,
+      "lon": -72.245556,
+      "stations": [
+        {
+          "id": "03345",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Batiscan",
+          "lat": 46.500333,
+          "lon": -72.245833,
+          "distance_km": 0.06,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03335",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Cap-à-la-Roche",
+          "lat": 46.561,
+          "lon": -72.105833,
+          "distance_km": 12.61,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03353",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Bécancour",
+          "lat": 46.400333,
+          "lon": -72.3795,
+          "distance_km": 15.17,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "03360",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Trois-Rivières",
+          "lat": 46.3405,
+          "lon": -72.539167,
+          "distance_km": 28.71,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "03345",
+      "station": {
+        "id": "03345",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Batiscan",
+        "lat": 46.500333,
+        "lon": -72.245833,
+        "distance_km": 0.06
+      }
+    },
+    {
+      "plan_id": 12580,
+      "plan_nom": "Lac à la Tortue",
+      "lat": 46.627778,
+      "lon": -72.614167,
+      "stations": [
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 11.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050304",
+          "plan_eau": "Rivière Batiscan",
+          "description": "À 3,4 km en aval de la rivière des Envies",
+          "lat": 46.586,
+          "lon": -72.405,
+          "distance_km": 16.64,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050148",
+      "station": {
+        "id": "050148",
+        "plan_eau": "Rivière Shawinigan",
+        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+        "lat": 46.584987,
+        "lon": -72.756659,
+        "distance_km": 11.88
+      }
+    },
+    {
+      "plan_id": 111,
+      "plan_nom": "Lac Aylmer entre le côté sud du pont de la route 112 jusqu'au premier rétrécissement en amont, situé au point 45°55'07\" N., 71°22'41\" O.",
+      "lat": 45.918611,
+      "lon": -71.378056,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 13.13,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 13.13
+      }
+    },
+    {
+      "plan_id": 112,
+      "plan_nom": "Lac Aylmer entre le premier rétrécissement en amont du pont de la route 112 situé au point 45°55'07\" N., 71°22'41\" O. , et la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O.",
+      "lat": 45.918611,
+      "lon": -71.378056,
+      "stations": [
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 13.13,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030296",
+      "station": {
+        "id": "030296",
+        "plan_eau": "Lac Aylmer",
+        "description": "Au quai de la municipalité de Stratford",
+        "lat": 45.80625,
+        "lon": -71.326,
+        "distance_km": 13.13
+      }
+    },
+    {
+      "plan_id": 116,
+      "plan_nom": "Lac Joseph",
+      "lat": 46.205833,
+      "lon": -71.546667,
+      "stations": [
+        {
+          "id": "024016",
+          "plan_eau": "Rivière Osgood",
+          "description": "Au pont de la rue des Églises à Kinnear's Mills",
+          "lat": 46.223894,
+          "lon": -71.3825,
+          "distance_km": 12.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "024003",
+          "plan_eau": "Rivière Bécancour",
+          "description": "À 2,1 km en amont de la rivière Palmer",
+          "lat": 46.306,
+          "lon": -71.451,
+          "distance_km": 13.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "024015",
+          "plan_eau": "Rivière Bourbon",
+          "description": "Sur le 11e rang à Plessisville",
+          "lat": 46.184028,
+          "lon": -71.754139,
+          "distance_km": 16.15,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "024004",
+          "plan_eau": "Rivière Bourbon",
+          "description": "À 0,2 km en amont du pont de la rue Savoie à Plessisville                                                                                                                                                                                                     ",
+          "lat": 46.2199,
+          "lon": -71.777,
+          "distance_km": 17.79,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "024016",
+      "station": {
+        "id": "024016",
+        "plan_eau": "Rivière Osgood",
+        "description": "Au pont de la rue des Églises à Kinnear's Mills",
+        "lat": 46.223894,
+        "lon": -71.3825,
+        "distance_km": 12.79
+      }
+    },
+    {
+      "plan_id": 117,
+      "plan_nom": "Lac Les Trois Lacs",
+      "lat": 45.800556,
+      "lon": -71.888889,
+      "stations": [
+        {
+          "id": "030101",
+          "plan_eau": "Rivière Nicolet Sud-Ouest",
+          "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+          "lat": 45.792,
+          "lon": -71.968,
+          "distance_km": 6.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030101",
+      "station": {
+        "id": "030101",
+        "plan_eau": "Rivière Nicolet Sud-Ouest",
+        "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+        "lat": 45.792,
+        "lon": -71.968,
+        "distance_km": 6.21
+      }
+    },
+    {
+      "plan_id": 118,
+      "plan_nom": "Lac William",
+      "lat": 46.121389,
+      "lon": -71.570278,
+      "stations": [
+        {
+          "id": "024015",
+          "plan_eau": "Rivière Bourbon",
+          "description": "Sur le 11e rang à Plessisville",
+          "lat": 46.184028,
+          "lon": -71.754139,
+          "distance_km": 15.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "024016",
+          "plan_eau": "Rivière Osgood",
+          "description": "Au pont de la rue des Églises à Kinnear's Mills",
+          "lat": 46.223894,
+          "lon": -71.3825,
+          "distance_km": 18.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "024004",
+          "plan_eau": "Rivière Bourbon",
+          "description": "À 0,2 km en amont du pont de la rue Savoie à Plessisville                                                                                                                                                                                                     ",
+          "lat": 46.2199,
+          "lon": -71.777,
+          "distance_km": 19.32,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "024003",
+          "plan_eau": "Rivière Bécancour",
+          "description": "À 2,1 km en amont de la rivière Palmer",
+          "lat": 46.306,
+          "lon": -71.451,
+          "distance_km": 22.49,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "024015",
+      "station": {
+        "id": "024015",
+        "plan_eau": "Rivière Bourbon",
+        "description": "Sur le 11e rang à Plessisville",
+        "lat": 46.184028,
+        "lon": -71.754139,
+        "distance_km": 15.78
+      }
+    },
+    {
+      "plan_id": 122,
+      "plan_nom": "Rivière Batiscan entre le côté aval du pont de la route 138 et le premier pilier formé d'enrochement",
+      "lat": 46.551667,
+      "lon": -72.376667,
+      "stations": [
+        {
+          "id": "050304",
+          "plan_eau": "Rivière Batiscan",
+          "description": "À 3,4 km en aval de la rivière des Envies",
+          "lat": 46.586,
+          "lon": -72.405,
+          "distance_km": 4.39,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050304",
+      "station": {
+        "id": "050304",
+        "plan_eau": "Rivière Batiscan",
+        "description": "À 3,4 km en aval de la rivière des Envies",
+        "lat": 46.586,
+        "lon": -72.405,
+        "distance_km": 4.39
+      }
+    },
+    {
+      "plan_id": 131,
+      "plan_nom": "Rivière Batiscan entre le premier pilier formé d'enrochement",
+      "lat": 46.551667,
+      "lon": -72.376667,
+      "stations": [
+        {
+          "id": "050304",
+          "plan_eau": "Rivière Batiscan",
+          "description": "À 3,4 km en aval de la rivière des Envies",
+          "lat": 46.586,
+          "lon": -72.405,
+          "distance_km": 4.39,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "050304",
+      "station": {
+        "id": "050304",
+        "plan_eau": "Rivière Batiscan",
+        "description": "À 3,4 km en aval de la rivière des Envies",
+        "lat": 46.586,
+        "lon": -72.405,
+        "distance_km": 4.39
+      }
+    },
+    {
+      "plan_id": 10340,
+      "plan_nom": "Rivière Bécancour - La partie entre la route 132 et le pont ferroviaire situé 4 km en amont",
+      "lat": 46.328889,
+      "lon": -72.416389,
+      "stations": [
+        {
+          "id": "024014",
+          "plan_eau": "Rivière Bécancour",
+          "description": "À 6 km en aval du pont de l'autoroute 20 (Madington)",
+          "lat": 46.199,
+          "lon": -72.098,
+          "distance_km": 28.42,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "024014",
+      "station": {
+        "id": "024014",
+        "plan_eau": "Rivière Bécancour",
+        "description": "À 6 km en aval du pont de l'autoroute 20 (Madington)",
+        "lat": 46.199,
+        "lon": -72.098,
+        "distance_km": 28.42
+      }
+    },
+    {
+      "plan_id": 137,
+      "plan_nom": "Rivière Bécancour - La partie entre le lac William et le lac à la Truite",
+      "lat": 46.0875,
+      "lon": -71.515833,
+      "stations": [
+        {
+          "id": "024003",
+          "plan_eau": "Rivière Bécancour",
+          "description": "À 2,1 km en amont de la rivière Palmer",
+          "lat": 46.306,
+          "lon": -71.451,
+          "distance_km": 24.8,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "024003",
+      "station": {
+        "id": "024003",
+        "plan_eau": "Rivière Bécancour",
+        "description": "À 2,1 km en amont de la rivière Palmer",
+        "lat": 46.306,
+        "lon": -71.451,
+        "distance_km": 24.8
+      }
+    },
+    {
+      "plan_id": 140,
+      "plan_nom": "Rivière Chaudière a) La partie comprise entre une droite reliant les points 46°44' 30.325\" N., 71°16' 39.533\" O. et 46°44' 32.269\" N., 71° 16'35.749\" O.",
+      "lat": 46.741757,
+      "lon": -71.277648,
+      "stations": [
+        {
+          "id": "Lévis",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au barrage Innergex, aux chutes de la Chaudière",
+          "lat": 46.7145,
+          "lon": -71.2823,
+          "distance_km": 3.05,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "023402",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 218 à Saint-Lambert-de-Lauzon",
+          "lat": 46.587,
+          "lon": -71.214,
+          "distance_km": 17.88,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "Lévis",
+      "station": {
+        "id": "Lévis",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au barrage Innergex, aux chutes de la Chaudière",
+        "lat": 46.7145,
+        "lon": -71.2823,
+        "distance_km": 3.05
+      }
+    },
+    {
+      "plan_id": 12140,
+      "plan_nom": "Rivière Chaudière b) La partie comprise entre le côté amont du barrage du Parc des chutes à Lévis",
+      "lat": 46.7145,
+      "lon": -71.282444,
+      "stations": [
+        {
+          "id": "Lévis",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au barrage Innergex, aux chutes de la Chaudière",
+          "lat": 46.7145,
+          "lon": -71.2823,
+          "distance_km": 0.01,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "023402",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au pont-route 218 à Saint-Lambert-de-Lauzon",
+          "lat": 46.587,
+          "lon": -71.214,
+          "distance_km": 15.11,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "Scott",
+          "plan_eau": "Rivière Chaudière",
+          "description": "Au nord du pont-route 171 à Scott",
+          "lat": 46.5036,
+          "lon": -71.0723,
+          "distance_km": 28.42,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "Lévis",
+      "station": {
+        "id": "Lévis",
+        "plan_eau": "Rivière Chaudière",
+        "description": "Au barrage Innergex, aux chutes de la Chaudière",
+        "lat": 46.7145,
+        "lon": -71.2823,
+        "distance_km": 0.01
+      }
+    },
+    {
+      "plan_id": 147,
+      "plan_nom": "Rivière Coleraine entre la pointe située à l'embouchure de la rivière Coleraine, au point 45°56'35\" N., 71°22'48\" O. , et le deuxième pont de chemin de fer en amont situé au point 45°56'56\" N., 71°22'20\" O.",
+      "lat": 45.943056,
+      "lon": -71.38,
+      "stations": [
+        {
+          "id": "030225",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,6 km en aval du barrage Jules-Allard",
+          "lat": 45.942556,
+          "lon": -71.278528,
+          "distance_km": 7.85,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030201",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Saint-François à Saint-Joseph-de-Coleraine",
+          "lat": 45.951,
+          "lon": -71.274,
+          "distance_km": 8.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030296",
+          "plan_eau": "Lac Aylmer",
+          "description": "Au quai de la municipalité de Stratford",
+          "lat": 45.80625,
+          "lon": -71.326,
+          "distance_km": 15.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030202",
+          "plan_eau": "Rivière Saint-François",
+          "description": "Au lac Aylmer à Weedon",
+          "lat": 45.761,
+          "lon": -71.406,
+          "distance_km": 20.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030278",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 0,1 km en aval du barrage Aylmer",
+          "lat": 45.760361,
+          "lon": -71.406222,
+          "distance_km": 20.42,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030298",
+          "plan_eau": "Rivière Saint-François",
+          "description": "À 1 km en aval du barrage Aylmer",
+          "lat": 45.752917,
+          "lon": -71.409972,
+          "distance_km": 21.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030289",
+          "plan_eau": "Lac Louise",
+          "description": "À Weedon",
+          "lat": 45.738,
+          "lon": -71.422,
+          "distance_km": 23.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030225",
+      "station": {
+        "id": "030225",
+        "plan_eau": "Rivière Saint-François",
+        "description": "À 0,6 km en aval du barrage Jules-Allard",
+        "lat": 45.942556,
+        "lon": -71.278528,
+        "distance_km": 7.85
+      }
+    },
+    {
+      "plan_id": 151,
+      "plan_nom": "Rivière du Loup entre le pont de la route 138 vers l'amont et le pont Masson",
+      "lat": 46.296944,
+      "lon": -72.911944,
+      "stations": [
+        {
+          "id": "15975",
+          "plan_eau": "Lac Saint-Pierre",
+          "description": "Au lac-Saint-Pierre",
+          "lat": 46.194833,
+          "lon": -72.8955,
+          "distance_km": 11.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052601",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "Au pont du C.N. près de Sainte-Ursule",
+          "lat": 46.301,
+          "lon": -73.096,
+          "distance_km": 14.15,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03365",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Port-Saint-François",
+          "lat": 46.2725,
+          "lon": -72.619333,
+          "distance_km": 22.65,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "15975",
+      "station": {
+        "id": "15975",
+        "plan_eau": "Lac Saint-Pierre",
+        "description": "Au lac-Saint-Pierre",
+        "lat": 46.194833,
+        "lon": -72.8955,
+        "distance_km": 11.42
+      }
+    },
+    {
+      "plan_id": 158,
+      "plan_nom": "Rivière Maskinongé entre le pont de la route 138 vers l'amont et le barrage du village de Saint-Joseph-de-Maskinongé",
+      "lat": 46.228889,
+      "lon": -73.017222,
+      "stations": [
+        {
+          "id": "052601",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "Au pont du C.N. près de Sainte-Ursule",
+          "lat": 46.301,
+          "lon": -73.096,
+          "distance_km": 10.05,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "052604",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "Sur la rivière Maskinongé à Saint-Didace",
+          "lat": 46.3267,
+          "lon": -73.2777,
+          "distance_km": 22.78,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "052601",
+      "station": {
+        "id": "052601",
+        "plan_eau": "Rivière Maskinongé",
+        "description": "Au pont du C.N. près de Sainte-Ursule",
+        "lat": 46.301,
+        "lon": -73.096,
+        "distance_km": 10.05
+      }
+    },
+    {
+      "plan_id": 11520,
+      "plan_nom": "Rivière Nicolet - La partie comprise entre le point 45°54'15\" N., 71°45'35\" O. en amont du pont du rang Leclerc et le point 45°54'23\" N., 71°46'38\" O. en amont du pont du rang Leclerc, correspondant au secteur 3 de Pêche Nicolet",
+      "lat": 45.904167,
+      "lon": -71.759722,
+      "stations": [
+        {
+          "id": "030101",
+          "plan_eau": "Rivière Nicolet Sud-Ouest",
+          "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+          "lat": 45.792,
+          "lon": -71.968,
+          "distance_km": 20.39,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030118",
+          "plan_eau": "Réservoir Beaudet",
+          "description": "Au réservoir Beaudet à Victoriaville",
+          "lat": 46.069139,
+          "lon": -71.976611,
+          "distance_km": 24.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030101",
+      "station": {
+        "id": "030101",
+        "plan_eau": "Rivière Nicolet Sud-Ouest",
+        "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+        "lat": 45.792,
+        "lon": -71.968,
+        "distance_km": 20.39
+      }
+    },
+    {
+      "plan_id": 11521,
+      "plan_nom": "Rivière Nicolet - La partie comprise entre le point 45°54'24\" N., 71°46'39\" O. et le point 45°55'13\" N., 71°47'16\" O. en aval du pont du rang Leclerc, correspondant au secteur 4 de Pêche Nicolet",
+      "lat": 45.906667,
+      "lon": -71.7775,
+      "stations": [
+        {
+          "id": "030101",
+          "plan_eau": "Rivière Nicolet Sud-Ouest",
+          "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+          "lat": 45.792,
+          "lon": -71.968,
+          "distance_km": 19.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030118",
+          "plan_eau": "Réservoir Beaudet",
+          "description": "Au réservoir Beaudet à Victoriaville",
+          "lat": 46.069139,
+          "lon": -71.976611,
+          "distance_km": 23.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030106",
+          "plan_eau": "Rivière Bulstrode",
+          "description": "À 120 mètres en aval du Barrage Beaudet",
+          "lat": 46.071,
+          "lon": -71.978,
+          "distance_km": 23.96,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030101",
+      "station": {
+        "id": "030101",
+        "plan_eau": "Rivière Nicolet Sud-Ouest",
+        "description": "À 50 mètres en amont de la chute Nicolet près du chemin Castle Bar",
+        "lat": 45.792,
+        "lon": -71.968,
+        "distance_km": 19.5
+      }
+    },
+    {
+      "plan_id": 11522,
+      "plan_nom": "Rivière Nicolet - La partie comprise entre le point 45°56'15\" N., 71°47'57\" O. et le point 45°56'32\" N., 71°47'56\" O.",
+      "lat": 45.9375,
+      "lon": -71.799167,
+      "stations": [
+        {
+          "id": "030120",
+          "plan_eau": "Rivière Nicolet",
+          "description": "À 6,5 km en aval de Saint-Albert",
+          "lat": 45.983,
+          "lon": -72.163,
+          "distance_km": 28.57,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030120",
+      "station": {
+        "id": "030120",
+        "plan_eau": "Rivière Nicolet",
+        "description": "À 6,5 km en aval de Saint-Albert",
+        "lat": 45.983,
+        "lon": -72.163,
+        "distance_km": 28.57
+      }
+    },
+    {
+      "plan_id": 3164,
+      "plan_nom": "Rivière Pot au Beurre",
+      "lat": 46.041667,
+      "lon": -73.116944,
+      "stations": [
+        {
+          "id": "15930",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Sorel",
+          "lat": 46.047167,
+          "lon": -73.115667,
+          "distance_km": 0.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OB011",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Lanoraie",
+          "lat": 45.9594,
+          "lon": -73.215,
+          "distance_km": 11.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030316",
+          "plan_eau": "Rivière David",
+          "description": "Au pont-route à Saint-David",
+          "lat": 45.953909,
+          "lon": -72.85785,
+          "distance_km": 22.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15975",
+          "plan_eau": "Lac Saint-Pierre",
+          "description": "Au lac-Saint-Pierre",
+          "lat": 46.194833,
+          "lon": -72.8955,
+          "distance_km": 24.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052219",
+          "plan_eau": "Rivière L'Assomption",
+          "description": "Au pont-route 158 à Joliette",
+          "lat": 46.013,
+          "lon": -73.429,
+          "distance_km": 24.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052401",
+          "plan_eau": "Rivière Bayonne",
+          "description": "À Saint-Félix-de-Valois",
+          "lat": 46.157092,
+          "lon": -73.390803,
+          "distance_km": 24.71,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "15930",
+      "station": {
+        "id": "15930",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Sorel",
+        "lat": 46.047167,
+        "lon": -73.115667,
+        "distance_km": 0.62
+      }
+    },
+    {
+      "plan_id": 164,
+      "plan_nom": "Rivière Saint-Maurice a) entre le pont de la route 138 vers l'amont et la pointe à Poulin",
+      "lat": 46.385833,
+      "lon": -72.611667,
+      "stations": [
+        {
+          "id": "03360",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Trois-Rivières",
+          "lat": 46.3405,
+          "lon": -72.539167,
+          "distance_km": 7.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03365",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Port-Saint-François",
+          "lat": 46.2725,
+          "lon": -72.619333,
+          "distance_km": 12.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03353",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Bécancour",
+          "lat": 46.400333,
+          "lon": -72.3795,
+          "distance_km": 17.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 24.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03360",
+      "station": {
+        "id": "03360",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Trois-Rivières",
+        "lat": 46.3405,
+        "lon": -72.539167,
+        "distance_km": 7.51
+      }
+    },
+    {
+      "plan_id": 166,
+      "plan_nom": "Rivière Saint-Maurice b) entre la pointe à Poulin",
+      "lat": 46.385833,
+      "lon": -72.611667,
+      "stations": [
+        {
+          "id": "03360",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Trois-Rivières",
+          "lat": 46.3405,
+          "lon": -72.539167,
+          "distance_km": 7.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03365",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Port-Saint-François",
+          "lat": 46.2725,
+          "lon": -72.619333,
+          "distance_km": 12.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03353",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Bécancour",
+          "lat": 46.400333,
+          "lon": -72.3795,
+          "distance_km": 17.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 24.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "03360",
+      "station": {
+        "id": "03360",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Trois-Rivières",
+        "lat": 46.3405,
+        "lon": -72.539167,
+        "distance_km": 7.51
+      }
+    },
+    {
+      "plan_id": 3237,
+      "plan_nom": "Rivière Saint-Maurice c) entre le barrage de La Gabelle",
+      "lat": 46.448889,
+      "lon": -72.739722,
+      "stations": [
+        {
+          "id": "050148",
+          "plan_eau": "Rivière Shawinigan",
+          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+          "lat": 46.584987,
+          "lon": -72.756659,
+          "distance_km": 15.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03360",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Trois-Rivières",
+          "lat": 46.3405,
+          "lon": -72.539167,
+          "distance_km": 19.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03365",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Port-Saint-François",
+          "lat": 46.2725,
+          "lon": -72.619333,
+          "distance_km": 21.68,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "050148",
+      "station": {
+        "id": "050148",
+        "plan_eau": "Rivière Shawinigan",
+        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
+        "lat": 46.584987,
+        "lon": -72.756659,
+        "distance_km": 15.19
+      }
+    }
+  ]
+}

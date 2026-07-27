@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "zone_id": 3063,
+    "zone_nom": "Zone 19 nord",
+    "nb_plans": 0,
+    "nb_geocoded": 0,
+    "pct_geocoded": 0.0,
+    "source_file": "zones/3063.json"
+  },
+  "locations": []
+}

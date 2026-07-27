@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-58.216667, 52.133333]}, "properties": {"id_lce": 99835, "type": "lac", "nom": null}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-58.016949, 52.159719]}, "properties": {"id_lce": 111971, "type": "lac", "nom": null}}]}

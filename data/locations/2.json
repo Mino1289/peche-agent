@@ -1,0 +1,1033 @@
+{
+  "meta": {
+    "zone_id": 2,
+    "zone_nom": "Zone 2",
+    "nb_plans": 61,
+    "nb_geocoded": 55,
+    "pct_geocoded": 90.2,
+    "source_file": "zones/2.json"
+  },
+  "locations": [
+    {
+      "id": 309,
+      "zone_id": 2,
+      "nom_brut": "Lac à la Truite - ( 48°12'49\" N., 68°27'03\" O. ) (Saint-Narcisse-de-Rimouski)",
+      "nom": "Lac à la Truite",
+      "nom_search": "lac a la truite 48 12 49 n 68 27 03 o ) saint narcisse de rimouski)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Truite -",
+      "aliases": [
+        "a la truite",
+        "a la truite 48 12 49 n 68 27 03 o ) saint narcisse de rimouski)",
+        "lac a la truite",
+        "lac a la truite 48 12 49 n 68 27 03 o ) saint narcisse de rimouski)"
+      ],
+      "lat": 48.213611,
+      "lon": -68.450833
+    },
+    {
+      "id": 316,
+      "zone_id": 2,
+      "nom_brut": "Lac Baker - ( 47°22'51\" N., 68°42'54\" O. )",
+      "nom": "Lac Baker",
+      "nom_search": "lac baker 47 22 51 n 68 42 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Baker -",
+      "aliases": [
+        "baker",
+        "baker 47 22 51 n 68 42 54 o )",
+        "lac baker",
+        "lac baker 47 22 51 n 68 42 54 o )"
+      ],
+      "lat": 47.380833,
+      "lon": -68.715
+    },
+    {
+      "id": 288,
+      "zone_id": 2,
+      "nom_brut": "Lac Biencourt ( 47°58'15\" N., 68°31'47\" O. )",
+      "nom": "Lac Biencourt",
+      "nom_search": "lac biencourt 47 58 15 n 68 31 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Biencourt",
+      "aliases": [
+        "biencourt",
+        "biencourt 47 58 15 n 68 31 47 o )",
+        "lac biencourt",
+        "lac biencourt 47 58 15 n 68 31 47 o )"
+      ],
+      "lat": 47.970833,
+      "lon": -68.529722
+    },
+    {
+      "id": 292,
+      "zone_id": 2,
+      "nom_brut": "Lac de la Grande Fourche ( 47°46'23\" N., 69°11'43\" O. )",
+      "nom": "Lac de la Grande Fourche",
+      "nom_search": "lac de la grande fourche 47 46 23 n 69 11 43 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Grande Fourche",
+      "aliases": [
+        "de la grande fourche",
+        "de la grande fourche 47 46 23 n 69 11 43 o )",
+        "lac de la grande fourche",
+        "lac de la grande fourche 47 46 23 n 69 11 43 o )"
+      ],
+      "lat": 47.773056,
+      "lon": -69.195278
+    },
+    {
+      "id": 306,
+      "zone_id": 2,
+      "nom_brut": "Lac de la Passe (Lac Premier lac Squatec) - ( 47°50'06\" N., 68°41'40\" O. )",
+      "nom": "Lac de la Passe",
+      "nom_search": "lac de la passe lac premier lac squatec) 47 50 06 n 68 41 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Passe",
+      "aliases": [
+        "de la passe",
+        "de la passe lac premier lac squatec) 47 50 06 n 68 41 40 o )",
+        "lac de la passe",
+        "lac de la passe lac premier lac squatec) 47 50 06 n 68 41 40 o )"
+      ],
+      "lat": 47.835,
+      "lon": -68.694444
+    },
+    {
+      "id": 307,
+      "zone_id": 2,
+      "nom_brut": "Lac de la Station - ( 48°16'46\" N., 68°52'38\" O. ) (Saint-Fabien)",
+      "nom": "Lac de la Station",
+      "nom_search": "lac de la station 48 16 46 n 68 52 38 o ) saint fabien)",
+      "segment_label": null,
+      "river_base_name": "Lac de la Station -",
+      "aliases": [
+        "de la station",
+        "de la station 48 16 46 n 68 52 38 o ) saint fabien)",
+        "lac de la station",
+        "lac de la station 48 16 46 n 68 52 38 o ) saint fabien)"
+      ],
+      "lat": 48.279444,
+      "lon": -68.877222
+    },
+    {
+      "id": 318,
+      "zone_id": 2,
+      "nom_brut": "Lac de l'Est ( 47°12'20\" N., 69°34'09\" O. )",
+      "nom": "Lac de l'Est",
+      "nom_search": "lac de l est 47 12 20 n 69 34 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Est",
+      "aliases": [
+        "de l est",
+        "de l est 47 12 20 n 69 34 09 o )",
+        "lac de l est",
+        "lac de l est 47 12 20 n 69 34 09 o )"
+      ],
+      "lat": 47.205556,
+      "lon": -69.569167
+    },
+    {
+      "id": 287,
+      "zone_id": 2,
+      "nom_brut": "Lac des Aigles - ( 47°57'00\" N., 68°42'31\" O. ) (Lac-des-Aigles)",
+      "nom": "Lac des Aigles",
+      "nom_search": "lac des aigles 47 57 00 n 68 42 31 o ) lac des aigles)",
+      "segment_label": null,
+      "river_base_name": "Lac des Aigles -",
+      "aliases": [
+        "des aigles",
+        "des aigles 47 57 00 n 68 42 31 o ) lac des aigles)",
+        "lac des aigles",
+        "lac des aigles 47 57 00 n 68 42 31 o ) lac des aigles)"
+      ],
+      "lat": 47.95,
+      "lon": -68.708611
+    },
+    {
+      "id": 289,
+      "zone_id": 2,
+      "nom_brut": "Lac des Bouleaux - ( 48°03'06\" N., 68°35'39\" O. ) (Esprit-Saint)",
+      "nom": "Lac des Bouleaux",
+      "nom_search": "lac des bouleaux 48 03 06 n 68 35 39 o ) esprit saint)",
+      "segment_label": null,
+      "river_base_name": "Lac des Bouleaux -",
+      "aliases": [
+        "des bouleaux",
+        "des bouleaux 48 03 06 n 68 35 39 o ) esprit saint)",
+        "lac des bouleaux",
+        "lac des bouleaux 48 03 06 n 68 35 39 o ) esprit saint)",
+        "st )"
+      ],
+      "lat": 48.051667,
+      "lon": -68.594167
+    },
+    {
+      "id": 301,
+      "zone_id": 2,
+      "nom_brut": "Lac du Pain de Sucre ( 47°48'55\" N., 68°40'05\" O. )",
+      "nom": "Lac du Pain de Sucre",
+      "nom_search": "lac du pain de sucre 47 48 55 n 68 40 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Pain de Sucre",
+      "aliases": [
+        "du pain de sucre",
+        "du pain de sucre 47 48 55 n 68 40 05 o )",
+        "lac du pain de sucre",
+        "lac du pain de sucre 47 48 55 n 68 40 05 o )"
+      ],
+      "lat": 47.815278,
+      "lon": -68.668056
+    },
+    {
+      "id": 290,
+      "zone_id": 2,
+      "nom_brut": "Lac Ferré - ( 48°13'15\" N., 68°26'33\" O. ) (Saint-Narcisse)",
+      "nom": "Lac Ferré",
+      "nom_search": "lac ferre 48 13 15 n 68 26 33 o ) saint narcisse)",
+      "segment_label": null,
+      "river_base_name": "Lac Ferré -",
+      "aliases": [
+        "ferre",
+        "ferre 48 13 15 n 68 26 33 o ) saint narcisse)",
+        "lac ferre",
+        "lac ferre 48 13 15 n 68 26 33 o ) saint narcisse)"
+      ],
+      "lat": 48.220833,
+      "lon": -68.4425
+    },
+    {
+      "id": 294,
+      "zone_id": 2,
+      "nom_brut": "Lac Grand lac Malobès - ( 48°16'10\" N., 68°51'36\" O. ) (Saint-Fabien)",
+      "nom": "Lac Grand lac Malobès",
+      "nom_search": "lac grand lac malobes 48 16 10 n 68 51 36 o ) saint fabien)",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Malobès -",
+      "aliases": [
+        "grand lac malobes",
+        "grand lac malobes 48 16 10 n 68 51 36 o ) saint fabien)",
+        "lac grand lac malobes",
+        "lac grand lac malobes 48 16 10 n 68 51 36 o ) saint fabien)"
+      ],
+      "lat": 48.269444,
+      "lon": -68.86
+    },
+    {
+      "id": 319,
+      "zone_id": 2,
+      "nom_brut": "Lac Grand Lac Squatec ( 47°40'23\" N., 68°34'24\" O. )",
+      "nom": "Lac Grand Lac Squatec",
+      "nom_search": "lac grand lac squatec 47 40 23 n 68 34 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand Lac Squatec",
+      "aliases": [
+        "grand lac squatec",
+        "grand lac squatec 47 40 23 n 68 34 24 o )",
+        "lac grand lac squatec",
+        "lac grand lac squatec 47 40 23 n 68 34 24 o )"
+      ],
+      "lat": 47.673056,
+      "lon": -68.573333
+    },
+    {
+      "id": 320,
+      "zone_id": 2,
+      "nom_brut": "Lac Humqui - ( 48°18'05\" N., 67°34'16\" O. )",
+      "nom": "Lac Humqui",
+      "nom_search": "lac humqui 48 18 05 n 67 34 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Humqui -",
+      "aliases": [
+        "humqui",
+        "humqui 48 18 05 n 67 34 16 o )",
+        "lac humqui",
+        "lac humqui 48 18 05 n 67 34 16 o )"
+      ],
+      "lat": 48.301389,
+      "lon": -67.571111
+    },
+    {
+      "id": 322,
+      "zone_id": 2,
+      "nom_brut": "Lac Jerry - ( 47°25'44\" N., 68°47'17\" O. )",
+      "nom": "Lac Jerry",
+      "nom_search": "lac jerry 47 25 44 n 68 47 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Jerry -",
+      "aliases": [
+        "jerry",
+        "jerry 47 25 44 n 68 47 17 o )",
+        "lac jerry",
+        "lac jerry 47 25 44 n 68 47 17 o )"
+      ],
+      "lat": 47.428889,
+      "lon": -68.788056
+    },
+    {
+      "id": 293,
+      "zone_id": 2,
+      "nom_brut": "Lac Lavoie - ( 47°32'56\" N., 68°46'22\" O. ) (Témiscouata-sur-le-Lac)",
+      "nom": "Lac Lavoie",
+      "nom_search": "lac lavoie 47 32 56 n 68 46 22 o ) temiscouata sur le lac)",
+      "segment_label": null,
+      "river_base_name": "Lac Lavoie -",
+      "aliases": [
+        "lac lavoie",
+        "lac lavoie 47 32 56 n 68 46 22 o ) temiscouata sur le lac)",
+        "lavoie",
+        "lavoie 47 32 56 n 68 46 22 o ) temiscouata sur le lac)"
+      ],
+      "lat": 47.548889,
+      "lon": -68.772778
+    },
+    {
+      "id": 317,
+      "zone_id": 2,
+      "nom_brut": "Lac Le Beau Lac ( 47°21'42\" N., 69°03'05\" O. )",
+      "nom": "Lac Le Beau Lac",
+      "nom_search": "lac le beau lac 47 21 42 n 69 03 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Le Beau Lac",
+      "aliases": [
+        "lac le beau lac",
+        "lac le beau lac 47 21 42 n 69 03 05 o )",
+        "le beau lac",
+        "le beau lac 47 21 42 n 69 03 05 o )"
+      ],
+      "lat": 47.361667,
+      "lon": -69.051389
+    },
+    {
+      "id": 298,
+      "zone_id": 2,
+      "nom_brut": "Lac Martin - ( 47°34'13\" N., 68°42'58\" O. )",
+      "nom": "Lac Martin",
+      "nom_search": "lac martin 47 34 13 n 68 42 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Martin -",
+      "aliases": [
+        "lac martin",
+        "lac martin 47 34 13 n 68 42 58 o )",
+        "martin",
+        "martin 47 34 13 n 68 42 58 o )"
+      ],
+      "lat": 47.570278,
+      "lon": -68.716111
+    },
+    {
+      "id": 300,
+      "zone_id": 2,
+      "nom_brut": "Lac Morin - ( 47°37'46\" N., 69°31'52\" O. )",
+      "nom": "Lac Morin",
+      "nom_search": "lac morin 47 37 46 n 69 31 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Morin -",
+      "aliases": [
+        "lac morin",
+        "lac morin 47 37 46 n 69 31 52 o )",
+        "morin",
+        "morin 47 37 46 n 69 31 52 o )"
+      ],
+      "lat": 47.629444,
+      "lon": -69.531111
+    },
+    {
+      "id": 291,
+      "zone_id": 2,
+      "nom_brut": "Lac Petit lac Ferré - ( 48°14'22\" N., 68°24'56\" O. ) (Saint-Narcisse)",
+      "nom": "Lac Petit lac Ferré",
+      "nom_search": "lac petit lac ferre 48 14 22 n 68 24 56 o ) saint narcisse)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Ferré -",
+      "aliases": [
+        "lac petit lac ferre",
+        "lac petit lac ferre 48 14 22 n 68 24 56 o ) saint narcisse)",
+        "petit lac ferre",
+        "petit lac ferre 48 14 22 n 68 24 56 o ) saint narcisse)"
+      ],
+      "lat": 48.239444,
+      "lon": -68.415556
+    },
+    {
+      "id": 12241,
+      "zone_id": 2,
+      "nom_brut": "Lac Petit lac Saint-Mathieu - ( 48°10'51\" N., 68°58'53\" O. ) (Saint-Mathieu-de-Rioux)",
+      "nom": "Lac Petit lac Saint-Mathieu",
+      "nom_search": "lac petit lac saint mathieu 48 10 51 n 68 58 53 o ) saint mathieu de rioux)",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Saint-Mathieu -",
+      "aliases": [
+        "lac petit lac saint mathieu",
+        "lac petit lac saint mathieu 48 10 51 n 68 58 53 o ) saint mathieu de rioux)",
+        "petit lac saint mathieu",
+        "petit lac saint mathieu 48 10 51 n 68 58 53 o ) saint mathieu de rioux)"
+      ],
+      "lat": 48.180833,
+      "lon": -68.981389
+    },
+    {
+      "id": 305,
+      "zone_id": 2,
+      "nom_brut": "Lac Petit lac Squatec ( 47°51'53\" N., 68°41'59\" O. )",
+      "nom": "Lac Petit lac Squatec",
+      "nom_search": "lac petit lac squatec 47 51 53 n 68 41 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Squatec",
+      "aliases": [
+        "lac petit lac squatec",
+        "lac petit lac squatec 47 51 53 n 68 41 59 o )",
+        "petit lac squatec",
+        "petit lac squatec 47 51 53 n 68 41 59 o )"
+      ],
+      "lat": 47.864722,
+      "lon": -68.699722
+    },
+    {
+      "id": 323,
+      "zone_id": 2,
+      "nom_brut": "Lac Pohénégamook ( 47°29'26\" N., 69°16'19\" O. )",
+      "nom": "Lac Pohénégamook",
+      "nom_search": "lac pohenegamook 47 29 26 n 69 16 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pohénégamook",
+      "aliases": [
+        "lac pohenegamook",
+        "lac pohenegamook 47 29 26 n 69 16 19 o )",
+        "pohenegamook",
+        "pohenegamook 47 29 26 n 69 16 19 o )"
+      ],
+      "lat": 47.490556,
+      "lon": -69.271944
+    },
+    {
+      "id": 302,
+      "zone_id": 2,
+      "nom_brut": "Lac Saint-François - ( 47°45'00\" N., 69°18'30\" O. )",
+      "nom": "Lac Saint-François",
+      "nom_search": "lac saint francois 47 45 00 n 69 18 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-François -",
+      "aliases": [
+        "lac saint francois",
+        "lac saint francois 47 45 00 n 69 18 30 o )",
+        "saint francois",
+        "saint francois 47 45 00 n 69 18 30 o )"
+      ],
+      "lat": 47.75,
+      "lon": -69.308333
+    },
+    {
+      "id": 303,
+      "zone_id": 2,
+      "nom_brut": "Lac Saint-Jean - ( 47°59'10\" N., 68°50'21\" O. )",
+      "nom": "Lac Saint-Jean",
+      "nom_search": "lac saint jean 47 59 10 n 68 50 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Jean -",
+      "aliases": [
+        "lac saint jean",
+        "lac saint jean 47 59 10 n 68 50 21 o )",
+        "saint jean",
+        "saint jean 47 59 10 n 68 50 21 o )"
+      ],
+      "lat": 47.986111,
+      "lon": -68.839167
+    },
+    {
+      "id": 304,
+      "zone_id": 2,
+      "nom_brut": "Lac Saint-Mathieu - ( 48°09'15\" N., 69°01'30\" O. ) (Saint-Mathieu-de-Rioux)",
+      "nom": "Lac Saint-Mathieu",
+      "nom_search": "lac saint mathieu 48 09 15 n 69 01 30 o ) saint mathieu de rioux)",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Mathieu -",
+      "aliases": [
+        "lac saint mathieu",
+        "lac saint mathieu 48 09 15 n 69 01 30 o ) saint mathieu de rioux)",
+        "saint mathieu",
+        "saint mathieu 48 09 15 n 69 01 30 o ) saint mathieu de rioux)"
+      ],
+      "lat": 48.154167,
+      "lon": -69.025
+    },
+    {
+      "id": 324,
+      "zone_id": 2,
+      "nom_brut": "Lac Témiscouata ( 47°40'56\" N., 68°51'21\" O. )",
+      "nom": "Lac Témiscouata",
+      "nom_search": "lac temiscouata 47 40 56 n 68 51 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Témiscouata",
+      "aliases": [
+        "lac temiscouata",
+        "lac temiscouata 47 40 56 n 68 51 21 o )",
+        "temiscouata",
+        "temiscouata 47 40 56 n 68 51 21 o )"
+      ],
+      "lat": 47.682222,
+      "lon": -68.855833
+    },
+    {
+      "id": 2502,
+      "zone_id": 2,
+      "nom_brut": "Parc National du Lac-Témiscouata - à l'exception des lacs Témiscouata, Petit lac touladi, Grand lac touladi et la rivière Touladi.",
+      "nom": "Parc National du Lac-Témiscouata - à l'exception des lacs Témiscouata, Petit lac touladi, Grand lac touladi et la rivière Touladi.",
+      "nom_search": "parc national du lac temiscouata a l exception des lacs temiscouata petit lac touladi grand lac touladi et la riviere touladi",
+      "segment_label": null,
+      "river_base_name": "Parc National du Lac-Témiscouata",
+      "aliases": [
+        "parc national du lac temiscouata",
+        "parc national du lac temiscouata a l exception des lacs temiscouata petit lac touladi grand lac touladi et la riviere touladi"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3046,
+      "zone_id": 2,
+      "nom_brut": "Parc National du Lac-Témiscouata - Grand lac Touladi ( 47°43'50\" N., 68°45'37\" O. )",
+      "nom": "Parc National du Lac-Témiscouata - Grand lac Touladi",
+      "nom_search": "parc national du lac temiscouata grand lac touladi 47 43 50 n 68 45 37 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National du Lac-Témiscouata",
+      "aliases": [
+        "parc national du lac temiscouata",
+        "parc national du lac temiscouata grand lac touladi 47 43 50 n 68 45 37 o )"
+      ],
+      "lat": 47.730556,
+      "lon": -68.760278
+    },
+    {
+      "id": 3047,
+      "zone_id": 2,
+      "nom_brut": "Parc National du Lac-Témiscouata - Petit lac Touladi ( 47°47'06\" N., 68°45'17\" O. )",
+      "nom": "Parc National du Lac-Témiscouata - Petit lac Touladi",
+      "nom_search": "parc national du lac temiscouata petit lac touladi 47 47 06 n 68 45 17 o )",
+      "segment_label": null,
+      "river_base_name": "Parc National du Lac-Témiscouata",
+      "aliases": [
+        "parc national du lac temiscouata",
+        "parc national du lac temiscouata petit lac touladi 47 47 06 n 68 45 17 o )"
+      ],
+      "lat": 47.785,
+      "lon": -68.754722
+    },
+    {
+      "id": 2326,
+      "zone_id": 2,
+      "nom_brut": "Réserve Faunique de Duchénier",
+      "nom": "Réserve Faunique de Duchénier",
+      "nom_search": "reserve faunique de duchenier",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Duchénier",
+      "aliases": [
+        "reserve faunique de duchenier"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2340,
+      "zone_id": 2,
+      "nom_brut": "Réserve Faunique de Rimouski",
+      "nom": "Réserve Faunique de Rimouski",
+      "nom_search": "reserve faunique de rimouski",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Rimouski",
+      "aliases": [
+        "reserve faunique de rimouski"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 340,
+      "zone_id": 2,
+      "nom_brut": "Rivière Branche Nord (Humqui Nord) entre sa confluence avec la rivière Humqui ( 48°19'14\" N., 67°33'34\" O. ) et le côté en aval du pont situé sur le chemin de la Branche nord, dans la municipalité de Lac-Humqui ( 48°21'33\" N., 67°35'35\" O. ).",
+      "nom": "Rivière Branche Nord",
+      "nom_search": "riviere branche nord humqui nord) entre sa confluence avec la riviere humqui 48 19 14 n 67 33 34 o ) et le cote en aval du pont situe sur le chemin de la branche nord dans la municipalite de lac humqui 48 21 33 n 67 35 35 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Branche Nord",
+      "aliases": [
+        "branche nord",
+        "branche nord humqui nord) entre sa confluence avec la riviere humqui 48 19 14 n 67 33 34 o ) et le cote en aval du pont situe sur le chemin de la branche nord dans la municipalite de lac humqui 48 21 33 n 67 35 35 o )",
+        "riviere branche nord",
+        "riviere branche nord humqui nord) entre sa confluence avec la riviere humqui 48 19 14 n 67 33 34 o ) et le cote en aval du pont situe sur le chemin de la branche nord dans la municipalite de lac humqui 48 21 33 n 67 35 35 o )"
+      ],
+      "lat": 48.320556,
+      "lon": -67.559444
+    },
+    {
+      "id": 387,
+      "zone_id": 2,
+      "nom_brut": "Rivière Chaude entre sa confluence avec la Grande Rivière ( 47°18'05\" N., 69°54'10\" O. ) et la chute située à 2,25 km en amont ( 47°18'14\" N., 69°52'37\" O. ).",
+      "nom": "Rivière Chaude entre sa confluence avec la Grande Rivière",
+      "nom_search": "riviere chaude entre sa confluence avec la grande riviere 47 18 05 n 69 54 10 o ) et la chute situee a 2 25 km en amont 47 18 14 n 69 52 37 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Chaude",
+      "aliases": [
+        "chaude",
+        "chaude entre sa confluence avec la grande riviere 47 18 05 n 69 54 10 o ) et la chute situee a 2 25 km en amont 47 18 14 n 69 52 37 o )",
+        "riviere chaude",
+        "riviere chaude entre sa confluence avec la grande riviere 47 18 05 n 69 54 10 o ) et la chute situee a 2 25 km en amont 47 18 14 n 69 52 37 o )"
+      ],
+      "lat": 47.301389,
+      "lon": -69.902778
+    },
+    {
+      "id": 375,
+      "zone_id": 2,
+      "nom_brut": "Rivière du Moulin (Millstream) entre sa confluence avec la rivière Matapédia ( 48°03'51\" N., 67°06'19\" O. ) et une droite perpendiculaire au courant située à 1 km en amont au point ( 48°04'03\" N., 67°06'28\" O. ).",
+      "nom": "Rivière du Moulin",
+      "nom_search": "riviere du moulin millstream) entre sa confluence avec la riviere matapedia 48 03 51 n 67 06 19 o ) et une droite perpendiculaire au courant situee a 1 km en amont au point 48 04 03 n 67 06 28 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Moulin",
+      "aliases": [
+        "du moulin",
+        "du moulin millstream) entre sa confluence avec la riviere matapedia 48 03 51 n 67 06 19 o ) et une droite perpendiculaire au courant situee a 1 km en amont au point 48 04 03 n 67 06 28 o )",
+        "riviere du moulin",
+        "riviere du moulin millstream) entre sa confluence avec la riviere matapedia 48 03 51 n 67 06 19 o ) et une droite perpendiculaire au courant situee a 1 km en amont au point 48 04 03 n 67 06 28 o )"
+      ],
+      "lat": 48.064167,
+      "lon": -67.105278
+    },
+    {
+      "id": 333,
+      "zone_id": 2,
+      "nom_brut": "Rivière du Sud-Ouest entre son embouchure ( 48°21'14\" N., 68°45'33\" O. ) et le côté en aval du pont de la route 132 ( 48°19'46\" N., 68°47'29\"O. ).",
+      "nom": "Rivière du Sud-Ouest entre son embouchure",
+      "nom_search": "riviere du sud ouest entre son embouchure 48 21 14 n 68 45 33 o ) et le cote en aval du pont de la route 132 48 19 46 n 68 47 29 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Sud-Ouest",
+      "aliases": [
+        "du sud ouest",
+        "du sud ouest entre son embouchure 48 21 14 n 68 45 33 o ) et le cote en aval du pont de la route 132 48 19 46 n 68 47 29 o )",
+        "riviere du sud ouest",
+        "riviere du sud ouest entre son embouchure 48 21 14 n 68 45 33 o ) et le cote en aval du pont de la route 132 48 19 46 n 68 47 29 o )"
+      ],
+      "lat": 48.353889,
+      "lon": -68.759167
+    },
+    {
+      "id": 336,
+      "zone_id": 2,
+      "nom_brut": "Rivière Humqui a) entre sa confluence avec la rivière Matapédia ( 48°27'45\" N., 67°25'46\" O. ) et l'embouchure de la rivière Branche Nord (Humqui Nord) ( 48°19'14\" N., 67°33'25\" O. ).",
+      "nom": "Rivière Humqui a) entre sa confluence avec la rivière Matapédia",
+      "nom_search": "riviere humqui a) entre sa confluence avec la riviere matapedia 48 27 45 n 67 25 46 o ) et l embouchure de la riviere branche nord humqui nord) 48 19 14 n 67 33 25 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Humqui",
+      "aliases": [
+        "humqui",
+        "humqui a) entre sa confluence avec la riviere matapedia 48 27 45 n 67 25 46 o ) et l embouchure de la riviere branche nord humqui nord) 48 19 14 n 67 33 25 o )",
+        "riviere humqui",
+        "riviere humqui a) entre sa confluence avec la riviere matapedia 48 27 45 n 67 25 46 o ) et l embouchure de la riviere branche nord humqui nord) 48 19 14 n 67 33 25 o )"
+      ],
+      "lat": 48.4625,
+      "lon": -67.429444
+    },
+    {
+      "id": 337,
+      "zone_id": 2,
+      "nom_brut": "Rivière Humqui b) entre l'embouchure de la rivière Branche Nord (Humqui Nord) ( 48°19'14\" N., 67°33'25\" O. ) et le lac Humqui ( 48°18'48\" N., 67°33'56\" O. ).",
+      "nom": "Rivière Humqui b) entre l'embouchure de la rivière Branche Nord",
+      "nom_search": "riviere humqui b) entre l embouchure de la riviere branche nord humqui nord) 48 19 14 n 67 33 25 o ) et le lac humqui 48 18 48 n 67 33 56 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Humqui",
+      "aliases": [
+        "humqui",
+        "humqui b) entre l embouchure de la riviere branche nord humqui nord) 48 19 14 n 67 33 25 o ) et le lac humqui 48 18 48 n 67 33 56 o )",
+        "riviere humqui",
+        "riviere humqui b) entre l embouchure de la riviere branche nord humqui nord) 48 19 14 n 67 33 25 o ) et le lac humqui 48 18 48 n 67 33 56 o )"
+      ],
+      "lat": 48.320556,
+      "lon": -67.556944
+    },
+    {
+      "id": 345,
+      "zone_id": 2,
+      "nom_brut": "Rivière Kedgwick entre la frontière Québec - Nouveau-Brunswick ( 48°00'01\"N., 67°56'45\" O. ) et le Grand lac Kedgwick ( 48°04'50\" N., 68°05'09\" O. ).",
+      "nom": "Rivière Kedgwick entre la frontière Québec - Nouveau-Brunswick",
+      "nom_search": "riviere kedgwick entre la frontiere quebec nouveau brunswick 48 00 01 n 67 56 45 o ) et le grand lac kedgwick 48 04 50 n 68 05 09 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Kedgwick",
+      "aliases": [
+        "kedgwick",
+        "kedgwick entre la frontiere quebec nouveau brunswick 48 00 01 n 67 56 45 o ) et le grand lac kedgwick 48 04 50 n 68 05 09 o )",
+        "riviere kedgwick",
+        "riviere kedgwick entre la frontiere quebec nouveau brunswick 48 00 01 n 67 56 45 o ) et le grand lac kedgwick 48 04 50 n 68 05 09 o )"
+      ],
+      "lat": 48.000278,
+      "lon": -67.945833
+    },
+    {
+      "id": 384,
+      "zone_id": 2,
+      "nom_brut": "Rivière La Grande Rivière a) entre sa confluence avec la rivière Ouelle ( 47°21'02\" N., 69°55'37\" O. ) et sa confluence avec la rivière Chaude ( 47°18'05\" N., 69°54'10\" O. ).",
+      "nom": "Rivière La Grande Rivière a) entre sa confluence avec la rivière Ouelle",
+      "nom_search": "riviere la grande riviere a) entre sa confluence avec la riviere ouelle 47 21 02 n 69 55 37 o ) et sa confluence avec la riviere chaude 47 18 05 n 69 54 10 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere a) entre sa confluence avec la riviere ouelle 47 21 02 n 69 55 37 o ) et sa confluence avec la riviere chaude 47 18 05 n 69 54 10 o )",
+        "riviere la grande riviere",
+        "riviere la grande riviere a) entre sa confluence avec la riviere ouelle 47 21 02 n 69 55 37 o ) et sa confluence avec la riviere chaude 47 18 05 n 69 54 10 o )"
+      ],
+      "lat": 47.350556,
+      "lon": -69.926944
+    },
+    {
+      "id": 385,
+      "zone_id": 2,
+      "nom_brut": "Rivière La Grande Rivière b) entre sa confluence avec la rivière Chaude ( 47°18'05\" N., 69°54'10\" O. ) et la limite nord-est du canton Ashford ( 47°14'05\" N., 69°53'13\" O. ).",
+      "nom": "Rivière La Grande Rivière b) entre sa confluence avec la rivière Chaude",
+      "nom_search": "riviere la grande riviere b) entre sa confluence avec la riviere chaude 47 18 05 n 69 54 10 o ) et la limite nord est du canton ashford 47 14 05 n 69 53 13 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere b) entre sa confluence avec la riviere chaude 47 18 05 n 69 54 10 o ) et la limite nord est du canton ashford 47 14 05 n 69 53 13 o )",
+        "riviere la grande riviere",
+        "riviere la grande riviere b) entre sa confluence avec la riviere chaude 47 18 05 n 69 54 10 o ) et la limite nord est du canton ashford 47 14 05 n 69 53 13 o )"
+      ],
+      "lat": 47.301389,
+      "lon": -69.902778
+    },
+    {
+      "id": 361,
+      "zone_id": 2,
+      "nom_brut": "Rivière Milnikek a) entre sa confluence avec la rivière Matapédia ( 48°08'14\" N., 67°09'11\" O. ) et le côté en aval du pont du CN ( 48°08'15\" N., 67°09'12\" O. ).",
+      "nom": "Rivière Milnikek a) entre sa confluence avec la rivière Matapédia",
+      "nom_search": "riviere milnikek a) entre sa confluence avec la riviere matapedia 48 08 14 n 67 09 11 o ) et le cote en aval du pont du cn 48 08 15 n 67 09 12 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Milnikek",
+      "aliases": [
+        "milnikek",
+        "milnikek a) entre sa confluence avec la riviere matapedia 48 08 14 n 67 09 11 o ) et le cote en aval du pont du cn 48 08 15 n 67 09 12 o )",
+        "riviere milnikek",
+        "riviere milnikek a) entre sa confluence avec la riviere matapedia 48 08 14 n 67 09 11 o ) et le cote en aval du pont du cn 48 08 15 n 67 09 12 o )"
+      ],
+      "lat": 48.137222,
+      "lon": -67.153056
+    },
+    {
+      "id": 363,
+      "zone_id": 2,
+      "nom_brut": "Rivière Milnikek b) entre le côté en aval du pont du CN ( 48°08'15\" N., 67°09'12\" O. ) et sa confluence avec la Grande rivière Milnikek Nord ( 48°13'40\" N., 67°23'56\" O. ).",
+      "nom": "Rivière Milnikek b) entre le côté en aval du pont du CN",
+      "nom_search": "riviere milnikek b) entre le cote en aval du pont du cn 48 08 15 n 67 09 12 o ) et sa confluence avec la grande riviere milnikek nord 48 13 40 n 67 23 56 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Milnikek",
+      "aliases": [
+        "milnikek",
+        "milnikek b) entre le cote en aval du pont du cn 48 08 15 n 67 09 12 o ) et sa confluence avec la grande riviere milnikek nord 48 13 40 n 67 23 56 o )",
+        "riviere milnikek",
+        "riviere milnikek b) entre le cote en aval du pont du cn 48 08 15 n 67 09 12 o ) et sa confluence avec la grande riviere milnikek nord 48 13 40 n 67 23 56 o )"
+      ],
+      "lat": 48.1375,
+      "lon": -67.153333
+    },
+    {
+      "id": 3260,
+      "zone_id": 2,
+      "nom_brut": "Rivière Mistigougèche entre sa confluence avec la rivière Mitis ( 48°26'56\" N., 68°00'10\" O. ) et une droite perpendiculaire au courant passant par le point 48°23'04\" N., 68°02'41\" O. situé à 100m en amont du pont des scouts.",
+      "nom": "Rivière Mistigougèche entre sa confluence avec la rivière Mitis",
+      "nom_search": "riviere mistigougeche entre sa confluence avec la riviere mitis 48 26 56 n 68 00 10 o ) et une droite perpendiculaire au courant passant par le point 48 23 04 n 68 02 41 o situe a 100m en amont du pont des scouts",
+      "segment_label": null,
+      "river_base_name": "Rivière Mistigougèche",
+      "aliases": [
+        "mistigougeche",
+        "mistigougeche entre sa confluence avec la riviere mitis 48 26 56 n 68 00 10 o ) et une droite perpendiculaire au courant passant par le point 48 23 04 n 68 02 41 o situe a 100m en amont du pont des scouts",
+        "riviere mistigougeche",
+        "riviere mistigougeche entre sa confluence avec la riviere mitis 48 26 56 n 68 00 10 o ) et une droite perpendiculaire au courant passant par le point 48 23 04 n 68 02 41 o situe a 100m en amont du pont des scouts"
+      ],
+      "lat": 48.448889,
+      "lon": -68.002778
+    },
+    {
+      "id": 331,
+      "zone_id": 2,
+      "nom_brut": "Rivière Mistigougèche entre une droite perpendiculaire au courant passant par le point 48°23'04\" N., 68°02'41\" O. situé à 100 m en amont du pont des scouts et le lac des Eaux-Mortes ( 48°15'36\" N., 68°04'35\" O. ).",
+      "nom": "Rivière Mistigougèche entre une droite perpendiculaire au courant passant par le point 48°23'04\" N., 68°02'41\" O. situé à 100 m en amont du pont des scouts et le lac des Eaux-Mortes",
+      "nom_search": "riviere mistigougeche entre une droite perpendiculaire au courant passant par le point 48 23 04 n 68 02 41 o situe a 100 m en amont du pont des scouts et le lac des eaux mortes 48 15 36 n 68 04 35 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Mistigougèche",
+      "aliases": [
+        "mistigougeche",
+        "mistigougeche entre une droite perpendiculaire au courant passant par le point 48 23 04 n 68 02 41 o situe a 100 m en amont du pont des scouts et le lac des eaux mortes 48 15 36 n 68 04 35 o )",
+        "riviere mistigougeche",
+        "riviere mistigougeche entre une droite perpendiculaire au courant passant par le point 48 23 04 n 68 02 41 o situe a 100 m en amont du pont des scouts et le lac des eaux mortes 48 15 36 n 68 04 35 o )"
+      ],
+      "lat": 48.384444,
+      "lon": -68.044722
+    },
+    {
+      "id": 367,
+      "zone_id": 2,
+      "nom_brut": "Rivière Mitis entre le côté en aval du pont de la route 132 à Sainte-Angèle-de-Mérici ( 48°32'47\" N., 68°07'53\" O. ) et la chute située dans la Seigneurie Métis ( 48°21'33\" N., 67°55'52\" O. ).",
+      "nom": "Rivière Mitis entre le côté en aval du pont de la route 132 à Sainte-Angèle-de-Mérici",
+      "nom_search": "riviere mitis entre le cote en aval du pont de la route 132 a sainte angele de merici 48 32 47 n 68 07 53 o ) et la chute situee dans la seigneurie metis 48 21 33 n 67 55 52 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Mitis",
+      "aliases": [
+        "mitis",
+        "mitis entre le cote en aval du pont de la route 132 a sainte angele de merici 48 32 47 n 68 07 53 o ) et la chute situee dans la seigneurie metis 48 21 33 n 67 55 52 o )",
+        "riviere mitis",
+        "riviere mitis entre le cote en aval du pont de la route 132 a sainte angele de merici 48 32 47 n 68 07 53 o ) et la chute situee dans la seigneurie metis 48 21 33 n 67 55 52 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.546389,
+      "lon": -68.131389
+    },
+    {
+      "id": 378,
+      "zone_id": 2,
+      "nom_brut": "Rivière Ouelle - La partie comprise entre le côté en aval du pont de la route 132 ( 47°25'57\" N., 70°00'59\" O. ) et la limite nord-est du canton Ashford ( 47°16'49\" N., 69°57'23\" O. )",
+      "nom": "Rivière Ouelle - La partie comprise entre le côté en aval du pont de la route 132",
+      "nom_search": "riviere ouelle la partie comprise entre le cote en aval du pont de la route 132 47 25 57 n 70 00 59 o ) et la limite nord est du canton ashford 47 16 49 n 69 57 23 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouelle",
+      "aliases": [
+        "ouelle",
+        "ouelle la partie comprise entre le cote en aval du pont de la route 132 47 25 57 n 70 00 59 o ) et la limite nord est du canton ashford 47 16 49 n 69 57 23 o )",
+        "riviere ouelle",
+        "riviere ouelle la partie comprise entre le cote en aval du pont de la route 132 47 25 57 n 70 00 59 o ) et la limite nord est du canton ashford 47 16 49 n 69 57 23 o )"
+      ],
+      "lat": 47.4325,
+      "lon": -70.016389
+    },
+    {
+      "id": 392,
+      "zone_id": 2,
+      "nom_brut": "Rivière Patapédia entre la frontière Québec - Nouveau-Brunswick ( 48°00'00\" N., 67°35'52\" O. ) et sa confluence avec la rivière Patapédia-Est ( 48°04'41\" N., 67°38'05\" O. ).",
+      "nom": "Rivière Patapédia entre la frontière Québec - Nouveau-Brunswick",
+      "nom_search": "riviere patapedia entre la frontiere quebec nouveau brunswick 48 00 00 n 67 35 52 o ) et sa confluence avec la riviere patapedia est 48 04 41 n 67 38 05 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Patapédia",
+      "aliases": [
+        "patapedia",
+        "patapedia entre la frontiere quebec nouveau brunswick 48 00 00 n 67 35 52 o ) et sa confluence avec la riviere patapedia est 48 04 41 n 67 38 05 o )",
+        "riviere patapedia",
+        "riviere patapedia entre la frontiere quebec nouveau brunswick 48 00 00 n 67 35 52 o ) et sa confluence avec la riviere patapedia est 48 04 41 n 67 38 05 o )"
+      ],
+      "lat": 48.0,
+      "lon": -67.597778
+    },
+    {
+      "id": 393,
+      "zone_id": 2,
+      "nom_brut": "Rivière Patapédia entre sa confluence avec la rivière Patapédia-Est ( 48°04'41\" N., 67°38'05\" O. ) et le lac Patapédia ( 48°09'34\" N., 67°47'54\" O. ).",
+      "nom": "Rivière Patapédia entre sa confluence avec la rivière Patapédia-Est",
+      "nom_search": "riviere patapedia entre sa confluence avec la riviere patapedia est 48 04 41 n 67 38 05 o ) et le lac patapedia 48 09 34 n 67 47 54 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Patapédia",
+      "aliases": [
+        "patapedia",
+        "patapedia entre sa confluence avec la riviere patapedia est 48 04 41 n 67 38 05 o ) et le lac patapedia 48 09 34 n 67 47 54 o )",
+        "riviere patapedia",
+        "riviere patapedia entre sa confluence avec la riviere patapedia est 48 04 41 n 67 38 05 o ) et le lac patapedia 48 09 34 n 67 47 54 o )"
+      ],
+      "lat": 48.078056,
+      "lon": -67.634722
+    },
+    {
+      "id": 391,
+      "zone_id": 2,
+      "nom_brut": "Rivière Patapédia entre sa confluence avec la rivière Ristigouche ( 47°50'42\" N., 67°22'22\" O. ) et la frontière Québec - Nouveau-Brunswick ( 48°00'00\" N., 67°35'52\" O. ).",
+      "nom": "Rivière Patapédia entre sa confluence avec la rivière Ristigouche",
+      "nom_search": "riviere patapedia entre sa confluence avec la riviere ristigouche 47 50 42 n 67 22 22 o ) et la frontiere quebec nouveau brunswick 48 00 00 n 67 35 52 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Patapédia",
+      "aliases": [
+        "patapedia",
+        "patapedia entre sa confluence avec la riviere ristigouche 47 50 42 n 67 22 22 o ) et la frontiere quebec nouveau brunswick 48 00 00 n 67 35 52 o )",
+        "riviere patapedia",
+        "riviere patapedia entre sa confluence avec la riviere ristigouche 47 50 42 n 67 22 22 o ) et la frontiere quebec nouveau brunswick 48 00 00 n 67 35 52 o )"
+      ],
+      "lat": 47.845,
+      "lon": -67.372778
+    },
+    {
+      "id": 395,
+      "zone_id": 2,
+      "nom_brut": "Rivière Rimouski a) entre le côté en aval du pont de la route 132 ( 48°24'54\" N., 68°33'21\" O. ) et une droite perpendiculaire au courant située à 250 m en aval du barrage de la Pulpe ( 48°24'43\" N., 68°33'17\" O. ).",
+      "nom": "Rivière Rimouski a) entre le côté en aval du pont de la route 132",
+      "nom_search": "riviere rimouski a) entre le cote en aval du pont de la route 132 48 24 54 n 68 33 21 o ) et une droite perpendiculaire au courant situee a 250 m en aval du barrage de la pulpe 48 24 43 n 68 33 17 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Rimouski",
+      "aliases": [
+        "rimouski",
+        "rimouski a) entre le cote en aval du pont de la route 132 48 24 54 n 68 33 21 o ) et une droite perpendiculaire au courant situee a 250 m en aval du barrage de la pulpe 48 24 43 n 68 33 17 o )",
+        "riviere rimouski",
+        "riviere rimouski a) entre le cote en aval du pont de la route 132 48 24 54 n 68 33 21 o ) et une droite perpendiculaire au courant situee a 250 m en aval du barrage de la pulpe 48 24 43 n 68 33 17 o )"
+      ],
+      "lat": 48.415,
+      "lon": -68.555833
+    },
+    {
+      "id": 396,
+      "zone_id": 2,
+      "nom_brut": "Rivière Rimouski b) entre une droite perpendiculaire au courant située à 250 m en aval du barrage de la Pulpe ( 48°24'43\" N., 68°33'17\" O. ) et ce barrage ( 48°24'37\" N., 68°33'09\" O. ).",
+      "nom": "Rivière Rimouski b) entre une droite perpendiculaire au courant située à 250 m en aval du barrage de la Pulpe",
+      "nom_search": "riviere rimouski b) entre une droite perpendiculaire au courant situee a 250 m en aval du barrage de la pulpe 48 24 43 n 68 33 17 o ) et ce barrage 48 24 37 n 68 33 09 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Rimouski",
+      "aliases": [
+        "rimouski",
+        "rimouski b) entre une droite perpendiculaire au courant situee a 250 m en aval du barrage de la pulpe 48 24 43 n 68 33 17 o ) et ce barrage 48 24 37 n 68 33 09 o )",
+        "riviere rimouski",
+        "riviere rimouski b) entre une droite perpendiculaire au courant situee a 250 m en aval du barrage de la pulpe 48 24 43 n 68 33 17 o ) et ce barrage 48 24 37 n 68 33 09 o )"
+      ],
+      "lat": 48.411944,
+      "lon": -68.554722
+    },
+    {
+      "id": 397,
+      "zone_id": 2,
+      "nom_brut": "Rivière Rimouski c) entre le barrage de la Pulpe ( 48°24'37\" N., 68°33'09\" O. ) et la ligne de division nord du canton Macpès ( 48°20'49\" N., 68°32'17\" O. ).",
+      "nom": "Rivière Rimouski c) entre le barrage de la Pulpe",
+      "nom_search": "riviere rimouski c) entre le barrage de la pulpe 48 24 37 n 68 33 09 o ) et la ligne de division nord du canton macpes 48 20 49 n 68 32 17 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Rimouski",
+      "aliases": [
+        "rimouski",
+        "rimouski c) entre le barrage de la pulpe 48 24 37 n 68 33 09 o ) et la ligne de division nord du canton macpes 48 20 49 n 68 32 17 o )",
+        "riviere rimouski",
+        "riviere rimouski c) entre le barrage de la pulpe 48 24 37 n 68 33 09 o ) et la ligne de division nord du canton macpes 48 20 49 n 68 32 17 o )"
+      ],
+      "lat": 48.410278,
+      "lon": -68.5525
+    },
+    {
+      "id": 398,
+      "zone_id": 2,
+      "nom_brut": "Rivière Rimouski d) entre la ligne de division nord du canton Macpès ( 48°20'49\" N., 68°32'17\" O. ) et la chute des Portes de l'Enfer ( 48°14'58\" N., 68°31'48\" O. ).",
+      "nom": "Rivière Rimouski d) entre la ligne de division nord du canton Macpès",
+      "nom_search": "riviere rimouski d) entre la ligne de division nord du canton macpes 48 20 49 n 68 32 17 o ) et la chute des portes de l enfer 48 14 58 n 68 31 48 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Rimouski",
+      "aliases": [
+        "rimouski",
+        "rimouski d) entre la ligne de division nord du canton macpes 48 20 49 n 68 32 17 o ) et la chute des portes de l enfer 48 14 58 n 68 31 48 o )",
+        "riviere rimouski",
+        "riviere rimouski d) entre la ligne de division nord du canton macpes 48 20 49 n 68 32 17 o ) et la chute des portes de l enfer 48 14 58 n 68 31 48 o )"
+      ],
+      "lat": 48.346944,
+      "lon": -68.538056
+    },
+    {
+      "id": 400,
+      "zone_id": 2,
+      "nom_brut": "Rivière Ristigouche entre l'embouchure de la rivière Matapédia ( 47°58'19\" N., 66°56'26\" O. ) et l'embouchure de la rivière Patapédia ( 47°50'37\" N., 67°22'27\" O. ).",
+      "nom": "Rivière Ristigouche entre l'embouchure de la rivière Matapédia",
+      "nom_search": "riviere ristigouche entre l embouchure de la riviere matapedia 47 58 19 n 66 56 26 o ) et l embouchure de la riviere patapedia 47 50 37 n 67 22 27 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ristigouche",
+      "aliases": [
+        "ristigouche",
+        "ristigouche entre l embouchure de la riviere matapedia 47 58 19 n 66 56 26 o ) et l embouchure de la riviere patapedia 47 50 37 n 67 22 27 o )",
+        "riviere ristigouche",
+        "riviere ristigouche entre l embouchure de la riviere matapedia 47 58 19 n 66 56 26 o ) et l embouchure de la riviere patapedia 47 50 37 n 67 22 27 o )"
+      ],
+      "lat": 47.971944,
+      "lon": -66.940556
+    },
+    {
+      "id": 389,
+      "zone_id": 2,
+      "nom_brut": "Rivière Sainte-Anne entre sa confluence avec la Grande Rivière ( 47°15'30\" N., 69°53'20\" O. ) et la chute située à 1 km en amont ( 47°15'11\" N., 69°52'53\" O. ).",
+      "nom": "Rivière Sainte-Anne entre sa confluence avec la Grande Rivière",
+      "nom_search": "riviere sainte anne entre sa confluence avec la grande riviere 47 15 30 n 69 53 20 o ) et la chute situee a 1 km en amont 47 15 11 n 69 52 53 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Sainte-Anne",
+      "aliases": [
+        "riviere sainte anne",
+        "riviere sainte anne entre sa confluence avec la grande riviere 47 15 30 n 69 53 20 o ) et la chute situee a 1 km en amont 47 15 11 n 69 52 53 o )",
+        "sainte anne",
+        "sainte anne entre sa confluence avec la grande riviere 47 15 30 n 69 53 20 o ) et la chute situee a 1 km en amont 47 15 11 n 69 52 53 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 47.258333,
+      "lon": -69.888889
+    },
+    {
+      "id": 10420,
+      "zone_id": 2,
+      "nom_brut": "Rivière Touladi - entre le ruisseau à Mac ( 47°40'46\" N., 68°47'18\" O. ) et le lac Témiscouata ( 47°40'18\" N., 68°48'01\" O. )",
+      "nom": "Rivière Touladi - entre le ruisseau à Mac",
+      "nom_search": "riviere touladi entre le ruisseau a mac 47 40 46 n 68 47 18 o ) et le lac temiscouata 47 40 18 n 68 48 01 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Touladi -",
+      "aliases": [
+        "riviere touladi",
+        "riviere touladi entre le ruisseau a mac 47 40 46 n 68 47 18 o ) et le lac temiscouata 47 40 18 n 68 48 01 o )",
+        "touladi",
+        "touladi entre le ruisseau a mac 47 40 46 n 68 47 18 o ) et le lac temiscouata 47 40 18 n 68 48 01 o )"
+      ],
+      "lat": 47.679444,
+      "lon": -68.788333
+    },
+    {
+      "id": 348,
+      "zone_id": 2,
+      "nom_brut": "Ruisseau Quigley entre sa confluence avec la rivière Kedgwick ( 48°01'37\" N., 67°59'10\" O. ) et sa source ( 48°00'29\" N., 68°08'20\" O. ).",
+      "nom": "Ruisseau Quigley entre sa confluence avec la rivière Kedgwick",
+      "nom_search": "ruisseau quigley entre sa confluence avec la riviere kedgwick 48 01 37 n 67 59 10 o ) et sa source 48 00 29 n 68 08 20 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Quigley",
+      "aliases": [
+        "quigley",
+        "quigley entre sa confluence avec la riviere kedgwick 48 01 37 n 67 59 10 o ) et sa source 48 00 29 n 68 08 20 o )",
+        "ruisseau quigley",
+        "ruisseau quigley entre sa confluence avec la riviere kedgwick 48 01 37 n 67 59 10 o ) et sa source 48 00 29 n 68 08 20 o )"
+      ],
+      "lat": 48.026944,
+      "lon": -67.986111
+    },
+    {
+      "id": 2357,
+      "zone_id": 2,
+      "nom_brut": "Zec Chapais",
+      "nom": "Zec Chapais",
+      "nom_search": "zec chapais",
+      "segment_label": null,
+      "river_base_name": "Zec Chapais",
+      "aliases": [
+        "zec chapais"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2346,
+      "zone_id": 2,
+      "nom_brut": "Zec du Bas-Saint-Laurent",
+      "nom": "Zec du Bas-Saint-Laurent",
+      "nom_search": "zec du bas saint laurent",
+      "segment_label": null,
+      "river_base_name": "Zec du Bas-Saint-Laurent",
+      "aliases": [
+        "zec du bas saint laurent"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2397,
+      "zone_id": 2,
+      "nom_brut": "Zec Owen",
+      "nom": "Zec Owen",
+      "nom_search": "zec owen",
+      "segment_label": null,
+      "river_base_name": "Zec Owen",
+      "aliases": [
+        "zec owen"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

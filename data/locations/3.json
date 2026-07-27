@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "zone_id": 3,
+    "zone_nom": "Zone 3",
+    "nb_plans": 13,
+    "nb_geocoded": 9,
+    "pct_geocoded": 69.2,
+    "source_file": "zones/3.json"
+  },
+  "locations": [
+    {
+      "id": 448,
+      "zone_id": 3,
+      "nom_brut": "Lac aux Canards ( 46°50'01\" N., 70°48'53\" O. )",
+      "nom": "Lac aux Canards",
+      "nom_search": "lac aux canards 46 50 01 n 70 48 53 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Canards",
+      "aliases": [
+        "aux canards",
+        "aux canards 46 50 01 n 70 48 53 o )",
+        "lac aux canards",
+        "lac aux canards 46 50 01 n 70 48 53 o )"
+      ],
+      "lat": 46.833611,
+      "lon": -70.814722
+    },
+    {
+      "id": 443,
+      "zone_id": 3,
+      "nom_brut": "Lac Beaumont ( 46°46'42\" N., 70°59'15\" O. )",
+      "nom": "Lac Beaumont",
+      "nom_search": "lac beaumont 46 46 42 n 70 59 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Beaumont",
+      "aliases": [
+        "beaumont",
+        "beaumont 46 46 42 n 70 59 15 o )",
+        "lac beaumont",
+        "lac beaumont 46 46 42 n 70 59 15 o )"
+      ],
+      "lat": 46.778333,
+      "lon": -70.9875
+    },
+    {
+      "id": 446,
+      "zone_id": 3,
+      "nom_brut": "Lac Bringé ( 47°06'35\" N., 70°10'10\" O. )",
+      "nom": "Lac Bringé",
+      "nom_search": "lac bringe 47 06 35 n 70 10 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bringé",
+      "aliases": [
+        "bringe",
+        "bringe 47 06 35 n 70 10 10 o )",
+        "lac bringe",
+        "lac bringe 47 06 35 n 70 10 10 o )"
+      ],
+      "lat": 47.109722,
+      "lon": -70.169444
+    },
+    {
+      "id": 3065,
+      "zone_id": 3,
+      "nom_brut": "Lac Collin ( 46°43'00\" N., 70°17'32\" O. )",
+      "nom": "Lac Collin",
+      "nom_search": "lac collin 46 43 00 n 70 17 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Collin",
+      "aliases": [
+        "collin",
+        "collin 46 43 00 n 70 17 32 o )",
+        "lac collin",
+        "lac collin 46 43 00 n 70 17 32 o )"
+      ],
+      "lat": 46.716667,
+      "lon": -70.292222
+    },
+    {
+      "id": 438,
+      "zone_id": 3,
+      "nom_brut": "Lac des Abénaquis ( 46°09'49\" N., 70°21'41\" O. )",
+      "nom": "Lac des Abénaquis",
+      "nom_search": "lac des abenaquis 46 09 49 n 70 21 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Abénaquis",
+      "aliases": [
+        "des abenaquis",
+        "des abenaquis 46 09 49 n 70 21 41 o )",
+        "lac des abenaquis",
+        "lac des abenaquis 46 09 49 n 70 21 41 o )"
+      ],
+      "lat": 46.163611,
+      "lon": -70.361389
+    },
+    {
+      "id": 452,
+      "zone_id": 3,
+      "nom_brut": "Lac Frontière ( 46°42'24\" N., 70°00'04\" O. )",
+      "nom": "Lac Frontière",
+      "nom_search": "lac frontiere 46 42 24 n 70 00 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Frontière",
+      "aliases": [
+        "frontiere",
+        "frontiere 46 42 24 n 70 00 04 o )",
+        "lac frontiere",
+        "lac frontiere 46 42 24 n 70 00 04 o )"
+      ],
+      "lat": 46.706667,
+      "lon": -70.001111
+    },
+    {
+      "id": 457,
+      "zone_id": 3,
+      "nom_brut": "Lac Saint-Charles ( 46°46'47\" N., 70°57'49\" O. )",
+      "nom": "Lac Saint-Charles",
+      "nom_search": "lac saint charles 46 46 47 n 70 57 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Charles",
+      "aliases": [
+        "lac saint charles",
+        "lac saint charles 46 46 47 n 70 57 49 o )",
+        "saint charles",
+        "saint charles 46 46 47 n 70 57 49 o )"
+      ],
+      "lat": 46.779722,
+      "lon": -70.963611
+    },
+    {
+      "id": 3262,
+      "zone_id": 3,
+      "nom_brut": "Lac Trois-Saumons ( 47°07'36\" N., 70°11'13\" O. )",
+      "nom": "Lac Trois-Saumons",
+      "nom_search": "lac trois saumons 47 07 36 n 70 11 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Trois-Saumons",
+      "aliases": [
+        "lac trois saumons",
+        "lac trois saumons 47 07 36 n 70 11 13 o )",
+        "trois saumons",
+        "trois saumons 47 07 36 n 70 11 13 o )"
+      ],
+      "lat": 47.126667,
+      "lon": -70.186944
+    },
+    {
+      "id": 1608,
+      "zone_id": 3,
+      "nom_brut": "Rivière Etchemin en amont du pont à Sainte-Claire ( 46°35'45'' N., 70°52'10'' O. ) ainsi que ses tributaires.",
+      "nom": "Rivière Etchemin en amont du pont à Sainte-Claire",
+      "nom_search": "riviere etchemin en amont du pont a sainte claire 46 35 45 n 70 52 10 o ) ainsi que ses tributaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Etchemin en amont du pont à Sainte-Claire",
+      "aliases": [
+        "etchemin en amont du pont a sainte claire",
+        "etchemin en amont du pont a sainte claire 46 35 45 n 70 52 10 o ) ainsi que ses tributaires",
+        "riviere etchemin en amont du pont a sainte claire",
+        "riviere etchemin en amont du pont a sainte claire 46 35 45 n 70 52 10 o ) ainsi que ses tributaires",
+        "st e",
+        "ste e"
+      ],
+      "lat": 46.595833,
+      "lon": -70.869444
+    },
+    {
+      "id": 470,
+      "zone_id": 3,
+      "nom_brut": "Rivière Grande Rivière entre la limite nord-est du canton Ashford et sa source.",
+      "nom": "Rivière Grande Rivière entre la limite nord-est du canton Ashford et sa source.",
+      "nom_search": "riviere grande riviere entre la limite nord est du canton ashford et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Grande Rivière",
+      "aliases": [
+        "grande riviere",
+        "grande riviere entre la limite nord est du canton ashford et sa source",
+        "riviere grande riviere",
+        "riviere grande riviere entre la limite nord est du canton ashford et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 468,
+      "zone_id": 3,
+      "nom_brut": "Rivière Ouelle entre la limite nord-est du canton Ashford et le côté en aval du pont du rang 9 (rang Saint-Joseph) de la municipalité de Tourville.",
+      "nom": "Rivière Ouelle entre la limite nord-est du canton Ashford et le côté en aval du pont du rang 9",
+      "nom_search": "riviere ouelle entre la limite nord est du canton ashford et le cote en aval du pont du rang 9 rang saint joseph) de la municipalite de tourville",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouelle",
+      "aliases": [
+        "ouelle",
+        "ouelle entre la limite nord est du canton ashford et le cote en aval du pont du rang 9 rang saint joseph) de la municipalite de tourville",
+        "riviere ouelle",
+        "riviere ouelle entre la limite nord est du canton ashford et le cote en aval du pont du rang 9 rang saint joseph) de la municipalite de tourville"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 472,
+      "zone_id": 3,
+      "nom_brut": "Rivière Rat Musqué entre sa confluence avec la Grande Rivière et sa source.",
+      "nom": "Rivière Rat Musqué entre sa confluence avec la Grande Rivière et sa source.",
+      "nom_search": "riviere rat musque entre sa confluence avec la grande riviere et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Rat Musqué",
+      "aliases": [
+        "rat musque",
+        "rat musque entre sa confluence avec la grande riviere et sa source",
+        "riviere rat musque",
+        "riviere rat musque entre sa confluence avec la grande riviere et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2413,
+      "zone_id": 3,
+      "nom_brut": "Zec Jaro",
+      "nom": "Zec Jaro",
+      "nom_search": "zec jaro",
+      "segment_label": null,
+      "river_base_name": "Zec Jaro",
+      "aliases": [
+        "zec jaro"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

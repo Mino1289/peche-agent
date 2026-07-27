@@ -1,0 +1,560 @@
+{
+  "meta": {
+    "zone_id": 23,
+    "zone_nom": "Zone 21",
+    "nb_plans": 33,
+    "nb_geocoded": 27,
+    "pct_geocoded": 81.8,
+    "source_file": "zones/23.json"
+  },
+  "locations": [
+    {
+      "id": 11300,
+      "zone_id": 23,
+      "nom_brut": "La partie de la zone 21 désignée comme « aire marine protégée du Banc-des-Américains » l'espace maritime du golfe du Saint-Laurent qui se compose du fond marin et du sous-sol et qui est compris à l'intérieur des limites ci-après décrites: En partant du point (1) 48°45'00\" N., 64°08'24\" O. , situé à proximité de l'extrémité sud du Cap Gaspé, de là, suivant une droite jusqu'au point (5) 48°45'00.13\" N., 64°07'16.48\" O. , de là, suivant une droite jusqu'au point (6) 48°37'13.33\" N., 63°55'28.47\" O. , de là, suivant une droite jusqu'au point (7) 48°37'19.43\" N., 63°54'33.91\" O. , de là, suivant une droite jusqu'au point (8) 48°36'28.92\" N., 63°53'17.65\" O. , de là, suivant une droite jusqu'au point (9) 48°34'54.11\" N., 63°54'06.36\" O. , de là, suivant une droite jusqu'au point (10) 48°30'24.46\" N., 63°47'20.43\" O. , de là, suivant une droite jusqu'au point (11) 48°29'24.73\" N., 63°48'51.44\" O. , de là, suivant une droite jusqu'au point (12) 48°29'24.76\" N., 63°49'23.91\" O. , de là, suivant une droite jusqu'au point (13) 48°33'25.72\" N., 63°55'26.76\" O. , de là, suivant une droite jusqu'au point (14) 48°34'38.52\" N., 63°58'02.08\" O. , de là, suivant une droite jusqu'au point (15) 48°37'04.16\" N., 63°58'48.70\" O. , de là, suivant une droite jusqu'au point (16) 48°43'23.21\" N., 64°08'24\" O. , de là, suivant une droite jusqu'au point de départ (1) 48°45'00\" N., 64°08'24\" O.",
+      "nom": "La partie de la zone 21 désignée comme « aire marine protégée du Banc-des-Américains » l'espace maritime du golfe du Saint-Laurent qui se compose du fond marin et du sous-sol et qui est compris à l'intérieur des limites ci-après décrites: En partant du point",
+      "nom_search": "la partie de la zone 21 designee comme aire marine protegee du banc des americains l espace maritime du golfe du saint laurent qui se compose du fond marin et du sous sol et qui est compris a l interieur des limites ci apres decrites en partant du point 1) 48 45 00 n 64 08 24 o situe a proximite de l extremite sud du cap gaspe de la suivant une droite jusqu au point 5) 48 45 00 13 n 64 07 16 48 o de la suivant une droite jusqu au point 6) 48 37 13 33 n 63 55 28 47 o de la suivant une droite jusqu au point 7) 48 37 19 43 n 63 54 33 91 o de la suivant une droite jusqu au point 8) 48 36 28 92 n 63 53 17 65 o de la suivant une droite jusqu au point 9) 48 34 54 11 n 63 54 06 36 o de la suivant une droite jusqu au point 10) 48 30 24 46 n 63 47 20 43 o de la suivant une droite jusqu au point 11) 48 29 24 73 n 63 48 51 44 o de la suivant une droite jusqu au point 12) 48 29 24 76 n 63 49 23 91 o de la suivant une droite jusqu au point 13) 48 33 25 72 n 63 55 26 76 o de la suivant une droite jusqu au point 14) 48 34 38 52 n 63 58 02 08 o de la suivant une droite jusqu au point 15) 48 37 04 16 n 63 58 48 70 o de la suivant une droite jusqu au point 16) 48 43 23 21 n 64 08 24 o de la suivant une droite jusqu au point de depart 1) 48 45 00 n 64 08 24 o",
+      "segment_label": null,
+      "river_base_name": "La partie de la zone 21 désignée comme « aire marine protégée du Banc-des-Américains » l'espace maritime du golfe du Saint-Laurent qui se compose du fond marin et du sous-sol et qui est compris à l'intérieur des limites ci-après décrites: En partant du point",
+      "aliases": [
+        "la partie de la zone 21 designee comme aire marine protegee du banc des americains l espace maritime du golfe du saint laurent qui se compose du fond marin et du sous sol et qui est compris a l interieur des limites ci apres decrites en partant du point",
+        "la partie de la zone 21 designee comme aire marine protegee du banc des americains l espace maritime du golfe du saint laurent qui se compose du fond marin et du sous sol et qui est compris a l interieur des limites ci apres decrites en partant du point 1) 48 45 00 n 64 08 24 o situe a proximite de l extremite sud du cap gaspe de la suivant une droite jusqu au point 5) 48 45 00 13 n 64 07 16 48 o de la suivant une droite jusqu au point 6) 48 37 13 33 n 63 55 28 47 o de la suivant une droite jusqu au point 7) 48 37 19 43 n 63 54 33 91 o de la suivant une droite jusqu au point 8) 48 36 28 92 n 63 53 17 65 o de la suivant une droite jusqu au point 9) 48 34 54 11 n 63 54 06 36 o de la suivant une droite jusqu au point 10) 48 30 24 46 n 63 47 20 43 o de la suivant une droite jusqu au point 11) 48 29 24 73 n 63 48 51 44 o de la suivant une droite jusqu au point 12) 48 29 24 76 n 63 49 23 91 o de la suivant une droite jusqu au point 13) 48 33 25 72 n 63 55 26 76 o de la suivant une droite jusqu au point 14) 48 34 38 52 n 63 58 02 08 o de la suivant une droite jusqu au point 15) 48 37 04 16 n 63 58 48 70 o de la suivant une droite jusqu au point 16) 48 43 23 21 n 64 08 24 o de la suivant une droite jusqu au point de depart 1) 48 45 00 n 64 08 24 o"
+      ],
+      "lat": 48.75,
+      "lon": -64.14
+    },
+    {
+      "id": 3208,
+      "zone_id": 23,
+      "nom_brut": "Eaux des Îles-de-la-Madeleine Étang du Ouest - ( 47°15'40'' N., 61°59'39'' O. )",
+      "nom": "Eaux des Îles-de-la-Madeleine Étang du Ouest",
+      "nom_search": "eaux des iles de la madeleine etang du ouest 47 15 40 n 61 59 39 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux des Îles-de-la-Madeleine Étang du Ouest -",
+      "aliases": [
+        "eaux des iles de la madeleine etang du ouest",
+        "eaux des iles de la madeleine etang du ouest 47 15 40 n 61 59 39 o )"
+      ],
+      "lat": 47.261111,
+      "lon": -61.994167
+    },
+    {
+      "id": 2245,
+      "zone_id": 23,
+      "nom_brut": "Eaux des Îles-de-la-Madeleine incluant l'île d'Entrée, ainsi qu'une bande longeant le rivage de ces îles sur une distance de 1 km. Sont inclus également, les milieux semi-ouverts sur le milieu marin dont les lagunes, les baies, les bassins, les anses et les havres.",
+      "nom": "Eaux des Îles-de-la-Madeleine incluant l'île d'Entrée, ainsi qu'une bande longeant le rivage de ces îles sur une distance de 1 km. Sont inclus également, les milieux semi-ouverts sur le milieu marin dont les lagunes, les baies, les bassins, les anses et les havres.",
+      "nom_search": "eaux des iles de la madeleine incluant l ile d entree ainsi qu une bande longeant le rivage de ces iles sur une distance de 1 km sont inclus egalement les milieux semi ouverts sur le milieu marin dont les lagunes les baies les bassins les anses et les havres",
+      "segment_label": null,
+      "river_base_name": "Eaux des Îles-de-la-Madeleine incluant l'île d'Entrée, ainsi qu'une bande longeant le rivage de ces îles sur une distance de 1 km. Sont inclus également, les milieux semi-ouverts sur le milieu marin dont les lagunes, les baies, les bassins, les anses et les havres.",
+      "aliases": [
+        "eaux des iles de la madeleine incluant l ile d entree ainsi qu une bande longeant le rivage de ces iles sur une distance de 1 km sont inclus egalement les milieux semi ouverts sur le milieu marin dont les lagunes les baies les bassins les anses et les havres"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2985,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 (BAIE-DES-CHALEURS) comprise entre le côté aval du pont de Campbellton, incluant les eaux de la baie des Chaleurs et les eaux du golfe du Saint-Laurent, et une droite reliant l'extrémité Ouest du Cap-Gaspé littorale ( 48°44'52\" N., 64°09'42\" O. ) et la limite de la zone 21 située dans le golfe du Saint-Laurent au point 48°13'14\" N., 63°47'29\" O.",
+      "nom": "Eaux La partie de la zone 21",
+      "nom_search": "eaux la partie de la zone 21 baie des chaleurs) comprise entre le cote aval du pont de campbellton incluant les eaux de la baie des chaleurs et les eaux du golfe du saint laurent et une droite reliant l extremite ouest du cap gaspe littorale 48 44 52 n 64 09 42 o ) et la limite de la zone 21 situee dans le golfe du saint laurent au point 48 13 14 n 63 47 29 o",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21",
+      "aliases": [
+        "eaux la partie de la zone 21",
+        "eaux la partie de la zone 21 baie des chaleurs) comprise entre le cote aval du pont de campbellton incluant les eaux de la baie des chaleurs et les eaux du golfe du saint laurent et une droite reliant l extremite ouest du cap gaspe littorale 48 44 52 n 64 09 42 o ) et la limite de la zone 21 situee dans le golfe du saint laurent au point 48 13 14 n 63 47 29 o"
+      ],
+      "lat": 48.747778,
+      "lon": -64.161667
+    },
+    {
+      "id": 11780,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage entre une droite reliant la Pointe Santerre de Rimouski ( 48°23'51\" N., 68°40'23\" O. ) au point situé à 48°27'28,4\" N., 68°49'53,1\" O. et une droite reliant l'embouchure de la rivière des Grands Méchins à Les Méchins ( 49°00'13\" N., 66°58'12\" O. ) au point 49°07'33,37\" N., 66°55'44,65\" O.",
+      "nom": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage entre une droite reliant la Pointe Santerre de Rimouski",
+      "nom_search": "eaux la partie de la zone 21 comprise dans une bande de 10 kilometres longeant le rivage entre une droite reliant la pointe santerre de rimouski 48 23 51 n 68 40 23 o ) au point situe a 48 27 28 4 n 68 49 53 1 o et une droite reliant l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) au point 49 07 33 37 n 66 55 44 65 o",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage",
+      "aliases": [
+        "eaux la partie de la zone 21 comprise dans une bande de 10 kilometres longeant le rivage",
+        "eaux la partie de la zone 21 comprise dans une bande de 10 kilometres longeant le rivage entre une droite reliant la pointe santerre de rimouski 48 23 51 n 68 40 23 o ) au point situe a 48 27 28 4 n 68 49 53 1 o et une droite reliant l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) au point 49 07 33 37 n 66 55 44 65 o"
+      ],
+      "lat": 48.3975,
+      "lon": -68.673056
+    },
+    {
+      "id": 12000,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage entre une droite reliant l'embouchure de la rivière des Grands Méchins à Les Méchins ( 49°00'13\" N., 66°58'12\" O. ) au point 49°07'33,37\" N., 66°55'44,65\" O. et une droite reliant l'extrémité Ouest du Cap-Gaspé littorale ( 48°44'52\" N., 64°09'42\" O. ) au point situé à 48°40'03\" N, 64°06'17'' O.",
+      "nom": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage entre une droite reliant l'embouchure de la rivière des Grands Méchins à Les Méchins",
+      "nom_search": "eaux la partie de la zone 21 comprise dans une bande de 10 kilometres longeant le rivage entre une droite reliant l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) au point 49 07 33 37 n 66 55 44 65 o et une droite reliant l extremite ouest du cap gaspe littorale 48 44 52 n 64 09 42 o ) au point situe a 48 40 03 n 64 06 17 o",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21 comprise dans une bande de 10 kilomètres longeant le rivage",
+      "aliases": [
+        "eaux la partie de la zone 21 comprise dans une bande de 10 kilometres longeant le rivage",
+        "eaux la partie de la zone 21 comprise dans une bande de 10 kilometres longeant le rivage entre une droite reliant l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) au point 49 07 33 37 n 66 55 44 65 o et une droite reliant l extremite ouest du cap gaspe littorale 48 44 52 n 64 09 42 o ) au point situe a 48 40 03 n 64 06 17 o"
+      ],
+      "lat": 49.003611,
+      "lon": -66.97
+    },
+    {
+      "id": 12321,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 comprise entre le côté aval du pont Pierre-Laporte et une droite reliant, au sud du Saint-Laurent, la Pointe Santerre de Rimouski ( 48°23'50,54'' N., 68°40'23,24'' O. ) et du côté nord du Saint-Laurent, un point situé à 48°34'23'' N., 69°08'03'' O. , soit une jetée de pierre à l'ouest de la rivière Portneuf EXCLUANT la rivière Saguenay",
+      "nom": "Eaux La partie de la zone 21 comprise entre le côté aval du pont Pierre-Laporte et une droite reliant, au sud du Saint-Laurent, la Pointe Santerre de Rimouski",
+      "nom_search": "eaux la partie de la zone 21 comprise entre le cote aval du pont pierre laporte et une droite reliant au sud du saint laurent la pointe santerre de rimouski 48 23 50 54 n 68 40 23 24 o ) et du cote nord du saint laurent un point situe a 48 34 23 n 69 08 03 o soit une jetee de pierre a l ouest de la riviere portneuf excluant la riviere saguenay",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21 comprise",
+      "aliases": [
+        "eaux la partie de la zone 21 comprise",
+        "eaux la partie de la zone 21 comprise entre le cote aval du pont pierre laporte et une droite reliant au sud du saint laurent la pointe santerre de rimouski 48 23 50 54 n 68 40 23 24 o ) et du cote nord du saint laurent un point situe a 48 34 23 n 69 08 03 o soit une jetee de pierre a l ouest de la riviere portneuf excluant la riviere saguenay"
+      ],
+      "lat": 48.397372,
+      "lon": -68.673122
+    },
+    {
+      "id": 12300,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 comprise entre une droite reliant, au sud du Saint-Laurent, la Pointe Santerre de Rimouski ( 48°23'50,54'' N., 68°40'23,24'' O. ) et du côté nord du Saint-Laurent, un point situé à 48°34'23'' N., 69°08'03'' O. , soit une jetée de pierre à l'ouest de la rivière Portneuf, et une droite joignant l'embouchure de la rivière Sainte-Marguerite ( 50°08'49'' N., 66°34'50'' O. ) près de Sept-Îles et l'embouchure de la rivière des Grands Méchins à Les Méchins ( 49°00'13\" N., 66°58'12\" O. ) EXCLUANT la bande de 10 kilomètres longeant le rivage au sud de ces eaux",
+      "nom": "Eaux La partie de la zone 21 comprise entre une droite reliant, au sud du Saint-Laurent, la Pointe Santerre de Rimouski",
+      "nom_search": "eaux la partie de la zone 21 comprise entre une droite reliant au sud du saint laurent la pointe santerre de rimouski 48 23 50 54 n 68 40 23 24 o ) et du cote nord du saint laurent un point situe a 48 34 23 n 69 08 03 o soit une jetee de pierre a l ouest de la riviere portneuf et une droite joignant l embouchure de la riviere sainte marguerite 50 08 49 n 66 34 50 o ) pres de sept iles et l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) excluant la bande de 10 kilometres longeant le rivage au sud de ces eaux",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21 comprise",
+      "aliases": [
+        "eaux la partie de la zone 21 comprise",
+        "eaux la partie de la zone 21 comprise entre une droite reliant au sud du saint laurent la pointe santerre de rimouski 48 23 50 54 n 68 40 23 24 o ) et du cote nord du saint laurent un point situe a 48 34 23 n 69 08 03 o soit une jetee de pierre a l ouest de la riviere portneuf et une droite joignant l embouchure de la riviere sainte marguerite 50 08 49 n 66 34 50 o ) pres de sept iles et l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) excluant la bande de 10 kilometres longeant le rivage au sud de ces eaux",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.397372,
+      "lon": -68.673122
+    },
+    {
+      "id": 10800,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 située à l'est d'une droite reliant la pointe ouest de l'Île de Kegaska ( 50°10'31\" N., 61°16'45\" O. ) et le point ( 48°46'53\" N., 60°28'39\" O. )",
+      "nom": "Eaux La partie de la zone 21 située à l'est d'une droite reliant la pointe ouest de l'Île de Kegaska",
+      "nom_search": "eaux la partie de la zone 21 situee a l est d une droite reliant la pointe ouest de l ile de kegaska 50 10 31 n 61 16 45 o ) et le point 48 46 53 n 60 28 39 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21 située à l'est d'une droite reliant la pointe ouest de l'Île de Kegaska",
+      "aliases": [
+        "eaux la partie de la zone 21 situee a l est d une droite reliant la pointe ouest de l ile de kegaska",
+        "eaux la partie de la zone 21 situee a l est d une droite reliant la pointe ouest de l ile de kegaska 50 10 31 n 61 16 45 o ) et le point 48 46 53 n 60 28 39 o )"
+      ],
+      "lat": 50.175278,
+      "lon": -61.279167
+    },
+    {
+      "id": 3314,
+      "zone_id": 23,
+      "nom_brut": "Eaux La partie de la zone 21 située entre une droite joignant l'embouchure de la rivière Sainte-Marguerite ( 50°08'49'' N., 66°34'50'' O. ) près de Sept-Îles et l'embouchure de la rivière des Grands Méchins à Les Méchins ( 49°00'13\" N., 66°58'12\" O. ), une droite reliant la pointe ouest de l'Île de Kegaska ( 50°10'31\" N., 61°16'45\" O. ) et le point ( 48°46'53\" N., 60°28'39\" O. ) et la limite de la zone 21 située dans le golfe Saint-Laurent à 48°13'14\" N., 63°47'29\" O. EXCLUANT la bande de 10 kilomètres longeant le rivage de la Gaspésie, le Banc-des-Américains ainsi que la Baie-des-Chaleurs",
+      "nom": "Eaux La partie de la zone 21 située entre une droite joignant l'embouchure de la rivière Sainte-Marguerite",
+      "nom_search": "eaux la partie de la zone 21 situee entre une droite joignant l embouchure de la riviere sainte marguerite 50 08 49 n 66 34 50 o ) pres de sept iles et l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) une droite reliant la pointe ouest de l ile de kegaska 50 10 31 n 61 16 45 o ) et le point 48 46 53 n 60 28 39 o ) et la limite de la zone 21 situee dans le golfe saint laurent a 48 13 14 n 63 47 29 o excluant la bande de 10 kilometres longeant le rivage de la gaspesie le banc des americains ainsi que la baie des chaleurs",
+      "segment_label": null,
+      "river_base_name": "Eaux La partie de la zone 21 située",
+      "aliases": [
+        "eaux la partie de la zone 21 situee",
+        "eaux la partie de la zone 21 situee entre une droite joignant l embouchure de la riviere sainte marguerite 50 08 49 n 66 34 50 o ) pres de sept iles et l embouchure de la riviere des grands mechins a les mechins 49 00 13 n 66 58 12 o ) une droite reliant la pointe ouest de l ile de kegaska 50 10 31 n 61 16 45 o ) et le point 48 46 53 n 60 28 39 o ) et la limite de la zone 21 situee dans le golfe saint laurent a 48 13 14 n 63 47 29 o excluant la bande de 10 kilometres longeant le rivage de la gaspesie le banc des americains ainsi que la baie des chaleurs",
+        "st e",
+        "ste e"
+      ],
+      "lat": 50.146944,
+      "lon": -66.580556
+    },
+    {
+      "id": 12422,
+      "zone_id": 23,
+      "nom_brut": "Rivière à Mars - Les eaux comprises entre les points 48°20'25\" N., 70°52'39\" O. , 48°20'21\" N., 70°52'22\" O. , 48°20'13,9\" N., 70°52'36,5\" O. et 48°20'18,8\" N., 70°52'40,7\" O. (voir également zone 28)",
+      "nom": "Rivière à Mars - Les eaux comprises entre les points 48°20'25\" N., 70°52'39\" O. , 48°20'21\" N., 70°52'22\" O. , 48°20'13,9\" N., 70°52'36,5\" O. et 48°20'18,8\" N., 70°52'40,7\" O.",
+      "nom_search": "riviere a mars les eaux comprises entre les points 48 20 25 n 70 52 39 o 48 20 21 n 70 52 22 o 48 20 13 9 n 70 52 36 5 o et 48 20 18 8 n 70 52 40 7 o voir egalement zone 28)",
+      "segment_label": null,
+      "river_base_name": "Rivière à Mars",
+      "aliases": [
+        "a mars",
+        "a mars les eaux comprises entre les points 48 20 25 n 70 52 39 o 48 20 21 n 70 52 22 o 48 20 13 9 n 70 52 36 5 o et 48 20 18 8 n 70 52 40 7 o voir egalement zone 28)",
+        "riviere a mars",
+        "riviere a mars les eaux comprises entre les points 48 20 25 n 70 52 39 o 48 20 21 n 70 52 22 o 48 20 13 9 n 70 52 36 5 o et 48 20 18 8 n 70 52 40 7 o voir egalement zone 28)"
+      ],
+      "lat": 48.340278,
+      "lon": -70.8775
+    },
+    {
+      "id": 12381,
+      "zone_id": 23,
+      "nom_brut": "Rivière Aguanish (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°13'11\" N., 62°05'42\" O. au point 50°13'02\" N., 62°05'00\" O. et une droite joignant le point 50°13'35\" N., 62°06'27\" O. au point 50°13'40\" N., 62°06'25\" O. (voir également zone 19 sud partie B)",
+      "nom": "Rivière Aguanish",
+      "nom_search": "riviere aguanish ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 11 n 62 05 42 o au point 50 13 02 n 62 05 00 o et une droite joignant le point 50 13 35 n 62 06 27 o au point 50 13 40 n 62 06 25 o voir egalement zone 19 sud partie b)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Aguanish",
+      "aliases": [
+        "aguanish",
+        "aguanish ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 11 n 62 05 42 o au point 50 13 02 n 62 05 00 o et une droite joignant le point 50 13 35 n 62 06 27 o au point 50 13 40 n 62 06 25 o voir egalement zone 19 sud partie b)",
+        "riviere aguanish",
+        "riviere aguanish ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 11 n 62 05 42 o au point 50 13 02 n 62 05 00 o et une droite joignant le point 50 13 35 n 62 06 27 o au point 50 13 40 n 62 06 25 o voir egalement zone 19 sud partie b)"
+      ],
+      "lat": 50.219722,
+      "lon": -62.095
+    },
+    {
+      "id": 1464,
+      "zone_id": 23,
+      "nom_brut": "Rivière aux Outardes entre une droite reliant la pointe aux Outardes ( 49°02'39\" N., 68°27'47\" O. ) et la Pointe à Jos Caron ( 49°04'10\" N., 68°29'14\" O. ) et des droites passant par les points 49°08'7,9'' N., 68°23'9,8'' O. et 49°08'40'' N., 68°23'22'' O. (voir également zone 18)",
+      "nom": "Rivière aux Outardes entre une droite reliant la pointe aux Outardes",
+      "nom_search": "riviere aux outardes entre une droite reliant la pointe aux outardes 49 02 39 n 68 27 47 o ) et la pointe a jos caron 49 04 10 n 68 29 14 o ) et des droites passant par les points 49 08 7 9 n 68 23 9 8 o et 49 08 40 n 68 23 22 o voir egalement zone 18)",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Outardes",
+      "aliases": [
+        "aux outardes",
+        "aux outardes entre une droite reliant la pointe aux outardes 49 02 39 n 68 27 47 o ) et la pointe a jos caron 49 04 10 n 68 29 14 o ) et des droites passant par les points 49 08 7 9 n 68 23 9 8 o et 49 08 40 n 68 23 22 o voir egalement zone 18)",
+        "riviere aux outardes",
+        "riviere aux outardes entre une droite reliant la pointe aux outardes 49 02 39 n 68 27 47 o ) et la pointe a jos caron 49 04 10 n 68 29 14 o ) et des droites passant par les points 49 08 7 9 n 68 23 9 8 o et 49 08 40 n 68 23 22 o voir egalement zone 18)"
+      ],
+      "lat": 49.044167,
+      "lon": -68.463056
+    },
+    {
+      "id": 12401,
+      "zone_id": 23,
+      "nom_brut": "Rivière aux Rochers a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°00'50\" N., 66°52'40\" O. situé à Port-Cartier-Ouest au point 50°00'51\" N., 66°51'49\" O. situé sur l'île du Quai, de là au point 50°01'17\" N., 66°51'43\" O. situé à Port-Cartier et le côté en aval des ponts reliant Port-Cartier-Ouest à Port-Cartier, à l'exception du secteur situé entre une droite joignant le point 50°01'05\" N., 66°52'28\" O. , au point 50°01'00\" N., 66°52'20\" O. et le côté en aval du pont de la branche ouest de la rivière reliant Port-Cartier-Ouest à Port-Cartier (secteur du Petit quai). (voir également zone 19 sud partie A)",
+      "nom": "Rivière aux Rochers a)",
+      "nom_search": "riviere aux rochers a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 00 50 n 66 52 40 o situe a port cartier ouest au point 50 00 51 n 66 51 49 o situe sur l ile du quai de la au point 50 01 17 n 66 51 43 o situe a port cartier et le cote en aval des ponts reliant port cartier ouest a port cartier a l exception du secteur situe entre une droite joignant le point 50 01 05 n 66 52 28 o au point 50 01 00 n 66 52 20 o et le cote en aval du pont de la branche ouest de la riviere reliant port cartier ouest a port cartier secteur du petit quai) voir egalement zone 19 sud partie a)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière aux Rochers",
+      "aliases": [
+        "aux rochers",
+        "aux rochers a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 00 50 n 66 52 40 o situe a port cartier ouest au point 50 00 51 n 66 51 49 o situe sur l ile du quai de la au point 50 01 17 n 66 51 43 o situe a port cartier et le cote en aval des ponts reliant port cartier ouest a port cartier a l exception du secteur situe entre une droite joignant le point 50 01 05 n 66 52 28 o au point 50 01 00 n 66 52 20 o et le cote en aval du pont de la branche ouest de la riviere reliant port cartier ouest a port cartier secteur du petit quai) voir egalement zone 19 sud partie a)",
+        "riviere aux rochers",
+        "riviere aux rochers a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 00 50 n 66 52 40 o situe a port cartier ouest au point 50 00 51 n 66 51 49 o situe sur l ile du quai de la au point 50 01 17 n 66 51 43 o situe a port cartier et le cote en aval des ponts reliant port cartier ouest a port cartier a l exception du secteur situe entre une droite joignant le point 50 01 05 n 66 52 28 o au point 50 01 00 n 66 52 20 o et le cote en aval du pont de la branche ouest de la riviere reliant port cartier ouest a port cartier secteur du petit quai) voir egalement zone 19 sud partie a)"
+      ],
+      "lat": 50.013889,
+      "lon": -66.877778
+    },
+    {
+      "id": 12402,
+      "zone_id": 23,
+      "nom_brut": "Rivière aux Rochers a.1) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°01'05\" N., 66°52'28\" O. au point 50°01'00\" N., 66°52'20\" O. et le côté en aval du pont de la branche ouest de la rivière reliant Port-Cartier-Ouest à Port-Cartier (secteur du Petit quai). (voir également zone 19 sud partie A)",
+      "nom": "Rivière aux Rochers a.1)",
+      "nom_search": "riviere aux rochers a 1) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 01 05 n 66 52 28 o au point 50 01 00 n 66 52 20 o et le cote en aval du pont de la branche ouest de la riviere reliant port cartier ouest a port cartier secteur du petit quai) voir egalement zone 19 sud partie a)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière aux Rochers a.1)",
+      "aliases": [
+        "aux rochers a 1)",
+        "aux rochers a 1) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 01 05 n 66 52 28 o au point 50 01 00 n 66 52 20 o et le cote en aval du pont de la branche ouest de la riviere reliant port cartier ouest a port cartier secteur du petit quai) voir egalement zone 19 sud partie a)",
+        "riviere aux rochers a 1)",
+        "riviere aux rochers a 1) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 01 05 n 66 52 28 o au point 50 01 00 n 66 52 20 o et le cote en aval du pont de la branche ouest de la riviere reliant port cartier ouest a port cartier secteur du petit quai) voir egalement zone 19 sud partie a)"
+      ],
+      "lat": 50.018056,
+      "lon": -66.874444
+    },
+    {
+      "id": 12383,
+      "zone_id": 23,
+      "nom_brut": "Rivière Betsiamites entre une droite joignant la pointe nord du banc des Canadiens à la pointe de Betsiamites et une droite joignant le point 48°55'53'' N., 68°41'28'' O. au point 48°56'00'' N., 68°41'07'' O. (voir également zone 18)",
+      "nom": "Rivière Betsiamites entre une droite joignant la pointe nord du banc des Canadiens à la pointe de Betsiamites et une droite joignant le point 48°55'53'' N., 68°41'28'' O. au point 48°56'00'' N., 68°41'07'' O.",
+      "nom_search": "riviere betsiamites entre une droite joignant la pointe nord du banc des canadiens a la pointe de betsiamites et une droite joignant le point 48 55 53 n 68 41 28 o au point 48 56 00 n 68 41 07 o voir egalement zone 18)",
+      "segment_label": null,
+      "river_base_name": "Rivière Betsiamites",
+      "aliases": [
+        "betsiamites",
+        "betsiamites entre une droite joignant la pointe nord du banc des canadiens a la pointe de betsiamites et une droite joignant le point 48 55 53 n 68 41 28 o au point 48 56 00 n 68 41 07 o voir egalement zone 18)",
+        "riviere betsiamites",
+        "riviere betsiamites entre une droite joignant la pointe nord du banc des canadiens a la pointe de betsiamites et une droite joignant le point 48 55 53 n 68 41 28 o au point 48 56 00 n 68 41 07 o voir egalement zone 18)"
+      ],
+      "lat": 48.931389,
+      "lon": -68.691111
+    },
+    {
+      "id": 1478,
+      "zone_id": 23,
+      "nom_brut": "Rivière Cap-Chat entre la limite ouest du brise-lames et le côté en aval du pont de la route 132 (voir également la zone 1).",
+      "nom": "Rivière Cap-Chat entre la limite ouest du brise-lames et le côté en aval du pont de la route 132",
+      "nom_search": "riviere cap chat entre la limite ouest du brise lames et le cote en aval du pont de la route 132 voir egalement la zone 1)",
+      "segment_label": null,
+      "river_base_name": "Rivière Cap-Chat",
+      "aliases": [
+        "cap chat",
+        "cap chat entre la limite ouest du brise lames et le cote en aval du pont de la route 132 voir egalement la zone 1)",
+        "riviere cap chat",
+        "riviere cap chat entre la limite ouest du brise lames et le cote en aval du pont de la route 132 voir egalement la zone 1)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1495,
+      "zone_id": 23,
+      "nom_brut": "Rivière de Mont-Louis entre le côté en aval du pont de la route 132 et une droite reliant les points 49°14'15\" N., 65°43'16\" O. et 49°14'24\" N., 65°44'58\" O. Ce secteur n'a pas le statut d'une rivière à saumon.",
+      "nom": "Rivière de Mont-Louis entre le côté en aval du pont de la route 132 et une droite reliant les points 49°14'15\" N., 65°43'16\" O. et 49°14'24\" N., 65°44'58\" O. Ce secteur n'a pas le statut d'une rivière à saumon.",
+      "nom_search": "riviere de mont louis entre le cote en aval du pont de la route 132 et une droite reliant les points 49 14 15 n 65 43 16 o et 49 14 24 n 65 44 58 o ce secteur n a pas le statut d une riviere a saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière de Mont-Louis",
+      "aliases": [
+        "de mont louis",
+        "de mont louis entre le cote en aval du pont de la route 132 et une droite reliant les points 49 14 15 n 65 43 16 o et 49 14 24 n 65 44 58 o ce secteur n a pas le statut d une riviere a saumon",
+        "riviere de mont louis",
+        "riviere de mont louis entre le cote en aval du pont de la route 132 et une droite reliant les points 49 14 15 n 65 43 16 o et 49 14 24 n 65 44 58 o ce secteur n a pas le statut d une riviere a saumon"
+      ],
+      "lat": 49.2375,
+      "lon": -65.721111
+    },
+    {
+      "id": 3235,
+      "zone_id": 23,
+      "nom_brut": "Rivière du Gouffre entre son embouchure, délimitée par une droite joignant l'extrémité sud-est du quai ( 47°25'45\" N., 70°29'18\" O. ) et le point situé aux coordonnées 47°25'51\" N., 70°28'36\" O. (la pointe située sur la rive opposée de la rivière du Gouffre), et le côté en aval du pont du CN situé au point 47°26'31\" N., 70°29'43\" O.",
+      "nom": "Rivière du Gouffre entre son embouchure, délimitée par une droite joignant l'extrémité sud-est du quai",
+      "nom_search": "riviere du gouffre entre son embouchure delimitee par une droite joignant l extremite sud est du quai 47 25 45 n 70 29 18 o ) et le point situe aux coordonnees 47 25 51 n 70 28 36 o la pointe situee sur la rive opposee de la riviere du gouffre) et le cote en aval du pont du cn situe au point 47 26 31 n 70 29 43 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Gouffre",
+      "aliases": [
+        "du gouffre",
+        "du gouffre entre son embouchure delimitee par une droite joignant l extremite sud est du quai 47 25 45 n 70 29 18 o ) et le point situe aux coordonnees 47 25 51 n 70 28 36 o la pointe situee sur la rive opposee de la riviere du gouffre) et le cote en aval du pont du cn situe au point 47 26 31 n 70 29 43 o",
+        "riviere du gouffre",
+        "riviere du gouffre entre son embouchure delimitee par une droite joignant l extremite sud est du quai 47 25 45 n 70 29 18 o ) et le point situe aux coordonnees 47 25 51 n 70 28 36 o la pointe situee sur la rive opposee de la riviere du gouffre) et le cote en aval du pont du cn situe au point 47 26 31 n 70 29 43 o"
+      ],
+      "lat": 47.429167,
+      "lon": -70.488333
+    },
+    {
+      "id": 3273,
+      "zone_id": 23,
+      "nom_brut": "Rivière du Petit Pabos entre le côté aval du pont du CN et une droite reliant, à l'ouest, la pointe du cap situé au 48°22'06\" N., 64°35'33\" O. et, à l'est, l'escalier donnant accès à la plage ( 48°22'18\" N., 64°35'20\" O. )",
+      "nom": "Rivière du Petit Pabos entre le côté aval du pont du CN et une droite reliant, à l'ouest, la pointe du cap situé au 48°22'06\" N., 64°35'33\" O. et, à l'est, l'escalier donnant accès à la plage",
+      "nom_search": "riviere du petit pabos entre le cote aval du pont du cn et une droite reliant a l ouest la pointe du cap situe au 48 22 06 n 64 35 33 o et a l est l escalier donnant acces a la plage 48 22 18 n 64 35 20 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Petit Pabos",
+      "aliases": [
+        "du petit pabos",
+        "du petit pabos entre le cote aval du pont du cn et une droite reliant a l ouest la pointe du cap situe au 48 22 06 n 64 35 33 o et a l est l escalier donnant acces a la plage 48 22 18 n 64 35 20 o )",
+        "riviere du petit pabos",
+        "riviere du petit pabos entre le cote aval du pont du cn et une droite reliant a l ouest la pointe du cap situe au 48 22 06 n 64 35 33 o et a l est l escalier donnant acces a la plage 48 22 18 n 64 35 20 o )"
+      ],
+      "lat": 48.368333,
+      "lon": -64.5925
+    },
+    {
+      "id": 1473,
+      "zone_id": 23,
+      "nom_brut": "Rivière du Sud entre la partie en aval du barrage situé au point 46°59'12\" N., 70°32'59\" O. et une droite joignant l'extrémité du quai de Montmagny 46°59'25\" N., 70°33'12\" O. et la pointe aux Oies 46°59'36\" N., 70°33'00\" O.",
+      "nom": "Rivière du Sud entre la partie en aval du barrage situé au point 46°59'12\" N., 70°32'59\" O. et une droite joignant l'extrémité du quai de Montmagny 46°59'25\" N., 70°33'12\" O. et la pointe aux Oies 46°59'36\" N., 70°33'00\" O.",
+      "nom_search": "riviere du sud entre la partie en aval du barrage situe au point 46 59 12 n 70 32 59 o et une droite joignant l extremite du quai de montmagny 46 59 25 n 70 33 12 o et la pointe aux oies 46 59 36 n 70 33 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Sud",
+      "aliases": [
+        "du sud",
+        "du sud entre la partie en aval du barrage situe au point 46 59 12 n 70 32 59 o et une droite joignant l extremite du quai de montmagny 46 59 25 n 70 33 12 o et la pointe aux oies 46 59 36 n 70 33 00 o",
+        "riviere du sud",
+        "riviere du sud entre la partie en aval du barrage situe au point 46 59 12 n 70 32 59 o et une droite joignant l extremite du quai de montmagny 46 59 25 n 70 33 12 o et la pointe aux oies 46 59 36 n 70 33 00 o"
+      ],
+      "lat": 46.986667,
+      "lon": -70.549722
+    },
+    {
+      "id": 1487,
+      "zone_id": 23,
+      "nom_brut": "Rivière La Grande Rivière entre la ligne qui relie la limite est du lot 123-7 ( 48°23'50,67\" N., 64°30'13,83\" O. ) à la limite ouest du brise-lames ( 48°23'48.10\" N., 64°30'12.24\" O. ) et le côté en aval du pont de la route 132 (voir également la zone 1).",
+      "nom": "Rivière La Grande Rivière entre la ligne qui relie la limite est du lot 123-7",
+      "nom_search": "riviere la grande riviere entre la ligne qui relie la limite est du lot 123 7 48 23 50 67 n 64 30 13 83 o ) a la limite ouest du brise lames 48 23 48 10 n 64 30 12 24 o ) et le cote en aval du pont de la route 132 voir egalement la zone 1)",
+      "segment_label": null,
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere entre la ligne qui relie la limite est du lot 123 7 48 23 50 67 n 64 30 13 83 o ) a la limite ouest du brise lames 48 23 48 10 n 64 30 12 24 o ) et le cote en aval du pont de la route 132 voir egalement la zone 1)",
+        "riviere la grande riviere",
+        "riviere la grande riviere entre la ligne qui relie la limite est du lot 123 7 48 23 50 67 n 64 30 13 83 o ) a la limite ouest du brise lames 48 23 48 10 n 64 30 12 24 o ) et le cote en aval du pont de la route 132 voir egalement la zone 1)"
+      ],
+      "lat": 48.397408,
+      "lon": -64.503842
+    },
+    {
+      "id": 1489,
+      "zone_id": 23,
+      "nom_brut": "Rivière Malbaie (rive nord) entre une droite reliant le quai Casgrain ( 47°39'11\" N., 70°09'00\" O. ) à l'embouchure du ruisseau de la Côte à Pontage ( 47°39'15\" N., 70°08'22\" O. ) et le côté en aval du pont de la route 138 (voir également la zone 27).",
+      "nom": "Rivière Malbaie",
+      "nom_search": "riviere malbaie rive nord) entre une droite reliant le quai casgrain 47 39 11 n 70 09 00 o ) a l embouchure du ruisseau de la cote a pontage 47 39 15 n 70 08 22 o ) et le cote en aval du pont de la route 138 voir egalement la zone 27)",
+      "segment_label": null,
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie rive nord) entre une droite reliant le quai casgrain 47 39 11 n 70 09 00 o ) a l embouchure du ruisseau de la cote a pontage 47 39 15 n 70 08 22 o ) et le cote en aval du pont de la route 138 voir egalement la zone 27)",
+        "riviere malbaie",
+        "riviere malbaie rive nord) entre une droite reliant le quai casgrain 47 39 11 n 70 09 00 o ) a l embouchure du ruisseau de la cote a pontage 47 39 15 n 70 08 22 o ) et le cote en aval du pont de la route 138 voir egalement la zone 27)"
+      ],
+      "lat": 47.653056,
+      "lon": -70.15
+    },
+    {
+      "id": 1461,
+      "zone_id": 23,
+      "nom_brut": "Rivière Manicouagan entre son embouchure dans le fleuve Saint-Laurent et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Manicouagan entre son embouchure dans le fleuve Saint-Laurent et le côté en aval du pont de la route 138.",
+      "nom_search": "riviere manicouagan entre son embouchure dans le fleuve saint laurent et le cote en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière Manicouagan",
+      "aliases": [
+        "manicouagan",
+        "manicouagan entre son embouchure dans le fleuve saint laurent et le cote en aval du pont de la route 138",
+        "riviere manicouagan",
+        "riviere manicouagan entre son embouchure dans le fleuve saint laurent et le cote en aval du pont de la route 138"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1492,
+      "zone_id": 23,
+      "nom_brut": "Rivière Matane entre son embouchure, délimitée par une droite joignant l'extrémité nord des deux brise-lames, et le côté en aval du pont de la route 132 (voir également la zone 1).",
+      "nom": "Rivière Matane entre son embouchure, délimitée par une droite joignant l'extrémité nord des deux brise-lames, et le côté en aval du pont de la route 132",
+      "nom_search": "riviere matane entre son embouchure delimitee par une droite joignant l extremite nord des deux brise lames et le cote en aval du pont de la route 132 voir egalement la zone 1)",
+      "segment_label": null,
+      "river_base_name": "Rivière Matane",
+      "aliases": [
+        "matane",
+        "matane entre son embouchure delimitee par une droite joignant l extremite nord des deux brise lames et le cote en aval du pont de la route 132 voir egalement la zone 1)",
+        "riviere matane",
+        "riviere matane entre son embouchure delimitee par une droite joignant l extremite nord des deux brise lames et le cote en aval du pont de la route 132 voir egalement la zone 1)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3043,
+      "zone_id": 23,
+      "nom_brut": "Rivière Ouelle entre le côté aval du pont de la route 132, situé au point 47°25'55\" N., 70°00'59\" O. et une droite reliant l'embouchure du ruisseau Gagnon au point 47°25'08\" N., 70°02'42\" O. et la Pointe de la Rivière Ouelle au point 47°25'31\" N., 70°03'39\" O.",
+      "nom": "Rivière Ouelle entre le côté aval du pont de la route 132, situé au point 47°25'55\" N., 70°00'59\" O. et une droite reliant l'embouchure du ruisseau Gagnon au point 47°25'08\" N., 70°02'42\" O. et la Pointe de la Rivière Ouelle au point 47°25'31\" N., 70°03'39\" O.",
+      "nom_search": "riviere ouelle entre le cote aval du pont de la route 132 situe au point 47 25 55 n 70 00 59 o et une droite reliant l embouchure du ruisseau gagnon au point 47 25 08 n 70 02 42 o et la pointe de la riviere ouelle au point 47 25 31 n 70 03 39 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouelle",
+      "aliases": [
+        "ouelle",
+        "ouelle entre le cote aval du pont de la route 132 situe au point 47 25 55 n 70 00 59 o et une droite reliant l embouchure du ruisseau gagnon au point 47 25 08 n 70 02 42 o et la pointe de la riviere ouelle au point 47 25 31 n 70 03 39 o",
+        "riviere ouelle",
+        "riviere ouelle entre le cote aval du pont de la route 132 situe au point 47 25 55 n 70 00 59 o et une droite reliant l embouchure du ruisseau gagnon au point 47 25 08 n 70 02 42 o et la pointe de la riviere ouelle au point 47 25 31 n 70 03 39 o"
+      ],
+      "lat": 47.431944,
+      "lon": -70.016389
+    },
+    {
+      "id": 12362,
+      "zone_id": 23,
+      "nom_brut": "Rivière Piashti a)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant l'extrémité sud-est de la pointe Tanguay ( 50°16'43\" N., 62°48'41\" O. ) à l'éperon de la pointe Loizeau ( 50°16'40\" N., 62°48'11\" O. ) jusqu'à l'extrémité sud de la pointe Loizeau ( 50°16'50\" N., 62°47'56\" O. ) et une droite perpendiculaire au courant joignant les deux rives à 125 m en aval du pont de la route 138. (voir également zone 19 sud partie B)",
+      "nom": "Rivière Piashti a)",
+      "nom_search": "riviere piashti a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud est de la pointe tanguay 50 16 43 n 62 48 41 o ) a l eperon de la pointe loizeau 50 16 40 n 62 48 11 o ) jusqu a l extremite sud de la pointe loizeau 50 16 50 n 62 47 56 o ) et une droite perpendiculaire au courant joignant les deux rives a 125 m en aval du pont de la route 138 voir egalement zone 19 sud partie b)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Piashti",
+      "aliases": [
+        "piashti",
+        "piashti a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud est de la pointe tanguay 50 16 43 n 62 48 41 o ) a l eperon de la pointe loizeau 50 16 40 n 62 48 11 o ) jusqu a l extremite sud de la pointe loizeau 50 16 50 n 62 47 56 o ) et une droite perpendiculaire au courant joignant les deux rives a 125 m en aval du pont de la route 138 voir egalement zone 19 sud partie b)",
+        "riviere piashti",
+        "riviere piashti a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud est de la pointe tanguay 50 16 43 n 62 48 41 o ) a l eperon de la pointe loizeau 50 16 40 n 62 48 11 o ) jusqu a l extremite sud de la pointe loizeau 50 16 50 n 62 47 56 o ) et une droite perpendiculaire au courant joignant les deux rives a 125 m en aval du pont de la route 138 voir egalement zone 19 sud partie b)"
+      ],
+      "lat": 50.278611,
+      "lon": -62.811389
+    },
+    {
+      "id": 12361,
+      "zone_id": 23,
+      "nom_brut": "Rivière Piashti b)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant les deux rives à 125 m en aval du pont de la route 138 jusqu'à 300 m en amont de ce pont. (voir également zone 19 sud partie B)",
+      "nom": "Rivière Piashti b)",
+      "nom_search": "riviere piashti b) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 125 m en aval du pont de la route 138 jusqu a 300 m en amont de ce pont voir egalement zone 19 sud partie b)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Piashti",
+      "aliases": [
+        "piashti",
+        "piashti b) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 125 m en aval du pont de la route 138 jusqu a 300 m en amont de ce pont voir egalement zone 19 sud partie b)",
+        "riviere piashti",
+        "riviere piashti b) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 125 m en aval du pont de la route 138 jusqu a 300 m en amont de ce pont voir egalement zone 19 sud partie b)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 12040,
+      "zone_id": 23,
+      "nom_brut": "Rivière Saguenay a) La partie comprise entre une droite perpendiculaire au courant passant par le côté en amont de la flèche du littorale ( 48°26'23\" N., 70°54'08\" O. ) située à la hauteur de la municipalité de Saint-Fulgence et le côté en aval du pont Dubuc à Saguenay.",
+      "nom": "Rivière Saguenay a) La partie comprise entre une droite perpendiculaire au courant passant par le côté en amont de la flèche du littorale",
+      "nom_search": "riviere saguenay a) la partie comprise entre une droite perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence et le cote en aval du pont dubuc a saguenay",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saguenay  La partie comprise",
+      "aliases": [
+        "riviere saguenay a) la partie comprise entre une droite perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence et le cote en aval du pont dubuc a saguenay",
+        "riviere saguenay la partie comprise",
+        "saguenay a) la partie comprise entre une droite perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence et le cote en aval du pont dubuc a saguenay",
+        "saguenay la partie comprise"
+      ],
+      "lat": 48.439722,
+      "lon": -70.902222
+    },
+    {
+      "id": 1469,
+      "zone_id": 23,
+      "nom_brut": "Rivière Saguenay a) La partie comprise entre une droite perpendiculaire au courant passant par le côté en amont de la flèche du littorale ( 48°26'23\" N., 70°54'08\" O. ) située à la hauteur de la municipalité de Saint-Fulgence et le côté en aval du pont Dubuc à Saguenay.",
+      "nom": "Rivière Saguenay a) La partie comprise entre une droite perpendiculaire au courant passant par le côté en amont de la flèche du littorale",
+      "nom_search": "riviere saguenay a) la partie comprise entre une droite perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence et le cote en aval du pont dubuc a saguenay",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saguenay  La partie comprise",
+      "aliases": [
+        "riviere saguenay a) la partie comprise entre une droite perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence et le cote en aval du pont dubuc a saguenay",
+        "riviere saguenay la partie comprise",
+        "saguenay a) la partie comprise entre une droite perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence et le cote en aval du pont dubuc a saguenay",
+        "saguenay la partie comprise"
+      ],
+      "lat": 48.439722,
+      "lon": -70.902222
+    },
+    {
+      "id": 1468,
+      "zone_id": 23,
+      "nom_brut": "Rivière Saguenay b) La partie comprise entre une droite transversale joignant la route 138 entre Tadoussac et Baie-Sainte-Catherine et une ligne perpendiculaire au courant passant par le côté en amont de la flèche du littorale ( 48°26'23\" N., 70°54'08\" O. ) située à la hauteur de la municipalité de Saint-Fulgence.",
+      "nom": "Rivière Saguenay b) La partie comprise entre une droite transversale joignant la route 138 entre Tadoussac et Baie-Sainte-Catherine et une ligne perpendiculaire au courant passant par le côté en amont de la flèche du littorale",
+      "nom_search": "riviere saguenay b) la partie comprise entre une droite transversale joignant la route 138 entre tadoussac et baie sainte catherine et une ligne perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Saguenay  La partie comprise",
+      "aliases": [
+        "riviere saguenay b) la partie comprise entre une droite transversale joignant la route 138 entre tadoussac et baie sainte catherine et une ligne perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence",
+        "riviere saguenay la partie comprise",
+        "saguenay b) la partie comprise entre une droite transversale joignant la route 138 entre tadoussac et baie sainte catherine et une ligne perpendiculaire au courant passant par le cote en amont de la fleche du littorale 48 26 23 n 70 54 08 o ) situee a la hauteur de la municipalite de saint fulgence",
+        "saguenay la partie comprise",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.439722,
+      "lon": -70.902222
+    },
+    {
+      "id": 1480,
+      "zone_id": 23,
+      "nom_brut": "Rivière Sainte-Anne entre une droite située à 450 m en aval du pont de la 1re Avenue Ouest, à Sainte-Anne-des-Monts, et le côté en aval de ce pont (voir également la zone 1).",
+      "nom": "Rivière Sainte-Anne entre une droite située à 450 m en aval du pont de la 1re Avenue Ouest, à Sainte-Anne-des-Monts, et le côté en aval de ce pont",
+      "nom_search": "riviere sainte anne entre une droite situee a 450 m en aval du pont de la 1re avenue ouest a sainte anne des monts et le cote en aval de ce pont voir egalement la zone 1)",
+      "segment_label": null,
+      "river_base_name": "Rivière Sainte-Anne",
+      "aliases": [
+        "riviere sainte anne",
+        "riviere sainte anne entre une droite situee a 450 m en aval du pont de la 1re avenue ouest a sainte anne des monts et le cote en aval de ce pont voir egalement la zone 1)",
+        "sainte anne",
+        "sainte anne entre une droite situee a 450 m en aval du pont de la 1re avenue ouest a sainte anne des monts et le cote en aval de ce pont voir egalement la zone 1)",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1475,
+      "zone_id": 23,
+      "nom_brut": "Ruisseau de l'Église (municipalité de Beaumont) la partie du fleuve Saint-Laurent et du ruisseau de l'Église comprise entre les quatre bornes situées aux coordonnées 46°49'56\" N., 71°00'43\" O. ; 46°50'00\" N., 71°00'43\" O. ; 46°50'00\" N., 71°00'47\" O. et 46°49'56\" N., 71°00'47\" O.",
+      "nom": "Ruisseau de l'Église",
+      "nom_search": "ruisseau de l eglise municipalite de beaumont) la partie du fleuve saint laurent et du ruisseau de l eglise comprise entre les quatre bornes situees aux coordonnees 46 49 56 n 71 00 43 o 46 50 00 n 71 00 43 o 46 50 00 n 71 00 47 o et 46 49 56 n 71 00 47 o",
+      "segment_label": null,
+      "river_base_name": "Ruisseau de l'Église",
+      "aliases": [
+        "de l eglise",
+        "de l eglise municipalite de beaumont) la partie du fleuve saint laurent et du ruisseau de l eglise comprise entre les quatre bornes situees aux coordonnees 46 49 56 n 71 00 43 o 46 50 00 n 71 00 43 o 46 50 00 n 71 00 47 o et 46 49 56 n 71 00 47 o",
+        "ruisseau de l eglise",
+        "ruisseau de l eglise municipalite de beaumont) la partie du fleuve saint laurent et du ruisseau de l eglise comprise entre les quatre bornes situees aux coordonnees 46 49 56 n 71 00 43 o 46 50 00 n 71 00 43 o 46 50 00 n 71 00 47 o et 46 49 56 n 71 00 47 o"
+      ],
+      "lat": 46.832222,
+      "lon": -71.011944
+    }
+  ]
+}

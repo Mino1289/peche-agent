@@ -1,0 +1,818 @@
+{
+  "meta": {
+    "zone_id": 8,
+    "zone_nom": "Zone 8",
+    "nb_plans": 48,
+    "nb_geocoded": 42,
+    "pct_geocoded": 87.5,
+    "source_file": "zones/8.json"
+  },
+  "locations": [
+    {
+      "id": null,
+      "zone_id": 8,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 7) Fleuve Saint-Laurent (aire faunique communautaire du lac Saint-Pierre) entre la limite est de la zone 8 et le côté en aval des lignes de transport d'électricité de la centrale hydroélectrique d'Hydro-Québec à Tracy, jusqu'à la ligne des hautes eaux.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 7) fleuve saint laurent aire faunique communautaire du lac saint pierre) entre la limite est de la zone 8 et le cote en aval des lignes de transport d electricite de la centrale hydroelectrique d hydro quebec a tracy jusqu a la ligne des hautes eaux",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 7) fleuve saint laurent aire faunique communautaire du lac saint pierre) entre la limite est de la zone 8 et le cote en aval des lignes de transport d electricite de la centrale hydroelectrique d hydro quebec a tracy jusqu a la ligne des hautes eaux"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 8,
+      "nom_brut": "Aire Faunique Communautaire du lac Saint-Pierre (voir également zone 7) Rivière Richelieu (aire faunique communautaire du lac Saint-Pierre) de son embouchure dans le fleuve Saint-Laurent jusqu'au côté en aval du pont de l'autoroute 30.",
+      "nom": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "nom_search": "aire faunique communautaire du lac saint pierre voir egalement zone 7) riviere richelieu aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval du pont de l autoroute 30",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du lac Saint-Pierre",
+      "aliases": [
+        "aire faunique communautaire du lac saint pierre",
+        "aire faunique communautaire du lac saint pierre voir egalement zone 7) riviere richelieu aire faunique communautaire du lac saint pierre) de son embouchure dans le fleuve saint laurent jusqu au cote en aval du pont de l autoroute 30"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 12545,
+      "zone_id": 8,
+      "nom_brut": "Canal de Chambly - La partie comprise entre l'écluse 1 à Chambly ( 45°26'53.43'' N., 73°17'1.15'' O. ) et Saint-Jean-sur-Richelieu ( 45°18'11.73'' N., 73°14'54.52'' O. ).",
+      "nom": "Canal de Chambly - La partie comprise entre l'écluse 1 à Chambly",
+      "nom_search": "canal de chambly la partie comprise entre l ecluse 1 a chambly 45 26 53 43 n 73 17 1 15 o ) et saint jean sur richelieu 45 18 11 73 n 73 14 54 52 o )",
+      "segment_label": null,
+      "river_base_name": "Canal de Chambly",
+      "aliases": [
+        "canal de chambly",
+        "canal de chambly la partie comprise entre l ecluse 1 a chambly 45 26 53 43 n 73 17 1 15 o ) et saint jean sur richelieu 45 18 11 73 n 73 14 54 52 o )"
+      ],
+      "lat": 45.448175,
+      "lon": -73.283653
+    },
+    {
+      "id": 12543,
+      "zone_id": 8,
+      "nom_brut": "Canal de Lachine ( 45°27'39,9\" N., 73°36'12,78\" O. )",
+      "nom": "Canal de Lachine",
+      "nom_search": "canal de lachine 45 27 39 9 n 73 36 12 78 o )",
+      "segment_label": null,
+      "river_base_name": "Canal de Lachine",
+      "aliases": [
+        "canal de lachine",
+        "canal de lachine 45 27 39 9 n 73 36 12 78 o )"
+      ],
+      "lat": 45.461083,
+      "lon": -73.60355
+    },
+    {
+      "id": 13000,
+      "zone_id": 8,
+      "nom_brut": "Fleuve Saint-Laurent (secteur non situé dans l'aire faunique communautaire du lac Saint-Pierre) - La partie comprise entre le pont Honoré-Mercier et le côté en aval des lignes de transport d'électricité de la centrale hydroélectrique d'Hydro-Québec à Tracy ( 45°59'45,72\" N., 73°10'56,05\" O. ), incluant la voie maritime du Saint-Laurent au sud des rapides de Lachine (excluant le canal de Lachine), la rivière à la Tortue jusqu'à la route 132 et la rivière Saint-Jacques jusqu'à l'autoroute 30.",
+      "nom": "Fleuve Saint-Laurent",
+      "nom_search": "fleuve saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) la partie comprise entre le pont honore mercier et le cote en aval des lignes de transport d electricite de la centrale hydroelectrique d hydro quebec a tracy 45 59 45 72 n 73 10 56 05 o ) incluant la voie maritime du saint laurent au sud des rapides de lachine excluant le canal de lachine) la riviere a la tortue jusqu a la route 132 et la riviere saint jacques jusqu a l autoroute 30",
+      "segment_label": null,
+      "river_base_name": "Fleuve Saint-Laurent",
+      "aliases": [
+        "fleuve saint laurent",
+        "fleuve saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) la partie comprise entre le pont honore mercier et le cote en aval des lignes de transport d electricite de la centrale hydroelectrique d hydro quebec a tracy 45 59 45 72 n 73 10 56 05 o ) incluant la voie maritime du saint laurent au sud des rapides de lachine excluant le canal de lachine) la riviere a la tortue jusqu a la route 132 et la riviere saint jacques jusqu a l autoroute 30",
+        "saint laurent",
+        "saint laurent secteur non situe dans l aire faunique communautaire du lac saint pierre) la partie comprise entre le pont honore mercier et le cote en aval des lignes de transport d electricite de la centrale hydroelectrique d hydro quebec a tracy 45 59 45 72 n 73 10 56 05 o ) incluant la voie maritime du saint laurent au sud des rapides de lachine excluant le canal de lachine) la riviere a la tortue jusqu a la route 132 et la riviere saint jacques jusqu a l autoroute 30"
+      ],
+      "lat": 45.996033,
+      "lon": -73.182236
+    },
+    {
+      "id": 12860,
+      "zone_id": 8,
+      "nom_brut": "Lac Saint-François ( 45°09'25\" N., 74°22'22\" O. ) jusqu'en amont des barrages de la Pointe-du-Buisson à Pointe-des-Cascades ( 45°19'7,11\" N., 73°58'26,08\" O. ) et de Beauharnois ( 45°13'42,58\" N., 74°00'34,98\" O. ), incluant la rivière Delisle jusqu'au chemin du Fleuve ( 45°17'22\" N., 74°10'37\" O. ), le canal de Soulanges ( 45°18'51,17\" N., 74°05'39,96\" O. ), la rivière Saint-Charles ( 45°16'31,11\" N., 74°04'51,34\" O. ), la rivière aux Saumons jusqu'à la frontière et la rivière Baudette jusqu'à l'autoroute 20.",
+      "nom": "Lac Saint-François",
+      "nom_search": "lac saint francois 45 09 25 n 74 22 22 o ) jusqu en amont des barrages de la pointe du buisson a pointe des cascades 45 19 7 11 n 73 58 26 08 o ) et de beauharnois 45 13 42 58 n 74 00 34 98 o ) incluant la riviere delisle jusqu au chemin du fleuve 45 17 22 n 74 10 37 o ) le canal de soulanges 45 18 51 17 n 74 05 39 96 o ) la riviere saint charles 45 16 31 11 n 74 04 51 34 o ) la riviere aux saumons jusqu a la frontiere et la riviere baudette jusqu a l autoroute 20",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-François",
+      "aliases": [
+        "lac saint francois",
+        "lac saint francois 45 09 25 n 74 22 22 o ) jusqu en amont des barrages de la pointe du buisson a pointe des cascades 45 19 7 11 n 73 58 26 08 o ) et de beauharnois 45 13 42 58 n 74 00 34 98 o ) incluant la riviere delisle jusqu au chemin du fleuve 45 17 22 n 74 10 37 o ) le canal de soulanges 45 18 51 17 n 74 05 39 96 o ) la riviere saint charles 45 16 31 11 n 74 04 51 34 o ) la riviere aux saumons jusqu a la frontiere et la riviere baudette jusqu a l autoroute 20",
+        "saint francois",
+        "saint francois 45 09 25 n 74 22 22 o ) jusqu en amont des barrages de la pointe du buisson a pointe des cascades 45 19 7 11 n 73 58 26 08 o ) et de beauharnois 45 13 42 58 n 74 00 34 98 o ) incluant la riviere delisle jusqu au chemin du fleuve 45 17 22 n 74 10 37 o ) le canal de soulanges 45 18 51 17 n 74 05 39 96 o ) la riviere saint charles 45 16 31 11 n 74 04 51 34 o ) la riviere aux saumons jusqu a la frontiere et la riviere baudette jusqu a l autoroute 20"
+      ],
+      "lat": 45.156944,
+      "lon": -74.372778
+    },
+    {
+      "id": 12861,
+      "zone_id": 8,
+      "nom_brut": "Lac Saint-Louis ( 45°24'05'' N., 73°48'52'' O. ) incluant la portion entre le barrage de la Pointe-du-Buisson ( 45°19'7,11\" N., 73°58'26,08\" O. ) et le barrage de Pointe-des-Cascades ( 45°19'26,33\" N., 73°56'39,92\" O. ), jusqu'au pont Honoré-Mercier, incluant le ruisseau Saint-Jean ( 45°22'15.08'' N., 73°46'10.48'' O. ), jusqu'à la ligne des hautes eaux et la rivière Saint-Louis jusqu'au barrage Howard-Smith ( 45°18'41.10'' N., 73°52'49.73'' O. )",
+      "nom": "Lac Saint-Louis",
+      "nom_search": "lac saint louis 45 24 05 n 73 48 52 o ) incluant la portion entre le barrage de la pointe du buisson 45 19 7 11 n 73 58 26 08 o ) et le barrage de pointe des cascades 45 19 26 33 n 73 56 39 92 o ) jusqu au pont honore mercier incluant le ruisseau saint jean 45 22 15 08 n 73 46 10 48 o ) jusqu a la ligne des hautes eaux et la riviere saint louis jusqu au barrage howard smith 45 18 41 10 n 73 52 49 73 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Louis",
+      "aliases": [
+        "lac saint louis",
+        "lac saint louis 45 24 05 n 73 48 52 o ) incluant la portion entre le barrage de la pointe du buisson 45 19 7 11 n 73 58 26 08 o ) et le barrage de pointe des cascades 45 19 26 33 n 73 56 39 92 o ) jusqu au pont honore mercier incluant le ruisseau saint jean 45 22 15 08 n 73 46 10 48 o ) jusqu a la ligne des hautes eaux et la riviere saint louis jusqu au barrage howard smith 45 18 41 10 n 73 52 49 73 o )",
+        "saint louis",
+        "saint louis 45 24 05 n 73 48 52 o ) incluant la portion entre le barrage de la pointe du buisson 45 19 7 11 n 73 58 26 08 o ) et le barrage de pointe des cascades 45 19 26 33 n 73 56 39 92 o ) jusqu au pont honore mercier incluant le ruisseau saint jean 45 22 15 08 n 73 46 10 48 o ) jusqu a la ligne des hautes eaux et la riviere saint louis jusqu au barrage howard smith 45 18 41 10 n 73 52 49 73 o )"
+      ],
+      "lat": 45.401389,
+      "lon": -73.814444
+    },
+    {
+      "id": 11980,
+      "zone_id": 8,
+      "nom_brut": "Parc National des Îles-de-Boucherville",
+      "nom": "Parc National des Îles-de-Boucherville",
+      "nom_search": "parc national des iles de boucherville",
+      "segment_label": null,
+      "river_base_name": "Parc National des Îles-de-Boucherville",
+      "aliases": [
+        "parc national des iles de boucherville"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3108,
+      "zone_id": 8,
+      "nom_brut": "Parc National du Mont-Saint-Bruno",
+      "nom": "Parc National du Mont-Saint-Bruno",
+      "nom_search": "parc national du mont saint bruno",
+      "segment_label": null,
+      "river_base_name": "Parc National du Mont-Saint-Bruno",
+      "aliases": [
+        "parc national du mont saint bruno"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 196,
+      "zone_id": 8,
+      "nom_brut": "Rivière aux Brochets de l'embouchure du ruisseau Ewing, situé en aval du pont de la route 133, dans la municipalité de Saint-Pierre-de-Véronne-à-Pike-River, jusqu'à son embouchure dans la baie Missisquoi.",
+      "nom": "Rivière aux Brochets de l'embouchure du ruisseau Ewing, situé en aval du pont de la route 133, dans la municipalité de Saint-Pierre-de-Véronne-à-Pike-River, jusqu'à son embouchure dans la baie Missisquoi.",
+      "nom_search": "riviere aux brochets de l embouchure du ruisseau ewing situe en aval du pont de la route 133 dans la municipalite de saint pierre de veronne a pike river jusqu a son embouchure dans la baie missisquoi",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Brochets de l'embouchure du ruisseau Ewing, situé en aval du pont de la route 133, dans la municipalité de Saint-Pierre-de-Véronne-à-Pike-River, jusqu'à son embouchure dans la baie Missisquoi.",
+      "aliases": [
+        "aux brochets de l embouchure du ruisseau ewing situe en aval du pont de la route 133 dans la municipalite de saint pierre de veronne a pike river jusqu a son embouchure dans la baie missisquoi",
+        "riviere aux brochets de l embouchure du ruisseau ewing situe en aval du pont de la route 133 dans la municipalite de saint pierre de veronne a pike river jusqu a son embouchure dans la baie missisquoi"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 195,
+      "zone_id": 8,
+      "nom_brut": "Rivière Beaudette en amont du pont de l'autoroute 20 ( 45°13'15\" N., 74°19'33\" O. ).",
+      "nom": "Rivière Beaudette en amont du pont de l'autoroute 20",
+      "nom_search": "riviere beaudette en amont du pont de l autoroute 20 45 13 15 n 74 19 33 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Beaudette en amont du pont de l'autoroute 20",
+      "aliases": [
+        "beaudette en amont du pont de l autoroute 20",
+        "beaudette en amont du pont de l autoroute 20 45 13 15 n 74 19 33 o )",
+        "riviere beaudette en amont du pont de l autoroute 20",
+        "riviere beaudette en amont du pont de l autoroute 20 45 13 15 n 74 19 33 o )"
+      ],
+      "lat": 45.220833,
+      "lon": -74.325833
+    },
+    {
+      "id": 12940,
+      "zone_id": 8,
+      "nom_brut": "Rivière Châteauguay a) La partie comprise entre le lac Saint-Louis et le pont Arthur-Laberge à Châteauguay ( 45°21'40\" N., 73°44'49\" O. )",
+      "nom": "Rivière Châteauguay a) La partie comprise entre le lac Saint-Louis et le pont Arthur-Laberge à Châteauguay",
+      "nom_search": "riviere chateauguay a) la partie comprise entre le lac saint louis et le pont arthur laberge a chateauguay 45 21 40 n 73 44 49 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Châteauguay  La partie comprise",
+      "aliases": [
+        "chateauguay a) la partie comprise entre le lac saint louis et le pont arthur laberge a chateauguay 45 21 40 n 73 44 49 o )",
+        "chateauguay la partie comprise",
+        "riviere chateauguay a) la partie comprise entre le lac saint louis et le pont arthur laberge a chateauguay 45 21 40 n 73 44 49 o )",
+        "riviere chateauguay la partie comprise"
+      ],
+      "lat": 45.361111,
+      "lon": -73.746944
+    },
+    {
+      "id": 12942,
+      "zone_id": 8,
+      "nom_brut": "Rivière Châteauguay b) La partie comprise entre le pont Arthur-Laberge à Châteauguay ( 45°21'40'' N., 73°44'49'' O. ) et le barrage en amont de Châteauguay et son prolongement jusqu'à la rive nord",
+      "nom": "Rivière Châteauguay b) La partie comprise entre le pont Arthur-Laberge à Châteauguay",
+      "nom_search": "riviere chateauguay b) la partie comprise entre le pont arthur laberge a chateauguay 45 21 40 n 73 44 49 o ) et le barrage en amont de chateauguay et son prolongement jusqu a la rive nord",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Châteauguay  La partie comprise",
+      "aliases": [
+        "chateauguay b) la partie comprise entre le pont arthur laberge a chateauguay 45 21 40 n 73 44 49 o ) et le barrage en amont de chateauguay et son prolongement jusqu a la rive nord",
+        "chateauguay la partie comprise",
+        "riviere chateauguay b) la partie comprise entre le pont arthur laberge a chateauguay 45 21 40 n 73 44 49 o ) et le barrage en amont de chateauguay et son prolongement jusqu a la rive nord",
+        "riviere chateauguay la partie comprise"
+      ],
+      "lat": 45.361111,
+      "lon": -73.746944
+    },
+    {
+      "id": 12947,
+      "zone_id": 8,
+      "nom_brut": "Rivière Châteauguay c) La partie comprise entre la route 132 à Châteauguay et une droite située à 370 m ( 45°20'27,11\" N., 73°45'18,11\" O. ) en amont du pont de l'autoroute 30 à Châteauguay",
+      "nom": "Rivière Châteauguay c) La partie comprise entre la route 132 à Châteauguay et une droite située à 370 m",
+      "nom_search": "riviere chateauguay c) la partie comprise entre la route 132 a chateauguay et une droite situee a 370 m 45 20 27 11 n 73 45 18 11 o ) en amont du pont de l autoroute 30 a chateauguay",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Châteauguay  La partie comprise",
+      "aliases": [
+        "chateauguay c) la partie comprise entre la route 132 a chateauguay et une droite situee a 370 m 45 20 27 11 n 73 45 18 11 o ) en amont du pont de l autoroute 30 a chateauguay",
+        "chateauguay la partie comprise",
+        "riviere chateauguay c) la partie comprise entre la route 132 a chateauguay et une droite situee a 370 m 45 20 27 11 n 73 45 18 11 o ) en amont du pont de l autoroute 30 a chateauguay",
+        "riviere chateauguay la partie comprise"
+      ],
+      "lat": 45.340864,
+      "lon": -73.755031
+    },
+    {
+      "id": 12941,
+      "zone_id": 8,
+      "nom_brut": "Rivière Châteauguay d) La partie comprise entre le barrage à Sainte-Martine et l'embouchure de la rivière de l'Esturgeon ( 45°15'43\" N., 73°47'54\" O. )",
+      "nom": "Rivière Châteauguay d) La partie comprise entre le barrage à Sainte-Martine et l'embouchure de la rivière de l'Esturgeon",
+      "nom_search": "riviere chateauguay d) la partie comprise entre le barrage a sainte martine et l embouchure de la riviere de l esturgeon 45 15 43 n 73 47 54 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Châteauguay  La partie comprise",
+      "aliases": [
+        "chateauguay d) la partie comprise entre le barrage a sainte martine et l embouchure de la riviere de l esturgeon 45 15 43 n 73 47 54 o )",
+        "chateauguay la partie comprise",
+        "riviere chateauguay d) la partie comprise entre le barrage a sainte martine et l embouchure de la riviere de l esturgeon 45 15 43 n 73 47 54 o )",
+        "riviere chateauguay la partie comprise",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.261944,
+      "lon": -73.798333
+    },
+    {
+      "id": 203,
+      "zone_id": 8,
+      "nom_brut": "Rivière Chibouet entre son embouchure et un point situé à 200 m en amont ( 45°47'03\" N., 72°52'14\" O. ).",
+      "nom": "Rivière Chibouet entre son embouchure et un point situé à 200 m en amont",
+      "nom_search": "riviere chibouet entre son embouchure et un point situe a 200 m en amont 45 47 03 n 72 52 14 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Chibouet",
+      "aliases": [
+        "chibouet",
+        "chibouet entre son embouchure et un point situe a 200 m en amont 45 47 03 n 72 52 14 o )",
+        "riviere chibouet",
+        "riviere chibouet entre son embouchure et un point situe a 200 m en amont 45 47 03 n 72 52 14 o )"
+      ],
+      "lat": 45.784167,
+      "lon": -72.870556
+    },
+    {
+      "id": 184,
+      "zone_id": 8,
+      "nom_brut": "Rivière de l'Achigan entre le pont ferroviaire situé en aval de la rue Onulphe-Peltier ( 45°51'02\" N., 73°28'25\" O. ) et le barrage en amont de la route 341 à l'Épiphanie ( 45°50'46\" N., 73°29'35\" O. ).",
+      "nom": "Rivière de l'Achigan entre le pont ferroviaire situé en aval de la rue Onulphe-Peltier",
+      "nom_search": "riviere de l achigan entre le pont ferroviaire situe en aval de la rue onulphe peltier 45 51 02 n 73 28 25 o ) et le barrage en amont de la route 341 a l epiphanie 45 50 46 n 73 29 35 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière de l'Achigan",
+      "aliases": [
+        "de l achigan",
+        "de l achigan entre le pont ferroviaire situe en aval de la rue onulphe peltier 45 51 02 n 73 28 25 o ) et le barrage en amont de la route 341 a l epiphanie 45 50 46 n 73 29 35 o )",
+        "riviere de l achigan",
+        "riviere de l achigan entre le pont ferroviaire situe en aval de la rue onulphe peltier 45 51 02 n 73 28 25 o ) et le barrage en amont de la route 341 a l epiphanie 45 50 46 n 73 29 35 o )"
+      ],
+      "lat": 45.850556,
+      "lon": -73.473611
+    },
+    {
+      "id": 12960,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Mille Îles a) La partie comprise entre sa confluence avec la rivière des Prairies ( 45°41'58,82\" N., 73°31'44,59\" O. ) et le côté aval du pont du chemin de fer CP ( 45°41'33\" N., 73°37'17\" O. ), incluant la rivière Mascouche jusqu'à l'autoroute 640.",
+      "nom": "Rivière des Mille Îles a) La partie comprise entre sa confluence avec la rivière des Prairies",
+      "nom_search": "riviere des mille iles a) la partie comprise entre sa confluence avec la riviere des prairies 45 41 58 82 n 73 31 44 59 o ) et le cote aval du pont du chemin de fer cp 45 41 33 n 73 37 17 o ) incluant la riviere mascouche jusqu a l autoroute 640",
+      "segment_label": "a)",
+      "river_base_name": "Rivière des Mille Îles  La partie comprise",
+      "aliases": [
+        "des mille iles a) la partie comprise entre sa confluence avec la riviere des prairies 45 41 58 82 n 73 31 44 59 o ) et le cote aval du pont du chemin de fer cp 45 41 33 n 73 37 17 o ) incluant la riviere mascouche jusqu a l autoroute 640",
+        "des mille iles la partie comprise",
+        "riviere des mille iles a) la partie comprise entre sa confluence avec la riviere des prairies 45 41 58 82 n 73 31 44 59 o ) et le cote aval du pont du chemin de fer cp 45 41 33 n 73 37 17 o ) incluant la riviere mascouche jusqu a l autoroute 640",
+        "riviere des mille iles la partie comprise"
+      ],
+      "lat": 45.699672,
+      "lon": -73.529053
+    },
+    {
+      "id": 12943,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Mille Îles b) La partie comprise entre le côté aval du pont du chemin de fer CP ( 45°41'33'' N., 73°37'17'' O. ) et le pont de l'autoroute 25 ( 45°41'46,29\" N., 73°39'4,27\" O. et 45°41'18,03\" N., 73°39'0,34\" O. )",
+      "nom": "Rivière des Mille Îles b) La partie comprise entre le côté aval du pont du chemin de fer CP",
+      "nom_search": "riviere des mille iles b) la partie comprise entre le cote aval du pont du chemin de fer cp 45 41 33 n 73 37 17 o ) et le pont de l autoroute 25 45 41 46 29 n 73 39 4 27 o et 45 41 18 03 n 73 39 0 34 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière des Mille Îles  La partie comprise",
+      "aliases": [
+        "des mille iles b) la partie comprise entre le cote aval du pont du chemin de fer cp 45 41 33 n 73 37 17 o ) et le pont de l autoroute 25 45 41 46 29 n 73 39 4 27 o et 45 41 18 03 n 73 39 0 34 o )",
+        "des mille iles la partie comprise",
+        "riviere des mille iles b) la partie comprise entre le cote aval du pont du chemin de fer cp 45 41 33 n 73 37 17 o ) et le pont de l autoroute 25 45 41 46 29 n 73 39 4 27 o et 45 41 18 03 n 73 39 0 34 o )",
+        "riviere des mille iles la partie comprise"
+      ],
+      "lat": 45.6925,
+      "lon": -73.621389
+    },
+    {
+      "id": 12944,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Mille Îles c) La partie comprise entre le pont de l'autoroute 25 ( 45°41'46,29\" N., 73°39'4,27\" O. et 45°41'18,03\" N., 73°39'0,34\" O. ) et sa confluence avec le lac des Deux Montagnes ( 45°31'49,53\" N., 73°53'15,75\" O. ), incluant la rivière du Chêne et la rivière aux Chiens jusqu'à l'autoroute 640.",
+      "nom": "Rivière des Mille Îles c) La partie comprise entre le pont de l'autoroute 25",
+      "nom_search": "riviere des mille iles c) la partie comprise entre le pont de l autoroute 25 45 41 46 29 n 73 39 4 27 o et 45 41 18 03 n 73 39 0 34 o ) et sa confluence avec le lac des deux montagnes 45 31 49 53 n 73 53 15 75 o ) incluant la riviere du chene et la riviere aux chiens jusqu a l autoroute 640",
+      "segment_label": "c)",
+      "river_base_name": "Rivière des Mille Îles  La partie comprise",
+      "aliases": [
+        "des mille iles c) la partie comprise entre le pont de l autoroute 25 45 41 46 29 n 73 39 4 27 o et 45 41 18 03 n 73 39 0 34 o ) et sa confluence avec le lac des deux montagnes 45 31 49 53 n 73 53 15 75 o ) incluant la riviere du chene et la riviere aux chiens jusqu a l autoroute 640",
+        "des mille iles la partie comprise",
+        "riviere des mille iles c) la partie comprise entre le pont de l autoroute 25 45 41 46 29 n 73 39 4 27 o et 45 41 18 03 n 73 39 0 34 o ) et sa confluence avec le lac des deux montagnes 45 31 49 53 n 73 53 15 75 o ) incluant la riviere du chene et la riviere aux chiens jusqu a l autoroute 640",
+        "riviere des mille iles la partie comprise"
+      ],
+      "lat": 45.696192,
+      "lon": -73.651186
+    },
+    {
+      "id": 12964,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) a) La partie comprise entre le barrage de Carillon ( 45°34'2,29\" N., 74°23'02\" O. ) et la ligne de transport d'énergie électrique située à environ 4 km en aval de ce barrage ( 45°32'19'' N., 74°21'08'' O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) a) la partie comprise entre le barrage de carillon 45 34 2 29 n 74 23 02 o ) et la ligne de transport d energie electrique situee a environ 4 km en aval de ce barrage 45 32 19 n 74 21 08 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) a) la partie comprise entre le barrage de carillon 45 34 2 29 n 74 23 02 o ) et la ligne de transport d energie electrique situee a environ 4 km en aval de ce barrage 45 32 19 n 74 21 08 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) a) la partie comprise entre le barrage de carillon 45 34 2 29 n 74 23 02 o ) et la ligne de transport d energie electrique situee a environ 4 km en aval de ce barrage 45 32 19 n 74 21 08 o )"
+      ],
+      "lat": 45.567303,
+      "lon": -74.383889
+    },
+    {
+      "id": 12965,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) b) (1) Baie de Vaudreuil, la partie comprise entre le pont de l'autoroute 40 ( 45°25'12,92\" N., 73°59'1,92\" O. ) et une droite située à 180 m en amont du pont du CN à Dorion ( 45°23'17,73\" N., 74°00'5,13\" O. ) et une droite située à 360 m en amont du pont du CN à Sainte-Anne-de-Bellevue ( 45°24'17,25\" N., 73°57'40\" O. ); (2) Rapides de Vaudreuil, la partie comprise entre la pointe sud de l'Île aux Pins ( 45°22'35,77\" N., 74°00'6,9\" O. ) et le lac Saint-Louis ( 45°20'34,56\" N., 73°57'22\" O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) b) 1) baie de vaudreuil la partie comprise entre le pont de l autoroute 40 45 25 12 92 n 73 59 1 92 o ) et une droite situee a 180 m en amont du pont du cn a dorion 45 23 17 73 n 74 00 5 13 o ) et une droite situee a 360 m en amont du pont du cn a sainte anne de bellevue 45 24 17 25 n 73 57 40 o ) 2) rapides de vaudreuil la partie comprise entre la pointe sud de l ile aux pins 45 22 35 77 n 74 00 6 9 o ) et le lac saint louis 45 20 34 56 n 73 57 22 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) b) 1) baie de vaudreuil la partie comprise entre le pont de l autoroute 40 45 25 12 92 n 73 59 1 92 o ) et une droite situee a 180 m en amont du pont du cn a dorion 45 23 17 73 n 74 00 5 13 o ) et une droite situee a 360 m en amont du pont du cn a sainte anne de bellevue 45 24 17 25 n 73 57 40 o ) 2) rapides de vaudreuil la partie comprise entre la pointe sud de l ile aux pins 45 22 35 77 n 74 00 6 9 o ) et le lac saint louis 45 20 34 56 n 73 57 22 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) b) 1) baie de vaudreuil la partie comprise entre le pont de l autoroute 40 45 25 12 92 n 73 59 1 92 o ) et une droite situee a 180 m en amont du pont du cn a dorion 45 23 17 73 n 74 00 5 13 o ) et une droite situee a 360 m en amont du pont du cn a sainte anne de bellevue 45 24 17 25 n 73 57 40 o ) 2) rapides de vaudreuil la partie comprise entre la pointe sud de l ile aux pins 45 22 35 77 n 74 00 6 9 o ) et le lac saint louis 45 20 34 56 n 73 57 22 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.420256,
+      "lon": -73.983867
+    },
+    {
+      "id": 12966,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) c) La partie comprise entre la ligne de transport d'énergie électrique située à environ 4 km en aval du barrage de Carillon ( 45°32'19\" N., 74°21'08\" O. ) et les limites en aval du lac des Deux-Montagnes soit : (1) le pont de l'autoroute 40 ( 45°25'12,92\" N., 73°59'1,92\" O. ); (2) l'amont de la rivière des Prairies ( 45°28'24,32\" N., 73°56'25,32\" O. et 45°31'17,26\" N., 73°52'50,79\" O. ); (3) l'amont de la rivière des Mille Îles ( 45°31'49,53\" N., 73°53'15,75\" O. ); incluant la partie aval de la rivière Rigaud jusqu'au pont de l'autoroute 40 ( 45°29'10\" N., 74°17'57\" O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) c) la partie comprise entre la ligne de transport d energie electrique situee a environ 4 km en aval du barrage de carillon 45 32 19 n 74 21 08 o ) et les limites en aval du lac des deux montagnes soit 1) le pont de l autoroute 40 45 25 12 92 n 73 59 1 92 o ) 2) l amont de la riviere des prairies 45 28 24 32 n 73 56 25 32 o et 45 31 17 26 n 73 52 50 79 o ) 3) l amont de la riviere des mille iles 45 31 49 53 n 73 53 15 75 o ) incluant la partie aval de la riviere rigaud jusqu au pont de l autoroute 40 45 29 10 n 74 17 57 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) c) la partie comprise entre la ligne de transport d energie electrique situee a environ 4 km en aval du barrage de carillon 45 32 19 n 74 21 08 o ) et les limites en aval du lac des deux montagnes soit 1) le pont de l autoroute 40 45 25 12 92 n 73 59 1 92 o ) 2) l amont de la riviere des prairies 45 28 24 32 n 73 56 25 32 o et 45 31 17 26 n 73 52 50 79 o ) 3) l amont de la riviere des mille iles 45 31 49 53 n 73 53 15 75 o ) incluant la partie aval de la riviere rigaud jusqu au pont de l autoroute 40 45 29 10 n 74 17 57 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) c) la partie comprise entre la ligne de transport d energie electrique situee a environ 4 km en aval du barrage de carillon 45 32 19 n 74 21 08 o ) et les limites en aval du lac des deux montagnes soit 1) le pont de l autoroute 40 45 25 12 92 n 73 59 1 92 o ) 2) l amont de la riviere des prairies 45 28 24 32 n 73 56 25 32 o et 45 31 17 26 n 73 52 50 79 o ) 3) l amont de la riviere des mille iles 45 31 49 53 n 73 53 15 75 o ) incluant la partie aval de la riviere rigaud jusqu au pont de l autoroute 40 45 29 10 n 74 17 57 o )"
+      ],
+      "lat": 45.538611,
+      "lon": -74.352222
+    },
+    {
+      "id": 12967,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) d) La partie comprise entre une droite située à 180 m en amont du pont du chemin de fer CN à Dorion ( 45°23'17,73\" N., 74°00'5,13\" O. ) et la pointe sud de l'Île aux Pins ( 45°22'35,77\" N., 74°00'6,9\" O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) d) la partie comprise entre une droite situee a 180 m en amont du pont du chemin de fer cn a dorion 45 23 17 73 n 74 00 5 13 o ) et la pointe sud de l ile aux pins 45 22 35 77 n 74 00 6 9 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) d) la partie comprise entre une droite situee a 180 m en amont du pont du chemin de fer cn a dorion 45 23 17 73 n 74 00 5 13 o ) et la pointe sud de l ile aux pins 45 22 35 77 n 74 00 6 9 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) d) la partie comprise entre une droite situee a 180 m en amont du pont du chemin de fer cn a dorion 45 23 17 73 n 74 00 5 13 o ) et la pointe sud de l ile aux pins 45 22 35 77 n 74 00 6 9 o )"
+      ],
+      "lat": 45.388258,
+      "lon": -74.001425
+    },
+    {
+      "id": 12968,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) e) La partie comprise entre une droite située à 360 m en amont du pont du chemin de fer à Sainte-Anne-de-Bellevue ( 45°24'17,25\" N., 73°57'40\" O. ) et le lac Saint-Louis ( 45°24'3,43\" N., 73°56'55,7\" O. ), incluant ainsi la partie de la rivière connue sous la désignation de chenal Proulx ou ruisseau Stocker jusqu'au bout du chemin de l'Île-Claude ( 45°23'55,29\" N., 73°58'7,18\" O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) e) la partie comprise entre une droite situee a 360 m en amont du pont du chemin de fer a sainte anne de bellevue 45 24 17 25 n 73 57 40 o ) et le lac saint louis 45 24 3 43 n 73 56 55 7 o ) incluant ainsi la partie de la riviere connue sous la designation de chenal proulx ou ruisseau stocker jusqu au bout du chemin de l ile claude 45 23 55 29 n 73 58 7 18 o )",
+      "segment_label": "e)",
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) e) la partie comprise entre une droite situee a 360 m en amont du pont du chemin de fer a sainte anne de bellevue 45 24 17 25 n 73 57 40 o ) et le lac saint louis 45 24 3 43 n 73 56 55 7 o ) incluant ainsi la partie de la riviere connue sous la designation de chenal proulx ou ruisseau stocker jusqu au bout du chemin de l ile claude 45 23 55 29 n 73 58 7 18 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) e) la partie comprise entre une droite situee a 360 m en amont du pont du chemin de fer a sainte anne de bellevue 45 24 17 25 n 73 57 40 o ) et le lac saint louis 45 24 3 43 n 73 56 55 7 o ) incluant ainsi la partie de la riviere connue sous la designation de chenal proulx ou ruisseau stocker jusqu au bout du chemin de l ile claude 45 23 55 29 n 73 58 7 18 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 45.404792,
+      "lon": -73.961111
+    },
+    {
+      "id": 12969,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) f) La partie formée par la Baie de Carillon, au nord de la droite qui joint la Pointe aux Roches ( 45°31'27\" N., 74°18'42\" O. ) à la pointe au Foin ( 45°31'25,06\" N., 74°19'18,48\" O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) f) la partie formee par la baie de carillon au nord de la droite qui joint la pointe aux roches 45 31 27 n 74 18 42 o ) a la pointe au foin 45 31 25 06 n 74 19 18 48 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) f) la partie formee par la baie de carillon au nord de la droite qui joint la pointe aux roches 45 31 27 n 74 18 42 o ) a la pointe au foin 45 31 25 06 n 74 19 18 48 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) f) la partie formee par la baie de carillon au nord de la droite qui joint la pointe aux roches 45 31 27 n 74 18 42 o ) a la pointe au foin 45 31 25 06 n 74 19 18 48 o )"
+      ],
+      "lat": 45.524167,
+      "lon": -74.311667
+    },
+    {
+      "id": 12970,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Outaouais (Lac des Deux Montagnes) g) La partie formée par la Baie du Fer à Cheval à l'ouest de la droite qui joint l'extrémité est de l'île Carillon ( 45°30'59\" N., 74°15'05\" O. ) à l'extrémité est de l'île Paquin ( 45°30'43'' N., 74°14'51'' O. )",
+      "nom": "Rivière des Outaouais",
+      "nom_search": "riviere des outaouais lac des deux montagnes) g) la partie formee par la baie du fer a cheval a l ouest de la droite qui joint l extremite est de l ile carillon 45 30 59 n 74 15 05 o ) a l extremite est de l ile paquin 45 30 43 n 74 14 51 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière des Outaouais",
+      "aliases": [
+        "des outaouais",
+        "des outaouais lac des deux montagnes) g) la partie formee par la baie du fer a cheval a l ouest de la droite qui joint l extremite est de l ile carillon 45 30 59 n 74 15 05 o ) a l extremite est de l ile paquin 45 30 43 n 74 14 51 o )",
+        "riviere des outaouais",
+        "riviere des outaouais lac des deux montagnes) g) la partie formee par la baie du fer a cheval a l ouest de la droite qui joint l extremite est de l ile carillon 45 30 59 n 74 15 05 o ) a l extremite est de l ile paquin 45 30 43 n 74 14 51 o )"
+      ],
+      "lat": 45.516389,
+      "lon": -74.251389
+    },
+    {
+      "id": 12963,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Prairies a) La partie comprise entre sa confluence avec le fleuve Saint-Laurent ( 45°42'27,65\" N., 73°28'32,03\" O. ) et le côté amont du pont Pie-IX ( 45°35'57\" N., 73°38'49\" O. ).",
+      "nom": "Rivière des Prairies a) La partie comprise entre sa confluence avec le fleuve Saint-Laurent",
+      "nom_search": "riviere des prairies a) la partie comprise entre sa confluence avec le fleuve saint laurent 45 42 27 65 n 73 28 32 03 o ) et le cote amont du pont pie ix 45 35 57 n 73 38 49 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière des Prairies  La partie comprise",
+      "aliases": [
+        "des prairies a) la partie comprise entre sa confluence avec le fleuve saint laurent 45 42 27 65 n 73 28 32 03 o ) et le cote amont du pont pie ix 45 35 57 n 73 38 49 o )",
+        "des prairies la partie comprise",
+        "riviere des prairies a) la partie comprise entre sa confluence avec le fleuve saint laurent 45 42 27 65 n 73 28 32 03 o ) et le cote amont du pont pie ix 45 35 57 n 73 38 49 o )",
+        "riviere des prairies la partie comprise"
+      ],
+      "lat": 45.707681,
+      "lon": -73.475564
+    },
+    {
+      "id": 12946,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Prairies b) La partie comprise entre le côté amont du pont Pie-IX ( 45°35'57\" N., 73°38'49\" O. ) et le barrage de la centrale hydroélectrique de rivière des Prairies ( 45°35'19,14\" N., 73°39'21,52\" O. ), ainsi que le bras sud jusqu'au barrage des Moulins.",
+      "nom": "Rivière des Prairies b) La partie comprise entre le côté amont du pont Pie-IX",
+      "nom_search": "riviere des prairies b) la partie comprise entre le cote amont du pont pie ix 45 35 57 n 73 38 49 o ) et le barrage de la centrale hydroelectrique de riviere des prairies 45 35 19 14 n 73 39 21 52 o ) ainsi que le bras sud jusqu au barrage des moulins",
+      "segment_label": "b)",
+      "river_base_name": "Rivière des Prairies  La partie comprise",
+      "aliases": [
+        "des prairies b) la partie comprise entre le cote amont du pont pie ix 45 35 57 n 73 38 49 o ) et le barrage de la centrale hydroelectrique de riviere des prairies 45 35 19 14 n 73 39 21 52 o ) ainsi que le bras sud jusqu au barrage des moulins",
+        "des prairies la partie comprise",
+        "riviere des prairies b) la partie comprise entre le cote amont du pont pie ix 45 35 57 n 73 38 49 o ) et le barrage de la centrale hydroelectrique de riviere des prairies 45 35 19 14 n 73 39 21 52 o ) ainsi que le bras sud jusqu au barrage des moulins",
+        "riviere des prairies la partie comprise"
+      ],
+      "lat": 45.599167,
+      "lon": -73.646944
+    },
+    {
+      "id": 12945,
+      "zone_id": 8,
+      "nom_brut": "Rivière des Prairies c) La partie comprise entre le barrage de la centrale hydroélectrique de Rivière des Prairies ( 45°35'19,14\" N., 73°39'21,52\" O. ) et le barrage des Moulins et sa confluence avec la rivière des Outaouais (Lac des Deux Montagnes) ( 45°28'24,32\" N., 73°56'25,32\" O. et 45°31'17,26\" N., 73°52'50,79\" O. )",
+      "nom": "Rivière des Prairies c) La partie comprise entre le barrage de la centrale hydroélectrique de Rivière des Prairies",
+      "nom_search": "riviere des prairies c) la partie comprise entre le barrage de la centrale hydroelectrique de riviere des prairies 45 35 19 14 n 73 39 21 52 o ) et le barrage des moulins et sa confluence avec la riviere des outaouais lac des deux montagnes) 45 28 24 32 n 73 56 25 32 o et 45 31 17 26 n 73 52 50 79 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière des Prairies  La partie comprise",
+      "aliases": [
+        "des prairies c) la partie comprise entre le barrage de la centrale hydroelectrique de riviere des prairies 45 35 19 14 n 73 39 21 52 o ) et le barrage des moulins et sa confluence avec la riviere des outaouais lac des deux montagnes) 45 28 24 32 n 73 56 25 32 o et 45 31 17 26 n 73 52 50 79 o )",
+        "des prairies la partie comprise",
+        "riviere des prairies c) la partie comprise entre le barrage de la centrale hydroelectrique de riviere des prairies 45 35 19 14 n 73 39 21 52 o ) et le barrage des moulins et sa confluence avec la riviere des outaouais lac des deux montagnes) 45 28 24 32 n 73 56 25 32 o et 45 31 17 26 n 73 52 50 79 o )",
+        "riviere des prairies la partie comprise"
+      ],
+      "lat": 45.58865,
+      "lon": -73.655978
+    },
+    {
+      "id": 12842,
+      "zone_id": 8,
+      "nom_brut": "Rivière du Nord - La partie comprise entre la ligne de transport d'énergie électrique en amont de Saint-André-d'Argenteuil ( 45°34'16.91\" N., 74°20'31.18\" O. ) et la Rivière des Outaouais (Lac des Deux-Montagnes)( 45°31'6.24\" N., 74°20'31.64\" O. )",
+      "nom": "Rivière du Nord - La partie comprise entre la ligne de transport d'énergie électrique en amont de Saint-André-d'Argenteuil",
+      "nom_search": "riviere du nord la partie comprise entre la ligne de transport d energie electrique en amont de saint andre d argenteuil 45 34 16 91 n 74 20 31 18 o ) et la riviere des outaouais lac des deux montagnes) 45 31 6 24 n 74 20 31 64 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière du Nord",
+      "aliases": [
+        "du nord",
+        "du nord la partie comprise entre la ligne de transport d energie electrique en amont de saint andre d argenteuil 45 34 16 91 n 74 20 31 18 o ) et la riviere des outaouais lac des deux montagnes) 45 31 6 24 n 74 20 31 64 o )",
+        "riviere du nord",
+        "riviere du nord la partie comprise entre la ligne de transport d energie electrique en amont de saint andre d argenteuil 45 34 16 91 n 74 20 31 18 o ) et la riviere des outaouais lac des deux montagnes) 45 31 6 24 n 74 20 31 64 o )"
+      ],
+      "lat": 45.571364,
+      "lon": -74.341994
+    },
+    {
+      "id": 193,
+      "zone_id": 8,
+      "nom_brut": "Rivière l'Acadie - La partie comprise entre le pont de la route 112 ( 45°27'33\" N., 73°18'22\" O. ) et le pont de la route 104 ( 45°22'34\" N., 73°22'11\" O. ).",
+      "nom": "Rivière l'Acadie - La partie comprise entre le pont de la route 112",
+      "nom_search": "riviere l acadie la partie comprise entre le pont de la route 112 45 27 33 n 73 18 22 o ) et le pont de la route 104 45 22 34 n 73 22 11 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière l'Acadie",
+      "aliases": [
+        "l acadie",
+        "l acadie la partie comprise entre le pont de la route 112 45 27 33 n 73 18 22 o ) et le pont de la route 104 45 22 34 n 73 22 11 o )",
+        "riviere l acadie",
+        "riviere l acadie la partie comprise entre le pont de la route 112 45 27 33 n 73 18 22 o ) et le pont de la route 104 45 22 34 n 73 22 11 o )"
+      ],
+      "lat": 45.459167,
+      "lon": -73.306111
+    },
+    {
+      "id": 12843,
+      "zone_id": 8,
+      "nom_brut": "Rivière L'Assomption a) La partie comprise entre sa confluence avec la rivière des Prairies ( 45°42'52.51\" N., 73°28'52.70\" O. ) et la ligne de transport d'énergie électrique ( 45°58'37\" N., 73°22'48\" O. )",
+      "nom": "Rivière L'Assomption a) La partie comprise entre sa confluence avec la rivière des Prairies",
+      "nom_search": "riviere l assomption a) la partie comprise entre sa confluence avec la riviere des prairies 45 42 52 51 n 73 28 52 70 o ) et la ligne de transport d energie electrique 45 58 37 n 73 22 48 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière L'Assomption  La partie comprise",
+      "aliases": [
+        "l assomption a) la partie comprise entre sa confluence avec la riviere des prairies 45 42 52 51 n 73 28 52 70 o ) et la ligne de transport d energie electrique 45 58 37 n 73 22 48 o )",
+        "l assomption la partie comprise",
+        "riviere l assomption a) la partie comprise entre sa confluence avec la riviere des prairies 45 42 52 51 n 73 28 52 70 o ) et la ligne de transport d energie electrique 45 58 37 n 73 22 48 o )",
+        "riviere l assomption la partie comprise"
+      ],
+      "lat": 45.714586,
+      "lon": -73.481306
+    },
+    {
+      "id": 186,
+      "zone_id": 8,
+      "nom_brut": "Rivière L'Assomption b) La partie comprise entre la ligne de transport d'énergie électrique ( 45°58'37\" N., 73°22'48\" O. ) et le premier seuil en aval des Chutes à Morin à Joliette ( 45°59'49\" N., 73°25'06\" O. ).",
+      "nom": "Rivière L'Assomption b) La partie comprise entre la ligne de transport d'énergie électrique",
+      "nom_search": "riviere l assomption b) la partie comprise entre la ligne de transport d energie electrique 45 58 37 n 73 22 48 o ) et le premier seuil en aval des chutes a morin a joliette 45 59 49 n 73 25 06 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière L'Assomption  La partie comprise",
+      "aliases": [
+        "l assomption b) la partie comprise entre la ligne de transport d energie electrique 45 58 37 n 73 22 48 o ) et le premier seuil en aval des chutes a morin a joliette 45 59 49 n 73 25 06 o )",
+        "l assomption la partie comprise",
+        "riviere l assomption b) la partie comprise entre la ligne de transport d energie electrique 45 58 37 n 73 22 48 o ) et le premier seuil en aval des chutes a morin a joliette 45 59 49 n 73 25 06 o )",
+        "riviere l assomption la partie comprise"
+      ],
+      "lat": 45.976944,
+      "lon": -73.38
+    },
+    {
+      "id": 232,
+      "zone_id": 8,
+      "nom_brut": "Rivière Noire a) La partie comprise entre le barrage du Père Tarte ( 45°36'10\" N., 72°43'20\" O. ), à Saint-Ephrem-d'Upton, et le barrage d'Émileville ( 45°29'12\" N., 72°53'39\" O. ).",
+      "nom": "Rivière Noire a) La partie comprise entre le barrage du Père Tarte",
+      "nom_search": "riviere noire a) la partie comprise entre le barrage du pere tarte 45 36 10 n 72 43 20 o ) a saint ephrem d upton et le barrage d emileville 45 29 12 n 72 53 39 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Noire  La partie comprise",
+      "aliases": [
+        "noire a) la partie comprise entre le barrage du pere tarte 45 36 10 n 72 43 20 o ) a saint ephrem d upton et le barrage d emileville 45 29 12 n 72 53 39 o )",
+        "noire la partie comprise",
+        "riviere noire a) la partie comprise entre le barrage du pere tarte 45 36 10 n 72 43 20 o ) a saint ephrem d upton et le barrage d emileville 45 29 12 n 72 53 39 o )",
+        "riviere noire la partie comprise"
+      ],
+      "lat": 45.602778,
+      "lon": -72.722222
+    },
+    {
+      "id": 234,
+      "zone_id": 8,
+      "nom_brut": "Rivière Noire b) La partie comprise entre le barrage d'Émileville ( 45°29'12\" N., 72°53'39\" O. ) et l'extrémité est de l'île ( 45°30'04\" N., 72°54'48\" O. ) en aval de Saint-Pie.",
+      "nom": "Rivière Noire b) La partie comprise entre le barrage d'Émileville",
+      "nom_search": "riviere noire b) la partie comprise entre le barrage d emileville 45 29 12 n 72 53 39 o ) et l extremite est de l ile 45 30 04 n 72 54 48 o ) en aval de saint pie",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Noire  La partie comprise",
+      "aliases": [
+        "noire b) la partie comprise entre le barrage d emileville 45 29 12 n 72 53 39 o ) et l extremite est de l ile 45 30 04 n 72 54 48 o ) en aval de saint pie",
+        "noire la partie comprise",
+        "riviere noire b) la partie comprise entre le barrage d emileville 45 29 12 n 72 53 39 o ) et l extremite est de l ile 45 30 04 n 72 54 48 o ) en aval de saint pie",
+        "riviere noire la partie comprise"
+      ],
+      "lat": 45.486667,
+      "lon": -72.894167
+    },
+    {
+      "id": 236,
+      "zone_id": 8,
+      "nom_brut": "Rivière Noire c) La partie comprise entre l'extrémité est de l'île ( 45°30'04\" N., 72°54'48\" O. ) en aval de Saint-Pie jusqu'à sa confluence avec la rivière Yamaska.",
+      "nom": "Rivière Noire c) La partie comprise entre l'extrémité est de l'île",
+      "nom_search": "riviere noire c) la partie comprise entre l extremite est de l ile 45 30 04 n 72 54 48 o ) en aval de saint pie jusqu a sa confluence avec la riviere yamaska",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Noire  La partie comprise",
+      "aliases": [
+        "noire c) la partie comprise entre l extremite est de l ile 45 30 04 n 72 54 48 o ) en aval de saint pie jusqu a sa confluence avec la riviere yamaska",
+        "noire la partie comprise",
+        "riviere noire c) la partie comprise entre l extremite est de l ile 45 30 04 n 72 54 48 o ) en aval de saint pie jusqu a sa confluence avec la riviere yamaska",
+        "riviere noire la partie comprise"
+      ],
+      "lat": 45.501111,
+      "lon": -72.913333
+    },
+    {
+      "id": 188,
+      "zone_id": 8,
+      "nom_brut": "Rivière Ouareau entre le barrage de Crabtree ( 45°57'56\" N., 73°28'03\" O. ) et sa confluence avec la rivière l'Assomption à Saint-Paul ( 45°56'25\" N., 73°24'26\" O. ).",
+      "nom": "Rivière Ouareau entre le barrage de Crabtree",
+      "nom_search": "riviere ouareau entre le barrage de crabtree 45 57 56 n 73 28 03 o ) et sa confluence avec la riviere l assomption a saint paul 45 56 25 n 73 24 26 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouareau",
+      "aliases": [
+        "ouareau",
+        "ouareau entre le barrage de crabtree 45 57 56 n 73 28 03 o ) et sa confluence avec la riviere l assomption a saint paul 45 56 25 n 73 24 26 o )",
+        "riviere ouareau",
+        "riviere ouareau entre le barrage de crabtree 45 57 56 n 73 28 03 o ) et sa confluence avec la riviere l assomption a saint paul 45 56 25 n 73 24 26 o )"
+      ],
+      "lat": 45.965556,
+      "lon": -73.4675
+    },
+    {
+      "id": 1076,
+      "zone_id": 8,
+      "nom_brut": "Rivière Richelieu a) entre le côté en aval du pont de l'autoroute 30 ( 46°01'47\" N., 73°07'50\" O. ) et une droite reliant le fort de Chambly et la rive opposée, tout en longeant à une distance de 50 m, l'extrémité nord-ouest des îles situées en aval des rapides ( 45°27'20\" N., 73°16'30\" O. ).",
+      "nom": "Rivière Richelieu a) entre le côté en aval du pont de l'autoroute 30",
+      "nom_search": "riviere richelieu a) entre le cote en aval du pont de l autoroute 30 46 01 47 n 73 07 50 o ) et une droite reliant le fort de chambly et la rive opposee tout en longeant a une distance de 50 m l extremite nord ouest des iles situees en aval des rapides 45 27 20 n 73 16 30 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Richelieu",
+      "aliases": [
+        "richelieu",
+        "richelieu a) entre le cote en aval du pont de l autoroute 30 46 01 47 n 73 07 50 o ) et une droite reliant le fort de chambly et la rive opposee tout en longeant a une distance de 50 m l extremite nord ouest des iles situees en aval des rapides 45 27 20 n 73 16 30 o )",
+        "riviere richelieu",
+        "riviere richelieu a) entre le cote en aval du pont de l autoroute 30 46 01 47 n 73 07 50 o ) et une droite reliant le fort de chambly et la rive opposee tout en longeant a une distance de 50 m l extremite nord ouest des iles situees en aval des rapides 45 27 20 n 73 16 30 o )"
+      ],
+      "lat": 46.029722,
+      "lon": -73.130556
+    },
+    {
+      "id": 176,
+      "zone_id": 8,
+      "nom_brut": "Rivière Richelieu b) entre une droite tirée à partir du fort de Chambly et joignant la rive opposée, tout en longeant à une distance de 50 m, l'extrémité nord-ouest des îles en aval des rapides et le côté en amont de la ligne de transport d'énergie qui surplombe le rapide de Chambly (secteurs B et C du refuge Pierre-Étienne-Fortin).",
+      "nom": "Rivière Richelieu b) entre une droite tirée à partir du fort de Chambly et joignant la rive opposée, tout en longeant à une distance de 50 m, l'extrémité nord-ouest des îles en aval des rapides et le côté en amont de la ligne de transport d'énergie qui surplombe le rapide de Chambly",
+      "nom_search": "riviere richelieu b) entre une droite tiree a partir du fort de chambly et joignant la rive opposee tout en longeant a une distance de 50 m l extremite nord ouest des iles en aval des rapides et le cote en amont de la ligne de transport d energie qui surplombe le rapide de chambly secteurs b et c du refuge pierre etienne fortin)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Richelieu",
+      "aliases": [
+        "richelieu",
+        "richelieu b) entre une droite tiree a partir du fort de chambly et joignant la rive opposee tout en longeant a une distance de 50 m l extremite nord ouest des iles en aval des rapides et le cote en amont de la ligne de transport d energie qui surplombe le rapide de chambly secteurs b et c du refuge pierre etienne fortin)",
+        "riviere richelieu",
+        "riviere richelieu b) entre une droite tiree a partir du fort de chambly et joignant la rive opposee tout en longeant a une distance de 50 m l extremite nord ouest des iles en aval des rapides et le cote en amont de la ligne de transport d energie qui surplombe le rapide de chambly secteurs b et c du refuge pierre etienne fortin)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 255,
+      "zone_id": 8,
+      "nom_brut": "Rivière Rigaud entre le pont de l'autoroute 40 ( 45°29'10\" N., 74°17'57\" O. ) et le barrage en amont ( 45°28'28\" N., 74°18'42\" O. ) de la ville de Rigaud.",
+      "nom": "Rivière Rigaud entre le pont de l'autoroute 40",
+      "nom_search": "riviere rigaud entre le pont de l autoroute 40 45 29 10 n 74 17 57 o ) et le barrage en amont 45 28 28 n 74 18 42 o ) de la ville de rigaud",
+      "segment_label": null,
+      "river_base_name": "Rivière Rigaud",
+      "aliases": [
+        "rigaud",
+        "rigaud entre le pont de l autoroute 40 45 29 10 n 74 17 57 o ) et le barrage en amont 45 28 28 n 74 18 42 o ) de la ville de rigaud",
+        "riviere rigaud",
+        "riviere rigaud entre le pont de l autoroute 40 45 29 10 n 74 17 57 o ) et le barrage en amont 45 28 28 n 74 18 42 o ) de la ville de rigaud"
+      ],
+      "lat": 45.486111,
+      "lon": -74.299167
+    },
+    {
+      "id": 273,
+      "zone_id": 8,
+      "nom_brut": "Rivière Saint-Jean entre son embouchure dans le fleuve Saint-Laurent ( 45°52'23\" N., 73°16'56\" O. ) et le chemin Joliette à Lanoraie ( 45°58'21\" N., 73°15'09\" O. ), incluant la rivière Saint-Antoine, ainsi que les autres tributaires de la rivière Saint-Jean.",
+      "nom": "Rivière Saint-Jean entre son embouchure dans le fleuve Saint-Laurent",
+      "nom_search": "riviere saint jean entre son embouchure dans le fleuve saint laurent 45 52 23 n 73 16 56 o ) et le chemin joliette a lanoraie 45 58 21 n 73 15 09 o ) incluant la riviere saint antoine ainsi que les autres tributaires de la riviere saint jean",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean entre son embouchure dans le fleuve saint laurent 45 52 23 n 73 16 56 o ) et le chemin joliette a lanoraie 45 58 21 n 73 15 09 o ) incluant la riviere saint antoine ainsi que les autres tributaires de la riviere saint jean",
+        "saint jean",
+        "saint jean entre son embouchure dans le fleuve saint laurent 45 52 23 n 73 16 56 o ) et le chemin joliette a lanoraie 45 58 21 n 73 15 09 o ) incluant la riviere saint antoine ainsi que les autres tributaires de la riviere saint jean"
+      ],
+      "lat": 45.873056,
+      "lon": -73.282222
+    },
+    {
+      "id": 12542,
+      "zone_id": 8,
+      "nom_brut": "Rivière Yamaska a) La partie comprise entre le pont de la route 132 à Yamaska et un point situé à 1 km en aval du pont de Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. )",
+      "nom": "Rivière Yamaska a) La partie comprise entre le pont de la route 132 à Yamaska et un point situé à 1 km en aval du pont de Saint-Hugues",
+      "nom_search": "riviere yamaska a) la partie comprise entre le pont de la route 132 a yamaska et un point situe a 1 km en aval du pont de saint hugues 45 47 04 n 72 52 31 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Yamaska  La partie comprise",
+      "aliases": [
+        "riviere yamaska a) la partie comprise entre le pont de la route 132 a yamaska et un point situe a 1 km en aval du pont de saint hugues 45 47 04 n 72 52 31 o )",
+        "riviere yamaska la partie comprise",
+        "yamaska a) la partie comprise entre le pont de la route 132 a yamaska et un point situe a 1 km en aval du pont de saint hugues 45 47 04 n 72 52 31 o )",
+        "yamaska la partie comprise"
+      ],
+      "lat": 45.784444,
+      "lon": -72.875278
+    },
+    {
+      "id": 3204,
+      "zone_id": 8,
+      "nom_brut": "Rivière Yamaska b) La partie comprise entre un point situé à 1 km en aval du pont à Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. ) et un point situé à 1 km en amont de ce pont.",
+      "nom": "Rivière Yamaska b) La partie comprise entre un point situé à 1 km en aval du pont à Saint-Hugues",
+      "nom_search": "riviere yamaska b) la partie comprise entre un point situe a 1 km en aval du pont a saint hugues 45 47 04 n 72 52 31 o ) et un point situe a 1 km en amont de ce pont",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Yamaska  La partie comprise",
+      "aliases": [
+        "riviere yamaska b) la partie comprise entre un point situe a 1 km en aval du pont a saint hugues 45 47 04 n 72 52 31 o ) et un point situe a 1 km en amont de ce pont",
+        "riviere yamaska la partie comprise",
+        "yamaska b) la partie comprise entre un point situe a 1 km en aval du pont a saint hugues 45 47 04 n 72 52 31 o ) et un point situe a 1 km en amont de ce pont",
+        "yamaska la partie comprise"
+      ],
+      "lat": 45.784444,
+      "lon": -72.875278
+    },
+    {
+      "id": 12980,
+      "zone_id": 8,
+      "nom_brut": "Rivière Yamaska c) La partie comprise entre un point situé à 1 km en amont du pont de Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. ) et le pont de la route 116 ( 45°37'42.85\" N., 72°56'23.47\" O. ) à Saint-Hyacinthe",
+      "nom": "Rivière Yamaska c) La partie comprise entre un point situé à 1 km en amont du pont de Saint-Hugues",
+      "nom_search": "riviere yamaska c) la partie comprise entre un point situe a 1 km en amont du pont de saint hugues 45 47 04 n 72 52 31 o ) et le pont de la route 116 45 37 42 85 n 72 56 23 47 o ) a saint hyacinthe",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Yamaska  La partie comprise",
+      "aliases": [
+        "riviere yamaska c) la partie comprise entre un point situe a 1 km en amont du pont de saint hugues 45 47 04 n 72 52 31 o ) et le pont de la route 116 45 37 42 85 n 72 56 23 47 o ) a saint hyacinthe",
+        "riviere yamaska la partie comprise",
+        "yamaska c) la partie comprise entre un point situe a 1 km en amont du pont de saint hugues 45 47 04 n 72 52 31 o ) et le pont de la route 116 45 37 42 85 n 72 56 23 47 o ) a saint hyacinthe",
+        "yamaska la partie comprise"
+      ],
+      "lat": 45.784444,
+      "lon": -72.875278
+    },
+    {
+      "id": 12981,
+      "zone_id": 8,
+      "nom_brut": "Rivière Yamaska d) La partie comprise entre le pont de la route 116 ( 45°37'42.85\" N., 72°56'23.47\" O. ) à Saint-Hyacinthe et le barrage de la centrale hydroélectrique T.-D. Bouchard, à Saint-Hyacinthe ( 45°37'17'' N., 72°57'02'' O. )",
+      "nom": "Rivière Yamaska d) La partie comprise entre le pont de la route 116",
+      "nom_search": "riviere yamaska d) la partie comprise entre le pont de la route 116 45 37 42 85 n 72 56 23 47 o ) a saint hyacinthe et le barrage de la centrale hydroelectrique t d bouchard a saint hyacinthe 45 37 17 n 72 57 02 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Yamaska  La partie comprise",
+      "aliases": [
+        "riviere yamaska d) la partie comprise entre le pont de la route 116 45 37 42 85 n 72 56 23 47 o ) a saint hyacinthe et le barrage de la centrale hydroelectrique t d bouchard a saint hyacinthe 45 37 17 n 72 57 02 o )",
+        "riviere yamaska la partie comprise",
+        "yamaska d) la partie comprise entre le pont de la route 116 45 37 42 85 n 72 56 23 47 o ) a saint hyacinthe et le barrage de la centrale hydroelectrique t d bouchard a saint hyacinthe 45 37 17 n 72 57 02 o )",
+        "yamaska la partie comprise"
+      ],
+      "lat": 45.628569,
+      "lon": -72.939853
+    },
+    {
+      "id": 283,
+      "zone_id": 8,
+      "nom_brut": "Rivière Yamaska e) La partie comprise entre le barrage de la centrale hydroélectrique T.-D. Bouchard, à Saint-Hyacinthe ( 45°37'17'' N., 72°57'02'' O. ) et le pont de l'autoroute 10 ( 45°22'35\" N., 72°59'39\" O. )",
+      "nom": "Rivière Yamaska e) La partie comprise entre le barrage de la centrale hydroélectrique T.-D. Bouchard, à Saint-Hyacinthe",
+      "nom_search": "riviere yamaska e) la partie comprise entre le barrage de la centrale hydroelectrique t d bouchard a saint hyacinthe 45 37 17 n 72 57 02 o ) et le pont de l autoroute 10 45 22 35 n 72 59 39 o )",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Yamaska  La partie comprise",
+      "aliases": [
+        "riviere yamaska e) la partie comprise entre le barrage de la centrale hydroelectrique t d bouchard a saint hyacinthe 45 37 17 n 72 57 02 o ) et le pont de l autoroute 10 45 22 35 n 72 59 39 o )",
+        "riviere yamaska la partie comprise",
+        "yamaska e) la partie comprise entre le barrage de la centrale hydroelectrique t d bouchard a saint hyacinthe 45 37 17 n 72 57 02 o ) et le pont de l autoroute 10 45 22 35 n 72 59 39 o )",
+        "yamaska la partie comprise"
+      ],
+      "lat": 45.621389,
+      "lon": -72.950556
+    },
+    {
+      "id": 12546,
+      "zone_id": 8,
+      "nom_brut": "Rivière Yamaska f) La partie comprise entre le pont de l'autoroute 10 ( 45°22'35\" N., 72°59'39\" O. ) et le pont Antonio-Bernier ( 45°17'00'' N., 72°58'27'' O. ) à Farnham.",
+      "nom": "Rivière Yamaska f) La partie comprise entre le pont de l'autoroute 10",
+      "nom_search": "riviere yamaska f) la partie comprise entre le pont de l autoroute 10 45 22 35 n 72 59 39 o ) et le pont antonio bernier 45 17 00 n 72 58 27 o ) a farnham",
+      "segment_label": null,
+      "river_base_name": "Rivière Yamaska f) La partie comprise",
+      "aliases": [
+        "riviere yamaska f) la partie comprise",
+        "riviere yamaska f) la partie comprise entre le pont de l autoroute 10 45 22 35 n 72 59 39 o ) et le pont antonio bernier 45 17 00 n 72 58 27 o ) a farnham",
+        "yamaska f) la partie comprise",
+        "yamaska f) la partie comprise entre le pont de l autoroute 10 45 22 35 n 72 59 39 o ) et le pont antonio bernier 45 17 00 n 72 58 27 o ) a farnham"
+      ],
+      "lat": 45.376389,
+      "lon": -72.994167
+    }
+  ]
+}

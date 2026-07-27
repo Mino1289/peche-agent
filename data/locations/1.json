@@ -1,0 +1,2176 @@
+{
+  "meta": {
+    "zone_id": 1,
+    "zone_nom": "Zone 1",
+    "nb_plans": 129,
+    "nb_geocoded": 99,
+    "pct_geocoded": 76.7,
+    "source_file": "zones/1.json"
+  },
+  "locations": [
+    {
+      "id": 45,
+      "zone_id": 1,
+      "nom_brut": "Lac au Saumon ( 48°25'13\" N., 67°19'34\" O. )",
+      "nom": "Lac au Saumon",
+      "nom_search": "lac au saumon 48 25 13 n 67 19 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac au Saumon",
+      "aliases": [
+        "au saumon",
+        "au saumon 48 25 13 n 67 19 34 o )",
+        "lac au saumon",
+        "lac au saumon 48 25 13 n 67 19 34 o )"
+      ],
+      "lat": 48.420278,
+      "lon": -67.326111
+    },
+    {
+      "id": 10460,
+      "zone_id": 1,
+      "nom_brut": "Lac D'Amours ( 49°02'32\" N., 64°31'14\" O. )",
+      "nom": "Lac D'Amours",
+      "nom_search": "lac d amours 49 02 32 n 64 31 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac D'Amours",
+      "aliases": [
+        "d amours",
+        "d amours 49 02 32 n 64 31 14 o )",
+        "lac d amours",
+        "lac d amours 49 02 32 n 64 31 14 o )"
+      ],
+      "lat": 49.042222,
+      "lon": -64.520556
+    },
+    {
+      "id": 44,
+      "zone_id": 1,
+      "nom_brut": "Lac de Saint-Damase ( 48°39'13\" N., 67°48'33\" O. )",
+      "nom": "Lac de Saint-Damase",
+      "nom_search": "lac de saint damase 48 39 13 n 67 48 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de Saint-Damase",
+      "aliases": [
+        "de saint damase",
+        "de saint damase 48 39 13 n 67 48 33 o )",
+        "lac de saint damase",
+        "lac de saint damase 48 39 13 n 67 48 33 o )"
+      ],
+      "lat": 48.653611,
+      "lon": -67.809167
+    },
+    {
+      "id": 42,
+      "zone_id": 1,
+      "nom_brut": "Lac du Moulin ( 49°03'14\" N., 64°29'39\" O. )",
+      "nom": "Lac du Moulin",
+      "nom_search": "lac du moulin 49 03 14 n 64 29 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Moulin",
+      "aliases": [
+        "du moulin",
+        "du moulin 49 03 14 n 64 29 39 o )",
+        "lac du moulin",
+        "lac du moulin 49 03 14 n 64 29 39 o )"
+      ],
+      "lat": 49.053889,
+      "lon": -64.494167
+    },
+    {
+      "id": 43,
+      "zone_id": 1,
+      "nom_brut": "Lac du Portage ( 48°39'05\" N., 67°35'27\" O. )",
+      "nom": "Lac du Portage",
+      "nom_search": "lac du portage 48 39 05 n 67 35 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Portage",
+      "aliases": [
+        "du portage",
+        "du portage 48 39 05 n 67 35 27 o )",
+        "lac du portage",
+        "lac du portage 48 39 05 n 67 35 27 o )"
+      ],
+      "lat": 48.651389,
+      "lon": -67.590833
+    },
+    {
+      "id": 41,
+      "zone_id": 1,
+      "nom_brut": "Lac J'arrive ( 49°14'56\" N., 65°22'34\" O. )",
+      "nom": "Lac J'arrive",
+      "nom_search": "lac j arrive 49 14 56 n 65 22 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac J'arrive",
+      "aliases": [
+        "j arrive",
+        "j arrive 49 14 56 n 65 22 34 o )",
+        "lac j arrive",
+        "lac j arrive 49 14 56 n 65 22 34 o )"
+      ],
+      "lat": 49.248889,
+      "lon": -65.376111
+    },
+    {
+      "id": 46,
+      "zone_id": 1,
+      "nom_brut": "Lac York ( 48°58'03\" N., 65°25'34\" O. )",
+      "nom": "Lac York",
+      "nom_search": "lac york 48 58 03 n 65 25 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac York",
+      "aliases": [
+        "lac york",
+        "lac york 48 58 03 n 65 25 34 o )",
+        "york",
+        "york 48 58 03 n 65 25 34 o )"
+      ],
+      "lat": 48.9675,
+      "lon": -65.426111
+    },
+    {
+      "id": 2489,
+      "zone_id": 1,
+      "nom_brut": "Parc National de la Gaspésie",
+      "nom": "Parc National de la Gaspésie",
+      "nom_search": "parc national de la gaspesie",
+      "segment_label": null,
+      "river_base_name": "Parc National de la Gaspésie",
+      "aliases": [
+        "parc national de la gaspesie"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2327,
+      "zone_id": 1,
+      "nom_brut": "Réserve Faunique de Dunière",
+      "nom": "Réserve Faunique de Dunière",
+      "nom_search": "reserve faunique de duniere",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Dunière",
+      "aliases": [
+        "reserve faunique de duniere"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2334,
+      "zone_id": 1,
+      "nom_brut": "Réserve Faunique de Matane",
+      "nom": "Réserve Faunique de Matane",
+      "nom_search": "reserve faunique de matane",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Matane",
+      "aliases": [
+        "reserve faunique de matane"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2338,
+      "zone_id": 1,
+      "nom_brut": "Réserve Faunique de Port-Daniel",
+      "nom": "Réserve Faunique de Port-Daniel",
+      "nom_search": "reserve faunique de port daniel",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Port-Daniel",
+      "aliases": [
+        "reserve faunique de port daniel"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2325,
+      "zone_id": 1,
+      "nom_brut": "Réserve Faunique des Chic-Chocs",
+      "nom": "Réserve Faunique des Chic-Chocs",
+      "nom_search": "reserve faunique des chic chocs",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique des Chic-Chocs",
+      "aliases": [
+        "reserve faunique des chic chocs"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1507,
+      "zone_id": 1,
+      "nom_brut": "Rivière à Gagnon ( 48°27'59\" N., 64°31'00\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Rivière à Gagnon",
+      "nom_search": "riviere a gagnon 48 27 59 n 64 31 00 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Rivière à Gagnon",
+      "aliases": [
+        "a gagnon",
+        "a gagnon 48 27 59 n 64 31 00 o ) n a pas le statut de riviere a saumon)",
+        "riviere a gagnon",
+        "riviere a gagnon 48 27 59 n 64 31 00 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.466389,
+      "lon": -64.516667
+    },
+    {
+      "id": 3281,
+      "zone_id": 1,
+      "nom_brut": "Rivière Angers - La partie comprise entre sa confluence avec la rivière Cascapédia ( 48°18'35,63\" N., 65°57'46,24\" O. ) et sa source ( 48°14'46,84\" N., 66°12'56,47\" O. ).",
+      "nom": "Rivière Angers - La partie comprise entre sa confluence avec la rivière Cascapédia",
+      "nom_search": "riviere angers la partie comprise entre sa confluence avec la riviere cascapedia 48 18 35 63 n 65 57 46 24 o ) et sa source 48 14 46 84 n 66 12 56 47 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Angers",
+      "aliases": [
+        "angers",
+        "angers la partie comprise entre sa confluence avec la riviere cascapedia 48 18 35 63 n 65 57 46 24 o ) et sa source 48 14 46 84 n 66 12 56 47 o )",
+        "riviere angers",
+        "riviere angers la partie comprise entre sa confluence avec la riviere cascapedia 48 18 35 63 n 65 57 46 24 o ) et sa source 48 14 46 84 n 66 12 56 47 o )"
+      ],
+      "lat": 48.309897,
+      "lon": -65.962844
+    },
+    {
+      "id": 208,
+      "zone_id": 1,
+      "nom_brut": "Rivière Assemetquagan a) entre sa confluence avec la rivière Matapédia ( 48°04'54\" N., 67°05'50\" O. ) et le côté en aval du pont de la route 132 ( 48°04'44\" N., 67°05'49\"O. ).",
+      "nom": "Rivière Assemetquagan a) entre sa confluence avec la rivière Matapédia",
+      "nom_search": "riviere assemetquagan a) entre sa confluence avec la riviere matapedia 48 04 54 n 67 05 50 o ) et le cote en aval du pont de la route 132 48 04 44 n 67 05 49 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Assemetquagan",
+      "aliases": [
+        "assemetquagan",
+        "assemetquagan a) entre sa confluence avec la riviere matapedia 48 04 54 n 67 05 50 o ) et le cote en aval du pont de la route 132 48 04 44 n 67 05 49 o )",
+        "riviere assemetquagan",
+        "riviere assemetquagan a) entre sa confluence avec la riviere matapedia 48 04 54 n 67 05 50 o ) et le cote en aval du pont de la route 132 48 04 44 n 67 05 49 o )"
+      ],
+      "lat": 48.081667,
+      "lon": -67.097222
+    },
+    {
+      "id": 209,
+      "zone_id": 1,
+      "nom_brut": "Rivière Assemetquagan b) entre le côté en aval du pont de la route 132 ( 48°04'44\" N., 67°05'49\"O. ) et sa confluence avec le ruisseau Creux ( 48°11'28\" N., 67°01'07\"O. ).",
+      "nom": "Rivière Assemetquagan b) entre le côté en aval du pont de la route 132",
+      "nom_search": "riviere assemetquagan b) entre le cote en aval du pont de la route 132 48 04 44 n 67 05 49 o ) et sa confluence avec le ruisseau creux 48 11 28 n 67 01 07 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Assemetquagan",
+      "aliases": [
+        "assemetquagan",
+        "assemetquagan b) entre le cote en aval du pont de la route 132 48 04 44 n 67 05 49 o ) et sa confluence avec le ruisseau creux 48 11 28 n 67 01 07 o )",
+        "riviere assemetquagan",
+        "riviere assemetquagan b) entre le cote en aval du pont de la route 132 48 04 44 n 67 05 49 o ) et sa confluence avec le ruisseau creux 48 11 28 n 67 01 07 o )"
+      ],
+      "lat": 48.078889,
+      "lon": -67.096944
+    },
+    {
+      "id": 210,
+      "zone_id": 1,
+      "nom_brut": "Rivière Assemetquagan c) entre sa confluence avec le ruisseau Creux ( 48°11'28\" N., 67°01'07\" O. ) et sa source ( 48°19'47\" N., 66°49'25\" O. ).",
+      "nom": "Rivière Assemetquagan c) entre sa confluence avec le ruisseau Creux",
+      "nom_search": "riviere assemetquagan c) entre sa confluence avec le ruisseau creux 48 11 28 n 67 01 07 o ) et sa source 48 19 47 n 66 49 25 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Assemetquagan",
+      "aliases": [
+        "assemetquagan",
+        "assemetquagan c) entre sa confluence avec le ruisseau creux 48 11 28 n 67 01 07 o ) et sa source 48 19 47 n 66 49 25 o )",
+        "riviere assemetquagan",
+        "riviere assemetquagan c) entre sa confluence avec le ruisseau creux 48 11 28 n 67 01 07 o ) et sa source 48 19 47 n 66 49 25 o )"
+      ],
+      "lat": 48.191111,
+      "lon": -67.018611
+    },
+    {
+      "id": 50,
+      "zone_id": 1,
+      "nom_brut": "Rivière Beattie entre le côté en aval du pont de la rue de la plage (pont de la Crevette Rose ( 48°34'56\" N., 64°17'32\" O. )., municipalité de Percé) et le côté en aval du pont de la route 132.",
+      "nom": "Rivière Beattie entre le côté en aval du pont de la rue de la plage",
+      "nom_search": "riviere beattie entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+      "segment_label": null,
+      "river_base_name": "Rivière Beattie",
+      "aliases": [
+        "beattie",
+        "beattie entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+        "riviere beattie",
+        "riviere beattie entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132"
+      ],
+      "lat": 48.582222,
+      "lon": -64.292222
+    },
+    {
+      "id": 55,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure Ouest",
+      "nom": "Rivière Bonaventure Ouest",
+      "nom_search": "riviere bonaventure ouest",
+      "segment_label": null,
+      "river_base_name": "Rivière Bonaventure Ouest",
+      "aliases": [
+        "bonaventure ouest",
+        "riviere bonaventure ouest"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 56,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure a) entre le côté en aval du pont de la route 132 et le côté en aval des anciens ponts de la route 132 ( 48°02'49\" N., 65°28'14\" O. ).",
+      "nom": "Rivière Bonaventure a) entre le côté en aval du pont de la route 132 et le côté en aval des anciens ponts de la route 132",
+      "nom_search": "riviere bonaventure a) entre le cote en aval du pont de la route 132 et le cote en aval des anciens ponts de la route 132 48 02 49 n 65 28 14 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Bonaventure",
+      "aliases": [
+        "bonaventure",
+        "bonaventure a) entre le cote en aval du pont de la route 132 et le cote en aval des anciens ponts de la route 132 48 02 49 n 65 28 14 o )",
+        "riviere bonaventure",
+        "riviere bonaventure a) entre le cote en aval du pont de la route 132 et le cote en aval des anciens ponts de la route 132 48 02 49 n 65 28 14 o )"
+      ],
+      "lat": 48.046944,
+      "lon": -65.470556
+    },
+    {
+      "id": 11700,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure b) entre le côté en aval des anciens ponts de la route 132 ( 48°02'49\" N., 65°28'14\" O. ) et la fosse du Malin ( 48°06'11\" N., 65°27'37\" O. )",
+      "nom": "Rivière Bonaventure b) entre le côté en aval des anciens ponts de la route 132",
+      "nom_search": "riviere bonaventure b) entre le cote en aval des anciens ponts de la route 132 48 02 49 n 65 28 14 o ) et la fosse du malin 48 06 11 n 65 27 37 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Bonaventure",
+      "aliases": [
+        "bonaventure",
+        "bonaventure b) entre le cote en aval des anciens ponts de la route 132 48 02 49 n 65 28 14 o ) et la fosse du malin 48 06 11 n 65 27 37 o )",
+        "riviere bonaventure",
+        "riviere bonaventure b) entre le cote en aval des anciens ponts de la route 132 48 02 49 n 65 28 14 o ) et la fosse du malin 48 06 11 n 65 27 37 o )"
+      ],
+      "lat": 48.046944,
+      "lon": -65.470556
+    },
+    {
+      "id": 57,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure c) entre la fosse du Malin ( 48°06'11\" N., 65°27'37\" O. ) et un point situé à 100 m en amont de la fosse à saumon Double Crossing ( 48°26'41,88\" N., 65°28'6,08\" O. ).",
+      "nom": "Rivière Bonaventure c) entre la fosse du Malin",
+      "nom_search": "riviere bonaventure c) entre la fosse du malin 48 06 11 n 65 27 37 o ) et un point situe a 100 m en amont de la fosse a saumon double crossing 48 26 41 88 n 65 28 6 08 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Bonaventure",
+      "aliases": [
+        "bonaventure",
+        "bonaventure c) entre la fosse du malin 48 06 11 n 65 27 37 o ) et un point situe a 100 m en amont de la fosse a saumon double crossing 48 26 41 88 n 65 28 6 08 o )",
+        "riviere bonaventure",
+        "riviere bonaventure c) entre la fosse du malin 48 06 11 n 65 27 37 o ) et un point situe a 100 m en amont de la fosse a saumon double crossing 48 26 41 88 n 65 28 6 08 o )"
+      ],
+      "lat": 48.103056,
+      "lon": -65.460278
+    },
+    {
+      "id": 58,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure d) entre un point situé à 100 m en amont de la fosse à saumon Double Crossing ( 48°26'41,88\" N., 65°28'6,08\" O. ) et un autre point situé à 100 m en aval du Petit lac Bonaventure ( 48°47'23,68\" N., 65°34'18,28\" O. ).",
+      "nom": "Rivière Bonaventure d) entre un point situé à 100 m en amont de la fosse à saumon Double Crossing",
+      "nom_search": "riviere bonaventure d) entre un point situe a 100 m en amont de la fosse a saumon double crossing 48 26 41 88 n 65 28 6 08 o ) et un autre point situe a 100 m en aval du petit lac bonaventure 48 47 23 68 n 65 34 18 28 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Bonaventure",
+      "aliases": [
+        "bonaventure",
+        "bonaventure d) entre un point situe a 100 m en amont de la fosse a saumon double crossing 48 26 41 88 n 65 28 6 08 o ) et un autre point situe a 100 m en aval du petit lac bonaventure 48 47 23 68 n 65 34 18 28 o )",
+        "riviere bonaventure",
+        "riviere bonaventure d) entre un point situe a 100 m en amont de la fosse a saumon double crossing 48 26 41 88 n 65 28 6 08 o ) et un autre point situe a 100 m en aval du petit lac bonaventure 48 47 23 68 n 65 34 18 28 o )"
+      ],
+      "lat": 48.444967,
+      "lon": -65.468356
+    },
+    {
+      "id": 63,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure e) entre un point situé à 100 en aval du Petit lac Bonaventure ( 48°47'23,68\" N., 65°34'18,28\" O. ) et la limite sud de la réserve faunique des Chic-Chocs ( 48°49'29\" N., 65°35'42\" O. ).",
+      "nom": "Rivière Bonaventure e) entre un point situé à 100 en aval du Petit lac Bonaventure",
+      "nom_search": "riviere bonaventure e) entre un point situe a 100 en aval du petit lac bonaventure 48 47 23 68 n 65 34 18 28 o ) et la limite sud de la reserve faunique des chic chocs 48 49 29 n 65 35 42 o )",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Bonaventure",
+      "aliases": [
+        "bonaventure",
+        "bonaventure e) entre un point situe a 100 en aval du petit lac bonaventure 48 47 23 68 n 65 34 18 28 o ) et la limite sud de la reserve faunique des chic chocs 48 49 29 n 65 35 42 o )",
+        "riviere bonaventure",
+        "riviere bonaventure e) entre un point situe a 100 en aval du petit lac bonaventure 48 47 23 68 n 65 34 18 28 o ) et la limite sud de la reserve faunique des chic chocs 48 49 29 n 65 35 42 o )"
+      ],
+      "lat": 48.789911,
+      "lon": -65.571744
+    },
+    {
+      "id": 64,
+      "zone_id": 1,
+      "nom_brut": "Rivière Bonaventure f) entre la limite sud de la réserve faunique des Chic-Chocs ( 48°49'29\" N., 65°35'42\" O. ) et la source de la rivière Bonaventure.",
+      "nom": "Rivière Bonaventure f) entre la limite sud de la réserve faunique des Chic-Chocs",
+      "nom_search": "riviere bonaventure f) entre la limite sud de la reserve faunique des chic chocs 48 49 29 n 65 35 42 o ) et la source de la riviere bonaventure",
+      "segment_label": null,
+      "river_base_name": "Rivière Bonaventure f)",
+      "aliases": [
+        "bonaventure f)",
+        "bonaventure f) entre la limite sud de la reserve faunique des chic chocs 48 49 29 n 65 35 42 o ) et la source de la riviere bonaventure",
+        "riviere bonaventure f)",
+        "riviere bonaventure f) entre la limite sud de la reserve faunique des chic chocs 48 49 29 n 65 35 42 o ) et la source de la riviere bonaventure"
+      ],
+      "lat": 48.824722,
+      "lon": -65.595
+    },
+    {
+      "id": 1500,
+      "zone_id": 1,
+      "nom_brut": "Rivière Branche de l'Est ( 48°35'30\" N., 64°42'03\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Rivière Branche de l'Est",
+      "nom_search": "riviere branche de l est 48 35 30 n 64 42 03 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Rivière Branche de l'Est",
+      "aliases": [
+        "branche de l est",
+        "branche de l est 48 35 30 n 64 42 03 o ) n a pas le statut de riviere a saumon)",
+        "riviere branche de l est",
+        "riviere branche de l est 48 35 30 n 64 42 03 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.591667,
+      "lon": -64.700833
+    },
+    {
+      "id": 1199,
+      "zone_id": 1,
+      "nom_brut": "Rivière Branche du Lac entre son embouchure ( 48°40'22\" N., 66°11'57\" O. ) et le lac Huard ( 48°38'20\" N., 66°24'00\" O. ).",
+      "nom": "Rivière Branche du Lac entre son embouchure",
+      "nom_search": "riviere branche du lac entre son embouchure 48 40 22 n 66 11 57 o ) et le lac huard 48 38 20 n 66 24 00 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Branche du Lac",
+      "aliases": [
+        "branche du lac",
+        "branche du lac entre son embouchure 48 40 22 n 66 11 57 o ) et le lac huard 48 38 20 n 66 24 00 o )",
+        "riviere branche du lac",
+        "riviere branche du lac entre son embouchure 48 40 22 n 66 11 57 o ) et le lac huard 48 38 20 n 66 24 00 o )"
+      ],
+      "lat": 48.672778,
+      "lon": -66.199167
+    },
+    {
+      "id": 68,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cap-Chat a) entre le côté en aval du pont de la route 132 et le côté en aval des assises de l'ancien pont de la route 132 (correspondant à une droite reliant les points 49°05'49,56\" N., 66°40'46,68\" O. et 49°05'51,17\" N., 66°40'42,89\" O. )(ainsi que ses tributaires fréquentés par le saumon) (Voir également la zone 21)",
+      "nom": "Rivière Cap-Chat a) entre le côté en aval du pont de la route 132 et le côté en aval des assises de l'ancien pont de la route 132",
+      "nom_search": "riviere cap chat a) entre le cote en aval du pont de la route 132 et le cote en aval des assises de l ancien pont de la route 132 correspondant a une droite reliant les points 49 05 49 56 n 66 40 46 68 o et 49 05 51 17 n 66 40 42 89 o ) ainsi que ses tributaires frequentes par le saumon) voir egalement la zone 21)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Cap-Chat",
+      "aliases": [
+        "cap chat",
+        "cap chat a) entre le cote en aval du pont de la route 132 et le cote en aval des assises de l ancien pont de la route 132 correspondant a une droite reliant les points 49 05 49 56 n 66 40 46 68 o et 49 05 51 17 n 66 40 42 89 o ) ainsi que ses tributaires frequentes par le saumon) voir egalement la zone 21)",
+        "riviere cap chat",
+        "riviere cap chat a) entre le cote en aval du pont de la route 132 et le cote en aval des assises de l ancien pont de la route 132 correspondant a une droite reliant les points 49 05 49 56 n 66 40 46 68 o et 49 05 51 17 n 66 40 42 89 o ) ainsi que ses tributaires frequentes par le saumon) voir egalement la zone 21)"
+      ],
+      "lat": 49.0971,
+      "lon": -66.679633
+    },
+    {
+      "id": 69,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cap-Chat b) entre le côté en aval des assises de l'ancien pont de la route 132 (correspondant à une droite reliant les points 49°05'49,56\" N., 66°40'46,68\" O. et 49°05'51,17\" N., 66°40'42,89\" O. ) et un point situé à 30 m en amont de la fosse à saumon Pineault ( 48°51'53,18\" N., 66°47'2,47\" O. )(ainsi que ses tributaires fréquentés par le saumon)",
+      "nom": "Rivière Cap-Chat b) entre le côté en aval des assises de l'ancien pont de la route 132",
+      "nom_search": "riviere cap chat b) entre le cote en aval des assises de l ancien pont de la route 132 correspondant a une droite reliant les points 49 05 49 56 n 66 40 46 68 o et 49 05 51 17 n 66 40 42 89 o ) et un point situe a 30 m en amont de la fosse a saumon pineault 48 51 53 18 n 66 47 2 47 o ) ainsi que ses tributaires frequentes par le saumon)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Cap-Chat",
+      "aliases": [
+        "cap chat",
+        "cap chat b) entre le cote en aval des assises de l ancien pont de la route 132 correspondant a une droite reliant les points 49 05 49 56 n 66 40 46 68 o et 49 05 51 17 n 66 40 42 89 o ) et un point situe a 30 m en amont de la fosse a saumon pineault 48 51 53 18 n 66 47 2 47 o ) ainsi que ses tributaires frequentes par le saumon)",
+        "riviere cap chat",
+        "riviere cap chat b) entre le cote en aval des assises de l ancien pont de la route 132 correspondant a une droite reliant les points 49 05 49 56 n 66 40 46 68 o et 49 05 51 17 n 66 40 42 89 o ) et un point situe a 30 m en amont de la fosse a saumon pineault 48 51 53 18 n 66 47 2 47 o ) ainsi que ses tributaires frequentes par le saumon)"
+      ],
+      "lat": 49.0971,
+      "lon": -66.679633
+    },
+    {
+      "id": 70,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cap-Chat c) entre un point situé à 30 m en amont de la fosse à saumon Pineault ( 48°51'53,18\" N., 66°47'2,47\" O. ) et l'embouchure du ruisseau Bascon ( 48°49'47\" N., 66°45'07\" O. ) (ainsi que ses tributaires fréquentés par le saumon)",
+      "nom": "Rivière Cap-Chat c) entre un point situé à 30 m en amont de la fosse à saumon Pineault",
+      "nom_search": "riviere cap chat c) entre un point situe a 30 m en amont de la fosse a saumon pineault 48 51 53 18 n 66 47 2 47 o ) et l embouchure du ruisseau bascon 48 49 47 n 66 45 07 o ) ainsi que ses tributaires frequentes par le saumon)",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Cap-Chat",
+      "aliases": [
+        "cap chat",
+        "cap chat c) entre un point situe a 30 m en amont de la fosse a saumon pineault 48 51 53 18 n 66 47 2 47 o ) et l embouchure du ruisseau bascon 48 49 47 n 66 45 07 o ) ainsi que ses tributaires frequentes par le saumon)",
+        "riviere cap chat",
+        "riviere cap chat c) entre un point situe a 30 m en amont de la fosse a saumon pineault 48 51 53 18 n 66 47 2 47 o ) et l embouchure du ruisseau bascon 48 49 47 n 66 45 07 o ) ainsi que ses tributaires frequentes par le saumon)"
+      ],
+      "lat": 48.864772,
+      "lon": -66.784019
+    },
+    {
+      "id": 71,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cap-Chat d) entre l'embouchure du ruisseau Bascon ( 48°49'47\" N., 66°45'07\" O. ) et la chute près du ruisseau Beaulieu ( 48°48'57,49\" N., 66°45'5,78\" O. ) (ainsi que ses tributaires fréquentés par le saumon).",
+      "nom": "Rivière Cap-Chat d) entre l'embouchure du ruisseau Bascon",
+      "nom_search": "riviere cap chat d) entre l embouchure du ruisseau bascon 48 49 47 n 66 45 07 o ) et la chute pres du ruisseau beaulieu 48 48 57 49 n 66 45 5 78 o ) ainsi que ses tributaires frequentes par le saumon)",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Cap-Chat",
+      "aliases": [
+        "cap chat",
+        "cap chat d) entre l embouchure du ruisseau bascon 48 49 47 n 66 45 07 o ) et la chute pres du ruisseau beaulieu 48 48 57 49 n 66 45 5 78 o ) ainsi que ses tributaires frequentes par le saumon)",
+        "riviere cap chat",
+        "riviere cap chat d) entre l embouchure du ruisseau bascon 48 49 47 n 66 45 07 o ) et la chute pres du ruisseau beaulieu 48 48 57 49 n 66 45 5 78 o ) ainsi que ses tributaires frequentes par le saumon)"
+      ],
+      "lat": 48.829722,
+      "lon": -66.751944
+    },
+    {
+      "id": 73,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cascapédia a) entre le côté en aval des piliers de l'ancien pont de la route 132 (correspondant à une droite reliant les points 48°12'46,56'' N., 65°54'7,70'' O. et 48°12'45,04'' N., 65°54'1,08'' O. ) et le côté aval des ponts Gérard-D.-Lévesque situés à Cascapédia-Saint-Jules.",
+      "nom": "Rivière Cascapédia a) entre le côté en aval des piliers de l'ancien pont de la route 132",
+      "nom_search": "riviere cascapedia a) entre le cote en aval des piliers de l ancien pont de la route 132 correspondant a une droite reliant les points 48 12 46 56 n 65 54 7 70 o et 48 12 45 04 n 65 54 1 08 o ) et le cote aval des ponts gerard d levesque situes a cascapedia saint jules",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Cascapédia",
+      "aliases": [
+        "cascapedia",
+        "cascapedia a) entre le cote en aval des piliers de l ancien pont de la route 132 correspondant a une droite reliant les points 48 12 46 56 n 65 54 7 70 o et 48 12 45 04 n 65 54 1 08 o ) et le cote aval des ponts gerard d levesque situes a cascapedia saint jules",
+        "riviere cascapedia",
+        "riviere cascapedia a) entre le cote en aval des piliers de l ancien pont de la route 132 correspondant a une droite reliant les points 48 12 46 56 n 65 54 7 70 o et 48 12 45 04 n 65 54 1 08 o ) et le cote aval des ponts gerard d levesque situes a cascapedia saint jules"
+      ],
+      "lat": 48.212933,
+      "lon": -65.902139
+    },
+    {
+      "id": 74,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cascapédia b) entre les ponts Gérard-D.-Lévesque situés à Cascapédia-Saint-Jules et la chute du Dix-septième mille ( 48°49'4,98'' N., 66°21'12,12'' O. ).",
+      "nom": "Rivière Cascapédia b) entre les ponts Gérard-D.-Lévesque situés à Cascapédia-Saint-Jules et la chute du Dix-septième mille",
+      "nom_search": "riviere cascapedia b) entre les ponts gerard d levesque situes a cascapedia saint jules et la chute du dix septieme mille 48 49 4 98 n 66 21 12 12 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Cascapédia",
+      "aliases": [
+        "cascapedia",
+        "cascapedia b) entre les ponts gerard d levesque situes a cascapedia saint jules et la chute du dix septieme mille 48 49 4 98 n 66 21 12 12 o )",
+        "riviere cascapedia",
+        "riviere cascapedia b) entre les ponts gerard d levesque situes a cascapedia saint jules et la chute du dix septieme mille 48 49 4 98 n 66 21 12 12 o )"
+      ],
+      "lat": 48.81805,
+      "lon": -66.353367
+    },
+    {
+      "id": 77,
+      "zone_id": 1,
+      "nom_brut": "Rivière Cascapédia c) entre la chute du Dix-septième mille ( 48°49'4,98'' N., 66°21'12,12'' O. ) et la limite sud du parc national de la Gaspésie ( 48°49'33\" N., 66°20'29\" O. ).",
+      "nom": "Rivière Cascapédia c) entre la chute du Dix-septième mille",
+      "nom_search": "riviere cascapedia c) entre la chute du dix septieme mille 48 49 4 98 n 66 21 12 12 o ) et la limite sud du parc national de la gaspesie 48 49 33 n 66 20 29 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Cascapédia",
+      "aliases": [
+        "cascapedia",
+        "cascapedia c) entre la chute du dix septieme mille 48 49 4 98 n 66 21 12 12 o ) et la limite sud du parc national de la gaspesie 48 49 33 n 66 20 29 o )",
+        "riviere cascapedia",
+        "riviere cascapedia c) entre la chute du dix septieme mille 48 49 4 98 n 66 21 12 12 o ) et la limite sud du parc national de la gaspesie 48 49 33 n 66 20 29 o )"
+      ],
+      "lat": 48.81805,
+      "lon": -66.353367
+    },
+    {
+      "id": 212,
+      "zone_id": 1,
+      "nom_brut": "Rivière Causapscal a) entre sa confluence avec la rivière Matapédia ( 48°21'13\" N., 67°13'21\" O. ) et le côté en aval du pont de la route 132 ( 48°21'14\" N., 67°13'18\" O. ).",
+      "nom": "Rivière Causapscal a) entre sa confluence avec la rivière Matapédia",
+      "nom_search": "riviere causapscal a) entre sa confluence avec la riviere matapedia 48 21 13 n 67 13 21 o ) et le cote en aval du pont de la route 132 48 21 14 n 67 13 18 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Causapscal",
+      "aliases": [
+        "causapscal",
+        "causapscal a) entre sa confluence avec la riviere matapedia 48 21 13 n 67 13 21 o ) et le cote en aval du pont de la route 132 48 21 14 n 67 13 18 o )",
+        "riviere causapscal",
+        "riviere causapscal a) entre sa confluence avec la riviere matapedia 48 21 13 n 67 13 21 o ) et le cote en aval du pont de la route 132 48 21 14 n 67 13 18 o )"
+      ],
+      "lat": 48.353611,
+      "lon": -67.2225
+    },
+    {
+      "id": 213,
+      "zone_id": 1,
+      "nom_brut": "Rivière Causapscal b) entre le côté en aval du pont de la route 132 ( 48°21'14\" N., 67°13'18\" O. ) et une droite perpendiculaire au courant située à 50 m en amont de la fosse à saumon Martel ( 48°27'53\" N., 67°13'47\" O. ).",
+      "nom": "Rivière Causapscal b) entre le côté en aval du pont de la route 132",
+      "nom_search": "riviere causapscal b) entre le cote en aval du pont de la route 132 48 21 14 n 67 13 18 o ) et une droite perpendiculaire au courant situee a 50 m en amont de la fosse a saumon martel 48 27 53 n 67 13 47 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Causapscal",
+      "aliases": [
+        "causapscal",
+        "causapscal b) entre le cote en aval du pont de la route 132 48 21 14 n 67 13 18 o ) et une droite perpendiculaire au courant situee a 50 m en amont de la fosse a saumon martel 48 27 53 n 67 13 47 o )",
+        "riviere causapscal",
+        "riviere causapscal b) entre le cote en aval du pont de la route 132 48 21 14 n 67 13 18 o ) et une droite perpendiculaire au courant situee a 50 m en amont de la fosse a saumon martel 48 27 53 n 67 13 47 o )"
+      ],
+      "lat": 48.353889,
+      "lon": -67.221667
+    },
+    {
+      "id": 214,
+      "zone_id": 1,
+      "nom_brut": "Rivière Causapscal c) entre une ligne perpendiculaire au courant située à 50 m en amont de la fosse à saumon Martel ( 48°27'53\" N., 67°13'47\" O. ) et sa source ( 48°29'06\" N., 66°46'58\" O. ).",
+      "nom": "Rivière Causapscal c) entre une ligne perpendiculaire au courant située à 50 m en amont de la fosse à saumon Martel",
+      "nom_search": "riviere causapscal c) entre une ligne perpendiculaire au courant situee a 50 m en amont de la fosse a saumon martel 48 27 53 n 67 13 47 o ) et sa source 48 29 06 n 66 46 58 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Causapscal",
+      "aliases": [
+        "causapscal",
+        "causapscal c) entre une ligne perpendiculaire au courant situee a 50 m en amont de la fosse a saumon martel 48 27 53 n 67 13 47 o ) et sa source 48 29 06 n 66 46 58 o )",
+        "riviere causapscal",
+        "riviere causapscal c) entre une ligne perpendiculaire au courant situee a 50 m en amont de la fosse a saumon martel 48 27 53 n 67 13 47 o ) et sa source 48 29 06 n 66 46 58 o )"
+      ],
+      "lat": 48.464722,
+      "lon": -67.229722
+    },
+    {
+      "id": 86,
+      "zone_id": 1,
+      "nom_brut": "Rivière Dartmouth a) entre le côté en aval du pont de la route 132 et le côté en aval du pont Bouchard, à Corte-Real.",
+      "nom": "Rivière Dartmouth a) entre le côté en aval du pont de la route 132 et le côté en aval du pont Bouchard, à Corte-Real.",
+      "nom_search": "riviere dartmouth a) entre le cote en aval du pont de la route 132 et le cote en aval du pont bouchard a corte real",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Dartmouth",
+      "aliases": [
+        "dartmouth",
+        "dartmouth a) entre le cote en aval du pont de la route 132 et le cote en aval du pont bouchard a corte real",
+        "riviere dartmouth",
+        "riviere dartmouth a) entre le cote en aval du pont de la route 132 et le cote en aval du pont bouchard a corte real"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 88,
+      "zone_id": 1,
+      "nom_brut": "Rivière Dartmouth b) entre le côté en aval du pont Bouchard, à Corte-Real, et la fin du secteur 6 ( 49°01'44\" N., 64°45'41,8\" O. ) de la zec de la Rivière-Dartmouth.",
+      "nom": "Rivière Dartmouth b) entre le côté en aval du pont Bouchard, à Corte-Real, et la fin du secteur 6",
+      "nom_search": "riviere dartmouth b) entre le cote en aval du pont bouchard a corte real et la fin du secteur 6 49 01 44 n 64 45 41 8 o ) de la zec de la riviere dartmouth",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Dartmouth",
+      "aliases": [
+        "dartmouth",
+        "dartmouth b) entre le cote en aval du pont bouchard a corte real et la fin du secteur 6 49 01 44 n 64 45 41 8 o ) de la zec de la riviere dartmouth",
+        "riviere dartmouth",
+        "riviere dartmouth b) entre le cote en aval du pont bouchard a corte real et la fin du secteur 6 49 01 44 n 64 45 41 8 o ) de la zec de la riviere dartmouth"
+      ],
+      "lat": 49.028889,
+      "lon": -64.761611
+    },
+    {
+      "id": 3282,
+      "zone_id": 1,
+      "nom_brut": "Rivière Dartmouth c) entre la fin du secteur 6 ( 49°01'44\" N., 64°45'42\" O. ) et la fin du secteur 7 ( 49°01'58\" N., 64°46'04\" O. ) de la zec de la Rivière-Dartmouth.",
+      "nom": "Rivière Dartmouth c) entre la fin du secteur 6",
+      "nom_search": "riviere dartmouth c) entre la fin du secteur 6 49 01 44 n 64 45 42 o ) et la fin du secteur 7 49 01 58 n 64 46 04 o ) de la zec de la riviere dartmouth",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Dartmouth",
+      "aliases": [
+        "dartmouth",
+        "dartmouth c) entre la fin du secteur 6 49 01 44 n 64 45 42 o ) et la fin du secteur 7 49 01 58 n 64 46 04 o ) de la zec de la riviere dartmouth",
+        "riviere dartmouth",
+        "riviere dartmouth c) entre la fin du secteur 6 49 01 44 n 64 45 42 o ) et la fin du secteur 7 49 01 58 n 64 46 04 o ) de la zec de la riviere dartmouth"
+      ],
+      "lat": 49.028889,
+      "lon": -64.761667
+    },
+    {
+      "id": 90,
+      "zone_id": 1,
+      "nom_brut": "Rivière Dartmouth d) entre la fin du secteur 7 ( 49°01'58\" N., 64°46'04\" O. ) de la zec Rivière-Dartmouth et la source de la rivière Dartmouth ( 48°52'44,28\" N., 64°59'26,55\" O. ).",
+      "nom": "Rivière Dartmouth d) entre la fin du secteur 7",
+      "nom_search": "riviere dartmouth d) entre la fin du secteur 7 49 01 58 n 64 46 04 o ) de la zec riviere dartmouth et la source de la riviere dartmouth 48 52 44 28 n 64 59 26 55 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Dartmouth",
+      "aliases": [
+        "dartmouth",
+        "dartmouth d) entre la fin du secteur 7 49 01 58 n 64 46 04 o ) de la zec riviere dartmouth et la source de la riviere dartmouth 48 52 44 28 n 64 59 26 55 o )",
+        "riviere dartmouth",
+        "riviere dartmouth d) entre la fin du secteur 7 49 01 58 n 64 46 04 o ) de la zec riviere dartmouth et la source de la riviere dartmouth 48 52 44 28 n 64 59 26 55 o )"
+      ],
+      "lat": 49.032778,
+      "lon": -64.767778
+    },
+    {
+      "id": 222,
+      "zone_id": 1,
+      "nom_brut": "Rivière de Mont-Louis entre le côté en aval du pont de la route 132 et sa confluence avec son tributaire en provenance du lac Haroué ( 49°03'57\" N., 65°37'50\" O. ).",
+      "nom": "Rivière de Mont-Louis entre le côté en aval du pont de la route 132 et sa confluence avec son tributaire en provenance du lac Haroué",
+      "nom_search": "riviere de mont louis entre le cote en aval du pont de la route 132 et sa confluence avec son tributaire en provenance du lac haroue 49 03 57 n 65 37 50 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière de Mont-Louis",
+      "aliases": [
+        "de mont louis",
+        "de mont louis entre le cote en aval du pont de la route 132 et sa confluence avec son tributaire en provenance du lac haroue 49 03 57 n 65 37 50 o )",
+        "riviere de mont louis",
+        "riviere de mont louis entre le cote en aval du pont de la route 132 et sa confluence avec son tributaire en provenance du lac haroue 49 03 57 n 65 37 50 o )"
+      ],
+      "lat": 49.065833,
+      "lon": -65.630556
+    },
+    {
+      "id": 97,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Grand Pabos Ouest a) entre le côté en aval du pont du CN et le côté en aval du pont de la route 132.",
+      "nom": "Rivière du Grand Pabos Ouest a) entre le côté en aval du pont du CN et le côté en aval du pont de la route 132.",
+      "nom_search": "riviere du grand pabos ouest a) entre le cote en aval du pont du cn et le cote en aval du pont de la route 132",
+      "segment_label": "a)",
+      "river_base_name": "Rivière du Grand Pabos Ouest",
+      "aliases": [
+        "du grand pabos ouest",
+        "du grand pabos ouest a) entre le cote en aval du pont du cn et le cote en aval du pont de la route 132",
+        "riviere du grand pabos ouest",
+        "riviere du grand pabos ouest a) entre le cote en aval du pont du cn et le cote en aval du pont de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 95,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Grand Pabos Ouest b) entre le côté en aval du pont de la route 132 et l'embouchure du ruisseau Laroche ( 48°18'60\" N., 64°52'06\" O. ).",
+      "nom": "Rivière du Grand Pabos Ouest b) entre le côté en aval du pont de la route 132 et l'embouchure du ruisseau Laroche",
+      "nom_search": "riviere du grand pabos ouest b) entre le cote en aval du pont de la route 132 et l embouchure du ruisseau laroche 48 18 60 n 64 52 06 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière du Grand Pabos Ouest",
+      "aliases": [
+        "du grand pabos ouest",
+        "du grand pabos ouest b) entre le cote en aval du pont de la route 132 et l embouchure du ruisseau laroche 48 18 60 n 64 52 06 o )",
+        "riviere du grand pabos ouest",
+        "riviere du grand pabos ouest b) entre le cote en aval du pont de la route 132 et l embouchure du ruisseau laroche 48 18 60 n 64 52 06 o )"
+      ],
+      "lat": 48.316667,
+      "lon": -64.868333
+    },
+    {
+      "id": 96,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Grand Pabos Ouest c) entre l'embouchure du ruisseau Laroche ( 48°18'60\" N., 64°52'06\" O. ) et sa source.",
+      "nom": "Rivière du Grand Pabos Ouest c) entre l'embouchure du ruisseau Laroche",
+      "nom_search": "riviere du grand pabos ouest c) entre l embouchure du ruisseau laroche 48 18 60 n 64 52 06 o ) et sa source",
+      "segment_label": "c)",
+      "river_base_name": "Rivière du Grand Pabos Ouest",
+      "aliases": [
+        "du grand pabos ouest",
+        "du grand pabos ouest c) entre l embouchure du ruisseau laroche 48 18 60 n 64 52 06 o ) et sa source",
+        "riviere du grand pabos ouest",
+        "riviere du grand pabos ouest c) entre l embouchure du ruisseau laroche 48 18 60 n 64 52 06 o ) et sa source"
+      ],
+      "lat": 48.316667,
+      "lon": -64.868333
+    },
+    {
+      "id": 99,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Grand Pabos b) entre le côté en aval du pont de la route 132 et un point situé aux Grosses Chutes ( 48°24'16\" N., 64°57'35\" O. ).",
+      "nom": "Rivière du Grand Pabos b) entre le côté en aval du pont de la route 132 et un point situé aux Grosses Chutes",
+      "nom_search": "riviere du grand pabos b) entre le cote en aval du pont de la route 132 et un point situe aux grosses chutes 48 24 16 n 64 57 35 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière du Grand Pabos",
+      "aliases": [
+        "du grand pabos",
+        "du grand pabos b) entre le cote en aval du pont de la route 132 et un point situe aux grosses chutes 48 24 16 n 64 57 35 o )",
+        "riviere du grand pabos",
+        "riviere du grand pabos b) entre le cote en aval du pont de la route 132 et un point situe aux grosses chutes 48 24 16 n 64 57 35 o )"
+      ],
+      "lat": 48.404444,
+      "lon": -64.959722
+    },
+    {
+      "id": 100,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Grand Pabos c) entre un point situé aux Grosses Chutes ( 48°24'16\" N., 64°57'35\" O. ) et sa source ( 48°32'46,13\" N., 65°13'49,69\" O. ).",
+      "nom": "Rivière du Grand Pabos c) entre un point situé aux Grosses Chutes",
+      "nom_search": "riviere du grand pabos c) entre un point situe aux grosses chutes 48 24 16 n 64 57 35 o ) et sa source 48 32 46 13 n 65 13 49 69 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière du Grand Pabos",
+      "aliases": [
+        "du grand pabos",
+        "du grand pabos c) entre un point situe aux grosses chutes 48 24 16 n 64 57 35 o ) et sa source 48 32 46 13 n 65 13 49 69 o )",
+        "riviere du grand pabos",
+        "riviere du grand pabos c) entre un point situe aux grosses chutes 48 24 16 n 64 57 35 o ) et sa source 48 32 46 13 n 65 13 49 69 o )"
+      ],
+      "lat": 48.404444,
+      "lon": -64.959722
+    },
+    {
+      "id": 227,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Petit Pabos a) entre le côté en aval du pont du CN et le côté en aval du pont de la route 132.",
+      "nom": "Rivière du Petit Pabos a) entre le côté en aval du pont du CN et le côté en aval du pont de la route 132.",
+      "nom_search": "riviere du petit pabos a) entre le cote en aval du pont du cn et le cote en aval du pont de la route 132",
+      "segment_label": "a)",
+      "river_base_name": "Rivière du Petit Pabos",
+      "aliases": [
+        "du petit pabos",
+        "du petit pabos a) entre le cote en aval du pont du cn et le cote en aval du pont de la route 132",
+        "riviere du petit pabos",
+        "riviere du petit pabos a) entre le cote en aval du pont du cn et le cote en aval du pont de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 231,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Petit Pabos b) entre le côté en aval du pont de la route 132 et l'embouchure du ruisseau du 18 milles ( 48°28'12\" N., 64°45'50\" O. ).",
+      "nom": "Rivière du Petit Pabos b) entre le côté en aval du pont de la route 132 et l'embouchure du ruisseau du 18 milles",
+      "nom_search": "riviere du petit pabos b) entre le cote en aval du pont de la route 132 et l embouchure du ruisseau du 18 milles 48 28 12 n 64 45 50 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière du Petit Pabos",
+      "aliases": [
+        "du petit pabos",
+        "du petit pabos b) entre le cote en aval du pont de la route 132 et l embouchure du ruisseau du 18 milles 48 28 12 n 64 45 50 o )",
+        "riviere du petit pabos",
+        "riviere du petit pabos b) entre le cote en aval du pont de la route 132 et l embouchure du ruisseau du 18 milles 48 28 12 n 64 45 50 o )"
+      ],
+      "lat": 48.47,
+      "lon": -64.763889
+    },
+    {
+      "id": 233,
+      "zone_id": 1,
+      "nom_brut": "Rivière du Petit Pabos c) entre l'embouchure du ruisseau du 18 milles ( 48°28'12\" N., 64°45'50\" O. ) et sa source ( 48°33'20,96\" N., 65°01'19,76\" O. ).",
+      "nom": "Rivière du Petit Pabos c) entre l'embouchure du ruisseau du 18 milles",
+      "nom_search": "riviere du petit pabos c) entre l embouchure du ruisseau du 18 milles 48 28 12 n 64 45 50 o ) et sa source 48 33 20 96 n 65 01 19 76 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière du Petit Pabos",
+      "aliases": [
+        "du petit pabos",
+        "du petit pabos c) entre l embouchure du ruisseau du 18 milles 48 28 12 n 64 45 50 o ) et sa source 48 33 20 96 n 65 01 19 76 o )",
+        "riviere du petit pabos",
+        "riviere du petit pabos c) entre l embouchure du ruisseau du 18 milles 48 28 12 n 64 45 50 o ) et sa source 48 33 20 96 n 65 01 19 76 o )"
+      ],
+      "lat": 48.47,
+      "lon": -64.763889
+    },
+    {
+      "id": 11740,
+      "zone_id": 1,
+      "nom_brut": "Rivière Escuminac la partie comprise entre son embouchure et sa source.",
+      "nom": "Rivière Escuminac la partie comprise entre son embouchure et sa source.",
+      "nom_search": "riviere escuminac la partie comprise entre son embouchure et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Escuminac la partie comprise",
+      "aliases": [
+        "escuminac la partie comprise",
+        "escuminac la partie comprise entre son embouchure et sa source",
+        "riviere escuminac la partie comprise",
+        "riviere escuminac la partie comprise entre son embouchure et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 60,
+      "zone_id": 1,
+      "nom_brut": "Rivière Garin",
+      "nom": "Rivière Garin",
+      "nom_search": "riviere garin",
+      "segment_label": null,
+      "river_base_name": "Rivière Garin",
+      "aliases": [
+        "garin",
+        "riviere garin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1498,
+      "zone_id": 1,
+      "nom_brut": "Rivière Grande Rivière Est ( 48°29'45\" N., 64°33'46\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Rivière Grande Rivière Est",
+      "nom_search": "riviere grande riviere est 48 29 45 n 64 33 46 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Rivière Grande Rivière Est",
+      "aliases": [
+        "grande riviere est",
+        "grande riviere est 48 29 45 n 64 33 46 o ) n a pas le statut de riviere a saumon)",
+        "riviere grande riviere est",
+        "riviere grande riviere est 48 29 45 n 64 33 46 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.495833,
+      "lon": -64.562778
+    },
+    {
+      "id": 1499,
+      "zone_id": 1,
+      "nom_brut": "Rivière Grande Rivière Nord ( 48°35'33\" N., 64°42'17\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Rivière Grande Rivière Nord",
+      "nom_search": "riviere grande riviere nord 48 35 33 n 64 42 17 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Rivière Grande Rivière Nord",
+      "aliases": [
+        "grande riviere nord",
+        "grande riviere nord 48 35 33 n 64 42 17 o ) n a pas le statut de riviere a saumon)",
+        "riviere grande riviere nord",
+        "riviere grande riviere nord 48 35 33 n 64 42 17 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.5925,
+      "lon": -64.704722
+    },
+    {
+      "id": 1508,
+      "zone_id": 1,
+      "nom_brut": "Rivière Grande Rivière Ouest ( 48°27'21\" N., 64°32'08\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Rivière Grande Rivière Ouest",
+      "nom_search": "riviere grande riviere ouest 48 27 21 n 64 32 08 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Rivière Grande Rivière Ouest",
+      "aliases": [
+        "grande riviere ouest",
+        "grande riviere ouest 48 27 21 n 64 32 08 o ) n a pas le statut de riviere a saumon)",
+        "riviere grande riviere ouest",
+        "riviere grande riviere ouest 48 27 21 n 64 32 08 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.455833,
+      "lon": -64.535556
+    },
+    {
+      "id": 66,
+      "zone_id": 1,
+      "nom_brut": "Rivière Hall entre sa confluence avec la rivière Bonaventure ( 48°05'10\" N., 65°26'25\" O. ) et le barrage hydroélectrique ( 48°09'16\" N., 65°20'49\" O. ).",
+      "nom": "Rivière Hall entre sa confluence avec la rivière Bonaventure",
+      "nom_search": "riviere hall entre sa confluence avec la riviere bonaventure 48 05 10 n 65 26 25 o ) et le barrage hydroelectrique 48 09 16 n 65 20 49 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Hall",
+      "aliases": [
+        "hall",
+        "hall entre sa confluence avec la riviere bonaventure 48 05 10 n 65 26 25 o ) et le barrage hydroelectrique 48 09 16 n 65 20 49 o )",
+        "riviere hall",
+        "riviere hall entre sa confluence avec la riviere bonaventure 48 05 10 n 65 26 25 o ) et le barrage hydroelectrique 48 09 16 n 65 20 49 o )"
+      ],
+      "lat": 48.086111,
+      "lon": -65.440278
+    },
+    {
+      "id": 102,
+      "zone_id": 1,
+      "nom_brut": "Rivière La Grande Rivière a) entre le côté en aval du pont de la route 132 et un point situé à 25 m en aval de la barrière de rétention ( 48°32'01\" N., 64°38'07\" O. ) (Voir également la zone 21)",
+      "nom": "Rivière La Grande Rivière a) entre le côté en aval du pont de la route 132 et un point situé à 25 m en aval de la barrière de rétention",
+      "nom_search": "riviere la grande riviere a) entre le cote en aval du pont de la route 132 et un point situe a 25 m en aval de la barriere de retention 48 32 01 n 64 38 07 o ) voir egalement la zone 21)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere a) entre le cote en aval du pont de la route 132 et un point situe a 25 m en aval de la barriere de retention 48 32 01 n 64 38 07 o ) voir egalement la zone 21)",
+        "riviere la grande riviere",
+        "riviere la grande riviere a) entre le cote en aval du pont de la route 132 et un point situe a 25 m en aval de la barriere de retention 48 32 01 n 64 38 07 o ) voir egalement la zone 21)"
+      ],
+      "lat": 48.533611,
+      "lon": -64.635278
+    },
+    {
+      "id": 103,
+      "zone_id": 1,
+      "nom_brut": "Rivière La Grande Rivière b) entre un point situé à 25 m en aval de la barrière de rétention ( 48°32'01\" N., 64°38'07\" O. ) et les Trois-Fourches ( 48°35'33\" N., 64°42'14\" O. ) (Voir également la zone 21)",
+      "nom": "Rivière La Grande Rivière b) entre un point situé à 25 m en aval de la barrière de rétention",
+      "nom_search": "riviere la grande riviere b) entre un point situe a 25 m en aval de la barriere de retention 48 32 01 n 64 38 07 o ) et les trois fourches 48 35 33 n 64 42 14 o ) voir egalement la zone 21)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere b) entre un point situe a 25 m en aval de la barriere de retention 48 32 01 n 64 38 07 o ) et les trois fourches 48 35 33 n 64 42 14 o ) voir egalement la zone 21)",
+        "riviere la grande riviere",
+        "riviere la grande riviere b) entre un point situe a 25 m en aval de la barriere de retention 48 32 01 n 64 38 07 o ) et les trois fourches 48 35 33 n 64 42 14 o ) voir egalement la zone 21)"
+      ],
+      "lat": 48.533611,
+      "lon": -64.635278
+    },
+    {
+      "id": 11720,
+      "zone_id": 1,
+      "nom_brut": "Rivière Madeleine a) entre une droite passant par le Cap de la Madeleine au point 49°15'00'' N., 65°19'26.4\" O. et la pointe de la Dune à l'est de la rivière au point 49°14'55.68\" N., 65°19'22.8\" O. et le côté en aval du pont de la route 132. Ce secteur n'a pas le statut de rivière à saumon.",
+      "nom": "Rivière Madeleine a) entre une droite passant par le Cap de la Madeleine au point 49°15'00'' N., 65°19'26.4\" O. et la pointe de la Dune à l'est de la rivière au point 49°14'55.68\" N., 65°19'22.8\" O. et le côté en aval du pont de la route 132. Ce secteur n'a pas le statut de rivière à saumon.",
+      "nom_search": "riviere madeleine a) entre une droite passant par le cap de la madeleine au point 49 15 00 n 65 19 26 4 o et la pointe de la dune a l est de la riviere au point 49 14 55 68 n 65 19 22 8 o et le cote en aval du pont de la route 132 ce secteur n a pas le statut de riviere a saumon",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Madeleine",
+      "aliases": [
+        "madeleine",
+        "madeleine a) entre une droite passant par le cap de la madeleine au point 49 15 00 n 65 19 26 4 o et la pointe de la dune a l est de la riviere au point 49 14 55 68 n 65 19 22 8 o et le cote en aval du pont de la route 132 ce secteur n a pas le statut de riviere a saumon",
+        "riviere madeleine",
+        "riviere madeleine a) entre une droite passant par le cap de la madeleine au point 49 15 00 n 65 19 26 4 o et la pointe de la dune a l est de la riviere au point 49 14 55 68 n 65 19 22 8 o et le cote en aval du pont de la route 132 ce secteur n a pas le statut de riviere a saumon"
+      ],
+      "lat": 49.25,
+      "lon": -65.324
+    },
+    {
+      "id": 130,
+      "zone_id": 1,
+      "nom_brut": "Rivière Madeleine b) entre le côté en aval du pont de la route 132 et une droite passant par un point situé à 23 m en aval de l'entrée inférieure de la passe migratoire de la rivière Madeleine.",
+      "nom": "Rivière Madeleine b) entre le côté en aval du pont de la route 132 et une droite passant par un point situé à 23 m en aval de l'entrée inférieure de la passe migratoire de la rivière Madeleine.",
+      "nom_search": "riviere madeleine b) entre le cote en aval du pont de la route 132 et une droite passant par un point situe a 23 m en aval de l entree inferieure de la passe migratoire de la riviere madeleine",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Madeleine",
+      "aliases": [
+        "madeleine",
+        "madeleine b) entre le cote en aval du pont de la route 132 et une droite passant par un point situe a 23 m en aval de l entree inferieure de la passe migratoire de la riviere madeleine",
+        "riviere madeleine",
+        "riviere madeleine b) entre le cote en aval du pont de la route 132 et une droite passant par un point situe a 23 m en aval de l entree inferieure de la passe migratoire de la riviere madeleine"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 133,
+      "zone_id": 1,
+      "nom_brut": "Rivière Madeleine c) entre une droite passant par un point situé à 23 m en aval de l'entrée inférieure de la passe migratoire de la rivière Madeleine et l'embouchure du ruisseau Tremblay ( 49°11'21\" N., 65°17'14\" O. ).",
+      "nom": "Rivière Madeleine c) entre une droite passant par un point situé à 23 m en aval de l'entrée inférieure de la passe migratoire de la rivière Madeleine et l'embouchure du ruisseau Tremblay",
+      "nom_search": "riviere madeleine c) entre une droite passant par un point situe a 23 m en aval de l entree inferieure de la passe migratoire de la riviere madeleine et l embouchure du ruisseau tremblay 49 11 21 n 65 17 14 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Madeleine",
+      "aliases": [
+        "madeleine",
+        "madeleine c) entre une droite passant par un point situe a 23 m en aval de l entree inferieure de la passe migratoire de la riviere madeleine et l embouchure du ruisseau tremblay 49 11 21 n 65 17 14 o )",
+        "riviere madeleine",
+        "riviere madeleine c) entre une droite passant par un point situe a 23 m en aval de l entree inferieure de la passe migratoire de la riviere madeleine et l embouchure du ruisseau tremblay 49 11 21 n 65 17 14 o )"
+      ],
+      "lat": 49.189167,
+      "lon": -65.287222
+    },
+    {
+      "id": 136,
+      "zone_id": 1,
+      "nom_brut": "Rivière Madeleine d) entre l'embouchure du ruisseau Tremblay ( 49°11'21\" N., 65°17'14\" O. ) et la limite sud du canton La Rivière ( 48°58'22\" N., 65°42'44\" O. ).",
+      "nom": "Rivière Madeleine d) entre l'embouchure du ruisseau Tremblay",
+      "nom_search": "riviere madeleine d) entre l embouchure du ruisseau tremblay 49 11 21 n 65 17 14 o ) et la limite sud du canton la riviere 48 58 22 n 65 42 44 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Madeleine",
+      "aliases": [
+        "madeleine",
+        "madeleine d) entre l embouchure du ruisseau tremblay 49 11 21 n 65 17 14 o ) et la limite sud du canton la riviere 48 58 22 n 65 42 44 o )",
+        "riviere madeleine",
+        "riviere madeleine d) entre l embouchure du ruisseau tremblay 49 11 21 n 65 17 14 o ) et la limite sud du canton la riviere 48 58 22 n 65 42 44 o )"
+      ],
+      "lat": 49.189167,
+      "lon": -65.287222
+    },
+    {
+      "id": 143,
+      "zone_id": 1,
+      "nom_brut": "Rivière Madeleine e) entre la limite sud du canton La Rivière ( 48°58'22\" N., 65°42'44\" O. ) et la limite sud du parc national de la Gaspésie ( 48°53'18\" N., 65°56'39\" O. ).",
+      "nom": "Rivière Madeleine e) entre la limite sud du canton La Rivière",
+      "nom_search": "riviere madeleine e) entre la limite sud du canton la riviere 48 58 22 n 65 42 44 o ) et la limite sud du parc national de la gaspesie 48 53 18 n 65 56 39 o )",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Madeleine",
+      "aliases": [
+        "madeleine",
+        "madeleine e) entre la limite sud du canton la riviere 48 58 22 n 65 42 44 o ) et la limite sud du parc national de la gaspesie 48 53 18 n 65 56 39 o )",
+        "riviere madeleine",
+        "riviere madeleine e) entre la limite sud du canton la riviere 48 58 22 n 65 42 44 o ) et la limite sud du parc national de la gaspesie 48 53 18 n 65 56 39 o )"
+      ],
+      "lat": 48.972778,
+      "lon": -65.712222
+    },
+    {
+      "id": 146,
+      "zone_id": 1,
+      "nom_brut": "Rivière Malbaie a) entre le côté en aval du pont du CN, le côté en aval du pont de la rue de la plage (pont de la Crevette Rose ( 48°34'56\" N., 64°17'32\" O. ), municipalité de Percé) et le côté en aval du pont de la route 132.",
+      "nom": "Rivière Malbaie a) entre le côté en aval du pont du CN, le côté en aval du pont de la rue de la plage",
+      "nom_search": "riviere malbaie a) entre le cote en aval du pont du cn le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie a) entre le cote en aval du pont du cn le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+        "riviere malbaie",
+        "riviere malbaie a) entre le cote en aval du pont du cn le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132"
+      ],
+      "lat": 48.582222,
+      "lon": -64.292222
+    },
+    {
+      "id": 144,
+      "zone_id": 1,
+      "nom_brut": "Rivière Malbaie b) entre le côté en aval du pont de la route 132 et sa source.",
+      "nom": "Rivière Malbaie b) entre le côté en aval du pont de la route 132 et sa source.",
+      "nom_search": "riviere malbaie b) entre le cote en aval du pont de la route 132 et sa source",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie b) entre le cote en aval du pont de la route 132 et sa source",
+        "riviere malbaie",
+        "riviere malbaie b) entre le cote en aval du pont de la route 132 et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 152,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane a) la partie comprise entre le côté en aval du pont de la route 132 ( 48°51'07\" N., 67°31'52' O. ) et une droite passant par un point situé à 45 m en aval du barrage Mathieu-d'Amours. ( 48°50'51\" N., 67°31'43\" O. ). (Voir également la zone 21)",
+      "nom": "Rivière Matane a) la partie comprise entre le côté en aval du pont de la route 132",
+      "nom_search": "riviere matane a) la partie comprise entre le cote en aval du pont de la route 132 48 51 07 n 67 31 52 o ) et une droite passant par un point situe a 45 m en aval du barrage mathieu d amours 48 50 51 n 67 31 43 o ) voir egalement la zone 21)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Matane  la partie comprise",
+      "aliases": [
+        "matane a) la partie comprise entre le cote en aval du pont de la route 132 48 51 07 n 67 31 52 o ) et une droite passant par un point situe a 45 m en aval du barrage mathieu d amours 48 50 51 n 67 31 43 o ) voir egalement la zone 21)",
+        "matane la partie comprise",
+        "riviere matane a) la partie comprise entre le cote en aval du pont de la route 132 48 51 07 n 67 31 52 o ) et une droite passant par un point situe a 45 m en aval du barrage mathieu d amours 48 50 51 n 67 31 43 o ) voir egalement la zone 21)",
+        "riviere matane la partie comprise"
+      ],
+      "lat": 48.8475,
+      "lon": -67.528611
+    },
+    {
+      "id": 154,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane b) la partie comprise entre une droite passant par un point situé à 45 m en aval du barrage Mathieu-d'Amours ( 48°50'51\" N., 67°31'43' O. ) et ce barrage ( 48°50'39\" N., 67°31'44' O. ) (Voir également la zone 21)",
+      "nom": "Rivière Matane b) la partie comprise entre une droite passant par un point situé à 45 m en aval du barrage Mathieu-d'Amours",
+      "nom_search": "riviere matane b) la partie comprise entre une droite passant par un point situe a 45 m en aval du barrage mathieu d amours 48 50 51 n 67 31 43 o ) et ce barrage 48 50 39 n 67 31 44 o ) voir egalement la zone 21)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Matane  la partie comprise",
+      "aliases": [
+        "matane b) la partie comprise entre une droite passant par un point situe a 45 m en aval du barrage mathieu d amours 48 50 51 n 67 31 43 o ) et ce barrage 48 50 39 n 67 31 44 o ) voir egalement la zone 21)",
+        "matane la partie comprise",
+        "riviere matane b) la partie comprise entre une droite passant par un point situe a 45 m en aval du barrage mathieu d amours 48 50 51 n 67 31 43 o ) et ce barrage 48 50 39 n 67 31 44 o ) voir egalement la zone 21)",
+        "riviere matane la partie comprise"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 155,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane c) la partie comprise entre le barrage Mathieu-d'Amours ( 48°50'39\" N., 67°31'44' O. ) et une droite joignant le point 48°38'46\" N., 67°16'51,3\" O. en rive nord et le point 48°38'44,55\" N., 67°16'51,3\" O. en rive sud.",
+      "nom": "Rivière Matane c) la partie comprise entre le barrage Mathieu-d'Amours",
+      "nom_search": "riviere matane c) la partie comprise entre le barrage mathieu d amours 48 50 39 n 67 31 44 o ) et une droite joignant le point 48 38 46 n 67 16 51 3 o en rive nord et le point 48 38 44 55 n 67 16 51 3 o en rive sud",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Matane  la partie comprise",
+      "aliases": [
+        "matane c) la partie comprise entre le barrage mathieu d amours 48 50 39 n 67 31 44 o ) et une droite joignant le point 48 38 46 n 67 16 51 3 o en rive nord et le point 48 38 44 55 n 67 16 51 3 o en rive sud",
+        "matane la partie comprise",
+        "riviere matane c) la partie comprise entre le barrage mathieu d amours 48 50 39 n 67 31 44 o ) et une droite joignant le point 48 38 46 n 67 16 51 3 o en rive nord et le point 48 38 44 55 n 67 16 51 3 o en rive sud",
+        "riviere matane la partie comprise"
+      ],
+      "lat": 48.646111,
+      "lon": -67.280917
+    },
+    {
+      "id": 12080,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane d) la partie de la fosse Cap Seize comprise entre une droite joignant le point 48°38'46\" N., 67°16'51,3\" O. en rive nord et le point 48°38'44,5\" N., 67°16'51,3\" O. en rive sud, et une droite joignant le point 48°38'45\" N., 67°16'49\" O. en rive nord et le point 48°38'44\" N., 67°16'50\" O. en rive sud",
+      "nom": "Rivière Matane d) la partie de la fosse Cap Seize comprise entre une droite joignant le point 48°38'46\" N., 67°16'51,3\" O. en rive nord et le point 48°38'44,5\" N., 67°16'51,3\" O. en rive sud, et une droite joignant le point 48°38'45\" N., 67°16'49\" O. en rive nord et le point 48°38'44\" N., 67°16'50\" O. en rive sud",
+      "nom_search": "riviere matane d) la partie de la fosse cap seize comprise entre une droite joignant le point 48 38 46 n 67 16 51 3 o en rive nord et le point 48 38 44 5 n 67 16 51 3 o en rive sud et une droite joignant le point 48 38 45 n 67 16 49 o en rive nord et le point 48 38 44 n 67 16 50 o en rive sud",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Matane  la partie de la fosse Cap Seize comprise",
+      "aliases": [
+        "matane d) la partie de la fosse cap seize comprise entre une droite joignant le point 48 38 46 n 67 16 51 3 o en rive nord et le point 48 38 44 5 n 67 16 51 3 o en rive sud et une droite joignant le point 48 38 45 n 67 16 49 o en rive nord et le point 48 38 44 n 67 16 50 o en rive sud",
+        "matane la partie de la fosse cap seize comprise",
+        "riviere matane d) la partie de la fosse cap seize comprise entre une droite joignant le point 48 38 46 n 67 16 51 3 o en rive nord et le point 48 38 44 5 n 67 16 51 3 o en rive sud et une droite joignant le point 48 38 45 n 67 16 49 o en rive nord et le point 48 38 44 n 67 16 50 o en rive sud",
+        "riviere matane la partie de la fosse cap seize comprise"
+      ],
+      "lat": 48.646111,
+      "lon": -67.280917
+    },
+    {
+      "id": 157,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane e) la partie de la fosse Cap Seize comprise entre une droite joignant le point 48°38'45\" N., 67°16'49\" O. en rive nord et le point 48°38'44\" N., 67°16'50\" O. en rive sud, et une droite joignant le point 48°38'45\" N., 67°16'48\" O. en rive nord et le point 48°38'43\" N., 67°16'48\" O. en rive sud.",
+      "nom": "Rivière Matane e) la partie de la fosse Cap Seize comprise entre une droite joignant le point 48°38'45\" N., 67°16'49\" O. en rive nord et le point 48°38'44\" N., 67°16'50\" O. en rive sud, et une droite joignant le point 48°38'45\" N., 67°16'48\" O. en rive nord et le point 48°38'43\" N., 67°16'48\" O. en rive sud.",
+      "nom_search": "riviere matane e) la partie de la fosse cap seize comprise entre une droite joignant le point 48 38 45 n 67 16 49 o en rive nord et le point 48 38 44 n 67 16 50 o en rive sud et une droite joignant le point 48 38 45 n 67 16 48 o en rive nord et le point 48 38 43 n 67 16 48 o en rive sud",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Matane  la partie de la fosse Cap Seize comprise",
+      "aliases": [
+        "matane e) la partie de la fosse cap seize comprise entre une droite joignant le point 48 38 45 n 67 16 49 o en rive nord et le point 48 38 44 n 67 16 50 o en rive sud et une droite joignant le point 48 38 45 n 67 16 48 o en rive nord et le point 48 38 43 n 67 16 48 o en rive sud",
+        "matane la partie de la fosse cap seize comprise",
+        "riviere matane e) la partie de la fosse cap seize comprise entre une droite joignant le point 48 38 45 n 67 16 49 o en rive nord et le point 48 38 44 n 67 16 50 o en rive sud et une droite joignant le point 48 38 45 n 67 16 48 o en rive nord et le point 48 38 43 n 67 16 48 o en rive sud",
+        "riviere matane la partie de la fosse cap seize comprise"
+      ],
+      "lat": 48.645833,
+      "lon": -67.280278
+    },
+    {
+      "id": 167,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane f) la partie comprise entre une droite joignant le point 48°38'45\" N., 67°16'48\" O. en rive nord et le point 48°38'43\" N., 67°16'48\" O. en rive sud et une droite passant par le point situé à 180 m en aval de l'embouchure de la rivière Bonjour ( 48°41'09\" N., 66°58'27' O. )",
+      "nom": "Rivière Matane f) la partie comprise entre une droite joignant le point 48°38'45\" N., 67°16'48\" O. en rive nord et le point 48°38'43\" N., 67°16'48\" O. en rive sud et une droite passant par le point situé à 180 m en aval de l'embouchure de la rivière Bonjour",
+      "nom_search": "riviere matane f) la partie comprise entre une droite joignant le point 48 38 45 n 67 16 48 o en rive nord et le point 48 38 43 n 67 16 48 o en rive sud et une droite passant par le point situe a 180 m en aval de l embouchure de la riviere bonjour 48 41 09 n 66 58 27 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Matane f) la partie comprise",
+      "aliases": [
+        "matane f) la partie comprise",
+        "matane f) la partie comprise entre une droite joignant le point 48 38 45 n 67 16 48 o en rive nord et le point 48 38 43 n 67 16 48 o en rive sud et une droite passant par le point situe a 180 m en aval de l embouchure de la riviere bonjour 48 41 09 n 66 58 27 o )",
+        "riviere matane f) la partie comprise",
+        "riviere matane f) la partie comprise entre une droite joignant le point 48 38 45 n 67 16 48 o en rive nord et le point 48 38 43 n 67 16 48 o en rive sud et une droite passant par le point situe a 180 m en aval de l embouchure de la riviere bonjour 48 41 09 n 66 58 27 o )"
+      ],
+      "lat": 48.645833,
+      "lon": -67.28
+    },
+    {
+      "id": 168,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matane g) la partie comprise entre une droite passant par un point situé à 180 m en aval de l'embouchure de la rivière Bonjour ( 48°41'09\" N., 66°58'27' O. ) et le barrage du lac Matane ( 48°41'25\" N., 66°58'18' O. ).",
+      "nom": "Rivière Matane g) la partie comprise entre une droite passant par un point situé à 180 m en aval de l'embouchure de la rivière Bonjour",
+      "nom_search": "riviere matane g) la partie comprise entre une droite passant par un point situe a 180 m en aval de l embouchure de la riviere bonjour 48 41 09 n 66 58 27 o ) et le barrage du lac matane 48 41 25 n 66 58 18 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Matane g) la partie comprise",
+      "aliases": [
+        "matane g) la partie comprise",
+        "matane g) la partie comprise entre une droite passant par un point situe a 180 m en aval de l embouchure de la riviere bonjour 48 41 09 n 66 58 27 o ) et le barrage du lac matane 48 41 25 n 66 58 18 o )",
+        "riviere matane g) la partie comprise",
+        "riviere matane g) la partie comprise entre une droite passant par un point situe a 180 m en aval de l embouchure de la riviere bonjour 48 41 09 n 66 58 27 o ) et le barrage du lac matane 48 41 25 n 66 58 18 o )"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 171,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matapédia a) entre la ligne de confluence avec la rivière Ristigouche ( 47°58'14\" N., 66°56'34' O. ) et une droite perpendiculaire au courant située à 50 m en amont passant par le point ( 47°58'16\" N., 66°56'36' O. ).",
+      "nom": "Rivière Matapédia a) entre la ligne de confluence avec la rivière Ristigouche",
+      "nom_search": "riviere matapedia a) entre la ligne de confluence avec la riviere ristigouche 47 58 14 n 66 56 34 o ) et une droite perpendiculaire au courant situee a 50 m en amont passant par le point 47 58 16 n 66 56 36 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Matapédia",
+      "aliases": [
+        "matapedia",
+        "matapedia a) entre la ligne de confluence avec la riviere ristigouche 47 58 14 n 66 56 34 o ) et une droite perpendiculaire au courant situee a 50 m en amont passant par le point 47 58 16 n 66 56 36 o )",
+        "riviere matapedia",
+        "riviere matapedia a) entre la ligne de confluence avec la riviere ristigouche 47 58 14 n 66 56 34 o ) et une droite perpendiculaire au courant situee a 50 m en amont passant par le point 47 58 16 n 66 56 36 o )"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 172,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matapédia b) entre une droite perpendiculaire au courant située à 50 m en amont de son embouchure passant par le point ( 47°58'16\" N., 66°56'36'' O. ) et le côté en aval du pont du CN à Millstream ( 48°03'51\" N., 67°06'13'' O. ).",
+      "nom": "Rivière Matapédia b) entre une droite perpendiculaire au courant située à 50 m en amont de son embouchure passant par le point",
+      "nom_search": "riviere matapedia b) entre une droite perpendiculaire au courant situee a 50 m en amont de son embouchure passant par le point 47 58 16 n 66 56 36 o ) et le cote en aval du pont du cn a millstream 48 03 51 n 67 06 13 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Matapédia",
+      "aliases": [
+        "matapedia",
+        "matapedia b) entre une droite perpendiculaire au courant situee a 50 m en amont de son embouchure passant par le point 47 58 16 n 66 56 36 o ) et le cote en aval du pont du cn a millstream 48 03 51 n 67 06 13 o )",
+        "riviere matapedia",
+        "riviere matapedia b) entre une droite perpendiculaire au courant situee a 50 m en amont de son embouchure passant par le point 47 58 16 n 66 56 36 o ) et le cote en aval du pont du cn a millstream 48 03 51 n 67 06 13 o )"
+      ],
+      "lat": 47.971111,
+      "lon": -66.943333
+    },
+    {
+      "id": 173,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matapédia c) entre le côté en aval du pont du CN à Millstream ( 48°03'51\" N., 67°06'13'' O. ) et le côté en aval du pont de Causapscal ( 48°21'18\" N., 67°13'27'' O. ).",
+      "nom": "Rivière Matapédia c) entre le côté en aval du pont du CN à Millstream",
+      "nom_search": "riviere matapedia c) entre le cote en aval du pont du cn a millstream 48 03 51 n 67 06 13 o ) et le cote en aval du pont de causapscal 48 21 18 n 67 13 27 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Matapédia",
+      "aliases": [
+        "matapedia",
+        "matapedia c) entre le cote en aval du pont du cn a millstream 48 03 51 n 67 06 13 o ) et le cote en aval du pont de causapscal 48 21 18 n 67 13 27 o )",
+        "riviere matapedia",
+        "riviere matapedia c) entre le cote en aval du pont du cn a millstream 48 03 51 n 67 06 13 o ) et le cote en aval du pont de causapscal 48 21 18 n 67 13 27 o )"
+      ],
+      "lat": 48.064167,
+      "lon": -67.103611
+    },
+    {
+      "id": 206,
+      "zone_id": 1,
+      "nom_brut": "Rivière Matapédia d) entre le côté en aval du pont de Causapscal ( 48°21'18\" N., 67°13'27'' O. ) et le côté en aval du pont en face de l'église d'Amqui ( 48°27'58\" N., 67°25'46'' O. ), à l'exception du lac au Saumon.",
+      "nom": "Rivière Matapédia d) entre le côté en aval du pont de Causapscal",
+      "nom_search": "riviere matapedia d) entre le cote en aval du pont de causapscal 48 21 18 n 67 13 27 o ) et le cote en aval du pont en face de l eglise d amqui 48 27 58 n 67 25 46 o ) a l exception du lac au saumon",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Matapédia",
+      "aliases": [
+        "matapedia",
+        "matapedia d) entre le cote en aval du pont de causapscal 48 21 18 n 67 13 27 o ) et le cote en aval du pont en face de l eglise d amqui 48 27 58 n 67 25 46 o ) a l exception du lac au saumon",
+        "riviere matapedia",
+        "riviere matapedia d) entre le cote en aval du pont de causapscal 48 21 18 n 67 13 27 o ) et le cote en aval du pont en face de l eglise d amqui 48 27 58 n 67 25 46 o ) a l exception du lac au saumon"
+      ],
+      "lat": 48.355,
+      "lon": -67.224167
+    },
+    {
+      "id": 217,
+      "zone_id": 1,
+      "nom_brut": "Rivière Mitis a) entre son embouchure ( 48°37'51\" N., 68°08'01'' O. ) et le côté en aval du pont de la route 132 (pont Bergeron) ( 48°37'33\" N., 68°07'52'' O. ).",
+      "nom": "Rivière Mitis a) entre son embouchure",
+      "nom_search": "riviere mitis a) entre son embouchure 48 37 51 n 68 08 01 o ) et le cote en aval du pont de la route 132 pont bergeron) 48 37 33 n 68 07 52 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Mitis",
+      "aliases": [
+        "mitis",
+        "mitis a) entre son embouchure 48 37 51 n 68 08 01 o ) et le cote en aval du pont de la route 132 pont bergeron) 48 37 33 n 68 07 52 o )",
+        "riviere mitis",
+        "riviere mitis a) entre son embouchure 48 37 51 n 68 08 01 o ) et le cote en aval du pont de la route 132 pont bergeron) 48 37 33 n 68 07 52 o )"
+      ],
+      "lat": 48.630833,
+      "lon": -68.133611
+    },
+    {
+      "id": 218,
+      "zone_id": 1,
+      "nom_brut": "Rivière Mitis b) entre le côté en aval du pont de la route 132 ( 48°37'33\" N., 68°07'52' O. ).(pont Bergeron) et la limite en amont de la propriété des Immeubles Boisbrillant ( 48°37'12\" N., 68°08'21\" O. ). (Voir également la zone 2)",
+      "nom": "Rivière Mitis b) entre le côté en aval du pont de la route 132",
+      "nom_search": "riviere mitis b) entre le cote en aval du pont de la route 132 48 37 33 n 68 07 52 o ) pont bergeron) et la limite en amont de la propriete des immeubles boisbrillant 48 37 12 n 68 08 21 o ) voir egalement la zone 2)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Mitis",
+      "aliases": [
+        "mitis",
+        "mitis b) entre le cote en aval du pont de la route 132 48 37 33 n 68 07 52 o ) pont bergeron) et la limite en amont de la propriete des immeubles boisbrillant 48 37 12 n 68 08 21 o ) voir egalement la zone 2)",
+        "riviere mitis",
+        "riviere mitis b) entre le cote en aval du pont de la route 132 48 37 33 n 68 07 52 o ) pont bergeron) et la limite en amont de la propriete des immeubles boisbrillant 48 37 12 n 68 08 21 o ) voir egalement la zone 2)"
+      ],
+      "lat": 48.62,
+      "lon": -68.139167
+    },
+    {
+      "id": 219,
+      "zone_id": 1,
+      "nom_brut": "Rivière Mitis c) entre la limite en amont de la propriété des Immeubles Boisbrillant ( 48°37'12\" N., 68°08'21\" O. ) et le barrage de la Mitis-2. ( 48°37'08\" N., 68°08'22'' O. ) (Voir également la zone 2)",
+      "nom": "Rivière Mitis c) entre la limite en amont de la propriété des Immeubles Boisbrillant",
+      "nom_search": "riviere mitis c) entre la limite en amont de la propriete des immeubles boisbrillant 48 37 12 n 68 08 21 o ) et le barrage de la mitis 2 48 37 08 n 68 08 22 o ) voir egalement la zone 2)",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Mitis",
+      "aliases": [
+        "mitis",
+        "mitis c) entre la limite en amont de la propriete des immeubles boisbrillant 48 37 12 n 68 08 21 o ) et le barrage de la mitis 2 48 37 08 n 68 08 22 o ) voir egalement la zone 2)",
+        "riviere mitis",
+        "riviere mitis c) entre la limite en amont de la propriete des immeubles boisbrillant 48 37 12 n 68 08 21 o ) et le barrage de la mitis 2 48 37 08 n 68 08 22 o ) voir egalement la zone 2)"
+      ],
+      "lat": 48.62,
+      "lon": -68.139167
+    },
+    {
+      "id": 220,
+      "zone_id": 1,
+      "nom_brut": "Rivière Mitis d) entre le barrage de la Mitis-2 ( 48°37'08\" N., 68°08'22' O. ) et le pont de la route 132 ( 48°32'47\" N., 68°07'53'' O. ) à Sainte-Angèle-de-Mérici. (Voir également la zone 2)",
+      "nom": "Rivière Mitis d) entre le barrage de la Mitis-2",
+      "nom_search": "riviere mitis d) entre le barrage de la mitis 2 48 37 08 n 68 08 22 o ) et le pont de la route 132 48 32 47 n 68 07 53 o ) a sainte angele de merici voir egalement la zone 2)",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Mitis",
+      "aliases": [
+        "mitis",
+        "mitis d) entre le barrage de la mitis 2 48 37 08 n 68 08 22 o ) et le pont de la route 132 48 32 47 n 68 07 53 o ) a sainte angele de merici voir egalement la zone 2)",
+        "riviere mitis",
+        "riviere mitis d) entre le barrage de la mitis 2 48 37 08 n 68 08 22 o ) et le pont de la route 132 48 32 47 n 68 07 53 o ) a sainte angele de merici voir egalement la zone 2)",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.546389,
+      "lon": -68.131389
+    },
+    {
+      "id": 51,
+      "zone_id": 1,
+      "nom_brut": "Rivière Murphy entre le côté en aval du pont de la rue de la plage (pont de la Crevette Rose ( 48°34'56\" N., 64°17'32\" O. ), municipalité de Percé) et le côté en aval du pont de la route 132.",
+      "nom": "Rivière Murphy entre le côté en aval du pont de la rue de la plage",
+      "nom_search": "riviere murphy entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+      "segment_label": null,
+      "river_base_name": "Rivière Murphy",
+      "aliases": [
+        "murphy",
+        "murphy entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+        "riviere murphy",
+        "riviere murphy entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132"
+      ],
+      "lat": 48.582222,
+      "lon": -64.292222
+    },
+    {
+      "id": 224,
+      "zone_id": 1,
+      "nom_brut": "Rivière Nouvelle a) entre l'embouchure du ruisseau de la Cloche ( 48°06'53\" N., 66°16'53\" O. ) et un point situé à 25 m en amont de l'embouchure de la Petite rivière Nouvelle ( 48°18'08\" N., 66°30'44\" O. ).",
+      "nom": "Rivière Nouvelle a) entre l'embouchure du ruisseau de la Cloche",
+      "nom_search": "riviere nouvelle a) entre l embouchure du ruisseau de la cloche 48 06 53 n 66 16 53 o ) et un point situe a 25 m en amont de l embouchure de la petite riviere nouvelle 48 18 08 n 66 30 44 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Nouvelle",
+      "aliases": [
+        "nouvelle",
+        "nouvelle a) entre l embouchure du ruisseau de la cloche 48 06 53 n 66 16 53 o ) et un point situe a 25 m en amont de l embouchure de la petite riviere nouvelle 48 18 08 n 66 30 44 o )",
+        "riviere nouvelle",
+        "riviere nouvelle a) entre l embouchure du ruisseau de la cloche 48 06 53 n 66 16 53 o ) et un point situe a 25 m en amont de l embouchure de la petite riviere nouvelle 48 18 08 n 66 30 44 o )"
+      ],
+      "lat": 48.114722,
+      "lon": -66.281389
+    },
+    {
+      "id": 225,
+      "zone_id": 1,
+      "nom_brut": "Rivière Nouvelle b) entre un point situé à 25 m en amont de l'embouchure de la Petite rivière Nouvelle ( 48°18'08\" N., 66°30'44\" O. ) et la chute située au point 48°24'54\" N., 66°30'53\" O.",
+      "nom": "Rivière Nouvelle b) entre un point situé à 25 m en amont de l'embouchure de la Petite rivière Nouvelle",
+      "nom_search": "riviere nouvelle b) entre un point situe a 25 m en amont de l embouchure de la petite riviere nouvelle 48 18 08 n 66 30 44 o ) et la chute situee au point 48 24 54 n 66 30 53 o",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Nouvelle",
+      "aliases": [
+        "nouvelle",
+        "nouvelle b) entre un point situe a 25 m en amont de l embouchure de la petite riviere nouvelle 48 18 08 n 66 30 44 o ) et la chute situee au point 48 24 54 n 66 30 53 o",
+        "riviere nouvelle",
+        "riviere nouvelle b) entre un point situe a 25 m en amont de l embouchure de la petite riviere nouvelle 48 18 08 n 66 30 44 o ) et la chute situee au point 48 24 54 n 66 30 53 o"
+      ],
+      "lat": 48.302222,
+      "lon": -66.512222
+    },
+    {
+      "id": 1190,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cap-Chat entre sa confluence avec la rivière Cap-Chat et sa source.",
+      "nom": "Rivière Petite rivière Cap-Chat entre sa confluence avec la rivière Cap-Chat et sa source.",
+      "nom_search": "riviere petite riviere cap chat entre sa confluence avec la riviere cap chat et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Cap-Chat",
+      "aliases": [
+        "petite riviere cap chat",
+        "petite riviere cap chat entre sa confluence avec la riviere cap chat et sa source",
+        "riviere petite riviere cap chat",
+        "riviere petite riviere cap chat entre sa confluence avec la riviere cap chat et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 84,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia Est entre l'embouchure du ruisseau Lesseps ( 48°41'07\" N., 65°47'27\" O. ) et sa source.",
+      "nom": "Rivière Petite rivière Cascapédia Est entre l'embouchure du ruisseau Lesseps",
+      "nom_search": "riviere petite riviere cascapedia est entre l embouchure du ruisseau lesseps 48 41 07 n 65 47 27 o ) et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Cascapédia Est",
+      "aliases": [
+        "petite riviere cascapedia est",
+        "petite riviere cascapedia est entre l embouchure du ruisseau lesseps 48 41 07 n 65 47 27 o ) et sa source",
+        "riviere petite riviere cascapedia est",
+        "riviere petite riviere cascapedia est entre l embouchure du ruisseau lesseps 48 41 07 n 65 47 27 o ) et sa source"
+      ],
+      "lat": 48.685278,
+      "lon": -65.790833
+    },
+    {
+      "id": 3172,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia Est entre son embouchure ( 48°22'02\" N., 65°45'49\" O. ) et l'embouchure du Ruisseau Lesseps ( 48°41'07\" N., 65°47'27\" O. )",
+      "nom": "Rivière Petite rivière Cascapédia Est entre son embouchure",
+      "nom_search": "riviere petite riviere cascapedia est entre son embouchure 48 22 02 n 65 45 49 o ) et l embouchure du ruisseau lesseps 48 41 07 n 65 47 27 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Cascapédia Est",
+      "aliases": [
+        "petite riviere cascapedia est",
+        "petite riviere cascapedia est entre son embouchure 48 22 02 n 65 45 49 o ) et l embouchure du ruisseau lesseps 48 41 07 n 65 47 27 o )",
+        "riviere petite riviere cascapedia est",
+        "riviere petite riviere cascapedia est entre son embouchure 48 22 02 n 65 45 49 o ) et l embouchure du ruisseau lesseps 48 41 07 n 65 47 27 o )"
+      ],
+      "lat": 48.367222,
+      "lon": -65.763611
+    },
+    {
+      "id": 85,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia Ouest entre l'embouchure du ruisseau des Six Milles ( 48°42'59\" N., 65°59'07\" O. ) et sa source.",
+      "nom": "Rivière Petite rivière Cascapédia Ouest entre l'embouchure du ruisseau des Six Milles",
+      "nom_search": "riviere petite riviere cascapedia ouest entre l embouchure du ruisseau des six milles 48 42 59 n 65 59 07 o ) et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Cascapédia Ouest",
+      "aliases": [
+        "petite riviere cascapedia ouest",
+        "petite riviere cascapedia ouest entre l embouchure du ruisseau des six milles 48 42 59 n 65 59 07 o ) et sa source",
+        "riviere petite riviere cascapedia ouest",
+        "riviere petite riviere cascapedia ouest entre l embouchure du ruisseau des six milles 48 42 59 n 65 59 07 o ) et sa source"
+      ],
+      "lat": 48.716389,
+      "lon": -65.985278
+    },
+    {
+      "id": 3173,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia Ouest entre son embouchure ( 48°22'01\" N., 65°45'55\" O. ) et l'embouchure du ruisseau des Six Milles ( 48°42'59\" N., 65°59'07\" O. )",
+      "nom": "Rivière Petite rivière Cascapédia Ouest entre son embouchure",
+      "nom_search": "riviere petite riviere cascapedia ouest entre son embouchure 48 22 01 n 65 45 55 o ) et l embouchure du ruisseau des six milles 48 42 59 n 65 59 07 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Cascapédia Ouest",
+      "aliases": [
+        "petite riviere cascapedia ouest",
+        "petite riviere cascapedia ouest entre son embouchure 48 22 01 n 65 45 55 o ) et l embouchure du ruisseau des six milles 48 42 59 n 65 59 07 o )",
+        "riviere petite riviere cascapedia ouest",
+        "riviere petite riviere cascapedia ouest entre son embouchure 48 22 01 n 65 45 55 o ) et l embouchure du ruisseau des six milles 48 42 59 n 65 59 07 o )"
+      ],
+      "lat": 48.366944,
+      "lon": -65.765278
+    },
+    {
+      "id": 78,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia a) entre le côté en aval du pont du boulevard Perron et le côté en aval du pont de la route 132.",
+      "nom": "Rivière Petite rivière Cascapédia a) entre le côté en aval du pont du boulevard Perron et le côté en aval du pont de la route 132.",
+      "nom_search": "riviere petite riviere cascapedia a) entre le cote en aval du pont du boulevard perron et le cote en aval du pont de la route 132",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Petite rivière Cascapédia",
+      "aliases": [
+        "petite riviere cascapedia",
+        "petite riviere cascapedia a) entre le cote en aval du pont du boulevard perron et le cote en aval du pont de la route 132",
+        "riviere petite riviere cascapedia",
+        "riviere petite riviere cascapedia a) entre le cote en aval du pont du boulevard perron et le cote en aval du pont de la route 132"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 80,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia b) entre le côté en aval du pont de la route 132 et un point représentant le prolongement de la ligne de division des rangs V et VI du canton de New Richmond correspondant à la limite en aval de la zec Petite rivière Cascapédia ( 48°12'57\" N., 65°45'42\" O. ).",
+      "nom": "Rivière Petite rivière Cascapédia b) entre le côté en aval du pont de la route 132 et un point représentant le prolongement de la ligne de division des rangs V et VI du canton de New Richmond correspondant à la limite en aval de la zec Petite rivière Cascapédia",
+      "nom_search": "riviere petite riviere cascapedia b) entre le cote en aval du pont de la route 132 et un point representant le prolongement de la ligne de division des rangs v et vi du canton de new richmond correspondant a la limite en aval de la zec petite riviere cascapedia 48 12 57 n 65 45 42 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Petite rivière Cascapédia",
+      "aliases": [
+        "petite riviere cascapedia",
+        "petite riviere cascapedia b) entre le cote en aval du pont de la route 132 et un point representant le prolongement de la ligne de division des rangs v et vi du canton de new richmond correspondant a la limite en aval de la zec petite riviere cascapedia 48 12 57 n 65 45 42 o )",
+        "riviere petite riviere cascapedia",
+        "riviere petite riviere cascapedia b) entre le cote en aval du pont de la route 132 et un point representant le prolongement de la ligne de division des rangs v et vi du canton de new richmond correspondant a la limite en aval de la zec petite riviere cascapedia 48 12 57 n 65 45 42 o )"
+      ],
+      "lat": 48.215833,
+      "lon": -65.761667
+    },
+    {
+      "id": 81,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Cascapédia c) entre un point représentant le prolongement de la ligne de division des rangs V et VI du canton de New Richmond correspondant à la limite en aval de la zec Petite rivière Cascapédia ( 48°12'57\" N., 65°45'42\" O. ) et les fourches de la Petite rivière Cascapédia Est ( 48°22'02\" N., 65°45'49\" O. ) et de la Petite rivière Cascapédia Ouest ( 48°22'01\" N., 65°45'55\" O. ).",
+      "nom": "Rivière Petite rivière Cascapédia c) entre un point représentant le prolongement de la ligne de division des rangs V et VI du canton de New Richmond correspondant à la limite en aval de la zec Petite rivière Cascapédia",
+      "nom_search": "riviere petite riviere cascapedia c) entre un point representant le prolongement de la ligne de division des rangs v et vi du canton de new richmond correspondant a la limite en aval de la zec petite riviere cascapedia 48 12 57 n 65 45 42 o ) et les fourches de la petite riviere cascapedia est 48 22 02 n 65 45 49 o ) et de la petite riviere cascapedia ouest 48 22 01 n 65 45 55 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Petite rivière Cascapédia",
+      "aliases": [
+        "petite riviere cascapedia",
+        "petite riviere cascapedia c) entre un point representant le prolongement de la ligne de division des rangs v et vi du canton de new richmond correspondant a la limite en aval de la zec petite riviere cascapedia 48 12 57 n 65 45 42 o ) et les fourches de la petite riviere cascapedia est 48 22 02 n 65 45 49 o ) et de la petite riviere cascapedia ouest 48 22 01 n 65 45 55 o )",
+        "riviere petite riviere cascapedia",
+        "riviere petite riviere cascapedia c) entre un point representant le prolongement de la ligne de division des rangs v et vi du canton de new richmond correspondant a la limite en aval de la zec petite riviere cascapedia 48 12 57 n 65 45 42 o ) et les fourches de la petite riviere cascapedia est 48 22 02 n 65 45 49 o ) et de la petite riviere cascapedia ouest 48 22 01 n 65 45 55 o )"
+      ],
+      "lat": 48.215833,
+      "lon": -65.761667
+    },
+    {
+      "id": 1517,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Matane",
+      "nom": "Rivière Petite rivière Matane",
+      "nom_search": "riviere petite riviere matane",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Matane",
+      "aliases": [
+        "petite riviere matane",
+        "riviere petite riviere matane"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1528,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Nouvelle entre son embouchure ( 48°18'08\" N., 66°30'44\" O. ) et un point situé à 50 m en amont de l'embouchure du ruisseau Catalogne ( 48°23'45\" N., 66°45'02\" O. ).",
+      "nom": "Rivière Petite rivière Nouvelle entre son embouchure",
+      "nom_search": "riviere petite riviere nouvelle entre son embouchure 48 18 08 n 66 30 44 o ) et un point situe a 50 m en amont de l embouchure du ruisseau catalogne 48 23 45 n 66 45 02 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Nouvelle",
+      "aliases": [
+        "petite riviere nouvelle",
+        "petite riviere nouvelle entre son embouchure 48 18 08 n 66 30 44 o ) et un point situe a 50 m en amont de l embouchure du ruisseau catalogne 48 23 45 n 66 45 02 o )",
+        "riviere petite riviere nouvelle",
+        "riviere petite riviere nouvelle entre son embouchure 48 18 08 n 66 30 44 o ) et un point situe a 50 m en amont de l embouchure du ruisseau catalogne 48 23 45 n 66 45 02 o )"
+      ],
+      "lat": 48.302222,
+      "lon": -66.512222
+    },
+    {
+      "id": 235,
+      "zone_id": 1,
+      "nom_brut": "Rivière Petite rivière Port-Daniel entre le côté en aval du pont de la route 132 et sa source.",
+      "nom": "Rivière Petite rivière Port-Daniel entre le côté en aval du pont de la route 132 et sa source.",
+      "nom_search": "riviere petite riviere port daniel entre le cote en aval du pont de la route 132 et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Port-Daniel",
+      "aliases": [
+        "petite riviere port daniel",
+        "petite riviere port daniel entre le cote en aval du pont de la route 132 et sa source",
+        "riviere petite riviere port daniel",
+        "riviere petite riviere port daniel entre le cote en aval du pont de la route 132 et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1191,
+      "zone_id": 1,
+      "nom_brut": "Rivière Pineault (ruisseau Pineault) - La partie comprise entre sa confluence avec la rivière Cap-Chat et sa source.",
+      "nom": "Rivière Pineault",
+      "nom_search": "riviere pineault ruisseau pineault) la partie comprise entre sa confluence avec la riviere cap chat et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Pineault",
+      "aliases": [
+        "pineault",
+        "pineault ruisseau pineault) la partie comprise entre sa confluence avec la riviere cap chat et sa source",
+        "riviere pineault",
+        "riviere pineault ruisseau pineault) la partie comprise entre sa confluence avec la riviere cap chat et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 52,
+      "zone_id": 1,
+      "nom_brut": "Rivière Portage entre le côté en aval du pont de la rue de la plage (pont de la Crevette Rose ( 48°34'56\" N., 64°17'32\" O. ), municipalité de Percé) et le côté en aval du pont de la route 132.",
+      "nom": "Rivière Portage entre le côté en aval du pont de la rue de la plage",
+      "nom_search": "riviere portage entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+      "segment_label": null,
+      "river_base_name": "Rivière Portage",
+      "aliases": [
+        "portage",
+        "portage entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132",
+        "riviere portage",
+        "riviere portage entre le cote en aval du pont de la rue de la plage pont de la crevette rose 48 34 56 n 64 17 32 o ) municipalite de perce) et le cote en aval du pont de la route 132"
+      ],
+      "lat": 48.582222,
+      "lon": -64.292222
+    },
+    {
+      "id": 247,
+      "zone_id": 1,
+      "nom_brut": "Rivière Port-Daniel du Milieu ( 48°11'49\" N., 64°58'32\" O. ).",
+      "nom": "Rivière Port-Daniel du Milieu",
+      "nom_search": "riviere port daniel du milieu 48 11 49 n 64 58 32 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Port-Daniel du Milieu",
+      "aliases": [
+        "port daniel du milieu",
+        "port daniel du milieu 48 11 49 n 64 58 32 o )",
+        "riviere port daniel du milieu",
+        "riviere port daniel du milieu 48 11 49 n 64 58 32 o )"
+      ],
+      "lat": 48.196944,
+      "lon": -64.975556
+    },
+    {
+      "id": 242,
+      "zone_id": 1,
+      "nom_brut": "Rivière Port-Daniel a) entre le côté en aval du pont de la route 132 et le pont de la rivière Port-Daniel, rang VI ( 48°13'07\" N., 64°57'23\" O. ).",
+      "nom": "Rivière Port-Daniel a) entre le côté en aval du pont de la route 132 et le pont de la rivière Port-Daniel, rang VI",
+      "nom_search": "riviere port daniel a) entre le cote en aval du pont de la route 132 et le pont de la riviere port daniel rang vi 48 13 07 n 64 57 23 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Port-Daniel",
+      "aliases": [
+        "port daniel",
+        "port daniel a) entre le cote en aval du pont de la route 132 et le pont de la riviere port daniel rang vi 48 13 07 n 64 57 23 o )",
+        "riviere port daniel",
+        "riviere port daniel a) entre le cote en aval du pont de la route 132 et le pont de la riviere port daniel rang vi 48 13 07 n 64 57 23 o )"
+      ],
+      "lat": 48.218611,
+      "lon": -64.956389
+    },
+    {
+      "id": 243,
+      "zone_id": 1,
+      "nom_brut": "Rivière Port-Daniel b) entre le pont de la rivière Port-Daniel (rang VI) et la barrière d'arrêt située au point 48°15'04\" N., 64°58'08\" O.",
+      "nom": "Rivière Port-Daniel b) entre le pont de la rivière Port-Daniel",
+      "nom_search": "riviere port daniel b) entre le pont de la riviere port daniel rang vi) et la barriere d arret situee au point 48 15 04 n 64 58 08 o",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Port-Daniel",
+      "aliases": [
+        "port daniel",
+        "port daniel b) entre le pont de la riviere port daniel rang vi) et la barriere d arret situee au point 48 15 04 n 64 58 08 o",
+        "riviere port daniel",
+        "riviere port daniel b) entre le pont de la riviere port daniel rang vi) et la barriere d arret situee au point 48 15 04 n 64 58 08 o"
+      ],
+      "lat": 48.251111,
+      "lon": -64.968889
+    },
+    {
+      "id": 244,
+      "zone_id": 1,
+      "nom_brut": "Rivière Port-Daniel c) entre la barrière d'arrêt au point 48°15'04\" N., 64°58'08\" O. et sa source.",
+      "nom": "Rivière Port-Daniel c) entre la barrière d'arrêt au point 48°15'04\" N., 64°58'08\" O. et sa source.",
+      "nom_search": "riviere port daniel c) entre la barriere d arret au point 48 15 04 n 64 58 08 o et sa source",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Port-Daniel",
+      "aliases": [
+        "port daniel",
+        "port daniel c) entre la barriere d arret au point 48 15 04 n 64 58 08 o et sa source",
+        "riviere port daniel",
+        "riviere port daniel c) entre la barriere d arret au point 48 15 04 n 64 58 08 o et sa source"
+      ],
+      "lat": 48.251111,
+      "lon": -64.968889
+    },
+    {
+      "id": 61,
+      "zone_id": 1,
+      "nom_brut": "Rivière Reboul",
+      "nom": "Rivière Reboul",
+      "nom_search": "riviere reboul",
+      "segment_label": null,
+      "river_base_name": "Rivière Reboul",
+      "aliases": [
+        "reboul",
+        "riviere reboul"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 252,
+      "zone_id": 1,
+      "nom_brut": "Rivière Ristigouche a) entre une ligne transversale reliant les deux rives, de la Coulée Ferguson au Québec au Ruisseau Copeland au Nouveau- Brunswick et le pont du CN à Matapédia ( 47°58'36,5\" N., 66°55'44\" O. ). (voir également la zone 2)",
+      "nom": "Rivière Ristigouche a) entre une ligne transversale reliant les deux rives, de la Coulée Ferguson au Québec au Ruisseau Copeland au Nouveau- Brunswick et le pont du CN à Matapédia",
+      "nom_search": "riviere ristigouche a) entre une ligne transversale reliant les deux rives de la coulee ferguson au quebec au ruisseau copeland au nouveau brunswick et le pont du cn a matapedia 47 58 36 5 n 66 55 44 o ) voir egalement la zone 2)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Ristigouche",
+      "aliases": [
+        "ristigouche",
+        "ristigouche a) entre une ligne transversale reliant les deux rives de la coulee ferguson au quebec au ruisseau copeland au nouveau brunswick et le pont du cn a matapedia 47 58 36 5 n 66 55 44 o ) voir egalement la zone 2)",
+        "riviere ristigouche",
+        "riviere ristigouche a) entre une ligne transversale reliant les deux rives de la coulee ferguson au quebec au ruisseau copeland au nouveau brunswick et le pont du cn a matapedia 47 58 36 5 n 66 55 44 o ) voir egalement la zone 2)"
+      ],
+      "lat": 47.976806,
+      "lon": -66.928889
+    },
+    {
+      "id": 254,
+      "zone_id": 1,
+      "nom_brut": "Rivière Ristigouche b) entre le pont du CN à Matapédia ( 47°58'36,5\" N., 66°55'44\" O. ) et l'embouchure de la rivière Matapédia ( 47°58'19\" N., 66°56'26\" O. ). (voir également la zone 2)",
+      "nom": "Rivière Ristigouche b) entre le pont du CN à Matapédia",
+      "nom_search": "riviere ristigouche b) entre le pont du cn a matapedia 47 58 36 5 n 66 55 44 o ) et l embouchure de la riviere matapedia 47 58 19 n 66 56 26 o ) voir egalement la zone 2)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Ristigouche",
+      "aliases": [
+        "ristigouche",
+        "ristigouche b) entre le pont du cn a matapedia 47 58 36 5 n 66 55 44 o ) et l embouchure de la riviere matapedia 47 58 19 n 66 56 26 o ) voir egalement la zone 2)",
+        "riviere ristigouche",
+        "riviere ristigouche b) entre le pont du cn a matapedia 47 58 36 5 n 66 55 44 o ) et l embouchure de la riviere matapedia 47 58 19 n 66 56 26 o ) voir egalement la zone 2)"
+      ],
+      "lat": 47.976806,
+      "lon": -66.928889
+    },
+    {
+      "id": 248,
+      "zone_id": 1,
+      "nom_brut": "Rivière Ristigouche entre le pont de Campbellton et une ligne transversale reliant les deux rives, de la Coulée Ferguson au Québec au Ruisseau Copeland au Nouveau-Brunswick. (voir également la zone 2).Ce secteur n'a pas le statut de rivière à saumon.",
+      "nom": "Rivière Ristigouche entre le pont de Campbellton et une ligne transversale reliant les deux rives, de la Coulée Ferguson au Québec au Ruisseau Copeland au Nouveau-Brunswick.",
+      "nom_search": "riviere ristigouche entre le pont de campbellton et une ligne transversale reliant les deux rives de la coulee ferguson au quebec au ruisseau copeland au nouveau brunswick voir egalement la zone 2) ce secteur n a pas le statut de riviere a saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Ristigouche",
+      "aliases": [
+        "ristigouche",
+        "ristigouche entre le pont de campbellton et une ligne transversale reliant les deux rives de la coulee ferguson au quebec au ruisseau copeland au nouveau brunswick voir egalement la zone 2) ce secteur n a pas le statut de riviere a saumon",
+        "riviere ristigouche",
+        "riviere ristigouche entre le pont de campbellton et une ligne transversale reliant les deux rives de la coulee ferguson au quebec au ruisseau copeland au nouveau brunswick voir egalement la zone 2) ce secteur n a pas le statut de riviere a saumon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 265,
+      "zone_id": 1,
+      "nom_brut": "Rivière Sainte-Anne Nord-Est entre sa confluence avec la rivière Sainte-Anne ( 48°56'55\" N., 66° 07'41\" O. ) et sa source.",
+      "nom": "Rivière Sainte-Anne Nord-Est entre sa confluence avec la rivière Sainte-Anne",
+      "nom_search": "riviere sainte anne nord est entre sa confluence avec la riviere sainte anne 48 56 55 n 66 07 41 o ) et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Sainte-Anne Nord-Est",
+      "aliases": [
+        "riviere sainte anne nord est",
+        "riviere sainte anne nord est entre sa confluence avec la riviere sainte anne 48 56 55 n 66 07 41 o ) et sa source",
+        "sainte anne nord est",
+        "sainte anne nord est entre sa confluence avec la riviere sainte anne 48 56 55 n 66 07 41 o ) et sa source",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.948611,
+      "lon": -66.128056
+    },
+    {
+      "id": 257,
+      "zone_id": 1,
+      "nom_brut": "Rivière Sainte-Anne a) entre le côté en aval du pont de la 1ère Avenue Ouest à Sainte-Anne-des-Monts et le côté en aval du pont de la route 132. (voir également la zone 21)",
+      "nom": "Rivière Sainte-Anne a) entre le côté en aval du pont de la 1ère Avenue Ouest à Sainte-Anne-des-Monts et le côté en aval du pont de la route 132.",
+      "nom_search": "riviere sainte anne a) entre le cote en aval du pont de la 1ere avenue ouest a sainte anne des monts et le cote en aval du pont de la route 132 voir egalement la zone 21)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Sainte-Anne",
+      "aliases": [
+        "riviere sainte anne",
+        "riviere sainte anne a) entre le cote en aval du pont de la 1ere avenue ouest a sainte anne des monts et le cote en aval du pont de la route 132 voir egalement la zone 21)",
+        "sainte anne",
+        "sainte anne a) entre le cote en aval du pont de la 1ere avenue ouest a sainte anne des monts et le cote en aval du pont de la route 132 voir egalement la zone 21)",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 260,
+      "zone_id": 1,
+      "nom_brut": "Rivière Sainte-Anne b) entre le côté en aval du pont de la route 132 et la limite nord du parc national de la Gaspésie ( 48°58'57\" N., 66°24'11\" O. ).",
+      "nom": "Rivière Sainte-Anne b) entre le côté en aval du pont de la route 132 et la limite nord du parc national de la Gaspésie",
+      "nom_search": "riviere sainte anne b) entre le cote en aval du pont de la route 132 et la limite nord du parc national de la gaspesie 48 58 57 n 66 24 11 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Sainte-Anne",
+      "aliases": [
+        "riviere sainte anne",
+        "riviere sainte anne b) entre le cote en aval du pont de la route 132 et la limite nord du parc national de la gaspesie 48 58 57 n 66 24 11 o )",
+        "sainte anne",
+        "sainte anne b) entre le cote en aval du pont de la route 132 et la limite nord du parc national de la gaspesie 48 58 57 n 66 24 11 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.9825,
+      "lon": -66.403056
+    },
+    {
+      "id": 262,
+      "zone_id": 1,
+      "nom_brut": "Rivière Sainte-Anne c) entre la limite nord du parc national de la Gaspésie ( 48°58'57\" N., 66°24'11\" O. ) et la chute située près du Gîte du Mont-Albert ( 48°56'26\" N., 66°07'27\" O. ).",
+      "nom": "Rivière Sainte-Anne c) entre la limite nord du parc national de la Gaspésie",
+      "nom_search": "riviere sainte anne c) entre la limite nord du parc national de la gaspesie 48 58 57 n 66 24 11 o ) et la chute situee pres du gite du mont albert 48 56 26 n 66 07 27 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Sainte-Anne",
+      "aliases": [
+        "riviere sainte anne",
+        "riviere sainte anne c) entre la limite nord du parc national de la gaspesie 48 58 57 n 66 24 11 o ) et la chute situee pres du gite du mont albert 48 56 26 n 66 07 27 o )",
+        "sainte anne",
+        "sainte anne c) entre la limite nord du parc national de la gaspesie 48 58 57 n 66 24 11 o ) et la chute situee pres du gite du mont albert 48 56 26 n 66 07 27 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.9825,
+      "lon": -66.403056
+    },
+    {
+      "id": 266,
+      "zone_id": 1,
+      "nom_brut": "Rivière Saint-Jean Sud",
+      "nom": "Rivière Saint-Jean Sud",
+      "nom_search": "riviere saint jean sud",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Jean Sud",
+      "aliases": [
+        "riviere saint jean sud",
+        "saint jean sud"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 268,
+      "zone_id": 1,
+      "nom_brut": "Rivière Saint-Jean a) entre une droite joignant la limite de séparation des lots 1 et D (rang 1, Haldimand), à la limite de séparation des lots 12 et 13 (rang Nord-Ouest-de-la-Ville), correspondant à une droite joignant les points 48°47'23,5\" N., 64°23'23\" O. et 48°46'11,5\" N., 64°23'32\" O. , et la limite de séparation des cantons York et Douglas, correspondant à une droite joignant les points 48°46'18\" N., 64°27'02\" O. et 48°46'14\" N., 64°27'02\" O. (ainsi que les tributaires fréquentés par le saumon)",
+      "nom": "Rivière Saint-Jean a) entre une droite joignant la limite de séparation des lots 1 et D",
+      "nom_search": "riviere saint jean a) entre une droite joignant la limite de separation des lots 1 et d rang 1 haldimand) a la limite de separation des lots 12 et 13 rang nord ouest de la ville) correspondant a une droite joignant les points 48 47 23 5 n 64 23 23 o et 48 46 11 5 n 64 23 32 o et la limite de separation des cantons york et douglas correspondant a une droite joignant les points 48 46 18 n 64 27 02 o et 48 46 14 n 64 27 02 o ainsi que les tributaires frequentes par le saumon)",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean a) entre une droite joignant la limite de separation des lots 1 et d rang 1 haldimand) a la limite de separation des lots 12 et 13 rang nord ouest de la ville) correspondant a une droite joignant les points 48 47 23 5 n 64 23 23 o et 48 46 11 5 n 64 23 32 o et la limite de separation des cantons york et douglas correspondant a une droite joignant les points 48 46 18 n 64 27 02 o et 48 46 14 n 64 27 02 o ainsi que les tributaires frequentes par le saumon)",
+        "saint jean",
+        "saint jean a) entre une droite joignant la limite de separation des lots 1 et d rang 1 haldimand) a la limite de separation des lots 12 et 13 rang nord ouest de la ville) correspondant a une droite joignant les points 48 47 23 5 n 64 23 23 o et 48 46 11 5 n 64 23 32 o et la limite de separation des cantons york et douglas correspondant a une droite joignant les points 48 46 18 n 64 27 02 o et 48 46 14 n 64 27 02 o ainsi que les tributaires frequentes par le saumon)"
+      ],
+      "lat": 48.789861,
+      "lon": -64.389722
+    },
+    {
+      "id": 269,
+      "zone_id": 1,
+      "nom_brut": "Rivière Saint-Jean b) entre la limite de séparation des cantons York et Douglas, correspondant à une droite joignant les points 48°46'18\" N., 64°27'02\" O. et 48°46'14\" N., 64°27'02\" O. , et l'embouchure du ruisseau Sirois ( 48°43'18,15'' N., 65°03'58,51'' O. ) (ainsi que les tributaires fréquentés par le saumon)",
+      "nom": "Rivière Saint-Jean b) entre la limite de séparation des cantons York et Douglas, correspondant à une droite joignant les points 48°46'18\" N., 64°27'02\" O. et 48°46'14\" N., 64°27'02\" O. , et l'embouchure du ruisseau Sirois",
+      "nom_search": "riviere saint jean b) entre la limite de separation des cantons york et douglas correspondant a une droite joignant les points 48 46 18 n 64 27 02 o et 48 46 14 n 64 27 02 o et l embouchure du ruisseau sirois 48 43 18 15 n 65 03 58 51 o ) ainsi que les tributaires frequentes par le saumon)",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean b) entre la limite de separation des cantons york et douglas correspondant a une droite joignant les points 48 46 18 n 64 27 02 o et 48 46 14 n 64 27 02 o et l embouchure du ruisseau sirois 48 43 18 15 n 65 03 58 51 o ) ainsi que les tributaires frequentes par le saumon)",
+        "saint jean",
+        "saint jean b) entre la limite de separation des cantons york et douglas correspondant a une droite joignant les points 48 46 18 n 64 27 02 o et 48 46 14 n 64 27 02 o et l embouchure du ruisseau sirois 48 43 18 15 n 65 03 58 51 o ) ainsi que les tributaires frequentes par le saumon)"
+      ],
+      "lat": 48.771667,
+      "lon": -64.450556
+    },
+    {
+      "id": 12240,
+      "zone_id": 1,
+      "nom_brut": "Rivière Saint-Jean c) entre l'embouchure du ruisseau Sirois ( 48°43'18,15'' N., 65°03'58,51'' O. ) et l'embouchure de la rivière Saint-Jean Sud ( 48°43'06\" N., 65° 06'11\" O. ) (ainsi que les tributaires fréquentés par le saumon)",
+      "nom": "Rivière Saint-Jean c) entre l'embouchure du ruisseau Sirois",
+      "nom_search": "riviere saint jean c) entre l embouchure du ruisseau sirois 48 43 18 15 n 65 03 58 51 o ) et l embouchure de la riviere saint jean sud 48 43 06 n 65 06 11 o ) ainsi que les tributaires frequentes par le saumon)",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean c) entre l embouchure du ruisseau sirois 48 43 18 15 n 65 03 58 51 o ) et l embouchure de la riviere saint jean sud 48 43 06 n 65 06 11 o ) ainsi que les tributaires frequentes par le saumon)",
+        "saint jean",
+        "saint jean c) entre l embouchure du ruisseau sirois 48 43 18 15 n 65 03 58 51 o ) et l embouchure de la riviere saint jean sud 48 43 06 n 65 06 11 o ) ainsi que les tributaires frequentes par le saumon)"
+      ],
+      "lat": 48.721708,
+      "lon": -65.066253
+    },
+    {
+      "id": 270,
+      "zone_id": 1,
+      "nom_brut": "Rivière Saint-Jean d) entre l'embouchure de la rivière Saint-Jean Sud ( 48°43'06\" N., 65°06'11\" O. ) et la source de la rivière Saint-Jean (ainsi que les tributaires fréquentés par le saumon)",
+      "nom": "Rivière Saint-Jean d) entre l'embouchure de la rivière Saint-Jean Sud",
+      "nom_search": "riviere saint jean d) entre l embouchure de la riviere saint jean sud 48 43 06 n 65 06 11 o ) et la source de la riviere saint jean ainsi que les tributaires frequentes par le saumon)",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean d) entre l embouchure de la riviere saint jean sud 48 43 06 n 65 06 11 o ) et la source de la riviere saint jean ainsi que les tributaires frequentes par le saumon)",
+        "saint jean",
+        "saint jean d) entre l embouchure de la riviere saint jean sud 48 43 06 n 65 06 11 o ) et la source de la riviere saint jean ainsi que les tributaires frequentes par le saumon)"
+      ],
+      "lat": 48.718333,
+      "lon": -65.103056
+    },
+    {
+      "id": 267,
+      "zone_id": 1,
+      "nom_brut": "Rivière Saint-Jean entre la limite en aval du barachois (incluant le côté en aval du pont du CN) et une ligne joignant la limite de séparation des lots 1 et D (rang 1, Haldimand), à la limite de séparation des lots 12 et 13 (rang Nord-Ouest-de-la-Ville), correspondant à une droite joignant les points 48°47'23,5\" N., 64°23'23\" O. et 48°46'11,5\" N., 64°23'32\" O. Ce secteur n'a pas le statut de rivière à saumon.",
+      "nom": "Rivière Saint-Jean entre la limite en aval du barachois",
+      "nom_search": "riviere saint jean entre la limite en aval du barachois incluant le cote en aval du pont du cn) et une ligne joignant la limite de separation des lots 1 et d rang 1 haldimand) a la limite de separation des lots 12 et 13 rang nord ouest de la ville) correspondant a une droite joignant les points 48 47 23 5 n 64 23 23 o et 48 46 11 5 n 64 23 32 o ce secteur n a pas le statut de riviere a saumon",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean entre la limite en aval du barachois incluant le cote en aval du pont du cn) et une ligne joignant la limite de separation des lots 1 et d rang 1 haldimand) a la limite de separation des lots 12 et 13 rang nord ouest de la ville) correspondant a une droite joignant les points 48 47 23 5 n 64 23 23 o et 48 46 11 5 n 64 23 32 o ce secteur n a pas le statut de riviere a saumon",
+        "saint jean",
+        "saint jean entre la limite en aval du barachois incluant le cote en aval du pont du cn) et une ligne joignant la limite de separation des lots 1 et d rang 1 haldimand) a la limite de separation des lots 12 et 13 rang nord ouest de la ville) correspondant a une droite joignant les points 48 47 23 5 n 64 23 23 o et 48 46 11 5 n 64 23 32 o ce secteur n a pas le statut de riviere a saumon"
+      ],
+      "lat": 48.789861,
+      "lon": -64.389722
+    },
+    {
+      "id": 274,
+      "zone_id": 1,
+      "nom_brut": "Rivière York a) entre le côté en aval du pont de la route 132 et une ligne joignant la limite de séparation des lots 22 et 23 ( 48°49'51\" N., 64°34'20\" O. ), à la limite de séparation des lots 17 et 18 (rang 1, canton York) ( 48°49'07\" N., 64°34'28\" O. ).",
+      "nom": "Rivière York a) entre le côté en aval du pont de la route 132 et une ligne joignant la limite de séparation des lots 22 et 23",
+      "nom_search": "riviere york a) entre le cote en aval du pont de la route 132 et une ligne joignant la limite de separation des lots 22 et 23 48 49 51 n 64 34 20 o ) a la limite de separation des lots 17 et 18 rang 1 canton york) 48 49 07 n 64 34 28 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière York",
+      "aliases": [
+        "riviere york",
+        "riviere york a) entre le cote en aval du pont de la route 132 et une ligne joignant la limite de separation des lots 22 et 23 48 49 51 n 64 34 20 o ) a la limite de separation des lots 17 et 18 rang 1 canton york) 48 49 07 n 64 34 28 o )",
+        "york",
+        "york a) entre le cote en aval du pont de la route 132 et une ligne joignant la limite de separation des lots 22 et 23 48 49 51 n 64 34 20 o ) a la limite de separation des lots 17 et 18 rang 1 canton york) 48 49 07 n 64 34 28 o )"
+      ],
+      "lat": 48.830833,
+      "lon": -64.572222
+    },
+    {
+      "id": 276,
+      "zone_id": 1,
+      "nom_brut": "Rivière York b) entre une ligne joignant la limite de séparation des lots 22 et 23 ( 48°49'51\" N., 64°34'20\" O. ), à la limite de séparation des lots 17 et 18 (rang 1, canton York) ( 48°49'07\" N., 64°34'28\" O. ) et le côté en aval du pont de Wakeham.",
+      "nom": "Rivière York b) entre une ligne joignant la limite de séparation des lots 22 et 23",
+      "nom_search": "riviere york b) entre une ligne joignant la limite de separation des lots 22 et 23 48 49 51 n 64 34 20 o ) a la limite de separation des lots 17 et 18 rang 1 canton york) 48 49 07 n 64 34 28 o ) et le cote en aval du pont de wakeham",
+      "segment_label": "b)",
+      "river_base_name": "Rivière York",
+      "aliases": [
+        "riviere york",
+        "riviere york b) entre une ligne joignant la limite de separation des lots 22 et 23 48 49 51 n 64 34 20 o ) a la limite de separation des lots 17 et 18 rang 1 canton york) 48 49 07 n 64 34 28 o ) et le cote en aval du pont de wakeham",
+        "york",
+        "york b) entre une ligne joignant la limite de separation des lots 22 et 23 48 49 51 n 64 34 20 o ) a la limite de separation des lots 17 et 18 rang 1 canton york) 48 49 07 n 64 34 28 o ) et le cote en aval du pont de wakeham"
+      ],
+      "lat": 48.830833,
+      "lon": -64.572222
+    },
+    {
+      "id": 278,
+      "zone_id": 1,
+      "nom_brut": "Rivière York c.1) entre le côté en aval du pont de Wakeham et l'embouchure du ruisseau Patch ( 48°55'37\" N., 65° 06'36\" O. )",
+      "nom": "Rivière York c.1) entre le côté en aval du pont de Wakeham et l'embouchure du ruisseau Patch",
+      "nom_search": "riviere york c 1) entre le cote en aval du pont de wakeham et l embouchure du ruisseau patch 48 55 37 n 65 06 36 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière York c.1)",
+      "aliases": [
+        "riviere york c 1)",
+        "riviere york c 1) entre le cote en aval du pont de wakeham et l embouchure du ruisseau patch 48 55 37 n 65 06 36 o )",
+        "york c 1)",
+        "york c 1) entre le cote en aval du pont de wakeham et l embouchure du ruisseau patch 48 55 37 n 65 06 36 o )"
+      ],
+      "lat": 48.926944,
+      "lon": -65.11
+    },
+    {
+      "id": 280,
+      "zone_id": 1,
+      "nom_brut": "Rivière York c.2) entre l'embouchure du ruisseau Patch ( 48°55'37\" N., 65°06'36\" O. ) et l'embouchure du ruisseau Castor ( 48°53'17\" N., 65°11'25\" O. )",
+      "nom": "Rivière York c.2) entre l'embouchure du ruisseau Patch",
+      "nom_search": "riviere york c 2) entre l embouchure du ruisseau patch 48 55 37 n 65 06 36 o ) et l embouchure du ruisseau castor 48 53 17 n 65 11 25 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière York c.2)",
+      "aliases": [
+        "riviere york c 2)",
+        "riviere york c 2) entre l embouchure du ruisseau patch 48 55 37 n 65 06 36 o ) et l embouchure du ruisseau castor 48 53 17 n 65 11 25 o )",
+        "york c 2)",
+        "york c 2) entre l embouchure du ruisseau patch 48 55 37 n 65 06 36 o ) et l embouchure du ruisseau castor 48 53 17 n 65 11 25 o )"
+      ],
+      "lat": 48.926944,
+      "lon": -65.11
+    },
+    {
+      "id": 281,
+      "zone_id": 1,
+      "nom_brut": "Rivière York d) entre l'embouchure du ruisseau Castor ( 48°53'17\" N., 65°11'25\" O. ) et l'émissaire du lac York ( 48°56'59\" N., 65°25'11\" O. ).",
+      "nom": "Rivière York d) entre l'embouchure du ruisseau Castor",
+      "nom_search": "riviere york d) entre l embouchure du ruisseau castor 48 53 17 n 65 11 25 o ) et l emissaire du lac york 48 56 59 n 65 25 11 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière York",
+      "aliases": [
+        "riviere york",
+        "riviere york d) entre l embouchure du ruisseau castor 48 53 17 n 65 11 25 o ) et l emissaire du lac york 48 56 59 n 65 25 11 o )",
+        "york",
+        "york d) entre l embouchure du ruisseau castor 48 53 17 n 65 11 25 o ) et l emissaire du lac york 48 56 59 n 65 25 11 o )"
+      ],
+      "lat": 48.888056,
+      "lon": -65.190278
+    },
+    {
+      "id": 1505,
+      "zone_id": 1,
+      "nom_brut": "Ruisseau Blanc (tributaire du ruisseau Malbaie) ( 48°31'48\" N., 64°32'47\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Ruisseau Blanc",
+      "nom_search": "ruisseau blanc tributaire du ruisseau malbaie) 48 31 48 n 64 32 47 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Blanc",
+      "aliases": [
+        "blanc",
+        "blanc tributaire du ruisseau malbaie) 48 31 48 n 64 32 47 o ) n a pas le statut de riviere a saumon)",
+        "ruisseau blanc",
+        "ruisseau blanc tributaire du ruisseau malbaie) 48 31 48 n 64 32 47 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.53,
+      "lon": -64.546389
+    },
+    {
+      "id": 2658,
+      "zone_id": 1,
+      "nom_brut": "Ruisseau des Mineurs a) entre sa confluence avec la rivière Cascapédia et la limite de la réserve faunique de Dunière ( 48°38'35\" N., 66°24'05\" O. ).",
+      "nom": "Ruisseau des Mineurs a) entre sa confluence avec la rivière Cascapédia et la limite de la réserve faunique de Dunière",
+      "nom_search": "ruisseau des mineurs a) entre sa confluence avec la riviere cascapedia et la limite de la reserve faunique de duniere 48 38 35 n 66 24 05 o )",
+      "segment_label": "a)",
+      "river_base_name": "Ruisseau des Mineurs",
+      "aliases": [
+        "des mineurs",
+        "des mineurs a) entre sa confluence avec la riviere cascapedia et la limite de la reserve faunique de duniere 48 38 35 n 66 24 05 o )",
+        "ruisseau des mineurs",
+        "ruisseau des mineurs a) entre sa confluence avec la riviere cascapedia et la limite de la reserve faunique de duniere 48 38 35 n 66 24 05 o )"
+      ],
+      "lat": 48.643056,
+      "lon": -66.401389
+    },
+    {
+      "id": 2659,
+      "zone_id": 1,
+      "nom_brut": "Ruisseau des Mineurs b) entre la limite de la réserve faunique de Dunière ( 48°38'35\" N., 66°24'05\" O. ) et sa source ( 48°39'29\" N., 66°41'49\" O. ).",
+      "nom": "Ruisseau des Mineurs b) entre la limite de la réserve faunique de Dunière",
+      "nom_search": "ruisseau des mineurs b) entre la limite de la reserve faunique de duniere 48 38 35 n 66 24 05 o ) et sa source 48 39 29 n 66 41 49 o )",
+      "segment_label": "b)",
+      "river_base_name": "Ruisseau des Mineurs",
+      "aliases": [
+        "des mineurs",
+        "des mineurs b) entre la limite de la reserve faunique de duniere 48 38 35 n 66 24 05 o ) et sa source 48 39 29 n 66 41 49 o )",
+        "ruisseau des mineurs",
+        "ruisseau des mineurs b) entre la limite de la reserve faunique de duniere 48 38 35 n 66 24 05 o ) et sa source 48 39 29 n 66 41 49 o )"
+      ],
+      "lat": 48.643056,
+      "lon": -66.401389
+    },
+    {
+      "id": 1502,
+      "zone_id": 1,
+      "nom_brut": "Ruisseau Malbaie ( 48°31'05\" N., 64°33'39\" O. ) (n'a pas le statut de rivière à saumon)",
+      "nom": "Ruisseau Malbaie",
+      "nom_search": "ruisseau malbaie 48 31 05 n 64 33 39 o ) n a pas le statut de riviere a saumon)",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie 48 31 05 n 64 33 39 o ) n a pas le statut de riviere a saumon)",
+        "ruisseau malbaie",
+        "ruisseau malbaie 48 31 05 n 64 33 39 o ) n a pas le statut de riviere a saumon)"
+      ],
+      "lat": 48.518056,
+      "lon": -64.560833
+    },
+    {
+      "id": 1533,
+      "zone_id": 1,
+      "nom_brut": "Ruisseau Mann entre son point de confluence avec la rivière Nouvelle ( 48°09'48'' N., 66°21'46\" O. ) et un point situé à 50 m en amont de l'embouchure du ruisseau Mann-Est ( 48°09'48\" N., 66°21'49\" O. ).",
+      "nom": "Ruisseau Mann entre son point de confluence avec la rivière Nouvelle",
+      "nom_search": "ruisseau mann entre son point de confluence avec la riviere nouvelle 48 09 48 n 66 21 46 o ) et un point situe a 50 m en amont de l embouchure du ruisseau mann est 48 09 48 n 66 21 49 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Mann",
+      "aliases": [
+        "mann",
+        "mann entre son point de confluence avec la riviere nouvelle 48 09 48 n 66 21 46 o ) et un point situe a 50 m en amont de l embouchure du ruisseau mann est 48 09 48 n 66 21 49 o )",
+        "ruisseau mann",
+        "ruisseau mann entre son point de confluence avec la riviere nouvelle 48 09 48 n 66 21 46 o ) et un point situe a 50 m en amont de l embouchure du ruisseau mann est 48 09 48 n 66 21 49 o )"
+      ],
+      "lat": 48.163333,
+      "lon": -66.362778
+    },
+    {
+      "id": 62,
+      "zone_id": 1,
+      "nom_brut": "Ruisseau Mourier",
+      "nom": "Ruisseau Mourier",
+      "nom_search": "ruisseau mourier",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Mourier",
+      "aliases": [
+        "mourier",
+        "ruisseau mourier"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2345,
+      "zone_id": 1,
+      "nom_brut": "Zec Baillargeon",
+      "nom": "Zec Baillargeon",
+      "nom_search": "zec baillargeon",
+      "segment_label": null,
+      "river_base_name": "Zec Baillargeon",
+      "aliases": [
+        "zec baillargeon"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2353,
+      "zone_id": 1,
+      "nom_brut": "Zec Cap-Chat",
+      "nom": "Zec Cap-Chat",
+      "nom_search": "zec cap chat",
+      "segment_label": null,
+      "river_base_name": "Zec Cap-Chat",
+      "aliases": [
+        "zec cap chat"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2356,
+      "zone_id": 1,
+      "nom_brut": "Zec Casault",
+      "nom": "Zec Casault",
+      "nom_search": "zec casault",
+      "segment_label": null,
+      "river_base_name": "Zec Casault",
+      "aliases": [
+        "zec casault"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2343,
+      "zone_id": 1,
+      "nom_brut": "Zec des Anses",
+      "nom": "Zec des Anses",
+      "nom_search": "zec des anses",
+      "segment_label": null,
+      "river_base_name": "Zec des Anses",
+      "aliases": [
+        "zec des anses"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

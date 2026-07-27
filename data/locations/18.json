@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "zone_id": 18,
+    "zone_nom": "Zone 17",
+    "nb_plans": 32,
+    "nb_geocoded": 32,
+    "pct_geocoded": 100.0,
+    "source_file": "zones/18.json"
+  },
+  "locations": [
+    {
+      "id": 888,
+      "zone_id": 18,
+      "nom_brut": "Lac Antoinette ( 49°56'00\" N., 74°25'37\" O. )",
+      "nom": "Lac Antoinette",
+      "nom_search": "lac antoinette 49 56 00 n 74 25 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Antoinette",
+      "aliases": [
+        "antoinette",
+        "antoinette 49 56 00 n 74 25 37 o )",
+        "lac antoinette",
+        "lac antoinette 49 56 00 n 74 25 37 o )"
+      ],
+      "lat": 49.933333,
+      "lon": -74.426944
+    },
+    {
+      "id": 918,
+      "zone_id": 18,
+      "nom_brut": "Lac au Goéland la partie comprise dans un rayon de 200 m en amont de l'embouchure de son émissaire, la rivière Waswanipi délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O.",
+      "nom": "Lac au Goéland la partie comprise dans un rayon de 200 m en amont de l'embouchure de son émissaire, la rivière Waswanipi délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O.",
+      "nom_search": "lac au goeland la partie comprise dans un rayon de 200 m en amont de l embouchure de son emissaire la riviere waswanipi delimitee par les coordonnees 49 50 19 n 76 54 53 o et 49 50 29 n 76 54 38 o",
+      "segment_label": null,
+      "river_base_name": "Lac au Goéland la partie comprise dans un rayon de 200 m en amont de l'embouchure de son émissaire, la rivière Waswanipi délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O.",
+      "aliases": [
+        "au goeland la partie comprise dans un rayon de 200 m en amont de l embouchure de son emissaire la riviere waswanipi delimitee par les coordonnees 49 50 19 n 76 54 53 o et 49 50 29 n 76 54 38 o",
+        "lac au goeland la partie comprise dans un rayon de 200 m en amont de l embouchure de son emissaire la riviere waswanipi delimitee par les coordonnees 49 50 19 n 76 54 53 o et 49 50 29 n 76 54 38 o"
+      ],
+      "lat": 49.838611,
+      "lon": -76.914722
+    },
+    {
+      "id": 891,
+      "zone_id": 18,
+      "nom_brut": "Lac aux Dorés ( 49°51'09\" N., 74°21'05\" O. )",
+      "nom": "Lac aux Dorés",
+      "nom_search": "lac aux dores 49 51 09 n 74 21 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Dorés",
+      "aliases": [
+        "aux dores",
+        "aux dores 49 51 09 n 74 21 05 o )",
+        "lac aux dores",
+        "lac aux dores 49 51 09 n 74 21 05 o )"
+      ],
+      "lat": 49.8525,
+      "lon": -74.351389
+    },
+    {
+      "id": 889,
+      "zone_id": 18,
+      "nom_brut": "Lac Bourbeau - ( 49°57'37\" N., 74°17'33\" O. )",
+      "nom": "Lac Bourbeau",
+      "nom_search": "lac bourbeau 49 57 37 n 74 17 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bourbeau -",
+      "aliases": [
+        "bourbeau",
+        "bourbeau 49 57 37 n 74 17 33 o )",
+        "lac bourbeau",
+        "lac bourbeau 49 57 37 n 74 17 33 o )"
+      ],
+      "lat": 49.960278,
+      "lon": -74.2925
+    },
+    {
+      "id": 890,
+      "zone_id": 18,
+      "nom_brut": "Lac Caché ( 49°50'15\" N., 74°24'15\" O. )",
+      "nom": "Lac Caché",
+      "nom_search": "lac cache 49 50 15 n 74 24 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Caché",
+      "aliases": [
+        "cache",
+        "cache 49 50 15 n 74 24 15 o )",
+        "lac cache",
+        "lac cache 49 50 15 n 74 24 15 o )"
+      ],
+      "lat": 49.8375,
+      "lon": -74.404167
+    },
+    {
+      "id": 901,
+      "zone_id": 18,
+      "nom_brut": "Lac Chevrier (Lac Obatogamau) entre un point situé à 49°38'50\" N., 74°26'18\" O. et l'embouchure du ruisseau Audet ( 49°38'44\" N., 74°24'01\" O. ).",
+      "nom": "Lac Chevrier",
+      "nom_search": "lac chevrier lac obatogamau) entre un point situe a 49 38 50 n 74 26 18 o et l embouchure du ruisseau audet 49 38 44 n 74 24 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chevrier",
+      "aliases": [
+        "chevrier",
+        "chevrier lac obatogamau) entre un point situe a 49 38 50 n 74 26 18 o et l embouchure du ruisseau audet 49 38 44 n 74 24 01 o )",
+        "lac chevrier",
+        "lac chevrier lac obatogamau) entre un point situe a 49 38 50 n 74 26 18 o et l embouchure du ruisseau audet 49 38 44 n 74 24 01 o )"
+      ],
+      "lat": 49.647222,
+      "lon": -74.438333
+    },
+    {
+      "id": 893,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - à l'exception des secteurs suivants: baie du Club ( 49°53'22\" N., 74°01'50\" O. ); baie Girard, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Armitage ( 49°52'05\" N, 74°03'20\" O. ); baie Nepton, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Nepton ( 49°55'09\" N., 74°00'57\" O. ) ainsi que la partie comprise dans un rayon de 500 m en aval de l'embouchure de la Petite rivière Nepton ( 49°55'26\" N., 74°01'48.2\" O. ); rivière Armitage entre son embouchure dans la baie Girard et un point située à 5 km en amont ( 49°49'40\" N. 74°05'10\" O. ); rivière Nepton entre son embouchure dans la baie Nepton et un point situé à 2 km en amont ( 49°55'30\" N., 74°00'30\" O. ); rivière Petite rivière Nepton entre son embouchure dans la baie Nepton et un point situé à 1 km en amont ( 49°55'40\" N., 74°01'50\" O. ); rivière Énard, la partie comprise entre son embouchure dans la baie Inlet et un point situé à 7 km en amont ( 49°42'30\" N., 74°20'49\" O. )",
+      "nom": "Lac Chibougamau - à l'exception des secteurs suivants: baie du Club",
+      "nom_search": "lac chibougamau a l exception des secteurs suivants baie du club 49 53 22 n 74 01 50 o ) baie girard la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere armitage 49 52 05 n 74 03 20 o ) baie nepton la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere nepton 49 55 09 n 74 00 57 o ) ainsi que la partie comprise dans un rayon de 500 m en aval de l embouchure de la petite riviere nepton 49 55 26 n 74 01 48 2 o ) riviere armitage entre son embouchure dans la baie girard et un point situee a 5 km en amont 49 49 40 n 74 05 10 o ) riviere nepton entre son embouchure dans la baie nepton et un point situe a 2 km en amont 49 55 30 n 74 00 30 o ) riviere petite riviere nepton entre son embouchure dans la baie nepton et un point situe a 1 km en amont 49 55 40 n 74 01 50 o ) riviere enard la partie comprise entre son embouchure dans la baie inlet et un point situe a 7 km en amont 49 42 30 n 74 20 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau a l exception des secteurs suivants baie du club 49 53 22 n 74 01 50 o ) baie girard la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere armitage 49 52 05 n 74 03 20 o ) baie nepton la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere nepton 49 55 09 n 74 00 57 o ) ainsi que la partie comprise dans un rayon de 500 m en aval de l embouchure de la petite riviere nepton 49 55 26 n 74 01 48 2 o ) riviere armitage entre son embouchure dans la baie girard et un point situee a 5 km en amont 49 49 40 n 74 05 10 o ) riviere nepton entre son embouchure dans la baie nepton et un point situe a 2 km en amont 49 55 30 n 74 00 30 o ) riviere petite riviere nepton entre son embouchure dans la baie nepton et un point situe a 1 km en amont 49 55 40 n 74 01 50 o ) riviere enard la partie comprise entre son embouchure dans la baie inlet et un point situe a 7 km en amont 49 42 30 n 74 20 49 o )",
+        "lac chibougamau",
+        "lac chibougamau a l exception des secteurs suivants baie du club 49 53 22 n 74 01 50 o ) baie girard la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere armitage 49 52 05 n 74 03 20 o ) baie nepton la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere nepton 49 55 09 n 74 00 57 o ) ainsi que la partie comprise dans un rayon de 500 m en aval de l embouchure de la petite riviere nepton 49 55 26 n 74 01 48 2 o ) riviere armitage entre son embouchure dans la baie girard et un point situee a 5 km en amont 49 49 40 n 74 05 10 o ) riviere nepton entre son embouchure dans la baie nepton et un point situe a 2 km en amont 49 55 30 n 74 00 30 o ) riviere petite riviere nepton entre son embouchure dans la baie nepton et un point situe a 1 km en amont 49 55 40 n 74 01 50 o ) riviere enard la partie comprise entre son embouchure dans la baie inlet et un point situe a 7 km en amont 49 42 30 n 74 20 49 o )"
+      ],
+      "lat": 49.889444,
+      "lon": -74.030556
+    },
+    {
+      "id": 10400,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Baie du Club ( 49°53'22\" N., 74°01'50\" O. )",
+      "nom": "Lac Chibougamau - Baie du Club",
+      "nom_search": "lac chibougamau baie du club 49 53 22 n 74 01 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau baie du club 49 53 22 n 74 01 50 o )",
+        "lac chibougamau",
+        "lac chibougamau baie du club 49 53 22 n 74 01 50 o )"
+      ],
+      "lat": 49.889444,
+      "lon": -74.030556
+    },
+    {
+      "id": 10401,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Baie Girard, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Armitage ( 49°52'05'' N., 74°03'20'' O. )",
+      "nom": "Lac Chibougamau - Baie Girard, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Armitage",
+      "nom_search": "lac chibougamau baie girard la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere armitage 49 52 05 n 74 03 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau baie girard la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere armitage 49 52 05 n 74 03 20 o )",
+        "lac chibougamau",
+        "lac chibougamau baie girard la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere armitage 49 52 05 n 74 03 20 o )"
+      ],
+      "lat": 49.868056,
+      "lon": -74.055556
+    },
+    {
+      "id": 10402,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Baie Nepton, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la Petite rivière Nepton ( 49°55'26'' N., 74°01'48.2'' O. ) ainsi que la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Nepton ( 49°55'09'' N., 74°00'57'' W. )",
+      "nom": "Lac Chibougamau - Baie Nepton, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la Petite rivière Nepton",
+      "nom_search": "lac chibougamau baie nepton la partie comprise dans un rayon de 500 m en aval de l embouchure de la petite riviere nepton 49 55 26 n 74 01 48 2 o ) ainsi que la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere nepton 49 55 09 n 74 00 57 w )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau baie nepton la partie comprise dans un rayon de 500 m en aval de l embouchure de la petite riviere nepton 49 55 26 n 74 01 48 2 o ) ainsi que la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere nepton 49 55 09 n 74 00 57 w )",
+        "lac chibougamau",
+        "lac chibougamau baie nepton la partie comprise dans un rayon de 500 m en aval de l embouchure de la petite riviere nepton 49 55 26 n 74 01 48 2 o ) ainsi que la partie comprise dans un rayon de 500 m en aval de l embouchure de la riviere nepton 49 55 09 n 74 00 57 w )"
+      ],
+      "lat": 49.923889,
+      "lon": -74.030056
+    },
+    {
+      "id": 10405,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Petite rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 1 km en amont ( 49°55'40'' N., 74°01'34,6'' O. )",
+      "nom": "Lac Chibougamau - Petite rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 1 km en amont",
+      "nom_search": "lac chibougamau petite riviere nepton entre son embouchure dans la baie nepton et un point situe a 1 km en amont 49 55 40 n 74 01 34 6 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau petite riviere nepton entre son embouchure dans la baie nepton et un point situe a 1 km en amont 49 55 40 n 74 01 34 6 o )",
+        "lac chibougamau",
+        "lac chibougamau petite riviere nepton entre son embouchure dans la baie nepton et un point situe a 1 km en amont 49 55 40 n 74 01 34 6 o )"
+      ],
+      "lat": 49.927778,
+      "lon": -74.026278
+    },
+    {
+      "id": 10403,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Rivière Armitage, entre son embouchure dans la baie Girard et un point situé à 5 km en amont ( 49°49'40'' N., 74°05'10'' O. )",
+      "nom": "Lac Chibougamau - Rivière Armitage, entre son embouchure dans la baie Girard et un point situé à 5 km en amont",
+      "nom_search": "lac chibougamau riviere armitage entre son embouchure dans la baie girard et un point situe a 5 km en amont 49 49 40 n 74 05 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau riviere armitage entre son embouchure dans la baie girard et un point situe a 5 km en amont 49 49 40 n 74 05 10 o )",
+        "lac chibougamau",
+        "lac chibougamau riviere armitage entre son embouchure dans la baie girard et un point situe a 5 km en amont 49 49 40 n 74 05 10 o )"
+      ],
+      "lat": 49.827778,
+      "lon": -74.086111
+    },
+    {
+      "id": 10406,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Rivière Énard, la partie comprise entre son embouchure dans la baie Inlet et un point situé à 7 km en amont ( 49°42'30\" N., 74°20'49\" O. )",
+      "nom": "Lac Chibougamau - Rivière Énard, la partie comprise entre son embouchure dans la baie Inlet et un point situé à 7 km en amont",
+      "nom_search": "lac chibougamau riviere enard la partie comprise entre son embouchure dans la baie inlet et un point situe a 7 km en amont 49 42 30 n 74 20 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau riviere enard la partie comprise entre son embouchure dans la baie inlet et un point situe a 7 km en amont 49 42 30 n 74 20 49 o )",
+        "lac chibougamau",
+        "lac chibougamau riviere enard la partie comprise entre son embouchure dans la baie inlet et un point situe a 7 km en amont 49 42 30 n 74 20 49 o )"
+      ],
+      "lat": 49.708333,
+      "lon": -74.346944
+    },
+    {
+      "id": 10404,
+      "zone_id": 18,
+      "nom_brut": "Lac Chibougamau - Rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 2 km en amont ( 49°55'30'' N., 74°00'30'' O. )",
+      "nom": "Lac Chibougamau - Rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 2 km en amont",
+      "nom_search": "lac chibougamau riviere nepton entre son embouchure dans la baie nepton et un point situe a 2 km en amont 49 55 30 n 74 00 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau riviere nepton entre son embouchure dans la baie nepton et un point situe a 2 km en amont 49 55 30 n 74 00 30 o )",
+        "lac chibougamau",
+        "lac chibougamau riviere nepton entre son embouchure dans la baie nepton et un point situe a 2 km en amont 49 55 30 n 74 00 30 o )"
+      ],
+      "lat": 49.925,
+      "lon": -74.008333
+    },
+    {
+      "id": 903,
+      "zone_id": 18,
+      "nom_brut": "Lac Doda la partie comprise dans un rayon de 500 m de l'embouchure de la rivière Saint-Cyr ( 49°19'03\" N., 75°19'13\" O. ).",
+      "nom": "Lac Doda la partie comprise dans un rayon de 500 m de l'embouchure de la rivière Saint-Cyr",
+      "nom_search": "lac doda la partie comprise dans un rayon de 500 m de l embouchure de la riviere saint cyr 49 19 03 n 75 19 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Doda la partie comprise dans un rayon de 500 m de l'embouchure de la rivière Saint-Cyr",
+      "aliases": [
+        "doda la partie comprise dans un rayon de 500 m de l embouchure de la riviere saint cyr",
+        "doda la partie comprise dans un rayon de 500 m de l embouchure de la riviere saint cyr 49 19 03 n 75 19 13 o )",
+        "lac doda la partie comprise dans un rayon de 500 m de l embouchure de la riviere saint cyr",
+        "lac doda la partie comprise dans un rayon de 500 m de l embouchure de la riviere saint cyr 49 19 03 n 75 19 13 o )"
+      ],
+      "lat": 49.3175,
+      "lon": -75.320278
+    },
+    {
+      "id": 2769,
+      "zone_id": 18,
+      "nom_brut": "Lac Father - ( 49°18'41\" N., 75°28'26\" O. )",
+      "nom": "Lac Father",
+      "nom_search": "lac father 49 18 41 n 75 28 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Father -",
+      "aliases": [
+        "father",
+        "father 49 18 41 n 75 28 26 o )",
+        "lac father",
+        "lac father 49 18 41 n 75 28 26 o )"
+      ],
+      "lat": 49.311389,
+      "lon": -75.473889
+    },
+    {
+      "id": 10368,
+      "zone_id": 18,
+      "nom_brut": "Lac Lymburner ( 49°57'24\" N., 74°03'55\" O. )",
+      "nom": "Lac Lymburner",
+      "nom_search": "lac lymburner 49 57 24 n 74 03 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lymburner",
+      "aliases": [
+        "lac lymburner",
+        "lac lymburner 49 57 24 n 74 03 55 o )",
+        "lymburner",
+        "lymburner 49 57 24 n 74 03 55 o )"
+      ],
+      "lat": 49.956667,
+      "lon": -74.065278
+    },
+    {
+      "id": 2650,
+      "zone_id": 18,
+      "nom_brut": "Lac Matagami ( 49°52'00\" N., 77°26'47\" O. )",
+      "nom": "Lac Matagami",
+      "nom_search": "lac matagami 49 52 00 n 77 26 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Matagami",
+      "aliases": [
+        "lac matagami",
+        "lac matagami 49 52 00 n 77 26 47 o )",
+        "matagami",
+        "matagami 49 52 00 n 77 26 47 o )"
+      ],
+      "lat": 49.866667,
+      "lon": -77.446389
+    },
+    {
+      "id": 920,
+      "zone_id": 18,
+      "nom_brut": "Lac Pusticamica la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O.",
+      "nom": "Lac Pusticamica la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O.",
+      "nom_search": "lac pusticamica la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan delimitee par les coordonnees 49 20 41 n 76 20 32 o et 49 20 44 n 76 20 33 o",
+      "segment_label": null,
+      "river_base_name": "Lac Pusticamica la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O.",
+      "aliases": [
+        "lac pusticamica la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan delimitee par les coordonnees 49 20 41 n 76 20 32 o et 49 20 44 n 76 20 33 o",
+        "pusticamica la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan delimitee par les coordonnees 49 20 41 n 76 20 32 o et 49 20 44 n 76 20 33 o"
+      ],
+      "lat": 49.344722,
+      "lon": -76.342222
+    },
+    {
+      "id": 922,
+      "zone_id": 18,
+      "nom_brut": "Lac Waswanipi la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan ( 49°27'59\" N., 76°28'05\" O. et 49°27'55\" N., 76°28'06\" O. ) (cantons Ailly, Bosse et Nelligan).",
+      "nom": "Lac Waswanipi la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan",
+      "nom_search": "lac waswanipi la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan 49 27 59 n 76 28 05 o et 49 27 55 n 76 28 06 o ) cantons ailly bosse et nelligan)",
+      "segment_label": null,
+      "river_base_name": "Lac Waswanipi la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan",
+      "aliases": [
+        "lac waswanipi la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan",
+        "lac waswanipi la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan 49 27 59 n 76 28 05 o et 49 27 55 n 76 28 06 o ) cantons ailly bosse et nelligan)",
+        "waswanipi la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan",
+        "waswanipi la partie comprise dans un rayon de 300 m en aval de l embouchure de la riviere o sullivan 49 27 59 n 76 28 05 o et 49 27 55 n 76 28 06 o ) cantons ailly bosse et nelligan)"
+      ],
+      "lat": 49.466389,
+      "lon": -76.468056
+    },
+    {
+      "id": 912,
+      "zone_id": 18,
+      "nom_brut": "Rivière Chibougamau entre le pont du Rapide entre les îles (route 48211, km 14) ( 49°54'04\" N., 74°44'23\" O. ) et une droite située à 1,5 km en aval, vers le lac Opémisca, reliant les points 49°53'34\" N., 74°45'22\" O. et 49°53'31\" N., 74°45'08\" O. .",
+      "nom": "Rivière Chibougamau entre le pont du Rapide entre les îles",
+      "nom_search": "riviere chibougamau entre le pont du rapide entre les iles route 48211 km 14) 49 54 04 n 74 44 23 o ) et une droite situee a 1 5 km en aval vers le lac opemisca reliant les points 49 53 34 n 74 45 22 o et 49 53 31 n 74 45 08 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Chibougamau",
+      "aliases": [
+        "chibougamau",
+        "chibougamau entre le pont du rapide entre les iles route 48211 km 14) 49 54 04 n 74 44 23 o ) et une droite situee a 1 5 km en aval vers le lac opemisca reliant les points 49 53 34 n 74 45 22 o et 49 53 31 n 74 45 08 o",
+        "riviere chibougamau",
+        "riviere chibougamau entre le pont du rapide entre les iles route 48211 km 14) 49 54 04 n 74 44 23 o ) et une droite situee a 1 5 km en aval vers le lac opemisca reliant les points 49 53 34 n 74 45 22 o et 49 53 31 n 74 45 08 o"
+      ],
+      "lat": 49.901111,
+      "lon": -74.739722
+    },
+    {
+      "id": 905,
+      "zone_id": 18,
+      "nom_brut": "Rivière de l'Aigle entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O. .",
+      "nom": "Rivière de l'Aigle entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O. .",
+      "nom_search": "riviere de l aigle entre son embouchure dans le lac doda et une droite situee a 7 km en amont reliant les points 49 23 37 n 75 07 44 o et 49 23 27 n 75 07 27 o",
+      "segment_label": null,
+      "river_base_name": "Rivière de l'Aigle",
+      "aliases": [
+        "de l aigle",
+        "de l aigle entre son embouchure dans le lac doda et une droite situee a 7 km en amont reliant les points 49 23 37 n 75 07 44 o et 49 23 27 n 75 07 27 o",
+        "riviere de l aigle",
+        "riviere de l aigle entre son embouchure dans le lac doda et une droite situee a 7 km en amont reliant les points 49 23 37 n 75 07 44 o et 49 23 27 n 75 07 27 o"
+      ],
+      "lat": 49.393611,
+      "lon": -75.128889
+    },
+    {
+      "id": 907,
+      "zone_id": 18,
+      "nom_brut": "Rivière Opawica entre le pont du kilomètre 37,5 du chemin R-1009 (Barrette-sud) et un point situé à 1 km en aval, vers le lac des Vents ( 49°29'45\" N., 74°46'00\" O. ).",
+      "nom": "Rivière Opawica entre le pont du kilomètre 37,5 du chemin R-1009",
+      "nom_search": "riviere opawica entre le pont du kilometre 37 5 du chemin riviere 1009 barrette sud) et un point situe a 1 km en aval vers le lac des vents 49 29 45 n 74 46 00 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Opawica",
+      "aliases": [
+        "opawica",
+        "opawica entre le pont du kilometre 37 5 du chemin riviere 1009 barrette sud) et un point situe a 1 km en aval vers le lac des vents 49 29 45 n 74 46 00 o )",
+        "riviere opawica",
+        "riviere opawica entre le pont du kilometre 37 5 du chemin riviere 1009 barrette sud) et un point situe a 1 km en aval vers le lac des vents 49 29 45 n 74 46 00 o )"
+      ],
+      "lat": 49.495833,
+      "lon": -74.766667
+    },
+    {
+      "id": 908,
+      "zone_id": 18,
+      "nom_brut": "Rivière Opawica entre son embouchure dans le lac Doda et un point situé à 5 km en amont ( 49°28'30\" N., 75°05'39\" O. ).",
+      "nom": "Rivière Opawica entre son embouchure dans le lac Doda et un point situé à 5 km en amont",
+      "nom_search": "riviere opawica entre son embouchure dans le lac doda et un point situe a 5 km en amont 49 28 30 n 75 05 39 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Opawica",
+      "aliases": [
+        "opawica",
+        "opawica entre son embouchure dans le lac doda et un point situe a 5 km en amont 49 28 30 n 75 05 39 o )",
+        "riviere opawica",
+        "riviere opawica entre son embouchure dans le lac doda et un point situe a 5 km en amont 49 28 30 n 75 05 39 o )"
+      ],
+      "lat": 49.475,
+      "lon": -75.094167
+    },
+    {
+      "id": 910,
+      "zone_id": 18,
+      "nom_brut": "Rivière Opémisca entre son embouchure dans le lac Opémisca ( 49°57'20\" N., 74°54'40\" O. ) et un point situé à 8 km en amont, correspondant à 50° de latitude nord.",
+      "nom": "Rivière Opémisca entre son embouchure dans le lac Opémisca",
+      "nom_search": "riviere opemisca entre son embouchure dans le lac opemisca 49 57 20 n 74 54 40 o ) et un point situe a 8 km en amont correspondant a 50 de latitude nord",
+      "segment_label": null,
+      "river_base_name": "Rivière Opémisca",
+      "aliases": [
+        "opemisca",
+        "opemisca entre son embouchure dans le lac opemisca 49 57 20 n 74 54 40 o ) et un point situe a 8 km en amont correspondant a 50 de latitude nord",
+        "riviere opemisca",
+        "riviere opemisca entre son embouchure dans le lac opemisca 49 57 20 n 74 54 40 o ) et un point situe a 8 km en amont correspondant a 50 de latitude nord"
+      ],
+      "lat": 49.955556,
+      "lon": -74.911111
+    },
+    {
+      "id": 924,
+      "zone_id": 18,
+      "nom_brut": "Rivière O'Sullivan entre son embouchure dans le lac Pusticamica délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O. et un point situé à 3,2 km en amont ( 49°19'41\" N., 76°18'51\" O. ).",
+      "nom": "Rivière O'Sullivan entre son embouchure dans le lac Pusticamica délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O. et un point situé à 3,2 km en amont",
+      "nom_search": "riviere o sullivan entre son embouchure dans le lac pusticamica delimitee par les coordonnees 49 20 41 n 76 20 32 o et 49 20 44 n 76 20 33 o et un point situe a 3 2 km en amont 49 19 41 n 76 18 51 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière O'Sullivan",
+      "aliases": [
+        "o sullivan",
+        "o sullivan entre son embouchure dans le lac pusticamica delimitee par les coordonnees 49 20 41 n 76 20 32 o et 49 20 44 n 76 20 33 o et un point situe a 3 2 km en amont 49 19 41 n 76 18 51 o )",
+        "riviere o sullivan",
+        "riviere o sullivan entre son embouchure dans le lac pusticamica delimitee par les coordonnees 49 20 41 n 76 20 32 o et 49 20 44 n 76 20 33 o et un point situe a 3 2 km en amont 49 19 41 n 76 18 51 o )"
+      ],
+      "lat": 49.344722,
+      "lon": -76.342222
+    },
+    {
+      "id": 925,
+      "zone_id": 18,
+      "nom_brut": "Rivière O'Sullivan entre son embouchure dans le lac Waswanipi délimitée par les coordonnées 49°27'59\" N., 76°28'05\" O. et 49°27'55\" N., 76°28'06\" O. et un point situé à 300 m en amont ( 49°27'50\" N., 76°27'58\" O. ).",
+      "nom": "Rivière O'Sullivan entre son embouchure dans le lac Waswanipi délimitée par les coordonnées 49°27'59\" N., 76°28'05\" O. et 49°27'55\" N., 76°28'06\" O. et un point situé à 300 m en amont",
+      "nom_search": "riviere o sullivan entre son embouchure dans le lac waswanipi delimitee par les coordonnees 49 27 59 n 76 28 05 o et 49 27 55 n 76 28 06 o et un point situe a 300 m en amont 49 27 50 n 76 27 58 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière O'Sullivan",
+      "aliases": [
+        "o sullivan",
+        "o sullivan entre son embouchure dans le lac waswanipi delimitee par les coordonnees 49 27 59 n 76 28 05 o et 49 27 55 n 76 28 06 o et un point situe a 300 m en amont 49 27 50 n 76 27 58 o )",
+        "riviere o sullivan",
+        "riviere o sullivan entre son embouchure dans le lac waswanipi delimitee par les coordonnees 49 27 59 n 76 28 05 o et 49 27 55 n 76 28 06 o et un point situe a 300 m en amont 49 27 50 n 76 27 58 o )"
+      ],
+      "lat": 49.466389,
+      "lon": -76.468056
+    },
+    {
+      "id": 914,
+      "zone_id": 18,
+      "nom_brut": "Rivière Saint-Cyr entre le pont du km 16 du chemin R1053 (Barette sud) ( 49°17'15\" N., 75°18'42\" O. ) et son embouchure dans le lac Doda.",
+      "nom": "Rivière Saint-Cyr entre le pont du km 16 du chemin R1053",
+      "nom_search": "riviere saint cyr entre le pont du km 16 du chemin r1053 barette sud) 49 17 15 n 75 18 42 o ) et son embouchure dans le lac doda",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Cyr",
+      "aliases": [
+        "riviere saint cyr",
+        "riviere saint cyr entre le pont du km 16 du chemin r1053 barette sud) 49 17 15 n 75 18 42 o ) et son embouchure dans le lac doda",
+        "saint cyr",
+        "saint cyr entre le pont du km 16 du chemin r1053 barette sud) 49 17 15 n 75 18 42 o ) et son embouchure dans le lac doda"
+      ],
+      "lat": 49.2875,
+      "lon": -75.311667
+    },
+    {
+      "id": 950,
+      "zone_id": 18,
+      "nom_brut": "Rivière Waswanipi entre la limite des terres de catégorie II de Waswanipi et un point situé à 100 m en aval de son embouchure dans le lac au Goéland ( 49°43' N., 76°44' O. ). Canton Vignal et Ailly",
+      "nom": "Rivière Waswanipi entre la limite des terres de catégorie II de Waswanipi et un point situé à 100 m en aval de son embouchure dans le lac au Goéland",
+      "nom_search": "riviere waswanipi entre la limite des terres de categorie ii de waswanipi et un point situe a 100 m en aval de son embouchure dans le lac au goeland 49 43 n 76 44 o ) canton vignal et ailly",
+      "segment_label": null,
+      "river_base_name": "Rivière Waswanipi",
+      "aliases": [
+        "riviere waswanipi",
+        "riviere waswanipi entre la limite des terres de categorie ii de waswanipi et un point situe a 100 m en aval de son embouchure dans le lac au goeland 49 43 n 76 44 o ) canton vignal et ailly",
+        "waswanipi",
+        "waswanipi entre la limite des terres de categorie ii de waswanipi et un point situe a 100 m en aval de son embouchure dans le lac au goeland 49 43 n 76 44 o ) canton vignal et ailly"
+      ],
+      "lat": 49.716667,
+      "lon": -76.733333
+    },
+    {
+      "id": 944,
+      "zone_id": 18,
+      "nom_brut": "Rivière Waswanipi entre son embouchure dans le lac au Goéland délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O. et un point situé à 3 km en aval, vers le lac Olga ( 49°50'41\" N., 76°56'44\" O. ).",
+      "nom": "Rivière Waswanipi entre son embouchure dans le lac au Goéland délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O. et un point situé à 3 km en aval, vers le lac Olga",
+      "nom_search": "riviere waswanipi entre son embouchure dans le lac au goeland delimitee par les coordonnees 49 50 19 n 76 54 53 o et 49 50 29 n 76 54 38 o et un point situe a 3 km en aval vers le lac olga 49 50 41 n 76 56 44 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Waswanipi",
+      "aliases": [
+        "riviere waswanipi",
+        "riviere waswanipi entre son embouchure dans le lac au goeland delimitee par les coordonnees 49 50 19 n 76 54 53 o et 49 50 29 n 76 54 38 o et un point situe a 3 km en aval vers le lac olga 49 50 41 n 76 56 44 o )",
+        "waswanipi",
+        "waswanipi entre son embouchure dans le lac au goeland delimitee par les coordonnees 49 50 19 n 76 54 53 o et 49 50 29 n 76 54 38 o et un point situe a 3 km en aval vers le lac olga 49 50 41 n 76 56 44 o )"
+      ],
+      "lat": 49.838611,
+      "lon": -76.914722
+    },
+    {
+      "id": 2542,
+      "zone_id": 18,
+      "nom_brut": "Rivière Waswanipi entre son embouchure dans le lac Olga déterminé par les coordonnées 49°51'26\" N., 77°10'24\" O. et 49°51'13\" N., 77°11'01\" O. et un point situé à 100 m en aval de son embouchure dans le lac Matagami et délimité par les coordonnées 49°54'26\" N., 77°15'47\" O. et 49°54'26\" N., 77°14'47\" O.",
+      "nom": "Rivière Waswanipi entre son embouchure dans le lac Olga déterminé par les coordonnées 49°51'26\" N., 77°10'24\" O. et 49°51'13\" N., 77°11'01\" O. et un point situé à 100 m en aval de son embouchure dans le lac Matagami et délimité par les coordonnées 49°54'26\" N., 77°15'47\" O. et 49°54'26\" N., 77°14'47\" O.",
+      "nom_search": "riviere waswanipi entre son embouchure dans le lac olga determine par les coordonnees 49 51 26 n 77 10 24 o et 49 51 13 n 77 11 01 o et un point situe a 100 m en aval de son embouchure dans le lac matagami et delimite par les coordonnees 49 54 26 n 77 15 47 o et 49 54 26 n 77 14 47 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Waswanipi",
+      "aliases": [
+        "riviere waswanipi",
+        "riviere waswanipi entre son embouchure dans le lac olga determine par les coordonnees 49 51 26 n 77 10 24 o et 49 51 13 n 77 11 01 o et un point situe a 100 m en aval de son embouchure dans le lac matagami et delimite par les coordonnees 49 54 26 n 77 15 47 o et 49 54 26 n 77 14 47 o",
+        "waswanipi",
+        "waswanipi entre son embouchure dans le lac olga determine par les coordonnees 49 51 26 n 77 10 24 o et 49 51 13 n 77 11 01 o et un point situe a 100 m en aval de son embouchure dans le lac matagami et delimite par les coordonnees 49 54 26 n 77 15 47 o et 49 54 26 n 77 14 47 o"
+      ],
+      "lat": 49.857222,
+      "lon": -77.173333
+    },
+    {
+      "id": 916,
+      "zone_id": 18,
+      "nom_brut": "Ruisseau Germain entre un point situé sur le lac Édith ( 49°26'11\" N., 75°29'28\" O. ) et son embouchure dans le lac Germain ( 49°26'52\" N., 75°29'00\" O. ).",
+      "nom": "Ruisseau Germain entre un point situé sur le lac Édith",
+      "nom_search": "ruisseau germain entre un point situe sur le lac edith 49 26 11 n 75 29 28 o ) et son embouchure dans le lac germain 49 26 52 n 75 29 00 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Germain",
+      "aliases": [
+        "germain",
+        "germain entre un point situe sur le lac edith 49 26 11 n 75 29 28 o ) et son embouchure dans le lac germain 49 26 52 n 75 29 00 o )",
+        "ruisseau germain",
+        "ruisseau germain entre un point situe sur le lac edith 49 26 11 n 75 29 28 o ) et son embouchure dans le lac germain 49 26 52 n 75 29 00 o )"
+      ],
+      "lat": 49.436389,
+      "lon": -75.491111
+    }
+  ]
+}

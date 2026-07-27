@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "zone_id": 33,
+    "zone_nom": "Zone 29",
+    "nb_plans": 11,
+    "nb_geocoded": 11,
+    "pct_geocoded": 100.0,
+    "source_file": "zones/33.json"
+  },
+  "locations": [
+    {
+      "id": 842,
+      "zone_id": 33,
+      "nom_brut": "Lac à la Croix ( 51°15'53\" N., 70°13'05\" O. ).",
+      "nom": "Lac à la Croix",
+      "nom_search": "lac a la croix 51 15 53 n 70 13 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Croix",
+      "aliases": [
+        "a la croix",
+        "a la croix 51 15 53 n 70 13 05 o )",
+        "lac a la croix",
+        "lac a la croix 51 15 53 n 70 13 05 o )"
+      ],
+      "lat": 51.264722,
+      "lon": -70.218056
+    },
+    {
+      "id": 3098,
+      "zone_id": 33,
+      "nom_brut": "Lac de l'Exil ( 50°25'08\" N., 71°04'42\" O. )",
+      "nom": "Lac de l'Exil",
+      "nom_search": "lac de l exil 50 25 08 n 71 04 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Exil",
+      "aliases": [
+        "de l exil",
+        "de l exil 50 25 08 n 71 04 42 o )",
+        "lac de l exil",
+        "lac de l exil 50 25 08 n 71 04 42 o )"
+      ],
+      "lat": 50.418889,
+      "lon": -71.078333
+    },
+    {
+      "id": 835,
+      "zone_id": 33,
+      "nom_brut": "Lac du Huard ( 50°19'00\" N., 72°07'27\" O. ) ainsi que son émissaire jusqu'au point de rencontre avec la rivière Mistassibi.",
+      "nom": "Lac du Huard",
+      "nom_search": "lac du huard 50 19 00 n 72 07 27 o ) ainsi que son emissaire jusqu au point de rencontre avec la riviere mistassibi",
+      "segment_label": null,
+      "river_base_name": "Lac du Huard",
+      "aliases": [
+        "du huard",
+        "du huard 50 19 00 n 72 07 27 o ) ainsi que son emissaire jusqu au point de rencontre avec la riviere mistassibi",
+        "lac du huard",
+        "lac du huard 50 19 00 n 72 07 27 o ) ainsi que son emissaire jusqu au point de rencontre avec la riviere mistassibi"
+      ],
+      "lat": 50.316667,
+      "lon": -72.124167
+    },
+    {
+      "id": 3101,
+      "zone_id": 33,
+      "nom_brut": "Lac Goisard ( 50°05'14\" N., 71°29'19\" O. ).",
+      "nom": "Lac Goisard",
+      "nom_search": "lac goisard 50 05 14 n 71 29 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Goisard",
+      "aliases": [
+        "goisard",
+        "goisard 50 05 14 n 71 29 19 o )",
+        "lac goisard",
+        "lac goisard 50 05 14 n 71 29 19 o )"
+      ],
+      "lat": 50.087222,
+      "lon": -71.488611
+    },
+    {
+      "id": 3102,
+      "zone_id": 33,
+      "nom_brut": "Lac La Brodeuse ( 50°01'40\" N., 71°28'20\" O. ).",
+      "nom": "Lac La Brodeuse",
+      "nom_search": "lac la brodeuse 50 01 40 n 71 28 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac La Brodeuse",
+      "aliases": [
+        "la brodeuse",
+        "la brodeuse 50 01 40 n 71 28 20 o )",
+        "lac la brodeuse",
+        "lac la brodeuse 50 01 40 n 71 28 20 o )"
+      ],
+      "lat": 50.027778,
+      "lon": -71.472222
+    },
+    {
+      "id": 3096,
+      "zone_id": 33,
+      "nom_brut": "Lac Manouane ( 50°41'49\" N., 70°48'58\" O. ).",
+      "nom": "Lac Manouane",
+      "nom_search": "lac manouane 50 41 49 n 70 48 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Manouane",
+      "aliases": [
+        "lac manouane",
+        "lac manouane 50 41 49 n 70 48 58 o )",
+        "manouane",
+        "manouane 50 41 49 n 70 48 58 o )"
+      ],
+      "lat": 50.696944,
+      "lon": -70.816111
+    },
+    {
+      "id": 3099,
+      "zone_id": 33,
+      "nom_brut": "Lac Onistagane ( 50°42'50\" N., 71°19'41\" O. )",
+      "nom": "Lac Onistagane",
+      "nom_search": "lac onistagane 50 42 50 n 71 19 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Onistagane",
+      "aliases": [
+        "lac onistagane",
+        "lac onistagane 50 42 50 n 71 19 41 o )",
+        "onistagane",
+        "onistagane 50 42 50 n 71 19 41 o )"
+      ],
+      "lat": 50.713889,
+      "lon": -71.328056
+    },
+    {
+      "id": 3100,
+      "zone_id": 33,
+      "nom_brut": "Lac Péribonka ( 50°09'04\" N., 71°16'08\" O. )",
+      "nom": "Lac Péribonka",
+      "nom_search": "lac peribonka 50 09 04 n 71 16 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Péribonka",
+      "aliases": [
+        "lac peribonka",
+        "lac peribonka 50 09 04 n 71 16 08 o )",
+        "peribonka",
+        "peribonka 50 09 04 n 71 16 08 o )"
+      ],
+      "lat": 50.151111,
+      "lon": -71.268889
+    },
+    {
+      "id": 3103,
+      "zone_id": 33,
+      "nom_brut": "Lac Sans nom ( 50°02'44\" N., 71°29'19\" O. ).",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 50 02 44 n 71 29 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 50 02 44 n 71 29 19 o )",
+        "sans nom",
+        "sans nom 50 02 44 n 71 29 19 o )"
+      ],
+      "lat": 50.045556,
+      "lon": -71.488611
+    },
+    {
+      "id": 838,
+      "zone_id": 33,
+      "nom_brut": "Rivière Mistassibi nord-est entre la limite sud de la zone 29 ( 50°00'00\" N., 71°56'43\" O. ) et le lac Machisque.",
+      "nom": "Rivière Mistassibi nord-est entre la limite sud de la zone 29",
+      "nom_search": "riviere mistassibi nord est entre la limite sud de la zone 29 50 00 00 n 71 56 43 o ) et le lac machisque",
+      "segment_label": null,
+      "river_base_name": "Rivière Mistassibi nord-est",
+      "aliases": [
+        "mistassibi nord est",
+        "mistassibi nord est entre la limite sud de la zone 29 50 00 00 n 71 56 43 o ) et le lac machisque",
+        "riviere mistassibi nord est",
+        "riviere mistassibi nord est entre la limite sud de la zone 29 50 00 00 n 71 56 43 o ) et le lac machisque"
+      ],
+      "lat": 50.0,
+      "lon": -71.945278
+    },
+    {
+      "id": 840,
+      "zone_id": 33,
+      "nom_brut": "Rivière Péribonka - La partie entre le lac Péribonka et une droite reliant les points 51°00'00\" N., 71°19'59\" O. et 50°00'00\" N., 71°20'14\" O.",
+      "nom": "Rivière Péribonka - La partie entre le lac Péribonka et une droite reliant les points 51°00'00\" N., 71°19'59\" O. et 50°00'00\" N., 71°20'14\" O.",
+      "nom_search": "riviere peribonka la partie entre le lac peribonka et une droite reliant les points 51 00 00 n 71 19 59 o et 50 00 00 n 71 20 14 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Péribonka",
+      "aliases": [
+        "peribonka",
+        "peribonka la partie entre le lac peribonka et une droite reliant les points 51 00 00 n 71 19 59 o et 50 00 00 n 71 20 14 o",
+        "riviere peribonka",
+        "riviere peribonka la partie entre le lac peribonka et une droite reliant les points 51 00 00 n 71 19 59 o et 50 00 00 n 71 20 14 o"
+      ],
+      "lat": 51.0,
+      "lon": -71.333056
+    }
+  ]
+}

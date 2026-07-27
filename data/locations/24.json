@@ -1,0 +1,1224 @@
+{
+  "meta": {
+    "zone_id": 24,
+    "zone_nom": "Zone 22 nord",
+    "nb_plans": 72,
+    "nb_geocoded": 70,
+    "pct_geocoded": 97.2,
+    "source_file": "zones/24.json"
+  },
+  "locations": [
+    {
+      "id": 1892,
+      "zone_id": 24,
+      "nom_brut": "Baie Amichinatwayasich (de l'Indien) - La partie comprise entre un point situé à 53°52'18\" N., 77°00'22\" O. et la chute située en amont ( 53°52'32\" N., 76°59'55\" O. ).",
+      "nom": "Baie Amichinatwayasich",
+      "nom_search": "baie amichinatwayasich de l indien) la partie comprise entre un point situe a 53 52 18 n 77 00 22 o et la chute situee en amont 53 52 32 n 76 59 55 o )",
+      "segment_label": null,
+      "river_base_name": "Baie Amichinatwayasich",
+      "aliases": [
+        "baie amichinatwayasich",
+        "baie amichinatwayasich de l indien) la partie comprise entre un point situe a 53 52 18 n 77 00 22 o et la chute situee en amont 53 52 32 n 76 59 55 o )"
+      ],
+      "lat": 53.871667,
+      "lon": -77.006111
+    },
+    {
+      "id": 1894,
+      "zone_id": 24,
+      "nom_brut": "Baie Chapus ( 53°29'12'' N., 77°08'09'' O. )",
+      "nom": "Baie Chapus",
+      "nom_search": "baie chapus 53 29 12 n 77 08 09 o )",
+      "segment_label": null,
+      "river_base_name": "Baie Chapus",
+      "aliases": [
+        "baie chapus",
+        "baie chapus 53 29 12 n 77 08 09 o )"
+      ],
+      "lat": 53.486667,
+      "lon": -77.135833
+    },
+    {
+      "id": 1900,
+      "zone_id": 24,
+      "nom_brut": "Baie sans nom (de l'Aéroport) - La partie comprise entre une droite joignant les points ( 53°45'39,7\" N., 73°45'43,5\" O. ) et ( 53°45'51,4\" N., 73°45'31,1\" O. ) et une droite joignant les points ( 53°45'37,1\" N., 73°44'16,2\" O. ) et ( 53°45'37,9\" N., 73°44'12,8\" O. ).",
+      "nom": "Baie sans nom",
+      "nom_search": "baie sans nom de l aeroport) la partie comprise entre une droite joignant les points 53 45 39 7 n 73 45 43 5 o ) et 53 45 51 4 n 73 45 31 1 o ) et une droite joignant les points 53 45 37 1 n 73 44 16 2 o ) et 53 45 37 9 n 73 44 12 8 o )",
+      "segment_label": null,
+      "river_base_name": "Baie sans nom",
+      "aliases": [
+        "baie sans nom",
+        "baie sans nom de l aeroport) la partie comprise entre une droite joignant les points 53 45 39 7 n 73 45 43 5 o ) et 53 45 51 4 n 73 45 31 1 o ) et une droite joignant les points 53 45 37 1 n 73 44 16 2 o ) et 53 45 37 9 n 73 44 12 8 o )"
+      ],
+      "lat": 53.761028,
+      "lon": -73.762083
+    },
+    {
+      "id": 1898,
+      "zone_id": 24,
+      "nom_brut": "Baie sans nom - La partie entre une droite joignant les points 53°44'16,1\" N., 73°53'13,9\" O. et 53°44'17,9\" N., 73°53'16,4\" O. et une droite joignant les points 53°44'38,4\" N., 73°53'55\" O. et 53°44'38,9\" N., 73°53'53,6\" O.",
+      "nom": "Baie sans nom - La partie entre une droite joignant les points 53°44'16,1\" N., 73°53'13,9\" O. et 53°44'17,9\" N., 73°53'16,4\" O. et une droite joignant les points 53°44'38,4\" N., 73°53'55\" O. et 53°44'38,9\" N., 73°53'53,6\" O.",
+      "nom_search": "baie sans nom la partie entre une droite joignant les points 53 44 16 1 n 73 53 13 9 o et 53 44 17 9 n 73 53 16 4 o et une droite joignant les points 53 44 38 4 n 73 53 55 o et 53 44 38 9 n 73 53 53 6 o",
+      "segment_label": null,
+      "river_base_name": "Baie sans nom",
+      "aliases": [
+        "baie sans nom",
+        "baie sans nom la partie entre une droite joignant les points 53 44 16 1 n 73 53 13 9 o et 53 44 17 9 n 73 53 16 4 o et une droite joignant les points 53 44 38 4 n 73 53 55 o et 53 44 38 9 n 73 53 53 6 o"
+      ],
+      "lat": 53.737806,
+      "lon": -73.887194
+    },
+    {
+      "id": 1668,
+      "zone_id": 24,
+      "nom_brut": "Lac Achan Amikap ( 53°31'00\" N., 77°43'25\" O. )",
+      "nom": "Lac Achan Amikap",
+      "nom_search": "lac achan amikap 53 31 00 n 77 43 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Achan Amikap",
+      "aliases": [
+        "achan amikap",
+        "achan amikap 53 31 00 n 77 43 25 o )",
+        "lac achan amikap",
+        "lac achan amikap 53 31 00 n 77 43 25 o )"
+      ],
+      "lat": 53.516667,
+      "lon": -77.723611
+    },
+    {
+      "id": 1859,
+      "zone_id": 24,
+      "nom_brut": "Lac Atihkumakw (Terres II de Chisasibi) ( 54°16'24\" N., 77°45'30\" O. )",
+      "nom": "Lac Atihkumakw",
+      "nom_search": "lac atihkumakw terres ii de chisasibi) 54 16 24 n 77 45 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Atihkumakw",
+      "aliases": [
+        "atihkumakw",
+        "atihkumakw terres ii de chisasibi) 54 16 24 n 77 45 30 o )",
+        "lac atihkumakw",
+        "lac atihkumakw terres ii de chisasibi) 54 16 24 n 77 45 30 o )"
+      ],
+      "lat": 54.273333,
+      "lon": -77.758333
+    },
+    {
+      "id": 2433,
+      "zone_id": 24,
+      "nom_brut": "Lac Awahagats (Terres II de Chisasibi) ( 54°16'56\" N., 77°39'34\" O. )",
+      "nom": "Lac Awahagats",
+      "nom_search": "lac awahagats terres ii de chisasibi) 54 16 56 n 77 39 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Awahagats",
+      "aliases": [
+        "awahagats",
+        "awahagats terres ii de chisasibi) 54 16 56 n 77 39 34 o )",
+        "lac awahagats",
+        "lac awahagats terres ii de chisasibi) 54 16 56 n 77 39 34 o )"
+      ],
+      "lat": 54.282222,
+      "lon": -77.659444
+    },
+    {
+      "id": 2434,
+      "zone_id": 24,
+      "nom_brut": "Lac Awisinaukamach (Terres II de Chisasibi)( 54°22'05\" N., 77°30'08\" O. )",
+      "nom": "Lac Awisinaukamach",
+      "nom_search": "lac awisinaukamach terres ii de chisasibi) 54 22 05 n 77 30 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Awisinaukamach",
+      "aliases": [
+        "awisinaukamach",
+        "awisinaukamach terres ii de chisasibi) 54 22 05 n 77 30 08 o )",
+        "lac awisinaukamach",
+        "lac awisinaukamach terres ii de chisasibi) 54 22 05 n 77 30 08 o )"
+      ],
+      "lat": 54.368056,
+      "lon": -77.502222
+    },
+    {
+      "id": 1649,
+      "zone_id": 24,
+      "nom_brut": "Lac Bison ( 53°47' N., 75°55' O. )",
+      "nom": "Lac Bison",
+      "nom_search": "lac bison 53 47 n 75 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bison",
+      "aliases": [
+        "bison",
+        "bison 53 47 n 75 55 o )",
+        "lac bison",
+        "lac bison 53 47 n 75 55 o )"
+      ],
+      "lat": 53.783333,
+      "lon": -75.916667
+    },
+    {
+      "id": 1651,
+      "zone_id": 24,
+      "nom_brut": "Lac Chinusas ( 52°50' N., 77°10' O. )",
+      "nom": "Lac Chinusas",
+      "nom_search": "lac chinusas 52 50 n 77 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chinusas",
+      "aliases": [
+        "chinusas",
+        "chinusas 52 50 n 77 10 o )",
+        "lac chinusas",
+        "lac chinusas 52 50 n 77 10 o )"
+      ],
+      "lat": 52.833333,
+      "lon": -77.166667
+    },
+    {
+      "id": 2222,
+      "zone_id": 24,
+      "nom_brut": "Lac de la Montagne du Pin ( 53°58'19\" N., 75°37'22\" O. )",
+      "nom": "Lac de la Montagne du Pin",
+      "nom_search": "lac de la montagne du pin 53 58 19 n 75 37 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Montagne du Pin",
+      "aliases": [
+        "de la montagne du pin",
+        "de la montagne du pin 53 58 19 n 75 37 22 o )",
+        "lac de la montagne du pin",
+        "lac de la montagne du pin 53 58 19 n 75 37 22 o )"
+      ],
+      "lat": 53.971944,
+      "lon": -75.622778
+    },
+    {
+      "id": 1652,
+      "zone_id": 24,
+      "nom_brut": "Lac De la Noue ( 54°44'59\" N., 71°42'55\" O. )",
+      "nom": "Lac De la Noue",
+      "nom_search": "lac de la noue 54 44 59 n 71 42 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac De la Noue",
+      "aliases": [
+        "de la noue",
+        "de la noue 54 44 59 n 71 42 55 o )",
+        "lac de la noue",
+        "lac de la noue 54 44 59 n 71 42 55 o )"
+      ],
+      "lat": 54.749722,
+      "lon": -71.715278
+    },
+    {
+      "id": 1656,
+      "zone_id": 24,
+      "nom_brut": "Lac des Merisiers ( 53°42' N., 76°04' O. )",
+      "nom": "Lac des Merisiers",
+      "nom_search": "lac des merisiers 53 42 n 76 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Merisiers",
+      "aliases": [
+        "des merisiers",
+        "des merisiers 53 42 n 76 04 o )",
+        "lac des merisiers",
+        "lac des merisiers 53 42 n 76 04 o )"
+      ],
+      "lat": 53.7,
+      "lon": -76.066667
+    },
+    {
+      "id": 1660,
+      "zone_id": 24,
+      "nom_brut": "Lac des Oeufs ( 54°32'54\" N., 72°27'09\" O. )",
+      "nom": "Lac des Oeufs",
+      "nom_search": "lac des oeufs 54 32 54 n 72 27 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Oeufs",
+      "aliases": [
+        "des oeufs",
+        "des oeufs 54 32 54 n 72 27 09 o )",
+        "lac des oeufs",
+        "lac des oeufs 54 32 54 n 72 27 09 o )"
+      ],
+      "lat": 54.548333,
+      "lon": -72.4525
+    },
+    {
+      "id": 1880,
+      "zone_id": 24,
+      "nom_brut": "Lac des Patriotes ( 53°49' N., 72°39' O. )",
+      "nom": "Lac des Patriotes",
+      "nom_search": "lac des patriotes 53 49 n 72 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Patriotes",
+      "aliases": [
+        "des patriotes",
+        "des patriotes 53 49 n 72 39 o )",
+        "lac des patriotes",
+        "lac des patriotes 53 49 n 72 39 o )"
+      ],
+      "lat": 53.816667,
+      "lon": -72.65
+    },
+    {
+      "id": 1653,
+      "zone_id": 24,
+      "nom_brut": "Lac Desaulniers ( 53°34'05\" N., 77°34'19\" O. )",
+      "nom": "Lac Desaulniers",
+      "nom_search": "lac desaulniers 53 34 05 n 77 34 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Desaulniers",
+      "aliases": [
+        "desaulniers",
+        "desaulniers 53 34 05 n 77 34 19 o )",
+        "lac desaulniers",
+        "lac desaulniers 53 34 05 n 77 34 19 o )"
+      ],
+      "lat": 53.568056,
+      "lon": -77.571944
+    },
+    {
+      "id": 1852,
+      "zone_id": 24,
+      "nom_brut": "Lac Duncan à l'exception des eaux suivantes : la partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire ( 53°34' N., 77°55' O. ).",
+      "nom": "Lac Duncan à l'exception des eaux suivantes : la partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire",
+      "nom_search": "lac duncan a l exception des eaux suivantes la partie du lac duncan comprise entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 31 n 77 57 o et un point situe a 7 km en amont de ce tributaire 53 34 n 77 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Duncan",
+      "aliases": [
+        "duncan",
+        "duncan a l exception des eaux suivantes la partie du lac duncan comprise entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 31 n 77 57 o et un point situe a 7 km en amont de ce tributaire 53 34 n 77 55 o )",
+        "lac duncan",
+        "lac duncan a l exception des eaux suivantes la partie du lac duncan comprise entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 31 n 77 57 o et un point situe a 7 km en amont de ce tributaire 53 34 n 77 55 o )"
+      ],
+      "lat": 53.516667,
+      "lon": -77.95
+    },
+    {
+      "id": 1853,
+      "zone_id": 24,
+      "nom_brut": "Lac Duncan La partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire ( 53°34' N., 77°55' O. ).",
+      "nom": "Lac Duncan La partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire",
+      "nom_search": "lac duncan la partie du lac duncan comprise entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 31 n 77 57 o et un point situe a 7 km en amont de ce tributaire 53 34 n 77 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Duncan La partie du lac Duncan comprise",
+      "aliases": [
+        "duncan la partie du lac duncan comprise",
+        "duncan la partie du lac duncan comprise entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 31 n 77 57 o et un point situe a 7 km en amont de ce tributaire 53 34 n 77 55 o )",
+        "lac duncan la partie du lac duncan comprise",
+        "lac duncan la partie du lac duncan comprise entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 31 n 77 57 o et un point situe a 7 km en amont de ce tributaire 53 34 n 77 55 o )"
+      ],
+      "lat": 53.516667,
+      "lon": -77.95
+    },
+    {
+      "id": 1871,
+      "zone_id": 24,
+      "nom_brut": "Lac Ekomiak ( 53°22'38\" N., 77°30'00\" O. )",
+      "nom": "Lac Ekomiak",
+      "nom_search": "lac ekomiak 53 22 38 n 77 30 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ekomiak",
+      "aliases": [
+        "ekomiak",
+        "ekomiak 53 22 38 n 77 30 00 o )",
+        "lac ekomiak",
+        "lac ekomiak 53 22 38 n 77 30 00 o )"
+      ],
+      "lat": 53.377222,
+      "lon": -77.5
+    },
+    {
+      "id": 1669,
+      "zone_id": 24,
+      "nom_brut": "Lac Esprit ( 53°25'52\" N., 77°57'33\" O. )",
+      "nom": "Lac Esprit",
+      "nom_search": "lac esprit 53 25 52 n 77 57 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Esprit",
+      "aliases": [
+        "esprit",
+        "esprit 53 25 52 n 77 57 33 o )",
+        "lac esprit",
+        "lac esprit 53 25 52 n 77 57 33 o )"
+      ],
+      "lat": 53.431111,
+      "lon": -77.959167
+    },
+    {
+      "id": 2813,
+      "zone_id": 24,
+      "nom_brut": "Lac Guyer - ( 53°31'41\" N., 75°09'27\" O. )",
+      "nom": "Lac Guyer",
+      "nom_search": "lac guyer 53 31 41 n 75 09 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Guyer -",
+      "aliases": [
+        "guyer",
+        "guyer 53 31 41 n 75 09 27 o )",
+        "lac guyer",
+        "lac guyer 53 31 41 n 75 09 27 o )"
+      ],
+      "lat": 53.528056,
+      "lon": -75.1575
+    },
+    {
+      "id": 1906,
+      "zone_id": 24,
+      "nom_brut": "Lac Hélène la partie comprise dans un rayon de 200 m situé en aval de l'embouchure de la rivière au Castor ( 53°26'13\" N., 77°30'19\" O. ).",
+      "nom": "Lac Hélène la partie comprise dans un rayon de 200 m situé en aval de l'embouchure de la rivière au Castor",
+      "nom_search": "lac helene la partie comprise dans un rayon de 200 m situe en aval de l embouchure de la riviere au castor 53 26 13 n 77 30 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hélène la partie comprise dans un rayon de 200 m situé en aval de l'embouchure de la rivière au Castor",
+      "aliases": [
+        "helene la partie comprise dans un rayon de 200 m situe en aval de l embouchure de la riviere au castor",
+        "helene la partie comprise dans un rayon de 200 m situe en aval de l embouchure de la riviere au castor 53 26 13 n 77 30 19 o )",
+        "lac helene la partie comprise dans un rayon de 200 m situe en aval de l embouchure de la riviere au castor",
+        "lac helene la partie comprise dans un rayon de 200 m situe en aval de l embouchure de la riviere au castor 53 26 13 n 77 30 19 o )"
+      ],
+      "lat": 53.436944,
+      "lon": -77.505278
+    },
+    {
+      "id": 1873,
+      "zone_id": 24,
+      "nom_brut": "Lac Hervé ( 54°27'23\" N., 71°13'47\" O. )",
+      "nom": "Lac Hervé",
+      "nom_search": "lac herve 54 27 23 n 71 13 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hervé",
+      "aliases": [
+        "herve",
+        "herve 54 27 23 n 71 13 47 o )",
+        "lac herve",
+        "lac herve 54 27 23 n 71 13 47 o )"
+      ],
+      "lat": 54.456389,
+      "lon": -71.229722
+    },
+    {
+      "id": 1654,
+      "zone_id": 24,
+      "nom_brut": "Lac Hiver ( 54°03' N., 71°57' O. )",
+      "nom": "Lac Hiver",
+      "nom_search": "lac hiver 54 03 n 71 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hiver",
+      "aliases": [
+        "hiver",
+        "hiver 54 03 n 71 57 o )",
+        "lac hiver",
+        "lac hiver 54 03 n 71 57 o )"
+      ],
+      "lat": 54.05,
+      "lon": -71.95
+    },
+    {
+      "id": 1874,
+      "zone_id": 24,
+      "nom_brut": "Lac Kachinukamach ( 53°18'03\" N., 77°08'45\" O. )",
+      "nom": "Lac Kachinukamach",
+      "nom_search": "lac kachinukamach 53 18 03 n 77 08 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kachinukamach",
+      "aliases": [
+        "kachinukamach",
+        "kachinukamach 53 18 03 n 77 08 45 o )",
+        "lac kachinukamach",
+        "lac kachinukamach 53 18 03 n 77 08 45 o )"
+      ],
+      "lat": 53.300833,
+      "lon": -77.145833
+    },
+    {
+      "id": 1875,
+      "zone_id": 24,
+      "nom_brut": "Lac Kachipinikaw (des Copains) ( 53°26'43\" N., 77°41'49\" O. )",
+      "nom": "Lac Kachipinikaw",
+      "nom_search": "lac kachipinikaw des copains) 53 26 43 n 77 41 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kachipinikaw",
+      "aliases": [
+        "kachipinikaw",
+        "kachipinikaw des copains) 53 26 43 n 77 41 49 o )",
+        "lac kachipinikaw",
+        "lac kachipinikaw des copains) 53 26 43 n 77 41 49 o )"
+      ],
+      "lat": 53.445278,
+      "lon": -77.696944
+    },
+    {
+      "id": 1673,
+      "zone_id": 24,
+      "nom_brut": "Lac Kachistasakaw ( 52°35'19\" N., 77°17'11\" O. )",
+      "nom": "Lac Kachistasakaw",
+      "nom_search": "lac kachistasakaw 52 35 19 n 77 17 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kachistasakaw",
+      "aliases": [
+        "kachistasakaw",
+        "kachistasakaw 52 35 19 n 77 17 11 o )",
+        "lac kachistasakaw",
+        "lac kachistasakaw 52 35 19 n 77 17 11 o )"
+      ],
+      "lat": 52.588611,
+      "lon": -77.286389
+    },
+    {
+      "id": 2435,
+      "zone_id": 24,
+      "nom_brut": "Lac Kanipitayapuschuwatach (Terres II de Chisasibi)( 54°27'21\" N., 78°46'44\" O. )",
+      "nom": "Lac Kanipitayapuschuwatach",
+      "nom_search": "lac kanipitayapuschuwatach terres ii de chisasibi) 54 27 21 n 78 46 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kanipitayapuschuwatach",
+      "aliases": [
+        "kanipitayapuschuwatach",
+        "kanipitayapuschuwatach terres ii de chisasibi) 54 27 21 n 78 46 44 o )",
+        "lac kanipitayapuschuwatach",
+        "lac kanipitayapuschuwatach terres ii de chisasibi) 54 27 21 n 78 46 44 o )"
+      ],
+      "lat": 54.455833,
+      "lon": -78.778889
+    },
+    {
+      "id": 1876,
+      "zone_id": 24,
+      "nom_brut": "Lac Kauskatikakanaw (Pine)( 54°03'45\" N., 75°47'49\" O. )",
+      "nom": "Lac Kauskatikakanaw",
+      "nom_search": "lac kauskatikakanaw pine) 54 03 45 n 75 47 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kauskatikakanaw",
+      "aliases": [
+        "kauskatikakanaw",
+        "kauskatikakanaw pine) 54 03 45 n 75 47 49 o )",
+        "lac kauskatikakanaw",
+        "lac kauskatikakanaw pine) 54 03 45 n 75 47 49 o )"
+      ],
+      "lat": 54.0625,
+      "lon": -75.796944
+    },
+    {
+      "id": 1675,
+      "zone_id": 24,
+      "nom_brut": "Lac Kowkatehkakmow ( 53°27'29\" N., 77°26'15\" O. )",
+      "nom": "Lac Kowkatehkakmow",
+      "nom_search": "lac kowkatehkakmow 53 27 29 n 77 26 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kowkatehkakmow",
+      "aliases": [
+        "kowkatehkakmow",
+        "kowkatehkakmow 53 27 29 n 77 26 15 o )",
+        "lac kowkatehkakmow",
+        "lac kowkatehkakmow 53 27 29 n 77 26 15 o )"
+      ],
+      "lat": 53.458056,
+      "lon": -77.4375
+    },
+    {
+      "id": 2436,
+      "zone_id": 24,
+      "nom_brut": "Lac Kuskips (Terres II de Chisasibi)( 54°15'37\" N., 77°56'31\" O. )",
+      "nom": "Lac Kuskips",
+      "nom_search": "lac kuskips terres ii de chisasibi) 54 15 37 n 77 56 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kuskips",
+      "aliases": [
+        "kuskips",
+        "kuskips terres ii de chisasibi) 54 15 37 n 77 56 31 o )",
+        "lac kuskips",
+        "lac kuskips terres ii de chisasibi) 54 15 37 n 77 56 31 o )"
+      ],
+      "lat": 54.260278,
+      "lon": -77.941944
+    },
+    {
+      "id": 2221,
+      "zone_id": 24,
+      "nom_brut": "Lac Lutrin ( 53°40' N., 76°04' O. )",
+      "nom": "Lac Lutrin",
+      "nom_search": "lac lutrin 53 40 n 76 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lutrin",
+      "aliases": [
+        "lac lutrin",
+        "lac lutrin 53 40 n 76 04 o )",
+        "lutrin",
+        "lutrin 53 40 n 76 04 o )"
+      ],
+      "lat": 53.666667,
+      "lon": -76.066667
+    },
+    {
+      "id": 1877,
+      "zone_id": 24,
+      "nom_brut": "Lac Menarick ( 53°22'33\" N., 77°23'24\" O. )",
+      "nom": "Lac Menarick",
+      "nom_search": "lac menarick 53 22 33 n 77 23 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Menarick",
+      "aliases": [
+        "lac menarick",
+        "lac menarick 53 22 33 n 77 23 24 o )",
+        "menarick",
+        "menarick 53 22 33 n 77 23 24 o )"
+      ],
+      "lat": 53.375833,
+      "lon": -77.39
+    },
+    {
+      "id": 2437,
+      "zone_id": 24,
+      "nom_brut": "Lac Michisu apimiskutat (Terres II de Chisasibi)( 54°18'30\" N., 77°57'00\" O. )",
+      "nom": "Lac Michisu apimiskutat",
+      "nom_search": "lac michisu apimiskutat terres ii de chisasibi) 54 18 30 n 77 57 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Michisu apimiskutat",
+      "aliases": [
+        "lac michisu apimiskutat",
+        "lac michisu apimiskutat terres ii de chisasibi) 54 18 30 n 77 57 00 o )",
+        "michisu apimiskutat",
+        "michisu apimiskutat terres ii de chisasibi) 54 18 30 n 77 57 00 o )"
+      ],
+      "lat": 54.308333,
+      "lon": -77.95
+    },
+    {
+      "id": 2438,
+      "zone_id": 24,
+      "nom_brut": "Lac Natisiskan (Terres II de Chisasibi)( 54°32'30\" N., 78°50'06\" O. )",
+      "nom": "Lac Natisiskan",
+      "nom_search": "lac natisiskan terres ii de chisasibi) 54 32 30 n 78 50 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Natisiskan",
+      "aliases": [
+        "lac natisiskan",
+        "lac natisiskan terres ii de chisasibi) 54 32 30 n 78 50 06 o )",
+        "natisiskan",
+        "natisiskan terres ii de chisasibi) 54 32 30 n 78 50 06 o )"
+      ],
+      "lat": 54.541667,
+      "lon": -78.835
+    },
+    {
+      "id": 1878,
+      "zone_id": 24,
+      "nom_brut": "Lac Natwakami (Nadockmi) ( 54°18'11\" N., 78°32'31\" O. )",
+      "nom": "Lac Natwakami",
+      "nom_search": "lac natwakami nadockmi) 54 18 11 n 78 32 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Natwakami",
+      "aliases": [
+        "lac natwakami",
+        "lac natwakami nadockmi) 54 18 11 n 78 32 31 o )",
+        "natwakami",
+        "natwakami nadockmi) 54 18 11 n 78 32 31 o )"
+      ],
+      "lat": 54.303056,
+      "lon": -78.541944
+    },
+    {
+      "id": 1677,
+      "zone_id": 24,
+      "nom_brut": "Lac Nitiwapisunan (Miron) ( 53°03'24\" N., 77°20'57\" O. )",
+      "nom": "Lac Nitiwapisunan",
+      "nom_search": "lac nitiwapisunan miron) 53 03 24 n 77 20 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nitiwapisunan",
+      "aliases": [
+        "lac nitiwapisunan",
+        "lac nitiwapisunan miron) 53 03 24 n 77 20 57 o )",
+        "nitiwapisunan",
+        "nitiwapisunan miron) 53 03 24 n 77 20 57 o )"
+      ],
+      "lat": 53.056667,
+      "lon": -77.349167
+    },
+    {
+      "id": 1659,
+      "zone_id": 24,
+      "nom_brut": "Lac Nochet ( 53°36' N., 73°45' O. )",
+      "nom": "Lac Nochet",
+      "nom_search": "lac nochet 53 36 n 73 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nochet",
+      "aliases": [
+        "lac nochet",
+        "lac nochet 53 36 n 73 45 o )",
+        "nochet",
+        "nochet 53 36 n 73 45 o )"
+      ],
+      "lat": 53.6,
+      "lon": -73.75
+    },
+    {
+      "id": 1879,
+      "zone_id": 24,
+      "nom_brut": "Lac Orsigny ( 53°43'33\" N., 72°35'18\" O. )",
+      "nom": "Lac Orsigny",
+      "nom_search": "lac orsigny 53 43 33 n 72 35 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Orsigny",
+      "aliases": [
+        "lac orsigny",
+        "lac orsigny 53 43 33 n 72 35 18 o )",
+        "orsigny",
+        "orsigny 53 43 33 n 72 35 18 o )"
+      ],
+      "lat": 53.725833,
+      "lon": -72.588333
+    },
+    {
+      "id": 1661,
+      "zone_id": 24,
+      "nom_brut": "Lac Petit lac des Pins ( 53°55'24\" N., 75°44'39\" O. )",
+      "nom": "Lac Petit lac des Pins",
+      "nom_search": "lac petit lac des pins 53 55 24 n 75 44 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac des Pins",
+      "aliases": [
+        "lac petit lac des pins",
+        "lac petit lac des pins 53 55 24 n 75 44 39 o )",
+        "petit lac des pins",
+        "petit lac des pins 53 55 24 n 75 44 39 o )"
+      ],
+      "lat": 53.923333,
+      "lon": -75.744167
+    },
+    {
+      "id": 2439,
+      "zone_id": 24,
+      "nom_brut": "Lac Pistinikw (Terres II de Chisasibi)( 54°24'37\" N., 78°43'09\" O. )",
+      "nom": "Lac Pistinikw",
+      "nom_search": "lac pistinikw terres ii de chisasibi) 54 24 37 n 78 43 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pistinikw",
+      "aliases": [
+        "lac pistinikw",
+        "lac pistinikw terres ii de chisasibi) 54 24 37 n 78 43 09 o )",
+        "pistinikw",
+        "pistinikw terres ii de chisasibi) 54 24 37 n 78 43 09 o )"
+      ],
+      "lat": 54.410278,
+      "lon": -78.719167
+    },
+    {
+      "id": 1881,
+      "zone_id": 24,
+      "nom_brut": "Lac Polaris ( 53°48'10\" N., 72°52'52\" O. )",
+      "nom": "Lac Polaris",
+      "nom_search": "lac polaris 53 48 10 n 72 52 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Polaris",
+      "aliases": [
+        "lac polaris",
+        "lac polaris 53 48 10 n 72 52 52 o )",
+        "polaris",
+        "polaris 53 48 10 n 72 52 52 o )"
+      ],
+      "lat": 53.802778,
+      "lon": -72.881111
+    },
+    {
+      "id": 2440,
+      "zone_id": 24,
+      "nom_brut": "Lac Roggan (Terres II de Chisasibi)( 54°08'37\" N., 77°47'32\" O. )",
+      "nom": "Lac Roggan",
+      "nom_search": "lac roggan terres ii de chisasibi) 54 08 37 n 77 47 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Roggan",
+      "aliases": [
+        "lac roggan",
+        "lac roggan terres ii de chisasibi) 54 08 37 n 77 47 32 o )",
+        "roggan",
+        "roggan terres ii de chisasibi) 54 08 37 n 77 47 32 o )"
+      ],
+      "lat": 54.143611,
+      "lon": -77.792222
+    },
+    {
+      "id": 1671,
+      "zone_id": 24,
+      "nom_brut": "Lac Saint-Joseph ( 53°50' N., 73°35' O. )",
+      "nom": "Lac Saint-Joseph",
+      "nom_search": "lac saint joseph 53 50 n 73 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Joseph",
+      "aliases": [
+        "lac saint joseph",
+        "lac saint joseph 53 50 n 73 35 o )",
+        "saint joseph",
+        "saint joseph 53 50 n 73 35 o )"
+      ],
+      "lat": 53.833333,
+      "lon": -73.583333
+    },
+    {
+      "id": 1678,
+      "zone_id": 24,
+      "nom_brut": "Lac Sakami ( 53°15'07\" N., 76°45'41\" O. )",
+      "nom": "Lac Sakami",
+      "nom_search": "lac sakami 53 15 07 n 76 45 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sakami",
+      "aliases": [
+        "lac sakami",
+        "lac sakami 53 15 07 n 76 45 41 o )",
+        "sakami",
+        "sakami 53 15 07 n 76 45 41 o )"
+      ],
+      "lat": 53.251944,
+      "lon": -76.761389
+    },
+    {
+      "id": 2466,
+      "zone_id": 24,
+      "nom_brut": "Lac Sans nom ( 53°45'39\" N., 73°26'57\"O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 53 45 39 n 73 26 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 53 45 39 n 73 26 57 o )",
+        "sans nom",
+        "sans nom 53 45 39 n 73 26 57 o )"
+      ],
+      "lat": 53.760833,
+      "lon": -73.449167
+    },
+    {
+      "id": 2467,
+      "zone_id": 24,
+      "nom_brut": "Lac Sans nom ( 53°45'46\" N., 73°30'34\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 53 45 46 n 73 30 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 53 45 46 n 73 30 34 o )",
+        "sans nom",
+        "sans nom 53 45 46 n 73 30 34 o )"
+      ],
+      "lat": 53.762778,
+      "lon": -73.509444
+    },
+    {
+      "id": 2814,
+      "zone_id": 24,
+      "nom_brut": "Lac Sans nom ( 54°07'00\" N., 71°40'41\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 54 07 00 n 71 40 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 54 07 00 n 71 40 41 o )",
+        "sans nom",
+        "sans nom 54 07 00 n 71 40 41 o )"
+      ],
+      "lat": 54.116667,
+      "lon": -71.678056
+    },
+    {
+      "id": 1666,
+      "zone_id": 24,
+      "nom_brut": "Lac sans nom (à Jules) ( 53°29'25\" N., 77°16'48\" O. )",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom a jules) 53 29 25 n 77 16 48 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom a jules) 53 29 25 n 77 16 48 o )",
+        "sans nom",
+        "sans nom a jules) 53 29 25 n 77 16 48 o )"
+      ],
+      "lat": 53.490278,
+      "lon": -77.28
+    },
+    {
+      "id": 1857,
+      "zone_id": 24,
+      "nom_brut": "Lac sans nom (Terres II de Chisasibi) ( 54°02' N., 77°30' O. ), ( 54°02'30\" N., 77°30'00\" O. ), ( 54°04'00\" N., 77°48'30\" O. ), ( 54°24' N., 78°51' O. ), ( 54°27' N., 79°02' O. ), ( 54°30' N., 79°12' O. ), ( 54°38'30\" N., 79°15'00\" O. ), ( 54°40'10\" N., 79°15'30\" O. ), ( 54°44' N., 79°04' O. ).",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom terres ii de chisasibi) 54 02 n 77 30 o ) 54 02 30 n 77 30 00 o ) 54 04 00 n 77 48 30 o ) 54 24 n 78 51 o ) 54 27 n 79 02 o ) 54 30 n 79 12 o ) 54 38 30 n 79 15 00 o ) 54 40 10 n 79 15 30 o ) 54 44 n 79 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom terres ii de chisasibi) 54 02 n 77 30 o ) 54 02 30 n 77 30 00 o ) 54 04 00 n 77 48 30 o ) 54 24 n 78 51 o ) 54 27 n 79 02 o ) 54 30 n 79 12 o ) 54 38 30 n 79 15 00 o ) 54 40 10 n 79 15 30 o ) 54 44 n 79 04 o )",
+        "sans nom",
+        "sans nom terres ii de chisasibi) 54 02 n 77 30 o ) 54 02 30 n 77 30 00 o ) 54 04 00 n 77 48 30 o ) 54 24 n 78 51 o ) 54 27 n 79 02 o ) 54 30 n 79 12 o ) 54 38 30 n 79 15 00 o ) 54 40 10 n 79 15 30 o ) 54 44 n 79 04 o )"
+      ],
+      "lat": 54.033333,
+      "lon": -77.5
+    },
+    {
+      "id": 1870,
+      "zone_id": 24,
+      "nom_brut": "Lac sans nom ( 53°36' N., 74°34' O. ), ( 53°25' N., 76°52' O. ), ( 53°44' N., 72°56' O. ), ( 53°47' N., 72°49' O. ), ( 53°48' N., 72°48' O. ), ( 53°50' N., 73°35' O. ).",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom 53 36 n 74 34 o ) 53 25 n 76 52 o ) 53 44 n 72 56 o ) 53 47 n 72 49 o ) 53 48 n 72 48 o ) 53 50 n 73 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 53 36 n 74 34 o ) 53 25 n 76 52 o ) 53 44 n 72 56 o ) 53 47 n 72 49 o ) 53 48 n 72 48 o ) 53 50 n 73 35 o )",
+        "sans nom",
+        "sans nom 53 36 n 74 34 o ) 53 25 n 76 52 o ) 53 44 n 72 56 o ) 53 47 n 72 49 o ) 53 48 n 72 48 o ) 53 50 n 73 35 o )"
+      ],
+      "lat": 53.6,
+      "lon": -74.566667
+    },
+    {
+      "id": 1648,
+      "zone_id": 24,
+      "nom_brut": "Lac sans nom ( 53°43'25\" N., 72°57'05\" O. ), ( 53°43'48\" N., 72°57'24\" O. ), ( 53°44'20\" N., 72°54'30\" O. ), ( 53°44'49\" N., 73°01'39\" O. ), ( 53°53' N., 72°52' O. ), ( 53°54' N., 72°51' O. ), ( 53°56' N., 72°51' O. ), ( 53°57' N., 72°07' O. ), ( 54°02' N., 71°52' O. ), ( 54°03' N., 72°30' O. ), ( 54°05' N., 71°46' O. ), ( 54°08' N., 72°32' O. ), ( 54°13' N., 72°28' O. ), ( 54°15' N., 72°20' O. ), ( 54°18'12\" N., 72°44'35\" O. ).",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom 53 43 25 n 72 57 05 o ) 53 43 48 n 72 57 24 o ) 53 44 20 n 72 54 30 o ) 53 44 49 n 73 01 39 o ) 53 53 n 72 52 o ) 53 54 n 72 51 o ) 53 56 n 72 51 o ) 53 57 n 72 07 o ) 54 02 n 71 52 o ) 54 03 n 72 30 o ) 54 05 n 71 46 o ) 54 08 n 72 32 o ) 54 13 n 72 28 o ) 54 15 n 72 20 o ) 54 18 12 n 72 44 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 53 43 25 n 72 57 05 o ) 53 43 48 n 72 57 24 o ) 53 44 20 n 72 54 30 o ) 53 44 49 n 73 01 39 o ) 53 53 n 72 52 o ) 53 54 n 72 51 o ) 53 56 n 72 51 o ) 53 57 n 72 07 o ) 54 02 n 71 52 o ) 54 03 n 72 30 o ) 54 05 n 71 46 o ) 54 08 n 72 32 o ) 54 13 n 72 28 o ) 54 15 n 72 20 o ) 54 18 12 n 72 44 35 o )",
+        "sans nom",
+        "sans nom 53 43 25 n 72 57 05 o ) 53 43 48 n 72 57 24 o ) 53 44 20 n 72 54 30 o ) 53 44 49 n 73 01 39 o ) 53 53 n 72 52 o ) 53 54 n 72 51 o ) 53 56 n 72 51 o ) 53 57 n 72 07 o ) 54 02 n 71 52 o ) 54 03 n 72 30 o ) 54 05 n 71 46 o ) 54 08 n 72 32 o ) 54 13 n 72 28 o ) 54 15 n 72 20 o ) 54 18 12 n 72 44 35 o )"
+      ],
+      "lat": 53.723611,
+      "lon": -72.951389
+    },
+    {
+      "id": 3005,
+      "zone_id": 24,
+      "nom_brut": "Lac sans nom ( 53°43'47\" N., 73°01'11\" O. )",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom 53 43 47 n 73 01 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 53 43 47 n 73 01 11 o )",
+        "sans nom",
+        "sans nom 53 43 47 n 73 01 11 o )"
+      ],
+      "lat": 53.729722,
+      "lon": -73.019722
+    },
+    {
+      "id": 2441,
+      "zone_id": 24,
+      "nom_brut": "Lac Tataskwami (Terres II de Chisasibi)( 54°29'33\" N., 79°08'11\" O. )",
+      "nom": "Lac Tataskwami",
+      "nom_search": "lac tataskwami terres ii de chisasibi) 54 29 33 n 79 08 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tataskwami",
+      "aliases": [
+        "lac tataskwami",
+        "lac tataskwami terres ii de chisasibi) 54 29 33 n 79 08 11 o )",
+        "tataskwami",
+        "tataskwami terres ii de chisasibi) 54 29 33 n 79 08 11 o )"
+      ],
+      "lat": 54.4925,
+      "lon": -79.136389
+    },
+    {
+      "id": 1662,
+      "zone_id": 24,
+      "nom_brut": "Lac Thomas ( 53°49' N., 73°32' O. )",
+      "nom": "Lac Thomas",
+      "nom_search": "lac thomas 53 49 n 73 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Thomas",
+      "aliases": [
+        "lac thomas",
+        "lac thomas 53 49 n 73 32 o )",
+        "thomas",
+        "thomas 53 49 n 73 32 o )"
+      ],
+      "lat": 53.816667,
+      "lon": -73.533333
+    },
+    {
+      "id": 1882,
+      "zone_id": 24,
+      "nom_brut": "Lac Tilly ( 53°57'28\" N., 73°57'29\" O. )",
+      "nom": "Lac Tilly",
+      "nom_search": "lac tilly 53 57 28 n 73 57 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tilly",
+      "aliases": [
+        "lac tilly",
+        "lac tilly 53 57 28 n 73 57 29 o )",
+        "tilly",
+        "tilly 53 57 28 n 73 57 29 o )"
+      ],
+      "lat": 53.957778,
+      "lon": -73.958056
+    },
+    {
+      "id": 1679,
+      "zone_id": 24,
+      "nom_brut": "Lac Utaunanis (Mosquito) ( 53°54'14\" N., 77°30'27\" O. )",
+      "nom": "Lac Utaunanis",
+      "nom_search": "lac utaunanis mosquito) 53 54 14 n 77 30 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Utaunanis",
+      "aliases": [
+        "lac utaunanis",
+        "lac utaunanis mosquito) 53 54 14 n 77 30 27 o )",
+        "utaunanis",
+        "utaunanis mosquito) 53 54 14 n 77 30 27 o )"
+      ],
+      "lat": 53.903889,
+      "lon": -77.5075
+    },
+    {
+      "id": 1681,
+      "zone_id": 24,
+      "nom_brut": "Lac Wisinawkamaw ( 52°46'59\" N., 77°10'43\" O. )",
+      "nom": "Lac Wisinawkamaw",
+      "nom_search": "lac wisinawkamaw 52 46 59 n 77 10 43 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Wisinawkamaw",
+      "aliases": [
+        "lac wisinawkamaw",
+        "lac wisinawkamaw 52 46 59 n 77 10 43 o )",
+        "wisinawkamaw",
+        "wisinawkamaw 52 46 59 n 77 10 43 o )"
+      ],
+      "lat": 52.783056,
+      "lon": -77.178611
+    },
+    {
+      "id": 1855,
+      "zone_id": 24,
+      "nom_brut": "Lac Yasinski * Entre un point situé à 450 m en aval de la route de la Baie-James et un point situé à 90 m en amont de cette route. * Entre un point situé à 500 m en aval de l'embouchure du tributaire situé à ( 53°16' N., 77°26' O. ) et un point situé à 1 km en amont de ce tributaire ( 53°16' N., 77°25' O. ). * Entre un point situé à 500 m en aval de l'embouchure du tributaire situé à ( 53°16' N., 77°29' O. ) et un point situé à 1 km en amont de ce tributaire, à ( 53°16' N., 77°30' O. ).",
+      "nom": "Lac Yasinski * Entre un point situé à 450 m en aval de la route de la Baie-James et un point situé à 90 m en amont de cette route. * Entre un point situé à 500 m en aval de l'embouchure du tributaire situé à",
+      "nom_search": "lac yasinski entre un point situe a 450 m en aval de la route de la baie james et un point situe a 90 m en amont de cette route entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 16 n 77 26 o ) et un point situe a 1 km en amont de ce tributaire 53 16 n 77 25 o ) entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 16 n 77 29 o ) et un point situe a 1 km en amont de ce tributaire a 53 16 n 77 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Yasinski *",
+      "aliases": [
+        "lac yasinski",
+        "lac yasinski entre un point situe a 450 m en aval de la route de la baie james et un point situe a 90 m en amont de cette route entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 16 n 77 26 o ) et un point situe a 1 km en amont de ce tributaire 53 16 n 77 25 o ) entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 16 n 77 29 o ) et un point situe a 1 km en amont de ce tributaire a 53 16 n 77 30 o )",
+        "yasinski",
+        "yasinski entre un point situe a 450 m en aval de la route de la baie james et un point situe a 90 m en amont de cette route entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 16 n 77 26 o ) et un point situe a 1 km en amont de ce tributaire 53 16 n 77 25 o ) entre un point situe a 500 m en aval de l embouchure du tributaire situe a 53 16 n 77 29 o ) et un point situe a 1 km en amont de ce tributaire a 53 16 n 77 30 o )"
+      ],
+      "lat": 53.266667,
+      "lon": -77.433333
+    },
+    {
+      "id": 2224,
+      "zone_id": 24,
+      "nom_brut": "Passe Anatwayach - La partie comprise entre un point situé à ( 54°03'05\" N., 76°04'44\" O. ) et la chute située en amont ( 54°03'05\" N., 76°06'24\" O. ).",
+      "nom": "Passe Anatwayach - La partie comprise entre un point situé à",
+      "nom_search": "passe anatwayach la partie comprise entre un point situe a 54 03 05 n 76 04 44 o ) et la chute situee en amont 54 03 05 n 76 06 24 o )",
+      "segment_label": null,
+      "river_base_name": "Passe Anatwayach",
+      "aliases": [
+        "passe anatwayach",
+        "passe anatwayach la partie comprise entre un point situe a 54 03 05 n 76 04 44 o ) et la chute situee en amont 54 03 05 n 76 06 24 o )"
+      ],
+      "lat": 54.051389,
+      "lon": -76.078889
+    },
+    {
+      "id": 2226,
+      "zone_id": 24,
+      "nom_brut": "Passe Pikwahipanan - La partie comprise entre un point situé à ( 53°52'42\" N., 76°11'38\" O. ) et la chute située en amont ( 53°52'42\" N., 76°11'21\" O. )",
+      "nom": "Passe Pikwahipanan - La partie comprise entre un point situé à",
+      "nom_search": "passe pikwahipanan la partie comprise entre un point situe a 53 52 42 n 76 11 38 o ) et la chute situee en amont 53 52 42 n 76 11 21 o )",
+      "segment_label": null,
+      "river_base_name": "Passe Pikwahipanan",
+      "aliases": [
+        "passe pikwahipanan",
+        "passe pikwahipanan la partie comprise entre un point situe a 53 52 42 n 76 11 38 o ) et la chute situee en amont 53 52 42 n 76 11 21 o )"
+      ],
+      "lat": 53.878333,
+      "lon": -76.193889
+    },
+    {
+      "id": 1888,
+      "zone_id": 24,
+      "nom_brut": "Réservoir Laforge 1 ( 54°21'04\" N., 72°08'22\" O. )",
+      "nom": "Réservoir Laforge 1",
+      "nom_search": "reservoir laforge 1 54 21 04 n 72 08 22 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Laforge 1",
+      "aliases": [
+        "laforge 1",
+        "laforge 1 54 21 04 n 72 08 22 o )",
+        "reservoir laforge 1",
+        "reservoir laforge 1 54 21 04 n 72 08 22 o )"
+      ],
+      "lat": 54.351111,
+      "lon": -72.139444
+    },
+    {
+      "id": 1886,
+      "zone_id": 24,
+      "nom_brut": "Réservoir LG- 4 ( 53°54'03\" N., 73°15'03\" O. )",
+      "nom": "Réservoir LG- 4",
+      "nom_search": "reservoir lg 4 53 54 03 n 73 15 03 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir LG- 4",
+      "aliases": [
+        "lg 4",
+        "lg 4 53 54 03 n 73 15 03 o )",
+        "reservoir lg 4",
+        "reservoir lg 4 53 54 03 n 73 15 03 o )"
+      ],
+      "lat": 53.900833,
+      "lon": -73.250833
+    },
+    {
+      "id": 1890,
+      "zone_id": 24,
+      "nom_brut": "Réservoir Robert-Bourassa ( 53°45'00\" N., 77°00'00\" O. ) à l'exception des eaux suivantes: Baies :* Amichinatwayasich (de l'Indien), entre un point situéà ( 53°52'18\" N., 77°00'22\" O. ) et la chute située en amont ( 53°52'32\" N., 76°59'55\" O. )* Chapus, l'ensemble de la baie jusqu'à un point situé à ( 53°32' N., 77°04' O. ) Passes : * Anatwayach, entre un point situé à 54°03'05\" N., 76°04'44\" O. et la chute située en amont ( 54°03'05\" N., 76°06'24\" O. ) * Pikwahipanan, entre un point situé à 53°52'42\" N., 76°11'38\" O. et la chute située en amont 53°52'42\" N., 76°11'21\" O. ) * Rivière Kanaaupscow, entre son embouchure ( 54°14'54\" N., 76°11'49\" O. ) et la chute située en amont ( 54°14'50\" N., 76°11'11\" O. )",
+      "nom": "Réservoir Robert-Bourassa",
+      "nom_search": "reservoir robert bourassa 53 45 00 n 77 00 00 o ) a l exception des eaux suivantes baies amichinatwayasich de l indien) entre un point situea 53 52 18 n 77 00 22 o ) et la chute situee en amont 53 52 32 n 76 59 55 o ) chapus l ensemble de la baie jusqu a un point situe a 53 32 n 77 04 o ) passes anatwayach entre un point situe a 54 03 05 n 76 04 44 o et la chute situee en amont 54 03 05 n 76 06 24 o ) pikwahipanan entre un point situe a 53 52 42 n 76 11 38 o et la chute situee en amont 53 52 42 n 76 11 21 o ) riviere kanaaupscow entre son embouchure 54 14 54 n 76 11 49 o ) et la chute situee en amont 54 14 50 n 76 11 11 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Robert-Bourassa",
+      "aliases": [
+        "reservoir robert bourassa",
+        "reservoir robert bourassa 53 45 00 n 77 00 00 o ) a l exception des eaux suivantes baies amichinatwayasich de l indien) entre un point situea 53 52 18 n 77 00 22 o ) et la chute situee en amont 53 52 32 n 76 59 55 o ) chapus l ensemble de la baie jusqu a un point situe a 53 32 n 77 04 o ) passes anatwayach entre un point situe a 54 03 05 n 76 04 44 o et la chute situee en amont 54 03 05 n 76 06 24 o ) pikwahipanan entre un point situe a 53 52 42 n 76 11 38 o et la chute situee en amont 53 52 42 n 76 11 21 o ) riviere kanaaupscow entre son embouchure 54 14 54 n 76 11 49 o ) et la chute situee en amont 54 14 50 n 76 11 11 o )",
+        "robert bourassa",
+        "robert bourassa 53 45 00 n 77 00 00 o ) a l exception des eaux suivantes baies amichinatwayasich de l indien) entre un point situea 53 52 18 n 77 00 22 o ) et la chute situee en amont 53 52 32 n 76 59 55 o ) chapus l ensemble de la baie jusqu a un point situe a 53 32 n 77 04 o ) passes anatwayach entre un point situe a 54 03 05 n 76 04 44 o et la chute situee en amont 54 03 05 n 76 06 24 o ) pikwahipanan entre un point situe a 53 52 42 n 76 11 38 o et la chute situee en amont 53 52 42 n 76 11 21 o ) riviere kanaaupscow entre son embouchure 54 14 54 n 76 11 49 o ) et la chute situee en amont 54 14 50 n 76 11 11 o )"
+      ],
+      "lat": 53.75,
+      "lon": -77.0
+    },
+    {
+      "id": 1903,
+      "zone_id": 24,
+      "nom_brut": "Rivière à l'Eau Claire - La partie comprise entre son embouchure dans le lac Kasikanipiskach et sa confluence avec la rivière Eastmain.",
+      "nom": "Rivière à l'Eau Claire - La partie comprise entre son embouchure dans le lac Kasikanipiskach et sa confluence avec la rivière Eastmain.",
+      "nom_search": "riviere a l eau claire la partie comprise entre son embouchure dans le lac kasikanipiskach et sa confluence avec la riviere eastmain",
+      "segment_label": null,
+      "river_base_name": "Rivière à l'Eau Claire",
+      "aliases": [
+        "a l eau claire",
+        "a l eau claire la partie comprise entre son embouchure dans le lac kasikanipiskach et sa confluence avec la riviere eastmain",
+        "riviere a l eau claire",
+        "riviere a l eau claire la partie comprise entre son embouchure dans le lac kasikanipiskach et sa confluence avec la riviere eastmain"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1908,
+      "zone_id": 24,
+      "nom_brut": "Rivière au Castor * entre un point situé à 100 m en aval de la ligne de transport d'énergie d'Hydro-Québec no 7060-7061 (lac Kowskatechkakmow)( 53°28'13\"N., 77°23'37\"O. ) vers l'amont jusqu'à sa source dans le lac sans nom F 0248 ( 53°28'45\"N., 77°19'47\"O. ). * de son embouchure dans le lac Hélène ( 53°26'13\"N., 77°30'19\"O. ) à un point situé en amont vers le lac Kowskatechkakmow ( 53°26'09\"N., 77°29'27\"O. ).",
+      "nom": "Rivière au Castor * entre un point situé à 100 m en aval de la ligne de transport d'énergie d'Hydro-Québec no 7060-7061",
+      "nom_search": "riviere au castor entre un point situe a 100 m en aval de la ligne de transport d energie d hydro quebec no 7060 7061 lac kowskatechkakmow) 53 28 13 n 77 23 37 o ) vers l amont jusqu a sa source dans le lac sans nom f 0248 53 28 45 n 77 19 47 o ) de son embouchure dans le lac helene 53 26 13 n 77 30 19 o ) a un point situe en amont vers le lac kowskatechkakmow 53 26 09 n 77 29 27 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière au Castor *",
+      "aliases": [
+        "au castor",
+        "au castor entre un point situe a 100 m en aval de la ligne de transport d energie d hydro quebec no 7060 7061 lac kowskatechkakmow) 53 28 13 n 77 23 37 o ) vers l amont jusqu a sa source dans le lac sans nom f 0248 53 28 45 n 77 19 47 o ) de son embouchure dans le lac helene 53 26 13 n 77 30 19 o ) a un point situe en amont vers le lac kowskatechkakmow 53 26 09 n 77 29 27 o )",
+        "riviere au castor",
+        "riviere au castor entre un point situe a 100 m en aval de la ligne de transport d energie d hydro quebec no 7060 7061 lac kowskatechkakmow) 53 28 13 n 77 23 37 o ) vers l amont jusqu a sa source dans le lac sans nom f 0248 53 28 45 n 77 19 47 o ) de son embouchure dans le lac helene 53 26 13 n 77 30 19 o ) a un point situe en amont vers le lac kowskatechkakmow 53 26 09 n 77 29 27 o )"
+      ],
+      "lat": 53.470278,
+      "lon": -77.393611
+    },
+    {
+      "id": 2228,
+      "zone_id": 24,
+      "nom_brut": "Rivière Kanaaupscow - La partie comprise entre son embouchure ( 54°14'54\"N., 76°11'49\"O. ) et la chute située en amont ( 54°14'50\"N., 76°11'11\"O. ).",
+      "nom": "Rivière Kanaaupscow - La partie comprise entre son embouchure",
+      "nom_search": "riviere kanaaupscow la partie comprise entre son embouchure 54 14 54 n 76 11 49 o ) et la chute situee en amont 54 14 50 n 76 11 11 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Kanaaupscow",
+      "aliases": [
+        "kanaaupscow",
+        "kanaaupscow la partie comprise entre son embouchure 54 14 54 n 76 11 49 o ) et la chute situee en amont 54 14 50 n 76 11 11 o )",
+        "riviere kanaaupscow",
+        "riviere kanaaupscow la partie comprise entre son embouchure 54 14 54 n 76 11 49 o ) et la chute situee en amont 54 14 50 n 76 11 11 o )"
+      ],
+      "lat": 54.248333,
+      "lon": -76.196944
+    },
+    {
+      "id": 1884,
+      "zone_id": 24,
+      "nom_brut": "Rivière Kapsaouis (Terres II, Chisasibi) - La partie comprise entre une droite passant par le point 54°19'00\" N., 79°17'50\" O. et une droite passant par le point 54°19'00\" N., 79°14'05\" O. située à 5 km en amont.",
+      "nom": "Rivière Kapsaouis",
+      "nom_search": "riviere kapsaouis terres ii chisasibi) la partie comprise entre une droite passant par le point 54 19 00 n 79 17 50 o et une droite passant par le point 54 19 00 n 79 14 05 o situee a 5 km en amont",
+      "segment_label": null,
+      "river_base_name": "Rivière Kapsaouis",
+      "aliases": [
+        "kapsaouis",
+        "kapsaouis terres ii chisasibi) la partie comprise entre une droite passant par le point 54 19 00 n 79 17 50 o et une droite passant par le point 54 19 00 n 79 14 05 o situee a 5 km en amont",
+        "riviere kapsaouis",
+        "riviere kapsaouis terres ii chisasibi) la partie comprise entre une droite passant par le point 54 19 00 n 79 17 50 o et une droite passant par le point 54 19 00 n 79 14 05 o situee a 5 km en amont"
+      ],
+      "lat": 54.316667,
+      "lon": -79.297222
+    },
+    {
+      "id": 2450,
+      "zone_id": 24,
+      "nom_brut": "Rivière La Grande Rivière - La partie comprise entre le barrage Robert-Bourassa ( 53°47'09\" N., 77°27'07\" O. ) et une droite passant par le point 53°44'12\" N., 78°09'26\"O. (limite nord-est des Terres I de Chisasibi).",
+      "nom": "Rivière La Grande Rivière - La partie comprise entre le barrage Robert-Bourassa",
+      "nom_search": "riviere la grande riviere la partie comprise entre le barrage robert bourassa 53 47 09 n 77 27 07 o ) et une droite passant par le point 53 44 12 n 78 09 26 o limite nord est des terres i de chisasibi)",
+      "segment_label": null,
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere la partie comprise entre le barrage robert bourassa 53 47 09 n 77 27 07 o ) et une droite passant par le point 53 44 12 n 78 09 26 o limite nord est des terres i de chisasibi)",
+        "riviere la grande riviere",
+        "riviere la grande riviere la partie comprise entre le barrage robert bourassa 53 47 09 n 77 27 07 o ) et une droite passant par le point 53 44 12 n 78 09 26 o limite nord est des terres i de chisasibi)"
+      ],
+      "lat": 53.785833,
+      "lon": -77.451944
+    },
+    {
+      "id": 2447,
+      "zone_id": 24,
+      "nom_brut": "Rivière La Grande Rivière - La partie comprise entre un point situé à 1 km en aval du barrage LG-1 et un point situé à 1 km en amont de ce barrage.",
+      "nom": "Rivière La Grande Rivière - La partie comprise entre un point situé à 1 km en aval du barrage LG-1 et un point situé à 1 km en amont de ce barrage.",
+      "nom_search": "riviere la grande riviere la partie comprise entre un point situe a 1 km en aval du barrage lg 1 et un point situe a 1 km en amont de ce barrage",
+      "segment_label": null,
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere la partie comprise entre un point situe a 1 km en aval du barrage lg 1 et un point situe a 1 km en amont de ce barrage",
+        "riviere la grande riviere",
+        "riviere la grande riviere la partie comprise entre un point situe a 1 km en aval du barrage lg 1 et un point situe a 1 km en amont de ce barrage"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2454,
+      "zone_id": 24,
+      "nom_brut": "Rivière La Grande Rivière - La partie comprise entre une droite passant par le point 53°47'53'' N., 72°52'55'' O. située à 4 km en aval du pont Polaris sur la route Transtaïga et une droite passant par le point 53°41'55,8'' N., 72°40'05'' O. située à 20 km en amont de ce pont.",
+      "nom": "Rivière La Grande Rivière - La partie comprise entre une droite passant par le point 53°47'53'' N., 72°52'55'' O. située à 4 km en aval du pont Polaris sur la route Transtaïga et une droite passant par le point 53°41'55,8'' N., 72°40'05'' O. située à 20 km en amont de ce pont.",
+      "nom_search": "riviere la grande riviere la partie comprise entre une droite passant par le point 53 47 53 n 72 52 55 o situee a 4 km en aval du pont polaris sur la route transtaiga et une droite passant par le point 53 41 55 8 n 72 40 05 o situee a 20 km en amont de ce pont",
+      "segment_label": null,
+      "river_base_name": "Rivière La Grande Rivière",
+      "aliases": [
+        "la grande riviere",
+        "la grande riviere la partie comprise entre une droite passant par le point 53 47 53 n 72 52 55 o situee a 4 km en aval du pont polaris sur la route transtaiga et une droite passant par le point 53 41 55 8 n 72 40 05 o situee a 20 km en amont de ce pont",
+        "riviere la grande riviere",
+        "riviere la grande riviere la partie comprise entre une droite passant par le point 53 47 53 n 72 52 55 o situee a 4 km en aval du pont polaris sur la route transtaiga et une droite passant par le point 53 41 55 8 n 72 40 05 o situee a 20 km en amont de ce pont"
+      ],
+      "lat": 53.798056,
+      "lon": -72.881944
+    },
+    {
+      "id": 1664,
+      "zone_id": 24,
+      "nom_brut": "Rivière Vincelotte ( 54°10'16\" N., 73°13'25\" O. )",
+      "nom": "Rivière Vincelotte",
+      "nom_search": "riviere vincelotte 54 10 16 n 73 13 25 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Vincelotte",
+      "aliases": [
+        "riviere vincelotte",
+        "riviere vincelotte 54 10 16 n 73 13 25 o )",
+        "vincelotte",
+        "vincelotte 54 10 16 n 73 13 25 o )"
+      ],
+      "lat": 54.171111,
+      "lon": -73.223611
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [-70.095206, 52.188134]}, "properties": {"id_lce": 97150, "type": "riviere", "nom": null}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-70.076843, 52.120757]}, "properties": {"id_lce": 147787, "type": "riviere", "nom": null}}]}

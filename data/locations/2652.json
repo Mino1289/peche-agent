@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "zone_id": 2652,
+    "zone_nom": "Zone 19 sud - partie A",
+    "nb_plans": 27,
+    "nb_geocoded": 21,
+    "pct_geocoded": 77.8,
+    "source_file": "zones/2652.json"
+  },
+  "locations": [
+    {
+      "id": 2987,
+      "zone_id": 2652,
+      "nom_brut": "Réserve Faunique Port-Cartier-Sept-Îles",
+      "nom": "Réserve Faunique Port-Cartier-Sept-Îles",
+      "nom_search": "reserve faunique port cartier sept iles",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique Port-Cartier-Sept-Îles",
+      "aliases": [
+        "reserve faunique port cartier sept iles"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 10560,
+      "zone_id": 2652,
+      "nom_brut": "Réservoir aux Outardes - 4 ( 50°08'04\" N., 69°07'09\" O. )",
+      "nom": "Réservoir aux Outardes - 4",
+      "nom_search": "reservoir aux outardes 4 50 08 04 n 69 07 09 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir aux Outardes",
+      "aliases": [
+        "aux outardes",
+        "aux outardes 4 50 08 04 n 69 07 09 o )",
+        "reservoir aux outardes",
+        "reservoir aux outardes 4 50 08 04 n 69 07 09 o )"
+      ],
+      "lat": 50.134444,
+      "lon": -69.119167
+    },
+    {
+      "id": 10561,
+      "zone_id": 2652,
+      "nom_brut": "Réservoir Manic - 3 ( 50°07'50\" N., 68°38'34\" O. )",
+      "nom": "Réservoir Manic - 3",
+      "nom_search": "reservoir manic 3 50 07 50 n 68 38 34 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Manic",
+      "aliases": [
+        "manic",
+        "manic 3 50 07 50 n 68 38 34 o )",
+        "reservoir manic",
+        "reservoir manic 3 50 07 50 n 68 38 34 o )"
+      ],
+      "lat": 50.130556,
+      "lon": -68.642778
+    },
+    {
+      "id": 1252,
+      "zone_id": 2652,
+      "nom_brut": "Rivière à l'Eau Dorée (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et un point situé à 1 km en amont ( 50°44'37\" N., 66°14'08\" O. ).",
+      "nom": "Rivière à l'Eau Dorée",
+      "nom_search": "riviere a l eau doree ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 1 km en amont 50 44 37 n 66 14 08 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière à l'Eau Dorée",
+      "aliases": [
+        "a l eau doree",
+        "a l eau doree ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 1 km en amont 50 44 37 n 66 14 08 o )",
+        "riviere a l eau doree",
+        "riviere a l eau doree ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 1 km en amont 50 44 37 n 66 14 08 o )"
+      ],
+      "lat": 50.743611,
+      "lon": -66.235556
+    },
+    {
+      "id": 1310,
+      "zone_id": 2652,
+      "nom_brut": "Rivière aux Rochers a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval des ponts reliant Port-Cartier-Ouest à Port-Cartier et le barrage municipal de retenue d'eau.",
+      "nom": "Rivière aux Rochers a)",
+      "nom_search": "riviere aux rochers a) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval des ponts reliant port cartier ouest a port cartier et le barrage municipal de retenue d eau",
+      "segment_label": "a)",
+      "river_base_name": "Rivière aux Rochers",
+      "aliases": [
+        "aux rochers",
+        "aux rochers a) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval des ponts reliant port cartier ouest a port cartier et le barrage municipal de retenue d eau",
+        "riviere aux rochers",
+        "riviere aux rochers a) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval des ponts reliant port cartier ouest a port cartier et le barrage municipal de retenue d eau"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1314,
+      "zone_id": 2652,
+      "nom_brut": "Rivière aux Rochers b) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le barrage municipal de retenue d'eau et le côté en aval du pont du 8e mille ( 50°05'13\" N., 66°59'45\" O. ).",
+      "nom": "Rivière aux Rochers b)",
+      "nom_search": "riviere aux rochers b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le barrage municipal de retenue d eau et le cote en aval du pont du 8e mille 50 05 13 n 66 59 45 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière aux Rochers",
+      "aliases": [
+        "aux rochers",
+        "aux rochers b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le barrage municipal de retenue d eau et le cote en aval du pont du 8e mille 50 05 13 n 66 59 45 o )",
+        "riviere aux rochers",
+        "riviere aux rochers b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le barrage municipal de retenue d eau et le cote en aval du pont du 8e mille 50 05 13 n 66 59 45 o )"
+      ],
+      "lat": 50.086944,
+      "lon": -66.995833
+    },
+    {
+      "id": 1315,
+      "zone_id": 2652,
+      "nom_brut": "Rivière aux Rochers c) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont du 8e mille ( 50°05'13\" N., 66°59'45\" O. ) et la pointe sud de l'île située au sud du lac Walker ( 50°07'54\" N., 67°07'59\" O. ).",
+      "nom": "Rivière aux Rochers c)",
+      "nom_search": "riviere aux rochers c) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont du 8e mille 50 05 13 n 66 59 45 o ) et la pointe sud de l ile situee au sud du lac walker 50 07 54 n 67 07 59 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière aux Rochers",
+      "aliases": [
+        "aux rochers",
+        "aux rochers c) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont du 8e mille 50 05 13 n 66 59 45 o ) et la pointe sud de l ile situee au sud du lac walker 50 07 54 n 67 07 59 o )",
+        "riviere aux rochers",
+        "riviere aux rochers c) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont du 8e mille 50 05 13 n 66 59 45 o ) et la pointe sud de l ile situee au sud du lac walker 50 07 54 n 67 07 59 o )"
+      ],
+      "lat": 50.086944,
+      "lon": -66.995833
+    },
+    {
+      "id": 1316,
+      "zone_id": 2652,
+      "nom_brut": "Rivière aux Rochers d) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la pointe sud de l'île située au sud du lac Walker ( 50°07'54\" N., 67°07'59\" O. ) jusqu'au lac Walker, ainsi que le lac Walker.",
+      "nom": "Rivière aux Rochers d)",
+      "nom_search": "riviere aux rochers d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la pointe sud de l ile situee au sud du lac walker 50 07 54 n 67 07 59 o ) jusqu au lac walker ainsi que le lac walker",
+      "segment_label": "d)",
+      "river_base_name": "Rivière aux Rochers",
+      "aliases": [
+        "aux rochers",
+        "aux rochers d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la pointe sud de l ile situee au sud du lac walker 50 07 54 n 67 07 59 o ) jusqu au lac walker ainsi que le lac walker",
+        "riviere aux rochers",
+        "riviere aux rochers d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la pointe sud de l ile situee au sud du lac walker 50 07 54 n 67 07 59 o ) jusqu au lac walker ainsi que le lac walker"
+      ],
+      "lat": 50.131667,
+      "lon": -67.133056
+    },
+    {
+      "id": 1258,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Caopacho (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et un point situé à 2 km en amont ( 51°18'36\" N., 66°16'00\" O. ).",
+      "nom": "Rivière Caopacho",
+      "nom_search": "riviere caopacho ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 2 km en amont 51 18 36 n 66 16 00 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Caopacho",
+      "aliases": [
+        "caopacho",
+        "caopacho ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 2 km en amont 51 18 36 n 66 16 00 o )",
+        "riviere caopacho",
+        "riviere caopacho ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 2 km en amont 51 18 36 n 66 16 00 o )"
+      ],
+      "lat": 51.31,
+      "lon": -66.266667
+    },
+    {
+      "id": 1256,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Joseph (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et un point situé à 1 km en amont ( 50°58'11\" N., 66°20'15\" O. ).",
+      "nom": "Rivière Joseph",
+      "nom_search": "riviere joseph ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 1 km en amont 50 58 11 n 66 20 15 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Joseph",
+      "aliases": [
+        "joseph",
+        "joseph ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 1 km en amont 50 58 11 n 66 20 15 o )",
+        "riviere joseph",
+        "riviere joseph ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 1 km en amont 50 58 11 n 66 20 15 o )"
+      ],
+      "lat": 50.969722,
+      "lon": -66.3375
+    },
+    {
+      "id": 1248,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Katchipitonkas (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Wacouno et un point situé à 2 km en amont ( 51°01'14\" N., 65°52'50\" O. ).",
+      "nom": "Rivière Katchipitonkas",
+      "nom_search": "riviere katchipitonkas ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere wacouno et un point situe a 2 km en amont 51 01 14 n 65 52 50 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Katchipitonkas",
+      "aliases": [
+        "katchipitonkas",
+        "katchipitonkas ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere wacouno et un point situe a 2 km en amont 51 01 14 n 65 52 50 o )",
+        "riviere katchipitonkas",
+        "riviere katchipitonkas ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere wacouno et un point situe a 2 km en amont 51 01 14 n 65 52 50 o )"
+      ],
+      "lat": 51.020556,
+      "lon": -65.880556
+    },
+    {
+      "id": 1318,
+      "zone_id": 2652,
+      "nom_brut": "Rivière MacDonald a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière aux Rochers ( 50°07'54\" N., 67°07'10\" O. ) et sa confluence avec le lac Quatre Lieues ( 50°07'36\" N., 67°07'28\" O. ), ainsi que le lac Quatre Lieues.",
+      "nom": "Rivière MacDonald a)",
+      "nom_search": "riviere macdonald a) ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere aux rochers 50 07 54 n 67 07 10 o ) et sa confluence avec le lac quatre lieues 50 07 36 n 67 07 28 o ) ainsi que le lac quatre lieues",
+      "segment_label": "a)",
+      "river_base_name": "Rivière MacDonald",
+      "aliases": [
+        "macdonald",
+        "macdonald a) ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere aux rochers 50 07 54 n 67 07 10 o ) et sa confluence avec le lac quatre lieues 50 07 36 n 67 07 28 o ) ainsi que le lac quatre lieues",
+        "riviere macdonald",
+        "riviere macdonald a) ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere aux rochers 50 07 54 n 67 07 10 o ) et sa confluence avec le lac quatre lieues 50 07 36 n 67 07 28 o ) ainsi que le lac quatre lieues"
+      ],
+      "lat": 50.131667,
+      "lon": -67.119444
+    },
+    {
+      "id": 1319,
+      "zone_id": 2652,
+      "nom_brut": "Rivière MacDonald b) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec le lac Quatre Lieues ( 50°10'18\" N., 67°16'02\" O. ) et la passerelle située en aval de la chute MacDonald.",
+      "nom": "Rivière MacDonald b)",
+      "nom_search": "riviere macdonald b) ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec le lac quatre lieues 50 10 18 n 67 16 02 o ) et la passerelle situee en aval de la chute macdonald",
+      "segment_label": "b)",
+      "river_base_name": "Rivière MacDonald",
+      "aliases": [
+        "macdonald",
+        "macdonald b) ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec le lac quatre lieues 50 10 18 n 67 16 02 o ) et la passerelle situee en aval de la chute macdonald",
+        "riviere macdonald",
+        "riviere macdonald b) ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec le lac quatre lieues 50 10 18 n 67 16 02 o ) et la passerelle situee en aval de la chute macdonald"
+      ],
+      "lat": 50.171667,
+      "lon": -67.267222
+    },
+    {
+      "id": 1320,
+      "zone_id": 2652,
+      "nom_brut": "Rivière MacDonald c) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la passerelle située en aval de la chute MacDonald et cette chute ( 50°10'20\" N., 67°16'25\" O. ) .",
+      "nom": "Rivière MacDonald c)",
+      "nom_search": "riviere macdonald c) ainsi que les tributaires de ce secteur frequente par le saumon) entre la passerelle situee en aval de la chute macdonald et cette chute 50 10 20 n 67 16 25 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière MacDonald",
+      "aliases": [
+        "macdonald",
+        "macdonald c) ainsi que les tributaires de ce secteur frequente par le saumon) entre la passerelle situee en aval de la chute macdonald et cette chute 50 10 20 n 67 16 25 o )",
+        "riviere macdonald",
+        "riviere macdonald c) ainsi que les tributaires de ce secteur frequente par le saumon) entre la passerelle situee en aval de la chute macdonald et cette chute 50 10 20 n 67 16 25 o )"
+      ],
+      "lat": 50.172222,
+      "lon": -67.273611
+    },
+    {
+      "id": 1321,
+      "zone_id": 2652,
+      "nom_brut": "Rivière MacDonald d) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la chute MacDonald ( 50°10'20\" N., 67°16'25\" O. ) et le lac Vallillee ( 50°30'10\" N., 67°24'15\" O. ).",
+      "nom": "Rivière MacDonald d)",
+      "nom_search": "riviere macdonald d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la chute macdonald 50 10 20 n 67 16 25 o ) et le lac vallillee 50 30 10 n 67 24 15 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière MacDonald",
+      "aliases": [
+        "macdonald",
+        "macdonald d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la chute macdonald 50 10 20 n 67 16 25 o ) et le lac vallillee 50 30 10 n 67 24 15 o )",
+        "riviere macdonald",
+        "riviere macdonald d) ainsi que les tributaires de ce secteur frequente par le saumon) entre la chute macdonald 50 10 20 n 67 16 25 o ) et le lac vallillee 50 30 10 n 67 24 15 o )"
+      ],
+      "lat": 50.172222,
+      "lon": -67.273611
+    },
+    {
+      "id": 2805,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Moisie e) (Club Adam)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le coté aval du pont du chemin de fer reliant Sept-Îles à Schefferville situé au point 50°18'28\" N., 66°12'10\" O. et le point 50°18'35\" N., 66°12'13\" O.",
+      "nom": "Rivière Moisie e)",
+      "nom_search": "riviere moisie e) club adam) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote aval du pont du chemin de fer reliant sept iles a schefferville situe au point 50 18 28 n 66 12 10 o et le point 50 18 35 n 66 12 13 o",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Moisie",
+      "aliases": [
+        "moisie",
+        "moisie e) club adam) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote aval du pont du chemin de fer reliant sept iles a schefferville situe au point 50 18 28 n 66 12 10 o et le point 50 18 35 n 66 12 13 o",
+        "riviere moisie",
+        "riviere moisie e) club adam) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote aval du pont du chemin de fer reliant sept iles a schefferville situe au point 50 18 28 n 66 12 10 o et le point 50 18 35 n 66 12 13 o"
+      ],
+      "lat": 50.307778,
+      "lon": -66.202778
+    },
+    {
+      "id": 2806,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Moisie f) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le point 50°18'35\" N., 66°12'13\" O. et la limite en amont de la pourvoirie Haute-Moisie située au point 51°19'32\" N., 66°18'33\" O. en rive ouest et au point 51°19'36\" N., 66°18'28\" O. en rive est.",
+      "nom": "Rivière Moisie f)",
+      "nom_search": "riviere moisie f) ainsi que les tributaires de ce secteur frequente par le saumon) entre le point 50 18 35 n 66 12 13 o et la limite en amont de la pourvoirie haute moisie situee au point 51 19 32 n 66 18 33 o en rive ouest et au point 51 19 36 n 66 18 28 o en rive est",
+      "segment_label": null,
+      "river_base_name": "Rivière Moisie f)",
+      "aliases": [
+        "moisie f)",
+        "moisie f) ainsi que les tributaires de ce secteur frequente par le saumon) entre le point 50 18 35 n 66 12 13 o et la limite en amont de la pourvoirie haute moisie situee au point 51 19 32 n 66 18 33 o en rive ouest et au point 51 19 36 n 66 18 28 o en rive est",
+        "riviere moisie f)",
+        "riviere moisie f) ainsi que les tributaires de ce secteur frequente par le saumon) entre le point 50 18 35 n 66 12 13 o et la limite en amont de la pourvoirie haute moisie situee au point 51 19 32 n 66 18 33 o en rive ouest et au point 51 19 36 n 66 18 28 o en rive est"
+      ],
+      "lat": 50.309722,
+      "lon": -66.203611
+    },
+    {
+      "id": 1240,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Moisie g) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la limite en amont de la pourvoirie Haute-Moisie (située au point 51°19'32\" N., 66°18'33\" O. en rive ouest et au point 51°19'36\" N., 66°18'28\" O. en rive est) et la chute du 52e parallèle située au point 52°00'03\" N., 66°42'39\" O. en rive ouest au point 52°00'05\" N., 66°42'34\" O. en rive est sur le tronçon principal.",
+      "nom": "Rivière Moisie g)",
+      "nom_search": "riviere moisie g) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite en amont de la pourvoirie haute moisie situee au point 51 19 32 n 66 18 33 o en rive ouest et au point 51 19 36 n 66 18 28 o en rive est) et la chute du 52e parallele situee au point 52 00 03 n 66 42 39 o en rive ouest au point 52 00 05 n 66 42 34 o en rive est sur le troncon principal",
+      "segment_label": null,
+      "river_base_name": "Rivière Moisie g)",
+      "aliases": [
+        "moisie g)",
+        "moisie g) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite en amont de la pourvoirie haute moisie situee au point 51 19 32 n 66 18 33 o en rive ouest et au point 51 19 36 n 66 18 28 o en rive est) et la chute du 52e parallele situee au point 52 00 03 n 66 42 39 o en rive ouest au point 52 00 05 n 66 42 34 o en rive est sur le troncon principal",
+        "riviere moisie g)",
+        "riviere moisie g) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite en amont de la pourvoirie haute moisie situee au point 51 19 32 n 66 18 33 o en rive ouest et au point 51 19 36 n 66 18 28 o en rive est) et la chute du 52e parallele situee au point 52 00 03 n 66 42 39 o en rive ouest au point 52 00 05 n 66 42 34 o en rive est sur le troncon principal"
+      ],
+      "lat": 51.325556,
+      "lon": -66.309167
+    },
+    {
+      "id": 1244,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Nipissis (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et la chute située au point 50°54'06\" N., 65°57'20\" O.",
+      "nom": "Rivière Nipissis",
+      "nom_search": "riviere nipissis ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et la chute situee au point 50 54 06 n 65 57 20 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Nipissis",
+      "aliases": [
+        "nipissis",
+        "nipissis ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et la chute situee au point 50 54 06 n 65 57 20 o",
+        "riviere nipissis",
+        "riviere nipissis ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et la chute situee au point 50 54 06 n 65 57 20 o"
+      ],
+      "lat": 50.901667,
+      "lon": -65.955556
+    },
+    {
+      "id": 1253,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Ouapetec (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et le lac Ouapetec.",
+      "nom": "Rivière Ouapetec",
+      "nom_search": "riviere ouapetec ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et le lac ouapetec",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouapetec",
+      "aliases": [
+        "ouapetec",
+        "ouapetec ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et le lac ouapetec",
+        "riviere ouapetec",
+        "riviere ouapetec ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et le lac ouapetec"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1259,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Petite rivière à la Truite (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et sa source.",
+      "nom": "Rivière Petite rivière à la Truite",
+      "nom_search": "riviere petite riviere a la truite ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière à la Truite",
+      "aliases": [
+        "petite riviere a la truite",
+        "petite riviere a la truite ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et sa source",
+        "riviere petite riviere a la truite",
+        "riviere petite riviere a la truite ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1323,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Ronald (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière MacDonald ( 50°10'21\" N., 67°15'42\" O. ) et la limite de montaison du saumon sur cette rivière ( 50°10'20\" N., 67°16'25\" O. ).",
+      "nom": "Rivière Ronald",
+      "nom_search": "riviere ronald ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere macdonald 50 10 21 n 67 15 42 o ) et la limite de montaison du saumon sur cette riviere 50 10 20 n 67 16 25 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ronald",
+      "aliases": [
+        "riviere ronald",
+        "riviere ronald ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere macdonald 50 10 21 n 67 15 42 o ) et la limite de montaison du saumon sur cette riviere 50 10 20 n 67 16 25 o )",
+        "ronald",
+        "ronald ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere macdonald 50 10 21 n 67 15 42 o ) et la limite de montaison du saumon sur cette riviere 50 10 20 n 67 16 25 o )"
+      ],
+      "lat": 50.1725,
+      "lon": -67.261667
+    },
+    {
+      "id": 1242,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Taoti (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Moisie et un point situé à 10 km en amont ( 51°45'00\" N., 66°20'00\" O. ).",
+      "nom": "Rivière Taoti",
+      "nom_search": "riviere taoti ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 10 km en amont 51 45 00 n 66 20 00 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Taoti",
+      "aliases": [
+        "riviere taoti",
+        "riviere taoti ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 10 km en amont 51 45 00 n 66 20 00 o )",
+        "taoti",
+        "taoti ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere moisie et un point situe a 10 km en amont 51 45 00 n 66 20 00 o )"
+      ],
+      "lat": 51.75,
+      "lon": -66.333333
+    },
+    {
+      "id": 1246,
+      "zone_id": 2652,
+      "nom_brut": "Rivière Wacouno (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Nipissis et la chute Keshkouhn ( 51°01'24\" N., 65°51'11\" O. ).",
+      "nom": "Rivière Wacouno",
+      "nom_search": "riviere wacouno ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere nipissis et la chute keshkouhn 51 01 24 n 65 51 11 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Wacouno",
+      "aliases": [
+        "riviere wacouno",
+        "riviere wacouno ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere nipissis et la chute keshkouhn 51 01 24 n 65 51 11 o )",
+        "wacouno",
+        "wacouno ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere nipissis et la chute keshkouhn 51 01 24 n 65 51 11 o )"
+      ],
+      "lat": 51.023333,
+      "lon": -65.853056
+    },
+    {
+      "id": 1174,
+      "zone_id": 2652,
+      "nom_brut": "Ruisseau du Bois-Joli (ruisseau du parc Ferland), entre son embouchure jusqu'au ponceau de la rue des Chanterelles.",
+      "nom": "Ruisseau du Bois-Joli",
+      "nom_search": "ruisseau du bois joli ruisseau du parc ferland) entre son embouchure jusqu au ponceau de la rue des chanterelles",
+      "segment_label": null,
+      "river_base_name": "Ruisseau du Bois-Joli",
+      "aliases": [
+        "du bois joli",
+        "du bois joli ruisseau du parc ferland) entre son embouchure jusqu au ponceau de la rue des chanterelles",
+        "ruisseau du bois joli",
+        "ruisseau du bois joli ruisseau du parc ferland) entre son embouchure jusqu au ponceau de la rue des chanterelles"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1170,
+      "zone_id": 2652,
+      "nom_brut": "Ruisseau sans nom entre l'émissaire du Lac Daviault ( 52°47'09\" N., 67°06'13\" O. ) et l'embouchure du tributaire d'un lac sans nom ( 52°46'19\" N., 67°05'55\" O. ).",
+      "nom": "Ruisseau sans nom entre l'émissaire du Lac Daviault",
+      "nom_search": "ruisseau sans nom entre l emissaire du lac daviault 52 47 09 n 67 06 13 o ) et l embouchure du tributaire d un lac sans nom 52 46 19 n 67 05 55 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau sans nom",
+      "aliases": [
+        "ruisseau sans nom",
+        "ruisseau sans nom entre l emissaire du lac daviault 52 47 09 n 67 06 13 o ) et l embouchure du tributaire d un lac sans nom 52 46 19 n 67 05 55 o )",
+        "sans nom",
+        "sans nom entre l emissaire du lac daviault 52 47 09 n 67 06 13 o ) et l embouchure du tributaire d un lac sans nom 52 46 19 n 67 05 55 o )"
+      ],
+      "lat": 52.785833,
+      "lon": -67.103611
+    },
+    {
+      "id": 2988,
+      "zone_id": 2652,
+      "nom_brut": "Zec Matimek",
+      "nom": "Zec Matimek",
+      "nom_search": "zec matimek",
+      "segment_label": null,
+      "river_base_name": "Zec Matimek",
+      "aliases": [
+        "zec matimek"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

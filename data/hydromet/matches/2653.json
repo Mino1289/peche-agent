@@ -1,0 +1,1108 @@
+{
+  "meta": {
+    "zone_id": 2653,
+    "radius_km": 25.0,
+    "nb_with_coords": 92,
+    "nb_station_matched": 15
+  },
+  "matches": [
+    {
+      "plan_id": 1357,
+      "plan_nom": "Lac Andilly",
+      "lat": 50.464444,
+      "lon": -60.745833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 12360,
+      "plan_nom": "Lac Caumont",
+      "lat": 50.552222,
+      "lon": -60.795556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1367,
+      "plan_nom": "Lac Couillard",
+      "lat": 50.275833,
+      "lon": -60.808889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1372,
+      "plan_nom": "Lac Courtemanche",
+      "lat": 50.313889,
+      "lon": -60.72,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1362,
+      "plan_nom": "Lac d'Aune",
+      "lat": 50.438056,
+      "lon": -60.645556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1279,
+      "plan_nom": "Lac des Outardes",
+      "lat": 50.328611,
+      "lon": -61.118611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1203,
+      "plan_nom": "Lac du Feu",
+      "lat": 50.522778,
+      "lon": -60.053611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1215,
+      "plan_nom": "Lac du Gros Mécatina",
+      "lat": 50.863611,
+      "lon": -59.0725,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1353,
+      "plan_nom": "Lac du Vieux Fort",
+      "lat": 51.464167,
+      "lon": -57.849167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1206,
+      "plan_nom": "Lac Foucher",
+      "lat": 50.415278,
+      "lon": -59.984722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1354,
+      "plan_nom": "Lac Fournel",
+      "lat": 51.55,
+      "lon": -57.959722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1207,
+      "plan_nom": "Lac Gagnon",
+      "lat": 50.339167,
+      "lon": -59.989167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1224,
+      "plan_nom": "Lac Kegaska",
+      "lat": 50.337778,
+      "lon": -61.437222,
+      "stations": [
+        {
+          "id": "074903",
+          "plan_eau": "Rivière Natashquan",
+          "description": "À 0,6 km en aval de la décharge du lac Alieste",
+          "lat": 50.4275,
+          "lon": -61.712222,
+          "distance_km": 21.9,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "074903",
+      "station": {
+        "id": "074903",
+        "plan_eau": "Rivière Natashquan",
+        "description": "À 0,6 km en aval de la décharge du lac Alieste",
+        "lat": 50.4275,
+        "lon": -61.712222,
+        "distance_km": 21.9
+      }
+    },
+    {
+      "plan_id": 1208,
+      "plan_nom": "Lac Manet",
+      "lat": 50.586667,
+      "lon": -60.035833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1267,
+      "plan_nom": "Lac Marie-Claire",
+      "lat": 50.323611,
+      "lon": -61.067222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11762,
+      "plan_nom": "Lac Maurice",
+      "lat": 50.961389,
+      "lon": -63.390833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1271,
+      "plan_nom": "Lac Missu",
+      "lat": 50.294722,
+      "lon": -61.088056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2096,
+      "plan_nom": "Lac Musquanousse",
+      "lat": 51.388056,
+      "lon": -61.083889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1377,
+      "plan_nom": "Lac Pachot",
+      "lat": 50.283889,
+      "lon": -60.750833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1209,
+      "plan_nom": "Lac Riverin",
+      "lat": 50.595278,
+      "lon": -59.829167,
+      "stations": [
+        {
+          "id": "075705",
+          "plan_eau": "Rivière du Petit Mécatina",
+          "description": "À 1,0 km en amont de la Nétagamiou",
+          "lat": 50.680833,
+          "lon": -59.601944,
+          "distance_km": 18.64,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "075705",
+      "station": {
+        "id": "075705",
+        "plan_eau": "Rivière du Petit Mécatina",
+        "description": "À 1,0 km en amont de la Nétagamiou",
+        "lat": 50.680833,
+        "lon": -59.601944,
+        "distance_km": 18.64
+      }
+    },
+    {
+      "plan_id": 11764,
+      "plan_nom": "Lac Sans nom",
+      "lat": 50.399167,
+      "lon": -63.258889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11760,
+      "plan_nom": "Lac Sans nom",
+      "lat": 50.966389,
+      "lon": -63.41,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11761,
+      "plan_nom": "Lac Sans nom",
+      "lat": 51.328611,
+      "lon": -63.569444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11763,
+      "plan_nom": "Lac Sans nom",
+      "lat": 51.737778,
+      "lon": -63.733056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2803,
+      "plan_nom": "Lac Tanguay",
+      "lat": 50.333056,
+      "lon": -62.928333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1210,
+      "plan_nom": "Lac Triquet",
+      "lat": 50.681667,
+      "lon": -59.834167,
+      "stations": [
+        {
+          "id": "075705",
+          "plan_eau": "Rivière du Petit Mécatina",
+          "description": "À 1,0 km en amont de la Nétagamiou",
+          "lat": 50.680833,
+          "lon": -59.601944,
+          "distance_km": 16.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "075705",
+      "station": {
+        "id": "075705",
+        "plan_eau": "Rivière du Petit Mécatina",
+        "description": "À 1,0 km en amont de la Nétagamiou",
+        "lat": 50.680833,
+        "lon": -59.601944,
+        "distance_km": 16.36
+      }
+    },
+    {
+      "plan_id": 1382,
+      "plan_nom": "Lac Washicoutai",
+      "lat": 50.386667,
+      "lon": -60.808333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3239,
+      "plan_nom": "Réservoir Romaine I - La partie en amont du barrage de la Romaine",
+      "lat": 50.387778,
+      "lon": -63.252778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1177,
+      "plan_nom": "Rivière Aguanish",
+      "lat": 50.226389,
+      "lon": -62.1075,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1168,
+      "plan_nom": "Rivière Aisley entre son embouchure et la première chute en amont",
+      "lat": 50.294444,
+      "lon": -63.790833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1179,
+      "plan_nom": "Rivière au Bouleau",
+      "lat": 50.281667,
+      "lon": -65.515556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1180,
+      "plan_nom": "Rivière au Bouleau entre la ligne de transport d'énergie électrique et une droite joignant les points 50°21'00'' N., 65°31'48'' O. sur la rive ouest et 50°21'00'' N., 65°31'46'' O. sur la rive est",
+      "lat": 50.35,
+      "lon": -65.53,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1183,
+      "plan_nom": "Rivière Brador Est",
+      "lat": 51.541667,
+      "lon": -57.135556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1182,
+      "plan_nom": "Rivière Brador Est",
+      "lat": 51.488611,
+      "lon": -57.24,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1185,
+      "plan_nom": "Rivière Chécatica",
+      "lat": 51.373889,
+      "lon": -58.3075,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1186,
+      "plan_nom": "Rivière Chécatica",
+      "lat": 51.387222,
+      "lon": -58.278333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1189,
+      "plan_nom": "Rivière Coacoachou",
+      "lat": 50.337778,
+      "lon": -60.263333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1188,
+      "plan_nom": "Rivière Coacoachou",
+      "lat": 50.268056,
+      "lon": -60.305278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1197,
+      "plan_nom": "Rivière Coxipi",
+      "lat": 51.305833,
+      "lon": -58.483333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1193,
+      "plan_nom": "Rivière de la Corneille",
+      "lat": 50.283611,
+      "lon": -62.9,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1340,
+      "plan_nom": "Rivière de Salmon Bay",
+      "lat": 51.457222,
+      "lon": -57.595556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1345,
+      "plan_nom": "Rivière d'Épinettes",
+      "lat": 50.320278,
+      "lon": -64.896111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1213,
+      "plan_nom": "Rivière du Gros Mécatina",
+      "lat": 50.818333,
+      "lon": -59.1,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1212,
+      "plan_nom": "Rivière du Gros Mécatina entre une droite joignant le point 50°46'11\" N., 59°08'32\" O. au point 50°46'14\" N., 59°08'24\" O. et une droite joignant le point 50°46'05\" N., 59°05'50\" O. au point 50°46'07\" N., 59°05'26\" O. et le premier rapide situé au point 50°49'06\" N., 59°06'00'' O.",
+      "lat": 50.769722,
+      "lon": -59.142222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1300,
+      "plan_nom": "Rivière du Petit Mécatina a)",
+      "lat": 50.583333,
+      "lon": -59.413889,
+      "stations": [
+        {
+          "id": "075705",
+          "plan_eau": "Rivière du Petit Mécatina",
+          "description": "À 1,0 km en amont de la Nétagamiou",
+          "lat": 50.680833,
+          "lon": -59.601944,
+          "distance_km": 17.13,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "075705",
+      "station": {
+        "id": "075705",
+        "plan_eau": "Rivière du Petit Mécatina",
+        "description": "À 1,0 km en amont de la Nétagamiou",
+        "lat": 50.680833,
+        "lon": -59.601944,
+        "distance_km": 17.13
+      }
+    },
+    {
+      "plan_id": 1301,
+      "plan_nom": "Rivière du Petit Mécatina b)",
+      "lat": 50.658611,
+      "lon": -59.429444,
+      "stations": [
+        {
+          "id": "075705",
+          "plan_eau": "Rivière du Petit Mécatina",
+          "description": "À 1,0 km en amont de la Nétagamiou",
+          "lat": 50.680833,
+          "lon": -59.601944,
+          "distance_km": 12.41,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "075705",
+      "station": {
+        "id": "075705",
+        "plan_eau": "Rivière du Petit Mécatina",
+        "description": "À 1,0 km en amont de la Nétagamiou",
+        "lat": 50.680833,
+        "lon": -59.601944,
+        "distance_km": 12.41
+      }
+    },
+    {
+      "plan_id": 1303,
+      "plan_nom": "Rivière du Porc-Épic",
+      "lat": 50.733333,
+      "lon": -59.432222,
+      "stations": [
+        {
+          "id": "075705",
+          "plan_eau": "Rivière du Petit Mécatina",
+          "description": "À 1,0 km en amont de la Nétagamiou",
+          "lat": 50.680833,
+          "lon": -59.601944,
+          "distance_km": 13.3,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "075705",
+      "station": {
+        "id": "075705",
+        "plan_eau": "Rivière du Petit Mécatina",
+        "description": "À 1,0 km en amont de la Nétagamiou",
+        "lat": 50.680833,
+        "lon": -59.601944,
+        "distance_km": 13.3
+      }
+    },
+    {
+      "plan_id": 1348,
+      "plan_nom": "Rivière du Vieux Fort",
+      "lat": 51.31,
+      "lon": -58.041944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1202,
+      "plan_nom": "Rivière Étamamiou",
+      "lat": 50.265278,
+      "lon": -59.975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1218,
+      "plan_nom": "Rivière Jupitagon",
+      "lat": 50.288056,
+      "lon": -64.583889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1217,
+      "plan_nom": "Rivière Jupitagon",
+      "lat": 50.285278,
+      "lon": -64.590833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1221,
+      "plan_nom": "Rivière Kécarpoui",
+      "lat": 51.091944,
+      "lon": -58.857222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1220,
+      "plan_nom": "Rivière Kécarpoui",
+      "lat": 51.079444,
+      "lon": -58.838889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1223,
+      "plan_nom": "Rivière Kegaska",
+      "lat": 50.181389,
+      "lon": -61.35,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1230,
+      "plan_nom": "Rivière Matamec",
+      "lat": 50.282778,
+      "lon": -65.968056,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 17.35,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 17.35
+      }
+    },
+    {
+      "plan_id": 1232,
+      "plan_nom": "Rivière Mingan a)",
+      "lat": 50.292222,
+      "lon": -64.006944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1235,
+      "plan_nom": "Rivière Moisie a)",
+      "lat": 50.194444,
+      "lon": -66.082222,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 19.08,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 19.08
+      }
+    },
+    {
+      "plan_id": 1237,
+      "plan_nom": "Rivière Moisie b)",
+      "lat": 50.194444,
+      "lon": -66.082222,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 19.08,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 19.08
+      }
+    },
+    {
+      "plan_id": 1238,
+      "plan_nom": "Rivière Moisie c)",
+      "lat": 50.259722,
+      "lon": -66.129167,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 11.1,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 11.1
+      }
+    },
+    {
+      "plan_id": 1239,
+      "plan_nom": "Rivière Moisie d)",
+      "lat": 50.259722,
+      "lon": -66.129167,
+      "stations": [
+        {
+          "id": "072301",
+          "plan_eau": "Rivière Moisie",
+          "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+          "lat": 50.3525,
+          "lon": -66.186667,
+          "distance_km": 11.1,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "072301",
+      "station": {
+        "id": "072301",
+        "plan_eau": "Rivière Moisie",
+        "description": "À 5,1 km en amont du pont du Q.N.S.L.R.",
+        "lat": 50.3525,
+        "lon": -66.186667,
+        "distance_km": 11.1
+      }
+    },
+    {
+      "plan_id": 2462,
+      "plan_nom": "Rivière Musquanousse a)",
+      "lat": 50.196944,
+      "lon": -60.973889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2886,
+      "plan_nom": "Rivière Musquanousse b)",
+      "lat": 50.264722,
+      "lon": -61.035556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1284,
+      "plan_nom": "Rivière Musquaro",
+      "lat": 50.192222,
+      "lon": -61.058889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1286,
+      "plan_nom": "Rivière Nabisipi a)",
+      "lat": 50.232778,
+      "lon": -62.2225,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1289,
+      "plan_nom": "Rivière Napetipi",
+      "lat": 51.303056,
+      "lon": -58.15,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1294,
+      "plan_nom": "Rivière Nétagamiou",
+      "lat": 50.469722,
+      "lon": -59.610833,
+      "stations": [
+        {
+          "id": "075705",
+          "plan_eau": "Rivière du Petit Mécatina",
+          "description": "À 1,0 km en amont de la Nétagamiou",
+          "lat": 50.680833,
+          "lon": -59.601944,
+          "distance_km": 23.48,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "075705",
+      "station": {
+        "id": "075705",
+        "plan_eau": "Rivière du Petit Mécatina",
+        "description": "À 1,0 km en amont de la Nétagamiou",
+        "lat": 50.680833,
+        "lon": -59.601944,
+        "distance_km": 23.48
+      }
+    },
+    {
+      "plan_id": 1250,
+      "plan_nom": "Rivière Nipisso",
+      "lat": 50.661667,
+      "lon": -65.962778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1297,
+      "plan_nom": "Rivière Olomane",
+      "lat": 50.208611,
+      "lon": -60.669722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1388,
+      "plan_nom": "Rivière Petite rivière Watshishou",
+      "lat": 50.268611,
+      "lon": -62.651667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1309,
+      "plan_nom": "Rivière Pigou",
+      "lat": 50.266111,
+      "lon": -65.623611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1327,
+      "plan_nom": "Rivière Puyjalon",
+      "lat": 50.3075,
+      "lon": -63.666667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1325,
+      "plan_nom": "Rivière Romaine",
+      "lat": 50.289722,
+      "lon": -63.852778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1332,
+      "plan_nom": "Rivière Saint-Augustin Nord-Ouest",
+      "lat": 51.185,
+      "lon": -58.5975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1330,
+      "plan_nom": "Rivière Saint-Augustin",
+      "lat": 51.215,
+      "lon": -58.651111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1329,
+      "plan_nom": "Rivière Saint-Augustin",
+      "lat": 51.232778,
+      "lon": -58.6175,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1334,
+      "plan_nom": "Rivière Saint-Jean a)",
+      "lat": 50.283333,
+      "lon": -64.3375,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1335,
+      "plan_nom": "Rivière Saint-Jean b)",
+      "lat": 50.686389,
+      "lon": -64.053889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10520,
+      "plan_nom": "Rivière Saint-Jean c)",
+      "lat": 50.686389,
+      "lon": -64.051111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10540,
+      "plan_nom": "Rivière Saint-Jean d)",
+      "lat": 50.754722,
+      "lon": -64.156111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1338,
+      "plan_nom": "Rivière Saint-Paul",
+      "lat": 51.55,
+      "lon": -57.719444,
+      "stations": [
+        {
+          "id": "076601",
+          "plan_eau": "Rivière Saint-Paul",
+          "description": "À 0,5 km du ruisseau Chanion",
+          "lat": 51.770833,
+          "lon": -57.601111,
+          "distance_km": 25.88,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "076601",
+      "station": {
+        "id": "076601",
+        "plan_eau": "Rivière Saint-Paul",
+        "description": "À 0,5 km du ruisseau Chanion",
+        "lat": 51.770833,
+        "lon": -57.601111,
+        "distance_km": 25.88
+      }
+    },
+    {
+      "plan_id": 1337,
+      "plan_nom": "Rivière Saint-Paul",
+      "lat": 51.55,
+      "lon": -57.719444,
+      "stations": [
+        {
+          "id": "076601",
+          "plan_eau": "Rivière Saint-Paul",
+          "description": "À 0,5 km du ruisseau Chanion",
+          "lat": 51.770833,
+          "lon": -57.601111,
+          "distance_km": 25.88,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "076601",
+      "station": {
+        "id": "076601",
+        "plan_eau": "Rivière Saint-Paul",
+        "description": "À 0,5 km du ruisseau Chanion",
+        "lat": 51.770833,
+        "lon": -57.601111,
+        "distance_km": 25.88
+      }
+    },
+    {
+      "plan_id": 3136,
+      "plan_nom": "Rivière Sheldrake Est - La partie entre sa confluence avec la rivière Sheldrake jusqu'à la chute au point 50°40'23\" N., 64°49'12\" W.",
+      "lat": 50.673056,
+      "lon": -64.82,
+      "stations": [
+        {
+          "id": "073503",
+          "plan_eau": "Lac Magpie",
+          "description": "À la décharge du lac Magpie",
+          "lat": 50.685556,
+          "lon": -64.578611,
+          "distance_km": 17.06,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "073503",
+      "station": {
+        "id": "073503",
+        "plan_eau": "Lac Magpie",
+        "description": "À la décharge du lac Magpie",
+        "lat": 50.685556,
+        "lon": -64.578611,
+        "distance_km": 17.06
+      }
+    },
+    {
+      "plan_id": 1342,
+      "plan_nom": "Rivière Sheldrake",
+      "lat": 50.275833,
+      "lon": -64.920278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1343,
+      "plan_nom": "Rivière Sheldrake",
+      "lat": 50.275833,
+      "lon": -64.920278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3138,
+      "plan_nom": "Rivière Sheldrake La partie en amont du barrage hydroélectrique jusqu'à la chute située au point",
+      "lat": 50.602778,
+      "lon": -64.983056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2102,
+      "plan_nom": "Rivière Véco",
+      "lat": 51.0,
+      "lon": -58.984722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2621,
+      "plan_nom": "Rivière Washicoutai",
+      "lat": 50.259722,
+      "lon": -60.797778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1356,
+      "plan_nom": "Rivière Washicoutai",
+      "lat": 50.245,
+      "lon": -60.836111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1390,
+      "plan_nom": "Rivière Watshishou",
+      "lat": 50.269167,
+      "lon": -62.691389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1173,
+      "plan_nom": "Ruisseau des Belles-Amours",
+      "lat": 51.487222,
+      "lon": -57.476667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1172,
+      "plan_nom": "Ruisseau des Belles-Amours",
+      "lat": 51.474722,
+      "lon": -57.449167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1352,
+      "plan_nom": "Ruisseau Head Stone",
+      "lat": 51.185,
+      "lon": -58.5975,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "zone_id": 27,
+    "zone_nom": "Zone 23 sud",
+    "nb_plans": 10,
+    "nb_geocoded": 10,
+    "pct_geocoded": 100.0,
+    "source_file": "zones/27.json"
+  },
+  "locations": [
+    {
+      "id": 2543,
+      "zone_id": 27,
+      "nom_brut": "Lac Germaine ( 52°58' N., 67°40' O. )",
+      "nom": "Lac Germaine",
+      "nom_search": "lac germaine 52 58 n 67 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Germaine",
+      "aliases": [
+        "germaine",
+        "germaine 52 58 n 67 40 o )",
+        "lac germaine",
+        "lac germaine 52 58 n 67 40 o )"
+      ],
+      "lat": 52.966667,
+      "lon": -67.666667
+    },
+    {
+      "id": 1687,
+      "zone_id": 27,
+      "nom_brut": "Lac Hasté ( 53°07' N., 68°27' O. )",
+      "nom": "Lac Hasté",
+      "nom_search": "lac haste 53 07 n 68 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hasté",
+      "aliases": [
+        "haste",
+        "haste 53 07 n 68 27 o )",
+        "lac haste",
+        "lac haste 53 07 n 68 27 o )"
+      ],
+      "lat": 53.116667,
+      "lon": -68.45
+    },
+    {
+      "id": 1683,
+      "zone_id": 27,
+      "nom_brut": "Lac Kerbodot ( 53°27' N., 67°42' O. )",
+      "nom": "Lac Kerbodot",
+      "nom_search": "lac kerbodot 53 27 n 67 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kerbodot",
+      "aliases": [
+        "kerbodot",
+        "kerbodot 53 27 n 67 42 o )",
+        "lac kerbodot",
+        "lac kerbodot 53 27 n 67 42 o )"
+      ],
+      "lat": 53.45,
+      "lon": -67.7
+    },
+    {
+      "id": 1689,
+      "zone_id": 27,
+      "nom_brut": "Lac La Justone ( 52°53' N., 68°27' O. )",
+      "nom": "Lac La Justone",
+      "nom_search": "lac la justone 52 53 n 68 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac La Justone",
+      "aliases": [
+        "la justone",
+        "la justone 52 53 n 68 27 o )",
+        "lac la justone",
+        "lac la justone 52 53 n 68 27 o )"
+      ],
+      "lat": 52.883333,
+      "lon": -68.45
+    },
+    {
+      "id": 1691,
+      "zone_id": 27,
+      "nom_brut": "Lac Lapointe ( 53°27' N., 68°35' O. )",
+      "nom": "Lac Lapointe",
+      "nom_search": "lac lapointe 53 27 n 68 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Lapointe",
+      "aliases": [
+        "lac lapointe",
+        "lac lapointe 53 27 n 68 35 o )",
+        "lapointe",
+        "lapointe 53 27 n 68 35 o )"
+      ],
+      "lat": 53.45,
+      "lon": -68.583333
+    },
+    {
+      "id": 1685,
+      "zone_id": 27,
+      "nom_brut": "Lac Le Prévost ( 52°58' N., 67°17' O. )",
+      "nom": "Lac Le Prévost",
+      "nom_search": "lac le prevost 52 58 n 67 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Le Prévost",
+      "aliases": [
+        "lac le prevost",
+        "lac le prevost 52 58 n 67 17 o )",
+        "le prevost",
+        "le prevost 52 58 n 67 17 o )"
+      ],
+      "lat": 52.966667,
+      "lon": -67.283333
+    },
+    {
+      "id": 1693,
+      "zone_id": 27,
+      "nom_brut": "Lac Opiscotéo ( 53°10' N., 68°10' O. )",
+      "nom": "Lac Opiscotéo",
+      "nom_search": "lac opiscoteo 53 10 n 68 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Opiscotéo",
+      "aliases": [
+        "lac opiscoteo",
+        "lac opiscoteo 53 10 n 68 10 o )",
+        "opiscoteo",
+        "opiscoteo 53 10 n 68 10 o )"
+      ],
+      "lat": 53.166667,
+      "lon": -68.166667
+    },
+    {
+      "id": 1695,
+      "zone_id": 27,
+      "nom_brut": "Lac Raimbault ( 53°13'N., 68°21' O. )",
+      "nom": "Lac Raimbault",
+      "nom_search": "lac raimbault 53 13 n 68 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Raimbault",
+      "aliases": [
+        "lac raimbault",
+        "lac raimbault 53 13 n 68 21 o )",
+        "raimbault",
+        "raimbault 53 13 n 68 21 o )"
+      ],
+      "lat": 53.216667,
+      "lon": -68.35
+    },
+    {
+      "id": 1697,
+      "zone_id": 27,
+      "nom_brut": "Lac Ternay ( 53°25'30\" N., 69°05'30\" O. )",
+      "nom": "Lac Ternay",
+      "nom_search": "lac ternay 53 25 30 n 69 05 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ternay",
+      "aliases": [
+        "lac ternay",
+        "lac ternay 53 25 30 n 69 05 30 o )",
+        "ternay",
+        "ternay 53 25 30 n 69 05 30 o )"
+      ],
+      "lat": 53.425,
+      "lon": -69.091667
+    },
+    {
+      "id": 1701,
+      "zone_id": 27,
+      "nom_brut": "Lac Vignal ( 53°18' N., 68°23' O. )",
+      "nom": "Lac Vignal",
+      "nom_search": "lac vignal 53 18 n 68 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vignal",
+      "aliases": [
+        "lac vignal",
+        "lac vignal 53 18 n 68 23 o )",
+        "vignal",
+        "vignal 53 18 n 68 23 o )"
+      ],
+      "lat": 53.3,
+      "lon": -68.383333
+    }
+  ]
+}

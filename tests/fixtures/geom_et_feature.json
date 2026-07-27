@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-71.0684924, 48.4280547]
+  },
+  "properties": {
+    "name": {"en": "Chicoutimi", "fr": "Chicoutimi"},
+    "currentConditions": {
+      "timestamp": {"en": "2026-06-11T12:00:00Z", "fr": "2026-06-11T08:00:00"},
+      "temperature": {
+        "units": "C",
+        "value": {"en": "18.5", "fr": "18.5"}
+      },
+      "relativeHumidity": {
+        "units": "%",
+        "value": {"en": "65", "fr": "65"}
+      },
+      "wind": {
+        "speed": {"units": "km/h", "value": {"en": "12", "fr": "12"}},
+        "direction": {"value": {"en": "NE", "fr": "NE"}},
+        "gust": {"units": "km/h", "value": {"en": "20", "fr": "20"}}
+      },
+      "pressure": {
+        "units": "kPa",
+        "value": {"en": "101.2", "fr": "101.2"}
+      },
+      "station": {"value": {"en": "Chicoutimi", "fr": "Chicoutimi"}}
+    },
+    "forecastGroup": {
+      "forecasts": [
+        {
+          "period": {
+            "textForecastName": {"en": "Today", "fr": "Aujourd'hui"}
+          },
+          "textSummary": {"en": "Sunny", "fr": "Ensoleillé"},
+          "temperatures": {
+            "temperature": [
+              {
+                "class": {"en": "high", "fr": "max"},
+                "value": {"units": "C", "value": {"en": "22", "fr": "22"}}
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "url": "https://example.com/weather"
+  }
+}

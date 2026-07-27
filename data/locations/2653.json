@@ -1,0 +1,1780 @@
+{
+  "meta": {
+    "zone_id": 2653,
+    "zone_nom": "Zone 19 sud - partie B",
+    "nb_plans": 104,
+    "nb_geocoded": 92,
+    "pct_geocoded": 88.5,
+    "source_file": "zones/2653.json"
+  },
+  "locations": [
+    {
+      "id": 1263,
+      "zone_id": 2653,
+      "nom_brut": "Lac à l'Île",
+      "nom": "Lac à l'Île",
+      "nom_search": "lac a l ile",
+      "segment_label": null,
+      "river_base_name": "Lac à l'Île",
+      "aliases": [
+        "a l ile",
+        "lac a l ile"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1357,
+      "zone_id": 2653,
+      "nom_brut": "Lac Andilly (Ardilly)( 50°27'52\" N., 60°44'45\" O. )",
+      "nom": "Lac Andilly",
+      "nom_search": "lac andilly ardilly) 50 27 52 n 60 44 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Andilly",
+      "aliases": [
+        "andilly",
+        "andilly ardilly) 50 27 52 n 60 44 45 o )",
+        "lac andilly",
+        "lac andilly ardilly) 50 27 52 n 60 44 45 o )"
+      ],
+      "lat": 50.464444,
+      "lon": -60.745833
+    },
+    {
+      "id": 12360,
+      "zone_id": 2653,
+      "nom_brut": "Lac Caumont ( 50°33'08\" N., 60°47'44\" O. )",
+      "nom": "Lac Caumont",
+      "nom_search": "lac caumont 50 33 08 n 60 47 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Caumont",
+      "aliases": [
+        "caumont",
+        "caumont 50 33 08 n 60 47 44 o )",
+        "lac caumont",
+        "lac caumont 50 33 08 n 60 47 44 o )"
+      ],
+      "lat": 50.552222,
+      "lon": -60.795556
+    },
+    {
+      "id": 1367,
+      "zone_id": 2653,
+      "nom_brut": "Lac Couillard ( 50°16'33\" N., 60°48'32\" O. )",
+      "nom": "Lac Couillard",
+      "nom_search": "lac couillard 50 16 33 n 60 48 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Couillard",
+      "aliases": [
+        "couillard",
+        "couillard 50 16 33 n 60 48 32 o )",
+        "lac couillard",
+        "lac couillard 50 16 33 n 60 48 32 o )"
+      ],
+      "lat": 50.275833,
+      "lon": -60.808889
+    },
+    {
+      "id": 1372,
+      "zone_id": 2653,
+      "nom_brut": "Lac Courtemanche ( 50°18'50\" N., 60°43'12\" O. )",
+      "nom": "Lac Courtemanche",
+      "nom_search": "lac courtemanche 50 18 50 n 60 43 12 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Courtemanche",
+      "aliases": [
+        "courtemanche",
+        "courtemanche 50 18 50 n 60 43 12 o )",
+        "lac courtemanche",
+        "lac courtemanche 50 18 50 n 60 43 12 o )"
+      ],
+      "lat": 50.313889,
+      "lon": -60.72
+    },
+    {
+      "id": 1362,
+      "zone_id": 2653,
+      "nom_brut": "Lac d'Aune ( 50°26'17\" N., 60°38'44\" O. )",
+      "nom": "Lac d'Aune",
+      "nom_search": "lac d aune 50 26 17 n 60 38 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac d'Aune",
+      "aliases": [
+        "d aune",
+        "d aune 50 26 17 n 60 38 44 o )",
+        "lac d aune",
+        "lac d aune 50 26 17 n 60 38 44 o )"
+      ],
+      "lat": 50.438056,
+      "lon": -60.645556
+    },
+    {
+      "id": 1279,
+      "zone_id": 2653,
+      "nom_brut": "Lac des Outardes ( 50°19'43\" N., 61°07'07\" O. )",
+      "nom": "Lac des Outardes",
+      "nom_search": "lac des outardes 50 19 43 n 61 07 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Outardes",
+      "aliases": [
+        "des outardes",
+        "des outardes 50 19 43 n 61 07 07 o )",
+        "lac des outardes",
+        "lac des outardes 50 19 43 n 61 07 07 o )"
+      ],
+      "lat": 50.328611,
+      "lon": -61.118611
+    },
+    {
+      "id": 1203,
+      "zone_id": 2653,
+      "nom_brut": "Lac du Feu ( 50°31'22\" N., 60°03'13\" O. )",
+      "nom": "Lac du Feu",
+      "nom_search": "lac du feu 50 31 22 n 60 03 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Feu",
+      "aliases": [
+        "du feu",
+        "du feu 50 31 22 n 60 03 13 o )",
+        "lac du feu",
+        "lac du feu 50 31 22 n 60 03 13 o )"
+      ],
+      "lat": 50.522778,
+      "lon": -60.053611
+    },
+    {
+      "id": 1215,
+      "zone_id": 2653,
+      "nom_brut": "Lac du Gros Mécatina ( 50°51'49\" N., 59°04'21\" O. )",
+      "nom": "Lac du Gros Mécatina",
+      "nom_search": "lac du gros mecatina 50 51 49 n 59 04 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Gros Mécatina",
+      "aliases": [
+        "du gros mecatina",
+        "du gros mecatina 50 51 49 n 59 04 21 o )",
+        "lac du gros mecatina",
+        "lac du gros mecatina 50 51 49 n 59 04 21 o )"
+      ],
+      "lat": 50.863611,
+      "lon": -59.0725
+    },
+    {
+      "id": 1353,
+      "zone_id": 2653,
+      "nom_brut": "Lac du Vieux Fort ( 51°27'51\" N., 57°50'57\" O. )",
+      "nom": "Lac du Vieux Fort",
+      "nom_search": "lac du vieux fort 51 27 51 n 57 50 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Vieux Fort",
+      "aliases": [
+        "du vieux fort",
+        "du vieux fort 51 27 51 n 57 50 57 o )",
+        "lac du vieux fort",
+        "lac du vieux fort 51 27 51 n 57 50 57 o )"
+      ],
+      "lat": 51.464167,
+      "lon": -57.849167
+    },
+    {
+      "id": 1206,
+      "zone_id": 2653,
+      "nom_brut": "Lac Foucher ( 50°24'55\" N., 59°59'05\" O. )",
+      "nom": "Lac Foucher",
+      "nom_search": "lac foucher 50 24 55 n 59 59 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Foucher",
+      "aliases": [
+        "foucher",
+        "foucher 50 24 55 n 59 59 05 o )",
+        "lac foucher",
+        "lac foucher 50 24 55 n 59 59 05 o )"
+      ],
+      "lat": 50.415278,
+      "lon": -59.984722
+    },
+    {
+      "id": 1354,
+      "zone_id": 2653,
+      "nom_brut": "Lac Fournel ( 51°33'00\" N., 57°57'35\" O. )",
+      "nom": "Lac Fournel",
+      "nom_search": "lac fournel 51 33 00 n 57 57 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Fournel",
+      "aliases": [
+        "fournel",
+        "fournel 51 33 00 n 57 57 35 o )",
+        "lac fournel",
+        "lac fournel 51 33 00 n 57 57 35 o )"
+      ],
+      "lat": 51.55,
+      "lon": -57.959722
+    },
+    {
+      "id": 1207,
+      "zone_id": 2653,
+      "nom_brut": "Lac Gagnon ( 50°20'21\" N., 59°59'21\" O. )",
+      "nom": "Lac Gagnon",
+      "nom_search": "lac gagnon 50 20 21 n 59 59 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gagnon",
+      "aliases": [
+        "gagnon",
+        "gagnon 50 20 21 n 59 59 21 o )",
+        "lac gagnon",
+        "lac gagnon 50 20 21 n 59 59 21 o )"
+      ],
+      "lat": 50.339167,
+      "lon": -59.989167
+    },
+    {
+      "id": 1224,
+      "zone_id": 2653,
+      "nom_brut": "Lac Kegaska ( 50°20'16\" N., 61°26'14\" O. )",
+      "nom": "Lac Kegaska",
+      "nom_search": "lac kegaska 50 20 16 n 61 26 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kegaska",
+      "aliases": [
+        "kegaska",
+        "kegaska 50 20 16 n 61 26 14 o )",
+        "lac kegaska",
+        "lac kegaska 50 20 16 n 61 26 14 o )"
+      ],
+      "lat": 50.337778,
+      "lon": -61.437222
+    },
+    {
+      "id": 1208,
+      "zone_id": 2653,
+      "nom_brut": "Lac Manet ( 50°35'12\" N., 60°02'09\" O. )",
+      "nom": "Lac Manet",
+      "nom_search": "lac manet 50 35 12 n 60 02 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Manet",
+      "aliases": [
+        "lac manet",
+        "lac manet 50 35 12 n 60 02 09 o )",
+        "manet",
+        "manet 50 35 12 n 60 02 09 o )"
+      ],
+      "lat": 50.586667,
+      "lon": -60.035833
+    },
+    {
+      "id": 1267,
+      "zone_id": 2653,
+      "nom_brut": "Lac Marie-Claire ( 50°19'25\" N., 61°04'02\" O. )",
+      "nom": "Lac Marie-Claire",
+      "nom_search": "lac marie claire 50 19 25 n 61 04 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Marie-Claire",
+      "aliases": [
+        "lac marie claire",
+        "lac marie claire 50 19 25 n 61 04 02 o )",
+        "marie claire",
+        "marie claire 50 19 25 n 61 04 02 o )"
+      ],
+      "lat": 50.323611,
+      "lon": -61.067222
+    },
+    {
+      "id": 11762,
+      "zone_id": 2653,
+      "nom_brut": "Lac Maurice - ( 50°57'41\" N., 63°23'27\" O. )",
+      "nom": "Lac Maurice",
+      "nom_search": "lac maurice 50 57 41 n 63 23 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Maurice -",
+      "aliases": [
+        "lac maurice",
+        "lac maurice 50 57 41 n 63 23 27 o )",
+        "maurice",
+        "maurice 50 57 41 n 63 23 27 o )"
+      ],
+      "lat": 50.961389,
+      "lon": -63.390833
+    },
+    {
+      "id": 1271,
+      "zone_id": 2653,
+      "nom_brut": "Lac Missu ( 50°17'41\" N., 61°05'17\" O. )",
+      "nom": "Lac Missu",
+      "nom_search": "lac missu 50 17 41 n 61 05 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Missu",
+      "aliases": [
+        "lac missu",
+        "lac missu 50 17 41 n 61 05 17 o )",
+        "missu",
+        "missu 50 17 41 n 61 05 17 o )"
+      ],
+      "lat": 50.294722,
+      "lon": -61.088056
+    },
+    {
+      "id": 2096,
+      "zone_id": 2653,
+      "nom_brut": "Lac Musquanousse ( 51°23'17\" N., 61°05'02\" O. )",
+      "nom": "Lac Musquanousse",
+      "nom_search": "lac musquanousse 51 23 17 n 61 05 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Musquanousse",
+      "aliases": [
+        "lac musquanousse",
+        "lac musquanousse 51 23 17 n 61 05 02 o )",
+        "musquanousse",
+        "musquanousse 51 23 17 n 61 05 02 o )"
+      ],
+      "lat": 51.388056,
+      "lon": -61.083889
+    },
+    {
+      "id": 1377,
+      "zone_id": 2653,
+      "nom_brut": "Lac Pachot ( 50°17'02\" N., 60°45'03\" O. )",
+      "nom": "Lac Pachot",
+      "nom_search": "lac pachot 50 17 02 n 60 45 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pachot",
+      "aliases": [
+        "lac pachot",
+        "lac pachot 50 17 02 n 60 45 03 o )",
+        "pachot",
+        "pachot 50 17 02 n 60 45 03 o )"
+      ],
+      "lat": 50.283889,
+      "lon": -60.750833
+    },
+    {
+      "id": 1209,
+      "zone_id": 2653,
+      "nom_brut": "Lac Riverin ( 50°35'43\" N., 59°49'45\" O. )",
+      "nom": "Lac Riverin",
+      "nom_search": "lac riverin 50 35 43 n 59 49 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Riverin",
+      "aliases": [
+        "lac riverin",
+        "lac riverin 50 35 43 n 59 49 45 o )",
+        "riverin",
+        "riverin 50 35 43 n 59 49 45 o )"
+      ],
+      "lat": 50.595278,
+      "lon": -59.829167
+    },
+    {
+      "id": 11764,
+      "zone_id": 2653,
+      "nom_brut": "Lac Sans nom - ( 50°23'57\" N., 63°15'32\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 50 23 57 n 63 15 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom -",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 50 23 57 n 63 15 32 o )",
+        "sans nom",
+        "sans nom 50 23 57 n 63 15 32 o )"
+      ],
+      "lat": 50.399167,
+      "lon": -63.258889
+    },
+    {
+      "id": 11760,
+      "zone_id": 2653,
+      "nom_brut": "Lac Sans nom - ( 50°57'59\" N., 63°24'36\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 50 57 59 n 63 24 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom -",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 50 57 59 n 63 24 36 o )",
+        "sans nom",
+        "sans nom 50 57 59 n 63 24 36 o )"
+      ],
+      "lat": 50.966389,
+      "lon": -63.41
+    },
+    {
+      "id": 11761,
+      "zone_id": 2653,
+      "nom_brut": "Lac Sans nom - ( 51°19'43\" N., 63°34'10\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 51 19 43 n 63 34 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom -",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 51 19 43 n 63 34 10 o )",
+        "sans nom",
+        "sans nom 51 19 43 n 63 34 10 o )"
+      ],
+      "lat": 51.328611,
+      "lon": -63.569444
+    },
+    {
+      "id": 11763,
+      "zone_id": 2653,
+      "nom_brut": "Lac Sans nom - ( 51°44'16\" N., 63°43'59\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 51 44 16 n 63 43 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom -",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 51 44 16 n 63 43 59 o )",
+        "sans nom",
+        "sans nom 51 44 16 n 63 43 59 o )"
+      ],
+      "lat": 51.737778,
+      "lon": -63.733056
+    },
+    {
+      "id": 2803,
+      "zone_id": 2653,
+      "nom_brut": "Lac Tanguay ( 50°19'59\" N., 62°55'42\" O. )",
+      "nom": "Lac Tanguay",
+      "nom_search": "lac tanguay 50 19 59 n 62 55 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tanguay",
+      "aliases": [
+        "lac tanguay",
+        "lac tanguay 50 19 59 n 62 55 42 o )",
+        "tanguay",
+        "tanguay 50 19 59 n 62 55 42 o )"
+      ],
+      "lat": 50.333056,
+      "lon": -62.928333
+    },
+    {
+      "id": 1210,
+      "zone_id": 2653,
+      "nom_brut": "Lac Triquet ( 50°40'54\" N., 59°50'03\" O. )",
+      "nom": "Lac Triquet",
+      "nom_search": "lac triquet 50 40 54 n 59 50 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Triquet",
+      "aliases": [
+        "lac triquet",
+        "lac triquet 50 40 54 n 59 50 03 o )",
+        "triquet",
+        "triquet 50 40 54 n 59 50 03 o )"
+      ],
+      "lat": 50.681667,
+      "lon": -59.834167
+    },
+    {
+      "id": 1382,
+      "zone_id": 2653,
+      "nom_brut": "Lac Washicoutai ( 50°23'12\" N., 60°48'30\" O. )",
+      "nom": "Lac Washicoutai",
+      "nom_search": "lac washicoutai 50 23 12 n 60 48 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Washicoutai",
+      "aliases": [
+        "lac washicoutai",
+        "lac washicoutai 50 23 12 n 60 48 30 o )",
+        "washicoutai",
+        "washicoutai 50 23 12 n 60 48 30 o )"
+      ],
+      "lat": 50.386667,
+      "lon": -60.808333
+    },
+    {
+      "id": 3239,
+      "zone_id": 2653,
+      "nom_brut": "Réservoir Romaine I - La partie en amont du barrage de la Romaine ( 50°23'16\" N., 63°15'10\" O. ) jusqu'à la limite amont du réservoir Romaine I.",
+      "nom": "Réservoir Romaine I - La partie en amont du barrage de la Romaine",
+      "nom_search": "reservoir romaine i la partie en amont du barrage de la romaine 50 23 16 n 63 15 10 o ) jusqu a la limite amont du reservoir romaine i",
+      "segment_label": null,
+      "river_base_name": "Réservoir Romaine I",
+      "aliases": [
+        "reservoir romaine i",
+        "reservoir romaine i la partie en amont du barrage de la romaine 50 23 16 n 63 15 10 o ) jusqu a la limite amont du reservoir romaine i",
+        "romaine i",
+        "romaine i la partie en amont du barrage de la romaine 50 23 16 n 63 15 10 o ) jusqu a la limite amont du reservoir romaine i"
+      ],
+      "lat": 50.387778,
+      "lon": -63.252778
+    },
+    {
+      "id": 1177,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Aguanish (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°13'35\" N., 62°06'27\" O. au point 50°13'40\" N., 62°06'25\" O. et la première des quatre chutes au point 50°28'00\" N., 61°56'18\" O.",
+      "nom": "Rivière Aguanish",
+      "nom_search": "riviere aguanish ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 35 n 62 06 27 o au point 50 13 40 n 62 06 25 o et la premiere des quatre chutes au point 50 28 00 n 61 56 18 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Aguanish",
+      "aliases": [
+        "aguanish",
+        "aguanish ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 35 n 62 06 27 o au point 50 13 40 n 62 06 25 o et la premiere des quatre chutes au point 50 28 00 n 61 56 18 o",
+        "riviere aguanish",
+        "riviere aguanish ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 35 n 62 06 27 o au point 50 13 40 n 62 06 25 o et la premiere des quatre chutes au point 50 28 00 n 61 56 18 o"
+      ],
+      "lat": 50.226389,
+      "lon": -62.1075
+    },
+    {
+      "id": 1168,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Aisley entre son embouchure et la première chute en amont ( 50°17'40\" N., 63°47'27\" O. ).",
+      "nom": "Rivière Aisley entre son embouchure et la première chute en amont",
+      "nom_search": "riviere aisley entre son embouchure et la premiere chute en amont 50 17 40 n 63 47 27 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Aisley",
+      "aliases": [
+        "aisley",
+        "aisley entre son embouchure et la premiere chute en amont 50 17 40 n 63 47 27 o )",
+        "riviere aisley",
+        "riviere aisley entre son embouchure et la premiere chute en amont 50 17 40 n 63 47 27 o )"
+      ],
+      "lat": 50.294444,
+      "lon": -63.790833
+    },
+    {
+      "id": 1179,
+      "zone_id": 2653,
+      "nom_brut": "Rivière au Bouleau (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant les points 50°16'54\" N., 65°30'56\" O. en rive ouest et 50°16'56\" N., 65°30'52\" O. en rive est et la ligne de transport d'énergie électrique située à 1 km en amont.",
+      "nom": "Rivière au Bouleau",
+      "nom_search": "riviere au bouleau ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 50 16 54 n 65 30 56 o en rive ouest et 50 16 56 n 65 30 52 o en rive est et la ligne de transport d energie electrique situee a 1 km en amont",
+      "segment_label": null,
+      "river_base_name": "Rivière au Bouleau",
+      "aliases": [
+        "au bouleau",
+        "au bouleau ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 50 16 54 n 65 30 56 o en rive ouest et 50 16 56 n 65 30 52 o en rive est et la ligne de transport d energie electrique situee a 1 km en amont",
+        "riviere au bouleau",
+        "riviere au bouleau ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 50 16 54 n 65 30 56 o en rive ouest et 50 16 56 n 65 30 52 o en rive est et la ligne de transport d energie electrique situee a 1 km en amont"
+      ],
+      "lat": 50.281667,
+      "lon": -65.515556
+    },
+    {
+      "id": 1180,
+      "zone_id": 2653,
+      "nom_brut": "Rivière au Bouleau entre la ligne de transport d'énergie électrique et une droite joignant les points 50°21'00'' N., 65°31'48'' O. sur la rive ouest et 50°21'00'' N., 65°31'46'' O. sur la rive est",
+      "nom": "Rivière au Bouleau entre la ligne de transport d'énergie électrique et une droite joignant les points 50°21'00'' N., 65°31'48'' O. sur la rive ouest et 50°21'00'' N., 65°31'46'' O. sur la rive est",
+      "nom_search": "riviere au bouleau entre la ligne de transport d energie electrique et une droite joignant les points 50 21 00 n 65 31 48 o sur la rive ouest et 50 21 00 n 65 31 46 o sur la rive est",
+      "segment_label": null,
+      "river_base_name": "Rivière au Bouleau",
+      "aliases": [
+        "au bouleau",
+        "au bouleau entre la ligne de transport d energie electrique et une droite joignant les points 50 21 00 n 65 31 48 o sur la rive ouest et 50 21 00 n 65 31 46 o sur la rive est",
+        "riviere au bouleau",
+        "riviere au bouleau entre la ligne de transport d energie electrique et une droite joignant les points 50 21 00 n 65 31 48 o sur la rive ouest et 50 21 00 n 65 31 46 o sur la rive est"
+      ],
+      "lat": 50.35,
+      "lon": -65.53
+    },
+    {
+      "id": 1183,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Brador Est (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et la limite de montaison du saumon ( 51°32'30\" N., 57°08'08\" O. ).",
+      "nom": "Rivière Brador Est",
+      "nom_search": "riviere brador est ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite de montaison du saumon 51 32 30 n 57 08 08 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Brador Est",
+      "aliases": [
+        "brador est",
+        "brador est ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite de montaison du saumon 51 32 30 n 57 08 08 o )",
+        "riviere brador est",
+        "riviere brador est ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite de montaison du saumon 51 32 30 n 57 08 08 o )"
+      ],
+      "lat": 51.541667,
+      "lon": -57.135556
+    },
+    {
+      "id": 1182,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Brador Est (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant l'extrémité sud de la pointe la Falaise à la rive opposée au point 51°29'19\" N., 57°14'24\" O. et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Brador Est",
+      "nom_search": "riviere brador est ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud de la pointe la falaise a la rive opposee au point 51 29 19 n 57 14 24 o et le cote en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière Brador Est",
+      "aliases": [
+        "brador est",
+        "brador est ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud de la pointe la falaise a la rive opposee au point 51 29 19 n 57 14 24 o et le cote en aval du pont de la route 138",
+        "riviere brador est",
+        "riviere brador est ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud de la pointe la falaise a la rive opposee au point 51 29 19 n 57 14 24 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 51.488611,
+      "lon": -57.24
+    },
+    {
+      "id": 1185,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Chécatica (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°22'26\" N., 58°18'27\" O. au point 51°22'14\" N., 58°18'22\" O. et une droite perpendiculaire au courant passant par le point 51°23'14\" N., 58°16'42\" O.",
+      "nom": "Rivière Chécatica",
+      "nom_search": "riviere checatica ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 22 26 n 58 18 27 o au point 51 22 14 n 58 18 22 o et une droite perpendiculaire au courant passant par le point 51 23 14 n 58 16 42 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Chécatica",
+      "aliases": [
+        "checatica",
+        "checatica ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 22 26 n 58 18 27 o au point 51 22 14 n 58 18 22 o et une droite perpendiculaire au courant passant par le point 51 23 14 n 58 16 42 o",
+        "riviere checatica",
+        "riviere checatica ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 22 26 n 58 18 27 o au point 51 22 14 n 58 18 22 o et une droite perpendiculaire au courant passant par le point 51 23 14 n 58 16 42 o"
+      ],
+      "lat": 51.373889,
+      "lon": -58.3075
+    },
+    {
+      "id": 1186,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Chécatica (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant passant par le point 51°23'14\" N., 58°16'42'' O. et la limite de montaison du saumon sur cette rivière représenté par une droite perpendiculaire au courant passant par le point 51°23'22\" N., 58°16'51'' O.",
+      "nom": "Rivière Chécatica",
+      "nom_search": "riviere checatica ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant passant par le point 51 23 14 n 58 16 42 o et la limite de montaison du saumon sur cette riviere represente par une droite perpendiculaire au courant passant par le point 51 23 22 n 58 16 51 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Chécatica",
+      "aliases": [
+        "checatica",
+        "checatica ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant passant par le point 51 23 14 n 58 16 42 o et la limite de montaison du saumon sur cette riviere represente par une droite perpendiculaire au courant passant par le point 51 23 22 n 58 16 51 o",
+        "riviere checatica",
+        "riviere checatica ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant passant par le point 51 23 14 n 58 16 42 o et la limite de montaison du saumon sur cette riviere represente par une droite perpendiculaire au courant passant par le point 51 23 22 n 58 16 51 o"
+      ],
+      "lat": 51.387222,
+      "lon": -58.278333
+    },
+    {
+      "id": 1189,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Coacoachou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le tributaire du lac Salé ( 50°20'16\" N., 60°15'48\" O. ) et le lac Coacoachou.",
+      "nom": "Rivière Coacoachou",
+      "nom_search": "riviere coacoachou ainsi que les tributaires de ce secteur frequente par le saumon) entre le tributaire du lac sale 50 20 16 n 60 15 48 o ) et le lac coacoachou",
+      "segment_label": null,
+      "river_base_name": "Rivière Coacoachou",
+      "aliases": [
+        "coacoachou",
+        "coacoachou ainsi que les tributaires de ce secteur frequente par le saumon) entre le tributaire du lac sale 50 20 16 n 60 15 48 o ) et le lac coacoachou",
+        "riviere coacoachou",
+        "riviere coacoachou ainsi que les tributaires de ce secteur frequente par le saumon) entre le tributaire du lac sale 50 20 16 n 60 15 48 o ) et le lac coacoachou"
+      ],
+      "lat": 50.337778,
+      "lon": -60.263333
+    },
+    {
+      "id": 1188,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Coacoachou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°16'05\" N., 60°18'19\" O. au point 50°16'11\" N., 60°17'32\" O. et le tributaire du lac Salé ( 50°20'16\" N., 60°15'48\" O. ).",
+      "nom": "Rivière Coacoachou",
+      "nom_search": "riviere coacoachou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 05 n 60 18 19 o au point 50 16 11 n 60 17 32 o et le tributaire du lac sale 50 20 16 n 60 15 48 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Coacoachou",
+      "aliases": [
+        "coacoachou",
+        "coacoachou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 05 n 60 18 19 o au point 50 16 11 n 60 17 32 o et le tributaire du lac sale 50 20 16 n 60 15 48 o )",
+        "riviere coacoachou",
+        "riviere coacoachou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 05 n 60 18 19 o au point 50 16 11 n 60 17 32 o et le tributaire du lac sale 50 20 16 n 60 15 48 o )"
+      ],
+      "lat": 50.268056,
+      "lon": -60.305278
+    },
+    {
+      "id": 1197,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Coxipi (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°18'21\" N., 58°29'00\" O. au point 51°18'19\" N., 58°28'38\" O. et sa source.",
+      "nom": "Rivière Coxipi",
+      "nom_search": "riviere coxipi ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 21 n 58 29 00 o au point 51 18 19 n 58 28 38 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Coxipi",
+      "aliases": [
+        "coxipi",
+        "coxipi ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 21 n 58 29 00 o au point 51 18 19 n 58 28 38 o et sa source",
+        "riviere coxipi",
+        "riviere coxipi ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 21 n 58 29 00 o au point 51 18 19 n 58 28 38 o et sa source"
+      ],
+      "lat": 51.305833,
+      "lon": -58.483333
+    },
+    {
+      "id": 1193,
+      "zone_id": 2653,
+      "nom_brut": "Rivière de la Corneille (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°17'01\" N., 62°54'00\" O. au point 50°16'57\" N., 62°53'45\" O. et une droite joignant le point 50°16'57\" N., 62°53'45\" O. au point 50°17'00\" N., 62°53'38\" O. jusqu'au lac Tanguay.",
+      "nom": "Rivière de la Corneille",
+      "nom_search": "riviere de la corneille ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 01 n 62 54 00 o au point 50 16 57 n 62 53 45 o et une droite joignant le point 50 16 57 n 62 53 45 o au point 50 17 00 n 62 53 38 o jusqu au lac tanguay",
+      "segment_label": null,
+      "river_base_name": "Rivière de la Corneille",
+      "aliases": [
+        "de la corneille",
+        "de la corneille ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 01 n 62 54 00 o au point 50 16 57 n 62 53 45 o et une droite joignant le point 50 16 57 n 62 53 45 o au point 50 17 00 n 62 53 38 o jusqu au lac tanguay",
+        "riviere de la corneille",
+        "riviere de la corneille ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 01 n 62 54 00 o au point 50 16 57 n 62 53 45 o et une droite joignant le point 50 16 57 n 62 53 45 o au point 50 17 00 n 62 53 38 o jusqu au lac tanguay"
+      ],
+      "lat": 50.283611,
+      "lon": -62.9
+    },
+    {
+      "id": 1340,
+      "zone_id": 2653,
+      "nom_brut": "Rivière de Salmon Bay (ruisseau au Saumon) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°27'26\" N., 57°35'44\" O. au point 51°27'09\" N., 57°35'10\" O. et sa source.",
+      "nom": "Rivière de Salmon Bay",
+      "nom_search": "riviere de salmon bay ruisseau au saumon) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 27 26 n 57 35 44 o au point 51 27 09 n 57 35 10 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière de Salmon Bay",
+      "aliases": [
+        "de salmon bay",
+        "de salmon bay ruisseau au saumon) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 27 26 n 57 35 44 o au point 51 27 09 n 57 35 10 o et sa source",
+        "riviere de salmon bay",
+        "riviere de salmon bay ruisseau au saumon) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 27 26 n 57 35 44 o au point 51 27 09 n 57 35 10 o et sa source"
+      ],
+      "lat": 51.457222,
+      "lon": -57.595556
+    },
+    {
+      "id": 1345,
+      "zone_id": 2653,
+      "nom_brut": "Rivière d'Épinettes (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Sheldrake et la limite de montaison du saumon sur cette rivière. ( 50°19'13\" N., 64°53'46\" O. ).",
+      "nom": "Rivière d'Épinettes",
+      "nom_search": "riviere d epinettes ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere sheldrake et la limite de montaison du saumon sur cette riviere 50 19 13 n 64 53 46 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière d'Épinettes",
+      "aliases": [
+        "d epinettes",
+        "d epinettes ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere sheldrake et la limite de montaison du saumon sur cette riviere 50 19 13 n 64 53 46 o )",
+        "riviere d epinettes",
+        "riviere d epinettes ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere sheldrake et la limite de montaison du saumon sur cette riviere 50 19 13 n 64 53 46 o )"
+      ],
+      "lat": 50.320278,
+      "lon": -64.896111
+    },
+    {
+      "id": 1213,
+      "zone_id": 2653,
+      "nom_brut": "Rivière du Gros Mécatina (ainsi que les tributaires de ce secteur fréquenté par le saumon) * entre le premier rapide situé au point 50°49'06\" N., 59°06'00'' O. et le lac du Gros Mécatina * entre le lac du Gros Mécatina et sa source.",
+      "nom": "Rivière du Gros Mécatina",
+      "nom_search": "riviere du gros mecatina ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide situe au point 50 49 06 n 59 06 00 o et le lac du gros mecatina entre le lac du gros mecatina et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière du Gros Mécatina",
+      "aliases": [
+        "du gros mecatina",
+        "du gros mecatina ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide situe au point 50 49 06 n 59 06 00 o et le lac du gros mecatina entre le lac du gros mecatina et sa source",
+        "riviere du gros mecatina",
+        "riviere du gros mecatina ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide situe au point 50 49 06 n 59 06 00 o et le lac du gros mecatina entre le lac du gros mecatina et sa source"
+      ],
+      "lat": 50.818333,
+      "lon": -59.1
+    },
+    {
+      "id": 1212,
+      "zone_id": 2653,
+      "nom_brut": "Rivière du Gros Mécatina entre une droite joignant le point 50°46'11\" N., 59°08'32\" O. au point 50°46'14\" N., 59°08'24\" O. et une droite joignant le point 50°46'05\" N., 59°05'50\" O. au point 50°46'07\" N., 59°05'26\" O. et le premier rapide situé au point 50°49'06\" N., 59°06'00'' O.",
+      "nom": "Rivière du Gros Mécatina entre une droite joignant le point 50°46'11\" N., 59°08'32\" O. au point 50°46'14\" N., 59°08'24\" O. et une droite joignant le point 50°46'05\" N., 59°05'50\" O. au point 50°46'07\" N., 59°05'26\" O. et le premier rapide situé au point 50°49'06\" N., 59°06'00'' O.",
+      "nom_search": "riviere du gros mecatina entre une droite joignant le point 50 46 11 n 59 08 32 o au point 50 46 14 n 59 08 24 o et une droite joignant le point 50 46 05 n 59 05 50 o au point 50 46 07 n 59 05 26 o et le premier rapide situe au point 50 49 06 n 59 06 00 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Gros Mécatina",
+      "aliases": [
+        "du gros mecatina",
+        "du gros mecatina entre une droite joignant le point 50 46 11 n 59 08 32 o au point 50 46 14 n 59 08 24 o et une droite joignant le point 50 46 05 n 59 05 50 o au point 50 46 07 n 59 05 26 o et le premier rapide situe au point 50 49 06 n 59 06 00 o",
+        "riviere du gros mecatina",
+        "riviere du gros mecatina entre une droite joignant le point 50 46 11 n 59 08 32 o au point 50 46 14 n 59 08 24 o et une droite joignant le point 50 46 05 n 59 05 50 o au point 50 46 07 n 59 05 26 o et le premier rapide situe au point 50 49 06 n 59 06 00 o"
+      ],
+      "lat": 50.769722,
+      "lon": -59.142222
+    },
+    {
+      "id": 1300,
+      "zone_id": 2653,
+      "nom_brut": "Rivière du Petit Mécatina a)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°35'00\" N., 59°24'50\" O. au point 50°35'23\" N., 59°22'33\" O. et un point situé à 100 m en aval du premier rapide ( 50°39'31\" N., 59°25'46\" O. ).",
+      "nom": "Rivière du Petit Mécatina a)",
+      "nom_search": "riviere du petit mecatina a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 35 00 n 59 24 50 o au point 50 35 23 n 59 22 33 o et un point situe a 100 m en aval du premier rapide 50 39 31 n 59 25 46 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière du Petit Mécatina",
+      "aliases": [
+        "du petit mecatina",
+        "du petit mecatina a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 35 00 n 59 24 50 o au point 50 35 23 n 59 22 33 o et un point situe a 100 m en aval du premier rapide 50 39 31 n 59 25 46 o )",
+        "riviere du petit mecatina",
+        "riviere du petit mecatina a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 35 00 n 59 24 50 o au point 50 35 23 n 59 22 33 o et un point situe a 100 m en aval du premier rapide 50 39 31 n 59 25 46 o )"
+      ],
+      "lat": 50.583333,
+      "lon": -59.413889
+    },
+    {
+      "id": 1301,
+      "zone_id": 2653,
+      "nom_brut": "Rivière du Petit Mécatina b)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 100 m en aval du premier rapide ( 50°39'31\" N., 59°25'46\" O. ) et le point 50°41'00\" N., 59°36'03'' O. sur la rivière du Petit Mécatina.",
+      "nom": "Rivière du Petit Mécatina b)",
+      "nom_search": "riviere du petit mecatina b) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval du premier rapide 50 39 31 n 59 25 46 o ) et le point 50 41 00 n 59 36 03 o sur la riviere du petit mecatina",
+      "segment_label": "b)",
+      "river_base_name": "Rivière du Petit Mécatina",
+      "aliases": [
+        "du petit mecatina",
+        "du petit mecatina b) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval du premier rapide 50 39 31 n 59 25 46 o ) et le point 50 41 00 n 59 36 03 o sur la riviere du petit mecatina",
+        "riviere du petit mecatina",
+        "riviere du petit mecatina b) ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval du premier rapide 50 39 31 n 59 25 46 o ) et le point 50 41 00 n 59 36 03 o sur la riviere du petit mecatina"
+      ],
+      "lat": 50.658611,
+      "lon": -59.429444
+    },
+    {
+      "id": 1303,
+      "zone_id": 2653,
+      "nom_brut": "Rivière du Porc-Épic (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière du Petit Mécatina et le point 50°44'00\" N., 59°25'56'' O. situé en amont.",
+      "nom": "Rivière du Porc-Épic",
+      "nom_search": "riviere du porc epic ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere du petit mecatina et le point 50 44 00 n 59 25 56 o situe en amont",
+      "segment_label": null,
+      "river_base_name": "Rivière du Porc-Épic",
+      "aliases": [
+        "du porc epic",
+        "du porc epic ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere du petit mecatina et le point 50 44 00 n 59 25 56 o situe en amont",
+        "riviere du porc epic",
+        "riviere du porc epic ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere du petit mecatina et le point 50 44 00 n 59 25 56 o situe en amont"
+      ],
+      "lat": 50.733333,
+      "lon": -59.432222
+    },
+    {
+      "id": 1348,
+      "zone_id": 2653,
+      "nom_brut": "Rivière du Vieux Fort (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°18'36\" N., 58°02'31\" O. au point 51°18'33\" N., 58°02'15\" O. et le lac du Vieux Fort. Également, entre la charge du lac du Vieux Fort ( 51°29'42\" N., 57°51'31\" O. ) et le lac Fournel.",
+      "nom": "Rivière du Vieux Fort",
+      "nom_search": "riviere du vieux fort ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 36 n 58 02 31 o au point 51 18 33 n 58 02 15 o et le lac du vieux fort egalement entre la charge du lac du vieux fort 51 29 42 n 57 51 31 o ) et le lac fournel",
+      "segment_label": null,
+      "river_base_name": "Rivière du Vieux Fort",
+      "aliases": [
+        "du vieux fort",
+        "du vieux fort ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 36 n 58 02 31 o au point 51 18 33 n 58 02 15 o et le lac du vieux fort egalement entre la charge du lac du vieux fort 51 29 42 n 57 51 31 o ) et le lac fournel",
+        "riviere du vieux fort",
+        "riviere du vieux fort ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 36 n 58 02 31 o au point 51 18 33 n 58 02 15 o et le lac du vieux fort egalement entre la charge du lac du vieux fort 51 29 42 n 57 51 31 o ) et le lac fournel"
+      ],
+      "lat": 51.31,
+      "lon": -58.041944
+    },
+    {
+      "id": 1202,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Étamamiou (ainsi que les tributaires de ce secteur fréquenté par le saumon) * Branche sud : entre une droite joignant le point 50°15'55\" N., 59°58'30\" O. au point 50°15'59\" N., 59°58'11\" O. et le lac Gagnon. * Branche est : entre une droite joignant le point 50°20'36\" N., 59°51'11\" O. au point 50°20'45\" N., 59°50'31\" O. et le lac Gagnon. * Entre les lacs : Gagnon et Foucher, Foucher et Riverin, Riverin et Triquet, Foucher et du Feu, du Feu et Manet, et entre le lac Manet et sa source.",
+      "nom": "Rivière Étamamiou",
+      "nom_search": "riviere etamamiou ainsi que les tributaires de ce secteur frequente par le saumon) branche sud entre une droite joignant le point 50 15 55 n 59 58 30 o au point 50 15 59 n 59 58 11 o et le lac gagnon branche est entre une droite joignant le point 50 20 36 n 59 51 11 o au point 50 20 45 n 59 50 31 o et le lac gagnon entre les lacs gagnon et foucher foucher et riverin riverin et triquet foucher et du feu du feu et manet et entre le lac manet et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Étamamiou",
+      "aliases": [
+        "etamamiou",
+        "etamamiou ainsi que les tributaires de ce secteur frequente par le saumon) branche sud entre une droite joignant le point 50 15 55 n 59 58 30 o au point 50 15 59 n 59 58 11 o et le lac gagnon branche est entre une droite joignant le point 50 20 36 n 59 51 11 o au point 50 20 45 n 59 50 31 o et le lac gagnon entre les lacs gagnon et foucher foucher et riverin riverin et triquet foucher et du feu du feu et manet et entre le lac manet et sa source",
+        "riviere etamamiou",
+        "riviere etamamiou ainsi que les tributaires de ce secteur frequente par le saumon) branche sud entre une droite joignant le point 50 15 55 n 59 58 30 o au point 50 15 59 n 59 58 11 o et le lac gagnon branche est entre une droite joignant le point 50 20 36 n 59 51 11 o au point 50 20 45 n 59 50 31 o et le lac gagnon entre les lacs gagnon et foucher foucher et riverin riverin et triquet foucher et du feu du feu et manet et entre le lac manet et sa source"
+      ],
+      "lat": 50.265278,
+      "lon": -59.975
+    },
+    {
+      "id": 1218,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Jupitagon (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le premier rapide situé au point 50°17'17\" N., 64°35'02\" O. et sa source.",
+      "nom": "Rivière Jupitagon",
+      "nom_search": "riviere jupitagon ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide situe au point 50 17 17 n 64 35 02 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Jupitagon",
+      "aliases": [
+        "jupitagon",
+        "jupitagon ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide situe au point 50 17 17 n 64 35 02 o et sa source",
+        "riviere jupitagon",
+        "riviere jupitagon ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide situe au point 50 17 17 n 64 35 02 o et sa source"
+      ],
+      "lat": 50.288056,
+      "lon": -64.583889
+    },
+    {
+      "id": 1217,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Jupitagon (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°17'07\" N., 64°35'27\" O. en rive ouest au point 50°17'07\" N., 64°34'56\" O. en rive est et le premier rapide ( 50°17'17\" N., 64°35'02\" O. ).",
+      "nom": "Rivière Jupitagon",
+      "nom_search": "riviere jupitagon ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 07 n 64 35 27 o en rive ouest au point 50 17 07 n 64 34 56 o en rive est et le premier rapide 50 17 17 n 64 35 02 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Jupitagon",
+      "aliases": [
+        "jupitagon",
+        "jupitagon ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 07 n 64 35 27 o en rive ouest au point 50 17 07 n 64 34 56 o en rive est et le premier rapide 50 17 17 n 64 35 02 o )",
+        "riviere jupitagon",
+        "riviere jupitagon ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 07 n 64 35 27 o en rive ouest au point 50 17 07 n 64 34 56 o en rive est et le premier rapide 50 17 17 n 64 35 02 o )"
+      ],
+      "lat": 50.285278,
+      "lon": -64.590833
+    },
+    {
+      "id": 1221,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Kécarpoui (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le premier rapide ( 51°05'31\" N., 58°51'26\" O. ) et sa source.",
+      "nom": "Rivière Kécarpoui",
+      "nom_search": "riviere kecarpoui ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide 51 05 31 n 58 51 26 o ) et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Kécarpoui",
+      "aliases": [
+        "kecarpoui",
+        "kecarpoui ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide 51 05 31 n 58 51 26 o ) et sa source",
+        "riviere kecarpoui",
+        "riviere kecarpoui ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide 51 05 31 n 58 51 26 o ) et sa source"
+      ],
+      "lat": 51.091944,
+      "lon": -58.857222
+    },
+    {
+      "id": 1220,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Kécarpoui (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°04'46\" N., 58°50'20\" O. au point 51°04'50\" N., 58°49'58\" O. et le premier rapide ( 51°05'31\" N., 58°51'26\" O. ).",
+      "nom": "Rivière Kécarpoui",
+      "nom_search": "riviere kecarpoui ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 04 46 n 58 50 20 o au point 51 04 50 n 58 49 58 o et le premier rapide 51 05 31 n 58 51 26 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Kécarpoui",
+      "aliases": [
+        "kecarpoui",
+        "kecarpoui ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 04 46 n 58 50 20 o au point 51 04 50 n 58 49 58 o et le premier rapide 51 05 31 n 58 51 26 o )",
+        "riviere kecarpoui",
+        "riviere kecarpoui ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 04 46 n 58 50 20 o au point 51 04 50 n 58 49 58 o et le premier rapide 51 05 31 n 58 51 26 o )"
+      ],
+      "lat": 51.079444,
+      "lon": -58.838889
+    },
+    {
+      "id": 1223,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Kegaska (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°10'53\" N., 61°21'00\" O. au point 50°10'41\" N., 61°20'59\" O. et sa source, à l'exception du lac Kegaska.",
+      "nom": "Rivière Kegaska",
+      "nom_search": "riviere kegaska ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 10 53 n 61 21 00 o au point 50 10 41 n 61 20 59 o et sa source a l exception du lac kegaska",
+      "segment_label": null,
+      "river_base_name": "Rivière Kegaska",
+      "aliases": [
+        "kegaska",
+        "kegaska ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 10 53 n 61 21 00 o au point 50 10 41 n 61 20 59 o et sa source a l exception du lac kegaska",
+        "riviere kegaska",
+        "riviere kegaska ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 10 53 n 61 21 00 o au point 50 10 41 n 61 20 59 o et sa source a l exception du lac kegaska"
+      ],
+      "lat": 50.181389,
+      "lon": -61.35
+    },
+    {
+      "id": 1225,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Magpie a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant les deux rives à un point situé à 400 m en aval du pont de la route 138 et le côté en aval de ce pont.",
+      "nom": "Rivière Magpie a)",
+      "nom_search": "riviere magpie a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a un point situe a 400 m en aval du pont de la route 138 et le cote en aval de ce pont",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Magpie",
+      "aliases": [
+        "magpie",
+        "magpie a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a un point situe a 400 m en aval du pont de la route 138 et le cote en aval de ce pont",
+        "riviere magpie",
+        "riviere magpie a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a un point situe a 400 m en aval du pont de la route 138 et le cote en aval de ce pont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1230,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Matamec (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°16'58\" N., 65°58'05\" O. au point 50°17'00\" N., 65°57'57\" O. et la cinquième chute ( 50°20'05\" N., 65°57'50\" O. ).",
+      "nom": "Rivière Matamec",
+      "nom_search": "riviere matamec ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 58 n 65 58 05 o au point 50 17 00 n 65 57 57 o et la cinquieme chute 50 20 05 n 65 57 50 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Matamec",
+      "aliases": [
+        "matamec",
+        "matamec ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 58 n 65 58 05 o au point 50 17 00 n 65 57 57 o et la cinquieme chute 50 20 05 n 65 57 50 o )",
+        "riviere matamec",
+        "riviere matamec ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 58 n 65 58 05 o au point 50 17 00 n 65 57 57 o et la cinquieme chute 50 20 05 n 65 57 50 o )"
+      ],
+      "lat": 50.282778,
+      "lon": -65.968056
+    },
+    {
+      "id": 1232,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Mingan a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°17'32\" N., 64°00'25\" O. au point 50°16'57\" N., 63°59'46\" O. au point 50°18' N., 63°58' O. et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Mingan a)",
+      "nom_search": "riviere mingan a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 32 n 64 00 25 o au point 50 16 57 n 63 59 46 o au point 50 18 n 63 58 o et le cote en aval du pont de la route 138",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Mingan",
+      "aliases": [
+        "mingan",
+        "mingan a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 32 n 64 00 25 o au point 50 16 57 n 63 59 46 o au point 50 18 n 63 58 o et le cote en aval du pont de la route 138",
+        "riviere mingan",
+        "riviere mingan a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 17 32 n 64 00 25 o au point 50 16 57 n 63 59 46 o au point 50 18 n 63 58 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 50.292222,
+      "lon": -64.006944
+    },
+    {
+      "id": 1231,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Mingan b) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et sa source.",
+      "nom": "Rivière Mingan b)",
+      "nom_search": "riviere mingan b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et sa source",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Mingan",
+      "aliases": [
+        "mingan",
+        "mingan b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et sa source",
+        "riviere mingan",
+        "riviere mingan b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1235,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Moisie a) (Zec Moisie) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant la pointe aux Américains à la pointe de Moisie et une droite perpendiculaire au courant joignant le point 50°11'40\" N., 66°04'56\" O. à la rive opposée au point 50°12'39\" N., 66°03'42\" O.",
+      "nom": "Rivière Moisie a)",
+      "nom_search": "riviere moisie a) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe aux americains a la pointe de moisie et une droite perpendiculaire au courant joignant le point 50 11 40 n 66 04 56 o a la rive opposee au point 50 12 39 n 66 03 42 o",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Moisie",
+      "aliases": [
+        "moisie",
+        "moisie a) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe aux americains a la pointe de moisie et une droite perpendiculaire au courant joignant le point 50 11 40 n 66 04 56 o a la rive opposee au point 50 12 39 n 66 03 42 o",
+        "riviere moisie",
+        "riviere moisie a) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe aux americains a la pointe de moisie et une droite perpendiculaire au courant joignant le point 50 11 40 n 66 04 56 o a la rive opposee au point 50 12 39 n 66 03 42 o"
+      ],
+      "lat": 50.194444,
+      "lon": -66.082222
+    },
+    {
+      "id": 1237,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Moisie b) (Zec Moisie) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant le point le vieux quai de Moisie ( 50°11'40\" N., 66°04'56\" O. ) à la rive opposée au point 50°12'45\" N., 66°03'42\" O. et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Moisie b)",
+      "nom_search": "riviere moisie b) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant le point le vieux quai de moisie 50 11 40 n 66 04 56 o ) a la rive opposee au point 50 12 45 n 66 03 42 o et le cote en aval du pont de la route 138",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Moisie",
+      "aliases": [
+        "moisie",
+        "moisie b) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant le point le vieux quai de moisie 50 11 40 n 66 04 56 o ) a la rive opposee au point 50 12 45 n 66 03 42 o et le cote en aval du pont de la route 138",
+        "riviere moisie",
+        "riviere moisie b) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant le point le vieux quai de moisie 50 11 40 n 66 04 56 o ) a la rive opposee au point 50 12 45 n 66 03 42 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 50.194444,
+      "lon": -66.082222
+    },
+    {
+      "id": 1238,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Moisie c) (Zec Moisie) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et la limite en amont de la zec Moisie située au point 50°15'35\" N., 66°07'45\" O. en rive ouest et au point 50°15'38\" N., 66°07'26\" O. en rive est.",
+      "nom": "Rivière Moisie c)",
+      "nom_search": "riviere moisie c) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite en amont de la zec moisie situee au point 50 15 35 n 66 07 45 o en rive ouest et au point 50 15 38 n 66 07 26 o en rive est",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Moisie",
+      "aliases": [
+        "moisie",
+        "moisie c) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite en amont de la zec moisie situee au point 50 15 35 n 66 07 45 o en rive ouest et au point 50 15 38 n 66 07 26 o en rive est",
+        "riviere moisie",
+        "riviere moisie c) zec moisie) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite en amont de la zec moisie situee au point 50 15 35 n 66 07 45 o en rive ouest et au point 50 15 38 n 66 07 26 o en rive est"
+      ],
+      "lat": 50.259722,
+      "lon": -66.129167
+    },
+    {
+      "id": 1239,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Moisie d) (Club Adam) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre la limite en amont de la zec Moisie située au point 50°15'35\" N., 66°07'45\" O. en rive ouest et au point 50°15'38\" N., 66°07'26\" O. en rive est et jusqu'au côté aval du pont du chemin de fer reliant Sept-Iles à Schefferville situé au point 50°18'28\" N., 66°12'10\" O.",
+      "nom": "Rivière Moisie d)",
+      "nom_search": "riviere moisie d) club adam) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite en amont de la zec moisie situee au point 50 15 35 n 66 07 45 o en rive ouest et au point 50 15 38 n 66 07 26 o en rive est et jusqu au cote aval du pont du chemin de fer reliant sept iles a schefferville situe au point 50 18 28 n 66 12 10 o",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Moisie",
+      "aliases": [
+        "moisie",
+        "moisie d) club adam) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite en amont de la zec moisie situee au point 50 15 35 n 66 07 45 o en rive ouest et au point 50 15 38 n 66 07 26 o en rive est et jusqu au cote aval du pont du chemin de fer reliant sept iles a schefferville situe au point 50 18 28 n 66 12 10 o",
+        "riviere moisie",
+        "riviere moisie d) club adam) ainsi que les tributaires de ce secteur frequente par le saumon) entre la limite en amont de la zec moisie situee au point 50 15 35 n 66 07 45 o en rive ouest et au point 50 15 38 n 66 07 26 o en rive est et jusqu au cote aval du pont du chemin de fer reliant sept iles a schefferville situe au point 50 18 28 n 66 12 10 o"
+      ],
+      "lat": 50.259722,
+      "lon": -66.129167
+    },
+    {
+      "id": 2462,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Musquanousse a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°11'49\" N., 60°58'26\" O. au point 50°11'30\" N., 60°57'20\" O. et le premier rapide ( 50°15'53\" N., 61°02'08\" O. ).",
+      "nom": "Rivière Musquanousse a)",
+      "nom_search": "riviere musquanousse a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 11 49 n 60 58 26 o au point 50 11 30 n 60 57 20 o et le premier rapide 50 15 53 n 61 02 08 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Musquanousse",
+      "aliases": [
+        "musquanousse",
+        "musquanousse a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 11 49 n 60 58 26 o au point 50 11 30 n 60 57 20 o et le premier rapide 50 15 53 n 61 02 08 o )",
+        "riviere musquanousse",
+        "riviere musquanousse a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 11 49 n 60 58 26 o au point 50 11 30 n 60 57 20 o et le premier rapide 50 15 53 n 61 02 08 o )"
+      ],
+      "lat": 50.196944,
+      "lon": -60.973889
+    },
+    {
+      "id": 2886,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Musquanousse b) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le premier rapide ( 50°15'53\" N., 61°02'08\" O. ) et le lac à l'Île.",
+      "nom": "Rivière Musquanousse b)",
+      "nom_search": "riviere musquanousse b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide 50 15 53 n 61 02 08 o ) et le lac a l ile",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Musquanousse",
+      "aliases": [
+        "musquanousse",
+        "musquanousse b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide 50 15 53 n 61 02 08 o ) et le lac a l ile",
+        "riviere musquanousse",
+        "riviere musquanousse b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide 50 15 53 n 61 02 08 o ) et le lac a l ile"
+      ],
+      "lat": 50.264722,
+      "lon": -61.035556
+    },
+    {
+      "id": 1275,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Musquanousse c) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre les lacs : à l'Île et Missu, Missu et des Outardes, des Outardes et Marie-Claire, Marie-Claire et Musquanousse.",
+      "nom": "Rivière Musquanousse c)",
+      "nom_search": "riviere musquanousse c) ainsi que les tributaires de ce secteur frequente par le saumon) entre les lacs a l ile et missu missu et des outardes des outardes et marie claire marie claire et musquanousse",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Musquanousse",
+      "aliases": [
+        "musquanousse",
+        "musquanousse c) ainsi que les tributaires de ce secteur frequente par le saumon) entre les lacs a l ile et missu missu et des outardes des outardes et marie claire marie claire et musquanousse",
+        "riviere musquanousse",
+        "riviere musquanousse c) ainsi que les tributaires de ce secteur frequente par le saumon) entre les lacs a l ile et missu missu et des outardes des outardes et marie claire marie claire et musquanousse"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1284,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Musquaro (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une ligne joignant un point situé en rive ouest ( 50°11'32\" N., 61°03'32\" O. ) et la pointe sud-ouest de l'île Menahkunakat ( 50°11'57\" N., 61°02'41\" O. ), puis de la pointe nord-est de l'île Menahkunakat ( 50°12'22\" N., 61°02'52\" O. ) jusqu'à un point situé en rive est ( 50°12'40\" N., 61°03'15\" O. ) et la deuxième chute ( 50°16'44\" N., 61°11'23\" O. ).",
+      "nom": "Rivière Musquaro",
+      "nom_search": "riviere musquaro ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant un point situe en rive ouest 50 11 32 n 61 03 32 o ) et la pointe sud ouest de l ile menahkunakat 50 11 57 n 61 02 41 o ) puis de la pointe nord est de l ile menahkunakat 50 12 22 n 61 02 52 o ) jusqu a un point situe en rive est 50 12 40 n 61 03 15 o ) et la deuxieme chute 50 16 44 n 61 11 23 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Musquaro",
+      "aliases": [
+        "musquaro",
+        "musquaro ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant un point situe en rive ouest 50 11 32 n 61 03 32 o ) et la pointe sud ouest de l ile menahkunakat 50 11 57 n 61 02 41 o ) puis de la pointe nord est de l ile menahkunakat 50 12 22 n 61 02 52 o ) jusqu a un point situe en rive est 50 12 40 n 61 03 15 o ) et la deuxieme chute 50 16 44 n 61 11 23 o )",
+        "riviere musquaro",
+        "riviere musquaro ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant un point situe en rive ouest 50 11 32 n 61 03 32 o ) et la pointe sud ouest de l ile menahkunakat 50 11 57 n 61 02 41 o ) puis de la pointe nord est de l ile menahkunakat 50 12 22 n 61 02 52 o ) jusqu a un point situe en rive est 50 12 40 n 61 03 15 o ) et la deuxieme chute 50 16 44 n 61 11 23 o )"
+      ],
+      "lat": 50.192222,
+      "lon": -61.058889
+    },
+    {
+      "id": 1286,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Nabisipi a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°13'58\" N., 62°13'21\" O. au point 50°13'53\" N., 62°13'05\" O. et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Nabisipi a)",
+      "nom_search": "riviere nabisipi a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 58 n 62 13 21 o au point 50 13 53 n 62 13 05 o et le cote en aval du pont de la route 138",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Nabisipi",
+      "aliases": [
+        "nabisipi",
+        "nabisipi a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 58 n 62 13 21 o au point 50 13 53 n 62 13 05 o et le cote en aval du pont de la route 138",
+        "riviere nabisipi",
+        "riviere nabisipi a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 13 58 n 62 13 21 o au point 50 13 53 n 62 13 05 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 50.232778,
+      "lon": -62.2225
+    },
+    {
+      "id": 1285,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Nabisipi b) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et sa source.",
+      "nom": "Rivière Nabisipi b)",
+      "nom_search": "riviere nabisipi b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et sa source",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Nabisipi",
+      "aliases": [
+        "nabisipi",
+        "nabisipi b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et sa source",
+        "riviere nabisipi",
+        "riviere nabisipi b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1288,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Napetipi (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le premier rapide et sa source, à l'exception du lac Napetipi.",
+      "nom": "Rivière Napetipi",
+      "nom_search": "riviere napetipi ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide et sa source a l exception du lac napetipi",
+      "segment_label": null,
+      "river_base_name": "Rivière Napetipi",
+      "aliases": [
+        "napetipi",
+        "napetipi ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide et sa source a l exception du lac napetipi",
+        "riviere napetipi",
+        "riviere napetipi ainsi que les tributaires de ce secteur frequente par le saumon) entre le premier rapide et sa source a l exception du lac napetipi"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1289,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Napetipi (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°18'11\" N., 58°09'00\" O. au point 51°18'10\" N., 58°08'26\" O. et le premier rapide ( 51°22'52\" N., 58°05'09\" O. ).",
+      "nom": "Rivière Napetipi",
+      "nom_search": "riviere napetipi ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 11 n 58 09 00 o au point 51 18 10 n 58 08 26 o et le premier rapide 51 22 52 n 58 05 09 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Napetipi",
+      "aliases": [
+        "napetipi",
+        "napetipi ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 11 n 58 09 00 o au point 51 18 10 n 58 08 26 o et le premier rapide 51 22 52 n 58 05 09 o )",
+        "riviere napetipi",
+        "riviere napetipi ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 18 11 n 58 09 00 o au point 51 18 10 n 58 08 26 o et le premier rapide 51 22 52 n 58 05 09 o )"
+      ],
+      "lat": 51.303056,
+      "lon": -58.15
+    },
+    {
+      "id": 1291,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Natashquan (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant l'extrémité sud-ouest de la pointe Parent à l'extrémité nord de la pointe du Vieux Poste, en passant par l'extrémité nord de l'île Sainte-Hélène, et sa source.",
+      "nom": "Rivière Natashquan",
+      "nom_search": "riviere natashquan ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud ouest de la pointe parent a l extremite nord de la pointe du vieux poste en passant par l extremite nord de l ile sainte helene et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Natashquan",
+      "aliases": [
+        "natashquan",
+        "natashquan ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud ouest de la pointe parent a l extremite nord de la pointe du vieux poste en passant par l extremite nord de l ile sainte helene et sa source",
+        "riviere natashquan",
+        "riviere natashquan ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite sud ouest de la pointe parent a l extremite nord de la pointe du vieux poste en passant par l extremite nord de l ile sainte helene et sa source",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1293,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Nétagamiou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 100 m en aval de la première chute et la rivière du Petit Mécatina.",
+      "nom": "Rivière Nétagamiou",
+      "nom_search": "riviere netagamiou ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval de la premiere chute et la riviere du petit mecatina",
+      "segment_label": null,
+      "river_base_name": "Rivière Nétagamiou",
+      "aliases": [
+        "netagamiou",
+        "netagamiou ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval de la premiere chute et la riviere du petit mecatina",
+        "riviere netagamiou",
+        "riviere netagamiou ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval de la premiere chute et la riviere du petit mecatina"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1294,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Nétagamiou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°28'11\" N., 59°36'39\" O. au point 50°28'03\" N., 59°36'24\" O. et un point situé à 100 m en aval de la première chute.",
+      "nom": "Rivière Nétagamiou",
+      "nom_search": "riviere netagamiou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 28 11 n 59 36 39 o au point 50 28 03 n 59 36 24 o et un point situe a 100 m en aval de la premiere chute",
+      "segment_label": null,
+      "river_base_name": "Rivière Nétagamiou",
+      "aliases": [
+        "netagamiou",
+        "netagamiou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 28 11 n 59 36 39 o au point 50 28 03 n 59 36 24 o et un point situe a 100 m en aval de la premiere chute",
+        "riviere netagamiou",
+        "riviere netagamiou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 28 11 n 59 36 39 o au point 50 28 03 n 59 36 24 o et un point situe a 100 m en aval de la premiere chute"
+      ],
+      "lat": 50.469722,
+      "lon": -59.610833
+    },
+    {
+      "id": 1250,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Nipisso (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec la rivière Nipissis et un point situé à 2 km en amont ( 50°39'42\" N., 65°57'46\" O. ).",
+      "nom": "Rivière Nipisso",
+      "nom_search": "riviere nipisso ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere nipissis et un point situe a 2 km en amont 50 39 42 n 65 57 46 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Nipisso",
+      "aliases": [
+        "nipisso",
+        "nipisso ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere nipissis et un point situe a 2 km en amont 50 39 42 n 65 57 46 o )",
+        "riviere nipisso",
+        "riviere nipisso ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec la riviere nipissis et un point situe a 2 km en amont 50 39 42 n 65 57 46 o )"
+      ],
+      "lat": 50.661667,
+      "lon": -65.962778
+    },
+    {
+      "id": 1296,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Olomane (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 100 m en aval du premier rapide et sa source.",
+      "nom": "Rivière Olomane",
+      "nom_search": "riviere olomane ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval du premier rapide et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Olomane",
+      "aliases": [
+        "olomane",
+        "olomane ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval du premier rapide et sa source",
+        "riviere olomane",
+        "riviere olomane ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval du premier rapide et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1297,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Olomane (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°12'31\" N., 60°40'11\" O. au point 50°11'51\" N., 60°39'14\" O. au point 50°11'43\" N., 60°38'10\" O. au point 50°12'06\" N., 60°36'45\" O. et un point situé à 100 m en aval du premier rapide.",
+      "nom": "Rivière Olomane",
+      "nom_search": "riviere olomane ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 12 31 n 60 40 11 o au point 50 11 51 n 60 39 14 o au point 50 11 43 n 60 38 10 o au point 50 12 06 n 60 36 45 o et un point situe a 100 m en aval du premier rapide",
+      "segment_label": null,
+      "river_base_name": "Rivière Olomane",
+      "aliases": [
+        "olomane",
+        "olomane ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 12 31 n 60 40 11 o au point 50 11 51 n 60 39 14 o au point 50 11 43 n 60 38 10 o au point 50 12 06 n 60 36 45 o et un point situe a 100 m en aval du premier rapide",
+        "riviere olomane",
+        "riviere olomane ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 12 31 n 60 40 11 o au point 50 11 51 n 60 39 14 o au point 50 11 43 n 60 38 10 o au point 50 12 06 n 60 36 45 o et un point situe a 100 m en aval du premier rapide"
+      ],
+      "lat": 50.208611,
+      "lon": -60.669722
+    },
+    {
+      "id": 1388,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Petite rivière Watshishou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°16'07\" N., 62°39'06\" O. au point 50°15'34\" N., 62°37'27\" O. au point 50°15'59\" N., 62°36'56\" O. et sa source.",
+      "nom": "Rivière Petite rivière Watshishou",
+      "nom_search": "riviere petite riviere watshishou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 07 n 62 39 06 o au point 50 15 34 n 62 37 27 o au point 50 15 59 n 62 36 56 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite rivière Watshishou",
+      "aliases": [
+        "petite riviere watshishou",
+        "petite riviere watshishou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 07 n 62 39 06 o au point 50 15 34 n 62 37 27 o au point 50 15 59 n 62 36 56 o et sa source",
+        "riviere petite riviere watshishou",
+        "riviere petite riviere watshishou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 07 n 62 39 06 o au point 50 15 34 n 62 37 27 o au point 50 15 59 n 62 36 56 o et sa source"
+      ],
+      "lat": 50.268611,
+      "lon": -62.651667
+    },
+    {
+      "id": 1304,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Piashti d)(ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant située à 300 m en amont du pont de la route 138 et la chute Piashti, incluant le lac Salé. (voir également zone 21)",
+      "nom": "Rivière Piashti d)",
+      "nom_search": "riviere piashti d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en amont du pont de la route 138 et la chute piashti incluant le lac sale voir egalement zone 21)",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Piashti",
+      "aliases": [
+        "piashti",
+        "piashti d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en amont du pont de la route 138 et la chute piashti incluant le lac sale voir egalement zone 21)",
+        "riviere piashti",
+        "riviere piashti d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant situee a 300 m en amont du pont de la route 138 et la chute piashti incluant le lac sale voir egalement zone 21)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1309,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Pigou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une ligne joignant le point 50°15'58\" N., 65°37'25\" O. en rive ouest au point 50°16'06\" N., 65°37'01\" O. en rive est et la chute située à 800 m en aval du pont de la route 138 ( 50°16'38\" N., 65°38'32\" O. ).",
+      "nom": "Rivière Pigou",
+      "nom_search": "riviere pigou ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant le point 50 15 58 n 65 37 25 o en rive ouest au point 50 16 06 n 65 37 01 o en rive est et la chute situee a 800 m en aval du pont de la route 138 50 16 38 n 65 38 32 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Pigou",
+      "aliases": [
+        "pigou",
+        "pigou ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant le point 50 15 58 n 65 37 25 o en rive ouest au point 50 16 06 n 65 37 01 o en rive est et la chute situee a 800 m en aval du pont de la route 138 50 16 38 n 65 38 32 o )",
+        "riviere pigou",
+        "riviere pigou ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant le point 50 15 58 n 65 37 25 o en rive ouest au point 50 16 06 n 65 37 01 o en rive est et la chute situee a 800 m en aval du pont de la route 138 50 16 38 n 65 38 32 o )"
+      ],
+      "lat": 50.266111,
+      "lon": -65.623611
+    },
+    {
+      "id": 1327,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Puyjalon (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite à l'embouchure de la rivière joignant le point 50°18'27\" N., 63°40'00\" O. au point 50°18'23\" N., 63°39'51\" O. et le premier rapide de l'émissaire du lac Puyjalon.",
+      "nom": "Rivière Puyjalon",
+      "nom_search": "riviere puyjalon ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite a l embouchure de la riviere joignant le point 50 18 27 n 63 40 00 o au point 50 18 23 n 63 39 51 o et le premier rapide de l emissaire du lac puyjalon",
+      "segment_label": null,
+      "river_base_name": "Rivière Puyjalon",
+      "aliases": [
+        "puyjalon",
+        "puyjalon ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite a l embouchure de la riviere joignant le point 50 18 27 n 63 40 00 o au point 50 18 23 n 63 39 51 o et le premier rapide de l emissaire du lac puyjalon",
+        "riviere puyjalon",
+        "riviere puyjalon ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite a l embouchure de la riviere joignant le point 50 18 27 n 63 40 00 o au point 50 18 23 n 63 39 51 o et le premier rapide de l emissaire du lac puyjalon"
+      ],
+      "lat": 50.3075,
+      "lon": -63.666667
+    },
+    {
+      "id": 1325,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Romaine (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant la pointe Paradis 50°17'23\" N., 63°51'10\" O. à l'île Moutange au point 50°16'18\" N., 63°50'08\" O. et de l'île Moutange du point 50°16'48\" N., 63°49'02\" O. à la pointe Aisley 50°17'18\" N., 63°47'46\" O. , et de cette droite jusqu'à la grande chute ( 50°23'14\" N., 63°15'13\" O. ).",
+      "nom": "Rivière Romaine",
+      "nom_search": "riviere romaine ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe paradis 50 17 23 n 63 51 10 o a l ile moutange au point 50 16 18 n 63 50 08 o et de l ile moutange du point 50 16 48 n 63 49 02 o a la pointe aisley 50 17 18 n 63 47 46 o et de cette droite jusqu a la grande chute 50 23 14 n 63 15 13 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Romaine",
+      "aliases": [
+        "riviere romaine",
+        "riviere romaine ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe paradis 50 17 23 n 63 51 10 o a l ile moutange au point 50 16 18 n 63 50 08 o et de l ile moutange du point 50 16 48 n 63 49 02 o a la pointe aisley 50 17 18 n 63 47 46 o et de cette droite jusqu a la grande chute 50 23 14 n 63 15 13 o )",
+        "romaine",
+        "romaine ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant la pointe paradis 50 17 23 n 63 51 10 o a l ile moutange au point 50 16 18 n 63 50 08 o et de l ile moutange du point 50 16 48 n 63 49 02 o a la pointe aisley 50 17 18 n 63 47 46 o et de cette droite jusqu a la grande chute 50 23 14 n 63 15 13 o )"
+      ],
+      "lat": 50.289722,
+      "lon": -63.852778
+    },
+    {
+      "id": 1332,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Augustin Nord-Ouest (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°11'06\" N., 58°35'51\" O. au point 51°13'56\" N., 58°37'30\" O. et sa source.",
+      "nom": "Rivière Saint-Augustin Nord-Ouest",
+      "nom_search": "riviere saint augustin nord ouest ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 11 06 n 58 35 51 o au point 51 13 56 n 58 37 30 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Augustin Nord-Ouest",
+      "aliases": [
+        "riviere saint augustin nord ouest",
+        "riviere saint augustin nord ouest ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 11 06 n 58 35 51 o au point 51 13 56 n 58 37 30 o et sa source",
+        "saint augustin nord ouest",
+        "saint augustin nord ouest ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 11 06 n 58 35 51 o au point 51 13 56 n 58 37 30 o et sa source"
+      ],
+      "lat": 51.185,
+      "lon": -58.5975
+    },
+    {
+      "id": 1330,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Augustin (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°12'54\" N., 58°39'04\" O. et le point 51°13'22\" N., 58°38'46\" O. et sa source.",
+      "nom": "Rivière Saint-Augustin",
+      "nom_search": "riviere saint augustin ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 12 54 n 58 39 04 o et le point 51 13 22 n 58 38 46 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Augustin",
+      "aliases": [
+        "riviere saint augustin",
+        "riviere saint augustin ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 12 54 n 58 39 04 o et le point 51 13 22 n 58 38 46 o et sa source",
+        "saint augustin",
+        "saint augustin ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 12 54 n 58 39 04 o et le point 51 13 22 n 58 38 46 o et sa source"
+      ],
+      "lat": 51.215,
+      "lon": -58.651111
+    },
+    {
+      "id": 1329,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Augustin (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une ligne joignant le point 51°13'58\" N., 58°37'03\" O. au point 51°11'44\" N., 58°35'54\" O. au point 51°11'07\" N., 58°35'49\" O. et une ligne joignant le point 51°12'54\" N., 58°39'04\" O. et le point 51°13'22\" N., 58°38'46\" O.",
+      "nom": "Rivière Saint-Augustin",
+      "nom_search": "riviere saint augustin ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant le point 51 13 58 n 58 37 03 o au point 51 11 44 n 58 35 54 o au point 51 11 07 n 58 35 49 o et une ligne joignant le point 51 12 54 n 58 39 04 o et le point 51 13 22 n 58 38 46 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Augustin",
+      "aliases": [
+        "riviere saint augustin",
+        "riviere saint augustin ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant le point 51 13 58 n 58 37 03 o au point 51 11 44 n 58 35 54 o au point 51 11 07 n 58 35 49 o et une ligne joignant le point 51 12 54 n 58 39 04 o et le point 51 13 22 n 58 38 46 o",
+        "saint augustin",
+        "saint augustin ainsi que les tributaires de ce secteur frequente par le saumon) entre une ligne joignant le point 51 13 58 n 58 37 03 o au point 51 11 44 n 58 35 54 o au point 51 11 07 n 58 35 49 o et une ligne joignant le point 51 12 54 n 58 39 04 o et le point 51 13 22 n 58 38 46 o"
+      ],
+      "lat": 51.232778,
+      "lon": -58.6175
+    },
+    {
+      "id": 1334,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Jean a) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant l'extrémité de la pointe à Robin ( 50°17'00\" N., 64°20'15\" O. ) et l'extrémité du Bout du Banc ( 50°16'58\" N., 64°19'49\" O. ) et le côté en aval du pont de la route 138.",
+      "nom": "Rivière Saint-Jean a)",
+      "nom_search": "riviere saint jean a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite de la pointe a robin 50 17 00 n 64 20 15 o ) et l extremite du bout du banc 50 16 58 n 64 19 49 o ) et le cote en aval du pont de la route 138",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite de la pointe a robin 50 17 00 n 64 20 15 o ) et l extremite du bout du banc 50 16 58 n 64 19 49 o ) et le cote en aval du pont de la route 138",
+        "saint jean",
+        "saint jean a) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant l extremite de la pointe a robin 50 17 00 n 64 20 15 o ) et l extremite du bout du banc 50 16 58 n 64 19 49 o ) et le cote en aval du pont de la route 138"
+      ],
+      "lat": 50.283333,
+      "lon": -64.3375
+    },
+    {
+      "id": 1335,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Jean b) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et une droite joignant le point 50°41'11\" N., 64°03'14'' O. et le point 50°41'20\" N., 64°03'14'' O.",
+      "nom": "Rivière Saint-Jean b)",
+      "nom_search": "riviere saint jean b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et une droite joignant le point 50 41 11 n 64 03 14 o et le point 50 41 20 n 64 03 14 o",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et une droite joignant le point 50 41 11 n 64 03 14 o et le point 50 41 20 n 64 03 14 o",
+        "saint jean",
+        "saint jean b) ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et une droite joignant le point 50 41 11 n 64 03 14 o et le point 50 41 20 n 64 03 14 o"
+      ],
+      "lat": 50.686389,
+      "lon": -64.053889
+    },
+    {
+      "id": 10520,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Jean c) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°41'11\" N., 64°03'04\" O. et le point 50°41'20\" N., 64°03'14\" O. et une droite joignant le point 50°45'17\" N., 64°09'22\" O. et le point 50°45'17\" N., 64°09'11\" O.",
+      "nom": "Rivière Saint-Jean c)",
+      "nom_search": "riviere saint jean c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 41 11 n 64 03 04 o et le point 50 41 20 n 64 03 14 o et une droite joignant le point 50 45 17 n 64 09 22 o et le point 50 45 17 n 64 09 11 o",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 41 11 n 64 03 04 o et le point 50 41 20 n 64 03 14 o et une droite joignant le point 50 45 17 n 64 09 22 o et le point 50 45 17 n 64 09 11 o",
+        "saint jean",
+        "saint jean c) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 41 11 n 64 03 04 o et le point 50 41 20 n 64 03 14 o et une droite joignant le point 50 45 17 n 64 09 22 o et le point 50 45 17 n 64 09 11 o"
+      ],
+      "lat": 50.686389,
+      "lon": -64.051111
+    },
+    {
+      "id": 10540,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Jean d) (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°45'17\" N., 64°09'22\" O. et le point 50°45'17\" N., 64°09'11\" O. et sa source.",
+      "nom": "Rivière Saint-Jean d)",
+      "nom_search": "riviere saint jean d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 45 17 n 64 09 22 o et le point 50 45 17 n 64 09 11 o et sa source",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 45 17 n 64 09 22 o et le point 50 45 17 n 64 09 11 o et sa source",
+        "saint jean",
+        "saint jean d) ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 45 17 n 64 09 22 o et le point 50 45 17 n 64 09 11 o et sa source"
+      ],
+      "lat": 50.754722,
+      "lon": -64.156111
+    },
+    {
+      "id": 1338,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Paul (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant les points 51°33'00\" N., 57°43'10\" O. , et 51°33'00\" N., 57°44'07\" O. et sa source.",
+      "nom": "Rivière Saint-Paul",
+      "nom_search": "riviere saint paul ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 51 33 00 n 57 43 10 o et 51 33 00 n 57 44 07 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Paul",
+      "aliases": [
+        "riviere saint paul",
+        "riviere saint paul ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 51 33 00 n 57 43 10 o et 51 33 00 n 57 44 07 o et sa source",
+        "saint paul",
+        "saint paul ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 51 33 00 n 57 43 10 o et 51 33 00 n 57 44 07 o et sa source"
+      ],
+      "lat": 51.55,
+      "lon": -57.719444
+    },
+    {
+      "id": 1337,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Saint-Paul (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant les deux rives à 500 m en aval du pont de la route 138 et une droite joignant les points 51°33'00\" N., 57°43'10\" O. , et 51°33'00\" N., 57°44'07\" O.",
+      "nom": "Rivière Saint-Paul",
+      "nom_search": "riviere saint paul ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 500 m en aval du pont de la route 138 et une droite joignant les points 51 33 00 n 57 43 10 o et 51 33 00 n 57 44 07 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Saint-Paul",
+      "aliases": [
+        "riviere saint paul",
+        "riviere saint paul ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 500 m en aval du pont de la route 138 et une droite joignant les points 51 33 00 n 57 43 10 o et 51 33 00 n 57 44 07 o",
+        "saint paul",
+        "saint paul ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a 500 m en aval du pont de la route 138 et une droite joignant les points 51 33 00 n 57 43 10 o et 51 33 00 n 57 44 07 o"
+      ],
+      "lat": 51.55,
+      "lon": -57.719444
+    },
+    {
+      "id": 3136,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Sheldrake Est - La partie entre sa confluence avec la rivière Sheldrake jusqu'à la chute au point 50°40'23\" N., 64°49'12\" W.",
+      "nom": "Rivière Sheldrake Est - La partie entre sa confluence avec la rivière Sheldrake jusqu'à la chute au point 50°40'23\" N., 64°49'12\" W.",
+      "nom_search": "riviere sheldrake est la partie entre sa confluence avec la riviere sheldrake jusqu a la chute au point 50 40 23 n 64 49 12 w",
+      "segment_label": null,
+      "river_base_name": "Rivière Sheldrake Est",
+      "aliases": [
+        "riviere sheldrake est",
+        "riviere sheldrake est la partie entre sa confluence avec la riviere sheldrake jusqu a la chute au point 50 40 23 n 64 49 12 w",
+        "sheldrake est",
+        "sheldrake est la partie entre sa confluence avec la riviere sheldrake jusqu a la chute au point 50 40 23 n 64 49 12 w"
+      ],
+      "lat": 50.673056,
+      "lon": -64.82
+    },
+    {
+      "id": 1342,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Sheldrake (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite perpendiculaire au courant joignant les deux rives à un point situé à 100 m en aval du pont de la route 138 et une droite reliant la rive ouest ( 50°16'33\" N., 64°55'13\" O. ) à la rive est ( 50°16'28\" N., 64°54'55\" O. ) en passant par la pointe nord de l'île la plus en aval.",
+      "nom": "Rivière Sheldrake",
+      "nom_search": "riviere sheldrake ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a un point situe a 100 m en aval du pont de la route 138 et une droite reliant la rive ouest 50 16 33 n 64 55 13 o ) a la rive est 50 16 28 n 64 54 55 o ) en passant par la pointe nord de l ile la plus en aval",
+      "segment_label": null,
+      "river_base_name": "Rivière Sheldrake",
+      "aliases": [
+        "riviere sheldrake",
+        "riviere sheldrake ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a un point situe a 100 m en aval du pont de la route 138 et une droite reliant la rive ouest 50 16 33 n 64 55 13 o ) a la rive est 50 16 28 n 64 54 55 o ) en passant par la pointe nord de l ile la plus en aval",
+        "sheldrake",
+        "sheldrake ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite perpendiculaire au courant joignant les deux rives a un point situe a 100 m en aval du pont de la route 138 et une droite reliant la rive ouest 50 16 33 n 64 55 13 o ) a la rive est 50 16 28 n 64 54 55 o ) en passant par la pointe nord de l ile la plus en aval"
+      ],
+      "lat": 50.275833,
+      "lon": -64.920278
+    },
+    {
+      "id": 1343,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Sheldrake (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite reliant la rive ouest ( 50°16'33\" N., 64°55'13\" O. ) à la rive est ( 50°16'28\" N., 64°54'55\" O. ) en passant par la pointe nord de l'île la plus en aval et la chute située à 5,5 km en amont ( 50°18'54\" N., 64°54'49\" O. ).",
+      "nom": "Rivière Sheldrake",
+      "nom_search": "riviere sheldrake ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite reliant la rive ouest 50 16 33 n 64 55 13 o ) a la rive est 50 16 28 n 64 54 55 o ) en passant par la pointe nord de l ile la plus en aval et la chute situee a 5 5 km en amont 50 18 54 n 64 54 49 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Sheldrake",
+      "aliases": [
+        "riviere sheldrake",
+        "riviere sheldrake ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite reliant la rive ouest 50 16 33 n 64 55 13 o ) a la rive est 50 16 28 n 64 54 55 o ) en passant par la pointe nord de l ile la plus en aval et la chute situee a 5 5 km en amont 50 18 54 n 64 54 49 o )",
+        "sheldrake",
+        "sheldrake ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite reliant la rive ouest 50 16 33 n 64 55 13 o ) a la rive est 50 16 28 n 64 54 55 o ) en passant par la pointe nord de l ile la plus en aval et la chute situee a 5 5 km en amont 50 18 54 n 64 54 49 o )"
+      ],
+      "lat": 50.275833,
+      "lon": -64.920278
+    },
+    {
+      "id": 3138,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Sheldrake La partie en amont du barrage hydroélectrique jusqu'à la chute située au point ( 50°36'10\" N., 64°58'59\" O. ).",
+      "nom": "Rivière Sheldrake La partie en amont du barrage hydroélectrique jusqu'à la chute située au point",
+      "nom_search": "riviere sheldrake la partie en amont du barrage hydroelectrique jusqu a la chute situee au point 50 36 10 n 64 58 59 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Sheldrake La partie en amont du barrage hydroélectrique jusqu'à la chute située au point",
+      "aliases": [
+        "riviere sheldrake la partie en amont du barrage hydroelectrique jusqu a la chute situee au point",
+        "riviere sheldrake la partie en amont du barrage hydroelectrique jusqu a la chute situee au point 50 36 10 n 64 58 59 o )",
+        "sheldrake la partie en amont du barrage hydroelectrique jusqu a la chute situee au point",
+        "sheldrake la partie en amont du barrage hydroelectrique jusqu a la chute situee au point 50 36 10 n 64 58 59 o )"
+      ],
+      "lat": 50.602778,
+      "lon": -64.983056
+    },
+    {
+      "id": 2102,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Véco (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant les points 51°00'00\" N., 58°59'05\" O. et 51°00'00\" N., 58°58'13\" O. et le barrage hydroélectrique.",
+      "nom": "Rivière Véco",
+      "nom_search": "riviere veco ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 51 00 00 n 58 59 05 o et 51 00 00 n 58 58 13 o et le barrage hydroelectrique",
+      "segment_label": null,
+      "river_base_name": "Rivière Véco",
+      "aliases": [
+        "riviere veco",
+        "riviere veco ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 51 00 00 n 58 59 05 o et 51 00 00 n 58 58 13 o et le barrage hydroelectrique",
+        "veco",
+        "veco ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant les points 51 00 00 n 58 59 05 o et 51 00 00 n 58 58 13 o et le barrage hydroelectrique"
+      ],
+      "lat": 51.0,
+      "lon": -58.984722
+    },
+    {
+      "id": 1355,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Washicoutai (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le lac Andilly (Ardilly) et le lac Caumont.",
+      "nom": "Rivière Washicoutai",
+      "nom_search": "riviere washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre le lac andilly ardilly) et le lac caumont",
+      "segment_label": null,
+      "river_base_name": "Rivière Washicoutai",
+      "aliases": [
+        "riviere washicoutai",
+        "riviere washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre le lac andilly ardilly) et le lac caumont",
+        "washicoutai",
+        "washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre le lac andilly ardilly) et le lac caumont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2621,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Washicoutai (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre un point situé à 100 m en aval de la première chute située au point 50°15'35\" N., 60°47'52\" O. en rive ouest et au point 50°15'38\" N., 60°47'41\" O. en rive est et cette chute.",
+      "nom": "Rivière Washicoutai",
+      "nom_search": "riviere washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval de la premiere chute situee au point 50 15 35 n 60 47 52 o en rive ouest et au point 50 15 38 n 60 47 41 o en rive est et cette chute",
+      "segment_label": null,
+      "river_base_name": "Rivière Washicoutai",
+      "aliases": [
+        "riviere washicoutai",
+        "riviere washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval de la premiere chute situee au point 50 15 35 n 60 47 52 o en rive ouest et au point 50 15 38 n 60 47 41 o en rive est et cette chute",
+        "washicoutai",
+        "washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre un point situe a 100 m en aval de la premiere chute situee au point 50 15 35 n 60 47 52 o en rive ouest et au point 50 15 38 n 60 47 41 o en rive est et cette chute"
+      ],
+      "lat": 50.259722,
+      "lon": -60.797778
+    },
+    {
+      "id": 1356,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Washicoutai (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°14'42\" N., 60°50'10\" O. au point 50°14'29\" N., 60°50'10\" O. et un point situé à 100 m en aval de la première chute située au point 50°15'35\" N., 60°47'52\" O. en rive ouest et au point 50°15'38\" N., 60°47'41\" O. en rive est.",
+      "nom": "Rivière Washicoutai",
+      "nom_search": "riviere washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 14 42 n 60 50 10 o au point 50 14 29 n 60 50 10 o et un point situe a 100 m en aval de la premiere chute situee au point 50 15 35 n 60 47 52 o en rive ouest et au point 50 15 38 n 60 47 41 o en rive est",
+      "segment_label": null,
+      "river_base_name": "Rivière Washicoutai",
+      "aliases": [
+        "riviere washicoutai",
+        "riviere washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 14 42 n 60 50 10 o au point 50 14 29 n 60 50 10 o et un point situe a 100 m en aval de la premiere chute situee au point 50 15 35 n 60 47 52 o en rive ouest et au point 50 15 38 n 60 47 41 o en rive est",
+        "washicoutai",
+        "washicoutai ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 14 42 n 60 50 10 o au point 50 14 29 n 60 50 10 o et un point situe a 100 m en aval de la premiere chute situee au point 50 15 35 n 60 47 52 o en rive ouest et au point 50 15 38 n 60 47 41 o en rive est"
+      ],
+      "lat": 50.245,
+      "lon": -60.836111
+    },
+    {
+      "id": 1390,
+      "zone_id": 2653,
+      "nom_brut": "Rivière Watshishou (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 50°16'09\" N., 62°41'29\" O. au point 50°16'10\" N., 62°41'26\" O. et le lac Holt.",
+      "nom": "Rivière Watshishou",
+      "nom_search": "riviere watshishou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 09 n 62 41 29 o au point 50 16 10 n 62 41 26 o et le lac holt",
+      "segment_label": null,
+      "river_base_name": "Rivière Watshishou",
+      "aliases": [
+        "riviere watshishou",
+        "riviere watshishou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 09 n 62 41 29 o au point 50 16 10 n 62 41 26 o et le lac holt",
+        "watshishou",
+        "watshishou ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 50 16 09 n 62 41 29 o au point 50 16 10 n 62 41 26 o et le lac holt"
+      ],
+      "lat": 50.269167,
+      "lon": -62.691389
+    },
+    {
+      "id": 1173,
+      "zone_id": 2653,
+      "nom_brut": "Ruisseau des Belles-Amours (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre le côté en aval du pont de la route 138 et la limite de montaison du saumon ( 51°29'14\" N., 57°28'36\" O. ).",
+      "nom": "Ruisseau des Belles-Amours",
+      "nom_search": "ruisseau des belles amours ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite de montaison du saumon 51 29 14 n 57 28 36 o )",
+      "segment_label": null,
+      "river_base_name": "Ruisseau des Belles-Amours",
+      "aliases": [
+        "des belles amours",
+        "des belles amours ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite de montaison du saumon 51 29 14 n 57 28 36 o )",
+        "ruisseau des belles amours",
+        "ruisseau des belles amours ainsi que les tributaires de ce secteur frequente par le saumon) entre le cote en aval du pont de la route 138 et la limite de montaison du saumon 51 29 14 n 57 28 36 o )"
+      ],
+      "lat": 51.487222,
+      "lon": -57.476667
+    },
+    {
+      "id": 1172,
+      "zone_id": 2653,
+      "nom_brut": "Ruisseau des Belles-Amours (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre une droite joignant le point 51°28'29\" N., 57°26'57\" O. au point 51°28'47\" N., 57°26'01\" O. au point 51°28'36\" N., 57°26'29\" O. et le côté en aval du pont de la route 138.",
+      "nom": "Ruisseau des Belles-Amours",
+      "nom_search": "ruisseau des belles amours ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 28 29 n 57 26 57 o au point 51 28 47 n 57 26 01 o au point 51 28 36 n 57 26 29 o et le cote en aval du pont de la route 138",
+      "segment_label": null,
+      "river_base_name": "Ruisseau des Belles-Amours",
+      "aliases": [
+        "des belles amours",
+        "des belles amours ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 28 29 n 57 26 57 o au point 51 28 47 n 57 26 01 o au point 51 28 36 n 57 26 29 o et le cote en aval du pont de la route 138",
+        "ruisseau des belles amours",
+        "ruisseau des belles amours ainsi que les tributaires de ce secteur frequente par le saumon) entre une droite joignant le point 51 28 29 n 57 26 57 o au point 51 28 47 n 57 26 01 o au point 51 28 36 n 57 26 29 o et le cote en aval du pont de la route 138"
+      ],
+      "lat": 51.474722,
+      "lon": -57.449167
+    },
+    {
+      "id": 1349,
+      "zone_id": 2653,
+      "nom_brut": "Ruisseau du Nord-Est (ainsi que les tributaires de ce secteur fréquenté par le saumon) entre sa confluence avec le lac Fournel et sa source.",
+      "nom": "Ruisseau du Nord-Est",
+      "nom_search": "ruisseau du nord est ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec le lac fournel et sa source",
+      "segment_label": null,
+      "river_base_name": "Ruisseau du Nord-Est",
+      "aliases": [
+        "du nord est",
+        "du nord est ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec le lac fournel et sa source",
+        "ruisseau du nord est",
+        "ruisseau du nord est ainsi que les tributaires de ce secteur frequente par le saumon) entre sa confluence avec le lac fournel et sa source"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1352,
+      "zone_id": 2653,
+      "nom_brut": "Ruisseau Head Stone (ainsi que les tributaires de ce secteur fréquenté par le saumon) La partie comprise entre une droite joignant le point 51°11'06\" N., 58°35'51\" O. au point 51°13'56\" N., 58°37'30\" O. et sa source.",
+      "nom": "Ruisseau Head Stone",
+      "nom_search": "ruisseau head stone ainsi que les tributaires de ce secteur frequente par le saumon) la partie comprise entre une droite joignant le point 51 11 06 n 58 35 51 o au point 51 13 56 n 58 37 30 o et sa source",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Head Stone",
+      "aliases": [
+        "head stone",
+        "head stone ainsi que les tributaires de ce secteur frequente par le saumon) la partie comprise entre une droite joignant le point 51 11 06 n 58 35 51 o au point 51 13 56 n 58 37 30 o et sa source",
+        "ruisseau head stone",
+        "ruisseau head stone ainsi que les tributaires de ce secteur frequente par le saumon) la partie comprise entre une droite joignant le point 51 11 06 n 58 35 51 o au point 51 13 56 n 58 37 30 o et sa source"
+      ],
+      "lat": 51.185,
+      "lon": -58.5975
+    }
+  ]
+}

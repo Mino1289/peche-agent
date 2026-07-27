@@ -1,0 +1,981 @@
+{
+  "meta": {
+    "zone_id": 31,
+    "zone_nom": "Zone 27",
+    "nb_plans": 60,
+    "nb_geocoded": 46,
+    "pct_geocoded": 76.7,
+    "source_file": "zones/31.json"
+  },
+  "locations": [
+    {
+      "id": 1984,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière Bras du Nord-Ouest entre son embouchure et le barrage situé au point 47°26'23\" N., 70°32'08\" O.",
+      "nom": "Eaux de la rivière du Gouffre Rivière Bras du Nord-Ouest entre son embouchure et le barrage situé au point 47°26'23\" N., 70°32'08\" O.",
+      "nom_search": "eaux de la riviere du gouffre riviere bras du nord ouest entre son embouchure et le barrage situe au point 47 26 23 n 70 32 08 o",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière Bras du Nord-Ouest",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere bras du nord ouest",
+        "eaux de la riviere du gouffre riviere bras du nord ouest entre son embouchure et le barrage situe au point 47 26 23 n 70 32 08 o"
+      ],
+      "lat": 47.439722,
+      "lon": -70.535556
+    },
+    {
+      "id": 1986,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière de la Mare entre son embouchure et le côté en aval du pont de la route 138 situé au point 47°28'24''N., 70°31'48'' O.",
+      "nom": "Eaux de la rivière du Gouffre Rivière de la Mare entre son embouchure et le côté en aval du pont de la route 138 situé au point 47°28'24''N., 70°31'48'' O.",
+      "nom_search": "eaux de la riviere du gouffre riviere de la mare entre son embouchure et le cote en aval du pont de la route 138 situe au point 47 28 24 n 70 31 48 o",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière de la Mare",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere de la mare",
+        "eaux de la riviere du gouffre riviere de la mare entre son embouchure et le cote en aval du pont de la route 138 situe au point 47 28 24 n 70 31 48 o"
+      ],
+      "lat": 47.473333,
+      "lon": -70.53
+    },
+    {
+      "id": 1977,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière du Gouffre a) entre le côté en aval du pont du CN situé au point 47°26'31'' N., 70°29'43'' O. et le côté aval du pont du rang Saint-Jean-Baptiste.",
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre a) entre le côté en aval du pont du CN situé au point 47°26'31'' N., 70°29'43'' O. et le côté aval du pont du rang Saint-Jean-Baptiste.",
+      "nom_search": "eaux de la riviere du gouffre riviere du gouffre a) entre le cote en aval du pont du cn situe au point 47 26 31 n 70 29 43 o et le cote aval du pont du rang saint jean baptiste",
+      "segment_label": "a)",
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière du Gouffre",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere du gouffre",
+        "eaux de la riviere du gouffre riviere du gouffre a) entre le cote en aval du pont du cn situe au point 47 26 31 n 70 29 43 o et le cote aval du pont du rang saint jean baptiste"
+      ],
+      "lat": 47.441944,
+      "lon": -70.495278
+    },
+    {
+      "id": 2787,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière du Gouffre b) entre le côté en aval du pont du rang Saint-Jean-Baptiste et la fosse Antonien située au point 47°35'07\" N., 70°31'46\" O.",
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre b) entre le côté en aval du pont du rang Saint-Jean-Baptiste et la fosse Antonien située au point 47°35'07\" N., 70°31'46\" O.",
+      "nom_search": "eaux de la riviere du gouffre riviere du gouffre b) entre le cote en aval du pont du rang saint jean baptiste et la fosse antonien situee au point 47 35 07 n 70 31 46 o",
+      "segment_label": "b)",
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière du Gouffre",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere du gouffre",
+        "eaux de la riviere du gouffre riviere du gouffre b) entre le cote en aval du pont du rang saint jean baptiste et la fosse antonien situee au point 47 35 07 n 70 31 46 o"
+      ],
+      "lat": 47.585278,
+      "lon": -70.529444
+    },
+    {
+      "id": 1978,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière du Gouffre c) entre la fosse Antonien située au point ( 47°35'07\" N., 70°31'46\" O. ) et les bornes situées à 1,5 km en aval du pont situé à l'extrémité nord du rang de Chicago Ouest.",
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre c) entre la fosse Antonien située au point",
+      "nom_search": "eaux de la riviere du gouffre riviere du gouffre c) entre la fosse antonien situee au point 47 35 07 n 70 31 46 o ) et les bornes situees a 1 5 km en aval du pont situe a l extremite nord du rang de chicago ouest",
+      "segment_label": "c)",
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière du Gouffre",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere du gouffre",
+        "eaux de la riviere du gouffre riviere du gouffre c) entre la fosse antonien situee au point 47 35 07 n 70 31 46 o ) et les bornes situees a 1 5 km en aval du pont situe a l extremite nord du rang de chicago ouest"
+      ],
+      "lat": 47.585278,
+      "lon": -70.529444
+    },
+    {
+      "id": null,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière du Gouffre d) entre les bornes situées à 1,5 km en aval du pont situé à l'extrémité nord du rang de Chicago Ouest et ce pont.",
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre d) entre les bornes situées à 1,5 km en aval du pont situé à l'extrémité nord du rang de Chicago Ouest et ce pont.",
+      "nom_search": "eaux de la riviere du gouffre riviere du gouffre d) entre les bornes situees a 1 5 km en aval du pont situe a l extremite nord du rang de chicago ouest et ce pont",
+      "segment_label": "d)",
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière du Gouffre",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere du gouffre",
+        "eaux de la riviere du gouffre riviere du gouffre d) entre les bornes situees a 1 5 km en aval du pont situe a l extremite nord du rang de chicago ouest et ce pont"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1980,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière du Gouffre e) entre le pont situé à l'extrémité nord du rang de Chicago Ouest et la chute située au point 47°46'11\" N., 70°33'07\" O.",
+      "nom": "Eaux de la rivière du Gouffre Rivière du Gouffre e) entre le pont situé à l'extrémité nord du rang de Chicago Ouest et la chute située au point 47°46'11\" N., 70°33'07\" O.",
+      "nom_search": "eaux de la riviere du gouffre riviere du gouffre e) entre le pont situe a l extremite nord du rang de chicago ouest et la chute situee au point 47 46 11 n 70 33 07 o",
+      "segment_label": "e)",
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière du Gouffre",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere du gouffre",
+        "eaux de la riviere du gouffre riviere du gouffre e) entre le pont situe a l extremite nord du rang de chicago ouest et la chute situee au point 47 46 11 n 70 33 07 o"
+      ],
+      "lat": 47.769722,
+      "lon": -70.551944
+    },
+    {
+      "id": 1982,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière Le Gros Bras entre sa confluence avec la rivière du Gouffre et la chute située au point 47°35'01\" N., 70°33'36\" O.",
+      "nom": "Eaux de la rivière du Gouffre Rivière Le Gros Bras entre sa confluence avec la rivière du Gouffre et la chute située au point 47°35'01\" N., 70°33'36\" O.",
+      "nom_search": "eaux de la riviere du gouffre riviere le gros bras entre sa confluence avec la riviere du gouffre et la chute situee au point 47 35 01 n 70 33 36 o",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière Le Gros Bras",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere le gros bras",
+        "eaux de la riviere du gouffre riviere le gros bras entre sa confluence avec la riviere du gouffre et la chute situee au point 47 35 01 n 70 33 36 o"
+      ],
+      "lat": 47.583611,
+      "lon": -70.56
+    },
+    {
+      "id": 1988,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière du Gouffre Rivière le Petit Bras entre son embouchure et la chute située au point 47°34'50\" N., 70°34'40\" O.",
+      "nom": "Eaux de la rivière du Gouffre Rivière le Petit Bras entre son embouchure et la chute située au point 47°34'50\" N., 70°34'40\" O.",
+      "nom_search": "eaux de la riviere du gouffre riviere le petit bras entre son embouchure et la chute situee au point 47 34 50 n 70 34 40 o",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière du Gouffre Rivière le Petit Bras",
+      "aliases": [
+        "eaux de la riviere du gouffre riviere le petit bras",
+        "eaux de la riviere du gouffre riviere le petit bras entre son embouchure et la chute situee au point 47 34 50 n 70 34 40 o"
+      ],
+      "lat": 47.580556,
+      "lon": -70.577778
+    },
+    {
+      "id": 2494,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée situé à l'intérieur du parc.",
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée situé à l'intérieur du parc.",
+      "nom_search": "eaux de la riviere jacques cartier riviere jacques cartier entre la limite sud du parc national de la jacques cartier et le kilometre 33 de la route du chemin de la vallee situe a l interieur du parc",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier,",
+      "aliases": [
+        "eaux de la riviere jacques cartier riviere jacques cartier",
+        "eaux de la riviere jacques cartier riviere jacques cartier entre la limite sud du parc national de la jacques cartier et le kilometre 33 de la route du chemin de la vallee situe a l interieur du parc"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 1996,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière Jacques-Cartier Rivière Cassian entre son embouchure et un point situé à 47°02'25\" N., 71°29'50\" O.",
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Cassian entre son embouchure et un point situé à 47°02'25\" N., 71°29'50\" O.",
+      "nom_search": "eaux de la riviere jacques cartier riviere cassian entre son embouchure et un point situe a 47 02 25 n 71 29 50 o",
+      "segment_label": null,
+      "river_base_name": "Eaux de la rivière Jacques-Cartier Rivière Cassian",
+      "aliases": [
+        "eaux de la riviere jacques cartier riviere cassian",
+        "eaux de la riviere jacques cartier riviere cassian entre son embouchure et un point situe a 47 02 25 n 71 29 50 o"
+      ],
+      "lat": 47.040278,
+      "lon": -71.497222
+    },
+    {
+      "id": 3130,
+      "zone_id": 31,
+      "nom_brut": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier c) entre le barrage de Donnacona ( 46°40'39\" N., 71°44'46\" O. ) et la limite ouest de la base militaire de Valcartier ( 46°53'52\" N., 71°31'01\" O. ).",
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier c) entre le barrage de Donnacona",
+      "nom_search": "eaux de la riviere jacques cartier riviere jacques cartier c) entre le barrage de donnacona 46 40 39 n 71 44 46 o ) et la limite ouest de la base militaire de valcartier 46 53 52 n 71 31 01 o )",
+      "segment_label": "c)",
+      "river_base_name": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier",
+      "aliases": [
+        "eaux de la riviere jacques cartier riviere jacques cartier",
+        "eaux de la riviere jacques cartier riviere jacques cartier c) entre le barrage de donnacona 46 40 39 n 71 44 46 o ) et la limite ouest de la base militaire de valcartier 46 53 52 n 71 31 01 o )"
+      ],
+      "lat": 46.6775,
+      "lon": -71.746111
+    },
+    {
+      "id": 11601,
+      "zone_id": 31,
+      "nom_brut": "Eaux du bassin Louise ( 46°49'09'' N., 71°12'21'' O. )",
+      "nom": "Eaux du bassin Louise",
+      "nom_search": "eaux du bassin louise 46 49 09 n 71 12 21 o )",
+      "segment_label": null,
+      "river_base_name": "Eaux du bassin Louise",
+      "aliases": [
+        "eaux du bassin louise",
+        "eaux du bassin louise 46 49 09 n 71 12 21 o )"
+      ],
+      "lat": 46.819167,
+      "lon": -71.205833
+    },
+    {
+      "id": 1960,
+      "zone_id": 31,
+      "nom_brut": "Lac à la Hache (Saint-Ubalde) ( 46°50'03\" N., 72°13'30\" O. )",
+      "nom": "Lac à la Hache",
+      "nom_search": "lac a la hache saint ubalde) 46 50 03 n 72 13 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Hache",
+      "aliases": [
+        "a la hache",
+        "a la hache saint ubalde) 46 50 03 n 72 13 30 o )",
+        "lac a la hache",
+        "lac a la hache saint ubalde) 46 50 03 n 72 13 30 o )"
+      ],
+      "lat": 46.834167,
+      "lon": -72.225
+    },
+    {
+      "id": 3245,
+      "zone_id": 31,
+      "nom_brut": "Lac à l'Anguille (MRC Portneuf) ( 46°46'49\" N., 72°11'25\" O. )",
+      "nom": "Lac à l'Anguille",
+      "nom_search": "lac a l anguille mrc portneuf) 46 46 49 n 72 11 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à l'Anguille",
+      "aliases": [
+        "a l anguille",
+        "a l anguille mrc portneuf) 46 46 49 n 72 11 25 o )",
+        "lac a l anguille",
+        "lac a l anguille mrc portneuf) 46 46 49 n 72 11 25 o )"
+      ],
+      "lat": 46.780278,
+      "lon": -72.190278
+    },
+    {
+      "id": 2234,
+      "zone_id": 31,
+      "nom_brut": "Lac Blanc (Saint-Ubalde) ( 46°49'09\" N., 72°16'18\" O. )",
+      "nom": "Lac Blanc",
+      "nom_search": "lac blanc saint ubalde) 46 49 09 n 72 16 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Blanc",
+      "aliases": [
+        "blanc",
+        "blanc saint ubalde) 46 49 09 n 72 16 18 o )",
+        "lac blanc",
+        "lac blanc saint ubalde) 46 49 09 n 72 16 18 o )"
+      ],
+      "lat": 46.819167,
+      "lon": -72.271667
+    },
+    {
+      "id": 1958,
+      "zone_id": 31,
+      "nom_brut": "Lac de la Baie des Rochers (MRC Charlevoix-Est) ( 47°56'31\" N., 69°53'14\" O. )",
+      "nom": "Lac de la Baie des Rochers",
+      "nom_search": "lac de la baie des rochers mrc charlevoix est) 47 56 31 n 69 53 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Baie des Rochers",
+      "aliases": [
+        "de la baie des rochers",
+        "de la baie des rochers mrc charlevoix est) 47 56 31 n 69 53 14 o )",
+        "lac de la baie des rochers",
+        "lac de la baie des rochers mrc charlevoix est) 47 56 31 n 69 53 14 o )"
+      ],
+      "lat": 47.941944,
+      "lon": -69.887222
+    },
+    {
+      "id": 3161,
+      "zone_id": 31,
+      "nom_brut": "Lac de la Mine (Notre-Dame-de-Montauban) ( 46°49'49\" N., 72°20'00\" O. )",
+      "nom": "Lac de la Mine",
+      "nom_search": "lac de la mine notre dame de montauban) 46 49 49 n 72 20 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Mine",
+      "aliases": [
+        "de la mine",
+        "de la mine notre dame de montauban) 46 49 49 n 72 20 00 o )",
+        "lac de la mine",
+        "lac de la mine notre dame de montauban) 46 49 49 n 72 20 00 o )"
+      ],
+      "lat": 46.830278,
+      "lon": -72.333333
+    },
+    {
+      "id": 2235,
+      "zone_id": 31,
+      "nom_brut": "Lac de la Morelle (Saint-Ubalde) ( 46°48'45\" N., 72°10'44\" O. )",
+      "nom": "Lac de la Morelle",
+      "nom_search": "lac de la morelle saint ubalde) 46 48 45 n 72 10 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de la Morelle",
+      "aliases": [
+        "de la morelle",
+        "de la morelle saint ubalde) 46 48 45 n 72 10 44 o )",
+        "lac de la morelle",
+        "lac de la morelle saint ubalde) 46 48 45 n 72 10 44 o )"
+      ],
+      "lat": 46.8125,
+      "lon": -72.178889
+    },
+    {
+      "id": 3253,
+      "zone_id": 31,
+      "nom_brut": "Lac du Port aux Quilles (MRC Charlevoix-Est) ( 47°56'36\" N., 69°57'16\" O. )",
+      "nom": "Lac du Port aux Quilles",
+      "nom_search": "lac du port aux quilles mrc charlevoix est) 47 56 36 n 69 57 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Port aux Quilles",
+      "aliases": [
+        "du port aux quilles",
+        "du port aux quilles mrc charlevoix est) 47 56 36 n 69 57 16 o )",
+        "lac du port aux quilles",
+        "lac du port aux quilles mrc charlevoix est) 47 56 36 n 69 57 16 o )"
+      ],
+      "lat": 47.943333,
+      "lon": -69.954444
+    },
+    {
+      "id": 3247,
+      "zone_id": 31,
+      "nom_brut": "Lac en Coeur (Saint-Alban) ( 46°47'13\" N., 72°10'39\" O. )",
+      "nom": "Lac en Coeur",
+      "nom_search": "lac en coeur saint alban) 46 47 13 n 72 10 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac en Coeur",
+      "aliases": [
+        "en coeur",
+        "en coeur saint alban) 46 47 13 n 72 10 39 o )",
+        "lac en coeur",
+        "lac en coeur saint alban) 46 47 13 n 72 10 39 o )"
+      ],
+      "lat": 46.786944,
+      "lon": -72.1775
+    },
+    {
+      "id": 10741,
+      "zone_id": 31,
+      "nom_brut": "Lac Long ( 46°50'21\" N., 72°08'24\" O. )",
+      "nom": "Lac Long",
+      "nom_search": "lac long 46 50 21 n 72 08 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Long",
+      "aliases": [
+        "lac long",
+        "lac long 46 50 21 n 72 08 24 o )",
+        "long",
+        "long 46 50 21 n 72 08 24 o )"
+      ],
+      "lat": 46.839167,
+      "lon": -72.14
+    },
+    {
+      "id": 10742,
+      "zone_id": 31,
+      "nom_brut": "Lac Montauban ( 46°52'58\" N., 72°10'04\" O. )",
+      "nom": "Lac Montauban",
+      "nom_search": "lac montauban 46 52 58 n 72 10 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Montauban",
+      "aliases": [
+        "lac montauban",
+        "lac montauban 46 52 58 n 72 10 04 o )",
+        "montauban",
+        "montauban 46 52 58 n 72 10 04 o )"
+      ],
+      "lat": 46.882778,
+      "lon": -72.167778
+    },
+    {
+      "id": 3251,
+      "zone_id": 31,
+      "nom_brut": "Lac Nairne (MRC Charlevoix-Est) ( 47°41'09\" N., 70°20'57\" O. )",
+      "nom": "Lac Nairne",
+      "nom_search": "lac nairne mrc charlevoix est) 47 41 09 n 70 20 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Nairne",
+      "aliases": [
+        "lac nairne",
+        "lac nairne mrc charlevoix est) 47 41 09 n 70 20 57 o )",
+        "nairne",
+        "nairne mrc charlevoix est) 47 41 09 n 70 20 57 o )"
+      ],
+      "lat": 47.685833,
+      "lon": -70.349167
+    },
+    {
+      "id": 11281,
+      "zone_id": 31,
+      "nom_brut": "Lac Noir (Saint-Siméon) ( 47°51'07\" N., 69°54'59\" O. )",
+      "nom": "Lac Noir",
+      "nom_search": "lac noir saint simeon) 47 51 07 n 69 54 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Noir",
+      "aliases": [
+        "lac noir",
+        "lac noir saint simeon) 47 51 07 n 69 54 59 o )",
+        "noir",
+        "noir saint simeon) 47 51 07 n 69 54 59 o )"
+      ],
+      "lat": 47.851944,
+      "lon": -69.916389
+    },
+    {
+      "id": 1961,
+      "zone_id": 31,
+      "nom_brut": "Lac Saint-Augustin ( 46°44'54\" N., 71°23'38\" O. )",
+      "nom": "Lac Saint-Augustin",
+      "nom_search": "lac saint augustin 46 44 54 n 71 23 38 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Augustin",
+      "aliases": [
+        "lac saint augustin",
+        "lac saint augustin 46 44 54 n 71 23 38 o )",
+        "saint augustin",
+        "saint augustin 46 44 54 n 71 23 38 o )"
+      ],
+      "lat": 46.748333,
+      "lon": -71.393889
+    },
+    {
+      "id": 1964,
+      "zone_id": 31,
+      "nom_brut": "Lac Sainte-Marie (Saint-Aimé-des-Lacs)( 47°40'54\" N., 70°17'32\" O. ).",
+      "nom": "Lac Sainte-Marie",
+      "nom_search": "lac sainte marie saint aime des lacs) 47 40 54 n 70 17 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sainte-Marie",
+      "aliases": [
+        "lac sainte marie",
+        "lac sainte marie saint aime des lacs) 47 40 54 n 70 17 32 o )",
+        "sainte marie",
+        "sainte marie saint aime des lacs) 47 40 54 n 70 17 32 o )",
+        "st e",
+        "ste e"
+      ],
+      "lat": 47.681667,
+      "lon": -70.292222
+    },
+    {
+      "id": 10740,
+      "zone_id": 31,
+      "nom_brut": "Lac Saint-Joseph ( 46°54'50\" N., 71°38'39\" O. )",
+      "nom": "Lac Saint-Joseph",
+      "nom_search": "lac saint joseph 46 54 50 n 71 38 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Joseph",
+      "aliases": [
+        "lac saint joseph",
+        "lac saint joseph 46 54 50 n 71 38 39 o )",
+        "saint joseph",
+        "saint joseph 46 54 50 n 71 38 39 o )"
+      ],
+      "lat": 46.913889,
+      "lon": -71.644167
+    },
+    {
+      "id": 1963,
+      "zone_id": 31,
+      "nom_brut": "Lac Saint-Joseph (Baie de Duchesnay) la partie du lac située au sud d'une droite joignant un point situé à 46°52'45\" N., 71°38'37\" O. à un point sur la rive est du lac situé à 46°52'35\" N., 71°37'55\" O.",
+      "nom": "Lac Saint-Joseph",
+      "nom_search": "lac saint joseph baie de duchesnay) la partie du lac situee au sud d une droite joignant un point situe a 46 52 45 n 71 38 37 o a un point sur la rive est du lac situe a 46 52 35 n 71 37 55 o",
+      "segment_label": null,
+      "river_base_name": "Lac Saint-Joseph",
+      "aliases": [
+        "lac saint joseph",
+        "lac saint joseph baie de duchesnay) la partie du lac situee au sud d une droite joignant un point situe a 46 52 45 n 71 38 37 o a un point sur la rive est du lac situe a 46 52 35 n 71 37 55 o",
+        "saint joseph",
+        "saint joseph baie de duchesnay) la partie du lac situee au sud d une droite joignant un point situe a 46 52 45 n 71 38 37 o a un point sur la rive est du lac situe a 46 52 35 n 71 37 55 o"
+      ],
+      "lat": 46.879167,
+      "lon": -71.643611
+    },
+    {
+      "id": 1966,
+      "zone_id": 31,
+      "nom_brut": "Lac Sept-Îles (Saint-Raymond, canton Gosford) ( 46°56'02\" N., 71°44'48\" O. )",
+      "nom": "Lac Sept-Îles",
+      "nom_search": "lac sept iles saint raymond canton gosford) 46 56 02 n 71 44 48 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sept-Îles",
+      "aliases": [
+        "lac sept iles",
+        "lac sept iles saint raymond canton gosford) 46 56 02 n 71 44 48 o )",
+        "sept iles",
+        "sept iles saint raymond canton gosford) 46 56 02 n 71 44 48 o )"
+      ],
+      "lat": 46.933889,
+      "lon": -71.746667
+    },
+    {
+      "id": 1967,
+      "zone_id": 31,
+      "nom_brut": "Lac Sergent ( 46°52'33\" N., 71°42'56\" O. )",
+      "nom": "Lac Sergent",
+      "nom_search": "lac sergent 46 52 33 n 71 42 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sergent",
+      "aliases": [
+        "lac sergent",
+        "lac sergent 46 52 33 n 71 42 56 o )",
+        "sergent",
+        "sergent 46 52 33 n 71 42 56 o )"
+      ],
+      "lat": 46.875833,
+      "lon": -71.715556
+    },
+    {
+      "id": 2989,
+      "zone_id": 31,
+      "nom_brut": "Lac Simon (MRC Portneuf) ( 46°53'42\" N., 72°01'25\" O. )",
+      "nom": "Lac Simon",
+      "nom_search": "lac simon mrc portneuf) 46 53 42 n 72 01 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Simon",
+      "aliases": [
+        "lac simon",
+        "lac simon mrc portneuf) 46 53 42 n 72 01 25 o )",
+        "simon",
+        "simon mrc portneuf) 46 53 42 n 72 01 25 o )"
+      ],
+      "lat": 46.895,
+      "lon": -72.023611
+    },
+    {
+      "id": 11320,
+      "zone_id": 31,
+      "nom_brut": "Parc National de la Jacques-Cartier, à l'exception de la rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée, entre les kilomètres 7,5 et 9,5 de la route 14 ainsi que plusieurs lacs",
+      "nom": "Parc National de la Jacques-Cartier, à l'exception de la rivière Jacques-Cartier, entre la limite sud du parc national de la Jacques-Cartier et le kilomètre 33 de la route du chemin de la Vallée, entre les kilomètres 7,5 et 9,5 de la route 14 ainsi que plusieurs lacs",
+      "nom_search": "parc national de la jacques cartier a l exception de la riviere jacques cartier entre la limite sud du parc national de la jacques cartier et le kilometre 33 de la route du chemin de la vallee entre les kilometres 7 5 et 9 5 de la route 14 ainsi que plusieurs lacs",
+      "segment_label": null,
+      "river_base_name": "Parc National de la Jacques-Cartier,",
+      "aliases": [
+        "parc national de la jacques cartier",
+        "parc national de la jacques cartier a l exception de la riviere jacques cartier entre la limite sud du parc national de la jacques cartier et le kilometre 33 de la route du chemin de la vallee entre les kilometres 7 5 et 9 5 de la route 14 ainsi que plusieurs lacs"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2490,
+      "zone_id": 31,
+      "nom_brut": "Parc National des Grands-Jardins",
+      "nom": "Parc National des Grands-Jardins",
+      "nom_search": "parc national des grands jardins",
+      "segment_label": null,
+      "river_base_name": "Parc National des Grands-Jardins",
+      "aliases": [
+        "parc national des grands jardins"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3006,
+      "zone_id": 31,
+      "nom_brut": "Parc National des Hautes-Gorges-de-la-Rivière-Malbaie à l'exception de la rivière Malbaie entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables situé au point 47°53'31\" N., 70°28'37\" O. (Voir aussi rivière Malbaie)",
+      "nom": "Parc National des Hautes-Gorges-de-la-Rivière-Malbaie à l'exception de la rivière Malbaie entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables situé au point 47°53'31\" N., 70°28'37\" O.",
+      "nom_search": "parc national des hautes gorges de la riviere malbaie a l exception de la riviere malbaie entre la limite sud du parc national des hautes gorges de la riviere malbaie et le barrage des erables situe au point 47 53 31 n 70 28 37 o voir aussi riviere malbaie)",
+      "segment_label": null,
+      "river_base_name": "Parc National des Hautes-Gorges-de-la-Rivière-Malbaie",
+      "aliases": [
+        "parc national des hautes gorges de la riviere malbaie",
+        "parc national des hautes gorges de la riviere malbaie a l exception de la riviere malbaie entre la limite sud du parc national des hautes gorges de la riviere malbaie et le barrage des erables situe au point 47 53 31 n 70 28 37 o voir aussi riviere malbaie)"
+      ],
+      "lat": 47.891944,
+      "lon": -70.476944
+    },
+    {
+      "id": 2339,
+      "zone_id": 31,
+      "nom_brut": "Réserve Faunique de Portneuf",
+      "nom": "Réserve Faunique de Portneuf",
+      "nom_search": "reserve faunique de portneuf",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique de Portneuf",
+      "aliases": [
+        "reserve faunique de portneuf"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2329,
+      "zone_id": 31,
+      "nom_brut": "Réserve Faunique des Laurentides",
+      "nom": "Réserve Faunique des Laurentides",
+      "nom_search": "reserve faunique des laurentides",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique des Laurentides",
+      "aliases": [
+        "reserve faunique des laurentides"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 12821,
+      "zone_id": 31,
+      "nom_brut": "Rivière du Cabanage - La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+      "nom": "Rivière du Cabanage - La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+      "nom_search": "riviere du cabanage la partie comprise entre l aval d une chute situee au point 48 12 53 n 70 04 41 o et une droite perpendiculaire situee a l embouchure du cours d eau au point 48 13 04 n 70 04 44 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Cabanage",
+      "aliases": [
+        "du cabanage",
+        "du cabanage la partie comprise entre l aval d une chute situee au point 48 12 53 n 70 04 41 o et une droite perpendiculaire situee a l embouchure du cours d eau au point 48 13 04 n 70 04 44 o",
+        "riviere du cabanage",
+        "riviere du cabanage la partie comprise entre l aval d une chute situee au point 48 12 53 n 70 04 41 o et une droite perpendiculaire situee a l embouchure du cours d eau au point 48 13 04 n 70 04 44 o"
+      ],
+      "lat": 48.214722,
+      "lon": -70.078056
+    },
+    {
+      "id": 2016,
+      "zone_id": 31,
+      "nom_brut": "Rivière du Portage a) La partie comprise entre son embouchure et la limite est de la pourvoirie Raoul Lavoie ( 48°09'33\" N., 70°03'56\" O. ).",
+      "nom": "Rivière du Portage a) La partie comprise entre son embouchure et la limite est de la pourvoirie Raoul Lavoie",
+      "nom_search": "riviere du portage a) la partie comprise entre son embouchure et la limite est de la pourvoirie raoul lavoie 48 09 33 n 70 03 56 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière du Portage  La partie comprise",
+      "aliases": [
+        "du portage a) la partie comprise entre son embouchure et la limite est de la pourvoirie raoul lavoie 48 09 33 n 70 03 56 o )",
+        "du portage la partie comprise",
+        "riviere du portage a) la partie comprise entre son embouchure et la limite est de la pourvoirie raoul lavoie 48 09 33 n 70 03 56 o )",
+        "riviere du portage la partie comprise"
+      ],
+      "lat": 48.159167,
+      "lon": -70.065556
+    },
+    {
+      "id": 2017,
+      "zone_id": 31,
+      "nom_brut": "Rivière du Portage b) La partie comprise entre les limites est ( 48°09'33\" N., 70°03'56\" O. ) et ouest ( 48°07'09\" N., 70°10'33\" O. ) de la pourvoirie Raoul Lavoie.",
+      "nom": "Rivière du Portage b) La partie comprise entre les limites est",
+      "nom_search": "riviere du portage b) la partie comprise entre les limites est 48 09 33 n 70 03 56 o ) et ouest 48 07 09 n 70 10 33 o ) de la pourvoirie raoul lavoie",
+      "segment_label": "b)",
+      "river_base_name": "Rivière du Portage  La partie comprise",
+      "aliases": [
+        "du portage b) la partie comprise entre les limites est 48 09 33 n 70 03 56 o ) et ouest 48 07 09 n 70 10 33 o ) de la pourvoirie raoul lavoie",
+        "du portage la partie comprise",
+        "riviere du portage b) la partie comprise entre les limites est 48 09 33 n 70 03 56 o ) et ouest 48 07 09 n 70 10 33 o ) de la pourvoirie raoul lavoie",
+        "riviere du portage la partie comprise"
+      ],
+      "lat": 48.159167,
+      "lon": -70.065556
+    },
+    {
+      "id": 2000,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie a) entre le côté en aval du pont de la route 138 et une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont ( 47°41'30'' N., 70°12'34'' O. )",
+      "nom": "Rivière Malbaie a) entre le côté en aval du pont de la route 138 et une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont",
+      "nom_search": "riviere malbaie a) entre le cote en aval du pont de la route 138 et une droite perpendiculaire a la riviere face a l exutoire des etangs situes sur le parcours des berges alexis le trotteur a clermont 47 41 30 n 70 12 34 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie a) entre le cote en aval du pont de la route 138 et une droite perpendiculaire a la riviere face a l exutoire des etangs situes sur le parcours des berges alexis le trotteur a clermont 47 41 30 n 70 12 34 o )",
+        "riviere malbaie",
+        "riviere malbaie a) entre le cote en aval du pont de la route 138 et une droite perpendiculaire a la riviere face a l exutoire des etangs situes sur le parcours des berges alexis le trotteur a clermont 47 41 30 n 70 12 34 o )"
+      ],
+      "lat": 47.691667,
+      "lon": -70.209444
+    },
+    {
+      "id": 12460,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie b) entre une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont ( 47°41'30'' N., 70°12'34'' O. ) et une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont ( 47°41'49,2'' N., 70°13' 24,6'' O. )",
+      "nom": "Rivière Malbaie b) entre une droite perpendiculaire à la rivière face à l'exutoire des étangs situés sur le parcours des Berges Alexis le Trotteur à Clermont",
+      "nom_search": "riviere malbaie b) entre une droite perpendiculaire a la riviere face a l exutoire des etangs situes sur le parcours des berges alexis le trotteur a clermont 47 41 30 n 70 12 34 o ) et une droite perpendiculaire situe en aval de l embouchure de la riviere jacob a clermont 47 41 49 2 n 70 13 24 6 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie b) entre une droite perpendiculaire a la riviere face a l exutoire des etangs situes sur le parcours des berges alexis le trotteur a clermont 47 41 30 n 70 12 34 o ) et une droite perpendiculaire situe en aval de l embouchure de la riviere jacob a clermont 47 41 49 2 n 70 13 24 6 o )",
+        "riviere malbaie",
+        "riviere malbaie b) entre une droite perpendiculaire a la riviere face a l exutoire des etangs situes sur le parcours des berges alexis le trotteur a clermont 47 41 30 n 70 12 34 o ) et une droite perpendiculaire situe en aval de l embouchure de la riviere jacob a clermont 47 41 49 2 n 70 13 24 6 o )"
+      ],
+      "lat": 47.691667,
+      "lon": -70.209444
+    },
+    {
+      "id": 12520,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie c) entre une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont ( 47°41'49,2'' N., 70°13' 24,6'' O. ) et un point situé à 25 m en aval du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. )",
+      "nom": "Rivière Malbaie c) entre une droite perpendiculaire situé en aval de l'embouchure de la rivière Jacob à Clermont",
+      "nom_search": "riviere malbaie c) entre une droite perpendiculaire situe en aval de l embouchure de la riviere jacob a clermont 47 41 49 2 n 70 13 24 6 o ) et un point situe a 25 m en aval du barrage de l usine de papier 47 42 16 n 70 13 50 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie c) entre une droite perpendiculaire situe en aval de l embouchure de la riviere jacob a clermont 47 41 49 2 n 70 13 24 6 o ) et un point situe a 25 m en aval du barrage de l usine de papier 47 42 16 n 70 13 50 o )",
+        "riviere malbaie",
+        "riviere malbaie c) entre une droite perpendiculaire situe en aval de l embouchure de la riviere jacob a clermont 47 41 49 2 n 70 13 24 6 o ) et un point situe a 25 m en aval du barrage de l usine de papier 47 42 16 n 70 13 50 o )"
+      ],
+      "lat": 47.697,
+      "lon": -70.2235
+    },
+    {
+      "id": 2002,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie d) entre un point situé à 25 m en aval du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. ) et le câble en acier en amont du barrage de l'usine de papier ( 47°42'17\" N., 70°13'50\" O. ).",
+      "nom": "Rivière Malbaie d) entre un point situé à 25 m en aval du barrage de l'usine de papier",
+      "nom_search": "riviere malbaie d) entre un point situe a 25 m en aval du barrage de l usine de papier 47 42 16 n 70 13 50 o ) et le cable en acier en amont du barrage de l usine de papier 47 42 17 n 70 13 50 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie d) entre un point situe a 25 m en aval du barrage de l usine de papier 47 42 16 n 70 13 50 o ) et le cable en acier en amont du barrage de l usine de papier 47 42 17 n 70 13 50 o )",
+        "riviere malbaie",
+        "riviere malbaie d) entre un point situe a 25 m en aval du barrage de l usine de papier 47 42 16 n 70 13 50 o ) et le cable en acier en amont du barrage de l usine de papier 47 42 17 n 70 13 50 o )"
+      ],
+      "lat": 47.704444,
+      "lon": -70.230556
+    },
+    {
+      "id": 2791,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie e) entre le câble en acier en amont du barrage de l'usine de papier ( 47°42'16\" N., 70°13'50\" O. ) et la limite sud de la zec des Martres ( 47°44'54\" N., 70°21'58\" O. ).",
+      "nom": "Rivière Malbaie e) entre le câble en acier en amont du barrage de l'usine de papier",
+      "nom_search": "riviere malbaie e) entre le cable en acier en amont du barrage de l usine de papier 47 42 16 n 70 13 50 o ) et la limite sud de la zec des martres 47 44 54 n 70 21 58 o )",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Malbaie",
+      "aliases": [
+        "malbaie",
+        "malbaie e) entre le cable en acier en amont du barrage de l usine de papier 47 42 16 n 70 13 50 o ) et la limite sud de la zec des martres 47 44 54 n 70 21 58 o )",
+        "riviere malbaie",
+        "riviere malbaie e) entre le cable en acier en amont du barrage de l usine de papier 47 42 16 n 70 13 50 o ) et la limite sud de la zec des martres 47 44 54 n 70 21 58 o )"
+      ],
+      "lat": 47.704444,
+      "lon": -70.230556
+    },
+    {
+      "id": 2004,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie f) entre la limite sud de la zec des Martres ( 47°44'54\" N., 70°21'58\" O. ) et la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie.",
+      "nom": "Rivière Malbaie f) entre la limite sud de la zec des Martres",
+      "nom_search": "riviere malbaie f) entre la limite sud de la zec des martres 47 44 54 n 70 21 58 o ) et la limite sud du parc national des hautes gorges de la riviere malbaie",
+      "segment_label": null,
+      "river_base_name": "Rivière Malbaie f)",
+      "aliases": [
+        "malbaie f)",
+        "malbaie f) entre la limite sud de la zec des martres 47 44 54 n 70 21 58 o ) et la limite sud du parc national des hautes gorges de la riviere malbaie",
+        "riviere malbaie f)",
+        "riviere malbaie f) entre la limite sud de la zec des martres 47 44 54 n 70 21 58 o ) et la limite sud du parc national des hautes gorges de la riviere malbaie"
+      ],
+      "lat": 47.748333,
+      "lon": -70.366111
+    },
+    {
+      "id": 2005,
+      "zone_id": 31,
+      "nom_brut": "Rivière Malbaie g) entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables ( 47°53'33\" N., 70°28'39\" O. ).",
+      "nom": "Rivière Malbaie g) entre la limite sud du parc national des Hautes-Gorges-de-la-Rivière-Malbaie et le barrage des Érables",
+      "nom_search": "riviere malbaie g) entre la limite sud du parc national des hautes gorges de la riviere malbaie et le barrage des erables 47 53 33 n 70 28 39 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Malbaie g)",
+      "aliases": [
+        "malbaie g)",
+        "malbaie g) entre la limite sud du parc national des hautes gorges de la riviere malbaie et le barrage des erables 47 53 33 n 70 28 39 o )",
+        "riviere malbaie g)",
+        "riviere malbaie g) entre la limite sud du parc national des hautes gorges de la riviere malbaie et le barrage des erables 47 53 33 n 70 28 39 o )"
+      ],
+      "lat": 47.8925,
+      "lon": -70.4775
+    },
+    {
+      "id": 1970,
+      "zone_id": 31,
+      "nom_brut": "Rivière Montmorency entre le pied de la chute Montmorency et l'emprise nord de la route 138.",
+      "nom": "Rivière Montmorency entre le pied de la chute Montmorency et l'emprise nord de la route 138.",
+      "nom_search": "riviere montmorency entre le pied de la chute montmorency et l emprise nord de la route 138",
+      "segment_label": null,
+      "river_base_name": "Rivière Montmorency",
+      "aliases": [
+        "montmorency",
+        "montmorency entre le pied de la chute montmorency et l emprise nord de la route 138",
+        "riviere montmorency",
+        "riviere montmorency entre le pied de la chute montmorency et l emprise nord de la route 138"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2239,
+      "zone_id": 31,
+      "nom_brut": "Rivière Petit Saguenay a) La partie comprise entre son embouchure ( 48°14'11,4\" N., 70°05'58,3\" O. ) et le côté en aval du pont du chemin des Chutes ( 48°08'49\" N., 70°01'59\" O. ).",
+      "nom": "Rivière Petit Saguenay a) La partie comprise entre son embouchure",
+      "nom_search": "riviere petit saguenay a) la partie comprise entre son embouchure 48 14 11 4 n 70 05 58 3 o ) et le cote en aval du pont du chemin des chutes 48 08 49 n 70 01 59 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Petit Saguenay  La partie comprise",
+      "aliases": [
+        "petit saguenay a) la partie comprise entre son embouchure 48 14 11 4 n 70 05 58 3 o ) et le cote en aval du pont du chemin des chutes 48 08 49 n 70 01 59 o )",
+        "petit saguenay la partie comprise",
+        "riviere petit saguenay a) la partie comprise entre son embouchure 48 14 11 4 n 70 05 58 3 o ) et le cote en aval du pont du chemin des chutes 48 08 49 n 70 01 59 o )",
+        "riviere petit saguenay la partie comprise"
+      ],
+      "lat": 48.2365,
+      "lon": -70.099528
+    },
+    {
+      "id": 2012,
+      "zone_id": 31,
+      "nom_brut": "Rivière Petit Saguenay b) La partie comprise entre le côté en aval du pont du chemin des Chutes ( 48°08'49\" N., 70°01'59\" O. ) et la limite est du Domaine Laforest ( 48°01'31\" N., 70°08'10\" O. ).",
+      "nom": "Rivière Petit Saguenay b) La partie comprise entre le côté en aval du pont du chemin des Chutes",
+      "nom_search": "riviere petit saguenay b) la partie comprise entre le cote en aval du pont du chemin des chutes 48 08 49 n 70 01 59 o ) et la limite est du domaine laforest 48 01 31 n 70 08 10 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Petit Saguenay  La partie comprise",
+      "aliases": [
+        "petit saguenay b) la partie comprise entre le cote en aval du pont du chemin des chutes 48 08 49 n 70 01 59 o ) et la limite est du domaine laforest 48 01 31 n 70 08 10 o )",
+        "petit saguenay la partie comprise",
+        "riviere petit saguenay b) la partie comprise entre le cote en aval du pont du chemin des chutes 48 08 49 n 70 01 59 o ) et la limite est du domaine laforest 48 01 31 n 70 08 10 o )",
+        "riviere petit saguenay la partie comprise"
+      ],
+      "lat": 48.146944,
+      "lon": -70.033056
+    },
+    {
+      "id": 2013,
+      "zone_id": 31,
+      "nom_brut": "Rivière Petit Saguenay c) La partie comprise entre la limite est du Domaine Laforest et la limite est de la zec du Lac-au-Sable ( 47°59'37\" N., 70°14'43\" O. ).",
+      "nom": "Rivière Petit Saguenay c) La partie comprise entre la limite est du Domaine Laforest et la limite est de la zec du Lac-au-Sable",
+      "nom_search": "riviere petit saguenay c) la partie comprise entre la limite est du domaine laforest et la limite est de la zec du lac au sable 47 59 37 n 70 14 43 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Petit Saguenay  La partie comprise",
+      "aliases": [
+        "petit saguenay c) la partie comprise entre la limite est du domaine laforest et la limite est de la zec du lac au sable 47 59 37 n 70 14 43 o )",
+        "petit saguenay la partie comprise",
+        "riviere petit saguenay c) la partie comprise entre la limite est du domaine laforest et la limite est de la zec du lac au sable 47 59 37 n 70 14 43 o )",
+        "riviere petit saguenay la partie comprise"
+      ],
+      "lat": 47.993611,
+      "lon": -70.245278
+    },
+    {
+      "id": 1972,
+      "zone_id": 31,
+      "nom_brut": "Rivière Sainte-Anne (Portneuf) entre le côté en amont du pont de la route 138 et le côté amont du pont de l'autoroute 40.",
+      "nom": "Rivière Sainte-Anne",
+      "nom_search": "riviere sainte anne portneuf) entre le cote en amont du pont de la route 138 et le cote amont du pont de l autoroute 40",
+      "segment_label": null,
+      "river_base_name": "Rivière Sainte-Anne",
+      "aliases": [
+        "riviere sainte anne",
+        "riviere sainte anne portneuf) entre le cote en amont du pont de la route 138 et le cote amont du pont de l autoroute 40",
+        "sainte anne",
+        "sainte anne portneuf) entre le cote en amont du pont de la route 138 et le cote amont du pont de l autoroute 40",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2008,
+      "zone_id": 31,
+      "nom_brut": "Rivière Snigole entre son embouchure et la chute située au point 47°42'43\" N., 70°14'58\" O.",
+      "nom": "Rivière Snigole entre son embouchure et la chute située au point 47°42'43\" N., 70°14'58\" O.",
+      "nom_search": "riviere snigole entre son embouchure et la chute situee au point 47 42 43 n 70 14 58 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Snigole",
+      "aliases": [
+        "riviere snigole",
+        "riviere snigole entre son embouchure et la chute situee au point 47 42 43 n 70 14 58 o",
+        "snigole",
+        "snigole entre son embouchure et la chute situee au point 47 42 43 n 70 14 58 o"
+      ],
+      "lat": 47.711944,
+      "lon": -70.249444
+    },
+    {
+      "id": 1974,
+      "zone_id": 31,
+      "nom_brut": "Ruisseau Gagouette - La partie comprise entre son embouchure au lac Nairne et le pont situé dans le rang 2 (Miscoutine) dans la municipalité de Saint-Aimé-des-Lacs.",
+      "nom": "Ruisseau Gagouette - La partie comprise entre son embouchure au lac Nairne et le pont situé dans le rang 2",
+      "nom_search": "ruisseau gagouette la partie comprise entre son embouchure au lac nairne et le pont situe dans le rang 2 miscoutine) dans la municipalite de saint aime des lacs",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Gagouette",
+      "aliases": [
+        "gagouette",
+        "gagouette la partie comprise entre son embouchure au lac nairne et le pont situe dans le rang 2 miscoutine) dans la municipalite de saint aime des lacs",
+        "ruisseau gagouette",
+        "ruisseau gagouette la partie comprise entre son embouchure au lac nairne et le pont situe dans le rang 2 miscoutine) dans la municipalite de saint aime des lacs"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 11880,
+      "zone_id": 31,
+      "nom_brut": "Station Forestière de Duchesnay à l'exclusion des eaux du lac au Chien ( 46°56'29\" N., 71°43'14\" O. ) et de la rivière Ontaritzi.",
+      "nom": "Station Forestière de Duchesnay à l'exclusion des eaux du lac au Chien",
+      "nom_search": "station forestiere de duchesnay a l exclusion des eaux du lac au chien 46 56 29 n 71 43 14 o ) et de la riviere ontaritzi",
+      "segment_label": null,
+      "river_base_name": "Station Forestière de Duchesnay à l'exclusion des eaux du lac au Chien",
+      "aliases": [
+        "station forestiere de duchesnay a l exclusion des eaux du lac au chien",
+        "station forestiere de duchesnay a l exclusion des eaux du lac au chien 46 56 29 n 71 43 14 o ) et de la riviere ontaritzi"
+      ],
+      "lat": 46.941389,
+      "lon": -71.720556
+    },
+    {
+      "id": 2347,
+      "zone_id": 31,
+      "nom_brut": "Zec Batiscan-Neilson",
+      "nom": "Zec Batiscan-Neilson",
+      "nom_search": "zec batiscan neilson",
+      "segment_label": null,
+      "river_base_name": "Zec Batiscan-Neilson",
+      "aliases": [
+        "zec batiscan neilson"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2352,
+      "zone_id": 31,
+      "nom_brut": "Zec Buteux-Bas-Saguenay",
+      "nom": "Zec Buteux-Bas-Saguenay",
+      "nom_search": "zec buteux bas saguenay",
+      "segment_label": null,
+      "river_base_name": "Zec Buteux-Bas-Saguenay",
+      "aliases": [
+        "zec buteux bas saguenay"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2405,
+      "zone_id": 31,
+      "nom_brut": "Zec de la Rivière Blanche",
+      "nom": "Zec de la Rivière Blanche",
+      "nom_search": "zec de la riviere blanche",
+      "segment_label": null,
+      "river_base_name": "Zec de la Rivière Blanche",
+      "aliases": [
+        "zec de la riviere blanche"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2387,
+      "zone_id": 31,
+      "nom_brut": "Zec des Martres à l'exception des rivières Malbaie et du Gouffre",
+      "nom": "Zec des Martres à l'exception des rivières Malbaie et du Gouffre",
+      "nom_search": "zec des martres a l exception des rivieres malbaie et du gouffre",
+      "segment_label": null,
+      "river_base_name": "Zec des Martres",
+      "aliases": [
+        "zec des martres",
+        "zec des martres a l exception des rivieres malbaie et du gouffre"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2375,
+      "zone_id": 31,
+      "nom_brut": "Zec du Lac-au-Sable",
+      "nom": "Zec du Lac-au-Sable",
+      "nom_search": "zec du lac au sable",
+      "segment_label": null,
+      "river_base_name": "Zec du Lac-au-Sable",
+      "aliases": [
+        "zec du lac au sable"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

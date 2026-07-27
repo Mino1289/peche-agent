@@ -1,0 +1,1349 @@
+{
+  "meta": {
+    "zone_id": 5,
+    "radius_km": 25.0,
+    "nb_with_coords": 17,
+    "nb_station_matched": 17
+  },
+  "matches": [
+    {
+      "plan_id": 609,
+      "plan_nom": "Étang Bull",
+      "lat": 45.236389,
+      "lon": -72.696389,
+      "stations": [
+        {
+          "id": "030314",
+          "plan_eau": "Rivière Yamaska Sud-Est",
+          "description": "Au pont-route 202 à Cowansville",
+          "lat": 45.206,
+          "lon": -72.748,
+          "distance_km": 5.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 10.83,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 15.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 15.22,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 18.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 18.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 18.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030326",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+          "lat": 45.417,
+          "lon": -72.61,
+          "distance_km": 21.19,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030314",
+      "station": {
+        "id": "030314",
+        "plan_eau": "Rivière Yamaska Sud-Est",
+        "description": "Au pont-route 202 à Cowansville",
+        "lat": 45.206,
+        "lon": -72.748,
+        "distance_km": 5.27
+      }
+    },
+    {
+      "plan_id": 616,
+      "plan_nom": "Étang Peasley",
+      "lat": 45.229722,
+      "lon": -72.276667,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 9.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 17.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 18.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 22.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 22.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 23.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 24.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 9.98
+      }
+    },
+    {
+      "plan_id": 598,
+      "plan_nom": "Lac Brome",
+      "lat": 45.248611,
+      "lon": -72.514722,
+      "stations": [
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 2.59,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030350",
+      "station": {
+        "id": "030350",
+        "plan_eau": "Lac Brome",
+        "description": "À la plage municipale de la ville de Lac-Brome",
+        "lat": 45.226389,
+        "lon": -72.504944,
+        "distance_km": 2.59
+      }
+    },
+    {
+      "plan_id": 599,
+      "plan_nom": "Lac Bromont",
+      "lat": 45.265833,
+      "lon": -72.671667,
+      "stations": [
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 7.28,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030314",
+          "plan_eau": "Rivière Yamaska Sud-Est",
+          "description": "Au pont-route 202 à Cowansville",
+          "lat": 45.206,
+          "lon": -72.748,
+          "distance_km": 8.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 13.47,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 13.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 14.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 15.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 15.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030326",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+          "lat": 45.417,
+          "lon": -72.61,
+          "distance_km": 17.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030353",
+      "station": {
+        "id": "030353",
+        "plan_eau": "Rivière Yamaska",
+        "description": "Au pont du Chemin de Matapédia",
+        "lat": 45.301686,
+        "lon": -72.593792,
+        "distance_km": 7.28
+      }
+    },
+    {
+      "plan_id": 3160,
+      "plan_nom": "Lac Davignon",
+      "lat": 45.204722,
+      "lon": -72.718056,
+      "stations": [
+        {
+          "id": "030314",
+          "plan_eau": "Rivière Yamaska Sud-Est",
+          "description": "Au pont-route 202 à Cowansville",
+          "lat": 45.206,
+          "lon": -72.748,
+          "distance_km": 2.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 14.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 16.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 17.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030302",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 0,6 km en amont du pont-route de la 235 à Farnham",
+          "lat": 45.283,
+          "lon": -72.966,
+          "distance_km": 21.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 21.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 22.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 22.64,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030314",
+      "station": {
+        "id": "030314",
+        "plan_eau": "Rivière Yamaska Sud-Est",
+        "description": "Au pont-route 202 à Cowansville",
+        "lat": 45.206,
+        "lon": -72.748,
+        "distance_km": 2.35
+      }
+    },
+    {
+      "plan_id": 611,
+      "plan_nom": "Lac Gale",
+      "lat": 45.27,
+      "lon": -72.695278,
+      "stations": [
+        {
+          "id": "030314",
+          "plan_eau": "Rivière Yamaska Sud-Est",
+          "description": "Au pont-route 202 à Cowansville",
+          "lat": 45.206,
+          "lon": -72.748,
+          "distance_km": 8.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 8.69,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030340",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 2,4 km en amont de l'autoroute 10",
+          "lat": 45.36,
+          "lon": -72.78,
+          "distance_km": 12.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 15.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 15.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 16.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 16.67,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030326",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "Sur la rivière Yamaska Nord à Roxton Pond",
+          "lat": 45.417,
+          "lon": -72.61,
+          "distance_km": 17.65,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030314",
+      "station": {
+        "id": "030314",
+        "plan_eau": "Rivière Yamaska Sud-Est",
+        "description": "Au pont-route 202 à Cowansville",
+        "lat": 45.206,
+        "lon": -72.748,
+        "distance_km": 8.23
+      }
+    },
+    {
+      "plan_id": 600,
+      "plan_nom": "Lac Gilbert",
+      "lat": 45.219444,
+      "lon": -72.289722,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 11.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 16.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 20.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 22.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 22.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 22.95,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 11.4
+      }
+    },
+    {
+      "plan_id": 614,
+      "plan_nom": "Lac Libby",
+      "lat": 45.276389,
+      "lon": -72.368056,
+      "stations": [
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 12.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 13.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 14.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 14.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 16.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 17.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 17.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 20.35,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030350",
+      "station": {
+        "id": "030350",
+        "plan_eau": "Lac Brome",
+        "description": "À la plage municipale de la ville de Lac-Brome",
+        "lat": 45.226389,
+        "lon": -72.504944,
+        "distance_km": 12.07
+      }
+    },
+    {
+      "plan_id": 601,
+      "plan_nom": "Lac Long Pond",
+      "lat": 45.245833,
+      "lon": -72.327778,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 13.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 14.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 17.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 18.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 18.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 18.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 21.72,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 23.63,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 13.29
+      }
+    },
+    {
+      "plan_id": 602,
+      "plan_nom": "Lac Malaga",
+      "lat": 45.2475,
+      "lon": -72.260833,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 8.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 16.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 19.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 22.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 22.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 22.86,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 23.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030220",
+          "plan_eau": "Rivière Massawippi",
+          "description": "À 1,6 km en aval du lac Massawippi",
+          "lat": 45.284,
+          "lon": -71.963,
+          "distance_km": 23.66,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 8.14
+      }
+    },
+    {
+      "plan_id": 603,
+      "plan_nom": "Lac Nick",
+      "lat": 45.211389,
+      "lon": -72.325833,
+      "stations": [
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 14.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 14.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 20.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 21.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 21.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 21.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 23.25,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030350",
+      "station": {
+        "id": "030350",
+        "plan_eau": "Lac Brome",
+        "description": "À la plage municipale de la ville de Lac-Brome",
+        "lat": 45.226389,
+        "lon": -72.504944,
+        "distance_km": 14.13
+      }
+    },
+    {
+      "plan_id": 604,
+      "plan_nom": "Lac Selby",
+      "lat": 45.095,
+      "lon": -72.801667,
+      "stations": [
+        {
+          "id": "030314",
+          "plan_eau": "Rivière Yamaska Sud-Est",
+          "description": "Au pont-route 202 à Cowansville",
+          "lat": 45.206,
+          "lon": -72.748,
+          "distance_km": 13.04,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030425",
+          "plan_eau": "Rivière de la Roche",
+          "description": "À Saint-Armand",
+          "lat": 45.021861,
+          "lon": -73.016222,
+          "distance_km": 18.71,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030424",
+          "plan_eau": "Rivière aux Brochets",
+          "description": "À Notre-Dame-de-Stanbridge (pont couvert)",
+          "lat": 45.159,
+          "lon": -73.051,
+          "distance_km": 20.82,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030423",
+          "plan_eau": "Ruisseau Morpions",
+          "description": "À 3,1 km en amont de la rivière aux Brochets",
+          "lat": 45.198,
+          "lon": -73.033,
+          "distance_km": 21.46,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030426",
+          "plan_eau": "Ruisseau Ewing",
+          "description": "À Pike-River",
+          "lat": 45.125306,
+          "lon": -73.07725,
+          "distance_km": 21.89,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OH001",
+          "plan_eau": "Lac Champlain",
+          "description": "Dans la baie Missisquoi à Saint-Armand",
+          "lat": 45.0397,
+          "lon": -73.0797,
+          "distance_km": 22.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030302",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 0,6 km en amont du pont-route de la 235 à Farnham",
+          "lat": 45.283,
+          "lon": -72.966,
+          "distance_km": 24.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030314",
+      "station": {
+        "id": "030314",
+        "plan_eau": "Rivière Yamaska Sud-Est",
+        "description": "Au pont-route 202 à Cowansville",
+        "lat": 45.206,
+        "lon": -72.748,
+        "distance_km": 13.04
+      }
+    },
+    {
+      "plan_id": 605,
+      "plan_nom": "Lac Trousers",
+      "lat": 45.248611,
+      "lon": -72.3425,
+      "stations": [
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 12.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 14.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 16.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 17.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 17.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 18.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 20.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 23.31,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030350",
+      "station": {
+        "id": "030350",
+        "plan_eau": "Lac Brome",
+        "description": "À la plage municipale de la ville de Lac-Brome",
+        "lat": 45.226389,
+        "lon": -72.504944,
+        "distance_km": 12.96
+      }
+    },
+    {
+      "plan_id": 606,
+      "plan_nom": "Lac Waterloo",
+      "lat": 45.334167,
+      "lon": -72.519444,
+      "stations": [
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 0.5,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 1.77,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030332",
+      "station": {
+        "id": "030332",
+        "plan_eau": "Lac Waterloo",
+        "description": "Au lac Waterloo à Waterloo",
+        "lat": 45.338,
+        "lon": -72.516,
+        "distance_km": 0.5
+      }
+    },
+    {
+      "plan_id": 608,
+      "plan_nom": "Lac Webster",
+      "lat": 45.260556,
+      "lon": -72.261667,
+      "stations": [
+        {
+          "id": "02OE012",
+          "plan_eau": "Lac Memphrémagog",
+          "description": "À Memphrémagog",
+          "lat": 45.2669,
+          "lon": -72.1606,
+          "distance_km": 7.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030268",
+          "plan_eau": "Lac Stukely",
+          "description": "Au lac Stukely à Orford",
+          "lat": 45.393972,
+          "lon": -72.226056,
+          "distance_km": 15.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 19.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030332",
+          "plan_eau": "Lac Waterloo",
+          "description": "Au lac Waterloo à Waterloo",
+          "lat": 45.338,
+          "lon": -72.516,
+          "distance_km": 21.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030343",
+          "plan_eau": "Rivière Yamaska Nord",
+          "description": "À 0,1 km en aval du barrage du lac Waterloo",
+          "lat": 45.349479,
+          "lon": -72.514561,
+          "distance_km": 22.11,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030342",
+          "plan_eau": "Lac Waterloo",
+          "description": "À Waterloo",
+          "lat": 45.349977,
+          "lon": -72.517007,
+          "distance_km": 22.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030241",
+          "plan_eau": "Lac Massawipi",
+          "description": "Au quai passerelle à North Hatley",
+          "lat": 45.276306,
+          "lon": -71.9735,
+          "distance_km": 22.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030355",
+          "plan_eau": "Rivière Noire",
+          "description": "au pont du chemin Benoit à Valcourt",
+          "lat": 45.458186,
+          "lon": -72.338023,
+          "distance_km": 22.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OE012",
+      "station": {
+        "id": "02OE012",
+        "plan_eau": "Lac Memphrémagog",
+        "description": "À Memphrémagog",
+        "lat": 45.2669,
+        "lon": -72.1606,
+        "distance_km": 7.94
+      }
+    },
+    {
+      "plan_id": 620,
+      "plan_nom": "Rivière Missisquoi et ses tributaires",
+      "lat": 45.041667,
+      "lon": -72.502222,
+      "stations": [
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 20.54,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030350",
+      "station": {
+        "id": "030350",
+        "plan_eau": "Lac Brome",
+        "description": "À la plage municipale de la ville de Lac-Brome",
+        "lat": 45.226389,
+        "lon": -72.504944,
+        "distance_km": 20.54
+      }
+    },
+    {
+      "plan_id": 623,
+      "plan_nom": "Rivière Yamaska b) entre le lac Brome",
+      "lat": 45.248611,
+      "lon": -72.514722,
+      "stations": [
+        {
+          "id": "030350",
+          "plan_eau": "Lac Brome",
+          "description": "À la plage municipale de la ville de Lac-Brome",
+          "lat": 45.226389,
+          "lon": -72.504944,
+          "distance_km": 2.59,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030353",
+          "plan_eau": "Rivière Yamaska",
+          "description": "Au pont du Chemin de Matapédia",
+          "lat": 45.301686,
+          "lon": -72.593792,
+          "distance_km": 8.55,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030350",
+      "station": {
+        "id": "030350",
+        "plan_eau": "Lac Brome",
+        "description": "À la plage municipale de la ville de Lac-Brome",
+        "lat": 45.226389,
+        "lon": -72.504944,
+        "distance_km": 2.59
+      }
+    }
+  ]
+}

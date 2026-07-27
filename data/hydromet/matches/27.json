@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "zone_id": 27,
+    "radius_km": 25.0,
+    "nb_with_coords": 10,
+    "nb_station_matched": 0
+  },
+  "matches": [
+    {
+      "plan_id": 2543,
+      "plan_nom": "Lac Germaine",
+      "lat": 52.966667,
+      "lon": -67.666667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1687,
+      "plan_nom": "Lac Hasté",
+      "lat": 53.116667,
+      "lon": -68.45,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1683,
+      "plan_nom": "Lac Kerbodot",
+      "lat": 53.45,
+      "lon": -67.7,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1689,
+      "plan_nom": "Lac La Justone",
+      "lat": 52.883333,
+      "lon": -68.45,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1691,
+      "plan_nom": "Lac Lapointe",
+      "lat": 53.45,
+      "lon": -68.583333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1685,
+      "plan_nom": "Lac Le Prévost",
+      "lat": 52.966667,
+      "lon": -67.283333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1693,
+      "plan_nom": "Lac Opiscotéo",
+      "lat": 53.166667,
+      "lon": -68.166667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1695,
+      "plan_nom": "Lac Raimbault",
+      "lat": 53.216667,
+      "lon": -68.35,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1697,
+      "plan_nom": "Lac Ternay",
+      "lat": 53.425,
+      "lon": -69.091667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1701,
+      "plan_nom": "Lac Vignal",
+      "lat": 53.3,
+      "lon": -68.383333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

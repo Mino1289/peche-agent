@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "zone_id": 28,
+    "radius_km": 25.0,
+    "nb_with_coords": 2,
+    "nb_station_matched": 1
+  },
+  "matches": [
+    {
+      "plan_id": 1153,
+      "plan_nom": "Rivière de Pas la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+      "lat": 55.820278,
+      "lon": -65.053611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1151,
+      "plan_nom": "Rivière George la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+      "lat": 56.535278,
+      "lon": -64.732778,
+      "stations": [
+        {
+          "id": "104803",
+          "plan_eau": "Rivière George",
+          "description": "À la sortie du lac de la Hutte Sauvage",
+          "lat": 56.783,
+          "lon": -64.868111,
+          "distance_km": 28.76,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "104803",
+      "station": {
+        "id": "104803",
+        "plan_eau": "Rivière George",
+        "description": "À la sortie du lac de la Hutte Sauvage",
+        "lat": 56.783,
+        "lon": -64.868111,
+        "distance_km": 28.76
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "zone_id": 33,
+    "radius_km": 25.0,
+    "nb_with_coords": 11,
+    "nb_station_matched": 0
+  },
+  "matches": [
+    {
+      "plan_id": 842,
+      "plan_nom": "Lac à la Croix",
+      "lat": 51.264722,
+      "lon": -70.218056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3098,
+      "plan_nom": "Lac de l'Exil",
+      "lat": 50.418889,
+      "lon": -71.078333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 835,
+      "plan_nom": "Lac du Huard",
+      "lat": 50.316667,
+      "lon": -72.124167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3101,
+      "plan_nom": "Lac Goisard",
+      "lat": 50.087222,
+      "lon": -71.488611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3102,
+      "plan_nom": "Lac La Brodeuse",
+      "lat": 50.027778,
+      "lon": -71.472222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3096,
+      "plan_nom": "Lac Manouane",
+      "lat": 50.696944,
+      "lon": -70.816111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3099,
+      "plan_nom": "Lac Onistagane",
+      "lat": 50.713889,
+      "lon": -71.328056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3100,
+      "plan_nom": "Lac Péribonka",
+      "lat": 50.151111,
+      "lon": -71.268889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3103,
+      "plan_nom": "Lac Sans nom",
+      "lat": 50.045556,
+      "lon": -71.488611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 838,
+      "plan_nom": "Rivière Mistassibi nord-est entre la limite sud de la zone 29",
+      "lat": 50.0,
+      "lon": -71.945278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 840,
+      "plan_nom": "Rivière Péribonka - La partie entre le lac Péribonka et une droite reliant les points 51°00'00\" N., 71°19'59\" O. et 50°00'00\" N., 71°20'14\" O.",
+      "lat": 51.0,
+      "lon": -71.333056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

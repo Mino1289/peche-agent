@@ -1,0 +1,1318 @@
+{
+  "meta": {
+    "zone_id": 22,
+    "zone_nom": "Zone 20",
+    "saison_id": 220,
+    "saison": "Du 1er avril 2026 au 31 mars 2027",
+    "fetched_at": "2026-06-11T04:02:59+00:00",
+    "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22",
+    "nb_endroits_total": 28,
+    "nb_endroits_avec_id": 28
+  },
+  "regles_generales": [
+    {
+      "segment": "Règles de la zone",
+      "periodes": [
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Chevalier cuivré",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Saumon atlantique",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 16 avril 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Éperlan arc-en-ciel",
+              "limite_prise": "120",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Ombles (omble de fontaine, omble chevalier)",
+              "limite_prise": "20 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Touladi, moulac et lacmou",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "45 cm et plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": "Dans les eaux comprises à l'intérieur des territoires particuliers: 2 en tout"
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Bar rayé",
+              "limite_prise": "3",
+              "limite_longueur": "50 cm à 65 cm inclusivement",
+              "engin": "Pêche à la ligne avec hameçon ou combinaison d'hameçons, sans appât naturel, dont chaque tige ne comporte qu'un seul crochet, pour un maximum de 3 crochets sur une ligne",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 16 avril 2026 au 15 septembre 2026 - Autres espèces",
+          "especes": [
+            {
+              "espece": "Autres espèces",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans_eau": [
+    {
+      "id": 1401,
+      "nom": "Lac Saint-Georges ( 49°49'18\" N., 64°20'18\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1401&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Saint-Georges ( 49°49'18\" N., 64°20'18\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "3",
+                  "limite_longueur": "50 cm à 65 cm inclusivement",
+                  "engin": "Pêche à la ligne avec hameçon ou combinaison d'hameçons, sans appât naturel, dont chaque tige ne comporte qu'un seul crochet, pour un maximum de 3 crochets sur une ligne",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er décembre 2026 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2484,
+      "nom": "Parc National d'Anticosti",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=2484&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Parc National d'Anticosti",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "20 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "3",
+                  "limite_longueur": "50 cm à 65 cm inclusivement",
+                  "engin": "Pêche à la ligne avec hameçon ou combinaison d'hameçons, sans appât naturel, dont chaque tige ne comporte qu'un seul crochet, pour un maximum de 3 crochets sur une ligne",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1446,
+      "nom": "Rivière à la Loutre entre la limite de la fosse no 2 située en amont et sa source, ainsi que ses tributaires fréquentés par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1446&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière à la Loutre entre la limite de la fosse no 2 située en amont et sa source, ainsi que ses tributaires fréquentés par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Rivière à la Loutre entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et la limite de la fosse no 2 située en amont, ainsi que ses tributaires fréquentés par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1422,
+      "nom": "Rivière à la Patate entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1422&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière à la Patate entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1416,
+      "nom": "Rivière à l'Huile entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1416&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière à l'Huile entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1406,
+      "nom": "Rivière aux Cailloux entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1406&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière aux Cailloux entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1426,
+      "nom": "Rivière aux Plats entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1426&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière aux Plats entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1442,
+      "nom": "Rivière aux Saumons entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1442&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière aux Saumons entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1431,
+      "nom": "Rivière Bec-Scie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le lac Faure, à l'exception du lac Elsie (Sans-Bout) ( 49°45'33\" N., 64°00'50\" O. ), ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1431&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le lac Faure, à l'exception du lac Elsie (Sans-Bout) ( 49°45'33\" N., 64°00'50\" O. ), ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1402,
+      "nom": "Rivière Bell entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1402&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Bell entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1410,
+      "nom": "Rivière Chicotte entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1410&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Chicotte entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1412,
+      "nom": "Rivière Dauphiné entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1412&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Dauphiné entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1438,
+      "nom": "Rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1438&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1424,
+      "nom": "Rivière du Pavillon entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1424&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière du Pavillon entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1454,
+      "nom": "Rivière du Renard entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1454&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière du Renard entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1440,
+      "nom": "Rivière Ferrée entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1440&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Ferrée entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1414,
+      "nom": "Rivière Galiote entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1414&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Galiote entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1444,
+      "nom": "Rivière Jupiter entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1444&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Jupiter entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et sa source ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "0 gardé et au plus 2 pris et remis à l'eau",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1418,
+      "nom": "Rivière Maccan entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1418&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Maccan entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1451,
+      "nom": "Rivière McDonald entre le côté en aval du pont ( 49°45'27\" N., 63°03'46\" O. ) de la route Trans-Anticostienne et sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1451&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le côté en aval du pont ( 49°45'27\" N., 63°03'46\" O. ) de la route Trans-Anticostienne et sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1450,
+      "nom": "Rivière McDonald entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le côté en aval du pont ( 49°45'27\" N., 63°03'46\" O. ) de la route Trans-Anticostienne, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1450&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et le côté en aval du pont ( 49°45'27\" N., 63°03'46\" O. ) de la route Trans-Anticostienne, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1408,
+      "nom": "Rivière Petite rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1408&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Petite rivière de la Chaloupe entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1452,
+      "nom": "Rivière Petite rivière de la Loutre entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source,ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1452&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Petite rivière de la Loutre entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source,ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1429,
+      "nom": "Rivière Sainte-Marie entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, à l'exception du lac Grand lac Sainte-Marie ( 49°44'54\" N., 63°52'59\" O. ), ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1429&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, à l'exception du lac Grand lac Sainte-Marie ( 49°44'54\" N., 63°52'59\" O. ), ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1456,
+      "nom": "Rivière Vauréal entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et la chute Vauréal ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1456&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Rivière Vauréal entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de la rivière et la chute Vauréal ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Toutes les espèces",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1404,
+      "nom": "Ruisseau Box entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1404&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Ruisseau Box entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1420,
+      "nom": "Ruisseau Martin entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=22&id_endro=1420&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Ruisseau Martin entre le prolongement de deux droites épousant la direction générale du littoral sur 1 km de part et d'autre de cette rivière et de sa source, ainsi que les tributaires de ce secteur fréquenté par le saumon.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la mouche seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3325 @@
+{
+  "meta": {
+    "zone_id": 32,
+    "zone_nom": "Zone 28",
+    "nb_plans": 199,
+    "nb_geocoded": 163,
+    "pct_geocoded": 81.9,
+    "source_file": "zones/32.json"
+  },
+  "locations": [
+    {
+      "id": 928,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Lac à Jim ( 49°00'55\" N., 72°44'18\" O. ) (cantons Girard et Ramezay)",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Lac à Jim",
+      "nom_search": "aire faunique communautaire du lac saint jean lac a jim 49 00 55 n 72 44 18 o ) cantons girard et ramezay)",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean lac a jim 49 00 55 n 72 44 18 o ) cantons girard et ramezay)"
+      ],
+      "lat": 49.015278,
+      "lon": -72.738333
+    },
+    {
+      "id": 930,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Lac Saint-Jean, les eaux entourées par les routes 169, 170 et 373 [à l'exception de la partie de la rivière Mistassini comprise entre le pont de la route 169 et une droite perpendiculaire au courant reliant le point 48°52'55,5'' N., 72°13'24'' O. et le point 48°53'9,4'' N., 72°13'29,7'' O. passant par l'extrémité en aval de la plus grande des deux îles situées immédiatement en aval de ce pont (île Lepage) et des parties des rivières Grande Décharge et Petite Décharge comprises entre les ponts de la route 169 et le barrage de l'Isle-Maligne et jusqu'aux structures de rétention du lac Saint-Jean].",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Lac Saint-Jean, les eaux entourées par les routes 169, 170 et 373 [à l'exception de la partie de la rivière Mistassini comprise entre le pont de la route 169 et une droite perpendiculaire au courant reliant le point 48°52'55,5'' N., 72°13'24'' O. et le point 48°53'9,4'' N., 72°13'29,7'' O. passant par l'extrémité en aval de la plus grande des deux îles situées immédiatement en aval de ce pont",
+      "nom_search": "aire faunique communautaire du lac saint jean lac saint jean les eaux entourees par les routes 169 170 et 373 a l exception de la partie de la riviere mistassini comprise entre le pont de la route 169 et une droite perpendiculaire au courant reliant le point 48 52 55 5 n 72 13 24 o et le point 48 53 9 4 n 72 13 29 7 o passant par l extremite en aval de la plus grande des deux iles situees immediatement en aval de ce pont ile lepage) et des parties des rivieres grande decharge et petite decharge comprises entre les ponts de la route 169 et le barrage de l isle maligne et jusqu aux structures de retention du lac saint jean",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean lac saint jean les eaux entourees par les routes 169 170 et 373 a l exception de la partie de la riviere mistassini comprise entre le pont de la route 169 et une droite perpendiculaire au courant reliant le point 48 52 55 5 n 72 13 24 o et le point 48 53 9 4 n 72 13 29 7 o passant par l extremite en aval de la plus grande des deux iles situees immediatement en aval de ce pont ile lepage) et des parties des rivieres grande decharge et petite decharge comprises entre les ponts de la route 169 et le barrage de l isle maligne et jusqu aux structures de retention du lac saint jean"
+      ],
+      "lat": 48.882083,
+      "lon": -72.223333
+    },
+    {
+      "id": 942,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, a) La partie entre le pont de la route 169 et une droite perpendiculaire au courant passant par le point 48°53'1.57\"N., 72° 54'10.51\" O. , située 200 mètres en aval de la Descente des Draveurs",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, a) La partie entre le pont de la route 169 et une droite perpendiculaire au courant passant par le point 48°53'1.57\"N., 72° 54'10.51\" O. , située 200 mètres en aval de la Descente des Draveurs",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere ashuapmushuan a) la partie entre le pont de la route 169 et une droite perpendiculaire au courant passant par le point 48 53 1 57 n 72 54 10 51 o situee 200 metres en aval de la descente des draveurs",
+      "segment_label": "a)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere ashuapmushuan a) la partie entre le pont de la route 169 et une droite perpendiculaire au courant passant par le point 48 53 1 57 n 72 54 10 51 o situee 200 metres en aval de la descente des draveurs"
+      ],
+      "lat": 48.883769,
+      "lon": -72.902919
+    },
+    {
+      "id": 12780,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, b) La partie comprise entre une droite perpendiculaire au courant passant par le point 48°53'1.57\" N., 72°54'10.51\" O. , située 200 mètres en aval de la Descente des Draveurs et une droite perpendiculaire au courant passant par le point 48°54'35.24'' N., 72°56'59.71'' O. , située au pied des Rapides de l'Épinette Blanche.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, b) La partie comprise entre une droite perpendiculaire au courant passant par le point 48°53'1.57\" N., 72°54'10.51\" O. , située 200 mètres en aval de la Descente des Draveurs et une droite perpendiculaire au courant passant par le point 48°54'35.24'' N., 72°56'59.71'' O. , située au pied des Rapides de l'Épinette Blanche.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere ashuapmushuan b) la partie comprise entre une droite perpendiculaire au courant passant par le point 48 53 1 57 n 72 54 10 51 o situee 200 metres en aval de la descente des draveurs et une droite perpendiculaire au courant passant par le point 48 54 35 24 n 72 56 59 71 o situee au pied des rapides de l epinette blanche",
+      "segment_label": "b)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere ashuapmushuan b) la partie comprise entre une droite perpendiculaire au courant passant par le point 48 53 1 57 n 72 54 10 51 o situee 200 metres en aval de la descente des draveurs et une droite perpendiculaire au courant passant par le point 48 54 35 24 n 72 56 59 71 o situee au pied des rapides de l epinette blanche"
+      ],
+      "lat": 48.883769,
+      "lon": -72.902919
+    },
+    {
+      "id": 12781,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, c) La partie comprise entre une droite perpendiculaire au courant passant par le point 48°54' 35.24'' N., 72°56'59.71\"\" O. , située au pied des Rapides de l'Épinette Blanche et le pied des chutes de la Chaudière, situées près du lac du Liset.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ashuapmushuan, c) La partie comprise entre une droite perpendiculaire au courant passant par le point 48°54' 35.24'' N., 72°56'59.71\"\" O. , située au pied des Rapides de l'Épinette Blanche et le pied des chutes de la Chaudière, situées près du lac du Liset.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere ashuapmushuan c) la partie comprise entre une droite perpendiculaire au courant passant par le point 48 54 35 24 n 72 56 59 71 o situee au pied des rapides de l epinette blanche et le pied des chutes de la chaudiere situees pres du lac du liset",
+      "segment_label": "c)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere ashuapmushuan c) la partie comprise entre une droite perpendiculaire au courant passant par le point 48 54 35 24 n 72 56 59 71 o situee au pied des rapides de l epinette blanche et le pied des chutes de la chaudiere situees pres du lac du liset"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Rats - de son embouchure jusqu'au pont du rang Saint-Luc (canton Pelletier).",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Rats - de son embouchure jusqu'au pont du rang Saint-Luc",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere aux rats de son embouchure jusqu au pont du rang saint luc canton pelletier)",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere aux rats de son embouchure jusqu au pont du rang saint luc canton pelletier)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Saumons a) entre son embouchure et le côté en amont du pont de la route 167.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Saumons a) entre son embouchure et le côté en amont du pont de la route 167.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere aux saumons a) entre son embouchure et le cote en amont du pont de la route 167",
+      "segment_label": "a)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere aux saumons a) entre son embouchure et le cote en amont du pont de la route 167"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Saumons b) entre le côté en amont du pont de la route 167 et une droite perpendiculaire au côté en amont de la passe migratoire de la chute 50.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Saumons b) entre le côté en amont du pont de la route 167 et une droite perpendiculaire au côté en amont de la passe migratoire de la chute 50.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere aux saumons b) entre le cote en amont du pont de la route 167 et une droite perpendiculaire au cote en amont de la passe migratoire de la chute 50",
+      "segment_label": "b)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere aux saumons b) entre le cote en amont du pont de la route 167 et une droite perpendiculaire au cote en amont de la passe migratoire de la chute 50"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Saumons c) entre une droite perpendiculaire au côté en amont de la passe migratoire de la chute 50 et la chute située à 400 m en amont de l'embouchure du ruisseau du Pied des Chutes.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière aux Saumons c) entre une droite perpendiculaire au côté en amont de la passe migratoire de la chute 50 et la chute située à 400 m en amont de l'embouchure du ruisseau du Pied des Chutes.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere aux saumons c) entre une droite perpendiculaire au cote en amont de la passe migratoire de la chute 50 et la chute situee a 400 m en amont de l embouchure du ruisseau du pied des chutes",
+      "segment_label": "c)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere aux saumons c) entre une droite perpendiculaire au cote en amont de la passe migratoire de la chute 50 et la chute situee a 400 m en amont de l embouchure du ruisseau du pied des chutes"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière du Cran, de son embouchure jusqu'au pied de la chute située à 6,5 km.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière du Cran, de son embouchure jusqu'au pied de la chute située à 6,5 km.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere du cran de son embouchure jusqu au pied de la chute situee a 6 5 km",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere du cran de son embouchure jusqu au pied de la chute situee a 6 5 km"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière La Belle Rivière, entre le pont de la route 170 et le pied du barrage (Dynamo) situé en aval du pont de la route des Savard.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière La Belle Rivière, entre le pont de la route 170 et le pied du barrage",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere la belle riviere entre le pont de la route 170 et le pied du barrage dynamo) situe en aval du pont de la route des savard",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere la belle riviere entre le pont de la route 170 et le pied du barrage dynamo) situe en aval du pont de la route des savard"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Métabetchouane, a) entre la route 169 et la ligne d'énergie électrique située près du premier rapide dans le rang 1 (canton Métabetchouan).",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Métabetchouane, a) entre la route 169 et la ligne d'énergie électrique située près du premier rapide dans le rang 1",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere metabetchouane a) entre la route 169 et la ligne d energie electrique situee pres du premier rapide dans le rang 1 canton metabetchouan)",
+      "segment_label": "a)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere metabetchouane a) entre la route 169 et la ligne d energie electrique situee pres du premier rapide dans le rang 1 canton metabetchouan)"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Métabetchouane, b) entre la ligne d'énergie électrique située près du premier rapide dans le rang 1 (canton Métabetchouan) et le barrage hydroélectrique.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Métabetchouane, b) entre la ligne d'énergie électrique située près du premier rapide dans le rang 1",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere metabetchouane b) entre la ligne d energie electrique situee pres du premier rapide dans le rang 1 canton metabetchouan) et le barrage hydroelectrique",
+      "segment_label": "b)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere metabetchouane b) entre la ligne d energie electrique situee pres du premier rapide dans le rang 1 canton metabetchouan) et le barrage hydroelectrique"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Micosas, de son embouchure jusqu'à la chute située à 1 km en amont de l'embouchure de la rivière aux Dorés.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Micosas, de son embouchure jusqu'à la chute située à 1 km en amont de l'embouchure de la rivière aux Dorés.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere micosas de son embouchure jusqu a la chute situee a 1 km en amont de l embouchure de la riviere aux dores",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere micosas de son embouchure jusqu a la chute situee a 1 km en amont de l embouchure de la riviere aux dores"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 956,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Mistassini - entre une droite perpendiculaire au courant reliant le point 48°52'55,5'' N., 72°13'24'' O. et le point 48°53'9,4'' N., 72°13'29,7'' O. passant par l'extrémité en aval de la plus grande des deux îles situées immédiatement en aval du pont de la route 169 (île Lepage) et la 11e chute.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Mistassini - entre une droite perpendiculaire au courant reliant le point 48°52'55,5'' N., 72°13'24'' O. et le point 48°53'9,4'' N., 72°13'29,7'' O. passant par l'extrémité en aval de la plus grande des deux îles situées immédiatement en aval du pont de la route 169",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere mistassini entre une droite perpendiculaire au courant reliant le point 48 52 55 5 n 72 13 24 o et le point 48 53 9 4 n 72 13 29 7 o passant par l extremite en aval de la plus grande des deux iles situees immediatement en aval du pont de la route 169 ile lepage) et la 11e chute",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere mistassini entre une droite perpendiculaire au courant reliant le point 48 52 55 5 n 72 13 24 o et le point 48 53 9 4 n 72 13 29 7 o passant par l extremite en aval de la plus grande des deux iles situees immediatement en aval du pont de la route 169 ile lepage) et la 11e chute"
+      ],
+      "lat": 48.882083,
+      "lon": -72.223333
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ouasiemsca, entre son embouchure et la chute située à 25 km en amont de l'embouchure de l'émissaire du lac Rond.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ouasiemsca, entre son embouchure et la chute située à 25 km en amont de l'embouchure de l'émissaire du lac Rond.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere ouasiemsca entre son embouchure et la chute situee a 25 km en amont de l embouchure de l emissaire du lac rond",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere ouasiemsca entre son embouchure et la chute situee a 25 km en amont de l embouchure de l emissaire du lac rond"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ouiatchouan - La partie comprise entre le pont de la route 169 et l'extrémité en aval du premier rapide.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Ouiatchouan - La partie comprise entre le pont de la route 169 et l'extrémité en aval du premier rapide.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere ouiatchouan la partie comprise entre le pont de la route 169 et l extremite en aval du premier rapide",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere ouiatchouan la partie comprise entre le pont de la route 169 et l extremite en aval du premier rapide"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Pémonca, de son embouchure jusqu'au pied de la chute située à 8 km.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Pémonca, de son embouchure jusqu'au pied de la chute située à 8 km.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere pemonca de son embouchure jusqu au pied de la chute situee a 8 km",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere pemonca de son embouchure jusqu au pied de la chute situee a 8 km"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Péribonka - du pont de la route 169 jusqu'au barrage de Chute-à-la-Savane.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Péribonka - du pont de la route 169 jusqu'au barrage de Chute-à-la-Savane.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere peribonka du pont de la route 169 jusqu au barrage de chute a la savane",
+      "segment_label": null,
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere peribonka du pont de la route 169 jusqu au barrage de chute a la savane"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 970,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, a) entre le côté en amont du pont de la route 169 et les bornes 48°50'27\" N., 72°03'57\" O. et 48°50'27\" N., 72°03'51\" O. situées à 200 m en aval du barrage hydroélectrique de la Chute-Blanche.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, a) entre le côté en amont du pont de la route 169 et les bornes 48°50'27\" N., 72°03'57\" O. et 48°50'27\" N., 72°03'51\" O. situées à 200 m en aval du barrage hydroélectrique de la Chute-Blanche.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere petite riviere peribonka a) entre le cote en amont du pont de la route 169 et les bornes 48 50 27 n 72 03 57 o et 48 50 27 n 72 03 51 o situees a 200 m en aval du barrage hydroelectrique de la chute blanche",
+      "segment_label": "a)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere petite riviere peribonka a) entre le cote en amont du pont de la route 169 et les bornes 48 50 27 n 72 03 57 o et 48 50 27 n 72 03 51 o situees a 200 m en aval du barrage hydroelectrique de la chute blanche"
+      ],
+      "lat": 48.840833,
+      "lon": -72.065833
+    },
+    {
+      "id": 977,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, b) compris entre les bornes 48°50'27\" N., 72°03'57\" O. et 48°50'27\" N., 72°03'51\" O. situées à 200 m en aval du barrage hydroélectrique de la Chute-Blanche et le côté en amont du barrage de la Chute-Blanche.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, b) compris entre les bornes 48°50'27\" N., 72°03'57\" O. et 48°50'27\" N., 72°03'51\" O. situées à 200 m en aval du barrage hydroélectrique de la Chute-Blanche et le côté en amont du barrage de la Chute-Blanche.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere petite riviere peribonka b) compris entre les bornes 48 50 27 n 72 03 57 o et 48 50 27 n 72 03 51 o situees a 200 m en aval du barrage hydroelectrique de la chute blanche et le cote en amont du barrage de la chute blanche",
+      "segment_label": "b)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere petite riviere peribonka b) compris entre les bornes 48 50 27 n 72 03 57 o et 48 50 27 n 72 03 51 o situees a 200 m en aval du barrage hydroelectrique de la chute blanche et le cote en amont du barrage de la chute blanche"
+      ],
+      "lat": 48.840833,
+      "lon": -72.065833
+    },
+    {
+      "id": null,
+      "zone_id": 32,
+      "nom_brut": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, c) du côté en amont du barrage de la Chute-Blanche jusqu'à la limite sud de la zec des Passes.",
+      "nom": "Aire Faunique Communautaire du Lac-Saint-Jean - Rivière Petite rivière Péribonka, c) du côté en amont du barrage de la Chute-Blanche jusqu'à la limite sud de la zec des Passes.",
+      "nom_search": "aire faunique communautaire du lac saint jean riviere petite riviere peribonka c) du cote en amont du barrage de la chute blanche jusqu a la limite sud de la zec des passes",
+      "segment_label": "c)",
+      "river_base_name": "Aire Faunique Communautaire du Lac-Saint-Jean",
+      "aliases": [
+        "aire faunique communautaire du lac saint jean",
+        "aire faunique communautaire du lac saint jean riviere petite riviere peribonka c) du cote en amont du barrage de la chute blanche jusqu a la limite sud de la zec des passes"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2090,
+      "zone_id": 32,
+      "nom_brut": "Lac à la Carpe ( 48°13'10\" N., 71°51'44\" O. )(canton Saint-Hilaire)",
+      "nom": "Lac à la Carpe",
+      "nom_search": "lac a la carpe 48 13 10 n 71 51 44 o ) canton saint hilaire)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Carpe",
+      "aliases": [
+        "a la carpe",
+        "a la carpe 48 13 10 n 71 51 44 o ) canton saint hilaire)",
+        "lac a la carpe",
+        "lac a la carpe 48 13 10 n 71 51 44 o ) canton saint hilaire)"
+      ],
+      "lat": 48.219444,
+      "lon": -71.862222
+    },
+    {
+      "id": 2126,
+      "zone_id": 32,
+      "nom_brut": "Lac à la Croix ( 48°23'48\" N., 71°46'35\" O. )",
+      "nom": "Lac à la Croix",
+      "nom_search": "lac a la croix 48 23 48 n 71 46 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Croix",
+      "aliases": [
+        "a la croix",
+        "a la croix 48 23 48 n 71 46 35 o )",
+        "lac a la croix",
+        "lac a la croix 48 23 48 n 71 46 35 o )"
+      ],
+      "lat": 48.396667,
+      "lon": -71.776389
+    },
+    {
+      "id": 2148,
+      "zone_id": 32,
+      "nom_brut": "Lac à la Poche ( 49°07'02\" N., 72°08'37\" O. )",
+      "nom": "Lac à la Poche",
+      "nom_search": "lac a la poche 49 07 02 n 72 08 37 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Poche",
+      "aliases": [
+        "a la poche",
+        "a la poche 49 07 02 n 72 08 37 o )",
+        "lac a la poche",
+        "lac a la poche 49 07 02 n 72 08 37 o )"
+      ],
+      "lat": 49.117222,
+      "lon": -72.143611
+    },
+    {
+      "id": 10951,
+      "zone_id": 32,
+      "nom_brut": "Lac à la Truite ( 49°29'52\" N., 72°48'10\" O. )",
+      "nom": "Lac à la Truite",
+      "nom_search": "lac a la truite 49 29 52 n 72 48 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à la Truite",
+      "aliases": [
+        "a la truite",
+        "a la truite 49 29 52 n 72 48 10 o )",
+        "lac a la truite",
+        "lac a la truite 49 29 52 n 72 48 10 o )"
+      ],
+      "lat": 49.497778,
+      "lon": -72.802778
+    },
+    {
+      "id": 2044,
+      "zone_id": 32,
+      "nom_brut": "Lac à l'Ours ( 48°36'20\" N., 72°48'10\" O. )",
+      "nom": "Lac à l'Ours",
+      "nom_search": "lac a l ours 48 36 20 n 72 48 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac à l'Ours",
+      "aliases": [
+        "a l ours",
+        "a l ours 48 36 20 n 72 48 10 o )",
+        "lac a l ours",
+        "lac a l ours 48 36 20 n 72 48 10 o )"
+      ],
+      "lat": 48.605556,
+      "lon": -72.802778
+    },
+    {
+      "id": 2105,
+      "zone_id": 32,
+      "nom_brut": "Lac Abel ( 49°04'23\" N., 72°14'58\" O. )",
+      "nom": "Lac Abel",
+      "nom_search": "lac abel 49 04 23 n 72 14 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Abel",
+      "aliases": [
+        "abel",
+        "abel 49 04 23 n 72 14 58 o )",
+        "lac abel",
+        "lac abel 49 04 23 n 72 14 58 o )"
+      ],
+      "lat": 49.073056,
+      "lon": -72.249444
+    },
+    {
+      "id": 11340,
+      "zone_id": 32,
+      "nom_brut": "Lac au Foin ( 49°56'40\"N, 72°07'38\" O. )",
+      "nom": "Lac au Foin",
+      "nom_search": "lac au foin 49 56 40 n 72 07 38 o )",
+      "segment_label": null,
+      "river_base_name": "Lac au Foin",
+      "aliases": [
+        "au foin",
+        "au foin 49 56 40 n 72 07 38 o )",
+        "lac au foin",
+        "lac au foin 49 56 40 n 72 07 38 o )"
+      ],
+      "lat": 49.944444,
+      "lon": -72.127222
+    },
+    {
+      "id": 10942,
+      "zone_id": 32,
+      "nom_brut": "Lac Augustin ( 48°27'25\" N., 73°21'30\" O. )",
+      "nom": "Lac Augustin",
+      "nom_search": "lac augustin 48 27 25 n 73 21 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Augustin",
+      "aliases": [
+        "augustin",
+        "augustin 48 27 25 n 73 21 30 o )",
+        "lac augustin",
+        "lac augustin 48 27 25 n 73 21 30 o )"
+      ],
+      "lat": 48.456944,
+      "lon": -73.358333
+    },
+    {
+      "id": 2107,
+      "zone_id": 32,
+      "nom_brut": "Lac aux Aulnes ( 48°55'20\" N., 72°44'09\" O. )",
+      "nom": "Lac aux Aulnes",
+      "nom_search": "lac aux aulnes 48 55 20 n 72 44 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Aulnes",
+      "aliases": [
+        "aux aulnes",
+        "aux aulnes 48 55 20 n 72 44 09 o )",
+        "lac aux aulnes",
+        "lac aux aulnes 48 55 20 n 72 44 09 o )"
+      ],
+      "lat": 48.922222,
+      "lon": -72.735833
+    },
+    {
+      "id": 2113,
+      "zone_id": 32,
+      "nom_brut": "Lac aux Brochets ( 49°03'02\" N., 72°15'46\" O. )",
+      "nom": "Lac aux Brochets",
+      "nom_search": "lac aux brochets 49 03 02 n 72 15 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Brochets",
+      "aliases": [
+        "aux brochets",
+        "aux brochets 49 03 02 n 72 15 46 o )",
+        "lac aux brochets",
+        "lac aux brochets 49 03 02 n 72 15 46 o )"
+      ],
+      "lat": 49.050556,
+      "lon": -72.262778
+    },
+    {
+      "id": 11961,
+      "zone_id": 32,
+      "nom_brut": "Lac aux Foins ( 49°07'56\"N, 72°22'22\" O. )",
+      "nom": "Lac aux Foins",
+      "nom_search": "lac aux foins 49 07 56 n 72 22 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Foins",
+      "aliases": [
+        "aux foins",
+        "aux foins 49 07 56 n 72 22 22 o )",
+        "lac aux foins",
+        "lac aux foins 49 07 56 n 72 22 22 o )"
+      ],
+      "lat": 49.132222,
+      "lon": -72.372778
+    },
+    {
+      "id": 2071,
+      "zone_id": 32,
+      "nom_brut": "Lac aux Goélands ( 48°18'56\" N., 73°36'15\" O. )(canton Bonin)",
+      "nom": "Lac aux Goélands",
+      "nom_search": "lac aux goelands 48 18 56 n 73 36 15 o ) canton bonin)",
+      "segment_label": null,
+      "river_base_name": "Lac aux Goélands",
+      "aliases": [
+        "aux goelands",
+        "aux goelands 48 18 56 n 73 36 15 o ) canton bonin)",
+        "lac aux goelands",
+        "lac aux goelands 48 18 56 n 73 36 15 o ) canton bonin)"
+      ],
+      "lat": 48.315556,
+      "lon": -73.604167
+    },
+    {
+      "id": 10600,
+      "zone_id": 32,
+      "nom_brut": "Lac aux Hirondelles ( 50°00'54\" N., 70°23'29\" O. )",
+      "nom": "Lac aux Hirondelles",
+      "nom_search": "lac aux hirondelles 50 00 54 n 70 23 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Hirondelles",
+      "aliases": [
+        "aux hirondelles",
+        "aux hirondelles 50 00 54 n 70 23 29 o )",
+        "lac aux hirondelles",
+        "lac aux hirondelles 50 00 54 n 70 23 29 o )"
+      ],
+      "lat": 50.015,
+      "lon": -70.391389
+    },
+    {
+      "id": 2552,
+      "zone_id": 32,
+      "nom_brut": "Lac aux Oiseaux ( 49°27'51\" N., 72°03'14\" O. )",
+      "nom": "Lac aux Oiseaux",
+      "nom_search": "lac aux oiseaux 49 27 51 n 72 03 14 o )",
+      "segment_label": null,
+      "river_base_name": "Lac aux Oiseaux",
+      "aliases": [
+        "aux oiseaux",
+        "aux oiseaux 49 27 51 n 72 03 14 o )",
+        "lac aux oiseaux",
+        "lac aux oiseaux 49 27 51 n 72 03 14 o )"
+      ],
+      "lat": 49.464167,
+      "lon": -72.053889
+    },
+    {
+      "id": 2109,
+      "zone_id": 32,
+      "nom_brut": "Lac Bilodeau ( 48°43'46\" N., 71°12'50\" O. )",
+      "nom": "Lac Bilodeau",
+      "nom_search": "lac bilodeau 48 43 46 n 71 12 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bilodeau",
+      "aliases": [
+        "bilodeau",
+        "bilodeau 48 43 46 n 71 12 50 o )",
+        "lac bilodeau",
+        "lac bilodeau 48 43 46 n 71 12 50 o )"
+      ],
+      "lat": 48.729444,
+      "lon": -71.213889
+    },
+    {
+      "id": 2073,
+      "zone_id": 32,
+      "nom_brut": "Lac Bonin ( 48°16'26\" N., 73°39'25\" O. ) (canton Bonin)",
+      "nom": "Lac Bonin",
+      "nom_search": "lac bonin 48 16 26 n 73 39 25 o ) canton bonin)",
+      "segment_label": null,
+      "river_base_name": "Lac Bonin",
+      "aliases": [
+        "bonin",
+        "bonin 48 16 26 n 73 39 25 o ) canton bonin)",
+        "lac bonin",
+        "lac bonin 48 16 26 n 73 39 25 o ) canton bonin)"
+      ],
+      "lat": 48.273889,
+      "lon": -73.656944
+    },
+    {
+      "id": 2057,
+      "zone_id": 32,
+      "nom_brut": "Lac Bouchette ( 48°14'32\" N., 72°12'21\" O. )",
+      "nom": "Lac Bouchette",
+      "nom_search": "lac bouchette 48 14 32 n 72 12 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Bouchette",
+      "aliases": [
+        "bouchette",
+        "bouchette 48 14 32 n 72 12 21 o )",
+        "lac bouchette",
+        "lac bouchette 48 14 32 n 72 12 21 o )"
+      ],
+      "lat": 48.242222,
+      "lon": -72.205833
+    },
+    {
+      "id": 3146,
+      "zone_id": 32,
+      "nom_brut": "Lac Brunelle ( 48°14'20\" N., 73°21'25\" O. )",
+      "nom": "Lac Brunelle",
+      "nom_search": "lac brunelle 48 14 20 n 73 21 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Brunelle",
+      "aliases": [
+        "brunelle",
+        "brunelle 48 14 20 n 73 21 25 o )",
+        "lac brunelle",
+        "lac brunelle 48 14 20 n 73 21 25 o )"
+      ],
+      "lat": 48.238889,
+      "lon": -73.356944
+    },
+    {
+      "id": 3066,
+      "zone_id": 32,
+      "nom_brut": "Lac Caché ( 49°18'06\" N., 72°01'48\" O. )",
+      "nom": "Lac Caché",
+      "nom_search": "lac cache 49 18 06 n 72 01 48 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Caché",
+      "aliases": [
+        "cache",
+        "cache 49 18 06 n 72 01 48 o )",
+        "lac cache",
+        "lac cache 49 18 06 n 72 01 48 o )"
+      ],
+      "lat": 49.301667,
+      "lon": -72.03
+    },
+    {
+      "id": 3067,
+      "zone_id": 32,
+      "nom_brut": "Lac Carcajou ( 49°14'03\" N., 72°56'20\" O. )",
+      "nom": "Lac Carcajou",
+      "nom_search": "lac carcajou 49 14 03 n 72 56 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Carcajou",
+      "aliases": [
+        "carcajou",
+        "carcajou 49 14 03 n 72 56 20 o )",
+        "lac carcajou",
+        "lac carcajou 49 14 03 n 72 56 20 o )"
+      ],
+      "lat": 49.234167,
+      "lon": -72.938889
+    },
+    {
+      "id": 2027,
+      "zone_id": 32,
+      "nom_brut": "Lac Caribou ( 48°35'44\" N., 72°47'44\" O. )",
+      "nom": "Lac Caribou",
+      "nom_search": "lac caribou 48 35 44 n 72 47 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Caribou",
+      "aliases": [
+        "caribou",
+        "caribou 48 35 44 n 72 47 44 o )",
+        "lac caribou",
+        "lac caribou 48 35 44 n 72 47 44 o )"
+      ],
+      "lat": 48.595556,
+      "lon": -72.795556
+    },
+    {
+      "id": 2117,
+      "zone_id": 32,
+      "nom_brut": "Lac Cawachagami ( 48°55'55\" N., 72°44'13\" O. )",
+      "nom": "Lac Cawachagami",
+      "nom_search": "lac cawachagami 48 55 55 n 72 44 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cawachagami",
+      "aliases": [
+        "cawachagami",
+        "cawachagami 48 55 55 n 72 44 13 o )",
+        "lac cawachagami",
+        "lac cawachagami 48 55 55 n 72 44 13 o )"
+      ],
+      "lat": 48.931944,
+      "lon": -72.736944
+    },
+    {
+      "id": 10944,
+      "zone_id": 32,
+      "nom_brut": "Lac Cécile ( 48°21'02\" N., 73°06'20\" O. )",
+      "nom": "Lac Cécile",
+      "nom_search": "lac cecile 48 21 02 n 73 06 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cécile",
+      "aliases": [
+        "cecile",
+        "cecile 48 21 02 n 73 06 20 o )",
+        "lac cecile",
+        "lac cecile 48 21 02 n 73 06 20 o )"
+      ],
+      "lat": 48.350556,
+      "lon": -73.105556
+    },
+    {
+      "id": 2029,
+      "zone_id": 32,
+      "nom_brut": "Lac Ceinture ( 48°51'29\" N., 71°55'15\" O. )",
+      "nom": "Lac Ceinture",
+      "nom_search": "lac ceinture 48 51 29 n 71 55 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ceinture",
+      "aliases": [
+        "ceinture",
+        "ceinture 48 51 29 n 71 55 15 o )",
+        "lac ceinture",
+        "lac ceinture 48 51 29 n 71 55 15 o )"
+      ],
+      "lat": 48.858056,
+      "lon": -71.920833
+    },
+    {
+      "id": 3147,
+      "zone_id": 32,
+      "nom_brut": "Lac Chaumonot ( 47°58'34\" N., 72°48'21\" O. )",
+      "nom": "Lac Chaumonot",
+      "nom_search": "lac chaumonot 47 58 34 n 72 48 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chaumonot",
+      "aliases": [
+        "chaumonot",
+        "chaumonot 47 58 34 n 72 48 21 o )",
+        "lac chaumonot",
+        "lac chaumonot 47 58 34 n 72 48 21 o )"
+      ],
+      "lat": 47.976111,
+      "lon": -72.805833
+    },
+    {
+      "id": 2119,
+      "zone_id": 32,
+      "nom_brut": "Lac Chausson ( 49°25'15\" N., 71°50'18\" O. )",
+      "nom": "Lac Chausson",
+      "nom_search": "lac chausson 49 25 15 n 71 50 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Chausson",
+      "aliases": [
+        "chausson",
+        "chausson 49 25 15 n 71 50 18 o )",
+        "lac chausson",
+        "lac chausson 49 25 15 n 71 50 18 o )"
+      ],
+      "lat": 49.420833,
+      "lon": -71.838333
+    },
+    {
+      "id": 11361,
+      "zone_id": 32,
+      "nom_brut": "Lac Citron ( 48°54'00\" N., 71°49'50\" O. )",
+      "nom": "Lac Citron",
+      "nom_search": "lac citron 48 54 00 n 71 49 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Citron",
+      "aliases": [
+        "citron",
+        "citron 48 54 00 n 71 49 50 o )",
+        "lac citron",
+        "lac citron 48 54 00 n 71 49 50 o )"
+      ],
+      "lat": 48.9,
+      "lon": -71.830556
+    },
+    {
+      "id": 2031,
+      "zone_id": 32,
+      "nom_brut": "Lac Clairvaux ( 48°34'43\" N., 72°46'47\" O. )",
+      "nom": "Lac Clairvaux",
+      "nom_search": "lac clairvaux 48 34 43 n 72 46 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Clairvaux",
+      "aliases": [
+        "clairvaux",
+        "clairvaux 48 34 43 n 72 46 47 o )",
+        "lac clairvaux",
+        "lac clairvaux 48 34 43 n 72 46 47 o )"
+      ],
+      "lat": 48.578611,
+      "lon": -72.779722
+    },
+    {
+      "id": 10945,
+      "zone_id": 32,
+      "nom_brut": "Lac Connelly ( 49°19'01\" N., 71°57'54\" O. )",
+      "nom": "Lac Connelly",
+      "nom_search": "lac connelly 49 19 01 n 71 57 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Connelly",
+      "aliases": [
+        "connelly",
+        "connelly 49 19 01 n 71 57 54 o )",
+        "lac connelly",
+        "lac connelly 49 19 01 n 71 57 54 o )"
+      ],
+      "lat": 49.316944,
+      "lon": -71.965
+    },
+    {
+      "id": 2121,
+      "zone_id": 32,
+      "nom_brut": "Lac Creux ( 48°42'59\" N., 71°12'55\" O. )",
+      "nom": "Lac Creux",
+      "nom_search": "lac creux 48 42 59 n 71 12 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Creux",
+      "aliases": [
+        "creux",
+        "creux 48 42 59 n 71 12 55 o )",
+        "lac creux",
+        "lac creux 48 42 59 n 71 12 55 o )"
+      ],
+      "lat": 48.716389,
+      "lon": -71.215278
+    },
+    {
+      "id": 2123,
+      "zone_id": 32,
+      "nom_brut": "Lac Croche ( 48°58'58\" N., 72°40'52\" O. )",
+      "nom": "Lac Croche",
+      "nom_search": "lac croche 48 58 58 n 72 40 52 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Croche",
+      "aliases": [
+        "croche",
+        "croche 48 58 58 n 72 40 52 o )",
+        "lac croche",
+        "lac croche 48 58 58 n 72 40 52 o )"
+      ],
+      "lat": 48.982778,
+      "lon": -72.681111
+    },
+    {
+      "id": 3125,
+      "zone_id": 32,
+      "nom_brut": "Lac de l'Aqueduc ( 48°27'07\" N., 71°31'55\" O. , Municipalité de Larouche)",
+      "nom": "Lac de l'Aqueduc",
+      "nom_search": "lac de l aqueduc 48 27 07 n 71 31 55 o municipalite de larouche)",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Aqueduc",
+      "aliases": [
+        "de l aqueduc",
+        "de l aqueduc 48 27 07 n 71 31 55 o municipalite de larouche)",
+        "lac de l aqueduc",
+        "lac de l aqueduc 48 27 07 n 71 31 55 o municipalite de larouche)"
+      ],
+      "lat": 48.451944,
+      "lon": -71.531944
+    },
+    {
+      "id": 3079,
+      "zone_id": 32,
+      "nom_brut": "Lac de l'Aqueduc ( 48°40'30\" N., 71°20'12\" O. )",
+      "nom": "Lac de l'Aqueduc",
+      "nom_search": "lac de l aqueduc 48 40 30 n 71 20 12 o )",
+      "segment_label": null,
+      "river_base_name": "Lac de l'Aqueduc",
+      "aliases": [
+        "de l aqueduc",
+        "de l aqueduc 48 40 30 n 71 20 12 o )",
+        "lac de l aqueduc",
+        "lac de l aqueduc 48 40 30 n 71 20 12 o )"
+      ],
+      "lat": 48.675,
+      "lon": -71.336667
+    },
+    {
+      "id": 2034,
+      "zone_id": 32,
+      "nom_brut": "Lac Delaunière ( 48°57'56\" N., 72°35'40\" O. )",
+      "nom": "Lac Delaunière",
+      "nom_search": "lac delauniere 48 57 56 n 72 35 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Delaunière",
+      "aliases": [
+        "delauniere",
+        "delauniere 48 57 56 n 72 35 40 o )",
+        "lac delauniere",
+        "lac delauniere 48 57 56 n 72 35 40 o )"
+      ],
+      "lat": 48.965556,
+      "lon": -72.594444
+    },
+    {
+      "id": 3068,
+      "zone_id": 32,
+      "nom_brut": "Lac des Amarantes ( 48°56'12\" N., 74°09'29\" O. )",
+      "nom": "Lac des Amarantes",
+      "nom_search": "lac des amarantes 48 56 12 n 74 09 29 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Amarantes",
+      "aliases": [
+        "des amarantes",
+        "des amarantes 48 56 12 n 74 09 29 o )",
+        "lac des amarantes",
+        "lac des amarantes 48 56 12 n 74 09 29 o )"
+      ],
+      "lat": 48.936667,
+      "lon": -74.158056
+    },
+    {
+      "id": 3080,
+      "zone_id": 32,
+      "nom_brut": "Lac des Commissaires ( 48°11'14\" N., 72°15'51\" O. )",
+      "nom": "Lac des Commissaires",
+      "nom_search": "lac des commissaires 48 11 14 n 72 15 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Commissaires",
+      "aliases": [
+        "des commissaires",
+        "des commissaires 48 11 14 n 72 15 51 o )",
+        "lac des commissaires",
+        "lac des commissaires 48 11 14 n 72 15 51 o )"
+      ],
+      "lat": 48.187222,
+      "lon": -72.264167
+    },
+    {
+      "id": 3069,
+      "zone_id": 32,
+      "nom_brut": "Lac des Coudes ( 49°03'35\" N., 72°37'45\" O. )",
+      "nom": "Lac des Coudes",
+      "nom_search": "lac des coudes 49 03 35 n 72 37 45 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Coudes",
+      "aliases": [
+        "des coudes",
+        "des coudes 49 03 35 n 72 37 45 o )",
+        "lac des coudes",
+        "lac des coudes 49 03 35 n 72 37 45 o )"
+      ],
+      "lat": 49.059722,
+      "lon": -72.629167
+    },
+    {
+      "id": 3070,
+      "zone_id": 32,
+      "nom_brut": "Lac des Habitants ( 48°47'50\" N., 71°24'50\" O. )",
+      "nom": "Lac des Habitants",
+      "nom_search": "lac des habitants 48 47 50 n 71 24 50 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Habitants",
+      "aliases": [
+        "des habitants",
+        "des habitants 48 47 50 n 71 24 50 o )",
+        "lac des habitants",
+        "lac des habitants 48 47 50 n 71 24 50 o )"
+      ],
+      "lat": 48.797222,
+      "lon": -71.413889
+    },
+    {
+      "id": 2168,
+      "zone_id": 32,
+      "nom_brut": "Lac du Coin - La partie entre son émissaire, au point de rencontre avec le chemin forestier longeant la rivière aux Sables et les deux tuyaux de béton situés en amont ( 48°49'14\" N., 70°33'56\" O. ).",
+      "nom": "Lac du Coin - La partie entre son émissaire, au point de rencontre avec le chemin forestier longeant la rivière aux Sables et les deux tuyaux de béton situés en amont",
+      "nom_search": "lac du coin la partie entre son emissaire au point de rencontre avec le chemin forestier longeant la riviere aux sables et les deux tuyaux de beton situes en amont 48 49 14 n 70 33 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Coin",
+      "aliases": [
+        "du coin",
+        "du coin la partie entre son emissaire au point de rencontre avec le chemin forestier longeant la riviere aux sables et les deux tuyaux de beton situes en amont 48 49 14 n 70 33 56 o )",
+        "lac du coin",
+        "lac du coin la partie entre son emissaire au point de rencontre avec le chemin forestier longeant la riviere aux sables et les deux tuyaux de beton situes en amont 48 49 14 n 70 33 56 o )"
+      ],
+      "lat": 48.820556,
+      "lon": -70.565556
+    },
+    {
+      "id": 3157,
+      "zone_id": 32,
+      "nom_brut": "Lac du Dépôt ( 49°03'59\" N., 72°02'09\" O. )",
+      "nom": "Lac du Dépôt",
+      "nom_search": "lac du depot 49 03 59 n 72 02 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Dépôt",
+      "aliases": [
+        "du depot",
+        "du depot 49 03 59 n 72 02 09 o )",
+        "lac du depot",
+        "lac du depot 49 03 59 n 72 02 09 o )"
+      ],
+      "lat": 49.066389,
+      "lon": -72.035833
+    },
+    {
+      "id": 3145,
+      "zone_id": 32,
+      "nom_brut": "Lac du Goéland ( 49°47'22\" N., 71°40'47\" O. )",
+      "nom": "Lac du Goéland",
+      "nom_search": "lac du goeland 49 47 22 n 71 40 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Goéland",
+      "aliases": [
+        "du goeland",
+        "du goeland 49 47 22 n 71 40 47 o )",
+        "lac du goeland",
+        "lac du goeland 49 47 22 n 71 40 47 o )"
+      ],
+      "lat": 49.789444,
+      "lon": -71.679722
+    },
+    {
+      "id": 10943,
+      "zone_id": 32,
+      "nom_brut": "Lac du Nylon ( 48°41'04\" N., 73°30'09\" O. )",
+      "nom": "Lac du Nylon",
+      "nom_search": "lac du nylon 48 41 04 n 73 30 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Nylon",
+      "aliases": [
+        "du nylon",
+        "du nylon 48 41 04 n 73 30 09 o )",
+        "lac du nylon",
+        "lac du nylon 48 41 04 n 73 30 09 o )"
+      ],
+      "lat": 48.684444,
+      "lon": -73.5025
+    },
+    {
+      "id": 3071,
+      "zone_id": 32,
+      "nom_brut": "Lac du Petit Bras ( 48°37'02\" N., 71°30'09\" O. )",
+      "nom": "Lac du Petit Bras",
+      "nom_search": "lac du petit bras 48 37 02 n 71 30 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac du Petit Bras",
+      "aliases": [
+        "du petit bras",
+        "du petit bras 48 37 02 n 71 30 09 o )",
+        "lac du petit bras",
+        "lac du petit bras 48 37 02 n 71 30 09 o )"
+      ],
+      "lat": 48.617222,
+      "lon": -71.5025
+    },
+    {
+      "id": 10940,
+      "zone_id": 32,
+      "nom_brut": "Lac Dulain ( 49°45'06\" N., 71°34'40\" O. )",
+      "nom": "Lac Dulain",
+      "nom_search": "lac dulain 49 45 06 n 71 34 40 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Dulain",
+      "aliases": [
+        "dulain",
+        "dulain 49 45 06 n 71 34 40 o )",
+        "lac dulain",
+        "lac dulain 49 45 06 n 71 34 40 o )"
+      ],
+      "lat": 49.751667,
+      "lon": -71.577778
+    },
+    {
+      "id": 2036,
+      "zone_id": 32,
+      "nom_brut": "Lac Émile ( 48°38'36\" N., 73°16'56\" O. )",
+      "nom": "Lac Émile",
+      "nom_search": "lac emile 48 38 36 n 73 16 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Émile",
+      "aliases": [
+        "emile",
+        "emile 48 38 36 n 73 16 56 o )",
+        "lac emile",
+        "lac emile 48 38 36 n 73 16 56 o )"
+      ],
+      "lat": 48.643333,
+      "lon": -73.282222
+    },
+    {
+      "id": 3199,
+      "zone_id": 32,
+      "nom_brut": "Lac Estaire ( 48°19'16\" N., 71°50'30\" O. )",
+      "nom": "Lac Estaire",
+      "nom_search": "lac estaire 48 19 16 n 71 50 30 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Estaire",
+      "aliases": [
+        "estaire",
+        "estaire 48 19 16 n 71 50 30 o )",
+        "lac estaire",
+        "lac estaire 48 19 16 n 71 50 30 o )"
+      ],
+      "lat": 48.321111,
+      "lon": -71.841667
+    },
+    {
+      "id": 3200,
+      "zone_id": 32,
+      "nom_brut": "Lac Falardeau ( 49°08'19\" N., 72°26'41\" O. )",
+      "nom": "Lac Falardeau",
+      "nom_search": "lac falardeau 49 08 19 n 72 26 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Falardeau",
+      "aliases": [
+        "falardeau",
+        "falardeau 49 08 19 n 72 26 41 o )",
+        "lac falardeau",
+        "lac falardeau 49 08 19 n 72 26 41 o )"
+      ],
+      "lat": 49.138611,
+      "lon": -72.444722
+    },
+    {
+      "id": 10922,
+      "zone_id": 32,
+      "nom_brut": "Lac Gaston ( 48°30'25\" N., 73°24'15\" O. )",
+      "nom": "Lac Gaston",
+      "nom_search": "lac gaston 48 30 25 n 73 24 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gaston",
+      "aliases": [
+        "gaston",
+        "gaston 48 30 25 n 73 24 15 o )",
+        "lac gaston",
+        "lac gaston 48 30 25 n 73 24 15 o )"
+      ],
+      "lat": 48.506944,
+      "lon": -73.404167
+    },
+    {
+      "id": 10950,
+      "zone_id": 32,
+      "nom_brut": "Lac Gilbert ( 48°27'58\" N., 73°24'36\" O. )",
+      "nom": "Lac Gilbert",
+      "nom_search": "lac gilbert 48 27 58 n 73 24 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gilbert",
+      "aliases": [
+        "gilbert",
+        "gilbert 48 27 58 n 73 24 36 o )",
+        "lac gilbert",
+        "lac gilbert 48 27 58 n 73 24 36 o )"
+      ],
+      "lat": 48.466111,
+      "lon": -73.41
+    },
+    {
+      "id": 10946,
+      "zone_id": 32,
+      "nom_brut": "Lac Gouin ( 49°32'30\" N., 70°14'22\" O. )",
+      "nom": "Lac Gouin",
+      "nom_search": "lac gouin 49 32 30 n 70 14 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gouin",
+      "aliases": [
+        "gouin",
+        "gouin 49 32 30 n 70 14 22 o )",
+        "lac gouin",
+        "lac gouin 49 32 30 n 70 14 22 o )"
+      ],
+      "lat": 49.541667,
+      "lon": -70.239444
+    },
+    {
+      "id": 2128,
+      "zone_id": 32,
+      "nom_brut": "Lac Grand Brochet ( 49°05'14\" N., 72°29'51\" O. )",
+      "nom": "Lac Grand Brochet",
+      "nom_search": "lac grand brochet 49 05 14 n 72 29 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand Brochet",
+      "aliases": [
+        "grand brochet",
+        "grand brochet 49 05 14 n 72 29 51 o )",
+        "lac grand brochet",
+        "lac grand brochet 49 05 14 n 72 29 51 o )"
+      ],
+      "lat": 49.087222,
+      "lon": -72.4975
+    },
+    {
+      "id": 2040,
+      "zone_id": 32,
+      "nom_brut": "Lac Grand lac Clair ( 49°01'35\" N., 73°02'18\" O. )",
+      "nom": "Lac Grand lac Clair",
+      "nom_search": "lac grand lac clair 49 01 35 n 73 02 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Grand lac Clair",
+      "aliases": [
+        "grand lac clair",
+        "grand lac clair 49 01 35 n 73 02 18 o )",
+        "lac grand lac clair",
+        "lac grand lac clair 49 01 35 n 73 02 18 o )"
+      ],
+      "lat": 49.026389,
+      "lon": -73.038333
+    },
+    {
+      "id": 3153,
+      "zone_id": 32,
+      "nom_brut": "Lac Gronick ( 49°06'24\" N., 72°59'17\" O. )",
+      "nom": "Lac Gronick",
+      "nom_search": "lac gronick 49 06 24 n 72 59 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Gronick",
+      "aliases": [
+        "gronick",
+        "gronick 49 06 24 n 72 59 17 o )",
+        "lac gronick",
+        "lac gronick 49 06 24 n 72 59 17 o )"
+      ],
+      "lat": 49.106667,
+      "lon": -72.988056
+    },
+    {
+      "id": 10948,
+      "zone_id": 32,
+      "nom_brut": "Lac Kapahkueshikanapishkatsh ( 49°33'04\" N., 72°44'20\" O. )",
+      "nom": "Lac Kapahkueshikanapishkatsh",
+      "nom_search": "lac kapahkueshikanapishkatsh 49 33 04 n 72 44 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kapahkueshikanapishkatsh",
+      "aliases": [
+        "kapahkueshikanapishkatsh",
+        "kapahkueshikanapishkatsh 49 33 04 n 72 44 20 o )",
+        "lac kapahkueshikanapishkatsh",
+        "lac kapahkueshikanapishkatsh 49 33 04 n 72 44 20 o )"
+      ],
+      "lat": 49.551111,
+      "lon": -72.738889
+    },
+    {
+      "id": 11921,
+      "zone_id": 32,
+      "nom_brut": "Lac Kapapameutanu ( 49°26'06\" N., 72°46'34\" O. )",
+      "nom": "Lac Kapapameutanu",
+      "nom_search": "lac kapapameutanu 49 26 06 n 72 46 34 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kapapameutanu",
+      "aliases": [
+        "kapapameutanu",
+        "kapapameutanu 49 26 06 n 72 46 34 o )",
+        "lac kapapameutanu",
+        "lac kapapameutanu 49 26 06 n 72 46 34 o )"
+      ],
+      "lat": 49.435,
+      "lon": -72.776111
+    },
+    {
+      "id": 3158,
+      "zone_id": 32,
+      "nom_brut": "Lac Kauashekamatsh ( 49°51'40\" N., 71°17'46\" O. )",
+      "nom": "Lac Kauashekamatsh",
+      "nom_search": "lac kauashekamatsh 49 51 40 n 71 17 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kauashekamatsh",
+      "aliases": [
+        "kauashekamatsh",
+        "kauashekamatsh 49 51 40 n 71 17 46 o )",
+        "lac kauashekamatsh",
+        "lac kauashekamatsh 49 51 40 n 71 17 46 o )"
+      ],
+      "lat": 49.861111,
+      "lon": -71.296111
+    },
+    {
+      "id": 2160,
+      "zone_id": 32,
+      "nom_brut": "Lac Kénogami ( 48°19'36\" N., 71°22'36\" O. )",
+      "nom": "Lac Kénogami",
+      "nom_search": "lac kenogami 48 19 36 n 71 22 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kénogami",
+      "aliases": [
+        "kenogami",
+        "kenogami 48 19 36 n 71 22 36 o )",
+        "lac kenogami",
+        "lac kenogami 48 19 36 n 71 22 36 o )"
+      ],
+      "lat": 48.326667,
+      "lon": -71.376667
+    },
+    {
+      "id": 2161,
+      "zone_id": 32,
+      "nom_brut": "Lac Kénogami ( 48°19'36\" N., 71°22'36\" O. ) ses tributaires, à l'exception des tributaires Pikauba et Cyriac.",
+      "nom": "Lac Kénogami",
+      "nom_search": "lac kenogami 48 19 36 n 71 22 36 o ) ses tributaires a l exception des tributaires pikauba et cyriac",
+      "segment_label": null,
+      "river_base_name": "Lac Kénogami",
+      "aliases": [
+        "kenogami",
+        "kenogami 48 19 36 n 71 22 36 o ) ses tributaires a l exception des tributaires pikauba et cyriac",
+        "lac kenogami",
+        "lac kenogami 48 19 36 n 71 22 36 o ) ses tributaires a l exception des tributaires pikauba et cyriac"
+      ],
+      "lat": 48.326667,
+      "lon": -71.376667
+    },
+    {
+      "id": 3081,
+      "zone_id": 32,
+      "nom_brut": "Lac Kénogamichiche ( 48°22'05\" N., 71°36'05\" O. )",
+      "nom": "Lac Kénogamichiche",
+      "nom_search": "lac kenogamichiche 48 22 05 n 71 36 05 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Kénogamichiche",
+      "aliases": [
+        "kenogamichiche",
+        "kenogamichiche 48 22 05 n 71 36 05 o )",
+        "lac kenogamichiche",
+        "lac kenogamichiche 48 22 05 n 71 36 05 o )"
+      ],
+      "lat": 48.368056,
+      "lon": -71.601389
+    },
+    {
+      "id": 3074,
+      "zone_id": 32,
+      "nom_brut": "Lac La Mothe (Réservoir) ( 48°47'03\" N., 71°09'17\" O. )",
+      "nom": "Lac La Mothe",
+      "nom_search": "lac la mothe reservoir) 48 47 03 n 71 09 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac La Mothe",
+      "aliases": [
+        "la mothe",
+        "la mothe reservoir) 48 47 03 n 71 09 17 o )",
+        "lac la mothe",
+        "lac la mothe reservoir) 48 47 03 n 71 09 17 o )"
+      ],
+      "lat": 48.784167,
+      "lon": -71.154722
+    },
+    {
+      "id": 3073,
+      "zone_id": 32,
+      "nom_brut": "Lac Labonté ( 48°35'28\" N., 71°26'44\" O. )",
+      "nom": "Lac Labonté",
+      "nom_search": "lac labonte 48 35 28 n 71 26 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Labonté",
+      "aliases": [
+        "labonte",
+        "labonte 48 35 28 n 71 26 44 o )",
+        "lac labonte",
+        "lac labonte 48 35 28 n 71 26 44 o )"
+      ],
+      "lat": 48.591111,
+      "lon": -71.445556
+    },
+    {
+      "id": 2133,
+      "zone_id": 32,
+      "nom_brut": "Lac Labrecque ( 48°40'52\" N., 71°29'39\" O. )",
+      "nom": "Lac Labrecque",
+      "nom_search": "lac labrecque 48 40 52 n 71 29 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Labrecque",
+      "aliases": [
+        "labrecque",
+        "labrecque 48 40 52 n 71 29 39 o )",
+        "lac labrecque",
+        "lac labrecque 48 40 52 n 71 29 39 o )"
+      ],
+      "lat": 48.681111,
+      "lon": -71.494167
+    },
+    {
+      "id": 2550,
+      "zone_id": 32,
+      "nom_brut": "Lac Le Barrois ( 48°35'47\" N., 72°52'16\" O. )",
+      "nom": "Lac Le Barrois",
+      "nom_search": "lac le barrois 48 35 47 n 72 52 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Le Barrois",
+      "aliases": [
+        "lac le barrois",
+        "lac le barrois 48 35 47 n 72 52 16 o )",
+        "le barrois",
+        "le barrois 48 35 47 n 72 52 16 o )"
+      ],
+      "lat": 48.596389,
+      "lon": -72.871111
+    },
+    {
+      "id": 2135,
+      "zone_id": 32,
+      "nom_brut": "Lac Loup Cervier ( 49°04'55\" N., 72°27'15\" O. )",
+      "nom": "Lac Loup Cervier",
+      "nom_search": "lac loup cervier 49 04 55 n 72 27 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Loup Cervier",
+      "aliases": [
+        "lac loup cervier",
+        "lac loup cervier 49 04 55 n 72 27 15 o )",
+        "loup cervier",
+        "loup cervier 49 04 55 n 72 27 15 o )"
+      ],
+      "lat": 49.081944,
+      "lon": -72.454167
+    },
+    {
+      "id": 10947,
+      "zone_id": 32,
+      "nom_brut": "Lac Malfait ( 49°19'03\" N., 72°02'46\" O. )",
+      "nom": "Lac Malfait",
+      "nom_search": "lac malfait 49 19 03 n 72 02 46 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Malfait",
+      "aliases": [
+        "lac malfait",
+        "lac malfait 49 19 03 n 72 02 46 o )",
+        "malfait",
+        "malfait 49 19 03 n 72 02 46 o )"
+      ],
+      "lat": 49.3175,
+      "lon": -72.046111
+    },
+    {
+      "id": 3075,
+      "zone_id": 32,
+      "nom_brut": "Lac Margane ( 49°56'33\" N., 71°07'16\" O. )",
+      "nom": "Lac Margane",
+      "nom_search": "lac margane 49 56 33 n 71 07 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Margane",
+      "aliases": [
+        "lac margane",
+        "lac margane 49 56 33 n 71 07 16 o )",
+        "margane",
+        "margane 49 56 33 n 71 07 16 o )"
+      ],
+      "lat": 49.9425,
+      "lon": -71.121111
+    },
+    {
+      "id": 3082,
+      "zone_id": 32,
+      "nom_brut": "Lac Marie-Paule ( 49°29'26\" N., 71°12'02\" O. )",
+      "nom": "Lac Marie-Paule",
+      "nom_search": "lac marie paule 49 29 26 n 71 12 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Marie-Paule",
+      "aliases": [
+        "lac marie paule",
+        "lac marie paule 49 29 26 n 71 12 02 o )",
+        "marie paule",
+        "marie paule 49 29 26 n 71 12 02 o )"
+      ],
+      "lat": 49.490556,
+      "lon": -71.200556
+    },
+    {
+      "id": 3148,
+      "zone_id": 32,
+      "nom_brut": "Lac Martel ( 48°05'11\" N., 73°07'08\" O. )",
+      "nom": "Lac Martel",
+      "nom_search": "lac martel 48 05 11 n 73 07 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Martel",
+      "aliases": [
+        "lac martel",
+        "lac martel 48 05 11 n 73 07 08 o )",
+        "martel",
+        "martel 48 05 11 n 73 07 08 o )"
+      ],
+      "lat": 48.086389,
+      "lon": -73.118889
+    },
+    {
+      "id": 11922,
+      "zone_id": 32,
+      "nom_brut": "Lac Mathieu ( 49°07'49\" N., 72°21'35\" O. )",
+      "nom": "Lac Mathieu",
+      "nom_search": "lac mathieu 49 07 49 n 72 21 35 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Mathieu",
+      "aliases": [
+        "lac mathieu",
+        "lac mathieu 49 07 49 n 72 21 35 o )",
+        "mathieu",
+        "mathieu 49 07 49 n 72 21 35 o )"
+      ],
+      "lat": 49.130278,
+      "lon": -72.359722
+    },
+    {
+      "id": 10620,
+      "zone_id": 32,
+      "nom_brut": "Lac Ménicanane ( 48°16'43\" N., 73°33'36\" O. )",
+      "nom": "Lac Ménicanane",
+      "nom_search": "lac menicanane 48 16 43 n 73 33 36 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ménicanane",
+      "aliases": [
+        "lac menicanane",
+        "lac menicanane 48 16 43 n 73 33 36 o )",
+        "menicanane",
+        "menicanane 48 16 43 n 73 33 36 o )"
+      ],
+      "lat": 48.278611,
+      "lon": -73.56
+    },
+    {
+      "id": 3076,
+      "zone_id": 32,
+      "nom_brut": "Lac Montréal ( 49°04'22\" N., 72°54'44\" O. )",
+      "nom": "Lac Montréal",
+      "nom_search": "lac montreal 49 04 22 n 72 54 44 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Montréal",
+      "aliases": [
+        "lac montreal",
+        "lac montreal 49 04 22 n 72 54 44 o )",
+        "montreal",
+        "montreal 49 04 22 n 72 54 44 o )"
+      ],
+      "lat": 49.072778,
+      "lon": -72.912222
+    },
+    {
+      "id": 2139,
+      "zone_id": 32,
+      "nom_brut": "Lac Noir ( 49°01'37\" N., 72°00'32\" O. )",
+      "nom": "Lac Noir",
+      "nom_search": "lac noir 49 01 37 n 72 00 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Noir",
+      "aliases": [
+        "lac noir",
+        "lac noir 49 01 37 n 72 00 32 o )",
+        "noir",
+        "noir 49 01 37 n 72 00 32 o )"
+      ],
+      "lat": 49.026944,
+      "lon": -72.008889
+    },
+    {
+      "id": 10640,
+      "zone_id": 32,
+      "nom_brut": "Lac Onatchiway ( 49°02'28\" N., 71°03'23\" O. )",
+      "nom": "Lac Onatchiway",
+      "nom_search": "lac onatchiway 49 02 28 n 71 03 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Onatchiway",
+      "aliases": [
+        "lac onatchiway",
+        "lac onatchiway 49 02 28 n 71 03 23 o )",
+        "onatchiway",
+        "onatchiway 49 02 28 n 71 03 23 o )"
+      ],
+      "lat": 49.041111,
+      "lon": -71.056389
+    },
+    {
+      "id": 12220,
+      "zone_id": 32,
+      "nom_brut": "Lac Otis ( 48°18'22\" N., 70°39'06\" O. )",
+      "nom": "Lac Otis",
+      "nom_search": "lac otis 48 18 22 n 70 39 06 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Otis",
+      "aliases": [
+        "lac otis",
+        "lac otis 48 18 22 n 70 39 06 o )",
+        "otis",
+        "otis 48 18 22 n 70 39 06 o )"
+      ],
+      "lat": 48.306111,
+      "lon": -70.651667
+    },
+    {
+      "id": 3095,
+      "zone_id": 32,
+      "nom_brut": "Lac Ouiatchouan ( 48°16'18\" N., 72°11'02\" O. )",
+      "nom": "Lac Ouiatchouan",
+      "nom_search": "lac ouiatchouan 48 16 18 n 72 11 02 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ouiatchouan",
+      "aliases": [
+        "lac ouiatchouan",
+        "lac ouiatchouan 48 16 18 n 72 11 02 o )",
+        "ouiatchouan",
+        "ouiatchouan 48 16 18 n 72 11 02 o )"
+      ],
+      "lat": 48.271667,
+      "lon": -72.183889
+    },
+    {
+      "id": 3150,
+      "zone_id": 32,
+      "nom_brut": "Lac Ouinégomic ( 47°56'43\" N., 73°13'59\" O. )",
+      "nom": "Lac Ouinégomic",
+      "nom_search": "lac ouinegomic 47 56 43 n 73 13 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ouinégomic",
+      "aliases": [
+        "lac ouinegomic",
+        "lac ouinegomic 47 56 43 n 73 13 59 o )",
+        "ouinegomic",
+        "ouinegomic 47 56 43 n 73 13 59 o )"
+      ],
+      "lat": 47.945278,
+      "lon": -73.233056
+    },
+    {
+      "id": 10952,
+      "zone_id": 32,
+      "nom_brut": "Lac Pamouscachiou ( 49°27'00\" N., 70°54'00\" O. )",
+      "nom": "Lac Pamouscachiou",
+      "nom_search": "lac pamouscachiou 49 27 00 n 70 54 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pamouscachiou",
+      "aliases": [
+        "lac pamouscachiou",
+        "lac pamouscachiou 49 27 00 n 70 54 00 o )",
+        "pamouscachiou",
+        "pamouscachiou 49 27 00 n 70 54 00 o )"
+      ],
+      "lat": 49.45,
+      "lon": -70.9
+    },
+    {
+      "id": 2141,
+      "zone_id": 32,
+      "nom_brut": "Lac Paré ( 48°57'21\" N., 72°37'16\" O. )",
+      "nom": "Lac Paré",
+      "nom_search": "lac pare 48 57 21 n 72 37 16 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Paré",
+      "aliases": [
+        "lac pare",
+        "lac pare 48 57 21 n 72 37 16 o )",
+        "pare",
+        "pare 48 57 21 n 72 37 16 o )"
+      ],
+      "lat": 48.955833,
+      "lon": -72.621111
+    },
+    {
+      "id": 2145,
+      "zone_id": 32,
+      "nom_brut": "Lac Pelletier ( 49°27'57\" N., 72°01'15\" O. )",
+      "nom": "Lac Pelletier",
+      "nom_search": "lac pelletier 49 27 57 n 72 01 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pelletier",
+      "aliases": [
+        "lac pelletier",
+        "lac pelletier 49 27 57 n 72 01 15 o )",
+        "pelletier",
+        "pelletier 49 27 57 n 72 01 15 o )"
+      ],
+      "lat": 49.465833,
+      "lon": -72.020833
+    },
+    {
+      "id": 12221,
+      "zone_id": 32,
+      "nom_brut": "Lac Périgny ( 48°12'56\"N., 70°28'13\" O. )",
+      "nom": "Lac Périgny",
+      "nom_search": "lac perigny 48 12 56 n 70 28 13 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Périgny",
+      "aliases": [
+        "lac perigny",
+        "lac perigny 48 12 56 n 70 28 13 o )",
+        "perigny",
+        "perigny 48 12 56 n 70 28 13 o )"
+      ],
+      "lat": 48.215556,
+      "lon": -70.470278
+    },
+    {
+      "id": 12720,
+      "zone_id": 32,
+      "nom_brut": "Lac Petit lac Éternité ( 48°13'58\" N., 70°28'32\" O. )",
+      "nom": "Lac Petit lac Éternité",
+      "nom_search": "lac petit lac eternite 48 13 58 n 70 28 32 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Éternité",
+      "aliases": [
+        "lac petit lac eternite",
+        "lac petit lac eternite 48 13 58 n 70 28 32 o )",
+        "petit lac eternite",
+        "petit lac eternite 48 13 58 n 70 28 32 o )"
+      ],
+      "lat": 48.232778,
+      "lon": -70.475556
+    },
+    {
+      "id": 10621,
+      "zone_id": 32,
+      "nom_brut": "Lac Petit lac Monikanan Ouest ( 48°14'22\" N., 73°32'28\" O. )",
+      "nom": "Lac Petit lac Monikanan Ouest",
+      "nom_search": "lac petit lac monikanan ouest 48 14 22 n 73 32 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Monikanan Ouest",
+      "aliases": [
+        "lac petit lac monikanan ouest",
+        "lac petit lac monikanan ouest 48 14 22 n 73 32 28 o )",
+        "petit lac monikanan ouest",
+        "petit lac monikanan ouest 48 14 22 n 73 32 28 o )"
+      ],
+      "lat": 48.239444,
+      "lon": -73.541111
+    },
+    {
+      "id": 10920,
+      "zone_id": 32,
+      "nom_brut": "Lac Petit lac Onatchiway ( 49°06'59\" N., 71°01'59\" O. )",
+      "nom": "Lac Petit lac Onatchiway",
+      "nom_search": "lac petit lac onatchiway 49 06 59 n 71 01 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Onatchiway",
+      "aliases": [
+        "lac petit lac onatchiway",
+        "lac petit lac onatchiway 49 06 59 n 71 01 59 o )",
+        "petit lac onatchiway",
+        "petit lac onatchiway 49 06 59 n 71 01 59 o )"
+      ],
+      "lat": 49.116389,
+      "lon": -71.033056
+    },
+    {
+      "id": 2143,
+      "zone_id": 32,
+      "nom_brut": "Lac Petit lac Savard ( 49°12'45\" N., 71°56'39\" O. )",
+      "nom": "Lac Petit lac Savard",
+      "nom_search": "lac petit lac savard 49 12 45 n 71 56 39 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Petit lac Savard",
+      "aliases": [
+        "lac petit lac savard",
+        "lac petit lac savard 49 12 45 n 71 56 39 o )",
+        "petit lac savard",
+        "petit lac savard 49 12 45 n 71 56 39 o )"
+      ],
+      "lat": 49.2125,
+      "lon": -71.944167
+    },
+    {
+      "id": 3077,
+      "zone_id": 32,
+      "nom_brut": "Lac Pileushiu ( 49°26'44\" N., 72°50'04\" O. )",
+      "nom": "Lac Pileushiu",
+      "nom_search": "lac pileushiu 49 26 44 n 72 50 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Pileushiu",
+      "aliases": [
+        "lac pileushiu",
+        "lac pileushiu 49 26 44 n 72 50 04 o )",
+        "pileushiu",
+        "pileushiu 49 26 44 n 72 50 04 o )"
+      ],
+      "lat": 49.445556,
+      "lon": -72.834444
+    },
+    {
+      "id": 10949,
+      "zone_id": 32,
+      "nom_brut": "Lac Poisson blanc ( 49°04'56\" N., 71°04'56\" O. )",
+      "nom": "Lac Poisson blanc",
+      "nom_search": "lac poisson blanc 49 04 56 n 71 04 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Poisson blanc",
+      "aliases": [
+        "lac poisson blanc",
+        "lac poisson blanc 49 04 56 n 71 04 56 o )",
+        "poisson blanc",
+        "poisson blanc 49 04 56 n 71 04 56 o )"
+      ],
+      "lat": 49.082222,
+      "lon": -71.082222
+    },
+    {
+      "id": 2047,
+      "zone_id": 32,
+      "nom_brut": "Lac Potvin ( 48°37'45\" N., 73°08'59\" O. )",
+      "nom": "Lac Potvin",
+      "nom_search": "lac potvin 48 37 45 n 73 08 59 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Potvin",
+      "aliases": [
+        "lac potvin",
+        "lac potvin 48 37 45 n 73 08 59 o )",
+        "potvin",
+        "potvin 48 37 45 n 73 08 59 o )"
+      ],
+      "lat": 48.629167,
+      "lon": -73.149722
+    },
+    {
+      "id": 11923,
+      "zone_id": 32,
+      "nom_brut": "Lac Rhéaume ( 47°53'18\" N., 73°24'25\" O. )",
+      "nom": "Lac Rhéaume",
+      "nom_search": "lac rheaume 47 53 18 n 73 24 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rhéaume",
+      "aliases": [
+        "lac rheaume",
+        "lac rheaume 47 53 18 n 73 24 25 o )",
+        "rheaume",
+        "rheaume 47 53 18 n 73 24 25 o )"
+      ],
+      "lat": 47.888333,
+      "lon": -73.406944
+    },
+    {
+      "id": 2083,
+      "zone_id": 32,
+      "nom_brut": "Lac Rita ( 48°12'57\" N., 73°23'47\" O. )",
+      "nom": "Lac Rita",
+      "nom_search": "lac rita 48 12 57 n 73 23 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rita",
+      "aliases": [
+        "lac rita",
+        "lac rita 48 12 57 n 73 23 47 o )",
+        "rita",
+        "rita 48 12 57 n 73 23 47 o )"
+      ],
+      "lat": 48.215833,
+      "lon": -73.396389
+    },
+    {
+      "id": 2049,
+      "zone_id": 32,
+      "nom_brut": "Lac Rita ( 49°29'31\" N., 71°13'07\" O. )",
+      "nom": "Lac Rita",
+      "nom_search": "lac rita 49 29 31 n 71 13 07 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rita",
+      "aliases": [
+        "lac rita",
+        "lac rita 49 29 31 n 71 13 07 o )",
+        "rita",
+        "rita 49 29 31 n 71 13 07 o )"
+      ],
+      "lat": 49.491944,
+      "lon": -71.218611
+    },
+    {
+      "id": 2150,
+      "zone_id": 32,
+      "nom_brut": "Lac Rivaille ( 49°31'21\" N., 71°53'25\" O. )",
+      "nom": "Lac Rivaille",
+      "nom_search": "lac rivaille 49 31 21 n 71 53 25 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rivaille",
+      "aliases": [
+        "lac rivaille",
+        "lac rivaille 49 31 21 n 71 53 25 o )",
+        "rivaille",
+        "rivaille 49 31 21 n 71 53 25 o )"
+      ],
+      "lat": 49.5225,
+      "lon": -71.890278
+    },
+    {
+      "id": 10941,
+      "zone_id": 32,
+      "nom_brut": "Lac Rond ( 49°25'12\" N., 72°58'47\" O. )",
+      "nom": "Lac Rond",
+      "nom_search": "lac rond 49 25 12 n 72 58 47 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rond",
+      "aliases": [
+        "lac rond",
+        "lac rond 49 25 12 n 72 58 47 o )",
+        "rond",
+        "rond 49 25 12 n 72 58 47 o )"
+      ],
+      "lat": 49.42,
+      "lon": -72.979722
+    },
+    {
+      "id": 2163,
+      "zone_id": 32,
+      "nom_brut": "Lac Rond ( 48°22'35\" N., 72°20'00\" O. ) (canton Ross)",
+      "nom": "Lac Rond",
+      "nom_search": "lac rond 48 22 35 n 72 20 00 o ) canton ross)",
+      "segment_label": null,
+      "river_base_name": "Lac Rond",
+      "aliases": [
+        "lac rond",
+        "lac rond 48 22 35 n 72 20 00 o ) canton ross)",
+        "rond",
+        "rond 48 22 35 n 72 20 00 o ) canton ross)"
+      ],
+      "lat": 48.376389,
+      "lon": -72.333333
+    },
+    {
+      "id": 2165,
+      "zone_id": 32,
+      "nom_brut": "Lac Rouvray ( 49°19'04\" N., 70°48'31\" O. ) son émissaire, entre l'île située à environ 150 m en amont du premier rapide et le pont situé à 2 km en aval, soit du point 49°19'26\" N., 70°45'27\" O. au point 49°20'18\" N., 70°44'54\" O.",
+      "nom": "Lac Rouvray",
+      "nom_search": "lac rouvray 49 19 04 n 70 48 31 o ) son emissaire entre l ile situee a environ 150 m en amont du premier rapide et le pont situe a 2 km en aval soit du point 49 19 26 n 70 45 27 o au point 49 20 18 n 70 44 54 o",
+      "segment_label": null,
+      "river_base_name": "Lac Rouvray",
+      "aliases": [
+        "lac rouvray",
+        "lac rouvray 49 19 04 n 70 48 31 o ) son emissaire entre l ile situee a environ 150 m en amont du premier rapide et le pont situe a 2 km en aval soit du point 49 19 26 n 70 45 27 o au point 49 20 18 n 70 44 54 o",
+        "rouvray",
+        "rouvray 49 19 04 n 70 48 31 o ) son emissaire entre l ile situee a environ 150 m en amont du premier rapide et le pont situe a 2 km en aval soit du point 49 19 26 n 70 45 27 o au point 49 20 18 n 70 44 54 o"
+      ],
+      "lat": 49.317778,
+      "lon": -70.808611
+    },
+    {
+      "id": 3086,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°07'14\" N., 72°01'54\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 07 14 n 72 01 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 07 14 n 72 01 54 o )",
+        "sans nom",
+        "sans nom 49 07 14 n 72 01 54 o )"
+      ],
+      "lat": 49.120556,
+      "lon": -72.031667
+    },
+    {
+      "id": 3087,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°08'25\" N., 72°09'26\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 08 25 n 72 09 26 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 08 25 n 72 09 26 o )",
+        "sans nom",
+        "sans nom 49 08 25 n 72 09 26 o )"
+      ],
+      "lat": 49.140278,
+      "lon": -72.157222
+    },
+    {
+      "id": 3088,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°09'07\" N., 72°09'55\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 09 07 n 72 09 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 09 07 n 72 09 55 o )",
+        "sans nom",
+        "sans nom 49 09 07 n 72 09 55 o )"
+      ],
+      "lat": 49.151944,
+      "lon": -72.165278
+    },
+    {
+      "id": 3089,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°10'33\" N., 72°08'33\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 10 33 n 72 08 33 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 10 33 n 72 08 33 o )",
+        "sans nom",
+        "sans nom 49 10 33 n 72 08 33 o )"
+      ],
+      "lat": 49.175833,
+      "lon": -72.1425
+    },
+    {
+      "id": 3090,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°10'39\" N., 72°08'21\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 10 39 n 72 08 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 10 39 n 72 08 21 o )",
+        "sans nom",
+        "sans nom 49 10 39 n 72 08 21 o )"
+      ],
+      "lat": 49.1775,
+      "lon": -72.139167
+    },
+    {
+      "id": 3091,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°13'11\" N., 71°57'20\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 13 11 n 71 57 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 13 11 n 71 57 20 o )",
+        "sans nom",
+        "sans nom 49 13 11 n 71 57 20 o )"
+      ],
+      "lat": 49.219722,
+      "lon": -71.955556
+    },
+    {
+      "id": 3092,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°41'53\" N., 71°37'57\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 41 53 n 71 37 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 41 53 n 71 37 57 o )",
+        "sans nom",
+        "sans nom 49 41 53 n 71 37 57 o )"
+      ],
+      "lat": 49.698056,
+      "lon": -71.6325
+    },
+    {
+      "id": 3093,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°46'29\" N., 71°02'04\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 46 29 n 71 02 04 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 46 29 n 71 02 04 o )",
+        "sans nom",
+        "sans nom 49 46 29 n 71 02 04 o )"
+      ],
+      "lat": 49.774722,
+      "lon": -71.034444
+    },
+    {
+      "id": 3159,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°50'48\" N., 71°17'58\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 50 48 n 71 17 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 50 48 n 71 17 58 o )",
+        "sans nom",
+        "sans nom 49 50 48 n 71 17 58 o )"
+      ],
+      "lat": 49.846667,
+      "lon": -71.299444
+    },
+    {
+      "id": 3265,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°53'21\" N., 71°47'51\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 53 21 n 71 47 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 53 21 n 71 47 51 o )",
+        "sans nom",
+        "sans nom 49 53 21 n 71 47 51 o )"
+      ],
+      "lat": 49.889167,
+      "lon": -71.7975
+    },
+    {
+      "id": 3264,
+      "zone_id": 32,
+      "nom_brut": "Lac Sans nom ( 49°53'55\" N., 71°49'19\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 49 53 55 n 71 49 19 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 53 55 n 71 49 19 o )",
+        "sans nom",
+        "sans nom 49 53 55 n 71 49 19 o )"
+      ],
+      "lat": 49.898611,
+      "lon": -71.821944
+    },
+    {
+      "id": 2449,
+      "zone_id": 32,
+      "nom_brut": "Lac sans nom (étangs de la rivière à Mars) ( 48°18'19\" N., 70°59'01\" O. ), ( 48°18'19\" N., 70°58'55\" O. ), ( 48°18'21\" N., 70°58'45\" O. ), ( 48°18'22\" N., 70°58'17\" O. ), ( 48°18'24\" N., 70°58'37\" O. ), ( 48°18'29\" N., 70°58'14\" O. ), ( 48°18'50\" N., 70°56'58\" O. ), ( 48°18'52\" N., 70°57'07\" O. ), ( 48°18'54\" N., 70°56'43\" O. ), ( 48°19'04\" N., 70°56'04\" O. ), ( 48°19'04\" N., 70°56'11\" O. ), ( 48°19'05\" N., 70°56'00\" O. ).",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom etangs de la riviere a mars) 48 18 19 n 70 59 01 o ) 48 18 19 n 70 58 55 o ) 48 18 21 n 70 58 45 o ) 48 18 22 n 70 58 17 o ) 48 18 24 n 70 58 37 o ) 48 18 29 n 70 58 14 o ) 48 18 50 n 70 56 58 o ) 48 18 52 n 70 57 07 o ) 48 18 54 n 70 56 43 o ) 48 19 04 n 70 56 04 o ) 48 19 04 n 70 56 11 o ) 48 19 05 n 70 56 00 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom etangs de la riviere a mars) 48 18 19 n 70 59 01 o ) 48 18 19 n 70 58 55 o ) 48 18 21 n 70 58 45 o ) 48 18 22 n 70 58 17 o ) 48 18 24 n 70 58 37 o ) 48 18 29 n 70 58 14 o ) 48 18 50 n 70 56 58 o ) 48 18 52 n 70 57 07 o ) 48 18 54 n 70 56 43 o ) 48 19 04 n 70 56 04 o ) 48 19 04 n 70 56 11 o ) 48 19 05 n 70 56 00 o )",
+        "sans nom",
+        "sans nom etangs de la riviere a mars) 48 18 19 n 70 59 01 o ) 48 18 19 n 70 58 55 o ) 48 18 21 n 70 58 45 o ) 48 18 22 n 70 58 17 o ) 48 18 24 n 70 58 37 o ) 48 18 29 n 70 58 14 o ) 48 18 50 n 70 56 58 o ) 48 18 52 n 70 57 07 o ) 48 18 54 n 70 56 43 o ) 48 19 04 n 70 56 04 o ) 48 19 04 n 70 56 11 o ) 48 19 05 n 70 56 00 o )"
+      ],
+      "lat": 48.305278,
+      "lon": -70.983611
+    },
+    {
+      "id": 3085,
+      "zone_id": 32,
+      "nom_brut": "Lac sans nom ( 48°26'36\" N., 71°32'54\" O. )",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom 48 26 36 n 71 32 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 26 36 n 71 32 54 o )",
+        "sans nom",
+        "sans nom 48 26 36 n 71 32 54 o )"
+      ],
+      "lat": 48.443333,
+      "lon": -71.548333
+    },
+    {
+      "id": 3094,
+      "zone_id": 32,
+      "nom_brut": "Lac sans nom ( 49°16'30\" N., 70°05'20\" O. )",
+      "nom": "Lac sans nom",
+      "nom_search": "lac sans nom 49 16 30 n 70 05 20 o )",
+      "segment_label": null,
+      "river_base_name": "Lac sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 49 16 30 n 70 05 20 o )",
+        "sans nom",
+        "sans nom 49 16 30 n 70 05 20 o )"
+      ],
+      "lat": 49.275,
+      "lon": -70.088889
+    },
+    {
+      "id": 2152,
+      "zone_id": 32,
+      "nom_brut": "Lac Savard ( 49°13'05\" N., 71°57'41\" O. )",
+      "nom": "Lac Savard",
+      "nom_search": "lac savard 49 13 05 n 71 57 41 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Savard",
+      "aliases": [
+        "lac savard",
+        "lac savard 49 13 05 n 71 57 41 o )",
+        "savard",
+        "savard 49 13 05 n 71 57 41 o )"
+      ],
+      "lat": 49.218056,
+      "lon": -71.961389
+    },
+    {
+      "id": 3078,
+      "zone_id": 32,
+      "nom_brut": "Lac Sébastien ( 48°39'29\" N., 71°10'03\" O. )",
+      "nom": "Lac Sébastien",
+      "nom_search": "lac sebastien 48 39 29 n 71 10 03 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sébastien",
+      "aliases": [
+        "lac sebastien",
+        "lac sebastien 48 39 29 n 71 10 03 o )",
+        "sebastien",
+        "sebastien 48 39 29 n 71 10 03 o )"
+      ],
+      "lat": 48.658056,
+      "lon": -71.1675
+    },
+    {
+      "id": 2085,
+      "zone_id": 32,
+      "nom_brut": "Lac Slide ( 47°51'28\" N., 72°44'07\" O. )(canton Lavoie)",
+      "nom": "Lac Slide",
+      "nom_search": "lac slide 47 51 28 n 72 44 07 o ) canton lavoie)",
+      "segment_label": null,
+      "river_base_name": "Lac Slide",
+      "aliases": [
+        "lac slide",
+        "lac slide 47 51 28 n 72 44 07 o ) canton lavoie)",
+        "slide",
+        "slide 47 51 28 n 72 44 07 o ) canton lavoie)"
+      ],
+      "lat": 47.857778,
+      "lon": -72.735278
+    },
+    {
+      "id": 3084,
+      "zone_id": 32,
+      "nom_brut": "Lac Tchitogama ( 48°48'58\" N., 71°22'55\" O. )",
+      "nom": "Lac Tchitogama",
+      "nom_search": "lac tchitogama 48 48 58 n 71 22 55 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Tchitogama",
+      "aliases": [
+        "lac tchitogama",
+        "lac tchitogama 48 48 58 n 71 22 55 o )",
+        "tchitogama",
+        "tchitogama 48 48 58 n 71 22 55 o )"
+      ],
+      "lat": 48.816111,
+      "lon": -71.381944
+    },
+    {
+      "id": 2156,
+      "zone_id": 32,
+      "nom_brut": "Lac Ushisk ( 49°15'12\" N., 72°55'56\" O. )",
+      "nom": "Lac Ushisk",
+      "nom_search": "lac ushisk 49 15 12 n 72 55 56 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ushisk",
+      "aliases": [
+        "lac ushisk",
+        "lac ushisk 49 15 12 n 72 55 56 o )",
+        "ushisk",
+        "ushisk 49 15 12 n 72 55 56 o )"
+      ],
+      "lat": 49.253333,
+      "lon": -72.932222
+    },
+    {
+      "id": 10921,
+      "zone_id": 32,
+      "nom_brut": "Lac Vermont ( 48°56'48\" N., 71°09'10\" O. )",
+      "nom": "Lac Vermont",
+      "nom_search": "lac vermont 48 56 48 n 71 09 10 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vermont",
+      "aliases": [
+        "lac vermont",
+        "lac vermont 48 56 48 n 71 09 10 o )",
+        "vermont",
+        "vermont 48 56 48 n 71 09 10 o )"
+      ],
+      "lat": 48.946667,
+      "lon": -71.152778
+    },
+    {
+      "id": 2051,
+      "zone_id": 32,
+      "nom_brut": "Lac Vert ( 48°21'57 \"N., 71°38'42\" O. )",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert 48 21 57 n 71 38 42 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert 48 21 57 n 71 38 42 o )",
+        "vert",
+        "vert 48 21 57 n 71 38 42 o )"
+      ],
+      "lat": 48.365833,
+      "lon": -71.645
+    },
+    {
+      "id": 2055,
+      "zone_id": 32,
+      "nom_brut": "Lac Vert ( 48°21'57 \"N., 71°38'42\" O. ) ses tributaires : de leur source à leur embouchure (canton Mésy).",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert 48 21 57 n 71 38 42 o ) ses tributaires de leur source a leur embouchure canton mesy)",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert 48 21 57 n 71 38 42 o ) ses tributaires de leur source a leur embouchure canton mesy)",
+        "vert",
+        "vert 48 21 57 n 71 38 42 o ) ses tributaires de leur source a leur embouchure canton mesy)"
+      ],
+      "lat": 48.365833,
+      "lon": -71.645
+    },
+    {
+      "id": 2157,
+      "zone_id": 32,
+      "nom_brut": "Lac Vert ( 48°56'38\" N., 72°44'15\" O. )",
+      "nom": "Lac Vert",
+      "nom_search": "lac vert 48 56 38 n 72 44 15 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Vert",
+      "aliases": [
+        "lac vert",
+        "lac vert 48 56 38 n 72 44 15 o )",
+        "vert",
+        "vert 48 56 38 n 72 44 15 o )"
+      ],
+      "lat": 48.943889,
+      "lon": -72.7375
+    },
+    {
+      "id": 2159,
+      "zone_id": 32,
+      "nom_brut": "Lac Yenevac ( 49°09'14\" N., 72°09'01\" O. )",
+      "nom": "Lac Yenevac",
+      "nom_search": "lac yenevac 49 09 14 n 72 09 01 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Yenevac",
+      "aliases": [
+        "lac yenevac",
+        "lac yenevac 49 09 14 n 72 09 01 o )",
+        "yenevac",
+        "yenevac 49 09 14 n 72 09 01 o )"
+      ],
+      "lat": 49.153889,
+      "lon": -72.150278
+    },
+    {
+      "id": 2503,
+      "zone_id": 32,
+      "nom_brut": "Parc National des Monts-Valin",
+      "nom": "Parc National des Monts-Valin",
+      "nom_search": "parc national des monts valin",
+      "segment_label": null,
+      "river_base_name": "Parc National des Monts-Valin",
+      "aliases": [
+        "parc national des monts valin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 12101,
+      "zone_id": 32,
+      "nom_brut": "Parc National du Fjord-du-Saguenay Rivière Éternité, la partie comprise entre une droite perpendiculaire à la borne de repère ( 48°17'51\" N., 70°20'08\" O. ) située à son embouchure et la limite sud du parc national du Fjord-du-Saguenay",
+      "nom": "Parc National du Fjord-du-Saguenay Rivière Éternité, la partie comprise entre une droite perpendiculaire à la borne de repère",
+      "nom_search": "parc national du fjord du saguenay riviere eternite la partie comprise entre une droite perpendiculaire a la borne de repere 48 17 51 n 70 20 08 o ) situee a son embouchure et la limite sud du parc national du fjord du saguenay",
+      "segment_label": null,
+      "river_base_name": "Parc National du Fjord-du-Saguenay Rivière Éternité, la partie comprise",
+      "aliases": [
+        "parc national du fjord du saguenay riviere eternite la partie comprise",
+        "parc national du fjord du saguenay riviere eternite la partie comprise entre une droite perpendiculaire a la borne de repere 48 17 51 n 70 20 08 o ) situee a son embouchure et la limite sud du parc national du fjord du saguenay"
+      ],
+      "lat": 48.2975,
+      "lon": -70.335556
+    },
+    {
+      "id": 12100,
+      "zone_id": 32,
+      "nom_brut": "Parc National du Fjord-du-Saguenay, à l'exception de la rivière Éternité",
+      "nom": "Parc National du Fjord-du-Saguenay, à l'exception de la rivière Éternité",
+      "nom_search": "parc national du fjord du saguenay a l exception de la riviere eternite",
+      "segment_label": null,
+      "river_base_name": "Parc National du Fjord-du-Saguenay,",
+      "aliases": [
+        "parc national du fjord du saguenay",
+        "parc national du fjord du saguenay a l exception de la riviere eternite"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2323,
+      "zone_id": 32,
+      "nom_brut": "Réserve Faunique Ashuapmushuan",
+      "nom": "Réserve Faunique Ashuapmushuan",
+      "nom_search": "reserve faunique ashuapmushuan",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique Ashuapmushuan",
+      "aliases": [
+        "reserve faunique ashuapmushuan"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 3272,
+      "zone_id": 32,
+      "nom_brut": "Réservoir Péribonka entre un point en aval ( 49°30'23\" N., 71°10'56\" O. ) et un point situé en amont ( 49°49'04\" N., 71°09'40\" O. ) et commençant au point 49°35'47\" N., 71°15'26\" O. dans la rivière Serpent.",
+      "nom": "Réservoir Péribonka entre un point en aval",
+      "nom_search": "reservoir peribonka entre un point en aval 49 30 23 n 71 10 56 o ) et un point situe en amont 49 49 04 n 71 09 40 o ) et commencant au point 49 35 47 n 71 15 26 o dans la riviere serpent",
+      "segment_label": null,
+      "river_base_name": "Réservoir Péribonka",
+      "aliases": [
+        "peribonka",
+        "peribonka entre un point en aval 49 30 23 n 71 10 56 o ) et un point situe en amont 49 49 04 n 71 09 40 o ) et commencant au point 49 35 47 n 71 15 26 o dans la riviere serpent",
+        "reservoir peribonka",
+        "reservoir peribonka entre un point en aval 49 30 23 n 71 10 56 o ) et un point situe en amont 49 49 04 n 71 09 40 o ) et commencant au point 49 35 47 n 71 15 26 o dans la riviere serpent"
+      ],
+      "lat": 49.506389,
+      "lon": -71.182222
+    },
+    {
+      "id": 10923,
+      "zone_id": 32,
+      "nom_brut": "Réservoir Pipmuacan ( 49°30'11\" N., 70°20'25\" O. )",
+      "nom": "Réservoir Pipmuacan",
+      "nom_search": "reservoir pipmuacan 49 30 11 n 70 20 25 o )",
+      "segment_label": null,
+      "river_base_name": "Réservoir Pipmuacan",
+      "aliases": [
+        "pipmuacan",
+        "pipmuacan 49 30 11 n 70 20 25 o )",
+        "reservoir pipmuacan",
+        "reservoir pipmuacan 49 30 11 n 70 20 25 o )"
+      ],
+      "lat": 49.503056,
+      "lon": -70.340278
+    },
+    {
+      "id": 2198,
+      "zone_id": 32,
+      "nom_brut": "Rivière à Mars a) entre une droite joignant les points 48°20'13,9\" N., 70°52'36,5\" O. et 48°20'18,8\" N., 70°52'40,7\" O. et la limite supérieure du secteur de pêche # 2 ( 48°19'41,5\" N., 70°54'19\" O. ).",
+      "nom": "Rivière à Mars a) entre une droite joignant les points 48°20'13,9\" N., 70°52'36,5\" O. et 48°20'18,8\" N., 70°52'40,7\" O. et la limite supérieure du secteur de pêche # 2",
+      "nom_search": "riviere a mars a) entre une droite joignant les points 48 20 13 9 n 70 52 36 5 o et 48 20 18 8 n 70 52 40 7 o et la limite superieure du secteur de peche 2 48 19 41 5 n 70 54 19 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière à Mars",
+      "aliases": [
+        "a mars",
+        "a mars a) entre une droite joignant les points 48 20 13 9 n 70 52 36 5 o et 48 20 18 8 n 70 52 40 7 o et la limite superieure du secteur de peche 2 48 19 41 5 n 70 54 19 o )",
+        "riviere a mars",
+        "riviere a mars a) entre une droite joignant les points 48 20 13 9 n 70 52 36 5 o et 48 20 18 8 n 70 52 40 7 o et la limite superieure du secteur de peche 2 48 19 41 5 n 70 54 19 o )"
+      ],
+      "lat": 48.337194,
+      "lon": -70.876806
+    },
+    {
+      "id": 2199,
+      "zone_id": 32,
+      "nom_brut": "Rivière à Mars b) entre la limite supérieure du secteur de pêche # 2 ( 48°19'41,5\" N., 70°54'19\" O. ) et un point ( 48°18'14,5\" N., 70°59'12\" O. ) situé à 60 m en aval du pont, au bâtiment d'accueil du Centre plein air Bec-Scie.",
+      "nom": "Rivière à Mars b) entre la limite supérieure du secteur de pêche # 2",
+      "nom_search": "riviere a mars b) entre la limite superieure du secteur de peche 2 48 19 41 5 n 70 54 19 o ) et un point 48 18 14 5 n 70 59 12 o ) situe a 60 m en aval du pont au batiment d accueil du centre plein air bec scie",
+      "segment_label": "b)",
+      "river_base_name": "Rivière à Mars",
+      "aliases": [
+        "a mars",
+        "a mars b) entre la limite superieure du secteur de peche 2 48 19 41 5 n 70 54 19 o ) et un point 48 18 14 5 n 70 59 12 o ) situe a 60 m en aval du pont au batiment d accueil du centre plein air bec scie",
+        "riviere a mars",
+        "riviere a mars b) entre la limite superieure du secteur de peche 2 48 19 41 5 n 70 54 19 o ) et un point 48 18 14 5 n 70 59 12 o ) situe a 60 m en aval du pont au batiment d accueil du centre plein air bec scie"
+      ],
+      "lat": 48.328194,
+      "lon": -70.905278
+    },
+    {
+      "id": 2200,
+      "zone_id": 32,
+      "nom_brut": "Rivière à Mars c) entre un point ( 48°18'15\" N., 70°59'25\" O. ) situé à 60 m en aval du pont , au bâtiment d'accueil du Centre plein air Bec-Scie et ce pont.",
+      "nom": "Rivière à Mars c) entre un point",
+      "nom_search": "riviere a mars c) entre un point 48 18 15 n 70 59 25 o ) situe a 60 m en aval du pont au batiment d accueil du centre plein air bec scie et ce pont",
+      "segment_label": "c)",
+      "river_base_name": "Rivière à Mars",
+      "aliases": [
+        "a mars",
+        "a mars c) entre un point 48 18 15 n 70 59 25 o ) situe a 60 m en aval du pont au batiment d accueil du centre plein air bec scie et ce pont",
+        "riviere a mars",
+        "riviere a mars c) entre un point 48 18 15 n 70 59 25 o ) situe a 60 m en aval du pont au batiment d accueil du centre plein air bec scie et ce pont"
+      ],
+      "lat": 48.304167,
+      "lon": -70.990278
+    },
+    {
+      "id": 2201,
+      "zone_id": 32,
+      "nom_brut": "Rivière à Mars d) entre le pont, au bâtiment d'accueil du Centre plein air Bec-Scie et le côté en aval de la fosse no 80 ( 48°12'16\" N., 70°59'52\" O. ).",
+      "nom": "Rivière à Mars d) entre le pont, au bâtiment d'accueil du Centre plein air Bec-Scie et le côté en aval de la fosse no 80",
+      "nom_search": "riviere a mars d) entre le pont au batiment d accueil du centre plein air bec scie et le cote en aval de la fosse no 80 48 12 16 n 70 59 52 o )",
+      "segment_label": "d)",
+      "river_base_name": "Rivière à Mars",
+      "aliases": [
+        "a mars",
+        "a mars d) entre le pont au batiment d accueil du centre plein air bec scie et le cote en aval de la fosse no 80 48 12 16 n 70 59 52 o )",
+        "riviere a mars",
+        "riviere a mars d) entre le pont au batiment d accueil du centre plein air bec scie et le cote en aval de la fosse no 80 48 12 16 n 70 59 52 o )"
+      ],
+      "lat": 48.204444,
+      "lon": -70.997778
+    },
+    {
+      "id": 2202,
+      "zone_id": 32,
+      "nom_brut": "Rivière à Mars e) entre le côté en aval de la fosse no 80 ( 48°12'16\" N., 70°59'52\" O. ) et le côté en amont de la chute Castule située au point ( 48°09'47\" N., 71°01'03\" O. ).",
+      "nom": "Rivière à Mars e) entre le côté en aval de la fosse no 80",
+      "nom_search": "riviere a mars e) entre le cote en aval de la fosse no 80 48 12 16 n 70 59 52 o ) et le cote en amont de la chute castule situee au point 48 09 47 n 71 01 03 o )",
+      "segment_label": "e)",
+      "river_base_name": "Rivière à Mars",
+      "aliases": [
+        "a mars",
+        "a mars e) entre le cote en aval de la fosse no 80 48 12 16 n 70 59 52 o ) et le cote en amont de la chute castule situee au point 48 09 47 n 71 01 03 o )",
+        "riviere a mars",
+        "riviere a mars e) entre le cote en aval de la fosse no 80 48 12 16 n 70 59 52 o ) et le cote en amont de la chute castule situee au point 48 09 47 n 71 01 03 o )"
+      ],
+      "lat": 48.204444,
+      "lon": -70.997778
+    },
+    {
+      "id": 2203,
+      "zone_id": 32,
+      "nom_brut": "Rivière à Mars f) entre le côté en amont de la chute Castule située au point ( 48°09'47\" N., 71°01'03\" O. ) et la limite sud du canton Dubuc.",
+      "nom": "Rivière à Mars f) entre le côté en amont de la chute Castule située au point",
+      "nom_search": "riviere a mars f) entre le cote en amont de la chute castule situee au point 48 09 47 n 71 01 03 o ) et la limite sud du canton dubuc",
+      "segment_label": null,
+      "river_base_name": "Rivière à Mars f)",
+      "aliases": [
+        "a mars f)",
+        "a mars f) entre le cote en amont de la chute castule situee au point 48 09 47 n 71 01 03 o ) et la limite sud du canton dubuc",
+        "riviere a mars f)",
+        "riviere a mars f) entre le cote en amont de la chute castule situee au point 48 09 47 n 71 01 03 o ) et la limite sud du canton dubuc"
+      ],
+      "lat": 48.163056,
+      "lon": -71.0175
+    },
+    {
+      "id": 2170,
+      "zone_id": 32,
+      "nom_brut": "Rivière aux Écorces - La partie entre son embouchure et la limite nord de la réserve faunique des Laurentides ( 48°13'57'' N., 71°30'56'' O. ).",
+      "nom": "Rivière aux Écorces - La partie entre son embouchure et la limite nord de la réserve faunique des Laurentides",
+      "nom_search": "riviere aux ecorces la partie entre son embouchure et la limite nord de la reserve faunique des laurentides 48 13 57 n 71 30 56 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Écorces",
+      "aliases": [
+        "aux ecorces",
+        "aux ecorces la partie entre son embouchure et la limite nord de la reserve faunique des laurentides 48 13 57 n 71 30 56 o )",
+        "riviere aux ecorces",
+        "riviere aux ecorces la partie entre son embouchure et la limite nord de la reserve faunique des laurentides 48 13 57 n 71 30 56 o )"
+      ],
+      "lat": 48.2325,
+      "lon": -71.515556
+    },
+    {
+      "id": 3267,
+      "zone_id": 32,
+      "nom_brut": "Rivière aux Rats (secteur situé à l'extérieur de l'aire faunique communautaire du lac Saint-Jean) entre le pont de la rue du Pont en amont ( 48°58'38\" N., 72°17'17\" O. ) et le pont de la chute Évelyne en aval ( 48°57'33\" N., 72°15'43\" O. ).",
+      "nom": "Rivière aux Rats",
+      "nom_search": "riviere aux rats secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le pont de la rue du pont en amont 48 58 38 n 72 17 17 o ) et le pont de la chute evelyne en aval 48 57 33 n 72 15 43 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Rats",
+      "aliases": [
+        "aux rats",
+        "aux rats secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le pont de la rue du pont en amont 48 58 38 n 72 17 17 o ) et le pont de la chute evelyne en aval 48 57 33 n 72 15 43 o )",
+        "riviere aux rats",
+        "riviere aux rats secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le pont de la rue du pont en amont 48 58 38 n 72 17 17 o ) et le pont de la chute evelyne en aval 48 57 33 n 72 15 43 o )"
+      ],
+      "lat": 48.977222,
+      "lon": -72.288056
+    },
+    {
+      "id": 2193,
+      "zone_id": 32,
+      "nom_brut": "Rivière aux Vases de son embouchure jusqu'au côté en aval des structures de l'ancien pont du chemin des Terres Rompues.",
+      "nom": "Rivière aux Vases de son embouchure jusqu'au côté en aval des structures de l'ancien pont du chemin des Terres Rompues.",
+      "nom_search": "riviere aux vases de son embouchure jusqu au cote en aval des structures de l ancien pont du chemin des terres rompues",
+      "segment_label": null,
+      "river_base_name": "Rivière aux Vases de son embouchure jusqu'au côté en aval des structures de l'ancien pont du chemin des Terres Rompues.",
+      "aliases": [
+        "aux vases de son embouchure jusqu au cote en aval des structures de l ancien pont du chemin des terres rompues",
+        "riviere aux vases de son embouchure jusqu au cote en aval des structures de l ancien pont du chemin des terres rompues"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2220,
+      "zone_id": 32,
+      "nom_brut": "Rivière Bras des Murailles (Sainte-Marguerite Nord-Ouest) entre son embouchure et un point 48°34'15\" N., 70°24'57\" O. , situé à l'extrémité sud du lac Mince.",
+      "nom": "Rivière Bras des Murailles",
+      "nom_search": "riviere bras des murailles sainte marguerite nord ouest) entre son embouchure et un point 48 34 15 n 70 24 57 o situe a l extremite sud du lac mince",
+      "segment_label": null,
+      "river_base_name": "Rivière Bras des Murailles",
+      "aliases": [
+        "bras des murailles",
+        "bras des murailles sainte marguerite nord ouest) entre son embouchure et un point 48 34 15 n 70 24 57 o situe a l extremite sud du lac mince",
+        "riviere bras des murailles",
+        "riviere bras des murailles sainte marguerite nord ouest) entre son embouchure et un point 48 34 15 n 70 24 57 o situe a l extremite sud du lac mince",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.570833,
+      "lon": -70.415833
+    },
+    {
+      "id": 2176,
+      "zone_id": 32,
+      "nom_brut": "Rivière Chicoutimi - La partie comprise entre son embouchure et le côté aval du pont du pont de la rue Price Ouest.",
+      "nom": "Rivière Chicoutimi - La partie comprise entre son embouchure et le côté aval du pont du pont de la rue Price Ouest.",
+      "nom_search": "riviere chicoutimi la partie comprise entre son embouchure et le cote aval du pont du pont de la rue price ouest",
+      "segment_label": null,
+      "river_base_name": "Rivière Chicoutimi",
+      "aliases": [
+        "chicoutimi",
+        "chicoutimi la partie comprise entre son embouchure et le cote aval du pont du pont de la rue price ouest",
+        "riviere chicoutimi",
+        "riviere chicoutimi la partie comprise entre son embouchure et le cote aval du pont du pont de la rue price ouest"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2179,
+      "zone_id": 32,
+      "nom_brut": "Rivière Descente des Femmes entre le côté en aval du pont situé aux points 48°23'25\" N., 70°34'14\" O. à son embouchure, au côté en aval du pont de la route 172.",
+      "nom": "Rivière Descente des Femmes entre le côté en aval du pont situé aux points 48°23'25\" N., 70°34'14\" O. à son embouchure, au côté en aval du pont de la route 172.",
+      "nom_search": "riviere descente des femmes entre le cote en aval du pont situe aux points 48 23 25 n 70 34 14 o a son embouchure au cote en aval du pont de la route 172",
+      "segment_label": null,
+      "river_base_name": "Rivière Descente des Femmes",
+      "aliases": [
+        "descente des femmes",
+        "descente des femmes entre le cote en aval du pont situe aux points 48 23 25 n 70 34 14 o a son embouchure au cote en aval du pont de la route 172",
+        "riviere descente des femmes",
+        "riviere descente des femmes entre le cote en aval du pont situe aux points 48 23 25 n 70 34 14 o a son embouchure au cote en aval du pont de la route 172"
+      ],
+      "lat": 48.390278,
+      "lon": -70.570556
+    },
+    {
+      "id": 12741,
+      "zone_id": 32,
+      "nom_brut": "Rivière du Moulin - La partie comprise entre le coté aval du pont du boulevard du Saguenay (route 372) et le pied du premier rapide au point 48°25'30'' N., 71°01'48,65'' O.",
+      "nom": "Rivière du Moulin - La partie comprise entre le coté aval du pont du boulevard du Saguenay",
+      "nom_search": "riviere du moulin la partie comprise entre le cote aval du pont du boulevard du saguenay route 372) et le pied du premier rapide au point 48 25 30 n 71 01 48 65 o",
+      "segment_label": null,
+      "river_base_name": "Rivière du Moulin",
+      "aliases": [
+        "du moulin",
+        "du moulin la partie comprise entre le cote aval du pont du boulevard du saguenay route 372) et le pied du premier rapide au point 48 25 30 n 71 01 48 65 o",
+        "riviere du moulin",
+        "riviere du moulin la partie comprise entre le cote aval du pont du boulevard du saguenay route 372) et le pied du premier rapide au point 48 25 30 n 71 01 48 65 o"
+      ],
+      "lat": 48.425,
+      "lon": -71.030181
+    },
+    {
+      "id": 2180,
+      "zone_id": 32,
+      "nom_brut": "Rivière Éternité a) entre la limite sud du parc national du Fjord-du-Saguenay et une droite passant par un point situé à 20 m en aval du pont de la route 170 .",
+      "nom": "Rivière Éternité a) entre la limite sud du parc national du Fjord-du-Saguenay et une droite passant par un point situé à 20 m en aval du pont de la route 170 .",
+      "nom_search": "riviere eternite a) entre la limite sud du parc national du fjord du saguenay et une droite passant par un point situe a 20 m en aval du pont de la route 170",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Éternité",
+      "aliases": [
+        "eternite",
+        "eternite a) entre la limite sud du parc national du fjord du saguenay et une droite passant par un point situe a 20 m en aval du pont de la route 170",
+        "riviere eternite",
+        "riviere eternite a) entre la limite sud du parc national du fjord du saguenay et une droite passant par un point situe a 20 m en aval du pont de la route 170"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2186,
+      "zone_id": 32,
+      "nom_brut": "Rivière Ha! Ha! entre le côté en aval du pont de la route 170 et le barrage déversoir de la rivière Ha! Ha! ( 48°18'30\" N., 70°52'34\" O. ).",
+      "nom": "Rivière Ha! Ha! entre le côté en aval du pont de la route 170 et le barrage déversoir de la rivière Ha! Ha!",
+      "nom_search": "riviere ha ha entre le cote en aval du pont de la route 170 et le barrage deversoir de la riviere ha ha 48 18 30 n 70 52 34 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ha! Ha!",
+      "aliases": [
+        "ha ha",
+        "ha ha entre le cote en aval du pont de la route 170 et le barrage deversoir de la riviere ha ha 48 18 30 n 70 52 34 o )",
+        "riviere ha ha",
+        "riviere ha ha entre le cote en aval du pont de la route 170 et le barrage deversoir de la riviere ha ha 48 18 30 n 70 52 34 o )"
+      ],
+      "lat": 48.308333,
+      "lon": -70.876111
+    },
+    {
+      "id": 2053,
+      "zone_id": 32,
+      "nom_brut": "Rivière Métabetchouane (secteur situé à l'extérieur de l'aire faunique communautaire du lac Saint-Jean) entre la Grande Écluse ( 48°10'48\" N., 71°53'32\" O. ) et le rapide Gingras situé à environ 11 km en amont, aux points ( 48°06'09\" N., 71°55'50\" O. ).",
+      "nom": "Rivière Métabetchouane",
+      "nom_search": "riviere metabetchouane secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre la grande ecluse 48 10 48 n 71 53 32 o ) et le rapide gingras situe a environ 11 km en amont aux points 48 06 09 n 71 55 50 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Métabetchouane",
+      "aliases": [
+        "metabetchouane",
+        "metabetchouane secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre la grande ecluse 48 10 48 n 71 53 32 o ) et le rapide gingras situe a environ 11 km en amont aux points 48 06 09 n 71 55 50 o )",
+        "riviere metabetchouane",
+        "riviere metabetchouane secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre la grande ecluse 48 10 48 n 71 53 32 o ) et le rapide gingras situe a environ 11 km en amont aux points 48 06 09 n 71 55 50 o )"
+      ],
+      "lat": 48.18,
+      "lon": -71.892222
+    },
+    {
+      "id": 2060,
+      "zone_id": 32,
+      "nom_brut": "Rivière Mistassibi nord-est entre son embouchure dans la rivière Mistassibi et la limite nord de la zone 28.",
+      "nom": "Rivière Mistassibi nord-est entre son embouchure dans la rivière Mistassibi et la limite nord de la zone 28.",
+      "nom_search": "riviere mistassibi nord est entre son embouchure dans la riviere mistassibi et la limite nord de la zone 28",
+      "segment_label": null,
+      "river_base_name": "Rivière Mistassibi nord-est",
+      "aliases": [
+        "mistassibi nord est",
+        "mistassibi nord est entre son embouchure dans la riviere mistassibi et la limite nord de la zone 28",
+        "riviere mistassibi nord est",
+        "riviere mistassibi nord est entre son embouchure dans la riviere mistassibi et la limite nord de la zone 28"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 931,
+      "zone_id": 32,
+      "nom_brut": "Rivière Ouiatchouan (secteur situé à l'extérieur de l'aire faunique communautaire du lac Saint-Jean) - entre le lac Bouchette et le barrage des Commissaires.",
+      "nom": "Rivière Ouiatchouan",
+      "nom_search": "riviere ouiatchouan secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le lac bouchette et le barrage des commissaires",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouiatchouan",
+      "aliases": [
+        "ouiatchouan",
+        "ouiatchouan secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le lac bouchette et le barrage des commissaires",
+        "riviere ouiatchouan",
+        "riviere ouiatchouan secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le lac bouchette et le barrage des commissaires"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2054,
+      "zone_id": 32,
+      "nom_brut": "Rivière Ouiatchouan (secteur situé à l'extérieur de l'aire faunique communautaire du lac Saint-Jean) entre l'émissaire du lac Ouiatchouan et la chute Maligne ( 48°25'35\" N., 72°10'08\" O. ).",
+      "nom": "Rivière Ouiatchouan",
+      "nom_search": "riviere ouiatchouan secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre l emissaire du lac ouiatchouan et la chute maligne 48 25 35 n 72 10 08 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Ouiatchouan",
+      "aliases": [
+        "ouiatchouan",
+        "ouiatchouan secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre l emissaire du lac ouiatchouan et la chute maligne 48 25 35 n 72 10 08 o )",
+        "riviere ouiatchouan",
+        "riviere ouiatchouan secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre l emissaire du lac ouiatchouan et la chute maligne 48 25 35 n 72 10 08 o )"
+      ],
+      "lat": 48.426389,
+      "lon": -72.168889
+    },
+    {
+      "id": 2065,
+      "zone_id": 32,
+      "nom_brut": "Rivière Péribonka (secteur situé à l'extérieur de l'aire faunique communautaire du lac Saint-Jean) entre le barrage de Chute-à-la-Savane et une droite reliant les points ( 49°00'00\" N., 71°20'06\" O. ) et ( 49°00'00\" N., 71°20'13\" O. ).",
+      "nom": "Rivière Péribonka",
+      "nom_search": "riviere peribonka secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le barrage de chute a la savane et une droite reliant les points 49 00 00 n 71 20 06 o ) et 49 00 00 n 71 20 13 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Péribonka",
+      "aliases": [
+        "peribonka",
+        "peribonka secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le barrage de chute a la savane et une droite reliant les points 49 00 00 n 71 20 06 o ) et 49 00 00 n 71 20 13 o )",
+        "riviere peribonka",
+        "riviere peribonka secteur situe a l exterieur de l aire faunique communautaire du lac saint jean) entre le barrage de chute a la savane et une droite reliant les points 49 00 00 n 71 20 06 o ) et 49 00 00 n 71 20 13 o )"
+      ],
+      "lat": 49.0,
+      "lon": -71.335
+    },
+    {
+      "id": 3268,
+      "zone_id": 32,
+      "nom_brut": "Rivière Petite Décharge entre les structures de rétention du lac Saint-Jean et son embouchure dans la rivière Saguenay.",
+      "nom": "Rivière Petite Décharge entre les structures de rétention du lac Saint-Jean et son embouchure dans la rivière Saguenay.",
+      "nom_search": "riviere petite decharge entre les structures de retention du lac saint jean et son embouchure dans la riviere saguenay",
+      "segment_label": null,
+      "river_base_name": "Rivière Petite Décharge",
+      "aliases": [
+        "petite decharge",
+        "petite decharge entre les structures de retention du lac saint jean et son embouchure dans la riviere saguenay",
+        "riviere petite decharge",
+        "riviere petite decharge entre les structures de retention du lac saint jean et son embouchure dans la riviere saguenay"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2291,
+      "zone_id": 32,
+      "nom_brut": "Rivière Pikauba - La partie entre le premier rapide et l'embouchure du ruisseau à la Blague ( 48°14'19'' N., 71°26'44'' O. ).",
+      "nom": "Rivière Pikauba - La partie entre le premier rapide et l'embouchure du ruisseau à la Blague",
+      "nom_search": "riviere pikauba la partie entre le premier rapide et l embouchure du ruisseau a la blague 48 14 19 n 71 26 44 o )",
+      "segment_label": null,
+      "river_base_name": "Rivière Pikauba",
+      "aliases": [
+        "pikauba",
+        "pikauba la partie entre le premier rapide et l embouchure du ruisseau a la blague 48 14 19 n 71 26 44 o )",
+        "riviere pikauba",
+        "riviere pikauba la partie entre le premier rapide et l embouchure du ruisseau a la blague 48 14 19 n 71 26 44 o )"
+      ],
+      "lat": 48.238611,
+      "lon": -71.445556
+    },
+    {
+      "id": 2188,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saguenay a) entre la partie en aval du barrage de l'Isle-Maligne et des structures de rétention du lac Saint-Jean (Grande Décharge) et une droite perpendiculaire à la rivière Saguenay passant par l'extrémité la plus en amont du barrage Chute-à-Caron, sur la rive sud de la rivière Saguenay ( 48°27' N., 71°15' O. ).",
+      "nom": "Rivière Saguenay a) entre la partie en aval du barrage de l'Isle-Maligne et des structures de rétention du lac Saint-Jean",
+      "nom_search": "riviere saguenay a) entre la partie en aval du barrage de l isle maligne et des structures de retention du lac saint jean grande decharge) et une droite perpendiculaire a la riviere saguenay passant par l extremite la plus en amont du barrage chute a caron sur la rive sud de la riviere saguenay 48 27 n 71 15 o )",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saguenay",
+      "aliases": [
+        "riviere saguenay",
+        "riviere saguenay a) entre la partie en aval du barrage de l isle maligne et des structures de retention du lac saint jean grande decharge) et une droite perpendiculaire a la riviere saguenay passant par l extremite la plus en amont du barrage chute a caron sur la rive sud de la riviere saguenay 48 27 n 71 15 o )",
+        "saguenay",
+        "saguenay a) entre la partie en aval du barrage de l isle maligne et des structures de retention du lac saint jean grande decharge) et une droite perpendiculaire a la riviere saguenay passant par l extremite la plus en amont du barrage chute a caron sur la rive sud de la riviere saguenay 48 27 n 71 15 o )"
+      ],
+      "lat": 48.45,
+      "lon": -71.25
+    },
+    {
+      "id": 2189,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saguenay b) entre une droite perpendiculaire à la rivière Saguenay passant par l'extrémité la plus en amont du barrage Chute-à-Caron, sur la rive sud de la rivière Saguenay ( 48°27' N., 71°15' O. ) et le barrage Shipshaw ( 48°27' N., 71°13' O. ).",
+      "nom": "Rivière Saguenay b) entre une droite perpendiculaire à la rivière Saguenay passant par l'extrémité la plus en amont du barrage Chute-à-Caron, sur la rive sud de la rivière Saguenay",
+      "nom_search": "riviere saguenay b) entre une droite perpendiculaire a la riviere saguenay passant par l extremite la plus en amont du barrage chute a caron sur la rive sud de la riviere saguenay 48 27 n 71 15 o ) et le barrage shipshaw 48 27 n 71 13 o )",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Saguenay",
+      "aliases": [
+        "riviere saguenay",
+        "riviere saguenay b) entre une droite perpendiculaire a la riviere saguenay passant par l extremite la plus en amont du barrage chute a caron sur la rive sud de la riviere saguenay 48 27 n 71 15 o ) et le barrage shipshaw 48 27 n 71 13 o )",
+        "saguenay",
+        "saguenay b) entre une droite perpendiculaire a la riviere saguenay passant par l extremite la plus en amont du barrage chute a caron sur la rive sud de la riviere saguenay 48 27 n 71 15 o ) et le barrage shipshaw 48 27 n 71 13 o )"
+      ],
+      "lat": 48.45,
+      "lon": -71.25
+    },
+    {
+      "id": 2190,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saguenay c) entre le pied des barrages Chute-à-Caron et Shipshaw et le côté aval du pont Dubuc ( 48°25'57.6'' N., 71°04'13.8'' O. )",
+      "nom": "Rivière Saguenay c) entre le pied des barrages Chute-à-Caron et Shipshaw et le côté aval du pont Dubuc",
+      "nom_search": "riviere saguenay c) entre le pied des barrages chute a caron et shipshaw et le cote aval du pont dubuc 48 25 57 6 n 71 04 13 8 o )",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Saguenay",
+      "aliases": [
+        "riviere saguenay",
+        "riviere saguenay c) entre le pied des barrages chute a caron et shipshaw et le cote aval du pont dubuc 48 25 57 6 n 71 04 13 8 o )",
+        "saguenay",
+        "saguenay c) entre le pied des barrages chute a caron et shipshaw et le cote aval du pont dubuc 48 25 57 6 n 71 04 13 8 o )"
+      ],
+      "lat": 48.432667,
+      "lon": -71.0705
+    },
+    {
+      "id": 2209,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite Nord-Est a) entre son embouchure et la chute Blanche, située à 7 km de son embouchure.",
+      "nom": "Rivière Sainte-Marguerite Nord-Est a) entre son embouchure et la chute Blanche, située à 7 km de son embouchure.",
+      "nom_search": "riviere sainte marguerite nord est a) entre son embouchure et la chute blanche situee a 7 km de son embouchure",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Sainte-Marguerite Nord-Est",
+      "aliases": [
+        "riviere sainte marguerite nord est",
+        "riviere sainte marguerite nord est a) entre son embouchure et la chute blanche situee a 7 km de son embouchure",
+        "sainte marguerite nord est",
+        "sainte marguerite nord est a) entre son embouchure et la chute blanche situee a 7 km de son embouchure",
+        "st e",
+        "ste e"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2218,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite Nord-Est c) entre la chute du Seize et la chute située au point 48°40'55\" N., 70°17'04\" O. , à la partie sud-est du lac Tremblay.",
+      "nom": "Rivière Sainte-Marguerite Nord-Est c) entre la chute du Seize et la chute située au point 48°40'55\" N., 70°17'04\" O. , à la partie sud-est du lac Tremblay.",
+      "nom_search": "riviere sainte marguerite nord est c) entre la chute du seize et la chute situee au point 48 40 55 n 70 17 04 o a la partie sud est du lac tremblay",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Sainte-Marguerite Nord-Est",
+      "aliases": [
+        "riviere sainte marguerite nord est",
+        "riviere sainte marguerite nord est c) entre la chute du seize et la chute situee au point 48 40 55 n 70 17 04 o a la partie sud est du lac tremblay",
+        "sainte marguerite nord est",
+        "sainte marguerite nord est c) entre la chute du seize et la chute situee au point 48 40 55 n 70 17 04 o a la partie sud est du lac tremblay",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.681944,
+      "lon": -70.284444
+    },
+    {
+      "id": 2210,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite a) entre le côté en aval de la passerelle reliant le lot 12 du rang ouest au lot D du rang est (canton Albert), situé à son embouchure, et un point 48°23'10\" N., 70°12'20\" O. situé à environ 500 m en amont de la pointe de Bardsville.",
+      "nom": "Rivière Sainte-Marguerite a) entre le côté en aval de la passerelle reliant le lot 12 du rang ouest au lot D du rang est",
+      "nom_search": "riviere sainte marguerite a) entre le cote en aval de la passerelle reliant le lot 12 du rang ouest au lot d du rang est canton albert) situe a son embouchure et un point 48 23 10 n 70 12 20 o situe a environ 500 m en amont de la pointe de bardsville",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Sainte-Marguerite",
+      "aliases": [
+        "riviere sainte marguerite",
+        "riviere sainte marguerite a) entre le cote en aval de la passerelle reliant le lot 12 du rang ouest au lot d du rang est canton albert) situe a son embouchure et un point 48 23 10 n 70 12 20 o situe a environ 500 m en amont de la pointe de bardsville",
+        "sainte marguerite",
+        "sainte marguerite a) entre le cote en aval de la passerelle reliant le lot 12 du rang ouest au lot d du rang est canton albert) situe a son embouchure et un point 48 23 10 n 70 12 20 o situe a environ 500 m en amont de la pointe de bardsville",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.386111,
+      "lon": -70.205556
+    },
+    {
+      "id": 2211,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite b) entre un point ( 48°22'45\" N., 70°12'20\" O. ) situé à 500 m en amont de la pointe de Bardsville et un point 48°26'10\" N., 70°26'08\" O. situé en amont de la fosse à saumon no 59.",
+      "nom": "Rivière Sainte-Marguerite b) entre un point",
+      "nom_search": "riviere sainte marguerite b) entre un point 48 22 45 n 70 12 20 o ) situe a 500 m en amont de la pointe de bardsville et un point 48 26 10 n 70 26 08 o situe en amont de la fosse a saumon no 59",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Sainte-Marguerite",
+      "aliases": [
+        "riviere sainte marguerite",
+        "riviere sainte marguerite b) entre un point 48 22 45 n 70 12 20 o ) situe a 500 m en amont de la pointe de bardsville et un point 48 26 10 n 70 26 08 o situe en amont de la fosse a saumon no 59",
+        "sainte marguerite",
+        "sainte marguerite b) entre un point 48 22 45 n 70 12 20 o ) situe a 500 m en amont de la pointe de bardsville et un point 48 26 10 n 70 26 08 o situe en amont de la fosse a saumon no 59",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.379167,
+      "lon": -70.205556
+    },
+    {
+      "id": 2212,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite c) entre un point 48°26'10\" N., 70°26'08\" O. situé en amont de la fosse à saumon no 59 et un point 48°26'21\" N., 70°26'39\" O. situé en amont de la fosse à saumon Big Pool.",
+      "nom": "Rivière Sainte-Marguerite c) entre un point 48°26'10\" N., 70°26'08\" O. situé en amont de la fosse à saumon no 59 et un point 48°26'21\" N., 70°26'39\" O. situé en amont de la fosse à saumon Big Pool.",
+      "nom_search": "riviere sainte marguerite c) entre un point 48 26 10 n 70 26 08 o situe en amont de la fosse a saumon no 59 et un point 48 26 21 n 70 26 39 o situe en amont de la fosse a saumon big pool",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Sainte-Marguerite",
+      "aliases": [
+        "riviere sainte marguerite",
+        "riviere sainte marguerite c) entre un point 48 26 10 n 70 26 08 o situe en amont de la fosse a saumon no 59 et un point 48 26 21 n 70 26 39 o situe en amont de la fosse a saumon big pool",
+        "sainte marguerite",
+        "sainte marguerite c) entre un point 48 26 10 n 70 26 08 o situe en amont de la fosse a saumon no 59 et un point 48 26 21 n 70 26 39 o situe en amont de la fosse a saumon big pool",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.436111,
+      "lon": -70.435556
+    },
+    {
+      "id": 2213,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite d) entre un point 48°26'21\" N., 70°26'39\" O. situé en amont de la fosse à saumon Big Pool et un point 48°28'13\" N., 70°33'12\" O. situé à environ 750 m en amont de la fosse à saumon Dam Pool.",
+      "nom": "Rivière Sainte-Marguerite d) entre un point 48°26'21\" N., 70°26'39\" O. situé en amont de la fosse à saumon Big Pool et un point 48°28'13\" N., 70°33'12\" O. situé à environ 750 m en amont de la fosse à saumon Dam Pool.",
+      "nom_search": "riviere sainte marguerite d) entre un point 48 26 21 n 70 26 39 o situe en amont de la fosse a saumon big pool et un point 48 28 13 n 70 33 12 o situe a environ 750 m en amont de la fosse a saumon dam pool",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Sainte-Marguerite",
+      "aliases": [
+        "riviere sainte marguerite",
+        "riviere sainte marguerite d) entre un point 48 26 21 n 70 26 39 o situe en amont de la fosse a saumon big pool et un point 48 28 13 n 70 33 12 o situe a environ 750 m en amont de la fosse a saumon dam pool",
+        "sainte marguerite",
+        "sainte marguerite d) entre un point 48 26 21 n 70 26 39 o situe en amont de la fosse a saumon big pool et un point 48 28 13 n 70 33 12 o situe a environ 750 m en amont de la fosse a saumon dam pool",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.439167,
+      "lon": -70.444167
+    },
+    {
+      "id": 2214,
+      "zone_id": 32,
+      "nom_brut": "Rivière Sainte-Marguerite e) entre un point 48°28'13\" N., 70°33'12\" O. situé à environ 750 m en amont de la fosse à saumon Dam Pool et la chute située dans le parc national des Monts-Valin au point 48°32'10\" N., 70°42'17\" O.",
+      "nom": "Rivière Sainte-Marguerite e) entre un point 48°28'13\" N., 70°33'12\" O. situé à environ 750 m en amont de la fosse à saumon Dam Pool et la chute située dans le parc national des Monts-Valin au point 48°32'10\" N., 70°42'17\" O.",
+      "nom_search": "riviere sainte marguerite e) entre un point 48 28 13 n 70 33 12 o situe a environ 750 m en amont de la fosse a saumon dam pool et la chute situee dans le parc national des monts valin au point 48 32 10 n 70 42 17 o",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Sainte-Marguerite",
+      "aliases": [
+        "riviere sainte marguerite",
+        "riviere sainte marguerite e) entre un point 48 28 13 n 70 33 12 o situe a environ 750 m en amont de la fosse a saumon dam pool et la chute situee dans le parc national des monts valin au point 48 32 10 n 70 42 17 o",
+        "sainte marguerite",
+        "sainte marguerite e) entre un point 48 28 13 n 70 33 12 o situe a environ 750 m en amont de la fosse a saumon dam pool et la chute situee dans le parc national des monts valin au point 48 32 10 n 70 42 17 o",
+        "st e",
+        "ste e"
+      ],
+      "lat": 48.470278,
+      "lon": -70.553333
+    },
+    {
+      "id": 2294,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saint-Jean a) entre le côté en aval des bornes situées aux points 48°14'21,5\" N., 70°11'55,7\" O. et 48°14'24,5\" N., 70°12'03\" O. et une droite traversant la rivière perpendiculairement au courant au point 48°12'01\" N., 70°14'33\" O. , située directement en aval de la fosse n° 32 et correspondant à la limite supérieure du secteur de pêche n° 2.",
+      "nom": "Rivière Saint-Jean a) entre le côté en aval des bornes situées aux points 48°14'21,5\" N., 70°11'55,7\" O. et 48°14'24,5\" N., 70°12'03\" O. et une droite traversant la rivière perpendiculairement au courant au point 48°12'01\" N., 70°14'33\" O. , située directement en aval de la fosse n° 32 et correspondant à la limite supérieure du secteur de pêche n° 2.",
+      "nom_search": "riviere saint jean a) entre le cote en aval des bornes situees aux points 48 14 21 5 n 70 11 55 7 o et 48 14 24 5 n 70 12 03 o et une droite traversant la riviere perpendiculairement au courant au point 48 12 01 n 70 14 33 o situee directement en aval de la fosse n 32 et correspondant a la limite superieure du secteur de peche n 2",
+      "segment_label": "a)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean a) entre le cote en aval des bornes situees aux points 48 14 21 5 n 70 11 55 7 o et 48 14 24 5 n 70 12 03 o et une droite traversant la riviere perpendiculairement au courant au point 48 12 01 n 70 14 33 o situee directement en aval de la fosse n 32 et correspondant a la limite superieure du secteur de peche n 2",
+        "saint jean",
+        "saint jean a) entre le cote en aval des bornes situees aux points 48 14 21 5 n 70 11 55 7 o et 48 14 24 5 n 70 12 03 o et une droite traversant la riviere perpendiculairement au courant au point 48 12 01 n 70 14 33 o situee directement en aval de la fosse n 32 et correspondant a la limite superieure du secteur de peche n 2"
+      ],
+      "lat": 48.239306,
+      "lon": -70.198806
+    },
+    {
+      "id": 2208,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saint-Jean b) entre une droite traversant la rivière perpendiculairement au courant située au point 48°12'01\" N., 70°14'33\" O. , située directement en aval de la fosse n° 32 et correspondant à la limite supérieure du secteur de pêche n° 2, et une droite perpendiculaire au courant au point 48°11'55\" N., 70°15'10\" O. située directement en amont de la fosse 39 et correspondant à la limite supérieure du secteur de pêche no 3.",
+      "nom": "Rivière Saint-Jean b) entre une droite traversant la rivière perpendiculairement au courant située au point 48°12'01\" N., 70°14'33\" O. , située directement en aval de la fosse n° 32 et correspondant à la limite supérieure du secteur de pêche n° 2, et une droite perpendiculaire au courant au point 48°11'55\" N., 70°15'10\" O. située directement en amont de la fosse 39 et correspondant à la limite supérieure du secteur de pêche no 3.",
+      "nom_search": "riviere saint jean b) entre une droite traversant la riviere perpendiculairement au courant situee au point 48 12 01 n 70 14 33 o situee directement en aval de la fosse n 32 et correspondant a la limite superieure du secteur de peche n 2 et une droite perpendiculaire au courant au point 48 11 55 n 70 15 10 o situee directement en amont de la fosse 39 et correspondant a la limite superieure du secteur de peche no 3",
+      "segment_label": "b)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean b) entre une droite traversant la riviere perpendiculairement au courant situee au point 48 12 01 n 70 14 33 o situee directement en aval de la fosse n 32 et correspondant a la limite superieure du secteur de peche n 2 et une droite perpendiculaire au courant au point 48 11 55 n 70 15 10 o situee directement en amont de la fosse 39 et correspondant a la limite superieure du secteur de peche no 3",
+        "saint jean",
+        "saint jean b) entre une droite traversant la riviere perpendiculairement au courant situee au point 48 12 01 n 70 14 33 o situee directement en aval de la fosse n 32 et correspondant a la limite superieure du secteur de peche n 2 et une droite perpendiculaire au courant au point 48 11 55 n 70 15 10 o situee directement en amont de la fosse 39 et correspondant a la limite superieure du secteur de peche no 3"
+      ],
+      "lat": 48.200278,
+      "lon": -70.2425
+    },
+    {
+      "id": 10622,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saint-Jean c) entre une droite traversant la rivière perpendiculairement au courant située au point 48°11'55\" N., 70°15'10\" O. située directement en amont de la fosse n° 39 et correspondant à la limite supérieure du secteur de pêche n° 3 et une droite perpendiculaire au courant située directement en aval de la fosse n° 46 , soit à 30 m en aval de la chute située au kilomètre 10,5 et aux coordonnées suivantes: 48°12'02\" N., 70°15'23\" O.",
+      "nom": "Rivière Saint-Jean c) entre une droite traversant la rivière perpendiculairement au courant située au point 48°11'55\" N., 70°15'10\" O. située directement en amont de la fosse n° 39 et correspondant à la limite supérieure du secteur de pêche n° 3 et une droite perpendiculaire au courant située directement en aval de la fosse n° 46 , soit à 30 m en aval de la chute située au kilomètre 10,5 et aux coordonnées suivantes: 48°12'02\" N., 70°15'23\" O.",
+      "nom_search": "riviere saint jean c) entre une droite traversant la riviere perpendiculairement au courant situee au point 48 11 55 n 70 15 10 o situee directement en amont de la fosse n 39 et correspondant a la limite superieure du secteur de peche n 3 et une droite perpendiculaire au courant situee directement en aval de la fosse n 46 soit a 30 m en aval de la chute situee au kilometre 10 5 et aux coordonnees suivantes 48 12 02 n 70 15 23 o",
+      "segment_label": "c)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean c) entre une droite traversant la riviere perpendiculairement au courant situee au point 48 11 55 n 70 15 10 o situee directement en amont de la fosse n 39 et correspondant a la limite superieure du secteur de peche n 3 et une droite perpendiculaire au courant situee directement en aval de la fosse n 46 soit a 30 m en aval de la chute situee au kilometre 10 5 et aux coordonnees suivantes 48 12 02 n 70 15 23 o",
+        "saint jean",
+        "saint jean c) entre une droite traversant la riviere perpendiculairement au courant situee au point 48 11 55 n 70 15 10 o situee directement en amont de la fosse n 39 et correspondant a la limite superieure du secteur de peche n 3 et une droite perpendiculaire au courant situee directement en aval de la fosse n 46 soit a 30 m en aval de la chute situee au kilometre 10 5 et aux coordonnees suivantes 48 12 02 n 70 15 23 o"
+      ],
+      "lat": 48.198611,
+      "lon": -70.252778
+    },
+    {
+      "id": 2295,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saint-Jean d) entre une droite perpendiculaire au courant située directement en aval de la fosse n° 46, soit 30 m en aval de la chute située au kilomètre 10,5 et au point 48°12'02\" N., 70°15'23\" O. , et une droite perpendiculaire au courant situé à 30 m en amont de la chute située au kilomètre 10,5.",
+      "nom": "Rivière Saint-Jean d) entre une droite perpendiculaire au courant située directement en aval de la fosse n° 46, soit 30 m en aval de la chute située au kilomètre 10,5 et au point 48°12'02\" N., 70°15'23\" O. , et une droite perpendiculaire au courant situé à 30 m en amont de la chute située au kilomètre 10,5.",
+      "nom_search": "riviere saint jean d) entre une droite perpendiculaire au courant situee directement en aval de la fosse n 46 soit 30 m en aval de la chute situee au kilometre 10 5 et au point 48 12 02 n 70 15 23 o et une droite perpendiculaire au courant situe a 30 m en amont de la chute situee au kilometre 10 5",
+      "segment_label": "d)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean d) entre une droite perpendiculaire au courant situee directement en aval de la fosse n 46 soit 30 m en aval de la chute situee au kilometre 10 5 et au point 48 12 02 n 70 15 23 o et une droite perpendiculaire au courant situe a 30 m en amont de la chute situee au kilometre 10 5",
+        "saint jean",
+        "saint jean d) entre une droite perpendiculaire au courant situee directement en aval de la fosse n 46 soit 30 m en aval de la chute situee au kilometre 10 5 et au point 48 12 02 n 70 15 23 o et une droite perpendiculaire au courant situe a 30 m en amont de la chute situee au kilometre 10 5"
+      ],
+      "lat": 48.200556,
+      "lon": -70.256389
+    },
+    {
+      "id": 2296,
+      "zone_id": 32,
+      "nom_brut": "Rivière Saint-Jean e) entre une droite perpendiculaire au courant située à 30 m en amont de la chute située au kilomètre 10,5 et au point 48°12'02\" N., 70°15'23\" O. , et le barrage hydroélectrique situé en amont.",
+      "nom": "Rivière Saint-Jean e) entre une droite perpendiculaire au courant située à 30 m en amont de la chute située au kilomètre 10,5 et au point 48°12'02\" N., 70°15'23\" O. , et le barrage hydroélectrique situé en amont.",
+      "nom_search": "riviere saint jean e) entre une droite perpendiculaire au courant situee a 30 m en amont de la chute situee au kilometre 10 5 et au point 48 12 02 n 70 15 23 o et le barrage hydroelectrique situe en amont",
+      "segment_label": "e)",
+      "river_base_name": "Rivière Saint-Jean",
+      "aliases": [
+        "riviere saint jean",
+        "riviere saint jean e) entre une droite perpendiculaire au courant situee a 30 m en amont de la chute situee au kilometre 10 5 et au point 48 12 02 n 70 15 23 o et le barrage hydroelectrique situe en amont",
+        "saint jean",
+        "saint jean e) entre une droite perpendiculaire au courant situee a 30 m en amont de la chute situee au kilometre 10 5 et au point 48 12 02 n 70 15 23 o et le barrage hydroelectrique situe en amont"
+      ],
+      "lat": 48.200556,
+      "lon": -70.256389
+    },
+    {
+      "id": 2175,
+      "zone_id": 32,
+      "nom_brut": "Rivière sans nom entre une chute située à environ 2 km en aval du lac Jocelyn et correspondant aux points 48°59'43\" N., 70°34'57\" O. et un point situé à environ 1,5 km en aval et correspondant aux points 48°59'49\"N, 70°34'01\"O.",
+      "nom": "Rivière sans nom entre une chute située à environ 2 km en aval du lac Jocelyn et correspondant aux points 48°59'43\" N., 70°34'57\" O. et un point situé à environ 1,5 km en aval et correspondant aux points 48°59'49\"N, 70°34'01\"O.",
+      "nom_search": "riviere sans nom entre une chute situee a environ 2 km en aval du lac jocelyn et correspondant aux points 48 59 43 n 70 34 57 o et un point situe a environ 1 5 km en aval et correspondant aux points 48 59 49 n 70 34 01 o",
+      "segment_label": null,
+      "river_base_name": "Rivière sans nom",
+      "aliases": [
+        "riviere sans nom",
+        "riviere sans nom entre une chute situee a environ 2 km en aval du lac jocelyn et correspondant aux points 48 59 43 n 70 34 57 o et un point situe a environ 1 5 km en aval et correspondant aux points 48 59 49 n 70 34 01 o",
+        "sans nom",
+        "sans nom entre une chute situee a environ 2 km en aval du lac jocelyn et correspondant aux points 48 59 43 n 70 34 57 o et un point situe a environ 1 5 km en aval et correspondant aux points 48 59 49 n 70 34 01 o"
+      ],
+      "lat": 48.995278,
+      "lon": -70.5825
+    },
+    {
+      "id": 2192,
+      "zone_id": 32,
+      "nom_brut": "Rivière Shipshaw - La partie comprise entre les bornes situées aux points 48°26'56\" N., 71°12'16,5\" O. et 48°26'55\" N., 71°12'18\" O. et le côté aval du pont de la rue Wilson.",
+      "nom": "Rivière Shipshaw - La partie comprise entre les bornes situées aux points 48°26'56\" N., 71°12'16,5\" O. et 48°26'55\" N., 71°12'18\" O. et le côté aval du pont de la rue Wilson.",
+      "nom_search": "riviere shipshaw la partie comprise entre les bornes situees aux points 48 26 56 n 71 12 16 5 o et 48 26 55 n 71 12 18 o et le cote aval du pont de la rue wilson",
+      "segment_label": null,
+      "river_base_name": "Rivière Shipshaw",
+      "aliases": [
+        "riviere shipshaw",
+        "riviere shipshaw la partie comprise entre les bornes situees aux points 48 26 56 n 71 12 16 5 o et 48 26 55 n 71 12 18 o et le cote aval du pont de la rue wilson",
+        "shipshaw",
+        "shipshaw la partie comprise entre les bornes situees aux points 48 26 56 n 71 12 16 5 o et 48 26 55 n 71 12 18 o et le cote aval du pont de la rue wilson"
+      ],
+      "lat": 48.448889,
+      "lon": -71.204583
+    },
+    {
+      "id": 12702,
+      "zone_id": 32,
+      "nom_brut": "Rivière Valin - La partie comprise entre le coté aval du pont de la route 172 et le pied du premier rapide au point 48°28'17,4'' N., 70°58'53,93'' O.",
+      "nom": "Rivière Valin - La partie comprise entre le coté aval du pont de la route 172 et le pied du premier rapide au point 48°28'17,4'' N., 70°58'53,93'' O.",
+      "nom_search": "riviere valin la partie comprise entre le cote aval du pont de la route 172 et le pied du premier rapide au point 48 28 17 4 n 70 58 53 93 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Valin",
+      "aliases": [
+        "riviere valin",
+        "riviere valin la partie comprise entre le cote aval du pont de la route 172 et le pied du premier rapide au point 48 28 17 4 n 70 58 53 93 o",
+        "valin",
+        "valin la partie comprise entre le cote aval du pont de la route 172 et le pied du premier rapide au point 48 28 17 4 n 70 58 53 93 o"
+      ],
+      "lat": 48.4715,
+      "lon": -70.981647
+    },
+    {
+      "id": 2183,
+      "zone_id": 32,
+      "nom_brut": "Ruisseau Benouche entre son point de rencontre avec la rivière Éternité et le lac à l'Écluse.",
+      "nom": "Ruisseau Benouche entre son point de rencontre avec la rivière Éternité et le lac à l'Écluse.",
+      "nom_search": "ruisseau benouche entre son point de rencontre avec la riviere eternite et le lac a l ecluse",
+      "segment_label": null,
+      "river_base_name": "Ruisseau Benouche",
+      "aliases": [
+        "benouche",
+        "benouche entre son point de rencontre avec la riviere eternite et le lac a l ecluse",
+        "ruisseau benouche",
+        "ruisseau benouche entre son point de rencontre avec la riviere eternite et le lac a l ecluse"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2172,
+      "zone_id": 32,
+      "nom_brut": "Ruisseau Patrice-Fortin a) La partie comprise entre un point situé à 60 m en aval du pont de la route 170 ( 48°11'49\" N., 70°14'50\" O. ) et un point situé à 20 m en amont de ce pont.",
+      "nom": "Ruisseau Patrice-Fortin a) La partie comprise entre un point situé à 60 m en aval du pont de la route 170",
+      "nom_search": "ruisseau patrice fortin a) la partie comprise entre un point situe a 60 m en aval du pont de la route 170 48 11 49 n 70 14 50 o ) et un point situe a 20 m en amont de ce pont",
+      "segment_label": "a)",
+      "river_base_name": "Ruisseau Patrice-Fortin  La partie comprise",
+      "aliases": [
+        "patrice fortin a) la partie comprise entre un point situe a 60 m en aval du pont de la route 170 48 11 49 n 70 14 50 o ) et un point situe a 20 m en amont de ce pont",
+        "patrice fortin la partie comprise",
+        "ruisseau patrice fortin a) la partie comprise entre un point situe a 60 m en aval du pont de la route 170 48 11 49 n 70 14 50 o ) et un point situe a 20 m en amont de ce pont",
+        "ruisseau patrice fortin la partie comprise"
+      ],
+      "lat": 48.196944,
+      "lon": -70.247222
+    },
+    {
+      "id": 12721,
+      "zone_id": 32,
+      "nom_brut": "Ruisseau Patrice-Fortin b) La partie comprise entre un point situé à 20 m en amont du pont de la route 170 et le coté aval du pont de la rue des Coteaux ( 48°11'27'' N., 70°15'8,78'' O. )",
+      "nom": "Ruisseau Patrice-Fortin b) La partie comprise entre un point situé à 20 m en amont du pont de la route 170 et le coté aval du pont de la rue des Coteaux",
+      "nom_search": "ruisseau patrice fortin b) la partie comprise entre un point situe a 20 m en amont du pont de la route 170 et le cote aval du pont de la rue des coteaux 48 11 27 n 70 15 8 78 o )",
+      "segment_label": "b)",
+      "river_base_name": "Ruisseau Patrice-Fortin  La partie comprise",
+      "aliases": [
+        "patrice fortin b) la partie comprise entre un point situe a 20 m en amont du pont de la route 170 et le cote aval du pont de la rue des coteaux 48 11 27 n 70 15 8 78 o )",
+        "patrice fortin la partie comprise",
+        "ruisseau patrice fortin b) la partie comprise entre un point situe a 20 m en amont du pont de la route 170 et le cote aval du pont de la rue des coteaux 48 11 27 n 70 15 8 78 o )",
+        "ruisseau patrice fortin la partie comprise"
+      ],
+      "lat": 48.190833,
+      "lon": -70.252439
+    },
+    {
+      "id": 2359,
+      "zone_id": 32,
+      "nom_brut": "Zec Chauvin",
+      "nom": "Zec Chauvin",
+      "nom_search": "zec chauvin",
+      "segment_label": null,
+      "river_base_name": "Zec Chauvin",
+      "aliases": [
+        "zec chauvin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2380,
+      "zone_id": 32,
+      "nom_brut": "Zec de la Lièvre",
+      "nom": "Zec de la Lièvre",
+      "nom_search": "zec de la lievre",
+      "segment_label": null,
+      "river_base_name": "Zec de la Lièvre",
+      "aliases": [
+        "zec de la lievre"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2404,
+      "zone_id": 32,
+      "nom_brut": "Zec de la Rivière-aux-Rats",
+      "nom": "Zec de la Rivière-aux-Rats",
+      "nom_search": "zec de la riviere aux rats",
+      "segment_label": null,
+      "river_base_name": "Zec de la Rivière-aux-Rats",
+      "aliases": [
+        "zec de la riviere aux rats"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2344,
+      "zone_id": 32,
+      "nom_brut": "Zec de l'Anse-Saint-Jean",
+      "nom": "Zec de l'Anse-Saint-Jean",
+      "nom_search": "zec de l anse saint jean",
+      "segment_label": null,
+      "river_base_name": "Zec de l'Anse-Saint-Jean",
+      "aliases": [
+        "zec de l anse saint jean"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2398,
+      "zone_id": 32,
+      "nom_brut": "Zec des Passes",
+      "nom": "Zec des Passes",
+      "nom_search": "zec des passes",
+      "segment_label": null,
+      "river_base_name": "Zec des Passes",
+      "aliases": [
+        "zec des passes"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2376,
+      "zone_id": 32,
+      "nom_brut": "Zec du Lac-Brébeuf",
+      "nom": "Zec du Lac-Brébeuf",
+      "nom_search": "zec du lac brebeuf",
+      "segment_label": null,
+      "river_base_name": "Zec du Lac-Brébeuf",
+      "aliases": [
+        "zec du lac brebeuf"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2377,
+      "zone_id": 32,
+      "nom_brut": "Zec du Lac-de-la-Boiteuse",
+      "nom": "Zec du Lac-de-la-Boiteuse",
+      "nom_search": "zec du lac de la boiteuse",
+      "segment_label": null,
+      "river_base_name": "Zec du Lac-de-la-Boiteuse",
+      "aliases": [
+        "zec du lac de la boiteuse"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2385,
+      "zone_id": 32,
+      "nom_brut": "Zec Mars-Moulin",
+      "nom": "Zec Mars-Moulin",
+      "nom_search": "zec mars moulin",
+      "segment_label": null,
+      "river_base_name": "Zec Mars-Moulin",
+      "aliases": [
+        "zec mars moulin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2386,
+      "zone_id": 32,
+      "nom_brut": "Zec Martin-Valin",
+      "nom": "Zec Martin-Valin",
+      "nom_search": "zec martin valin",
+      "segment_label": null,
+      "river_base_name": "Zec Martin-Valin",
+      "aliases": [
+        "zec martin valin"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2414,
+      "zone_id": 32,
+      "nom_brut": "Zec Onatchiway",
+      "nom": "Zec Onatchiway",
+      "nom_search": "zec onatchiway",
+      "segment_label": null,
+      "river_base_name": "Zec Onatchiway",
+      "aliases": [
+        "zec onatchiway"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

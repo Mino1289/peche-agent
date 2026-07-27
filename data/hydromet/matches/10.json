@@ -1,0 +1,6132 @@
+{
+  "meta": {
+    "zone_id": 10,
+    "radius_km": 25.0,
+    "nb_with_coords": 164,
+    "nb_station_matched": 147
+  },
+  "matches": [
+    {
+      "plan_id": 419,
+      "plan_nom": "Lac à la Barbue",
+      "lat": 46.060556,
+      "lon": -75.9025,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 12.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 20.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 12.99
+      }
+    },
+    {
+      "plan_id": 10157,
+      "plan_nom": "Lac à la Croix",
+      "lat": 45.855556,
+      "lon": -74.809444,
+      "stations": [
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 6.89,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040204",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont de la chute McNeil",
+          "lat": 45.738,
+          "lon": -74.689,
+          "distance_km": 16.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 16.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 21.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 22.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 22.82,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 24.21,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040240",
+      "station": {
+        "id": "040240",
+        "plan_eau": "Rivière Maskinongé",
+        "description": "1 km en amont de Boileau",
+        "lat": 45.911094,
+        "lon": -74.769957,
+        "distance_km": 6.89
+      }
+    },
+    {
+      "plan_id": 437,
+      "plan_nom": "Lac à la Garlette",
+      "lat": 45.948889,
+      "lon": -75.846944,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 22.36,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 22.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 22.36
+      }
+    },
+    {
+      "plan_id": 10125,
+      "plan_nom": "Lac à la Loutre",
+      "lat": 45.995278,
+      "lon": -74.654167,
+      "stations": [
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 12.95,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 13.91,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 20.51,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040240",
+      "station": {
+        "id": "040240",
+        "plan_eau": "Rivière Maskinongé",
+        "description": "1 km en amont de Boileau",
+        "lat": 45.911094,
+        "lon": -74.769957,
+        "distance_km": 12.95
+      }
+    },
+    {
+      "plan_id": 10224,
+      "plan_nom": "Lac à la Truite",
+      "lat": 46.2425,
+      "lon": -76.924444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 414,
+      "plan_nom": "Lac à la Truite",
+      "lat": 46.088889,
+      "lon": -75.760278,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 8.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 21.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 23.84,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 8.76
+      }
+    },
+    {
+      "plan_id": 10101,
+      "plan_nom": "Lac Ambroise",
+      "lat": 46.32,
+      "lon": -75.773056,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 5.37,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 5.37
+      }
+    },
+    {
+      "plan_id": 480,
+      "plan_nom": "Lac au Foin",
+      "lat": 46.180833,
+      "lon": -75.731944,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 10.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 11.96,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 10.98
+      }
+    },
+    {
+      "plan_id": 3014,
+      "plan_nom": "Lac aux Castors",
+      "lat": 46.198333,
+      "lon": -75.0475,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 7.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 7.87
+      }
+    },
+    {
+      "plan_id": 10209,
+      "plan_nom": "Lac aux Vers",
+      "lat": 46.151389,
+      "lon": -77.143889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 416,
+      "plan_nom": "Lac Babiche",
+      "lat": 46.257778,
+      "lon": -75.712778,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 7.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 18.13,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 7.26
+      }
+    },
+    {
+      "plan_id": 10141,
+      "plan_nom": "Lac Barnes",
+      "lat": 45.748611,
+      "lon": -76.343611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2826,
+      "plan_nom": "Lac Bell",
+      "lat": 46.060556,
+      "lon": -76.630556,
+      "stations": [
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 24.52,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "679",
+      "station": {
+        "id": "679",
+        "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+        "description": "Au pont de la route 148 à Mansfield et Pontefract",
+        "lat": 45.851058,
+        "lon": -76.72953,
+        "distance_km": 24.52
+      }
+    },
+    {
+      "plan_id": 10143,
+      "plan_nom": "Lac Bellemare",
+      "lat": 45.850278,
+      "lon": -76.476944,
+      "stations": [
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 19.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 20.67,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "679",
+      "station": {
+        "id": "679",
+        "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+        "description": "Au pont de la route 148 à Mansfield et Pontefract",
+        "lat": 45.851058,
+        "lon": -76.72953,
+        "distance_km": 19.56
+      }
+    },
+    {
+      "plan_id": 2997,
+      "plan_nom": "Lac Bigelow",
+      "lat": 46.0625,
+      "lon": -75.649167,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 4.28,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 4.28
+      }
+    },
+    {
+      "plan_id": 2950,
+      "plan_nom": "Lac Bitobi",
+      "lat": 46.103611,
+      "lon": -75.946667,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 9.85,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 22.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 23.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 9.85
+      }
+    },
+    {
+      "plan_id": 2829,
+      "plan_nom": "Lac Blais",
+      "lat": 45.934167,
+      "lon": -75.168056,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 6.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 9.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 10.39,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 12.63,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 17.06,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 6.51
+      }
+    },
+    {
+      "plan_id": 10103,
+      "plan_nom": "Lac Blue Sea",
+      "lat": 46.223889,
+      "lon": -76.055,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 16.26,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 20.22,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 16.26
+      }
+    },
+    {
+      "plan_id": 2830,
+      "plan_nom": "Lac Boisseau",
+      "lat": 46.181111,
+      "lon": -74.818056,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 10.44,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 18.2,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 20.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 10.44
+      }
+    },
+    {
+      "plan_id": 10145,
+      "plan_nom": "Lac Bonin",
+      "lat": 45.669722,
+      "lon": -75.696389,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 17.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "411",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Rue Cartier",
+          "lat": 45.48464,
+          "lon": -75.74368,
+          "distance_km": 20.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "412",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Quai des Artistes",
+          "lat": 45.45739,
+          "lon": -75.69979,
+          "distance_km": 23.61,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 17.71
+      }
+    },
+    {
+      "plan_id": 422,
+      "plan_nom": "Lac Boutin",
+      "lat": 46.278333,
+      "lon": -76.090556,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 22.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 22.34,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 22.08
+      }
+    },
+    {
+      "plan_id": 10147,
+      "plan_nom": "Lac Britannique",
+      "lat": 45.752222,
+      "lon": -75.260278,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 11.15,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 13.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 16.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 19.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "502",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Parc National (amont)",
+          "lat": 45.598102,
+          "lon": -75.107669,
+          "distance_km": 20.84,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 21.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 23.58,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 11.15
+      }
+    },
+    {
+      "plan_id": 10226,
+      "plan_nom": "Lac Butler",
+      "lat": 46.250278,
+      "lon": -75.617222,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 14.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 16.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 14.6
+      }
+    },
+    {
+      "plan_id": 2962,
+      "plan_nom": "Lac Cameron",
+      "lat": 46.112222,
+      "lon": -74.828056,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 14.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 17.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 22.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 14.27
+      }
+    },
+    {
+      "plan_id": 10149,
+      "plan_nom": "Lac Cameron",
+      "lat": 45.770833,
+      "lon": -76.113889,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 20.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 20.03
+      }
+    },
+    {
+      "plan_id": 478,
+      "plan_nom": "Lac Campion",
+      "lat": 46.125556,
+      "lon": -75.648333,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 2.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 20.58,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 2.73
+      }
+    },
+    {
+      "plan_id": 10902,
+      "plan_nom": "Lac Cayamant",
+      "lat": 46.106389,
+      "lon": -76.277222,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 16.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 16.36
+      }
+    },
+    {
+      "plan_id": 483,
+      "plan_nom": "Lac Chapleau",
+      "lat": 46.226944,
+      "lon": -74.948889,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 1.8,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 1.8
+      }
+    },
+    {
+      "plan_id": 2837,
+      "plan_nom": "Lac Clair",
+      "lat": 45.736667,
+      "lon": -75.801111,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 13.48,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 13.48
+      }
+    },
+    {
+      "plan_id": 10155,
+      "plan_nom": "Lac Creux",
+      "lat": 46.058056,
+      "lon": -76.370278,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 23.35,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 23.35
+      }
+    },
+    {
+      "plan_id": 425,
+      "plan_nom": "Lac Croche",
+      "lat": 45.93,
+      "lon": -75.175833,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 6.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 9.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 9.81,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 12.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 16.86,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 24.8,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 6.87
+      }
+    },
+    {
+      "plan_id": 10151,
+      "plan_nom": "Lac de la Carpe",
+      "lat": 46.053333,
+      "lon": -74.873611,
+      "stations": [
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 17.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 18.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 22.04,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 22.04,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 23.4,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040240",
+      "station": {
+        "id": "040240",
+        "plan_eau": "Rivière Maskinongé",
+        "description": "1 km en amont de Boileau",
+        "lat": 45.911094,
+        "lon": -74.769957,
+        "distance_km": 17.73
+      }
+    },
+    {
+      "plan_id": 2847,
+      "plan_nom": "Lac de la Décharge",
+      "lat": 46.118333,
+      "lon": -74.803333,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 15.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 15.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 23.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 15.09
+      }
+    },
+    {
+      "plan_id": 497,
+      "plan_nom": "Lac de la Ferme",
+      "lat": 46.017778,
+      "lon": -75.098611,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 12.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 15.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 16.03,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 20.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 24.44,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 12.21
+      }
+    },
+    {
+      "plan_id": 10121,
+      "plan_nom": "Lac de la Sucrerie",
+      "lat": 46.112778,
+      "lon": -74.899444,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 11.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 22.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 24.55,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 11.49
+      }
+    },
+    {
+      "plan_id": 11420,
+      "plan_nom": "Lac de l'Achigan",
+      "lat": 46.388611,
+      "lon": -75.773611,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 12.68,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 12.68
+      }
+    },
+    {
+      "plan_id": 2959,
+      "plan_nom": "Lac de l'Aigle",
+      "lat": 46.112222,
+      "lon": -75.463333,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 14.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 14.29
+      }
+    },
+    {
+      "plan_id": 402,
+      "plan_nom": "Lac de l'Argile",
+      "lat": 45.860278,
+      "lon": -75.561667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3013,
+      "plan_nom": "Lac de l'Écluse",
+      "lat": 45.730278,
+      "lon": -75.779167,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 14.27,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 14.27
+      }
+    },
+    {
+      "plan_id": 427,
+      "plan_nom": "Lac Dénommé",
+      "lat": 46.215278,
+      "lon": -76.075278,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 15.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 21.99,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 15.27
+      }
+    },
+    {
+      "plan_id": 2961,
+      "plan_nom": "Lac des Bagnoles",
+      "lat": 45.996944,
+      "lon": -75.826111,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 17.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 20.8,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 17.97
+      }
+    },
+    {
+      "plan_id": 11061,
+      "plan_nom": "Lac des Écorces",
+      "lat": 46.524444,
+      "lon": -75.417222,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 2.67,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 2.84,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 2.67
+      }
+    },
+    {
+      "plan_id": 2963,
+      "plan_nom": "Lac des Grandes Baies",
+      "lat": 46.373056,
+      "lon": -75.115,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 22.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 22.9,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 22.19
+      }
+    },
+    {
+      "plan_id": 3020,
+      "plan_nom": "Lac des Îles",
+      "lat": 46.463056,
+      "lon": -75.538056,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 12.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 13.16,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 12.41
+      }
+    },
+    {
+      "plan_id": 11441,
+      "plan_nom": "Lac des Isles",
+      "lat": 46.288333,
+      "lon": -75.054444,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 11.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 20.13,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 11.95
+      }
+    },
+    {
+      "plan_id": 3115,
+      "plan_nom": "Lac des Pères",
+      "lat": 46.2375,
+      "lon": -75.850556,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 5.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 21.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 24.45,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 5.65
+      }
+    },
+    {
+      "plan_id": 2918,
+      "plan_nom": "Lac des Plages",
+      "lat": 45.993056,
+      "lon": -74.899167,
+      "stations": [
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 13.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 15.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 17.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 19.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 24.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040240",
+      "station": {
+        "id": "040240",
+        "plan_eau": "Rivière Maskinongé",
+        "description": "1 km en amont de Boileau",
+        "lat": 45.911094,
+        "lon": -74.769957,
+        "distance_km": 13.52
+      }
+    },
+    {
+      "plan_id": 3216,
+      "plan_nom": "Lac des Sources",
+      "lat": 46.556389,
+      "lon": -75.578889,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 12.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 15.48,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 12.27
+      }
+    },
+    {
+      "plan_id": 2940,
+      "plan_nom": "Lac des Trente et Un Milles",
+      "lat": 46.206111,
+      "lon": -75.81,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 7.83,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 7.83
+      }
+    },
+    {
+      "plan_id": 2941,
+      "plan_nom": "Lac des Trois Montagnes",
+      "lat": 46.160278,
+      "lon": -74.772222,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 14.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 14.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 23.0,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 14.05
+      }
+    },
+    {
+      "plan_id": 2951,
+      "plan_nom": "Lac Désert",
+      "lat": 46.279722,
+      "lon": -74.908056,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 8.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 11.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 8.22
+      }
+    },
+    {
+      "plan_id": 2850,
+      "plan_nom": "Lac Dodds",
+      "lat": 45.718333,
+      "lon": -75.607222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2834,
+      "plan_nom": "Lac du Cardinal",
+      "lat": 45.847778,
+      "lon": -75.795833,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 24.09,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 24.09
+      }
+    },
+    {
+      "plan_id": 10153,
+      "plan_nom": "Lac du Castor Blanc",
+      "lat": 46.541667,
+      "lon": -75.790556,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 19.89,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 19.89
+      }
+    },
+    {
+      "plan_id": 3044,
+      "plan_nom": "Lac du Corbeau",
+      "lat": 46.196667,
+      "lon": -75.475,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 17.05,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 17.05
+      }
+    },
+    {
+      "plan_id": 431,
+      "plan_nom": "Lac du Dépôt",
+      "lat": 45.975278,
+      "lon": -76.681111,
+      "stations": [
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 14.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 15.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 21.02,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "679",
+      "station": {
+        "id": "679",
+        "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+        "description": "Au pont de la route 148 à Mansfield et Pontefract",
+        "lat": 45.851058,
+        "lon": -76.72953,
+        "distance_km": 14.31
+      }
+    },
+    {
+      "plan_id": 10198,
+      "plan_nom": "Lac du Rang",
+      "lat": 45.859167,
+      "lon": -76.284444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10225,
+      "plan_nom": "Lac Dudley",
+      "lat": 46.270278,
+      "lon": -75.590556,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 16.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 19.34,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 16.37
+      }
+    },
+    {
+      "plan_id": 2853,
+      "plan_nom": "Lac Dumont",
+      "lat": 46.066111,
+      "lon": -76.4475,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2854,
+      "plan_nom": "Lac Earhart",
+      "lat": 46.086944,
+      "lon": -75.434167,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 16.56,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 16.56
+      }
+    },
+    {
+      "plan_id": 2839,
+      "plan_nom": "Lac en Coeur",
+      "lat": 45.769722,
+      "lon": -75.234167,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 8.6,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 11.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 14.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 16.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 18.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 20.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "502",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Parc National (amont)",
+          "lat": 45.598102,
+          "lon": -75.107669,
+          "distance_km": 21.46,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 8.6
+      }
+    },
+    {
+      "plan_id": 10161,
+      "plan_nom": "Lac Findlay",
+      "lat": 45.969444,
+      "lon": -76.892778,
+      "stations": [
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 7.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 18.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 18.51,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "488",
+      "station": {
+        "id": "488",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À 500 m en amont du pont de la route 148 à Waltham",
+        "lat": 45.906871,
+        "lon": -76.934487,
+        "distance_km": 7.67
+      }
+    },
+    {
+      "plan_id": 3054,
+      "plan_nom": "Lac Fiset",
+      "lat": 46.250278,
+      "lon": -75.727778,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 6.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 17.7,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 6.49
+      }
+    },
+    {
+      "plan_id": 554,
+      "plan_nom": "Lac François entre un point situé à 100 m en amont et un autre situé à 100 m en aval du pont qui sépare le lac François et le Petit lac François",
+      "lat": 46.490833,
+      "lon": -75.317222,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 5.83,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 10.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 18.49,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 21.5,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 5.83
+      }
+    },
+    {
+      "plan_id": 2860,
+      "plan_nom": "Lac Gagnon",
+      "lat": 46.109167,
+      "lon": -75.126944,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 17.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 22.51,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 17.89
+      }
+    },
+    {
+      "plan_id": 2862,
+      "plan_nom": "Lac Galarneau",
+      "lat": 46.146389,
+      "lon": -76.142778,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 9.5,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 9.5
+      }
+    },
+    {
+      "plan_id": 2863,
+      "plan_nom": "Lac Gatineau",
+      "lat": 46.549444,
+      "lon": -75.655278,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 18.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 20.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 18.08
+      }
+    },
+    {
+      "plan_id": 501,
+      "plan_nom": "Lac Gaucher",
+      "lat": 46.392778,
+      "lon": -75.603333,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 20.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 20.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 22.34,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 20.08
+      }
+    },
+    {
+      "plan_id": 10163,
+      "plan_nom": "Lac Gaudry",
+      "lat": 46.022222,
+      "lon": -76.665,
+      "stations": [
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 19.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 21.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 24.46,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "679",
+      "station": {
+        "id": "679",
+        "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+        "description": "Au pont de la route 148 à Mansfield et Pontefract",
+        "lat": 45.851058,
+        "lon": -76.72953,
+        "distance_km": 19.68
+      }
+    },
+    {
+      "plan_id": 10165,
+      "plan_nom": "Lac Grand lac à Roy",
+      "lat": 45.817778,
+      "lon": -75.201389,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 2.86,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 9.21,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 11.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 13.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 15.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 15.74,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 2.86
+      }
+    },
+    {
+      "plan_id": 3053,
+      "plan_nom": "Lac Grand lac des Cèdres",
+      "lat": 46.301111,
+      "lon": -76.115,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 24.11,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 24.11
+      }
+    },
+    {
+      "plan_id": 3114,
+      "plan_nom": "Lac Grand lac du Cerf",
+      "lat": 46.271389,
+      "lon": -75.498333,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 22.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 23.45,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 22.17
+      }
+    },
+    {
+      "plan_id": 2867,
+      "plan_nom": "Lac Grand lac du Pin Rouge",
+      "lat": 45.809167,
+      "lon": -75.209167,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 3.87,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 9.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 12.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 14.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 15.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 16.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "502",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Parc National (amont)",
+          "lat": 45.598102,
+          "lon": -75.107669,
+          "distance_km": 24.76,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 3.87
+      }
+    },
+    {
+      "plan_id": 506,
+      "plan_nom": "Lac Grand lac Nominingue",
+      "lat": 46.431944,
+      "lon": -74.980556,
+      "stations": [
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 14.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 24.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 24.73,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040241",
+      "station": {
+        "id": "040241",
+        "plan_eau": "Lac Barrière",
+        "description": "À 8 km en aval de la ville de Rivière Rouge",
+        "lat": 46.3648,
+        "lon": -74.8168,
+        "distance_km": 14.61
+      }
+    },
+    {
+      "plan_id": 2869,
+      "plan_nom": "Lac Grand lac Rond",
+      "lat": 46.244722,
+      "lon": -75.887222,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 7.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 23.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 24.39,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 7.35
+      }
+    },
+    {
+      "plan_id": 2865,
+      "plan_nom": "Lac Grand",
+      "lat": 45.685278,
+      "lon": -75.65,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 21.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "411",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Rue Cartier",
+          "lat": 45.48464,
+          "lon": -75.74368,
+          "distance_km": 23.47,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 21.54
+      }
+    },
+    {
+      "plan_id": 2871,
+      "plan_nom": "Lac Hawk",
+      "lat": 45.805833,
+      "lon": -75.34,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 11.58,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 19.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 21.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 22.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 23.81,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 11.58
+      }
+    },
+    {
+      "plan_id": 435,
+      "plan_nom": "Lac Heafey",
+      "lat": 46.2625,
+      "lon": -76.1425,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 21.28,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 21.28
+      }
+    },
+    {
+      "plan_id": 2872,
+      "plan_nom": "Lac Hickey",
+      "lat": 45.763333,
+      "lon": -76.091111,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 18.17,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 18.17
+      }
+    },
+    {
+      "plan_id": 10167,
+      "plan_nom": "Lac Hilaire",
+      "lat": 46.053333,
+      "lon": -76.380278,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 24.17,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 24.17
+      }
+    },
+    {
+      "plan_id": 2874,
+      "plan_nom": "Lac Iroquois",
+      "lat": 46.049722,
+      "lon": -75.168611,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 16.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 20.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 21.66,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 23.07,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 24.76,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 16.8
+      }
+    },
+    {
+      "plan_id": 10169,
+      "plan_nom": "Lac Johnson",
+      "lat": 45.778056,
+      "lon": -76.3925,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2879,
+      "plan_nom": "Lac Kensington",
+      "lat": 46.397222,
+      "lon": -75.717778,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 14.95,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 14.95
+      }
+    },
+    {
+      "plan_id": 2902,
+      "plan_nom": "Lac La Minerve",
+      "lat": 46.221667,
+      "lon": -75.029444,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 6.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 22.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 6.47
+      }
+    },
+    {
+      "plan_id": 2881,
+      "plan_nom": "Lac la Rouge",
+      "lat": 46.067778,
+      "lon": -74.983889,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 16.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 19.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 20.65,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 22.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 24.01,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 16.16
+      }
+    },
+    {
+      "plan_id": 2882,
+      "plan_nom": "Lac Labelle",
+      "lat": 46.228889,
+      "lon": -74.853611,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 7.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 15.37,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 23.15,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 7.45
+      }
+    },
+    {
+      "plan_id": 2884,
+      "plan_nom": "Lac Lady",
+      "lat": 45.8375,
+      "lon": -75.334722,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 10.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 19.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 19.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 20.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 24.78,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 10.41
+      }
+    },
+    {
+      "plan_id": 2887,
+      "plan_nom": "Lac Lafontaine",
+      "lat": 46.074167,
+      "lon": -75.173056,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 19.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 23.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 23.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 24.18,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 19.48
+      }
+    },
+    {
+      "plan_id": 10171,
+      "plan_nom": "Lac Laforest",
+      "lat": 46.098611,
+      "lon": -76.524167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 505,
+      "plan_nom": "Lac Lesage",
+      "lat": 46.310556,
+      "lon": -75.041667,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 13.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 18.29,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 13.28
+      }
+    },
+    {
+      "plan_id": 442,
+      "plan_nom": "Lac Logue",
+      "lat": 46.64,
+      "lon": -76.085278,
+      "stations": [
+        {
+          "id": "040841",
+          "plan_eau": "Rivière Désert",
+          "description": "Sur le chemin Lytton en amont de la chute Rouge",
+          "lat": 46.59,
+          "lon": -76.041,
+          "distance_km": 6.51,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040841",
+      "station": {
+        "id": "040841",
+        "plan_eau": "Rivière Désert",
+        "description": "Sur le chemin Lytton en amont de la chute Rouge",
+        "lat": 46.59,
+        "lon": -76.041,
+        "distance_km": 6.51
+      }
+    },
+    {
+      "plan_id": 10181,
+      "plan_nom": "Lac Long",
+      "lat": 45.701944,
+      "lon": -75.325,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 18.46,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "502",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Parc National (amont)",
+          "lat": 45.598102,
+          "lon": -75.107669,
+          "distance_km": 20.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "410",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Traversier Masson",
+          "lat": 45.52658,
+          "lon": -75.41105,
+          "distance_km": 20.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 20.82,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 20.94,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 18.46
+      }
+    },
+    {
+      "plan_id": 2893,
+      "plan_nom": "Lac Marie-Louise",
+      "lat": 46.233611,
+      "lon": -74.971667,
+      "stations": [
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 3.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 18.82,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040239",
+      "station": {
+        "id": "040239",
+        "plan_eau": "Lac Chapleau",
+        "description": "Au lac Chapleau à La Minerve",
+        "lat": 46.210778,
+        "lon": -74.946806,
+        "distance_km": 3.18
+      }
+    },
+    {
+      "plan_id": 10961,
+      "plan_nom": "Lac McArthur",
+      "lat": 45.708056,
+      "lon": -75.670278,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 20.63,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 20.63
+      }
+    },
+    {
+      "plan_id": 10183,
+      "plan_nom": "Lac McArthur",
+      "lat": 45.844722,
+      "lon": -75.858611,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 22.21,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 22.21
+      }
+    },
+    {
+      "plan_id": 2899,
+      "plan_nom": "Lac McFee",
+      "lat": 45.714722,
+      "lon": -75.622222,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 24.41,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 24.41
+      }
+    },
+    {
+      "plan_id": 2901,
+      "plan_nom": "Lac McGregor",
+      "lat": 45.657222,
+      "lon": -75.646389,
+      "stations": [
+        {
+          "id": "411",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Rue Cartier",
+          "lat": 45.48464,
+          "lon": -75.74368,
+          "distance_km": 20.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 21.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "412",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Quai des Artistes",
+          "lat": 45.45739,
+          "lon": -75.69979,
+          "distance_km": 22.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "410",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Traversier Masson",
+          "lat": 45.52658,
+          "lon": -75.41105,
+          "distance_km": 23.37,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "411",
+      "station": {
+        "id": "411",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Rue Cartier",
+        "lat": 45.48464,
+        "lon": -75.74368,
+        "distance_km": 20.63
+      }
+    },
+    {
+      "plan_id": 10186,
+      "plan_nom": "Lac McKay",
+      "lat": 45.998889,
+      "lon": -76.639444,
+      "stations": [
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 17.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 19.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 25.0,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "679",
+      "station": {
+        "id": "679",
+        "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+        "description": "Au pont de la route 148 à Mansfield et Pontefract",
+        "lat": 45.851058,
+        "lon": -76.72953,
+        "distance_km": 17.85
+      }
+    },
+    {
+      "plan_id": 3022,
+      "plan_nom": "Lac McPhee",
+      "lat": 46.266111,
+      "lon": -75.470556,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 22.88,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 22.88
+      }
+    },
+    {
+      "plan_id": 10188,
+      "plan_nom": "Lac Mecham",
+      "lat": 45.754167,
+      "lon": -76.371667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3116,
+      "plan_nom": "Lac Michel",
+      "lat": 46.279444,
+      "lon": -75.827222,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 1.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 24.17,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 1.87
+      }
+    },
+    {
+      "plan_id": 10190,
+      "plan_nom": "Lac Moiseau",
+      "lat": 46.088333,
+      "lon": -76.884722,
+      "stations": [
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 20.54,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "488",
+      "station": {
+        "id": "488",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À 500 m en amont du pont de la route 148 à Waltham",
+        "lat": 45.906871,
+        "lon": -76.934487,
+        "distance_km": 20.54
+      }
+    },
+    {
+      "plan_id": 10192,
+      "plan_nom": "Lac Moorhead",
+      "lat": 46.167778,
+      "lon": -76.526944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10127,
+      "plan_nom": "Lac Moreno",
+      "lat": 46.424167,
+      "lon": -75.150833,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 20.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 22.99,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 24.74,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 20.49
+      }
+    },
+    {
+      "plan_id": 456,
+      "plan_nom": "Lac Mulet",
+      "lat": 45.954444,
+      "lon": -75.217778,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 10.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 12.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 13.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 17.08,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 20.73,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 10.96
+      }
+    },
+    {
+      "plan_id": 2968,
+      "plan_nom": "Lac Normandeau",
+      "lat": 45.843611,
+      "lon": -75.824722,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 22.83,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 22.83
+      }
+    },
+    {
+      "plan_id": 2908,
+      "plan_nom": "Lac Papineau",
+      "lat": 45.809444,
+      "lon": -74.762778,
+      "stations": [
+        {
+          "id": "040204",
+          "plan_eau": "Rivière Rouge",
+          "description": "En amont de la chute McNeil",
+          "lat": 45.738,
+          "lon": -74.689,
+          "distance_km": 9.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 11.32,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 21.7,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 24.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040204",
+      "station": {
+        "id": "040204",
+        "plan_eau": "Rivière Rouge",
+        "description": "En amont de la chute McNeil",
+        "lat": 45.738,
+        "lon": -74.689,
+        "distance_km": 9.79
+      }
+    },
+    {
+      "plan_id": 508,
+      "plan_nom": "Lac Paquin",
+      "lat": 46.133611,
+      "lon": -76.049444,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 6.36,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 24.72,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 6.36
+      }
+    },
+    {
+      "plan_id": 2910,
+      "plan_nom": "Lac Patterson",
+      "lat": 46.141389,
+      "lon": -76.203056,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 12.51,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 12.51
+      }
+    },
+    {
+      "plan_id": 410,
+      "plan_nom": "Lac Pemichangan",
+      "lat": 46.058611,
+      "lon": -75.850556,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 16.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 16.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 24.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 16.32
+      }
+    },
+    {
+      "plan_id": 2912,
+      "plan_nom": "Lac Petit lac à la Truite",
+      "lat": 45.952222,
+      "lon": -75.838611,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 22.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 22.63,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 22.14
+      }
+    },
+    {
+      "plan_id": 2970,
+      "plan_nom": "Lac Petit lac Cayamant",
+      "lat": 45.983056,
+      "lon": -76.333889,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 23.01,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 23.01
+      }
+    },
+    {
+      "plan_id": 406,
+      "plan_nom": "Lac Petit lac des Cèdres",
+      "lat": 46.291667,
+      "lon": -76.080278,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 21.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 23.77,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 21.35
+      }
+    },
+    {
+      "plan_id": 3016,
+      "plan_nom": "Lac Petit lac du Cerf",
+      "lat": 46.286944,
+      "lon": -75.533056,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 20.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 22.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 20.8
+      }
+    },
+    {
+      "plan_id": 510,
+      "plan_nom": "Lac Petit lac Francis",
+      "lat": 46.294722,
+      "lon": -75.645556,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 12.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 21.54,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 12.29
+      }
+    },
+    {
+      "plan_id": 2914,
+      "plan_nom": "Lac Petit lac Preston",
+      "lat": 46.032222,
+      "lon": -75.046667,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 14.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 16.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 17.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 21.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 24.13,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 14.26
+      }
+    },
+    {
+      "plan_id": 10194,
+      "plan_nom": "Lac Pigeon",
+      "lat": 46.192778,
+      "lon": -76.873333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 487,
+      "plan_nom": "Lac Pimodan",
+      "lat": 46.388889,
+      "lon": -75.293056,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 15.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 20.19,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 15.12
+      }
+    },
+    {
+      "plan_id": 10196,
+      "plan_nom": "Lac Proulx",
+      "lat": 45.828889,
+      "lon": -75.864444,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 20.39,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 20.39
+      }
+    },
+    {
+      "plan_id": 512,
+      "plan_nom": "Lac Quinn",
+      "lat": 46.477222,
+      "lon": -75.737222,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 22.9,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 22.9
+      }
+    },
+    {
+      "plan_id": 3019,
+      "plan_nom": "Lac Rognon",
+      "lat": 46.072778,
+      "lon": -74.799444,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 15.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040240",
+          "plan_eau": "Rivière Maskinongé",
+          "description": "1 km en amont de Boileau",
+          "lat": 45.911094,
+          "lon": -74.769957,
+          "distance_km": 18.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 19.09,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 15.93
+      }
+    },
+    {
+      "plan_id": 10200,
+      "plan_nom": "Lac Rond",
+      "lat": 45.687222,
+      "lon": -75.835833,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 7.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "411",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Rue Cartier",
+          "lat": 45.48464,
+          "lon": -75.74368,
+          "distance_km": 23.64,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 7.91
+      }
+    },
+    {
+      "plan_id": 2921,
+      "plan_nom": "Lac Rond",
+      "lat": 45.873889,
+      "lon": -75.774167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 461,
+      "plan_nom": "Lac Saint-Antoine",
+      "lat": 46.399444,
+      "lon": -75.160278,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 21.28,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 21.28
+      }
+    },
+    {
+      "plan_id": 10202,
+      "plan_nom": "Lac Saint-Charles",
+      "lat": 45.773889,
+      "lon": -75.873333,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 14.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 14.29
+      }
+    },
+    {
+      "plan_id": 489,
+      "plan_nom": "Lac Saint-Germain",
+      "lat": 46.228056,
+      "lon": -75.505,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 17.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 23.56,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 17.91
+      }
+    },
+    {
+      "plan_id": 2925,
+      "plan_nom": "Lac Saint-Sixte",
+      "lat": 45.816944,
+      "lon": -75.253611,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 5.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 13.08,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 14.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 16.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 18.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 19.44,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 5.06
+      }
+    },
+    {
+      "plan_id": 491,
+      "plan_nom": "Lac Serpent",
+      "lat": 46.153889,
+      "lon": -75.481389,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 14.12,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 14.12
+      }
+    },
+    {
+      "plan_id": 2927,
+      "plan_nom": "Lac Simon",
+      "lat": 45.956389,
+      "lon": -75.074722,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 5.55,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 5.55
+      }
+    },
+    {
+      "plan_id": 2929,
+      "plan_nom": "Lac Smallian",
+      "lat": 45.818889,
+      "lon": -75.356944,
+      "stations": [
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 12.42,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 21.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 22.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 22.73,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040412",
+      "station": {
+        "id": "040412",
+        "plan_eau": "Ruisseau Schryer",
+        "description": "575 m en amont du lac Schryer",
+        "lat": 45.843474,
+        "lon": -75.200618,
+        "distance_km": 12.42
+      }
+    },
+    {
+      "plan_id": 2935,
+      "plan_nom": "Lac Stubbs",
+      "lat": 46.104444,
+      "lon": -76.646111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10204,
+      "plan_nom": "Lac Terreur",
+      "lat": 45.731944,
+      "lon": -75.6425,
+      "stations": [
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 23.58,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "485",
+      "station": {
+        "id": "485",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Au pont de la route 366 à La Pêche",
+        "lat": 45.650007,
+        "lon": -75.922517,
+        "distance_km": 23.58
+      }
+    },
+    {
+      "plan_id": 10205,
+      "plan_nom": "Lac Thorne",
+      "lat": 45.686944,
+      "lon": -76.361944,
+      "stations": [
+        {
+          "id": "504",
+          "plan_eau": "Rivière Quyon                                                                                                                                                                                                                                                 ",
+          "description": "Au pont de la rue Egan à Quyon",
+          "lat": 45.521054,
+          "lon": -76.236499,
+          "distance_km": 20.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "506",
+          "plan_eau": "Rivière Quyon                                                                                                                                                                                                                                                 ",
+          "description": "Au traversier de Quyon",
+          "lat": 45.516033,
+          "lon": -76.227628,
+          "distance_km": 21.69,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "504",
+      "station": {
+        "id": "504",
+        "plan_eau": "Rivière Quyon                                                                                                                                                                                                                                                 ",
+        "description": "Au pont de la rue Egan à Quyon",
+        "lat": 45.521054,
+        "lon": -76.236499,
+        "distance_km": 20.87
+      }
+    },
+    {
+      "plan_id": 10207,
+      "plan_nom": "Lac Usborne",
+      "lat": 46.224167,
+      "lon": -76.671667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 474,
+      "plan_nom": "Lac Vert",
+      "lat": 45.902222,
+      "lon": -75.606389,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 22.34,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 22.34
+      }
+    },
+    {
+      "plan_id": 3011,
+      "plan_nom": "Lac Vert",
+      "lat": 45.998611,
+      "lon": -75.799444,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 16.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 22.6,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 16.32
+      }
+    },
+    {
+      "plan_id": 464,
+      "plan_nom": "Lac Vert",
+      "lat": 46.175,
+      "lon": -75.483611,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 15.1,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 15.1
+      }
+    },
+    {
+      "plan_id": 10123,
+      "plan_nom": "Lac Veuillot",
+      "lat": 46.425556,
+      "lon": -75.165833,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 19.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040608",
+          "plan_eau": "Rivière Kiamika",
+          "description": "Au réservoir Kiamika à Chute-Saint-Philippe",
+          "lat": 46.63,
+          "lon": -75.122,
+          "distance_km": 22.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 23.71,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 19.4
+      }
+    },
+    {
+      "plan_id": 2945,
+      "plan_nom": "Lac Viceroy",
+      "lat": 45.847778,
+      "lon": -75.105278,
+      "stations": [
+        {
+          "id": "040407",
+          "plan_eau": "Lac Barrière",
+          "description": "Au barrage                                                                                                                                                                                                                                                    ",
+          "lat": 45.87675,
+          "lon": -75.083361,
+          "distance_km": 3.64,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 6.44,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 6.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040412",
+          "plan_eau": "Ruisseau Schryer",
+          "description": "575 m en amont du lac Schryer",
+          "lat": 45.843474,
+          "lon": -75.200618,
+          "distance_km": 7.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040409",
+          "plan_eau": "Rivière Suffolk",
+          "description": "À 0,2 km en amont du pont-route à Cheneville",
+          "lat": 45.883891,
+          "lon": -75.021697,
+          "distance_km": 7.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 14.38,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040407",
+      "station": {
+        "id": "040407",
+        "plan_eau": "Lac Barrière",
+        "description": "Au barrage                                                                                                                                                                                                                                                    ",
+        "lat": 45.87675,
+        "lon": -75.083361,
+        "distance_km": 3.64
+      }
+    },
+    {
+      "plan_id": 2947,
+      "plan_nom": "Lac Wright",
+      "lat": 46.340833,
+      "lon": -76.795,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2948,
+      "plan_nom": "Lac Xavier",
+      "lat": 46.147778,
+      "lon": -74.738333,
+      "stations": [
+        {
+          "id": "040238",
+          "plan_eau": "Rivière du Diable",
+          "description": "À 100 mètres en amont du pont de la route 117",
+          "lat": 46.115,
+          "lon": -74.602,
+          "distance_km": 11.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040239",
+          "plan_eau": "Lac Chapleau",
+          "description": "Au lac Chapleau à La Minerve",
+          "lat": 46.210778,
+          "lon": -74.946806,
+          "distance_km": 17.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040105",
+          "plan_eau": "Lac Cornu",
+          "description": "Au lac Cornu à Saint-Faustin-Lac-Carré",
+          "lat": 46.090972,
+          "lon": -74.426917,
+          "distance_km": 24.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040241",
+          "plan_eau": "Lac Barrière",
+          "description": "À 8 km en aval de la ville de Rivière Rouge",
+          "lat": 46.3648,
+          "lon": -74.8168,
+          "distance_km": 24.87,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040238",
+      "station": {
+        "id": "040238",
+        "plan_eau": "Rivière du Diable",
+        "description": "À 100 mètres en amont du pont de la route 117",
+        "lat": 46.115,
+        "lon": -74.602,
+        "distance_km": 11.12
+      }
+    },
+    {
+      "plan_id": 10227,
+      "plan_nom": "Réservoir aux Sables",
+      "lat": 46.158333,
+      "lon": -75.684722,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 6.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 15.99,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 6.97
+      }
+    },
+    {
+      "plan_id": 10221,
+      "plan_nom": "Réservoir Poisson Blanc Lac Cuillèrier",
+      "lat": 46.109444,
+      "lon": -75.693889,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 3.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 20.39,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 3.66
+      }
+    },
+    {
+      "plan_id": 10222,
+      "plan_nom": "Réservoir Poisson Blanc Lac Doré",
+      "lat": 46.0575,
+      "lon": -75.714167,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 7.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 7.03
+      }
+    },
+    {
+      "plan_id": 10220,
+      "plan_nom": "Réservoir Poisson Blanc Lac du Brochet",
+      "lat": 46.039167,
+      "lon": -75.709444,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 8.35,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 8.35
+      }
+    },
+    {
+      "plan_id": 10223,
+      "plan_nom": "Réservoir Poisson Blanc Lac du Poisson Blanc",
+      "lat": 46.013889,
+      "lon": -75.708889,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 10.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 10.77
+      }
+    },
+    {
+      "plan_id": 514,
+      "plan_nom": "Rivière Coulonge la partie comprise entre le côté aval du barrage hydro-électrique",
+      "lat": 45.873611,
+      "lon": -76.685,
+      "stations": [
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 4.26,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "679",
+      "station": {
+        "id": "679",
+        "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+        "description": "Au pont de la route 148 à Mansfield et Pontefract",
+        "lat": 45.851058,
+        "lon": -76.72953,
+        "distance_km": 4.26
+      }
+    },
+    {
+      "plan_id": 548,
+      "plan_nom": "Rivière de la Petite Nation la partie comprise entre le pont de la route 321 à Duhamel",
+      "lat": 46.0225,
+      "lon": -75.074444,
+      "stations": [
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 25.77,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040406",
+      "station": {
+        "id": "040406",
+        "plan_eau": "Rivière de la Petite Nation",
+        "description": "Au pont à 1,6 km en amont de Ripon",
+        "lat": 45.791,
+        "lon": -75.089,
+        "distance_km": 25.77
+      }
+    },
+    {
+      "plan_id": 547,
+      "plan_nom": "Rivière de la Petite Nation la partie comprise entre son embouchure dans le lac Simon, correspondant à une droite joignant les points 46°00'06\" N., 75°04'57\" O. et 46°00'06\" N., 75°04'59\" O. , et l'embouchure de la rivière Preston, correspondant à une droite joignant les points 46°00'23\" N., 75°04'50\" O. et 46°00'23\" N., 75°04'51\" O.",
+      "lat": 46.001667,
+      "lon": -75.0825,
+      "stations": [
+        {
+          "id": "040411",
+          "plan_eau": "Lac Simon",
+          "description": "à la marina Lac Simon",
+          "lat": 45.908084,
+          "lon": -75.092754,
+          "distance_km": 10.44,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 23.43,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040411",
+      "station": {
+        "id": "040411",
+        "plan_eau": "Lac Simon",
+        "description": "à la marina Lac Simon",
+        "lat": 45.908084,
+        "lon": -75.092754,
+        "distance_km": 10.44
+      }
+    },
+    {
+      "plan_id": 538,
+      "plan_nom": "Rivière du Lièvre entre le pont Paquette",
+      "lat": 46.55,
+      "lon": -75.515278,
+      "stations": [
+        {
+          "id": "040605",
+          "plan_eau": "Lac des Écorces",
+          "description": "À Mont-Laurier",
+          "lat": 46.548417,
+          "lon": -75.418889,
+          "distance_km": 7.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 10.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040627",
+          "plan_eau": "Rivière Kiamika",
+          "description": "À 0,1 km en aval du pont-route à Chute-Saint-Philippe",
+          "lat": 46.65,
+          "lon": -75.247,
+          "distance_km": 23.32,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040605",
+      "station": {
+        "id": "040605",
+        "plan_eau": "Lac des Écorces",
+        "description": "À Mont-Laurier",
+        "lat": 46.548417,
+        "lon": -75.418889,
+        "distance_km": 7.37
+      }
+    },
+    {
+      "plan_id": 539,
+      "plan_nom": "Rivière du Lièvre La partie comprise entre le côté aval des barrages de High Falls-1",
+      "lat": 45.834444,
+      "lon": -75.646944,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 29.64,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 29.64
+      }
+    },
+    {
+      "plan_id": 13001,
+      "plan_nom": "Rivière Gatineau - La partie comprise entre le barrage hydro-électrique des Rapides-Farmer et la première île en aval du pont Alonzo-Wright, correspondant à une droite joignant les points 45°28'56\" N., 75°44'29\" O. et 45°28'50\" N., 75°44'44\" O. )",
+      "lat": 45.482222,
+      "lon": -75.741389,
+      "stations": [
+        {
+          "id": "411",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Rue Cartier",
+          "lat": 45.48464,
+          "lon": -75.74368,
+          "distance_km": 0.32,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "412",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Quai des Artistes",
+          "lat": 45.45739,
+          "lon": -75.69979,
+          "distance_km": 4.26,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "485",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Au pont de la route 366 à La Pêche",
+          "lat": 45.650007,
+          "lon": -75.922517,
+          "distance_km": 23.39,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "411",
+      "station": {
+        "id": "411",
+        "plan_eau": "Rivière Gatineau",
+        "description": "Rue Cartier",
+        "lat": 45.48464,
+        "lon": -75.74368,
+        "distance_km": 0.32
+      }
+    },
+    {
+      "plan_id": 518,
+      "plan_nom": "Rivière Gatineau - La partie comprise entre le pont Calumet",
+      "lat": 46.118611,
+      "lon": -75.958333,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 9.65,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 21.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 24.0,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 9.65
+      }
+    },
+    {
+      "plan_id": 516,
+      "plan_nom": "Rivière Noire",
+      "lat": 45.918889,
+      "lon": -76.920278,
+      "stations": [
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 1.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 16.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 16.58,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "488",
+      "station": {
+        "id": "488",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À 500 m en amont du pont de la route 148 à Waltham",
+        "lat": 45.906871,
+        "lon": -76.934487,
+        "distance_km": 1.73
+      }
+    },
+    {
+      "plan_id": 520,
+      "plan_nom": "Rivière Picanoc entre le pont Picanoc",
+      "lat": 46.074722,
+      "lon": -76.077778,
+      "stations": [
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 0.77,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040840",
+      "station": {
+        "id": "040840",
+        "plan_eau": "Rivière Picanoc",
+        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+        "lat": 46.078,
+        "lon": -76.069,
+        "distance_km": 0.77
+      }
+    },
+    {
+      "plan_id": 556,
+      "plan_nom": "Rivière Preston entre son embouchure dans la rivière de la Petite Nation",
+      "lat": 46.006111,
+      "lon": -75.080556,
+      "stations": [
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 23.93,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040406",
+      "station": {
+        "id": "040406",
+        "plan_eau": "Rivière de la Petite Nation",
+        "description": "Au pont à 1,6 km en amont de Ripon",
+        "lat": 45.791,
+        "lon": -75.089,
+        "distance_km": 23.93
+      }
+    },
+    {
+      "plan_id": 2598,
+      "plan_nom": "Ruisseau des Cèdres entre son embouchure sur la rivière du Lièvre et la ligne de transport d'énergie électrique à haute tension située à environ 300 mètres de son embouchure",
+      "lat": 46.096944,
+      "lon": -75.6325,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 1.28,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 1.28
+      }
+    },
+    {
+      "plan_id": 588,
+      "plan_nom": "Ruisseau Lefebvre",
+      "lat": 46.311111,
+      "lon": -75.475,
+      "stations": [
+        {
+          "id": "040629",
+          "plan_eau": "Lac des Écorces",
+          "description": "Au lac des Écorces",
+          "lat": 46.507583,
+          "lon": -75.389389,
+          "distance_km": 22.81,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040629",
+      "station": {
+        "id": "040629",
+        "plan_eau": "Lac des Écorces",
+        "description": "Au lac des Écorces",
+        "lat": 46.507583,
+        "lon": -75.389389,
+        "distance_km": 22.81
+      }
+    },
+    {
+      "plan_id": 543,
+      "plan_nom": "Ruisseau Penniseault entre sa confluence avec la rivière des Outaouais",
+      "lat": 46.205833,
+      "lon": -77.699722,
+      "stations": [
+        {
+          "id": "041902",
+          "plan_eau": "Rivière Dumoine",
+          "description": "À la sortie du lac Robinson",
+          "lat": 46.346,
+          "lon": -77.816,
+          "distance_km": 17.97,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "041902",
+      "station": {
+        "id": "041902",
+        "plan_eau": "Rivière Dumoine",
+        "description": "À la sortie du lac Robinson",
+        "lat": 46.346,
+        "lon": -77.816,
+        "distance_km": 17.97
+      }
+    },
+    {
+      "plan_id": 579,
+      "plan_nom": "Ruisseau Petit ruisseau de l'Argile entre son embouchure",
+      "lat": 45.8415,
+      "lon": -75.54375,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3168,
+      "plan_nom": "Ruisseau sans nom",
+      "lat": 46.287778,
+      "lon": -76.089444,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 22.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 23.38,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 22.03
+      }
+    },
+    {
+      "plan_id": 11460,
+      "plan_nom": "Ruisseau sans nom",
+      "lat": 46.253333,
+      "lon": -75.926389,
+      "stations": [
+        {
+          "id": "040829",
+          "plan_eau": "Lac des Trente et Un Milles",
+          "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+          "lat": 46.276417,
+          "lon": -75.803306,
+          "distance_km": 9.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040840",
+          "plan_eau": "Rivière Picanoc",
+          "description": "Sur le chemin du Lac-Cayamant à Gracefield",
+          "lat": 46.078,
+          "lon": -76.069,
+          "distance_km": 22.38,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040829",
+      "station": {
+        "id": "040829",
+        "plan_eau": "Lac des Trente et Un Milles",
+        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
+        "lat": 46.276417,
+        "lon": -75.803306,
+        "distance_km": 9.8
+      }
+    },
+    {
+      "plan_id": 591,
+      "plan_nom": "Ruisseau sans nom entre le lac à la Truite",
+      "lat": 46.0025,
+      "lon": -77.198333,
+      "stations": [
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 23.0,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "488",
+      "station": {
+        "id": "488",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À 500 m en amont du pont de la route 148 à Waltham",
+        "lat": 45.906871,
+        "lon": -76.934487,
+        "distance_km": 23.0
+      }
+    },
+    {
+      "plan_id": 2596,
+      "plan_nom": "Ruisseau Serpent",
+      "lat": 46.085833,
+      "lon": -75.617222,
+      "stations": [
+        {
+          "id": "040602",
+          "plan_eau": "Rivière du Lièvre",
+          "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+          "lat": 46.101,
+          "lon": -75.648,
+          "distance_km": 2.91,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "040602",
+      "station": {
+        "id": "040602",
+        "plan_eau": "Rivière du Lièvre",
+        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
+        "lat": 46.101,
+        "lon": -75.648,
+        "distance_km": 2.91
+      }
+    }
+  ]
+}

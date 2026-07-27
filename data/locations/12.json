@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "zone_id": 12,
+    "zone_nom": "Zone 12",
+    "nb_plans": 20,
+    "nb_geocoded": 19,
+    "pct_geocoded": 95.0,
+    "source_file": "zones/12.json"
+  },
+  "locations": [
+    {
+      "id": 10257,
+      "zone_id": 12,
+      "nom_brut": "Lac à la Truite ( 46°14'33\" N., 76°55'28\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac à la Truite",
+      "nom_search": "lac a la truite 46 14 33 n 76 55 28 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac à la Truite",
+      "aliases": [
+        "a la truite",
+        "a la truite 46 14 33 n 76 55 28 o ) tno de lac nilgaut)",
+        "lac a la truite",
+        "lac a la truite 46 14 33 n 76 55 28 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.2425,
+      "lon": -76.924444
+    },
+    {
+      "id": 2746,
+      "zone_id": 12,
+      "nom_brut": "Lac Antoine ( 46°21'58\" N., 76°58'51\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Antoine",
+      "nom_search": "lac antoine 46 21 58 n 76 58 51 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Antoine",
+      "aliases": [
+        "antoine",
+        "antoine 46 21 58 n 76 58 51 o ) tno de lac nilgaut)",
+        "lac antoine",
+        "lac antoine 46 21 58 n 76 58 51 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.366111,
+      "lon": -76.980833
+    },
+    {
+      "id": 10241,
+      "zone_id": 12,
+      "nom_brut": "Lac Baptiste ( 46°23'15\" N., 77°08'12\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Baptiste",
+      "nom_search": "lac baptiste 46 23 15 n 77 08 12 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Baptiste",
+      "aliases": [
+        "baptiste",
+        "baptiste 46 23 15 n 77 08 12 o ) tno de lac nilgaut)",
+        "lac baptiste",
+        "lac baptiste 46 23 15 n 77 08 12 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.3875,
+      "lon": -77.136667
+    },
+    {
+      "id": 2748,
+      "zone_id": 12,
+      "nom_brut": "Lac Branssat ( 46°25'14\" N., 77°02'24\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Branssat",
+      "nom_search": "lac branssat 46 25 14 n 77 02 24 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Branssat",
+      "aliases": [
+        "branssat",
+        "branssat 46 25 14 n 77 02 24 o ) tno de lac nilgaut)",
+        "lac branssat",
+        "lac branssat 46 25 14 n 77 02 24 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.420556,
+      "lon": -77.04
+    },
+    {
+      "id": 10243,
+      "zone_id": 12,
+      "nom_brut": "Lac Bresse ( 46°30'51\" N., 77°14'46\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Bresse",
+      "nom_search": "lac bresse 46 30 51 n 77 14 46 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Bresse",
+      "aliases": [
+        "bresse",
+        "bresse 46 30 51 n 77 14 46 o ) tno de lac nilgaut)",
+        "lac bresse",
+        "lac bresse 46 30 51 n 77 14 46 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.514167,
+      "lon": -77.246111
+    },
+    {
+      "id": 2750,
+      "zone_id": 12,
+      "nom_brut": "Lac Bruce ( 46°43'41\" N., 77°19'20\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Bruce",
+      "nom_search": "lac bruce 46 43 41 n 77 19 20 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Bruce",
+      "aliases": [
+        "bruce",
+        "bruce 46 43 41 n 77 19 20 o ) tno de lac nilgaut)",
+        "lac bruce",
+        "lac bruce 46 43 41 n 77 19 20 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.728056,
+      "lon": -77.322222
+    },
+    {
+      "id": 11481,
+      "zone_id": 12,
+      "nom_brut": "Lac Brûlé ( 46°56'38\" N., 77°11'51\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Brûlé",
+      "nom_search": "lac brule 46 56 38 n 77 11 51 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Brûlé",
+      "aliases": [
+        "brule",
+        "brule 46 56 38 n 77 11 51 o ) tno de lac nilgaut)",
+        "lac brule",
+        "lac brule 46 56 38 n 77 11 51 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.943889,
+      "lon": -77.1975
+    },
+    {
+      "id": 2752,
+      "zone_id": 12,
+      "nom_brut": "Lac Chavannes ( 46°51'30\" N., 77°08'52\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Chavannes",
+      "nom_search": "lac chavannes 46 51 30 n 77 08 52 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Chavannes",
+      "aliases": [
+        "chavannes",
+        "chavannes 46 51 30 n 77 08 52 o ) tno de lac nilgaut)",
+        "lac chavannes",
+        "lac chavannes 46 51 30 n 77 08 52 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.858333,
+      "lon": -77.147778
+    },
+    {
+      "id": 10247,
+      "zone_id": 12,
+      "nom_brut": "Lac Croucher ( 46°57'05\" N., 77°30'47\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Croucher",
+      "nom_search": "lac croucher 46 57 05 n 77 30 47 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Croucher",
+      "aliases": [
+        "croucher",
+        "croucher 46 57 05 n 77 30 47 o ) tno de lac nilgaut)",
+        "lac croucher",
+        "lac croucher 46 57 05 n 77 30 47 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.951389,
+      "lon": -77.513056
+    },
+    {
+      "id": 10245,
+      "zone_id": 12,
+      "nom_brut": "Lac de Coste ( 46°31'46\" N., 77°17'25\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac de Coste",
+      "nom_search": "lac de coste 46 31 46 n 77 17 25 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac de Coste",
+      "aliases": [
+        "de coste",
+        "de coste 46 31 46 n 77 17 25 o ) tno de lac nilgaut)",
+        "lac de coste",
+        "lac de coste 46 31 46 n 77 17 25 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.529444,
+      "lon": -77.290278
+    },
+    {
+      "id": 740,
+      "zone_id": 12,
+      "nom_brut": "Lac Duval ( 46°18'32\" N., 76°54'43\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Duval",
+      "nom_search": "lac duval 46 18 32 n 76 54 43 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Duval",
+      "aliases": [
+        "duval",
+        "duval 46 18 32 n 76 54 43 o ) tno de lac nilgaut)",
+        "lac duval",
+        "lac duval 46 18 32 n 76 54 43 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.308889,
+      "lon": -76.911944
+    },
+    {
+      "id": 10249,
+      "zone_id": 12,
+      "nom_brut": "Lac Gerland ( 46°27'52\" N., 77°04'00\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Gerland",
+      "nom_search": "lac gerland 46 27 52 n 77 04 00 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Gerland",
+      "aliases": [
+        "gerland",
+        "gerland 46 27 52 n 77 04 00 o ) tno de lac nilgaut)",
+        "lac gerland",
+        "lac gerland 46 27 52 n 77 04 00 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.464444,
+      "lon": -77.066667
+    },
+    {
+      "id": 2760,
+      "zone_id": 12,
+      "nom_brut": "Lac Ingley ( 46°36'59\" N., 77°45'02\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Ingley",
+      "nom_search": "lac ingley 46 36 59 n 77 45 02 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Ingley",
+      "aliases": [
+        "ingley",
+        "ingley 46 36 59 n 77 45 02 o ) tno de lac nilgaut)",
+        "lac ingley",
+        "lac ingley 46 36 59 n 77 45 02 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.616389,
+      "lon": -77.750556
+    },
+    {
+      "id": 2762,
+      "zone_id": 12,
+      "nom_brut": "Lac Lynch ( 46°24'24\" N., 77°05'25\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Lynch",
+      "nom_search": "lac lynch 46 24 24 n 77 05 25 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Lynch",
+      "aliases": [
+        "lac lynch",
+        "lac lynch 46 24 24 n 77 05 25 o ) tno de lac nilgaut)",
+        "lynch",
+        "lynch 46 24 24 n 77 05 25 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.406667,
+      "lon": -77.090278
+    },
+    {
+      "id": 10251,
+      "zone_id": 12,
+      "nom_brut": "Lac Maniluve ( 46°49'20\" N., 77°08'04\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Maniluve",
+      "nom_search": "lac maniluve 46 49 20 n 77 08 04 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Maniluve",
+      "aliases": [
+        "lac maniluve",
+        "lac maniluve 46 49 20 n 77 08 04 o ) tno de lac nilgaut)",
+        "maniluve",
+        "maniluve 46 49 20 n 77 08 04 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.822222,
+      "lon": -77.134444
+    },
+    {
+      "id": 10253,
+      "zone_id": 12,
+      "nom_brut": "Lac Nagard ( 46°21'35\" N., 77°08'27\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Nagard",
+      "nom_search": "lac nagard 46 21 35 n 77 08 27 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Nagard",
+      "aliases": [
+        "lac nagard",
+        "lac nagard 46 21 35 n 77 08 27 o ) tno de lac nilgaut)",
+        "nagard",
+        "nagard 46 21 35 n 77 08 27 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.359722,
+      "lon": -77.140833
+    },
+    {
+      "id": 2764,
+      "zone_id": 12,
+      "nom_brut": "Lac Nougon ( 46°41'58\" N., 77°29'56\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Nougon",
+      "nom_search": "lac nougon 46 41 58 n 77 29 56 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Nougon",
+      "aliases": [
+        "lac nougon",
+        "lac nougon 46 41 58 n 77 29 56 o ) tno de lac nilgaut)",
+        "nougon",
+        "nougon 46 41 58 n 77 29 56 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.699444,
+      "lon": -77.498889
+    },
+    {
+      "id": 10255,
+      "zone_id": 12,
+      "nom_brut": "Lac Sudrie ( 46°32'29\" N., 77°17'05\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Sudrie",
+      "nom_search": "lac sudrie 46 32 29 n 77 17 05 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Sudrie",
+      "aliases": [
+        "lac sudrie",
+        "lac sudrie 46 32 29 n 77 17 05 o ) tno de lac nilgaut)",
+        "sudrie",
+        "sudrie 46 32 29 n 77 17 05 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.541389,
+      "lon": -77.284722
+    },
+    {
+      "id": 2768,
+      "zone_id": 12,
+      "nom_brut": "Lac Vaucour ( 46°40'50\" N., 77°35'26\" O. )(TNO de Lac-Nilgaut)",
+      "nom": "Lac Vaucour",
+      "nom_search": "lac vaucour 46 40 50 n 77 35 26 o ) tno de lac nilgaut)",
+      "segment_label": null,
+      "river_base_name": "Lac Vaucour",
+      "aliases": [
+        "lac vaucour",
+        "lac vaucour 46 40 50 n 77 35 26 o ) tno de lac nilgaut)",
+        "vaucour",
+        "vaucour 46 40 50 n 77 35 26 o ) tno de lac nilgaut)"
+      ],
+      "lat": 46.680556,
+      "lon": -77.590556
+    },
+    {
+      "id": 2330,
+      "zone_id": 12,
+      "nom_brut": "Réserve Faunique La Vérendrye",
+      "nom": "Réserve Faunique La Vérendrye",
+      "nom_search": "reserve faunique la verendrye",
+      "segment_label": null,
+      "river_base_name": "Réserve Faunique La Vérendrye",
+      "aliases": [
+        "reserve faunique la verendrye"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

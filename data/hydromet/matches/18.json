@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "zone_id": 18,
+    "radius_km": 25.0,
+    "nb_with_coords": 32,
+    "nb_station_matched": 4
+  },
+  "matches": [
+    {
+      "plan_id": 888,
+      "plan_nom": "Lac Antoinette",
+      "lat": 49.933333,
+      "lon": -74.426944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 918,
+      "plan_nom": "Lac au Goéland la partie comprise dans un rayon de 200 m en amont de l'embouchure de son émissaire, la rivière Waswanipi délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O.",
+      "lat": 49.838611,
+      "lon": -76.914722,
+      "stations": [
+        {
+          "id": "080718",
+          "plan_eau": "Rivière Waswanipi",
+          "description": "À la tête de la chute Rouge",
+          "lat": 49.8575,
+          "lon": -77.187222,
+          "distance_km": 19.65,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "080718",
+      "station": {
+        "id": "080718",
+        "plan_eau": "Rivière Waswanipi",
+        "description": "À la tête de la chute Rouge",
+        "lat": 49.8575,
+        "lon": -77.187222,
+        "distance_km": 19.65
+      }
+    },
+    {
+      "plan_id": 891,
+      "plan_nom": "Lac aux Dorés",
+      "lat": 49.8525,
+      "lon": -74.351389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 889,
+      "plan_nom": "Lac Bourbeau",
+      "lat": 49.960278,
+      "lon": -74.2925,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 890,
+      "plan_nom": "Lac Caché",
+      "lat": 49.8375,
+      "lon": -74.404167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 901,
+      "plan_nom": "Lac Chevrier",
+      "lat": 49.647222,
+      "lon": -74.438333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 893,
+      "plan_nom": "Lac Chibougamau - à l'exception des secteurs suivants: baie du Club",
+      "lat": 49.889444,
+      "lon": -74.030556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10400,
+      "plan_nom": "Lac Chibougamau - Baie du Club",
+      "lat": 49.889444,
+      "lon": -74.030556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10401,
+      "plan_nom": "Lac Chibougamau - Baie Girard, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Armitage",
+      "lat": 49.868056,
+      "lon": -74.055556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10402,
+      "plan_nom": "Lac Chibougamau - Baie Nepton, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la Petite rivière Nepton",
+      "lat": 49.923889,
+      "lon": -74.030056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10405,
+      "plan_nom": "Lac Chibougamau - Petite rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 1 km en amont",
+      "lat": 49.927778,
+      "lon": -74.026278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10403,
+      "plan_nom": "Lac Chibougamau - Rivière Armitage, entre son embouchure dans la baie Girard et un point situé à 5 km en amont",
+      "lat": 49.827778,
+      "lon": -74.086111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10406,
+      "plan_nom": "Lac Chibougamau - Rivière Énard, la partie comprise entre son embouchure dans la baie Inlet et un point situé à 7 km en amont",
+      "lat": 49.708333,
+      "lon": -74.346944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10404,
+      "plan_nom": "Lac Chibougamau - Rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 2 km en amont",
+      "lat": 49.925,
+      "lon": -74.008333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 903,
+      "plan_nom": "Lac Doda la partie comprise dans un rayon de 500 m de l'embouchure de la rivière Saint-Cyr",
+      "lat": 49.3175,
+      "lon": -75.320278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2769,
+      "plan_nom": "Lac Father",
+      "lat": 49.311389,
+      "lon": -75.473889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10368,
+      "plan_nom": "Lac Lymburner",
+      "lat": 49.956667,
+      "lon": -74.065278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2650,
+      "plan_nom": "Lac Matagami",
+      "lat": 49.866667,
+      "lon": -77.446389,
+      "stations": [
+        {
+          "id": "080707",
+          "plan_eau": "Rivière Bell",
+          "description": "À 7,7 km en amont du lac Matagami",
+          "lat": 49.754611,
+          "lon": -77.617028,
+          "distance_km": 17.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "080718",
+          "plan_eau": "Rivière Waswanipi",
+          "description": "À la tête de la chute Rouge",
+          "lat": 49.8575,
+          "lon": -77.187222,
+          "distance_km": 18.6,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080707",
+      "station": {
+        "id": "080707",
+        "plan_eau": "Rivière Bell",
+        "description": "À 7,7 km en amont du lac Matagami",
+        "lat": 49.754611,
+        "lon": -77.617028,
+        "distance_km": 17.47
+      }
+    },
+    {
+      "plan_id": 920,
+      "plan_nom": "Lac Pusticamica la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O.",
+      "lat": 49.344722,
+      "lon": -76.342222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 922,
+      "plan_nom": "Lac Waswanipi la partie comprise dans un rayon de 300 m en aval de l'embouchure de la rivière O'Sullivan",
+      "lat": 49.466389,
+      "lon": -76.468056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 912,
+      "plan_nom": "Rivière Chibougamau entre le pont du Rapide entre les îles",
+      "lat": 49.901111,
+      "lon": -74.739722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 905,
+      "plan_nom": "Rivière de l'Aigle entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O. .",
+      "lat": 49.393611,
+      "lon": -75.128889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 907,
+      "plan_nom": "Rivière Opawica entre le pont du kilomètre 37,5 du chemin R-1009",
+      "lat": 49.495833,
+      "lon": -74.766667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 908,
+      "plan_nom": "Rivière Opawica entre son embouchure dans le lac Doda et un point situé à 5 km en amont",
+      "lat": 49.475,
+      "lon": -75.094167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 910,
+      "plan_nom": "Rivière Opémisca entre son embouchure dans le lac Opémisca",
+      "lat": 49.955556,
+      "lon": -74.911111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 924,
+      "plan_nom": "Rivière O'Sullivan entre son embouchure dans le lac Pusticamica délimitée par les coordonnées 49°20'41\" N., 76°20'32\" O. et 49°20'44\" N., 76°20'33\" O. et un point situé à 3,2 km en amont",
+      "lat": 49.344722,
+      "lon": -76.342222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 925,
+      "plan_nom": "Rivière O'Sullivan entre son embouchure dans le lac Waswanipi délimitée par les coordonnées 49°27'59\" N., 76°28'05\" O. et 49°27'55\" N., 76°28'06\" O. et un point situé à 300 m en amont",
+      "lat": 49.466389,
+      "lon": -76.468056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 914,
+      "plan_nom": "Rivière Saint-Cyr entre le pont du km 16 du chemin R1053",
+      "lat": 49.2875,
+      "lon": -75.311667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 950,
+      "plan_nom": "Rivière Waswanipi entre la limite des terres de catégorie II de Waswanipi et un point situé à 100 m en aval de son embouchure dans le lac au Goéland",
+      "lat": 49.716667,
+      "lon": -76.733333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 944,
+      "plan_nom": "Rivière Waswanipi entre son embouchure dans le lac au Goéland délimitée par les coordonnées 49°50'19\" N., 76°54'53\" O. et 49°50'29\" N., 76°54'38\" O. et un point situé à 3 km en aval, vers le lac Olga",
+      "lat": 49.838611,
+      "lon": -76.914722,
+      "stations": [
+        {
+          "id": "080718",
+          "plan_eau": "Rivière Waswanipi",
+          "description": "À la tête de la chute Rouge",
+          "lat": 49.8575,
+          "lon": -77.187222,
+          "distance_km": 19.65,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "080718",
+      "station": {
+        "id": "080718",
+        "plan_eau": "Rivière Waswanipi",
+        "description": "À la tête de la chute Rouge",
+        "lat": 49.8575,
+        "lon": -77.187222,
+        "distance_km": 19.65
+      }
+    },
+    {
+      "plan_id": 2542,
+      "plan_nom": "Rivière Waswanipi entre son embouchure dans le lac Olga déterminé par les coordonnées 49°51'26\" N., 77°10'24\" O. et 49°51'13\" N., 77°11'01\" O. et un point situé à 100 m en aval de son embouchure dans le lac Matagami et délimité par les coordonnées 49°54'26\" N., 77°15'47\" O. et 49°54'26\" N., 77°14'47\" O.",
+      "lat": 49.857222,
+      "lon": -77.173333,
+      "stations": [
+        {
+          "id": "080718",
+          "plan_eau": "Rivière Waswanipi",
+          "description": "À la tête de la chute Rouge",
+          "lat": 49.8575,
+          "lon": -77.187222,
+          "distance_km": 1.0,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "080718",
+      "station": {
+        "id": "080718",
+        "plan_eau": "Rivière Waswanipi",
+        "description": "À la tête de la chute Rouge",
+        "lat": 49.8575,
+        "lon": -77.187222,
+        "distance_km": 1.0
+      }
+    },
+    {
+      "plan_id": 916,
+      "plan_nom": "Ruisseau Germain entre un point situé sur le lac Édith",
+      "lat": 49.436389,
+      "lon": -75.491111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

@@ -1,0 +1,1824 @@
+{
+  "meta": {
+    "zone_id": 8,
+    "radius_km": 25.0,
+    "nb_with_coords": 42,
+    "nb_station_matched": 42
+  },
+  "matches": [
+    {
+      "plan_id": 12545,
+      "plan_nom": "Canal de Chambly - La partie comprise entre l'écluse 1 à Chambly",
+      "lat": 45.448175,
+      "lon": -73.283653,
+      "stations": [
+        {
+          "id": "02OJ007",
+          "plan_eau": "Rivière Richelieu",
+          "description": "À Carignan, aux rapides Fryers",
+          "lat": 45.3983,
+          "lon": -73.2589,
+          "distance_km": 5.87,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "515",
+          "plan_eau": "Rivière L'Acadie",
+          "description": "Carignan",
+          "lat": 45.426812,
+          "lon": -73.362833,
+          "distance_km": 6.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030415",
+          "plan_eau": "Rivière des Hurons",
+          "description": "Au pont-route du chemin de la rivière des Hurons Ouest",
+          "lat": 45.491,
+          "lon": -73.186,
+          "distance_km": 8.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030421",
+          "plan_eau": "Rivière L'Acadie",
+          "description": "À 3,0 km en amont du pont de l'autoroute 10",
+          "lat": 45.39,
+          "lon": -73.371,
+          "distance_km": 9.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030429",
+          "plan_eau": "Ruisseau à l'Ours",
+          "description": "À Saint-Jean-Baptiste",
+          "lat": 45.521722,
+          "lon": -73.123111,
+          "distance_km": 14.95,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OJ016",
+          "plan_eau": "Rivière Richelieu",
+          "description": "À Saint-Jean-sur-Richelieu",
+          "lat": 45.3008,
+          "lon": -73.2511,
+          "distance_km": 16.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030601",
+          "plan_eau": "Rivière Saint-Jacques",
+          "description": "amont du pont Montée Monette à Saint-Philippe",
+          "lat": 45.35281,
+          "lon": -73.473136,
+          "distance_km": 18.2,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15520",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À la jetée 1 du port de Montréal",
+          "lat": 45.5035,
+          "lon": -73.5525,
+          "distance_km": 21.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OJ007",
+      "station": {
+        "id": "02OJ007",
+        "plan_eau": "Rivière Richelieu",
+        "description": "À Carignan, aux rapides Fryers",
+        "lat": 45.3983,
+        "lon": -73.2589,
+        "distance_km": 5.87
+      }
+    },
+    {
+      "plan_id": 12543,
+      "plan_nom": "Canal de Lachine",
+      "lat": 45.461083,
+      "lon": -73.60355,
+      "stations": [
+        {
+          "id": "02OA016",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Montréal, près du boulevard LaSalle",
+          "lat": 45.415,
+          "lon": -73.6236,
+          "distance_km": 5.36,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15520",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À la jetée 1 du port de Montréal",
+          "lat": 45.5035,
+          "lon": -73.5525,
+          "distance_km": 6.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15540",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "En bordure de la rue Frontenac à Montréal",
+          "lat": 45.528667,
+          "lon": -73.5425,
+          "distance_km": 8.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030601",
+          "plan_eau": "Rivière Saint-Jacques",
+          "description": "amont du pont Montée Monette à Saint-Philippe",
+          "lat": 45.35281,
+          "lon": -73.473136,
+          "distance_km": 15.77,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "430",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "Châteauguay-Pont Arthur-Laberge",
+          "lat": 45.36104,
+          "lon": -73.74829,
+          "distance_km": 15.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OA039",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Pointe-Claire",
+          "lat": 45.4275,
+          "lon": -73.8208,
+          "distance_km": 17.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030905",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À 2 km en amont du pont-route 132",
+          "lat": 45.33,
+          "lon": -73.762,
+          "distance_km": 19.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "515",
+          "plan_eau": "Rivière L'Acadie",
+          "description": "Carignan",
+          "lat": 45.426812,
+          "lon": -73.362833,
+          "distance_km": 19.16,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OA016",
+      "station": {
+        "id": "02OA016",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Montréal, près du boulevard LaSalle",
+        "lat": 45.415,
+        "lon": -73.6236,
+        "distance_km": 5.36
+      }
+    },
+    {
+      "plan_id": 13000,
+      "plan_nom": "Fleuve Saint-Laurent",
+      "lat": 45.996033,
+      "lon": -73.182236,
+      "stations": [
+        {
+          "id": "02OB011",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Lanoraie",
+          "lat": 45.9594,
+          "lon": -73.215,
+          "distance_km": 4.8,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15930",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Sorel",
+          "lat": 46.047167,
+          "lon": -73.115667,
+          "distance_km": 7.66,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15780",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Contrecoeur",
+          "lat": 45.832667,
+          "lon": -73.283167,
+          "distance_km": 19.77,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02OB011",
+      "station": {
+        "id": "02OB011",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Lanoraie",
+        "lat": 45.9594,
+        "lon": -73.215,
+        "distance_km": 4.8
+      }
+    },
+    {
+      "plan_id": 12860,
+      "plan_nom": "Lac Saint-François",
+      "lat": 45.156944,
+      "lon": -74.372778,
+      "stations": [
+        {
+          "id": "030919",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À Huntingdon",
+          "lat": 45.087,
+          "lon": -74.172,
+          "distance_km": 17.57,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030926",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "à 1km en aval du village Athelstan",
+          "lat": 45.044605,
+          "lon": -74.181413,
+          "distance_km": 19.54,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030919",
+      "station": {
+        "id": "030919",
+        "plan_eau": "Rivière Châteauguay",
+        "description": "À Huntingdon",
+        "lat": 45.087,
+        "lon": -74.172,
+        "distance_km": 17.57
+      }
+    },
+    {
+      "plan_id": 12861,
+      "plan_nom": "Lac Saint-Louis",
+      "lat": 45.401389,
+      "lon": -73.814444,
+      "stations": [
+        {
+          "id": "02OA039",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Pointe-Claire",
+          "lat": 45.4275,
+          "lon": -73.8208,
+          "distance_km": 2.95,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OA033",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Sainte-Anne-de-Bellevue",
+          "lat": 45.4025,
+          "lon": -73.948889,
+          "distance_km": 10.5,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02OA039",
+      "station": {
+        "id": "02OA039",
+        "plan_eau": "Lac Saint-Louis",
+        "description": "À Pointe-Claire",
+        "lat": 45.4275,
+        "lon": -73.8208,
+        "distance_km": 2.95
+      }
+    },
+    {
+      "plan_id": 195,
+      "plan_nom": "Rivière Beaudette en amont du pont de l'autoroute 20",
+      "lat": 45.220833,
+      "lon": -74.325833,
+      "stations": [
+        {
+          "id": "030919",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À Huntingdon",
+          "lat": 45.087,
+          "lon": -74.172,
+          "distance_km": 19.16,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030926",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "à 1km en aval du village Athelstan",
+          "lat": 45.044605,
+          "lon": -74.181413,
+          "distance_km": 22.63,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030919",
+      "station": {
+        "id": "030919",
+        "plan_eau": "Rivière Châteauguay",
+        "description": "À Huntingdon",
+        "lat": 45.087,
+        "lon": -74.172,
+        "distance_km": 19.16
+      }
+    },
+    {
+      "plan_id": 12940,
+      "plan_nom": "Rivière Châteauguay a) La partie comprise entre le lac Saint-Louis et le pont Arthur-Laberge à Châteauguay",
+      "lat": 45.361111,
+      "lon": -73.746944,
+      "stations": [
+        {
+          "id": "430",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "Châteauguay-Pont Arthur-Laberge",
+          "lat": 45.36104,
+          "lon": -73.74829,
+          "distance_km": 0.11,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030905",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À 2 km en amont du pont-route 132",
+          "lat": 45.33,
+          "lon": -73.762,
+          "distance_km": 3.65,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OA039",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Pointe-Claire",
+          "lat": 45.4275,
+          "lon": -73.8208,
+          "distance_km": 9.37,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OA033",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Sainte-Anne-de-Bellevue",
+          "lat": 45.4025,
+          "lon": -73.948889,
+          "distance_km": 16.43,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "430",
+      "station": {
+        "id": "430",
+        "plan_eau": "Rivière Châteauguay",
+        "description": "Châteauguay-Pont Arthur-Laberge",
+        "lat": 45.36104,
+        "lon": -73.74829,
+        "distance_km": 0.11
+      }
+    },
+    {
+      "plan_id": 12942,
+      "plan_nom": "Rivière Châteauguay b) La partie comprise entre le pont Arthur-Laberge à Châteauguay",
+      "lat": 45.361111,
+      "lon": -73.746944,
+      "stations": [
+        {
+          "id": "430",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "Châteauguay-Pont Arthur-Laberge",
+          "lat": 45.36104,
+          "lon": -73.74829,
+          "distance_km": 0.11,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030905",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À 2 km en amont du pont-route 132",
+          "lat": 45.33,
+          "lon": -73.762,
+          "distance_km": 3.65,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "430",
+      "station": {
+        "id": "430",
+        "plan_eau": "Rivière Châteauguay",
+        "description": "Châteauguay-Pont Arthur-Laberge",
+        "lat": 45.36104,
+        "lon": -73.74829,
+        "distance_km": 0.11
+      }
+    },
+    {
+      "plan_id": 12947,
+      "plan_nom": "Rivière Châteauguay c) La partie comprise entre la route 132 à Châteauguay et une droite située à 370 m",
+      "lat": 45.340864,
+      "lon": -73.755031,
+      "stations": [
+        {
+          "id": "030905",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À 2 km en amont du pont-route 132",
+          "lat": 45.33,
+          "lon": -73.762,
+          "distance_km": 1.33,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "430",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "Châteauguay-Pont Arthur-Laberge",
+          "lat": 45.36104,
+          "lon": -73.74829,
+          "distance_km": 2.3,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030905",
+      "station": {
+        "id": "030905",
+        "plan_eau": "Rivière Châteauguay",
+        "description": "À 2 km en amont du pont-route 132",
+        "lat": 45.33,
+        "lon": -73.762,
+        "distance_km": 1.33
+      }
+    },
+    {
+      "plan_id": 12941,
+      "plan_nom": "Rivière Châteauguay d) La partie comprise entre le barrage à Sainte-Martine et l'embouchure de la rivière de l'Esturgeon",
+      "lat": 45.261944,
+      "lon": -73.798333,
+      "stations": [
+        {
+          "id": "030905",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "À 2 km en amont du pont-route 132",
+          "lat": 45.33,
+          "lon": -73.762,
+          "distance_km": 8.08,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "430",
+          "plan_eau": "Rivière Châteauguay",
+          "description": "Châteauguay-Pont Arthur-Laberge",
+          "lat": 45.36104,
+          "lon": -73.74829,
+          "distance_km": 11.69,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030905",
+      "station": {
+        "id": "030905",
+        "plan_eau": "Rivière Châteauguay",
+        "description": "À 2 km en amont du pont-route 132",
+        "lat": 45.33,
+        "lon": -73.762,
+        "distance_km": 8.08
+      }
+    },
+    {
+      "plan_id": 203,
+      "plan_nom": "Rivière Chibouet entre son embouchure et un point situé à 200 m en amont",
+      "lat": 45.784167,
+      "lon": -72.870556,
+      "stations": [
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 18.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030316",
+          "plan_eau": "Rivière David",
+          "description": "Au pont-route à Saint-David",
+          "lat": 45.953909,
+          "lon": -72.85785,
+          "distance_km": 18.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030315",
+          "plan_eau": "Rivière Noire",
+          "description": "à 2,3 km en amont du pont-route 116",
+          "lat": 45.63813,
+          "lon": -72.654172,
+          "distance_km": 23.37,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "030345",
+      "station": {
+        "id": "030345",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+        "lat": 45.629,
+        "lon": -72.939,
+        "distance_km": 18.05
+      }
+    },
+    {
+      "plan_id": 184,
+      "plan_nom": "Rivière de l'Achigan entre le pont ferroviaire situé en aval de la rue Onulphe-Peltier",
+      "lat": 45.850556,
+      "lon": -73.473611,
+      "stations": [
+        {
+          "id": "052233",
+          "plan_eau": "Rivière L'Achigan",
+          "description": "Au pont-route 341à L'Épiphanie",
+          "lat": 45.846,
+          "lon": -73.493,
+          "distance_km": 1.58,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "052233",
+      "station": {
+        "id": "052233",
+        "plan_eau": "Rivière L'Achigan",
+        "description": "Au pont-route 341à L'Épiphanie",
+        "lat": 45.846,
+        "lon": -73.493,
+        "distance_km": 1.58
+      }
+    },
+    {
+      "plan_id": 12960,
+      "plan_nom": "Rivière des Mille Îles a) La partie comprise entre sa confluence avec la rivière des Prairies",
+      "lat": 45.699672,
+      "lon": -73.529053,
+      "stations": [
+        {
+          "id": "043208",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "Sur la rivière des Mille Îles à Terrebonne",
+          "lat": 45.692806,
+          "lon": -73.64,
+          "distance_km": 8.65,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OA003",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "À Bois-des-Filion",
+          "lat": 45.6631,
+          "lon": -73.7525,
+          "distance_km": 17.83,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "043208",
+      "station": {
+        "id": "043208",
+        "plan_eau": "Rivière des Mille Îles",
+        "description": "Sur la rivière des Mille Îles à Terrebonne",
+        "lat": 45.692806,
+        "lon": -73.64,
+        "distance_km": 8.65
+      }
+    },
+    {
+      "plan_id": 12943,
+      "plan_nom": "Rivière des Mille Îles b) La partie comprise entre le côté aval du pont du chemin de fer CP",
+      "lat": 45.6925,
+      "lon": -73.621389,
+      "stations": [
+        {
+          "id": "043208",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "Sur la rivière des Mille Îles à Terrebonne",
+          "lat": 45.692806,
+          "lon": -73.64,
+          "distance_km": 1.45,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OA003",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "À Bois-des-Filion",
+          "lat": 45.6631,
+          "lon": -73.7525,
+          "distance_km": 10.7,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "043206",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "En aval du barrage du Grand-Moulin à Deux-Montagnes",
+          "lat": 45.533,
+          "lon": -73.882,
+          "distance_km": 26.93,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "043205",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "En amont du barrage du Grand-Moulin à Deux-Montagnes",
+          "lat": 45.533194,
+          "lon": -73.882361,
+          "distance_km": 26.94,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "043208",
+      "station": {
+        "id": "043208",
+        "plan_eau": "Rivière des Mille Îles",
+        "description": "Sur la rivière des Mille Îles à Terrebonne",
+        "lat": 45.692806,
+        "lon": -73.64,
+        "distance_km": 1.45
+      }
+    },
+    {
+      "plan_id": 12944,
+      "plan_nom": "Rivière des Mille Îles c) La partie comprise entre le pont de l'autoroute 25",
+      "lat": 45.696192,
+      "lon": -73.651186,
+      "stations": [
+        {
+          "id": "043208",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "Sur la rivière des Mille Îles à Terrebonne",
+          "lat": 45.692806,
+          "lon": -73.64,
+          "distance_km": 0.95,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OA003",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "À Bois-des-Filion",
+          "lat": 45.6631,
+          "lon": -73.7525,
+          "distance_km": 8.69,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "043205",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "En amont du barrage du Grand-Moulin à Deux-Montagnes",
+          "lat": 45.533194,
+          "lon": -73.882361,
+          "distance_km": 25.53,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "043206",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "En aval du barrage du Grand-Moulin à Deux-Montagnes",
+          "lat": 45.533,
+          "lon": -73.882,
+          "distance_km": 25.53,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "043208",
+      "station": {
+        "id": "043208",
+        "plan_eau": "Rivière des Mille Îles",
+        "description": "Sur la rivière des Mille Îles à Terrebonne",
+        "lat": 45.692806,
+        "lon": -73.64,
+        "distance_km": 0.95
+      }
+    },
+    {
+      "plan_id": 12964,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.567303,
+      "lon": -74.383889,
+      "stations": [
+        {
+          "id": "707",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la Baie de Rigaud",
+          "lat": 45.496631,
+          "lon": -74.32517,
+          "distance_km": 9.09,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "707",
+      "station": {
+        "id": "707",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la Baie de Rigaud",
+        "lat": 45.496631,
+        "lon": -74.32517,
+        "distance_km": 9.09
+      }
+    },
+    {
+      "plan_id": 12965,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.420256,
+      "lon": -73.983867,
+      "stations": [
+        {
+          "id": "707",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la Baie de Rigaud",
+          "lat": 45.496631,
+          "lon": -74.32517,
+          "distance_km": 27.94,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "707",
+      "station": {
+        "id": "707",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la Baie de Rigaud",
+        "lat": 45.496631,
+        "lon": -74.32517,
+        "distance_km": 27.94
+      }
+    },
+    {
+      "plan_id": 12966,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.538611,
+      "lon": -74.352222,
+      "stations": [
+        {
+          "id": "707",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la Baie de Rigaud",
+          "lat": 45.496631,
+          "lon": -74.32517,
+          "distance_km": 5.12,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "707",
+      "station": {
+        "id": "707",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la Baie de Rigaud",
+        "lat": 45.496631,
+        "lon": -74.32517,
+        "distance_km": 5.12
+      }
+    },
+    {
+      "plan_id": 12967,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.388258,
+      "lon": -74.001425,
+      "stations": [
+        {
+          "id": "707",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la Baie de Rigaud",
+          "lat": 45.496631,
+          "lon": -74.32517,
+          "distance_km": 27.99,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "707",
+      "station": {
+        "id": "707",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la Baie de Rigaud",
+        "lat": 45.496631,
+        "lon": -74.32517,
+        "distance_km": 27.99
+      }
+    },
+    {
+      "plan_id": 12968,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.404792,
+      "lon": -73.961111,
+      "stations": [
+        {
+          "id": "02OA013",
+          "plan_eau": "Lac des Deux Montagnes",
+          "description": "À Sainte-Anne-de-Bellevue",
+          "lat": 45.4053,
+          "lon": -73.9575,
+          "distance_km": 0.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OA033",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Sainte-Anne-de-Bellevue",
+          "lat": 45.4025,
+          "lon": -73.948889,
+          "distance_km": 0.99,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OA107",
+          "plan_eau": "Lac des Deux Montagnes",
+          "description": "À 300 m au nord de l'autoroute-20",
+          "lat": 45.388889,
+          "lon": -73.998056,
+          "distance_km": 3.38,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02MC005",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Pointe-des-Cascades",
+          "lat": 45.334444,
+          "lon": -73.962111,
+          "distance_km": 7.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043108",
+          "plan_eau": "Lac des Deux Montagnes",
+          "description": "À Pointe-Calumet",
+          "lat": 45.489,
+          "lon": -73.978,
+          "distance_km": 9.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OA039",
+          "plan_eau": "Lac Saint-Louis",
+          "description": "À Pointe-Claire",
+          "lat": 45.4275,
+          "lon": -73.8208,
+          "distance_km": 11.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043301",
+          "plan_eau": "Rivière des Prairies",
+          "description": "À la tête des rapides du Cheval Blanc (chenal sud)",
+          "lat": 45.517,
+          "lon": -73.849,
+          "distance_km": 15.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043206",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "En aval du barrage du Grand-Moulin à Deux-Montagnes",
+          "lat": 45.533,
+          "lon": -73.882,
+          "distance_km": 15.53,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02OA013",
+      "station": {
+        "id": "02OA013",
+        "plan_eau": "Lac des Deux Montagnes",
+        "description": "À Sainte-Anne-de-Bellevue",
+        "lat": 45.4053,
+        "lon": -73.9575,
+        "distance_km": 0.29
+      }
+    },
+    {
+      "plan_id": 12969,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.524167,
+      "lon": -74.311667,
+      "stations": [
+        {
+          "id": "707",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la Baie de Rigaud",
+          "lat": 45.496631,
+          "lon": -74.32517,
+          "distance_km": 3.24,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "707",
+      "station": {
+        "id": "707",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la Baie de Rigaud",
+        "lat": 45.496631,
+        "lon": -74.32517,
+        "distance_km": 3.24
+      }
+    },
+    {
+      "plan_id": 12970,
+      "plan_nom": "Rivière des Outaouais",
+      "lat": 45.516389,
+      "lon": -74.251389,
+      "stations": [
+        {
+          "id": "707",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la Baie de Rigaud",
+          "lat": 45.496631,
+          "lon": -74.32517,
+          "distance_km": 6.16,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "707",
+      "station": {
+        "id": "707",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la Baie de Rigaud",
+        "lat": 45.496631,
+        "lon": -74.32517,
+        "distance_km": 6.16
+      }
+    },
+    {
+      "plan_id": 12963,
+      "plan_nom": "Rivière des Prairies a) La partie comprise entre sa confluence avec le fleuve Saint-Laurent",
+      "lat": 45.707681,
+      "lon": -73.475564,
+      "stations": [
+        {
+          "id": "15660",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Varennes",
+          "lat": 45.684333,
+          "lon": -73.443667,
+          "distance_km": 3.59,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15780",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Contrecoeur",
+          "lat": 45.832667,
+          "lon": -73.283167,
+          "distance_km": 20.39,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15540",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "En bordure de la rue Frontenac à Montréal",
+          "lat": 45.528667,
+          "lon": -73.5425,
+          "distance_km": 20.57,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15520",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À la jetée 1 du port de Montréal",
+          "lat": 45.5035,
+          "lon": -73.5525,
+          "distance_km": 23.48,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "15660",
+      "station": {
+        "id": "15660",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Varennes",
+        "lat": 45.684333,
+        "lon": -73.443667,
+        "distance_km": 3.59
+      }
+    },
+    {
+      "plan_id": 12946,
+      "plan_nom": "Rivière des Prairies b) La partie comprise entre le côté amont du pont Pie-IX",
+      "lat": 45.599167,
+      "lon": -73.646944,
+      "stations": [
+        {
+          "id": "043301",
+          "plan_eau": "Rivière des Prairies",
+          "description": "À la tête des rapides du Cheval Blanc (chenal sud)",
+          "lat": 45.517,
+          "lon": -73.849,
+          "distance_km": 18.19,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "043301",
+      "station": {
+        "id": "043301",
+        "plan_eau": "Rivière des Prairies",
+        "description": "À la tête des rapides du Cheval Blanc (chenal sud)",
+        "lat": 45.517,
+        "lon": -73.849,
+        "distance_km": 18.19
+      }
+    },
+    {
+      "plan_id": 12945,
+      "plan_nom": "Rivière des Prairies c) La partie comprise entre le barrage de la centrale hydroélectrique de Rivière des Prairies",
+      "lat": 45.58865,
+      "lon": -73.655978,
+      "stations": [
+        {
+          "id": "043301",
+          "plan_eau": "Rivière des Prairies",
+          "description": "À la tête des rapides du Cheval Blanc (chenal sud)",
+          "lat": 45.517,
+          "lon": -73.849,
+          "distance_km": 17.01,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "043301",
+      "station": {
+        "id": "043301",
+        "plan_eau": "Rivière des Prairies",
+        "description": "À la tête des rapides du Cheval Blanc (chenal sud)",
+        "lat": 45.517,
+        "lon": -73.849,
+        "distance_km": 17.01
+      }
+    },
+    {
+      "plan_id": 12842,
+      "plan_nom": "Rivière du Nord - La partie comprise entre la ligne de transport d'énergie électrique en amont de Saint-André-d'Argenteuil",
+      "lat": 45.571364,
+      "lon": -74.341994,
+      "stations": [
+        {
+          "id": "040135",
+          "plan_eau": "Rivière du Nord",
+          "description": "À 8 km de l'embouchure à Saint-André d'Argenteuil",
+          "lat": 45.58142,
+          "lon": -74.360457,
+          "distance_km": 1.82,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "040135",
+      "station": {
+        "id": "040135",
+        "plan_eau": "Rivière du Nord",
+        "description": "À 8 km de l'embouchure à Saint-André d'Argenteuil",
+        "lat": 45.58142,
+        "lon": -74.360457,
+        "distance_km": 1.82
+      }
+    },
+    {
+      "plan_id": 193,
+      "plan_nom": "Rivière l'Acadie - La partie comprise entre le pont de la route 112",
+      "lat": 45.459167,
+      "lon": -73.306111,
+      "stations": [
+        {
+          "id": "515",
+          "plan_eau": "Rivière L'Acadie",
+          "description": "Carignan",
+          "lat": 45.426812,
+          "lon": -73.362833,
+          "distance_km": 5.7,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030421",
+          "plan_eau": "Rivière L'Acadie",
+          "description": "À 3,0 km en amont du pont de l'autoroute 10",
+          "lat": 45.39,
+          "lon": -73.371,
+          "distance_km": 9.21,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "515",
+      "station": {
+        "id": "515",
+        "plan_eau": "Rivière L'Acadie",
+        "description": "Carignan",
+        "lat": 45.426812,
+        "lon": -73.362833,
+        "distance_km": 5.7
+      }
+    },
+    {
+      "plan_id": 12843,
+      "plan_nom": "Rivière L'Assomption a) La partie comprise entre sa confluence avec la rivière des Prairies",
+      "lat": 45.714586,
+      "lon": -73.481306,
+      "stations": [
+        {
+          "id": "15660",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Varennes",
+          "lat": 45.684333,
+          "lon": -73.443667,
+          "distance_km": 4.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "046404",
+          "plan_eau": "Rivière Mascouche",
+          "description": "À 500 m en amont de l'autoroute 640                                                                                                                                                                                                                           ",
+          "lat": 45.72147,
+          "lon": -73.58247,
+          "distance_km": 7.89,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043208",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "Sur la rivière des Mille Îles à Terrebonne",
+          "lat": 45.692806,
+          "lon": -73.64,
+          "distance_km": 12.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052233",
+          "plan_eau": "Rivière L'Achigan",
+          "description": "Au pont-route 341à L'Épiphanie",
+          "lat": 45.846,
+          "lon": -73.493,
+          "distance_km": 14.64,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15780",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Contrecoeur",
+          "lat": 45.832667,
+          "lon": -73.283167,
+          "distance_km": 20.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15540",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "En bordure de la rue Frontenac à Montréal",
+          "lat": 45.528667,
+          "lon": -73.5425,
+          "distance_km": 21.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OA003",
+          "plan_eau": "Rivière des Mille Îles",
+          "description": "À Bois-des-Filion",
+          "lat": 45.6631,
+          "lon": -73.7525,
+          "distance_km": 21.83,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15520",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À la jetée 1 du port de Montréal",
+          "lat": 45.5035,
+          "lon": -73.5525,
+          "distance_km": 24.12,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "15660",
+      "station": {
+        "id": "15660",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Varennes",
+        "lat": 45.684333,
+        "lon": -73.443667,
+        "distance_km": 4.46
+      }
+    },
+    {
+      "plan_id": 186,
+      "plan_nom": "Rivière L'Assomption b) La partie comprise entre la ligne de transport d'énergie électrique",
+      "lat": 45.976944,
+      "lon": -73.38,
+      "stations": [
+        {
+          "id": "052219",
+          "plan_eau": "Rivière L'Assomption",
+          "description": "Au pont-route 158 à Joliette",
+          "lat": 46.013,
+          "lon": -73.429,
+          "distance_km": 5.51,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "052219",
+      "station": {
+        "id": "052219",
+        "plan_eau": "Rivière L'Assomption",
+        "description": "Au pont-route 158 à Joliette",
+        "lat": 46.013,
+        "lon": -73.429,
+        "distance_km": 5.51
+      }
+    },
+    {
+      "plan_id": 232,
+      "plan_nom": "Rivière Noire a) La partie comprise entre le barrage du Père Tarte",
+      "lat": 45.602778,
+      "lon": -72.722222,
+      "stations": [
+        {
+          "id": "030315",
+          "plan_eau": "Rivière Noire",
+          "description": "à 2,3 km en amont du pont-route 116",
+          "lat": 45.63813,
+          "lon": -72.654172,
+          "distance_km": 6.59,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 15.02,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030304",
+          "plan_eau": "Rivière Noire",
+          "description": "À 7,6 km de la Yamaska",
+          "lat": 45.5,
+          "lon": -72.906,
+          "distance_km": 18.31,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030315",
+      "station": {
+        "id": "030315",
+        "plan_eau": "Rivière Noire",
+        "description": "à 2,3 km en amont du pont-route 116",
+        "lat": 45.63813,
+        "lon": -72.654172,
+        "distance_km": 6.59
+      }
+    },
+    {
+      "plan_id": 234,
+      "plan_nom": "Rivière Noire b) La partie comprise entre le barrage d'Émileville",
+      "lat": 45.486667,
+      "lon": -72.894167,
+      "stations": [
+        {
+          "id": "030304",
+          "plan_eau": "Rivière Noire",
+          "description": "À 7,6 km de la Yamaska",
+          "lat": 45.5,
+          "lon": -72.906,
+          "distance_km": 1.75,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 5.38,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030315",
+          "plan_eau": "Rivière Noire",
+          "description": "à 2,3 km en amont du pont-route 116",
+          "lat": 45.63813,
+          "lon": -72.654172,
+          "distance_km": 25.15,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030304",
+      "station": {
+        "id": "030304",
+        "plan_eau": "Rivière Noire",
+        "description": "À 7,6 km de la Yamaska",
+        "lat": 45.5,
+        "lon": -72.906,
+        "distance_km": 1.75
+      }
+    },
+    {
+      "plan_id": 236,
+      "plan_nom": "Rivière Noire c) La partie comprise entre l'extrémité est de l'île",
+      "lat": 45.501111,
+      "lon": -72.913333,
+      "stations": [
+        {
+          "id": "030304",
+          "plan_eau": "Rivière Noire",
+          "description": "À 7,6 km de la Yamaska",
+          "lat": 45.5,
+          "lon": -72.906,
+          "distance_km": 0.58,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "382",
+          "plan_eau": "Rivière Noire",
+          "description": "À St-Pie",
+          "lat": 45.488607,
+          "lon": -72.825269,
+          "distance_km": 7.0,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "030315",
+          "plan_eau": "Rivière Noire",
+          "description": "à 2,3 km en amont du pont-route 116",
+          "lat": 45.63813,
+          "lon": -72.654172,
+          "distance_km": 25.28,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030304",
+      "station": {
+        "id": "030304",
+        "plan_eau": "Rivière Noire",
+        "description": "À 7,6 km de la Yamaska",
+        "lat": 45.5,
+        "lon": -72.906,
+        "distance_km": 0.58
+      }
+    },
+    {
+      "plan_id": 188,
+      "plan_nom": "Rivière Ouareau entre le barrage de Crabtree",
+      "lat": 45.965556,
+      "lon": -73.4675,
+      "stations": [
+        {
+          "id": "052212",
+          "plan_eau": "Rivière Ouareau",
+          "description": "À la tête des chutes Dorwin",
+          "lat": 46.031,
+          "lon": -73.705,
+          "distance_km": 19.74,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "052212",
+      "station": {
+        "id": "052212",
+        "plan_eau": "Rivière Ouareau",
+        "description": "À la tête des chutes Dorwin",
+        "lat": 46.031,
+        "lon": -73.705,
+        "distance_km": 19.74
+      }
+    },
+    {
+      "plan_id": 1076,
+      "plan_nom": "Rivière Richelieu a) entre le côté en aval du pont de l'autoroute 30",
+      "lat": 46.029722,
+      "lon": -73.130556,
+      "stations": [
+        {
+          "id": "15930",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Sorel",
+          "lat": 46.047167,
+          "lon": -73.115667,
+          "distance_km": 2.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02OB011",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Lanoraie",
+          "lat": 45.9594,
+          "lon": -73.215,
+          "distance_km": 10.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "030316",
+          "plan_eau": "Rivière David",
+          "description": "Au pont-route à Saint-David",
+          "lat": 45.953909,
+          "lon": -72.85785,
+          "distance_km": 22.69,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052219",
+          "plan_eau": "Rivière L'Assomption",
+          "description": "Au pont-route 158 à Joliette",
+          "lat": 46.013,
+          "lon": -73.429,
+          "distance_km": 23.12,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052401",
+          "plan_eau": "Rivière Bayonne",
+          "description": "À Saint-Félix-de-Valois",
+          "lat": 46.157092,
+          "lon": -73.390803,
+          "distance_km": 24.56,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "052235",
+          "plan_eau": "Ruisseau Saint-Pierre",
+          "description": "Au pont-route du chemin du Vieux-Moulin à 0,2 km de la route 343",
+          "lat": 45.977332,
+          "lon": -73.439895,
+          "distance_km": 24.59,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "15780",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Contrecoeur",
+          "lat": 45.832667,
+          "lon": -73.283167,
+          "distance_km": 24.89,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "15930",
+      "station": {
+        "id": "15930",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Sorel",
+        "lat": 46.047167,
+        "lon": -73.115667,
+        "distance_km": 2.25
+      }
+    },
+    {
+      "plan_id": 255,
+      "plan_nom": "Rivière Rigaud entre le pont de l'autoroute 40",
+      "lat": 45.486111,
+      "lon": -74.299167,
+      "stations": [
+        {
+          "id": "02LB032",
+          "plan_eau": "Rivière Rigaud",
+          "description": "À Saint-Eugène en Ontario",
+          "lat": 45.49142,
+          "lon": -74.44181,
+          "distance_km": 11.14,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "02LB032",
+      "station": {
+        "id": "02LB032",
+        "plan_eau": "Rivière Rigaud",
+        "description": "À Saint-Eugène en Ontario",
+        "lat": 45.49142,
+        "lon": -74.44181,
+        "distance_km": 11.14
+      }
+    },
+    {
+      "plan_id": 273,
+      "plan_nom": "Rivière Saint-Jean entre son embouchure dans le fleuve Saint-Laurent",
+      "lat": 45.873056,
+      "lon": -73.282222,
+      "stations": [
+        {
+          "id": "15780",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Contrecoeur",
+          "lat": 45.832667,
+          "lon": -73.283167,
+          "distance_km": 4.49,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "02OB011",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Lanoraie",
+          "lat": 45.9594,
+          "lon": -73.215,
+          "distance_km": 10.92,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15930",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Sorel",
+          "lat": 46.047167,
+          "lon": -73.115667,
+          "distance_km": 23.25,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "15660",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "À Varennes",
+          "lat": 45.684333,
+          "lon": -73.443667,
+          "distance_km": 24.44,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "15780",
+      "station": {
+        "id": "15780",
+        "plan_eau": "Fleuve Saint-Laurent",
+        "description": "À Contrecoeur",
+        "lat": 45.832667,
+        "lon": -73.283167,
+        "distance_km": 4.49
+      }
+    },
+    {
+      "plan_id": 12542,
+      "plan_nom": "Rivière Yamaska a) La partie comprise entre le pont de la route 132 à Yamaska et un point situé à 1 km en aval du pont de Saint-Hugues",
+      "lat": 45.784444,
+      "lon": -72.875278,
+      "stations": [
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 17.98,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030345",
+      "station": {
+        "id": "030345",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+        "lat": 45.629,
+        "lon": -72.939,
+        "distance_km": 17.98
+      }
+    },
+    {
+      "plan_id": 3204,
+      "plan_nom": "Rivière Yamaska b) La partie comprise entre un point situé à 1 km en aval du pont à Saint-Hugues",
+      "lat": 45.784444,
+      "lon": -72.875278,
+      "stations": [
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 17.98,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030345",
+      "station": {
+        "id": "030345",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+        "lat": 45.629,
+        "lon": -72.939,
+        "distance_km": 17.98
+      }
+    },
+    {
+      "plan_id": 12980,
+      "plan_nom": "Rivière Yamaska c) La partie comprise entre un point situé à 1 km en amont du pont de Saint-Hugues",
+      "lat": 45.784444,
+      "lon": -72.875278,
+      "stations": [
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 17.98,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030345",
+      "station": {
+        "id": "030345",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+        "lat": 45.629,
+        "lon": -72.939,
+        "distance_km": 17.98
+      }
+    },
+    {
+      "plan_id": 12981,
+      "plan_nom": "Rivière Yamaska d) La partie comprise entre le pont de la route 116",
+      "lat": 45.628569,
+      "lon": -72.939853,
+      "stations": [
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 0.08,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030345",
+      "station": {
+        "id": "030345",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+        "lat": 45.629,
+        "lon": -72.939,
+        "distance_km": 0.08
+      }
+    },
+    {
+      "plan_id": 283,
+      "plan_nom": "Rivière Yamaska e) La partie comprise entre le barrage de la centrale hydroélectrique T.-D. Bouchard, à Saint-Hyacinthe",
+      "lat": 45.621389,
+      "lon": -72.950556,
+      "stations": [
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 1.23,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030345",
+      "station": {
+        "id": "030345",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+        "lat": 45.629,
+        "lon": -72.939,
+        "distance_km": 1.23
+      }
+    },
+    {
+      "plan_id": 12546,
+      "plan_nom": "Rivière Yamaska f) La partie comprise entre le pont de l'autoroute 10",
+      "lat": 45.376389,
+      "lon": -72.994167,
+      "stations": [
+        {
+          "id": "030302",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 0,6 km en amont du pont-route de la 235 à Farnham",
+          "lat": 45.283,
+          "lon": -72.966,
+          "distance_km": 10.62,
+          "role": "both",
+          "match_reason": "name"
+        },
+        {
+          "id": "030345",
+          "plan_eau": "Rivière Yamaska",
+          "description": "À 1,8 km en aval du barrage à Saint-Hyacinthe",
+          "lat": 45.629,
+          "lon": -72.939,
+          "distance_km": 28.42,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "030302",
+      "station": {
+        "id": "030302",
+        "plan_eau": "Rivière Yamaska",
+        "description": "À 0,6 km en amont du pont-route de la 235 à Farnham",
+        "lat": 45.283,
+        "lon": -72.966,
+        "distance_km": 10.62
+      }
+    }
+  ]
+}

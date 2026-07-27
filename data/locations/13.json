@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "zone_id": 13,
+    "zone_nom": "Zone 13 est",
+    "nb_plans": 26,
+    "nb_geocoded": 24,
+    "pct_geocoded": 92.3,
+    "source_file": "zones/13.json"
+  },
+  "locations": [
+    {
+      "id": 2668,
+      "zone_id": 13,
+      "nom_brut": "Lac Amyot - ( 47°57'57\" N., 76°51'28\" O. )",
+      "nom": "Lac Amyot",
+      "nom_search": "lac amyot 47 57 57 n 76 51 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Amyot -",
+      "aliases": [
+        "amyot",
+        "amyot 47 57 57 n 76 51 28 o )",
+        "lac amyot",
+        "lac amyot 47 57 57 n 76 51 28 o )"
+      ],
+      "lat": 47.965833,
+      "lon": -76.857778
+    },
+    {
+      "id": 2669,
+      "zone_id": 13,
+      "nom_brut": "Lac Augier - ( 48°39'05\" N., 76°45'51\" O. )",
+      "nom": "Lac Augier",
+      "nom_search": "lac augier 48 39 05 n 76 45 51 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Augier -",
+      "aliases": [
+        "augier",
+        "augier 48 39 05 n 76 45 51 o )",
+        "lac augier",
+        "lac augier 48 39 05 n 76 45 51 o )"
+      ],
+      "lat": 48.651389,
+      "lon": -76.764167
+    },
+    {
+      "id": 2670,
+      "zone_id": 13,
+      "nom_brut": "Lac Barthou - ( 47°52'29\" N., 76°56'49\" O. )",
+      "nom": "Lac Barthou",
+      "nom_search": "lac barthou 47 52 29 n 76 56 49 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Barthou -",
+      "aliases": [
+        "barthou",
+        "barthou 47 52 29 n 76 56 49 o )",
+        "lac barthou",
+        "lac barthou 47 52 29 n 76 56 49 o )"
+      ],
+      "lat": 47.874722,
+      "lon": -76.946944
+    },
+    {
+      "id": 2671,
+      "zone_id": 13,
+      "nom_brut": "Lac Cavendish - ( 47°59'36\" N., 76°17'57\" O. )",
+      "nom": "Lac Cavendish",
+      "nom_search": "lac cavendish 47 59 36 n 76 17 57 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cavendish -",
+      "aliases": [
+        "cavendish",
+        "cavendish 47 59 36 n 76 17 57 o )",
+        "lac cavendish",
+        "lac cavendish 47 59 36 n 76 17 57 o )"
+      ],
+      "lat": 47.993333,
+      "lon": -76.299167
+    },
+    {
+      "id": 741,
+      "zone_id": 13,
+      "nom_brut": "Lac Clair - ( 48°18'05\" N., 77°10'18\" O. )(Canton Senneterre)",
+      "nom": "Lac Clair",
+      "nom_search": "lac clair 48 18 05 n 77 10 18 o ) canton senneterre)",
+      "segment_label": null,
+      "river_base_name": "Lac Clair -",
+      "aliases": [
+        "clair",
+        "clair 48 18 05 n 77 10 18 o ) canton senneterre)",
+        "lac clair",
+        "lac clair 48 18 05 n 77 10 18 o ) canton senneterre)"
+      ],
+      "lat": 48.301389,
+      "lon": -77.171667
+    },
+    {
+      "id": 2673,
+      "zone_id": 13,
+      "nom_brut": "Lac Clais - ( 48°06'12\" N., 76°42'28\" O. )",
+      "nom": "Lac Clais",
+      "nom_search": "lac clais 48 06 12 n 76 42 28 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Clais -",
+      "aliases": [
+        "clais",
+        "clais 48 06 12 n 76 42 28 o )",
+        "lac clais",
+        "lac clais 48 06 12 n 76 42 28 o )"
+      ],
+      "lat": 48.103333,
+      "lon": -76.707778
+    },
+    {
+      "id": 2693,
+      "zone_id": 13,
+      "nom_brut": "Lac Cuillère - ( 48°40'19\" N., 76°42'54\" O. )",
+      "nom": "Lac Cuillère",
+      "nom_search": "lac cuillere 48 40 19 n 76 42 54 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Cuillère -",
+      "aliases": [
+        "cuillere",
+        "cuillere 48 40 19 n 76 42 54 o )",
+        "lac cuillere",
+        "lac cuillere 48 40 19 n 76 42 54 o )"
+      ],
+      "lat": 48.671944,
+      "lon": -76.715
+    },
+    {
+      "id": 2694,
+      "zone_id": 13,
+      "nom_brut": "Lac Denain - ( 47°53'38\" N., 76°59'21\" O. )",
+      "nom": "Lac Denain",
+      "nom_search": "lac denain 47 53 38 n 76 59 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Denain -",
+      "aliases": [
+        "denain",
+        "denain 47 53 38 n 76 59 21 o )",
+        "lac denain",
+        "lac denain 47 53 38 n 76 59 21 o )"
+      ],
+      "lat": 47.893889,
+      "lon": -76.989167
+    },
+    {
+      "id": 2685,
+      "zone_id": 13,
+      "nom_brut": "Lac des Terrasses - ( 48°38'25\" N., 75°55'31\" O. )",
+      "nom": "Lac des Terrasses",
+      "nom_search": "lac des terrasses 48 38 25 n 75 55 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac des Terrasses -",
+      "aliases": [
+        "des terrasses",
+        "des terrasses 48 38 25 n 75 55 31 o )",
+        "lac des terrasses",
+        "lac des terrasses 48 38 25 n 75 55 31 o )"
+      ],
+      "lat": 48.640278,
+      "lon": -75.925278
+    },
+    {
+      "id": 2695,
+      "zone_id": 13,
+      "nom_brut": "Lac Desforges - ( 48°44'32\" N., 76°44'27\" O. )",
+      "nom": "Lac Desforges",
+      "nom_search": "lac desforges 48 44 32 n 76 44 27 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Desforges -",
+      "aliases": [
+        "desforges",
+        "desforges 48 44 32 n 76 44 27 o )",
+        "lac desforges",
+        "lac desforges 48 44 32 n 76 44 27 o )"
+      ],
+      "lat": 48.742222,
+      "lon": -76.740833
+    },
+    {
+      "id": 2674,
+      "zone_id": 13,
+      "nom_brut": "Lac Draper - ( 47°59'26\" N., 76°52'31\" O. )",
+      "nom": "Lac Draper",
+      "nom_search": "lac draper 47 59 26 n 76 52 31 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Draper -",
+      "aliases": [
+        "draper",
+        "draper 47 59 26 n 76 52 31 o )",
+        "lac draper",
+        "lac draper 47 59 26 n 76 52 31 o )"
+      ],
+      "lat": 47.990556,
+      "lon": -76.875278
+    },
+    {
+      "id": 2678,
+      "zone_id": 13,
+      "nom_brut": "Lac Hoswart ( 48°39'00\" N., 76°42'08\" O. )",
+      "nom": "Lac Hoswart",
+      "nom_search": "lac hoswart 48 39 00 n 76 42 08 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Hoswart",
+      "aliases": [
+        "hoswart",
+        "hoswart 48 39 00 n 76 42 08 o )",
+        "lac hoswart",
+        "lac hoswart 48 39 00 n 76 42 08 o )"
+      ],
+      "lat": 48.65,
+      "lon": -76.702222
+    },
+    {
+      "id": 2696,
+      "zone_id": 13,
+      "nom_brut": "Lac Matchi-Manitou - ( 48°00'58\" N., 77°02'58\" O. )",
+      "nom": "Lac Matchi-Manitou",
+      "nom_search": "lac matchi manitou 48 00 58 n 77 02 58 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Matchi-Manitou -",
+      "aliases": [
+        "lac matchi manitou",
+        "lac matchi manitou 48 00 58 n 77 02 58 o )",
+        "matchi manitou",
+        "matchi manitou 48 00 58 n 77 02 58 o )"
+      ],
+      "lat": 48.016111,
+      "lon": -77.049444
+    },
+    {
+      "id": 2682,
+      "zone_id": 13,
+      "nom_brut": "Lac Rioux - ( 48°00'05\" N., 76°19'11\" O. )",
+      "nom": "Lac Rioux",
+      "nom_search": "lac rioux 48 00 05 n 76 19 11 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Rioux -",
+      "aliases": [
+        "lac rioux",
+        "lac rioux 48 00 05 n 76 19 11 o )",
+        "rioux",
+        "rioux 48 00 05 n 76 19 11 o )"
+      ],
+      "lat": 48.001389,
+      "lon": -76.319722
+    },
+    {
+      "id": 2688,
+      "zone_id": 13,
+      "nom_brut": "Lac Sans nom ( 48°32'49\" N., 76°36'21\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 48 32 49 n 76 36 21 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 32 49 n 76 36 21 o )",
+        "sans nom",
+        "sans nom 48 32 49 n 76 36 21 o )"
+      ],
+      "lat": 48.546944,
+      "lon": -76.605833
+    },
+    {
+      "id": 2692,
+      "zone_id": 13,
+      "nom_brut": "Lac Sans nom ( 48°33'32\" N., 76°39'24\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 48 33 32 n 76 39 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 33 32 n 76 39 24 o )",
+        "sans nom",
+        "sans nom 48 33 32 n 76 39 24 o )"
+      ],
+      "lat": 48.558889,
+      "lon": -76.656667
+    },
+    {
+      "id": 2687,
+      "zone_id": 13,
+      "nom_brut": "Lac Sans nom ( 48°38'16\" N., 75°58'23\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 48 38 16 n 75 58 23 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 38 16 n 75 58 23 o )",
+        "sans nom",
+        "sans nom 48 38 16 n 75 58 23 o )"
+      ],
+      "lat": 48.637778,
+      "lon": -75.973056
+    },
+    {
+      "id": 2691,
+      "zone_id": 13,
+      "nom_brut": "Lac Sans nom ( 48°39'11\" N., 76°47'18\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 48 39 11 n 76 47 18 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 39 11 n 76 47 18 o )",
+        "sans nom",
+        "sans nom 48 39 11 n 76 47 18 o )"
+      ],
+      "lat": 48.653056,
+      "lon": -76.788333
+    },
+    {
+      "id": 2690,
+      "zone_id": 13,
+      "nom_brut": "Lac Sans nom ( 48°40'47\" N., 76°02'22\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 48 40 47 n 76 02 22 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 40 47 n 76 02 22 o )",
+        "sans nom",
+        "sans nom 48 40 47 n 76 02 22 o )"
+      ],
+      "lat": 48.679722,
+      "lon": -76.039444
+    },
+    {
+      "id": 2689,
+      "zone_id": 13,
+      "nom_brut": "Lac Sans nom ( 48°53'21\" N., 76°26'24\" O. )",
+      "nom": "Lac Sans nom",
+      "nom_search": "lac sans nom 48 53 21 n 76 26 24 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Sans nom",
+      "aliases": [
+        "lac sans nom",
+        "lac sans nom 48 53 21 n 76 26 24 o )",
+        "sans nom",
+        "sans nom 48 53 21 n 76 26 24 o )"
+      ],
+      "lat": 48.889167,
+      "lon": -76.44
+    },
+    {
+      "id": 742,
+      "zone_id": 13,
+      "nom_brut": "Lac Wyeth - ( 48°05'48\" N., 77°23'36\" O. )(Canton Louvicourt)",
+      "nom": "Lac Wyeth",
+      "nom_search": "lac wyeth 48 05 48 n 77 23 36 o ) canton louvicourt)",
+      "segment_label": null,
+      "river_base_name": "Lac Wyeth -",
+      "aliases": [
+        "lac wyeth",
+        "lac wyeth 48 05 48 n 77 23 36 o ) canton louvicourt)",
+        "wyeth",
+        "wyeth 48 05 48 n 77 23 36 o ) canton louvicourt)"
+      ],
+      "lat": 48.096667,
+      "lon": -77.393333
+    },
+    {
+      "id": 10260,
+      "zone_id": 13,
+      "nom_brut": "Lac Ypres - ( 47°56'52\" N., 76°55'17\" O. )",
+      "nom": "Lac Ypres",
+      "nom_search": "lac ypres 47 56 52 n 76 55 17 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Ypres -",
+      "aliases": [
+        "lac ypres",
+        "lac ypres 47 56 52 n 76 55 17 o )",
+        "ypres",
+        "ypres 47 56 52 n 76 55 17 o )"
+      ],
+      "lat": 47.947778,
+      "lon": -76.921389
+    },
+    {
+      "id": 2698,
+      "zone_id": 13,
+      "nom_brut": "Lac Yser - ( 47°54'35\" N., 76°52'09\" O. )",
+      "nom": "Lac Yser",
+      "nom_search": "lac yser 47 54 35 n 76 52 09 o )",
+      "segment_label": null,
+      "river_base_name": "Lac Yser -",
+      "aliases": [
+        "lac yser",
+        "lac yser 47 54 35 n 76 52 09 o )",
+        "yser",
+        "yser 47 54 35 n 76 52 09 o )"
+      ],
+      "lat": 47.909722,
+      "lon": -76.869167
+    },
+    {
+      "id": 744,
+      "zone_id": 13,
+      "nom_brut": "Rivière Delestres la partie comprise entre son embouchure dans le lac Parent et le premier rapide en amont, situé au point 48°40'52\" N., 76°54'25\" O.",
+      "nom": "Rivière Delestres la partie comprise entre son embouchure dans le lac Parent et le premier rapide en amont, situé au point 48°40'52\" N., 76°54'25\" O.",
+      "nom_search": "riviere delestres la partie comprise entre son embouchure dans le lac parent et le premier rapide en amont situe au point 48 40 52 n 76 54 25 o",
+      "segment_label": null,
+      "river_base_name": "Rivière Delestres la partie comprise",
+      "aliases": [
+        "delestres la partie comprise",
+        "delestres la partie comprise entre son embouchure dans le lac parent et le premier rapide en amont situe au point 48 40 52 n 76 54 25 o",
+        "riviere delestres la partie comprise",
+        "riviere delestres la partie comprise entre son embouchure dans le lac parent et le premier rapide en amont situe au point 48 40 52 n 76 54 25 o"
+      ],
+      "lat": 48.681111,
+      "lon": -76.906944
+    },
+    {
+      "id": 2354,
+      "zone_id": 13,
+      "nom_brut": "Zec Capitachouane",
+      "nom": "Zec Capitachouane",
+      "nom_search": "zec capitachouane",
+      "segment_label": null,
+      "river_base_name": "Zec Capitachouane",
+      "aliases": [
+        "zec capitachouane"
+      ],
+      "lat": null,
+      "lon": null
+    },
+    {
+      "id": 2365,
+      "zone_id": 13,
+      "nom_brut": "Zec Festubert",
+      "nom": "Zec Festubert",
+      "nom_search": "zec festubert",
+      "segment_label": null,
+      "river_base_name": "Zec Festubert",
+      "aliases": [
+        "zec festubert"
+      ],
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

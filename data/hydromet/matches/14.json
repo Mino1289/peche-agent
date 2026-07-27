@@ -1,0 +1,1975 @@
+{
+  "meta": {
+    "zone_id": 14,
+    "radius_km": 25.0,
+    "nb_with_coords": 71,
+    "nb_station_matched": 47
+  },
+  "matches": [
+    {
+      "plan_id": 10301,
+      "plan_nom": "Baie de Kipawa la partie du réservoir Kipawa située à l'ouest d'une droite reliant le point 46°46'47\" N., 78°58'39\" O. et 46°46'59\" N., 78°58'53\" O.",
+      "lat": 46.779722,
+      "lon": -78.9775,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 0.42,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 0.42
+      }
+    },
+    {
+      "plan_id": 784,
+      "plan_nom": "Lac à la Truite",
+      "lat": 48.661111,
+      "lon": -78.297222,
+      "stations": [
+        {
+          "id": "080101",
+          "plan_eau": "Rivière Harricana",
+          "description": "À 3,1 km en aval du pont-route 111 à Amos",
+          "lat": 48.598,
+          "lon": -78.11,
+          "distance_km": 15.45,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080101",
+      "station": {
+        "id": "080101",
+        "plan_eau": "Rivière Harricana",
+        "description": "À 3,1 km en aval du pont-route 111 à Amos",
+        "lat": 48.598,
+        "lon": -78.11,
+        "distance_km": 15.45
+      }
+    },
+    {
+      "plan_id": 2716,
+      "plan_nom": "Lac à l'Eau Claire",
+      "lat": 46.673889,
+      "lon": -79.053056,
+      "stations": [
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 4.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 6.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 10.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 12.95,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02JE032",
+      "station": {
+        "id": "02JE032",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "En Ontario en face de Témiscaming",
+        "lat": 46.70014,
+        "lon": -79.09859,
+        "distance_km": 4.54
+      }
+    },
+    {
+      "plan_id": 772,
+      "plan_nom": "Lac Abitibi",
+      "lat": 48.671944,
+      "lon": -79.381944,
+      "stations": [
+        {
+          "id": "089902",
+          "plan_eau": "Lac Abitibi",
+          "description": "À Mancebourg",
+          "lat": 48.749281,
+          "lon": -79.229039,
+          "distance_km": 14.14,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "089902",
+      "station": {
+        "id": "089902",
+        "plan_eau": "Lac Abitibi",
+        "description": "À Mancebourg",
+        "lat": 48.749281,
+        "lon": -79.229039,
+        "distance_km": 14.14
+      }
+    },
+    {
+      "plan_id": 3207,
+      "plan_nom": "Lac Ab-Rono",
+      "lat": 47.891111,
+      "lon": -78.170278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2706,
+      "plan_nom": "Lac Aldor",
+      "lat": 47.206389,
+      "lon": -79.135278,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 20.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 21.01,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 20.95
+      }
+    },
+    {
+      "plan_id": 2708,
+      "plan_nom": "Lac Aubry",
+      "lat": 47.070556,
+      "lon": -78.974722,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 22.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 22.83,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 22.59
+      }
+    },
+    {
+      "plan_id": 799,
+      "plan_nom": "Lac aux Sables - La partie de son tributaire nord-est comprise entre une droite situé à 100 m en aval de son embouchure dans le lac, reliant les points 47°23'06'' N., 78°41'43'' O. et 47°23'10'' N., 78°41'48'' O. et la station de pompage de Belleterre",
+      "lat": 47.385,
+      "lon": -78.695278,
+      "stations": [
+        {
+          "id": "043005",
+          "plan_eau": "Lac Simard",
+          "description": "À Laforce",
+          "lat": 47.535637,
+          "lon": -78.730327,
+          "distance_km": 16.96,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043005",
+      "station": {
+        "id": "043005",
+        "plan_eau": "Lac Simard",
+        "description": "À Laforce",
+        "lat": 47.535637,
+        "lon": -78.730327,
+        "distance_km": 16.96
+      }
+    },
+    {
+      "plan_id": 2709,
+      "plan_nom": "Lac Bat",
+      "lat": 47.048056,
+      "lon": -79.016944,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 19.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 19.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 19.18
+      }
+    },
+    {
+      "plan_id": 11161,
+      "plan_nom": "Lac Bellisle - la partie de l'émissaire de ce lac comprise entre le réservoir Kipawa et le premier élargissement",
+      "lat": 47.131389,
+      "lon": -78.979444,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 24.14,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 24.34,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 24.14
+      }
+    },
+    {
+      "plan_id": 773,
+      "plan_nom": "Lac Berry",
+      "lat": 48.778056,
+      "lon": -78.371944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10282,
+      "plan_nom": "Lac Black",
+      "lat": 46.900278,
+      "lon": -78.138056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2710,
+      "plan_nom": "Lac Bois-Franc",
+      "lat": 46.760833,
+      "lon": -78.608611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2711,
+      "plan_nom": "Lac Burden",
+      "lat": 47.178889,
+      "lon": -79.130278,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 18.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 18.63,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 18.56
+      }
+    },
+    {
+      "plan_id": 785,
+      "plan_nom": "Lac Castagnier",
+      "lat": 48.730278,
+      "lon": -77.768056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2712,
+      "plan_nom": "Lac Choquette",
+      "lat": 47.088056,
+      "lon": -78.975833,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 22.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 23.09,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 22.86
+      }
+    },
+    {
+      "plan_id": 2713,
+      "plan_nom": "Lac Clair",
+      "lat": 46.536389,
+      "lon": -78.763889,
+      "stations": [
+        {
+          "id": "02JE013",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Mattawa, Ontario",
+          "lat": 46.320278,
+          "lon": -78.710556,
+          "distance_km": 24.38,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02JE013",
+      "station": {
+        "id": "02JE013",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À Mattawa, Ontario",
+        "lat": 46.320278,
+        "lon": -78.710556,
+        "distance_km": 24.38
+      }
+    },
+    {
+      "plan_id": 2714,
+      "plan_nom": "Lac Clément",
+      "lat": 47.018889,
+      "lon": -78.971389,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 22.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 23.02,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 22.76
+      }
+    },
+    {
+      "plan_id": 767,
+      "plan_nom": "Lac de la Petite Prairie",
+      "lat": 47.28,
+      "lon": -79.256111,
+      "stations": [
+        {
+          "id": "02JE026",
+          "plan_eau": "Lac Témiscamingue",
+          "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+          "lat": 47.329305,
+          "lon": -79.444616,
+          "distance_km": 15.23,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02JE026",
+      "station": {
+        "id": "02JE026",
+        "plan_eau": "Lac Témiscamingue",
+        "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+        "lat": 47.329305,
+        "lon": -79.444616,
+        "distance_km": 15.23
+      }
+    },
+    {
+      "plan_id": 761,
+      "plan_nom": "Lac Déry",
+      "lat": 48.423333,
+      "lon": -79.129444,
+      "stations": [
+        {
+          "id": "043012",
+          "plan_eau": "Rivière Kinojevis",
+          "description": "À 0,3 km en amont du pont-route à Cléricy",
+          "lat": 48.366,
+          "lon": -78.854,
+          "distance_km": 21.31,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043012",
+      "station": {
+        "id": "043012",
+        "plan_eau": "Rivière Kinojevis",
+        "description": "À 0,3 km en amont du pont-route à Cléricy",
+        "lat": 48.366,
+        "lon": -78.854,
+        "distance_km": 21.31
+      }
+    },
+    {
+      "plan_id": 775,
+      "plan_nom": "Lac des Bois",
+      "lat": 47.322778,
+      "lon": -78.966667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 759,
+      "plan_nom": "Lac des Soeurs",
+      "lat": 48.180278,
+      "lon": -77.719722,
+      "stations": [
+        {
+          "id": "080106",
+          "plan_eau": "Rivière Bourlamaque",
+          "description": "À 1,1 km en amont du pont de la route 117",
+          "lat": 48.089444,
+          "lon": -77.670414,
+          "distance_km": 10.74,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "080106",
+      "station": {
+        "id": "080106",
+        "plan_eau": "Rivière Bourlamaque",
+        "description": "À 1,1 km en amont du pont de la route 117",
+        "lat": 48.089444,
+        "lon": -77.670414,
+        "distance_km": 10.74
+      }
+    },
+    {
+      "plan_id": 763,
+      "plan_nom": "Lac Despériers",
+      "lat": 48.186111,
+      "lon": -79.159167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2717,
+      "plan_nom": "Lac du Grand Couteau",
+      "lat": 47.153611,
+      "lon": -79.128889,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 16.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 16.5,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 16.39
+      }
+    },
+    {
+      "plan_id": 10280,
+      "plan_nom": "Lac du Moulin",
+      "lat": 46.778333,
+      "lon": -79.003333,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 1.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 2.25,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 10.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 11.33,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 1.56
+      }
+    },
+    {
+      "plan_id": 2715,
+      "plan_nom": "Lac en Coeur",
+      "lat": 47.178056,
+      "lon": -79.04,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 23.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 23.21,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 23.08
+      }
+    },
+    {
+      "plan_id": 771,
+      "plan_nom": "Lac Florentien",
+      "lat": 47.895556,
+      "lon": -78.1725,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2727,
+      "plan_nom": "Lac Gordon",
+      "lat": 46.781389,
+      "lon": -79.109722,
+      "stations": [
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 6.44,
+          "role": "both",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "048603",
+      "station": {
+        "id": "048603",
+        "plan_eau": "Ruisseau Gordon",
+        "description": "À la décharge du lac Tee à Kipawa",
+        "lat": 46.767017,
+        "lon": -79.027867,
+        "distance_km": 6.44
+      }
+    },
+    {
+      "plan_id": 3040,
+      "plan_nom": "Lac Grand Lac Georges",
+      "lat": 46.775556,
+      "lon": -78.735833,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 18.83,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 22.26,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 18.83
+      }
+    },
+    {
+      "plan_id": 2733,
+      "plan_nom": "Lac Grant",
+      "lat": 47.253056,
+      "lon": -79.013611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2734,
+      "plan_nom": "Lac Guay",
+      "lat": 47.209444,
+      "lon": -79.03,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 765,
+      "plan_nom": "Lac Hector",
+      "lat": 48.178056,
+      "lon": -79.175556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11201,
+      "plan_nom": "Lac Kipawa",
+      "lat": 46.905278,
+      "lon": -78.861667,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 16.71,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 16.71
+      }
+    },
+    {
+      "plan_id": 3278,
+      "plan_nom": "Lac Laniel 1",
+      "lat": 47.049444,
+      "lon": -79.253056,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 1.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 1.71,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 1.54
+      }
+    },
+    {
+      "plan_id": 3279,
+      "plan_nom": "Lac Laniel 2",
+      "lat": 47.011389,
+      "lon": -79.271667,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 3.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 3.45,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 3.37
+      }
+    },
+    {
+      "plan_id": 2983,
+      "plan_nom": "Lac Laperrière",
+      "lat": 47.298611,
+      "lon": -79.440278,
+      "stations": [
+        {
+          "id": "02JE026",
+          "plan_eau": "Lac Témiscamingue",
+          "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+          "lat": 47.329305,
+          "lon": -79.444616,
+          "distance_km": 3.43,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02JE026",
+      "station": {
+        "id": "02JE026",
+        "plan_eau": "Lac Témiscamingue",
+        "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+        "lat": 47.329305,
+        "lon": -79.444616,
+        "distance_km": 3.43
+      }
+    },
+    {
+      "plan_id": 2720,
+      "plan_nom": "Lac Marin",
+      "lat": 46.536944,
+      "lon": -78.822778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2722,
+      "plan_nom": "Lac Memewin",
+      "lat": 46.4675,
+      "lon": -78.7,
+      "stations": [
+        {
+          "id": "02JE013",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Mattawa, Ontario",
+          "lat": 46.320278,
+          "lon": -78.710556,
+          "distance_km": 16.39,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02JE013",
+      "station": {
+        "id": "02JE013",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À Mattawa, Ontario",
+        "lat": 46.320278,
+        "lon": -78.710556,
+        "distance_km": 16.39
+      }
+    },
+    {
+      "plan_id": 797,
+      "plan_nom": "Lac Moran",
+      "lat": 47.176111,
+      "lon": -79.078889,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 20.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 20.91,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 20.79
+      }
+    },
+    {
+      "plan_id": 780,
+      "plan_nom": "Lac Noranda",
+      "lat": 48.238889,
+      "lon": -79.038611,
+      "stations": [
+        {
+          "id": "043012",
+          "plan_eau": "Rivière Kinojevis",
+          "description": "À 0,3 km en amont du pont-route à Cléricy",
+          "lat": 48.366,
+          "lon": -78.854,
+          "distance_km": 19.65,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043012",
+      "station": {
+        "id": "043012",
+        "plan_eau": "Rivière Kinojevis",
+        "description": "À 0,3 km en amont du pont-route à Cléricy",
+        "lat": 48.366,
+        "lon": -78.854,
+        "distance_km": 19.65
+      }
+    },
+    {
+      "plan_id": 2999,
+      "plan_nom": "Lac Petit lac George",
+      "lat": 46.765556,
+      "lon": -78.699444,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 21.65,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 21.65
+      }
+    },
+    {
+      "plan_id": 779,
+      "plan_nom": "Lac Petit lac Long",
+      "lat": 47.469722,
+      "lon": -79.253333,
+      "stations": [
+        {
+          "id": "043031",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Au barrage des Quinze, à proximité du bateau T. E. Draper",
+          "lat": 47.552,
+          "lon": -79.236,
+          "distance_km": 9.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043004",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la pointe du Pin Rouge",
+          "lat": 47.571474,
+          "lon": -79.175344,
+          "distance_km": 12.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE026",
+          "plan_eau": "Lac Témiscamingue",
+          "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+          "lat": 47.329305,
+          "lon": -79.444616,
+          "distance_km": 21.24,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043031",
+      "station": {
+        "id": "043031",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "Au barrage des Quinze, à proximité du bateau T. E. Draper",
+        "lat": 47.552,
+        "lon": -79.236,
+        "distance_km": 9.24
+      }
+    },
+    {
+      "plan_id": 2723,
+      "plan_nom": "Lac Petit Otter",
+      "lat": 46.718889,
+      "lon": -78.821389,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 14.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 16.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 21.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 21.62,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 14.06
+      }
+    },
+    {
+      "plan_id": 10281,
+      "plan_nom": "Lac Plassez",
+      "lat": 46.926944,
+      "lon": -78.141667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 782,
+      "plan_nom": "Lac Rousselot",
+      "lat": 47.353333,
+      "lon": -79.257222,
+      "stations": [
+        {
+          "id": "02JE026",
+          "plan_eau": "Lac Témiscamingue",
+          "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+          "lat": 47.329305,
+          "lon": -79.444616,
+          "distance_km": 14.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043031",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Au barrage des Quinze, à proximité du bateau T. E. Draper",
+          "lat": 47.552,
+          "lon": -79.236,
+          "distance_km": 22.15,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "02JE026",
+      "station": {
+        "id": "02JE026",
+        "plan_eau": "Lac Témiscamingue",
+        "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
+        "lat": 47.329305,
+        "lon": -79.444616,
+        "distance_km": 14.37
+      }
+    },
+    {
+      "plan_id": 2724,
+      "plan_nom": "Lac Saint-Amand",
+      "lat": 47.235556,
+      "lon": -79.142222,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 23.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 23.65,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 23.62
+      }
+    },
+    {
+      "plan_id": 2730,
+      "plan_nom": "Lac Sans nom",
+      "lat": 46.781111,
+      "lon": -78.690278,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 22.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 22.29
+      }
+    },
+    {
+      "plan_id": 2731,
+      "plan_nom": "Lac Sans nom",
+      "lat": 46.828333,
+      "lon": -78.885278,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 9.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 12.82,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 20.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 21.61,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 9.18
+      }
+    },
+    {
+      "plan_id": 2732,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.090556,
+      "lon": -78.966389,
+      "stations": [
+        {
+          "id": "042609",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Laniel",
+          "lat": 47.0417,
+          "lon": -79.269867,
+          "distance_km": 23.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042610",
+          "plan_eau": "Rivière Kipawa",
+          "description": "À 0.2 km en aval du barrage de Laniel",
+          "lat": 47.042417,
+          "lon": -79.273183,
+          "distance_km": 23.85,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042609",
+      "station": {
+        "id": "042609",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Laniel",
+        "lat": 47.0417,
+        "lon": -79.269867,
+        "distance_km": 23.62
+      }
+    },
+    {
+      "plan_id": 3184,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.880833,
+      "lon": -78.178056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2704,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.882778,
+      "lon": -78.181111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2705,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.887222,
+      "lon": -78.1725,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3183,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.887778,
+      "lon": -78.165833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3185,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.887778,
+      "lon": -78.178056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3186,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.890556,
+      "lon": -78.175278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3182,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.902222,
+      "lon": -78.160278,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3181,
+      "plan_nom": "Lac Sans nom",
+      "lat": 47.905,
+      "lon": -78.166389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3195,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.804722,
+      "lon": -79.165278,
+      "stations": [
+        {
+          "id": "089902",
+          "plan_eau": "Lac Abitibi",
+          "description": "À Mancebourg",
+          "lat": 48.749281,
+          "lon": -79.229039,
+          "distance_km": 7.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "089903",
+          "plan_eau": "Lac Macamic",
+          "description": "À Macamic",
+          "lat": 48.77667,
+          "lon": -79.011453,
+          "distance_km": 11.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "089907",
+          "plan_eau": "Rivière Bellefeuille",
+          "description": "Au pont de la route 11 à Authier",
+          "lat": 48.744089,
+          "lon": -78.861844,
+          "distance_km": 23.24,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "089902",
+      "station": {
+        "id": "089902",
+        "plan_eau": "Lac Abitibi",
+        "description": "À Mancebourg",
+        "lat": 48.749281,
+        "lon": -79.229039,
+        "distance_km": 7.74
+      }
+    },
+    {
+      "plan_id": 757,
+      "plan_nom": "Lac Sans nom",
+      "lat": 48.806389,
+      "lon": -79.166944,
+      "stations": [
+        {
+          "id": "089902",
+          "plan_eau": "Lac Abitibi",
+          "description": "À Mancebourg",
+          "lat": 48.749281,
+          "lon": -79.229039,
+          "distance_km": 7.81,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "089903",
+          "plan_eau": "Lac Macamic",
+          "description": "À Macamic",
+          "lat": 48.77667,
+          "lon": -79.011453,
+          "distance_km": 11.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "089907",
+          "plan_eau": "Rivière Bellefeuille",
+          "description": "Au pont de la route 11 à Authier",
+          "lat": 48.744089,
+          "lon": -78.861844,
+          "distance_km": 23.41,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "089902",
+      "station": {
+        "id": "089902",
+        "plan_eau": "Lac Abitibi",
+        "description": "À Mancebourg",
+        "lat": 48.749281,
+        "lon": -79.229039,
+        "distance_km": 7.81
+      }
+    },
+    {
+      "plan_id": 2699,
+      "plan_nom": "Lac Sans nom",
+      "lat": 46.775278,
+      "lon": -78.984167,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 0.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 3.45,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 11.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 12.08,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 0.53
+      }
+    },
+    {
+      "plan_id": 2725,
+      "plan_nom": "Lac Smith",
+      "lat": 46.759167,
+      "lon": -78.823611,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 12.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 15.58,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 21.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 21.96,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 12.36
+      }
+    },
+    {
+      "plan_id": 2726,
+      "plan_nom": "Lac Tee",
+      "lat": 46.784444,
+      "lon": -79.038611,
+      "stations": [
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 2.1,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 4.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 8.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 10.43,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "048603",
+      "station": {
+        "id": "048603",
+        "plan_eau": "Ruisseau Gordon",
+        "description": "À la décharge du lac Tee à Kipawa",
+        "lat": 46.767017,
+        "lon": -79.027867,
+        "distance_km": 2.1
+      }
+    },
+    {
+      "plan_id": 2728,
+      "plan_nom": "Lac Villedonne",
+      "lat": 46.861667,
+      "lon": -78.728889,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 21.36,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 21.36
+      }
+    },
+    {
+      "plan_id": 2729,
+      "plan_nom": "Lac Windy",
+      "lat": 46.784444,
+      "lon": -78.805278,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 13.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "048603",
+          "plan_eau": "Ruisseau Gordon",
+          "description": "À la décharge du lac Tee à Kipawa",
+          "lat": 46.767017,
+          "lon": -79.027867,
+          "distance_km": 17.06,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE025",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Témiscaming",
+          "lat": 46.71833,
+          "lon": -79.105,
+          "distance_km": 23.99,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "02JE032",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "En Ontario en face de Témiscaming",
+          "lat": 46.70014,
+          "lon": -79.09859,
+          "distance_km": 24.24,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 13.54
+      }
+    },
+    {
+      "plan_id": 3255,
+      "plan_nom": "Réservoir Decelles rapide 16",
+      "lat": 47.781667,
+      "lon": -77.889722,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 11140,
+      "plan_nom": "Réservoir Kipawa - Lac Audoin",
+      "lat": 46.848611,
+      "lon": -78.796667,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 16.1,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 16.1
+      }
+    },
+    {
+      "plan_id": 801,
+      "plan_nom": "Rivière Barrière",
+      "lat": 47.760833,
+      "lon": -79.211389,
+      "stations": [
+        {
+          "id": "043004",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À la pointe du Pin Rouge",
+          "lat": 47.571474,
+          "lon": -79.175344,
+          "distance_km": 21.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "043031",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Au barrage des Quinze, à proximité du bateau T. E. Draper",
+          "lat": 47.552,
+          "lon": -79.236,
+          "distance_km": 23.29,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "043004",
+      "station": {
+        "id": "043004",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À la pointe du Pin Rouge",
+        "lat": 47.571474,
+        "lon": -79.175344,
+        "distance_km": 21.23
+      }
+    },
+    {
+      "plan_id": 787,
+      "plan_nom": "Rivière Castagnier - la partie comprise entre son embouchure",
+      "lat": 48.714722,
+      "lon": -77.781944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3280,
+      "plan_nom": "Rivière Kipawa",
+      "lat": 46.836944,
+      "lon": -78.603333,
+      "stations": [
+        {
+          "id": "042611",
+          "plan_eau": "Lac Kipawa",
+          "description": "Au lac Kipawa à Kipawa",
+          "lat": 46.78,
+          "lon": -78.983,
+          "distance_km": 29.58,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "042611",
+      "station": {
+        "id": "042611",
+        "plan_eau": "Lac Kipawa",
+        "description": "Au lac Kipawa à Kipawa",
+        "lat": 46.78,
+        "lon": -78.983,
+        "distance_km": 29.58
+      }
+    },
+    {
+      "plan_id": 10321,
+      "plan_nom": "Rivière La Sarre compris entre une ligne joignant le point 48°50'33\" N., 79°13'32\" O. en rive ouest et le point 48°50'30\" N., 79°13'29\" O. en rive est",
+      "lat": 48.8425,
+      "lon": -79.225556,
+      "stations": [
+        {
+          "id": "089902",
+          "plan_eau": "Lac Abitibi",
+          "description": "À Mancebourg",
+          "lat": 48.749281,
+          "lon": -79.229039,
+          "distance_km": 10.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "089903",
+          "plan_eau": "Lac Macamic",
+          "description": "À Macamic",
+          "lat": 48.77667,
+          "lon": -79.011453,
+          "distance_km": 17.3,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "089902",
+      "station": {
+        "id": "089902",
+        "plan_eau": "Lac Abitibi",
+        "description": "À Mancebourg",
+        "lat": 48.749281,
+        "lon": -79.229039,
+        "distance_km": 10.37
+      }
+    },
+    {
+      "plan_id": 789,
+      "plan_nom": "Ruisseau Collin - la partie comprise entre son embouchure",
+      "lat": 48.715556,
+      "lon": -77.733611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

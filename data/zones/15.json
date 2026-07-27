@@ -1,0 +1,3098 @@
+{
+  "meta": {
+    "zone_id": 15,
+    "zone_nom": "Zone 14",
+    "saison_id": 220,
+    "saison": "Du 1er avril 2026 au 31 mars 2027",
+    "fetched_at": "2026-06-11T03:57:23+00:00",
+    "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15",
+    "nb_endroits_total": 47,
+    "nb_endroits_avec_id": 47
+  },
+  "regles_generales": [
+    {
+      "segment": "Règles de la zone",
+      "periodes": [
+        {
+          "periode": "Période Du 1 er avril 2026 au 15 avril 2026",
+          "especes": [
+            {
+              "espece": "Achigans",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Brochets",
+              "limite_prise": "10 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Doré jaune et doré noir",
+              "limite_prise": "8 en tout",
+              "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Bar rayé",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Chevalier cuivré",
+              "limite_prise": "Pêche interdite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Éperlan arc-en-ciel",
+              "limite_prise": "120",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Perchaude",
+              "limite_prise": "50",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+          "especes": [
+            {
+              "espece": "Ombles (omble de fontaine, omble chevalier)",
+              "limite_prise": "10 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Ouananiche",
+              "limite_prise": "3",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            },
+            {
+              "espece": "Touladi, moulac et lacmou",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "45 cm et plus",
+              "engin": "Pêche à la ligne seulement",
+              "note": "Dans les eaux comprises à l'intérieur des territoires particuliers: 2 en tout"
+            },
+            {
+              "espece": "Truite arc-en-ciel",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Truite fardée et truite brune",
+              "limite_prise": "5 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 mai 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Brochets",
+              "limite_prise": "10 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            },
+            {
+              "espece": "Doré jaune et doré noir",
+              "limite_prise": "8 en tout",
+              "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+          "especes": [
+            {
+              "espece": "Esturgeons",
+              "limite_prise": "1 en tout",
+              "limite_longueur": "",
+              "engin": "Pêche à la ligne seulement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 15 juin 2026 au 31 mars 2027",
+          "especes": [
+            {
+              "espece": "Achigans",
+              "limite_prise": "6 en tout",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "periode": "Période Du 1 er avril 2026 au 31 mars 2027 - Autres espèces",
+          "especes": [
+            {
+              "espece": "Autres espèces",
+              "limite_prise": "aucune limite",
+              "limite_longueur": "",
+              "engin": "",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "plans_eau": [
+    {
+      "id": 807,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Les eaux en amont du barrage Gouin, incluant les lacs et les baies qui forment le réservoir ainsi que les plans d'eau qui s'y jettent jusqu'à la ligne des hautes eaux modifiées (cote d'élévation 405,08 m), à l'exception des eaux ci-après.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=807&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Les eaux en amont du barrage Gouin, incluant les lacs et les baies qui forment le réservoir ainsi que les plans d'eau qui s'y jettent jusqu'à la ligne des hautes eaux modifiées (cote d'élévation 405,08 m), à l'exception des eaux ci-après.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er février 2027 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er février 2027 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie Adolphe-Poisson (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°23'34\" N., 75°25'31\" O. en rive sud-est et 48°23'42\" N., 75°25'37\" O. en rive nord-ouest et le fond de la baie située au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie de l'Est (Sulte) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°20'23\" N., 74°56'11\" O. en rive nord-est et 48°20'11\" N., 74°56'21\" O. en rive sud-ouest et le fond de la baie située au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie du Cinq Milles - (aire faunique communautaire du réservoir Gouin) La partie au sud-ouest d'une droite reliant les points 48°21'25\" N., 74°30'34\" O. en rive sud-est et 48°21'41\" N., 74°31'03\" O. en rive nord-ouest jusqu'au point 48°21'22\" N., 74°31'11\" O. situé sur la décharge du lac des Cinq Milles.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie du Guide (Aventurier) - (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°34'27\" N., 74°33'02\" O. en rive nord, 48°34'25\" N., 74°33'02\" O. sur l'îlot et 48°34'18\" N., 74°32'58\" O. en rive sud et l'embouchure du ruisseau situé au nord et le fond de la baie située à l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie du Lion d'Or (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°22'48\" N., 74°19'54\" O. en rive ouest et 48°22'46\" N., 74°19'51\" O. en rive est et le fond de la baie située à l'ouest.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie du Rocket (aire faunique communautaire du réservoir Gouin) à l'ouest, d'une ligne reliant les points 48°32'54\" N., 74°36'35\" O. en rive sud, 48°33'04\" N., 74°36'45\" O. sur un îlot et 48°33'11\" N., 74°36'48\" O. en rive nord, et à l'ouest du point 48°33'59\" N., 74°36'53\" O. et au sud du point 48°34'55\" N., 74°37'36\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie du Sud (Apokwatcimew) - (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°18'18\" N., 75°05'28\" O. en rive nord, 48°18'13\" N., 75°05'30\" O. sur l'îlot et 48°18'08\" N., 75°05'21\" O. en rive sud et le fond de la baie à l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie Eskwaskwakamak (du Mathieu) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°44'35\" N., 74°49'52\" O. en rive ouest et 48°44'37\" N., 74°49'43\" O. en rive est et le pont sur la rivière Mathieu vers le nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie Mattawa (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°21'29\" N., 75°22'20\" O. en rive ouest et 48°21'27\" N., 75°22'14\" O. en rive est et le fond de la baie située à l'ouest et le rétrécissement au sud situé au point 48°20'55\" N., 75°22'38\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie Piciw Minikanan (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°25'12\" N., 75°26'49\" O. en rive ouest et, 48°25'11\" N., 75°26'37\" O. en rive est, jusqu'au pont situé au point 48°24'37\" N., 75°28'35\" O. , incluant les baies au nord et au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Baie Saraana (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°21'57\" N., 75°17'44\" O. en rive ouest et 48°21'56\" N., 75°17'41\" O. en rive est et à l'ouest du point 48°21'00\" N., 75°17'37\" O. jusqu'au fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac au Portage (aire faunique communautaire du réservoir Gouin)",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman (aire faunique communautaire du réservoir Gouin) (Chapman Nord), entre une droite reliant les points 48°21'54\" N., 74°40'09\" O. en rive nord-est et 48°21'49\" N., 74°40'13\" O. sur l'îlot et 48°21'46\" N., 74°40'15\" O. en rive sud-ouest jusqu'aux chutes sur le tributaire à l'est et le fond de la baie au sud et à l'ouest.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman (aire faunique communautaire du réservoir Gouin) (Montagnard), entre une droite reliant les points 48°20'17\" N., 74°40'23\" O. en rive sud et 48°20'22\" N., 74°40'21\" O. en rive nord et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette (Delâge) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°16'18\" N., 74°28'42\" O. en rive nord-est et 48°16'11\" N., 74°28'51\" O. en rive sud-ouest et une droite reliant les points 48°15'32\" N., 74°30'11\" O. en rive ouest et 48°15'31\" N., 74°30'14\" O. en rive est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette (Motard) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°18'08\" N., 74°26'50\" O. en rive sud-est, 48°18'17\" N., 74°27'06\" O. au sud de l'île, la rive est de l'île et le point 48°18'24\" N., 74°27'16\" O. en rive nord-ouest et le pont situé à environ 4,3 kilomètres en amont sur la rivière Leblanc (Motard).",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel (de l'Antenne ou Déziel Nord) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°35'20\" N., 74°24'43\" O. en rive est et 48°35'22\" N., 74°24'56\" O. en rive ouest et le fond de la baie au nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel (Déziel Sud) - (aire faunique communautaire du réservoir Gouin) entre la rive ouest de la baie et une droite reliant les points 48°33'08\" N., 74°24'12\" O. en rive nord et 48°33'02\" N., 74°24'12\" O. au nord de l'île, suivant la rive ouest de l'île, reliant les points 48°32'45\" N., 74°24'15\" O. au sud de l'île et 48°32'44\" N., 74°24'17\" O. sur la rive sud, suivant la rive sud-est de la baie et reliant les points 48°32'33\" N., 74°24'24\" O. sur la rive est, 48°32'33\" N., 74°24'29\" O. sur l'île et 48°32'39\" N., 74°24'30\" O. en rive nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac du Déserteur (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°34'13\" N., 74°20'01\" O. en rive nord, 48°34'03\" N., 74°20'03\" O. et 48°33'49\" N., 74°20'02\" O. sur des îlots et 48°33'20\" N., 74°20'03\" O. en rive sud et le fond de la baie à l'est, incluant les cours d'eau jusqu'au point 48°33'47\" N., 74°18'53\" O. au nord et 48°33'29\" N., 74°18'47\" O. au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac du Poète (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°24'35\" N., 75°30'50\" O. en rive ouest et 48°24'31\" N., 75°30'36\" O. en rive est et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Duchet (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°39'33\" N., 74°42'19\" O. en rive nord et 48°39'18\" N., 74°42'15\" O. en rive sud et le fond des baies, incluant le lac Duchet.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Jean (du Petit Vison ou Vison Est) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°27'16\" N., 74°11'05\" O. en rive ouest et 48°27'16\" N., 74°11'00\" O. en rive est et le fond de la baie vers l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan (aire faunique communautaire du réservoir Gouin) (Leclerc), les parties à l'est des rétrécissements situés au point 48°39'29\" N., 74°35'20\" O. et 48°39'14\" N., 74°35'21\" O. et entre une droite reliant les points 48°39'44\" N., 74°34'53\" O. en rive ouest et 48°39'41\" N., 74°34'05\" O. en rive est incluant, la rivière au sud-est et l'embouchure du lac Leclerc.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan (aire faunique communautaire du réservoir Gouin) (Passe Pirotew Pawctikw), à l'est d'une droite reliant les points 48°43'32\" N., 74°30'26\" O. en rive sud et 48°43'42\" N., 74°30'16\" O. en rive nord, incluant la baie au nord et vers l'est et les cours d'eau qui s'y jettent.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Marmette (Garancières) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°22'32\" N., 74°43'13\" O. en rive ouest et 48°22'35\" N., 74°43'08\" O. en rive est vers l'ouest jusqu'au fond de la baie et vers le sud jusqu'au rétrécissement situé au point 48°21'35\" N., 74°43'16\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Mikisiw Amirakanan (Barouette) - (aire faunique communautaire du réservoir Gouin) la rivière Wacekamiw au sud d'une droite reliant les points 48°30'43\" N., 74°49'52\" O. en rive est et 48°30'42\" N., 74°49'55\" O. en rive ouest et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Miller (Simard) - (aire faunique communautaire du réservoir Gouin) les parties, incluant les baies, au sud du point 48°38'57\" N., 75°10'00\" O. situées entre une droite reliant les points 48°39'05\" N., 75°09'24\" O. en rive est et 48°39'07\" N., 75°09'34\" O. en rive ouest et le lac Simard.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Petit Brochu (de la Grosse Pluie) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°35'43\" N., 74°28'38\" O. en rive ouest et 48°35'44\" N., 74°28'19\" O. sur l'îlot et 48°35'45\" N., 74°28'15\" O. en rive est et le fond de la baie au nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Toupin (aire faunique communautaire du réservoir Gouin)",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Lac Witiko (ruisseau à l'Eau Claire ou pont de la Sylva) - (aire faunique communautaire du réservoir Gouin) la partie au nord d'une droite reliant les points 48°47'51\" N., 74°36'58\" O. en rive est et 48°47'46\" N., 74°37'06\" O. en rive ouest vers l'amont, incluant le lac Witiko et les baies à l'est, à l'ouest et au nord-ouest, et vers le nord jusqu'au point 48°50'56\" N., 74°36'43\" O. sur le ruisseau à l'Eau Claire.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Rivière Jean-Pierre (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°18'34\" N., 74°14'22\" O. en rive est, 48°18'25\" N., 74°14'42\" O. au nord de l'îlot et, 48°18'07\" N., 74°14'30\" O. en rive ouest et le premier pont situé en amont sur le tributaire à l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Rivière Kakospictikweak (lac Omina) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°46'40\" N., 74°45'07\" O. en rive nord et 48°46'36\" N., 74°45'09\" O. en rive sud et le pont situé en amont sur la rivière Kakospictikweak.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Rivière Némio (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°26'00\" N., 74°55'52\" O. en rive ouest, 48°26'01\" N., 74°55'44\" O. en rive est et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Rivière Oskélanéo (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°15'35\" N., 75°07'26\" O. en rive sud et 48°15'38\" N., 75°07'35\" O. en rive nord et le premier pont situé en amont sur la rivière Oskélanéo ( 48°14'57\" N., 75°08'33\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Rivière Toussaint (Obedjiwan ouest) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°42'15\" N., 74°57'01\" O. en rive nord et 48°42'12\" N., 74°56'59\" O. et le fond de la baie à l'est et vers le nord sur la rivière Toussaint jusqu'au point 48°43'03\" N., 74°56'16\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Rivière Wapous (lac Déziel) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°34'58\" N., 74°22'13\" O. en rive est et 48°34'59\" N., 74°22'16\" O. en rive ouest et le lac Wapous ( 48°37'30\" N., 74°19'57\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "segment": "Aire Faunique Communautaire réservoir Gouin - Ruisseau de la Rencontre (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°40'42\" N., 75°03'01\" O. en rive est et 48°40'48\" N., 75°03'07\" O. en rive ouest et le point 48°46'17\" N., 75°02'05\" O. situé sur le ruisseau de la Rencontre, incluant la baie à l'ouest, soit le lac Natow.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Adolphe-Poisson (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°23'34\" N., 75°25'31\" O. en rive sud-est et 48°23'42\" N., 75°25'37\" O. en rive nord-ouest et le fond de la baie située au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1091&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°23'34\" N., 75°25'31\" O. en rive sud-est et 48°23'42\" N., 75°25'37\" O. en rive nord-ouest et le fond de la baie située au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1093,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie de l'Est (Sulte) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°20'23\" N., 74°56'11\" O. en rive nord-est et 48°20'11\" N., 74°56'21\" O. en rive sud-ouest et le fond de la baie située au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1093&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°20'23\" N., 74°56'11\" O. en rive nord-est et 48°20'11\" N., 74°56'21\" O. en rive sud-ouest et le fond de la baie située au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11541,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Cinq Milles - (aire faunique communautaire du réservoir Gouin) La partie au sud-ouest d'une droite reliant les points 48°21'25\" N., 74°30'34\" O. en rive sud-est et 48°21'41\" N., 74°31'03\" O. en rive nord-ouest jusqu'au point 48°21'22\" N., 74°31'11\" O. situé sur la décharge du lac des Cinq Milles.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=11541&id_saisn=220",
+      "segments": [
+        {
+          "segment": "La partie au sud-ouest d'une droite reliant les points 48°21'25\" N., 74°30'34\" O. en rive sud-est et 48°21'41\" N., 74°31'03\" O. en rive nord-ouest jusqu'au point 48°21'22\" N., 74°31'11\" O. situé sur la décharge du lac des Cinq Milles.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1095,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Guide (Aventurier) - (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°34'27\" N., 74°33'02\" O. en rive nord, 48°34'25\" N., 74°33'02\" O. sur l'îlot et 48°34'18\" N., 74°32'58\" O. en rive sud et l'embouchure du ruisseau situé au nord et le fond de la baie située à l'est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1095&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne reliant les points 48°34'27\" N., 74°33'02\" O. en rive nord, 48°34'25\" N., 74°33'02\" O. sur l'îlot et 48°34'18\" N., 74°32'58\" O. en rive sud et l'embouchure du ruisseau situé au nord et le fond de la baie située à l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1097,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Lion d'Or (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°22'48\" N., 74°19'54\" O. en rive ouest et 48°22'46\" N., 74°19'51\" O. en rive est et le fond de la baie située à l'ouest.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1097&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°22'48\" N., 74°19'54\" O. en rive ouest et 48°22'46\" N., 74°19'51\" O. en rive est et le fond de la baie située à l'ouest.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2269,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Rocket (aire faunique communautaire du réservoir Gouin) à l'ouest, d'une ligne reliant les points 48°32'54\" N., 74°36'35\" O. en rive sud, 48°33'04\" N., 74°36'45\" O. sur un îlot et 48°33'11\" N., 74°36'48\" O. en rive nord, et à l'ouest du point 48°33'59\" N., 74°36'53\" O. et au sud du point 48°34'55\" N., 74°37'36\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=2269&id_saisn=220",
+      "segments": [
+        {
+          "segment": "à l'ouest, d'une ligne reliant les points 48°32'54\" N., 74°36'35\" O. en rive sud, 48°33'04\" N., 74°36'45\" O. sur un îlot et 48°33'11\" N., 74°36'48\" O. en rive nord, et à l'ouest du point 48°33'59\" N., 74°36'53\" O. et au sud du point 48°34'55\" N., 74°37'36\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1109,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Sud (Apokwatcimew) - (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°18'18\" N., 75°05'28\" O. en rive nord, 48°18'13\" N., 75°05'30\" O. sur l'îlot et 48°18'08\" N., 75°05'21\" O. en rive sud et le fond de la baie à l'est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1109&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne reliant les points 48°18'18\" N., 75°05'28\" O. en rive nord, 48°18'13\" N., 75°05'30\" O. sur l'îlot et 48°18'08\" N., 75°05'21\" O. en rive sud et le fond de la baie à l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Eskwaskwakamak (du Mathieu) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°44'35\" N., 74°49'52\" O. en rive ouest et 48°44'37\" N., 74°49'43\" O. en rive est et le pont sur la rivière Mathieu vers le nord.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1101&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°44'35\" N., 74°49'52\" O. en rive ouest et 48°44'37\" N., 74°49'43\" O. en rive est et le pont sur la rivière Mathieu vers le nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1103,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Mattawa (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°21'29\" N., 75°22'20\" O. en rive ouest et 48°21'27\" N., 75°22'14\" O. en rive est et le fond de la baie située à l'ouest et le rétrécissement au sud situé au point 48°20'55\" N., 75°22'38\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1103&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°21'29\" N., 75°22'20\" O. en rive ouest et 48°21'27\" N., 75°22'14\" O. en rive est et le fond de la baie située à l'ouest et le rétrécissement au sud situé au point 48°20'55\" N., 75°22'38\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1107,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Piciw Minikanan (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°25'12\" N., 75°26'49\" O. en rive ouest et, 48°25'11\" N., 75°26'37\" O. en rive est, jusqu'au pont situé au point 48°24'37\" N., 75°28'35\" O. , incluant les baies au nord et au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1107&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne reliant les points 48°25'12\" N., 75°26'49\" O. en rive ouest et, 48°25'11\" N., 75°26'37\" O. en rive est, jusqu'au pont situé au point 48°24'37\" N., 75°28'35\" O. , incluant les baies au nord et au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Baie Saraana (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°21'57\" N., 75°17'44\" O. en rive ouest et 48°21'56\" N., 75°17'41\" O. en rive est et à l'ouest du point 48°21'00\" N., 75°17'37\" O. jusqu'au fond de la baie au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1111&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°21'57\" N., 75°17'44\" O. en rive ouest et 48°21'56\" N., 75°17'41\" O. en rive est et à l'ouest du point 48°21'00\" N., 75°17'37\" O. jusqu'au fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1114,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman (aire faunique communautaire du réservoir Gouin) (Chapman Nord), entre une droite reliant les points 48°21'54\" N., 74°40'09\" O. en rive nord-est et 48°21'49\" N., 74°40'13\" O. sur l'îlot et 48°21'46\" N., 74°40'15\" O. en rive sud-ouest jusqu'aux chutes sur le tributaire à l'est et le fond de la baie au sud et à l'ouest.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1114&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(Chapman Nord), entre une droite reliant les points 48°21'54\" N., 74°40'09\" O. en rive nord-est et 48°21'49\" N., 74°40'13\" O. sur l'îlot et 48°21'46\" N., 74°40'15\" O. en rive sud-ouest jusqu'aux chutes sur le tributaire à l'est et le fond de la baie au sud et à l'ouest.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1113,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Chapman (aire faunique communautaire du réservoir Gouin) (Montagnard), entre une droite reliant les points 48°20'17\" N., 74°40'23\" O. en rive sud et 48°20'22\" N., 74°40'21\" O. en rive nord et le fond de la baie au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1113&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(Montagnard), entre une droite reliant les points 48°20'17\" N., 74°40'23\" O. en rive sud et 48°20'22\" N., 74°40'21\" O. en rive nord et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3171,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette (Delâge) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°16'18\" N., 74°28'42\" O. en rive nord-est et 48°16'11\" N., 74°28'51\" O. en rive sud-ouest et une droite reliant les points 48°15'32\" N., 74°30'11\" O. en rive ouest et 48°15'31\" N., 74°30'14\" O. en rive est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=3171&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°16'18\" N., 74°28'42\" O. en rive nord-est et 48°16'11\" N., 74°28'51\" O. en rive sud-ouest et une droite reliant les points 48°15'32\" N., 74°30'11\" O. en rive ouest et 48°15'31\" N., 74°30'14\" O. en rive est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1136,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac de la Galette (Motard) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°18'08\" N., 74°26'50\" O. en rive sud-est, 48°18'17\" N., 74°27'06\" O. au sud de l'île, la rive est de l'île et le point 48°18'24\" N., 74°27'16\" O. en rive nord-ouest et le pont situé à environ 4,3 kilomètres en amont sur la rivière Leblanc (Motard).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1136&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°18'08\" N., 74°26'50\" O. en rive sud-est, 48°18'17\" N., 74°27'06\" O. au sud de l'île, la rive est de l'île et le point 48°18'24\" N., 74°27'16\" O. en rive nord-ouest et le pont situé à environ 4,3 kilomètres en amont sur la rivière Leblanc (Motard).",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1116,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel (de l'Antenne ou Déziel Nord) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°35'20\" N., 74°24'43\" O. en rive est et 48°35'22\" N., 74°24'56\" O. en rive ouest et le fond de la baie au nord.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1116&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°35'20\" N., 74°24'43\" O. en rive est et 48°35'22\" N., 74°24'56\" O. en rive ouest et le fond de la baie au nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Déziel (Déziel Sud) - (aire faunique communautaire du réservoir Gouin) entre la rive ouest de la baie et une droite reliant les points 48°33'08\" N., 74°24'12\" O. en rive nord et 48°33'02\" N., 74°24'12\" O. au nord de l'île, suivant la rive ouest de l'île, reliant les points 48°32'45\" N., 74°24'15\" O. au sud de l'île et 48°32'44\" N., 74°24'17\" O. sur la rive sud, suivant la rive sud-est de la baie et reliant les points 48°32'33\" N., 74°24'24\" O. sur la rive est, 48°32'33\" N., 74°24'29\" O. sur l'île et 48°32'39\" N., 74°24'30\" O. en rive nord.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1120&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre la rive ouest de la baie et une droite reliant les points 48°33'08\" N., 74°24'12\" O. en rive nord et 48°33'02\" N., 74°24'12\" O. au nord de l'île, suivant la rive ouest de l'île, reliant les points 48°32'45\" N., 74°24'15\" O. au sud de l'île et 48°32'44\" N., 74°24'17\" O. sur la rive sud, suivant la rive sud-est de la baie et reliant les points 48°32'33\" N., 74°24'24\" O. sur la rive est, 48°32'33\" N., 74°24'29\" O. sur l'île et 48°32'39\" N., 74°24'30\" O. en rive nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1118,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac du Déserteur (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°34'13\" N., 74°20'01\" O. en rive nord, 48°34'03\" N., 74°20'03\" O. et 48°33'49\" N., 74°20'02\" O. sur des îlots et 48°33'20\" N., 74°20'03\" O. en rive sud et le fond de la baie à l'est, incluant les cours d'eau jusqu'au point 48°33'47\" N., 74°18'53\" O. au nord et 48°33'29\" N., 74°18'47\" O. au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1118&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne reliant les points 48°34'13\" N., 74°20'01\" O. en rive nord, 48°34'03\" N., 74°20'03\" O. et 48°33'49\" N., 74°20'02\" O. sur des îlots et 48°33'20\" N., 74°20'03\" O. en rive sud et le fond de la baie à l'est, incluant les cours d'eau jusqu'au point 48°33'47\" N., 74°18'53\" O. au nord et 48°33'29\" N., 74°18'47\" O. au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3259,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac du Poète (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°24'35\" N., 75°30'50\" O. en rive ouest et 48°24'31\" N., 75°30'36\" O. en rive est et le fond de la baie au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=3259&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°24'35\" N., 75°30'50\" O. en rive ouest et 48°24'31\" N., 75°30'36\" O. en rive est et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1124,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Duchet (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°39'33\" N., 74°42'19\" O. en rive nord et 48°39'18\" N., 74°42'15\" O. en rive sud et le fond des baies, incluant le lac Duchet.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1124&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°39'33\" N., 74°42'19\" O. en rive nord et 48°39'18\" N., 74°42'15\" O. en rive sud et le fond des baies, incluant le lac Duchet.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1105,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Jean (du Petit Vison ou Vison Est) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°27'16\" N., 74°11'05\" O. en rive ouest et 48°27'16\" N., 74°11'00\" O. en rive est et le fond de la baie vers l'est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1105&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°27'16\" N., 74°11'05\" O. en rive ouest et 48°27'16\" N., 74°11'00\" O. en rive est et le fond de la baie vers l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2267,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan (aire faunique communautaire du réservoir Gouin) (Leclerc), les parties à l'est des rétrécissements situés au point 48°39'29\" N., 74°35'20\" O. et 48°39'14\" N., 74°35'21\" O. et entre une droite reliant les points 48°39'44\" N., 74°34'53\" O. en rive ouest et 48°39'41\" N., 74°34'05\" O. en rive est incluant, la rivière au sud-est et l'embouchure du lac Leclerc.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=2267&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(Leclerc), les parties à l'est des rétrécissements situés au point 48°39'29\" N., 74°35'20\" O. et 48°39'14\" N., 74°35'21\" O. et entre une droite reliant les points 48°39'44\" N., 74°34'53\" O. en rive ouest et 48°39'41\" N., 74°34'05\" O. en rive est incluant, la rivière au sud-est et l'embouchure du lac Leclerc.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2268,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Magnan (aire faunique communautaire du réservoir Gouin) (Passe Pirotew Pawctikw), à l'est d'une droite reliant les points 48°43'32\" N., 74°30'26\" O. en rive sud et 48°43'42\" N., 74°30'16\" O. en rive nord, incluant la baie au nord et vers l'est et les cours d'eau qui s'y jettent.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=2268&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(Passe Pirotew Pawctikw), à l'est d'une droite reliant les points 48°43'32\" N., 74°30'26\" O. en rive sud et 48°43'42\" N., 74°30'16\" O. en rive nord, incluant la baie au nord et vers l'est et les cours d'eau qui s'y jettent.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1099,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Marmette (Garancières) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°22'32\" N., 74°43'13\" O. en rive ouest et 48°22'35\" N., 74°43'08\" O. en rive est vers l'ouest jusqu'au fond de la baie et vers le sud jusqu'au rétrécissement situé au point 48°21'35\" N., 74°43'16\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1099&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°22'32\" N., 74°43'13\" O. en rive ouest et 48°22'35\" N., 74°43'08\" O. en rive est vers l'ouest jusqu'au fond de la baie et vers le sud jusqu'au rétrécissement situé au point 48°21'35\" N., 74°43'16\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1130,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Mikisiw Amirakanan (Barouette) - (aire faunique communautaire du réservoir Gouin) la rivière Wacekamiw au sud d'une droite reliant les points 48°30'43\" N., 74°49'52\" O. en rive est et 48°30'42\" N., 74°49'55\" O. en rive ouest et le fond de la baie au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1130&id_saisn=220",
+      "segments": [
+        {
+          "segment": "la rivière Wacekamiw au sud d'une droite reliant les points 48°30'43\" N., 74°49'52\" O. en rive est et 48°30'42\" N., 74°49'55\" O. en rive ouest et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Miller (Simard) - (aire faunique communautaire du réservoir Gouin) les parties, incluant les baies, au sud du point 48°38'57\" N., 75°10'00\" O. situées entre une droite reliant les points 48°39'05\" N., 75°09'24\" O. en rive est et 48°39'07\" N., 75°09'34\" O. en rive ouest et le lac Simard.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1132&id_saisn=220",
+      "segments": [
+        {
+          "segment": "les parties, incluant les baies, au sud du point 48°38'57\" N., 75°10'00\" O. situées entre une droite reliant les points 48°39'05\" N., 75°09'24\" O. en rive est et 48°39'07\" N., 75°09'34\" O. en rive ouest et le lac Simard.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1126,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Petit Brochu (de la Grosse Pluie) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°35'43\" N., 74°28'38\" O. en rive ouest et 48°35'44\" N., 74°28'19\" O. sur l'îlot et 48°35'45\" N., 74°28'15\" O. en rive est et le fond de la baie au nord.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1126&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°35'43\" N., 74°28'38\" O. en rive ouest et 48°35'44\" N., 74°28'19\" O. sur l'îlot et 48°35'45\" N., 74°28'15\" O. en rive est et le fond de la baie au nord.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1134,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Lac Witiko (ruisseau à l'Eau Claire ou pont de la Sylva) - (aire faunique communautaire du réservoir Gouin) la partie au nord d'une droite reliant les points 48°47'51\" N., 74°36'58\" O. en rive est et 48°47'46\" N., 74°37'06\" O. en rive ouest vers l'amont, incluant le lac Witiko et les baies à l'est, à l'ouest et au nord-ouest, et vers le nord jusqu'au point 48°50'56\" N., 74°36'43\" O. sur le ruisseau à l'Eau Claire.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1134&id_saisn=220",
+      "segments": [
+        {
+          "segment": "la partie au nord d'une droite reliant les points 48°47'51\" N., 74°36'58\" O. en rive est et 48°47'46\" N., 74°37'06\" O. en rive ouest vers l'amont, incluant le lac Witiko et les baies à l'est, à l'ouest et au nord-ouest, et vers le nord jusqu'au point 48°50'56\" N., 74°36'43\" O. sur le ruisseau à l'Eau Claire.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 814,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Jean-Pierre (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°18'34\" N., 74°14'22\" O. en rive est, 48°18'25\" N., 74°14'42\" O. au nord de l'îlot et, 48°18'07\" N., 74°14'30\" O. en rive ouest et le premier pont situé en amont sur le tributaire à l'est.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=814&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne reliant les points 48°18'34\" N., 74°14'22\" O. en rive est, 48°18'25\" N., 74°14'42\" O. au nord de l'îlot et, 48°18'07\" N., 74°14'30\" O. en rive ouest et le premier pont situé en amont sur le tributaire à l'est.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1145,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Kakospictikweak (lac Omina) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°46'40\" N., 74°45'07\" O. en rive nord et 48°46'36\" N., 74°45'09\" O. en rive sud et le pont situé en amont sur la rivière Kakospictikweak.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1145&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°46'40\" N., 74°45'07\" O. en rive nord et 48°46'36\" N., 74°45'09\" O. en rive sud et le pont situé en amont sur la rivière Kakospictikweak.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1140,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Némio (aire faunique communautaire du réservoir Gouin) entre une ligne reliant les points 48°26'00\" N., 74°55'52\" O. en rive ouest, 48°26'01\" N., 74°55'44\" O. en rive est et le fond de la baie au sud.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1140&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une ligne reliant les points 48°26'00\" N., 74°55'52\" O. en rive ouest, 48°26'01\" N., 74°55'44\" O. en rive est et le fond de la baie au sud.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1147,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Oskélanéo (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°15'35\" N., 75°07'26\" O. en rive sud et 48°15'38\" N., 75°07'35\" O. en rive nord et le premier pont situé en amont sur la rivière Oskélanéo ( 48°14'57\" N., 75°08'33\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1147&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°15'35\" N., 75°07'26\" O. en rive sud et 48°15'38\" N., 75°07'35\" O. en rive nord et le premier pont situé en amont sur la rivière Oskélanéo ( 48°14'57\" N., 75°08'33\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1142,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Toussaint (Obedjiwan ouest) (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°42'15\" N., 74°57'01\" O. en rive nord et 48°42'12\" N., 74°56'59\" O. et le fond de la baie à l'est et vers le nord sur la rivière Toussaint jusqu'au point 48°43'03\" N., 74°56'16\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1142&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°42'15\" N., 74°57'01\" O. en rive nord et 48°42'12\" N., 74°56'59\" O. et le fond de la baie à l'est et vers le nord sur la rivière Toussaint jusqu'au point 48°43'03\" N., 74°56'16\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1122,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Wapous (lac Déziel) - (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°34'58\" N., 74°22'13\" O. en rive est et 48°34'59\" N., 74°22'16\" O. en rive ouest et le lac Wapous ( 48°37'30\" N., 74°19'57\" O. ).",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1122&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°34'58\" N., 74°22'13\" O. en rive est et 48°34'59\" N., 74°22'16\" O. en rive ouest et le lac Wapous ( 48°37'30\" N., 74°19'57\" O. ).",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1149,
+      "nom": "Aire Faunique Communautaire réservoir Gouin - Ruisseau de la Rencontre (aire faunique communautaire du réservoir Gouin) entre une droite reliant les points 48°40'42\" N., 75°03'01\" O. en rive est et 48°40'48\" N., 75°03'07\" O. en rive ouest et le point 48°46'17\" N., 75°02'05\" O. situé sur le ruisseau de la Rencontre, incluant la baie à l'ouest, soit le lac Natow.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=1149&id_saisn=220",
+      "segments": [
+        {
+          "segment": "entre une droite reliant les points 48°40'42\" N., 75°03'01\" O. en rive est et 48°40'48\" N., 75°03'07\" O. en rive ouest et le point 48°46'17\" N., 75°02'05\" O. situé sur le ruisseau de la Rencontre, incluant la baie à l'ouest, soit le lac Natow.",
+          "periodes": [
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 25 mai 2026 au 20 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 828,
+      "nom": "Lac des Dix Milles ( 47°53'57\" N., 74°48'23\" O. )(cantons Bazin et Landry)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=828&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°53'57\" N., 74°48'23\" O. )(cantons Bazin et Landry)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 820,
+      "nom": "Lac du Marteau (canton Bourassa)( 48°14'27\" N., 73°58'00\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=820&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(canton Bourassa)( 48°14'27\" N., 73°58'00\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826,
+      "nom": "Lac du Tabac ( 47°40'57\" N., 74°25'25\" O. )(comté Saint-Maurice)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=826&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°40'57\" N., 74°25'25\" O. )(comté Saint-Maurice)",
+          "periodes": [
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 816,
+      "nom": "Lac Foie (canton Leblanc)( 48°19'00\" N., 74°17'07\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=816&id_saisn=220",
+      "segments": [
+        {
+          "segment": "(canton Leblanc)( 48°19'00\" N., 74°17'07\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 818,
+      "nom": "Lac Guénette ( 47°54'22\" N., 74°20'06\" O. )(cantons Suzor et Letondal)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=818&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°54'22\" N., 74°20'06\" O. )(cantons Suzor et Letondal)",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 830,
+      "nom": "Lac Head ( 47°46'33\" N., 74°36'37\" O. )(canton Dandurand)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=830&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 47°46'33\" N., 74°36'37\" O. )(canton Dandurand)",
+          "periodes": [
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truites (truite brune, truite fardée et truite arc-en-ciel)",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2743,
+      "nom": "Lac Mix - ( 47°27'35\" N., 76°05'17\" O. , TNO de Lac-Lenôtre)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=2743&id_saisn=220",
+      "segments": [
+        {
+          "segment": "Lac Mix - ( 47°27'35\" N., 76°05'17\" O. , TNO de Lac-Lenôtre)",
+          "periodes": [
+            {
+              "periode": "Période Du 16 avril 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Éperlan arc-en-ciel",
+                  "limite_prise": "120",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Grand corégone",
+                  "limite_prise": "5",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Marigane noire",
+                  "limite_prise": "30",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Perchaude",
+                  "limite_prise": "50",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Ombles (omble de fontaine, omble chevalier)",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "45 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Truite arc-en-ciel",
+                  "limite_prise": "aucune limite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Truite fardée et truite brune",
+                  "limite_prise": "5 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "10 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "8 en tout",
+                  "limite_longueur": "Doré jaune: 32 cm à 47 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 31 octobre 2026",
+              "especes": [
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Achigans",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 16 avril 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 822,
+      "nom": "Lac Peter ( 48°14'21\" N., 74°12'19\" O. )",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=822&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 48°14'21\" N., 74°12'19\" O. )",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 824,
+      "nom": "Lac Vaillant ( 48°09'38\" N., 74°13'32\" O. )(cantons Dansereau et Decelles)",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=15&id_endro=824&id_saisn=220",
+      "segments": [
+        {
+          "segment": "( 48°09'38\" N., 74°13'32\" O. )(cantons Dansereau et Decelles)",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er juillet 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

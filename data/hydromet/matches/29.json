@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "zone_id": 29,
+    "radius_km": 25.0,
+    "nb_with_coords": 6,
+    "nb_station_matched": 6
+  },
+  "matches": [
+    {
+      "plan_id": 1911,
+      "plan_nom": "Lac Old Mill",
+      "lat": 45.909444,
+      "lon": -76.914722,
+      "stations": [
+        {
+          "id": "488",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 500 m en amont du pont de la route 148 à Waltham",
+          "lat": 45.906871,
+          "lon": -76.934487,
+          "distance_km": 1.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "FOR_COUL.1",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 15.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "679",
+          "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
+          "description": "Au pont de la route 148 à Mansfield et Pontefract",
+          "lat": 45.851058,
+          "lon": -76.72953,
+          "distance_km": 15.74,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "488",
+      "station": {
+        "id": "488",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "À 500 m en amont du pont de la route 148 à Waltham",
+        "lat": 45.906871,
+        "lon": -76.934487,
+        "distance_km": 1.56
+      }
+    },
+    {
+      "plan_id": 1913,
+      "plan_nom": "Lac Sans nom",
+      "lat": 46.195278,
+      "lon": -77.700556,
+      "stations": [
+        {
+          "id": "041902",
+          "plan_eau": "Rivière Dumoine",
+          "description": "À la sortie du lac Robinson",
+          "lat": 46.346,
+          "lon": -77.816,
+          "distance_km": 18.96,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "041902",
+      "station": {
+        "id": "041902",
+        "plan_eau": "Rivière Dumoine",
+        "description": "À la sortie du lac Robinson",
+        "lat": 46.346,
+        "lon": -77.816,
+        "distance_km": 18.96
+      }
+    },
+    {
+      "plan_id": 3122,
+      "plan_nom": "Parc National de Plaisance à l'exception de la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault",
+      "lat": 45.590556,
+      "lon": -75.171667,
+      "stations": [
+        {
+          "id": "502",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Parc National (amont)",
+          "lat": 45.598102,
+          "lon": -75.107669,
+          "distance_km": 5.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 17.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "410",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Traversier Masson",
+          "lat": 45.52658,
+          "lon": -75.41105,
+          "distance_km": 19.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 23.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "502",
+      "station": {
+        "id": "502",
+        "plan_eau": "Rivière de la Petite Nation",
+        "description": "Parc National (amont)",
+        "lat": 45.598102,
+        "lon": -75.107669,
+        "distance_km": 5.05
+      }
+    },
+    {
+      "plan_id": 3123,
+      "plan_nom": "Parc National de Plaisance la partie de la baie Noire située dans un rayon de 30 m à partir du pont Legault",
+      "lat": 45.590556,
+      "lon": -75.171667,
+      "stations": [
+        {
+          "id": "502",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Parc National (amont)",
+          "lat": 45.598102,
+          "lon": -75.107669,
+          "distance_km": 5.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "486",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont de la route 321 à Saint-André-Avellin",
+          "lat": 45.722879,
+          "lon": -75.056957,
+          "distance_km": 17.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "410",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Traversier Masson",
+          "lat": 45.52658,
+          "lon": -75.41105,
+          "distance_km": 19.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "040406",
+          "plan_eau": "Rivière de la Petite Nation",
+          "description": "Au pont à 1,6 km en amont de Ripon",
+          "lat": 45.791,
+          "lon": -75.089,
+          "distance_km": 23.19,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "502",
+      "station": {
+        "id": "502",
+        "plan_eau": "Rivière de la Petite Nation",
+        "description": "Parc National (amont)",
+        "lat": 45.598102,
+        "lon": -75.107669,
+        "distance_km": 5.05
+      }
+    },
+    {
+      "plan_id": 2233,
+      "plan_nom": "Rivière des Outaouais La partie du lac McConnell comprise entre une droite reliant le point 46°12'30'' N., 77°42'21.58'' O. et le point 46°12'33.78'' N., 77°42'17.02'' O. , située en amont de la digue",
+      "lat": 46.208333,
+      "lon": -77.705994,
+      "stations": [
+        {
+          "id": "041902",
+          "plan_eau": "Rivière Dumoine",
+          "description": "À la sortie du lac Robinson",
+          "lat": 46.346,
+          "lon": -77.816,
+          "distance_km": 17.49,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "041902",
+      "station": {
+        "id": "041902",
+        "plan_eau": "Rivière Dumoine",
+        "description": "À la sortie du lac Robinson",
+        "lat": 46.346,
+        "lon": -77.816,
+        "distance_km": 17.49
+      }
+    },
+    {
+      "plan_id": 1915,
+      "plan_nom": "Rivière du Lièvre entre le côté en aval du pont Major de la route 148",
+      "lat": 45.543056,
+      "lon": -75.425278,
+      "stations": [
+        {
+          "id": "410",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "Traversier Masson",
+          "lat": 45.52658,
+          "lon": -75.41105,
+          "distance_km": 2.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "412",
+          "plan_eau": "Rivière Gatineau",
+          "description": "Quai des Artistes",
+          "lat": 45.45739,
+          "lon": -75.69979,
+          "distance_km": 23.42,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "410",
+      "station": {
+        "id": "410",
+        "plan_eau": "Rivière des Outaouais",
+        "description": "Traversier Masson",
+        "lat": 45.52658,
+        "lon": -75.41105,
+        "distance_km": 2.14
+      }
+    }
+  ]
+}

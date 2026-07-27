@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "zone_id": 26,
+    "radius_km": 25.0,
+    "nb_with_coords": 78,
+    "nb_station_matched": 1
+  },
+  "matches": [
+    {
+      "plan_id": 1794,
+      "plan_nom": "Anse Bell entre les points 59°58'02\" N., 65°07'50\" O. et 59°53'39\" N., 65°00'38\" O.",
+      "lat": 59.967222,
+      "lon": -65.130556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1796,
+      "plan_nom": "Anse Davis",
+      "lat": 59.25,
+      "lon": -65.616667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1799,
+      "plan_nom": "Anse Gregson",
+      "lat": 59.252639,
+      "lon": -65.564167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2313,
+      "plan_nom": "Anse Sans nom * entre les points 59°28' N., 65°22' O. et 59°24' N., 65°15' O. * entre les points 59°25' N., 65°25' O. et 59°23' N., 65°19' O.",
+      "lat": 59.466667,
+      "lon": -65.366667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1802,
+      "plan_nom": "Anse Weymouth",
+      "lat": 59.345,
+      "lon": -65.473611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2275,
+      "plan_nom": "Baie Tasikallak",
+      "lat": 58.966389,
+      "lon": -65.441944,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1747,
+      "plan_nom": "Eaux du coude Allipaaq",
+      "lat": 62.08,
+      "lon": -74.694444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1804,
+      "plan_nom": "Fjord Alluviaq entre les points 59°29'40,26\" N., 65°23'02,57\" O. et 59°22'18,84\" N., 64°56'23,53\" O.",
+      "lat": 59.494517,
+      "lon": -65.384047,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2276,
+      "plan_nom": "Lac Aannaniavik",
+      "lat": 58.661944,
+      "lon": -66.473611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1745,
+      "plan_nom": "Lac Aatamialuk",
+      "lat": 62.05,
+      "lon": -75.683333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1708,
+      "plan_nom": "Lac Amaluttuq",
+      "lat": 60.719167,
+      "lon": -69.741389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2277,
+      "plan_nom": "Lac Amarutaliup",
+      "lat": 58.633333,
+      "lon": -66.466667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3058,
+      "plan_nom": "Lac Annabel",
+      "lat": 55.061667,
+      "lon": -67.109444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2279,
+      "plan_nom": "Lac aux Goélands",
+      "lat": 55.467222,
+      "lon": -64.238611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1763,
+      "plan_nom": "Lac Ballantyne",
+      "lat": 58.783333,
+      "lon": -69.166667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2288,
+      "plan_nom": "Lac Bérard",
+      "lat": 58.477778,
+      "lon": -70.055833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3059,
+      "plan_nom": "Lac Cacher",
+      "lat": 54.8,
+      "lon": -66.833333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1758,
+      "plan_nom": "Lac Chaunet",
+      "lat": 60.226389,
+      "lon": -70.260556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1710,
+      "plan_nom": "Lac Deharveng",
+      "lat": 58.390833,
+      "lon": -69.968611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1765,
+      "plan_nom": "Lac Diana",
+      "lat": 58.433333,
+      "lon": -68.966667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2278,
+      "plan_nom": "Lac Ducreux",
+      "lat": 57.75,
+      "lon": -69.55,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2289,
+      "plan_nom": "Lac Dulhut",
+      "lat": 58.679444,
+      "lon": -70.628333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1812,
+      "plan_nom": "Lac Duquet entre les points 62°07' N., 74°34' O. et 62°02' N., 74°31' O.",
+      "lat": 62.116667,
+      "lon": -74.566667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2273,
+      "plan_nom": "Lac Fougeraye",
+      "lat": 58.525,
+      "lon": -66.343611,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1769,
+      "plan_nom": "Lac Françoys-Malherbe",
+      "lat": 62.116667,
+      "lon": -74.25,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2281,
+      "plan_nom": "Lac Inconnu",
+      "lat": 57.805833,
+      "lon": -69.529167,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2271,
+      "plan_nom": "Lac Iqalattuuq",
+      "lat": 60.514722,
+      "lon": -72.045833,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1712,
+      "plan_nom": "Lac Iqaluppilik",
+      "lat": 60.708333,
+      "lon": -69.719444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1739,
+      "plan_nom": "Lac Isuilutaq",
+      "lat": 58.696389,
+      "lon": -78.203889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2274,
+      "plan_nom": "Lac Kupaaluk",
+      "lat": 58.484444,
+      "lon": -65.906667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1772,
+      "plan_nom": "Lac La Roncière",
+      "lat": 58.383333,
+      "lon": -66.4,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1714,
+      "plan_nom": "Lac Lachance",
+      "lat": 58.288889,
+      "lon": -70.016111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2282,
+      "plan_nom": "Lac Le Fer",
+      "lat": 55.303333,
+      "lon": -67.340556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2283,
+      "plan_nom": "Lac Livaudière",
+      "lat": 57.841667,
+      "lon": -69.515556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1749,
+      "plan_nom": "Lac Mistinibi",
+      "lat": 55.959444,
+      "lon": -64.073889,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1716,
+      "plan_nom": "Lac Moriné",
+      "lat": 60.185278,
+      "lon": -69.882778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1718,
+      "plan_nom": "Lac Nagyaraaluk",
+      "lat": 60.734722,
+      "lon": -70.957222,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1741,
+      "plan_nom": "Lac Nauligarvilaap Tasialunga",
+      "lat": 58.768611,
+      "lon": -78.065,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1723,
+      "plan_nom": "Lac Ningniugninnait Tasignat",
+      "lat": 58.75,
+      "lon": -65.916667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2284,
+      "plan_nom": "Lac Roberts",
+      "lat": 60.371667,
+      "lon": -70.418333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1705,
+      "plan_nom": "Lac Stewart",
+      "lat": 58.176944,
+      "lon": -68.438056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3062,
+      "plan_nom": "Lac Tait",
+      "lat": 55.116667,
+      "lon": -66.8,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2285,
+      "plan_nom": "Lac Tasiataq",
+      "lat": 58.754444,
+      "lon": -71.776111,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2272,
+      "plan_nom": "Lac Tasikallaapik",
+      "lat": 58.597222,
+      "lon": -69.708333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1703,
+      "plan_nom": "Lac Tasirluk",
+      "lat": 58.095,
+      "lon": -68.468056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1755,
+      "plan_nom": "Lac Tassy",
+      "lat": 55.942778,
+      "lon": -67.26,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2286,
+      "plan_nom": "Lac Tesialuk",
+      "lat": 58.382778,
+      "lon": -66.995556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1751,
+      "plan_nom": "Lac Théophile-Poitras",
+      "lat": 55.516667,
+      "lon": -64.512778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1760,
+      "plan_nom": "Lac Tunulliup",
+      "lat": 58.460833,
+      "lon": -66.558056,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2287,
+      "plan_nom": "Lac Turcotte",
+      "lat": 58.133333,
+      "lon": -68.816667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2270,
+      "plan_nom": "Lac Ujarasujjulik",
+      "lat": 58.763611,
+      "lon": -65.802778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 3060,
+      "plan_nom": "Lac Vacher",
+      "lat": 54.916667,
+      "lon": -66.916667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1720,
+      "plan_nom": "Lac Woussen",
+      "lat": 60.067222,
+      "lon": -70.276389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1825,
+      "plan_nom": "Rivière à la Baleine entre une ligne reliant le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
+      "lat": 56.839444,
+      "lon": -66.493333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1824,
+      "plan_nom": "Rivière à la Baleine entre une ligne reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. au point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe.",
+      "lat": 58.0,
+      "lon": -67.725833,
+      "stations": [
+        {
+          "id": "104001",
+          "plan_eau": "Rivière à la Baleine",
+          "description": "À 40,2 km de l'embouchure de la rivière à la Baleine",
+          "lat": 57.888556,
+          "lon": -67.600083,
+          "distance_km": 14.44,
+          "role": "level",
+          "match_reason": "name"
+        }
+      ],
+      "primary_station_id": "104001",
+      "station": {
+        "id": "104001",
+        "plan_eau": "Rivière à la Baleine",
+        "description": "À 40,2 km de l'embouchure de la rivière à la Baleine",
+        "lat": 57.888556,
+        "lon": -67.600083,
+        "distance_km": 14.44
+      }
+    },
+    {
+      "plan_id": 1775,
+      "plan_nom": "Rivière Abrat *",
+      "lat": 59.240833,
+      "lon": -65.306389,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1779,
+      "plan_nom": "Rivière Alluviaq",
+      "lat": 59.371944,
+      "lon": -64.939444,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1788,
+      "plan_nom": "Rivière Arnaud",
+      "lat": 59.983333,
+      "lon": -71.883333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 10820,
+      "plan_nom": "Rivière Arnaud",
+      "lat": 60.016667,
+      "lon": -70.733333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1827,
+      "plan_nom": "Rivière aux Feuilles entre une ligne reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une ligne reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
+      "lat": 58.758333,
+      "lon": -70.145,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1844,
+      "plan_nom": "Rivière aux Mélèzes entre le point 57°12'00\" N., 71°38'00\" O. et une ligne reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
+      "lat": 57.2,
+      "lon": -71.633333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1843,
+      "plan_nom": "Rivière aux Mélèzes entre les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
+      "lat": 57.386389,
+      "lon": -70.65,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1842,
+      "plan_nom": "Rivière aux Mélèzes entre une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
+      "lat": 57.69,
+      "lon": -69.45,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1791,
+      "plan_nom": "Rivière Barnoin",
+      "lat": 58.666667,
+      "lon": -65.616667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1807,
+      "plan_nom": "Rivière Barnoin",
+      "lat": 58.529486,
+      "lon": -65.288419,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1782,
+      "plan_nom": "Rivière Bérard",
+      "lat": 58.583333,
+      "lon": -70.033333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1836,
+      "plan_nom": "Rivière de Pas entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
+      "lat": 55.475,
+      "lon": -65.116667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1835,
+      "plan_nom": "Rivière de Pas entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
+      "lat": 55.884444,
+      "lon": -64.765,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1848,
+      "plan_nom": "Rivière Delay entre son point de confluence avec la rivière Du Gué délimité par une ligne reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une ligne reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
+      "lat": 56.945,
+      "lon": -71.471667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1846,
+      "plan_nom": "Rivière du Gué entre son point de confluence avec la rivière aux Mélèzes délimité par une ligne reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une ligne reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
+      "lat": 57.35,
+      "lon": -70.731667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1810,
+      "plan_nom": "Rivière Duquet entre les points 62°02' N., 74°31' O. et 61°57' N., 74°40' O.",
+      "lat": 62.033333,
+      "lon": -74.516667,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1838,
+      "plan_nom": "Rivière Ford entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
+      "lat": 58.178889,
+      "lon": -65.783333,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1831,
+      "plan_nom": "Rivière George * entre une ligne reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
+      "lat": 58.699722,
+      "lon": -66.05,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 2315,
+      "plan_nom": "Rivière Goudalie la partie de la rivière comprise entre son point de confluence avec la rivière aux Feuilles, délimité par une ligne reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une ligne reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
+      "lat": 57.938333,
+      "lon": -72.975556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1840,
+      "plan_nom": "Rivière Koksoak entre une ligne reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
+      "lat": 58.549722,
+      "lon": -68.185556,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1850,
+      "plan_nom": "Rivière Maricourt entre son point de confluence avec la rivière Delay délimité par une ligne reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
+      "lat": 56.527222,
+      "lon": -71.077778,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1785,
+      "plan_nom": "Rivière Péladeau",
+      "lat": 58.833333,
+      "lon": -70.75,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    },
+    {
+      "plan_id": 1814,
+      "plan_nom": "Rivière Qurlutuq entre les points 58°26'47,17\" N., 66°43'43,90\" O. et 58°21' N., 66°40' O.",
+      "lat": 58.446436,
+      "lon": -66.728861,
+      "stations": [],
+      "primary_station_id": null,
+      "station": null
+    }
+  ]
+}

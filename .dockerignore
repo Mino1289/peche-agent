@@ -1,0 +1,29 @@
+# Environnement local
+.venv/
+.env
+.env.*
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Git / IDE
+.git/
+.gitignore
+.cursor/
+.vscode/
+.idea/
+
+# Données volumineuses (montées en volume au runtime)
+data/cache/
+
+# Docs / divers
+*.md
+!README.md
