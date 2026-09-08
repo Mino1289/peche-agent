@@ -177,12 +177,18 @@ def clear_caches():
     import peche.weather as weather_mod
 
     _safe_lru_clear(tools_mod._load_search_index)
+    _safe_lru_clear(tools_mod._load_zone)
+    _safe_lru_clear(tools_mod._load_locations)
+    _safe_lru_clear(tools_mod._load_match)
     _safe_lru_clear(barrages_mod._barrages_cached)
     _safe_lru_clear(tides_mod._stations_cached)
     weather_mod._CACHE.clear()
     geocoding_mod._CACHE.clear()
     yield
     _safe_lru_clear(tools_mod._load_search_index)
+    _safe_lru_clear(tools_mod._load_zone)
+    _safe_lru_clear(tools_mod._load_locations)
+    _safe_lru_clear(tools_mod._load_match)
     _safe_lru_clear(barrages_mod._barrages_cached)
     _safe_lru_clear(tides_mod._stations_cached)
     weather_mod._CACHE.clear()

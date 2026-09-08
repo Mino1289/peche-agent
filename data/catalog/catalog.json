@@ -1,0 +1,631 @@
+{
+  "version": 1,
+  "harvested_at": "2026-08-29T14:14:02Z",
+  "basemaps": [
+    {
+      "id": "fond_quebec",
+      "title": "Fond Québec",
+      "group": "basemaps",
+      "source_type": "xyz",
+      "url": "https://carto.msp.gouv.qc.ca/tms/1.0.0/carte_gouv_qc_public@EPSG_3857/{z}/{x}/{-y}.png",
+      "layer_name": null,
+      "curated": true,
+      "legend_url": null,
+      "min_zoom": null,
+      "max_zoom": null,
+      "opacity": 1.0,
+      "visible_default": true,
+      "identify": false,
+      "attribution": "Gouvernement du Québec",
+      "queryable": false,
+      "color": null,
+      "extra": {
+        "source_id": "fond_quebec",
+        "proxy": false
+      }
+    },
+    {
+      "id": "imagerie_continue",
+      "title": "Imagerie aérienne du gouvernement du Québec",
+      "group": "basemaps",
+      "source_type": "xyz",
+      "url": "https://servicesmatriciels.mern.gouv.qc.ca/erdas-iws/ogc/wmts/Imagerie_Continue/Imagerie_GQ/default/GoogleMapsCompatibleExt2:epsg:3857/{z}/{y}/{x}.jpg",
+      "layer_name": null,
+      "curated": true,
+      "legend_url": null,
+      "min_zoom": null,
+      "max_zoom": null,
+      "opacity": 1.0,
+      "visible_default": false,
+      "identify": false,
+      "attribution": "Gouvernement du Québec",
+      "queryable": false,
+      "color": null,
+      "extra": {
+        "source_id": "imagerie_continue",
+        "proxy": false
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "reglementation",
+      "title": "Réglementation pêche",
+      "layers": [
+        {
+          "id": "zones_chasse",
+          "title": "Zones de pêche",
+          "group": "reglementation",
+          "source_type": "local",
+          "url": "data/spatial/zones_peche.geojson",
+          "layer_name": null,
+          "curated": true,
+          "filter_spec": {
+            "kind": "local",
+            "attr": "No_zone",
+            "options": [],
+            "multi": false
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 0.35,
+          "visible_default": true,
+          "identify": true,
+          "attribution": "MFFP SmartFaune / RegPec",
+          "queryable": true,
+          "color": "#14609d",
+          "extra": {}
+        },
+        {
+          "id": "plans_regpec",
+          "title": "Plans d'eau réglementés",
+          "group": "reglementation",
+          "source_type": "local",
+          "url": "data/locations",
+          "layer_name": null,
+          "curated": true,
+          "filter_spec": {
+            "kind": "local",
+            "attr": "zone_id",
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": 8,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": true,
+          "identify": true,
+          "attribution": "RegPec — Plans d'eau exceptions (carte interactive)",
+          "queryable": true,
+          "color": "#f59e0b",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "faune",
+      "title": "Faune",
+      "layers": [
+        {
+          "id": "tfs",
+          "title": "Territoires fauniques structurés (ZEC, pourvoiries…)",
+          "group": "faune",
+          "source_type": "wfs",
+          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows",
+          "layer_name": "SmartFaunePub:TFS",
+          "curated": true,
+          "filter_spec": {
+            "kind": "cql",
+            "attr": "TYPE",
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP SmartFaune",
+          "queryable": true,
+          "color": "#a855f7",
+          "extra": {}
+        },
+        {
+          "id": "chasse_interdite",
+          "title": "Chasse interdite",
+          "group": "faune",
+          "source_type": "wfs",
+          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows",
+          "layer_name": "SmartFaunePub:Chasse_Interdite",
+          "curated": true,
+          "filter_spec": {
+            "kind": "cql",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP SmartFaune",
+          "queryable": true,
+          "color": "#ef4444",
+          "extra": {}
+        },
+        {
+          "id": "habitat_legal",
+          "title": "Habitats fauniques légaux",
+          "group": "faune",
+          "source_type": "wfs",
+          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/Habitats_Fauniques_Pub/ows",
+          "layer_name": "Habitats_Fauniques_Pub:Habitat_legal",
+          "curated": true,
+          "filter_spec": {
+            "kind": "cql",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP",
+          "queryable": true,
+          "color": "#22c55e",
+          "extra": {}
+        },
+        {
+          "id": "habitat_info",
+          "title": "Habitats fauniques informationnels",
+          "group": "faune",
+          "source_type": "wfs",
+          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/Habitats_Fauniques_Pub/ows",
+          "layer_name": "Habitats_Fauniques_Pub:Habitat_informationnel",
+          "curated": true,
+          "filter_spec": {
+            "kind": "cql",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP",
+          "queryable": true,
+          "color": "#86efac",
+          "extra": {}
+        },
+        {
+          "id": "stations_lavage",
+          "title": "Stations de nettoyage d'embarcations",
+          "group": "faune",
+          "source_type": "wfs",
+          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/ForetOuvertePub/ows",
+          "layer_name": "ForetOuvertePub:stations_lavages_qc",
+          "curated": true,
+          "filter_spec": {
+            "kind": "cql",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP",
+          "queryable": true,
+          "color": "#06b6d4",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "hydro_temps_reel",
+      "title": "Hydro temps réel",
+      "layers": [
+        {
+          "id": "vigilance_stations",
+          "title": "Stations hydrométriques Vigilance",
+          "group": "hydro_temps_reel",
+          "source_type": "local",
+          "url": "data/hydromet/stations.json",
+          "layer_name": null,
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": true,
+          "identify": true,
+          "attribution": "MSP Vigilance",
+          "queryable": true,
+          "color": "#3b82f6",
+          "extra": {
+            "etat_colors": true
+          }
+        },
+        {
+          "id": "barrages_cehq",
+          "title": "Barrages CEHQ",
+          "group": "hydro_temps_reel",
+          "source_type": "local",
+          "url": "data/barrages/barrages.json",
+          "layer_name": null,
+          "curated": true,
+          "filter_spec": {
+            "kind": "local",
+            "attr": "categorie",
+            "options": [
+              {
+                "value": "Faible contenance",
+                "label": "Faible contenance"
+              },
+              {
+                "value": "Petit barrage",
+                "label": "Petit barrage"
+              },
+              {
+                "value": "Forte contenance",
+                "label": "Forte contenance"
+              },
+              {
+                "value": "Forte contenance (parent)",
+                "label": "Forte contenance (parent)"
+              },
+              {
+                "value": "Faible contenance (parent)",
+                "label": "Faible contenance (parent)"
+              },
+              {
+                "value": "Petit barrage (parent)",
+                "label": "Petit barrage (parent)"
+              }
+            ],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": 9,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "CEHQ",
+          "queryable": true,
+          "color": "#9a3412",
+          "extra": {
+            "geometry": "line"
+          }
+        },
+        {
+          "id": "marees_shc",
+          "title": "Stations marégraphiques SHC",
+          "group": "hydro_temps_reel",
+          "source_type": "local",
+          "url": "data/tides/stations.json",
+          "layer_name": null,
+          "curated": true,
+          "filter_spec": {
+            "kind": "local",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "SHC / IWLS",
+          "queryable": true,
+          "color": "#6366f1",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "hydrographie",
+      "title": "Hydrographie",
+      "layers": [
+        {
+          "id": "grhq_lin_perm",
+          "title": "GRHQ — réseau linéaire permanent",
+          "group": "hydrographie",
+          "source_type": "wms",
+          "url": "https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi",
+          "layer_name": "GRHQ_RES_LIN_PERM",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GRHQ_RES_LIN_PERM&format=image/png&STYLE=default",
+          "min_zoom": 8,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MELCCFP GRHQ",
+          "queryable": true,
+          "color": "#2563eb",
+          "extra": {
+            "proxy": true
+          }
+        },
+        {
+          "id": "grhq_surf",
+          "title": "GRHQ — surfaces d'eau",
+          "group": "hydrographie",
+          "source_type": "wms",
+          "url": "https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi",
+          "layer_name": "GRHQ_RES_SURF",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GRHQ_RES_SURF&format=image/png&STYLE=default",
+          "min_zoom": 8,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MELCCFP GRHQ",
+          "queryable": true,
+          "color": "#38bdf8",
+          "extra": {
+            "proxy": true
+          }
+        },
+        {
+          "id": "grhq_flow",
+          "title": "GRHQ — sens d'écoulement",
+          "group": "hydrographie",
+          "source_type": "wms",
+          "url": "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/GRHQ_WMS/MapServer/WMSServer",
+          "layer_name": "22",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/GRHQ_WMS/MapServer/WMSServer?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=22&format=image/png&STYLE=default",
+          "min_zoom": 12,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MRNF GRHQ",
+          "queryable": true,
+          "color": "#1d4ed8",
+          "extra": {
+            "proxy": true
+          }
+        },
+        {
+          "id": "hydrolidar_lits",
+          "title": "Lit d'écoulement potentiel LiDAR",
+          "group": "hydrographie",
+          "source_type": "wms",
+          "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi",
+          "layer_name": "hydrolidar_lits",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=hydrolidar_lits&format=image/png&STYLE=default",
+          "min_zoom": 12,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP LiDAR",
+          "queryable": true,
+          "color": "#7c3aed",
+          "extra": {
+            "proxy": true
+          }
+        },
+        {
+          "id": "milieux_humides",
+          "title": "Milieux humides potentiels",
+          "group": "hydrographie",
+          "source_type": "wms",
+          "url": "https://geo.environnement.gouv.qc.ca/donnees/services/Biodiversite/MH_potentiels/MapServer/WMSServer",
+          "layer_name": "Milieux_humides_potentiels11904",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geo.environnement.gouv.qc.ca/donnees/services/Biodiversite/MH_potentiels/MapServer/WMSServer?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=Milieux_humides_potentiels11904&format=image/png&STYLE=default",
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MELCCFP",
+          "queryable": true,
+          "color": "#14b8a6",
+          "extra": {
+            "proxy": true
+          }
+        },
+        {
+          "id": "bassins_wms",
+          "title": "Bassins hydrographiques",
+          "group": "hydrographie",
+          "source_type": "wms",
+          "url": "https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/services/Public/Themes_publics/MapServer/WMSServer",
+          "layer_name": "Bassins_hydro._20k_et_50k_niveau_162427,Bassins_hydro._20k_et_50k_niveau_219040,Bassins_hydro._20k_et_50k_niveau_311657,Bassins_hydro._20k_et_50k_niveau_440278,Bassins_hydro._20k_et_50k_niveau_532895,Bassins_hydro._20k_et_50k_niveau_655044,Bassins_hydro._20k_et_50k_niveau_747661,Bassins_hydro._20k_et_50k_niveau_810746",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/services/Public/Themes_publics/MapServer/WMSServer?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=Bassins_hydro._20k_et_50k_niveau_162427&format=image/png&STYLE=default",
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MELCCFP",
+          "queryable": true,
+          "color": "#94a3b8",
+          "extra": {
+            "proxy": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "lidar",
+      "title": "LiDAR",
+      "layers": [
+        {
+          "id": "lidar_pentes",
+          "title": "Pente LiDAR (dégradé continu)",
+          "group": "lidar",
+          "source_type": "wms",
+          "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi",
+          "layer_name": "lidar_pentes",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=lidar_pentes&format=image/png&STYLE=default",
+          "min_zoom": 11,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP LiDAR",
+          "queryable": true,
+          "color": "#fb923c",
+          "extra": {
+            "proxy": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "territoire",
+      "title": "Territoire",
+      "layers": [
+        {
+          "id": "aq_reseau",
+          "title": "Réseau routier (AQréseau+)",
+          "group": "territoire",
+          "source_type": "wms",
+          "url": "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/AQreseauPlus_WMS/MapServer/WMSServer",
+          "layer_name": "56,57,58,59,48,49,50,51,41,42,43,33,34,35,36,21,22,23,17,18",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/AQreseauPlus_WMS/MapServer/WMSServer?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=56&format=image/png&STYLE=default",
+          "min_zoom": 8,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MRNF Adresses Québec",
+          "queryable": true,
+          "color": "#64748b",
+          "extra": {
+            "proxy": true
+          }
+        },
+        {
+          "id": "aq_forestier",
+          "title": "Chemins forestiers / multiusages",
+          "group": "territoire",
+          "source_type": "wms",
+          "url": "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/AQreseauPlus_WMS/MapServer/WMSServer",
+          "layer_name": "27,28,86,85,74,75,71,72,77,78",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/AQreseauPlus_WMS/MapServer/WMSServer?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=86&format=image/png&STYLE=default",
+          "min_zoom": 9,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MRNF Adresses Québec",
+          "queryable": true,
+          "color": "#a16207",
+          "extra": {
+            "proxy": true
+          }
+        }
+      ]
+    }
+  ],
+  "curated_ids": [
+    "zones_chasse",
+    "plans_regpec",
+    "tfs",
+    "chasse_interdite",
+    "habitat_legal",
+    "habitat_info",
+    "stations_lavage",
+    "vigilance_stations",
+    "barrages_cehq",
+    "marees_shc",
+    "grhq_lin_perm",
+    "grhq_surf",
+    "grhq_flow",
+    "hydrolidar_lits",
+    "milieux_humides",
+    "bassins_wms",
+    "lidar_pentes",
+    "aq_reseau",
+    "aq_forestier"
+  ]
+}

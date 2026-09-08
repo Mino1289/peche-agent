@@ -345,7 +345,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 6.83,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -563,16 +563,6 @@
           "match_reason": "geo"
         },
         {
-          "id": "054001",
-          "plan_eau": "Rivière Beauport",
-          "description": "À 100 mètres en aval de la chute du Parc des Cascades, secteur Beauport à Québec",
-          "lat": 46.865,
-          "lon": -71.207222,
-          "distance_km": 15.29,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
           "id": "396",
           "plan_eau": "Ruisseau Rouge                                                                                                                                                                                                                                                ",
           "description": "À l'embouchure, près de la rue Saint-Laurent, à Lévis",
@@ -589,6 +579,16 @@
           "lat": 46.691,
           "lon": -71.068,
           "distance_km": 16.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "023106",
+          "plan_eau": "Rivière du Sud",
+          "description": "À 1,0 km en amont du pont-route Rang du Sault à Saint-Raphaël",
+          "lat": 46.82,
+          "lon": -70.756,
+          "distance_km": 19.52,
           "role": "both",
           "match_reason": "geo"
         }

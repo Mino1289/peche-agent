@@ -28,7 +28,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 3.64,
-          "role": "both",
+          "role": "level",
           "match_reason": "name"
         }
       ],
@@ -73,7 +73,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 3.64,
-          "role": "both",
+          "role": "level",
           "match_reason": "name"
         }
       ],
@@ -238,7 +238,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 19.54,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -311,7 +311,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 15.56,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -321,7 +321,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 20.53,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -393,7 +393,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 13.7,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -403,7 +403,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 17.98,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -641,7 +641,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 20.66,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -951,7 +951,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 17.0,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1352,7 +1352,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 24.94,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1397,7 +1397,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 15.19,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -1417,7 +1417,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 24.58,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1774,7 +1774,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 22.3,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1801,7 +1801,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 22.02,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1828,7 +1828,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 23.29,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -2283,7 +2283,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 23.56,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -2526,7 +2526,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 9.27,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -2536,7 +2536,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 9.88,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         },
         {

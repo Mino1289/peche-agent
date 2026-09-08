@@ -29,6 +29,7 @@ from peche.reglements.sync import DATA_DIR
 
 IWLS_BASE = "https://api-iwls.dfo-mpo.gc.ca"
 TIDE_SERIES_CODE = "wlp-hilo"
+WLP_SERIES_CODE = "wlp"
 WLO_SERIES_CODE = "wlo"
 DEFAULT_REGION = "QUE"
 DEFAULT_DAYS = 7
@@ -303,6 +304,48 @@ def get_water_level_live(
     }
 
 
+def _downsample_curve(
+    points: list[dict],
+    *,
+    step_minutes: int = 15,
+) -> list[dict[str, float]]:
+    """Réduit une série wlp pour le graphique (pas ~15 min)."""
+    if not points:
+        return []
+    out: list[dict[str, float]] = []
+    last_t: float | None = None
+    step_s = step_minutes * 60
+    for pt in sorted(points, key=lambda p: p.get("eventDate", "")):
+        val = pt.get("value")
+        iso = pt.get("eventDate", "")
+        if val is None or not iso:
+            continue
+        try:
+            t = _parse_utc(iso).timestamp()
+            v = float(val)
+        except (TypeError, ValueError):
+            continue
+        if last_t is not None and t - last_t < step_s:
+            continue
+        out.append({"t": t, "value": round(v, 3)})
+        last_t = t
+    return out
+
+
+def _fetch_wlp_curve(
+    station_id: str,
+    start: datetime,
+    end: datetime,
+    timeout: float = DEFAULT_TIMEOUT,
+) -> list[dict[str, float]]:
+    """Courbe de prédiction continue (série IWLS ``wlp``)."""
+    try:
+        raw = _fetch_series_raw(station_id, WLP_SERIES_CODE, start, end, timeout)
+    except (json.JSONDecodeError, OSError, ValueError):
+        return []
+    return _downsample_curve(raw)
+
+
 def get_tide_predictions(
     station_code: str,
     *,
@@ -435,6 +478,8 @@ def get_tide_predictions(
         )
     table_markdown = "\n".join(table_markdown_lines)
 
+    curve = _fetch_wlp_curve(station["station_id"], start_utc, end_utc, timeout=timeout)
+
     return {
         "station_code": code,
         "station_nom": station.get("nom"),
@@ -460,6 +505,7 @@ def get_tide_predictions(
             "markdown": table_markdown,
         },
         "nb_extremes": len(classified),
+        "curve": curve,
         "unite": "m (zéro des cartes)",
         "source": "IWLS / SHC (api-iwls.dfo-mpo.gc.ca)",
         "urls": {"marees_gc_ca": _station_url(code)},

@@ -191,13 +191,61 @@ Règles strictes :
       généraux saisonniers) et invite à préciser le plan d'eau pour affiner.
 
 13. **Style.** Français du Québec, concis. Pas d'emojis sauf demande explicite.
+
+14. **Carte interactive.** L'état courant de la carte (couches visibles, filtres,
+    zone clip, centre/zoom) est injecté ci-dessous quand disponible.
+    - Pour **piloter la carte** : `set_map_view`, `toggle_layers`,
+      `set_layer_filter`, `filter_by_zone`, `highlight_features`.
+    - Couches curées utiles : `zones_chasse`, `vigilance_stations`,
+      `barrages_cehq`, `marees_shc`, `plans_regpec`, `lidar_pentes`,
+      `grhq_surf`, `grhq_flow`, `hydrolidar_lits`, `aq_reseau`.
+    - Filtre zone : `filter_by_zone(zone_id=…)` clippe toutes les couches.
+      Le numéro affiché (28) n'est pas l'id RegPec (32).
+    - L'utilisateur peut poser des **points** sur la carte (`MapState.pins` :
+      lon, lat, label, `n` = numéro affiché Point 1, Point 2…). S'en servir
+      comme lieux de référence. Pour la réglementation ou le contexte d'un
+      point, appeler `get_point_info(pin_number=…)` avant `get_reglements`.
+    - Ne pas appeler à la fois `get_hydromet` et `get_hydromet_for_waterbody`
+      pour le même cours d'eau : préférer `get_hydromet_for_waterbody` si un
+      plan RegPec existe, sinon `search_stations` + `get_hydromet`.
 """
 
 
-def build_system_prompt(today: date | None = None) -> str:
+def build_system_prompt(
+    today: date | None = None,
+    map_state: dict | None = None,
+    locale: str | None = None,
+) -> str:
     today = today or _today()
     base = _BASE.format(today_fr=_format_fr_date(today), today_iso=today.isoformat())
-    return base + "\n\n" + TOON_PROMPT_HINT
+    parts = [base, TOON_PROMPT_HINT]
+    if (locale or "fr").lower().startswith("en"):
+        parts.append(
+            "Respond to the user in **English**. Official Quebec fishing data "
+            "(species names, regulations) may remain in French — translate or "
+            "explain when helpful."
+        )
+    if map_state:
+        try:
+            from peche.encoding import to_toon
+
+            state = dict(map_state)
+            pins = state.get("pins")
+            if isinstance(pins, list):
+                state["pins"] = [
+                    {**p, "pin_number": p.get("n") or i + 1}
+                    for i, p in enumerate(pins)
+                    if isinstance(p, dict)
+                ]
+            encoded = to_toon(state)
+        except Exception:  # noqa: BLE001
+            import json
+
+            encoded = json.dumps(map_state, ensure_ascii=False, default=str)
+        parts.append(
+            "État courant de la carte (MapState) :\n```\n" + str(encoded) + "\n```"
+        )
+    return "\n\n".join(parts)
 
 
 # Compat avec d'éventuels imports `SYSTEM_PROMPT`.

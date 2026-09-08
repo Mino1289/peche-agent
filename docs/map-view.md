@@ -1,58 +1,77 @@
-# Carte interactive — peche-agent
+# Carte interactive — peche-agent v1 (map-first)
 
 ## Objectif
 
-Visualiser sur une carte :
+La **carte OpenLayers** est l'élément principal. Le chat Gemini et l'historique
+servent à piloter et contextualiser la visualisation.
 
-- Stations hydrométriques Vigilance (niveau / débit)
-- Barrages CEHQ (répertoire officiel, ~6000 points)
-- Stations marées SHC
-- Plan d'eau RegPec sélectionné (contexte chat)
-- Météo locale au point
+## Architecture
 
-## v1 — implémenté
+```
+Browser (web/)  →  FastAPI (peche/api)  →  domain Python + OGC publics
+```
 
-Module [`peche/map_view.py`](../peche/map_view.py) + onglet **Carte** dans l'UI Streamlit (pleine page, 720 px).
+- SPA : Vite + TypeScript + OpenLayers (`web/`)
+- API : `/api/catalog`, `/api/ogc`, `/api/features`, `/api/zones`, `/api/chat` (SSE),
+  `/api/hydromet`, `/api/tides`, `/api/conversations`, `/api/health`
+- Agent unique Gemini (`gemini-3.5-flash-lite`, fallback `gemini-3.1-flash-lite`)
+  avec outils métier + outils carte (`set_map_view`, `toggle_layers`, …)
 
-Couches v1 :
+## Couches
 
-| Couche | Source | Statut |
-|--------|--------|--------|
-| Stations hydro (toutes) | `data/hydromet/stations.json` | OK |
-| Barrages CEHQ | `data/barrages/barrages.json` (~6000) | OK — `MarkerCluster` + points rouges |
-| Marées SHC | `data/tides/stations.json` (IWLS) | OK |
-| Pin plan d'eau | coords RegPec (`data/locations/`) | OK |
-| Météo (popup) | outil météo chat ou `get_weather` | OK |
-| Lacs / rivières LCE | `data/spatial/lce/` | OK — viewport zoom ≥ 10 |
-| Bassins hydrographiques | `data/spatial/bassins/` | OK — niveau selon zoom |
-| Lien RegPec ↔ LCE | `data/spatial/regpec_lce_matches.json` | OK — match + segments DMS |
-| Règlements (popup pin) | `get_reglements` | OK — espèces en vigueur |
+Catalogue hybride :
 
-### Sync avec le chat
+1. **Curated (~30)** — fishing-first avec filtres (`peche/catalog/curated.py`)
+2. **Harvested** — GetCapabilities des services Forêt ouverte / Atlas de l'eau /
+   SmartFaune (`python3 -m peche.catalog harvest`)
 
-L'onglet Carte lit `st.session_state.messages` via `map_context_from_messages()` :
+Basemaps : Fond Québec (XYZ) + Imagerie Continue (WMTS).
 
-1. Outils plan (`get_weather_at_plan`, `get_hydromet_for_waterbody`, `get_barrages_at_plan`, etc.) → pin RegPec
-2. Sinon `search_plans` → premier candidat
-3. Sinon lieu libre (`get_weather_at_place`, etc.) → centrage sans pin
-4. Météo : réutilise le dernier résultat météo du chat, ou appelle `get_weather` sur le pin (cache 15 min)
+### Filtres
 
-Priorité : outil le plus récent en premier (parcours inverse des messages).
+| Mécanisme | Couches |
+|-----------|---------|
+| `cql` | GeoServer faune (TFS, zones chasse, habitats…) |
+| `arcgis` | Atlas de l'eau (Guide poisson, IQBP…) |
+| `local` | Vigilance, barrages, marées, plans RegPec |
+| `colorkey` | `pente_cpl` — 6 classes A–F côté client |
+| clip zone | **toutes** les couches via polygone RegPec |
 
-## Limitations — règlements sur carte
+### Zones de pêche
 
-Les règlements RegPec sont des **segments textuels** avec coordonnées ponctuelles (DMS dans le libellé), pas des polygones GeoJSON.
+Polygones issus de `SmartFaunePub:Zone_chasse_da3_sefaq`, mappés aux 34 ids
+RegPec : `python3 -m peche.spatial zones-peche` → `data/spatial/zones_peche.geojson`.
 
-| Approche | Faisabilité |
-|----------|-------------|
-| Marqueurs par segment (point DMS) | Réaliste — v2 |
-| Contours des 34 zones | Données MFFP à sourcer |
-| Tracé de rivière (ligne) | OSM / NHN — gros chantier |
+## MapState
 
-Recommandation : carte v1 = stations + barrages + pin du plan recherché ; pas de découpage réglementaire vectoriel.
+```ts
+type MapState = {
+  center: [lon, lat]; zoom; bbox;
+  basemap; layers: [{id, visible, opacity, filters?}];
+  zoneFilter?: { zoneId };
+  pins?: [{ id, lon, lat, label? }];
+};
+```
 
-## Évolutions possibles
+- Chat → agent : `map_state` dans `POST /api/chat`, injecté au prompt (TOON)
+- Agent → carte : événements SSE `map_action`
+- Historique : `messages.map_state_json` ; clic message = rewind carte
+- UI : onglets Carte | Assistant ; points utilisateur dans `pins`
 
-- Couleur des stations selon `etat` Vigilance.
-- Export GPX des stations proches d'un plan.
-- Agent MCP `get_map_context` (voir [multi-agent](multi-agent.md)).
+## Lancer
+
+```bash
+# API + SPA (après npm run build dans web/)
+.venv/bin/python -m peche.api   # http://127.0.0.1:8000
+
+# Dev front
+cd web && npm run dev           # proxy /api → :8000
+```
+
+## Données réutilisées (pas de re-téléchargement massif)
+
+Conservées : `data/zones/`, `locations/`, `barrages/`, `hydromet/`, `tides/`,
+`iqbp/`, `spatial/lce/`, `spatial/bassins/`, `regpec_lce_matches.json`.
+
+LCE/bassins restent l'index offline de l'agent ; le rendu carte passe par les
+WMS GRHQ / Bassins.

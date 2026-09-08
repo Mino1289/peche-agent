@@ -323,16 +323,6 @@
           "match_reason": "geo"
         },
         {
-          "id": "054001",
-          "plan_eau": "Rivière Beauport",
-          "description": "À 100 mètres en aval de la chute du Parc des Cascades, secteur Beauport à Québec",
-          "lat": 46.865,
-          "lon": -71.207222,
-          "distance_km": 5.1,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
           "id": "050918",
           "plan_eau": "Rivière du Berger",
           "description": "Près de la rue Dion à Duberger",
@@ -380,6 +370,16 @@
           "lon": -71.321815,
           "distance_km": 14.06,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "03110",
+          "plan_eau": "Fleuve Saint-Laurent",
+          "description": "Fleuve Saint, à Saint-Laurent, Île d'Orléans",
+          "lat": 46.858167,
+          "lon": -71.003333,
+          "distance_km": 16.0,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -796,7 +796,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 9.86,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -949,7 +949,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 5.72,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -1301,7 +1301,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 29.3,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1439,7 +1439,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 0.69,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1466,7 +1466,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 0.69,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1493,7 +1493,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 0.53,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1520,7 +1520,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 1.49,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1547,7 +1547,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 1.49,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1574,7 +1574,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 12.62,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1601,7 +1601,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 29.38,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1719,7 +1719,7 @@
           "lat": 47.694,
           "lon": -70.218,
           "distance_km": 3.09,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
