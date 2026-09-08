@@ -11,7 +11,6 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 *.egg-info/
-dist/
 build/
 
 # Git / IDE
@@ -21,8 +20,15 @@ build/
 .vscode/
 .idea/
 
-# Données volumineuses (montées en volume au runtime)
+# Données volumineuses / runtime (montées en volume au runtime)
 data/cache/
+data/conversations.db
+data/runtime/
+tests/
+
+# Front (rebuild dans le stage Node)
+web/node_modules/
+web/dist/
 
 # Docs / divers
 *.md

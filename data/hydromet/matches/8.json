@@ -33,6 +33,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "030432",
+          "plan_eau": "Ruisseau Massé",
+          "description": "Au secteur Carignan sur le Golf",
+          "lat": 45.509113,
+          "lon": -73.32447,
+          "distance_km": 7.49,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "030415",
           "plan_eau": "Rivière des Hurons",
           "description": "Au pont-route du chemin de la rivière des Hurons Ouest",
@@ -80,16 +90,6 @@
           "lon": -73.473136,
           "distance_km": 18.2,
           "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "15520",
-          "plan_eau": "Fleuve Saint-Laurent",
-          "description": "À la jetée 1 du port de Montréal",
-          "lat": 45.5035,
-          "lon": -73.5525,
-          "distance_km": 21.85,
-          "role": "level",
           "match_reason": "geo"
         }
       ],

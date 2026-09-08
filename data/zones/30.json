@@ -4,7 +4,7 @@
     "zone_nom": "Zone 26",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-06-11T04:06:54+00:00",
+    "fetched_at": "2026-08-29T13:55:26+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30",
     "nb_endroits_total": 56,
     "nb_endroits_avec_id": 56
@@ -3888,13 +3888,6 @@
             {
               "periode": "Période Du 1 er mai 2026 au 15 septembre 2026",
               "especes": [
-                {
-                  "espece": "Doré jaune et doré noir",
-                  "limite_prise": "6 en tout",
-                  "limite_longueur": "",
-                  "engin": "Pêche à la ligne seulement",
-                  "note": ""
-                },
                 {
                   "espece": "Ombles (omble de fontaine, omble chevalier)",
                   "limite_prise": "7 en tout dont au plus 2 ombles chevaliers",

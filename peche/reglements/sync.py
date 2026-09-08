@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import time
 from datetime import UTC, datetime
 from pathlib import Path
@@ -24,7 +25,7 @@ BASE_URL = "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements"
 PARTIAL_GRID_URL = (
     "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/PartialGrilleReglementsPlanEau"
 )
-DATA_DIR = Path("data")
+DATA_DIR = Path(os.environ.get("DATA_DIR", "data"))
 ZONES_DIR = DATA_DIR / "zones"
 CACHE_DIR = DATA_DIR / "cache"
 INDEX_PATH = DATA_DIR / "index.json"

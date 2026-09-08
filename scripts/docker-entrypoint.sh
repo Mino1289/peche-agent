@@ -1,10 +1,7 @@
 #!/bin/sh
 set -e
 
-if [ "${MCP_ENABLED:-1}" = "1" ]; then
-  python -m peche.mcp --transport http \
-    --host "${PECHE_MCP_HOST:-0.0.0.0}" \
-    --port "${PECHE_MCP_PORT:-8001}" &
-fi
+cd /app
+export DATA_DIR="${DATA_DIR:-/app/data}"
 
-exec python -m peche.ui
+exec python -m peche.api

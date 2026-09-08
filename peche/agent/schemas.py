@@ -465,8 +465,118 @@ TOOL_SCHEMAS: list[dict] = [
             "required": ["species"],
         },
     },
+    {
+        "name": "set_map_view",
+        "description": (
+            "Centre / zoom / bbox de la carte interactive. "
+            "center = [lon, lat], bbox = [lon_min, lat_min, lon_max, lat_max]."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "center": {
+                    "type": "array",
+                    "items": {"type": "number"},
+                    "description": "[lon, lat]",
+                },
+                "zoom": {"type": "number"},
+                "bbox": {
+                    "type": "array",
+                    "items": {"type": "number"},
+                    "description": "[lon_min, lat_min, lon_max, lat_max]",
+                },
+            },
+            "required": [],
+        },
+    },
+    {
+        "name": "toggle_layers",
+        "description": (
+            "Affiche (show) ou masque (hide) des couches par id catalogue "
+            "(ex. lidar_pentes, vigilance_stations, zones_chasse, aq_reseau). "
+            "opacity optionnel : {layer_id: 0..1}."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "show": {"type": "array", "items": {"type": "string"}},
+                "hide": {"type": "array", "items": {"type": "string"}},
+                "opacity": {"type": "object"},
+            },
+            "required": [],
+        },
+    },
+    {
+        "name": "set_layer_filter",
+        "description": (
+            "Filtre une couche. Ex. zones_chasse → filters={No_zone:'18'}; "
+            "barrages_cehq → filters={categorie:['Petit barrage']}."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "layer_id": {"type": "string"},
+                "filters": {"type": "object"},
+            },
+            "required": ["layer_id"],
+        },
+    },
+    {
+        "name": "filter_by_zone",
+        "description": (
+            "Clippe toutes les couches visibles à une zone de pêche RegPec "
+            "(zone_id). clear=true pour retirer le filtre."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "zone_id": {"type": "integer"},
+                "clear": {"type": "boolean"},
+            },
+            "required": [],
+        },
+    },
+    {
+        "name": "highlight_features",
+        "description": "Surligne des features sur la carte (ids ou geojson).",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "layer_id": {"type": "string"},
+                "feature_ids": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                },
+                "geojson": {"type": "object"},
+            },
+            "required": ["layer_id"],
+        },
+    },
+    {
+        "name": "get_point_info",
+        "description": (
+            "Contexte d'un point utilisateur sur la carte : zone de pêche, "
+            "exception RegPec, lac/rivière (GRHQ), territoire faunique (TFS), "
+            "chasse interdite. Utiliser pin_number (Point 1, Point 2…) depuis "
+            "MapState.pins, ou lon+lat."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "pin_number": {
+                    "type": "integer",
+                    "description": "Numéro du point (1, 2, 3…)",
+                },
+                "lon": {"type": "number"},
+                "lat": {"type": "number"},
+            },
+            "required": [],
+        },
+    },
 ]
 
+
+from peche.agent import map_tools as _map_tools
 
 TOOLS = {
     "list_zones": lambda **_: tools.list_zones(),
@@ -490,4 +600,10 @@ TOOLS = {
     "get_barrages_at_place": lambda **kw: tools.get_barrages_at_place(**kw),
     "get_fishing_advice": lambda **kw: tools.get_fishing_advice(**kw),
     "get_map_context": lambda **kw: tools.get_map_context(**kw),
+    "set_map_view": lambda **kw: _map_tools.set_map_view(**kw),
+    "toggle_layers": lambda **kw: _map_tools.toggle_layers(**kw),
+    "set_layer_filter": lambda **kw: _map_tools.set_layer_filter(**kw),
+    "filter_by_zone": lambda **kw: _map_tools.filter_by_zone(**kw),
+    "highlight_features": lambda **kw: _map_tools.highlight_features(**kw),
+    "get_point_info": lambda **kw: _map_tools.get_point_info(**kw),
 }

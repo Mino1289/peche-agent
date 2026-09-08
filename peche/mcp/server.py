@@ -2,7 +2,8 @@
 
 Lancement :
     python3 -m peche.mcp                    # stdio (Cursor local)
-    python3 -m peche.mcp --transport http   # HTTP streamable (Docker, port 8001)
+    python3 -m peche.mcp --transport http   # HTTP streamable (standalone)
+    MCP_ENABLED=1 via FastAPI                 # http://host:8000/mcp
 """
 
 from __future__ import annotations
@@ -72,7 +73,7 @@ async def handle_call_tool(
 def _init_options() -> InitializationOptions:
     return InitializationOptions(
         server_name="peche-agent",
-        server_version="1.0.0",
+        server_version="0.0.0",
         capabilities=server.get_capabilities(
             notification_options=NotificationOptions(),
             experimental_capabilities={},
@@ -88,9 +89,15 @@ class _StreamableHTTPASGIApp:
         await self._session_manager.handle_request(scope, receive, send)
 
 
-def create_http_app(*, path: str = "/mcp", stateless: bool = True) -> Starlette:
+def create_mcp_http_stack(*, stateless: bool = True):
+    """Retourne (asgi_app, session_manager) pour montage sur FastAPI ou Starlette."""
     session_manager = StreamableHTTPSessionManager(app=server, stateless=stateless)
     asgi = _StreamableHTTPASGIApp(session_manager)
+    return asgi, session_manager
+
+
+def create_http_app(*, path: str = "/mcp", stateless: bool = True) -> Starlette:
+    asgi, session_manager = create_mcp_http_stack(stateless=stateless)
 
     @asynccontextmanager
     async def lifespan(_app: Starlette):

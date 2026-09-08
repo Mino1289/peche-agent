@@ -4,7 +4,7 @@
     "zone_nom": "Zone 13 ouest",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-06-11T03:56:13+00:00",
+    "fetched_at": "2026-08-29T13:43:27+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=14",
     "nb_endroits_total": 78,
     "nb_endroits_avec_id": 78
@@ -2165,11 +2165,23 @@
           "segment": "( 47°53'44\" N., 78°10'21\" O. )",
           "periodes": [
             {
-              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "periode": "Période Du 7 août 2026 au 9 août 2026",
               "especes": [
                 {
-                  "espece": "Toutes les espèces",
-                  "limite_prise": "Pêche interdite",
+                  "espece": "Ombles (omble de fontaine, omble chevalier) et Truites (brune, fardée et arc-en-ciel)",
+                  "limite_prise": "3 en tout",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 7 août 2026 au 9 août 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
                   "limite_longueur": "",
                   "engin": "",
                   "note": ""

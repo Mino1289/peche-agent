@@ -1,4 +1,4 @@
-"""Stockage SQLite des conversations Streamlit / API."""
+"""Stockage SQLite des conversations + états de carte + favoris."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from google.genai import types
 
 from peche.reglements.sync import DATA_DIR
 
-DB_PATH = DATA_DIR / "conversations.db"
+DB_PATH = DATA_DIR / "runtime" / "conversations.db"
 
 _BYTES_MARKER = "__bytes_b64__"
 
@@ -42,7 +42,7 @@ def _title_from_text(text: str, max_len: int = 60) -> str:
 
 
 class ConversationStore:
-    """Accès SQLite aux conversations et à l'historique Gemini."""
+    """Accès SQLite aux conversations, historique Gemini et presets carte."""
 
     def __init__(self, db_path: Path = DB_PATH) -> None:
         self.db_path = db_path
@@ -70,6 +70,7 @@ class ConversationStore:
                     role TEXT NOT NULL,
                     text TEXT NOT NULL,
                     tools_json TEXT,
+                    map_state_json TEXT,
                     created_at TEXT NOT NULL,
                     FOREIGN KEY (conversation_id) REFERENCES conversations(id)
                 );
@@ -78,10 +79,24 @@ class ConversationStore:
                     payload_json TEXT NOT NULL,
                     FOREIGN KEY (conversation_id) REFERENCES conversations(id)
                 );
+                CREATE TABLE IF NOT EXISTS map_presets (
+                    id TEXT PRIMARY KEY,
+                    name TEXT NOT NULL,
+                    state_json TEXT NOT NULL,
+                    created_at TEXT NOT NULL,
+                    updated_at TEXT NOT NULL
+                );
                 CREATE INDEX IF NOT EXISTS idx_messages_conv
                     ON messages(conversation_id, id);
                 """
             )
+            # Migration douce : ajouter map_state_json si absente
+            cols = {
+                r[1]
+                for r in conn.execute("PRAGMA table_info(messages)").fetchall()
+            }
+            if "map_state_json" not in cols:
+                conn.execute("ALTER TABLE messages ADD COLUMN map_state_json TEXT")
 
     def create_conversation(self, title: str | None = None) -> str:
         cid = uuid.uuid4().hex
@@ -149,7 +164,7 @@ class ConversationStore:
         with self._connect() as conn:
             rows = conn.execute(
                 """
-                SELECT role, text, tools_json, created_at
+                SELECT role, text, tools_json, map_state_json, created_at
                 FROM messages
                 WHERE conversation_id = ?
                 ORDER BY id
@@ -161,6 +176,8 @@ class ConversationStore:
             msg: dict = {"role": r["role"], "text": r["text"]}
             if r["tools_json"]:
                 msg["tools"] = json.loads(r["tools_json"])
+            if r["map_state_json"]:
+                msg["map_state"] = json.loads(r["map_state_json"])
             out.append(msg)
         return out
 
@@ -208,9 +225,21 @@ class ConversationStore:
         user_text: str,
         assistant_text: str,
         tools_log: list[dict] | None = None,
+        map_state: dict | None = None,
+        user_map_state: dict | None = None,
     ) -> None:
         now = _utc_now()
-        tools_json = json.dumps(tools_log, ensure_ascii=False, default=str) if tools_log else None
+        tools_json = (
+            json.dumps(tools_log, ensure_ascii=False, default=str) if tools_log else None
+        )
+        map_json = (
+            json.dumps(map_state, ensure_ascii=False, default=str) if map_state else None
+        )
+        user_map_json = (
+            json.dumps(user_map_state, ensure_ascii=False, default=str)
+            if user_map_state
+            else None
+        )
         with self._connect() as conn:
             conv = conn.execute(
                 "SELECT title FROM conversations WHERE id = ?", (conversation_id,)
@@ -221,12 +250,20 @@ class ConversationStore:
                     (_title_from_text(user_text), now, conversation_id),
                 )
             conn.execute(
-                "INSERT INTO messages (conversation_id, role, text, tools_json, created_at) VALUES (?, ?, ?, ?, ?)",
-                (conversation_id, "user", user_text, None, now),
+                """
+                INSERT INTO messages
+                  (conversation_id, role, text, tools_json, map_state_json, created_at)
+                VALUES (?, ?, ?, ?, ?, ?)
+                """,
+                (conversation_id, "user", user_text, None, user_map_json, now),
             )
             conn.execute(
-                "INSERT INTO messages (conversation_id, role, text, tools_json, created_at) VALUES (?, ?, ?, ?, ?)",
-                (conversation_id, "assistant", assistant_text, tools_json, now),
+                """
+                INSERT INTO messages
+                  (conversation_id, role, text, tools_json, map_state_json, created_at)
+                VALUES (?, ?, ?, ?, ?, ?)
+                """,
+                (conversation_id, "assistant", assistant_text, tools_json, map_json, now),
             )
             conn.execute(
                 "UPDATE conversations SET updated_at = ? WHERE id = ?",
@@ -239,3 +276,73 @@ class ConversationStore:
                 "UPDATE conversations SET updated_at = ? WHERE id = ?",
                 (_utc_now(), conversation_id),
             )
+
+    # --- Favoris carte ---
+
+    def list_map_presets(self) -> list[dict]:
+        with self._connect() as conn:
+            rows = conn.execute(
+                """
+                SELECT id, name, state_json, created_at, updated_at
+                FROM map_presets
+                ORDER BY updated_at DESC
+                """
+            ).fetchall()
+        out = []
+        for r in rows:
+            out.append(
+                {
+                    "id": r["id"],
+                    "name": r["name"],
+                    "state": json.loads(r["state_json"]),
+                    "created_at": r["created_at"],
+                    "updated_at": r["updated_at"],
+                }
+            )
+        return out
+
+    def save_map_preset(
+        self, name: str, state: dict, preset_id: str | None = None
+    ) -> dict:
+        now = _utc_now()
+        pid = preset_id or uuid.uuid4().hex
+        state_json = json.dumps(state, ensure_ascii=False, default=str)
+        with self._connect() as conn:
+            existing = conn.execute(
+                "SELECT id FROM map_presets WHERE id = ?", (pid,)
+            ).fetchone()
+            if existing:
+                conn.execute(
+                    "UPDATE map_presets SET name = ?, state_json = ?, updated_at = ? WHERE id = ?",
+                    (name.strip() or "Carte", state_json, now, pid),
+                )
+            else:
+                conn.execute(
+                    """
+                    INSERT INTO map_presets (id, name, state_json, created_at, updated_at)
+                    VALUES (?, ?, ?, ?, ?)
+                    """,
+                    (pid, name.strip() or "Carte", state_json, now, now),
+                )
+        return {"id": pid, "name": name.strip() or "Carte", "state": state}
+
+    def delete_map_preset(self, preset_id: str) -> bool:
+        with self._connect() as conn:
+            cur = conn.execute("DELETE FROM map_presets WHERE id = ?", (preset_id,))
+            return cur.rowcount > 0
+
+    def get_map_preset(self, preset_id: str) -> dict | None:
+        with self._connect() as conn:
+            row = conn.execute(
+                "SELECT id, name, state_json, created_at, updated_at FROM map_presets WHERE id = ?",
+                (preset_id,),
+            ).fetchone()
+        if not row:
+            return None
+        return {
+            "id": row["id"],
+            "name": row["name"],
+            "state": json.loads(row["state_json"]),
+            "created_at": row["created_at"],
+            "updated_at": row["updated_at"],
+        }

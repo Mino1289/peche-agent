@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Régénère les données dérivées (locations, index, hydro, matches).
+# Régénère les données dérivées (locations, index, hydro, matches, catalogue, zones).
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -32,6 +32,15 @@ echo "==> Sync bassins hydrographiques…"
 
 echo "==> Liens RegPec ↔ LCE…"
 "$PYTHON" -m peche.spatial link
+
+echo "==> Sync polygones zones de pêche…"
+"$PYTHON" -m peche.spatial zones-peche
+
+echo "==> Harvest plans RegPec offline (optionnel, réseau)…"
+"$PYTHON" -m peche.spatial plans-regpec || echo "    (plans-regpec ignoré si réseau indisponible)"
+
+echo "==> Récolte catalogue de couches…"
+"$PYTHON" -m peche.catalog harvest
 
 echo "==> Terminé."
 echo "    (Les zones RegPec dans data/zones/ sont conservées ;"

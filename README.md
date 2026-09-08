@@ -1,149 +1,121 @@
 # peche-agent
 
-Agent conversationnel pour la pêche au Québec : règlements officiels (offline) +
-météo, hydrométrie et marées en direct, exposé via Streamlit, API SSE et MCP.
+Interactive map and conversational assistant for sport fishing in Quebec.
 
-## Setup rapide
+OpenLayers map (primary UI) + Gemini chat for regulations, weather, hydrometry, tides, and map control. Offline RegPec data bundled; live OGC layers from Quebec open data.
+
+**Français :** [README.fr.md](README.fr.md)
+
+## Quick start (Docker)
 
 ```bash
-# 1. venv
+git clone https://github.com/YOUR_USER/peche-agent.git
+cd peche-agent
+cp .env.example .env   # optional: GEMINI_API_KEY for server-side LLM
+
+docker compose up --build
+```
+
+Open **http://127.0.0.1:8000**
+
+### Bring your own key (BYOK)
+
+If `GEMINI_API_KEY` is not set on the server, open **Assistant → Settings** and paste a free [Google AI Studio](https://aistudio.google.com/app/apikey) key. It stays in your browser (`localStorage`).
+
+## Features
+
+| Layer | Stack |
+|-------|--------|
+| Front | Vite + TypeScript + OpenLayers |
+| API | FastAPI + SSE |
+| Agent | Gemini `3.5-flash-lite` (+ fallback `3.1-flash-lite`) |
+| Data | RegPec offline + Quebec OGC + SQLite conversations |
+
+- Hybrid map catalog (~30 curated layers + GetCapabilities harvest)
+- RegPec zone clip, LiDAR slope filter, user pins shared with chat
+- Chat ↔ map sync (`MapState` + SSE `map_action`)
+- UI: French default, English toggle (FR \| EN)
+- 26 agent tools (+ MCP)
+
+## Local development
+
+```bash
 uv pip install --python .venv/bin/python -r requirements.txt
+cd web && npm install && npm run build && cd ..
+cp .env.example .env
 
-# 2. config
-cp .env.example .env   # renseigner GEMINI_API_KEY
+.venv/bin/python -m peche.api          # http://127.0.0.1:8000
+cd web && npm run dev                  # hot reload, proxies /api
+```
 
-# 3. données dérivées (régénération complète)
+Refresh derived data (optional):
+
+```bash
 ./scripts/refresh-data.sh
 ```
 
-Ou étape par étape :
+## MCP (Cursor, Claude Desktop, custom agents)
 
-```bash
-python3 -m peche.reglements sync              # zones (nécessite cache/réseau)
-python3 -m peche.coords extract --build-index # locations + search_index.json
-python3 -m peche.hydromet sync-stations
-python3 -m peche.hydromet match --all
-```
+Expose Quebec fishing tools to your own agent.
 
-Lancer l'UI **avec le venv** (sinon `folium` et autres deps peuvent manquer) :
-
-```bash
-.venv/bin/python -m peche.ui
-```
-
-## Lancer le chat (Streamlit)
-
-```bash
-python3 -m peche.ui    # http://127.0.0.1:8501
-```
-
-Fonctionnalités UI (onglets **Chat**, **Historique**, **Carte**) :
-- historique des conversations persisté (SQLite),
-- graphiques hydro multi-stations (ex. barrages Lac Kénogami),
-- carte pleine page : hydro Vigilance, barrages CEHQ (~6000), marées SHC, pin plan + météo du chat (Folium),
-- debug des appels d'outils sous chaque réponse.
-
-## Serveur MCP (Cursor / clients MCP)
-
-Expose les **17 outils** via stdio (dev local) ou HTTP streamable (Docker) :
-
-```bash
-python3 -m peche.mcp                         # stdio
-python3 -m peche.mcp --transport http        # http://127.0.0.1:8001/mcp
-```
-
-**Cursor — stdio** (`.cursor/mcp.json`) :
+### Option A — stdio (recommended, no HTTP)
 
 ```json
 {
   "mcpServers": {
     "peche-agent": {
-      "command": "/chemin/vers/peche-agent/.venv/bin/python",
+      "command": "/ABS/PATH/.venv/bin/python",
       "args": ["-m", "peche.mcp"],
-      "cwd": "/chemin/vers/peche-agent"
+      "env": {
+        "GEMINI_API_KEY": "AIza...",
+        "DATA_DIR": "/ABS/PATH/peche-agent/data"
+      }
     }
   }
 }
 ```
 
-**Cursor — HTTP** (conteneur Docker, port `8001` exposé) :
+- **Cursor:** `.cursor/mcp.json` (project) or `~/.cursor/mcp.json`
+- **Claude Desktop:** `claude_desktop_config.json` (same `mcpServers` shape)
 
-```json
-{
-  "mcpServers": {
-    "peche-agent": {
-      "url": "http://localhost:8001/mcp"
-    }
-  }
-}
-```
-
-Avec Docker Compose, le MCP démarre automatiquement avec l'UI (`scripts/docker-entrypoint.sh`).
-Désactiver : `MCP_ENABLED=0`.
-
-## API HTTP
+### Option B — HTTP on the same port as the UI
 
 ```bash
-python3 -m peche.server     # http://127.0.0.1:8000
+MCP_ENABLED=1 docker compose up
 ```
 
-| Route | Description |
-|-------|-------------|
-| `POST /api/chat` | SSE — `{ message, session_id? }` |
-| `GET /api/conversations` | Liste des conversations |
-| `GET /api/conversations/{id}` | Messages d'une conversation |
-| `DELETE /api/conversations/{id}` | Supprimer |
-| `POST /api/reset` | Effacer toutes les conversations |
-| `GET /api/health` | État des données et config |
+Endpoint: **http://127.0.0.1:8000/mcp** (Streamable HTTP)
 
-## Outils de l'agent
+**Security:** MCP has no authentication. Do not expose port 8000 to the public internet without a reverse proxy. MCP uses the **server** `GEMINI_API_KEY`, not the browser BYOK key.
 
-| Outil | Quand |
-|---|---|
-| `search_plans` | trouver un plan d'eau (Ste/Sainte, segments) |
-| `get_hydromet_for_waterbody` | **niveau/débit multi-stations** pour un lac/rivière |
-| `get_hydromet_at_plan` | hydro station primaire (legacy) |
-| `get_reglements` | règlements en vigueur |
-| `get_weather*` / `get_tides*` / `get_water_levels` | conditions live |
-| `get_fishing_advice` | conseils techniques (sous-agent) |
+## Environment
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `GEMINI_API_KEY` | — | Optional server Gemini key |
+| `LLM_MODEL` | `gemini-3.5-flash-lite` | Primary model |
+| `LLM_MODEL_FALLBACK` | `gemini-3.1-flash-lite` | Fallback |
+| `DATA_DIR` | `./data` | Data root |
+| `PECHE_HOST` / `PECHE_PORT` | `127.0.0.1` / `8000` | Bind |
+| `MCP_ENABLED` | `0` | Mount `/mcp` on the API |
 
 ## Tests
 
 ```bash
 .venv/bin/python -m pytest tests/ -v
+cd web && npm run build
 ```
 
-Suite offline (pytest) : normalisation, dates, parser RegPec, hydrométrie, barrages, marées, météo (mock), recherche de plans, conversations SQLite, health API, MCP.
+## Data
 
-## Documentation
+See [docs/data.md](docs/data.md). Bundled offline data (~130 MB); `data/cache/` is generated at runtime.
 
-- [Architecture multi-agents](docs/multi-agent.md)
-- [Carte interactive](docs/map-view.md)
+## Docs
 
-## Docker et données
+- [docs/map-view.md](docs/map-view.md) — map architecture
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [SECURITY.md](SECURITY.md)
 
-L'image (`Dockerfile`) copie le dépôt dans `/app` via `COPY . .`.
+## License
 
-| Élément | Comportement |
-|---------|----------------|
-| `data/zones/`, `data/locations/`, `data/hydromet/`, `data/barrages/`, `data/tides/`, `data/search_index.json` | **Inclus dans l'image** au moment du `docker build` |
-| `data/cache/` | **Exclu** (`.dockerignore`) — le sync RegPec retélécharge si absent |
-| `data/conversations.db` | **Exclu** (`.gitignore`) — non persisté sauf volume monté |
-
-Pour des données à jour dans Docker :
-
-```bash
-# Option A — reconstruire l'image après refresh local
-./scripts/refresh-data.sh
-docker build -t peche-agent .
-docker run -p 8501:8501 --env-file .env peche-agent
-
-# Option B — monter le dossier data depuis l'hôte
-docker run -p 8501:8501 --env-file .env -v "$(pwd)/data:/app/data" peche-agent
-```
-
-Après ajout de dépendances (`folium`, `mcp`, etc.), **reconstruire** l'image Docker.
-
-## Provider LLM
-
-`google-genai` (Gemini) — modèle via `LLM_MODEL` dans `.env`.
+MIT — see [LICENSE](LICENSE).

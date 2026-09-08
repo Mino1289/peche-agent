@@ -16,6 +16,8 @@ from google.genai import types
 
 from peche.dates import today as _today
 
+from peche.agent.credentials import current_api_key, resolve_api_key
+
 DEFAULT_MODEL = os.environ.get("LLM_MODEL", "gemini-3.1-flash-lite")
 
 _EXPERT_SYSTEM = """Tu es un guide expert en pêche sportive au Québec.
@@ -74,6 +76,9 @@ Règles :
 
 
 def _make_client() -> genai.Client:
+    key = current_api_key.get() or resolve_api_key(None)
+    if key:
+        return genai.Client(api_key=key)
     return genai.Client()
 
 

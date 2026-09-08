@@ -1,0 +1,33 @@
+services:
+  peche-agent:
+    build: .
+    image: peche-agent:latest
+    container_name: peche-agent
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      MCP_ENABLED: ${MCP_ENABLED:-0}
+      PECHE_HOST: 0.0.0.0
+      PECHE_PORT: 8000
+      DATA_DIR: /app/data
+    volumes:
+      - peche-runtime:/app/data/runtime
+      - peche-cache:/app/data/cache
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=5)",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+volumes:
+  peche-runtime:
+  peche-cache:

@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-06-12T20:43:48Z",
+  "fetched_at": "2026-08-29T13:25:08Z",
   "source": "https://api-iwls.dfo-mpo.gc.ca",
   "region": "QUE",
-  "nb_stations": 125,
+  "nb_stations": 128,
   "stations": [
     {
       "station_id": "5cebf1de3d0f4a073c4bba8f",
@@ -531,7 +531,7 @@
       "nom_alternatif": "Pointe-aux-Cenelles",
       "lat": 48.642833,
       "lon": -68.166667,
-      "operating": true,
+      "operating": false,
       "type": "SEASONAL"
     },
     {
@@ -1175,6 +1175,16 @@
       "type": "TEMPORARY"
     },
     {
+      "station_id": "5cebf1e43d0f4a073c4bc41a",
+      "code": "03075",
+      "nom": "Banc du Cap Brûlé",
+      "nom_alternatif": "Banc du Cap Brule",
+      "lat": 47.0895,
+      "lon": -70.710833,
+      "operating": true,
+      "type": "SEASONAL"
+    },
+    {
       "station_id": "5cebf1e43d0f4a073c4bc427",
       "code": "03424",
       "nom": "Baie-Sainte-Catherine",
@@ -1253,6 +1263,26 @@
       "lon": -70.658167,
       "operating": false,
       "type": "VIRTUAL"
+    },
+    {
+      "station_id": "638503d72992805e81296cc2",
+      "code": "02327",
+      "nom": "Cap-des-Rosiers",
+      "nom_alternatif": "",
+      "lat": 48.838964,
+      "lon": -64.212711,
+      "operating": false,
+      "type": "TEMPORARY"
+    },
+    {
+      "station_id": "6504b1d2cba84223602bac6e",
+      "code": "02353",
+      "nom": "Rivière-Madeleine",
+      "nom_alternatif": "",
+      "lat": 49.240435,
+      "lon": -65.294012,
+      "operating": false,
+      "type": "TEMPORARY"
     }
   ]
 }

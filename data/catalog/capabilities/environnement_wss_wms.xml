@@ -1,0 +1,2896 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WMS_Capabilities version="1.3.0" xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ms="http://mapserver.gis.umn.edu/mapserver" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd  http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd  http://mapserver.gis.umn.edu/mapserver https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?service=WMS&amp;version=1.3.0&amp;request=GetSchemaExtension">
+  <Service>
+    <Name>WMS</Name>
+    <Title>Service web du Ministère de la Sécurité publique du Québec</Title>
+    <Abstract>Service web du Ministère de la Sécurité publique du Québec (MSP)</Abstract>
+    <KeywordList>
+      <Keyword>MSP</Keyword>
+    </KeywordList>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson>Équipe géomatique</ContactPerson>
+        <ContactOrganization>Ministère de la sécurité publique</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactElectronicMailAddress>geomsp@msp.gouv.qc.ca</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>L'utilisation des données de ce service WMS est sujette aux conditions d'utilisation stipulées par l'entente ou l'accord de licence entre le Ministère de la sécurité publique du Québec (MSP) et son propriétaire.  Ce service WMS est diffusé selon les informations fournies par le propriétaire et n'a aucune valeur légale. Le Ministère de la sécurité publique n'est pas responsable des erreurs qui pourraient s'y retrouver.</AccessConstraints>
+    <MaxWidth>3200</MaxWidth>
+    <MaxHeight>3200</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/tiff</Format>
+        <Format>image/x-aaigrid</Format>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/vnd.jpeg-png</Format>
+        <Format>image/vnd.jpeg-png8</Format>
+        <Format>application/x-pdf</Format>
+        <Format>image/svg+xml</Format>
+        <Format>application/vnd.google-earth.kmz</Format>
+        <Format>application/x-protobuf</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/html</Format>
+        <Format>geojson</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <Format>text/plain</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+      <sld:DescribeLayer>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </sld:DescribeLayer>
+      <sld:GetLegendGraphic>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/vnd.jpeg-png</Format>
+        <Format>image/vnd.jpeg-png8</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </sld:GetLegendGraphic>
+      <ms:GetStyles>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </ms:GetStyles>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+      <Format>INIMAGE</Format>
+      <Format>BLANK</Format>
+    </Exception>
+    <sld:UserDefinedSymbolization SupportSLD="1" UserLayer="0" UserStyle="1" RemoteWFS="0" InlineFeature="0" RemoteWCS="0"/>
+    <Layer queryable="1">
+      <Name>MSP</Name>
+      <Title>environnement</Title>
+      <Abstract>Service web du Ministère de la Sécurité publique du Québec (MSP)</Abstract>
+      <KeywordList>
+        <Keyword>MSP</Keyword>
+      </KeywordList>
+      <CRS>EPSG:2037</CRS>
+      <CRS>EPSG:2148</CRS>
+      <CRS>EPSG:2149</CRS>
+      <CRS>EPSG:2150</CRS>
+      <CRS>EPSG:2945</CRS>
+      <CRS>EPSG:2946</CRS>
+      <CRS>EPSG:2947</CRS>
+      <CRS>EPSG:2948</CRS>
+      <CRS>EPSG:2949</CRS>
+      <CRS>EPSG:2950</CRS>
+      <CRS>EPSG:2951</CRS>
+      <CRS>EPSG:2952</CRS>
+      <CRS>EPSG:3797</CRS>
+      <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:4267</CRS>
+      <CRS>EPSG:4269</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:26917</CRS>
+      <CRS>EPSG:26918</CRS>
+      <CRS>EPSG:26919</CRS>
+      <CRS>EPSG:26920</CRS>
+      <CRS>EPSG:32183</CRS>
+      <CRS>EPSG:32184</CRS>
+      <CRS>EPSG:32185</CRS>
+      <CRS>EPSG:32186</CRS>
+      <CRS>EPSG:32187</CRS>
+      <CRS>EPSG:32188</CRS>
+      <CRS>EPSG:32189</CRS>
+      <CRS>EPSG:32190</CRS>
+      <CRS>EPSG:32198</CRS>
+      <CRS>EPSG:42304</CRS>
+      <CRS>EPSG:900913</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-90.2178</westBoundLongitude>
+        <eastBoundLongitude>-46.7822</eastBoundLongitude>
+        <southBoundLatitude>42.8632</southBoundLatitude>
+        <northBoundLatitude>64.2855</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+      <Attribution>
+        <Title>© Gouvernement du Québec</Title>
+        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.droitauteur.gouv.qc.ca/copyright.php"/>
+        <LogoURL width="64" height="14">
+          <Format>image/png</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/gouvouvert/public/images/quebec/gouv_qc_logo.png"/>
+        </LogoURL>
+      </Attribution>
+      <Layer queryable="1">
+        <Name>Ecosysteme</Name>
+        <Title>Écosystème</Title>
+        <Abstract>Ecosysteme</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="37" height="5">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Ecosysteme&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MILIEUX_HUMIDES_POTENTIELS</Name>
+          <Title>Milieux humides potentiels</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MILIEUX_HUMIDES_POTENTIELS"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/milieux-humides-potentiels"/>
+          </DataURL>
+          <MaxScaleDenominator>944940</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>canards_ill_milieux_humides</Name>
+          <Title>Milieux humides (Cartographie détaillée)</Title>
+          <CRS>EPSG:4326</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-1.1e+06</westBoundLongitude>
+            <eastBoundLongitude>1.1e+06</eastBoundLongitude>
+            <southBoundLatitude>-23500</southBoundLatitude>
+            <northBoundLatitude>2.2535e+06</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="-23500" miny="-1.1e+06" maxx="2.2535e+06" maxy="1.1e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=canards_ill_milieux_humides"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/fr/dataset/milieux-humides-du-quebec"/>
+          </DataURL>
+          <MaxScaleDenominator>300000</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MDDELCC_ESPECES_EXOTIQUES_ENVAHISSANTES_P</Name>
+          <Title>Espèces exotiques envahissantes</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MDDELCC_ESPECES_EXOTIQUES_ENVAHISSANTES_P"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/especes-exotiques-envahissantes"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Hydrographie</Name>
+        <Title>Hydrographie</Title>
+        <Abstract>Hydrographie</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="177" height="410">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Hydrographie&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>GRHQ_RES_LIN_PERM</Name>
+          <Title>Cours d'eau permanents (Fleuve, lacs, rivières, ruisseaux, etc.)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=GRHQ_RES_LIN_PERM"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mern.gouv.qc.ca/repertoire-geographique/reseau-hydrographique-grhq/"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>CEHQ_BARRAGES_P</Name>
+          <Title>Barrages du Répertoire</Title>
+          <Abstract>Barrages du CEHQ (Source : CEHQ, MDDEP)</Abstract>
+          <KeywordList>
+            <Keyword>barrages</Keyword>
+            <Keyword>répertoire</Keyword>
+            <Keyword>cehq</Keyword>
+            <Keyword>ruptures</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=CEHQ_BARRAGES_P"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/repertoire-des-barrages"/>
+          </DataURL>
+          <Style>
+            <Name>Propriétaire</Name>
+            <Title>Propriétaire</Title>
+            <LegendURL width="143" height="86">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=CEHQ_BARRAGES_P&amp;format=image/png&amp;STYLE=Propriétaire"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MDDELCC_BASSINS_VERSANTS_NIV_2</Name>
+          <Title>Bassins hydrographiques (Niveau 2)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MDDELCC_BASSINS_VERSANTS_NIV_2"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/bassins-hydrographiques-multi-echelles-du-quebec"/>
+          </DataURL>
+          <MaxScaleDenominator>2.36235e+06</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>GRHQ_RES_SURF</Name>
+          <Title>Plans d'eau (Fleuve, lacs, rivières, réservoirs, etc.)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=GRHQ_RES_SURF"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mern.gouv.qc.ca/repertoire-geographique/reseau-hydrographique-grhq/"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>LAVAL_COURS_EAU</Name>
+          <Title>Cours d'eau - Ville de Laval</Title>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=LAVAL_COURS_EAU"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/cartographie-des-cours-d-eau"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="107" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=LAVAL_COURS_EAU&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>GRHQ_ELEM_CONTEXT</Name>
+          <Title>Autres éléments hydrographiques (Barrages, chutes, rapides, etc.)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=GRHQ_ELEM_CONTEXT"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mern.gouv.qc.ca/repertoire-geographique/reseau-hydrographique-grhq/"/>
+          </DataURL>
+          <MaxScaleDenominator>141741</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>GRHQ_RES_LIN_INTER</Name>
+          <Title>Cours d'eau intermittents (Rivières, ruisseaux, etc.)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=GRHQ_RES_LIN_INTER"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mern.gouv.qc.ca/repertoire-geographique/reseau-hydrographique-grhq/"/>
+          </DataURL>
+          <MaxScaleDenominator>118117</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>GRHQ_SENS_ECOULEMENT</Name>
+          <Title>Sens d'écoulement des cours d'eau</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=GRHQ_SENS_ECOULEMENT"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mern.gouv.qc.ca/repertoire-geographique/reseau-hydrographique-grhq/"/>
+          </DataURL>
+          <MaxScaleDenominator>70870</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MDDELCC_BASSINS_VERSANTS_NIV_1</Name>
+          <Title>Bassins hydrographiques (Niveau 1)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MDDELCC_BASSINS_VERSANTS_NIV_1"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/bassins-hydrographiques-multi-echelles-du-quebec"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Sols</Name>
+        <Title>Sols</Title>
+        <Abstract>Sols</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="141" height="59">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Sols&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="0" opaque="0" cascaded="0">
+          <Name>BDTQ_DEPOT_S_POLYGON</Name>
+          <Title>Dépôts (BDTQ)</Title>
+          <Abstract>Dépôt (1/20 000) de la BDTQ (Source : MRNF)</Abstract>
+          <KeywordList>
+            <Keyword>aire</Keyword>
+            <Keyword>désignée</Keyword>
+            <Keyword>bdtq</Keyword>
+            <Keyword>dépôt</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=BDTQ_DEPOT_S_POLYGON"/>
+          </MetadataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="72" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=BDTQ_DEPOT_S_POLYGON&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>20000</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_TWI_LIDAR_S</Name>
+          <Title>Indice d’humidité topographique issu du LiDAR</Title>
+          <KeywordList>
+            <Keyword>lidar</Keyword>
+            <Keyword>twi</Keyword>
+            <Keyword>teledetection</Keyword>
+            <Keyword>imagerie</Keyword>
+            <Keyword>humidité</Keyword>
+            <Keyword>hydro</Keyword>
+            <Keyword>produit</Keyword>
+            <Keyword>derive</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4326</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_TWI_LIDAR_S"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/indice-humidite-topographique-issu-du-lidar"/>
+          </DataURL>
+          <MaxScaleDenominator>1e+06</MaxScaleDenominator>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Gestion_faune</Name>
+        <Title>Gestion de la faune et des habitats</Title>
+        <Abstract>Gestion_faune</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="37" height="5">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Gestion_faune&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>DISTRICTS_PFQ</Name>
+          <Title>Districts de la protection de la faune du Québec</Title>
+          <Abstract>Limites territoriales des districts de la protection de la faune du Québec.</Abstract>
+          <KeywordList>
+            <Keyword>chasse</Keyword>
+            <Keyword>braconnage</Keyword>
+            <Keyword>habitat</Keyword>
+            <Keyword>habitats</Keyword>
+            <Keyword>limite</Keyword>
+            <Keyword>limites</Keyword>
+            <Keyword>directions</Keyword>
+            <Keyword>direction</Keyword>
+            <Keyword>régionale</Keyword>
+            <Keyword>régionales</Keyword>
+            <Keyword>protection</Keyword>
+            <Keyword>faune</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=DISTRICTS_PFQ"/>
+          </MetadataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>IGT_UGAF</Name>
+          <Title>Unités de gestion des animaux à fourrure</Title>
+          <Abstract>Délimitation territoriale adaptée à la gestion des animaux à fourrure (réglementation, enregistrement de données, déclaration sur la récolte, etc.) (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>faune</Keyword>
+            <Keyword>animaux</Keyword>
+            <Keyword>animal</Keyword>
+            <Keyword>fourrure</Keyword>
+            <Keyword>faune</Keyword>
+            <Keyword>gestion</Keyword>
+            <Keyword>unité</Keyword>
+            <Keyword>unités</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=IGT_UGAF"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/unites-de-gestion-des-animaux-a-fourrure-ugaf"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>Chasse_Interdite</Name>
+          <Title>Chasse interdite</Title>
+          <Abstract>Territoires où toute activité de chasse est interdite (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>faune</Keyword>
+            <Keyword>chasse</Keyword>
+            <Keyword>interdite</Keyword>
+            <Keyword>zone</Keyword>
+            <Keyword>zones</Keyword>
+            <Keyword>braconnage</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>CRS:84</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=Chasse_Interdite"/>
+          </MetadataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>TFS</Name>
+          <Title>Territoires fauniques structurés</Title>
+          <Abstract>Territoires établis en vertu du chapitre IV de la Loi sur la conservation et la mise en valeur de la faune pour la conservation, la mise en valeur de la faune et accessoirement pour la pratique d'activités récréatives (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>faune</Keyword>
+            <Keyword>habitat</Keyword>
+            <Keyword>territoire</Keyword>
+            <Keyword>territoires</Keyword>
+            <Keyword>faunique</Keyword>
+            <Keyword>fauniques</Keyword>
+            <Keyword>structurés</Keyword>
+            <Keyword>structuré</Keyword>
+            <Keyword>conservation</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=TFS"/>
+          </MetadataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>Habitats_Fauniques</Name>
+          <Title>Habitats fauniques</Title>
+          <Abstract>La couche des habitats fauniques (HAFA) contient les données des 11 habitats fauniques légaux situés sur les terres du domaine de l’État qui respectent la définition du Règlement sur les habitats fauniques (RHF). On trouve aussi les HAFA situés sur terres mixtes et privées à titre informationnel (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>faune</Keyword>
+            <Keyword>habitat</Keyword>
+            <Keyword>habitats</Keyword>
+            <Keyword>faunique</Keyword>
+            <Keyword>fauniques</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=Habitats_Fauniques"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/habitats-fauniques"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>Zone_chasse_da3_sefaq</Name>
+          <Title>Zones et parties de zones de chasse</Title>
+          <Abstract>Délimitation du territoire Québécois en 29 zones, et leurs parties de zones, en vertu de la Loi sur la conservation et la mise en valeur de la faune, L.R.Q., ch. C-61.1. Toutefois, la zone 25 constitue uniquement une zone de pêche (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>faune</Keyword>
+            <Keyword>zone</Keyword>
+            <Keyword>zones</Keyword>
+            <Keyword>chasse</Keyword>
+            <Keyword>sous-zone</Keyword>
+            <Keyword>sous-zones</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=Zone_chasse_da3_sefaq"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/zones-de-chasse-et-peche-a-lechelle-1-250-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>Bureaux_protection_faune</Name>
+          <Title>Bureaux de la Protection de la faune du Québec</Title>
+          <Abstract>Localisation des bureaux de la Protection de la faune du Québec (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>faune</Keyword>
+            <Keyword>habitat</Keyword>
+            <Keyword>chasse</Keyword>
+            <Keyword>braconnage</Keyword>
+            <Keyword>bureau</Keyword>
+            <Keyword>bureaux</Keyword>
+            <Keyword>protection</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=Bureaux_protection_faune"/>
+          </MetadataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>secteur_chasse_anticosti</Name>
+          <Title>Secteurs de chasse de l'Île d'Anticosti</Title>
+          <Abstract>Territoires de chasse de l'île d'Anticosti (MFFP).</Abstract>
+          <KeywordList>
+            <Keyword>zone</Keyword>
+            <Keyword> zones</Keyword>
+            <Keyword> chasse</Keyword>
+            <Keyword> faune</Keyword>
+            <Keyword> secteur</Keyword>
+            <Keyword> secteurs</Keyword>
+            <Keyword> anticosti</Keyword>
+            <Keyword> île</Keyword>
+            <Keyword> ile</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=secteur_chasse_anticosti"/>
+          </MetadataURL>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Mines</Name>
+        <Title>Mines</Title>
+        <Abstract>Mines</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="380" height="194">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Mines&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>MINES_ET_PROJETS</Name>
+          <Title>Mines et projets (SIGEOM)</Title>
+          <KeywordList>
+            <Keyword>mine</Keyword>
+            <Keyword>mines</Keyword>
+            <Keyword>metaux</Keyword>
+            <Keyword>cuivre</Keyword>
+            <Keyword>zinc</Keyword>
+            <Keyword>minerais</Keyword>
+          </KeywordList>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2944</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:2857</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:26916</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:42105</CRS>
+          <CRS>EPSG:42304</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:2036" minx="7.16155e+06" miny="1.24112e+06" maxx="9.5362e+06" maxy="3.51614e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=MINES_ET_PROJETS"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/activites-minieres"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Aires_protegees</Name>
+        <Title>Aires protégées</Title>
+        <Abstract>Aires_protegees</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="238" height="32">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Aires_protegees&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_PARC_MARIN</Name>
+          <Title>Parcs marins</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_PARC_MARIN"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_AFC</Name>
+          <Title>Aires fauniques communautaires (AFC)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_AFC"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MFFP_FORET_EXPERIMENTATION</Name>
+          <Title>Forêts d'expérimentation</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MFFP_FORET_EXPERIMENTATION"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/stf"/>
+          </DataURL>
+          <MaxScaleDenominator>9.4494e+06</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MFFP_FORET_ENSEIGNEMENT</Name>
+          <Title>Forêts d'enseignement et de recherche (FER)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MFFP_FORET_ENSEIGNEMENT"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/stf"/>
+          </DataURL>
+          <MaxScaleDenominator>9.4494e+06</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_PETIT_LAC</Name>
+          <Title>Petits lacs aménagés (PLA)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_PETIT_LAC"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MRNF_REFUGE_D_OISEAUX_MIGRATEURS</Name>
+          <Title>Refuges d'oiseaux migrateurs (ROM)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MRNF_REFUGE_D_OISEAUX_MIGRATEURS"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_TERRITOIRE_EXCLUSIF_CHASSE</Name>
+          <Title>Territoires exclusifs de chasse</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_TERRITOIRE_EXCLUSIF_CHASSE"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_ENTENTE_AUTOCHTONE</Name>
+          <Title>Ententes particulières avec les autochtones</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_ENTENTE_AUTOCHTONE"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_STATION_FORESTIERE</Name>
+          <Title>Stations forestières</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_STATION_FORESTIERE"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MERN_POURVOIRIE</Name>
+          <Title>Pourvoiries à droits exclusifs</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:2945</CRS>
+          <CRS>EPSG:2140</CRS>
+          <CRS>EPSG:2946</CRS>
+          <CRS>EPSG:2141</CRS>
+          <CRS>EPSG:2947</CRS>
+          <CRS>EPSG:2142</CRS>
+          <CRS>EPSG:2948</CRS>
+          <CRS>EPSG:2143</CRS>
+          <CRS>EPSG:2949</CRS>
+          <CRS>EPSG:2144</CRS>
+          <CRS>EPSG:2950</CRS>
+          <CRS>EPSG:2145</CRS>
+          <CRS>EPSG:2951</CRS>
+          <CRS>EPSG:2146</CRS>
+          <CRS>EPSG:2952</CRS>
+          <CRS>EPSG:2147</CRS>
+          <CRS>EPSG:2958</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:2959</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2960</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2961</CRS>
+          <CRS>EPSG:2038</CRS>
+          <CRS>EPSG:2962</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:3797</CRS>
+          <CRS>EPSG:3798</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:4267</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4617</CRS>
+          <CRS>EPSG:4140</CRS>
+          <CRS>EPSG:6622</CRS>
+          <CRS>EPSG:6623</CRS>
+          <CRS>EPSG:6624</CRS>
+          <CRS>EPSG:26717</CRS>
+          <CRS>EPSG:26718</CRS>
+          <CRS>EPSG:26719</CRS>
+          <CRS>EPSG:26720</CRS>
+          <CRS>EPSG:26721</CRS>
+          <CRS>EPSG:26899</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <CRS>EPSG:32082</CRS>
+          <CRS>EPSG:32083</CRS>
+          <CRS>EPSG:32084</CRS>
+          <CRS>EPSG:32085</CRS>
+          <CRS>EPSG:32086</CRS>
+          <CRS>EPSG:32098</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:102001</CRS>
+          <CRS>EPSG:3573</CRS>
+          <CRS>EPSG:102002</CRS>
+          <CRS>EPSG:3978</CRS>
+          <CRS>EPSG:3347</CRS>
+          <CRS>EPSG:3979</CRS>
+          <CRS>EPSG:3348</CRS>
+          <CRS>EPSG:5937</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MERN_POURVOIRIE"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/couche-des-territoires-recreatifs-du-quebec-a-l-echelle-de-1-100-000"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_REGISTRE_AP_S</Name>
+          <Title>Registre des aires protégées</Title>
+          <KeywordList>
+            <Keyword>parc</Keyword>
+            <Keyword>marin</Keyword>
+            <Keyword>reserve</Keyword>
+            <Keyword>aquatique</Keyword>
+            <Keyword>projetee</Keyword>
+            <Keyword>naturelle</Keyword>
+            <Keyword>reconnue</Keyword>
+            <Keyword>biodiversite</Keyword>
+            <Keyword>ecologique</Keyword>
+            <Keyword>reserve</Keyword>
+            <Keyword>territoire</Keyword>
+            <Keyword>habitat</Keyword>
+            <Keyword>espece</Keyword>
+            <Keyword>floristique</Keyword>
+            <Keyword>menacee</Keyword>
+            <Keyword>vulnerable</Keyword>
+            <Keyword>refuge</Keyword>
+            <Keyword>foret</Keyword>
+            <Keyword>rare</Keyword>
+            <Keyword>ancienne</Keyword>
+            <Keyword>aire</Keyword>
+            <Keyword>confinement</Keyword>
+            <Keyword>cerf</Keyword>
+            <Keyword>virginie</Keyword>
+            <Keyword>faunique</Keyword>
+            <Keyword>colonies</Keyword>
+            <Keyword>oiseaux</Keyword>
+            <Keyword>rat</Keyword>
+            <Keyword>musque</Keyword>
+            <Keyword>heronniere</Keyword>
+            <Keyword>vasiere</Keyword>
+            <Keyword>migrateurs</Keyword>
+            <Keyword>conservation</Keyword>
+            <Keyword>volontaire</Keyword>
+            <Keyword>parc</Keyword>
+            <Keyword>national</Keyword>
+          </KeywordList>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_REGISTRE_AP_S"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/aires-protegees-au-quebec"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+      <Layer>
+        <Name>Perturbations_naturelles</Name>
+        <Title>Perturbations naturelles</Title>
+        <Abstract>Perturbations_naturelles</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="81" height="86">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Perturbations_naturelles&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="0" opaque="0" cascaded="0">
+          <Name>MRN_TBE_INSECTE_S</Name>
+          <Title>Défoliation observée en 2012</Title>
+          <Abstract>Dommages causés par les perturbations naturelles - Insecte : Tordeuse des bourgeons de l'épinette</Abstract>
+          <KeywordList>
+            <Keyword>dommages</Keyword>
+            <Keyword>perturbations</Keyword>
+            <Keyword>naturelles</Keyword>
+            <Keyword>insecte</Keyword>
+            <Keyword>tordeuse</Keyword>
+            <Keyword>bourgeons</Keyword>
+            <Keyword>épinette</Keyword>
+            <Keyword>défoliation</Keyword>
+          </KeywordList>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:3799</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:42105</CRS>
+          <CRS>EPSG:42304</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:2036" minx="7.09577e+06" miny="573776" maxx="9.69852e+06" maxy="4.10499e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=MRN_TBE_INSECTE_S"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/fr/dataset/fbf12500-bffe-4209-a1ae-fba86f154ebf"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="81" height="86">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=MRN_TBE_INSECTE_S&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>1e+07</MaxScaleDenominator>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Gestion_eau</Name>
+        <Title>Gestion de l'eau</Title>
+        <Abstract>Gestion_eau</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="199" height="464">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Gestion_eau&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>WMS_MDDELCC_ZGIE</Name>
+          <Title>Zones de gestion intégrée de l'eau (ZGIE)</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=WMS_MDDELCC_ZGIE"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zgiebv"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>cadre_ecologique_de_reference</Name>
+        <Title>Cadre écologique de référence</Title>
+        <Abstract>cadre_ecologique_de_reference</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="37" height="5">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=cadre_ecologique_de_reference&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>NIVEAU_4_DISTRICTS_ECOLOGIQUES</Name>
+          <Title>Niveau 4 - Districts écologiques</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=NIVEAU_4_DISTRICTS_ECOLOGIQUES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/cadre-ecologique-de-reference"/>
+          </DataURL>
+          <MaxScaleDenominator>944941</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>NIVEAU_5_ENSEMBLES_TOPOGRAPHIQUES</Name>
+          <Title>Niveau 5 - Ensembles topographiques</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=NIVEAU_5_ENSEMBLES_TOPOGRAPHIQUES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/cadre-ecologique-de-reference"/>
+          </DataURL>
+          <MaxScaleDenominator>472471</MaxScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>NIVEAU_2_REGIONS_NATURELLES</Name>
+          <Title>Niveau 2 - Régions naturelles</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=NIVEAU_2_REGIONS_NATURELLES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/cadre-ecologique-de-reference"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>NIVEAU_1_PROVINCES_NATURELLES</Name>
+          <Title>Niveau 1 - Provinces naturelles</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=NIVEAU_1_PROVINCES_NATURELLES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/cadre-ecologique-de-reference"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>NIVEAU_3_ENSEMBLES_PHYSIOGRAPHIQUES</Name>
+          <Title>Niveau 3 - Ensembles physiographiques</Title>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:102100</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32182</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:26921</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90.2178" miny="42.8632" maxx="-46.7822" maxy="64.2855"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=NIVEAU_3_ENSEMBLES_PHYSIOGRAPHIQUES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/cadre-ecologique-de-reference"/>
+          </DataURL>
+          <MaxScaleDenominator>4.7247e+06</MaxScaleDenominator>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Occurrences_especes</Name>
+        <Title>Occurrences d'espèces en situation précaire</Title>
+        <Abstract>Occurrences_especes</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="240" height="59">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Occurrences_especes&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>OCCURRENCES_FLORISTIQUES</Name>
+          <Title>Occurrences floristiques</Title>
+          <Abstract>Compilation des occurrences du Centre de données sur le patrimoine naturel du Québec (CDPNQ)</Abstract>
+          <KeywordList>
+            <Keyword>Biodiversité</Keyword>
+            <Keyword>CDPNQ</Keyword>
+            <Keyword>Patrimoine</Keyword>
+            <Keyword>naturel</Keyword>
+            <Keyword>Espèce</Keyword>
+            <Keyword>péril</Keyword>
+            <Keyword>préoccupante</Keyword>
+            <Keyword>menacée</Keyword>
+            <Keyword>protégée</Keyword>
+            <Keyword>vulnérable</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=OCCURRENCES_FLORISTIQUES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/occurrences-especes-en-situation-precaire"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>OCCURRENCES_FLORISTIQUES_MASQUEES</Name>
+          <Title>Occurrences floristiques masquées</Title>
+          <Abstract>Compilation des occurrences du Centre de données sur le patrimoine naturel du Québec (CDPNQ)</Abstract>
+          <KeywordList>
+            <Keyword>Biodiversité</Keyword>
+            <Keyword>CDPNQ</Keyword>
+            <Keyword>Patrimoine</Keyword>
+            <Keyword>naturel</Keyword>
+            <Keyword>Espèce</Keyword>
+            <Keyword>péril</Keyword>
+            <Keyword>préoccupante</Keyword>
+            <Keyword>menacée</Keyword>
+            <Keyword>protégée</Keyword>
+            <Keyword>vulnérable</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=OCCURRENCES_FLORISTIQUES_MASQUEES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/occurrences-especes-en-situation-precaire"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>OCCURRENCES_FAUNIQUES_MASQUEES</Name>
+          <Title>Occurrences fauniques masquées</Title>
+          <Abstract>Compilation des occurrences du Centre de données sur le patrimoine naturel du Québec (CDPNQ)</Abstract>
+          <KeywordList>
+            <Keyword>Biodiversité</Keyword>
+            <Keyword>CDPNQ</Keyword>
+            <Keyword>Patrimoine</Keyword>
+            <Keyword>naturel</Keyword>
+            <Keyword>Espèce</Keyword>
+            <Keyword>péril</Keyword>
+            <Keyword>préoccupante</Keyword>
+            <Keyword>menacée</Keyword>
+            <Keyword>protégée</Keyword>
+            <Keyword>vulnérable</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=OCCURRENCES_FAUNIQUES_MASQUEES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/occurrences-especes-en-situation-precaire"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>OCCURRENCES_FAUNIQUES</Name>
+          <Title>Occurrences fauniques</Title>
+          <Abstract>Compilation des occurrences du Centre de données sur le patrimoine naturel du Québec (CDPNQ)</Abstract>
+          <KeywordList>
+            <Keyword>Biodiversité</Keyword>
+            <Keyword>CDPNQ</Keyword>
+            <Keyword>Patrimoine</Keyword>
+            <Keyword>naturel</Keyword>
+            <Keyword>Espèce</Keyword>
+            <Keyword>péril</Keyword>
+            <Keyword>préoccupante</Keyword>
+            <Keyword>menacée</Keyword>
+            <Keyword>protégée</Keyword>
+            <Keyword>vulnérable</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=OCCURRENCES_FAUNIQUES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/occurrences-especes-en-situation-precaire"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>OCCURRENCES_TOUTES</Name>
+          <Title>Occurrences (toutes)</Title>
+          <Abstract>Compilation des occurrences du Centre de données sur le patrimoine naturel du Québec (CDPNQ)</Abstract>
+          <KeywordList>
+            <Keyword>Biodiversité</Keyword>
+            <Keyword>CDPNQ</Keyword>
+            <Keyword>Patrimoine</Keyword>
+            <Keyword>naturel</Keyword>
+            <Keyword>Espèce</Keyword>
+            <Keyword>péril</Keyword>
+            <Keyword>préoccupante</Keyword>
+            <Keyword>menacée</Keyword>
+            <Keyword>protégée</Keyword>
+            <Keyword>vulnérable</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:4269</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="42.8632" miny="-90.2178" maxx="64.2855" maxy="-46.7822"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi?request=GetMetadata&amp;layer=OCCURRENCES_TOUTES"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/occurrences-especes-en-situation-precaire"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WMS_Capabilities version="1.3.0" xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ms="http://mapserver.gis.umn.edu/mapserver" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd  http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd  http://mapserver.gis.umn.edu/mapserver https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?service=WMS&amp;version=1.3.0&amp;request=GetSchemaExtension">
+  <Service>
+    <Name>WMS</Name>
+    <Title>Service web du Ministère de la Sécurité publique du Québec</Title>
+    <Abstract>Service web du Ministère de la Sécurité publique du Québec (MSP)</Abstract>
+    <KeywordList>
+      <Keyword>MSP</Keyword>
+    </KeywordList>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson>Équipe géomatique</ContactPerson>
+        <ContactOrganization>Ministère de la sécurité publique</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactElectronicMailAddress>geomsp@msp.gouv.qc.ca</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>none</Fees>
+    <AccessConstraints>L'utilisation des données de ce service WMS est sujette aux conditions d'utilisation stipulées par l'entente ou l'accord de licence entre le Ministère de la sécurité publique du Québec (MSP) et son propriétaire.  Ce service WMS est diffusé selon les informations fournies par le propriétaire et n'a aucune valeur légale. Le Ministère de la sécurité publique n'est pas responsable des erreurs qui pourraient s'y retrouver.</AccessConstraints>
+    <MaxWidth>3200</MaxWidth>
+    <MaxHeight>3200</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/tiff</Format>
+        <Format>image/x-aaigrid</Format>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/vnd.jpeg-png</Format>
+        <Format>image/vnd.jpeg-png8</Format>
+        <Format>application/x-pdf</Format>
+        <Format>image/svg+xml</Format>
+        <Format>application/vnd.google-earth.kmz</Format>
+        <Format>application/x-protobuf</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/html</Format>
+        <Format>geojson</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <Format>text/plain</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+      <sld:DescribeLayer>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </sld:DescribeLayer>
+      <sld:GetLegendGraphic>
+        <Format>image/png</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/vnd.jpeg-png</Format>
+        <Format>image/vnd.jpeg-png8</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </sld:GetLegendGraphic>
+      <ms:GetStyles>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Get>
+            <Post>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </ms:GetStyles>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+      <Format>INIMAGE</Format>
+      <Format>BLANK</Format>
+    </Exception>
+    <sld:UserDefinedSymbolization SupportSLD="1" UserLayer="0" UserStyle="1" RemoteWFS="0" InlineFeature="0" RemoteWCS="0"/>
+    <Layer queryable="1">
+      <Name>MSP</Name>
+      <Title>aleas</Title>
+      <Abstract>Service web du Ministère de la Sécurité publique du Québec (MSP)</Abstract>
+      <KeywordList>
+        <Keyword>MSP</Keyword>
+      </KeywordList>
+      <CRS>EPSG:2037</CRS>
+      <CRS>EPSG:2148</CRS>
+      <CRS>EPSG:2149</CRS>
+      <CRS>EPSG:2150</CRS>
+      <CRS>EPSG:2945</CRS>
+      <CRS>EPSG:2946</CRS>
+      <CRS>EPSG:2947</CRS>
+      <CRS>EPSG:2948</CRS>
+      <CRS>EPSG:2949</CRS>
+      <CRS>EPSG:2950</CRS>
+      <CRS>EPSG:2951</CRS>
+      <CRS>EPSG:2952</CRS>
+      <CRS>EPSG:3797</CRS>
+      <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:4267</CRS>
+      <CRS>EPSG:4269</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>EPSG:26917</CRS>
+      <CRS>EPSG:26918</CRS>
+      <CRS>EPSG:26919</CRS>
+      <CRS>EPSG:26920</CRS>
+      <CRS>EPSG:32183</CRS>
+      <CRS>EPSG:32184</CRS>
+      <CRS>EPSG:32185</CRS>
+      <CRS>EPSG:32186</CRS>
+      <CRS>EPSG:32187</CRS>
+      <CRS>EPSG:32188</CRS>
+      <CRS>EPSG:32189</CRS>
+      <CRS>EPSG:32190</CRS>
+      <CRS>EPSG:32198</CRS>
+      <CRS>EPSG:42304</CRS>
+      <CRS>EPSG:900913</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-90.2178</westBoundLongitude>
+        <eastBoundLongitude>-46.7822</eastBoundLongitude>
+        <southBoundLatitude>42.8632</southBoundLatitude>
+        <northBoundLatitude>64.2855</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+      <Attribution>
+        <Title>© Gouvernement du Québec</Title>
+        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.droitauteur.gouv.qc.ca/copyright.php"/>
+        <LogoURL width="64" height="14">
+          <Format>image/png</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/gouvouvert/public/images/quebec/gouv_qc_logo.png"/>
+        </LogoURL>
+      </Attribution>
+      <Layer queryable="1">
+        <Name>Mouvements_de_terrains</Name>
+        <Title>Mouvements de terrain</Title>
+        <Abstract>Mouvements_de_terrains</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="37" height="5">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Mouvements_de_terrains&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>zpegt_cgt_l</Name>
+          <Title>ZPEGT - Potentiel de glissement (linéaire) (MTQ-SWTQ)</Title>
+          <KeywordList>
+            <Keyword>mouvements</Keyword>
+            <Keyword>terrains</Keyword>
+            <Keyword>zones</Keyword>
+            <Keyword>potentiellement</Keyword>
+            <Keyword>exposées</Keyword>
+            <Keyword>glissements</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=zpegt_cgt_l"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zone-potentiellement-exposee-aux-glissements-de-terrain-zpegt"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>zpegt_cgt_s</Name>
+          <Title>ZPEGT - Potentiel de glissement (surfacique) (MTQ-SWTQ)</Title>
+          <KeywordList>
+            <Keyword>zones</Keyword>
+            <Keyword>potentiellement</Keyword>
+            <Keyword>exposées</Keyword>
+            <Keyword>glissements</Keyword>
+            <Keyword>mouvements</Keyword>
+            <Keyword>terrain</Keyword>
+            <Keyword>zpegt</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=zpegt_cgt_s"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zone-potentiellement-exposee-aux-glissements-de-terrain-zpegt"/>
+          </DataURL>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="1">
+          <Name>MTQ_INDEX_MVMT_SOL_S</Name>
+          <Title>ZPEGT - Potentiel de glissement (index) (MTQ-SWTQ)</Title>
+          <KeywordList>
+            <Keyword>mouvements</Keyword>
+            <Keyword>terrains</Keyword>
+            <Keyword>zones</Keyword>
+            <Keyword>potentiellement</Keyword>
+            <Keyword>exposées</Keyword>
+            <Keyword>glissements</Keyword>
+            <Keyword>zpegt</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=MTQ_INDEX_MVMT_SOL_S"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zone-potentiellement-exposee-aux-glissements-de-terrain-zpegt"/>
+          </DataURL>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Erosion</Name>
+        <Title>Érosion</Title>
+        <Abstract>Erosion</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="485" height="1409">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Erosion&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>dpp_zemt_index_s</Name>
+          <Title>ZEMT - Index</Title>
+          <KeywordList>
+            <Keyword>contrainte</Keyword>
+            <Keyword>bande de protection</Keyword>
+            <Keyword>erosion;érosion côtière</Keyword>
+            <Keyword>ligne de côte</Keyword>
+            <Keyword>talus</Keyword>
+            <Keyword>mouvement de terrain</Keyword>
+            <Keyword>glissement de terrain</Keyword>
+            <Keyword>zone à risque</Keyword>
+            <Keyword>MSI</Keyword>
+            <Keyword>MSP</Keyword>
+            <Keyword>MTMD</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=dpp_zemt_index_s"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zones-contraintes-erosion-et-mouvements-de-terrain-zemt"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="485" height="59">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=dpp_zemt_index_s&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>INDEX_CARTO_MTQ</Name>
+          <Title>Index cartographique MTQ - Érosion côtière et glissements de terrain</Title>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=INDEX_CARTO_MTQ"/>
+          </MetadataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="435" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=INDEX_CARTO_MTQ&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+          <MinScaleDenominator>24900</MinScaleDenominator>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>dpp_zemt_zones_contraintes_s</Name>
+          <Title>ZEMT - Zones de contraintes</Title>
+          <KeywordList>
+            <Keyword>contrainte</Keyword>
+            <Keyword>bande de protection</Keyword>
+            <Keyword>erosion;érosion côtière</Keyword>
+            <Keyword>ligne de côte</Keyword>
+            <Keyword>talus</Keyword>
+            <Keyword>mouvement de terrain</Keyword>
+            <Keyword>glissement de terrain</Keyword>
+            <Keyword>zone à risque</Keyword>
+            <Keyword>MSI</Keyword>
+            <Keyword>MSP</Keyword>
+            <Keyword>MTMD</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=dpp_zemt_zones_contraintes_s"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zones-contraintes-erosion-et-mouvements-de-terrain-zemt"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="167" height="815">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=dpp_zemt_zones_contraintes_s&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>dpp_zemt_ligne_l</Name>
+          <Title>ZEMT - Ligne (côte, talus)</Title>
+          <KeywordList>
+            <Keyword>contrainte</Keyword>
+            <Keyword>bande de protection</Keyword>
+            <Keyword>erosion;érosion côtière</Keyword>
+            <Keyword>ligne de côte</Keyword>
+            <Keyword>talus</Keyword>
+            <Keyword>mouvement de terrain</Keyword>
+            <Keyword>glissement de terrain</Keyword>
+            <Keyword>zone à risque</Keyword>
+            <Keyword>MSI</Keyword>
+            <Keyword>MSP</Keyword>
+            <Keyword>MTMD</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=dpp_zemt_ligne_l"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/zones-contraintes-erosion-et-mouvements-de-terrain-zemt"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="170" height="113">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=dpp_zemt_ligne_l&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Feux_de_foret</Name>
+        <Title>Feux de forêt</Title>
+        <Abstract>Feux_de_foret</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="214" height="1436">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Feux_de_foret&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>contours_feux</Name>
+          <Title>Contours de feux</Title>
+          <Abstract>Limites des contour de feux</Abstract>
+          <KeywordList>
+            <Keyword>feux SOPFEU</Keyword>
+          </KeywordList>
+          <CRS>EPSG:42105</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:42105" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=contours_feux"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/contours-de-feux"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="87" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=contours_feux&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>msp_interdiction_feu_ciel_ouvert_ifco</Name>
+          <Title>Interdiction de faire des feux à ciel ouvert (IFCO)</Title>
+          <KeywordList>
+            <Keyword>mesures</Keyword>
+            <Keyword>preventives</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=msp_interdiction_feu_ciel_ouvert_ifco"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/mesures_preventives_feux_foret"/>
+          </DataURL>
+          <Style>
+            <Name>Couleur</Name>
+            <Title>Couleur</Title>
+            <LegendURL width="109" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_interdiction_feu_ciel_ouvert_ifco&amp;format=image/png&amp;STYLE=Couleur"/>
+            </LegendURL>
+          </Style>
+          <Style>
+            <Name>Hachuré</Name>
+            <Title>Hachuré</Title>
+            <LegendURL width="109" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_interdiction_feu_ciel_ouvert_ifco&amp;format=image/png&amp;STYLE=Hachuré"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>msp_restriction_travaux_foret_rtf</Name>
+          <Title>Restriction de travaux en forêt (RTF)</Title>
+          <KeywordList>
+            <Keyword>mesures</Keyword>
+            <Keyword>preventives</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=msp_restriction_travaux_foret_rtf"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/mesures_preventives_feux_foret"/>
+          </DataURL>
+          <Style>
+            <Name>Secteur visé (par période)</Name>
+            <Title>Secteur visé (par période)</Title>
+            <LegendURL width="95" height="86">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_restriction_travaux_foret_rtf&amp;format=image/png&amp;STYLE=Secteur visé (par période)"/>
+            </LegendURL>
+          </Style>
+          <Style>
+            <Name>Damier</Name>
+            <Title>Damier</Title>
+            <LegendURL width="95" height="86">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_restriction_travaux_foret_rtf&amp;format=image/png&amp;STYLE=Damier"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>msp_interdiction_circuler_foret_icaf</Name>
+          <Title>Interdiction de circuler et d’accéder en forêt (ICAF)</Title>
+          <KeywordList>
+            <Keyword>mesures</Keyword>
+            <Keyword>preventives</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=msp_interdiction_circuler_foret_icaf"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.donneesquebec.ca/recherche/dataset/mesures_preventives_feux_foret"/>
+          </DataURL>
+          <Style>
+            <Name>Couleur</Name>
+            <Title>Couleur</Title>
+            <LegendURL width="109" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_interdiction_circuler_foret_icaf&amp;format=image/png&amp;STYLE=Couleur"/>
+            </LegendURL>
+          </Style>
+          <Style>
+            <Name>Damier</Name>
+            <Title>Damier</Title>
+            <LegendURL width="109" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_interdiction_circuler_foret_icaf&amp;format=image/png&amp;STYLE=Damier"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>danger_incendie</Name>
+          <Title>Danger d'incendie</Title>
+          <Abstract>Danger d'incendie</Abstract>
+          <KeywordList>
+            <Keyword>feux SOPFEU danger incendie</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:42105</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=danger_incendie"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/danger-d-incendie"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="123" height="167">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=danger_incendie&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>points_feux_historique</Name>
+          <Title>Feux - Historique</Title>
+          <Abstract>Historique des points des sources de feux</Abstract>
+          <KeywordList>
+            <Keyword>feux historique</Keyword>
+            <Keyword>feux SOPFEU</Keyword>
+            <Keyword>feux</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=points_feux_historique"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/feux-actifs"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="137" height="194">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=points_feux_historique&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>danger_incendie_demain</Name>
+          <Title>Danger d'incendie prévu demain</Title>
+          <Abstract>Danger d'incendie</Abstract>
+          <KeywordList>
+            <Keyword>feux SOPFEU danger incendie</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:42105</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=danger_incendie_demain"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/danger-d-incendie"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="123" height="167">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=danger_incendie_demain&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>feux_interdiction_vol</Name>
+          <Title>Interdiction de survol d'un feu de forêt (NOTAM)</Title>
+          <KeywordList>
+            <Keyword>feux</Keyword>
+            <Keyword>sopfeu</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=feux_interdiction_vol"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.sopfeu.qc.ca/prevention/mesures-preventives-et-restrictions/"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="127" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=feux_interdiction_vol&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>danger_incendie_apres_demain</Name>
+          <Title>Danger d'incendie prévu après demain</Title>
+          <Abstract>Danger d'incendie</Abstract>
+          <KeywordList>
+            <Keyword>feux SOPFEU danger incendie</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:42105</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=danger_incendie_apres_demain"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/danger-d-incendie"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="123" height="167">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=danger_incendie_apres_demain&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>points_feux</Name>
+          <Title>Feux actifs</Title>
+          <Abstract>Points des sources de feux actifs</Abstract>
+          <KeywordList>
+            <Keyword>feux</Keyword>
+            <Keyword>feux actifs</Keyword>
+            <Keyword>SOPFEU</Keyword>
+            <Keyword>feux SOPFEU</Keyword>
+          </KeywordList>
+          <CRS>EPSG:3857</CRS>
+          <CRS>EPSG:4326</CRS>
+          <CRS>EPSG:4269</CRS>
+          <CRS>EPSG:32183</CRS>
+          <CRS>EPSG:32184</CRS>
+          <CRS>EPSG:32185</CRS>
+          <CRS>EPSG:32186</CRS>
+          <CRS>EPSG:32187</CRS>
+          <CRS>EPSG:32188</CRS>
+          <CRS>EPSG:32189</CRS>
+          <CRS>EPSG:32190</CRS>
+          <CRS>EPSG:32198</CRS>
+          <CRS>EPSG:2036</CRS>
+          <CRS>EPSG:2037</CRS>
+          <CRS>EPSG:2148</CRS>
+          <CRS>EPSG:2149</CRS>
+          <CRS>EPSG:2150</CRS>
+          <CRS>EPSG:26917</CRS>
+          <CRS>EPSG:26918</CRS>
+          <CRS>EPSG:26919</CRS>
+          <CRS>EPSG:26920</CRS>
+          <CRS>EPSG:900913</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:3857" minx="-1.0043e+07" miny="5.29118e+06" maxx="-5.20778e+06" maxy="9.42263e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=points_feux"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/feux-actifs"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="137" height="167">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=points_feux&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Alertes</Name>
+        <Title>Alertes</Title>
+        <Abstract>Alertes</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="394" height="1436">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Alertes&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>masas_naad_adna_p_categorie_meteo</Name>
+          <Title>En Alerte - météo (point)</Title>
+          <KeywordList>
+            <Keyword>protocole</Keyword>
+            <Keyword>commun</Keyword>
+            <Keyword>alerte</Keyword>
+            <Keyword>urgence</Keyword>
+            <Keyword>pelmorex</Keyword>
+            <Keyword>adna</Keyword>
+            <Keyword>naads</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=masas_naad_adna_p_categorie_meteo"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/ee020e8c-0e80-4ecf-8499-fb8b9c2e6b26"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="276" height="248">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=masas_naad_adna_p_categorie_meteo&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>masas_naad_adna_p_categorie</Name>
+          <Title>En Alerte - catégorie (point)</Title>
+          <KeywordList>
+            <Keyword>protocole</Keyword>
+            <Keyword>commun</Keyword>
+            <Keyword>alerte</Keyword>
+            <Keyword>urgence</Keyword>
+            <Keyword>pelmorex</Keyword>
+            <Keyword>adna</Keyword>
+            <Keyword>naads</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=masas_naad_adna_p_categorie"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/ee020e8c-0e80-4ecf-8499-fb8b9c2e6b26"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="394" height="923">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=masas_naad_adna_p_categorie&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>masas_naad_adna_s_public</Name>
+          <Title>En Alerte - météo (poly)</Title>
+          <KeywordList>
+            <Keyword>masas_naad_adna_s</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=masas_naad_adna_s_public"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/alertes-meteo-polygones"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="155" height="86">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=masas_naad_adna_s_public&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>masas_naad_adna_p</Name>
+          <Title>En Alerte - sévérité (point)</Title>
+          <KeywordList>
+            <Keyword>protocole</Keyword>
+            <Keyword>commun</Keyword>
+            <Keyword>alerte</Keyword>
+            <Keyword>urgence</Keyword>
+            <Keyword>pelmorex</Keyword>
+            <Keyword>adna</Keyword>
+            <Keyword>naads</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=masas_naad_adna_p"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/ee020e8c-0e80-4ecf-8499-fb8b9c2e6b26"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="210" height="113">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=masas_naad_adna_p&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>masas_naad_adna_s</Name>
+          <Title>En Alerte - sévérité (polygone)</Title>
+          <KeywordList>
+            <Keyword>masas_naad_adna_s</Keyword>
+          </KeywordList>
+          <CRS>EPSG:32198</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90.2178</westBoundLongitude>
+            <eastBoundLongitude>-46.7822</eastBoundLongitude>
+            <southBoundLatitude>42.8632</southBoundLatitude>
+            <northBoundLatitude>64.2855</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:32198" minx="-1.1e+06" miny="-23500" maxx="1.1e+06" maxy="2.2535e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=masas_naad_adna_s"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>igo</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/faa9277d-e679-4d81-9511-5916806eeb23"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="150" height="86">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=masas_naad_adna_s&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>Temperatures</Name>
+        <Title>Températures extrêmes</Title>
+        <Abstract>Temperatures</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="133" height="32">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=Temperatures&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>msp_seuil_chaleur_rss</Name>
+          <Title>Seuils de chaleur extrême par région sociosanitaire</Title>
+          <Abstract>Seuils de chaleur</Abstract>
+          <KeywordList>
+            <Keyword>RSS</Keyword>
+            <Keyword>sociosanitaires</Keyword>
+            <Keyword>chaleur</Keyword>
+            <Keyword>température</Keyword>
+          </KeywordList>
+          <CRS>EPSG:4326</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-1.1e+06</westBoundLongitude>
+            <eastBoundLongitude>1.1e+06</eastBoundLongitude>
+            <southBoundLatitude>-23500</southBoundLatitude>
+            <northBoundLatitude>2.2535e+06</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="-23500" miny="-1.1e+06" maxx="2.2535e+06" maxy="1.1e+06"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=msp_seuil_chaleur_rss"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://www.msss.gouv.qc.ca/professionnels/sante-environnementale/chaleur-extreme/systemes-d-alerte-et-de-surveillance/"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="133" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=msp_seuil_chaleur_rss&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+          <MaxScaleDenominator>500000</MaxScaleDenominator>
+        </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>TREMBLEMENTS</Name>
+        <Title>Tremblements de terre</Title>
+        <Abstract>TREMBLEMENTS</Abstract>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="92" height="32">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=TREMBLEMENTS&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <Layer queryable="1" opaque="0" cascaded="0">
+          <Name>tremblements_terre</Name>
+          <Title>Séismes importants et récents</Title>
+          <KeywordList>
+            <Keyword>seismes</Keyword>
+            <Keyword>tremblements de terre</Keyword>
+            <Keyword>tremblements</Keyword>
+            <Keyword>seisme</Keyword>
+          </KeywordList>
+          <CRS>CRS:84</CRS>
+          <CRS>EPSG:4979</CRS>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-90</westBoundLongitude>
+            <eastBoundLongitude>-45</eastBoundLongitude>
+            <southBoundLatitude>40</southBoundLatitude>
+            <northBoundLatitude>66</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="CRS:84" minx="-90" miny="40" maxx="-45" maxy="66"/>
+          <MetadataURL type="TC211">
+            <Format>text/xml</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?request=GetMetadata&amp;layer=tremblements_terre"/>
+          </MetadataURL>
+          <DataURL>
+            <Format>text/html</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://igo-api.geo.securite.gouv.qc.ca/apis/wss/metadata/seismes-recents"/>
+          </DataURL>
+          <Style>
+            <Name>default</Name>
+            <Title>default</Title>
+            <LegendURL width="92" height="32">
+              <Format>image/png</Format>
+              <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geoegl.msp.gouv.qc.ca/apis/wss/aleas.fcgi?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=tremblements_terre&amp;format=image/png&amp;STYLE=default"/>
+            </LegendURL>
+          </Style>
+        </Layer>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

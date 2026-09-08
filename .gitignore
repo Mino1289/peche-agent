@@ -8,3 +8,8 @@ __pycache__/
 # Caches locaux
 data/cache/
 data/conversations.db
+data/runtime/
+
+# Front
+web/node_modules/
+web/dist/
