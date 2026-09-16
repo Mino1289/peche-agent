@@ -36,6 +36,9 @@ echo "==> Liens RegPec ↔ LCE…"
 echo "==> Sync polygones zones de pêche…"
 "$PYTHON" -m peche.spatial zones-peche
 
+echo "==> Sync guide consommation poisson (CKAN)…"
+"$PYTHON" -m peche.guide_poisson sync || echo "    (guide-poisson ignoré si réseau indisponible)"
+
 echo "==> Harvest plans RegPec offline (optionnel, réseau)…"
 "$PYTHON" -m peche.spatial plans-regpec || echo "    (plans-regpec ignoré si réseau indisponible)"
 

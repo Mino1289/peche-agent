@@ -14,6 +14,26 @@ import type { MapController } from "./map";
 import { loadZoneOptions, mountZonePicker, type ZoneOption } from "./zonePicker";
 import { t } from "./i18n";
 
+type GuidePoissonResponse = {
+  site?: {
+    id: string;
+    nom: string;
+    zone_id?: number;
+    lon?: number;
+    lat?: number;
+  };
+  species?: {
+    nom_commun: string;
+    nom_latin?: string;
+    statut?: string;
+    repas_p?: string;
+    repas_m?: string;
+    repas_g?: string;
+  }[];
+  message?: string;
+  guide_url?: string;
+};
+
 export class DetailPanel {
   private el: HTMLElement;
   private tabMap: HTMLElement;
@@ -265,9 +285,20 @@ export class DetailPanel {
       return;
     }
     const idQ = "id_kind=regpec";
-    const [planResp, zoneResp] = await Promise.all([
+    const nom = uninvertName(str(hit.props.nom || hit.props.name));
+    const lon = Number(hit.props.lon);
+    const lat = Number(hit.props.lat);
+    const guideQ = new URLSearchParams({
+      zone_id: String(zoneId),
+      nom,
+    });
+    if (Number.isFinite(lon)) guideQ.set("lon", String(lon));
+    if (Number.isFinite(lat)) guideQ.set("lat", String(lat));
+
+    const [planResp, zoneResp, guideResp] = await Promise.all([
       fetch(`/api/plans/${zoneId}/${planId}?${idQ}`),
       fetch(`/api/zones/${zoneId}/reglements?${idQ}`),
+      fetch(`/api/guide-poisson?${guideQ.toString()}`),
     ]);
     body.innerHTML = "";
     if (planResp.ok) {
@@ -299,6 +330,61 @@ export class DetailPanel {
     } else {
       body.innerHTML += `<p class="identify-error">${escapeHtml(m.zoneRulesUnavailable(zoneResp.status))}</p>`;
     }
+
+    if (guideResp.ok) {
+      const guide = (await guideResp.json()) as GuidePoissonResponse;
+      body.appendChild(this.renderSpeciesGuide(guide));
+    }
+  }
+
+  private renderSpeciesGuide(guide: GuidePoissonResponse): HTMLElement {
+    const m = t();
+    const section = document.createElement("section");
+    section.className = "detail-reg-block species-guide";
+    const title = document.createElement("h3");
+    title.textContent = m.speciesGuide;
+    section.appendChild(title);
+
+    const disclaimer = document.createElement("p");
+    disclaimer.className = "muted";
+    disclaimer.textContent = m.speciesGuideDisclaimer;
+    section.appendChild(disclaimer);
+
+    const species = guide.species || [];
+    if (!species.length) {
+      const empty = document.createElement("p");
+      empty.className = "muted";
+      empty.textContent = guide.message || m.speciesGuideEmpty;
+      section.appendChild(empty);
+    } else {
+      if (guide.site?.nom) {
+        const site = document.createElement("p");
+        site.innerHTML = `<strong>${escapeHtml(guide.site.nom)}</strong>`;
+        section.appendChild(site);
+      }
+      const list = document.createElement("ul");
+      list.className = "species-list";
+      for (const sp of species) {
+        const li = document.createElement("li");
+        const meals = m.speciesMeals(
+          sp.repas_p || "—",
+          sp.repas_m || "—",
+          sp.repas_g || "—",
+        );
+        li.innerHTML = `<strong>${escapeHtml(sp.nom_commun)}</strong>${
+          sp.nom_latin ? ` <span class="muted"><em>${escapeHtml(sp.nom_latin)}</em></span>` : ""
+        }${sp.statut ? `<br><span class="muted">${escapeHtml(m.speciesStatus)} : ${escapeHtml(sp.statut)}</span>` : ""}<br><span class="muted">${escapeHtml(meals)}</span>`;
+        list.appendChild(li);
+      }
+      section.appendChild(list);
+    }
+
+    if (guide.guide_url) {
+      const link = document.createElement("p");
+      link.innerHTML = `<a href="${escapeHtml(guide.guide_url)}" target="_blank" rel="noopener">${escapeHtml(m.speciesGuideLink)}</a>`;
+      section.appendChild(link);
+    }
+    return section;
   }
 
   private fillBarrage(body: HTMLElement, hit: IdentifyHit): void {

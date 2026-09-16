@@ -20,6 +20,7 @@ from peche.api.routes import (
     chat,
     conversations,
     features,
+    guide_poisson,
     health,
     live,
     ogc,
@@ -90,6 +91,7 @@ def create_app() -> FastAPI:
     app.add_middleware(SelectiveGZipMiddleware, minimum_size=500)
 
     app.include_router(catalog.router)
+    app.include_router(guide_poisson.router)
     app.include_router(ogc.router)
     app.include_router(features.router)
     app.include_router(live.router)

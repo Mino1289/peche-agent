@@ -553,6 +553,29 @@ TOOL_SCHEMAS: list[dict] = [
         },
     },
     {
+        "name": "get_species_at_plan",
+        "description": (
+            "Espèces relevées dans le guide de consommation du poisson "
+            "(sites échantillonnés MELCCFP, pas un inventaire exhaustif). "
+            "Utiliser après search_plans quand l'utilisateur demande quelles "
+            "espèces sont documentées sur un plan d'eau."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "zone_id": {"type": "integer"},
+                "plan_id": {
+                    "type": "integer",
+                    "description": "Issu de search_plans (optionnel si nom/coords).",
+                },
+                "nom": {"type": "string"},
+                "lon": {"type": "number"},
+                "lat": {"type": "number"},
+            },
+            "required": ["zone_id"],
+        },
+    },
+    {
         "name": "get_point_info",
         "description": (
             "Contexte d'un point utilisateur sur la carte : zone de pêche, "
@@ -598,6 +621,7 @@ TOOLS = {
     "search_barrages": lambda **kw: tools.search_barrages(**kw),
     "get_barrages_at_plan": lambda **kw: tools.get_barrages_at_plan(**kw),
     "get_barrages_at_place": lambda **kw: tools.get_barrages_at_place(**kw),
+    "get_species_at_plan": lambda **kw: tools.get_species_at_plan(**kw),
     "get_fishing_advice": lambda **kw: tools.get_fishing_advice(**kw),
     "get_map_context": lambda **kw: tools.get_map_context(**kw),
     "set_map_view": lambda **kw: _map_tools.set_map_view(**kw),

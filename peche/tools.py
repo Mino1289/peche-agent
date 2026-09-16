@@ -20,6 +20,7 @@ Outils granulaires : un appel = une intention.
 | `search_barrages` | répertoire CEHQ (~6000 barrages) |
 | `get_barrages_at_plan` | barrages ≤10 km d'un plan d'eau |
 | `get_barrages_at_place` | barrages ≤10 km d'un lieu |
+| `get_species_at_plan` | espèces du guide consommation à un plan d'eau |
 
 Les retours live incluent toujours `observed_at` et `source`. Les retours
 règlements incluent `as_of_date` quand un filtre temporel a été appliqué.
@@ -1007,6 +1008,33 @@ def get_barrages_at_place(place: str, radius_km: float = _BARRAGE_RADIUS_KM) -> 
         radius_km=radius_km,
         extra={"place": place, "geocoded_label": best.get("label")},
     )
+
+
+def get_species_at_plan(
+    zone_id: int,
+    plan_id: int | None = None,
+    *,
+    nom: str | None = None,
+    lon: float | None = None,
+    lat: float | None = None,
+) -> dict:
+    """Espèces du guide consommation pour un plan d'eau (sites échantillonnés)."""
+    from peche.guide_poisson.lookup import lookup_guide_poisson
+
+    err = _zone_error(zone_id)
+    if err:
+        return err
+    if plan_id is not None:
+        loc = _find_location(zone_id, plan_id)
+        if loc:
+            nom = nom or loc.get("nom")
+            if lon is None:
+                lon = loc.get("lon")
+            if lat is None:
+                lat = loc.get("lat")
+        elif nom is None:
+            return {"error": f"Plan {plan_id} introuvable dans zone {zone_id}."}
+    return lookup_guide_poisson(zone_id=zone_id, nom=nom, lon=lon, lat=lat)
 
 
 def get_map_context(
