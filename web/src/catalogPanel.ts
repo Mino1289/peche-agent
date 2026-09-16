@@ -5,6 +5,14 @@ import type { MapController } from "./map";
 import { PENTE_COLORS } from "./filters";
 import { legendSrc, ETAT_COLORS } from "./layers";
 import { groupTitle, t } from "./i18n";
+import {
+  addStoredCustomLayer,
+  discoverLayers,
+  loadStoredCustomLayers,
+  removeStoredCustomLayer,
+  validateCustomLayer,
+  type DiscoverHit,
+} from "./customLayers";
 
 export class CatalogPanel {
   private el: HTMLElement;
@@ -12,6 +20,7 @@ export class CatalogPanel {
   private search = "";
   private zoom = 6;
   private catalog: Catalog | null = null;
+  private addLayerOpen = false;
 
   constructor(el: HTMLElement, map: MapController) {
     this.el = el;
@@ -31,6 +40,15 @@ export class CatalogPanel {
     const header = document.createElement("div");
     header.className = "panel-header catalog-header";
     header.innerHTML = `<h2>${escapeHtml(m.layersTitle)}</h2>`;
+    const addBtn = document.createElement("button");
+    addBtn.type = "button";
+    addBtn.className = "btn-sidebar catalog-add-btn";
+    addBtn.textContent = m.addLayer;
+    addBtn.addEventListener("click", () => {
+      this.addLayerOpen = !this.addLayerOpen;
+      this.renderAddLayerForm();
+    });
+    header.appendChild(addBtn);
     const input = document.createElement("input");
     input.type = "search";
     input.placeholder = m.searchPlaceholder;
@@ -42,6 +60,12 @@ export class CatalogPanel {
     });
     header.appendChild(input);
     this.el.appendChild(header);
+
+    const addWrap = document.createElement("div");
+    addWrap.id = "catalog-add-wrap";
+    addWrap.hidden = !this.addLayerOpen;
+    this.el.appendChild(addWrap);
+    if (this.addLayerOpen) this.renderAddLayerForm();
 
     const body = document.createElement("div");
     body.className = "catalog-body";
@@ -56,6 +80,17 @@ export class CatalogPanel {
     const m = t();
     const body = this.el.querySelector("#catalog-body")!;
     body.innerHTML = "";
+
+    const customLayers = loadStoredCustomLayers();
+    if (customLayers.length) {
+      const details = document.createElement("details");
+      details.open = true;
+      details.innerHTML = `<summary>${escapeHtml(m.customLayers)} <span class="badge">${customLayers.length}</span></summary>`;
+      for (const layer of customLayers) {
+        details.appendChild(this.customLayerRow(layer));
+      }
+      body.appendChild(details);
+    }
 
     const bm = document.createElement("details");
     bm.open = false;
@@ -95,6 +130,161 @@ export class CatalogPanel {
       }
       body.appendChild(details);
     }
+  }
+
+  private renderAddLayerForm(): void {
+    const wrap = this.el.querySelector("#catalog-add-wrap") as HTMLElement | null;
+    if (!wrap) return;
+    wrap.hidden = !this.addLayerOpen;
+    if (!this.addLayerOpen) {
+      wrap.innerHTML = "";
+      return;
+    }
+    const m = t();
+    wrap.innerHTML = `
+      <div class="catalog-add-form">
+        <h3>${escapeHtml(m.addLayerTitle)}</h3>
+        <label class="catalog-add-field">
+          <span>${escapeHtml(m.addLayerSearch)}</span>
+          <input type="search" class="search-input" id="discover-q" />
+        </label>
+        <div id="discover-results" class="discover-results"></div>
+        <hr />
+        <label class="catalog-add-field">
+          <span>${escapeHtml(m.addLayerUrl)}</span>
+          <input type="url" class="search-input" id="custom-url" placeholder="https://…" />
+        </label>
+        <label class="catalog-add-field">
+          <span>${escapeHtml(m.addLayerName)}</span>
+          <input type="text" class="search-input" id="custom-layer-name" />
+        </label>
+        <label class="catalog-add-field">
+          <span>${escapeHtml(m.addLayerType)}</span>
+          <select id="custom-layer-type" class="search-input">
+            <option value="wms">WMS</option>
+            <option value="wfs">WFS</option>
+          </select>
+        </label>
+        <p id="custom-layer-error" class="filter-error muted" hidden></p>
+        <div class="catalog-add-actions">
+          <button type="button" class="btn-secondary" id="custom-layer-submit">${escapeHtml(m.addLayerSubmit)}</button>
+          <button type="button" class="btn-muted" id="custom-layer-cancel">${escapeHtml(m.addLayerCancel)}</button>
+        </div>
+      </div>`;
+
+    const qInput = wrap.querySelector("#discover-q") as HTMLInputElement;
+    const results = wrap.querySelector("#discover-results") as HTMLElement;
+    let debounce: number | undefined;
+    qInput.addEventListener("input", () => {
+      window.clearTimeout(debounce);
+      debounce = window.setTimeout(() => void this.runDiscover(qInput.value, results), 350);
+    });
+
+    wrap.querySelector("#custom-layer-cancel")!.addEventListener("click", () => {
+      this.addLayerOpen = false;
+      this.renderAddLayerForm();
+    });
+
+    wrap.querySelector("#custom-layer-submit")!.addEventListener("click", () => {
+      void this.submitCustomLayer(wrap);
+    });
+  }
+
+  private async runDiscover(q: string, container: HTMLElement): Promise<void> {
+    if (!q.trim()) {
+      container.innerHTML = "";
+      return;
+    }
+    container.innerHTML = `<p class="muted">${escapeHtml(t().loading)}</p>`;
+    try {
+      const hits = await discoverLayers(q.trim());
+      container.innerHTML = "";
+      if (!hits.length) {
+        container.innerHTML = `<p class="muted">—</p>`;
+        return;
+      }
+      for (const hit of hits.slice(0, 12)) {
+        container.appendChild(this.discoverHitRow(hit));
+      }
+    } catch (err) {
+      container.innerHTML = `<p class="filter-error">${escapeHtml(String(err))}</p>`;
+    }
+  }
+
+  private discoverHitRow(hit: DiscoverHit): HTMLElement {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "discover-hit";
+    btn.innerHTML = `<strong>${escapeHtml(hit.title)}</strong><br><span class="muted">${escapeHtml(hit.layer_name || "")} · ${escapeHtml(hit.source_title)}</span>`;
+    btn.addEventListener("click", () => {
+      const urlInput = this.el.querySelector("#custom-url") as HTMLInputElement | null;
+      const nameInput = this.el.querySelector("#custom-layer-name") as HTMLInputElement | null;
+      const typeInput = this.el.querySelector("#custom-layer-type") as HTMLSelectElement | null;
+      if (urlInput) urlInput.value = hit.url;
+      if (nameInput) nameInput.value = hit.layer_name || hit.title;
+      if (typeInput) typeInput.value = hit.source_type === "wfs" ? "wfs" : "wms";
+    });
+    return btn;
+  }
+
+  private async submitCustomLayer(wrap: HTMLElement): Promise<void> {
+    const m = t();
+    const url = (wrap.querySelector("#custom-url") as HTMLInputElement).value.trim();
+    const layer_name = (wrap.querySelector("#custom-layer-name") as HTMLInputElement).value.trim();
+    const source_type = (wrap.querySelector("#custom-layer-type") as HTMLSelectElement).value;
+    const errEl = wrap.querySelector("#custom-layer-error") as HTMLElement;
+    const submit = wrap.querySelector("#custom-layer-submit") as HTMLButtonElement;
+    errEl.hidden = true;
+    submit.disabled = true;
+    submit.textContent = m.addLayerValidating;
+    try {
+      const result = await validateCustomLayer({ url, layer_name, source_type });
+      if (!result.ok || !result.layer) {
+        errEl.hidden = false;
+        errEl.textContent = result.error || "Error";
+        return;
+      }
+      addStoredCustomLayer(result.layer);
+      this.map.addCustomLayer(result.layer);
+      this.addLayerOpen = false;
+      if (this.catalog) this.render(this.catalog);
+    } finally {
+      submit.disabled = false;
+      submit.textContent = m.addLayerSubmit;
+    }
+  }
+
+  private customLayerRow(def: LayerDef): HTMLElement {
+    const wrap = document.createElement("div");
+    wrap.className = "layer-block";
+    const row = document.createElement("label");
+    row.className = "layer-row";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = this.map.getMapState().layers.some((l) => l.id === def.id && l.visible);
+    cb.addEventListener("change", () => {
+      this.map.setLayerVisible(def.id, cb.checked);
+    });
+    row.appendChild(cb);
+    const title = document.createElement("span");
+    title.className = "layer-title";
+    title.textContent = def.title;
+    row.appendChild(title);
+    const rm = document.createElement("button");
+    rm.type = "button";
+    rm.className = "btn-icon custom-layer-rm";
+    rm.title = t().removePin;
+    rm.textContent = "✕";
+    rm.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      removeStoredCustomLayer(def.id);
+      this.map.removeCustomLayer(def.id);
+      if (this.catalog) this.render(this.catalog);
+    });
+    row.appendChild(rm);
+    wrap.appendChild(row);
+    return wrap;
   }
 
   private basemapRow(def: LayerDef): HTMLElement {

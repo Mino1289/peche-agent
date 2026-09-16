@@ -1346,3 +1346,66 @@ details > summary::-webkit-details-marker {
   font-size: 0.85rem;
   margin-top: 12px;
 }
+
+/* Catalogue — couches custom */
+.catalog-header {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.catalog-add-btn {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.catalog-add-form {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--panel-border);
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.catalog-add-form h3 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+
+.catalog-add-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+
+.catalog-add-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.discover-results {
+  max-height: 160px;
+  overflow: auto;
+  margin-bottom: 8px;
+}
+
+.discover-hit {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  margin-bottom: 4px;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.discover-hit:hover {
+  border-color: var(--accent);
+}
+
+.custom-layer-rm {
+  margin-left: auto;
+}

@@ -14,6 +14,7 @@ import {
   zoneFilterActive,
 } from "./filters";
 import { registerProjections } from "./projections";
+import { loadStoredCustomLayers } from "./customLayers";
 import { IDENTIFY_LAYERS, IdentifyOverlay, type IdentifyHit } from "./identify";
 import VectorLayer from "ol/layer/Vector";
 import type BaseLayer from "ol/layer/Base";
@@ -319,7 +320,41 @@ export class MapController {
         }
       }
     }
+    for (const custom of loadStoredCustomLayers()) {
+      this.defs[custom.id] = custom;
+      this.ensureLayer(custom.id);
+      const layer = this.layerIndex[custom.id];
+      if (layer) layer.setVisible(true);
+    }
     return catalog;
+  }
+
+  addCustomLayer(def: LayerDef): void {
+    this.defs[def.id] = def;
+    const existing = this.layerIndex[def.id];
+    if (existing) {
+      existing.setVisible(true);
+      return;
+    }
+    const layer = createOverlayLayer(def);
+    this.layerIndex[def.id] = layer;
+    this.map.addLayer(layer);
+    attachClipToNewLayer(layer as Layer);
+    layer.setVisible(true);
+  }
+
+  removeCustomLayer(id: string): void {
+    const layer = this.layerIndex[id];
+    if (layer) {
+      this.map.removeLayer(layer);
+      delete this.layerIndex[id];
+    }
+    delete this.defs[id];
+    delete this.lastFetch[id];
+  }
+
+  getCustomLayerDefs(): LayerDef[] {
+    return Object.values(this.defs).filter((d) => Boolean(d.extra?.custom));
   }
 
   getCatalog(): Catalog | null {
