@@ -11,6 +11,11 @@
   --link-hover: #bae6fd;
   --radius: 10px;
   --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+  /* Alias pour modales / boutons prompt */
+  --surface: var(--panel);
+  --border: var(--panel-border);
+  --text-muted: var(--muted);
+  --surface-hover: #243044;
 }
 
 * {
@@ -1287,7 +1292,10 @@ details > summary::-webkit-details-marker {
   padding: 20px;
   max-width: 420px;
   width: 100%;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.04);
+  backdrop-filter: none;
 }
 
 .modal-header {
