@@ -7,6 +7,7 @@ import { toLonLat } from "ol/proj";
 import type { MapPin } from "./types";
 import { uninvertName } from "./names";
 import { escapeHtml } from "./regs";
+import { t } from "./i18n";
 
 export const IDENTIFY_LAYERS = new Set([
   "barrages_cehq",
@@ -39,6 +40,7 @@ export class IdentifyOverlay {
   private el: HTMLDivElement;
   private handlers: IdentifyHandlers;
   private last: IdentifyHit | null = null;
+  private lastPinOpts: { loading?: boolean } | undefined;
 
   constructor(map: OlMap, handlers: IdentifyHandlers) {
     this.handlers = handlers;
@@ -57,15 +59,26 @@ export class IdentifyOverlay {
 
   hide(): void {
     this.last = null;
+    this.lastPinOpts = undefined;
     this.el.innerHTML = "";
     this.overlay.setPosition(undefined);
   }
 
+  refreshLocale(): void {
+    if (!this.last) return;
+    if (this.last.layerId === PINS_LAYER_ID) {
+      this.renderPinPopup(this.last.props as MapPin, this.last.coordinate, this.lastPinOpts);
+      return;
+    }
+    void this.showFeature(this.last);
+  }
+
   showLoading(coord: Coordinate, title: string): void {
+    const m = t();
     this.el.innerHTML = `
       <div class="identify-header">
         <h3>${escapeHtml(title)}</h3>
-        <button type="button" class="identify-close" data-act="close" title="Fermer">✕</button>
+        <button type="button" class="identify-close" data-act="close" title="${escapeHtml(m.close)}">✕</button>
       </div>
       <div class="identify-body">${spinnerHtml()}</div>`;
     this.overlay.setPosition(coord);
@@ -73,20 +86,22 @@ export class IdentifyOverlay {
 
   async showFeature(hit: IdentifyHit): Promise<void> {
     this.last = hit;
+    this.lastPinOpts = undefined;
     const title = titleFor(hit);
     this.showLoading(hit.coordinate, title);
     const body = await this.buildBody(hit);
     if (this.last !== hit) return;
     const [lon, lat] = toLonLat(hit.coordinate);
+    const m = t();
     this.el.innerHTML = `
       <div class="identify-header">
         <h3>${escapeHtml(title)}</h3>
-        <button type="button" class="identify-close" data-act="close" title="Fermer">✕</button>
+        <button type="button" class="identify-close" data-act="close" title="${escapeHtml(m.close)}">✕</button>
       </div>
       <div class="identify-body">${body}</div>
       <div class="identify-actions">
-        <button type="button" class="btn-secondary" data-act="detail">Voir en détail</button>
-        <button type="button" class="btn-secondary" data-act="add-pin">Ajouter en point</button>
+        <button type="button" class="btn-secondary" data-act="detail">${escapeHtml(m.viewDetail)}</button>
+        <button type="button" class="btn-secondary" data-act="add-pin">${escapeHtml(m.addPin)}</button>
         ${gmapsButton(lat, lon)}
       </div>`;
     this.overlay.setPosition(hit.coordinate);
@@ -102,6 +117,7 @@ export class IdentifyOverlay {
       props: { ...pin },
       coordinate,
     };
+    this.lastPinOpts = opts;
     this.renderPinPopup(pin, coordinate, opts);
   }
 
@@ -118,23 +134,24 @@ export class IdentifyOverlay {
     coordinate: Coordinate,
     opts?: { loading?: boolean },
   ): void {
+    const m = t();
     const label = pin.label || coordsLabel(pin.lon, pin.lat);
     const ctx = (pin.props || {}) as Record<string, unknown>;
     const ctxHtml = opts?.loading ? spinnerHtml() : pinContextHtml(ctx);
     this.el.innerHTML = `
       <div class="identify-header">
         <h3>${escapeHtml(label)}</h3>
-        <button type="button" class="identify-close" data-act="close" title="Fermer">✕</button>
+        <button type="button" class="identify-close" data-act="close" title="${escapeHtml(m.close)}">✕</button>
       </div>
       <div class="identify-body">
         <p>${fmt(pin.lat, 5)}° N · ${fmt(pin.lon, 5)}° O</p>
         ${ctxHtml}
-        ${pin.source === "feature" && pin.layer ? `<p class="muted">Issu de ${escapeHtml(pin.layer)}</p>` : ""}
+        ${pin.source === "feature" && pin.layer ? `<p class="muted">${escapeHtml(m.fromLayer(pin.layer))}</p>` : ""}
       </div>
       <div class="identify-actions">
         ${zoneRegsButton()}
         ${gmapsButton(pin.lat, pin.lon)}
-        <button type="button" class="btn-danger" data-act="del-pin" data-pin="${escapeHtml(pin.id)}">Retirer</button>
+        <button type="button" class="btn-danger" data-act="del-pin" data-pin="${escapeHtml(pin.id)}">${escapeHtml(m.removePin)}</button>
       </div>`;
     this.overlay.setPosition(coordinate);
   }
@@ -200,7 +217,7 @@ export function titleFor(hit: IdentifyHit): string {
     return uninvertName(String(p.nom || p.name || `Barrage ${p.numero || ""}`.trim()));
   }
   if (hit.layerId === "vigilance_stations") {
-    return String(p.description || p.plan_eau || p.station || "Station hydrométrique");
+    return String(p.description || p.plan_eau || p.station || t().station);
   }
   if (hit.layerId === "marees_shc") {
     return String(p.nom || p.officialName || p.name || p.code || "Station de marée");
@@ -210,7 +227,7 @@ export function titleFor(hit: IdentifyHit): string {
   }
   if (hit.layerId === "zone") {
     const z = zoneLabelFromProps(p);
-    return z ? `Réglementation — ${z}` : "Réglementation de zone";
+    return z ? t().zoneRegsTitle(z) : t().zoneRegs;
   }
   return uninvertName(String(p.nom || p.name || hit.layerId));
 }
@@ -224,11 +241,11 @@ export function zoneLabelFromProps(p: Record<string, unknown>): string {
 
 function gmapsButton(lat: number, lon: number): string {
   const url = `https://www.google.com/maps?q=${lat},${lon}`;
-  return `<a class="btn-secondary gmaps-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">Afficher sur Google Maps</a>`;
+  return `<a class="btn-secondary gmaps-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(t().showOnGmaps)}</a>`;
 }
 
 function zoneRegsButton(): string {
-  return `<button type="button" class="btn-secondary" data-act="zone-regs">Voir la réglementation de la zone</button>`;
+  return `<button type="button" class="btn-secondary" data-act="zone-regs">${escapeHtml(t().zoneRegs)}</button>`;
 }
 
 function pinFromHit(hit: IdentifyHit): MapPin | null {
@@ -241,55 +258,59 @@ function pinContext(pin: MapPin): Record<string, unknown> {
 }
 
 function pinContextHtml(ctx: Record<string, unknown>): string {
+  const m = t();
   const rows: [string, string][] = [];
   const zone = str(ctx.zone_nom || ctx.fishing_zone);
-  if (zone) rows.push(["Zone de pêche", zone]);
+  if (zone) rows.push([m.fishingZone, zone]);
   const exception = str(ctx.exception_nom);
-  if (exception) rows.push(["Exception", uninvertName(exception)]);
+  if (exception) rows.push([m.exception, uninvertName(exception)]);
   const water = str(ctx.waterbody_name);
-  if (water) rows.push(["Plan d'eau", uninvertName(water)]);
+  if (water) rows.push([m.waterbody, uninvertName(water)]);
   const tfs = str(ctx.tfs_name);
-  if (tfs) rows.push(["Territoire faunique", tfs]);
+  if (tfs) rows.push([m.wildlifeTerritory, tfs]);
   const hunt = str(ctx.hunting_forbidden_name);
-  if (hunt) rows.push(["Chasse interdite", uninvertName(hunt)]);
+  if (hunt) rows.push([m.huntingForbidden, uninvertName(hunt)]);
   if (!rows.length) {
-    return `<p class="muted">Point utilisateur</p>`;
+    return `<p class="muted">${escapeHtml(m.userPin)}</p>`;
   }
   return dl(rows);
 }
 
 function spinnerHtml(): string {
-  return `<div class="identify-spinner-wrap" role="status" aria-label="Chargement"><span class="identify-spinner"></span></div>`;
+  const m = t();
+  return `<div class="identify-spinner-wrap" role="status" aria-label="${escapeHtml(m.loadingAria)}"><span class="identify-spinner"></span></div>`;
 }
 
 function barrageHtml(p: Record<string, unknown>): string {
+  const m = t();
   const rows: [string, string][] = [
-    ["Nom", uninvertName(str(p.nom || p.name))],
-    ["N°", str(p.numero)],
-    ["Catégorie", str(p.categorie)],
-    ["Plan d'eau", uninvertName(str(p.plan_eau))],
-    ["Municipalité", str(p.municipalite)],
-    ["MRC", str(p.mrc)],
+    [m.name, uninvertName(str(p.nom || p.name))],
+    [m.number, str(p.numero)],
+    [m.category, str(p.categorie)],
+    [m.waterbody, uninvertName(str(p.plan_eau))],
+    [m.municipality, str(p.municipalite)],
+    [m.mrc, str(p.mrc)],
   ];
   let html = dl(rows);
   const url = str(p.url_fiche);
   if (url) {
-    html += `<p><a href="${escapeHtml(url)}" target="_blank" rel="noopener">Fiche CEHQ</a></p>`;
+    html += `<p><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(m.cehqSheet)}</a></p>`;
   }
   return html;
 }
 
 async function hydrometHtml(p: Record<string, unknown>): Promise<string> {
+  const m = t();
   const sid = str(p.station || p.station_id || p.id);
   const cached = dl([
-    ["Station", sid],
-    ["Plan d'eau", uninvertName(str(p.plan_eau))],
-    ["État (cache)", str(p.etat)],
+    [m.station, sid],
+    [m.waterbody, uninvertName(str(p.plan_eau))],
+    [m.cachedState, str(p.etat)],
   ]);
   if (!sid) return cached;
   const resp = await fetch(`/api/hydromet/${encodeURIComponent(sid)}`);
   if (!resp.ok) {
-    return `${cached}<p class="identify-error">Mesures live indisponibles (${resp.status})</p>`;
+    return `${cached}<p class="identify-error">${escapeHtml(m.liveUnavailable(resp.status))}</p>`;
   }
   const live = (await resp.json()) as Record<string, unknown>;
   if (live.error) {
@@ -297,25 +318,26 @@ async function hydrometHtml(p: Record<string, unknown>): Promise<string> {
   }
   return (
     dl([
-      ["Station", str(live.station_id || sid)],
-      ["Plan d'eau", uninvertName(str(live.plan_eau || p.plan_eau))],
-      ["État", str(live.etat)],
-      ["Niveau", live.niveau_m != null ? `${live.niveau_m} m` : "—"],
-      ["Débit", live.debit_m3s != null ? `${live.debit_m3s} m³/s` : "—"],
-      ["Observé", str(live.observed_at)],
+      [m.station, str(live.station_id || sid)],
+      [m.waterbody, uninvertName(str(live.plan_eau || p.plan_eau))],
+      [m.state, str(live.etat)],
+      [m.level, live.niveau_m != null ? `${live.niveau_m} m` : "—"],
+      [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : "—"],
+      [m.observed, str(live.observed_at)],
     ]) + linksHtml(live.urls as Record<string, string> | undefined)
   );
 }
 
 async function tidesHtml(p: Record<string, unknown>): Promise<string> {
+  const m = t();
   const code = str(p.code || p.station_code || p.id);
   const nom = str(p.nom || p.officialName || p.name);
   if (!code) {
-    return dl([["Nom", nom]]);
+    return dl([[m.name, nom]]);
   }
   const resp = await fetch(`/api/tides/${encodeURIComponent(code)}?days=2`);
   if (!resp.ok) {
-    return `<p class="identify-error">Marées indisponibles (${resp.status})</p>`;
+    return `<p class="identify-error">${escapeHtml(m.tidesUnavailable(resp.status))}</p>`;
   }
   const live = (await resp.json()) as Record<string, unknown>;
   if (live.error && live.niveau_m == null) {
@@ -323,7 +345,7 @@ async function tidesHtml(p: Record<string, unknown>): Promise<string> {
   }
   const latest =
     live.niveau_m != null
-      ? `<p>Niveau observé : <strong>${escapeHtml(String(live.niveau_m))} m</strong>${
+      ? `<p>${escapeHtml(m.observedLevel)} : <strong>${escapeHtml(String(live.niveau_m))} m</strong>${
           live.observed_at
             ? ` <span class="muted">(${escapeHtml(String(live.observed_at))})</span>`
             : ""
@@ -333,7 +355,7 @@ async function tidesHtml(p: Record<string, unknown>): Promise<string> {
     (live.table as { lignes?: Record<string, unknown>[] } | undefined)?.lignes || [];
   let table = "";
   if (lignes.length) {
-    table = `<table class="identify-table"><thead><tr><th>Jour</th><th>Basse</th><th>Haute</th></tr></thead><tbody>`;
+    table = `<table class="identify-table"><thead><tr><th>${escapeHtml(m.day)}</th><th>${escapeHtml(m.lowTide)}</th><th>${escapeHtml(m.highTide)}</th></tr></thead><tbody>`;
     for (const row of lignes.slice(0, 4)) {
       table += `<tr><td>${escapeHtml(str(row.jour))}</td><td>${escapeHtml(
         str(row.maree_basse_1 || row["marée_basse_1"]),
@@ -345,7 +367,7 @@ async function tidesHtml(p: Record<string, unknown>): Promise<string> {
   }
   return (
     dl([
-      ["Nom", str(nom || live.station_nom)],
+      [m.name, str(nom || live.station_nom)],
       ["Code", code],
     ]) +
     latest +
@@ -356,11 +378,12 @@ async function tidesHtml(p: Record<string, unknown>): Promise<string> {
 
 /** Popup léger : pas de règlements (réservés au panneau détail). */
 function planPopupHtml(p: Record<string, unknown>): string {
+  const m = t();
   const nom = uninvertName(str(p.nom || p.name));
   const zone = zoneLabelFromProps(p);
   const planId = str(p.plan_id);
   const typeEndro = str(p.type_endro);
-  let html = `<p><span class="badge exception-badge">Exception réglementaire</span></p>`;
+  let html = `<p><span class="badge exception-badge">${escapeHtml(m.regulatoryException)}</span></p>`;
   if (nom) html += `<p><strong>${escapeHtml(nom)}</strong></p>`;
   const meta: string[] = [];
   if (planId) meta.push(`Plan ${planId}`);
@@ -369,7 +392,7 @@ function planPopupHtml(p: Record<string, unknown>): string {
   if (meta.length) {
     html += `<p class="muted">${escapeHtml(meta.join(" · "))}</p>`;
   }
-  html += `<p class="muted">Utilisez « Voir en détail » pour les règlements de l'exception et de la zone.</p>`;
+  html += `<p class="muted">${escapeHtml(m.useDetailForRegs)}</p>`;
   return html;
 }
 

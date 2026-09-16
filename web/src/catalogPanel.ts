@@ -1,15 +1,17 @@
-/** Panneau catalogue + filtres. */
+/** Panneau catalogue + filtres + couches custom Forêt ouverte. */
 
 import type { Catalog, LayerDef } from "./types";
 import type { MapController } from "./map";
 import { PENTE_COLORS } from "./filters";
 import { legendSrc, ETAT_COLORS } from "./layers";
+import { groupTitle, t } from "./i18n";
 
 export class CatalogPanel {
   private el: HTMLElement;
   private map: MapController;
   private search = "";
   private zoom = 6;
+  private catalog: Catalog | null = null;
 
   constructor(el: HTMLElement, map: MapController) {
     this.el = el;
@@ -22,18 +24,21 @@ export class CatalogPanel {
   }
 
   render(catalog: Catalog): void {
+    this.catalog = catalog;
     this.zoom = this.map.getZoom();
+    const m = t();
     this.el.innerHTML = "";
     const header = document.createElement("div");
-    header.className = "panel-header";
-    header.innerHTML = `<h2>Couches</h2>`;
+    header.className = "panel-header catalog-header";
+    header.innerHTML = `<h2>${escapeHtml(m.layersTitle)}</h2>`;
     const input = document.createElement("input");
     input.type = "search";
-    input.placeholder = "Rechercher…";
+    input.placeholder = m.searchPlaceholder;
     input.className = "search-input";
+    input.value = this.search;
     input.addEventListener("input", () => {
       this.search = input.value.trim().toLowerCase();
-      this.renderGroups(catalog);
+      this.renderGroups();
     });
     header.appendChild(input);
     this.el.appendChild(header);
@@ -42,16 +47,19 @@ export class CatalogPanel {
     body.className = "catalog-body";
     body.id = "catalog-body";
     this.el.appendChild(body);
-    this.renderGroups(catalog);
+    this.renderGroups();
   }
 
-  private renderGroups(catalog: Catalog): void {
+  private renderGroups(): void {
+    const catalog = this.catalog;
+    if (!catalog) return;
+    const m = t();
     const body = this.el.querySelector("#catalog-body")!;
     body.innerHTML = "";
 
     const bm = document.createElement("details");
     bm.open = false;
-    bm.innerHTML = `<summary>Fonds de carte</summary>`;
+    bm.innerHTML = `<summary>${escapeHtml(m.basemaps)}</summary>`;
     for (const b of catalog.basemaps) {
       bm.appendChild(this.basemapRow(b));
     }
@@ -80,7 +88,8 @@ export class CatalogPanel {
       const details = document.createElement("details");
       details.open =
         Boolean(this.search) || group.layers.some((l) => l.visible_default);
-      details.innerHTML = `<summary>${escapeHtml(group.title)} <span class="badge">${searchLayers.length}</span></summary>`;
+      const groupLabel = groupTitle(group.id, group.title);
+      details.innerHTML = `<summary>${escapeHtml(groupLabel)} <span class="badge">${searchLayers.length}</span></summary>`;
       for (const layer of searchLayers) {
         details.appendChild(this.layerRow(layer));
       }
@@ -108,6 +117,7 @@ export class CatalogPanel {
   }
 
   private layerRow(def: LayerDef): HTMLElement {
+    const m = t();
     const wrap = document.createElement("div");
     wrap.className = "layer-block";
 
@@ -122,7 +132,6 @@ export class CatalogPanel {
       if (filtersEl) filtersEl.hidden = !cb.checked;
     });
     row.appendChild(cb);
-
 
     const hideColor =
       Boolean(def.extra?.etat_colors) || def.id === "vigilance_stations";
@@ -144,7 +153,7 @@ export class CatalogPanel {
       } else {
         swatch.style.background = def.color;
       }
-      swatch.title = outline ? "Contour de la couche" : "Couleur de la couche";
+      swatch.title = outline ? m.layerOutline : m.layerColor;
       row.appendChild(swatch);
     }
 
@@ -166,7 +175,7 @@ export class CatalogPanel {
       b.dataset.min = def.min_zoom != null ? String(def.min_zoom) : "";
       b.dataset.max = def.max_zoom != null ? String(def.max_zoom) : "";
       b.textContent = zBadge;
-      b.title = "Niveau de zoom pour afficher cette couche";
+      b.title = m.zoomBadgeTitle;
       row.appendChild(b);
       applyZoomBadgeState(b, this.zoom);
     }
@@ -176,7 +185,7 @@ export class CatalogPanel {
       colorInput.type = "color";
       colorInput.className = "layer-color-picker";
       colorInput.value = normalizeHex(def.color);
-      colorInput.title = "Changer la couleur";
+      colorInput.title = m.changeColor;
       colorInput.addEventListener("input", () => {
         this.map.setLayerColor(def.id, colorInput.value);
         const sw = row.querySelector(".layer-color") as HTMLElement | null;
@@ -202,7 +211,7 @@ export class CatalogPanel {
     if (src) {
       const img = document.createElement("img");
       img.className = "legend";
-      img.alt = "légende";
+      img.alt = m.legendAlt;
       img.loading = "lazy";
       img.src = src;
       img.onerror = () => {
@@ -248,7 +257,7 @@ export class CatalogPanel {
           def.filter_spec.attr === "No_zone" ||
           def.filter_spec.attr === "zone_id";
         input.placeholder = isZone
-          ? "ex. 21,23,25-28 ou *"
+          ? m.zoneFilterPlaceholder
           : def.filter_spec.attr;
         input.className = "filter-text";
         const err = document.createElement("p");
@@ -355,13 +364,14 @@ function applyZoomBadgeState(el: HTMLElement, zoom: number): void {
 }
 
 function etatLegend(): HTMLElement {
+  const m = t();
   const box = document.createElement("div");
   box.className = "etat-legend";
   const items: [string, string][] = [
-    [ETAT_COLORS.normal, "Normal"],
-    [ETAT_COLORS.surveillance, "Surveillance"],
-    [ETAT_COLORS.alerte, "Alerte"],
-    [ETAT_COLORS.inconnu, "Inconnu / désactivée"],
+    [ETAT_COLORS.normal, m.etatNormal],
+    [ETAT_COLORS.surveillance, m.etatSurveillance],
+    [ETAT_COLORS.alerte, m.etatAlerte],
+    [ETAT_COLORS.inconnu, m.etatUnknown],
   ];
   for (const [color, label] of items) {
     const lab = document.createElement("span");

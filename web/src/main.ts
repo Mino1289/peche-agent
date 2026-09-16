@@ -51,6 +51,17 @@ function renderAppShell(): void {
   }
 }
 
+function updateAppShellLocale(): void {
+  const m = t();
+  const mapBtn = app.querySelector<HTMLButtonElement>('[data-tab="map"]');
+  const chatBtn = app.querySelector<HTMLButtonElement>('[data-tab="chat"]');
+  if (mapBtn) mapBtn.textContent = m.tabMap;
+  if (chatBtn) chatBtn.textContent = m.tabChat;
+  for (const btn of app.querySelectorAll<HTMLButtonElement>(".lang-btn")) {
+    btn.classList.toggle("active", btn.dataset.lang === getLocale());
+  }
+}
+
 function bindTabs(): void {
   for (const btn of app.querySelectorAll<HTMLButtonElement>(".tab-btn")) {
     btn.addEventListener("click", () => {
@@ -132,9 +143,10 @@ loadCatalog();
 window.addEventListener("peche:show-map", () => showTab("map"));
 
 onLocaleChange(() => {
-  renderAppShell();
-  bindTabs();
-  controllers = initControllers();
-  bindMapMoveRefresh();
-  loadCatalog();
+  updateAppShellLocale();
+  const catalog = controllers.map.getCatalog();
+  if (catalog) controllers.catalogPanel.render(catalog);
+  controllers.map.refreshLocale();
+  void controllers.detailPanel.refreshLocale();
+  requestAnimationFrame(() => controllers.map.map.updateSize());
 });

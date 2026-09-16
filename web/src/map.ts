@@ -326,6 +326,10 @@ export class MapController {
     return this.catalog;
   }
 
+  refreshLocale(): void {
+    this.identify.refreshLocale();
+  }
+
   ensureLayer(id: string): BaseLayer | null {
     if (this.layerIndex[id]) return this.layerIndex[id];
     const def = this.defs[id];

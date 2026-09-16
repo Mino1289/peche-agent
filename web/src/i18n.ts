@@ -37,6 +37,85 @@ type Messages = {
   aboutDisclaimer: string;
   catalogError: string;
   msgs: string;
+  // Carte — catalogue
+  layersTitle: string;
+  searchPlaceholder: string;
+  basemaps: string;
+  addLayer: string;
+  addLayerTitle: string;
+  addLayerSearch: string;
+  addLayerUrl: string;
+  addLayerName: string;
+  addLayerType: string;
+  addLayerSubmit: string;
+  addLayerCancel: string;
+  addLayerValidating: string;
+  customLayers: string;
+  // Carte — identify / détail
+  close: string;
+  viewDetail: string;
+  addPin: string;
+  removePin: string;
+  showOnGmaps: string;
+  zoneRegs: string;
+  loadingAria: string;
+  userPin: string;
+  fromLayer: (layer: string) => string;
+  regulatoryException: string;
+  useDetailForRegs: string;
+  station: string;
+  waterbody: string;
+  state: string;
+  level: string;
+  flow: string;
+  observed: string;
+  cachedState: string;
+  liveUnavailable: (status: number) => string;
+  tidesUnavailable: (status: number) => string;
+  observedLevel: string;
+  day: string;
+  lowTide: string;
+  highTide: string;
+  name: string;
+  number: string;
+  category: string;
+  municipality: string;
+  mrc: string;
+  cehqSheet: string;
+  fishingZone: string;
+  exception: string;
+  wildlifeTerritory: string;
+  huntingForbidden: string;
+  unknownStation: string;
+  measuresUnavailable: (status: number) => string;
+  noHistory: string;
+  missingTideCode: string;
+  unknownZone: string;
+  noZoneAtPoint: string;
+  zoneRulesUnavailable: (status: number) => string;
+  incompletePlan: string;
+  planNotFound: (status: number) => string;
+  generalZoneRules: (label: string) => string;
+  exceptionPlanRules: string;
+  zoneRegsTitle: (zone: string) => string;
+  // Guide poisson
+  speciesGuide: string;
+  speciesGuideDisclaimer: string;
+  speciesGuideEmpty: string;
+  speciesGuideLink: string;
+  speciesMeals: (p: string, m: string, g: string) => string;
+  speciesStatus: string;
+  // Légendes / filtres catalogue
+  layerOutline: string;
+  layerColor: string;
+  changeColor: string;
+  legendAlt: string;
+  zoomBadgeTitle: string;
+  zoneFilterPlaceholder: string;
+  etatNormal: string;
+  etatSurveillance: string;
+  etatAlerte: string;
+  etatUnknown: string;
 };
 
 const FR: Messages = {
@@ -78,6 +157,83 @@ const FR: Messages = {
     "Information à titre indicatif seulement — ne remplace pas les textes officiels de réglementation.",
   catalogError: "Erreur catalogue",
   msgs: "msgs",
+  layersTitle: "Couches",
+  searchPlaceholder: "Rechercher…",
+  basemaps: "Fonds de carte",
+  addLayer: "Ajouter une couche",
+  addLayerTitle: "Ajouter une couche Forêt ouverte",
+  addLayerSearch: "Rechercher dans GetCapabilities…",
+  addLayerUrl: "URL du service (WMS/WFS)",
+  addLayerName: "Nom de la couche",
+  addLayerType: "Type",
+  addLayerSubmit: "Ajouter",
+  addLayerCancel: "Annuler",
+  addLayerValidating: "Validation…",
+  customLayers: "Couches ajoutées",
+  close: "Fermer",
+  viewDetail: "Voir en détail",
+  addPin: "Ajouter en point",
+  removePin: "Retirer",
+  showOnGmaps: "Afficher sur Google Maps",
+  zoneRegs: "Voir la réglementation de la zone",
+  loadingAria: "Chargement",
+  userPin: "Point utilisateur",
+  fromLayer: (layer) => `Issu de ${layer}`,
+  regulatoryException: "Exception réglementaire",
+  useDetailForRegs:
+    "Utilisez « Voir en détail » pour les règlements de l'exception et de la zone.",
+  station: "Station",
+  waterbody: "Plan d'eau",
+  state: "État",
+  level: "Niveau",
+  flow: "Débit",
+  observed: "Observé",
+  cachedState: "État (cache)",
+  liveUnavailable: (s) => `Mesures live indisponibles (${s})`,
+  tidesUnavailable: (s) => `Marées indisponibles (${s})`,
+  observedLevel: "Niveau observé",
+  day: "Jour",
+  lowTide: "Basse",
+  highTide: "Haute",
+  name: "Nom",
+  number: "N°",
+  category: "Catégorie",
+  municipality: "Municipalité",
+  mrc: "MRC",
+  cehqSheet: "Fiche CEHQ",
+  fishingZone: "Zone de pêche",
+  exception: "Exception",
+  wildlifeTerritory: "Territoire faunique",
+  huntingForbidden: "Chasse interdite",
+  unknownStation: "Station inconnue",
+  measuresUnavailable: (s) => `Mesures indisponibles (${s})`,
+  noHistory: "Pas d'historique CEHQ pour cette station.",
+  missingTideCode: "Code de station manquant",
+  unknownZone: "Zone inconnue",
+  noZoneAtPoint: "Aucune zone de pêche à cet endroit",
+  zoneRulesUnavailable: (s) => `Règles de zone indisponibles (${s})`,
+  incompletePlan: "Plan incomplet",
+  planNotFound: (s) => `Exception introuvable (${s})`,
+  generalZoneRules: (label) => `${label} — règles générales`,
+  exceptionPlanRules: "Exception — plan d'eau",
+  zoneRegsTitle: (zone) => `Réglementation — ${zone}`,
+  speciesGuide: "Espèces (guide consommation)",
+  speciesGuideDisclaimer:
+    "Sites échantillonnés seulement — ce n'est pas un inventaire exhaustif du plan d'eau.",
+  speciesGuideEmpty: "Aucun site du guide pour ce plan d'eau.",
+  speciesGuideLink: "Guide officiel MELCCFP",
+  speciesMeals: (p, m, g) => `Repas/semaine — P:${p} M:${m} G:${g}`,
+  speciesStatus: "Statut pêche",
+  layerOutline: "Contour de la couche",
+  layerColor: "Couleur de la couche",
+  changeColor: "Changer la couleur",
+  legendAlt: "légende",
+  zoomBadgeTitle: "Niveau de zoom pour afficher cette couche",
+  zoneFilterPlaceholder: "ex. 21,23,25-28 ou *",
+  etatNormal: "Normal",
+  etatSurveillance: "Surveillance",
+  etatAlerte: "Alerte",
+  etatUnknown: "Inconnu / désactivée",
 };
 
 const EN: Messages = {
@@ -119,6 +275,93 @@ const EN: Messages = {
     "For information only — not a substitute for official regulations.",
   catalogError: "Catalog error",
   msgs: "msgs",
+  layersTitle: "Layers",
+  searchPlaceholder: "Search…",
+  basemaps: "Basemaps",
+  addLayer: "Add layer",
+  addLayerTitle: "Add an open-forest layer",
+  addLayerSearch: "Search GetCapabilities…",
+  addLayerUrl: "Service URL (WMS/WFS)",
+  addLayerName: "Layer name",
+  addLayerType: "Type",
+  addLayerSubmit: "Add",
+  addLayerCancel: "Cancel",
+  addLayerValidating: "Validating…",
+  customLayers: "Added layers",
+  close: "Close",
+  viewDetail: "View details",
+  addPin: "Add as pin",
+  removePin: "Remove",
+  showOnGmaps: "Open in Google Maps",
+  zoneRegs: "View zone regulations",
+  loadingAria: "Loading",
+  userPin: "User pin",
+  fromLayer: (layer) => `From ${layer}`,
+  regulatoryException: "Regulatory exception",
+  useDetailForRegs:
+    "Use “View details” for exception and zone regulations.",
+  station: "Station",
+  waterbody: "Water body",
+  state: "Status",
+  level: "Level",
+  flow: "Flow",
+  observed: "Observed",
+  cachedState: "Status (cache)",
+  liveUnavailable: (s) => `Live readings unavailable (${s})`,
+  tidesUnavailable: (s) => `Tides unavailable (${s})`,
+  observedLevel: "Observed level",
+  day: "Day",
+  lowTide: "Low",
+  highTide: "High",
+  name: "Name",
+  number: "No.",
+  category: "Category",
+  municipality: "Municipality",
+  mrc: "MRC",
+  cehqSheet: "CEHQ sheet",
+  fishingZone: "Fishing zone",
+  exception: "Exception",
+  wildlifeTerritory: "Wildlife territory",
+  huntingForbidden: "Hunting prohibited",
+  unknownStation: "Unknown station",
+  measuresUnavailable: (s) => `Readings unavailable (${s})`,
+  noHistory: "No CEHQ history for this station.",
+  missingTideCode: "Missing station code",
+  unknownZone: "Unknown zone",
+  noZoneAtPoint: "No fishing zone at this location",
+  zoneRulesUnavailable: (s) => `Zone rules unavailable (${s})`,
+  incompletePlan: "Incomplete plan",
+  planNotFound: (s) => `Exception not found (${s})`,
+  generalZoneRules: (label) => `${label} — general rules`,
+  exceptionPlanRules: "Exception — water body",
+  zoneRegsTitle: (zone) => `Regulations — ${zone}`,
+  speciesGuide: "Species (consumption guide)",
+  speciesGuideDisclaimer:
+    "Sampled sites only — not a complete inventory of the water body.",
+  speciesGuideEmpty: "No guide site matched this water body.",
+  speciesGuideLink: "Official MELCCFP guide",
+  speciesMeals: (p, m, g) => `Meals/week — S:${p} M:${m} L:${g}`,
+  speciesStatus: "Fishing status",
+  layerOutline: "Layer outline",
+  layerColor: "Layer color",
+  changeColor: "Change color",
+  legendAlt: "legend",
+  zoomBadgeTitle: "Zoom level required to show this layer",
+  zoneFilterPlaceholder: "e.g. 21,23,25-28 or *",
+  etatNormal: "Normal",
+  etatSurveillance: "Watch",
+  etatAlerte: "Alert",
+  etatUnknown: "Unknown / inactive",
+};
+
+const GROUP_TITLES_EN: Record<string, string> = {
+  reglementation: "Fishing regulations",
+  faune: "Wildlife",
+  hydro_temps_reel: "Real-time hydrometry",
+  hydrographie: "Hydrography",
+  lidar: "LiDAR",
+  territoire: "Territory",
+  basemaps: "Basemaps",
 };
 
 const TABLE: Record<Locale, Messages> = { fr: FR, en: EN };
@@ -136,6 +379,7 @@ export function setLocale(next: Locale): void {
   if (next === locale) return;
   locale = next;
   localStorage.setItem(LOCALE_STORAGE, next);
+  document.documentElement.lang = next;
   for (const cb of listeners) cb();
 }
 
@@ -151,3 +395,13 @@ export function t(): Messages {
 export function localeForApi(): Locale {
   return locale;
 }
+
+/** Titre de groupe catalogue (API renvoie le FR). */
+export function groupTitle(groupId: string, apiTitle: string): string {
+  if (locale === "en") {
+    return GROUP_TITLES_EN[groupId] || apiTitle;
+  }
+  return apiTitle;
+}
+
+document.documentElement.lang = locale;
