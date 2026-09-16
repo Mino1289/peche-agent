@@ -112,6 +112,7 @@ See [docs/data.md](docs/data.md). Bundled offline data (~130 MB); `data/cache/` 
 
 ## Docs
 
+- [AGENTS.md](AGENTS.md) — agent onboarding (stack, commands, contracts)
 - [docs/map-view.md](docs/map-view.md) — map architecture
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 - [SECURITY.md](SECURITY.md)

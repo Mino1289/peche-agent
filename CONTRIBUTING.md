@@ -25,3 +25,5 @@ cd web && npm run build
 - Do not commit `.env`, `data/cache/`, or `data/runtime/`.
 
 For domain context (Quebec fishing regulations, data sources), see [README.fr.md](README.fr.md).
+
+Agent onboarding: [AGENTS.md](AGENTS.md).
