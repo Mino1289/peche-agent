@@ -181,7 +181,6 @@ def _features_local(
     else:
         items = []
 
-    as_line = layer_id == "barrages_cehq"
     features: list[dict] = []
     for item in items:
         if not isinstance(item, dict):
@@ -202,41 +201,26 @@ def _features_local(
                 break
         if skip:
             continue
-        if as_line:
-            from peche.spatial.plan_geom import barrage_line_feature
-
-            feat = barrage_line_feature(item)
-            if not feat:
+        lat = item.get("lat") or item.get("latitude") or item.get("y")
+        lon = item.get("lon") or item.get("longitude") or item.get("lng") or item.get("x")
+        if lat is None or lon is None:
+            continue
+        try:
+            lat_f, lon_f = float(lat), float(lon)
+        except (TypeError, ValueError):
+            continue
+        if bbox:
+            if not (bbox[0] <= lon_f <= bbox[2] and bbox[1] <= lat_f <= bbox[3]):
                 continue
-            coords = feat["geometry"]["coordinates"]
-            lon_f = (coords[0][0] + coords[1][0]) / 2
-            lat_f = (coords[0][1] + coords[1][1]) / 2
-            if bbox and not (
-                bbox[0] <= lon_f <= bbox[2] and bbox[1] <= lat_f <= bbox[3]
-            ):
-                continue
-            features.append(feat)
-        else:
-            lat = item.get("lat") or item.get("latitude") or item.get("y")
-            lon = item.get("lon") or item.get("longitude") or item.get("lng") or item.get("x")
-            if lat is None or lon is None:
-                continue
-            try:
-                lat_f, lon_f = float(lat), float(lon)
-            except (TypeError, ValueError):
-                continue
-            if bbox:
-                if not (bbox[0] <= lon_f <= bbox[2] and bbox[1] <= lat_f <= bbox[3]):
-                    continue
-            features.append(
-                {
-                    "type": "Feature",
-                    "geometry": {"type": "Point", "coordinates": [lon_f, lat_f]},
-                    "properties": {
-                        k: v for k, v in item.items() if k not in {"geometry"}
-                    },
-                }
-            )
+        features.append(
+            {
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [lon_f, lat_f]},
+                "properties": {
+                    k: v for k, v in item.items() if k not in {"geometry"}
+                },
+            }
+        )
         if len(features) >= limit:
             break
     return {"type": "FeatureCollection", "features": features}

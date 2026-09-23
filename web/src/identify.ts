@@ -5,7 +5,7 @@ import type OlMap from "ol/Map";
 import type { Coordinate } from "ol/coordinate";
 import { toLonLat } from "ol/proj";
 import type { MapPin } from "./types";
-import { uninvertName } from "./names";
+import { formatSpeciesList, titleFr, uninvertName } from "./names";
 import { escapeHtml } from "./regs";
 import { t } from "./i18n";
 
@@ -14,9 +14,22 @@ export const IDENTIFY_LAYERS = new Set([
   "vigilance_stations",
   "marees_shc",
   "plans_regpec",
+  "tfs",
+  "chasse_interdite",
+  "habitat_legal",
+  "habitat_info",
+  "stations_lavage",
 ]);
 
 const PINS_LAYER_ID = "__pins";
+
+const LAYER_TITLES: Record<string, string> = {
+  habitat_legal: "Habitat faunique légal",
+  habitat_info: "Habitat faunique informationnel",
+  tfs: "Territoire faunique structuré",
+  chasse_interdite: "Chasse interdite",
+  stations_lavage: "Station de lavage",
+};
 
 export type IdentifyHit = {
   layerId: string;
@@ -149,6 +162,7 @@ export class IdentifyOverlay {
         ${pin.source === "feature" && pin.layer ? `<p class="muted">${escapeHtml(m.fromLayer(pin.layer))}</p>` : ""}
       </div>
       <div class="identify-actions">
+        ${exceptionDetailButton(ctx)}
         ${zoneRegsButton()}
         ${gmapsButton(pin.lat, pin.lon)}
         <button type="button" class="btn-danger" data-act="del-pin" data-pin="${escapeHtml(pin.id)}">${escapeHtml(m.removePin)}</button>
@@ -173,6 +187,8 @@ export class IdentifyOverlay {
       });
     } else if (act === "zone-regs" && this.last) {
       this.openZoneRegs(this.last);
+    } else if (act === "exception-detail" && this.last) {
+      this.openExceptionDetail(this.last);
     } else if (act === "del-pin") {
       const id = btn.dataset.pin;
       if (id) this.handlers.onDeletePin(id);
@@ -197,6 +213,28 @@ export class IdentifyOverlay {
     });
   }
 
+  private openExceptionDetail(hit: IdentifyHit): void {
+    const pin = pinFromHit(hit);
+    if (!pin) return;
+    const ctx = pinContext(pin);
+    const planId = ctx.exception_plan_id;
+    const zoneId = ctx.exception_zone_id ?? ctx.zone_id;
+    if (planId == null || zoneId == null) return;
+    this.handlers.onShowDetail({
+      layerId: "plans_regpec",
+      props: {
+        plan_id: planId,
+        zone_id: zoneId,
+        no_zone: ctx.exception_no_zone ?? ctx.no_zone,
+        zone_nom: ctx.exception_zone_nom ?? ctx.zone_nom,
+        nom: ctx.exception_nom ?? ctx.waterbody_name,
+        lon: pin.lon,
+        lat: pin.lat,
+      },
+      coordinate: hit.coordinate,
+    });
+  }
+
   private async buildBody(hit: IdentifyHit): Promise<string> {
     const p = hit.props;
     try {
@@ -204,6 +242,12 @@ export class IdentifyOverlay {
       if (hit.layerId === "vigilance_stations") return await hydrometHtml(p);
       if (hit.layerId === "marees_shc") return await tidesHtml(p);
       if (hit.layerId === "plans_regpec") return planPopupHtml(p);
+      if (hit.layerId === "tfs") return tfsHtml(p);
+      if (hit.layerId === "chasse_interdite") return chasseInterditeHtml(p);
+      if (hit.layerId === "habitat_legal" || hit.layerId === "habitat_info") {
+        return habitatHtml(p);
+      }
+      if (hit.layerId === "stations_lavage") return stationLavageHtml(p);
     } catch (err) {
       return `<p class="identify-error">${escapeHtml(String(err))}</p>`;
     }
@@ -224,6 +268,26 @@ export function titleFor(hit: IdentifyHit): string {
   }
   if (hit.layerId === "plans_regpec") {
     return uninvertName(String(p.nom || p.name || `Plan ${p.plan_id || ""}`));
+  }
+  if (hit.layerId === "tfs") {
+    return titleFr(
+      uninvertName(String(p.NOM || p.NOM_TFS || p.NOM_ZEC || p.nom || p.name || t().wildlifeTerritory)),
+    );
+  }
+  if (hit.layerId === "chasse_interdite") {
+    return titleFr(
+      uninvertName(String(p.TOPONYME || p.NOM || p.nom || t().huntingForbidden)),
+    );
+  }
+  if (hit.layerId === "habitat_legal" || hit.layerId === "habitat_info") {
+    const place = str(p.TOPONYME || p.NOM_HABITAT || p.NOM || p.nom);
+    const category = str(p.CATEGORIE || p.STATUT || p.TYPE_HABITAT);
+    if (place) return titleFr(place);
+    if (category) return titleFr(category);
+    return LAYER_TITLES[hit.layerId] || hit.layerId;
+  }
+  if (hit.layerId === "stations_lavage") {
+    return String(p.NOM || p.nom || p.name || "Station de lavage");
   }
   if (hit.layerId === "zone") {
     const z = zoneLabelFromProps(p);
@@ -248,6 +312,12 @@ function zoneRegsButton(): string {
   return `<button type="button" class="btn-secondary" data-act="zone-regs">${escapeHtml(t().zoneRegs)}</button>`;
 }
 
+function exceptionDetailButton(ctx: Record<string, unknown>): string {
+  if (ctx.exception_plan_id == null) return "";
+  const m = t();
+  return `<button type="button" class="btn-secondary" data-act="exception-detail" title="${escapeHtml(m.viewDetail)}">＋ ${escapeHtml(m.viewDetail)}</button>`;
+}
+
 function pinFromHit(hit: IdentifyHit): MapPin | null {
   if (hit.layerId !== PINS_LAYER_ID) return null;
   return hit.props as MapPin;
@@ -263,17 +333,75 @@ function pinContextHtml(ctx: Record<string, unknown>): string {
   const zone = str(ctx.zone_nom || ctx.fishing_zone);
   if (zone) rows.push([m.fishingZone, zone]);
   const exception = str(ctx.exception_nom);
-  if (exception) rows.push([m.exception, uninvertName(exception)]);
+  if (exception) {
+    rows.push([m.exception, uninvertName(exception)]);
+  }
   const water = str(ctx.waterbody_name);
   if (water) rows.push([m.waterbody, uninvertName(water)]);
   const tfs = str(ctx.tfs_name);
   if (tfs) rows.push([m.wildlifeTerritory, tfs]);
   const hunt = str(ctx.hunting_forbidden_name);
   if (hunt) rows.push([m.huntingForbidden, uninvertName(hunt)]);
-  if (!rows.length) {
-    return `<p class="muted">${escapeHtml(m.userPin)}</p>`;
+  let html = "";
+  if (exception) {
+    html += `<p><span class="badge exception-badge">${escapeHtml(m.regulatoryException)}</span></p>`;
   }
-  return dl(rows);
+  if (rows.length) {
+    html += dl(rows);
+  } else {
+    html += `<p class="muted">${escapeHtml(m.userPin)}</p>`;
+  }
+  html += layerOverlaysHtml(ctx.layer_overlays);
+  html += speciesPreviewHtml(ctx.species);
+  return html;
+}
+
+function layerOverlaysHtml(raw: unknown): string {
+  if (!Array.isArray(raw) || !raw.length) return "";
+  const blocks: string[] = [];
+  for (const item of raw) {
+    if (!item || typeof item !== "object") continue;
+    const overlay = item as Record<string, unknown>;
+    const title = titleFr(str(overlay.title || overlay.layer_id));
+    const rows = overlay.rows;
+    if (!title || !Array.isArray(rows) || !rows.length) continue;
+    const inner = rows
+      .map((row) => {
+        if (!row || typeof row !== "object") return "";
+        const r = row as Record<string, unknown>;
+        const label = str(r.label);
+        const value = str(r.value);
+        if (!label || !value) return "";
+        return `<div class="identify-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`;
+      })
+      .join("");
+    if (inner) {
+      blocks.push(
+        `<section class="identify-overlay-block"><h4>${escapeHtml(title)}</h4><div class="identify-dl">${inner}</div></section>`,
+      );
+    }
+  }
+  return blocks.join("");
+}
+
+function speciesPreviewHtml(raw: unknown): string {
+  if (!Array.isArray(raw) || !raw.length) return "";
+  const m = t();
+  const items = raw
+    .slice(0, 8)
+    .map((sp) => {
+      if (!sp || typeof sp !== "object") return "";
+      const s = sp as Record<string, unknown>;
+      const name = str(s.nom_commun);
+      if (!name) return "";
+      const latin = str(s.nom_latin);
+      const statut = str(s.statut);
+      const meta = [latin, statut].filter(Boolean).join(" · ");
+      return `<li><strong>${escapeHtml(name)}</strong>${meta ? ` <span class="muted">${escapeHtml(meta)}</span>` : ""}</li>`;
+    })
+    .filter(Boolean);
+  if (!items.length) return "";
+  return `<section class="identify-species-block"><h4>${escapeHtml(m.speciesGuide)}</h4><ul class="identify-species-list">${items.join("")}</ul><p class="muted">${escapeHtml(m.speciesGuideDisclaimer)}</p></section>`;
 }
 
 function spinnerHtml(): string {
@@ -377,6 +505,48 @@ async function tidesHtml(p: Record<string, unknown>): Promise<string> {
 }
 
 /** Popup léger : pas de règlements (réservés au panneau détail). */
+function tfsHtml(p: Record<string, unknown>): string {
+  const m = t();
+  return dl([
+    [m.name, titleFr(uninvertName(str(p.NOM || p.NOM_TFS || p.NOM_ZEC || p.nom || p.name)))],
+    ["Type", titleFr(str(p.TYPE || p.TYPE_TFS))],
+  ]);
+}
+
+function chasseInterditeHtml(p: Record<string, unknown>): string {
+  const m = t();
+  const name = str(p.TOPONYME || p.NOM || p.nom || p.name);
+  const kind = str(p.DESIGNOM || p.DESIG_GR);
+  const rows: [string, string][] = [[m.name, titleFr(uninvertName(name))]];
+  if (kind) rows.push(["Type", titleFr(kind)]);
+  return dl(rows);
+}
+
+function habitatHtml(p: Record<string, unknown>): string {
+  const species = formatSpeciesList(p.ESPECE || p.ESPECE_CIBLE || p.NOM_ESPECE);
+  const rows: [string, string][] = [
+    ["Lieu", titleFr(str(p.TOPONYME || p.NOM_HABITAT || p.NOM || p.nom || p.name))],
+    ["Catégorie", titleFr(str(p.CATEGORIE || p.TYPE_HABITAT || p.TYPE || p.CLASSE))],
+    ["Statut", titleFr(str(p.STATUT))],
+    ["Espèces", species],
+    ["Région faunique", titleFr(str(p.REG_FAUNE || p.REG_ADMIN))],
+    [
+      "Superficie",
+      p.SUP_HA != null && String(p.SUP_HA).trim() ? `${p.SUP_HA} ha` : "",
+    ],
+  ];
+  return dl(rows.filter(([, v]) => v));
+}
+
+function stationLavageHtml(p: Record<string, unknown>): string {
+  const m = t();
+  return dl([
+    [m.name, str(p.NOM || p.nom || p.name)],
+    ["Adresse", str(p.ADRESSE || p.adresse)],
+    [m.municipality, str(p.MUNICIPALITE || p.municipalite)],
+  ]);
+}
+
 function planPopupHtml(p: Record<string, unknown>): string {
   const m = t();
   const nom = uninvertName(str(p.nom || p.name));

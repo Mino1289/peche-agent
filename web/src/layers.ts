@@ -175,10 +175,26 @@ function cachedOutlineStyle(color: string): Style {
   return s;
 }
 
+const _lightPolyStyles = new Map<string, Style>();
+
+function cachedLightPolyStyle(color: string, alpha = 0.18): Style {
+  const key = `${color}:${alpha}`;
+  let s = _lightPolyStyles.get(key);
+  if (!s) {
+    s = new Style({
+      fill: new Fill({ color: hexToRgba(color, alpha) }),
+      stroke: new Stroke({ color, width: 1.5 }),
+    });
+    _lightPolyStyles.set(key, s);
+  }
+  return s;
+}
+
 export function styleForLayer(def: LayerDef): (f: FeatureLike) => Style {
   const color = def.color || "#1d4ed8";
   const byEtat = Boolean(def.extra?.etat_colors) || def.id === "vigilance_stations";
   const outline = isOutlineLayer(def);
+  const lightPoly = def.id === "plans_regpec";
   return (feature) => {
     const g = feature.getGeometry()?.getType();
     const fill = byEtat ? etatColor(feature, "#94a3b8") : color;
@@ -189,6 +205,7 @@ export function styleForLayer(def: LayerDef): (f: FeatureLike) => Style {
     if (g === "LineString" || g === "MultiLineString") {
       return cachedLineStyle(color);
     }
+    if (lightPoly) return cachedLightPolyStyle(color);
     return cachedPolyStyle(color);
   };
 }
@@ -242,6 +259,7 @@ function makeTileWms(def: LayerDef, useProxy: boolean): TileLayer<TileWMS> {
       params,
       crossOrigin: "anonymous",
       attributions: def.attribution || undefined,
+      cacheSize: 512,
       ...(useProxy
         ? {
             tileLoadFunction: (tile, src) => {
@@ -257,6 +275,7 @@ function makeTileWms(def: LayerDef, useProxy: boolean): TileLayer<TileWMS> {
     properties: { id: def.id, layerDef: def },
     minZoom: def.min_zoom ?? undefined,
     maxZoom: def.max_zoom ?? undefined,
+    preload: 0,
   });
 }
 

@@ -109,7 +109,7 @@ def curated_layers() -> list[LayerDef]:
             layer_name="SmartFaunePub:TFS",
             curated=True,
             filter_spec=FilterSpec(kind="cql", attr="TYPE"),
-            color="#a855f7",
+            color="#16a34a",
             attribution="MFFP SmartFaune",
         ),
         LayerDef(
@@ -123,6 +123,7 @@ def curated_layers() -> list[LayerDef]:
             filter_spec=FilterSpec(kind="cql"),
             color="#ef4444",
             attribution="MFFP SmartFaune",
+            extra={"no_color": True},
         ),
         LayerDef(
             id="habitat_legal",
@@ -175,9 +176,21 @@ def curated_layers() -> list[LayerDef]:
             extra={"etat_colors": True},
         ),
         LayerDef(
+            id="marees_shc",
+            title="Stations marégraphiques SHC",
+            group="hydro_temps_reel",
+            source_type="local",
+            url="data/tides/stations.json",
+            curated=True,
+            filter_spec=FilterSpec(kind="local"),
+            color="#6366f1",
+            attribution="SHC / IWLS",
+        ),
+        # --- Hydrographie ---
+        LayerDef(
             id="barrages_cehq",
             title="Barrages CEHQ",
-            group="hydro_temps_reel",
+            group="hydrographie",
             source_type="local",
             url="data/barrages/barrages.json",
             curated=True,
@@ -190,20 +203,7 @@ def curated_layers() -> list[LayerDef]:
             min_zoom=9,
             color="#9a3412",
             attribution="CEHQ",
-            extra={"geometry": "line"},
         ),
-        LayerDef(
-            id="marees_shc",
-            title="Stations marégraphiques SHC",
-            group="hydro_temps_reel",
-            source_type="local",
-            url="data/tides/stations.json",
-            curated=True,
-            filter_spec=FilterSpec(kind="local"),
-            color="#6366f1",
-            attribution="SHC / IWLS",
-        ),
-        # --- Hydrographie ---
         LayerDef(
             id="grhq_lin_perm",
             title="GRHQ — réseau linéaire permanent",
@@ -306,7 +306,49 @@ def curated_layers() -> list[LayerDef]:
             min_zoom=11,
             color="#fb923c",
             attribution="MFFP LiDAR",
-            extra={"proxy": True},
+            extra={"proxy": True, "no_color": True},
+        ),
+        LayerDef(
+            id="lidar_courbes_1m",
+            title="Courbe de niveau lidar 1 m",
+            group="lidar",
+            source_type="wms",
+            url=MFFP,
+            layer_name="courbes_niveau_1m",
+            curated=True,
+            filter_spec=FilterSpec(kind="none"),
+            legend_url=_legend(MFFP, "courbes_niveau_1m"),
+            min_zoom=15,
+            color="#a78bfa",
+            attribution="MFFP LiDAR",
+            extra={
+                "proxy": True,
+                "dataset_url": (
+                    "https://www.donneesquebec.ca/recherche/dataset/"
+                    "produits-derives-de-base-du-lidar"
+                ),
+            },
+        ),
+        LayerDef(
+            id="lidar_courbes_10m",
+            title="Courbe de niveau lidar 10 m",
+            group="lidar",
+            source_type="wms",
+            url=MFFP,
+            layer_name="courbes_niveau_10m",
+            curated=True,
+            filter_spec=FilterSpec(kind="none"),
+            legend_url=_legend(MFFP, "courbes_niveau_10m"),
+            min_zoom=11,
+            color="#8b5cf6",
+            attribution="MFFP LiDAR",
+            extra={
+                "proxy": True,
+                "dataset_url": (
+                    "https://www.donneesquebec.ca/recherche/dataset/"
+                    "produits-derives-de-base-du-lidar"
+                ),
+            },
         ),
         # --- Territoire (AQréseau+ ; WMS RQTT pas encore en ligne) ---
         LayerDef(

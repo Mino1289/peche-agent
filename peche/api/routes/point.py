@@ -14,5 +14,10 @@ router = APIRouter()
 def point_context(
     lon: float = Query(..., description="Longitude WGS84"),
     lat: float = Query(..., description="Latitude WGS84"),
+    layers: str | None = Query(
+        None,
+        description="Couches visibles (ids séparés par des virgules)",
+    ),
 ) -> JSONResponse:
-    return JSONResponse(get_point_context(lon, lat))
+    visible = [x.strip() for x in (layers or "").split(",") if x.strip()]
+    return JSONResponse(get_point_context(lon, lat, visible_layers=visible))

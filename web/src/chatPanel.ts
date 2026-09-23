@@ -2,7 +2,12 @@
 
 import type { ChatEvent, ChatMessage, MapState } from "./types";
 import type { MapController } from "./map";
-import { listConversations, loadConversation, streamChat } from "./chat";
+import {
+  deleteConversation as deleteConversationApi,
+  listConversations,
+  loadConversation,
+  streamChat,
+} from "./chat";
 import {
   destroyHydroCharts,
   renderVisibleHydroOutputs,
@@ -62,15 +67,17 @@ export class ChatPanel {
       this.messages = [];
       this.renderMessages();
       this.renderEmptyState();
-      void this.refreshHistoryList();
+      void this.refreshHistoryList({ showLoading: true });
     });
-    void this.refreshHistoryList();
+    void this.refreshHistoryList({ showLoading: true });
   }
 
-  private async refreshHistoryList(): Promise<void> {
+  private async refreshHistoryList(opts?: { showLoading?: boolean }): Promise<void> {
     const m = t();
     const list = this.sidebar.querySelector("#history-list") as HTMLElement;
-    list.innerHTML = `<p class='muted'>${m.loading}</p>`;
+    if (opts?.showLoading) {
+      list.innerHTML = `<p class='muted'>${m.loading}</p>`;
+    }
     const convs = await listConversations();
     list.innerHTML = "";
     if (!convs.length) {
@@ -78,6 +85,9 @@ export class ChatPanel {
       return;
     }
     for (const c of convs) {
+      const row = document.createElement("div");
+      row.className = "history-item-row";
+      row.dataset.convId = c.id;
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "history-item";
@@ -92,7 +102,69 @@ export class ChatPanel {
         if (loaded.map_state) await this.map.applyMapState(loaded.map_state);
         void this.refreshHistoryList();
       });
-      list.appendChild(btn);
+      const del = document.createElement("button");
+      del.type = "button";
+      del.className = "btn-icon history-delete";
+      del.title = m.deleteConversation;
+      del.setAttribute("aria-label", m.deleteConversation);
+      del.textContent = "✕";
+      del.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        this.confirmDeleteConversation(c.id);
+      });
+      row.appendChild(btn);
+      row.appendChild(del);
+      list.appendChild(row);
+    }
+  }
+
+  private confirmDeleteConversation(id: string): void {
+    const m = t();
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML = `
+      <div class="modal-card" role="dialog">
+        <div class="modal-header">
+          <h3>${escapeHtml(m.deleteConversation)}</h3>
+          <button type="button" class="modal-close" aria-label="${escapeHtml(m.close)}">✕</button>
+        </div>
+        <p>${escapeHtml(m.deleteConversationConfirm)}</p>
+        <div class="modal-actions">
+          <button type="button" class="btn-sidebar" id="confirm-delete-yes">${escapeHtml(m.yes)}</button>
+          <button type="button" class="btn-sidebar btn-muted" id="confirm-delete-no">${escapeHtml(m.no)}</button>
+        </div>
+      </div>`;
+    const close = () => overlay.remove();
+    overlay.querySelector(".modal-close")!.addEventListener("click", close);
+    overlay.querySelector("#confirm-delete-no")!.addEventListener("click", close);
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) close();
+    });
+    overlay.querySelector("#confirm-delete-yes")!.addEventListener("click", () => {
+      close();
+      void this.deleteConversation(id);
+    });
+    document.body.appendChild(overlay);
+  }
+
+  private async deleteConversation(id: string): Promise<void> {
+    const list = this.sidebar.querySelector("#history-list") as HTMLElement | null;
+    list
+      ?.querySelector(`.history-item-row[data-conv-id="${id}"]`)
+      ?.remove();
+    const ok = await deleteConversationApi(id);
+    if (!ok) {
+      void this.refreshHistoryList();
+      return;
+    }
+    if (this.sessionId === id) {
+      this.sessionId = null;
+      this.messages = [];
+      this.renderMessages();
+      this.renderEmptyState();
+    }
+    if (list && !list.querySelector(".history-item-row")) {
+      list.innerHTML = `<p class='muted history-empty'>${t().noConversations}</p>`;
     }
   }
 
@@ -268,7 +340,17 @@ export class ChatPanel {
 
     const body = document.createElement("div");
     body.className = "msg-body";
-    body.innerHTML = formatMarkdownLite(msg.text || (msg.role === "assistant" ? "…" : ""));
+    if (msg.role === "assistant" && this.running && index === this.messages.length - 1) {
+      body.appendChild(this.buildThinkingEl(!msg.text && !msg.tools?.length));
+    }
+    if (msg.text || msg.role !== "assistant") {
+      const textEl = document.createElement("div");
+      textEl.className = "msg-text";
+      textEl.innerHTML = formatMarkdownLite(
+        msg.text || (msg.role === "assistant" ? "" : ""),
+      );
+      body.appendChild(textEl);
+    }
     div.appendChild(body);
 
     if (msg.role === "assistant") {
@@ -299,6 +381,46 @@ export class ChatPanel {
     return div;
   }
 
+  private buildThinkingEl(show: boolean, usingTools = false): HTMLElement {
+    const wrap = document.createElement("div");
+    wrap.className = "msg-thinking";
+    wrap.hidden = !show;
+    const m = t();
+    wrap.innerHTML = `
+      <span class="msg-thinking-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="msg-thinking-label">${escapeHtml(usingTools ? m.agentUsingTools : m.agentThinking)}</span>`;
+    return wrap;
+  }
+
+  private setAssistantThinking(usingTools = false): void {
+    const box = this.el.querySelector("#chat-messages") as HTMLElement;
+    const msgEl = box.querySelector(
+      `.msg-assistant[data-index="${this.messages.length - 1}"]`,
+    ) as HTMLElement | null;
+    if (!msgEl) return;
+    const body = msgEl.querySelector(".msg-body");
+    if (!body) return;
+    let thinking = body.querySelector(".msg-thinking") as HTMLElement | null;
+    if (!thinking) {
+      thinking = this.buildThinkingEl(true, usingTools);
+      body.prepend(thinking);
+    } else {
+      thinking.hidden = false;
+      const label = thinking.querySelector(".msg-thinking-label");
+      if (label) {
+        label.textContent = usingTools ? t().agentUsingTools : t().agentThinking;
+      }
+    }
+  }
+
+  private clearAssistantThinking(): void {
+    const box = this.el.querySelector("#chat-messages") as HTMLElement;
+    const msgEl = box.querySelector(
+      `.msg-assistant[data-index="${this.messages.length - 1}"]`,
+    ) as HTMLElement | null;
+    msgEl?.querySelector(".msg-thinking")?.remove();
+  }
+
   private buildToolsEl(
     tools: NonNullable<ChatMessage["tools"]>,
   ): HTMLDetailsElement {
@@ -319,11 +441,19 @@ export class ChatPanel {
 
   private updateAssistantText(assistant: ChatMessage): void {
     const box = this.el.querySelector("#chat-messages") as HTMLElement;
-    const last = box.querySelector(
+    const body = box.querySelector(
       `.msg-assistant[data-index="${this.messages.length - 1}"] .msg-body`,
-    );
-    if (last) {
-      last.innerHTML = formatMarkdownLite(assistant.text || "…");
+    ) as HTMLElement | null;
+    if (body) {
+      if (assistant.text) this.clearAssistantThinking();
+      let textEl = body.querySelector(".msg-text") as HTMLElement | null;
+      if (!textEl) {
+        textEl = document.createElement("div");
+        textEl.className = "msg-text";
+        body.appendChild(textEl);
+      }
+      textEl.innerHTML = formatMarkdownLite(assistant.text || "");
+      if (!assistant.text && this.running) this.setAssistantThinking(Boolean(assistant.tools?.length));
       box.scrollTop = box.scrollHeight;
     } else {
       this.renderMessages();
@@ -352,6 +482,7 @@ export class ChatPanel {
     msgEl.querySelector(".msg-tools")?.remove();
     if (assistant.tools?.length) {
       msgEl.appendChild(this.buildToolsEl(assistant.tools));
+      if (this.running && !assistant.text) this.setAssistantThinking(true);
     }
     box.scrollTop = box.scrollHeight;
   }
@@ -371,6 +502,7 @@ export class ChatPanel {
     const assistant: ChatMessage = { role: "assistant", text: "", tools: [] };
     this.messages.push(assistant);
     this.renderMessages();
+    this.setAssistantThinking();
 
     const mapState = this.map.getMapState();
     const errLabel = t().errorPrefix;
@@ -400,6 +532,7 @@ export class ChatPanel {
     });
     assistant.map_state = this.map.getMapState();
     this.running = false;
+    this.clearAssistantThinking();
     this.renderMessages();
     void this.refreshHistoryList();
   }

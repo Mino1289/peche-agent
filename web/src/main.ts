@@ -108,11 +108,8 @@ function bindMapMoveRefresh(): void {
   controllers.map.map.on("moveend", () => {
     window.clearTimeout(tMove);
     tMove = window.setTimeout(() => {
-      const state = controllers.map.getMapState();
-      for (const layer of state.layers) {
-        if (layer.visible) void controllers.map.refreshVectorLayer(layer.id);
-      }
-    }, 300);
+      void controllers.map.refreshVisibleVectorLayers();
+    }, 450);
   });
 }
 

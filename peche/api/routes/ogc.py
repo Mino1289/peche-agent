@@ -85,8 +85,12 @@ def ogc_proxy(
             status_code=502, detail=f"Proxy OGC: {type(exc).__name__}: {exc}"
         ) from exc
 
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
-    cache_path.write_bytes(data)
+    try:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_bytes(data)
+    except OSError:
+        # Cache indisponible (permissions) — servir quand même la réponse.
+        pass
     headers = {"Cache-Control": f"public, max-age={ttl}"}
     return Response(content=data, media_type=ctype, headers=headers)
 

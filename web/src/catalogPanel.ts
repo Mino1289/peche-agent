@@ -14,6 +14,21 @@ import {
   type DiscoverHit,
 } from "./customLayers";
 
+/** Couches dont la couleur est modifiable dans le panneau catalogue. */
+const COLOR_PICKER_LAYERS = new Set([
+  "zones_chasse",
+  "plans_regpec",
+  "marees_shc",
+  "barrages_cehq",
+  "tfs",
+  "habitat_legal",
+  "habitat_info",
+]);
+
+function layerColorPickerEnabled(def: LayerDef): boolean {
+  return COLOR_PICKER_LAYERS.has(def.id);
+}
+
 export class CatalogPanel {
   private el: HTMLElement;
   private map: MapController;
@@ -144,12 +159,14 @@ export class CatalogPanel {
     wrap.innerHTML = `
       <div class="catalog-add-form">
         <h3>${escapeHtml(m.addLayerTitle)}</h3>
+        <p class="muted catalog-add-hint">${escapeHtml(m.addLayerDiscoverHint)}</p>
         <label class="catalog-add-field">
           <span>${escapeHtml(m.addLayerSearch)}</span>
           <input type="search" class="search-input" id="discover-q" />
         </label>
         <div id="discover-results" class="discover-results"></div>
         <hr />
+        <p class="muted catalog-add-hint">${escapeHtml(m.addLayerManualHint)}</p>
         <label class="catalog-add-field">
           <span>${escapeHtml(m.addLayerUrl)}</span>
           <input type="url" class="search-input" id="custom-url" placeholder="https://…" />
@@ -323,16 +340,8 @@ export class CatalogPanel {
     });
     row.appendChild(cb);
 
-    const hideColor =
-      Boolean(def.extra?.etat_colors) || def.id === "vigilance_stations";
-    if (
-      def.color &&
-      !hideColor &&
-      (def.source_type === "wfs" ||
-        def.source_type === "local" ||
-        def.source_type === "geojson" ||
-        def.source_type === "arcgis")
-    ) {
+    const colorPicker = layerColorPickerEnabled(def);
+    if (def.color && colorPicker) {
       const swatch = document.createElement("span");
       swatch.className = "swatch layer-color";
       const outline = def.id === "zones_chasse" || Boolean(def.extra?.outline);
@@ -370,7 +379,7 @@ export class CatalogPanel {
       applyZoomBadgeState(b, this.zoom);
     }
 
-    if (def.color && !hideColor) {
+    if (colorPicker && def.color) {
       const colorInput = document.createElement("input");
       colorInput.type = "color";
       colorInput.className = "layer-color-picker";

@@ -92,6 +92,12 @@ function zoomBand(zoom: number): number {
   return zoom < 9 ? 0 : 1;
 }
 
+/** Bande de cache fetch — plans_regpec bascule point/polygone à z 11. */
+function fetchCacheBand(id: string, zoom: number): number {
+  if (id === "plans_regpec") return zoom < 11 ? 0 : 1;
+  return zoomBand(zoom);
+}
+
 function filterCacheKey(filters: Record<string, unknown>): string {
   return JSON.stringify(filters, Object.keys(filters).sort());
 }
@@ -265,9 +271,16 @@ export class MapController {
 
   private async enrichPin(pin: MapPin): Promise<void> {
     try {
-      const resp = await fetch(
-        `/api/point-context?lon=${encodeURIComponent(String(pin.lon))}&lat=${encodeURIComponent(String(pin.lat))}`,
-      );
+      const visible = this.getMapState()
+        .layers.filter((l) => l.visible)
+        .map((l) => l.id)
+        .join(",");
+      const ctxParams = new URLSearchParams({
+        lon: String(pin.lon),
+        lat: String(pin.lat),
+      });
+      if (visible) ctxParams.set("layers", visible);
+      const resp = await fetch(`/api/point-context?${ctxParams}`);
       if (!resp.ok) return;
       const ctx = (await resp.json()) as Record<string, unknown>;
       const props: Record<string, unknown> = { ...(pin.props || {}) };
@@ -278,6 +291,9 @@ export class MapController {
       const exc = ctx.exception as Record<string, unknown> | undefined;
       if (exc?.nom) props.exception_nom = exc.nom;
       if (exc?.plan_id != null) props.exception_plan_id = exc.plan_id;
+      if (exc?.zone_id != null) props.exception_zone_id = exc.zone_id;
+      if (exc?.no_zone != null) props.exception_no_zone = exc.no_zone;
+      if (exc?.zone_nom) props.exception_zone_nom = exc.zone_nom;
       const wb = ctx.waterbody as Record<string, unknown> | undefined;
       if (wb?.name) props.waterbody_name = wb.name;
       const tfs = ctx.tfs as Record<string, unknown> | undefined;
@@ -285,8 +301,32 @@ export class MapController {
       const hunt = ctx.hunting_forbidden as Record<string, unknown> | undefined;
       if (hunt?.name) props.hunting_forbidden_name = hunt.name;
       if (hunt?.kind) props.hunting_forbidden_kind = hunt.kind;
+      const overlays = ctx.layer_overlays as Record<string, unknown>[] | undefined;
+      if (overlays?.length) props.layer_overlays = overlays;
       pin.props = props;
       this.renderPinList();
+      this.identify.refreshPin(pin);
+
+      const guideQ = new URLSearchParams();
+      const zoneId = props.zone_id ?? props.exception_zone_id;
+      if (zoneId != null) guideQ.set("zone_id", String(zoneId));
+      const nom = props.waterbody_name || props.exception_nom;
+      if (nom) guideQ.set("nom", String(nom));
+      guideQ.set("lon", String(pin.lon));
+      guideQ.set("lat", String(pin.lat));
+      const guideResp = await fetch(`/api/guide-poisson?${guideQ}`);
+      if (!guideResp.ok) return;
+      const guide = (await guideResp.json()) as {
+        species?: { nom_commun: string; nom_latin?: string; statut?: string }[];
+      };
+      if (guide.species?.length) {
+        props.species = guide.species;
+      }
+      const displayName = props.waterbody_name || props.exception_nom;
+      if (displayName && (pin.source === "user" || !pin.label || /^Point \d+$/.test(pin.label))) {
+        pin.label = String(displayName);
+      }
+      pin.props = props;
       this.identify.refreshPin(pin);
     } catch {
       /* ignore */
@@ -424,6 +464,18 @@ export class MapController {
     }
   }
 
+  /** Rafraîchit les couches vectorielles visibles qui dépendent du viewport. */
+  refreshVisibleVectorLayers(): void {
+    const state = this.getMapState();
+    for (const layer of state.layers) {
+      if (!layer.visible) continue;
+      const def = this.defs[layer.id];
+      if (!def || !this.isVectorDef(def)) continue;
+      if (POINT_LOCAL_LAYERS.has(layer.id)) continue;
+      void this.refreshVectorLayer(layer.id);
+    }
+  }
+
   async setLayerFilters(
     id: string,
     filters: Record<string, unknown>,
@@ -478,14 +530,16 @@ export class MapController {
       zoneQ != null && String(zoneQ).trim() !== "" && zoneFilterActive(String(zoneQ));
     const skipBbox =
       (id === "zones_chasse" || id === "plans_regpec") && zoneActive;
-    const zBand = zoomBand(zoom);
+    const zBand = fetchCacheBand(id, zoom);
     const fKey = filterCacheKey(filters);
     const isPointLayer = POINT_LOCAL_LAYERS.has(id);
 
     const prev = this.lastFetch[id];
     if (prev && source.getFeatures().length > 0) {
       if (isPointLayer && prev.skipBbox) return;
-      if (skipBbox && prev.skipBbox && prev.filterKey === fKey) return;
+      if (skipBbox && prev.skipBbox && prev.filterKey === fKey && prev.zoomBand === zBand) {
+        return;
+      }
       if (
         !skipBbox &&
         !isPointLayer &&

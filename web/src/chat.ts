@@ -79,6 +79,11 @@ export async function listConversations(): Promise<
   return data.conversations || [];
 }
 
+export async function deleteConversation(id: string): Promise<boolean> {
+  const resp = await fetch(`/api/conversations/${id}`, { method: "DELETE" });
+  return resp.ok;
+}
+
 export async function loadConversation(
   id: string,
 ): Promise<{ messages: ChatMessage[]; map_state?: MapState } | null> {

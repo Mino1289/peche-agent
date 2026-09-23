@@ -7,8 +7,8 @@
   --accent: #2dd4bf;
   --accent-dim: #0f766e;
   --danger: #f87171;
-  --link: #7dd3fc;
-  --link-hover: #bae6fd;
+  --link: #5eead4;
+  --link-hover: #99f6e4;
   --radius: 10px;
   --font: "Segoe UI", system-ui, -apple-system, sans-serif;
   /* Alias pour modales / boutons prompt */
@@ -414,6 +414,64 @@ details > summary::-webkit-details-marker {
 .msg-assistant {
   background: #1e293b;
   align-self: flex-start;
+}
+
+.msg-body a,
+.api-key-banner a,
+.modal-card a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.msg-body a:hover,
+.api-key-banner a:hover,
+.modal-card a:hover {
+  color: var(--link-hover);
+}
+
+.msg-thinking {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0 2px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.msg-thinking-dots {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.msg-thinking-dots span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #38bdf8);
+  animation: agent-dot 1.2s ease-in-out infinite;
+}
+
+.msg-thinking-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.msg-thinking-dots span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes agent-dot {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0) scale(0.85);
+    opacity: 0.45;
+  }
+  40% {
+    transform: translateY(-4px) scale(1);
+    opacity: 1;
+  }
 }
 
 .msg-body .chat-table {
@@ -916,6 +974,30 @@ details > summary::-webkit-details-marker {
   background: #0f1724;
 }
 
+.history-item-row {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.history-item-row .history-item {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.history-delete {
+  flex: 0 0 auto;
+  align-self: stretch;
+  min-width: 32px;
+  color: var(--muted);
+}
+
+.history-delete:hover {
+  color: var(--danger);
+  background: var(--surface-hover);
+}
+
 .history-item {
   display: block;
   width: 100%;
@@ -1113,6 +1195,37 @@ details > summary::-webkit-details-marker {
     border-right: none;
     border-bottom: 1px solid var(--panel-border);
   }
+}
+
+.identify-overlay-block,
+.identify-species-block {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--panel-border);
+}
+
+.identify-overlay-block h4,
+.identify-species-block h4 {
+  margin: 0 0 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.identify-species-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.85rem;
+}
+
+.identify-species-list li {
+  margin-bottom: 4px;
+}
+
+.catalog-add-hint {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  line-height: 1.4;
 }
 
 .identify-spinner-wrap {

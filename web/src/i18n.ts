@@ -50,7 +50,15 @@ type Messages = {
   addLayerSubmit: string;
   addLayerCancel: string;
   addLayerValidating: string;
+  addLayerDiscoverHint: string;
+  addLayerManualHint: string;
   customLayers: string;
+  agentThinking: string;
+  agentUsingTools: string;
+  deleteConversation: string;
+  deleteConversationConfirm: string;
+  yes: string;
+  no: string;
   // Carte — identify / détail
   close: string;
   viewDetail: string;
@@ -161,15 +169,25 @@ const FR: Messages = {
   searchPlaceholder: "Rechercher…",
   basemaps: "Fonds de carte",
   addLayer: "Ajouter une couche",
-  addLayerTitle: "Ajouter une couche Forêt ouverte",
+  addLayerTitle: "Ajouter une couche externe",
   addLayerSearch: "Rechercher dans GetCapabilities…",
   addLayerUrl: "URL du service (WMS/WFS)",
-  addLayerName: "Nom de la couche",
+  addLayerName: "Nom technique de la couche",
   addLayerType: "Type",
   addLayerSubmit: "Ajouter",
   addLayerCancel: "Annuler",
   addLayerValidating: "Validation…",
+  addLayerDiscoverHint:
+    "La recherche interroge quelques services OGC enregistrés (Forêt ouverte, GRHQ, etc.), pas l'intégralité du portail. Si un service est en panne, les résultats peuvent être incomplets.",
+  addLayerManualHint:
+    "Ajout manuel : collez l'URL WMS ou WFS et le nom exact de la couche (champ « Name » dans GetCapabilities). La couche est validée puis enregistrée dans votre navigateur.",
   customLayers: "Couches ajoutées",
+  agentThinking: "Réflexion…",
+  agentUsingTools: "Consultation des outils…",
+  deleteConversation: "Supprimer",
+  deleteConversationConfirm: "Supprimer cette conversation ?",
+  yes: "Oui",
+  no: "Non",
   close: "Fermer",
   viewDetail: "Voir en détail",
   addPin: "Ajouter en point",
@@ -279,15 +297,25 @@ const EN: Messages = {
   searchPlaceholder: "Search…",
   basemaps: "Basemaps",
   addLayer: "Add layer",
-  addLayerTitle: "Add an open-forest layer",
+  addLayerTitle: "Add an external layer",
   addLayerSearch: "Search GetCapabilities…",
   addLayerUrl: "Service URL (WMS/WFS)",
-  addLayerName: "Layer name",
+  addLayerName: "Technical layer name",
   addLayerType: "Type",
   addLayerSubmit: "Add",
   addLayerCancel: "Cancel",
   addLayerValidating: "Validating…",
+  addLayerDiscoverHint:
+    "Search queries a few registered OGC services (open forest, GRHQ, etc.), not the entire portal. If a service is down, results may be incomplete.",
+  addLayerManualHint:
+    "Manual add: paste the WMS or WFS URL and the exact layer name (the “Name” field in GetCapabilities). The layer is validated then stored in your browser.",
   customLayers: "Added layers",
+  agentThinking: "Thinking…",
+  agentUsingTools: "Using tools…",
+  deleteConversation: "Delete",
+  deleteConversationConfirm: "Delete this conversation?",
+  yes: "Yes",
+  no: "No",
   close: "Close",
   viewDetail: "View details",
   addPin: "Add as pin",

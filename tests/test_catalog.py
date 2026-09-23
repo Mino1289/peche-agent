@@ -12,6 +12,10 @@ def test_curated_layers_have_ids():
     assert len(layers) >= 18
     assert len(ids) == len(layers)
     assert "lidar_pentes" in ids
+    assert "lidar_courbes_1m" in ids
+    assert "lidar_courbes_10m" in ids
+    barrages = next(layer for layer in layers if layer.id == "barrages_cehq")
+    assert barrages.group == "hydrographie"
     assert "zones_chasse" in ids
     assert "plans_regpec" in ids
     assert "hydrolidar_lits" in ids

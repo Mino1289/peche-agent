@@ -4,6 +4,7 @@ from peche.spatial.point_context import (
     _point_in_geometry,
     hunting_forbidden_label,
     parse_grhq_toponyme,
+    summarize_layer_props,
 )
 
 
@@ -46,6 +47,24 @@ def test_parse_grhq_toponyme():
         "Stéréorestitution photographique;Lac Saint-Charles;6;20160510;20010509;13043;Polygone;"
     )
     assert parse_grhq_toponyme(sample) == "Lac Saint-Charles"
+
+
+def test_summarize_habitat_props():
+    rows = summarize_layer_props(
+        "habitat_legal",
+        {
+            "TOPONYME": "BAIE DE CAP-CHAT",
+            "CATEGORIE": "Habitat du poisson (Publiable)",
+            "ESPECE": "CERF DE VIRGINIE, OMBLE DE FONTAINE",
+            "STATUT": "Habitat légal",
+            "SUP_HA": 26.8,
+        },
+    )
+    labels = {row["label"] for row in rows}
+    assert "Lieu" in labels
+    assert "Espèces" in labels
+    species = next(r["value"] for r in rows if r["label"] == "Espèces")
+    assert "Cerf de Virginie" in species
 
 
 def test_downsample_curve_keeps_first_and_spaced():

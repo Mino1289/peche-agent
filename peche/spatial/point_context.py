@@ -7,7 +7,7 @@ from typing import Any
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-from peche.catalog.curated import ENV_WSS, SMARTFAUNE
+from peche.catalog.curated import ENV_WSS, FORET_PUB, HABITATS, SMARTFAUNE, curated_layers
 from peche.reglements.zones import display_number, zone_by_id
 from peche.spatial.plan_geom import plans_geojson
 from peche.spatial.zones_peche import load_zones_geojson
@@ -251,9 +251,103 @@ def fishing_zone_at_point(lon: float, lat: float) -> dict[str, Any] | None:
     return None
 
 
-def get_point_context(lon: float, lat: float) -> dict[str, Any]:
+_LAYER_TITLES = {layer.id: layer.title for layer in curated_layers()}
+
+_OPTIONAL_LAYERS: dict[str, tuple[str, str]] = {
+    "habitat_legal": (HABITATS, "Habitats_Fauniques_Pub:Habitat_legal"),
+    "habitat_info": (HABITATS, "Habitats_Fauniques_Pub:Habitat_informationnel"),
+    "stations_lavage": (FORET_PUB, "ForetOuvertePub:stations_lavages_qc"),
+    "tfs": (SMARTFAUNE, "SmartFaunePub:TFS"),
+}
+
+
+def _title_fr(text: str) -> str:
+    """Capitalise un libellé FR (ex. CERF DE VIRGINIE → Cerf de Virginie)."""
+    small = {"de", "du", "des", "la", "le", "les", "d'", "l'", "et", "à", "au", "aux", "en", "d"}
+    words = " ".join((text or "").split()).lower().split(" ")
+    out: list[str] = []
+    for i, word in enumerate(words):
+        if not word:
+            continue
+        if i > 0 and word in small:
+            out.append(word)
+        else:
+            out.append(word[:1].upper() + word[1:] if word else word)
+    return " ".join(out)
+
+
+def _format_species_list(raw: Any) -> str:
+    text = str(raw or "").strip()
+    if not text:
+        return ""
+    parts = [p.strip() for p in text.replace(";", ",").split(",") if p.strip()]
+    return ", ".join(_title_fr(p) for p in parts)
+
+
+def summarize_layer_props(layer_id: str, props: dict[str, Any]) -> list[dict[str, str]]:
+    """Résumé lisible des attributs d'une couche WFS pour le popup."""
+    rows: list[dict[str, str]] = []
+
+    def add(label: str, keys: tuple[str, ...], transform: Any = None) -> None:
+        for key in keys:
+            val = props.get(key)
+            if val is not None and str(val).strip():
+                text = str(val).strip()
+                if transform:
+                    text = transform(text)
+                rows.append({"label": label, "value": text})
+                return
+
+    if layer_id == "chasse_interdite":
+        name, kind = hunting_forbidden_label(props)
+        if name:
+            rows.append({"label": "Nom", "value": _title_fr(name)})
+        if kind:
+            rows.append({"label": "Type", "value": _title_fr(kind)})
+        return rows
+
+    if layer_id == "tfs":
+        add("Nom", ("NOM", "NOM_TFS", "NOM_ZEC", "nom", "name"), transform=_title_fr)
+        add("Type", ("TYPE", "TYPE_TFS"), transform=_title_fr)
+        return rows
+
+    if layer_id in ("habitat_legal", "habitat_info"):
+        add("Lieu", ("TOPONYME",), transform=_title_fr)
+        add("Catégorie", ("CATEGORIE", "TYPE_HABITAT", "TYPE"), transform=_title_fr)
+        add("Statut", ("STATUT",), transform=_title_fr)
+        species = _format_species_list(
+            props.get("ESPECE") or props.get("ESPECE_CIBLE") or props.get("NOM_ESPECE")
+        )
+        if species:
+            rows.append({"label": "Espèces", "value": species})
+        add("Région faunique", ("REG_FAUNE", "REG_ADMIN"), transform=_title_fr)
+        sup = props.get("SUP_HA")
+        if sup is not None and str(sup).strip():
+            rows.append({"label": "Superficie", "value": f"{sup} ha"})
+        return rows
+
+    if layer_id == "stations_lavage":
+        add("Station", ("NOM", "nom", "name"))
+        add("Adresse", ("ADRESSE", "adresse"))
+        add("Municipalité", ("MUNICIPALITE", "municipalite"))
+        return rows
+
+    for key, val in props.items():
+        if key.lower() in {"geometry", "shape", "gid", "objectid", "fid"}:
+            continue
+        if val is not None and str(val).strip():
+            rows.append({"label": key.replace("_", " "), "value": str(val).strip()})
+        if len(rows) >= 6:
+            break
+    return rows
+
+
+def get_point_context(
+    lon: float, lat: float, visible_layers: list[str] | None = None
+) -> dict[str, Any]:
     """Résout zone pêche, exception, hydro, TFS et chasse interdite pour un point."""
     out: dict[str, Any] = {"lon": lon, "lat": lat}
+    visible = set(visible_layers or [])
 
     fz = fishing_zone_at_point(lon, lat)
     if fz:
@@ -283,16 +377,17 @@ def get_point_context(lon: float, lat: float) -> dict[str, Any]:
     if water:
         out["waterbody"] = {"name": water, "layer": layer}
 
-    tfs_feats = _wfs_point_query(
-        SMARTFAUNE, "SmartFaunePub:TFS", lon, lat, delta=0.02
-    )
-    if tfs_feats:
-        props = tfs_feats[0].get("properties") or {}
-        for key in ("NOM", "NOM_TFS", "NOM_ZEC", "nom", "name", "TYPE"):
-            val = props.get(key)
-            if val and str(val).strip():
-                out["tfs"] = {"name": str(val).strip()}
-                break
+    if "tfs" in visible:
+        tfs_feats = _wfs_point_query(
+            SMARTFAUNE, "SmartFaunePub:TFS", lon, lat, delta=0.02
+        )
+        if tfs_feats:
+            props = tfs_feats[0].get("properties") or {}
+            for key in ("NOM", "NOM_TFS", "NOM_ZEC", "nom", "name", "TYPE"):
+                val = props.get(key)
+                if val and str(val).strip():
+                    out["tfs"] = {"name": str(val).strip()}
+                    break
 
     hunt_feats = _wfs_point_query(
         SMARTFAUNE, "SmartFaunePub:Chasse_Interdite", lon, lat, delta=0.02
@@ -305,5 +400,25 @@ def get_point_context(lon: float, lat: float) -> dict[str, Any]:
             if kind:
                 payload["kind"] = kind
             out["hunting_forbidden"] = payload
+
+    overlays: list[dict[str, Any]] = []
+    for layer_id, (url, type_name) in _OPTIONAL_LAYERS.items():
+        if layer_id not in visible:
+            continue
+        feats = _wfs_point_query(url, type_name, lon, lat, delta=0.02)
+        if not feats:
+            continue
+        props = feats[0].get("properties") or {}
+        summary = summarize_layer_props(layer_id, props)
+        if summary:
+            overlays.append(
+                {
+                    "layer_id": layer_id,
+                    "title": _LAYER_TITLES.get(layer_id, layer_id),
+                    "rows": summary,
+                }
+            )
+    if overlays:
+        out["layer_overlays"] = overlays
 
     return out

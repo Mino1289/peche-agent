@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "harvested_at": "2026-08-29T14:14:02Z",
+  "harvested_at": "2026-09-21T00:30:31Z",
   "basemaps": [
     {
       "id": "fond_quebec",
@@ -69,13 +69,15 @@
           "legend_url": null,
           "min_zoom": null,
           "max_zoom": null,
-          "opacity": 0.35,
+          "opacity": 1.0,
           "visible_default": true,
           "identify": true,
           "attribution": "MFFP SmartFaune / RegPec",
           "queryable": true,
           "color": "#14609d",
-          "extra": {}
+          "extra": {
+            "outline": true
+          }
         },
         {
           "id": "plans_regpec",
@@ -130,7 +132,7 @@
           "identify": true,
           "attribution": "MFFP SmartFaune",
           "queryable": true,
-          "color": "#a855f7",
+          "color": "#16a34a",
           "extra": {}
         },
         {
@@ -156,7 +158,9 @@
           "attribution": "MFFP SmartFaune",
           "queryable": true,
           "color": "#ef4444",
-          "extra": {}
+          "extra": {
+            "no_color": true
+          }
         },
         {
           "id": "habitat_legal",
@@ -267,9 +271,40 @@
           }
         },
         {
+          "id": "marees_shc",
+          "title": "Stations marégraphiques SHC",
+          "group": "hydro_temps_reel",
+          "source_type": "local",
+          "url": "data/tides/stations.json",
+          "layer_name": null,
+          "curated": true,
+          "filter_spec": {
+            "kind": "local",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": null,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "SHC / IWLS",
+          "queryable": true,
+          "color": "#6366f1",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "hydrographie",
+      "title": "Hydrographie",
+      "layers": [
+        {
           "id": "barrages_cehq",
           "title": "Barrages CEHQ",
-          "group": "hydro_temps_reel",
+          "group": "hydrographie",
           "source_type": "local",
           "url": "data/barrages/barrages.json",
           "layer_name": null,
@@ -314,41 +349,8 @@
           "attribution": "CEHQ",
           "queryable": true,
           "color": "#9a3412",
-          "extra": {
-            "geometry": "line"
-          }
-        },
-        {
-          "id": "marees_shc",
-          "title": "Stations marégraphiques SHC",
-          "group": "hydro_temps_reel",
-          "source_type": "local",
-          "url": "data/tides/stations.json",
-          "layer_name": null,
-          "curated": true,
-          "filter_spec": {
-            "kind": "local",
-            "attr": null,
-            "options": [],
-            "multi": true
-          },
-          "legend_url": null,
-          "min_zoom": null,
-          "max_zoom": null,
-          "opacity": 1.0,
-          "visible_default": false,
-          "identify": true,
-          "attribution": "SHC / IWLS",
-          "queryable": true,
-          "color": "#6366f1",
           "extra": {}
-        }
-      ]
-    },
-    {
-      "id": "hydrographie",
-      "title": "Hydrographie",
-      "layers": [
+        },
         {
           "id": "grhq_lin_perm",
           "title": "GRHQ — réseau linéaire permanent",
@@ -541,7 +543,64 @@
           "queryable": true,
           "color": "#fb923c",
           "extra": {
-            "proxy": true
+            "proxy": true,
+            "no_color": true
+          }
+        },
+        {
+          "id": "lidar_courbes_1m",
+          "title": "Courbe de niveau lidar 1 m",
+          "group": "lidar",
+          "source_type": "wms",
+          "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi",
+          "layer_name": "courbes_niveau_1m",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=courbes_niveau_1m&format=image/png&STYLE=default",
+          "min_zoom": 15,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP LiDAR",
+          "queryable": true,
+          "color": "#a78bfa",
+          "extra": {
+            "proxy": true,
+            "dataset_url": "https://www.donneesquebec.ca/recherche/dataset/produits-derives-de-base-du-lidar"
+          }
+        },
+        {
+          "id": "lidar_courbes_10m",
+          "title": "Courbe de niveau lidar 10 m",
+          "group": "lidar",
+          "source_type": "wms",
+          "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi",
+          "layer_name": "courbes_niveau_10m",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=courbes_niveau_10m&format=image/png&STYLE=default",
+          "min_zoom": 11,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MFFP LiDAR",
+          "queryable": true,
+          "color": "#8b5cf6",
+          "extra": {
+            "proxy": true,
+            "dataset_url": "https://www.donneesquebec.ca/recherche/dataset/produits-derives-de-base-du-lidar"
           }
         }
       ]
@@ -616,8 +675,8 @@
     "habitat_info",
     "stations_lavage",
     "vigilance_stations",
-    "barrages_cehq",
     "marees_shc",
+    "barrages_cehq",
     "grhq_lin_perm",
     "grhq_surf",
     "grhq_flow",
@@ -625,6 +684,8 @@
     "milieux_humides",
     "bassins_wms",
     "lidar_pentes",
+    "lidar_courbes_1m",
+    "lidar_courbes_10m",
     "aq_reseau",
     "aq_forestier"
   ]
