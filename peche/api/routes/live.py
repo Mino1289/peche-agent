@@ -11,8 +11,18 @@ from peche.hydromet import fetch_live_stations, get_live_station
 from peche.tides import get_tide_predictions, get_water_level_live
 from peche.tools import _build_station_links
 from peche.cehq import fetch_cehq_history, is_cehq_station_id
+from peche.weather import get_weather
 
 router = APIRouter()
+
+
+@router.get("/api/weather")
+def weather_at(
+    lat: float = Query(..., ge=-90, le=90),
+    lon: float = Query(..., ge=-180, le=180),
+) -> JSONResponse:
+    return JSONResponse(get_weather(lat, lon))
+
 
 _LIVE_HYDRO: tuple[float, list[dict]] | None = None
 _LIVE_TTL_S = 60.0

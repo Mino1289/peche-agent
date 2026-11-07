@@ -7,12 +7,13 @@ import { toLonLat } from "ol/proj";
 import type { MapPin } from "./types";
 import { formatSpeciesList, titleFr, uninvertName } from "./names";
 import { escapeHtml } from "./regs";
-import { t } from "./i18n";
+import { getLocale, t } from "./i18n";
 
 export const IDENTIFY_LAYERS = new Set([
   "barrages_cehq",
   "vigilance_stations",
   "marees_shc",
+  "meteo_eccc",
   "plans_regpec",
   "tfs",
   "chasse_interdite",
@@ -72,7 +73,7 @@ export class IdentifyOverlay {
     this.overlay = new Overlay({
       element: this.el,
       autoPan: { animation: { duration: 250 } },
-      // top-center + offset dynamique : le haut du popup ne saute pas si la hauteur change
+      // top-center + offset négatif : le haut du popup reste fixe quand la hauteur change
       positioning: "top-center",
       offset: [0, 0],
       stopEvent: true,
@@ -292,6 +293,7 @@ export class IdentifyOverlay {
       if (hit.layerId === "barrages_cehq") return barrageHtml(p);
       if (hit.layerId === "vigilance_stations") return await hydrometHtml(p);
       if (hit.layerId === "marees_shc") return await tidesHtml(p);
+      if (hit.layerId === "meteo_eccc") return await weatherHtml(p);
       if (hit.layerId === "plans_regpec") return planPopupHtml(p);
       if (hit.layerId === "tfs") return tfsHtml(p);
       if (hit.layerId === "chasse_interdite") return chasseInterditeHtml(p);
@@ -361,6 +363,9 @@ export function titleFor(hit: IdentifyHit): string {
   if (hit.layerId === "marees_shc") {
     return String(p.nom || p.officialName || p.name || p.code || "Station de marée");
   }
+  if (hit.layerId === "meteo_eccc") {
+    return String(p.ville || p.name || "Météo");
+  }
   if (hit.layerId === "plans_regpec") {
     return uninvertName(String(p.nom || p.name || `Plan ${p.plan_id || ""}`));
   }
@@ -419,6 +424,13 @@ export function featurePinKey(
   if (layer === "marees_shc") {
     const code = pick("code", "station_code", "id");
     return code ? `${layer}:${code}` : null;
+  }
+  if (layer === "meteo_eccc") {
+    const ville = pick("ville", "name");
+    if (ville && lon != null && lat != null) {
+      return `${layer}:${ville}:${lon.toFixed(4)},${lat.toFixed(4)}`;
+    }
+    return ville ? `${layer}:${ville}` : null;
   }
   if (layer === "plans_regpec") {
     const pid = pick("plan_id");
@@ -600,38 +612,291 @@ async function hydrometHtml(p: Record<string, unknown>): Promise<string> {
   if (live.error) {
     return `${cached}<p class="identify-error">${escapeHtml(String(live.error))}</p>`;
   }
-  const base = dl([
-    [m.station, str(live.station_id || sid)],
-    [m.waterbody, uninvertName(str(live.plan_eau || p.plan_eau))],
-    [m.dataSource, str(live.source)],
-    [m.state, str(live.etat)],
-    [m.level, live.niveau_m != null ? `${live.niveau_m} m` : "—"],
-    [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : "—"],
-    [m.observed, str(live.observed_at)],
-    [m.hqRegion, str(live.hq_region)],
-  ]);
+  const base = hydrometMetaHtml(live, p);
   const metrics = hqMetricsTableHtml(live.hq_metrics);
   return base + metrics + linksHtml(live.urls as Record<string, string> | undefined);
+}
+
+/** Bloc résumé hydro popup / détail (champs vides omis). */
+export function hydrometMetaHtml(
+  live: Record<string, unknown>,
+  props?: Record<string, unknown>,
+): string {
+  const m = t();
+  const sid = str(live.station_id || props?.station || props?.station_id);
+  const rows: [string, string][] = [];
+  if (sid) rows.push([m.station, sid]);
+  const src = formatHydrometSource(str(live.source));
+  if (src) rows.push([m.dataSource, src]);
+  const plan = uninvertName(str(live.plan_eau || props?.plan_eau));
+  if (plan) rows.push([m.waterbody, plan]);
+  const etat = str(live.etat);
+  if (etat) rows.push([m.state, etat]);
+  if (live.niveau_m != null && live.niveau_m !== "")
+    rows.push([m.level, `${live.niveau_m} m`]);
+  if (live.debit_m3s != null && live.debit_m3s !== "")
+    rows.push([m.flow, `${live.debit_m3s} m³/s`]);
+  const obs = str(live.observed_at);
+  if (obs) rows.push([m.observed, obs]);
+  const reg = str(live.hq_region);
+  if (reg) rows.push([m.hqRegion, reg]);
+  return dl(rows);
+}
+
+const WIND_COMPASS_FR = [
+  "N",
+  "NNE",
+  "NE",
+  "ENE",
+  "E",
+  "ESE",
+  "SE",
+  "SSE",
+  "S",
+  "SSO",
+  "SO",
+  "OSO",
+  "O",
+  "ONO",
+  "NO",
+  "NNO",
+] as const;
+
+const WIND_COMPASS_EN = [
+  "N",
+  "NNE",
+  "NE",
+  "ENE",
+  "E",
+  "ESE",
+  "SE",
+  "SSE",
+  "S",
+  "SSW",
+  "SW",
+  "WSW",
+  "W",
+  "WNW",
+  "NW",
+  "NNW",
+] as const;
+
+function degToCompass16(deg: number): string {
+  const d = ((deg % 360) + 360) % 360;
+  const idx = Math.round(d / 22.5) % 16;
+  const labels = getLocale() === "fr" ? WIND_COMPASS_FR : WIND_COMPASS_EN;
+  return labels[idx] ?? "—";
+}
+
+function formatHydrometSource(raw: string): string {
+  if (/hydro-qu[eé]bec/i.test(raw)) return "Hydro-Québec";
+  return raw;
+}
+
+function hqMetricLabel(r: Record<string, unknown>): string {
+  const raw = str(r.variable || r.type_point_donnee);
+  return raw
+    .replace(/\s*—\s*(Moyenne|Instantanée|Maximum|Minimum|Somme)\s*—\s*Horaire$/iu, "")
+    .replace(/\s*—\s*Journalier$/iu, "");
+}
+
+function hqTypeKey(r: Record<string, unknown>): string {
+  return str(r.type_point_donnee).toLowerCase();
+}
+
+function isHqWindDirection(r: Record<string, unknown>): boolean {
+  const u = str(r.nom_unite_mesure);
+  const t = hqTypeKey(r);
+  return u === "°" && t.includes("direction") && t.includes("vent");
+}
+
+function isHqWindSpeed(r: Record<string, unknown>): boolean {
+  const t = hqTypeKey(r);
+  return t.includes("vitesse") && t.includes("vent");
+}
+
+function isHqTempMin(r: Record<string, unknown>): boolean {
+  return hqTypeKey(r).includes("température minimum");
+}
+
+function isHqTempMax(r: Record<string, unknown>): boolean {
+  return hqTypeKey(r).includes("température maximum");
+}
+
+function hqMetricRow(label: string, value: string): string {
+  return `<tr><td>${escapeHtml(label)}</td><td>${value}</td></tr>`;
 }
 
 function hqMetricsTableHtml(metrics: unknown): string {
   if (!Array.isArray(metrics) || !metrics.length) return "";
   const m = t();
-  let body = "";
-  for (const row of metrics.slice(0, 16)) {
-    if (!row || typeof row !== "object") continue;
-    const r = row as Record<string, unknown>;
-    const label = str(r.variable || r.type_point_donnee);
+  const rows = metrics.filter(
+    (row): row is Record<string, unknown> => !!row && typeof row === "object",
+  );
+  const used = new Set<Record<string, unknown>>();
+  const bodyParts: string[] = [];
+
+  const windDir = rows.find((r) => isHqWindDirection(r));
+  const windSpd = rows.find((r) => isHqWindSpeed(r));
+  const tempMin = rows.find((r) => isHqTempMin(r));
+  const tempMax = rows.find((r) => isHqTempMax(r));
+
+  if (windDir) {
+    used.add(windDir);
+    const deg = Number(windDir.valeur);
+    const compass = Number.isFinite(deg) ? degToCompass16(deg) : "—";
+    bodyParts.push(
+      hqMetricRow(
+        hqMetricLabel(windDir),
+        `<strong>${escapeHtml(compass)}</strong> <span class="muted">(${escapeHtml(
+          String(windDir.valeur),
+        )}°)</span>`,
+      ),
+    );
+  }
+  if (windSpd) {
+    used.add(windSpd);
+    const unit = str(windSpd.nom_unite_mesure);
+    bodyParts.push(
+      hqMetricRow(
+        hqMetricLabel(windSpd),
+        `<strong>${escapeHtml(String(windSpd.valeur ?? "—"))}</strong> ${escapeHtml(unit)}`,
+      ),
+    );
+  }
+  if (tempMin || tempMax) {
+    if (tempMin) used.add(tempMin);
+    if (tempMax) used.add(tempMax);
+    const vmin = tempMin?.valeur != null ? `${tempMin.valeur} °C` : "—";
+    const vmax = tempMax?.valeur != null ? `${tempMax.valeur} °C` : "—";
+    bodyParts.push(
+      hqMetricRow(
+        m.hqTempSpread,
+        `<strong>${escapeHtml(vmin)} ~ ${escapeHtml(vmax)}</strong>`,
+      ),
+    );
+  }
+
+  let n = 0;
+  for (const r of rows) {
+    if (used.has(r)) continue;
+    if (n >= 14) break;
+    const label = hqMetricLabel(r);
     const val = r.valeur != null ? String(r.valeur) : "—";
     const unit = str(r.nom_unite_mesure);
-    body += `<tr><td>${escapeHtml(label)}</td><td><strong>${escapeHtml(
-      val,
-    )}</strong> ${escapeHtml(unit)}</td></tr>`;
+    bodyParts.push(
+      hqMetricRow(
+        label,
+        `<strong>${escapeHtml(val)}</strong> ${escapeHtml(unit)}`,
+      ),
+    );
+    n += 1;
   }
-  if (!body) return "";
-  return `<p class="muted">${escapeHtml(m.hqSeries)}</p><table class="identify-table"><thead><tr><th>${escapeHtml(
+
+  if (!bodyParts.length) return "";
+  return `<p class="muted identify-hq-hint">${escapeHtml(m.hqSeries)}</p><table class="identify-table"><thead><tr><th>${escapeHtml(
     m.name,
-  )}</th><th>${escapeHtml(m.observed)}</th></tr></thead><tbody>${body}</tbody></table>`;
+  )}</th><th>${escapeHtml(m.observed)}</th></tr></thead><tbody>${bodyParts.join("")}</tbody></table>`;
+}
+
+function weatherMetric(
+  v: unknown,
+  unit: string,
+  hideEmpty: boolean,
+): string {
+  if (v == null || String(v).trim() === "") {
+    return hideEmpty ? "" : "—";
+  }
+  return `${v} ${unit}`;
+}
+
+function weatherText(v: unknown, hideEmpty: boolean): string {
+  const s = str(v);
+  if (s) return s;
+  return hideEmpty ? "" : "—";
+}
+
+export function weatherDetailHtml(
+  w: Record<string, unknown>,
+  opts?: { showForecasts?: boolean; hideEmpty?: boolean },
+): string {
+  const m = t();
+  const hideEmpty = Boolean(opts?.hideEmpty);
+  const wind = (() => {
+    if (w.vent_kmh == null || String(w.vent_kmh).trim() === "") {
+      return hideEmpty ? "" : "—";
+    }
+    const dir = w.vent_dir ? ` ${w.vent_dir}` : "";
+    return `${w.vent_kmh} km/h${dir}`;
+  })();
+  let html = dl([
+    [m.name, str(w.ville)],
+    [m.dataSource, weatherText(w.source, hideEmpty)],
+    [m.temperature, weatherMetric(w.temperature_c, "°C", hideEmpty)],
+    [m.humidity, weatherMetric(w.humidite_pct, "%", hideEmpty)],
+    [m.wind, wind],
+    [m.windGust, weatherMetric(w.rafales_kmh, "km/h", hideEmpty)],
+    [m.pressure, weatherMetric(w.pression_kpa, "kPa", hideEmpty)],
+    [m.observed, weatherText(w.observed_at, hideEmpty)],
+    [m.station, weatherText(w.station, hideEmpty)],
+  ]);
+  if (opts?.showForecasts) {
+    const previsions = w.previsions;
+    if (Array.isArray(previsions) && previsions.length) {
+      html += `<p class="muted">${escapeHtml(m.forecast)}</p><ul class="identify-forecast">`;
+      for (const fc of previsions.slice(0, 4)) {
+        if (!fc || typeof fc !== "object") continue;
+        const f = fc as Record<string, unknown>;
+        const periode = str(f.periode);
+        const resume = str(f.resume);
+        html += `<li><strong>${escapeHtml(periode)}</strong>${resume ? ` — ${escapeHtml(resume)}` : ""}</li>`;
+      }
+      html += "</ul>";
+    }
+  }
+  const url = ecccPageUrl(w);
+  if (url) {
+    html += `<p><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(m.ecccWeatherPage)}</a></p>`;
+  }
+  return html;
+}
+
+function ecccPageUrl(w: Record<string, unknown>): string {
+  const raw = w.url;
+  if (typeof raw === "string" && raw.trim() && !raw.startsWith("[object")) {
+    return raw.trim();
+  }
+  if (raw && typeof raw === "object") {
+    const o = raw as Record<string, unknown>;
+    const u = str(o.fr) || str(o.en);
+    if (u) return u;
+  }
+  const lat = Number(w.ville_lat ?? w.lat);
+  const lon = Number(w.ville_lon ?? w.lon);
+  if (Number.isFinite(lat) && Number.isFinite(lon)) {
+    return `https://meteo.gc.ca/fr/location/index.html?coords=${lat.toFixed(2)},${lon.toFixed(2)}`;
+  }
+  return "";
+}
+
+async function weatherHtml(p: Record<string, unknown>): Promise<string> {
+  const m = t();
+  const lat = Number(p.lat);
+  const lon = Number(p.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    return dl([[m.name, str(p.ville)]]);
+  }
+  const resp = await fetch(
+    `/api/weather?lat=${encodeURIComponent(String(lat))}&lon=${encodeURIComponent(String(lon))}`,
+  );
+  if (!resp.ok) {
+    return `<p class="identify-error">${escapeHtml(m.weatherUnavailable(resp.status))}</p>`;
+  }
+  const live = (await resp.json()) as Record<string, unknown>;
+  if (live.error) {
+    return `<p class="identify-error">${escapeHtml(String(live.error))}</p>`;
+  }
+  return weatherDetailHtml(live, { hideEmpty: true });
 }
 
 async function tidesHtml(p: Record<string, unknown>): Promise<string> {
@@ -754,13 +1019,26 @@ function dl(rows: [string, string][]): string {
   return `<div class="identify-dl">${items.join("")}</div>`;
 }
 
-function linksHtml(urls: Record<string, string> | undefined): string {
+function linkLabel(key: string): string {
+  const m = t();
+  const labels: Record<string, string> = {
+    hydroquebec: m.linkHydroQuebec,
+    cehq: m.linkCeHQGraph,
+    cehq_tableau: m.linkCeHQTable,
+    cehq_export: "Export CEHQ",
+    vigilance: m.linkVigilance,
+    source: m.linkSource,
+  };
+  return labels[key] ?? key.replace(/_/g, " ");
+}
+
+export function linksHtml(urls: Record<string, string> | undefined): string {
   if (!urls) return "";
   const links = Object.entries(urls)
     .filter(([, u]) => u)
     .map(
       ([k, u]) =>
-        `<a href="${escapeHtml(u)}" target="_blank" rel="noopener">${escapeHtml(k.replace(/_/g, " "))}</a>`,
+        `<a href="${escapeHtml(u)}" target="_blank" rel="noopener">${escapeHtml(linkLabel(k))}</a>`,
     );
   return links.length ? `<p class="identify-links">${links.join(" · ")}</p>` : "";
 }

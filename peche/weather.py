@@ -52,6 +52,65 @@ def _build_url(lat: float, lon: float, half: float = DEFAULT_BBOX_HALF) -> str:
     return f"{GEOMET_URL}?bbox={bbox}&lang=fr&limit=5&f=json"
 
 
+def _page_url(p: dict, lat: float | None, lon: float | None) -> str | None:
+    raw = p.get("url")
+    if isinstance(raw, dict):
+        url = raw.get("fr") or raw.get("en")
+        if url:
+            return str(url)
+    elif isinstance(raw, str) and raw.strip():
+        return raw.strip()
+    if lat is not None and lon is not None:
+        return (
+            f"https://meteo.gc.ca/fr/location/index.html?coords={lat:.2f},{lon:.2f}"
+        )
+    return None
+
+
+def citypage_geojson_in_bbox(
+    bbox: tuple[float, float, float, float],
+    *,
+    limit: int = 500,
+    timeout: float = DEFAULT_TIMEOUT,
+) -> dict:
+    """Points ville GeoMet dans une bbox WGS84 (lon_min, lat_min, lon_max, lat_max)."""
+    lon_min, lat_min, lon_max, lat_max = bbox
+    cap = max(1, min(int(limit), 10000))
+    url = (
+        f"{GEOMET_URL}?bbox={lon_min},{lat_min},{lon_max},{lat_max}"
+        f"&lang=fr&limit={cap}&f=json"
+    )
+    raw = fetch_text(url, timeout=timeout)
+    data = json.loads(raw)
+    features_out: list[dict] = []
+    for feature in data.get("features") or []:
+        geom = feature.get("geometry") or {}
+        if geom.get("type") != "Point":
+            continue
+        coords = geom.get("coordinates") or []
+        if len(coords) < 2:
+            continue
+        lon_f, lat_f = float(coords[0]), float(coords[1])
+        parsed = _parse_feature(feature, lat_f, lon_f)
+        features_out.append(
+            {
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [lon_f, lat_f]},
+                "properties": {
+                    "ville": parsed.get("ville"),
+                    "temperature_c": parsed.get("temperature_c"),
+                    "observed_at": parsed.get("observed_at"),
+                    "lat": lat_f,
+                    "lon": lon_f,
+                    "url": parsed.get("url"),
+                },
+            }
+        )
+        if len(features_out) >= cap:
+            break
+    return {"type": "FeatureCollection", "features": features_out}
+
+
 def _parse_feature(feature: dict, query_lat: float, query_lon: float) -> dict:
     p = feature.get("properties") or {}
     geom = feature.get("geometry") or {}
@@ -98,7 +157,11 @@ def _parse_feature(feature: dict, query_lat: float, query_lon: float) -> dict:
         if isinstance(cc.get("station"), dict)
         else None,
         "previsions": forecasts_out,
-        "url": p.get("url"),
+        "url": _page_url(
+            p,
+            float(feat_lat) if feat_lat is not None else None,
+            float(feat_lon) if feat_lon is not None else None,
+        ),
         "source": "GeoMet citypageweather-realtime",
     }
 

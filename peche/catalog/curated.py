@@ -186,6 +186,18 @@ def curated_layers() -> list[LayerDef]:
             color="#6366f1",
             attribution="SHC / IWLS",
         ),
+        LayerDef(
+            id="meteo_eccc",
+            title="Météo ECCC (villes GeoMet)",
+            group="hydro_temps_reel",
+            source_type="local",
+            url="geomet:citypage",
+            curated=True,
+            filter_spec=FilterSpec(kind="none"),
+            color="#fb7185",
+            attribution="Environnement et Changement climatique Canada — GeoMet",
+            extra={"proxy": False},
+        ),
         # --- Hydrographie ---
         LayerDef(
             id="barrages_cehq",

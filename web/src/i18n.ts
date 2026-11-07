@@ -80,6 +80,12 @@ type Messages = {
   observed: string;
   hqRegion: string;
   hqSeries: string;
+  hqTempSpread: string;
+  linkHydroQuebec: string;
+  linkCeHQGraph: string;
+  linkCeHQTable: string;
+  linkVigilance: string;
+  linkSource: string;
   dataSource: string;
   cachedState: string;
   liveUnavailable: (status: number) => string;
@@ -104,7 +110,18 @@ type Messages = {
   huntingForbidden: string;
   unknownStation: string;
   measuresUnavailable: (status: number) => string;
+  temperature: string;
+  humidity: string;
+  wind: string;
+  windGust: string;
+  pressure: string;
+  forecast: string;
+  weatherUnavailable: (status: number) => string;
+  ecccWeatherPage: string;
   noHistory: string;
+  hydroHistoryCeHQ: (days: number) => string;
+  hydroHistoryHq: (days: number) => string;
+  hydroHistoryCompareCeHQ: (days: number) => string;
   missingTideCode: string;
   unknownZone: string;
   noZoneAtPoint: string;
@@ -219,7 +236,13 @@ const FR: Messages = {
   flow: "Débit",
   observed: "Observé",
   hqRegion: "Région",
-  hqSeries: "Mesures (dernière valeur, ~10 jours HQ)",
+  hqSeries: "Dernières mesures horaires",
+  hqTempSpread: "Température (min ~ max)",
+  linkHydroQuebec: "Outil débits et niveaux (HQ)",
+  linkCeHQGraph: "Graphique CEHQ",
+  linkCeHQTable: "Tableau CEHQ",
+  linkVigilance: "Fiche Vigilance",
+  linkSource: "Source des données",
   dataSource: "Source",
   cachedState: "État (cache)",
   liveUnavailable: (s) => `Mesures live indisponibles (${s})`,
@@ -244,7 +267,21 @@ const FR: Messages = {
   huntingForbidden: "Chasse interdite",
   unknownStation: "Station inconnue",
   measuresUnavailable: (s) => `Mesures indisponibles (${s})`,
-  noHistory: "Pas d'historique CEHQ pour cette station.",
+  temperature: "Température",
+  humidity: "Humidité",
+  wind: "Vent",
+  windGust: "Rafales",
+  pressure: "Pression",
+  forecast: "Prévisions",
+  weatherUnavailable: (s) => `Météo indisponible (HTTP ${s}).`,
+  ecccWeatherPage: "Fiche ECCC",
+  noHistory: "Pas d'historique disponible pour cette station.",
+  hydroHistoryCeHQ: (days) =>
+    `Historique CEHQ — ${days} derniers jours (points horaires)`,
+  hydroHistoryHq: (days) =>
+    `Historique Hydro-Québec — ${days} jour(s)`,
+  hydroHistoryCompareCeHQ: (days) =>
+    `Historique CEHQ — ${days} derniers jours (comparaison, points horaires)`,
   missingTideCode: "Code de station manquant",
   unknownZone: "Zone inconnue",
   noZoneAtPoint: "Aucune zone de pêche à cet endroit",
@@ -358,7 +395,13 @@ const EN: Messages = {
   flow: "Flow",
   observed: "Observed",
   hqRegion: "Region",
-  hqSeries: "Measurements (latest value, ~10 days HQ)",
+  hqSeries: "Latest hourly readings",
+  hqTempSpread: "Temperature (min ~ max)",
+  linkHydroQuebec: "Flows & levels tool (HQ)",
+  linkCeHQGraph: "CHS chart",
+  linkCeHQTable: "CHS table",
+  linkVigilance: "Vigilance sheet",
+  linkSource: "Data source",
   dataSource: "Source",
   cachedState: "Status (cache)",
   liveUnavailable: (s) => `Live readings unavailable (${s})`,
@@ -383,7 +426,21 @@ const EN: Messages = {
   huntingForbidden: "Hunting prohibited",
   unknownStation: "Unknown station",
   measuresUnavailable: (s) => `Readings unavailable (${s})`,
-  noHistory: "No CEHQ history for this station.",
+  temperature: "Temperature",
+  humidity: "Humidity",
+  wind: "Wind",
+  windGust: "Gusts",
+  pressure: "Pressure",
+  forecast: "Forecast",
+  weatherUnavailable: (s) => `Weather unavailable (HTTP ${s}).`,
+  ecccWeatherPage: "ECCC weather page",
+  noHistory: "No history available for this station.",
+  hydroHistoryCeHQ: (days) =>
+    `CEHQ history — last ${days} days (hourly points)`,
+  hydroHistoryHq: (days) =>
+    `Hydro-Québec history — ${days} day(s)`,
+  hydroHistoryCompareCeHQ: (days) =>
+    `CEHQ history — last ${days} days (comparison, hourly points)`,
   missingTideCode: "Missing station code",
   unknownZone: "Unknown zone",
   noZoneAtPoint: "No fishing zone at this location",

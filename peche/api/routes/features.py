@@ -153,6 +153,12 @@ def _features_local(
     limit: int,
 ) -> dict:
     """Filtre JSON local (stations, barrages, marées, locations)."""
+    if layer_id == "meteo_eccc":
+        if not bbox:
+            return {"type": "FeatureCollection", "features": []}
+        from peche.weather import citypage_geojson_in_bbox
+
+        return citypage_geojson_in_bbox(bbox, limit=limit)
     if layer_id in {"plans_regpec"}:
         from peche.spatial.plan_geom import plans_geojson
 

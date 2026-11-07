@@ -45,6 +45,9 @@
         }
       ]
     },
-    "url": "https://example.com/weather"
+    "url": {
+      "en": "https://weather.gc.ca/en/location/index.html?coords=48.43,-71.06",
+      "fr": "https://meteo.gc.ca/fr/location/index.html?coords=48.43,-71.06"
+    }
   }
 }

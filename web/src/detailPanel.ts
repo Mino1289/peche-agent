@@ -1,7 +1,14 @@
 /** Panneau latéral de détail (graphiques hydro / tableaux règlements). */
 
 import type { IdentifyHit } from "./identify";
-import { hqMetricsTableHtml, titleFor, zoneLabelFromProps } from "./identify";
+import {
+  hqMetricsTableHtml,
+  hydrometMetaHtml,
+  linksHtml,
+  titleFor,
+  weatherDetailHtml,
+  zoneLabelFromProps,
+} from "./identify";
 import { uninvertName } from "./names";
 import { timelineHtml, escapeHtml, type TimelinePayload } from "./regs";
 import {
@@ -93,6 +100,10 @@ export class DetailPanel {
       await this.fillTides(body, hit);
       return;
     }
+    if (hit.layerId === "meteo_eccc") {
+      await this.fillWeather(body, hit);
+      return;
+    }
     if (hit.layerId === "plans_regpec") {
       await this.fillPlan(body, hit);
       return;
@@ -128,25 +139,44 @@ export class DetailPanel {
     body.innerHTML = "";
     const meta = document.createElement("div");
     meta.innerHTML =
-      dl([
-        [m.station, sid],
-        [m.waterbody, uninvertName(str(live.plan_eau || hit.props.plan_eau))],
-        [m.dataSource, str(live.source)],
-        [m.state, str(live.etat)],
-        [m.level, live.niveau_m != null ? `${live.niveau_m} m` : ""],
-        [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : ""],
-        [m.observed, str(live.observed_at)],
-        [m.hqRegion, str(live.hq_region)],
-      ]) + hqMetricsTableHtml(live.hq_metrics);
+      hydrometMetaHtml(live as Record<string, unknown>, hit.props) +
+      hqMetricsTableHtml(live.hq_metrics) +
+      linksHtml(live.urls as Record<string, string> | undefined);
     body.appendChild(meta);
-    const charts = document.createElement("div");
-    charts.className = "detail-charts";
-    body.appendChild(charts);
-    if (live.history) {
+    const hasHistory =
+      live.history &&
+      typeof live.history === "object" &&
+      Array.isArray(live.history.series) &&
+      live.history.series.length > 0;
+    if (hasHistory) {
+      const charts = document.createElement("div");
+      charts.className = "detail-charts";
+      body.appendChild(charts);
       renderStationHydroCharts(charts, live);
-    } else if (!live.hq_metrics) {
-      charts.innerHTML = `<p class="muted">${escapeHtml(m.noHistory)}</p>`;
     }
+  }
+
+  private async fillWeather(body: HTMLElement, hit: IdentifyHit): Promise<void> {
+    const m = t();
+    const lat = Number(hit.props.lat);
+    const lon = Number(hit.props.lon);
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+      body.innerHTML = `<p class="identify-error">${escapeHtml(m.weatherUnavailable(0))}</p>`;
+      return;
+    }
+    const resp = await fetch(
+      `/api/weather?lat=${encodeURIComponent(String(lat))}&lon=${encodeURIComponent(String(lon))}`,
+    );
+    if (!resp.ok) {
+      body.innerHTML = `<p class="identify-error">${escapeHtml(m.weatherUnavailable(resp.status))}</p>`;
+      return;
+    }
+    const live = (await resp.json()) as Record<string, unknown>;
+    if (live.error) {
+      body.innerHTML = `<p class="identify-error">${escapeHtml(String(live.error))}</p>`;
+      return;
+    }
+    body.innerHTML = weatherDetailHtml(live, { showForecasts: true });
   }
 
   private async fillTides(body: HTMLElement, hit: IdentifyHit): Promise<void> {

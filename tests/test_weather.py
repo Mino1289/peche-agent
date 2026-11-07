@@ -22,6 +22,27 @@ def test_parse_feature(fixtures_dir):
     assert out["ville"] == "Chicoutimi"
     assert float(out["temperature_c"]) == 18.5
     assert out["distance_km"] is not None
+    assert out["url"] == (
+        "https://meteo.gc.ca/fr/location/index.html?coords=48.43,-71.06"
+    )
+
+
+def test_citypage_geojson_in_bbox(monkeypatch, fixtures_dir):
+    feature = json.loads(
+        (fixtures_dir / "geom_et_feature.json").read_text(encoding="utf-8")
+    )
+    payload = {"type": "FeatureCollection", "features": [feature]}
+
+    def fake_fetch(url, **kwargs):
+        return json.dumps(payload)
+
+    monkeypatch.setattr(weather, "fetch_text", fake_fetch)
+    out = weather.citypage_geojson_in_bbox((-72, 48, -70, 49), limit=10)
+    assert out["type"] == "FeatureCollection"
+    assert len(out["features"]) == 1
+    props = out["features"][0]["properties"]
+    assert props["ville"] == "Chicoutimi"
+    assert float(props["temperature_c"]) == 18.5
 
 
 def test_get_weather_cache_hit(monkeypatch, fixtures_dir):
