@@ -190,3 +190,10 @@ def test_zone_mapping_wfs_aliases():
     assert {z.value for z in split22} == {24, 25}
     split23 = match_zones(23, "")
     assert {z.value for z in split23} == {26, 27}
+
+
+def test_tfs_filter_uses_existing_attribute():
+    # SmartFaunePub:TFS n'a pas de champ TYPE ; le type vit dans DESCRIPTION.
+    spec = next(layer for layer in curated_layers() if layer.id == "tfs").filter_spec
+    assert spec.attr == "DESCRIPTION"
+    assert len(spec.options) == 9

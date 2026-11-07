@@ -114,14 +114,24 @@
           "id": "tfs",
           "title": "Territoires fauniques structurés (ZEC, pourvoiries…)",
           "group": "faune",
-          "source_type": "wfs",
-          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows",
-          "layer_name": "SmartFaunePub:TFS",
+          "source_type": "local",
+          "url": "data/spatial/tfs.geojson",
+          "layer_name": null,
           "curated": true,
           "filter_spec": {
-            "kind": "cql",
-            "attr": "TYPE",
-            "options": [],
+            "kind": "local",
+            "attr": "DESCRIPTION",
+            "options": [
+              {"value": "pourvoirie", "label": "Pourvoirie avec droits exclusifs", "match": "Pourvoirie avec droits exclusifs"},
+              {"value": "zec_saumon", "label": "ZEC pêche saumon", "match": "ZEC pêche saumon"},
+              {"value": "zec", "label": "ZEC", "match": "ZEC"},
+              {"value": "petit_lac", "label": "Petit lac aménagé", "match": "Petit lac aménagé"},
+              {"value": "reserve", "label": "Réserve faunique", "match": "Réserve faunique"},
+              {"value": "aire_communautaire", "label": "Aire faunique communautaire", "match": "Aire faunique communautaire"},
+              {"value": "reserve_saumon", "label": "Réserve faunique rivière à saumon", "match": "Réserve faunique rivière à saumon"},
+              {"value": "entente_autochtone", "label": "Entente particulière autochtone", "match": "Entente particulière autochtone"},
+              {"value": "zec_sauvagine", "label": "ZEC chasse sauvagine", "match": "ZEC chasse sauvagine"}
+            ],
             "multi": true
           },
           "legend_url": null,
@@ -161,56 +171,6 @@
           "extra": {
             "no_color": true
           }
-        },
-        {
-          "id": "habitat_legal",
-          "title": "Habitats fauniques légaux",
-          "group": "faune",
-          "source_type": "wfs",
-          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/Habitats_Fauniques_Pub/ows",
-          "layer_name": "Habitats_Fauniques_Pub:Habitat_legal",
-          "curated": true,
-          "filter_spec": {
-            "kind": "cql",
-            "attr": null,
-            "options": [],
-            "multi": true
-          },
-          "legend_url": null,
-          "min_zoom": null,
-          "max_zoom": null,
-          "opacity": 1.0,
-          "visible_default": false,
-          "identify": true,
-          "attribution": "MFFP",
-          "queryable": true,
-          "color": "#22c55e",
-          "extra": {}
-        },
-        {
-          "id": "habitat_info",
-          "title": "Habitats fauniques informationnels",
-          "group": "faune",
-          "source_type": "wfs",
-          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/Habitats_Fauniques_Pub/ows",
-          "layer_name": "Habitats_Fauniques_Pub:Habitat_informationnel",
-          "curated": true,
-          "filter_spec": {
-            "kind": "cql",
-            "attr": null,
-            "options": [],
-            "multi": true
-          },
-          "legend_url": null,
-          "min_zoom": null,
-          "max_zoom": null,
-          "opacity": 1.0,
-          "visible_default": false,
-          "identify": true,
-          "attribution": "MFFP",
-          "queryable": true,
-          "color": "#86efac",
-          "extra": {}
         },
         {
           "id": "stations_lavage",
@@ -671,8 +631,6 @@
     "plans_regpec",
     "tfs",
     "chasse_interdite",
-    "habitat_legal",
-    "habitat_info",
     "stations_lavage",
     "vigilance_stations",
     "marees_shc",

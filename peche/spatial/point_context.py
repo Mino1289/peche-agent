@@ -317,7 +317,7 @@ def summarize_layer_props(layer_id: str, props: dict[str, Any]) -> list[dict[str
 
     if layer_id == "tfs":
         add("Nom", ("NOM", "NOM_TFS", "NOM_ZEC", "nom", "name"), transform=_title_fr)
-        add("Type", ("TYPE", "TYPE_TFS"), transform=_title_fr)
+        add("Type", ("DESCRIPTION", "TYPE", "TYPE_TFS"), transform=_title_fr)
         return rows
 
     if layer_id == "stations_lavage":

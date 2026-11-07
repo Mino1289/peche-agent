@@ -29,6 +29,18 @@ def _fetch_json(url: str) -> Any:
     return json.loads(raw[start:] if start >= 0 else raw)
 
 
+def _option_matches(options: list[dict[str, Any]], values: str | None) -> list[str] | None:
+    """Ids d'options (client) → valeurs réelles (`match`) ; les ids inconnus sont refusés."""
+    ids = [v.strip() for v in (values or "").split(",") if v.strip()]
+    if not ids:
+        return None
+    match = {str(o["value"]): str(o.get("match", o["value"])) for o in options}
+    unknown = [i for i in ids if i not in match]
+    if unknown:
+        raise HTTPException(status_code=400, detail=f"Valeurs inconnues: {', '.join(unknown)}")
+    return [match[i] for i in ids]
+
+
 def _features_cql(
     url: str,
     type_name: str,
@@ -293,6 +305,7 @@ def get_features(
     layer: str = Query(..., description="id de couche catalogue"),
     bbox: str | None = Query(None, description="lon_min,lat_min,lon_max,lat_max"),
     filter: str | None = Query(None, description="CQL ou where ArcGIS"),
+    values: str | None = Query(None, description="Ids d'options séparés par virgule (couches à options)"),
     zone_id: int | None = None,
     categorie: str | None = Query(
         None, description="Catégories barrage séparées par virgule"
@@ -341,6 +354,15 @@ def get_features(
                 filter,
                 bbox_t,
                 limit,
+            )
+        elif kind == "local" and layer == "tfs":
+            # Snapshot simplifié (peche/spatial/tfs.py) : filtre par ids, zoom et bbox en mémoire.
+            from peche.spatial.tfs import tfs_geojson
+
+            options = layer_def.filter_spec.options if layer_def.filter_spec else []
+            matches = _option_matches(options, values)
+            data = tfs_geojson(
+                bbox_t, descriptions=set(matches) if matches else None, zoom=zoom
             )
         elif kind == "local":
             from peche.reglements.zone_filter import (

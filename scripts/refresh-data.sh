@@ -44,6 +44,7 @@ echo "==> Sync guide consommation poisson (CKAN)…"
 
 echo "==> Harvest plans RegPec offline (optionnel, réseau)…"
 "$PYTHON" -m peche.spatial plans-regpec || echo "    (plans-regpec ignoré si réseau indisponible)"
+"$PYTHON" -m peche.spatial tfs-sync || echo "    (TFS ignoré si réseau indisponible)"
 
 echo "==> Récolte catalogue de couches…"
 "$PYTHON" -m peche.catalog harvest

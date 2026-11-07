@@ -28,16 +28,6 @@ export function titleFr(raw: string): string {
     .join(" ");
 }
 
-export function formatSpeciesList(raw: unknown): string {
-  const text = String(raw ?? "").trim();
-  if (!text) return "";
-  return text
-    .split(/[,;]/)
-    .map((part) => titleFr(part.trim()))
-    .filter(Boolean)
-    .join(", ");
-}
-
 export function uninvertName(raw: string): string {
   const s = raw.trim();
   const idx = s.lastIndexOf(",");

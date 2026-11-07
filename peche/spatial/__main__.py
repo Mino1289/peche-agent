@@ -28,6 +28,11 @@ def main(argv: list[str] | None = None) -> int:
         help="Harvest polygones plans RegPec → GeoJSON offline.",
     )
     pl.set_defaults(func=_cmd_plans_regpec)
+    tfs = sub.add_parser(
+        "tfs-sync",
+        help="Snapshot simplifié des territoires fauniques (SmartFaune TFS → GeoJSON).",
+    )
+    tfs.set_defaults(func=_cmd_tfs_sync)
     argv = list(argv if argv is not None else sys.argv[1:])
     if not argv:
         argv = ["link"]
@@ -58,6 +63,13 @@ def _cmd_plans_regpec(_args: argparse.Namespace) -> int:
     from peche.spatial.plan_geom import sync_offline_plans
 
     sync_offline_plans()
+    return 0
+
+
+def _cmd_tfs_sync(_args: argparse.Namespace) -> int:
+    from peche.spatial.tfs import sync
+
+    print(f"TFS : {sync()} entités écrites")
     return 0
 
 

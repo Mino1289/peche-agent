@@ -606,7 +606,11 @@ export class MapController {
     }
 
     const kind = def.filter_spec?.kind;
-    if (kind === "cql") {
+    if (def.filter_spec?.options?.length) {
+      // Couche à options : on envoie des ids, le serveur fait la traduction en valeurs réelles.
+      const ids = filters[def.filter_spec.attr ?? ""];
+      if (Array.isArray(ids) && ids.length) params.set("values", ids.map(String).join(","));
+    } else if (kind === "cql") {
       const cql = buildCql(def.filter_spec?.attr, filters);
       if (cql) params.set("filter", cql);
     } else if (kind === "arcgis") {

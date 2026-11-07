@@ -1,7 +1,7 @@
 /** Couches WFS faune / territoires : popup statique, détail JSON brut. */
 
 import { t } from "../i18n";
-import { formatSpeciesList, titleFr, uninvertName } from "../names";
+import { titleFr, uninvertName } from "../names";
 import { dl, str } from "./html";
 import { pick, type FeatureKind, type Props } from "./kind";
 
@@ -18,7 +18,7 @@ export const tfsKind: FeatureKind = {
   popup: (p) =>
     dl([
       [t().name, titleFr(uninvertName(str(p.NOM || p.NOM_TFS || p.NOM_ZEC || p.nom || p.name)))],
-      ["Type", titleFr(str(p.TYPE || p.TYPE_TFS))],
+      ["Type", titleFr(str(p.DESCRIPTION || p.TYPE || p.TYPE_TFS))],
     ]),
 };
 
@@ -33,34 +33,6 @@ export const chasseInterditeKind: FeatureKind = {
     return dl(rows);
   },
 };
-
-function habitatKind(fallbackTitle: string): FeatureKind {
-  return {
-    title(p) {
-      const place = str(p.TOPONYME || p.NOM_HABITAT || p.NOM || p.nom);
-      const category = str(p.CATEGORIE || p.STATUT || p.TYPE_HABITAT);
-      if (place) return titleFr(place);
-      if (category) return titleFr(category);
-      return fallbackTitle;
-    },
-    pinKey: wfsPinKey,
-    popup(p) {
-      const species = formatSpeciesList(p.ESPECE || p.ESPECE_CIBLE || p.NOM_ESPECE);
-      const rows: [string, string][] = [
-        ["Lieu", titleFr(str(p.TOPONYME || p.NOM_HABITAT || p.NOM || p.nom || p.name))],
-        ["Catégorie", titleFr(str(p.CATEGORIE || p.TYPE_HABITAT || p.TYPE || p.CLASSE))],
-        ["Statut", titleFr(str(p.STATUT))],
-        ["Espèces", species],
-        ["Région faunique", titleFr(str(p.REG_FAUNE || p.REG_ADMIN))],
-        ["Superficie", p.SUP_HA != null && String(p.SUP_HA).trim() ? `${p.SUP_HA} ha` : ""],
-      ];
-      return dl(rows.filter(([, v]) => v));
-    },
-  };
-}
-
-export const habitatLegalKind = habitatKind("Habitat faunique légal");
-export const habitatInfoKind = habitatKind("Habitat faunique informationnel");
 
 export const stationLavageKind: FeatureKind = {
   title: (p) => String(p.NOM || p.nom || p.name || "Station de lavage"),

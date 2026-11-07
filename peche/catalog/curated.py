@@ -7,8 +7,19 @@ from peche.catalog.models import FilterSpec, LayerDef
 MFFP = "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi"
 ENV_WSS = "https://geoegl.msp.gouv.qc.ca/apis/wss/environnement.fcgi"
 SMARTFAUNE = "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows"
-HABITATS = "https://servicesvecto3.mern.gouv.qc.ca/geoserver/Habitats_Fauniques_Pub/ows"
 FORET_PUB = "https://servicesvecto3.mern.gouv.qc.ca/geoserver/ForetOuvertePub/ows"
+# (id stable envoyé par le client, valeur réelle de SmartFaunePub:TFS.DESCRIPTION)
+TFS_TYPES = (
+    ("pourvoirie", "Pourvoirie avec droits exclusifs"),
+    ("zec_saumon", "ZEC pêche saumon"),
+    ("zec", "ZEC"),
+    ("petit_lac", "Petit lac aménagé"),
+    ("reserve", "Réserve faunique"),
+    ("aire_communautaire", "Aire faunique communautaire"),
+    ("reserve_saumon", "Réserve faunique rivière à saumon"),
+    ("entente_autochtone", "Entente particulière autochtone"),
+    ("zec_sauvagine", "ZEC chasse sauvagine"),
+)
 THEMES = (
     "https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/services/Public/"
     "Themes_publics/MapServer/WMSServer"
@@ -104,11 +115,14 @@ def curated_layers() -> list[LayerDef]:
             id="tfs",
             title="Territoires fauniques structurés (ZEC, pourvoiries…)",
             group="faune",
-            source_type="wfs",
-            url=SMARTFAUNE,
-            layer_name="SmartFaunePub:TFS",
+            source_type="local",
+            url="data/spatial/tfs.geojson",  # snapshot : python3 -m peche.spatial tfs-sync
             curated=True,
-            filter_spec=FilterSpec(kind="cql", attr="TYPE"),
+            filter_spec=FilterSpec(
+                kind="local",
+                attr="DESCRIPTION",
+                options=[{"value": vid, "label": desc, "match": desc} for vid, desc in TFS_TYPES],
+            ),
             color="#16a34a",
             attribution="MFFP SmartFaune",
         ),
@@ -124,30 +138,6 @@ def curated_layers() -> list[LayerDef]:
             color="#ef4444",
             attribution="MFFP SmartFaune",
             extra={"no_color": True},
-        ),
-        LayerDef(
-            id="habitat_legal",
-            title="Habitats fauniques légaux",
-            group="faune",
-            source_type="wfs",
-            url=HABITATS,
-            layer_name="Habitats_Fauniques_Pub:Habitat_legal",
-            curated=True,
-            filter_spec=FilterSpec(kind="cql"),
-            color="#22c55e",
-            attribution="MFFP",
-        ),
-        LayerDef(
-            id="habitat_info",
-            title="Habitats fauniques informationnels",
-            group="faune",
-            source_type="wfs",
-            url=HABITATS,
-            layer_name="Habitats_Fauniques_Pub:Habitat_informationnel",
-            curated=True,
-            filter_spec=FilterSpec(kind="cql"),
-            color="#86efac",
-            attribution="MFFP",
         ),
         LayerDef(
             id="stations_lavage",

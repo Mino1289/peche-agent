@@ -16,7 +16,7 @@ class FilterSpec:
     attr: str | None = None
     """Champ attributaire (CQL / ArcGIS / local)."""
     options: list[dict[str, Any]] = field(default_factory=list)
-    """Options UI : [{value, label, color?}]."""
+    """Options UI : [{value, label, color?, match?}]. value = id envoyé par le client ; match = valeur attributaire réelle (CQL)."""
     multi: bool = True
     """Sélection multiple autorisée."""
 
