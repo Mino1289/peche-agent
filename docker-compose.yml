@@ -71,15 +71,14 @@ services:
       - peche-cache:/app/data/cache
 
   # ------------------------------------------------------------------------
-  # Langfuse auto-hébergé (observabilité LLM) — profil `langfuse`, 100 % local.
-  #   docker compose --profile langfuse up -d
+  # Langfuse auto-hébergé (observabilité LLM) — 100 % local, démarré avec le reste.
+  #   docker compose up -d   /   docker compose down
   # UI : http://localhost:3100  (compte et clés créés au 1er démarrage, cf. .env.example)
   # Tous les ports sont liés à 127.0.0.1. Changer les secrets avant tout autre usage.
   # ------------------------------------------------------------------------
   langfuse-web:
     image: docker.langfuse.com/langfuse/langfuse:${LANGFUSE_IMAGE_TAG:-4}
     container_name: peche-langfuse-web
-    profiles: [langfuse]
     restart: unless-stopped
     depends_on: &langfuse-depends-on
       langfuse-postgres:
@@ -147,7 +146,6 @@ services:
   langfuse-worker:
     image: docker.langfuse.com/langfuse/langfuse-worker:${LANGFUSE_IMAGE_TAG:-4}
     container_name: peche-langfuse-worker
-    profiles: [langfuse]
     restart: unless-stopped
     depends_on: *langfuse-depends-on
     environment:
@@ -156,7 +154,6 @@ services:
   langfuse-postgres:
     image: docker.io/postgres:17
     container_name: peche-langfuse-postgres
-    profiles: [langfuse]
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
@@ -175,7 +172,6 @@ services:
   langfuse-clickhouse:
     image: docker.io/clickhouse/clickhouse-server:26.3.62.3
     container_name: peche-langfuse-clickhouse
-    profiles: [langfuse]
     restart: unless-stopped
     user: "101:101"
     environment:
@@ -195,7 +191,6 @@ services:
   langfuse-redis:
     image: docker.io/redis:7
     container_name: peche-langfuse-redis
-    profiles: [langfuse]
     restart: unless-stopped
     command: >
       --requirepass ${LANGFUSE_REDIS_PASSWORD:-myredissecret}
@@ -211,7 +206,6 @@ services:
   langfuse-minio:
     image: cgr.dev/chainguard/minio
     container_name: peche-langfuse-minio
-    profiles: [langfuse]
     restart: unless-stopped
     entrypoint: sh
     # crée le bucket `langfuse` avant de démarrer le service

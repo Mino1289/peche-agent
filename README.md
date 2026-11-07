@@ -107,17 +107,16 @@ To mount `/mcp` on the monolithic API (local dev without nginx): `MCP_ENABLED=1`
 ## LLM tracing (local Langfuse)
 
 Every chat turn is traced (LLM calls, tool calls, map/pin context) in a self-hosted
-Langfuse running as a Docker Compose profile — nothing leaves your machine.
+Langfuse started by the same Docker Compose project — nothing leaves your machine.
 
 ```bash
 cp .env.example .env                       # contains the local Langfuse keys
-docker compose --profile langfuse up -d    # Langfuse web, worker, Postgres, ClickHouse, Redis, MinIO
-docker compose up -d --build backend       # backend picks up the keys
+docker compose up -d --build   # app + Langfuse (web, worker, Postgres, ClickHouse, Redis, MinIO)
 ```
 
 Open http://localhost:3100 (default login `admin@peche.local` / `peche-local-admin`, project `peche-agent`).
 Running the API outside Docker (`python -m peche.api`) works the same: it reads `LANGFUSE_BASE_URL` from `.env`.
-Stop with `docker compose --profile langfuse down` (add `-v` to wipe traces).
+Stop everything with `docker compose down` (add `-v` to wipe traces).
 
 ## Tests
 

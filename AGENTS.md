@@ -75,7 +75,7 @@ nests `consult-fishing-expert` (agent) → `generate-fishing-advice`.
 
 - Observation names are an API (evaluators/dashboards target them): constants live in `peche/agent/tracing.py`; never put dynamic values in a name, use metadata.
 - In generators (`_run_agent_turn`) use explicit `Span.child(...)` + `.end()`; `with observation(...)` only in fully synchronous code (Starlette iterates sync generators across threads).
-- Langfuse runs locally: compose profile `langfuse` (UI `:3100`, project/keys auto-created via `LANGFUSE_INIT_*`, all ports on 127.0.0.1). Backend reaches it at `http://langfuse-web:3000`; non-Docker runs use `LANGFUSE_BASE_URL` from `.env`.
+- Langfuse runs locally: compose services `langfuse-*`, started by plain `docker compose up` (UI `:3100`, project/keys auto-created via `LANGFUSE_INIT_*`, all ports on 127.0.0.1). Backend reaches it at `http://langfuse-web:3000`; non-Docker runs use `LANGFUSE_BASE_URL` from `.env`.
 - Never log the Gemini key: `observability._mask` redacts it, and do not add it to inputs/metadata.
 - Tests never send traces (`tests/conftest.py`); see `tests/test_langfuse_tracing.py`.
 
