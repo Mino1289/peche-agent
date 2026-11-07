@@ -1,6 +1,57 @@
 """Tests discover / validate couches custom."""
 
 from peche.catalog.discover import _crs_ok, validate_custom_layer
+from peche.catalog.harvest import harvest_source
+from peche.catalog.sources import WMS_SOURCES
+
+_WMS_CAPS = (
+    b'<?xml version="1.0"?>'
+    b'<WMS_Capabilities><Capability>'
+    b"<Layer><Name>TestLayer</Name><Title>Test</Title></Layer>"
+    b"</Capability></WMS_Capabilities>"
+)
+
+
+def test_warm_capabilities_cache(monkeypatch):
+    from peche.catalog import discover as mod
+
+    calls: list[str] = []
+
+    class _Src:
+        id = "x"
+
+        kind = "wms"
+
+    def fake_sources():
+        return [_Src()]
+
+    def fake_harvest(source, *, cache_dir):  # noqa: ANN001, ARG001
+        calls.append(source.id)
+        return []
+
+    monkeypatch.setattr(mod, "discover_sources", fake_sources)
+    monkeypatch.setattr(mod, "harvest_source", fake_harvest)
+    assert mod.warm_capabilities_cache() == 1
+    assert calls == ["x"]
+
+
+def test_harvest_source_reads_caps_cache(tmp_path, monkeypatch):
+    import importlib
+
+    harvest_mod = importlib.import_module("peche.catalog.harvest")
+
+    src = WMS_SOURCES[0]
+    calls: list[str] = []
+
+    def fake_fetch(url: str) -> bytes:
+        calls.append(url)
+        return _WMS_CAPS
+
+    monkeypatch.setattr(harvest_mod, "_fetch", fake_fetch)
+    assert harvest_source(src, cache_dir=tmp_path)
+    assert len(calls) == 1
+    assert harvest_source(src, cache_dir=tmp_path)
+    assert len(calls) == 1
 
 
 def test_crs_ok_accepts_common():

@@ -7,7 +7,7 @@ from typing import Any
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-from peche.catalog.curated import ENV_WSS, FORET_PUB, HABITATS, SMARTFAUNE, curated_layers
+from peche.catalog.curated import ENV_WSS, FORET_PUB, SMARTFAUNE, curated_layers
 from peche.reglements.zones import display_number, zone_by_id
 from peche.spatial.plan_geom import plans_geojson
 from peche.spatial.zones_peche import load_zones_geojson
@@ -46,11 +46,24 @@ def _point_in_polygon_coords(lon: float, lat: float, coords: list) -> bool:
     return True
 
 
+_GEO_HIT_TOL = 2e-4  # ~20 m en degrés
+
+
+def _near(lon: float, lat: float, x: float, y: float, tol: float = _GEO_HIT_TOL) -> bool:
+    return abs(x - lon) <= tol and abs(y - lat) <= tol
+
+
 def _point_in_geometry(lon: float, lat: float, geom: dict | None) -> bool:
     if not geom or not isinstance(geom, dict):
         return False
     gtype = geom.get("type")
     coords = geom.get("coordinates")
+    if gtype == "Point" and coords and len(coords) >= 2:
+        return _near(lon, lat, float(coords[0]), float(coords[1]))
+    if gtype == "MultiPoint":
+        for pt in coords or []:
+            if pt and len(pt) >= 2 and _near(lon, lat, float(pt[0]), float(pt[1])):
+                return True
     if gtype == "Polygon":
         return _point_in_polygon_coords(lon, lat, coords)
     if gtype == "MultiPolygon":
@@ -107,7 +120,11 @@ def _wms_gfi(
         data = _fetch_json(url)
     except Exception:  # noqa: BLE001
         return None
-    feats = data.get("features") if isinstance(data, dict) else None
+    if not isinstance(data, dict):
+        return None
+    if data.get("type") == "Feature":
+        return data
+    feats = data.get("features")
     if not feats:
         return None
     return feats[0] if feats else None
@@ -205,7 +222,7 @@ def _wfs_point_query(
     lon: float,
     lat: float,
     *,
-    delta: float = 0.01,
+    delta: float = 0.03,
     limit: int = 5,
 ) -> list[dict]:
     """Features WFS intersectant un petit bbox autour du point."""
@@ -231,6 +248,8 @@ def _wfs_point_query(
     for f in feats:
         if _point_in_geometry(lon, lat, f.get("geometry")):
             out.append(f)
+    if not out and feats:
+        out.append(feats[0])
     return out
 
 
@@ -254,8 +273,6 @@ def fishing_zone_at_point(lon: float, lat: float) -> dict[str, Any] | None:
 _LAYER_TITLES = {layer.id: layer.title for layer in curated_layers()}
 
 _OPTIONAL_LAYERS: dict[str, tuple[str, str]] = {
-    "habitat_legal": (HABITATS, "Habitats_Fauniques_Pub:Habitat_legal"),
-    "habitat_info": (HABITATS, "Habitats_Fauniques_Pub:Habitat_informationnel"),
     "stations_lavage": (FORET_PUB, "ForetOuvertePub:stations_lavages_qc"),
     "tfs": (SMARTFAUNE, "SmartFaunePub:TFS"),
 }
@@ -274,14 +291,6 @@ def _title_fr(text: str) -> str:
         else:
             out.append(word[:1].upper() + word[1:] if word else word)
     return " ".join(out)
-
-
-def _format_species_list(raw: Any) -> str:
-    text = str(raw or "").strip()
-    if not text:
-        return ""
-    parts = [p.strip() for p in text.replace(";", ",").split(",") if p.strip()]
-    return ", ".join(_title_fr(p) for p in parts)
 
 
 def summarize_layer_props(layer_id: str, props: dict[str, Any]) -> list[dict[str, str]]:
@@ -311,21 +320,6 @@ def summarize_layer_props(layer_id: str, props: dict[str, Any]) -> list[dict[str
         add("Type", ("TYPE", "TYPE_TFS"), transform=_title_fr)
         return rows
 
-    if layer_id in ("habitat_legal", "habitat_info"):
-        add("Lieu", ("TOPONYME",), transform=_title_fr)
-        add("Catégorie", ("CATEGORIE", "TYPE_HABITAT", "TYPE"), transform=_title_fr)
-        add("Statut", ("STATUT",), transform=_title_fr)
-        species = _format_species_list(
-            props.get("ESPECE") or props.get("ESPECE_CIBLE") or props.get("NOM_ESPECE")
-        )
-        if species:
-            rows.append({"label": "Espèces", "value": species})
-        add("Région faunique", ("REG_FAUNE", "REG_ADMIN"), transform=_title_fr)
-        sup = props.get("SUP_HA")
-        if sup is not None and str(sup).strip():
-            rows.append({"label": "Superficie", "value": f"{sup} ha"})
-        return rows
-
     if layer_id == "stations_lavage":
         add("Station", ("NOM", "nom", "name"))
         add("Adresse", ("ADRESSE", "adresse"))
@@ -342,8 +336,70 @@ def summarize_layer_props(layer_id: str, props: dict[str, Any]) -> list[dict[str
     return rows
 
 
+def overlay_at_custom_layer(
+    *,
+    layer_id: str,
+    title: str,
+    url: str,
+    layer_name: str,
+    source_type: str,
+    lon: float,
+    lat: float,
+) -> dict[str, Any] | None:
+    """Attributs sous le point pour une couche ajoutée (WFS ou WMS GFI)."""
+    if not url or not layer_name:
+        return None
+    st = source_type.lower()
+    props: dict[str, Any] = {}
+    if st == "wfs":
+        feats = _wfs_point_query(url, layer_name, lon, lat)
+        if not feats:
+            return None
+        props = feats[0].get("properties") or {}
+    elif st == "wms":
+        hit = None
+        for fmt in ("application/json", "application/geo+json", "text/plain"):
+            cand = _wms_gfi(url, layer_name, lon, lat, info_format=fmt)
+            if not cand:
+                continue
+            if isinstance(cand, str) and cand.lstrip().startswith("<?xml"):
+                continue
+            hit = cand
+            break
+        if not hit:
+            return None
+        if isinstance(hit, str):
+            text = hit.strip()
+            if not text or text.lstrip().startswith("<?xml"):
+                return None
+            return {
+                "layer_id": layer_id,
+                "title": title or layer_id,
+                "rows": [{"label": "Info", "value": text[:600]}],
+            }
+        if isinstance(hit, dict):
+            props = hit.get("properties") if "properties" in hit else hit
+            if not isinstance(props, dict):
+                props = {}
+    else:
+        return None
+    if not props:
+        return None
+    summary = summarize_layer_props(layer_id, props)
+    if not summary:
+        return None
+    return {
+        "layer_id": layer_id,
+        "title": title or layer_id,
+        "rows": summary,
+    }
+
+
 def get_point_context(
-    lon: float, lat: float, visible_layers: list[str] | None = None
+    lon: float,
+    lat: float,
+    visible_layers: list[str] | None = None,
+    custom_layers: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Résout zone pêche, exception, hydro, TFS et chasse interdite pour un point."""
     out: dict[str, Any] = {"lon": lon, "lat": lat}
@@ -418,6 +474,20 @@ def get_point_context(
                     "rows": summary,
                 }
             )
+    for cl in custom_layers or []:
+        if not cl.get("url") or not cl.get("layer_name"):
+            continue
+        overlay = overlay_at_custom_layer(
+            layer_id=str(cl.get("id") or "custom"),
+            title=str(cl.get("title") or cl.get("id") or "Couche"),
+            url=str(cl["url"]),
+            layer_name=str(cl["layer_name"]),
+            source_type=str(cl.get("source_type") or "wms"),
+            lon=lon,
+            lat=lat,
+        )
+        if overlay:
+            overlays.append(overlay)
     if overlays:
         out["layer_overlays"] = overlays
 

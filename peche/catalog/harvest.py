@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -27,6 +28,7 @@ _NS = {
 }
 
 _TIMEOUT = 60
+_CAPS_CACHE_MAX_AGE_S = 7 * 86400
 _UA = "peche-agent/1.0 (catalog-harvest)"
 
 
@@ -194,7 +196,20 @@ def _basemap_layers() -> list[LayerDef]:
     return out
 
 
-def harvest_source(source: OgcSource, *, cache_dir: Path) -> list[LayerDef]:
+def _read_caps_cache(path: Path, *, max_age_s: int = _CAPS_CACHE_MAX_AGE_S) -> bytes | None:
+    if not path.is_file():
+        return None
+    if max_age_s > 0 and (time.time() - path.stat().st_mtime) > max_age_s:
+        return None
+    return path.read_bytes()
+
+
+def harvest_source(
+    source: OgcSource,
+    *,
+    cache_dir: Path,
+    max_age_s: int = _CAPS_CACHE_MAX_AGE_S,
+) -> list[LayerDef]:
     """Récolte un endpoint ; renvoie [] en cas d'échec (non fatal)."""
     cache_dir.mkdir(parents=True, exist_ok=True)
     try:
@@ -204,10 +219,11 @@ def harvest_source(source: OgcSource, *, cache_dir: Path) -> list[LayerDef]:
             # WMTS capabilities are large; register as single basemap only
             return []
         if source.kind == "arcgis":
-            url = f"{source.url}?f=json"
             cache_path = cache_dir / f"{source.id}.json"
-            raw = _fetch(url)
-            cache_path.write_bytes(raw)
+            raw = _read_caps_cache(cache_path, max_age_s=max_age_s)
+            if raw is None:
+                raw = _fetch(f"{source.url}?f=json")
+                cache_path.write_bytes(raw)
             # ArcGIS sometimes returns HTML/JSONP-ish; try json
             text = raw.decode("utf-8", errors="replace")
             # Strip possible leading garbage
@@ -217,24 +233,30 @@ def harvest_source(source: OgcSource, *, cache_dir: Path) -> list[LayerDef]:
             data = json.loads(text[start:])
             return parse_arcgis_mapserver(data, source)
         if source.kind == "wfs":
+            cache_path = cache_dir / f"{source.id}_wfs.xml"
+            raw = _read_caps_cache(cache_path, max_age_s=max_age_s)
+            if raw is None:
+                params = {
+                    "service": "WFS",
+                    "version": "2.0.0",
+                    "request": "GetCapabilities",
+                }
+                url = f"{source.url}?{urlencode(params)}"
+                raw = _fetch(url)
+                cache_path.write_bytes(raw)
+            return parse_wfs_capabilities(raw, source)
+        # WMS
+        cache_path = cache_dir / f"{source.id}_wms.xml"
+        raw = _read_caps_cache(cache_path, max_age_s=max_age_s)
+        if raw is None:
             params = {
-                "service": "WFS",
-                "version": "2.0.0",
+                "service": "WMS",
+                "version": "1.3.0",
                 "request": "GetCapabilities",
             }
             url = f"{source.url}?{urlencode(params)}"
             raw = _fetch(url)
-            (cache_dir / f"{source.id}_wfs.xml").write_bytes(raw)
-            return parse_wfs_capabilities(raw, source)
-        # WMS
-        params = {
-            "service": "WMS",
-            "version": "1.3.0",
-            "request": "GetCapabilities",
-        }
-        url = f"{source.url}?{urlencode(params)}"
-        raw = _fetch(url)
-        (cache_dir / f"{source.id}_wms.xml").write_bytes(raw)
+            cache_path.write_bytes(raw)
         return parse_wms_capabilities(raw, source)
     except Exception as exc:  # noqa: BLE001
         print(f"  ! {source.id}: {type(exc).__name__}: {exc}")

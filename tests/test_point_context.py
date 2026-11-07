@@ -2,10 +2,16 @@
 
 from peche.spatial.point_context import (
     _point_in_geometry,
+    get_point_context,
     hunting_forbidden_label,
     parse_grhq_toponyme,
-    summarize_layer_props,
 )
+
+
+def test_point_in_geometry_point():
+    geom = {"type": "Point", "coordinates": [-71.2, 46.5]}
+    assert _point_in_geometry(-71.2, 46.5, geom)
+    assert not _point_in_geometry(-72.0, 46.5, geom)
 
 
 def test_point_in_polygon():
@@ -49,22 +55,39 @@ def test_parse_grhq_toponyme():
     assert parse_grhq_toponyme(sample) == "Lac Saint-Charles"
 
 
-def test_summarize_habitat_props():
-    rows = summarize_layer_props(
-        "habitat_legal",
-        {
-            "TOPONYME": "BAIE DE CAP-CHAT",
-            "CATEGORIE": "Habitat du poisson (Publiable)",
-            "ESPECE": "CERF DE VIRGINIE, OMBLE DE FONTAINE",
-            "STATUT": "Habitat légal",
-            "SUP_HA": 26.8,
+def test_custom_layer_in_point_context(monkeypatch):
+    from peche.spatial import point_context as mod
+
+    monkeypatch.setattr(mod, "fishing_zone_at_point", lambda _lon, _lat: None)
+    monkeypatch.setattr(mod, "plans_geojson", lambda *_a, **_k: {"features": []})
+    monkeypatch.setattr(mod, "_waterbody_name_at_point", lambda _lon, _lat: (None, None))
+    monkeypatch.setattr(mod, "_wfs_point_query", lambda *_a, **_k: [])
+    monkeypatch.setattr(
+        mod,
+        "overlay_at_custom_layer",
+        lambda **_kw: {
+            "layer_id": "custom:test",
+            "title": "Ma couche",
+            "rows": [{"label": "Nom", "value": "Test"}],
         },
     )
-    labels = {row["label"] for row in rows}
-    assert "Lieu" in labels
-    assert "Espèces" in labels
-    species = next(r["value"] for r in rows if r["label"] == "Espèces")
-    assert "Cerf de Virginie" in species
+
+    out = get_point_context(
+        -71.0,
+        46.0,
+        custom_layers=[
+            {
+                "id": "custom:test",
+                "title": "Ma couche",
+                "url": "https://example.invalid/wfs",
+                "layer_name": "layer",
+                "source_type": "wfs",
+            }
+        ],
+    )
+    overlays = out.get("layer_overlays") or []
+    assert len(overlays) == 1
+    assert overlays[0]["title"] == "Ma couche"
 
 
 def test_downsample_curve_keeps_first_and_spaced():

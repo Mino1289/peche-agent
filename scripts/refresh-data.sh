@@ -48,6 +48,9 @@ echo "==> Harvest plans RegPec offline (optionnel, réseau)…"
 echo "==> Récolte catalogue de couches…"
 "$PYTHON" -m peche.catalog harvest
 
+echo "==> Pré-charge GetCapabilities (découverte couches)…"
+"$PYTHON" -m peche.catalog warm-caps || echo "    (warm-caps ignoré si réseau indisponible)"
+
 echo "==> Terminé."
 echo "    (Les zones RegPec dans data/zones/ sont conservées ;"
 echo "     lancer 'python3 -m peche.reglements sync' pour les rafraîchir.)"

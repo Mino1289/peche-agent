@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -82,6 +83,30 @@ class _MCPRootASGI:
         await self._app(scope, receive, send)
 
 
+def _caps_warmup_enabled() -> bool:
+    return os.environ.get("CAPS_WARMUP", "1").strip().lower() not in (
+        "0",
+        "false",
+        "no",
+    )
+
+
+def _start_caps_warmup() -> None:
+    if not _caps_warmup_enabled():
+        return
+
+    def run() -> None:
+        try:
+            from peche.catalog.discover import warm_capabilities_cache
+
+            n = warm_capabilities_cache()
+            print(f"caps warmup: {n} discover source(s)")
+        except Exception as exc:  # noqa: BLE001
+            print(f"caps warmup: {type(exc).__name__}: {exc}")
+
+    threading.Thread(target=run, name="caps-warmup", daemon=True).start()
+
+
 def create_app() -> FastAPI:
     mcp_asgi = None
     mcp_session_manager = None
@@ -92,6 +117,7 @@ def create_app() -> FastAPI:
 
     @asynccontextmanager
     async def lifespan(_app: FastAPI):
+        _start_caps_warmup()
         if mcp_session_manager is not None:
             async with mcp_session_manager.run():
                 yield

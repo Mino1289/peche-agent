@@ -21,8 +21,6 @@ const COLOR_PICKER_LAYERS = new Set([
   "marees_shc",
   "barrages_cehq",
   "tfs",
-  "habitat_legal",
-  "habitat_info",
 ]);
 
 function layerColorPickerEnabled(def: LayerDef): boolean {
@@ -61,7 +59,7 @@ export class CatalogPanel {
     addBtn.textContent = m.addLayer;
     addBtn.addEventListener("click", () => {
       this.addLayerOpen = !this.addLayerOpen;
-      this.renderAddLayerForm();
+      this.toggleAddLayerSection();
     });
     header.appendChild(addBtn);
     const input = document.createElement("input");
@@ -76,17 +74,27 @@ export class CatalogPanel {
     header.appendChild(input);
     this.el.appendChild(header);
 
-    const addWrap = document.createElement("div");
-    addWrap.id = "catalog-add-wrap";
-    addWrap.hidden = !this.addLayerOpen;
-    this.el.appendChild(addWrap);
-    if (this.addLayerOpen) this.renderAddLayerForm();
-
     const body = document.createElement("div");
     body.className = "catalog-body";
     body.id = "catalog-body";
     this.el.appendChild(body);
     this.renderGroups();
+  }
+
+  private toggleAddLayerSection(): void {
+    const details = this.el.querySelector(
+      "#catalog-add-details",
+    ) as HTMLDetailsElement | null;
+    if (!details) {
+      this.renderGroups();
+      return;
+    }
+    details.open = this.addLayerOpen;
+    if (this.addLayerOpen) {
+      const host = details.querySelector(".catalog-add-form") as HTMLElement | null;
+      if (host && !host.querySelector("#discover-q")) this.mountAddLayerForm(host);
+      details.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
   }
 
   private renderGroups(): void {
@@ -95,6 +103,23 @@ export class CatalogPanel {
     const m = t();
     const body = this.el.querySelector("#catalog-body")!;
     body.innerHTML = "";
+
+    const addDetails = document.createElement("details");
+    addDetails.id = "catalog-add-details";
+    addDetails.open = this.addLayerOpen;
+    addDetails.className = "catalog-add-details";
+    addDetails.innerHTML = `<summary>${escapeHtml(m.addLayerTitle)}</summary>`;
+    const addHost = document.createElement("div");
+    addHost.className = "catalog-add-form";
+    addDetails.appendChild(addHost);
+    addDetails.addEventListener("toggle", () => {
+      this.addLayerOpen = addDetails.open;
+      if (addDetails.open && !addHost.querySelector("#discover-q")) {
+        this.mountAddLayerForm(addHost);
+      }
+    });
+    body.appendChild(addDetails);
+    if (this.addLayerOpen) this.mountAddLayerForm(addHost);
 
     const customLayers = loadStoredCustomLayers();
     if (customLayers.length) {
@@ -147,18 +172,9 @@ export class CatalogPanel {
     }
   }
 
-  private renderAddLayerForm(): void {
-    const wrap = this.el.querySelector("#catalog-add-wrap") as HTMLElement | null;
-    if (!wrap) return;
-    wrap.hidden = !this.addLayerOpen;
-    if (!this.addLayerOpen) {
-      wrap.innerHTML = "";
-      return;
-    }
+  private mountAddLayerForm(host: HTMLElement): void {
     const m = t();
-    wrap.innerHTML = `
-      <div class="catalog-add-form">
-        <h3>${escapeHtml(m.addLayerTitle)}</h3>
+    host.innerHTML = `
         <p class="muted catalog-add-hint">${escapeHtml(m.addLayerDiscoverHint)}</p>
         <label class="catalog-add-field">
           <span>${escapeHtml(m.addLayerSearch)}</span>
@@ -186,24 +202,29 @@ export class CatalogPanel {
         <div class="catalog-add-actions">
           <button type="button" class="btn-secondary" id="custom-layer-submit">${escapeHtml(m.addLayerSubmit)}</button>
           <button type="button" class="btn-muted" id="custom-layer-cancel">${escapeHtml(m.addLayerCancel)}</button>
-        </div>
-      </div>`;
+        </div>`;
 
-    const qInput = wrap.querySelector("#discover-q") as HTMLInputElement;
-    const results = wrap.querySelector("#discover-results") as HTMLElement;
+    const qInput = host.querySelector("#discover-q") as HTMLInputElement;
+    const results = host.querySelector("#discover-results") as HTMLElement;
     let debounce: number | undefined;
     qInput.addEventListener("input", () => {
       window.clearTimeout(debounce);
       debounce = window.setTimeout(() => void this.runDiscover(qInput.value, results), 350);
     });
 
-    wrap.querySelector("#custom-layer-cancel")!.addEventListener("click", () => {
+    host.querySelector("#custom-layer-cancel")!.addEventListener("click", () => {
       this.addLayerOpen = false;
-      this.renderAddLayerForm();
+      const details = this.el.querySelector(
+        "#catalog-add-details",
+      ) as HTMLDetailsElement | null;
+      if (details) {
+        details.open = false;
+        host.innerHTML = "";
+      }
     });
 
-    wrap.querySelector("#custom-layer-submit")!.addEventListener("click", () => {
-      void this.submitCustomLayer(wrap);
+    host.querySelector("#custom-layer-submit")!.addEventListener("click", () => {
+      void this.submitCustomLayer(host);
     });
   }
 

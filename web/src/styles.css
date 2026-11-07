@@ -1739,7 +1739,6 @@ details > summary::-webkit-details-marker {
 
 .catalog-add-form {
   padding: 12px 14px;
-  border-bottom: 1px solid var(--border);
   background: var(--surface-inset);
 }
 
@@ -1769,9 +1768,11 @@ details > summary::-webkit-details-marker {
 }
 
 .discover-results {
-  max-height: 160px;
-  overflow: auto;
   margin-bottom: 8px;
+}
+
+.catalog-add-details > .catalog-add-form {
+  padding: 0 14px 12px 28px;
 }
 
 .discover-hit {

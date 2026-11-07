@@ -5,8 +5,6 @@ import { uninvertName } from "../names";
 import { barrageKind } from "./barrage";
 import {
   chasseInterditeKind,
-  habitatInfoKind,
-  habitatLegalKind,
   stationLavageKind,
   tfsKind,
 } from "./faune";
@@ -27,8 +25,6 @@ const KINDS: Record<string, FeatureKind> = {
   plans_regpec: planKind,
   tfs: tfsKind,
   chasse_interdite: chasseInterditeKind,
-  habitat_legal: habitatLegalKind,
-  habitat_info: habitatInfoKind,
   stations_lavage: stationLavageKind,
   zone: zoneKind,
 };
@@ -63,6 +59,7 @@ function loadOnce(hit: IdentifyHit): NonNullable<IdentifyHit["loaded"]> {
 
 /** Couche cliquable sur la carte (les types détail seulement, comme `zone`, sont exclus). */
 export function isIdentifiable(layerId: string): boolean {
+  if (layerId.startsWith("custom:")) return true;
   return Boolean(KINDS[layerId]?.popup);
 }
 

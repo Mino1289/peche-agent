@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 from urllib.parse import urlparse
 
@@ -69,6 +70,19 @@ def _layers_for_source(source: OgcSource) -> list[LayerDef]:
     return harvest_source(source, cache_dir=CAPS_CACHE_DIR)
 
 
+def warm_capabilities_cache() -> int:
+    """Pré-télécharge les GetCapabilities utilisés par /api/catalog/discover."""
+    sources = [s for s in discover_sources() if s.kind not in {"xyz", "wmts"}]
+    workers = min(8, max(1, len(sources)))
+
+    def warm_one(source: OgcSource) -> None:
+        harvest_source(source, cache_dir=CAPS_CACHE_DIR)
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        list(pool.map(warm_one, sources))
+    return len(sources)
+
+
 def _normalize_crs(value: str) -> str:
     return value.strip().lower().replace(" ", "")
 
@@ -132,33 +146,39 @@ def _wms_layer_crs(xml_bytes: bytes, layer_name: str) -> tuple[bool, list[str]]:
 
 
 def discover_layers(q: str = "", *, limit: int = 40) -> list[dict[str, Any]]:
-    """Recherche dans les GetCapabilities mis en cache (harvest à la demande)."""
+    """Recherche dans les GetCapabilities (cache disque + récolte parallèle)."""
     needle = q.strip().lower()
+    sources = [s for s in discover_sources() if s.kind not in {"xyz", "wmts"}]
     out: list[dict[str, Any]] = []
-    for source in discover_sources():
-        if source.kind in {"xyz", "wmts"}:
-            continue
+
+    def harvest_one(source: OgcSource) -> tuple[OgcSource, list[LayerDef]]:
         try:
-            layers = _layers_for_source(source)
+            return source, _layers_for_source(source)
         except Exception:  # noqa: BLE001
-            continue
-        for layer in layers:
-            hay = f"{layer.title} {layer.layer_name or ''} {layer.id}".lower()
-            if needle and needle not in hay:
-                continue
-            out.append(
-                {
-                    "id": layer.id,
-                    "title": layer.title,
-                    "layer_name": layer.layer_name,
-                    "source_type": layer.source_type,
-                    "url": layer.url,
-                    "source_id": source.id,
-                    "source_title": source.title,
-                }
-            )
-            if len(out) >= limit:
-                return out
+            return source, []
+
+    workers = min(8, max(1, len(sources)))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(harvest_one, src) for src in sources]
+        for fut in as_completed(futures):
+            source, layers = fut.result()
+            for layer in layers:
+                hay = f"{layer.title} {layer.layer_name or ''} {layer.id}".lower()
+                if needle and needle not in hay:
+                    continue
+                out.append(
+                    {
+                        "id": layer.id,
+                        "title": layer.title,
+                        "layer_name": layer.layer_name,
+                        "source_type": layer.source_type,
+                        "url": layer.url,
+                        "source_id": source.id,
+                        "source_title": source.title,
+                    }
+                )
+                if len(out) >= limit:
+                    return out
     return out
 
 

@@ -35,8 +35,6 @@ describe("isIdentifiable", () => {
       "plans_regpec",
       "tfs",
       "chasse_interdite",
-      "habitat_legal",
-      "habitat_info",
       "stations_lavage",
     ]) {
       expect(isIdentifiable(id), id).toBe(true);
@@ -46,6 +44,10 @@ describe("isIdentifiable", () => {
   it("excludes detail-only and unknown layers", () => {
     expect(isIdentifiable("zone")).toBe(false);
     expect(isIdentifiable("zones_peche")).toBe(false);
+  });
+
+  it("includes custom layers added by the user", () => {
+    expect(isIdentifiable("custom:foretouverte_pub:Foo")).toBe(true);
   });
 });
 
@@ -76,7 +78,6 @@ describe("featurePinKey", () => {
 
 describe("titleFor", () => {
   it("uses kind-specific fallbacks", () => {
-    expect(titleFor(hit("habitat_legal", {}))).toBe("Habitat faunique légal");
     expect(titleFor(hit("zone", { no_zone: 28 }))).toBe(t().zoneRegsTitle("Zone 28"));
     expect(titleFor(hit("custom_x", {}))).toBe("custom_x");
   });

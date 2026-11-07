@@ -287,16 +287,32 @@ export class MapController {
 
   private async enrichPin(pin: MapPin): Promise<void> {
     try {
-      const visible = this.getMapState()
+      const visibleIds = this.getMapState()
         .layers.filter((l) => l.visible)
-        .map((l) => l.id)
-        .join(",");
-      const ctxParams = new URLSearchParams({
-        lon: String(pin.lon),
-        lat: String(pin.lat),
+        .map((l) => l.id);
+      const customLayers = visibleIds
+        .map((id) => this.defs[id])
+        .filter(
+          (d): d is LayerDef =>
+            Boolean(d && (d.extra?.custom || d.id.startsWith("custom:"))),
+        )
+        .map((d) => ({
+          id: d.id,
+          title: d.title,
+          url: d.url,
+          layer_name: d.layer_name || "",
+          source_type: d.source_type,
+        }));
+      const resp = await fetch("/api/point-context", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          lon: pin.lon,
+          lat: pin.lat,
+          layers: visibleIds,
+          custom_layers: customLayers.length ? customLayers : undefined,
+        }),
       });
-      if (visible) ctxParams.set("layers", visible);
-      const resp = await fetch(`/api/point-context?${ctxParams}`);
       if (!resp.ok) return;
       const ctx = (await resp.json()) as Record<string, unknown>;
       const props: Record<string, unknown> = { ...(pin.props || {}) };
@@ -331,19 +347,23 @@ export class MapController {
       guideQ.set("lon", String(pin.lon));
       guideQ.set("lat", String(pin.lat));
       const guideResp = await fetch(`/api/guide-poisson?${guideQ}`);
-      if (!guideResp.ok) return;
-      const guide = (await guideResp.json()) as {
-        species?: { nom_commun: string; nom_latin?: string; statut?: string }[];
-      };
-      if (guide.species?.length) {
-        props.species = guide.species;
+      if (guideResp.ok) {
+        const guide = (await guideResp.json()) as {
+          species?: { nom_commun: string; nom_latin?: string; statut?: string }[];
+        };
+        if (guide.species?.length) {
+          props.species = guide.species;
+        }
+        const displayName = props.waterbody_name || props.exception_nom;
+        if (
+          displayName &&
+          (pin.source === "user" || !pin.label || /^Point \d+$/.test(pin.label))
+        ) {
+          pin.label = String(displayName);
+        }
+        pin.props = props;
+        this.identify.refreshPin(pin);
       }
-      const displayName = props.waterbody_name || props.exception_nom;
-      if (displayName && (pin.source === "user" || !pin.label || /^Point \d+$/.test(pin.label))) {
-        pin.label = String(displayName);
-      }
-      pin.props = props;
-      this.identify.refreshPin(pin);
     } catch {
       /* ignore */
     }
