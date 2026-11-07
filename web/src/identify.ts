@@ -38,12 +38,17 @@ export type IdentifyHit = {
 };
 
 type IdentifyHandlers = {
-  onAddPin: (args: {
+  onToggleFeaturePin: (args: {
     label: string;
     layer: string;
     props: Record<string, unknown>;
     coordinate: Coordinate;
   }) => void;
+  getFeaturePin: (
+    layer: string,
+    props: Record<string, unknown>,
+    coordinate: Coordinate,
+  ) => MapPin | null;
   onDeletePin: (id: string) => void;
   onShowDetail: (hit: IdentifyHit) => void;
 };
@@ -87,6 +92,21 @@ export class IdentifyOverlay {
     void this.showFeature(this.last);
   }
 
+  refreshFeaturePinButton(): void {
+    if (!this.last || this.last.layerId === PINS_LAYER_ID) return;
+    const btn = this.el.querySelector<HTMLButtonElement>('[data-act="toggle-pin"]');
+    if (!btn) return;
+    const pinned = this.handlers.getFeaturePin(
+      this.last.layerId,
+      stripGeom(this.last.props),
+      this.last.coordinate,
+    );
+    const m = t();
+    btn.textContent = pinned ? m.removeFeaturePin : m.addPin;
+    btn.classList.toggle("btn-danger", Boolean(pinned));
+    btn.classList.toggle("btn-secondary", !pinned);
+  }
+
   showLoading(coord: Coordinate, title: string): void {
     const m = t();
     this.el.innerHTML = `
@@ -119,7 +139,7 @@ export class IdentifyOverlay {
       <div class="identify-body">${body}</div>
       <div class="identify-actions">
         <button type="button" class="btn-secondary" data-act="detail">${escapeHtml(m.viewDetail)}</button>
-        <button type="button" class="btn-secondary" data-act="add-pin">${escapeHtml(m.addPin)}</button>
+        ${this.featurePinButtonHtml(hit)}
         ${gmapsButton(lat, lon)}
       </div>`;
     this.overlay.setPosition(hit.coordinate);
@@ -183,8 +203,8 @@ export class IdentifyOverlay {
       this.hide();
     } else if (act === "detail" && this.last && this.last.layerId !== PINS_LAYER_ID) {
       this.handlers.onShowDetail(this.last);
-    } else if (act === "add-pin" && this.last && this.last.layerId !== PINS_LAYER_ID) {
-      this.handlers.onAddPin({
+    } else if (act === "toggle-pin" && this.last && this.last.layerId !== PINS_LAYER_ID) {
+      this.handlers.onToggleFeaturePin({
         label: titleFor(this.last),
         layer: this.last.layerId,
         props: stripGeom(this.last.props),
@@ -258,6 +278,16 @@ export class IdentifyOverlay {
     }
     return `<pre class="identify-raw">${escapeHtml(JSON.stringify(stripGeom(p), null, 2).slice(0, 800))}</pre>`;
   }
+
+  private featurePinButtonHtml(hit: IdentifyHit): string {
+    const m = t();
+    const pinned = Boolean(
+      this.handlers.getFeaturePin(hit.layerId, stripGeom(hit.props), hit.coordinate),
+    );
+    const label = pinned ? m.removeFeaturePin : m.addPin;
+    const cls = pinned ? "btn-danger" : "btn-secondary";
+    return `<button type="button" class="${cls}" data-act="toggle-pin">${escapeHtml(label)}</button>`;
+  }
 }
 
 export function titleFor(hit: IdentifyHit): string {
@@ -306,6 +336,67 @@ export function zoneLabelFromProps(p: Record<string, unknown>): string {
   if (p.no_zone != null && p.no_zone !== "") return `Zone ${p.no_zone}`;
   if (p.zone_id != null && p.zone_id !== "") return `Zone (id ${p.zone_id})`;
   return "";
+}
+
+/** Clé stable pour éviter les doublons « ajouter en point » sur la même entité. */
+export function featurePinKey(
+  layer: string,
+  props: Record<string, unknown>,
+  lon?: number,
+  lat?: number,
+): string | null {
+  const pick = (...keys: string[]) => {
+    for (const k of keys) {
+      const v = props[k];
+      if (v != null && String(v).trim() !== "") return String(v).trim();
+    }
+    return "";
+  };
+  if (layer === "vigilance_stations") {
+    const sid = pick("station", "station_id", "id");
+    return sid ? `${layer}:${sid}` : null;
+  }
+  if (layer === "marees_shc") {
+    const code = pick("code", "station_code", "id");
+    return code ? `${layer}:${code}` : null;
+  }
+  if (layer === "plans_regpec") {
+    const pid = pick("plan_id");
+    return pid ? `${layer}:${pid}` : null;
+  }
+  if (layer === "barrages_cehq") {
+    const n = pick("numero", "id");
+    return n ? `${layer}:${n}` : null;
+  }
+  if (
+    layer === "tfs" ||
+    layer === "chasse_interdite" ||
+    layer === "habitat_legal" ||
+    layer === "habitat_info" ||
+    layer === "stations_lavage"
+  ) {
+    const id = pick("OBJECTID", "objectid", "FID", "id", "NOM", "TOPONYME");
+    return id ? `${layer}:${id}` : null;
+  }
+  if (lon != null && lat != null) {
+    return `${layer}:${lon.toFixed(5)},${lat.toFixed(5)}`;
+  }
+  return null;
+}
+
+export function pinMatchesFeature(
+  pin: MapPin,
+  layer: string,
+  props: Record<string, unknown>,
+  lon: number,
+  lat: number,
+): boolean {
+  if (pin.source !== "feature" || pin.layer !== layer) return false;
+  const key = featurePinKey(layer, props, lon, lat);
+  if (!key) return false;
+  const stored = pin.props?.feature_key;
+  if (typeof stored === "string") return stored === key;
+  return featurePinKey(layer, pin.props || {}, pin.lon, pin.lat) === key;
 }
 
 function gmapsButton(lat: number, lon: number): string {

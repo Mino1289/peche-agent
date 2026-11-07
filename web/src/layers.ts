@@ -61,27 +61,78 @@ export const ETAT_COLORS: Record<string, string> = {
   normal: "#22c55e",
   surveillance: "#f59e0b",
   alerte: "#ef4444",
-  inconnu: "#94a3b8",
+  /** Hors service / désactivé — pas « état inconnu » opérationnel. */
+  indisponible: "#94a3b8",
 };
+
+/** Stations JSON Hydro-Québec (id `HQ-…`), distinctes de Vigilance. */
+export const HQ_HYDRO_POINT_COLOR = "#7dd3fc";
+
+/** Vigilance sans palier d’alerte / état vide (défaut couche `vigilance_stations`). */
+export const VIGILANCE_LAYER_DEFAULT_COLOR = "#3b82f6";
+
+export type StationEtatLegendKey =
+  | "etatNormal"
+  | "etatSurveillance"
+  | "etatAlerte"
+  | "etatAutre"
+  | "etatHydroQuebec"
+  | "etatIndisponible";
+
+/** Palette affichée sous la couche stations (catalogue). */
+export function stationEtatLegendItems(
+  layerFallback = VIGILANCE_LAYER_DEFAULT_COLOR,
+): { color: string; key: StationEtatLegendKey }[] {
+  return [
+    { color: ETAT_COLORS.normal, key: "etatNormal" },
+    { color: ETAT_COLORS.surveillance, key: "etatSurveillance" },
+    { color: ETAT_COLORS.alerte, key: "etatAlerte" },
+    { color: layerFallback, key: "etatAutre" },
+    { color: HQ_HYDRO_POINT_COLOR, key: "etatHydroQuebec" },
+    { color: ETAT_COLORS.indisponible, key: "etatIndisponible" },
+  ];
+}
 
 function stripAccents(value: string): string {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
-/** Mappe un libellé Vigilance (« État normal », « En surveillance », …) vers une clé couleur. */
-export function etatColorKey(raw: unknown): keyof typeof ETAT_COLORS {
-  if (raw == null || raw === "") return "inconnu";
+export type EtatPaletteKey = keyof typeof ETAT_COLORS | "layer_default";
+
+/** Mappe un libellé Vigilance (« État normal », « En surveillance », …) vers la palette. */
+export function etatColorKey(raw: unknown): EtatPaletteKey {
+  if (raw == null || raw === "") return "layer_default";
   const key = stripAccents(String(raw).toLowerCase().trim());
   if (key.includes("alerte")) return "alerte";
   if (key.includes("surveillance")) return "surveillance";
-  if (key.includes("normal")) return "normal";
-  return "inconnu";
+  if (!key.includes("anormal") && !key.includes("anormale") && key.includes("normal")) {
+    return "normal";
+  }
+  if (
+    /inactif|inactive|desactive|desactiv|hors service|hors ligne|panne|defaillant|defectueu|non communiqu|non communique/.test(
+      key,
+    )
+  ) {
+    return "indisponible";
+  }
+  return "layer_default";
 }
 
 function etatColor(feature: FeatureLike, fallback: string): string {
   const raw = feature.get("etat");
   if (raw == null || raw === "") return fallback;
-  return ETAT_COLORS[etatColorKey(raw)] || fallback;
+  const k = etatColorKey(raw);
+  if (k === "layer_default") return fallback;
+  return ETAT_COLORS[k] || fallback;
+}
+
+/** Vigilance : état en couleur ; Hydro-Québec : bleu ciel fixe. */
+function vigilanceStationPointColor(feature: FeatureLike, layerFallback: string): string {
+  const sid = feature.get("station") ?? feature.get("station_id");
+  if (typeof sid === "string" && sid.toUpperCase().startsWith("HQ-")) {
+    return HQ_HYDRO_POINT_COLOR;
+  }
+  return etatColor(feature, layerFallback);
 }
 
 const _pointStyles = new Map<string, Style>();
@@ -197,7 +248,12 @@ export function styleForLayer(def: LayerDef): (f: FeatureLike) => Style {
   const lightPoly = def.id === "plans_regpec";
   return (feature) => {
     const g = feature.getGeometry()?.getType();
-    const fill = byEtat ? etatColor(feature, "#94a3b8") : color;
+    let fill = color;
+    if (def.id === "vigilance_stations" && (g === "Point" || g === "MultiPoint")) {
+      fill = vigilanceStationPointColor(feature, color);
+    } else if (byEtat) {
+      fill = etatColor(feature, color);
+    }
     if (g === "Point" || g === "MultiPoint") {
       return cachedPointStyle(fill);
     }

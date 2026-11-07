@@ -63,6 +63,7 @@ type Messages = {
   close: string;
   viewDetail: string;
   addPin: string;
+  removeFeaturePin: string;
   removePin: string;
   showOnGmaps: string;
   zoneRegs: string;
@@ -127,10 +128,13 @@ type Messages = {
   legendAlt: string;
   zoomBadgeTitle: string;
   zoneFilterPlaceholder: string;
+  etatLegendTitle: string;
   etatNormal: string;
   etatSurveillance: string;
   etatAlerte: string;
-  etatUnknown: string;
+  etatAutre: string;
+  etatHydroQuebec: string;
+  etatIndisponible: string;
 };
 
 const FR: Messages = {
@@ -198,6 +202,7 @@ const FR: Messages = {
   close: "Fermer",
   viewDetail: "Voir en détail",
   addPin: "Ajouter en point",
+  removeFeaturePin: "Retirer le point",
   removePin: "Retirer",
   showOnGmaps: "Afficher sur Google Maps",
   zoneRegs: "Voir la réglementation de la zone",
@@ -262,10 +267,13 @@ const FR: Messages = {
   legendAlt: "légende",
   zoomBadgeTitle: "Niveau de zoom pour afficher cette couche",
   zoneFilterPlaceholder: "ex. 21,23,25-28 ou *",
-  etatNormal: "Normal",
-  etatSurveillance: "Surveillance",
-  etatAlerte: "Alerte",
-  etatUnknown: "Inconnu / désactivée",
+  etatLegendTitle: "Code couleur des points",
+  etatNormal: "Vigilance — normal",
+  etatSurveillance: "Vigilance — surveillance",
+  etatAlerte: "Vigilance — alerte",
+  etatAutre: "Vigilance — sans palier",
+  etatHydroQuebec: "Hydro-Québec",
+  etatIndisponible: "Hors service / désactivée",
 };
 
 const EN: Messages = {
@@ -333,6 +341,7 @@ const EN: Messages = {
   close: "Close",
   viewDetail: "View details",
   addPin: "Add as pin",
+  removeFeaturePin: "Remove pin",
   removePin: "Remove",
   showOnGmaps: "Open in Google Maps",
   zoneRegs: "View zone regulations",
@@ -397,10 +406,13 @@ const EN: Messages = {
   legendAlt: "legend",
   zoomBadgeTitle: "Zoom level required to show this layer",
   zoneFilterPlaceholder: "e.g. 21,23,25-28 or *",
-  etatNormal: "Normal",
-  etatSurveillance: "Watch",
-  etatAlerte: "Alert",
-  etatUnknown: "Unknown / inactive",
+  etatLegendTitle: "Point colour code",
+  etatNormal: "Vigilance — normal",
+  etatSurveillance: "Vigilance — watch",
+  etatAlerte: "Vigilance — alert",
+  etatAutre: "Vigilance — no tier",
+  etatHydroQuebec: "Hydro-Québec",
+  etatIndisponible: "Out of service / inactive",
 };
 
 const GROUP_TITLES_EN: Record<string, string> = {

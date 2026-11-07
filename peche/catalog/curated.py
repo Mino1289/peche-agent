@@ -164,7 +164,7 @@ def curated_layers() -> list[LayerDef]:
         # --- Hydro temps réel ---
         LayerDef(
             id="vigilance_stations",
-            title="Stations hydrométriques Vigilance",
+            title="Stations hydrométriques (Vigilance / Hydro-Québec)",
             group="hydro_temps_reel",
             source_type="local",
             url="data/hydromet/stations.json",
@@ -172,7 +172,7 @@ def curated_layers() -> list[LayerDef]:
             filter_spec=FilterSpec(kind="none"),
             visible_default=True,
             color="#3b82f6",
-            attribution="MSP Vigilance",
+            attribution="MSP Vigilance; données ouvertes Hydro-Québec",
             extra={"etat_colors": True},
         ),
         LayerDef(

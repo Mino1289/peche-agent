@@ -76,7 +76,8 @@ def _features_arcgis(
     return _fetch_json(f"{endpoint}?{urlencode(params)}")
 
 
-_JSON_CACHE: dict[str, Any] = {}
+# Valeur cache: (mtime_ns, données) — invalidation si le fichier change (ex. sync-stations).
+_JSON_CACHE: dict[str, tuple[int, Any]] = {}
 
 # Clés injectées par l'API / le viewport — ce ne sont pas des attributs d'entité.
 _META_FILTER_KEYS = frozenset(
@@ -99,11 +100,12 @@ def _load_local_json(rel: str) -> Any:
     if not path.exists():
         raise FileNotFoundError(rel)
     key = str(path.resolve())
+    mtime_ns = path.stat().st_mtime_ns
     cached = _JSON_CACHE.get(key)
-    if cached is not None:
-        return cached
+    if cached is not None and cached[0] == mtime_ns:
+        return cached[1]
     data = json.loads(path.read_text(encoding="utf-8"))
-    _JSON_CACHE[key] = data
+    _JSON_CACHE[key] = (mtime_ns, data)
     return data
 
 

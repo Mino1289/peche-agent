@@ -7,7 +7,7 @@ PYTHON="${PYTHON:-python3}"
 
 echo "==> Suppression des artefacts dérivés…"
 rm -rf data/locations data/hydromet/matches
-rm -f data/search_index.json data/hydromet/stations.json
+rm -f data/search_index.json data/hydromet/stations.json data/hydromet/hydroquebec_points.json
 
 echo "==> Extraction coords + index de recherche…"
 "$PYTHON" -m peche.coords extract --build-index

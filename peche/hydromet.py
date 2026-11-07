@@ -1,12 +1,12 @@
 """Hydrométrie : référentiel Vigilance + matching plan d'eau ↔ station.
 
 Offline (CLI) :
-  python3 -m peche.hydromet sync-stations  # cache data/hydromet/stations.json
+  python3 -m peche.hydromet sync-stations  # Vigilance + Hydro-Québec open → stations.json
   python3 -m peche.hydromet match --all    # produit data/hydromet/matches/{zone_id}.json
 
 Runtime (live) :
   fetch_live_stations() / get_live_station(station_id)
-    → données fraîches Vigilance (niveau, débit, état, observed_at).
+    → Vigilance (WFS) ; points `HQ-…` depuis hydroquebec_points.json + refresh JSON HQ au clic.
 
 Le WFS Vigilance accepte directement `srsName=EPSG:4326` ; pyproj est gardé
 dans `requirements.txt` comme filet de sécurité si l'API change.
@@ -22,6 +22,7 @@ import time
 from pathlib import Path
 
 from peche.fetch import fetch_text
+from peche.hydroquebec_open import fetch_hydroquebec_open_stations, get_hydroquebec_open_station
 from peche.reglements.sync import DATA_DIR
 from peche.reglements.zones import ZONES
 
@@ -33,6 +34,7 @@ VIGILANCE_WFS = (
 
 HYDROMET_DIR = DATA_DIR / "hydromet"
 STATIONS_PATH = HYDROMET_DIR / "stations.json"
+HQ_POINTS_PATH = HYDROMET_DIR / "hydroquebec_points.json"
 MATCHES_DIR = HYDROMET_DIR / "matches"
 LOCATIONS_DIR = DATA_DIR / "locations"
 
@@ -79,7 +81,7 @@ def _normalize_feature(feature: dict) -> dict | None:
 
 
 def fetch_live_stations(timeout: float = 30.0) -> list[dict]:
-    """Récupère les ~342 stations Vigilance (live, EPSG:4326)."""
+    """Vigilance WFS + points Hydro-Québec issus du dernier `sync-stations` (si cache local)."""
     raw = fetch_text(VIGILANCE_WFS, timeout=timeout)
     data = json.loads(raw)
     out = []
@@ -87,16 +89,62 @@ def fetch_live_stations(timeout: float = 30.0) -> list[dict]:
         normalized = _normalize_feature(feature)
         if normalized:
             out.append(normalized)
+    if HQ_POINTS_PATH.exists():
+        try:
+            cached = json.loads(HQ_POINTS_PATH.read_text(encoding="utf-8")).get("stations")
+        except (OSError, json.JSONDecodeError, TypeError):
+            cached = None
+        if isinstance(cached, list) and cached:
+            seen = {str(s.get("station")) for s in out if s.get("station")}
+            for row in cached:
+                if not isinstance(row, dict):
+                    continue
+                sid = str(row.get("station", ""))
+                if sid and sid not in seen:
+                    out.append(row)
+                    seen.add(sid)
     return out
 
 
 def save_stations(stations: list[dict], path: Path = STATIONS_PATH) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
+    hq: list[dict] = []
+    try:
+        hq = fetch_hydroquebec_open_stations(timeout=120.0)
+        HQ_POINTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        HQ_POINTS_PATH.write_text(
+            json.dumps(
+                {
+                    "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    "stations": hq,
+                    "nb_stations": len(hq),
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+    except Exception:
+        hq = []
+    merged: list[dict] = list(stations)
+    if hq:
+        existing = {str(s.get("station")) for s in stations if s.get("station")}
+        for row in hq:
+            sid = str(row.get("station", ""))
+            if not sid or sid in existing:
+                continue
+            merged.append(row)
+            existing.add(sid)
     payload = {
         "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "source": VIGILANCE_WFS,
-        "nb_stations": len(stations),
-        "stations": stations,
+        "sources_note": (
+            "MSP Vigilance WFS + Hydro-Québec open JSON (hydroquebec_points.json)"
+            if hq
+            else None
+        ),
+        "nb_stations": len(merged),
+        "stations": merged,
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return path
@@ -210,9 +258,12 @@ def match_stations_for_plan(
 
 
 def get_live_station(station_id: str, timeout: float = 30.0) -> dict | None:
-    """Données live d'une station précise (re-fetch complet Vigilance)."""
+    """Données live : Vigilance (WFS) ou Hydro-Québec (`HQ-…`)."""
+    sid = str(station_id)
+    if sid.upper().startswith("HQ-"):
+        return get_hydroquebec_open_station(sid, timeout=max(timeout, 120.0))
     for s in fetch_live_stations(timeout=timeout):
-        if s["station"] == str(station_id):
+        if s["station"] == sid:
             return s
     return None
 
@@ -244,7 +295,13 @@ def search_stations_offline(
         sid = s["station"]
         plan = _norm(s.get("plan_eau", ""))
         desc = _norm(s.get("description", ""))
-        haystack = f"{sid} {plan} {desc}"
+        hq_extra = _norm(
+            " ".join(
+                str(s.get(k, "") or "")
+                for k in ("hq_identifiant", "hq_kind", "hq_region")
+            )
+        )
+        haystack = f"{sid} {plan} {desc} {hq_extra}"
         score = 0.0
         # ID exact ou préfixe
         if sid == query.strip():

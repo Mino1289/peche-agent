@@ -15,7 +15,13 @@ import {
 } from "./filters";
 import { registerProjections } from "./projections";
 import { loadStoredCustomLayers } from "./customLayers";
-import { IDENTIFY_LAYERS, IdentifyOverlay, type IdentifyHit } from "./identify";
+import {
+  featurePinKey,
+  IDENTIFY_LAYERS,
+  IdentifyOverlay,
+  pinMatchesFeature,
+  type IdentifyHit,
+} from "./identify";
 import VectorLayer from "ol/layer/Vector";
 import type BaseLayer from "ol/layer/Base";
 import type Layer from "ol/layer/Layer";
@@ -147,8 +153,20 @@ export class MapController {
       layers: [this.highlightLayer, this.pinsLayer],
     });
     this.identify = new IdentifyOverlay(this.map, {
-      onAddPin: ({ label, layer, props, coordinate }) => {
+      onToggleFeaturePin: ({ label, layer, props, coordinate }) => {
         const [lon, lat] = toLonLat(coordinate);
+        const existing = this.findFeaturePins(layer, props, coordinate);
+        if (existing.length) {
+          const drop = new Set(existing.map((p) => p.id));
+          this.pins = this.pins.filter((p) => !drop.has(p.id));
+          this.reindexPins();
+          this.syncPinsLayer();
+          this.renderPinList();
+          this.identify.refreshFeaturePinButton();
+          return;
+        }
+        const fkey = featurePinKey(layer, props, lon, lat);
+        const pinProps = fkey ? { ...props, feature_key: fkey } : props;
         this.addPin({
           id: crypto.randomUUID(),
           lon,
@@ -156,9 +174,11 @@ export class MapController {
           label,
           source: "feature",
           layer,
-          props,
+          props: pinProps,
         });
       },
+      getFeaturePin: (layer, props, coordinate) =>
+        this.findFeaturePins(layer, props, coordinate)[0] ?? null,
       onDeletePin: (id) => this.removePin(id),
       onShowDetail: (hit) => this.detailHandler?.(hit),
     });
@@ -671,6 +691,15 @@ export class MapController {
     await setZoneClip(this.map, zoneId);
   }
 
+  private findFeaturePins(
+    layer: string,
+    props: Record<string, unknown>,
+    coordinate: number[],
+  ): MapPin[] {
+    const [lon, lat] = toLonLat(coordinate);
+    return this.pins.filter((p) => pinMatchesFeature(p, layer, props, lon, lat));
+  }
+
   addPin(pin: MapPin): void {
     if (this.pins.length >= MAX_PINS) this.pins.shift();
     if (pin.n == null) pin.n = this.pins.length + 1;
@@ -678,6 +707,7 @@ export class MapController {
     this.reindexPins();
     this.syncPinsLayer();
     this.renderPinList();
+    this.identify.refreshFeaturePinButton();
   }
 
   removePin(id: string): void {
@@ -685,6 +715,7 @@ export class MapController {
     this.reindexPins();
     this.syncPinsLayer();
     this.renderPinList();
+    this.identify.refreshFeaturePinButton();
   }
 
   setPins(pins: MapPin[]): void {

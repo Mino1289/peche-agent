@@ -1,0 +1,250 @@
+"""Données ouvertes Hydro-Québec (débits / niveaux) — même source que l'outil web.
+
+Deux fichiers JSON (référencés par le widget crues.min.js sur le site HQ) :
+  - stations hydrométriques / météo (rivières, etc.)
+  - sites (installations : apports, déversés, turbinage, …)
+
+Les séries temporelles complètes sont volumineuses ; on ne conserve que la dernière
+valeur par série pour le cache carte / sync.
+"""
+
+from __future__ import annotations
+
+import json
+import re
+import time
+from typing import Any
+
+from peche.fetch import fetch_text
+
+HQ_TOOL_PAGE = "https://www.hydroquebec.com/production/debits-niveaux-eau.html"
+
+HQ_JSON_STATIONS = (
+    "https://www.hydroquebec.com/data/documents-donnees/donnees-ouvertes/"
+    "json/Donnees_VUE_STATIONS_ET_TARAGES.json"
+)
+HQ_JSON_SITES = (
+    "https://www.hydroquebec.com/data/documents-donnees/donnees-ouvertes/"
+    "json/Donnees_VUE_CENTRALES_ET_OUVRAGES.json"
+)
+
+_TS_RE = re.compile(r"^(\d{4})/(\d{2})/(\d{2})T(\d{2}):(\d{2}):(\d{2})Z$")
+
+
+def _ts_sort_key(raw: str) -> tuple[int, ...]:
+    m = _TS_RE.match(raw.strip())
+    if not m:
+        return (0, 0, 0, 0, 0, 0)
+    return tuple(int(x) for x in m.groups())
+
+
+def _ts_to_iso_z(raw: str) -> str:
+    m = _TS_RE.match(raw.strip())
+    if not m:
+        return raw
+    y, mo, d, h, mi, s = m.groups()
+    return f"{y}-{mo}-{d}T{h}:{mi}:{s}Z"
+
+
+def _parse_float(raw: Any) -> float | None:
+    if raw is None:
+        return None
+    try:
+        return float(str(raw).replace(",", ".").strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _latest_in_donnees(donnees: Any) -> tuple[float | None, str | None]:
+    if not isinstance(donnees, dict) or not donnees:
+        return None, None
+    last_key = max(donnees.keys(), key=_ts_sort_key)
+    val = _parse_float(donnees.get(last_key))
+    return val, _ts_to_iso_z(last_key)
+
+
+def _composition_metrics(composition: Any) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    if not isinstance(composition, list):
+        return out
+    for block in composition:
+        if not isinstance(block, dict):
+            continue
+        donnees = block.get("Donnees")
+        val, obs = _latest_in_donnees(donnees)
+        tpd_raw = block.get("type_point_donnee")
+        tpd = tpd_raw.strip() if isinstance(tpd_raw, str) else ""
+        unit = str(block.get("nom_unite_mesure") or "").strip()
+        pt = str(block.get("pas_temps") or "").strip()
+        tm = str(block.get("type_mesure") or "").strip()
+        label_parts = [p for p in (tpd, tm, pt) if p]
+        variable = " — ".join(label_parts) if label_parts else (unit or "mesure")
+        out.append(
+            {
+                "variable": variable,
+                "type_point_donnee": tpd,
+                "nom_unite_mesure": unit,
+                "pas_temps": pt,
+                "type_mesure": tm,
+                "valeur": val,
+                "observed_at": obs,
+            }
+        )
+    return out
+
+
+def _pick_primary_niveau_debit(
+    metrics: list[dict[str, Any]],
+) -> tuple[Any, Any, str | None]:
+    """Déduit niveau_m / debit_m3s à partir des unités HQ (affichage carte)."""
+    niveau_m = None
+    debit_m3s = None
+    observed_at = None
+    for m in metrics:
+        u = (m.get("nom_unite_mesure") or "").lower()
+        v = m.get("valeur")
+        o = m.get("observed_at")
+        if v is None:
+            continue
+        if "m³/s" in u or "m3/s" in u or "m^3/s" in u:
+            debit_m3s = v
+            observed_at = o or observed_at
+        elif u == "m" and "neige" not in (m.get("type_point_donnee") or "").lower():
+            niveau_m = v
+            observed_at = o or observed_at
+
+    if niveau_m is None and debit_m3s is None:
+        for m in metrics:
+            if m.get("valeur") is not None:
+                u = (m.get("nom_unite_mesure") or "").lower()
+                v = m.get("valeur")
+                o = m.get("observed_at")
+                if "mm" in u or "%" in u or "°" in u or "deg" in u:
+                    continue
+                if "m³/s" in u or "m3/s" in u:
+                    debit_m3s = v
+                elif u == "m":
+                    niveau_m = v
+                observed_at = o or observed_at
+                break
+    return niveau_m, debit_m3s, observed_at
+
+
+def _normalize_coords(x: Any, y: Any) -> tuple[float, float] | None:
+    try:
+        lon = float(str(x).strip())
+        lat = float(str(y).strip())
+    except (TypeError, ValueError):
+        return None
+    if not (-180 <= lon <= 180 and -90 <= lat <= 90):
+        return None
+    return round(lat, 6), round(lon, 6)
+
+
+def normalize_hq_records(kind: str, records: Any) -> list[dict[str, Any]]:
+    """kind: 'station' | 'installation'."""
+    if not isinstance(records, list):
+        return []
+    prefix = "S" if kind == "station" else "I"
+    out: list[dict[str, Any]] = []
+    for row in records:
+        if not isinstance(row, dict):
+            continue
+        ident = str(row.get("identifiant") or "").strip()
+        if not ident:
+            continue
+        coords = _normalize_coords(row.get("xcoord"), row.get("ycoord"))
+        if coords is None:
+            continue
+        lat, lon = coords
+        nom = str(row.get("nom") or "").strip()
+        metrics = _composition_metrics(row.get("Composition"))
+        niveau_m, debit_m3s, obs = _pick_primary_niveau_debit(metrics)
+
+        sid = f"HQ-{prefix}-{ident}"
+        entry: dict[str, Any] = {
+            "station": sid,
+            "description": nom,
+            "plan_eau": "",
+            "fournisseur": "Hydro-Québec",
+            "fournisseur_url": HQ_TOOL_PAGE,
+            "url_vigilance": "",
+            "etat": "",
+            "previsions": "",
+            "refoulement": "",
+            "niveau_m": niveau_m,
+            "debit_m3s": debit_m3s,
+            "observed_at": obs,
+            "lat": lat,
+            "lon": lon,
+            "source_sub": "hydroquebec_open",
+            "hq_kind": kind,
+            "hq_identifiant": ident,
+            "hq_code_region": str(row.get("CodeRegionQC") or "").strip(),
+            "hq_region": str(row.get("RegionQC") or "").strip(),
+            "hq_metrics": metrics,
+        }
+        out.append(entry)
+    return out
+
+
+def fetch_hydroquebec_open_stations(timeout: float = 120.0) -> list[dict[str, Any]]:
+    """Télécharge les deux vues HQ et renvoie des entrées « station » uniformes."""
+    raw_s = fetch_text(HQ_JSON_STATIONS, timeout=timeout)
+    raw_i = fetch_text(HQ_JSON_SITES, timeout=timeout)
+    data_s = json.loads(raw_s)
+    data_i = json.loads(raw_i)
+    stations = normalize_hq_records("station", data_s.get("Station"))
+    installations = normalize_hq_records("installation", data_i.get("Site"))
+    return stations + installations
+
+
+# Cache mémoire pour le détail API (évite de retélécharger ~17 Mo à chaque clic).
+_HQ_DETAIL_CACHE: tuple[float, tuple[list[dict[str, Any]], list[dict[str, Any]]]] | None = (
+    None
+)
+_HQ_DETAIL_TTL_S = 3600.0
+
+
+def _load_hq_raw_pair(timeout: float) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    global _HQ_DETAIL_CACHE
+    now = time.monotonic()
+    if _HQ_DETAIL_CACHE and now - _HQ_DETAIL_CACHE[0] < _HQ_DETAIL_TTL_S:
+        return _HQ_DETAIL_CACHE[1]
+    raw_s = fetch_text(HQ_JSON_STATIONS, timeout=timeout)
+    raw_i = fetch_text(HQ_JSON_SITES, timeout=timeout)
+    data_s = json.loads(raw_s)
+    data_i = json.loads(raw_i)
+    pair = (
+        data_s.get("Station") if isinstance(data_s.get("Station"), list) else [],
+        data_i.get("Site") if isinstance(data_i.get("Site"), list) else [],
+    )
+    _HQ_DETAIL_CACHE = (now, pair)
+    return pair
+
+
+def get_hydroquebec_open_station(
+    station_id: str, timeout: float = 120.0
+) -> dict[str, Any] | None:
+    """Reconstitue une entrée HQ à jour pour un id `HQ-S-…` ou `HQ-I-…`."""
+    sid = str(station_id).strip()
+    parts = sid.split("-", 2)
+    if len(parts) != 3 or parts[0] != "HQ":
+        return None
+    kind_key = parts[1].upper()
+    ident = parts[2]
+    if kind_key == "S":
+        kind = "station"
+    elif kind_key == "I":
+        kind = "installation"
+    else:
+        return None
+    st_list, site_list = _load_hq_raw_pair(timeout)
+    source = st_list if kind == "station" else site_list
+    for row in source:
+        if not isinstance(row, dict):
+            continue
+        if str(row.get("identifiant") or "").strip() == ident:
+            norm = normalize_hq_records(kind, [row])
+            return norm[0] if norm else None
+    return None

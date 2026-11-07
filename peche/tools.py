@@ -526,6 +526,7 @@ def get_hydromet(station_id: str) -> dict:
             "source": "Vigilance WFS",
         }
     sid = s["station"]
+    is_hq = str(sid).upper().startswith("HQ-") or s.get("source_sub") == "hydroquebec_open"
     out = {
         "station_id": sid,
         "plan_eau": s["plan_eau"],
@@ -537,8 +538,17 @@ def get_hydromet(station_id: str) -> dict:
         "debit_m3s": s["debit_m3s"],
         "observed_at": s["observed_at"],
         "urls": _build_station_links(s),
-        "source": "Vigilance WFS",
+        "source": "Hydro-Québec (données ouvertes)"
+        if is_hq
+        else "Vigilance WFS",
     }
+    if is_hq:
+        if s.get("hq_region"):
+            out["hq_region"] = s["hq_region"]
+        if s.get("hq_kind"):
+            out["hq_kind"] = s["hq_kind"]
+        if s.get("hq_metrics"):
+            out["hq_metrics"] = s["hq_metrics"]
     if is_cehq_station_id(sid, s.get("fournisseur_url")):
         history = fetch_cehq_history(sid)
         if history:

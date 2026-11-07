@@ -3,7 +3,7 @@
 import type { Catalog, LayerDef } from "./types";
 import type { MapController } from "./map";
 import { PENTE_COLORS } from "./filters";
-import { legendSrc, ETAT_COLORS } from "./layers";
+import { legendSrc, stationEtatLegendItems, VIGILANCE_LAYER_DEFAULT_COLOR } from "./layers";
 import { groupTitle, t } from "./i18n";
 import {
   addStoredCustomLayer,
@@ -403,7 +403,7 @@ export class CatalogPanel {
     wrap.appendChild(row);
 
     if (def.id === "vigilance_stations" || def.extra?.etat_colors) {
-      wrap.appendChild(etatLegend());
+      wrap.appendChild(etatLegend(def));
     }
 
     const src = legendSrc(def.legend_url);
@@ -562,24 +562,25 @@ function applyZoomBadgeState(el: HTMLElement, zoom: number): void {
   el.classList.toggle("zoom-badge-out", out);
 }
 
-function etatLegend(): HTMLElement {
+function etatLegend(def: LayerDef): HTMLElement {
   const m = t();
   const box = document.createElement("div");
   box.className = "etat-legend";
-  const items: [string, string][] = [
-    [ETAT_COLORS.normal, m.etatNormal],
-    [ETAT_COLORS.surveillance, m.etatSurveillance],
-    [ETAT_COLORS.alerte, m.etatAlerte],
-    [ETAT_COLORS.inconnu, m.etatUnknown],
-  ];
-  for (const [color, label] of items) {
+  const title = document.createElement("div");
+  title.className = "etat-legend-title";
+  title.textContent = m.etatLegendTitle;
+  box.appendChild(title);
+  const layerFallback = def.color || VIGILANCE_LAYER_DEFAULT_COLOR;
+  const items = stationEtatLegendItems(layerFallback);
+  for (const { color, key } of items) {
+    const label = m[key];
     const lab = document.createElement("span");
     lab.className = "etat-legend-item";
     const sw = document.createElement("span");
     sw.className = "swatch";
     sw.style.background = color;
     lab.appendChild(sw);
-    lab.appendChild(document.createTextNode(" " + label));
+    lab.appendChild(document.createTextNode(` ${label}`));
     box.appendChild(lab);
   }
   return box;

@@ -7,7 +7,7 @@ import time
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import JSONResponse
 
-from peche.hydromet import fetch_live_stations
+from peche.hydromet import fetch_live_stations, get_live_station
 from peche.tides import get_tide_predictions, get_water_level_live
 from peche.tools import _build_station_links
 from peche.cehq import fetch_cehq_history, is_cehq_station_id
@@ -36,7 +36,10 @@ def hydromet_station(
     sid = str(station_id)
     s = next((row for row in _live_hydromet_stations() if row["station"] == sid), None)
     if s is None:
+        s = get_live_station(sid)
+    if s is None:
         raise HTTPException(status_code=404, detail="Station introuvable")
+    is_hq = sid.upper().startswith("HQ-") or s.get("source_sub") == "hydroquebec_open"
     payload: dict = {
         "station_id": s["station"],
         "plan_eau": s.get("plan_eau"),
@@ -48,8 +51,17 @@ def hydromet_station(
         "debit_m3s": s.get("debit_m3s"),
         "observed_at": s.get("observed_at"),
         "urls": _build_station_links(s),
-        "source": "Vigilance WFS",
+        "source": "Hydro-Québec (données ouvertes)"
+        if is_hq
+        else "Vigilance WFS",
     }
+    if is_hq:
+        if s.get("hq_region"):
+            payload["hq_region"] = s["hq_region"]
+        if s.get("hq_kind"):
+            payload["hq_kind"] = s["hq_kind"]
+        if s.get("hq_metrics"):
+            payload["hq_metrics"] = s["hq_metrics"]
     if include_history and is_cehq_station_id(sid, s.get("fournisseur_url")):
         history = fetch_cehq_history(sid)
         if history:

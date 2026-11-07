@@ -65,6 +65,23 @@ class SelectiveGZipMiddleware:
         await self._gzip(scope, receive, send)
 
 
+class _MCPRootASGI:
+    """Streamable HTTP MCP expects POST on / ; clients often use /mcp without trailing slash."""
+
+    def __init__(self, app: ASGIApp, mcp_asgi: ASGIApp) -> None:
+        self._app = app
+        self._mcp_asgi = mcp_asgi
+
+    async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
+        if scope["type"] == "http" and scope.get("path") == "/mcp":
+            inner = dict(scope)
+            inner["path"] = "/"
+            inner["raw_path"] = b"/"
+            await self._mcp_asgi(inner, receive, send)
+            return
+        await self._app(scope, receive, send)
+
+
 def create_app() -> FastAPI:
     mcp_asgi = None
     mcp_session_manager = None
@@ -130,6 +147,8 @@ def create_app() -> FastAPI:
                 return FileResponse(candidate)
             return FileResponse(WEB_DIST / "index.html", headers=_HTML_CACHE)
 
+    if mcp_asgi is not None:
+        return _MCPRootASGI(app, mcp_asgi)
     return app
 
 
