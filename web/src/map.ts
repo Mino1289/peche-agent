@@ -43,16 +43,18 @@ const PINS_LAYER_ID = "__pins";
 const IDENTIFY_HIT = new Set([...IDENTIFY_LAYERS]);
 
 function pinStyleFor(n: number): Style {
+  // Même rayon que les points des couches (cachedPointStyle) pour éviter le « saut » visuel au toggle
   return new Style({
     image: new CircleStyle({
-      radius: 10,
+      radius: 6,
       fill: new Fill({ color: "#f97316" }),
-      stroke: new Stroke({ color: "#fff", width: 2 }),
+      stroke: new Stroke({ color: "#fff", width: 1.5 }),
     }),
     text: new Text({
       text: String(n),
       fill: new Fill({ color: "#fff" }),
-      font: "bold 11px system-ui, sans-serif",
+      font: "bold 10px system-ui, sans-serif",
+      offsetY: 1,
     }),
   });
 }

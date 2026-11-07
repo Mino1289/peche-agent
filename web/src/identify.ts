@@ -22,6 +22,8 @@ export const IDENTIFY_LAYERS = new Set([
 ]);
 
 const PINS_LAYER_ID = "__pins";
+/** Espace entre le point carte et le bas du popup (ancré par le haut). */
+const POPUP_GAP_PX = 14;
 
 const LAYER_TITLES: Record<string, string> = {
   habitat_legal: "Habitat faunique légal",
@@ -59,6 +61,8 @@ export class IdentifyOverlay {
   private handlers: IdentifyHandlers;
   private last: IdentifyHit | null = null;
   private lastPinOpts: { loading?: boolean } | undefined;
+  private resizeObserver: ResizeObserver;
+  private pinToggleMeasureBtn: HTMLButtonElement | null = null;
 
   constructor(map: OlMap, handlers: IdentifyHandlers) {
     this.handlers = handlers;
@@ -68,11 +72,28 @@ export class IdentifyOverlay {
     this.overlay = new Overlay({
       element: this.el,
       autoPan: { animation: { duration: 250 } },
-      positioning: "bottom-center",
-      offset: [0, -14],
+      // top-center + offset dynamique : le haut du popup ne saute pas si la hauteur change
+      positioning: "top-center",
+      offset: [0, 0],
       stopEvent: true,
     });
     map.addOverlay(this.overlay);
+    this.resizeObserver = new ResizeObserver(() => this.syncOverlayOffset());
+    this.resizeObserver.observe(this.el);
+  }
+
+  private syncOverlayOffset(): void {
+    if (!this.overlay.getPosition()) return;
+    const apply = (): void => {
+      if (!this.overlay.getPosition()) return;
+      const h = this.el.offsetHeight;
+      if (!h) return;
+      this.overlay.setOffset([0, -(h + POPUP_GAP_PX)]);
+    };
+    requestAnimationFrame(() => {
+      apply();
+      queueMicrotask(apply);
+    });
   }
 
   hide(): void {
@@ -105,6 +126,8 @@ export class IdentifyOverlay {
     btn.textContent = pinned ? m.removeFeaturePin : m.addPin;
     btn.classList.toggle("btn-danger", Boolean(pinned));
     btn.classList.toggle("btn-secondary", !pinned);
+    this.applyPinToggleMinWidth(btn);
+    this.syncOverlayOffset();
   }
 
   showLoading(coord: Coordinate, title: string): void {
@@ -116,6 +139,7 @@ export class IdentifyOverlay {
       </div>
       <div class="identify-body">${spinnerHtml()}</div>`;
     this.overlay.setPosition(coord);
+    this.syncOverlayOffset();
   }
 
   async showFeature(hit: IdentifyHit): Promise<void> {
@@ -143,6 +167,7 @@ export class IdentifyOverlay {
         ${gmapsButton(lat, lon)}
       </div>`;
     this.overlay.setPosition(hit.coordinate);
+    this.syncOverlayOffset();
   }
 
   showPin(
@@ -193,6 +218,7 @@ export class IdentifyOverlay {
         <button type="button" class="btn-danger" data-act="del-pin" data-pin="${escapeHtml(pin.id)}">${escapeHtml(m.removePin)}</button>
       </div>`;
     this.overlay.setPosition(coordinate);
+    this.syncOverlayOffset();
   }
 
   private onClick(ev: Event): void {
@@ -286,7 +312,41 @@ export class IdentifyOverlay {
     );
     const label = pinned ? m.removeFeaturePin : m.addPin;
     const cls = pinned ? "btn-danger" : "btn-secondary";
-    return `<button type="button" class="${cls}" data-act="toggle-pin">${escapeHtml(label)}</button>`;
+    const minW = this.pinToggleMinWidthPx();
+    return `<button type="button" class="${cls}" data-act="toggle-pin" style="min-width:${minW}px">${escapeHtml(label)}</button>`;
+  }
+
+  private pinToggleMinWidthPx(): number {
+    const m = t();
+    const probe =
+      this.pinToggleMeasureBtn ??
+      (() => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "btn-secondary identify-actions-measure";
+        b.setAttribute("aria-hidden", "true");
+        b.tabIndex = -1;
+        Object.assign(b.style, {
+          position: "fixed",
+          left: "-9999px",
+          visibility: "hidden",
+          pointerEvents: "none",
+        });
+        document.body.appendChild(b);
+        this.pinToggleMeasureBtn = b;
+        return b;
+      })();
+    probe.className = "btn-secondary identify-actions-measure";
+    let max = 0;
+    for (const label of [m.addPin, m.removeFeaturePin]) {
+      probe.textContent = label;
+      max = Math.max(max, probe.offsetWidth);
+    }
+    return max;
+  }
+
+  private applyPinToggleMinWidth(btn: HTMLButtonElement): void {
+    btn.style.minWidth = `${this.pinToggleMinWidthPx()}px`;
   }
 }
 
