@@ -77,6 +77,9 @@ type Messages = {
   level: string;
   flow: string;
   observed: string;
+  hqRegion: string;
+  hqSeries: string;
+  dataSource: string;
   cachedState: string;
   liveUnavailable: (status: number) => string;
   tidesUnavailable: (status: number) => string;
@@ -84,6 +87,10 @@ type Messages = {
   day: string;
   lowTide: string;
   highTide: string;
+  lowTide1: string;
+  highTide1: string;
+  lowTide2: string;
+  highTide2: string;
   name: string;
   number: string;
   category: string;
@@ -206,6 +213,9 @@ const FR: Messages = {
   level: "Niveau",
   flow: "Débit",
   observed: "Observé",
+  hqRegion: "Région",
+  hqSeries: "Mesures (dernière valeur, ~10 jours HQ)",
+  dataSource: "Source",
   cachedState: "État (cache)",
   liveUnavailable: (s) => `Mesures live indisponibles (${s})`,
   tidesUnavailable: (s) => `Marées indisponibles (${s})`,
@@ -213,6 +223,10 @@ const FR: Messages = {
   day: "Jour",
   lowTide: "Basse",
   highTide: "Haute",
+  lowTide1: "Basse 1",
+  highTide1: "Haute 1",
+  lowTide2: "Basse 2",
+  highTide2: "Haute 2",
   name: "Nom",
   number: "N°",
   category: "Catégorie",
@@ -334,6 +348,9 @@ const EN: Messages = {
   level: "Level",
   flow: "Flow",
   observed: "Observed",
+  hqRegion: "Region",
+  hqSeries: "Measurements (latest value, ~10 days HQ)",
+  dataSource: "Source",
   cachedState: "Status (cache)",
   liveUnavailable: (s) => `Live readings unavailable (${s})`,
   tidesUnavailable: (s) => `Tides unavailable (${s})`,
@@ -341,6 +358,10 @@ const EN: Messages = {
   day: "Day",
   lowTide: "Low",
   highTide: "High",
+  lowTide1: "Low 1",
+  highTide1: "High 1",
+  lowTide2: "Low 2",
+  highTide2: "High 2",
   name: "Name",
   number: "No.",
   category: "Category",

@@ -633,6 +633,35 @@ details > summary::-webkit-details-marker {
   padding: 0 6px 4px;
 }
 
+.hydro-uplot-tide .u-axis {
+  font-size: 0.65rem;
+}
+
+.hydro-cursor-x,
+.hydro-cursor-y {
+  position: absolute;
+  pointer-events: none;
+  z-index: 20;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #f8fafc;
+  background: #0f172a;
+  border: 1px solid #38bdf8;
+  box-shadow: 0 0 0 1px rgb(56 189 248 / 25%);
+  border-radius: 4px;
+  padding: 3px 6px;
+  white-space: nowrap;
+}
+
+.hydro-cursor-x {
+  transform: translate(-50%, 0);
+}
+
+.hydro-cursor-y {
+  transform: translate(calc(-100% - 4px), -50%);
+}
+
 .hydro-daily {
   font-size: 0.72rem;
   color: var(--muted);
@@ -1034,6 +1063,11 @@ details > summary::-webkit-details-marker {
   font-size: 0.82rem;
 }
 
+.identify-popup--tides {
+  width: max-content;
+  max-width: min(92vw, 680px);
+}
+
 .identify-header {
   display: flex;
   justify-content: space-between;
@@ -1097,6 +1131,23 @@ details > summary::-webkit-details-marker {
   border-bottom: 1px solid #1c2738;
   padding: 4px;
   text-align: left;
+}
+
+.identify-table--tides {
+  width: 100%;
+  table-layout: auto;
+}
+
+.identify-table--tides th,
+.identify-table--tides td {
+  white-space: nowrap;
+  padding: 4px 7px;
+  vertical-align: top;
+}
+
+.identify-table--tides th:first-child,
+.identify-table--tides td:first-child {
+  padding-left: 0;
 }
 
 .identify-error {

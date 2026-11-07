@@ -203,6 +203,122 @@ function fmtAxisTime(ts: number): string {
   return `${dd}/${mm} ${hh}h`;
 }
 
+function fmtAxisTimeDense(ts: number): string {
+  const d = new Date(ts * 1000);
+  const dd = String(d.getDate()).padStart(2, "0");
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mi = String(d.getMinutes()).padStart(2, "0");
+  if (d.getHours() === 0 && d.getMinutes() === 0) return `${dd}/${mm}`;
+  return `${hh}:${mi}`;
+}
+
+function fmtCursorTime(ts: number): string {
+  const d = new Date(ts * 1000);
+  const dd = String(d.getDate()).padStart(2, "0");
+  const mm = String(d.getMonth() + 1).padStart(2, "0");
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mi = String(d.getMinutes()).padStart(2, "0");
+  return `${dd}/${mm} ${hh}:${mi}`;
+}
+
+const TIDE_TIME_INCRS_SEC = [
+  2 * 3600,
+  3 * 3600,
+  4 * 3600,
+  6 * 3600,
+  12 * 3600,
+];
+
+function formatCursorY(title: string, y: number): string {
+  if (title.includes("Débit")) return `${y.toFixed(1)} m³/s`;
+  return `${y.toFixed(2)} m`;
+}
+
+function formatAxisY(title: string, y: number): string {
+  if (!Number.isFinite(y)) return "";
+  if (title.includes("Débit")) return y.toFixed(1);
+  return y.toFixed(2);
+}
+
+function chartCursorLabelHooks(title: string): uPlot.Hooks.Arrays {
+  let xLabel: HTMLDivElement | null = null;
+  let yLabel: HTMLDivElement | null = null;
+
+  const syncLabels = (u: uPlot) => {
+    if (!xLabel || !yLabel) return;
+    const { left, top, idx } = u.cursor;
+    if (left == null || top == null || left < 0 || top < 0) {
+      xLabel.hidden = true;
+      yLabel.hidden = true;
+      return;
+    }
+    let xVal: number;
+    let yVal: number | undefined;
+    if (idx != null && idx >= 0) {
+      xVal = u.data[0][idx] as number;
+      const parts: string[] = [];
+      for (let si = 1; si < u.data.length; si++) {
+        const v = u.data[si][idx] as number | null | undefined;
+        if (v != null && Number.isFinite(v)) {
+          const name = u.series[si].label ?? "";
+          parts.push(
+            u.data.length > 2
+              ? `${name}: ${formatCursorY(title, v)}`
+              : formatCursorY(title, v),
+          );
+        }
+      }
+      if (!parts.length) {
+        xLabel.hidden = true;
+        yLabel.hidden = true;
+        return;
+      }
+      yLabel.textContent = parts.join(" · ");
+    } else {
+      xVal = u.posToVal(left, "x");
+      yVal = u.posToVal(top, "y");
+      if (!Number.isFinite(xVal) || !Number.isFinite(yVal)) {
+        xLabel.hidden = true;
+        yLabel.hidden = true;
+        return;
+      }
+      yLabel.textContent = formatCursorY(title, yVal);
+    }
+    if (!Number.isFinite(xVal)) {
+      xLabel.hidden = true;
+      yLabel.hidden = true;
+      return;
+    }
+    xLabel.textContent = fmtCursorTime(xVal);
+    const { left: ox, top: oy, height: h } = u.bbox;
+    xLabel.style.left = `${ox + left}px`;
+    xLabel.style.top = `${oy + h + 1}px`;
+    xLabel.hidden = false;
+    yLabel.style.left = `${ox}px`;
+    yLabel.style.top = `${oy + top}px`;
+    yLabel.hidden = false;
+  };
+
+  return {
+    init: [
+      (u) => {
+        u.root.style.position = "relative";
+        xLabel = document.createElement("div");
+        xLabel.className = "hydro-cursor-x";
+        xLabel.hidden = true;
+        yLabel = document.createElement("div");
+        yLabel.className = "hydro-cursor-y";
+        yLabel.hidden = true;
+        u.root.appendChild(xLabel);
+        u.root.appendChild(yLabel);
+      },
+    ],
+    setCursor: [(u) => syncLabels(u)],
+    setSize: [(u) => syncLabels(u)],
+  };
+}
+
 function makePlot(
   target: HTMLElement,
   title: string,
@@ -224,9 +340,10 @@ function makePlot(
         stroke: "#94a3b8",
         grid: { stroke: "#1e293b", width: 1 },
         ticks: { stroke: "#334155" },
+        space: 44,
         values: (_u, splits) => splits.map((v) => fmtAxisTime(v)),
         font: "10px sans-serif",
-        size: 40,
+        size: 44,
       },
       {
         stroke: "#94a3b8",
@@ -234,6 +351,7 @@ function makePlot(
         ticks: { stroke: "#334155" },
         font: "10px sans-serif",
         size: 48,
+        values: (_u, splits) => splits.map((v) => formatAxisY(title, v)),
       },
     ],
     series: [
@@ -250,8 +368,11 @@ function makePlot(
       show: series.length > 1,
     },
     cursor: {
+      x: true,
+      y: true,
       focus: { prox: 24 },
     },
+    hooks: chartCursorLabelHooks(title),
   };
   const data: uPlot.AlignedData = [xs, ...series.map((s) => s.values)];
   return new uPlot(opts, data, target);
@@ -622,7 +743,7 @@ export function renderTideChart(
   const wrap = document.createElement("div");
   wrap.className = "hydro-chart-wrap";
   el.appendChild(wrap);
-  const plot = makePlot(wrap, "Hauteur (m)", xs, [
+  const plot = makeTidePlot(wrap, "Hauteur (m)", xs, [
     { label: "Marée (m)", values, color: SERIES_COLORS[1] },
   ]);
   if (plot) {
@@ -632,4 +753,69 @@ export function renderTideChart(
       if (plot.width !== w) plot.setSize({ width: w, height: plot.height });
     });
   }
+}
+
+function makeTidePlot(
+  target: HTMLElement,
+  title: string,
+  xs: number[],
+  series: { label: string; values: (number | null)[]; color: string }[],
+): uPlot | null {
+  if (!xs.length || !series.length) return null;
+  const width = Math.max(
+    240,
+    Math.floor(target.clientWidth || target.parentElement?.clientWidth || 320),
+  );
+  const labelHooks = chartCursorLabelHooks(title);
+  const opts: uPlot.Options = {
+    width,
+    height: 200,
+    title,
+    class: "hydro-uplot hydro-uplot-tide",
+    scales: {
+      x: { time: true },
+    },
+    axes: [
+      {
+        stroke: "#94a3b8",
+        grid: { stroke: "#1e293b", width: 1 },
+        ticks: { stroke: "#334155" },
+        space: 44,
+        incrs: TIDE_TIME_INCRS_SEC,
+        values: (_u, splits) => splits.map((v) => fmtAxisTimeDense(v)),
+        font: "10px sans-serif",
+        size: 44,
+      },
+      {
+        stroke: "#94a3b8",
+        grid: { stroke: "#1e293b", width: 1 },
+        ticks: { stroke: "#334155" },
+        font: "10px sans-serif",
+        size: 48,
+        values: (_u, splits) =>
+          splits.map((v) => (Number.isFinite(v) ? `${v.toFixed(1)}` : "")),
+      },
+    ],
+    series: [
+      {},
+      ...series.map((s) => ({
+        label: s.label,
+        stroke: s.color,
+        width: 1.5,
+        spanGaps: false,
+        points: { show: false },
+      })),
+    ],
+    legend: {
+      show: false,
+    },
+    cursor: {
+      x: true,
+      y: true,
+      focus: { prox: 24 },
+    },
+    hooks: labelHooks,
+  };
+  const data: uPlot.AlignedData = [xs, ...series.map((s) => s.values)];
+  return new uPlot(opts, data, target);
 }

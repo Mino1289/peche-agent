@@ -73,6 +73,7 @@ export class IdentifyOverlay {
   hide(): void {
     this.last = null;
     this.lastPinOpts = undefined;
+    this.el.className = "identify-popup";
     this.el.innerHTML = "";
     this.overlay.setPosition(undefined);
   }
@@ -106,6 +107,10 @@ export class IdentifyOverlay {
     if (this.last !== hit) return;
     const [lon, lat] = toLonLat(hit.coordinate);
     const m = t();
+    this.el.className =
+      hit.layerId === "marees_shc"
+        ? "identify-popup identify-popup--tides"
+        : "identify-popup";
     this.el.innerHTML = `
       <div class="identify-header">
         <h3>${escapeHtml(title)}</h3>
@@ -444,16 +449,38 @@ async function hydrometHtml(p: Record<string, unknown>): Promise<string> {
   if (live.error) {
     return `${cached}<p class="identify-error">${escapeHtml(String(live.error))}</p>`;
   }
-  return (
-    dl([
-      [m.station, str(live.station_id || sid)],
-      [m.waterbody, uninvertName(str(live.plan_eau || p.plan_eau))],
-      [m.state, str(live.etat)],
-      [m.level, live.niveau_m != null ? `${live.niveau_m} m` : "—"],
-      [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : "—"],
-      [m.observed, str(live.observed_at)],
-    ]) + linksHtml(live.urls as Record<string, string> | undefined)
-  );
+  const base = dl([
+    [m.station, str(live.station_id || sid)],
+    [m.waterbody, uninvertName(str(live.plan_eau || p.plan_eau))],
+    [m.dataSource, str(live.source)],
+    [m.state, str(live.etat)],
+    [m.level, live.niveau_m != null ? `${live.niveau_m} m` : "—"],
+    [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : "—"],
+    [m.observed, str(live.observed_at)],
+    [m.hqRegion, str(live.hq_region)],
+  ]);
+  const metrics = hqMetricsTableHtml(live.hq_metrics);
+  return base + metrics + linksHtml(live.urls as Record<string, string> | undefined);
+}
+
+function hqMetricsTableHtml(metrics: unknown): string {
+  if (!Array.isArray(metrics) || !metrics.length) return "";
+  const m = t();
+  let body = "";
+  for (const row of metrics.slice(0, 16)) {
+    if (!row || typeof row !== "object") continue;
+    const r = row as Record<string, unknown>;
+    const label = str(r.variable || r.type_point_donnee);
+    const val = r.valeur != null ? String(r.valeur) : "—";
+    const unit = str(r.nom_unite_mesure);
+    body += `<tr><td>${escapeHtml(label)}</td><td><strong>${escapeHtml(
+      val,
+    )}</strong> ${escapeHtml(unit)}</td></tr>`;
+  }
+  if (!body) return "";
+  return `<p class="muted">${escapeHtml(m.hqSeries)}</p><table class="identify-table"><thead><tr><th>${escapeHtml(
+    m.name,
+  )}</th><th>${escapeHtml(m.observed)}</th></tr></thead><tbody>${body}</tbody></table>`;
 }
 
 async function tidesHtml(p: Record<string, unknown>): Promise<string> {
@@ -483,13 +510,13 @@ async function tidesHtml(p: Record<string, unknown>): Promise<string> {
     (live.table as { lignes?: Record<string, unknown>[] } | undefined)?.lignes || [];
   let table = "";
   if (lignes.length) {
-    table = `<table class="identify-table"><thead><tr><th>${escapeHtml(m.day)}</th><th>${escapeHtml(m.lowTide)}</th><th>${escapeHtml(m.highTide)}</th></tr></thead><tbody>`;
+    table = `<table class="identify-table identify-table--tides"><thead><tr><th>${escapeHtml(m.day)}</th><th>${escapeHtml(m.lowTide1)}</th><th>${escapeHtml(m.highTide1)}</th><th>${escapeHtml(m.lowTide2)}</th><th>${escapeHtml(m.highTide2)}</th></tr></thead><tbody>`;
     for (const row of lignes.slice(0, 4)) {
       table += `<tr><td>${escapeHtml(str(row.jour))}</td><td>${escapeHtml(
-        str(row.maree_basse_1 || row["marée_basse_1"]),
-      )}</td><td>${escapeHtml(
-        str(row.maree_haute_1 || row["marée_haute_1"]),
-      )}</td></tr>`;
+        tideTableCell(row, "basse_1"),
+      )}</td><td>${escapeHtml(tideTableCell(row, "haute_1"))}</td><td>${escapeHtml(
+        tideTableCell(row, "basse_2"),
+      )}</td><td>${escapeHtml(tideTableCell(row, "haute_2"))}</td></tr>`;
     }
     table += `</tbody></table>`;
   }
@@ -596,6 +623,11 @@ function stripGeom(props: Record<string, unknown>): Record<string, unknown> {
   return out;
 }
 
+function tideTableCell(row: Record<string, unknown>, suffix: string): string {
+  const k = `maree_${suffix}`;
+  return str(row[k] ?? row[`marée_${suffix}`] ?? "");
+}
+
 function str(v: unknown): string {
   if (v == null) return "";
   return String(v);
@@ -609,4 +641,4 @@ function coordsLabel(lon: number, lat: number): string {
   return `${lat.toFixed(4)}, ${lon.toFixed(4)}`;
 }
 
-export { escapeHtml };
+export { escapeHtml, hqMetricsTableHtml };

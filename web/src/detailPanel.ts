@@ -1,7 +1,7 @@
 /** Panneau latéral de détail (graphiques hydro / tableaux règlements). */
 
 import type { IdentifyHit } from "./identify";
-import { titleFor, zoneLabelFromProps } from "./identify";
+import { hqMetricsTableHtml, titleFor, zoneLabelFromProps } from "./identify";
 import { uninvertName } from "./names";
 import { timelineHtml, escapeHtml, type TimelinePayload } from "./regs";
 import {
@@ -127,21 +127,24 @@ export class DetailPanel {
     const live = (await resp.json()) as HydroResult & Record<string, unknown>;
     body.innerHTML = "";
     const meta = document.createElement("div");
-    meta.innerHTML = dl([
-      [m.station, sid],
-      [m.waterbody, uninvertName(str(live.plan_eau || hit.props.plan_eau))],
-      [m.state, str(live.etat)],
-      [m.level, live.niveau_m != null ? `${live.niveau_m} m` : ""],
-      [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : ""],
-      [m.observed, str(live.observed_at)],
-    ]);
+    meta.innerHTML =
+      dl([
+        [m.station, sid],
+        [m.waterbody, uninvertName(str(live.plan_eau || hit.props.plan_eau))],
+        [m.dataSource, str(live.source)],
+        [m.state, str(live.etat)],
+        [m.level, live.niveau_m != null ? `${live.niveau_m} m` : ""],
+        [m.flow, live.debit_m3s != null ? `${live.debit_m3s} m³/s` : ""],
+        [m.observed, str(live.observed_at)],
+        [m.hqRegion, str(live.hq_region)],
+      ]) + hqMetricsTableHtml(live.hq_metrics);
     body.appendChild(meta);
     const charts = document.createElement("div");
     charts.className = "detail-charts";
     body.appendChild(charts);
     if (live.history) {
       renderStationHydroCharts(charts, live);
-    } else {
+    } else if (!live.hq_metrics) {
       charts.innerHTML = `<p class="muted">${escapeHtml(m.noHistory)}</p>`;
     }
   }
