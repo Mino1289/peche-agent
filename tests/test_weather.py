@@ -45,6 +45,33 @@ def test_citypage_geojson_in_bbox(monkeypatch, fixtures_dir):
     assert float(props["temperature_c"]) == 18.5
 
 
+def test_citypage_geojson_drops_outside_quebec(monkeypatch, fixtures_dir):
+    qc = json.loads((fixtures_dir / "geom_et_feature.json").read_text(encoding="utf-8"))
+    ontario = {
+        **qc,
+        "geometry": {"type": "Point", "coordinates": [-79.4, 43.7]},
+        "properties": {
+            **qc["properties"],
+            "identifier": "on-100",
+            "name": {"en": "Toronto", "fr": "Toronto"},
+        },
+    }
+    payload = {"type": "FeatureCollection", "features": [qc, ontario]}
+
+    def fake_fetch(url, **kwargs):
+        return json.dumps(payload)
+
+    monkeypatch.setattr(weather, "fetch_text", fake_fetch)
+    out = weather.citypage_geojson_in_bbox((-80, 43, -69, 49), limit=10)
+    assert len(out["features"]) == 1
+    assert out["features"][0]["properties"]["ville"] == "Chicoutimi"
+
+
+def test_citypage_geojson_bbox_outside_quebec():
+    out = weather.citypage_geojson_in_bbox((-100, 40, -90, 45), limit=10)
+    assert out["features"] == []
+
+
 def test_get_weather_cache_hit(monkeypatch, fixtures_dir):
     feature = json.loads(
         (fixtures_dir / "geom_et_feature.json").read_text(encoding="utf-8")

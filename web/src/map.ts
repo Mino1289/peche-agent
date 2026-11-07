@@ -15,13 +15,8 @@ import {
 } from "./filters";
 import { registerProjections } from "./projections";
 import { loadStoredCustomLayers } from "./customLayers";
-import {
-  featurePinKey,
-  IDENTIFY_LAYERS,
-  IdentifyOverlay,
-  pinMatchesFeature,
-  type IdentifyHit,
-} from "./identify";
+import { IdentifyOverlay, pinMatchesFeature } from "./identify";
+import { featurePinKey, isIdentifiable, type IdentifyHit } from "./featureKinds";
 import VectorLayer from "ol/layer/Vector";
 import type BaseLayer from "ol/layer/Base";
 import type Layer from "ol/layer/Layer";
@@ -40,8 +35,6 @@ import { Circle as CircleStyle, Fill, Stroke, Style, Text } from "ol/style";
 const QC_CENTER: [number, number] = [-73.0, 47.5];
 const MAX_PINS = 20;
 const PINS_LAYER_ID = "__pins";
-const IDENTIFY_HIT = new Set([...IDENTIFY_LAYERS]);
-
 function pinStyleFor(n: number): Style {
   // Même rayon que les points des couches (cachedPointStyle) pour éviter le « saut » visuel au toggle
   return new Style({
@@ -63,6 +56,7 @@ function pinStyleFor(n: number): Style {
 const POINT_LOCAL_LAYERS = new Set([
   "vigilance_stations",
   "marees_shc",
+  "meteo_eccc",
   "barrages_cehq",
 ]);
 
@@ -234,7 +228,7 @@ export class MapController {
           found.pin = this.pins.find((p) => p.id === id) || null;
           return true;
         }
-        if (lid && IDENTIFY_HIT.has(lid) && layer?.getVisible()) {
+        if (lid && isIdentifiable(lid) && layer?.getVisible()) {
           const props = { ...(feature.getProperties() as Record<string, unknown>) };
           delete props.geometry;
           found.feat = { layerId: lid, props };
@@ -246,7 +240,7 @@ export class MapController {
         hitTolerance: 10,
         layerFilter: (layer) => {
           const lid = layer.get("id") as string | undefined;
-          return lid === PINS_LAYER_ID || (Boolean(lid) && IDENTIFY_HIT.has(lid!));
+          return lid === PINS_LAYER_ID || (Boolean(lid) && isIdentifiable(lid!));
         },
       },
     );

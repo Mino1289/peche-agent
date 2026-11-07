@@ -153,12 +153,6 @@ def _features_local(
     limit: int,
 ) -> dict:
     """Filtre JSON local (stations, barrages, marées, locations)."""
-    if layer_id == "meteo_eccc":
-        if not bbox:
-            return {"type": "FeatureCollection", "features": []}
-        from peche.weather import citypage_geojson_in_bbox
-
-        return citypage_geojson_in_bbox(bbox, limit=limit)
     if layer_id in {"plans_regpec"}:
         from peche.spatial.plan_geom import plans_geojson
 
@@ -183,7 +177,13 @@ def _features_local(
     if isinstance(raw, list):
         items = raw
     elif isinstance(raw, dict):
-        items = raw.get("stations") or raw.get("barrages") or raw.get("features") or []
+        items = (
+            raw.get("stations")
+            or raw.get("cities")
+            or raw.get("barrages")
+            or raw.get("features")
+            or []
+        )
         if items and isinstance(items[0], dict) and "geometry" in items[0]:
             return {"type": "FeatureCollection", "features": items[:limit]}
     else:
@@ -375,7 +375,12 @@ def get_features(
             ):
                 bbox_t = None
             # Couches ponctuelles locales : tout charger d'un coup (pas de bbox).
-            if layer in {"vigilance_stations", "marees_shc", "barrages_cehq"} and bbox_t is None:
+            if layer in {
+                "vigilance_stations",
+                "marees_shc",
+                "meteo_eccc",
+                "barrages_cehq",
+            } and bbox_t is None:
                 limit = 10000
             data = _features_local(layer, layer_def.url, filters, bbox_t, limit)
         else:

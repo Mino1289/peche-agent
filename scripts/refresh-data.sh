@@ -21,6 +21,9 @@ echo "==> Matching plans ↔ stations…"
 echo "==> Sync stations marées (SHC / IWLS)…"
 "$PYTHON" -m peche.tides sync
 
+echo "==> Sync villes météo GeoMet (qc-*)…"
+"$PYTHON" -m peche.weather sync || echo "    (météo ignorée si réseau indisponible)"
+
 echo "==> Sync répertoire barrages CEHQ…"
 "$PYTHON" -m peche.barrages sync
 

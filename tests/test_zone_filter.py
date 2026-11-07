@@ -108,6 +108,13 @@ def test_features_local_zoom_is_not_an_item_filter():
         None,
         500,
     )
+    meteo = feat_mod._features_local(
+        "meteo_eccc",
+        "data/weather/cities.json",
+        {"zoom": 6},
+        None,
+        500,
+    )
     dams = feat_mod._features_local(
         "barrages_cehq",
         "data/barrages/barrages.json",
@@ -119,6 +126,11 @@ def test_features_local_zoom_is_not_an_item_filter():
     assert hydro["features"][0]["geometry"]["type"] == "Point"
     assert len(tides["features"]) > 0
     assert tides["features"][0]["geometry"]["type"] == "Point"
+    assert len(meteo["features"]) > 0
+    assert all(
+        str(f["properties"].get("identifier", "")).lower().startswith("qc-")
+        for f in meteo["features"]
+    )
     assert len(dams["features"]) == 200
     assert dams["features"][0]["geometry"]["type"] == "LineString"
 

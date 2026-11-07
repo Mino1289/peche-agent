@@ -76,7 +76,9 @@ python3 -m peche.reglements sync         # refresh RegPec zones (optional)
 
 ```bash
 .venv/bin/python -m pytest tests/ -v
-cd web && npm run build
+cd web && npm test && npm run build
 ```
+
+Adding an identifiable map layer = one feature kind in `web/src/featureKinds/` (see [GLOSSARY.md](GLOSSARY.md)).
 
 Key suites: `tests/test_catalog.py`, `tests/test_guide_poisson.py`, `tests/test_map_state.py`, `tests/test_mcp.py`.

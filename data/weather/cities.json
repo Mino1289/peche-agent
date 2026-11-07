@@ -1,0 +1,1058 @@
+{
+  "fetched_at": "2026-11-07T02:34:31Z",
+  "source": "https://api.weather.gc.ca/collections/citypageweather-realtime/items",
+  "filter": "qc-",
+  "nb_cities": 175,
+  "cities": [
+    {
+      "identifier": "qc-36",
+      "ville": "Akulivik",
+      "lat": 60.81,
+      "lon": -78.19
+    },
+    {
+      "identifier": "qc-144",
+      "ville": "Alma",
+      "lat": 48.55,
+      "lon": -71.65
+    },
+    {
+      "identifier": "qc-168",
+      "ville": "Amos",
+      "lat": 48.47,
+      "lon": -78.14
+    },
+    {
+      "identifier": "qc-146",
+      "ville": "Amqui",
+      "lat": 48.46,
+      "lon": -67.43
+    },
+    {
+      "identifier": "qc-117",
+      "ville": "Aupaluk",
+      "lat": 59.3,
+      "lon": -69.6
+    },
+    {
+      "identifier": "qc-161",
+      "ville": "Bagotville",
+      "lat": 48.33,
+      "lon": -70.89
+    },
+    {
+      "identifier": "qc-160",
+      "ville": "Baie-Comeau",
+      "lat": 49.22,
+      "lon": -68.15
+    },
+    {
+      "identifier": "qc-69",
+      "ville": "Baie-James",
+      "lat": 53.8,
+      "lon": -77.61
+    },
+    {
+      "identifier": "qc-165",
+      "ville": "Baie-Saint-Paul",
+      "lat": 47.44,
+      "lon": -70.51
+    },
+    {
+      "identifier": "qc-48",
+      "ville": "Beauceville",
+      "lat": 46.21,
+      "lon": -70.78
+    },
+    {
+      "identifier": "qc-49",
+      "ville": "Beauharnois",
+      "lat": 45.31,
+      "lon": -73.88
+    },
+    {
+      "identifier": "qc-51",
+      "ville": "Bernières",
+      "lat": 46.69,
+      "lon": -71.36
+    },
+    {
+      "identifier": "qc-25",
+      "ville": "Berthierville",
+      "lat": 46.08,
+      "lon": -73.18
+    },
+    {
+      "identifier": "qc-50",
+      "ville": "Bécancour",
+      "lat": 46.35,
+      "lon": -72.43
+    },
+    {
+      "identifier": "qc-52",
+      "ville": "Blainville",
+      "lat": 45.68,
+      "lon": -73.87
+    },
+    {
+      "identifier": "qc-163",
+      "ville": "Blanc-Sablon",
+      "lat": 51.43,
+      "lon": -57.13
+    },
+    {
+      "identifier": "qc-53",
+      "ville": "Boisbriand",
+      "lat": 45.61,
+      "lon": -73.84
+    },
+    {
+      "identifier": "qc-54",
+      "ville": "Bonaventure",
+      "lat": 48.05,
+      "lon": -65.49
+    },
+    {
+      "identifier": "qc-55",
+      "ville": "Candiac",
+      "lat": 45.39,
+      "lon": -73.52
+    },
+    {
+      "identifier": "qc-120",
+      "ville": "Cap Chat",
+      "lat": 49.16,
+      "lon": -66.38
+    },
+    {
+      "identifier": "qc-56",
+      "ville": "Carignan",
+      "lat": 45.36,
+      "lon": -73.48
+    },
+    {
+      "identifier": "qc-57",
+      "ville": "Carleton-sur-Mer",
+      "lat": 48.1,
+      "lon": -66.12
+    },
+    {
+      "identifier": "qc-58",
+      "ville": "Chambly",
+      "lat": 45.45,
+      "lon": -73.29
+    },
+    {
+      "identifier": "qc-d4",
+      "ville": "Chandler",
+      "lat": 48.35,
+      "lon": -64.68
+    },
+    {
+      "identifier": "qc-119",
+      "ville": "Charlevoix",
+      "lat": 47.43,
+      "lon": -70.47
+    },
+    {
+      "identifier": "qc-59",
+      "ville": "Chelsea",
+      "lat": 45.5,
+      "lon": -75.8
+    },
+    {
+      "identifier": "qc-152",
+      "ville": "Chevery",
+      "lat": 50.47,
+      "lon": -59.61
+    },
+    {
+      "identifier": "qc-121",
+      "ville": "Chibougamau",
+      "lat": 49.91,
+      "lon": -74.37
+    },
+    {
+      "identifier": "qc-60",
+      "ville": "Coaticook",
+      "lat": 45.13,
+      "lon": -71.8
+    },
+    {
+      "identifier": "qc-46",
+      "ville": "Contrecoeur",
+      "lat": 45.86,
+      "lon": -73.24
+    },
+    {
+      "identifier": "qc-61",
+      "ville": "Cowansville",
+      "lat": 45.2,
+      "lon": -72.74
+    },
+    {
+      "identifier": "qc-62",
+      "ville": "Delson",
+      "lat": 45.38,
+      "lon": -73.54
+    },
+    {
+      "identifier": "qc-63",
+      "ville": "Deux-Montagnes",
+      "lat": 45.54,
+      "lon": -73.9
+    },
+    {
+      "identifier": "qc-64",
+      "ville": "Dolbeau-Mistassini",
+      "lat": 48.88,
+      "lon": -72.23
+    },
+    {
+      "identifier": "qc-65",
+      "ville": "Donnacona",
+      "lat": 46.67,
+      "lon": -71.74
+    },
+    {
+      "identifier": "qc-2",
+      "ville": "Drummondville",
+      "lat": 45.88,
+      "lon": -72.48
+    },
+    {
+      "identifier": "qc-26",
+      "ville": "Escoumins",
+      "lat": 48.35,
+      "lon": -69.41
+    },
+    {
+      "identifier": "qc-140",
+      "ville": "Farnham",
+      "lat": 45.28,
+      "lon": -72.98
+    },
+    {
+      "identifier": "qc-29",
+      "ville": "Fermont",
+      "lat": 52.8,
+      "lon": -67.09
+    },
+    {
+      "identifier": "qc-27",
+      "ville": "Forestville",
+      "lat": 48.74,
+      "lon": -69.08
+    },
+    {
+      "identifier": "qc-67",
+      "ville": "Forillon",
+      "lat": 48.83,
+      "lon": -64.57
+    },
+    {
+      "identifier": "qc-95",
+      "ville": "Forillon ( Parc national)",
+      "lat": 48.9,
+      "lon": -64.35
+    },
+    {
+      "identifier": "qc-101",
+      "ville": "Gaspé",
+      "lat": 48.83,
+      "lon": -64.57
+    },
+    {
+      "identifier": "qc-94",
+      "ville": "Gaspésie (Parc national)",
+      "lat": 48.93,
+      "lon": -66.28
+    },
+    {
+      "identifier": "qc-126",
+      "ville": "Gatineau",
+      "lat": 45.49,
+      "lon": -75.66
+    },
+    {
+      "identifier": "qc-a1",
+      "ville": "Gouin (Réservoir)",
+      "lat": 48.46,
+      "lon": -73.68
+    },
+    {
+      "identifier": "qc-5",
+      "ville": "Granby",
+      "lat": 45.4,
+      "lon": -72.72
+    },
+    {
+      "identifier": "qc-169",
+      "ville": "Grande-Vallée",
+      "lat": 49.25,
+      "lon": -65.57
+    },
+    {
+      "identifier": "qc-104",
+      "ville": "Havre St-Pierre",
+      "lat": 50.25,
+      "lon": -63.6
+    },
+    {
+      "identifier": "qc-68",
+      "ville": "Huntingdon",
+      "lat": 45.09,
+      "lon": -74.18
+    },
+    {
+      "identifier": "qc-131",
+      "ville": "Inukjuak",
+      "lat": 58.45,
+      "lon": -78.11
+    },
+    {
+      "identifier": "qc-112",
+      "ville": "Ivujivik",
+      "lat": 62.42,
+      "lon": -77.92
+    },
+    {
+      "identifier": "qc-103",
+      "ville": "Îles-de-la-Madeleine",
+      "lat": 47.62,
+      "lon": -61.52
+    },
+    {
+      "identifier": "qc-137",
+      "ville": "Joliette",
+      "lat": 46.02,
+      "lon": -73.44
+    },
+    {
+      "identifier": "qc-70",
+      "ville": "Kamouraska",
+      "lat": 47.57,
+      "lon": -69.87
+    },
+    {
+      "identifier": "qc-118",
+      "ville": "Kangiqsualujjuaq",
+      "lat": 58.7,
+      "lon": -65.96
+    },
+    {
+      "identifier": "qc-155",
+      "ville": "Kangiqsujuaq",
+      "lat": 61.6,
+      "lon": -71.95
+    },
+    {
+      "identifier": "qc-159",
+      "ville": "Kangirsuk",
+      "lat": 60.02,
+      "lon": -70.03
+    },
+    {
+      "identifier": "qc-150",
+      "ville": "Kuujjuaq",
+      "lat": 58.11,
+      "lon": -68.4
+    },
+    {
+      "identifier": "qc-105",
+      "ville": "Kuujjuarapik",
+      "lat": 55.3,
+      "lon": -77.74
+    },
+    {
+      "identifier": "qc-156",
+      "ville": "L'Assomption",
+      "lat": 45.81,
+      "lon": -73.43
+    },
+    {
+      "identifier": "qc-77",
+      "ville": "L'Islet",
+      "lat": 47.1,
+      "lon": -70.35
+    },
+    {
+      "identifier": "qc-158",
+      "ville": "La Grande Rivière",
+      "lat": 53.8,
+      "lon": -77.61
+    },
+    {
+      "identifier": "qc-100",
+      "ville": "La Grande-Quatre",
+      "lat": 53.86,
+      "lon": -73.49
+    },
+    {
+      "identifier": "qc-11",
+      "ville": "La Malbaie",
+      "lat": 47.65,
+      "lon": -70.15
+    },
+    {
+      "identifier": "qc-71",
+      "ville": "La Prairie",
+      "lat": 45.41,
+      "lon": -73.57
+    },
+    {
+      "identifier": "qc-45",
+      "ville": "La Sarre",
+      "lat": 48.81,
+      "lon": -79.2
+    },
+    {
+      "identifier": "qc-154",
+      "ville": "La Tuque",
+      "lat": 47.44,
+      "lon": -72.78
+    },
+    {
+      "identifier": "qc-30",
+      "ville": "La Vérendrye (Réserve faunique)",
+      "lat": 47.33,
+      "lon": -77.0
+    },
+    {
+      "identifier": "qc-99",
+      "ville": "Lac Raglan",
+      "lat": 61.3,
+      "lon": -73.67
+    },
+    {
+      "identifier": "qc-72",
+      "ville": "Lac-Mégantic",
+      "lat": 45.57,
+      "lon": -70.88
+    },
+    {
+      "identifier": "qc-73",
+      "ville": "Lac-Saint-Jean",
+      "lat": 48.63,
+      "lon": -72.32
+    },
+    {
+      "identifier": "qc-14",
+      "ville": "Lachute",
+      "lat": 45.66,
+      "lon": -74.34
+    },
+    {
+      "identifier": "qc-74",
+      "ville": "Lanaudière",
+      "lat": 46.44,
+      "lon": -73.17
+    },
+    {
+      "identifier": "qc-113",
+      "ville": "Laurentides (Réserve faunique)",
+      "lat": 47.75,
+      "lon": -71.25
+    },
+    {
+      "identifier": "qc-76",
+      "ville": "Laval",
+      "lat": 45.6,
+      "lon": -73.67
+    },
+    {
+      "identifier": "qc-d3",
+      "ville": "Le Gardeur",
+      "lat": 45.7,
+      "lon": -73.58
+    },
+    {
+      "identifier": "qc-78",
+      "ville": "Lévis",
+      "lat": 46.76,
+      "lon": -71.24
+    },
+    {
+      "identifier": "qc-109",
+      "ville": "Longueuil",
+      "lat": 45.51,
+      "lon": -73.43
+    },
+    {
+      "identifier": "qc-81",
+      "ville": "Lorraine",
+      "lat": 45.67,
+      "lon": -73.79
+    },
+    {
+      "identifier": "qc-d2",
+      "ville": "Louiseville",
+      "lat": 46.26,
+      "lon": -72.94
+    },
+    {
+      "identifier": "qc-83",
+      "ville": "Magog",
+      "lat": 45.26,
+      "lon": -72.15
+    },
+    {
+      "identifier": "qc-153",
+      "ville": "Manicouagan",
+      "lat": 50.64,
+      "lon": -68.73
+    },
+    {
+      "identifier": "qc-102",
+      "ville": "Maniwaki",
+      "lat": 46.37,
+      "lon": -75.98
+    },
+    {
+      "identifier": "qc-84",
+      "ville": "Marieville",
+      "lat": 45.43,
+      "lon": -73.16
+    },
+    {
+      "identifier": "qc-85",
+      "ville": "Mascouche",
+      "lat": 45.75,
+      "lon": -73.6
+    },
+    {
+      "identifier": "qc-129",
+      "ville": "Matagami",
+      "lat": 49.76,
+      "lon": -77.62
+    },
+    {
+      "identifier": "qc-15",
+      "ville": "Matane",
+      "lat": 48.84,
+      "lon": -67.53
+    },
+    {
+      "identifier": "qc-151",
+      "ville": "Matapédia",
+      "lat": 47.98,
+      "lon": -66.96
+    },
+    {
+      "identifier": "qc-89",
+      "ville": "Mauricie",
+      "lat": 47.08,
+      "lon": -72.91
+    },
+    {
+      "identifier": "qc-90",
+      "ville": "Mingan",
+      "lat": 50.29,
+      "lon": -64.04
+    },
+    {
+      "identifier": "qc-123",
+      "ville": "Mirabel",
+      "lat": 45.65,
+      "lon": -74.08
+    },
+    {
+      "identifier": "qc-127",
+      "ville": "Mont-Joli",
+      "lat": 48.59,
+      "lon": -68.19
+    },
+    {
+      "identifier": "qc-47",
+      "ville": "Mont-Laurier",
+      "lat": 46.55,
+      "lon": -75.5
+    },
+    {
+      "identifier": "qc-92",
+      "ville": "Mont-Saint-Hilaire",
+      "lat": 45.55,
+      "lon": -73.32
+    },
+    {
+      "identifier": "qc-167",
+      "ville": "Mont-Tremblant",
+      "lat": 46.12,
+      "lon": -74.6
+    },
+    {
+      "identifier": "qc-124",
+      "ville": "Montmagny",
+      "lat": 46.98,
+      "lon": -70.56
+    },
+    {
+      "identifier": "qc-147",
+      "ville": "Montréal",
+      "lat": 45.51,
+      "lon": -73.55
+    },
+    {
+      "identifier": "qc-16",
+      "ville": "Murdochville",
+      "lat": 48.96,
+      "lon": -65.5
+    },
+    {
+      "identifier": "qc-125",
+      "ville": "Natashquan",
+      "lat": 50.19,
+      "lon": -61.82
+    },
+    {
+      "identifier": "qc-111",
+      "ville": "New Carlisle",
+      "lat": 48.01,
+      "lon": -65.33
+    },
+    {
+      "identifier": "qc-110",
+      "ville": "Nicolet",
+      "lat": 46.23,
+      "lon": -72.62
+    },
+    {
+      "identifier": "qc-93",
+      "ville": "Otterburn Park",
+      "lat": 45.54,
+      "lon": -73.22
+    },
+    {
+      "identifier": "qc-17",
+      "ville": "Papineau",
+      "lat": 45.7,
+      "lon": -74.98
+    },
+    {
+      "identifier": "qc-114",
+      "ville": "Parent",
+      "lat": 47.92,
+      "lon": -74.62
+    },
+    {
+      "identifier": "qc-18",
+      "ville": "Percé",
+      "lat": 48.5,
+      "lon": -64.16
+    },
+    {
+      "identifier": "qc-96",
+      "ville": "Pincourt",
+      "lat": 45.42,
+      "lon": -74.04
+    },
+    {
+      "identifier": "qc-20",
+      "ville": "Pointe-à-la-Croix",
+      "lat": 48.1,
+      "lon": -66.12
+    },
+    {
+      "identifier": "qc-19",
+      "ville": "Pontiac",
+      "lat": 45.91,
+      "lon": -77.07
+    },
+    {
+      "identifier": "qc-97",
+      "ville": "Port-Cartier",
+      "lat": 50.02,
+      "lon": -66.88
+    },
+    {
+      "identifier": "qc-142",
+      "ville": "Port-Menier",
+      "lat": 49.82,
+      "lon": -64.35
+    },
+    {
+      "identifier": "qc-98",
+      "ville": "Prévost",
+      "lat": 46.01,
+      "lon": -73.92
+    },
+    {
+      "identifier": "qc-40",
+      "ville": "Puvirnituq",
+      "lat": 60.04,
+      "lon": -77.27
+    },
+    {
+      "identifier": "qc-106",
+      "ville": "Quaqtaq",
+      "lat": 61.05,
+      "lon": -69.63
+    },
+    {
+      "identifier": "qc-133",
+      "ville": "Québec",
+      "lat": 46.81,
+      "lon": -71.21
+    },
+    {
+      "identifier": "qc-a0",
+      "ville": "Repentigny",
+      "lat": 45.74,
+      "lon": -73.45
+    },
+    {
+      "identifier": "qc-21",
+      "ville": "Richelieu",
+      "lat": 45.44,
+      "lon": -73.25
+    },
+    {
+      "identifier": "qc-a2",
+      "ville": "Rigaud",
+      "lat": 45.48,
+      "lon": -74.3
+    },
+    {
+      "identifier": "qc-138",
+      "ville": "Rimouski",
+      "lat": 48.45,
+      "lon": -68.53
+    },
+    {
+      "identifier": "qc-108",
+      "ville": "Rivière-du-Loup",
+      "lat": 47.84,
+      "lon": -69.54
+    },
+    {
+      "identifier": "qc-134",
+      "ville": "Roberval",
+      "lat": 48.52,
+      "lon": -72.22
+    },
+    {
+      "identifier": "qc-a3",
+      "ville": "Rosemère",
+      "lat": 45.58,
+      "lon": -73.93
+    },
+    {
+      "identifier": "qc-148",
+      "ville": "Rouyn-Noranda",
+      "lat": 48.24,
+      "lon": -79.02
+    },
+    {
+      "identifier": "qc-166",
+      "ville": "Saguenay",
+      "lat": 48.43,
+      "lon": -71.06
+    },
+    {
+      "identifier": "qc-a5",
+      "ville": "Saint-Amable",
+      "lat": 45.65,
+      "lon": -73.3
+    },
+    {
+      "identifier": "qc-a6",
+      "ville": "Saint-Basile Le Grand",
+      "lat": 45.55,
+      "lon": -73.32
+    },
+    {
+      "identifier": "qc-a7",
+      "ville": "Saint-Constant",
+      "lat": 45.37,
+      "lon": -73.57
+    },
+    {
+      "identifier": "qc-b4",
+      "ville": "Saint-Eustache",
+      "lat": 45.56,
+      "lon": -73.89
+    },
+    {
+      "identifier": "qc-b5",
+      "ville": "Saint-Félicien",
+      "lat": 48.63,
+      "lon": -72.32
+    },
+    {
+      "identifier": "qc-b6",
+      "ville": "Saint-Georges",
+      "lat": 46.13,
+      "lon": -70.36
+    },
+    {
+      "identifier": "qc-22",
+      "ville": "Saint-Hyacinthe",
+      "lat": 45.63,
+      "lon": -72.95
+    },
+    {
+      "identifier": "qc-28",
+      "ville": "Saint-Jean-sur-Richelieu",
+      "lat": 45.31,
+      "lon": -73.25
+    },
+    {
+      "identifier": "qc-13",
+      "ville": "Saint-Jérôme",
+      "lat": 45.82,
+      "lon": -73.96
+    },
+    {
+      "identifier": "qc-b7",
+      "ville": "Saint-Lazare",
+      "lat": 45.4,
+      "lon": -74.14
+    },
+    {
+      "identifier": "qc-b8",
+      "ville": "Saint-Lin-Laurentides",
+      "lat": 46.0,
+      "lon": -73.73
+    },
+    {
+      "identifier": "qc-b9",
+      "ville": "Saint-Luc",
+      "lat": 45.34,
+      "lon": -73.51
+    },
+    {
+      "identifier": "qc-c0",
+      "ville": "Saint-Michel-des-Saints",
+      "lat": 46.68,
+      "lon": -73.92
+    },
+    {
+      "identifier": "qc-c1",
+      "ville": "Saint-Nicéphore",
+      "lat": 45.92,
+      "lon": -72.74
+    },
+    {
+      "identifier": "qc-c2",
+      "ville": "Saint-Rémi",
+      "lat": 45.25,
+      "lon": -73.8
+    },
+    {
+      "identifier": "qc-c3",
+      "ville": "Saint-Sauveur",
+      "lat": 46.01,
+      "lon": -73.92
+    },
+    {
+      "identifier": "qc-c4",
+      "ville": "Saint-Timothée",
+      "lat": 45.18,
+      "lon": -74.24
+    },
+    {
+      "identifier": "qc-33",
+      "ville": "Sainte-Agathe",
+      "lat": 45.88,
+      "lon": -74.57
+    },
+    {
+      "identifier": "qc-a8",
+      "ville": "Sainte-Anne-Des-Monts",
+      "lat": 49.13,
+      "lon": -66.49
+    },
+    {
+      "identifier": "qc-a9",
+      "ville": "Sainte-Anne-Des-Plaines",
+      "lat": 45.76,
+      "lon": -73.82
+    },
+    {
+      "identifier": "qc-b0",
+      "ville": "Sainte-Catherine",
+      "lat": 45.41,
+      "lon": -73.57
+    },
+    {
+      "identifier": "qc-b1",
+      "ville": "Sainte-Julie",
+      "lat": 45.59,
+      "lon": -73.33
+    },
+    {
+      "identifier": "qc-b2",
+      "ville": "Sainte-Sophie",
+      "lat": 45.82,
+      "lon": -73.96
+    },
+    {
+      "identifier": "qc-b3",
+      "ville": "Sainte-Thérèse",
+      "lat": 45.58,
+      "lon": -73.93
+    },
+    {
+      "identifier": "qc-143",
+      "ville": "Salaberry-de-Valleyfield",
+      "lat": 45.26,
+      "lon": -74.13
+    },
+    {
+      "identifier": "qc-128",
+      "ville": "Salluit",
+      "lat": 62.21,
+      "lon": -75.65
+    },
+    {
+      "identifier": "qc-115",
+      "ville": "Schefferville",
+      "lat": 54.8,
+      "lon": -66.82
+    },
+    {
+      "identifier": "qc-141",
+      "ville": "Sept-Îles",
+      "lat": 50.21,
+      "lon": -66.39
+    },
+    {
+      "identifier": "qc-132",
+      "ville": "Shawinigan",
+      "lat": 46.54,
+      "lon": -72.75
+    },
+    {
+      "identifier": "qc-136",
+      "ville": "Sherbrooke",
+      "lat": 45.4,
+      "lon": -71.89
+    },
+    {
+      "identifier": "qc-c6",
+      "ville": "Sorel-Tracy",
+      "lat": 46.04,
+      "lon": -73.11
+    },
+    {
+      "identifier": "qc-135",
+      "ville": "Sutton",
+      "lat": 45.11,
+      "lon": -72.62
+    },
+    {
+      "identifier": "qc-107",
+      "ville": "Tadoussac",
+      "lat": 48.15,
+      "lon": -69.72
+    },
+    {
+      "identifier": "qc-145",
+      "ville": "Tasiujaq",
+      "lat": 58.69,
+      "lon": -69.94
+    },
+    {
+      "identifier": "qc-c7",
+      "ville": "Terrebonne",
+      "lat": 45.7,
+      "lon": -73.63
+    },
+    {
+      "identifier": "qc-139",
+      "ville": "Témiscamingue",
+      "lat": 47.39,
+      "lon": -78.7
+    },
+    {
+      "identifier": "qc-35",
+      "ville": "Témiscouata",
+      "lat": 47.67,
+      "lon": -68.98
+    },
+    {
+      "identifier": "qc-c8",
+      "ville": "Thetford Mines",
+      "lat": 46.09,
+      "lon": -71.3
+    },
+    {
+      "identifier": "qc-c9",
+      "ville": "Tracy",
+      "lat": 46.03,
+      "lon": -73.14
+    },
+    {
+      "identifier": "qc-24",
+      "ville": "Trois-Pistoles",
+      "lat": 48.13,
+      "lon": -69.18
+    },
+    {
+      "identifier": "qc-130",
+      "ville": "Trois-Rivières",
+      "lat": 46.34,
+      "lon": -72.54
+    },
+    {
+      "identifier": "qc-122",
+      "ville": "Umiujaq",
+      "lat": 56.55,
+      "lon": -76.55
+    },
+    {
+      "identifier": "qc-149",
+      "ville": "Val-d'Or",
+      "lat": 48.1,
+      "lon": -77.79
+    },
+    {
+      "identifier": "qc-42",
+      "ville": "Val-des-Monts",
+      "lat": 45.66,
+      "lon": -75.64
+    },
+    {
+      "identifier": "qc-38",
+      "ville": "Val-des-Sources",
+      "lat": 45.6,
+      "lon": -71.96
+    },
+    {
+      "identifier": "qc-d0",
+      "ville": "Vallée de la Matapédia",
+      "lat": 47.98,
+      "lon": -66.96
+    },
+    {
+      "identifier": "qc-41",
+      "ville": "Vanier",
+      "lat": 46.82,
+      "lon": -71.27
+    },
+    {
+      "identifier": "qc-162",
+      "ville": "Varennes",
+      "lat": 45.68,
+      "lon": -73.43
+    },
+    {
+      "identifier": "qc-66",
+      "ville": "Vaudreuil-Dorion",
+      "lat": 45.4,
+      "lon": -74.04
+    },
+    {
+      "identifier": "qc-157",
+      "ville": "Victoriaville",
+      "lat": 46.06,
+      "lon": -71.96
+    },
+    {
+      "identifier": "qc-116",
+      "ville": "Waskaganish",
+      "lat": 51.47,
+      "lon": -78.76
+    }
+  ]
+}

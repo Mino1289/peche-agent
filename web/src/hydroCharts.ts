@@ -811,7 +811,7 @@ function makeTidePlot(
     width,
     height: 200,
     title,
-    class: "hydro-uplot hydro-uplot-tide",
+    class: "hydro-uplot-tide",
     scales: {
       x: { time: true },
     },

@@ -5,6 +5,7 @@
     "coordinates": [-71.0684924, 48.4280547]
   },
   "properties": {
+    "identifier": "qc-166",
     "name": {"en": "Chicoutimi", "fr": "Chicoutimi"},
     "currentConditions": {
       "timestamp": {"en": "2026-06-11T12:00:00Z", "fr": "2026-06-11T08:00:00"},

@@ -4,6 +4,10 @@ L'API renvoie un GeoJSON avec, pour chaque ville, un payload riche où chaque
 champ est enveloppé dans `{ "value": { "en": ..., "fr": ... } }`. On extrait
 le strict nécessaire en français pour l'agent et on garde un cache mémoire
 court (15 min) keyé par `(lat,lon)` arrondi à 0.05° (~5 km).
+
+CLI :
+  python3 -m peche.weather sync   # cache data/weather/cities.json (identifiants qc-*)
+  python3 -m peche.weather get LAT LON
 """
 
 from __future__ import annotations
@@ -12,15 +16,24 @@ import argparse
 import json
 import sys
 import time
+import unicodedata
+from pathlib import Path
 from typing import Any
 
 from peche.fetch import fetch_text
 from peche.hydromet import haversine_km
+from peche.reglements.sync import DATA_DIR
 
 GEOMET_URL = "https://api.weather.gc.ca/collections/citypageweather-realtime/items"
 DEFAULT_BBOX_HALF = 0.3
 DEFAULT_TTL_SECONDS = 15 * 60
 DEFAULT_TIMEOUT = 30.0
+# Emprise pour le sync GeoMet (toutes les villes `qc-*` tombent dedans).
+QUEBEC_BBOX: tuple[float, float, float, float] = (-79.85, 44.90, -57.05, 62.65)
+QUEBEC_CITYPAGE_PREFIX = "qc-"
+
+WEATHER_DIR = DATA_DIR / "weather"
+CITIES_PATH = WEATHER_DIR / "cities.json"
 
 _CACHE: dict[tuple[float, float], tuple[float, dict]] = {}
 
@@ -47,8 +60,43 @@ def _value(node: Any) -> Any:
     return node
 
 
+def _intersect_bbox(
+    a: tuple[float, float, float, float],
+    b: tuple[float, float, float, float],
+) -> tuple[float, float, float, float] | None:
+    lon_min = max(a[0], b[0])
+    lat_min = max(a[1], b[1])
+    lon_max = min(a[2], b[2])
+    lat_max = min(a[3], b[3])
+    if lon_min >= lon_max or lat_min >= lat_max:
+        return None
+    return (lon_min, lat_min, lon_max, lat_max)
+
+
+def _citypage_identifier(feature: dict) -> str:
+    return str((feature.get("properties") or {}).get("identifier") or "").strip()
+
+
+def _is_quebec_citypage(feature: dict) -> bool:
+    return _citypage_identifier(feature).lower().startswith(QUEBEC_CITYPAGE_PREFIX)
+
+
+def _feature_lon_lat(feature: dict) -> tuple[float, float] | None:
+    geom = feature.get("geometry") or {}
+    if geom.get("type") != "Point":
+        return None
+    coords = geom.get("coordinates") or []
+    if len(coords) < 2:
+        return None
+    return float(coords[0]), float(coords[1])
+
+
 def _build_url(lat: float, lon: float, half: float = DEFAULT_BBOX_HALF) -> str:
-    bbox = f"{lon - half},{lat - half},{lon + half},{lat + half}"
+    raw = (lon - half, lat - half, lon + half, lat + half)
+    clipped = _intersect_bbox(raw, QUEBEC_BBOX)
+    if clipped is None:
+        clipped = QUEBEC_BBOX
+    bbox = f"{clipped[0]},{clipped[1]},{clipped[2]},{clipped[3]}"
     return f"{GEOMET_URL}?bbox={bbox}&lang=fr&limit=5&f=json"
 
 
@@ -73,8 +121,11 @@ def citypage_geojson_in_bbox(
     limit: int = 500,
     timeout: float = DEFAULT_TIMEOUT,
 ) -> dict:
-    """Points ville GeoMet dans une bbox WGS84 (lon_min, lat_min, lon_max, lat_max)."""
-    lon_min, lat_min, lon_max, lat_max = bbox
+    """Points ville GeoMet dans une bbox WGS84 (lon_min, lat_min, lon_max, lat_max), Québec seulement."""
+    clipped = _intersect_bbox(bbox, QUEBEC_BBOX)
+    if clipped is None:
+        return {"type": "FeatureCollection", "features": []}
+    lon_min, lat_min, lon_max, lat_max = clipped
     cap = max(1, min(int(limit), 10000))
     url = (
         f"{GEOMET_URL}?bbox={lon_min},{lat_min},{lon_max},{lat_max}"
@@ -84,13 +135,12 @@ def citypage_geojson_in_bbox(
     data = json.loads(raw)
     features_out: list[dict] = []
     for feature in data.get("features") or []:
-        geom = feature.get("geometry") or {}
-        if geom.get("type") != "Point":
+        ll = _feature_lon_lat(feature)
+        if ll is None:
             continue
-        coords = geom.get("coordinates") or []
-        if len(coords) < 2:
+        lon_f, lat_f = ll
+        if not _is_quebec_citypage(feature):
             continue
-        lon_f, lat_f = float(coords[0]), float(coords[1])
         parsed = _parse_feature(feature, lat_f, lon_f)
         features_out.append(
             {
@@ -191,7 +241,11 @@ def get_weather(
         url = _build_url(lat, lon, half)
         raw = fetch_text(url, timeout=timeout)
         data = json.loads(raw)
-        features = data.get("features") or []
+        features = [
+            f
+            for f in (data.get("features") or [])
+            if _is_quebec_citypage(f) and _feature_lon_lat(f) is not None
+        ]
         if features:
             features.sort(
                 key=lambda f: haversine_km(
@@ -213,6 +267,73 @@ def get_weather(
     }
 
 
+def _flatten_city(feature: dict) -> dict | None:
+    if not _is_quebec_citypage(feature):
+        return None
+    ll = _feature_lon_lat(feature)
+    if ll is None:
+        return None
+    lon_f, lat_f = ll
+    p = feature.get("properties") or {}
+    name = p.get("name") or {}
+    ville = name.get("fr") or name.get("en") or ""
+    return {
+        "identifier": _citypage_identifier(feature),
+        "ville": ville,
+        "lat": lat_f,
+        "lon": lon_f,
+    }
+
+
+def fetch_citypage_cities_qc(
+    timeout: float = DEFAULT_TIMEOUT,
+) -> list[dict]:
+    """Villes citypage ECCC dont l'identifiant GeoMet commence par `qc-`."""
+    lon_min, lat_min, lon_max, lat_max = QUEBEC_BBOX
+    url = (
+        f"{GEOMET_URL}?bbox={lon_min},{lat_min},{lon_max},{lat_max}"
+        f"&lang=fr&limit=10000&f=json"
+    )
+    data = json.loads(fetch_text(url, timeout=timeout))
+    out: list[dict] = []
+    for feature in data.get("features") or []:
+        row = _flatten_city(feature)
+        if row:
+            out.append(row)
+    out.sort(key=lambda c: unicodedata.normalize("NFKD", c.get("ville") or "").lower())
+    return out
+
+
+def save_cities(
+    cities: list[dict],
+    path: Path = CITIES_PATH,
+) -> Path:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "source": GEOMET_URL,
+        "filter": QUEBEC_CITYPAGE_PREFIX,
+        "nb_cities": len(cities),
+        "cities": cities,
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return path
+
+
+def load_cities(path: Path = CITIES_PATH) -> list[dict]:
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8")).get("cities", [])
+
+
+def cmd_sync(args: argparse.Namespace) -> int:
+    print("Téléchargement villes météo GeoMet (identifiants qc-*)…")
+    cities = fetch_citypage_cities_qc(timeout=args.timeout)
+    path = save_cities(cities, args.out)
+    print(f"  {len(cities)} villes -> {path}")
+    return 0
+
+
 def cmd_get(args: argparse.Namespace) -> int:
     out = get_weather(args.lat, args.lon)
     print(json.dumps(out, ensure_ascii=False, indent=2))
@@ -221,7 +342,11 @@ def cmd_get(args: argparse.Namespace) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Météo live (GeoMet citypage).")
-    sub = parser.add_subparsers(dest="command")
+    parser.add_argument("--timeout", type=float, default=DEFAULT_TIMEOUT)
+    sub = parser.add_subparsers(dest="command", required=True)
+    p_sync = sub.add_parser("sync", help="Cache local des villes (qc-*)")
+    p_sync.add_argument("--out", type=Path, default=CITIES_PATH)
+    p_sync.set_defaults(func=cmd_sync)
     g = sub.add_parser("get", help="Météo pour des coords WGS84.")
     g.add_argument("lat", type=float)
     g.add_argument("lon", type=float)
@@ -231,11 +356,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
-    argv = list(argv if argv is not None else sys.argv[1:])
-    if not argv:
-        parser.print_help()
-        return 2
-    args = parser.parse_args(argv)
+    args = parser.parse_args(list(argv if argv is not None else sys.argv[1:]))
     return args.func(args)
 
 
