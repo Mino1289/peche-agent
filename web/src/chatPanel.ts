@@ -12,7 +12,7 @@ import {
   destroyHydroCharts,
   renderVisibleHydroOutputs,
 } from "./hydroCharts";
-import { onLocaleChange, t } from "./i18n";
+import { getLocale, onLocaleChange, t } from "./i18n";
 import {
   chatKeyAvailable,
   clearApiKey,
@@ -92,7 +92,15 @@ export class ChatPanel {
       btn.type = "button";
       btn.className = "history-item";
       if (c.id === this.sessionId) btn.classList.add("active");
-      btn.innerHTML = `<strong>${escapeHtml(c.title)}</strong><br/><small>${c.message_count} ${m.msgs} · ${c.updated_at}</small>`;
+      const updated = new Date(c.updated_at);
+      const when = Number.isNaN(updated.getTime())
+        ? c.updated_at
+        : updated.toLocaleDateString(getLocale() === "en" ? "en-CA" : "fr-CA", {
+            day: "numeric",
+            month: "short",
+            year: "numeric",
+          });
+      btn.innerHTML = `<span class="history-item-title">${escapeHtml(c.title)}</span><span class="history-item-meta">${escapeHtml(when)}, ${c.message_count} ${m.msgs}</span>`;
       btn.addEventListener("click", async () => {
         const loaded = await loadConversation(c.id);
         if (!loaded) return;
@@ -130,7 +138,7 @@ export class ChatPanel {
         </div>
         <p>${escapeHtml(m.deleteConversationConfirm)}</p>
         <div class="modal-actions">
-          <button type="button" class="btn-sidebar" id="confirm-delete-yes">${escapeHtml(m.yes)}</button>
+          <button type="button" class="btn-danger" id="confirm-delete-yes">${escapeHtml(m.yes)}</button>
           <button type="button" class="btn-sidebar btn-muted" id="confirm-delete-no">${escapeHtml(m.no)}</button>
         </div>
       </div>`;

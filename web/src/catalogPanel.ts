@@ -359,12 +359,6 @@ export class CatalogPanel {
     const title = document.createElement("span");
     title.className = "layer-title";
     title.textContent = def.title;
-    if (def.curated) {
-      const badge = document.createElement("span");
-      badge.className = "curated";
-      badge.textContent = "★";
-      title.appendChild(badge);
-    }
     row.appendChild(title);
 
     const zBadge = zoomBadge(def);

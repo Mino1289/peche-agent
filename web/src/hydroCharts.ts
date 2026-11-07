@@ -239,9 +239,9 @@ function axisDayTickValues(_u: uPlot, splits: number[]): string[] {
 
 function xAxisDaily(): uPlot.Axis {
   return {
-    stroke: "#94a3b8",
-    grid: { stroke: "#1e293b", width: 1 },
-    ticks: { stroke: "#334155" },
+    stroke: "#a1a1aa",
+    grid: { stroke: "#27272a", width: 1 },
+    ticks: { stroke: "#3f3f46" },
     space: 36,
     incrs: DAY_TIME_INCRS_SEC,
     values: axisDayTickValues,
@@ -331,7 +331,7 @@ function hydroChartCursor(): uPlot.Cursor {
       show: true,
       one: true,
       size: 9,
-      stroke: "#e2e8f0",
+      stroke: "#f4f4f5",
       width: 2,
     },
     drag: { setScale: false, x: false, y: false },
@@ -438,9 +438,9 @@ function makePlot(
     axes: [
       xAxisDaily(),
       {
-        stroke: "#94a3b8",
-        grid: { stroke: "#1e293b", width: 1 },
-        ticks: { stroke: "#334155" },
+        stroke: "#a1a1aa",
+        grid: { stroke: "#27272a", width: 1 },
+        ticks: { stroke: "#3f3f46" },
         font: "10px sans-serif",
         size: isFlow ? 58 : 48,
         gap: 6,
@@ -818,9 +818,9 @@ function makeTidePlot(
     axes: [
       xAxisDaily(),
       {
-        stroke: "#94a3b8",
-        grid: { stroke: "#1e293b", width: 1 },
-        ticks: { stroke: "#334155" },
+        stroke: "#a1a1aa",
+        grid: { stroke: "#27272a", width: 1 },
+        ticks: { stroke: "#3f3f46" },
         font: "10px sans-serif",
         size: 48,
         values: (_u, splits) =>

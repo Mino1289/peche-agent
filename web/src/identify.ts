@@ -347,7 +347,7 @@ function zoneRegsButton(): string {
 function exceptionDetailButton(ctx: Record<string, unknown>): string {
   if (ctx.exception_plan_id == null) return "";
   const m = t();
-  return `<button type="button" class="btn-secondary" data-act="exception-detail" title="${escapeHtml(m.viewDetail)}">＋ ${escapeHtml(m.viewDetail)}</button>`;
+  return `<button type="button" class="btn-secondary" data-act="exception-detail" title="${escapeHtml(m.viewDetail)}">${escapeHtml(m.viewDetail)}</button>`;
 }
 
 function pinFromHit(hit: IdentifyHit): MapPin | null {
