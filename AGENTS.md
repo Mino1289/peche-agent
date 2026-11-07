@@ -11,6 +11,7 @@ Operational guide for coding agents working on **peche-agent**. For product over
 | Agent (Gemini) | `peche/agent/` | Tool loop, prompts, BYOK |
 | Business tools | `peche/tools.py`, `peche/agent/map_tools.py` | 26+ tools |
 | MCP | `peche/mcp/server.py` | stdio or HTTP on `/mcp` when `MCP_ENABLED=1` |
+| Tracing (Langfuse) | `peche/observability.py`, `peche/agent/tracing.py` | Optional; no-op without `LANGFUSE_*` keys |
 | Catalogue | `peche/catalog/` | **Curated-only** default catalogue |
 | Spatial / RegPec | `peche/spatial/`, `peche/reglements/` | Zones, plans, offline rules |
 | Derived data | `data/` | See below |
@@ -63,6 +64,20 @@ python3 -m peche.reglements sync         # refresh RegPec zones (optional)
 6. **Locale** — FR default; switching EN must **not** destroy `MapController` (update chrome + re-render panels only).
 
 7. **BYOK** — Gemini key in browser `localStorage`; optional server `GEMINI_API_KEY`.
+
+## Langfuse tracing
+
+One trace `chat-turn` per user message (`session_id` = conversation id):
+`load-map-context` (retriever: view, layers, pins) → `run-agent-attempt` →
+`generate-agent-step` (generation, one per model call) and `tool-<name>` (tool,
+siblings). `get_point_info` nests `resolve-point-context`; `get_fishing_advice`
+nests `consult-fishing-expert` (agent) → `generate-fishing-advice`.
+
+- Observation names are an API (evaluators/dashboards target them): constants live in `peche/agent/tracing.py`; never put dynamic values in a name, use metadata.
+- In generators (`_run_agent_turn`) use explicit `Span.child(...)` + `.end()`; `with observation(...)` only in fully synchronous code (Starlette iterates sync generators across threads).
+- Langfuse runs locally: compose profile `langfuse` (UI `:3100`, project/keys auto-created via `LANGFUSE_INIT_*`, all ports on 127.0.0.1). Backend reaches it at `http://langfuse-web:3000`; non-Docker runs use `LANGFUSE_BASE_URL` from `.env`.
+- Never log the Gemini key: `observability._mask` redacts it, and do not add it to inputs/metadata.
+- Tests never send traces (`tests/conftest.py`); see `tests/test_langfuse_tracing.py`.
 
 ## Pitfalls
 

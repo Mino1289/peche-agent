@@ -10,6 +10,16 @@ import pytest
 FIXTURES = Path(__file__).parent / "fixtures"
 
 
+@pytest.fixture(autouse=True)
+def _langfuse_off():
+    """Aucun test n'envoie de traces, même si .env contient des clés Langfuse."""
+    from peche import observability
+
+    observability.set_client(None)
+    yield
+    observability.set_client(None)
+
+
 @pytest.fixture
 def fixtures_dir() -> Path:
     return FIXTURES
