@@ -88,6 +88,7 @@ def _stream_events(
             client=client,
             locale=locale,
             api_key=api_key,
+            session_id=session_id,
         ):
             etype = event.get("type")
             if etype == "text":

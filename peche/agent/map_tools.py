@@ -108,14 +108,47 @@ def highlight_features(
     )
 
 
+def _resolve_point(
+    lon: float, lat: float, *, pin_number: int | None = None, label: str | None = None
+) -> dict[str, Any]:
+    """`get_point_context` observé (retriever Langfuse) avec le pin d'origine."""
+    from peche.agent import tracing
+    from peche.observability import observation
+    from peche.spatial.point_context import get_point_context
+
+    visible = [
+        l.get("id")
+        for l in (_current_map_state or {}).get("layers") or []
+        if isinstance(l, dict) and l.get("visible", True)
+    ]
+    with observation(
+        tracing.SPAN_POINT_CONTEXT,
+        as_type="retriever",
+        input={
+            "lon": lon,
+            "lat": lat,
+            "pin_number": pin_number,
+            "pin_label": label,
+            "visible_layers": visible,
+        },
+        metadata={"source": "peche.spatial.point_context"},
+    ) as span:
+        ctx = get_point_context(lon, lat)
+        span.update(
+            output=ctx,
+            metadata={
+                "resolved": sorted(k for k in ctx if k not in ("lon", "lat")),
+            },
+        )
+    return ctx
+
+
 def get_point_info(
     pin_number: int | None = None,
     lon: float | None = None,
     lat: float | None = None,
 ) -> dict[str, Any]:
     """Contexte géographique d'un point utilisateur (pin numéroté ou coords)."""
-    from peche.spatial.point_context import get_point_context
-
     state = _current_map_state or {}
     pins = state.get("pins") or []
     if pin_number is not None:
@@ -132,7 +165,7 @@ def get_point_info(
             }
         lon = float(pin["lon"])
         lat = float(pin["lat"])
-        ctx = get_point_context(lon, lat)
+        ctx = _resolve_point(lon, lat, pin_number=pin_number, label=pin.get("label"))
         ctx["pin_number"] = pin_number
         ctx["label"] = pin.get("label")
         if pin.get("props"):
@@ -146,4 +179,4 @@ def get_point_info(
                 for p in pins
             ],
         }
-    return get_point_context(float(lon), float(lat))
+    return _resolve_point(float(lon), float(lat))

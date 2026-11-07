@@ -98,6 +98,26 @@ To mount `/mcp` on the monolithic API (local dev without nginx): `MCP_ENABLED=1`
 | `DATA_DIR` | `./data` | Data root |
 | `PECHE_HOST` / `PECHE_PORT` | `127.0.0.1` / `8000` | Bind |
 | `MCP_ENABLED` | `0` | Mount `/mcp` on the API |
+| `LANGFUSE_PUBLIC_KEY` / `LANGFUSE_SECRET_KEY` | — | Enables [Langfuse](https://langfuse.com) tracing (see below); disabled without keys |
+| `LANGFUSE_BASE_URL` | — | Langfuse URL for a non-Docker run (`http://localhost:3100` for the local stack) |
+| `LANGFUSE_PORT` | `3100` | Host port of the local Langfuse UI |
+| `LANGFUSE_TRACING_ENVIRONMENT` | — | Separates `development` / `docker` / `production` traces |
+| `LANGFUSE_ENABLED` | `1` | Set `0` to disable tracing and keep the keys |
+
+## LLM tracing (local Langfuse)
+
+Every chat turn is traced (LLM calls, tool calls, map/pin context) in a self-hosted
+Langfuse running as a Docker Compose profile — nothing leaves your machine.
+
+```bash
+cp .env.example .env                       # contains the local Langfuse keys
+docker compose --profile langfuse up -d    # Langfuse web, worker, Postgres, ClickHouse, Redis, MinIO
+docker compose up -d --build backend       # backend picks up the keys
+```
+
+Open http://localhost:3100 (default login `admin@peche.local` / `peche-local-admin`, project `peche-agent`).
+Running the API outside Docker (`python -m peche.api`) works the same: it reads `LANGFUSE_BASE_URL` from `.env`.
+Stop with `docker compose --profile langfuse down` (add `-v` to wipe traces).
 
 ## Tests
 

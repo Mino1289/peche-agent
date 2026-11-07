@@ -15,7 +15,9 @@ from google import genai
 from google.genai import types
 
 from peche.dates import today as _today
+from peche.observability import observation
 
+from peche.agent import tracing
 from peche.agent.credentials import current_api_key, resolve_api_key
 
 DEFAULT_MODEL = os.environ.get("LLM_MODEL", "gemini-3.1-flash-lite")
@@ -117,21 +119,54 @@ def advise(
         location=location,
         conditions=conditions,
     )
+    temperature = 0.65
     config = types.GenerateContentConfig(
         system_instruction=_EXPERT_SYSTEM,
-        temperature=0.65,
+        temperature=temperature,
     )
-    response = client.models.generate_content(
-        model=model,
-        contents=[
-            types.Content(role="user", parts=[types.Part.from_text(text=user_text)])
-        ],
-        config=config,
-    )
-    text = (response.text or "").strip()
-    if not text:
-        return (
-            "Impossible de générer des conseils pour le moment. "
-            "Réessayez ou précisez l'espèce et le lieu de pêche."
-        )
+    # Sous-agent : une observation `agent` (nichée sous `tool-get_fishing_advice`)
+    # qui contient l'unique appel LLM, avec les conditions reçues en entrée.
+    with observation(
+        tracing.AGENT_FISHING_EXPERT,
+        as_type="agent",
+        input={
+            "species": species,
+            "question": question,
+            "location": location,
+            "conditions": conditions or {},
+        },
+    ) as expert:
+        with observation(
+            tracing.GEN_FISHING_ADVICE,
+            as_type="generation",
+            model=model,
+            model_parameters={"temperature": temperature},
+            input=[
+                {"role": "system", "content": _EXPERT_SYSTEM},
+                {"role": "user", "content": user_text},
+            ],
+        ) as gen:
+            response = client.models.generate_content(
+                model=model,
+                contents=[
+                    types.Content(
+                        role="user", parts=[types.Part.from_text(text=user_text)]
+                    )
+                ],
+                config=config,
+            )
+            text = (response.text or "").strip()
+            usage = getattr(response, "usage_metadata", None)
+            gen.update(
+                output={"role": "assistant", "content": text},
+                usage_details=tracing.usage_details(usage),
+                metadata=tracing.usage_extra(usage),
+            )
+        if not text:
+            text = (
+                "Impossible de générer des conseils pour le moment. "
+                "Réessayez ou précisez l'espèce et le lieu de pêche."
+            )
+            expert.update(level="WARNING", status_message="Réponse vide du modèle")
+        expert.update(output=text)
     return text

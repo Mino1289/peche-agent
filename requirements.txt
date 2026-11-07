@@ -1,6 +1,9 @@
 # LLM
 google-genai>=1.0
 
+# LLM observability (actif si LANGFUSE_PUBLIC_KEY / SECRET_KEY définies)
+langfuse>=5.0,<6
+
 # TOON encoding (pinned git ref for reproducible installs)
 toon-format @ git+https://github.com/toon-format/toon-python.git@e475c82e9da03dfaf88c0b277dee6b5d17100b13
 
