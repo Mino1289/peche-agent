@@ -54,7 +54,7 @@ Pipeline :
 ```bash
 .venv/bin/python -m peche.api          # UI + API
 .venv/bin/python -m peche.mcp          # MCP stdio
-docker build -t peche-agent . && docker run -p 8000:8000 --env-file .env peche-agent
+docker compose up --build   # frontend :8000, backend, mcp :8001
 ```
 
 | Variable | Défaut | Description |

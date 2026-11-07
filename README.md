@@ -16,6 +16,8 @@ cp .env.example .env   # optional: GEMINI_API_KEY for server-side LLM
 docker compose up --build
 ```
 
+Three containers start by default: **frontend** (port 8000), **backend** (internal API), **mcp** (port 8001).
+
 Open **http://127.0.0.1:8000**
 
 ### Bring your own key (BYOK)
@@ -78,13 +80,11 @@ Expose Quebec fishing tools to your own agent.
 - **Cursor:** `.cursor/mcp.json` (project) or `~/.cursor/mcp.json`
 - **Claude Desktop:** `claude_desktop_config.json` (same `mcpServers` shape)
 
-### Option B — HTTP on the same port as the UI
+### Option B — HTTP (Docker MCP container)
 
-```bash
-MCP_ENABLED=1 docker compose up
-```
+With `docker compose up`, MCP is already at **http://127.0.0.1:8001/mcp** (Streamable HTTP).
 
-Endpoint: **http://127.0.0.1:8000/mcp** (Streamable HTTP)
+To mount `/mcp` on the monolithic API (local dev without nginx): `MCP_ENABLED=1` + `python -m peche.api`.
 
 **Security:** MCP has no authentication. Do not expose port 8000 to the public internet without a reverse proxy. MCP uses the **server** `GEMINI_API_KEY`, not the browser BYOK key.
 

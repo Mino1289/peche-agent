@@ -16,6 +16,8 @@ cp .env.example .env   # optionnel : GEMINI_API_KEY côté serveur
 docker compose up --build
 ```
 
+Trois conteneurs démarrent par défaut : **frontend** (port 8000), **backend** (API interne), **mcp** (port 8001).
+
 Ouvrir **http://127.0.0.1:8000**
 
 ### Clé personnelle (BYOK)
@@ -76,13 +78,11 @@ Données dérivées :
 - **Cursor :** `.cursor/mcp.json`
 - **Claude Desktop :** `claude_desktop_config.json`
 
-### Option B — HTTP sur le même port que l'UI
+### Option B — HTTP (conteneur MCP Docker)
 
-```bash
-MCP_ENABLED=1 docker compose up
-```
+Avec `docker compose up`, le MCP écoute déjà sur **http://127.0.0.1:8001/mcp** (Streamable HTTP).
 
-URL : **http://127.0.0.1:8000/mcp**
+Pour monter `/mcp` sur l'API monolithique (dev sans nginx) : `MCP_ENABLED=1` + `python -m peche.api`.
 
 **Sécurité :** le MCP n'a pas d'authentification. Ne pas exposer le port 8000 sur Internet sans reverse-proxy. Le MCP utilise la clé **serveur**, pas le BYOK navigateur.
 

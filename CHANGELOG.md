@@ -7,5 +7,5 @@
 - BYOK Google AI Studio key (browser) or server `GEMINI_API_KEY`
 - MCP: stdio for Cursor/Claude Desktop; optional HTTP at `/mcp` on port 8000
 - UI i18n: French default, English toggle
-- Docker Compose single-port deployment
+- Docker Compose: frontend (nginx), backend (API), MCP (HTTP :8001)
 - 26 agent tools, offline RegPec data bundled
