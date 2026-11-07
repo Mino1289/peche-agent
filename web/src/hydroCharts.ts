@@ -9,6 +9,7 @@ import type {
   HydroSeriesPoint,
   ToolEntry,
 } from "./types";
+import { t } from "./i18n";
 
 const HYDRO_TOOLS = new Set([
   "get_hydromet",
@@ -128,6 +129,26 @@ export function collectHydroResults(tools: ToolEntry[]): HydroResult[] {
   return [...byStation.values(), ...unkeyed];
 }
 
+function isHqHistorySource(src: string | undefined): boolean {
+  if (!src) return false;
+  if (src === "hydroquebec_open") return true;
+  const s = src.toLowerCase();
+  return s.includes("hydroquebec.com") || s.includes("hydro-québec");
+}
+
+function hydroHistoryCaption(
+  history: HydroHistory,
+  mode: "single" | "compare",
+): string {
+  const m = t();
+  const period = history.period_days ?? 7;
+  if (isHqHistorySource(history.source)) {
+    return m.hydroHistoryHq(period);
+  }
+  if (mode === "compare") return m.hydroHistoryCompareCeHQ(period);
+  return m.hydroHistoryCeHQ(period);
+}
+
 function hydroMetricsMode(results: HydroResult[]): "level" | "flow" | "both" {
   for (const r of results) {
     const m = r.requested_metrics;
@@ -238,15 +259,27 @@ function fmtCursorTime(ts: number): string {
   return `${dd}/${mm} ${hh}:${mi}`;
 }
 
+/** Compacité axe / infobulle : ~5 chiffres + décimale (ex. 557.4, 12.34, 1234). */
+function formatChartNumber(y: number): string {
+  if (!Number.isFinite(y)) return "";
+  const a = Math.abs(y);
+  if (a >= 10_000) return y.toFixed(0);
+  if (a >= 1000) return y.toFixed(1);
+  if (a >= 100) return y.toFixed(1);
+  if (a >= 10) return y.toFixed(2);
+  if (a >= 1) return y.toFixed(2);
+  return y.toFixed(3);
+}
+
 function formatCursorY(title: string, y: number): string {
-  if (title.includes("Débit")) return `${y.toFixed(1)} m³/s`;
-  return `${y.toFixed(2)} m`;
+  const n = formatChartNumber(y);
+  if (title.includes("Débit")) return `${n} m³/s`;
+  return `${n} m`;
 }
 
 function formatAxisY(title: string, y: number): string {
   if (!Number.isFinite(y)) return "";
-  if (title.includes("Débit")) return y.toFixed(1);
-  return y.toFixed(2);
+  return formatChartNumber(y);
 }
 
 function nearestDataIdx(u: uPlot, mouseLeft: number): number {
@@ -350,8 +383,12 @@ function chartCursorLabelHooks(title: string): uPlot.Hooks.Arrays {
     xLabel.removeAttribute("hidden");
 
     yLabel.textContent = parts.length ? parts.join(" · ") : "—";
-    yLabel.style.left = `${plotLft}px`;
+    const plotW = u.over.clientWidth;
+    const tipLeft = plotLft + left;
+    const flip = tipLeft > plotLft + plotW * 0.72;
+    yLabel.style.left = `${tipLeft}px`;
     yLabel.style.top = `${plotTop + top}px`;
+    yLabel.dataset.flip = flip ? "1" : "0";
     yLabel.removeAttribute("hidden");
   };
 
@@ -388,11 +425,13 @@ function makePlot(
 ): uPlot | null {
   if (!xs.length || !series.length) return null;
   const width = Math.max(240, Math.floor(target.clientWidth || target.parentElement?.clientWidth || 320));
+  const isFlow = title.includes("Débit");
   const opts: uPlot.Options = {
     width,
     height: 160,
     title,
     class: "hydro-uplot",
+    padding: [10, 10, 4, isFlow ? 6 : 4],
     scales: {
       x: { time: true },
     },
@@ -403,7 +442,8 @@ function makePlot(
         grid: { stroke: "#1e293b", width: 1 },
         ticks: { stroke: "#334155" },
         font: "10px sans-serif",
-        size: 48,
+        size: isFlow ? 58 : 48,
+        gap: 6,
         values: (_u, splits) => splits.map((v) => formatAxisY(title, v)),
       },
     ],
@@ -546,10 +586,9 @@ function renderHydroHistory(
     container.appendChild(h);
   }
 
-  const period = history.period_days ?? 7;
   const caption = document.createElement("div");
   caption.className = "hydro-caption";
-  caption.textContent = `Historique CEHQ — ${period} derniers jours (points horaires)`;
+  caption.textContent = hydroHistoryCaption(history, "single");
   container.appendChild(caption);
 
   const { xs, niveaux, debits } = parseSeries(series);
@@ -627,10 +666,12 @@ function renderCombinedHydroCharts(
 
   if (!debitSeries.length && !niveauSeries.length) return;
 
-  const days = period ?? 7;
+  const sampleHist = results.find((r) => r.history)?.history;
   const caption = document.createElement("div");
   caption.className = "hydro-caption";
-  caption.textContent = `Historique CEHQ — ${days} derniers jours (comparaison, points horaires)`;
+  caption.textContent = sampleHist
+    ? hydroHistoryCaption(sampleHist, "compare")
+    : t().hydroHistoryCompareCeHQ(period ?? 7);
   container.appendChild(caption);
 
   function alignAndPlot(

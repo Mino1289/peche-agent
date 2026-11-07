@@ -134,6 +134,9 @@ function showTab(tab: "map" | "chat"): void {
 renderAppShell();
 bindTabs();
 controllers = initControllers();
+if (import.meta.env.DEV) {
+  (window as unknown as { pecheMap: typeof controllers.map.map }).pecheMap = controllers.map.map;
+}
 bindMapMoveRefresh();
 loadCatalog();
 

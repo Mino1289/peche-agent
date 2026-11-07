@@ -7,6 +7,7 @@ import time
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import JSONResponse
 
+from peche.hydroquebec_open import fetch_hydroquebec_history
 from peche.hydromet import fetch_live_stations, get_live_station
 from peche.tides import get_tide_predictions, get_water_level_live
 from peche.tools import _build_station_links
@@ -61,9 +62,7 @@ def hydromet_station(
         "debit_m3s": s.get("debit_m3s"),
         "observed_at": s.get("observed_at"),
         "urls": _build_station_links(s),
-        "source": "Hydro-Québec (données ouvertes)"
-        if is_hq
-        else "Vigilance WFS",
+        "source": "Hydro-Québec" if is_hq else "Vigilance WFS",
     }
     if is_hq:
         if s.get("hq_region"):
@@ -72,10 +71,15 @@ def hydromet_station(
             payload["hq_kind"] = s["hq_kind"]
         if s.get("hq_metrics"):
             payload["hq_metrics"] = s["hq_metrics"]
-    if include_history and is_cehq_station_id(sid, s.get("fournisseur_url")):
-        history = fetch_cehq_history(sid)
-        if history:
-            payload["history"] = history
+    if include_history:
+        if is_hq:
+            history = fetch_hydroquebec_history(sid)
+            if history:
+                payload["history"] = history
+        elif is_cehq_station_id(sid, s.get("fournisseur_url")):
+            history = fetch_cehq_history(sid)
+            if history:
+                payload["history"] = history
     return JSONResponse(payload)
 
 

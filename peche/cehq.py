@@ -142,6 +142,41 @@ def _daily_summary(readings: list[dict]) -> list[dict]:
     return out
 
 
+def build_history_payload(
+    station_id: str,
+    readings: list[dict],
+    *,
+    source: str,
+) -> dict | None:
+    """Série CEHQ/HQ unifiée pour l'UI (points horaires + résumé journalier)."""
+    if not readings:
+        return None
+    has_level = any(r.get("niveau_m") is not None for r in readings)
+    has_flow = any(r.get("debit_m3s") is not None for r in readings)
+    daily = _daily_summary(readings)
+    series = _downsample_hourly(readings)
+    return {
+        "station_id": str(station_id),
+        "source": source,
+        "period_days": len(daily) or 1,
+        "readings_count": len(readings),
+        "has_niveau": has_level,
+        "has_debit": has_flow,
+        "first_observed_at": readings[0]["observed_at"],
+        "last_observed_at": readings[-1]["observed_at"],
+        "daily": daily,
+        "series": series,
+        "trend": {
+            k: v
+            for k, v in {
+                "niveau_m": _trend_label(readings, "niveau_m") if has_level else None,
+                "debit_m3s": _trend_label(readings, "debit_m3s") if has_flow else None,
+            }.items()
+            if v
+        },
+    }
+
+
 def _trend_label(readings: list[dict], field: str) -> str | None:
     vals = [r[field] for r in readings if r.get(field) is not None]
     if len(vals) < 8:
@@ -178,30 +213,8 @@ def fetch_cehq_history(
     if not readings:
         return {"error": "Aucune donnée CEHQ parsée.", "source": url}
 
-    has_level = any(r.get("niveau_m") is not None for r in readings)
-    has_flow = any(r.get("debit_m3s") is not None for r in readings)
-    daily = _daily_summary(readings)
-    series = _downsample_hourly(readings)
-
-    payload = {
-        "station_id": sid,
-        "source": url,
-        "period_days": len(daily),
-        "readings_count": len(readings),
-        "has_niveau": has_level,
-        "has_debit": has_flow,
-        "first_observed_at": readings[0]["observed_at"],
-        "last_observed_at": readings[-1]["observed_at"],
-        "daily": daily,
-        "series": series,
-        "trend": {
-            k: v
-            for k, v in {
-                "niveau_m": _trend_label(readings, "niveau_m") if has_level else None,
-                "debit_m3s": _trend_label(readings, "debit_m3s") if has_flow else None,
-            }.items()
-            if v
-        },
-    }
+    payload = build_history_payload(sid, readings, source=url)
+    if payload is None:
+        return {"error": "Aucune donnée CEHQ parsée.", "source": url}
     _CACHE[sid] = (now, payload)
     return payload

@@ -41,6 +41,7 @@ from peche.matching.normalize import (
 
 from peche.dates import period_includes, today
 from peche.cehq import cehq_urls, fetch_cehq_history, is_cehq_station_id
+from peche.hydroquebec_open import fetch_hydroquebec_history
 from peche.hydromet import (
     STATIONS_PATH,
     get_live_station,
@@ -503,10 +504,13 @@ def _build_station_links(station: dict) -> dict[str, str]:
     """Construit les URLs cliquables (CEHQ + Vigilance) pour une station."""
     links: dict[str, str] = {}
     sid = str(station.get("station", ""))
-    if is_cehq_station_id(sid, station.get("fournisseur_url")):
+    is_hq = sid.upper().startswith("HQ-") or station.get("source_sub") == "hydroquebec_open"
+    if is_hq and station.get("fournisseur_url"):
+        links["hydroquebec"] = station["fournisseur_url"]
+    elif is_cehq_station_id(sid, station.get("fournisseur_url")):
         links.update(cehq_urls(sid))
     elif station.get("fournisseur_url"):
-        links["cehq"] = station["fournisseur_url"]
+        links["source"] = station["fournisseur_url"]
     if station.get("url_vigilance"):
         links["vigilance"] = station["url_vigilance"]
     return links
@@ -538,9 +542,7 @@ def get_hydromet(station_id: str) -> dict:
         "debit_m3s": s["debit_m3s"],
         "observed_at": s["observed_at"],
         "urls": _build_station_links(s),
-        "source": "Hydro-Québec (données ouvertes)"
-        if is_hq
-        else "Vigilance WFS",
+        "source": "Hydro-Québec" if is_hq else "Vigilance WFS",
     }
     if is_hq:
         if s.get("hq_region"):
@@ -549,7 +551,11 @@ def get_hydromet(station_id: str) -> dict:
             out["hq_kind"] = s["hq_kind"]
         if s.get("hq_metrics"):
             out["hq_metrics"] = s["hq_metrics"]
-    if is_cehq_station_id(sid, s.get("fournisseur_url")):
+    if is_hq:
+        history = fetch_hydroquebec_history(sid)
+        if history:
+            out["history"] = history
+    elif is_cehq_station_id(sid, s.get("fournisseur_url")):
         history = fetch_cehq_history(sid)
         if history:
             out["history"] = history

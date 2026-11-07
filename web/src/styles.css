@@ -622,8 +622,9 @@ details > summary::-webkit-details-marker {
   background: #0b1220;
   border: 1px solid #1c2738;
   border-radius: 8px;
-  padding: 4px 4px 0;
-  overflow: hidden;
+  padding: 4px 6px 0 8px;
+  overflow-x: clip;
+  overflow-y: visible;
   position: relative;
 }
 
@@ -669,7 +670,11 @@ details > summary::-webkit-details-marker {
 }
 
 .hydro-cursor-y {
-  transform: translate(calc(-100% - 4px), -50%);
+  transform: translate(10px, -50%);
+}
+
+.hydro-cursor-y[data-flip="1"] {
+  transform: translate(calc(-100% - 10px), -50%);
 }
 
 .chat-form {

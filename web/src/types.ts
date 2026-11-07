@@ -116,6 +116,7 @@ export type HydroDailyPoint = {
 };
 
 export type HydroHistory = {
+  source?: string;
   period_days?: number;
   has_niveau?: boolean;
   has_debit?: boolean;
