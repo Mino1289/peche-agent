@@ -15,7 +15,7 @@ from google.genai import types
 from peche.agent.credentials import current_api_key, resolve_api_key
 from peche.agent import map_tools
 from peche.agent import tracing
-from peche.agent.prompt import build_system_prompt
+from peche.agent.prompt import PROMPT_VERSION, build_system_prompt
 from peche.agent.schemas import TOOL_SCHEMAS, TOOLS
 from peche.encoding import wrap_tool_result
 from peche.observability import NOOP, Span, start_trace
@@ -302,11 +302,18 @@ def stream_chat(
         as_type="agent",
         session_id=session_id,
         user_id=user_id,
-        tags=["peche-agent", f"locale:{locale or 'fr'}", f"source:{source}"],
+        tags=[
+            "peche-agent",
+            f"locale:{locale or 'fr'}",
+            f"source:{source}",
+            f"prompt:{PROMPT_VERSION}",
+        ],
         trace_metadata={"locale": locale or "fr", "source": source},
         input=message,
         metadata={
             "model": primary,
+            "prompt_version": PROMPT_VERSION,
+            "thinking_budget": THINKING_BUDGET,
             "fallback_model": FALLBACK_MODEL,
             "locale": locale or "fr",
             "source": source,

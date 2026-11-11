@@ -11,6 +11,9 @@ from datetime import date
 from peche.dates import today as _today
 from peche.encoding import TOON_PROMPT_HINT
 
+# Version du prompt système : tagguée dans chaque trace Langfuse pour comparer les effets.
+PROMPT_VERSION = "v2-react-light"
+
 _FR_MONTHS = [
     "",
     "janvier",
