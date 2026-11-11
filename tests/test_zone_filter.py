@@ -127,8 +127,10 @@ def test_features_local_zoom_is_not_an_item_filter():
     assert len(tides["features"]) > 0
     assert tides["features"][0]["geometry"]["type"] == "Point"
     assert len(meteo["features"]) > 0
+    # Les stations HQ portant de la météo sont aussi dans cette couche (sans identifier GeoMet).
     assert all(
         str(f["properties"].get("identifier", "")).lower().startswith("qc-")
+        or str(f["properties"].get("station", "")).startswith("HQ-")
         for f in meteo["features"]
     )
     assert len(dams["features"]) == 200

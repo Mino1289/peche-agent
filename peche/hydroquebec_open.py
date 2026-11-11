@@ -155,6 +155,40 @@ def _normalize_coords(x: Any, y: Any) -> tuple[float, float] | None:
     return round(lat, 6), round(lon, 6)
 
 
+_HQ_WEATHER_KEYWORDS = ("temperature", "precipitation", "humidite", "vent", "neige")
+
+
+def hq_tags(kind: str, metrics: list[dict[str, Any]]) -> list[str]:
+    """Tags HQ : `installation` (centrale/ouvrage) ; sinon `meteo` et/ou `hydro`.
+
+    Une station peut avoir les deux (ex. niveau + météo). `meteo` = au moins une
+    mesure météo ; `hydro` = au moins un niveau (m) ou débit (m³/s).
+    """
+    if kind == "installation":
+        return ["installation"]
+    has_hydro = False
+    has_meteo = False
+    for m in metrics:
+        unit = str(m.get("nom_unite_mesure") or "").strip().lower()
+        tpd = _ascii_lower(str(m.get("type_point_donnee") or ""))
+        if "m³/s" in unit or "m3/s" in unit or "m^3/s" in unit:
+            has_hydro = True
+        elif unit == "m" and "neige" not in tpd:
+            has_hydro = True
+        if tpd.startswith("temperature de l"):
+            # Température de l'eau : mesure hydrique, pas météo.
+            has_hydro = True
+            continue
+        if any(k in tpd for k in _HQ_WEATHER_KEYWORDS):
+            has_meteo = True
+    tags: list[str] = []
+    if has_meteo:
+        tags.append("meteo")
+    if has_hydro:
+        tags.append("hydro")
+    return tags
+
+
 def normalize_hq_records(kind: str, records: Any) -> list[dict[str, Any]]:
     """kind: 'station' | 'installation'."""
     if not isinstance(records, list):
@@ -197,6 +231,7 @@ def normalize_hq_records(kind: str, records: Any) -> list[dict[str, Any]]:
             "hq_code_region": str(row.get("CodeRegionQC") or "").strip(),
             "hq_region": str(row.get("RegionQC") or "").strip(),
             "hq_metrics": metrics,
+            "hq_tags": hq_tags(kind, metrics),
         }
         out.append(entry)
     return out

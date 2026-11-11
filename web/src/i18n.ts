@@ -103,6 +103,11 @@ type Messages = {
   category: string;
   municipality: string;
   mrc: string;
+  basinName: string;
+  basinWatercourse: string;
+  basinArea: string;
+  basinLevel: string;
+  basinRegion: string;
   cehqSheet: string;
   fishingZone: string;
   exception: string;
@@ -152,6 +157,8 @@ type Messages = {
   etatAutre: string;
   etatHydroQuebec: string;
   etatIndisponible: string;
+  meteoLegendEccc: string;
+  meteoLegendHq: string;
 };
 
 const FR: Messages = {
@@ -260,6 +267,11 @@ const FR: Messages = {
   category: "Catégorie",
   municipality: "Municipalité",
   mrc: "MRC",
+  basinName: "Bassin versant",
+  basinWatercourse: "Cours d'eau",
+  basinArea: "Superficie",
+  basinLevel: "Niveau",
+  basinRegion: "Région hydrographique",
   cehqSheet: "Fiche CEHQ",
   fishingZone: "Zone de pêche",
   exception: "Exception",
@@ -311,6 +323,8 @@ const FR: Messages = {
   etatAutre: "Vigilance — sans palier",
   etatHydroQuebec: "Hydro-Québec",
   etatIndisponible: "Hors service / désactivée",
+  meteoLegendEccc: "Météo ECCC (villes GeoMet)",
+  meteoLegendHq: "Hydro-Québec (stations avec mesures météo)",
 };
 
 const EN: Messages = {
@@ -419,6 +433,11 @@ const EN: Messages = {
   category: "Category",
   municipality: "Municipality",
   mrc: "MRC",
+  basinName: "Watershed",
+  basinWatercourse: "Watercourse",
+  basinArea: "Area",
+  basinLevel: "Level",
+  basinRegion: "Hydrographic region",
   cehqSheet: "CEHQ sheet",
   fishingZone: "Fishing zone",
   exception: "Exception",
@@ -470,6 +489,8 @@ const EN: Messages = {
   etatAutre: "Vigilance — no tier",
   etatHydroQuebec: "Hydro-Québec",
   etatIndisponible: "Out of service / inactive",
+  meteoLegendEccc: "Weather ECCC (GeoMet cities)",
+  meteoLegendHq: "Hydro-Québec (stations with weather data)",
 };
 
 const GROUP_TITLES_EN: Record<string, string> = {

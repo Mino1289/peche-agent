@@ -96,3 +96,66 @@ def test_flow_series_prefers_debit_total():
     readings = readings_from_hq_composition(composition)
     assert len(readings) == 1
     assert readings[0]["debit_m3s"] == 557.41
+
+
+def _m(tpd: str, unit: str) -> dict:
+    return {"type_point_donnee": tpd, "nom_unite_mesure": unit}
+
+
+def test_hq_tags_weather_only():
+    from peche.hydroquebec_open import hq_tags
+
+    metrics = [_m("Température Maximum", "°C"), _m("Précipitation", "mm")]
+    assert hq_tags("station", metrics) == ["meteo"]
+
+
+def test_hq_tags_level_and_weather_has_both():
+    from peche.hydroquebec_open import hq_tags
+
+    metrics = [_m("Niveau", "m"), _m("Température Minimum", "°C")]
+    assert hq_tags("station", metrics) == ["meteo", "hydro"]
+
+
+def test_hq_tags_flow_only_and_snow_depth_is_not_level():
+    from peche.hydroquebec_open import hq_tags
+
+    assert hq_tags("station", [_m("Débit", "m³/s")]) == ["hydro"]
+    # « m » sur l'épaisseur de neige ne doit pas compter comme niveau d'eau.
+    assert hq_tags("station", [_m("Épaisseur de neige", "m")]) == ["meteo"]
+
+
+def test_hq_tags_installation_is_always_installation():
+    from peche.hydroquebec_open import hq_tags
+
+    assert hq_tags("installation", [_m("Débit total", "m³/s")]) == ["installation"]
+
+
+def test_features_local_splits_hq_meteo_from_hydro():
+    from peche.api.routes import features as feat_mod
+
+    hydro = feat_mod._features_local(
+        "vigilance_stations", "data/hydromet/stations.json", {}, None, 10000
+    )
+    meteo = feat_mod._features_local(
+        "meteo_eccc", "data/weather/cities.json", {}, None, 10000
+    )
+    hydro_ids = {f["properties"].get("station") for f in hydro["features"]}
+    meteo_ids = {
+        f["properties"].get("station")
+        for f in meteo["features"]
+        if str(f["properties"].get("station") or "").startswith("HQ-")
+    }
+    # Aucune station HQ portant de la météo ne reste dans la couche hydro.
+    assert not any(
+        str(s).startswith("HQ-") and feat_mod._is_hq_meteo({"station": s})
+        for s in hydro_ids
+    )
+    # Les HQ météo apparaissent bien dans la couche ECCC (si le cache HQ existe).
+    assert all(str(s).startswith("HQ-") for s in meteo_ids)
+
+
+def test_hq_tags_water_temperature_is_hydro_not_meteo():
+    from peche.hydroquebec_open import hq_tags
+
+    metrics = [_m("Niveau", "m"), _m("Température de l'eau", "°C")]
+    assert hq_tags("station", metrics) == ["hydro"]

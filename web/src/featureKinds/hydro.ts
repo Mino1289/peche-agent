@@ -185,7 +185,7 @@ function hqMetricRow(label: string, value: string): string {
   return `<tr><td>${escapeHtml(label)}</td><td>${value}</td></tr>`;
 }
 
-function hqMetricsTableHtml(metrics: unknown): string {
+export function hqMetricsTableHtml(metrics: unknown): string {
   if (!Array.isArray(metrics) || !metrics.length) return "";
   const m = t();
   const rows = metrics.filter(

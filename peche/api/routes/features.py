@@ -13,6 +13,7 @@ from fastapi import APIRouter, HTTPException, Query
 from starlette.responses import Response
 
 from peche.catalog.harvest import ensure_catalog
+from peche.hydroquebec_open import hq_tags
 from peche.reglements.sync import DATA_DIR
 
 router = APIRouter()
@@ -157,6 +158,32 @@ def _zone_ids_from_filters(filters: dict[str, Any]) -> list[int] | None:
     return None
 
 
+HYDRO_STATIONS_URL = "data/hydromet/stations.json"
+
+
+def _is_hq_meteo(item: dict) -> bool:
+    """Station Hydro-Québec portant le tag `meteo` (même tag que `hq_tags`)."""
+    sid = str(item.get("station") or "")
+    if not sid.upper().startswith("HQ-"):
+        return False
+    kind = item.get("hq_kind") or ("installation" if sid.upper().startswith("HQ-I-") else "station")
+    return "meteo" in hq_tags(kind, item.get("hq_metrics") or [])
+
+
+def _hq_meteo_cities() -> list[dict]:
+    """Stations HQ météo, au format attendu par la couche `meteo_eccc`."""
+    try:
+        raw = _load_local_json(HYDRO_STATIONS_URL)
+    except FileNotFoundError:
+        return []
+    rows = raw.get("stations", []) if isinstance(raw, dict) else raw
+    return [
+        {**row, "ville": row.get("description") or row.get("station")}
+        for row in rows
+        if isinstance(row, dict) and _is_hq_meteo(row)
+    ]
+
+
 def _features_local(
     layer_id: str,
     url: str,
@@ -200,6 +227,12 @@ def _features_local(
             return {"type": "FeatureCollection", "features": items[:limit]}
     else:
         items = []
+
+    # Stations HQ avec tag `meteo` : affichées avec ECCC, pas avec l'hydro.
+    if layer_id == "vigilance_stations":
+        items = [it for it in items if not (isinstance(it, dict) and _is_hq_meteo(it))]
+    elif layer_id == "meteo_eccc":
+        items = [*items, *_hq_meteo_cities()]
 
     features: list[dict] = []
     for item in items:

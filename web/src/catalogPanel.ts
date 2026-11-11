@@ -420,6 +420,9 @@ export class CatalogPanel {
     if (def.id === "vigilance_stations" || def.extra?.etat_colors) {
       wrap.appendChild(etatLegend(def));
     }
+    if (def.id === "meteo_eccc") {
+      wrap.appendChild(meteoLegend(def));
+    }
 
     const src = legendSrc(def.legend_url);
     if (src) {
@@ -589,6 +592,25 @@ function etatLegend(def: LayerDef): HTMLElement {
   const items = stationEtatLegendItems(layerFallback);
   for (const { color, key } of items) {
     const label = m[key];
+    const lab = document.createElement("span");
+    lab.className = "etat-legend-item";
+    const sw = document.createElement("span");
+    sw.className = "swatch";
+    sw.style.background = color;
+    lab.appendChild(sw);
+    lab.appendChild(document.createTextNode(` ${label}`));
+    box.appendChild(lab);
+  }
+  return box;
+}
+
+/** Météo : ECCC + stations Hydro-Québec (même couleur, sources différentes). */
+function meteoLegend(def: LayerDef): HTMLElement {
+  const m = t();
+  const box = document.createElement("div");
+  box.className = "etat-legend";
+  const color = def.color || "#fb7185";
+  for (const label of [m.meteoLegendEccc, m.meteoLegendHq]) {
     const lab = document.createElement("span");
     lab.className = "etat-legend-item";
     const sw = document.createElement("span");

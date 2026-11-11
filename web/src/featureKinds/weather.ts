@@ -3,9 +3,27 @@
 import { escapeHtml } from "../regs";
 import { t } from "../i18n";
 import { dl, errorHtml, str } from "./html";
+import { hqMetricsTableHtml } from "./hydro";
 import { getJson, pick, type FeatureKind, type Loaded } from "./kind";
 
 type Weather = Record<string, unknown>;
+
+/** Station Hydro-Québec portant de la météo (affichée dans la couche ECCC). */
+const isHqStation = (p: Record<string, unknown>) =>
+  str(p.station).toUpperCase().startsWith("HQ-");
+
+function hqStationBody(p: Record<string, unknown>): string {
+  const m = t();
+  const rows: [string, string][] = [
+    [m.station, str(p.station)],
+    [m.dataSource, "Hydro-Québec"],
+  ];
+  const region = str(p.hq_region);
+  if (region) rows.push([m.hqRegion, region]);
+  const obs = str(p.observed_at);
+  if (obs) rows.push([m.observed, obs]);
+  return dl(rows) + hqMetricsTableHtml(p.hq_metrics);
+}
 
 export const weatherKind: FeatureKind<Weather> = {
   title: (p) => String(p.ville || p.name || "Météo"),
@@ -19,6 +37,8 @@ export const weatherKind: FeatureKind<Weather> = {
   },
 
   async load(p) {
+    // Station HQ : mesures déjà dans les props, pas de GeoMet.
+    if (isHqStation(p)) return undefined;
     const lat = Number(p.lat);
     const lon = Number(p.lon);
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) return undefined;
@@ -28,11 +48,16 @@ export const weatherKind: FeatureKind<Weather> = {
   },
 
   popup(p, loaded) {
+    if (isHqStation(p)) return hqStationBody(p);
     if (!loaded) return dl([[t().name, str(p.ville)]]);
     return weatherBody(loaded, { hideEmpty: true });
   },
 
-  detail(body, _hit, loaded) {
+  detail(body, hit, loaded) {
+    if (isHqStation(hit.props)) {
+      body.innerHTML = hqStationBody(hit.props);
+      return;
+    }
     body.innerHTML = loaded
       ? weatherBody(loaded, { showForecasts: true })
       : errorHtml(t().weatherUnavailable(0));
