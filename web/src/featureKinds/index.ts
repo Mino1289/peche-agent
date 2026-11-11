@@ -3,6 +3,7 @@
 import { escapeHtml } from "../regs";
 import { uninvertName } from "../names";
 import { barrageKind } from "./barrage";
+import { bassinKind } from "./bassin";
 import {
   chasseInterditeKind,
   stationLavageKind,
@@ -19,6 +20,7 @@ export type { DetailCtx, IdentifyHit } from "./kind";
 
 const KINDS: Record<string, FeatureKind> = {
   barrages_cehq: barrageKind,
+  bassins_wms: bassinKind,
   vigilance_stations: hydroKind,
   marees_shc: tidesKind,
   meteo_eccc: weatherKind,

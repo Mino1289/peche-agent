@@ -97,6 +97,8 @@ function zoomBand(zoom: number): number {
 /** Bande de cache fetch — plans_regpec bascule point/polygone à z 11. */
 function fetchCacheBand(id: string, zoom: number): number {
   if (id === "plans_regpec") return zoom < 11 ? 0 : 1;
+  // Bassins : géométrie et niveau par défaut changent à chaque entier de zoom.
+  if (id === "bassins_wms") return Math.floor(zoom);
   return zoomBand(zoom);
 }
 

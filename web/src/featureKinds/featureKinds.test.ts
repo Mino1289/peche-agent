@@ -36,6 +36,7 @@ describe("isIdentifiable", () => {
       "tfs",
       "chasse_interdite",
       "stations_lavage",
+      "bassins_wms",
     ]) {
       expect(isIdentifiable(id), id).toBe(true);
     }
@@ -48,6 +49,23 @@ describe("isIdentifiable", () => {
 
   it("includes custom layers added by the user", () => {
     expect(isIdentifiable("custom:foretouverte_pub:Foo")).toBe(true);
+  });
+});
+
+describe("bassins popup", () => {
+  it("shows watershed name, watercourse, area and level", async () => {
+    const h = hit("bassins_wms", {
+      nom_bv: "Outaouais, Rivière des",
+      nom_cours_eau: null,
+      superf_km2: 1234.5,
+      niveau: 8,
+      reg_hydro: "Outaouais et Montréal",
+    });
+    expect(titleFor(h)).toBe("Outaouais, Rivière des");
+    const html = await popupHtml(h);
+    expect(html).toContain("Outaouais, Rivière des");
+    expect(html).toContain("km²");
+    expect(html).not.toContain("Cours d'eau");
   });
 });
 

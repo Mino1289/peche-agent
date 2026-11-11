@@ -397,6 +397,18 @@ def get_features(
             data = tfs_geojson(
                 bbox_t, descriptions=set(matches) if matches else None, zoom=zoom
             )
+        elif kind == "local" and layer == "bassins_wms":
+            # Niveaux cochés ; sinon le niveau implicite du zoom (même règle que le viewport agent).
+            from peche.bassins import bassins_geojson_bytes
+            from peche.spatial.viewport import basin_level_for_zoom
+
+            options = layer_def.filter_spec.options if layer_def.filter_spec else []
+            picked = _option_matches(options, values)
+            levels = {int(v) for v in picked} if picked else {basin_level_for_zoom(zoom or 0)}
+            return Response(
+                content=bassins_geojson_bytes(bbox_t, levels, zoom),
+                media_type="application/json",
+            )
         elif kind == "local":
             from peche.reglements.zone_filter import (
                 parse_zone_expr,

@@ -37,21 +37,6 @@ AQRESEAU = (
     "AQreseauPlus_WMS/MapServer/WMSServer"
 )
 
-# WMS ArcGIS : noms GetCapabilities (niveaux 1–8, scale-dependent).
-BASSINS_LAYERS = ",".join(
-    [
-        "Bassins_hydro._20k_et_50k_niveau_162427",
-        "Bassins_hydro._20k_et_50k_niveau_219040",
-        "Bassins_hydro._20k_et_50k_niveau_311657",
-        "Bassins_hydro._20k_et_50k_niveau_440278",
-        "Bassins_hydro._20k_et_50k_niveau_532895",
-        "Bassins_hydro._20k_et_50k_niveau_655044",
-        "Bassins_hydro._20k_et_50k_niveau_747661",
-        "Bassins_hydro._20k_et_50k_niveau_810746",
-    ]
-)
-BASSINS_LEGEND_LAYER = "Bassins_hydro._20k_et_50k_niveau_162427"
-
 # Autoroute → nationale → régionale → collectrice → locale → autre.
 AQ_ROADS = "56,57,58,59,48,49,50,51,41,42,43,33,34,35,36,21,22,23,17,18"
 # Accès ressources + chemins multiusages (classes / carrossable).
@@ -284,15 +269,17 @@ def curated_layers() -> list[LayerDef]:
             id="bassins_wms",
             title="Bassins hydrographiques",
             group="hydrographie",
-            source_type="wms",
-            url=THEMES,
-            layer_name=BASSINS_LAYERS,
+            source_type="local",
+            url="data/spatial/bassins",  # snapshot : python3 -m peche.bassins sync
             curated=True,
-            filter_spec=FilterSpec(kind="none"),
-            legend_url=_legend(THEMES, BASSINS_LEGEND_LAYER),
+            filter_spec=FilterSpec(
+                kind="local",
+                attr="niveau",
+                options=[{"value": str(n), "label": f"Niveau {n}"} for n in range(1, 9)],
+                multi=True,
+            ),
             color="#94a3b8",
             attribution="MELCCFP",
-            extra={"proxy": True},
         ),
         # --- LiDAR ---
         LayerDef(
