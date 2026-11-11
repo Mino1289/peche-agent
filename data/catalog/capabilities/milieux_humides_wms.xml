@@ -441,7 +441,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[Index des milieux humides potentiels]]></Title>
-          <LegendURL width="828" height="126">
+          <LegendURL width="831" height="144">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/MH_potentiels/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Index_des_milieux_humides_potentiels12124" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -629,7 +629,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[Milieux humides potentiels]]></Title>
-          <LegendURL width="210" height="180">
+          <LegendURL width="211" height="190">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/MH_potentiels/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Milieux_humides_potentiels11904" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>

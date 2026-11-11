@@ -441,7 +441,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AMCE - Autres mesures de conservation efficaces]]></Title>
-          <LegendURL width="324" height="36">
+          <LegendURL width="326" height="40">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AMCE_-_Autres_mesures_de_conservation_efficaces55451" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -807,7 +807,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Autres aires protégées]]></Title>
-          <LegendURL width="264" height="18">
+          <LegendURL width="266" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Autres_aires_protégées48809" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -1174,7 +1174,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves nationales de faune - Fédéral]]></Title>
-          <LegendURL width="174" height="18">
+          <LegendURL width="176" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_nationales_de_faune_-_Fédéral46838" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -1362,7 +1362,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Refuges d’oiseaux migrateurs - Fédéral]]></Title>
-          <LegendURL width="180" height="18">
+          <LegendURL width="182" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Refuges_d’oiseaux_migrateurs_-_Fédéral11168" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -1550,7 +1550,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Parcs fédéraux]]></Title>
-          <LegendURL width="348" height="54">
+          <LegendURL width="350" height="60">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Parcs_fédéraux21518" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -1917,7 +1917,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Refuges biologiques - MRNF Forêts]]></Title>
-          <LegendURL width="120" height="18">
+          <LegendURL width="122" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Refuges_biologiques_-_MRNF_Forêts37563" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -2105,7 +2105,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Écosystèmes forestiers exceptionnels - MRNF Forêts]]></Title>
-          <LegendURL width="102" height="54">
+          <LegendURL width="104" height="60">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Écosystèmes_forestiers_exceptionnels_-_MRNF_Forêts50769" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -2472,7 +2472,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Territoires mis en réserve - MELCCFP]]></Title>
-          <LegendURL width="168" height="18">
+          <LegendURL width="170" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Territoires_mis_en_réserve_-_MELCCFP29648" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -2660,7 +2660,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves naturelles reconnues - MELCCFP]]></Title>
-          <LegendURL width="174" height="18">
+          <LegendURL width="176" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_naturelles_reconnues_-_MELCCFP46534" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -2848,7 +2848,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves marines - MELCCFP]]></Title>
-          <LegendURL width="102" height="18">
+          <LegendURL width="104" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_marines_-_MELCCFP61974" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -3036,7 +3036,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves écologiques - MELCCFP]]></Title>
-          <LegendURL width="180" height="36">
+          <LegendURL width="182" height="40">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_écologiques_-_MELCCFP4019" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -3224,7 +3224,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves de territoire aux fins d’aire protégée - MELCCFP]]></Title>
-          <LegendURL width="294" height="18">
+          <LegendURL width="296" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_de_territoire_aux_fins_d’aire_protégée_-_MELCCFP21514" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -3412,7 +3412,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves de biodiversité - MELCCFP]]></Title>
-          <LegendURL width="210" height="36">
+          <LegendURL width="212" height="40">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_de_biodiversité_-_MELCCFP19631" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -3600,7 +3600,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Réserves aquatiques - MELCCFP]]></Title>
-          <LegendURL width="174" height="18">
+          <LegendURL width="176" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Réserves_aquatiques_-_MELCCFP9226" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -3788,7 +3788,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Refuges fauniques - MELCCFP Faune]]></Title>
-          <LegendURL width="108" height="18">
+          <LegendURL width="110" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Refuges_fauniques_-_MELCCFP_Faune32605" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -3976,7 +3976,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Paysages humanisés - MELCCFP]]></Title>
-          <LegendURL width="162" height="18">
+          <LegendURL width="164" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Paysages_humanisés_-_MELCCFP18002" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -4164,7 +4164,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Parcs nationaux du Québec - MELCCFP Parcs]]></Title>
-          <LegendURL width="222" height="36">
+          <LegendURL width="224" height="40">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Parcs_nationaux_du_Québec_-_MELCCFP_Parcs5969" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -4352,7 +4352,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Parc marin du Saguenay–Saint-Laurent - MELCCFP Parcs]]></Title>
-          <LegendURL width="240" height="18">
+          <LegendURL width="242" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Parc_marin_du_Saguenay–Saint-Laurent_-_MELCCFP_Parcs13348" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -4540,7 +4540,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Habitats fauniques - MELCCFP Faune]]></Title>
-          <LegendURL width="276" height="144">
+          <LegendURL width="278" height="160">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Habitats_fauniques_-_MELCCFP_Faune12544" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -4728,7 +4728,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[AP - Habitats espèces floristiques men. ou vuln. - MELCCFP]]></Title>
-          <LegendURL width="258" height="18">
+          <LegendURL width="260" height="20">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AP_-_Habitats_espèces_floristiques_men._ou_vuln._-_MELCCFP31106" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -4917,7 +4917,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[Territoires d’importance pour la conservation]]></Title>
-          <LegendURL width="330" height="216">
+          <LegendURL width="332" height="240">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Territoires_d’importance_pour_la_conservation38506" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
@@ -5105,7 +5105,7 @@
         <Style>
           <Name>default</Name>
           <Title><![CDATA[Ensemble des aires protégées et autres mesures de conservation efficaces]]></Title>
-          <LegendURL width="348" height="630">
+          <LegendURL width="350" height="700">
             <Format>image/png</Format>
             <OnlineResource xlink:href="https://geo.environnement.gouv.qc.ca:443/donnees/services/Biodiversite/Aires_protegees/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Ensemble_des_aires_protégées_et_autres_mesures_de_conservation_efficaces5256" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
