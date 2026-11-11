@@ -200,6 +200,15 @@ def test_chat_turn_trace_tree(monkeypatch, spans):
     )
 
 
+def test_attempt_span_has_input_and_output(spans):
+    client = _FakeClient([[_chunk(types.Part.from_text(text="Bonjour."))]])
+    list(loop.stream_chat("salut", history=[], client=client, session_id="s"))
+
+    attempt = _by_name(spans(), "run-agent-attempt")[0]
+    assert _attr(attempt, "input") == "salut"
+    assert _attr(attempt, "output") == "Bonjour."
+
+
 def test_tool_error_and_retry_are_flagged(monkeypatch, spans):
     monkeypatch.setattr(loop, "_RETRY_BACKOFF_S", 0)
     monkeypatch.setattr(loop, "TOOLS", {})

@@ -243,6 +243,12 @@ def _run_agent_turn(
         gen.end()
 
         if not function_call_parts:
+            answer = "".join(
+                p.text
+                for p in model_parts
+                if getattr(p, "text", None) and not getattr(p, "thought", False)
+            )
+            trace.update(output=answer)
             for action in map_tools.drain_map_actions():
                 yield {"type": "map_action", **action}
             yield {"type": "done"}
@@ -407,6 +413,7 @@ def _stream_chat(
                 attempt_span = trace.child(
                     tracing.SPAN_ATTEMPT,
                     as_type="span",
+                    input=message,
                     metadata={
                         "model": active_model,
                         "attempt": attempt + 1,
