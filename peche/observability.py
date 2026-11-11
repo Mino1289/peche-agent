@@ -62,7 +62,16 @@ def _mask(*, data: Any, **_: Any) -> Any:
     return data
 
 
+def _sanitize_env() -> None:
+    """Retire espaces et CR/LF des variables LANGFUSE_* (un .env en CRLF
+    laisse `\\r` dans la clé, et l'exporteur OTel rejette le header)."""
+    for name, value in list(os.environ.items()):
+        if name.startswith("LANGFUSE_") and value != value.strip():
+            os.environ[name] = value.strip()
+
+
 def _configured() -> bool:
+    _sanitize_env()
     if os.environ.get("LANGFUSE_ENABLED", "1").strip().lower() in {
         "0",
         "false",

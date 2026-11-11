@@ -83,55 +83,23 @@ TOOL_SCHEMAS: list[dict] = [
     {
         "name": "get_weather",
         "description": (
-            "Météo live + courte prévision pour des coordonnées WGS84 "
-            "arbitraires (GeoMet). À utiliser quand on a déjà des coords "
-            "(ex. fournies par l'utilisateur). Sinon préférer "
-            "`get_weather_at_plan`."
-        ),
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "lat": {"type": "number"},
-                "lon": {"type": "number"},
-            },
-            "required": ["lat", "lon"],
-        },
-    },
-    {
-        "name": "get_weather_at_plan",
-        "description": (
-            "Météo live pour un plan d'eau identifié (résout les coordonnées). "
-            "À appeler UNIQUEMENT quand l'utilisateur demande la météo / les "
-            "conditions / la pluie / la température. Renvoie une erreur "
-            "explicite si le plan n'est pas géolocalisé."
+            "Météo live (GeoMet) + station météo Hydro-Québec la plus proche "
+            "(`hq_meteo`, ≤ 25 km). Trois entrées, une seule à la fois : "
+            "`plan_id`+`zone_id` pour un plan d'eau RegPec (préféré quand le "
+            "plan est identifié) ; `place` pour un lieu libre (ville, secteur, "
+            "rivière) géocodé via OpenStreetMap ; `lat`+`lon` si l'utilisateur "
+            "fournit des coordonnées. Présente la station GeoMet et la station HQ "
+            "avec leur distance."
         ),
         "parameters": {
             "type": "object",
             "properties": {
                 "plan_id": {"type": "integer"},
                 "zone_id": {"type": "integer"},
+                "place": {"type": "string", "description": "Nom de lieu libre (FR ou EN)."},
+                "lat": {"type": "number"},
+                "lon": {"type": "number"},
             },
-            "required": ["plan_id", "zone_id"],
-        },
-    },
-    {
-        "name": "get_weather_at_place",
-        "description": (
-            "Météo pour un nom de lieu **libre** (ville, village, secteur, "
-            "rivière, point d'intérêt). Géocode via OpenStreetMap puis "
-            "interroge GeoMet. À utiliser quand `search_plans` n'a pas de "
-            "résultat ou quand l'utilisateur cite un endroit qui n'est pas "
-            "un plan d'eau RegPec (ex. « Laterrière », « Chicoutimi »)."
-        ),
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "place": {
-                    "type": "string",
-                    "description": "Nom du lieu à géocoder (FR ou EN).",
-                },
-            },
-            "required": ["place"],
         },
     },
     {
@@ -581,7 +549,9 @@ TOOL_SCHEMAS: list[dict] = [
             "Contexte d'un point utilisateur sur la carte : zone de pêche, "
             "exception RegPec, lac/rivière (GRHQ), territoire faunique (TFS), "
             "chasse interdite. Utiliser pin_number (Point 1, Point 2…) depuis "
-            "MapState.pins, ou lon+lat."
+            "MapState.pins, ou lon+lat. Si le point n'est sur aucun plan d'eau "
+            "identifié, renvoie aussi météo, hydro proche, espèces et règlement "
+            "du plan voisin."
         ),
         "parameters": {
             "type": "object",
@@ -596,6 +566,25 @@ TOOL_SCHEMAS: list[dict] = [
             "required": [],
         },
     },
+    {
+        "name": "scout_at_plan",
+        "description": (
+            "Conditions autour d'un plan d'eau ou d'une rivière identifié "
+            "(zone_id + plan_id via search_plans) : météo, station hydro proche "
+            "(niveau/débit, tendance), température station si disponible, espèces "
+            "du guide consommation et espèces du règlement précis du plan en vigueur. "
+            "À appeler quand on parle d'un plan d'eau ou qu'on en propose un et que "
+            "la question porte sur conditions, environnement ou espèces."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "plan_id": {"type": "integer"},
+                "zone_id": {"type": "integer"},
+            },
+            "required": ["plan_id", "zone_id"],
+        },
+    },
 ]
 
 
@@ -605,9 +594,7 @@ TOOLS = {
     "list_zones": lambda **_: tools.list_zones(),
     "search_plans": lambda **kw: tools.search_plans(**kw),
     "get_reglements": lambda **kw: tools.get_reglements(**kw),
-    "get_weather": lambda **kw: tools.get_weather(**kw),
-    "get_weather_at_plan": lambda **kw: tools.get_weather_at_plan(**kw),
-    "get_weather_at_place": lambda **kw: tools.get_weather_at_place(**kw),
+    "get_weather": lambda **kw: tools.weather_lookup(**kw),
     "search_stations": lambda **kw: tools.search_stations(**kw),
     "get_hydromet": lambda **kw: tools.get_hydromet(**kw),
     "get_hydromet_for_waterbody": lambda **kw: tools.get_hydromet_for_waterbody(**kw),
@@ -630,4 +617,5 @@ TOOLS = {
     "filter_by_zone": lambda **kw: _map_tools.filter_by_zone(**kw),
     "highlight_features": lambda **kw: _map_tools.highlight_features(**kw),
     "get_point_info": lambda **kw: _map_tools.get_point_info(**kw),
+    "scout_at_plan": lambda **kw: tools.scout_at_plan(**kw),
 }

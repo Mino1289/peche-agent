@@ -143,6 +143,22 @@ def _resolve_point(
     return ctx
 
 
+def _with_scout(ctx: dict[str, Any]) -> dict[str, Any]:
+    """Pin vide (ni exception ni waterbody) : ajoute météo/hydro/espèces autour."""
+    if ctx.get("exception") or ctx.get("waterbody"):
+        return ctx
+    from peche.tools import scout_conditions
+
+    zid = (ctx.get("fishing_zone") or {}).get("zone_id")
+    scout = scout_conditions(
+        ctx["lat"],
+        ctx["lon"],
+        zone_id=int(zid) if zid is not None else None,
+        include_nearby_regs=True,
+    )
+    return {**ctx, **scout}
+
+
 def get_point_info(
     pin_number: int | None = None,
     lon: float | None = None,
@@ -170,7 +186,7 @@ def get_point_info(
         ctx["label"] = pin.get("label")
         if pin.get("props"):
             ctx["cached_props"] = pin["props"]
-        return ctx
+        return _with_scout(ctx)
     if lon is None or lat is None:
         return {
             "error": "Fournir pin_number ou lon+lat.",
@@ -179,4 +195,4 @@ def get_point_info(
                 for p in pins
             ],
         }
-    return _resolve_point(float(lon), float(lat))
+    return _with_scout(_resolve_point(float(lon), float(lat)))

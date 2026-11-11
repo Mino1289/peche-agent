@@ -8,7 +8,7 @@ Outils granulaires : un appel = une intention.
 | `search_plans` | un nom de plan d'eau est mentionné — toujours en premier |
 | `get_reglements` | l'utilisateur demande les **règlements** (espèces, limites, périodes) |
 | `get_weather` | météo à des coordonnées arbitraires |
-| `get_weather_at_plan` | météo pour un plan d'eau identifié (résout les coords) |
+| `weather_lookup` (outil `get_weather`) | météo plan / lieu / coords + station HQ |
 | `get_hydromet` | hydro pour un id de station précis |
 | `get_hydromet_at_plan` | hydro pour le plan d'eau (résout la station matchée) |
 | `get_fishing_advice` | conseils leurres / techniques (sous-agent expert) |
@@ -45,6 +45,9 @@ from peche.hydroquebec_open import fetch_hydroquebec_history
 from peche.hydromet import (
     STATIONS_PATH,
     get_live_station,
+    haversine_km,
+    load_stations,
+    nearest_station,
     search_stations_offline,
 )
 from peche.geocoding import geocode as _geocode
@@ -404,6 +407,110 @@ def get_weather(lat: float, lon: float) -> dict:
     return _get_weather(lat, lon)
 
 
+_MESURES_LIVE_TOP = 3  # mesures en direct pour les N stations les plus proches seulement
+_STATIONS_TOP = 5  # nombre de stations proches renvoyées, toutes sources confondues
+
+
+def _load_eccc_cities() -> list[dict]:
+    """Villes GeoMet/ECCC (data/weather/cities.json) : nom + coordonnées."""
+    path = DATA_DIR / "weather" / "cities.json"
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    items = raw.get("cities", raw) if isinstance(raw, dict) else raw
+    return [c for c in items.values()] if isinstance(items, dict) else list(items)
+
+
+def _stations_proches(lat: float, lon: float, geomet: dict | None = None) -> list[dict]:
+    """Toutes les stations météo (HQ + ECCC/GeoMet), triées par distance, sans seuil.
+
+    Renvoie les `_STATIONS_TOP` plus proches. Si aucune station ECCC n'en fait partie,
+    ajoute la station ECCC la plus proche (`pour_previsions`, avec son `id`) pour les
+    prévisions. Mesures en direct seulement pour les `_MESURES_LIVE_TOP` premières.
+    """
+    candidates: list[dict] = []
+    try:
+        stations = load_stations()
+    except FileNotFoundError:
+        stations = []
+    for s in stations:
+        if not s.get("hq_metrics") or s.get("lat") is None or s.get("lon") is None:
+            continue
+        candidates.append({
+            "source": "HQ",
+            "station_id": s["station"],
+            "nom": s.get("description"),
+            "distance_km": round(haversine_km(lat, lon, float(s["lat"]), float(s["lon"])), 2),
+        })
+    for c in _load_eccc_cities():
+        if c.get("lat") is None or c.get("lon") is None:
+            continue
+        candidates.append({
+            "source": "GeoMet/ECCC",
+            "id": c.get("identifier"),
+            "nom": c.get("ville"),
+            "distance_km": round(haversine_km(lat, lon, float(c["lat"]), float(c["lon"])), 2),
+        })
+    candidates.sort(key=lambda e: e["distance_km"])
+    top = candidates[:_STATIONS_TOP]
+    eccc_near = next((e for e in candidates if e["source"] == "GeoMet/ECCC"), None)
+    if eccc_near is not None and eccc_near not in top:
+        eccc_near["pour_previsions"] = True
+        top.append(eccc_near)
+
+    for entry in top[:_MESURES_LIVE_TOP]:
+        if entry["source"] == "HQ":
+            live = get_hydromet(str(entry["station_id"]))
+            if "error" in live:
+                entry["error"] = live["error"]
+                continue
+            entry["observed_at"] = live.get("observed_at")
+            entry["mesures"] = [
+                {"type": m.get("type_point_donnee"), "valeur": m.get("valeur"), "unite": m.get("nom_unite_mesure")}
+                for m in live.get("hq_metrics") or []
+            ]
+        elif geomet and "temperature_c" in geomet and entry["nom"] == geomet.get("ville"):
+            entry["observed_at"] = geomet.get("observed_at")
+            entry["mesures"] = [
+                {"type": "Température", "valeur": geomet.get("temperature_c"), "unite": "°C"},
+                {"type": "Humidité", "valeur": geomet.get("humidite_pct"), "unite": "%"},
+                {"type": "Vent", "valeur": geomet.get("vent_kmh"), "unite": "km/h"},
+                {"type": "Pression", "valeur": geomet.get("pression_kpa"), "unite": "kPa"},
+            ]
+    return top
+
+
+def weather_lookup(
+    plan_id: int | None = None,
+    zone_id: int | None = None,
+    place: str | None = None,
+    lat: float | None = None,
+    lon: float | None = None,
+) -> dict:
+    """Outil météo unique exposé à l'agent : plan RegPec, lieu libre ou coords.
+
+    Renvoie `stations_proches` (HQ + GeoMet/ECCC triées par distance) et le bloc
+    GeoMet (`previsions`) ; `hq_meteo` reste pour compatibilité.
+    """
+    if plan_id is not None and zone_id is not None:
+        out = get_weather_at_plan(plan_id, zone_id)
+        if "error" not in out and out.get("plan_lat") is not None:
+            out["stations_proches"] = _stations_proches(float(out["plan_lat"]), float(out["plan_lon"]), out)
+        return out
+    if place:
+        out = get_weather_at_place(place)
+        if "error" not in out and out.get("geocoded"):
+            g = out["geocoded"]
+            out["stations_proches"] = _stations_proches(float(g["lat"]), float(g["lon"]), out)
+        return out
+    if lat is not None and lon is not None:
+        out = {"lat": lat, "lon": lon, **get_weather(lat, lon)}
+        out["stations_proches"] = _stations_proches(float(lat), float(lon), out)
+        return out
+    return {"error": "Indique plan_id+zone_id, place, ou lat+lon."}
+
+
 def get_weather_at_plan(plan_id: int, zone_id: int) -> dict:
     """Météo live pour un plan d'eau identifié — résout les coordonnées
     depuis `data/locations/`. Erreur explicite si lat/lon manquants.
@@ -419,6 +526,10 @@ def get_weather_at_plan(plan_id: int, zone_id: int) -> dict:
             "error": "Coordonnées non disponibles pour ce plan d'eau.",
         }
     weather = get_weather(loc["lat"], loc["lon"])
+    try:
+        hq_meteo = _nearest_hq_meteo(float(loc["lat"]), float(loc["lon"]))
+    except Exception as exc:  # noqa: BLE001
+        hq_meteo = {"error": f"Météo HQ indisponible : {exc}"}
     return {
         "plan_id": plan_id,
         "zone_id": zone_id,
@@ -426,6 +537,7 @@ def get_weather_at_plan(plan_id: int, zone_id: int) -> dict:
         "plan_lat": loc["lat"],
         "plan_lon": loc["lon"],
         **weather,
+        "hq_meteo": hq_meteo,
     }
 
 
@@ -970,6 +1082,216 @@ def get_hydromet_at_plan(plan_id: int, zone_id: int) -> dict:
         "matched_station_plan_eau": station.get("plan_eau"),
         **live,
     }
+
+
+# ---------- scout : conditions autour d'un point / plan ----------
+
+_SCOUT_HYDRO_RADIUS_KM = 25.0
+_SCOUT_PLAN_RADIUS_KM = 10.0
+_ZONE21_ZONE_ID = 23  # « Zone 21 » affichée : règles de zone pertinentes
+
+
+def _species_names(segments: list[dict]) -> list[str]:
+    names: list[str] = []
+    for seg in segments or []:
+        for per in seg.get("periodes") or []:
+            for esp in per.get("especes") or []:
+                name = esp.get("espece") if isinstance(esp, dict) else None
+                if name and name not in names:
+                    names.append(name)
+    return names
+
+
+def _species_regs(zone_id: int, plan_id: int) -> dict:
+    """Espèces du règlement précis du plan en vigueur (zone 21 : + règles de zone)."""
+    regs = get_reglements(zone_id, plan_id, only_in_effect=True)
+    if regs.get("error"):
+        return {"error": regs["error"]}
+    names = _species_names((regs.get("plan_eau") or {}).get("segments") or [])
+    source = "plan"
+    if zone_id == _ZONE21_ZONE_ID:
+        source = "plan+zone"
+        for name in _species_names(regs.get("regles_generales") or []):
+            if name not in names:
+                names.append(name)
+    out: dict = {"especes": names, "source": source}
+    if not names:
+        out["note"] = "Pas de règlement spécifique en vigueur pour ce plan."
+    return out
+
+
+def _nearest_hq_meteo(lat: float, lon: float) -> dict:
+    """Station météo Hydro-Québec la plus proche (≤ 25 km) ayant des mesures
+    météo. Distincte de la station hydro la plus proche."""
+    try:
+        stations = load_stations()
+    except FileNotFoundError:
+        return {"error": "Référentiel hydro absent (lancer sync-stations)."}
+    best: tuple[float, dict] | None = None
+    for s in stations:
+        if not s.get("hq_metrics") or s.get("lat") is None or s.get("lon") is None:
+            continue
+        d = haversine_km(lat, lon, float(s["lat"]), float(s["lon"]))
+        if d <= _SCOUT_HYDRO_RADIUS_KM and (best is None or d < best[0]):
+            best = (d, s)
+    if best is None:
+        return {
+            "error_no_hq_meteo": (
+                f"Aucune station météo HQ à moins de {int(_SCOUT_HYDRO_RADIUS_KM)} km."
+            )
+        }
+    dist, station = best
+    live = get_hydromet(str(station["station"]))
+    if "error" in live:
+        return {"station_id": station["station"], "distance_km": round(dist, 2), "error": live["error"]}
+    return {
+        "station_id": station["station"],
+        "nom": station.get("description") or live.get("plan_eau"),
+        "distance_km": round(dist, 2),
+        "observed_at": live.get("observed_at"),
+        "meteo_hq": [
+            {
+                "type": m.get("type_point_donnee"),
+                "valeur": m.get("valeur"),
+                "unite": m.get("nom_unite_mesure"),
+            }
+            for m in live.get("hq_metrics") or []
+        ],
+        "note": "Mesures de station météo Hydro-Québec (air, vent, précipitations, neige).",
+    }
+
+
+def _scout_hydro(lat: float, lon: float) -> dict:
+    """Station hydro la plus proche (≤ 25 km) : niveau/débit + tendance CEHQ/HQ."""
+    try:
+        stations = load_stations()
+    except FileNotFoundError:
+        return {"error": "Référentiel hydro absent (lancer sync-stations)."}
+    near = nearest_station(lat, lon, stations, radius_km=_SCOUT_HYDRO_RADIUS_KM)
+    if near is None:
+        return {
+            "error_no_station": (
+                f"Aucune station hydro à moins de {int(_SCOUT_HYDRO_RADIUS_KM)} km."
+            )
+        }
+    live = get_hydromet(str(near["station"]))
+    if "error" in live:
+        return {"station_id": near["station"], "error": live["error"]}
+    metrics = [
+        {
+            "type": m.get("type_point_donnee"),
+            "valeur": m.get("valeur"),
+            "unite": m.get("nom_unite_mesure"),
+        }
+        for m in live.get("hq_metrics") or []
+    ]
+    # Températures HQ = air (min/max) : seule une mesure dont le type dit « eau » compte.
+    water_temp = [m for m in metrics if "eau" in str(m["type"] or "").lower()]
+    return {
+        "station_id": live["station_id"],
+        "plan_eau": live.get("plan_eau"),
+        "distance_km": near.get("distance_km"),
+        "niveau_m": live.get("niveau_m"),
+        "debit_m3s": live.get("debit_m3s"),
+        "observed_at": live.get("observed_at"),
+        "trend": (live.get("history") or {}).get("trend") or None,
+        "meteo_hq": metrics or None,
+        "water_temp": water_temp or None,
+    }
+
+
+def _nearest_plan(zone_id: int, lat: float, lon: float) -> dict | None:
+    best: tuple[float, dict] | None = None
+    for loc in _load_locations(zone_id):
+        if loc.get("lat") is None or loc.get("lon") is None:
+            continue
+        d = haversine_km(lat, lon, float(loc["lat"]), float(loc["lon"]))
+        if d <= _SCOUT_PLAN_RADIUS_KM and (best is None or d < best[0]):
+            best = (d, loc)
+    if best is None:
+        return None
+    return {
+        "plan_id": best[1]["id"],
+        "nom": best[1].get("nom"),
+        "distance_km": round(best[0], 2),
+    }
+
+
+def scout_conditions(
+    lat: float,
+    lon: float,
+    *,
+    zone_id: int | None = None,
+    plan_id: int | None = None,
+    nom: str | None = None,
+    include_nearby_regs: bool = False,
+) -> dict:
+    """Noyau scout : météo, hydro proche, température station, espèces (guide + règlement)."""
+    out: dict = {"lat": lat, "lon": lon}
+    try:
+        out["weather"] = get_weather(lat, lon)
+    except Exception as exc:  # noqa: BLE001
+        out["weather"] = {"error": f"Météo indisponible : {exc}"}
+
+    try:
+        hydro = _scout_hydro(lat, lon)
+    except Exception as exc:  # noqa: BLE001
+        hydro = {"error": f"Hydro indisponible : {exc}"}
+    out["water_temp"] = hydro.pop("water_temp", None)
+    out["nearby_hydro"] = hydro
+    try:
+        out["hq_meteo"] = _nearest_hq_meteo(lat, lon)
+    except Exception as exc:  # noqa: BLE001
+        out["hq_meteo"] = {"error": f"Météo HQ indisponible : {exc}"}
+
+    from peche.guide_poisson.lookup import lookup_guide_poisson
+
+    guide = lookup_guide_poisson(zone_id=zone_id, nom=nom, lon=lon, lat=lat)
+    out["species_guide"] = {
+        k: guide[k] for k in ("site", "species", "message", "guide_url") if k in guide
+    }
+
+    if plan_id is not None and zone_id is not None:
+        out["species_regs"] = _species_regs(zone_id, plan_id)
+
+    if include_nearby_regs:
+        if zone_id is None:
+            out["nearby_plan"] = {"error_no_zone": "Zone de pêche inconnue : plan voisin non recherché."}
+        else:
+            near = _nearest_plan(zone_id, lat, lon)
+            if near is None:
+                out["nearby_plan"] = {
+                    "error_no_plan": f"Aucun plan RegPec à moins de {int(_SCOUT_PLAN_RADIUS_KM)} km."
+                }
+            else:
+                near["species_regs"] = _species_regs(zone_id, near["plan_id"])
+                out["nearby_plan"] = near
+    return out
+
+
+def scout_at_plan(plan_id: int, zone_id: int) -> dict:
+    """Conditions autour d'un plan d'eau : météo, hydro proche, espèces (guide + règlement du plan)."""
+    zerr = _zone_error(zone_id)
+    if zerr:
+        return zerr
+    loc = _find_location(zone_id, plan_id)
+    if loc is None:
+        return {"error": f"Plan {plan_id} introuvable dans zone {zone_id}."}
+    if loc.get("lat") is None or loc.get("lon") is None:
+        return {
+            "plan_id": plan_id,
+            "zone_id": zone_id,
+            "plan_nom": loc.get("nom"),
+            "error": "Coordonnées non disponibles pour ce plan d'eau.",
+        }
+    out = scout_conditions(
+        float(loc["lat"]),
+        float(loc["lon"]),
+        zone_id=zone_id,
+        plan_id=plan_id,
+        nom=loc.get("nom"),
+    )
+    return {"plan_id": plan_id, "zone_id": zone_id, "plan_nom": loc.get("nom"), **out}
 
 
 def search_barrages(query: str, limit: int = 8) -> list[dict]:
