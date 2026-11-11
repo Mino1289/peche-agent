@@ -95,6 +95,7 @@ To mount `/mcp` on the monolithic API (local dev without nginx): `MCP_ENABLED=1`
 | `GEMINI_API_KEY` | — | Optional server Gemini key |
 | `LLM_MODEL` | `gemini-3.5-flash-lite` | Primary model |
 | `LLM_MODEL_FALLBACK` | `gemini-3.1-flash-lite` | Fallback |
+| `LLM_THINKING_BUDGET` | `1024` | Budget de réflexion du modèle principal (tracé dans Langfuse) |
 | `DATA_DIR` | `./data` | Data root |
 | `PECHE_HOST` / `PECHE_PORT` | `127.0.0.1` / `8000` | Bind |
 | `MCP_ENABLED` | `0` | Mount `/mcp` on the API |

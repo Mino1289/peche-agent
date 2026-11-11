@@ -25,6 +25,8 @@ FALLBACK_MODEL = os.environ.get("LLM_MODEL_FALLBACK", "gemini-3.1-flash-lite")
 MAX_TOOL_TURNS = 10
 MAX_MODEL_RETRIES = 3
 _RETRY_BACKOFF_S = 0.6
+# Réflexion visible dans Langfuse (champ `thinking`). 0 = désactivée côté budget.
+THINKING_BUDGET = int(os.environ.get("LLM_THINKING_BUDGET") or "1024")
 
 
 def _make_client(api_key: str | None = None) -> genai.Client:
@@ -133,6 +135,9 @@ def _run_agent_turn(
         system_instruction=system_prompt,
         tools=tools_def,
         temperature=temperature,
+        thinking_config=types.ThinkingConfig(
+            include_thoughts=True, thinking_budget=THINKING_BUDGET
+        ),
     )
     map_tools.clear_map_actions()
 
@@ -182,8 +187,12 @@ def _run_agent_turn(
                     if not cand.content or not cand.content.parts:
                         continue
                     for part in cand.content.parts:
-                        if getattr(part, "thought", False) and getattr(part, "text", None):
-                            thoughts.append(part.text)
+                        if getattr(part, "thought", False):
+                            # Réflexion : tracée, jamais montrée à l'utilisateur.
+                            if getattr(part, "text", None):
+                                thoughts.append(part.text)
+                            model_parts.append(part)
+                            continue
                         if getattr(part, "text", None):
                             yield {"type": "text", "text": part.text}
                             model_parts.append(part)
