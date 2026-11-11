@@ -46,8 +46,10 @@ from peche.hydromet import (
     STATIONS_PATH,
     get_live_station,
     haversine_km,
+    _station_role,
     load_stations,
     nearest_station,
+    nearest_stations,
     search_stations_offline,
 )
 from peche.geocoding import geocode as _geocode
@@ -953,6 +955,27 @@ def _match_station_list(match: dict) -> list[dict]:
     return []
 
 
+def _plan_station_list(match: dict) -> list[dict]:
+    """Stations du plan ; sans match précalculé, rayon géo depuis les coords du plan.
+
+    shortcut: le match précalculé (data/hydromet/matches) est figé à sa
+    génération et ignore les stations ajoutées après (ex. HQ), d'où ce
+    fallback ; relancer le refresh des matches pour le corriger à la source.
+    """
+    stations = _match_station_list(match)
+    if stations or match.get("lat") is None or match.get("lon") is None:
+        return stations
+    try:
+        live = load_stations()
+    except FileNotFoundError:
+        return []
+    near = nearest_stations(
+        float(match["lat"]), float(match["lon"]), live,
+        radius_km=_SCOUT_HYDRO_RADIUS_KM,
+    )
+    return [{**s, "role": _station_role(s), "match_reason": "geo"} for s in near]
+
+
 def _filter_stations_by_metrics(
     stations: list[dict], metrics: str
 ) -> list[dict]:
@@ -988,7 +1011,7 @@ def get_hydromet_for_waterbody(
         }
 
     plan_nom = match.get("plan_nom", "")
-    station_meta = _filter_stations_by_metrics(_match_station_list(match), metrics)
+    station_meta = _filter_stations_by_metrics(_plan_station_list(match), metrics)
     if not station_meta:
         return {
             "plan_id": plan_id,
@@ -1061,7 +1084,7 @@ def get_hydromet_at_plan(plan_id: int, zone_id: int) -> dict:
             "zone_id": zone_id,
             "error": "Aucun matching offline pour ce plan (coords manquantes ?).",
         }
-    station_meta = _match_station_list(match)
+    station_meta = _plan_station_list(match)
     if not station_meta:
         return {
             "plan_id": plan_id,

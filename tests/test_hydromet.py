@@ -67,3 +67,21 @@ def test_normalize_feature_valid():
 
 def test_normalize_feature_invalid_geometry():
     assert _normalize_feature({"geometry": {"type": "LineString"}}) is None
+
+
+def test_plan_station_list_geo_fallback_when_match_empty(monkeypatch):
+    # Matching précalculé vide (périmé) : la station à ~12 km doit être trouvée via les coords du plan.
+    from peche import tools
+
+    live = [
+        {"station": "HQ-S-1-2921", "description": "Bersimis 1 Est", "plan_eau": "",
+         "lat": 49.6058, "lon": -70.1111, "niveau_m": 397.3, "debit_m3s": None},
+        {"station": "FAR", "description": "Loin", "plan_eau": "",
+         "lat": 40.0, "lon": -60.0, "niveau_m": 1.0, "debit_m3s": None},
+    ]
+    monkeypatch.setattr(tools, "load_stations", lambda: live)
+    match = {"plan_id": 10946, "lat": 49.541667, "lon": -70.239444, "stations": []}
+    stations = tools._plan_station_list(match)
+    assert [s["station"] for s in stations] == ["HQ-S-1-2921"]
+    assert stations[0]["role"] == "level"
+    assert stations[0]["match_reason"] == "geo"

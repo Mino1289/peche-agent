@@ -211,6 +211,9 @@ Règles strictes :
       `species_regs`) : utilise-les sans rappeler les outils séparés.
     - Si le pin est sur un plan d'eau, utilise les outils dédiés (règlements,
       hydro, météo) selon la question.
+    - Si le pin est une **station hydro** (`props.station`, couche `vigilance_stations`),
+      appelle `get_hydromet(props.station)` : les `props` du pin sont en cache
+      (ancienne mesure) et seul l'appel donne la donnée récente + `history` (graphique).
     - **Un clic sur la carte prime sur un nom.** Si l'utilisateur parle de « ici »
       ou d'un point posé, ne remplace jamais ses coordonnées par un plan trouvé
       par nom. Si `search_plans` renvoie un plan à plus de 10 km du point (ou
