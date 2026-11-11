@@ -489,10 +489,18 @@ details > summary::-webkit-details-marker {
 }
 
 .msg-user {
-  background: var(--surface-raised);
-  padding: 9px 13px;
   align-self: flex-end;
   max-width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.msg-user > .msg-body {
+  background: var(--surface-raised);
+  padding: 9px 13px;
+  border-radius: var(--radius-lg);
+  max-width: 100%;
 }
 
 .msg-assistant {
@@ -1152,6 +1160,38 @@ details > summary::-webkit-details-marker {
   margin: 6px 0 0;
   padding: 4px 10px;
   font-size: var(--text-xs);
+}
+
+.msg-tool-lines {
+  display: grid;
+  gap: 2px;
+  margin-top: 4px;
+}
+
+.msg-actions {
+  display: flex;
+  gap: 2px;
+  margin-top: 4px;
+}
+
+
+.btn-msg-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  color: var(--muted);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.btn-msg-action:hover {
+  color: inherit;
+  background: var(--surface-raised);
 }
 
 #chat-panel {

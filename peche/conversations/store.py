@@ -270,6 +270,35 @@ class ConversationStore:
                 (now, conversation_id),
             )
 
+    def truncate_from_user_turn(
+        self, conversation_id: str, ordinal: int, text: str
+    ) -> bool:
+        """Supprime le ``ordinal``-ième message utilisateur et tout ce qui suit.
+
+        Retourne False (sans rien modifier) si le message ne correspond pas à ``text``.
+        """
+        with self._connect() as conn:
+            rows = conn.execute(
+                "SELECT id, text FROM messages WHERE conversation_id = ? AND role = 'user' ORDER BY id",
+                (conversation_id,),
+            ).fetchall()
+            if ordinal >= len(rows) or rows[ordinal]["text"] != text:
+                return False
+            conn.execute(
+                "DELETE FROM messages WHERE conversation_id = ? AND id >= ?",
+                (conversation_id, rows[ordinal]["id"]),
+            )
+        # Historique Gemini : les tours utilisateur sont les Content avec du texte.
+        history = self.load_gemini_history(conversation_id)
+        user_turns = [
+            i
+            for i, c in enumerate(history)
+            if c.role == "user" and any(p.text is not None for p in (c.parts or []))
+        ]
+        if ordinal < len(user_turns):
+            self.save_gemini_history(conversation_id, history[: user_turns[ordinal]])
+        return True
+
     def touch(self, conversation_id: str) -> None:
         with self._connect() as conn:
             conn.execute(

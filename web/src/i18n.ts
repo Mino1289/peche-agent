@@ -18,6 +18,8 @@ type Messages = {
   toolsCount: (n: number) => string;
   errorPrefix: string;
   restoreMap: string;
+  copy: string;
+  regenerate: string;
   emptyTitle: string;
   emptyHint: string;
   prompt1: string;
@@ -176,6 +178,8 @@ const FR: Messages = {
   toolsCount: (n) => `${n} outil(s)`,
   errorPrefix: "Erreur",
   restoreMap: "Voir sur la carte",
+  copy: "Copier",
+  regenerate: "Régénérer",
   emptyTitle: "Assistant pêche Québec",
   emptyHint:
     "Posez une question sur les règlements, la météo, l'hydrométrie ou demandez d'afficher des couches sur la carte.",
@@ -342,6 +346,8 @@ const EN: Messages = {
   toolsCount: (n) => `${n} tool(s)`,
   errorPrefix: "Error",
   restoreMap: "View on map",
+  copy: "Copy",
+  regenerate: "Regenerate",
   emptyTitle: "Quebec fishing assistant",
   emptyHint:
     "Ask about regulations, weather, streamflow, or request map layers.",

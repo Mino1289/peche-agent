@@ -7,7 +7,7 @@ import logging
 from functools import lru_cache
 from typing import Any, Literal
 
-from fastapi import APIRouter, Header
+from fastapi import APIRouter, Header, HTTPException
 from fastapi.responses import StreamingResponse
 from google import genai
 from pydantic import BaseModel, Field
@@ -32,6 +32,8 @@ class ChatRequest(BaseModel):
     session_id: str | None = None
     map_state: dict[str, Any] | None = None
     locale: Literal["fr", "en"] | None = None
+    # Index (parmi les messages utilisateur) à partir duquel réécrire la réponse.
+    regenerate_from: int | None = Field(None, ge=0)
 
 
 def _sse_format(payload: dict) -> str:
@@ -183,6 +185,10 @@ def chat(
         )
 
     sid = _ensure_session(req.session_id)
+    if req.regenerate_from is not None and not _store().truncate_from_user_turn(
+        sid, req.regenerate_from, req.message
+    ):
+        raise HTTPException(status_code=409, detail="Message introuvable pour régénérer")
     return StreamingResponse(
         _stream_events(
             req.message,

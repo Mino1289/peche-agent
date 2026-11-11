@@ -14,6 +14,7 @@ export async function streamChat(
   sessionId: string | null,
   mapState: MapState,
   handlers: ChatHandlers,
+  regenerateFrom: number | null = null,
 ): Promise<string | null> {
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
@@ -31,6 +32,7 @@ export async function streamChat(
       session_id: sessionId,
       map_state: mapState,
       locale: localeForApi(),
+      regenerate_from: regenerateFrom,
     }),
   });
   if (!resp.ok || !resp.body) {

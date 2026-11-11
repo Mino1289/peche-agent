@@ -1,6 +1,7 @@
 /** Panneau chat + historique (sidebar gauche). */
 
-import type { ChatEvent, ChatMessage, MapState } from "./types";
+import type { ChatEvent, ChatMessage, MapPin, MapState } from "./types";
+import { toolLabels } from "./toolLabels";
 import type { MapController } from "./map";
 import {
   deleteConversation as deleteConversationApi,
@@ -21,8 +22,16 @@ import {
   setApiKey,
   type HealthInfo,
 } from "./settings";
+import { navigate, parseRoute } from "./router";
 
 const AI_STUDIO_URL = "https://aistudio.google.com/app/apikey";
+
+const SVG_ATTRS =
+  'viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+const ICON_COPY = `<svg ${SVG_ATTRS}><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+const ICON_CHECK = `<svg ${SVG_ATTRS}><polyline points="20 6 9 17 4 12"/></svg>`;
+const ICON_REGEN = `<svg ${SVG_ATTRS}><path d="M21 12a9 9 0 1 1-2.64-6.36L21 8"/><path d="M21 3v5h-5"/></svg>`;
+const ICON_PIN = `<svg ${SVG_ATTRS}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
 
 export class ChatPanel {
   private el: HTMLElement;
@@ -32,6 +41,7 @@ export class ChatPanel {
   private messages: ChatMessage[] = [];
   private running = false;
   private health: HealthInfo | null = null;
+  private ready: Promise<void>;
 
   constructor(el: HTMLElement, sidebar: HTMLElement, map: MapController) {
     this.el = el;
@@ -42,7 +52,40 @@ export class ChatPanel {
       this.renderShell();
       this.renderMessages();
     });
-    void this.init();
+    this.ready = this.init();
+  }
+
+  getSessionId(): string | null {
+    return this.sessionId;
+  }
+
+  /** Affiche une conversation (ou une nouvelle si null). N'écrit pas l'URL. */
+  async showConversation(id: string | null): Promise<void> {
+    await this.ready;
+    if (this.running) return;
+    if (!id) {
+      this.resetChat();
+      return;
+    }
+    const loaded = await loadConversation(id);
+    if (!loaded) {
+      navigate({ tab: "chat", id: null }, "replace");
+      this.resetChat();
+      return;
+    }
+    this.sessionId = id;
+    this.messages = loaded.messages;
+    this.renderMessages();
+    void this.refreshHistoryList();
+    if (loaded.map_state) await this.map.applyMapState(loaded.map_state);
+  }
+
+  private resetChat(): void {
+    this.sessionId = null;
+    this.messages = [];
+    this.renderMessages();
+    this.renderEmptyState();
+    void this.refreshHistoryList();
   }
 
   private async init(): Promise<void> {
@@ -63,11 +106,8 @@ export class ChatPanel {
       </div>
       <div id="history-list" class="history-list"></div>`;
     this.sidebar.querySelector("#btn-new-chat")!.addEventListener("click", () => {
-      this.sessionId = null;
-      this.messages = [];
-      this.renderMessages();
-      this.renderEmptyState();
-      void this.refreshHistoryList({ showLoading: true });
+      navigate({ tab: "chat", id: null });
+      this.resetChat();
     });
     void this.refreshHistoryList({ showLoading: true });
   }
@@ -101,14 +141,9 @@ export class ChatPanel {
             year: "numeric",
           });
       btn.innerHTML = `<span class="history-item-title">${escapeHtml(c.title)}</span><span class="history-item-meta">${escapeHtml(when)}, ${c.message_count} ${m.msgs}</span>`;
-      btn.addEventListener("click", async () => {
-        const loaded = await loadConversation(c.id);
-        if (!loaded) return;
-        this.sessionId = c.id;
-        this.messages = loaded.messages;
-        this.renderMessages();
-        if (loaded.map_state) await this.map.applyMapState(loaded.map_state);
-        void this.refreshHistoryList();
+      btn.addEventListener("click", () => {
+        navigate({ tab: "chat", id: c.id });
+        void this.showConversation(c.id);
       });
       const del = document.createElement("button");
       del.type = "button";
@@ -166,10 +201,8 @@ export class ChatPanel {
       return;
     }
     if (this.sessionId === id) {
-      this.sessionId = null;
-      this.messages = [];
-      this.renderMessages();
-      this.renderEmptyState();
+      navigate({ tab: "chat", id: null }, "replace");
+      this.resetChat();
     }
     if (list && !list.querySelector(".history-item-row")) {
       list.innerHTML = `<p class='muted history-empty'>${t().noConversations}</p>`;
@@ -372,21 +405,81 @@ export class ChatPanel {
     }
 
     if (msg.tools?.length) {
-      div.appendChild(this.buildToolsEl(msg.tools));
+      div.appendChild(this.buildToolsEl(msg.tools, msg.map_state?.pins));
     }
 
-    if (msg.map_state) {
-      const restore = document.createElement("button");
-      restore.type = "button";
-      restore.className = "btn-map-restore";
-      restore.textContent = m.restoreMap;
-      restore.addEventListener("click", (ev) => {
-        ev.stopPropagation();
-        void this.map.restoreMapStateFromChat(msg.map_state!, msg);
-      });
-      div.appendChild(restore);
-    }
+    const actions = this.buildMessageActions(index, msg);
+    if (actions) div.appendChild(actions);
     return div;
+  }
+
+  private buildMessageActions(index: number, msg: ChatMessage): HTMLElement | null {
+    const m = t();
+    const bar = document.createElement("div");
+    bar.className = "msg-actions";
+    const next = this.messages[index + 1];
+    const copyable = msg.role === "user" || !(this.running && index === this.messages.length - 1);
+    if (copyable && msg.text) {
+      bar.appendChild(
+        this.actionButton(ICON_COPY, m.copy, (btn) => void this.copyText(msg.text, btn)),
+      );
+    }
+    if (msg.role === "user" && !this.running && next?.role === "assistant" && next.text) {
+      bar.appendChild(
+        this.actionButton(ICON_REGEN, m.regenerate, () => void this.regenerate(index)),
+      );
+    }
+    if (msg.map_state) {
+      bar.appendChild(
+        this.actionButton(ICON_PIN, m.restoreMap, () => {
+          void this.map.restoreMapStateFromChat(msg.map_state!, msg);
+        }),
+      );
+    }
+    return bar.childElementCount ? bar : null;
+  }
+
+  private actionButton(
+    icon: string,
+    label: string,
+    onClick: (btn: HTMLButtonElement) => void,
+  ): HTMLButtonElement {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "btn-msg-action";
+    btn.title = label;
+    btn.setAttribute("aria-label", label);
+    btn.innerHTML = icon;
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      onClick(btn);
+    });
+    return btn;
+  }
+
+  private async copyText(text: string, btn: HTMLButtonElement): Promise<void> {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      return;
+    }
+    btn.innerHTML = ICON_CHECK;
+    window.setTimeout(() => {
+      btn.innerHTML = ICON_COPY;
+    }, 1500);
+  }
+
+  /** Réécrit la réponse au message `index` ; les messages suivants sont supprimés. */
+  private async regenerate(index: number): Promise<void> {
+    if (this.running || !this.sessionId) return;
+    if (!chatKeyAvailable(this.health)) {
+      this.showSettingsDialog();
+      return;
+    }
+    const text = this.messages[index].text;
+    const ordinal = this.messages.slice(0, index).filter((x) => x.role === "user").length;
+    this.messages = this.messages.slice(0, index);
+    await this.submit(text, ordinal);
   }
 
   private buildThinkingEl(show: boolean, usingTools = false): HTMLElement {
@@ -431,10 +524,26 @@ export class ChatPanel {
 
   private buildToolsEl(
     tools: NonNullable<ChatMessage["tools"]>,
+    pins: MapPin[] = [],
   ): HTMLDetailsElement {
     const details = document.createElement("details");
     details.className = "msg-tools";
     details.innerHTML = `<summary>${t().toolsCount(tools.length)}</summary>`;
+    if (!import.meta.env.DEV) {
+      // Prod : seulement les libellés lisibles (pas d'IDs ni de JSON brut).
+      const list = document.createElement("div");
+      list.className = "msg-tool-lines";
+      details.appendChild(list);
+      void toolLabels(tools, pins).then((labels) => {
+        list.innerHTML = "";
+        for (const label of labels) {
+          const line = document.createElement("div");
+          line.textContent = label;
+          list.appendChild(line);
+        }
+      });
+      return details;
+    }
     for (const tool of tools) {
       const pre = document.createElement("pre");
       const resultPreview =
@@ -489,7 +598,7 @@ export class ChatPanel {
 
     msgEl.querySelector(".msg-tools")?.remove();
     if (assistant.tools?.length) {
-      msgEl.appendChild(this.buildToolsEl(assistant.tools));
+      msgEl.appendChild(this.buildToolsEl(assistant.tools, this.map.getMapState().pins));
       if (this.running && !assistant.text) this.setAssistantThinking(true);
     }
     box.scrollTop = box.scrollHeight;
@@ -505,6 +614,10 @@ export class ChatPanel {
       return;
     }
     input.value = "";
+    await this.submit(text, null);
+  }
+
+  private async submit(text: string, regenerateFrom: number | null): Promise<void> {
     this.running = true;
     this.messages.push({ role: "user", text });
     const assistant: ChatMessage = { role: "assistant", text: "", tools: [] };
@@ -518,6 +631,9 @@ export class ChatPanel {
       onEvent: (ev: ChatEvent) => {
         if (ev.type === "session") {
           this.sessionId = ev.session_id;
+          if (parseRoute().tab === "chat") {
+            navigate({ tab: "chat", id: ev.session_id }, "replace");
+          }
           void this.refreshHistoryList();
         } else if (ev.type === "text") {
           assistant.text += ev.text;
@@ -537,7 +653,7 @@ export class ChatPanel {
           this.updateAssistantText(assistant);
         }
       },
-    });
+    }, regenerateFrom);
     assistant.map_state = this.map.getMapState();
     this.running = false;
     this.clearAssistantThinking();

@@ -52,3 +52,23 @@ def test_conversation_crud(tmp_db):
 
     assert tmp_db.delete_conversation(cid) is True
     assert tmp_db.get_conversation(cid) is None
+
+
+def test_truncate_from_user_turn(tmp_db):
+    cid = tmp_db.create_conversation()
+    tmp_db.append_exchange(cid, "Q1", "R1")
+    tmp_db.append_exchange(cid, "Q2", "R2")
+    tmp_db.save_gemini_history(
+        cid,
+        [
+            types.Content(role="user", parts=[types.Part(text="Q1")]),
+            types.Content(role="model", parts=[types.Part(text="R1")]),
+            types.Content(role="user", parts=[types.Part(text="Q2")]),
+            types.Content(role="model", parts=[types.Part(text="R2")]),
+        ],
+    )
+
+    assert tmp_db.truncate_from_user_turn(cid, 1, "wrong") is False
+    assert tmp_db.truncate_from_user_turn(cid, 1, "Q2") is True
+    assert [m["text"] for m in tmp_db.load_messages(cid)] == ["Q1", "R1"]
+    assert [c.parts[0].text for c in tmp_db.load_gemini_history(cid)] == ["Q1", "R1"]

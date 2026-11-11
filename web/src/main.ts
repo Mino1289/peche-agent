@@ -6,6 +6,7 @@ import { CatalogPanel } from "./catalogPanel";
 import { ChatPanel } from "./chatPanel";
 import { DetailPanel } from "./detailPanel";
 import { getLocale, onLocaleChange, setLocale, t } from "./i18n";
+import { navigate, parseRoute, type Route } from "./router";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 app.classList.add("view-map");
@@ -65,10 +66,31 @@ function updateAppShellLocale(): void {
 function bindTabs(): void {
   for (const btn of app.querySelectorAll<HTMLButtonElement>(".tab-btn")) {
     btn.addEventListener("click", () => {
-      const tab = btn.dataset.tab === "chat" ? "chat" : "map";
-      showTab(tab);
+      if (btn.dataset.tab === "chat") {
+        goTo({ tab: "chat", id: controllers.chatPanel.getSessionId() });
+      } else {
+        goTo({ tab: "map" });
+      }
     });
   }
+}
+
+/** Affiche une route (onglet + conversation) sans toucher à l'historique. */
+function applyRoute(route: Route): void {
+  if (route.tab === "map") {
+    showTab("map");
+    return;
+  }
+  showTab("chat");
+  if (route.id !== controllers.chatPanel.getSessionId()) {
+    void controllers.chatPanel.showConversation(route.id);
+  }
+}
+
+/** Change de route et l'inscrit dans l'historique navigateur (avant/arrière). */
+function goTo(route: Route): void {
+  navigate(route, "push");
+  applyRoute(route);
 }
 
 function initControllers(): Controllers {
@@ -140,7 +162,12 @@ if (import.meta.env.DEV) {
 bindMapMoveRefresh();
 loadCatalog();
 
-window.addEventListener("peche:show-map", () => showTab("map"));
+window.addEventListener("peche:show-map", () => goTo({ tab: "map" }));
+window.addEventListener("popstate", () => applyRoute(parseRoute()));
+
+const initialRoute = parseRoute();
+navigate(initialRoute, "replace");
+applyRoute(initialRoute);
 
 onLocaleChange(() => {
   updateAppShellLocale();
