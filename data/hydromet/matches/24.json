@@ -3,7 +3,7 @@
     "zone_id": 24,
     "radius_km": 25.0,
     "nb_with_coords": 70,
-    "nb_station_matched": 0
+    "nb_station_matched": 46
   },
   "matches": [
     {
@@ -11,9 +11,27 @@
       "plan_nom": "Baie Amichinatwayasich",
       "lat": 53.871667,
       "lon": -77.006111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15088",
+          "plan_eau": "",
+          "description": "Rivière Kapisichikamastikw (CM3E)",
+          "lat": 53.9321,
+          "lon": -76.7411,
+          "distance_km": 18.62,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15088",
+      "station": {
+        "id": "HQ-S-1-15088",
+        "plan_eau": "",
+        "description": "Rivière Kapisichikamastikw (CM3E)",
+        "lat": 53.9321,
+        "lon": -76.7411,
+        "distance_km": 18.62
+      }
     },
     {
       "plan_id": 1894,
@@ -29,9 +47,47 @@
       "plan_nom": "Baie sans nom",
       "lat": 53.761028,
       "lon": -73.762083,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3022",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale aval",
+          "lat": 53.8857,
+          "lon": -73.4676,
+          "distance_km": 23.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-122",
+          "plan_eau": "",
+          "description": "La Grande-4",
+          "lat": 53.8862,
+          "lon": -73.4668,
+          "distance_km": 23.86,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3021",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale amont",
+          "lat": 53.8861,
+          "lon": -73.4619,
+          "distance_km": 24.12,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3022",
+      "station": {
+        "id": "HQ-S-1-3022",
+        "plan_eau": "",
+        "description": "La Grande-4 Centrale aval",
+        "lat": 53.8857,
+        "lon": -73.4676,
+        "distance_km": 23.79
+      }
     },
     {
       "plan_id": 1898,
@@ -47,9 +103,37 @@
       "plan_nom": "Lac Achan Amikap",
       "lat": 53.516667,
       "lon": -77.723611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 16.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 17.6,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 16.66
+      }
     },
     {
       "plan_id": 1859,
@@ -83,9 +167,47 @@
       "plan_nom": "Lac Bison",
       "lat": 53.783333,
       "lon": -75.916667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2912",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale amont",
+          "lat": 53.728266,
+          "lon": -75.974122,
+          "distance_km": 7.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3020",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale aval",
+          "lat": 53.7289,
+          "lon": -75.9871,
+          "distance_km": 7.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-123",
+          "plan_eau": "",
+          "description": "La Grande-3",
+          "lat": 53.7275,
+          "lon": -75.9875,
+          "distance_km": 7.76,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2912",
+      "station": {
+        "id": "HQ-S-1-2912",
+        "plan_eau": "",
+        "description": "La Grande-3 Centrale amont",
+        "lat": 53.728266,
+        "lon": -75.974122,
+        "distance_km": 7.19
+      }
     },
     {
       "plan_id": 1651,
@@ -101,9 +223,37 @@
       "plan_nom": "Lac de la Montagne du Pin",
       "lat": 53.971944,
       "lon": -75.622778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2913",
+          "plan_eau": "",
+          "description": "La Grande-3 TA10 (CMXI)",
+          "lat": 53.9311,
+          "lon": -75.3869,
+          "distance_km": 16.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11132",
+          "plan_eau": "",
+          "description": "Rivière Griault",
+          "lat": 54.0414,
+          "lon": -75.3189,
+          "distance_km": 21.31,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2913",
+      "station": {
+        "id": "HQ-S-1-2913",
+        "plan_eau": "",
+        "description": "La Grande-3 TA10 (CMXI)",
+        "lat": 53.9311,
+        "lon": -75.3869,
+        "distance_km": 16.09
+      }
     },
     {
       "plan_id": 1652,
@@ -119,63 +269,309 @@
       "plan_nom": "Lac des Merisiers",
       "lat": 53.7,
       "lon": -76.066667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-123",
+          "plan_eau": "",
+          "description": "La Grande-3",
+          "lat": 53.7275,
+          "lon": -75.9875,
+          "distance_km": 6.04,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3020",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale aval",
+          "lat": 53.7289,
+          "lon": -75.9871,
+          "distance_km": 6.14,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2912",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale amont",
+          "lat": 53.728266,
+          "lon": -75.974122,
+          "distance_km": 6.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7722",
+          "plan_eau": "",
+          "description": "La Grande-3 Taïga (CMXT)",
+          "lat": 53.5653,
+          "lon": -76.1152,
+          "distance_km": 15.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2915",
+          "plan_eau": "",
+          "description": "La Grande-3 TA32",
+          "lat": 53.4836,
+          "lon": -76.0097,
+          "distance_km": 24.35,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-123",
+      "station": {
+        "id": "HQ-I-3-123",
+        "plan_eau": "",
+        "description": "La Grande-3",
+        "lat": 53.7275,
+        "lon": -75.9875,
+        "distance_km": 6.04
+      }
     },
     {
       "plan_id": 1660,
       "plan_nom": "Lac des Oeufs",
       "lat": 54.548333,
       "lon": -72.4525,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15838",
+          "plan_eau": "",
+          "description": "Lac des Oeufs",
+          "lat": 54.52756,
+          "lon": -72.33416,
+          "distance_km": 7.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7718",
+          "plan_eau": "",
+          "description": "Barrage Vincelotte (CMVN)",
+          "lat": 54.3368,
+          "lon": -72.5121,
+          "distance_km": 23.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15838",
+      "station": {
+        "id": "HQ-S-1-15838",
+        "plan_eau": "",
+        "description": "Lac des Oeufs",
+        "lat": 54.52756,
+        "lon": -72.33416,
+        "distance_km": 7.98
+      }
     },
     {
       "plan_id": 1880,
       "plan_nom": "Lac des Patriotes",
       "lat": 53.816667,
       "lon": -72.65,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15085",
+          "plan_eau": "",
+          "description": "LG4 Apport (CM3Z)",
+          "lat": 53.7599,
+          "lon": -72.7903,
+          "distance_km": 11.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7280",
+          "plan_eau": "",
+          "description": "Rivière Polaris (CMPW)",
+          "lat": 53.723611,
+          "lon": -72.860833,
+          "distance_km": 17.29,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15085",
+      "station": {
+        "id": "HQ-S-1-15085",
+        "plan_eau": "",
+        "description": "LG4 Apport (CM3Z)",
+        "lat": 53.7599,
+        "lon": -72.7903,
+        "distance_km": 11.17
+      }
     },
     {
       "plan_id": 1653,
       "plan_nom": "Lac Desaulniers",
       "lat": 53.568056,
       "lon": -77.571944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 5.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 6.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3017",
+          "plan_eau": "",
+          "description": "La Grande-2-A Centrale amont",
+          "lat": 53.7773,
+          "lon": -77.5499,
+          "distance_km": 23.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-129",
+          "plan_eau": "",
+          "description": "Robert-Bourassa",
+          "lat": 53.7804,
+          "lon": -77.5487,
+          "distance_km": 23.66,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3015",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale amont",
+          "lat": 53.7799,
+          "lon": -77.5313,
+          "distance_km": 23.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2910",
+          "plan_eau": "",
+          "description": "Robert-Bourassa",
+          "lat": 53.775431,
+          "lon": -77.47101,
+          "distance_km": 24.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7714",
+          "plan_eau": "",
+          "description": "Barrage Robert-Bourassa (CMBU)",
+          "lat": 53.7769,
+          "lon": -77.4737,
+          "distance_km": 24.11,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 5.13
+      }
     },
     {
       "plan_id": 1852,
       "plan_nom": "Lac Duncan à l'exception des eaux suivantes : la partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire",
       "lat": 53.516667,
       "lon": -77.95,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14706",
+          "plan_eau": "",
+          "description": "Nécopastic (CM3P)",
+          "lat": 53.6786,
+          "lon": -78.1568,
+          "distance_km": 22.59,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14706",
+      "station": {
+        "id": "HQ-S-1-14706",
+        "plan_eau": "",
+        "description": "Nécopastic (CM3P)",
+        "lat": 53.6786,
+        "lon": -78.1568,
+        "distance_km": 22.59
+      }
     },
     {
       "plan_id": 1853,
       "plan_nom": "Lac Duncan La partie du lac Duncan comprise entre un point situé à 500 m en aval de l'embouchure du tributaire situé à 53°31' N., 77°57' O. et un point situé à 7 km en amont de ce tributaire",
       "lat": 53.516667,
       "lon": -77.95,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14706",
+          "plan_eau": "",
+          "description": "Nécopastic (CM3P)",
+          "lat": 53.6786,
+          "lon": -78.1568,
+          "distance_km": 22.59,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14706",
+      "station": {
+        "id": "HQ-S-1-14706",
+        "plan_eau": "",
+        "description": "Nécopastic (CM3P)",
+        "lat": 53.6786,
+        "lon": -78.1568,
+        "distance_km": 22.59
+      }
     },
     {
       "plan_id": 1871,
       "plan_nom": "Lac Ekomiak",
       "lat": 53.377222,
       "lon": -77.5,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 23.75,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 23.75
+      }
     },
     {
       "plan_id": 1669,
@@ -191,54 +587,222 @@
       "plan_nom": "Lac Guyer",
       "lat": 53.528056,
       "lon": -75.1575,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15082",
+          "plan_eau": "",
+          "description": "Lac Guyer (CM3F)",
+          "lat": 53.5198,
+          "lon": -74.9105,
+          "distance_km": 16.35,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15082",
+      "station": {
+        "id": "HQ-S-1-15082",
+        "plan_eau": "",
+        "description": "Lac Guyer (CM3F)",
+        "lat": 53.5198,
+        "lon": -74.9105,
+        "distance_km": 16.35
+      }
     },
     {
       "plan_id": 1906,
       "plan_nom": "Lac Hélène la partie comprise dans un rayon de 200 m situé en aval de l'embouchure de la rivière au Castor",
       "lat": 53.436944,
       "lon": -77.505278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 17.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 19.21,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 17.11
+      }
     },
     {
       "plan_id": 1873,
       "plan_nom": "Lac Hervé",
       "lat": 54.456389,
       "lon": -71.229722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7242",
+          "plan_eau": "",
+          "description": "Fontanges (CMFE)",
+          "lat": 54.5548,
+          "lon": -71.1798,
+          "distance_km": 11.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15353",
+          "plan_eau": "",
+          "description": "Sheshamush (CM4P)",
+          "lat": 54.4661,
+          "lon": -71.4283,
+          "distance_km": 12.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-119",
+          "plan_eau": "",
+          "description": "Laforge-2",
+          "lat": 54.5908,
+          "lon": -71.2788,
+          "distance_km": 15.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3009",
+          "plan_eau": "",
+          "description": "Laforge-2 Centrale aval",
+          "lat": 54.594,
+          "lon": -71.2752,
+          "distance_km": 15.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3008",
+          "plan_eau": "",
+          "description": "Laforge-2 Centrale amont",
+          "lat": 54.5942,
+          "lon": -71.2739,
+          "distance_km": 15.59,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7242",
+      "station": {
+        "id": "HQ-S-1-7242",
+        "plan_eau": "",
+        "description": "Fontanges (CMFE)",
+        "lat": 54.5548,
+        "lon": -71.1798,
+        "distance_km": 11.41
+      }
     },
     {
       "plan_id": 1654,
       "plan_nom": "Lac Hiver",
       "lat": 54.05,
       "lon": -71.95,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15348",
+          "plan_eau": "",
+          "description": "L'Hiver (CM4K)",
+          "lat": 54.0413,
+          "lon": -71.7874,
+          "distance_km": 10.66,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15348",
+      "station": {
+        "id": "HQ-S-1-15348",
+        "plan_eau": "",
+        "description": "L'Hiver (CM4K)",
+        "lat": 54.0413,
+        "lon": -71.7874,
+        "distance_km": 10.66
+      }
     },
     {
       "plan_id": 1874,
       "plan_nom": "Lac Kachinukamach",
       "lat": 53.300833,
       "lon": -77.145833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15087",
+          "plan_eau": "",
+          "description": "Rivière Amiskw Amistaywat (CM3D)",
+          "lat": 53.1353,
+          "lon": -77.2591,
+          "distance_km": 19.89,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15087",
+      "station": {
+        "id": "HQ-S-1-15087",
+        "plan_eau": "",
+        "description": "Rivière Amiskw Amistaywat (CM3D)",
+        "lat": 53.1353,
+        "lon": -77.2591,
+        "distance_km": 19.89
+      }
     },
     {
       "plan_id": 1875,
       "plan_nom": "Lac Kachipinikaw",
       "lat": 53.445278,
       "lon": -77.696944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 20.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 22.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 20.59
+      }
     },
     {
       "plan_id": 1673,
@@ -272,9 +836,37 @@
       "plan_nom": "Lac Kowkatehkakmow",
       "lat": 53.458056,
       "lon": -77.4375,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 15.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 17.5,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 15.41
+      }
     },
     {
       "plan_id": 2436,
@@ -290,9 +882,67 @@
       "plan_nom": "Lac Lutrin",
       "lat": 53.666667,
       "lon": -76.066667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-123",
+          "plan_eau": "",
+          "description": "La Grande-3",
+          "lat": 53.7275,
+          "lon": -75.9875,
+          "distance_km": 8.54,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3020",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale aval",
+          "lat": 53.7289,
+          "lon": -75.9871,
+          "distance_km": 8.68,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2912",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale amont",
+          "lat": 53.728266,
+          "lon": -75.974122,
+          "distance_km": 9.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7722",
+          "plan_eau": "",
+          "description": "La Grande-3 Taïga (CMXT)",
+          "lat": 53.5653,
+          "lon": -76.1152,
+          "distance_km": 11.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2915",
+          "plan_eau": "",
+          "description": "La Grande-3 TA32",
+          "lat": 53.4836,
+          "lon": -76.0097,
+          "distance_km": 20.7,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-123",
+      "station": {
+        "id": "HQ-I-3-123",
+        "plan_eau": "",
+        "description": "La Grande-3",
+        "lat": 53.7275,
+        "lon": -75.9875,
+        "distance_km": 8.54
+      }
     },
     {
       "plan_id": 1877,
@@ -335,9 +985,27 @@
       "plan_nom": "Lac Nitiwapisunan",
       "lat": 53.056667,
       "lon": -77.349167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15087",
+          "plan_eau": "",
+          "description": "Rivière Amiskw Amistaywat (CM3D)",
+          "lat": 53.1353,
+          "lon": -77.2591,
+          "distance_km": 10.61,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15087",
+      "station": {
+        "id": "HQ-S-1-15087",
+        "plan_eau": "",
+        "description": "Rivière Amiskw Amistaywat (CM3D)",
+        "lat": 53.1353,
+        "lon": -77.2591,
+        "distance_km": 10.61
+      }
     },
     {
       "plan_id": 1659,
@@ -353,18 +1021,64 @@
       "plan_nom": "Lac Orsigny",
       "lat": 53.725833,
       "lon": -72.588333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15085",
+          "plan_eau": "",
+          "description": "LG4 Apport (CM3Z)",
+          "lat": 53.7599,
+          "lon": -72.7903,
+          "distance_km": 13.81,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7280",
+          "plan_eau": "",
+          "description": "Rivière Polaris (CMPW)",
+          "lat": 53.723611,
+          "lon": -72.860833,
+          "distance_km": 17.93,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15085",
+      "station": {
+        "id": "HQ-S-1-15085",
+        "plan_eau": "",
+        "description": "LG4 Apport (CM3Z)",
+        "lat": 53.7599,
+        "lon": -72.7903,
+        "distance_km": 13.81
+      }
     },
     {
       "plan_id": 1661,
       "plan_nom": "Lac Petit lac des Pins",
       "lat": 53.923333,
       "lon": -75.744167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2913",
+          "plan_eau": "",
+          "description": "La Grande-3 TA10 (CMXI)",
+          "lat": 53.9311,
+          "lon": -75.3869,
+          "distance_km": 23.41,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2913",
+      "station": {
+        "id": "HQ-S-1-2913",
+        "plan_eau": "",
+        "description": "La Grande-3 TA10 (CMXI)",
+        "lat": 53.9311,
+        "lon": -75.3869,
+        "distance_km": 23.41
+      }
     },
     {
       "plan_id": 2439,
@@ -380,9 +1094,57 @@
       "plan_nom": "Lac Polaris",
       "lat": 53.802778,
       "lon": -72.881111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15085",
+          "plan_eau": "",
+          "description": "LG4 Apport (CM3Z)",
+          "lat": 53.7599,
+          "lon": -72.7903,
+          "distance_km": 7.64,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7280",
+          "plan_eau": "",
+          "description": "Rivière Polaris (CMPW)",
+          "lat": 53.723611,
+          "lon": -72.860833,
+          "distance_km": 8.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2918",
+          "plan_eau": "",
+          "description": "La Grande-4 Sud",
+          "lat": 53.8264,
+          "lon": -73.1136,
+          "distance_km": 15.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2917",
+          "plan_eau": "",
+          "description": "La Grande-4 Est (CMXE)",
+          "lat": 53.9597,
+          "lon": -73.0017,
+          "distance_km": 19.16,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15085",
+      "station": {
+        "id": "HQ-S-1-15085",
+        "plan_eau": "",
+        "description": "LG4 Apport (CM3Z)",
+        "lat": 53.7599,
+        "lon": -72.7903,
+        "distance_km": 7.64
+      }
     },
     {
       "plan_id": 2440,
@@ -398,54 +1160,252 @@
       "plan_nom": "Lac Saint-Joseph",
       "lat": 53.833333,
       "lon": -73.583333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3022",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale aval",
+          "lat": 53.8857,
+          "lon": -73.4676,
+          "distance_km": 9.57,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-122",
+          "plan_eau": "",
+          "description": "La Grande-4",
+          "lat": 53.8862,
+          "lon": -73.4668,
+          "distance_km": 9.64,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3021",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale amont",
+          "lat": 53.8861,
+          "lon": -73.4619,
+          "distance_km": 9.89,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3022",
+      "station": {
+        "id": "HQ-S-1-3022",
+        "plan_eau": "",
+        "description": "La Grande-4 Centrale aval",
+        "lat": 53.8857,
+        "lon": -73.4676,
+        "distance_km": 9.57
+      }
     },
     {
       "plan_id": 1678,
       "plan_nom": "Lac Sakami",
       "lat": 53.251944,
       "lon": -76.761389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3001",
+          "plan_eau": "",
+          "description": "Lac Sakami",
+          "lat": 53.460278,
+          "lon": -76.708611,
+          "distance_km": 23.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3001",
+      "station": {
+        "id": "HQ-S-1-3001",
+        "plan_eau": "",
+        "description": "Lac Sakami",
+        "lat": 53.460278,
+        "lon": -76.708611,
+        "distance_km": 23.43
+      }
     },
     {
       "plan_id": 2466,
       "plan_nom": "Lac Sans nom",
       "lat": 53.760833,
       "lon": -73.449167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3022",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale aval",
+          "lat": 53.8857,
+          "lon": -73.4676,
+          "distance_km": 13.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3021",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale amont",
+          "lat": 53.8861,
+          "lon": -73.4619,
+          "distance_km": 13.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-122",
+          "plan_eau": "",
+          "description": "La Grande-4",
+          "lat": 53.8862,
+          "lon": -73.4668,
+          "distance_km": 13.99,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2918",
+          "plan_eau": "",
+          "description": "La Grande-4 Sud",
+          "lat": 53.8264,
+          "lon": -73.1136,
+          "distance_km": 23.22,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3022",
+      "station": {
+        "id": "HQ-S-1-3022",
+        "plan_eau": "",
+        "description": "La Grande-4 Centrale aval",
+        "lat": 53.8857,
+        "lon": -73.4676,
+        "distance_km": 13.94
+      }
     },
     {
       "plan_id": 2467,
       "plan_nom": "Lac Sans nom",
       "lat": 53.762778,
       "lon": -73.509444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3022",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale aval",
+          "lat": 53.8857,
+          "lon": -73.4676,
+          "distance_km": 13.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-122",
+          "plan_eau": "",
+          "description": "La Grande-4",
+          "lat": 53.8862,
+          "lon": -73.4668,
+          "distance_km": 14.01,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3021",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale amont",
+          "lat": 53.8861,
+          "lon": -73.4619,
+          "distance_km": 14.06,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3022",
+      "station": {
+        "id": "HQ-S-1-3022",
+        "plan_eau": "",
+        "description": "La Grande-4 Centrale aval",
+        "lat": 53.8857,
+        "lon": -73.4676,
+        "distance_km": 13.94
+      }
     },
     {
       "plan_id": 2814,
       "plan_nom": "Lac Sans nom",
       "lat": 54.116667,
       "lon": -71.678056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15348",
+          "plan_eau": "",
+          "description": "L'Hiver (CM4K)",
+          "lat": 54.0413,
+          "lon": -71.7874,
+          "distance_km": 11.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7272",
+          "plan_eau": "",
+          "description": "Lac Vinet",
+          "lat": 54.2707,
+          "lon": -71.7479,
+          "distance_km": 17.72,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15348",
+      "station": {
+        "id": "HQ-S-1-15348",
+        "plan_eau": "",
+        "description": "L'Hiver (CM4K)",
+        "lat": 54.0413,
+        "lon": -71.7874,
+        "distance_km": 11.01
+      }
     },
     {
       "plan_id": 1666,
       "plan_nom": "Lac sans nom",
       "lat": 53.490278,
       "lon": -77.28,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 18.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 20.09,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 18.57
+      }
     },
     {
       "plan_id": 1857,
@@ -461,27 +1421,121 @@
       "plan_nom": "Lac sans nom",
       "lat": 53.6,
       "lon": -74.566667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15082",
+          "plan_eau": "",
+          "description": "Lac Guyer (CM3F)",
+          "lat": 53.5198,
+          "lon": -74.9105,
+          "distance_km": 24.4,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15082",
+      "station": {
+        "id": "HQ-S-1-15082",
+        "plan_eau": "",
+        "description": "Lac Guyer (CM3F)",
+        "lat": 53.5198,
+        "lon": -74.9105,
+        "distance_km": 24.4
+      }
     },
     {
       "plan_id": 1648,
       "plan_nom": "Lac sans nom",
       "lat": 53.723611,
       "lon": -72.951389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7280",
+          "plan_eau": "",
+          "description": "Rivière Polaris (CMPW)",
+          "lat": 53.723611,
+          "lon": -72.860833,
+          "distance_km": 5.96,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15085",
+          "plan_eau": "",
+          "description": "LG4 Apport (CM3Z)",
+          "lat": 53.7599,
+          "lon": -72.7903,
+          "distance_km": 11.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2918",
+          "plan_eau": "",
+          "description": "La Grande-4 Sud",
+          "lat": 53.8264,
+          "lon": -73.1136,
+          "distance_km": 15.63,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7280",
+      "station": {
+        "id": "HQ-S-1-7280",
+        "plan_eau": "",
+        "description": "Rivière Polaris (CMPW)",
+        "lat": 53.723611,
+        "lon": -72.860833,
+        "distance_km": 5.96
+      }
     },
     {
       "plan_id": 3005,
       "plan_nom": "Lac sans nom",
       "lat": 53.729722,
       "lon": -73.019722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7280",
+          "plan_eau": "",
+          "description": "Rivière Polaris (CMPW)",
+          "lat": 53.723611,
+          "lon": -72.860833,
+          "distance_km": 10.47,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2918",
+          "plan_eau": "",
+          "description": "La Grande-4 Sud",
+          "lat": 53.8264,
+          "lon": -73.1136,
+          "distance_km": 12.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15085",
+          "plan_eau": "",
+          "description": "LG4 Apport (CM3Z)",
+          "lat": 53.7599,
+          "lon": -72.7903,
+          "distance_km": 15.46,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7280",
+      "station": {
+        "id": "HQ-S-1-7280",
+        "plan_eau": "",
+        "description": "Rivière Polaris (CMPW)",
+        "lat": 53.723611,
+        "lon": -72.860833,
+        "distance_km": 10.47
+      }
     },
     {
       "plan_id": 2441,
@@ -497,27 +1551,181 @@
       "plan_nom": "Lac Thomas",
       "lat": 53.816667,
       "lon": -73.533333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3022",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale aval",
+          "lat": 53.8857,
+          "lon": -73.4676,
+          "distance_km": 8.8,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-122",
+          "plan_eau": "",
+          "description": "La Grande-4",
+          "lat": 53.8862,
+          "lon": -73.4668,
+          "distance_km": 8.88,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3021",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale amont",
+          "lat": 53.8861,
+          "lon": -73.4619,
+          "distance_km": 9.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3022",
+      "station": {
+        "id": "HQ-S-1-3022",
+        "plan_eau": "",
+        "description": "La Grande-4 Centrale aval",
+        "lat": 53.8857,
+        "lon": -73.4676,
+        "distance_km": 8.8
+      }
     },
     {
       "plan_id": 1882,
       "plan_nom": "Lac Tilly",
       "lat": 53.957778,
       "lon": -73.958056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11102",
+          "plan_eau": "",
+          "description": "Rivière Salleneuve",
+          "lat": 53.9244,
+          "lon": -74.2764,
+          "distance_km": 21.16,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15077",
+          "plan_eau": "",
+          "description": "Colline Captel (CM3G)",
+          "lat": 53.9245,
+          "lon": -74.2778,
+          "distance_km": 21.25,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11102",
+      "station": {
+        "id": "HQ-S-1-11102",
+        "plan_eau": "",
+        "description": "Rivière Salleneuve",
+        "lat": 53.9244,
+        "lon": -74.2764,
+        "distance_km": 21.16
+      }
     },
     {
       "plan_id": 1679,
       "plan_nom": "Lac Utaunanis",
       "lat": 53.903889,
       "lon": -77.5075,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3018",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale aval est",
+          "lat": 53.7935,
+          "lon": -77.5329,
+          "distance_km": 12.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3019",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale aval ouest",
+          "lat": 53.7933,
+          "lon": -77.5383,
+          "distance_km": 12.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3016",
+          "plan_eau": "",
+          "description": "La Grande-2-A Centrale aval",
+          "lat": 53.7949,
+          "lon": -77.5552,
+          "distance_km": 12.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3015",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale amont",
+          "lat": 53.7799,
+          "lon": -77.5313,
+          "distance_km": 13.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-129",
+          "plan_eau": "",
+          "description": "Robert-Bourassa",
+          "lat": 53.7804,
+          "lon": -77.5487,
+          "distance_km": 13.99,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7714",
+          "plan_eau": "",
+          "description": "Barrage Robert-Bourassa (CMBU)",
+          "lat": 53.7769,
+          "lon": -77.4737,
+          "distance_km": 14.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3017",
+          "plan_eau": "",
+          "description": "La Grande-2-A Centrale amont",
+          "lat": 53.7773,
+          "lon": -77.5499,
+          "distance_km": 14.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2910",
+          "plan_eau": "",
+          "description": "Robert-Bourassa",
+          "lat": 53.775431,
+          "lon": -77.47101,
+          "distance_km": 14.48,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3018",
+      "station": {
+        "id": "HQ-S-1-3018",
+        "plan_eau": "",
+        "description": "Robert-Bourassa Centrale aval est",
+        "lat": 53.7935,
+        "lon": -77.5329,
+        "distance_km": 12.39
+      }
     },
     {
       "plan_id": 1681,
@@ -533,45 +1741,225 @@
       "plan_nom": "Lac Yasinski * Entre un point situé à 450 m en aval de la route de la Baie-James et un point situé à 90 m en amont de cette route. * Entre un point situé à 500 m en aval de l'embouchure du tributaire situé à",
       "lat": 53.266667,
       "lon": -77.433333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15087",
+          "plan_eau": "",
+          "description": "Rivière Amiskw Amistaywat (CM3D)",
+          "lat": 53.1353,
+          "lon": -77.2591,
+          "distance_km": 18.66,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15087",
+      "station": {
+        "id": "HQ-S-1-15087",
+        "plan_eau": "",
+        "description": "Rivière Amiskw Amistaywat (CM3D)",
+        "lat": 53.1353,
+        "lon": -77.2591,
+        "distance_km": 18.66
+      }
     },
     {
       "plan_id": 2224,
       "plan_nom": "Passe Anatwayach - La partie comprise entre un point situé à",
       "lat": 54.051389,
       "lon": -76.078889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2911",
+          "plan_eau": "",
+          "description": "LG-2 Nord-Est",
+          "lat": 54.1431,
+          "lon": -76.2533,
+          "distance_km": 15.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7300",
+          "plan_eau": "",
+          "description": "Rivière Kanaaupscow (CMRK)",
+          "lat": 54.2419,
+          "lon": -76.1564,
+          "distance_km": 21.78,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2911",
+      "station": {
+        "id": "HQ-S-1-2911",
+        "plan_eau": "",
+        "description": "LG-2 Nord-Est",
+        "lat": 54.1431,
+        "lon": -76.2533,
+        "distance_km": 15.28
+      }
     },
     {
       "plan_id": 2226,
       "plan_nom": "Passe Pikwahipanan - La partie comprise entre un point situé à",
       "lat": 53.878333,
       "lon": -76.193889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3020",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale aval",
+          "lat": 53.7289,
+          "lon": -75.9871,
+          "distance_km": 21.46,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-123",
+          "plan_eau": "",
+          "description": "La Grande-3",
+          "lat": 53.7275,
+          "lon": -75.9875,
+          "distance_km": 21.56,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2912",
+          "plan_eau": "",
+          "description": "La Grande-3 Centrale amont",
+          "lat": 53.728266,
+          "lon": -75.974122,
+          "distance_km": 22.06,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3020",
+      "station": {
+        "id": "HQ-S-1-3020",
+        "plan_eau": "",
+        "description": "La Grande-3 Centrale aval",
+        "lat": 53.7289,
+        "lon": -75.9871,
+        "distance_km": 21.46
+      }
     },
     {
       "plan_id": 1888,
       "plan_nom": "Réservoir Laforge 1",
       "lat": 54.351111,
       "lon": -72.139444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15838",
+          "plan_eau": "",
+          "description": "Lac des Oeufs",
+          "lat": 54.52756,
+          "lon": -72.33416,
+          "distance_km": 23.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7718",
+          "plan_eau": "",
+          "description": "Barrage Vincelotte (CMVN)",
+          "lat": 54.3368,
+          "lon": -72.5121,
+          "distance_km": 24.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2920",
+          "plan_eau": "",
+          "description": "Vincelotte (CQVI, 092725)",
+          "lat": 54.2402,
+          "lon": -72.4618,
+          "distance_km": 24.28,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15838",
+      "station": {
+        "id": "HQ-S-1-15838",
+        "plan_eau": "",
+        "description": "Lac des Oeufs",
+        "lat": 54.52756,
+        "lon": -72.33416,
+        "distance_km": 23.31
+      }
     },
     {
       "plan_id": 1886,
       "plan_nom": "Réservoir LG- 4",
       "lat": 53.900833,
       "lon": -73.250833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2918",
+          "plan_eau": "",
+          "description": "La Grande-4 Sud",
+          "lat": 53.8264,
+          "lon": -73.1136,
+          "distance_km": 12.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3021",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale amont",
+          "lat": 53.8861,
+          "lon": -73.4619,
+          "distance_km": 13.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-122",
+          "plan_eau": "",
+          "description": "La Grande-4",
+          "lat": 53.8862,
+          "lon": -73.4668,
+          "distance_km": 14.24,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3022",
+          "plan_eau": "",
+          "description": "La Grande-4 Centrale aval",
+          "lat": 53.8857,
+          "lon": -73.4676,
+          "distance_km": 14.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2917",
+          "plan_eau": "",
+          "description": "La Grande-4 Est (CMXE)",
+          "lat": 53.9597,
+          "lon": -73.0017,
+          "distance_km": 17.57,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2918",
+      "station": {
+        "id": "HQ-S-1-2918",
+        "plan_eau": "",
+        "description": "La Grande-4 Sud",
+        "lat": 53.8264,
+        "lon": -73.1136,
+        "distance_km": 12.23
+      }
     },
     {
       "plan_id": 1890,
@@ -587,18 +1975,74 @@
       "plan_nom": "Rivière au Castor * entre un point situé à 100 m en aval de la ligne de transport d'énergie d'Hydro-Québec no 7060-7061",
       "lat": 53.470278,
       "lon": -77.393611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2904",
+          "plan_eau": "",
+          "description": "Duncan Barrage amont (CQDC)",
+          "lat": 53.5908,
+          "lon": -77.5044,
+          "distance_km": 15.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7768",
+          "plan_eau": "",
+          "description": "Lac Desaulniers",
+          "lat": 53.6097,
+          "lon": -77.5081,
+          "distance_km": 17.25,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2904",
+      "station": {
+        "id": "HQ-S-1-2904",
+        "plan_eau": "",
+        "description": "Duncan Barrage amont (CQDC)",
+        "lat": 53.5908,
+        "lon": -77.5044,
+        "distance_km": 15.27
+      }
     },
     {
       "plan_id": 2228,
       "plan_nom": "Rivière Kanaaupscow - La partie comprise entre son embouchure",
       "lat": 54.248333,
       "lon": -76.196944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7300",
+          "plan_eau": "",
+          "description": "Rivière Kanaaupscow (CMRK)",
+          "lat": 54.2419,
+          "lon": -76.1564,
+          "distance_km": 2.73,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2911",
+          "plan_eau": "",
+          "description": "LG-2 Nord-Est",
+          "lat": 54.1431,
+          "lon": -76.2533,
+          "distance_km": 12.26,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7300",
+      "station": {
+        "id": "HQ-S-1-7300",
+        "plan_eau": "",
+        "description": "Rivière Kanaaupscow (CMRK)",
+        "lat": 54.2419,
+        "lon": -76.1564,
+        "distance_km": 2.73
+      }
     },
     {
       "plan_id": 1884,
@@ -614,27 +2058,181 @@
       "plan_nom": "Rivière La Grande Rivière - La partie comprise entre le barrage Robert-Bourassa",
       "lat": 53.785833,
       "lon": -77.451944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2910",
+          "plan_eau": "",
+          "description": "Robert-Bourassa",
+          "lat": 53.775431,
+          "lon": -77.47101,
+          "distance_km": 1.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7714",
+          "plan_eau": "",
+          "description": "Barrage Robert-Bourassa (CMBU)",
+          "lat": 53.7769,
+          "lon": -77.4737,
+          "distance_km": 1.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3015",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale amont",
+          "lat": 53.7799,
+          "lon": -77.5313,
+          "distance_km": 5.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3018",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale aval est",
+          "lat": 53.7935,
+          "lon": -77.5329,
+          "distance_km": 5.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3019",
+          "plan_eau": "",
+          "description": "Robert-Bourassa Centrale aval ouest",
+          "lat": 53.7933,
+          "lon": -77.5383,
+          "distance_km": 5.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-129",
+          "plan_eau": "",
+          "description": "Robert-Bourassa",
+          "lat": 53.7804,
+          "lon": -77.5487,
+          "distance_km": 6.39,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3017",
+          "plan_eau": "",
+          "description": "La Grande-2-A Centrale amont",
+          "lat": 53.7773,
+          "lon": -77.5499,
+          "distance_km": 6.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3016",
+          "plan_eau": "",
+          "description": "La Grande-2-A Centrale aval",
+          "lat": 53.7949,
+          "lon": -77.5552,
+          "distance_km": 6.86,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2910",
+      "station": {
+        "id": "HQ-S-1-2910",
+        "plan_eau": "",
+        "description": "Robert-Bourassa",
+        "lat": 53.775431,
+        "lon": -77.47101,
+        "distance_km": 1.71
+      }
     },
     {
       "plan_id": 2454,
       "plan_nom": "Rivière La Grande Rivière - La partie comprise entre une droite passant par le point 53°47'53'' N., 72°52'55'' O. située à 4 km en aval du pont Polaris sur la route Transtaïga et une droite passant par le point 53°41'55,8'' N., 72°40'05'' O. située à 20 km en amont de ce pont.",
       "lat": 53.798056,
       "lon": -72.881944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15085",
+          "plan_eau": "",
+          "description": "LG4 Apport (CM3Z)",
+          "lat": 53.7599,
+          "lon": -72.7903,
+          "distance_km": 7.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7280",
+          "plan_eau": "",
+          "description": "Rivière Polaris (CMPW)",
+          "lat": 53.723611,
+          "lon": -72.860833,
+          "distance_km": 8.39,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2918",
+          "plan_eau": "",
+          "description": "La Grande-4 Sud",
+          "lat": 53.8264,
+          "lon": -73.1136,
+          "distance_km": 15.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2917",
+          "plan_eau": "",
+          "description": "La Grande-4 Est (CMXE)",
+          "lat": 53.9597,
+          "lon": -73.0017,
+          "distance_km": 19.61,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15085",
+      "station": {
+        "id": "HQ-S-1-15085",
+        "plan_eau": "",
+        "description": "LG4 Apport (CM3Z)",
+        "lat": 53.7599,
+        "lon": -72.7903,
+        "distance_km": 7.37
+      }
     },
     {
       "plan_id": 1664,
       "plan_nom": "Rivière Vincelotte",
       "lat": 54.171111,
       "lon": -73.223611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15023",
+          "plan_eau": "",
+          "description": "Lac Asikwaw (CM3H)",
+          "lat": 54.3699,
+          "lon": -73.3196,
+          "distance_km": 22.97,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15023",
+      "station": {
+        "id": "HQ-S-1-15023",
+        "plan_eau": "",
+        "description": "Lac Asikwaw (CM3H)",
+        "lat": 54.3699,
+        "lon": -73.3196,
+        "distance_km": 22.97
+      }
     }
   ]
 }

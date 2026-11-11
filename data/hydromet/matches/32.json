@@ -3,7 +3,7 @@
     "zone_id": 32,
     "radius_km": 25.0,
     "nb_with_coords": 163,
-    "nb_station_matched": 68
+    "nb_station_matched": 97
   },
   "matches": [
     {
@@ -28,7 +28,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 3.64,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -73,7 +73,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 3.64,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -238,7 +238,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 19.54,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -311,7 +311,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 15.56,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -321,7 +321,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 20.53,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -349,9 +349,27 @@
       "plan_nom": "Lac Augustin",
       "lat": 48.456944,
       "lon": -73.358333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 6.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 6.84
+      }
     },
     {
       "plan_id": 2107,
@@ -393,7 +411,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 13.7,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -403,7 +421,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 17.98,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -431,18 +449,84 @@
       "plan_nom": "Lac aux Goélands",
       "lat": 48.315556,
       "lon": -73.604167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 22.32,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 22.32
+      }
     },
     {
       "plan_id": 10600,
       "plan_nom": "Lac aux Hirondelles",
       "lat": 50.015,
       "lon": -70.391389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-150",
+          "plan_eau": "",
+          "description": "Canal du Grand-Détour",
+          "lat": 49.9574,
+          "lon": -70.4887,
+          "distance_km": 9.46,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7590",
+          "plan_eau": "",
+          "description": "Manouane 3",
+          "lat": 49.9575,
+          "lon": -70.489722,
+          "distance_km": 9.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6450",
+          "plan_eau": "",
+          "description": "Claude Gignac",
+          "lat": 49.960556,
+          "lon": -70.599167,
+          "distance_km": 16.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-206",
+          "plan_eau": "",
+          "description": "Barrage du Grand-Détour",
+          "lat": 49.9609,
+          "lon": -70.6011,
+          "distance_km": 16.15,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-150",
+      "station": {
+        "id": "HQ-I-3-150",
+        "plan_eau": "",
+        "description": "Canal du Grand-Détour",
+        "lat": 49.9574,
+        "lon": -70.4887,
+        "distance_km": 9.46
+      }
     },
     {
       "plan_id": 2552,
@@ -523,9 +607,37 @@
       "plan_nom": "Lac Brunelle",
       "lat": 48.238889,
       "lon": -73.356944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14679",
+          "plan_eau": "",
+          "description": "Lac Cold (CM2H)",
+          "lat": 48.1853,
+          "lon": -73.2441,
+          "distance_km": 10.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14653",
+          "plan_eau": "",
+          "description": "Pierriche (CM3T)",
+          "lat": 48.2945,
+          "lon": -73.081,
+          "distance_km": 21.34,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14679",
+      "station": {
+        "id": "HQ-S-1-14679",
+        "plan_eau": "",
+        "description": "Lac Cold (CM2H)",
+        "lat": 48.1853,
+        "lon": -73.2441,
+        "distance_km": 10.27
+      }
     },
     {
       "plan_id": 3066,
@@ -614,9 +726,37 @@
       "plan_nom": "Lac Cécile",
       "lat": 48.350556,
       "lon": -73.105556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14653",
+          "plan_eau": "",
+          "description": "Pierriche (CM3T)",
+          "lat": 48.2945,
+          "lon": -73.081,
+          "distance_km": 6.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14679",
+          "plan_eau": "",
+          "description": "Lac Cold (CM2H)",
+          "lat": 48.1853,
+          "lon": -73.2441,
+          "distance_km": 21.04,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14653",
+      "station": {
+        "id": "HQ-S-1-14653",
+        "plan_eau": "",
+        "description": "Pierriche (CM3T)",
+        "lat": 48.2945,
+        "lon": -73.081,
+        "distance_km": 6.49
+      }
     },
     {
       "plan_id": 2029,
@@ -641,7 +781,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 20.66,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -660,9 +800,67 @@
       "plan_nom": "Lac Chaumonot",
       "lat": 47.976111,
       "lon": -72.805833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7318",
+          "plan_eau": "",
+          "description": "Rivière Trenche",
+          "lat": 47.9092,
+          "lon": -72.8951,
+          "distance_km": 9.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10496",
+          "plan_eau": "",
+          "description": "Rapide-Blanc (CM3U)",
+          "lat": 47.8924,
+          "lon": -72.8856,
+          "distance_km": 11.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3066",
+          "plan_eau": "",
+          "description": "Rapide-Blanc Centrale amont",
+          "lat": 47.7967,
+          "lon": -72.9733,
+          "distance_km": 23.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3067",
+          "plan_eau": "",
+          "description": "Rapide-Blanc Centrale aval",
+          "lat": 47.7963,
+          "lon": -72.9727,
+          "distance_km": 23.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-82",
+          "plan_eau": "",
+          "description": "Rapide-Blanc",
+          "lat": 47.7963,
+          "lon": -72.9734,
+          "distance_km": 23.58,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7318",
+      "station": {
+        "id": "HQ-S-1-7318",
+        "plan_eau": "",
+        "description": "Rivière Trenche",
+        "lat": 47.9092,
+        "lon": -72.8951,
+        "distance_km": 9.98
+      }
     },
     {
       "plan_id": 2119,
@@ -880,9 +1078,27 @@
       "plan_nom": "Lac des Amarantes",
       "lat": 48.936667,
       "lon": -74.158056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-10613",
+          "plan_eau": "",
+          "description": "Cooper Ouvert (CM3V)",
+          "lat": 48.8492,
+          "lon": -74.2048,
+          "distance_km": 10.31,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-10613",
+      "station": {
+        "id": "HQ-S-1-10613",
+        "plan_eau": "",
+        "description": "Cooper Ouvert (CM3V)",
+        "lat": 48.8492,
+        "lon": -74.2048,
+        "distance_km": 10.31
+      }
     },
     {
       "plan_id": 3080,
@@ -934,9 +1150,27 @@
       "plan_nom": "Lac du Coin - La partie entre son émissaire, au point de rencontre avec le chemin forestier longeant la rivière aux Sables et les deux tuyaux de béton situés en amont",
       "lat": 48.820556,
       "lon": -70.565556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15308",
+          "plan_eau": "",
+          "description": "Laflamme (CM2M)",
+          "lat": 48.9302,
+          "lon": -70.2705,
+          "distance_km": 24.78,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15308",
+      "station": {
+        "id": "HQ-S-1-15308",
+        "plan_eau": "",
+        "description": "Laflamme (CM2M)",
+        "lat": 48.9302,
+        "lon": -70.2705,
+        "distance_km": 24.78
+      }
     },
     {
       "plan_id": 3157,
@@ -951,7 +1185,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 17.0,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -979,9 +1213,27 @@
       "plan_nom": "Lac du Nylon",
       "lat": 48.684444,
       "lon": -73.5025,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 22.67,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 22.67
+      }
     },
     {
       "plan_id": 3071,
@@ -1006,9 +1258,27 @@
       "plan_nom": "Lac Émile",
       "lat": 48.643333,
       "lon": -73.282222,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 21.18,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 21.18
+      }
     },
     {
       "plan_id": 3199,
@@ -1071,27 +1341,91 @@
       "plan_nom": "Lac Gaston",
       "lat": 48.506944,
       "lon": -73.404167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 3.69,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 3.69
+      }
     },
     {
       "plan_id": 10950,
       "plan_nom": "Lac Gilbert",
       "lat": 48.466111,
       "lon": -73.41,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 3.08,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 3.08
+      }
     },
     {
       "plan_id": 10946,
       "plan_nom": "Lac Gouin",
       "lat": 49.541667,
       "lon": -70.239444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15510",
+          "plan_eau": "",
+          "description": "Lac Porto (CM4Z)",
+          "lat": 49.5842,
+          "lon": -70.2759,
+          "distance_km": 5.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2921",
+          "plan_eau": "",
+          "description": "Bersimis 1 Est (CMBM)",
+          "lat": 49.6058,
+          "lon": -70.1111,
+          "distance_km": 11.68,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15510",
+      "station": {
+        "id": "HQ-S-1-15510",
+        "plan_eau": "",
+        "description": "Lac Porto (CM4Z)",
+        "lat": 49.5842,
+        "lon": -70.2759,
+        "distance_km": 5.41
+      }
     },
     {
       "plan_id": 2128,
@@ -1326,18 +1660,104 @@
       "plan_nom": "Lac Marie-Paule",
       "lat": 49.490556,
       "lon": -71.200556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-9217",
+          "plan_eau": "",
+          "description": "Péribonka Centrale aval",
+          "lat": 49.5069,
+          "lon": -71.1814,
+          "distance_km": 2.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9216",
+          "plan_eau": "",
+          "description": "Péribonka Centrale amont",
+          "lat": 49.5075,
+          "lon": -71.1822,
+          "distance_km": 2.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-186",
+          "plan_eau": "",
+          "description": "Péribonka",
+          "lat": 49.5074,
+          "lon": -71.1818,
+          "distance_km": 2.31,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2922",
+          "plan_eau": "",
+          "description": "Bersimis-1 Ouest",
+          "lat": 49.43,
+          "lon": -70.93,
+          "distance_km": 20.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-97",
+          "plan_eau": "",
+          "description": "Pamouscachiou",
+          "lat": 49.3302,
+          "lon": -70.9791,
+          "distance_km": 23.97,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-9217",
+      "station": {
+        "id": "HQ-S-1-9217",
+        "plan_eau": "",
+        "description": "Péribonka Centrale aval",
+        "lat": 49.5069,
+        "lon": -71.1814,
+        "distance_km": 2.28
+      }
     },
     {
       "plan_id": 3148,
       "plan_nom": "Lac Martel",
       "lat": 48.086389,
       "lon": -73.118889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14679",
+          "plan_eau": "",
+          "description": "Lac Cold (CM2H)",
+          "lat": 48.1853,
+          "lon": -73.2441,
+          "distance_km": 14.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14653",
+          "plan_eau": "",
+          "description": "Pierriche (CM3T)",
+          "lat": 48.2945,
+          "lon": -73.081,
+          "distance_km": 23.31,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14679",
+      "station": {
+        "id": "HQ-S-1-14679",
+        "plan_eau": "",
+        "description": "Lac Cold (CM2H)",
+        "lat": 48.1853,
+        "lon": -73.2441,
+        "distance_km": 14.4
+      }
     },
     {
       "plan_id": 11922,
@@ -1352,7 +1772,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 24.94,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -1371,9 +1791,27 @@
       "plan_nom": "Lac Ménicanane",
       "lat": 48.278611,
       "lon": -73.56,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15512",
+          "plan_eau": "",
+          "description": "Lac Wabistan (CM5I)",
+          "lat": 48.4846,
+          "lon": -73.4412,
+          "distance_km": 24.53,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15512",
+      "station": {
+        "id": "HQ-S-1-15512",
+        "plan_eau": "",
+        "description": "Lac Wabistan (CM5I)",
+        "lat": 48.4846,
+        "lon": -73.4412,
+        "distance_km": 24.53
+      }
     },
     {
       "plan_id": 3076,
@@ -1397,7 +1835,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 15.19,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -1417,7 +1855,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 24.58,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -1519,18 +1957,154 @@
       "plan_nom": "Lac Ouinégomic",
       "lat": 47.945278,
       "lon": -73.233056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-9097",
+          "plan_eau": "",
+          "description": "Rivière Windigo",
+          "lat": 47.9058,
+          "lon": -73.3522,
+          "distance_km": 9.9,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7322",
+          "plan_eau": "",
+          "description": "Windigo (CMRW)",
+          "lat": 47.9158,
+          "lon": -73.3696,
+          "distance_km": 10.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9061",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs Centrale aval",
+          "lat": 47.7866,
+          "lon": -73.3733,
+          "distance_km": 20.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9060",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs Centrale amont",
+          "lat": 47.7867,
+          "lon": -73.3756,
+          "distance_km": 20.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10653",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs Barrage amont",
+          "lat": 47.7867,
+          "lon": -73.3756,
+          "distance_km": 20.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-180",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs",
+          "lat": 47.7864,
+          "lon": -73.3752,
+          "distance_km": 20.6,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-9097",
+      "station": {
+        "id": "HQ-S-1-9097",
+        "plan_eau": "",
+        "description": "Rivière Windigo",
+        "lat": 47.9058,
+        "lon": -73.3522,
+        "distance_km": 9.9
+      }
     },
     {
       "plan_id": 10952,
       "plan_nom": "Lac Pamouscachiou",
       "lat": 49.45,
       "lon": -70.9,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2922",
+          "plan_eau": "",
+          "description": "Bersimis-1 Ouest",
+          "lat": 49.43,
+          "lon": -70.93,
+          "distance_km": 3.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6690",
+          "plan_eau": "",
+          "description": "Réservoir Pipmuacan (CMPP)",
+          "lat": 49.3598,
+          "lon": -70.9152,
+          "distance_km": 10.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-97",
+          "plan_eau": "",
+          "description": "Pamouscachiou",
+          "lat": 49.3302,
+          "lon": -70.9791,
+          "distance_km": 14.5,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9217",
+          "plan_eau": "",
+          "description": "Péribonka Centrale aval",
+          "lat": 49.5069,
+          "lon": -71.1814,
+          "distance_km": 21.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-186",
+          "plan_eau": "",
+          "description": "Péribonka",
+          "lat": 49.5074,
+          "lon": -71.1818,
+          "distance_km": 21.34,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9216",
+          "plan_eau": "",
+          "description": "Péribonka Centrale amont",
+          "lat": 49.5075,
+          "lon": -71.1822,
+          "distance_km": 21.37,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2922",
+      "station": {
+        "id": "HQ-S-1-2922",
+        "plan_eau": "",
+        "description": "Bersimis-1 Ouest",
+        "lat": 49.43,
+        "lon": -70.93,
+        "distance_km": 3.11
+      }
     },
     {
       "plan_id": 2141,
@@ -1591,18 +2165,54 @@
       "plan_nom": "Lac Petit lac Monikanan Ouest",
       "lat": 48.239444,
       "lon": -73.541111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14679",
+          "plan_eau": "",
+          "description": "Lac Cold (CM2H)",
+          "lat": 48.1853,
+          "lon": -73.2441,
+          "distance_km": 22.82,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14679",
+      "station": {
+        "id": "HQ-S-1-14679",
+        "plan_eau": "",
+        "description": "Lac Cold (CM2H)",
+        "lat": 48.1853,
+        "lon": -73.2441,
+        "distance_km": 22.82
+      }
     },
     {
       "plan_id": 10920,
       "plan_nom": "Lac Petit lac Onatchiway",
       "lat": 49.116389,
       "lon": -71.033056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-97",
+          "plan_eau": "",
+          "description": "Pamouscachiou",
+          "lat": 49.3302,
+          "lon": -70.9791,
+          "distance_km": 24.1,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-97",
+      "station": {
+        "id": "HQ-I-3-97",
+        "plan_eau": "",
+        "description": "Pamouscachiou",
+        "lat": 49.3302,
+        "lon": -70.9791,
+        "distance_km": 24.1
+      }
     },
     {
       "plan_id": 2143,
@@ -1645,27 +2255,201 @@
       "plan_nom": "Lac Rhéaume",
       "lat": 47.888333,
       "lon": -73.406944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7322",
+          "plan_eau": "",
+          "description": "Windigo (CMRW)",
+          "lat": 47.9158,
+          "lon": -73.3696,
+          "distance_km": 4.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9097",
+          "plan_eau": "",
+          "description": "Rivière Windigo",
+          "lat": 47.9058,
+          "lon": -73.3522,
+          "distance_km": 4.52,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9060",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs Centrale amont",
+          "lat": 47.7867,
+          "lon": -73.3756,
+          "distance_km": 11.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10653",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs Barrage amont",
+          "lat": 47.7867,
+          "lon": -73.3756,
+          "distance_km": 11.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-180",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs",
+          "lat": 47.7864,
+          "lon": -73.3752,
+          "distance_km": 11.58,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9061",
+          "plan_eau": "",
+          "description": "Rapides-des-Coeurs Centrale aval",
+          "lat": 47.7866,
+          "lon": -73.3733,
+          "distance_km": 11.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9059",
+          "plan_eau": "",
+          "description": "Chute-Allard centrale aval",
+          "lat": 47.8922,
+          "lon": -73.7174,
+          "distance_km": 23.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10354",
+          "plan_eau": "",
+          "description": "Chute-Allard Barrage amont",
+          "lat": 47.893,
+          "lon": -73.718,
+          "distance_km": 23.2,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7322",
+      "station": {
+        "id": "HQ-S-1-7322",
+        "plan_eau": "",
+        "description": "Windigo (CMRW)",
+        "lat": 47.9158,
+        "lon": -73.3696,
+        "distance_km": 4.13
+      }
     },
     {
       "plan_id": 2083,
       "plan_nom": "Lac Rita",
       "lat": 48.215833,
       "lon": -73.396389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14679",
+          "plan_eau": "",
+          "description": "Lac Cold (CM2H)",
+          "lat": 48.1853,
+          "lon": -73.2441,
+          "distance_km": 11.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14653",
+          "plan_eau": "",
+          "description": "Pierriche (CM3T)",
+          "lat": 48.2945,
+          "lon": -73.081,
+          "distance_km": 24.93,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14679",
+      "station": {
+        "id": "HQ-S-1-14679",
+        "plan_eau": "",
+        "description": "Lac Cold (CM2H)",
+        "lat": 48.1853,
+        "lon": -73.2441,
+        "distance_km": 11.79
+      }
     },
     {
       "plan_id": 2049,
       "plan_nom": "Lac Rita",
       "lat": 49.491944,
       "lon": -71.218611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-9216",
+          "plan_eau": "",
+          "description": "Péribonka Centrale amont",
+          "lat": 49.5075,
+          "lon": -71.1822,
+          "distance_km": 3.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9217",
+          "plan_eau": "",
+          "description": "Péribonka Centrale aval",
+          "lat": 49.5069,
+          "lon": -71.1814,
+          "distance_km": 3.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-186",
+          "plan_eau": "",
+          "description": "Péribonka",
+          "lat": 49.5074,
+          "lon": -71.1818,
+          "distance_km": 3.17,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2922",
+          "plan_eau": "",
+          "description": "Bersimis-1 Ouest",
+          "lat": 49.43,
+          "lon": -70.93,
+          "distance_km": 21.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-97",
+          "plan_eau": "",
+          "description": "Pamouscachiou",
+          "lat": 49.3302,
+          "lon": -70.9791,
+          "distance_km": 24.97,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-9216",
+      "station": {
+        "id": "HQ-S-1-9216",
+        "plan_eau": "",
+        "description": "Péribonka Centrale amont",
+        "lat": 49.5075,
+        "lon": -71.1822,
+        "distance_km": 3.15
+      }
     },
     {
       "plan_id": 2150,
@@ -1757,9 +2541,57 @@
       "plan_nom": "Lac Rouvray",
       "lat": 49.317778,
       "lon": -70.808611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6690",
+          "plan_eau": "",
+          "description": "Réservoir Pipmuacan (CMPP)",
+          "lat": 49.3598,
+          "lon": -70.9152,
+          "distance_km": 9.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-97",
+          "plan_eau": "",
+          "description": "Pamouscachiou",
+          "lat": 49.3302,
+          "lon": -70.9791,
+          "distance_km": 12.43,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2922",
+          "plan_eau": "",
+          "description": "Bersimis-1 Ouest",
+          "lat": 49.43,
+          "lon": -70.93,
+          "distance_km": 15.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11112",
+          "plan_eau": "",
+          "description": "Rivière aux Sables",
+          "lat": 49.32047,
+          "lon": -70.47775,
+          "distance_km": 23.98,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6690",
+      "station": {
+        "id": "HQ-S-1-6690",
+        "plan_eau": "",
+        "description": "Réservoir Pipmuacan (CMPP)",
+        "lat": 49.3598,
+        "lon": -70.9152,
+        "distance_km": 9.03
+      }
     },
     {
       "plan_id": 3086,
@@ -1774,7 +2606,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 22.3,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -1801,7 +2633,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 22.02,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -1828,7 +2660,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 23.29,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -1971,32 +2803,32 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-6430",
+          "plan_eau": "",
+          "description": "Chute-Garneau Barrage amont",
+          "lat": 48.3859,
+          "lon": -71.1285,
+          "distance_km": 13.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6432",
+          "plan_eau": "",
+          "description": "Chute-Garneau Barrage aval",
+          "lat": 48.3859,
+          "lon": -71.1285,
+          "distance_km": 13.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "03480",
           "plan_eau": "Rivière Saguenay",
           "description": "En aval du pont Dubuc à Saguenay",
           "lat": 48.433,
           "lon": -71.067,
           "distance_km": 15.48,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "061004",
-          "plan_eau": "Rivière Chicoutimi",
-          "description": "À 0,3 km en aval du barrage de Portage-des-Roches",
-          "lat": 48.306,
-          "lon": -71.197,
-          "distance_km": 15.78,
-          "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "061001",
-          "plan_eau": "Lac-Kénogami",
-          "description": "Au Lac-Kénogami au barrage de Portage-des-Roches",
-          "lat": 48.309417,
-          "lon": -71.211861,
-          "distance_km": 16.89,
           "role": "level",
           "match_reason": "geo"
         }
@@ -2073,9 +2905,57 @@
       "plan_nom": "Lac sans nom",
       "lat": 49.275,
       "lon": -70.088889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 14.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 23.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-174",
+          "plan_eau": "",
+          "description": "Portneuf",
+          "lat": 49.1084,
+          "lon": -70.2895,
+          "distance_km": 23.57,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-170",
+          "plan_eau": "",
+          "description": "Itomamo",
+          "lat": 49.1808,
+          "lon": -70.3939,
+          "distance_km": 24.5,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 14.46
+      }
     },
     {
       "plan_id": 2152,
@@ -2118,9 +2998,97 @@
       "plan_nom": "Lac Slide",
       "lat": 47.857778,
       "lon": -72.735278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-10496",
+          "plan_eau": "",
+          "description": "Rapide-Blanc (CM3U)",
+          "lat": 47.8924,
+          "lon": -72.8856,
+          "distance_km": 11.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7318",
+          "plan_eau": "",
+          "description": "Rivière Trenche",
+          "lat": 47.9092,
+          "lon": -72.8951,
+          "distance_km": 13.22,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-83",
+          "plan_eau": "",
+          "description": "Trenche",
+          "lat": 47.7521,
+          "lon": -72.8782,
+          "distance_km": 15.88,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3089",
+          "plan_eau": "",
+          "description": "Trenche Centrale aval",
+          "lat": 47.7515,
+          "lon": -72.8783,
+          "distance_km": 15.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3088",
+          "plan_eau": "",
+          "description": "Trenche Centrale amont",
+          "lat": 47.7522,
+          "lon": -72.8797,
+          "distance_km": 15.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3067",
+          "plan_eau": "",
+          "description": "Rapide-Blanc Centrale aval",
+          "lat": 47.7963,
+          "lon": -72.9727,
+          "distance_km": 19.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3066",
+          "plan_eau": "",
+          "description": "Rapide-Blanc Centrale amont",
+          "lat": 47.7967,
+          "lon": -72.9733,
+          "distance_km": 19.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-82",
+          "plan_eau": "",
+          "description": "Rapide-Blanc",
+          "lat": 47.7963,
+          "lon": -72.9734,
+          "distance_km": 19.05,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-10496",
+      "station": {
+        "id": "HQ-S-1-10496",
+        "plan_eau": "",
+        "description": "Rapide-Blanc (CM3U)",
+        "lat": 47.8924,
+        "lon": -72.8856,
+        "distance_km": 11.85
+      }
     },
     {
       "plan_id": 3084,
@@ -2283,7 +3251,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 23.56,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -2311,18 +3279,114 @@
       "plan_nom": "Réservoir Péribonka entre un point en aval",
       "lat": 49.506389,
       "lon": -71.182222,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-9217",
+          "plan_eau": "",
+          "description": "Péribonka Centrale aval",
+          "lat": 49.5069,
+          "lon": -71.1814,
+          "distance_km": 0.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-186",
+          "plan_eau": "",
+          "description": "Péribonka",
+          "lat": 49.5074,
+          "lon": -71.1818,
+          "distance_km": 0.12,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9216",
+          "plan_eau": "",
+          "description": "Péribonka Centrale amont",
+          "lat": 49.5075,
+          "lon": -71.1822,
+          "distance_km": 0.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2922",
+          "plan_eau": "",
+          "description": "Bersimis-1 Ouest",
+          "lat": 49.43,
+          "lon": -70.93,
+          "distance_km": 20.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-97",
+          "plan_eau": "",
+          "description": "Pamouscachiou",
+          "lat": 49.3302,
+          "lon": -70.9791,
+          "distance_km": 24.49,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-9217",
+      "station": {
+        "id": "HQ-S-1-9217",
+        "plan_eau": "",
+        "description": "Péribonka Centrale aval",
+        "lat": 49.5069,
+        "lon": -71.1814,
+        "distance_km": 0.08
+      }
     },
     {
       "plan_id": 10923,
       "plan_nom": "Réservoir Pipmuacan",
       "lat": 49.503056,
       "lon": -70.340278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15510",
+          "plan_eau": "",
+          "description": "Lac Porto (CM4Z)",
+          "lat": 49.5842,
+          "lon": -70.2759,
+          "distance_km": 10.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2921",
+          "plan_eau": "",
+          "description": "Bersimis 1 Est (CMBM)",
+          "lat": 49.6058,
+          "lon": -70.1111,
+          "distance_km": 20.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11112",
+          "plan_eau": "",
+          "description": "Rivière aux Sables",
+          "lat": 49.32047,
+          "lon": -70.47775,
+          "distance_km": 22.61,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15510",
+      "station": {
+        "id": "HQ-S-1-15510",
+        "plan_eau": "",
+        "description": "Lac Porto (CM4Z)",
+        "lat": 49.5842,
+        "lon": -70.2759,
+        "distance_km": 10.15
+      }
     },
     {
       "plan_id": 2198,
@@ -2526,7 +3590,7 @@
           "lat": 48.942528,
           "lon": -72.172556,
           "distance_km": 9.27,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -2536,7 +3600,7 @@
           "lat": 48.889,
           "lon": -72.272,
           "distance_km": 9.88,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -3055,9 +4119,47 @@
       "plan_nom": "Rivière sans nom entre une chute située à environ 2 km en aval du lac Jocelyn et correspondant aux points 48°59'43\" N., 70°34'57\" O. et un point situé à environ 1,5 km en aval et correspondant aux points 48°59'49\"N, 70°34'01\"O.",
       "lat": 48.995278,
       "lon": -70.5825,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15308",
+          "plan_eau": "",
+          "description": "Laflamme (CM2M)",
+          "lat": 48.9302,
+          "lon": -70.2705,
+          "distance_km": 23.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-174",
+          "plan_eau": "",
+          "description": "Portneuf",
+          "lat": 49.1084,
+          "lon": -70.2895,
+          "distance_km": 24.78,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-170",
+          "plan_eau": "",
+          "description": "Itomamo",
+          "lat": 49.1808,
+          "lon": -70.3939,
+          "distance_km": 24.78,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15308",
+      "station": {
+        "id": "HQ-S-1-15308",
+        "plan_eau": "",
+        "description": "Laflamme (CM2M)",
+        "lat": 48.9302,
+        "lon": -70.2705,
+        "distance_km": 23.9
+      }
     },
     {
       "plan_id": 2192,
@@ -3065,6 +4167,26 @@
       "lat": 48.448889,
       "lon": -71.204583,
       "stations": [
+        {
+          "id": "HQ-S-1-6430",
+          "plan_eau": "",
+          "description": "Chute-Garneau Barrage amont",
+          "lat": 48.3859,
+          "lon": -71.1285,
+          "distance_km": 8.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6432",
+          "plan_eau": "",
+          "description": "Chute-Garneau Barrage aval",
+          "lat": 48.3859,
+          "lon": -71.1285,
+          "distance_km": 8.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "03480",
           "plan_eau": "Rivière Saguenay",
@@ -3124,36 +4246,16 @@
           "distance_km": 15.9,
           "role": "both",
           "match_reason": "geo"
-        },
-        {
-          "id": "062701",
-          "plan_eau": "Rivière Valin",
-          "description": "À 3,5 km de l'embouchure",
-          "lat": 48.48794,
-          "lon": -70.97219,
-          "distance_km": 17.68,
-          "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "061028",
-          "plan_eau": "Rivière Pikauba",
-          "description": "À 3,6 km de l'embouchure de la rivière Pikauba",
-          "lat": 48.305,
-          "lon": -71.441,
-          "distance_km": 23.68,
-          "role": "both",
-          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "03480",
+      "primary_station_id": "HQ-S-1-6430",
       "station": {
-        "id": "03480",
-        "plan_eau": "Rivière Saguenay",
-        "description": "En aval du pont Dubuc à Saguenay",
-        "lat": 48.433,
-        "lon": -71.067,
-        "distance_km": 10.3
+        "id": "HQ-S-1-6430",
+        "plan_eau": "",
+        "description": "Chute-Garneau Barrage amont",
+        "lat": 48.3859,
+        "lon": -71.1285,
+        "distance_km": 8.98
       }
     },
     {

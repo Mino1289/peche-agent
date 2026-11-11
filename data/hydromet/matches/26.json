@@ -505,7 +505,7 @@
           "lat": 57.888556,
           "lon": -67.600083,
           "distance_km": 14.44,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],

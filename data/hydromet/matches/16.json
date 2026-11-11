@@ -3,7 +3,7 @@
     "zone_id": 16,
     "radius_km": 25.0,
     "nb_with_coords": 10,
-    "nb_station_matched": 7
+    "nb_station_matched": 10
   },
   "matches": [
     {
@@ -88,18 +88,94 @@
       "plan_nom": "Lac Kempt",
       "lat": 47.440278,
       "lon": -74.253889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2994",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage amont",
+          "lat": 47.5363,
+          "lon": -74.1852,
+          "distance_km": 11.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15957",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage aval",
+          "lat": 47.53708,
+          "lon": -74.18551,
+          "distance_km": 11.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-77",
+          "plan_eau": "",
+          "description": "Manouane-A",
+          "lat": 47.537,
+          "lon": -74.1849,
+          "distance_km": 11.94,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14680",
+          "plan_eau": "",
+          "description": "Manouane A (CMIX)",
+          "lat": 47.5758,
+          "lon": -74.2525,
+          "distance_km": 15.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15513",
+          "plan_eau": "",
+          "description": "Lac Conrad (CM4U)",
+          "lat": 47.6072,
+          "lon": -74.2611,
+          "distance_km": 18.57,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2994",
+      "station": {
+        "id": "HQ-S-1-2994",
+        "plan_eau": "",
+        "description": "Manouane-A Barrage amont",
+        "lat": 47.5363,
+        "lon": -74.1852,
+        "distance_km": 11.86
+      }
     },
     {
       "plan_id": 2744,
       "plan_nom": "Lac Morialice",
       "lat": 47.234167,
       "lon": -74.2825,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14654",
+          "plan_eau": "",
+          "description": "Lac Bibitte (CM3Y)",
+          "lat": 47.0338,
+          "lon": -74.3144,
+          "distance_km": 22.41,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14654",
+      "station": {
+        "id": "HQ-S-1-14654",
+        "plan_eau": "",
+        "description": "Lac Bibitte (CM3Y)",
+        "lat": 47.0338,
+        "lon": -74.3144,
+        "distance_km": 22.41
+      }
     },
     {
       "plan_id": 3287,
@@ -279,6 +355,16 @@
       "lon": -73.833333,
       "stations": [
         {
+          "id": "HQ-S-1-10111",
+          "plan_eau": "",
+          "description": "Taureau",
+          "lat": 46.8069,
+          "lon": -73.7423,
+          "distance_km": 8.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "050119",
           "plan_eau": "Rivière Matawin",
           "description": "À 4,0 km en aval du pont-route 131 à Saint-Michel-des-Saints",
@@ -287,16 +373,66 @@
           "distance_km": 11.08,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15671",
+          "plan_eau": "",
+          "description": "Rivière Milieu (CM5N)",
+          "lat": 46.81342,
+          "lon": -74.03929,
+          "distance_km": 16.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2939",
+          "plan_eau": "",
+          "description": "Matawin Barrage amont (CMMW)",
+          "lat": 46.8618,
+          "lon": -73.6591,
+          "distance_km": 16.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-87",
+          "plan_eau": "",
+          "description": "Matawin",
+          "lat": 46.8618,
+          "lon": -73.6572,
+          "distance_km": 17.07,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2940",
+          "plan_eau": "",
+          "description": "Matawin BOGC",
+          "lat": 46.8633,
+          "lon": -73.6583,
+          "distance_km": 17.11,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11042",
+          "plan_eau": "",
+          "description": "Matawin (P7) (CM3S)",
+          "lat": 46.8831,
+          "lon": -73.6582,
+          "distance_km": 18.58,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050119",
+      "primary_station_id": "HQ-S-1-10111",
       "station": {
-        "id": "050119",
-        "plan_eau": "Rivière Matawin",
-        "description": "À 4,0 km en aval du pont-route 131 à Saint-Michel-des-Saints",
-        "lat": 46.684111,
-        "lon": -73.914803,
-        "distance_km": 11.08
+        "id": "HQ-S-1-10111",
+        "plan_eau": "",
+        "description": "Taureau",
+        "lat": 46.8069,
+        "lon": -73.7423,
+        "distance_km": 8.25
       }
     },
     {
@@ -331,9 +467,97 @@
       "plan_nom": "Rivière Manouane La partie comprise entre le barrage Kempt",
       "lat": 47.536944,
       "lon": -74.185,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-77",
+          "plan_eau": "",
+          "description": "Manouane-A",
+          "lat": 47.537,
+          "lon": -74.1849,
+          "distance_km": 0.01,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15957",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage aval",
+          "lat": 47.53708,
+          "lon": -74.18551,
+          "distance_km": 0.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2994",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage amont",
+          "lat": 47.5363,
+          "lon": -74.1852,
+          "distance_km": 0.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14680",
+          "plan_eau": "",
+          "description": "Manouane A (CMIX)",
+          "lat": 47.5758,
+          "lon": -74.2525,
+          "distance_km": 6.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15513",
+          "plan_eau": "",
+          "description": "Lac Conrad (CM4U)",
+          "lat": 47.6072,
+          "lon": -74.2611,
+          "distance_km": 9.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3034",
+          "plan_eau": "",
+          "description": "Manouane-B Barrage amont",
+          "lat": 47.6298,
+          "lon": -74.0048,
+          "distance_km": 17.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-78",
+          "plan_eau": "",
+          "description": "Manouane-B",
+          "lat": 47.6303,
+          "lon": -74.0041,
+          "distance_km": 17.08,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3035",
+          "plan_eau": "",
+          "description": "Manouane-B Barrage aval",
+          "lat": 47.62951,
+          "lon": -74.0032,
+          "distance_km": 17.08,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-77",
+      "station": {
+        "id": "HQ-I-3-77",
+        "plan_eau": "",
+        "description": "Manouane-A",
+        "lat": 47.537,
+        "lon": -74.1849,
+        "distance_km": 0.01
+      }
     },
     {
       "plan_id": 858,

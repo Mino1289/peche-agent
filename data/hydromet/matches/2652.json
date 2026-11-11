@@ -3,7 +3,7 @@
     "zone_id": 2652,
     "radius_km": 25.0,
     "nb_with_coords": 21,
-    "nb_station_matched": 2
+    "nb_station_matched": 4
   },
   "matches": [
     {
@@ -11,18 +11,84 @@
       "plan_nom": "Réservoir aux Outardes - 4",
       "lat": 50.134444,
       "lon": -69.119167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2932",
+          "plan_eau": "",
+          "description": "Outardes-4 Sud (CMOS)",
+          "lat": 50.1031,
+          "lon": -68.9876,
+          "distance_km": 10.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15486",
+          "plan_eau": "",
+          "description": "Lac Noir (CM4X)",
+          "lat": 50.1212,
+          "lon": -68.8317,
+          "distance_km": 20.54,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2932",
+      "station": {
+        "id": "HQ-S-1-2932",
+        "plan_eau": "",
+        "description": "Outardes-4 Sud (CMOS)",
+        "lat": 50.1031,
+        "lon": -68.9876,
+        "distance_km": 10.01
+      }
     },
     {
       "plan_id": 10561,
       "plan_nom": "Réservoir Manic - 3",
       "lat": 50.130556,
       "lon": -68.642778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2924",
+          "plan_eau": "",
+          "description": "Manic-3 Nord",
+          "lat": 50.2136,
+          "lon": -68.6089,
+          "distance_km": 9.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15486",
+          "plan_eau": "",
+          "description": "Lac Noir (CM4X)",
+          "lat": 50.1212,
+          "lon": -68.8317,
+          "distance_km": 13.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2932",
+          "plan_eau": "",
+          "description": "Outardes-4 Sud (CMOS)",
+          "lat": 50.1031,
+          "lon": -68.9876,
+          "distance_km": 24.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2924",
+      "station": {
+        "id": "HQ-S-1-2924",
+        "plan_eau": "",
+        "description": "Manic-3 Nord",
+        "lat": 50.2136,
+        "lon": -68.6089,
+        "distance_km": 9.54
+      }
     },
     {
       "plan_id": 1252,

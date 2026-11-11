@@ -3,7 +3,7 @@
     "zone_id": 18,
     "radius_km": 25.0,
     "nb_with_coords": 32,
-    "nb_station_matched": 4
+    "nb_station_matched": 14
   },
   "matches": [
     {
@@ -11,9 +11,27 @@
       "plan_nom": "Lac Antoinette",
       "lat": 49.933333,
       "lon": -74.426944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 18.28,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 18.28
+      }
     },
     {
       "plan_id": 918,
@@ -47,18 +65,54 @@
       "plan_nom": "Lac aux Dorés",
       "lat": 49.8525,
       "lon": -74.351389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 22.4,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 22.4
+      }
     },
     {
       "plan_id": 889,
       "plan_nom": "Lac Bourbeau",
       "lat": 49.960278,
       "lon": -74.2925,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 9.75,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 9.75
+      }
     },
     {
       "plan_id": 890,
@@ -83,45 +137,135 @@
       "plan_nom": "Lac Chibougamau - à l'exception des secteurs suivants: baie du Club",
       "lat": 49.889444,
       "lon": -74.030556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 21.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 21.85
+      }
     },
     {
       "plan_id": 10400,
       "plan_nom": "Lac Chibougamau - Baie du Club",
       "lat": 49.889444,
       "lon": -74.030556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 21.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 21.85
+      }
     },
     {
       "plan_id": 10401,
       "plan_nom": "Lac Chibougamau - Baie Girard, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la rivière Armitage",
       "lat": 49.868056,
       "lon": -74.055556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 22.68,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 22.68
+      }
     },
     {
       "plan_id": 10402,
       "plan_nom": "Lac Chibougamau - Baie Nepton, la partie comprise dans un rayon de 500 m en aval de l'embouchure de la Petite rivière Nepton",
       "lat": 49.923889,
       "lon": -74.030056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 19.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 19.14
+      }
     },
     {
       "plan_id": 10405,
       "plan_nom": "Lac Chibougamau - Petite rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 1 km en amont",
       "lat": 49.927778,
       "lon": -74.026278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 19.06,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 19.06
+      }
     },
     {
       "plan_id": 10403,
@@ -146,9 +290,27 @@
       "plan_nom": "Lac Chibougamau - Rivière Nepton, entre son embouchure dans la baie Nepton et un point situé à 2 km en amont",
       "lat": 49.925,
       "lon": -74.008333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 20.25,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 20.25
+      }
     },
     {
       "plan_id": 903,
@@ -173,9 +335,27 @@
       "plan_nom": "Lac Lymburner",
       "lat": 49.956667,
       "lon": -74.065278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 14.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 14.87
+      }
     },
     {
       "plan_id": 2650,

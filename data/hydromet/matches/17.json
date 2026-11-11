@@ -3,7 +3,7 @@
     "zone_id": 17,
     "radius_km": 25.0,
     "nb_with_coords": 8,
-    "nb_station_matched": 2
+    "nb_station_matched": 3
   },
   "matches": [
     {
@@ -29,9 +29,27 @@
       "plan_nom": "Lac Nelson",
       "lat": 48.988611,
       "lon": -74.454444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-10613",
+          "plan_eau": "",
+          "description": "Cooper Ouvert (CM3V)",
+          "lat": 48.8492,
+          "lon": -74.2048,
+          "distance_km": 23.94,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-10613",
+      "station": {
+        "id": "HQ-S-1-10613",
+        "plan_eau": "",
+        "description": "Cooper Ouvert (CM3V)",
+        "lat": 48.8492,
+        "lon": -74.2048,
+        "distance_km": 23.94
+      }
     },
     {
       "plan_id": 2541,

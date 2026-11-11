@@ -173,7 +173,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 19.89,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -220,7 +220,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 19.73,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -277,7 +277,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 6.86,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -461,7 +461,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 24.43,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -498,7 +498,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 12.7,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -579,6 +579,46 @@
       "lon": -74.418889,
       "stations": [
         {
+          "id": "392",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au pont de la route 148 à Lachute",
+          "lat": 45.655691,
+          "lon": -74.340323,
+          "distance_km": 14.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6364",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale aval",
+          "lat": 45.7737,
+          "lon": -74.6839,
+          "distance_km": 20.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-58",
+          "plan_eau": "",
+          "description": "Chute-Bell",
+          "lat": 45.774,
+          "lon": -74.6844,
+          "distance_km": 20.6,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6363",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale amont",
+          "lat": 45.7749,
+          "lon": -74.6858,
+          "distance_km": 20.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040204",
           "plan_eau": "Rivière Rouge",
           "description": "En amont de la chute McNeil",
@@ -586,6 +626,16 @@
           "lon": -74.689,
           "distance_km": 21.24,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3677",
+          "plan_eau": "",
+          "description": "Grenville",
+          "lat": 45.6311,
+          "lon": -74.6089,
+          "distance_km": 21.29,
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -609,14 +659,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040204",
+      "primary_station_id": "392",
       "station": {
-        "id": "040204",
-        "plan_eau": "Rivière Rouge",
-        "description": "En amont de la chute McNeil",
-        "lat": 45.738,
-        "lon": -74.689,
-        "distance_km": 21.24
+        "id": "392",
+        "plan_eau": "Rivière du Nord",
+        "description": "Au pont de la route 148 à Lachute",
+        "lat": 45.655691,
+        "lon": -74.340323,
+        "distance_km": 14.02
       }
     },
     {
@@ -840,7 +890,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 20.95,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -994,7 +1044,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 10.72,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -1289,7 +1339,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 13.41,
-          "role": "level",
+          "role": "both",
           "match_reason": "name"
         }
       ],
@@ -1326,6 +1376,16 @@
           "lat": 45.850919,
           "lon": -74.06635,
           "distance_km": 11.13,
+          "role": "level",
+          "match_reason": "name"
+        },
+        {
+          "id": "392",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au pont de la route 148 à Lachute",
+          "lat": 45.655691,
+          "lon": -74.340323,
+          "distance_km": 28.76,
           "role": "level",
           "match_reason": "name"
         }
@@ -1393,7 +1453,7 @@
           "lat": 46.096361,
           "lon": -74.121131,
           "distance_km": 24.86,
-          "role": "level",
+          "role": "both",
           "match_reason": "geo"
         }
       ],

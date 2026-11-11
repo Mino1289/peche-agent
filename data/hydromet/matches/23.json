@@ -3,7 +3,7 @@
     "zone_id": 23,
     "radius_km": 25.0,
     "nb_with_coords": 27,
-    "nb_station_matched": 13
+    "nb_station_matched": 14
   },
   "matches": [
     {
@@ -220,9 +220,87 @@
       "plan_nom": "Rivière aux Outardes entre une droite reliant la pointe aux Outardes",
       "lat": 49.044167,
       "lon": -68.463056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 12.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 12.39,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 12.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 19.01,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 19.01,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 19.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 19.16,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3046",
+      "station": {
+        "id": "HQ-S-1-3046",
+        "plan_eau": "",
+        "description": "Outardes-2 Centrale aval",
+        "lat": 49.1412,
+        "lon": -68.3845,
+        "distance_km": 12.21
+      }
     },
     {
       "plan_id": 12401,

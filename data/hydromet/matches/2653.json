@@ -3,7 +3,7 @@
     "zone_id": 2653,
     "radius_km": 25.0,
     "nb_with_coords": 92,
-    "nb_station_matched": 15
+    "nb_station_matched": 26
   },
   "matches": [
     {
@@ -164,9 +164,87 @@
       "plan_nom": "Lac Maurice",
       "lat": 50.961389,
       "lon": -63.390833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15884",
+          "plan_eau": "",
+          "description": "Bernard (ULaval)",
+          "lat": 50.9021,
+          "lon": -63.4051,
+          "distance_km": 6.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15010",
+          "plan_eau": "",
+          "description": "Romaine-3 Centrale aval",
+          "lat": 51.1114,
+          "lon": -63.4009,
+          "distance_km": 16.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-280",
+          "plan_eau": "",
+          "description": "Romaine-3",
+          "lat": 51.1142,
+          "lon": -63.40022,
+          "distance_km": 17.0,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15009",
+          "plan_eau": "",
+          "description": "Romaine-3 Centrale amont",
+          "lat": 51.1288,
+          "lon": -63.4097,
+          "distance_km": 18.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15008",
+          "plan_eau": "",
+          "description": "Romaine-3 Barrage amont",
+          "lat": 51.1325,
+          "lon": -63.4211,
+          "distance_km": 19.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15670",
+          "plan_eau": "",
+          "description": "Metivier (CM5M)",
+          "lat": 50.88824,
+          "lon": -63.08011,
+          "distance_km": 23.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15679",
+          "plan_eau": "",
+          "description": "Abbé Huard (CM5T)",
+          "lat": 51.09416,
+          "lon": -63.12932,
+          "distance_km": 23.5,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15884",
+      "station": {
+        "id": "HQ-S-1-15884",
+        "plan_eau": "",
+        "description": "Bernard (ULaval)",
+        "lat": 50.9021,
+        "lon": -63.4051,
+        "distance_km": 6.67
+      }
     },
     {
       "plan_id": 1271,
@@ -227,45 +305,365 @@
       "plan_nom": "Lac Sans nom",
       "lat": 50.399167,
       "lon": -63.258889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14186",
+          "plan_eau": "",
+          "description": "Romaine-1 Barrage amont",
+          "lat": 50.39,
+          "lon": -63.26,
+          "distance_km": 1.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14142",
+          "plan_eau": "",
+          "description": "Romaine-1 Centrale amont",
+          "lat": 50.3881,
+          "lon": -63.2506,
+          "distance_km": 1.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-190",
+          "plan_eau": "",
+          "description": "Romaine-1",
+          "lat": 50.38598,
+          "lon": -63.26041,
+          "distance_km": 1.47,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14143",
+          "plan_eau": "",
+          "description": "Romaine-1 Centrale aval",
+          "lat": 50.3856,
+          "lon": -63.2567,
+          "distance_km": 1.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15841",
+          "plan_eau": "",
+          "description": "Romaine 1 Météo (CM6D)",
+          "lat": 50.381,
+          "lon": -63.25518,
+          "distance_km": 2.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12152",
+          "plan_eau": "",
+          "description": "Romaine-2 Centrale aval",
+          "lat": 50.6,
+          "lon": -63.1941,
+          "distance_km": 22.8,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14186",
+      "station": {
+        "id": "HQ-S-1-14186",
+        "plan_eau": "",
+        "description": "Romaine-1 Barrage amont",
+        "lat": 50.39,
+        "lon": -63.26,
+        "distance_km": 1.02
+      }
     },
     {
       "plan_id": 11760,
       "plan_nom": "Lac Sans nom",
       "lat": 50.966389,
       "lon": -63.41,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15884",
+          "plan_eau": "",
+          "description": "Bernard (ULaval)",
+          "lat": 50.9021,
+          "lon": -63.4051,
+          "distance_km": 7.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15010",
+          "plan_eau": "",
+          "description": "Romaine-3 Centrale aval",
+          "lat": 51.1114,
+          "lon": -63.4009,
+          "distance_km": 16.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-280",
+          "plan_eau": "",
+          "description": "Romaine-3",
+          "lat": 51.1142,
+          "lon": -63.40022,
+          "distance_km": 16.45,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15009",
+          "plan_eau": "",
+          "description": "Romaine-3 Centrale amont",
+          "lat": 51.1288,
+          "lon": -63.4097,
+          "distance_km": 18.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15008",
+          "plan_eau": "",
+          "description": "Romaine-3 Barrage amont",
+          "lat": 51.1325,
+          "lon": -63.4211,
+          "distance_km": 18.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15679",
+          "plan_eau": "",
+          "description": "Abbé Huard (CM5T)",
+          "lat": 51.09416,
+          "lon": -63.12932,
+          "distance_km": 24.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15670",
+          "plan_eau": "",
+          "description": "Metivier (CM5M)",
+          "lat": 50.88824,
+          "lon": -63.08011,
+          "distance_km": 24.7,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15884",
+      "station": {
+        "id": "HQ-S-1-15884",
+        "plan_eau": "",
+        "description": "Bernard (ULaval)",
+        "lat": 50.9021,
+        "lon": -63.4051,
+        "distance_km": 7.16
+      }
     },
     {
       "plan_id": 11761,
       "plan_nom": "Lac Sans nom",
       "lat": 51.328611,
       "lon": -63.569444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15816",
+          "plan_eau": "",
+          "description": "Romaine-4 Centrale amont",
+          "lat": 51.3478,
+          "lon": -63.48808,
+          "distance_km": 6.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-299",
+          "plan_eau": "",
+          "description": "Romaine-4",
+          "lat": 51.3477,
+          "lon": -63.4868,
+          "distance_km": 6.12,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15818",
+          "plan_eau": "",
+          "description": "Romaine-4 Barrage amont",
+          "lat": 51.3496,
+          "lon": -63.487,
+          "distance_km": 6.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15817",
+          "plan_eau": "",
+          "description": "Romaine-4 Centrale aval",
+          "lat": 51.3481,
+          "lon": -63.4843,
+          "distance_km": 6.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12213",
+          "plan_eau": "",
+          "description": "Baubert (CMBJ)",
+          "lat": 51.4095,
+          "lon": -63.5597,
+          "distance_km": 9.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10782",
+          "plan_eau": "",
+          "description": "Garneau (CM5S)",
+          "lat": 51.35557,
+          "lon": -63.37519,
+          "distance_km": 13.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15008",
+          "plan_eau": "",
+          "description": "Romaine-3 Barrage amont",
+          "lat": 51.1325,
+          "lon": -63.4211,
+          "distance_km": 24.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15009",
+          "plan_eau": "",
+          "description": "Romaine-3 Centrale amont",
+          "lat": 51.1288,
+          "lon": -63.4097,
+          "distance_km": 24.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15816",
+      "station": {
+        "id": "HQ-S-1-15816",
+        "plan_eau": "",
+        "description": "Romaine-4 Centrale amont",
+        "lat": 51.3478,
+        "lon": -63.48808,
+        "distance_km": 6.04
+      }
     },
     {
       "plan_id": 11763,
       "plan_nom": "Lac Sans nom",
       "lat": 51.737778,
       "lon": -63.733056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11212",
+          "plan_eau": "",
+          "description": "Rivière aux Sauterelles (CM2R)",
+          "lat": 51.9175,
+          "lon": -63.8381,
+          "distance_km": 21.25,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10773",
+          "plan_eau": "",
+          "description": "Lac Uauahk (ROMA0856, CMRV)",
+          "lat": 51.9481,
+          "lon": -63.7747,
+          "distance_km": 23.56,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11212",
+      "station": {
+        "id": "HQ-S-1-11212",
+        "plan_eau": "",
+        "description": "Rivière aux Sauterelles (CM2R)",
+        "lat": 51.9175,
+        "lon": -63.8381,
+        "distance_km": 21.25
+      }
     },
     {
       "plan_id": 2803,
       "plan_nom": "Lac Tanguay",
       "lat": 50.333056,
       "lon": -62.928333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14142",
+          "plan_eau": "",
+          "description": "Romaine-1 Centrale amont",
+          "lat": 50.3881,
+          "lon": -63.2506,
+          "distance_km": 23.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15841",
+          "plan_eau": "",
+          "description": "Romaine 1 Météo (CM6D)",
+          "lat": 50.381,
+          "lon": -63.25518,
+          "distance_km": 23.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14143",
+          "plan_eau": "",
+          "description": "Romaine-1 Centrale aval",
+          "lat": 50.3856,
+          "lon": -63.2567,
+          "distance_km": 24.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-190",
+          "plan_eau": "",
+          "description": "Romaine-1",
+          "lat": 50.38598,
+          "lon": -63.26041,
+          "distance_km": 24.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14186",
+          "plan_eau": "",
+          "description": "Romaine-1 Barrage amont",
+          "lat": 50.39,
+          "lon": -63.26,
+          "distance_km": 24.36,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14142",
+      "station": {
+        "id": "HQ-S-1-14142",
+        "plan_eau": "",
+        "description": "Romaine-1 Centrale amont",
+        "lat": 50.3881,
+        "lon": -63.2506,
+        "distance_km": 23.67
+      }
     },
     {
       "plan_id": 1210,
@@ -308,9 +706,77 @@
       "plan_nom": "Réservoir Romaine I - La partie en amont du barrage de la Romaine",
       "lat": 50.387778,
       "lon": -63.252778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14142",
+          "plan_eau": "",
+          "description": "Romaine-1 Centrale amont",
+          "lat": 50.3881,
+          "lon": -63.2506,
+          "distance_km": 0.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14143",
+          "plan_eau": "",
+          "description": "Romaine-1 Centrale aval",
+          "lat": 50.3856,
+          "lon": -63.2567,
+          "distance_km": 0.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14186",
+          "plan_eau": "",
+          "description": "Romaine-1 Barrage amont",
+          "lat": 50.39,
+          "lon": -63.26,
+          "distance_km": 0.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-190",
+          "plan_eau": "",
+          "description": "Romaine-1",
+          "lat": 50.38598,
+          "lon": -63.26041,
+          "distance_km": 0.58,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15841",
+          "plan_eau": "",
+          "description": "Romaine 1 Météo (CM6D)",
+          "lat": 50.381,
+          "lon": -63.25518,
+          "distance_km": 0.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12152",
+          "plan_eau": "",
+          "description": "Romaine-2 Centrale aval",
+          "lat": 50.6,
+          "lon": -63.1941,
+          "distance_km": 23.96,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14142",
+      "station": {
+        "id": "HQ-S-1-14142",
+        "plan_eau": "",
+        "description": "Romaine-1 Centrale amont",
+        "lat": 50.3881,
+        "lon": -63.2506,
+        "distance_km": 0.16
+      }
     },
     {
       "plan_id": 1177,
@@ -326,9 +792,27 @@
       "plan_nom": "Rivière Aisley entre son embouchure et la première chute en amont",
       "lat": 50.294444,
       "lon": -63.790833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15027",
+          "plan_eau": "",
+          "description": "Rivière Puyjalon (CM5Z)",
+          "lat": 50.32361,
+          "lon": -63.65972,
+          "distance_km": 9.86,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15027",
+      "station": {
+        "id": "HQ-S-1-15027",
+        "plan_eau": "",
+        "description": "Rivière Puyjalon (CM5Z)",
+        "lat": 50.32361,
+        "lon": -63.65972,
+        "distance_km": 9.86
+      }
     },
     {
       "plan_id": 1179,
@@ -632,9 +1116,27 @@
       "plan_nom": "Rivière Mingan a)",
       "lat": 50.292222,
       "lon": -64.006944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15027",
+          "plan_eau": "",
+          "description": "Rivière Puyjalon (CM5Z)",
+          "lat": 50.32361,
+          "lon": -63.65972,
+          "distance_km": 24.9,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15027",
+      "station": {
+        "id": "HQ-S-1-15027",
+        "plan_eau": "",
+        "description": "Rivière Puyjalon (CM5Z)",
+        "lat": 50.32361,
+        "lon": -63.65972,
+        "distance_km": 24.9
+      }
     },
     {
       "plan_id": 1235,
@@ -857,18 +1359,54 @@
       "plan_nom": "Rivière Puyjalon",
       "lat": 50.3075,
       "lon": -63.666667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15027",
+          "plan_eau": "",
+          "description": "Rivière Puyjalon (CM5Z)",
+          "lat": 50.32361,
+          "lon": -63.65972,
+          "distance_km": 1.86,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15027",
+      "station": {
+        "id": "HQ-S-1-15027",
+        "plan_eau": "",
+        "description": "Rivière Puyjalon (CM5Z)",
+        "lat": 50.32361,
+        "lon": -63.65972,
+        "distance_km": 1.86
+      }
     },
     {
       "plan_id": 1325,
       "plan_nom": "Rivière Romaine",
       "lat": 50.289722,
       "lon": -63.852778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15027",
+          "plan_eau": "",
+          "description": "Rivière Puyjalon (CM5Z)",
+          "lat": 50.32361,
+          "lon": -63.65972,
+          "distance_km": 14.22,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15027",
+      "station": {
+        "id": "HQ-S-1-15027",
+        "plan_eau": "",
+        "description": "Rivière Puyjalon (CM5Z)",
+        "lat": 50.32361,
+        "lon": -63.65972,
+        "distance_km": 14.22
+      }
     },
     {
       "plan_id": 1332,

@@ -3,7 +3,7 @@
     "zone_id": 27,
     "radius_km": 25.0,
     "nb_with_coords": 10,
-    "nb_station_matched": 0
+    "nb_station_matched": 5
   },
   "matches": [
     {
@@ -20,9 +20,37 @@
       "plan_nom": "Lac Hasté",
       "lat": 53.116667,
       "lon": -68.45,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7268",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CMRA)",
+          "lat": 53.1956,
+          "lon": -68.3567,
+          "distance_km": 10.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11092",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CM5H)",
+          "lat": 53.2011,
+          "lon": -68.36,
+          "distance_km": 11.14,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7268",
+      "station": {
+        "id": "HQ-S-1-7268",
+        "plan_eau": "",
+        "description": "Lac Raimbault (CMRA)",
+        "lat": 53.1956,
+        "lon": -68.3567,
+        "distance_km": 10.76
+      }
     },
     {
       "plan_id": 1683,
@@ -65,36 +93,138 @@
       "plan_nom": "Lac Opiscotéo",
       "lat": 53.166667,
       "lon": -68.166667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7268",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CMRA)",
+          "lat": 53.1956,
+          "lon": -68.3567,
+          "distance_km": 13.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11092",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CM5H)",
+          "lat": 53.2011,
+          "lon": -68.36,
+          "distance_km": 13.44,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7268",
+      "station": {
+        "id": "HQ-S-1-7268",
+        "plan_eau": "",
+        "description": "Lac Raimbault (CMRA)",
+        "lat": 53.1956,
+        "lon": -68.3567,
+        "distance_km": 13.07
+      }
     },
     {
       "plan_id": 1695,
       "plan_nom": "Lac Raimbault",
       "lat": 53.216667,
       "lon": -68.35,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11092",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CM5H)",
+          "lat": 53.2011,
+          "lon": -68.36,
+          "distance_km": 1.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7268",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CMRA)",
+          "lat": 53.1956,
+          "lon": -68.3567,
+          "distance_km": 2.38,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11092",
+      "station": {
+        "id": "HQ-S-1-11092",
+        "plan_eau": "",
+        "description": "Lac Raimbault (CM5H)",
+        "lat": 53.2011,
+        "lon": -68.36,
+        "distance_km": 1.85
+      }
     },
     {
       "plan_id": 1697,
       "plan_nom": "Lac Ternay",
       "lat": 53.425,
       "lon": -69.091667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15360",
+          "plan_eau": "",
+          "description": "Tarley (CM2U)",
+          "lat": 53.5806,
+          "lon": -69.1302,
+          "distance_km": 17.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15360",
+      "station": {
+        "id": "HQ-S-1-15360",
+        "plan_eau": "",
+        "description": "Tarley (CM2U)",
+        "lat": 53.5806,
+        "lon": -69.1302,
+        "distance_km": 17.49
+      }
     },
     {
       "plan_id": 1701,
       "plan_nom": "Lac Vignal",
       "lat": 53.3,
       "lon": -68.383333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11092",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CM5H)",
+          "lat": 53.2011,
+          "lon": -68.36,
+          "distance_km": 11.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7268",
+          "plan_eau": "",
+          "description": "Lac Raimbault (CMRA)",
+          "lat": 53.1956,
+          "lon": -68.3567,
+          "distance_km": 11.74,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11092",
+      "station": {
+        "id": "HQ-S-1-11092",
+        "plan_eau": "",
+        "description": "Lac Raimbault (CM5H)",
+        "lat": 53.2011,
+        "lon": -68.36,
+        "distance_km": 11.11
+      }
     }
   ]
 }

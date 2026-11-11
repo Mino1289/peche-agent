@@ -3,7 +3,7 @@
     "zone_id": 30,
     "radius_km": 25.0,
     "nb_with_coords": 40,
-    "nb_station_matched": 22
+    "nb_station_matched": 36
   },
   "matches": [
     {
@@ -11,9 +11,87 @@
       "plan_nom": "Lac à Beauce",
       "lat": 47.329444,
       "lon": -72.752222,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 13.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 13.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 13.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 21.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15681",
+          "plan_eau": "",
+          "description": "Rivière Reed (CM5Q)",
+          "lat": 47.1784,
+          "lon": -72.57526,
+          "distance_km": 21.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 21.47,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7294",
+          "plan_eau": "",
+          "description": "Rivière Bostonnais",
+          "lat": 47.5201,
+          "lon": -72.6812,
+          "distance_km": 21.86,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2999",
+      "station": {
+        "id": "HQ-S-1-2999",
+        "plan_eau": "",
+        "description": "La Tuque Centrale aval",
+        "lat": 47.4442,
+        "lon": -72.7996,
+        "distance_km": 13.25
+      }
     },
     {
       "plan_id": 3051,
@@ -28,6 +106,46 @@
           "lat": 46.959179,
           "lon": -72.206614,
           "distance_km": 14.81,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 24.24,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 24.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 24.38,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 24.88,
           "role": "both",
           "match_reason": "geo"
         }
@@ -96,6 +214,16 @@
       "lon": -72.701944,
       "stations": [
         {
+          "id": "HQ-S-1-7294",
+          "plan_eau": "",
+          "description": "Rivière Bostonnais",
+          "lat": 47.5201,
+          "lon": -72.6812,
+          "distance_km": 1.72,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "050117",
           "plan_eau": "Rivière Croche",
           "description": "À 2,6 km en aval du ruisseau du Huard",
@@ -104,16 +232,76 @@
           "distance_km": 8.42,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 10.59,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 10.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 10.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 11.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 11.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 11.13,
+          "role": "flow",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-S-1-7294",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 8.42
+        "id": "HQ-S-1-7294",
+        "plan_eau": "",
+        "description": "Rivière Bostonnais",
+        "lat": 47.5201,
+        "lon": -72.6812,
+        "distance_km": 1.72
       }
     },
     {
@@ -123,24 +311,94 @@
       "lon": -72.976111,
       "stations": [
         {
-          "id": "050117",
-          "plan_eau": "Rivière Croche",
-          "description": "À 2,6 km en aval du ruisseau du Huard",
-          "lat": 47.584209,
-          "lon": -72.742581,
-          "distance_km": 22.93,
-          "role": "both",
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 9.13,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 9.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 13.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 13.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 13.34,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 15.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 15.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 15.71,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-I-3-249",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 22.93
+        "id": "HQ-I-3-249",
+        "plan_eau": "",
+        "description": "Cinconsine",
+        "lat": 47.3773,
+        "lon": -73.0283,
+        "distance_km": 9.13
       }
     },
     {
@@ -148,18 +406,174 @@
       "plan_nom": "Lac Châteauvert",
       "lat": 47.656667,
       "lon": -73.920833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3035",
+          "plan_eau": "",
+          "description": "Manouane-B Barrage aval",
+          "lat": 47.62951,
+          "lon": -74.0032,
+          "distance_km": 6.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-78",
+          "plan_eau": "",
+          "description": "Manouane-B",
+          "lat": 47.6303,
+          "lon": -74.0041,
+          "distance_km": 6.89,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3034",
+          "plan_eau": "",
+          "description": "Manouane-B Barrage amont",
+          "lat": 47.6298,
+          "lon": -74.0048,
+          "distance_km": 6.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-81",
+          "plan_eau": "",
+          "description": "Manouane-C",
+          "lat": 47.7579,
+          "lon": -73.8967,
+          "distance_km": 11.4,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2935",
+          "plan_eau": "",
+          "description": "Manouane-C Barrage amont",
+          "lat": 47.7581,
+          "lon": -73.8967,
+          "distance_km": 11.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2936",
+          "plan_eau": "",
+          "description": "Manouane-C BOGC",
+          "lat": 47.7591,
+          "lon": -73.8917,
+          "distance_km": 11.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15532",
+          "plan_eau": "",
+          "description": "Weymount (CM5G)",
+          "lat": 47.8457,
+          "lon": -73.8048,
+          "distance_km": 22.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-77",
+          "plan_eau": "",
+          "description": "Manouane-A",
+          "lat": 47.537,
+          "lon": -74.1849,
+          "distance_km": 23.86,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3035",
+      "station": {
+        "id": "HQ-S-1-3035",
+        "plan_eau": "",
+        "description": "Manouane-B Barrage aval",
+        "lat": 47.62951,
+        "lon": -74.0032,
+        "distance_km": 6.87
+      }
     },
     {
       "plan_id": 1939,
       "plan_nom": "Lac Clair",
       "lat": 47.259444,
       "lon": -72.778889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15681",
+          "plan_eau": "",
+          "description": "Rivière Reed (CM5Q)",
+          "lat": 47.1784,
+          "lon": -72.57526,
+          "distance_km": 17.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 20.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 20.64,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 20.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 22.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 22.92,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15681",
+      "station": {
+        "id": "HQ-S-1-15681",
+        "plan_eau": "",
+        "description": "Rivière Reed (CM5Q)",
+        "lat": 47.1784,
+        "lon": -72.57526,
+        "distance_km": 17.82
+      }
     },
     {
       "plan_id": 1936,
@@ -174,6 +588,56 @@
           "lat": 46.959179,
           "lon": -72.206614,
           "distance_km": 15.81,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7288",
+          "plan_eau": "",
+          "description": "Rivière aux Eaux Mortes (CMRE)",
+          "lat": 47.0974,
+          "lon": -72.496,
+          "distance_km": 18.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 18.72,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 18.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 19.03,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 20.96,
           "role": "both",
           "match_reason": "geo"
         }
@@ -193,18 +657,114 @@
       "plan_nom": "Lac Croche",
       "lat": 46.831944,
       "lon": -72.5,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 17.49,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 19.58,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 19.81,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 19.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3082",
+      "station": {
+        "id": "HQ-S-1-3082",
+        "plan_eau": "",
+        "description": "Saint-Joseph-de-Mékinac",
+        "lat": 46.922702,
+        "lon": -72.687857,
+        "distance_km": 17.49
+      }
     },
     {
       "plan_id": 3177,
       "plan_nom": "Lac Cuisy",
       "lat": 47.2825,
       "lon": -72.7125,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15681",
+          "plan_eau": "",
+          "description": "Rivière Reed (CM5Q)",
+          "lat": 47.1784,
+          "lon": -72.57526,
+          "distance_km": 15.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 19.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 19.17,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 19.2,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15681",
+      "station": {
+        "id": "HQ-S-1-15681",
+        "plan_eau": "",
+        "description": "Rivière Reed (CM5Q)",
+        "lat": 47.1784,
+        "lon": -72.57526,
+        "distance_km": 15.54
+      }
     },
     {
       "plan_id": 1923,
@@ -213,24 +773,94 @@
       "lon": -72.870556,
       "stations": [
         {
-          "id": "050117",
-          "plan_eau": "Rivière Croche",
-          "description": "À 2,6 km en aval du ruisseau du Huard",
-          "lat": 47.584209,
-          "lon": -72.742581,
-          "distance_km": 18.91,
-          "role": "both",
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 5.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 5.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 5.43,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 13.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 13.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 13.43,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 13.64,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 13.74,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-S-1-2999",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 18.91
+        "id": "HQ-S-1-2999",
+        "plan_eau": "",
+        "description": "La Tuque Centrale aval",
+        "lat": 47.4442,
+        "lon": -72.7996,
+        "distance_km": 5.38
       }
     },
     {
@@ -238,9 +868,87 @@
       "plan_nom": "Lac des Chicots",
       "lat": 46.801667,
       "lon": -72.5175,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 18.68,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 21.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 21.96,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 22.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7346",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale amont",
+          "lat": 46.6149,
+          "lon": -72.6772,
+          "distance_km": 24.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-89",
+          "plan_eau": "",
+          "description": "Grand-Mère",
+          "lat": 46.6137,
+          "lon": -72.6749,
+          "distance_km": 24.1,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7348",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale aval",
+          "lat": 46.6133,
+          "lon": -72.6765,
+          "distance_km": 24.2,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3082",
+      "station": {
+        "id": "HQ-S-1-3082",
+        "plan_eau": "",
+        "description": "Saint-Joseph-de-Mékinac",
+        "lat": 46.922702,
+        "lon": -72.687857,
+        "distance_km": 18.68
+      }
     },
     {
       "plan_id": 1930,
@@ -248,6 +956,56 @@
       "lat": 46.756389,
       "lon": -72.722778,
       "stations": [
+        {
+          "id": "HQ-S-1-7770",
+          "plan_eau": "",
+          "description": "Rapides-Manigance",
+          "lat": 46.861389,
+          "lon": -72.836111,
+          "distance_km": 14.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7346",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale amont",
+          "lat": 46.6149,
+          "lon": -72.6772,
+          "distance_km": 16.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-89",
+          "plan_eau": "",
+          "description": "Grand-Mère",
+          "lat": 46.6137,
+          "lon": -72.6749,
+          "distance_km": 16.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7348",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale aval",
+          "lat": 46.6133,
+          "lon": -72.6765,
+          "distance_km": 16.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 18.68,
+          "role": "both",
+          "match_reason": "geo"
+        },
         {
           "id": "050148",
           "plan_eau": "Rivière Shawinigan",
@@ -257,16 +1015,36 @@
           "distance_km": 19.23,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 24.23,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 24.72,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050148",
+      "primary_station_id": "HQ-S-1-7770",
       "station": {
-        "id": "050148",
-        "plan_eau": "Rivière Shawinigan",
-        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-        "lat": 46.584987,
-        "lon": -72.756659,
-        "distance_km": 19.23
+        "id": "HQ-S-1-7770",
+        "plan_eau": "",
+        "description": "Rapides-Manigance",
+        "lat": 46.861389,
+        "lon": -72.836111,
+        "distance_km": 14.52
       }
     },
     {
@@ -341,6 +1119,56 @@
           "distance_km": 18.15,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-90",
+          "plan_eau": "",
+          "description": "Shawinigan",
+          "lat": 46.5338,
+          "lon": -72.7673,
+          "distance_km": 18.2,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 18.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 18.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 18.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 18.48,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "052805",
@@ -367,9 +1195,77 @@
       "plan_nom": "Lac du Missionnaire",
       "lat": 46.916667,
       "lon": -72.560278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 9.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 9.69,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 9.71,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 9.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7288",
+          "plan_eau": "",
+          "description": "Rivière aux Eaux Mortes (CMRE)",
+          "lat": 47.0974,
+          "lon": -72.496,
+          "distance_km": 20.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7770",
+          "plan_eau": "",
+          "description": "Rapides-Manigance",
+          "lat": 46.861389,
+          "lon": -72.836111,
+          "distance_km": 21.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3036",
+      "station": {
+        "id": "HQ-S-1-3036",
+        "plan_eau": "",
+        "description": "Mékinac Barrage aval",
+        "lat": 46.97,
+        "lon": -72.66,
+        "distance_km": 9.62
+      }
     },
     {
       "plan_id": 11581,
@@ -377,6 +1273,76 @@
       "lat": 47.4225,
       "lon": -72.751667,
       "stations": [
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 4.33,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 4.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 4.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7294",
+          "plan_eau": "",
+          "description": "Rivière Bostonnais",
+          "lat": 47.5201,
+          "lon": -72.6812,
+          "distance_km": 12.08,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 16.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 16.13,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 16.17,
+          "role": "flow",
+          "match_reason": "geo"
+        },
         {
           "id": "050117",
           "plan_eau": "Rivière Croche",
@@ -388,14 +1354,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-I-3-85",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 17.99
+        "id": "HQ-I-3-85",
+        "plan_eau": "",
+        "description": "La Tuque",
+        "lat": 47.4446,
+        "lon": -72.799,
+        "distance_km": 4.33
       }
     },
     {
@@ -451,6 +1417,56 @@
           "distance_km": 22.36,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-90",
+          "plan_eau": "",
+          "description": "Shawinigan",
+          "lat": 46.5338,
+          "lon": -72.7673,
+          "distance_km": 24.02,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 24.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 24.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 24.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 24.26,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "052805",
@@ -477,9 +1493,97 @@
       "plan_nom": "Lac Fontaine",
       "lat": 46.818889,
       "lon": -72.659444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 11.74,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7770",
+          "plan_eau": "",
+          "description": "Rapides-Manigance",
+          "lat": 46.861389,
+          "lon": -72.836111,
+          "distance_km": 14.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 16.8,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 17.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 17.43,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7346",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale amont",
+          "lat": 46.6149,
+          "lon": -72.6772,
+          "distance_km": 22.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-89",
+          "plan_eau": "",
+          "description": "Grand-Mère",
+          "lat": 46.6137,
+          "lon": -72.6749,
+          "distance_km": 22.85,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7348",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale aval",
+          "lat": 46.6133,
+          "lon": -72.6765,
+          "distance_km": 22.9,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3082",
+      "station": {
+        "id": "HQ-S-1-3082",
+        "plan_eau": "",
+        "description": "Saint-Joseph-de-Mékinac",
+        "lat": 46.922702,
+        "lon": -72.687857,
+        "distance_km": 11.74
+      }
     },
     {
       "plan_id": 1924,
@@ -488,24 +1592,94 @@
       "lon": -72.901389,
       "stations": [
         {
-          "id": "050117",
-          "plan_eau": "Rivière Croche",
-          "description": "À 2,6 km en aval du ruisseau du Huard",
-          "lat": 47.584209,
-          "lon": -72.742581,
-          "distance_km": 19.25,
-          "role": "both",
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 7.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 7.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 7.71,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 12.39,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 12.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 12.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 12.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 12.97,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-S-1-2999",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 19.25
+        "id": "HQ-S-1-2999",
+        "plan_eau": "",
+        "description": "La Tuque Centrale aval",
+        "lat": 47.4442,
+        "lon": -72.7996,
+        "distance_km": 7.67
       }
     },
     {
@@ -514,6 +1688,56 @@
       "lat": 46.541111,
       "lon": -72.950278,
       "stations": [
+        {
+          "id": "HQ-I-3-90",
+          "plan_eau": "",
+          "description": "Shawinigan",
+          "lat": 46.5338,
+          "lon": -72.7673,
+          "distance_km": 14.02,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 14.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 14.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 14.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 14.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "050148",
           "plan_eau": "Rivière Shawinigan",
@@ -535,24 +1759,24 @@
           "match_reason": "geo"
         },
         {
-          "id": "052805",
-          "plan_eau": "Rivière du Loup",
-          "description": "À 0,3 km en aval du ruisseau Carufel",
-          "lat": 46.601,
-          "lon": -73.186,
-          "distance_km": 19.21,
-          "role": "both",
+          "id": "HQ-S-1-2996",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale amont",
+          "lat": 46.4493,
+          "lon": -72.7395,
+          "distance_km": 19.09,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050148",
+      "primary_station_id": "HQ-I-3-90",
       "station": {
-        "id": "050148",
-        "plan_eau": "Rivière Shawinigan",
-        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-        "lat": 46.584987,
-        "lon": -72.756659,
-        "distance_km": 15.59
+        "id": "HQ-I-3-90",
+        "plan_eau": "",
+        "description": "Shawinigan",
+        "lat": 46.5338,
+        "lon": -72.7673,
+        "distance_km": 14.02
       }
     },
     {
@@ -562,24 +1786,94 @@
       "lon": -72.948611,
       "stations": [
         {
-          "id": "050117",
-          "plan_eau": "Rivière Croche",
-          "description": "À 2,6 km en aval du ruisseau du Huard",
-          "lat": 47.584209,
-          "lon": -72.742581,
-          "distance_km": 20.7,
-          "role": "both",
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 11.03,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 11.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 11.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 11.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 11.39,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 13.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 13.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 13.59,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-I-3-249",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 20.7
+        "id": "HQ-I-3-249",
+        "plan_eau": "",
+        "description": "Cinconsine",
+        "lat": 47.3773,
+        "lon": -73.0283,
+        "distance_km": 11.03
       }
     },
     {
@@ -589,24 +1883,94 @@
       "lon": -72.918333,
       "stations": [
         {
-          "id": "050117",
-          "plan_eau": "Rivière Croche",
-          "description": "À 2,6 km en aval du ruisseau du Huard",
-          "lat": 47.584209,
-          "lon": -72.742581,
-          "distance_km": 18.88,
-          "role": "both",
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 9.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 9.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 9.2,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 12.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 12.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 12.1,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 12.6,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 12.77,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-S-1-2998",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 18.88
+        "id": "HQ-S-1-2998",
+        "plan_eau": "",
+        "description": "La Tuque Centrale amont",
+        "lat": 47.4448,
+        "lon": -72.7994,
+        "distance_km": 9.16
       }
     },
     {
@@ -623,6 +1987,76 @@
           "lon": -72.756659,
           "distance_km": 11.63,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7346",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale amont",
+          "lat": 46.6149,
+          "lon": -72.6772,
+          "distance_km": 11.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7348",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale aval",
+          "lat": 46.6133,
+          "lon": -72.6765,
+          "distance_km": 11.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-89",
+          "plan_eau": "",
+          "description": "Grand-Mère",
+          "lat": 46.6137,
+          "lon": -72.6749,
+          "distance_km": 12.01,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 16.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 16.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-90",
+          "plan_eau": "",
+          "description": "Shawinigan",
+          "lat": 46.5338,
+          "lon": -72.7673,
+          "distance_km": 17.12,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 17.12,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -671,6 +2105,56 @@
           "distance_km": 23.79,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-90",
+          "plan_eau": "",
+          "description": "Shawinigan",
+          "lat": 46.5338,
+          "lon": -72.7673,
+          "distance_km": 24.2,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 24.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 24.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 24.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 24.47,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "052805",
@@ -690,24 +2174,94 @@
       "lon": -72.735556,
       "stations": [
         {
-          "id": "050148",
-          "plan_eau": "Rivière Shawinigan",
-          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-          "lat": 46.584987,
-          "lon": -72.756659,
-          "distance_km": 22.7,
+          "id": "HQ-S-1-7770",
+          "plan_eau": "",
+          "description": "Rapides-Manigance",
+          "lat": 46.861389,
+          "lon": -72.836111,
+          "distance_km": 11.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 15.35,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7346",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale amont",
+          "lat": 46.6149,
+          "lon": -72.6772,
+          "distance_km": 19.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-89",
+          "plan_eau": "",
+          "description": "Grand-Mère",
+          "lat": 46.6137,
+          "lon": -72.6749,
+          "distance_km": 19.99,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7348",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale aval",
+          "lat": 46.6133,
+          "lon": -72.6765,
+          "distance_km": 20.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 20.97,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 21.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 21.69,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050148",
+      "primary_station_id": "HQ-S-1-7770",
       "station": {
-        "id": "050148",
-        "plan_eau": "Rivière Shawinigan",
-        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-        "lat": 46.584987,
-        "lon": -72.756659,
-        "distance_km": 22.7
+        "id": "HQ-S-1-7770",
+        "plan_eau": "",
+        "description": "Rapides-Manigance",
+        "lat": 46.861389,
+        "lon": -72.836111,
+        "distance_km": 11.14
       }
     },
     {
@@ -715,9 +2269,77 @@
       "plan_nom": "Lac Mékinac",
       "lat": 47.061944,
       "lon": -72.6775,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 9.74,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 9.76,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 10.31,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7288",
+          "plan_eau": "",
+          "description": "Rivière aux Eaux Mortes (CMRE)",
+          "lat": 47.0974,
+          "lon": -72.496,
+          "distance_km": 14.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15681",
+          "plan_eau": "",
+          "description": "Rivière Reed (CM5Q)",
+          "lat": 47.1784,
+          "lon": -72.57526,
+          "distance_km": 15.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 15.5,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2941",
+      "station": {
+        "id": "HQ-S-1-2941",
+        "plan_eau": "",
+        "description": "Mékinac Barrage amont",
+        "lat": 46.9756,
+        "lon": -72.6556,
+        "distance_km": 9.74
+      }
     },
     {
       "plan_id": 1932,
@@ -761,6 +2383,56 @@
           "distance_km": 14.65,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7288",
+          "plan_eau": "",
+          "description": "Rivière aux Eaux Mortes (CMRE)",
+          "lat": 47.0974,
+          "lon": -72.496,
+          "distance_km": 17.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 19.57,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 19.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 19.92,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 22.13,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "050309",
@@ -780,6 +2452,36 @@
       "lon": -73.032778,
       "stations": [
         {
+          "id": "HQ-I-3-82",
+          "plan_eau": "",
+          "description": "Rapide-Blanc",
+          "lat": 47.7963,
+          "lon": -72.9734,
+          "distance_km": 6.66,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3067",
+          "plan_eau": "",
+          "description": "Rapide-Blanc Centrale aval",
+          "lat": 47.7963,
+          "lon": -72.9727,
+          "distance_km": 6.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3066",
+          "plan_eau": "",
+          "description": "Rapide-Blanc Centrale amont",
+          "lat": 47.7967,
+          "lon": -72.9733,
+          "distance_km": 6.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "050144",
           "plan_eau": "Rivière Vermillon",
           "description": "À 0,3 km en aval de la rivière des Prairies",
@@ -788,16 +2490,56 @@
           "distance_km": 8.33,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3088",
+          "plan_eau": "",
+          "description": "Trenche Centrale amont",
+          "lat": 47.7522,
+          "lon": -72.8797,
+          "distance_km": 11.44,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3089",
+          "plan_eau": "",
+          "description": "Trenche Centrale aval",
+          "lat": 47.7515,
+          "lon": -72.8783,
+          "distance_km": 11.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-83",
+          "plan_eau": "",
+          "description": "Trenche",
+          "lat": 47.7521,
+          "lon": -72.8782,
+          "distance_km": 11.56,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10496",
+          "plan_eau": "",
+          "description": "Rapide-Blanc (CM3U)",
+          "lat": 47.8924,
+          "lon": -72.8856,
+          "distance_km": 19.12,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050144",
+      "primary_station_id": "HQ-I-3-82",
       "station": {
-        "id": "050144",
-        "plan_eau": "Rivière Vermillon",
-        "description": "À 0,3 km en aval de la rivière des Prairies",
-        "lat": 47.677,
-        "lon": -73.041,
-        "distance_km": 8.33
+        "id": "HQ-I-3-82",
+        "plan_eau": "",
+        "description": "Rapide-Blanc",
+        "lat": 47.7963,
+        "lon": -72.9734,
+        "distance_km": 6.66
       }
     },
     {
@@ -805,18 +2547,164 @@
       "plan_nom": "Lac Touridi",
       "lat": 47.684444,
       "lon": -73.99,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-78",
+          "plan_eau": "",
+          "description": "Manouane-B",
+          "lat": 47.6303,
+          "lon": -74.0041,
+          "distance_km": 6.11,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3034",
+          "plan_eau": "",
+          "description": "Manouane-B Barrage amont",
+          "lat": 47.6298,
+          "lon": -74.0048,
+          "distance_km": 6.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3035",
+          "plan_eau": "",
+          "description": "Manouane-B Barrage aval",
+          "lat": 47.62951,
+          "lon": -74.0032,
+          "distance_km": 6.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-81",
+          "plan_eau": "",
+          "description": "Manouane-C",
+          "lat": 47.7579,
+          "lon": -73.8967,
+          "distance_km": 10.74,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2935",
+          "plan_eau": "",
+          "description": "Manouane-C Barrage amont",
+          "lat": 47.7581,
+          "lon": -73.8967,
+          "distance_km": 10.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2936",
+          "plan_eau": "",
+          "description": "Manouane-C BOGC",
+          "lat": 47.7591,
+          "lon": -73.8917,
+          "distance_km": 11.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-77",
+          "plan_eau": "",
+          "description": "Manouane-A",
+          "lat": 47.537,
+          "lon": -74.1849,
+          "distance_km": 21.96,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15957",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage aval",
+          "lat": 47.53708,
+          "lon": -74.18551,
+          "distance_km": 21.98,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-78",
+      "station": {
+        "id": "HQ-I-3-78",
+        "plan_eau": "",
+        "description": "Manouane-B",
+        "lat": 47.6303,
+        "lon": -74.0041,
+        "distance_km": 6.11
+      }
     },
     {
       "plan_id": 3243,
       "plan_nom": "Lac Traverse",
       "lat": 46.848056,
       "lon": -72.533889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 14.35,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 16.6,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 16.88,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 16.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7770",
+          "plan_eau": "",
+          "description": "Rapides-Manigance",
+          "lat": 46.861389,
+          "lon": -72.836111,
+          "distance_km": 23.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3082",
+      "station": {
+        "id": "HQ-S-1-3082",
+        "plan_eau": "",
+        "description": "Saint-Joseph-de-Mékinac",
+        "lat": 46.922702,
+        "lon": -72.687857,
+        "distance_km": 14.35
+      }
     },
     {
       "plan_id": 1926,
@@ -825,24 +2713,94 @@
       "lon": -72.941111,
       "stations": [
         {
-          "id": "050117",
-          "plan_eau": "Rivière Croche",
-          "description": "À 2,6 km en aval du ruisseau du Huard",
-          "lat": 47.584209,
-          "lon": -72.742581,
-          "distance_km": 21.87,
-          "role": "both",
+          "id": "HQ-I-3-249",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.3773,
+          "lon": -73.0283,
+          "distance_km": 9.6,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10333",
+          "plan_eau": "",
+          "description": "Cinconsine",
+          "lat": 47.375,
+          "lon": -73.0278,
+          "distance_km": 9.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2999",
+          "plan_eau": "",
+          "description": "La Tuque Centrale aval",
+          "lat": 47.4442,
+          "lon": -72.7996,
+          "distance_km": 10.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2998",
+          "plan_eau": "",
+          "description": "La Tuque Centrale amont",
+          "lat": 47.4448,
+          "lon": -72.7994,
+          "distance_km": 10.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-85",
+          "plan_eau": "",
+          "description": "La Tuque",
+          "lat": 47.4446,
+          "lon": -72.799,
+          "distance_km": 10.7,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2956",
+          "plan_eau": "",
+          "description": "Beaumont Centrale amont",
+          "lat": 47.5559,
+          "lon": -72.8361,
+          "distance_km": 15.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2957",
+          "plan_eau": "",
+          "description": "Beaumont Centrale aval",
+          "lat": 47.5556,
+          "lon": -72.8352,
+          "distance_km": 15.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-84",
+          "plan_eau": "",
+          "description": "Beaumont",
+          "lat": 47.5563,
+          "lon": -72.8361,
+          "distance_km": 15.12,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050117",
+      "primary_station_id": "HQ-I-3-249",
       "station": {
-        "id": "050117",
-        "plan_eau": "Rivière Croche",
-        "description": "À 2,6 km en aval du ruisseau du Huard",
-        "lat": 47.584209,
-        "lon": -72.742581,
-        "distance_km": 21.87
+        "id": "HQ-I-3-249",
+        "plan_eau": "",
+        "description": "Cinconsine",
+        "lat": 47.3773,
+        "lon": -73.0283,
+        "distance_km": 9.6
       }
     },
     {
@@ -850,27 +2808,221 @@
       "plan_nom": "Lac Vlimeux",
       "lat": 46.844722,
       "lon": -72.695278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 8.69,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7770",
+          "plan_eau": "",
+          "description": "Rapides-Manigance",
+          "lat": 46.861389,
+          "lon": -72.836111,
+          "distance_km": 10.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 14.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 14.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 14.88,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3082",
+      "station": {
+        "id": "HQ-S-1-3082",
+        "plan_eau": "",
+        "description": "Saint-Joseph-de-Mékinac",
+        "lat": 46.922702,
+        "lon": -72.687857,
+        "distance_km": 8.69
+      }
     },
     {
       "plan_id": 1950,
       "plan_nom": "Rivière aux Brochets entre son embouchure",
       "lat": 47.128611,
       "lon": -72.615556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15681",
+          "plan_eau": "",
+          "description": "Rivière Reed (CM5Q)",
+          "lat": 47.1784,
+          "lon": -72.57526,
+          "distance_km": 6.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7288",
+          "plan_eau": "",
+          "description": "Rivière aux Eaux Mortes (CMRE)",
+          "lat": 47.0974,
+          "lon": -72.496,
+          "distance_km": 9.69,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 17.27,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 17.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 17.96,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 23.54,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15681",
+      "station": {
+        "id": "HQ-S-1-15681",
+        "plan_eau": "",
+        "description": "Rivière Reed (CM5Q)",
+        "lat": 47.1784,
+        "lon": -72.57526,
+        "distance_km": 6.32
+      }
     },
     {
       "plan_id": 1952,
       "plan_nom": "Rivière du Milieu entre la ligne d'énergie électrique",
       "lat": 47.109167,
       "lon": -72.621111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15681",
+          "plan_eau": "",
+          "description": "Rivière Reed (CM5Q)",
+          "lat": 47.1784,
+          "lon": -72.57526,
+          "distance_km": 8.44,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7288",
+          "plan_eau": "",
+          "description": "Rivière aux Eaux Mortes (CMRE)",
+          "lat": 47.0974,
+          "lon": -72.496,
+          "distance_km": 9.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-88",
+          "plan_eau": "",
+          "description": "Mékinac",
+          "lat": 46.9756,
+          "lon": -72.6543,
+          "distance_km": 15.06,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2941",
+          "plan_eau": "",
+          "description": "Mékinac Barrage amont",
+          "lat": 46.9756,
+          "lon": -72.6556,
+          "distance_km": 15.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3036",
+          "plan_eau": "",
+          "description": "Mékinac Barrage aval",
+          "lat": 46.97,
+          "lon": -72.66,
+          "distance_km": 15.75,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3082",
+          "plan_eau": "",
+          "description": "Saint-Joseph-de-Mékinac",
+          "lat": 46.922702,
+          "lon": -72.687857,
+          "distance_km": 21.34,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15681",
+      "station": {
+        "id": "HQ-S-1-15681",
+        "plan_eau": "",
+        "description": "Rivière Reed (CM5Q)",
+        "lat": 47.1784,
+        "lon": -72.57526,
+        "distance_km": 8.44
+      }
     }
   ]
 }

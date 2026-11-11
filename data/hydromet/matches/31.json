@@ -13,16 +13,6 @@
       "lon": -70.535556,
       "stations": [
         {
-          "id": "635",
-          "plan_eau": "Bras du Nord-Ouest",
-          "description": "Au Pont Gariepy",
-          "lat": 47.444889,
-          "lon": -70.510185,
-          "distance_km": 1.99,
-          "role": "level",
-          "match_reason": "name"
-        },
-        {
           "id": "051305",
           "plan_eau": "Rivière du Gouffre",
           "description": "À 80 m en amont du pont du village de Saint-Urbain",
@@ -33,14 +23,14 @@
           "match_reason": "name"
         }
       ],
-      "primary_station_id": "635",
+      "primary_station_id": "051305",
       "station": {
-        "id": "635",
-        "plan_eau": "Bras du Nord-Ouest",
-        "description": "Au Pont Gariepy",
-        "lat": 47.444889,
-        "lon": -70.510185,
-        "distance_km": 1.99
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 13.38
       }
     },
     {
@@ -185,16 +175,6 @@
       "lon": -70.56,
       "stations": [
         {
-          "id": "548",
-          "plan_eau": "Le Gros Bras",
-          "description": "Pont Rue du Bras (amont)",
-          "lat": 47.578799,
-          "lon": -70.549767,
-          "distance_km": 0.94,
-          "role": "level",
-          "match_reason": "name"
-        },
-        {
           "id": "051305",
           "plan_eau": "Rivière du Gouffre",
           "description": "À 80 m en amont du pont du village de Saint-Urbain",
@@ -205,14 +185,14 @@
           "match_reason": "name"
         }
       ],
-      "primary_station_id": "548",
+      "primary_station_id": "051305",
       "station": {
-        "id": "548",
-        "plan_eau": "Le Gros Bras",
-        "description": "Pont Rue du Bras (amont)",
-        "lat": 47.578799,
-        "lon": -70.549767,
-        "distance_km": 0.94
+        "id": "051305",
+        "plan_eau": "Rivière du Gouffre",
+        "description": "À 80 m en amont du pont du village de Saint-Urbain",
+        "lat": 47.56,
+        "lon": -70.53,
+        "distance_km": 3.46
       }
     },
     {
@@ -800,16 +780,6 @@
           "match_reason": "geo"
         },
         {
-          "id": "548",
-          "plan_eau": "Le Gros Bras",
-          "description": "Pont Rue du Bras (amont)",
-          "lat": 47.578799,
-          "lon": -70.549767,
-          "distance_km": 19.17,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
           "id": "051305",
           "plan_eau": "Rivière du Gouffre",
           "description": "À 80 m en amont du pont du village de Saint-Urbain",
@@ -960,16 +930,6 @@
           "lon": -70.53,
           "distance_km": 22.37,
           "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "548",
-          "plan_eau": "Le Gros Bras",
-          "description": "Pont Rue du Bras (amont)",
-          "lat": 47.578799,
-          "lon": -70.549767,
-          "distance_km": 22.43,
-          "role": "level",
           "match_reason": "geo"
         }
       ],

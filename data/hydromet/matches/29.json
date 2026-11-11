@@ -33,6 +33,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 15.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "679",
           "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
           "description": "Au pont de la route 148 à Mansfield et Pontefract",
@@ -40,6 +50,26 @@
           "lon": -76.72953,
           "distance_km": 15.74,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15569",
+          "plan_eau": "",
+          "description": "Rocher Fendu amont (CM6B)",
+          "lat": 45.755813,
+          "lon": -76.765098,
+          "distance_km": 20.64,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3077",
+          "plan_eau": "",
+          "description": "Rocher-Fendu aval",
+          "lat": 45.750556,
+          "lon": -76.770278,
+          "distance_km": 20.91,
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -97,6 +127,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 5.44,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "486",
           "plan_eau": "Rivière de la Petite Nation",
           "description": "Au pont de la route 321 à Saint-André-Avellin",
@@ -150,6 +190,16 @@
           "lat": 45.598102,
           "lon": -75.107669,
           "distance_km": 5.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 5.44,
           "role": "level",
           "match_reason": "geo"
         },
@@ -234,6 +284,26 @@
           "lat": 45.52658,
           "lon": -75.41105,
           "distance_km": 2.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "478",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 3 km en amont de l'embouchure de la rivière Blanche à Gatineau",
+          "lat": 45.4819,
+          "lon": -75.576303,
+          "distance_km": 13.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 15.18,
           "role": "level",
           "match_reason": "geo"
         },

@@ -13,6 +13,26 @@
       "lon": -73.283653,
       "stations": [
         {
+          "id": "HQ-S-1-15586",
+          "plan_eau": "",
+          "description": "Chambly",
+          "lat": 45.445118,
+          "lon": -73.261858,
+          "distance_km": 1.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-393",
+          "plan_eau": "",
+          "description": "Chambly",
+          "lat": 45.445835,
+          "lon": -73.26065,
+          "distance_km": 1.81,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "02OJ007",
           "plan_eau": "Rivière Richelieu",
           "description": "À Carignan, aux rapides Fryers",
@@ -71,36 +91,16 @@
           "distance_km": 14.95,
           "role": "both",
           "match_reason": "geo"
-        },
-        {
-          "id": "02OJ016",
-          "plan_eau": "Rivière Richelieu",
-          "description": "À Saint-Jean-sur-Richelieu",
-          "lat": 45.3008,
-          "lon": -73.2511,
-          "distance_km": 16.58,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "030601",
-          "plan_eau": "Rivière Saint-Jacques",
-          "description": "amont du pont Montée Monette à Saint-Philippe",
-          "lat": 45.35281,
-          "lon": -73.473136,
-          "distance_km": 18.2,
-          "role": "both",
-          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "02OJ007",
+      "primary_station_id": "HQ-S-1-15586",
       "station": {
-        "id": "02OJ007",
-        "plan_eau": "Rivière Richelieu",
-        "description": "À Carignan, aux rapides Fryers",
-        "lat": 45.3983,
-        "lon": -73.2589,
-        "distance_km": 5.87
+        "id": "HQ-S-1-15586",
+        "plan_eau": "",
+        "description": "Chambly",
+        "lat": 45.445118,
+        "lon": -73.261858,
+        "distance_km": 1.73
       }
     },
     {
@@ -140,6 +140,46 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-289",
+          "plan_eau": "",
+          "description": "Simon-Sicard",
+          "lat": 45.5716,
+          "lon": -73.6636,
+          "distance_km": 13.15,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-61",
+          "plan_eau": "",
+          "description": "Rivière-des-Prairies",
+          "lat": 45.5895,
+          "lon": -73.6571,
+          "distance_km": 14.88,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3075",
+          "plan_eau": "",
+          "description": "Rivière-des-Prairies Centrale amont",
+          "lat": 45.5899,
+          "lon": -73.6579,
+          "distance_km": 14.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3076",
+          "plan_eau": "",
+          "description": "Rivière-des-Prairies Centrale aval",
+          "lat": 45.5901,
+          "lon": -73.6573,
+          "distance_km": 14.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "030601",
           "plan_eau": "Rivière Saint-Jacques",
           "description": "amont du pont Montée Monette à Saint-Philippe",
@@ -147,46 +187,6 @@
           "lon": -73.473136,
           "distance_km": 15.77,
           "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "430",
-          "plan_eau": "Rivière Châteauguay",
-          "description": "Châteauguay-Pont Arthur-Laberge",
-          "lat": 45.36104,
-          "lon": -73.74829,
-          "distance_km": 15.86,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "02OA039",
-          "plan_eau": "Lac Saint-Louis",
-          "description": "À Pointe-Claire",
-          "lat": 45.4275,
-          "lon": -73.8208,
-          "distance_km": 17.36,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "030905",
-          "plan_eau": "Rivière Châteauguay",
-          "description": "À 2 km en amont du pont-route 132",
-          "lat": 45.33,
-          "lon": -73.762,
-          "distance_km": 19.12,
-          "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "515",
-          "plan_eau": "Rivière L'Acadie",
-          "description": "Carignan",
-          "lat": 45.426812,
-          "lon": -73.362833,
-          "distance_km": 19.16,
-          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -254,6 +254,26 @@
       "lon": -74.372778,
       "stations": [
         {
+          "id": "HQ-S-1-3054",
+          "plan_eau": "",
+          "description": "Pointe-des-Cèdres",
+          "lat": 45.092822,
+          "lon": -74.428355,
+          "distance_km": 8.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3056",
+          "plan_eau": "",
+          "description": "Pointe-Seigneuriale",
+          "lat": 45.195341,
+          "lon": -74.176844,
+          "distance_km": 15.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "030919",
           "plan_eau": "Rivière Châteauguay",
           "description": "À Huntingdon",
@@ -261,6 +281,26 @@
           "lon": -74.172,
           "distance_km": 17.57,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3673",
+          "plan_eau": "",
+          "description": "Coteau-Landing",
+          "lat": 45.259902,
+          "lon": -74.199587,
+          "distance_km": 17.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-3",
+          "plan_eau": "",
+          "description": "Coteau 1, 2, 3",
+          "lat": 45.2692,
+          "lon": -74.1851,
+          "distance_km": 19.29,
+          "role": "flow",
           "match_reason": "geo"
         },
         {
@@ -272,16 +312,26 @@
           "distance_km": 19.54,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2982",
+          "plan_eau": "",
+          "description": "Ferry (Beauharnois)",
+          "lat": 45.290726,
+          "lon": -74.12546,
+          "distance_km": 24.42,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "030919",
+      "primary_station_id": "HQ-S-1-3054",
       "station": {
-        "id": "030919",
-        "plan_eau": "Rivière Châteauguay",
-        "description": "À Huntingdon",
-        "lat": 45.087,
-        "lon": -74.172,
-        "distance_km": 17.57
+        "id": "HQ-S-1-3054",
+        "plan_eau": "",
+        "description": "Pointe-des-Cèdres",
+        "lat": 45.092822,
+        "lon": -74.428355,
+        "distance_km": 8.36
       }
     },
     {
@@ -328,6 +378,56 @@
       "lon": -74.325833,
       "stations": [
         {
+          "id": "HQ-S-1-3673",
+          "plan_eau": "",
+          "description": "Coteau-Landing",
+          "lat": 45.259902,
+          "lon": -74.199587,
+          "distance_km": 10.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3056",
+          "plan_eau": "",
+          "description": "Pointe-Seigneuriale",
+          "lat": 45.195341,
+          "lon": -74.176844,
+          "distance_km": 12.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-3",
+          "plan_eau": "",
+          "description": "Coteau 1, 2, 3",
+          "lat": 45.2692,
+          "lon": -74.1851,
+          "distance_km": 12.26,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3054",
+          "plan_eau": "",
+          "description": "Pointe-des-Cèdres",
+          "lat": 45.092822,
+          "lon": -74.428355,
+          "distance_km": 16.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2982",
+          "plan_eau": "",
+          "description": "Ferry (Beauharnois)",
+          "lat": 45.290726,
+          "lon": -74.12546,
+          "distance_km": 17.5,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "030919",
           "plan_eau": "Rivière Châteauguay",
           "description": "À Huntingdon",
@@ -338,24 +438,34 @@
           "match_reason": "geo"
         },
         {
-          "id": "030926",
-          "plan_eau": "Rivière Châteauguay",
-          "description": "à 1km en aval du village Athelstan",
-          "lat": 45.044605,
-          "lon": -74.181413,
-          "distance_km": 22.63,
-          "role": "both",
+          "id": "HQ-I-3-4",
+          "plan_eau": "",
+          "description": "Île-Juillet",
+          "lat": 45.2966,
+          "lon": -74.0673,
+          "distance_km": 21.92,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2993",
+          "plan_eau": "",
+          "description": "Île-Juillet Barrage amont",
+          "lat": 45.297742,
+          "lon": -74.067802,
+          "distance_km": 21.93,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "030919",
+      "primary_station_id": "HQ-S-1-3673",
       "station": {
-        "id": "030919",
-        "plan_eau": "Rivière Châteauguay",
-        "description": "À Huntingdon",
-        "lat": 45.087,
-        "lon": -74.172,
-        "distance_km": 19.16
+        "id": "HQ-S-1-3673",
+        "plan_eau": "",
+        "description": "Coteau-Landing",
+        "lat": 45.259902,
+        "lon": -74.199587,
+        "distance_km": 10.8
       }
     },
     {
@@ -906,6 +1016,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-8",
+          "plan_eau": "",
+          "description": "Pointe-des-Cascades",
+          "lat": 45.3251,
+          "lon": -73.9447,
+          "distance_km": 8.95,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "043108",
           "plan_eau": "Lac des Deux Montagnes",
           "description": "À Pointe-Calumet",
@@ -916,33 +1036,23 @@
           "match_reason": "geo"
         },
         {
-          "id": "02OA039",
-          "plan_eau": "Lac Saint-Louis",
-          "description": "À Pointe-Claire",
-          "lat": 45.4275,
-          "lon": -73.8208,
-          "distance_km": 11.24,
+          "id": "HQ-S-1-3672",
+          "plan_eau": "",
+          "description": "Pointe-des-Cascades",
+          "lat": 45.320477,
+          "lon": -73.943709,
+          "distance_km": 9.47,
           "role": "level",
           "match_reason": "geo"
         },
         {
-          "id": "043301",
-          "plan_eau": "Rivière des Prairies",
-          "description": "À la tête des rapides du Cheval Blanc (chenal sud)",
-          "lat": 45.517,
-          "lon": -73.849,
-          "distance_km": 15.24,
-          "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "043206",
-          "plan_eau": "Rivière des Mille Îles",
-          "description": "En aval du barrage du Grand-Moulin à Deux-Montagnes",
-          "lat": 45.533,
-          "lon": -73.882,
-          "distance_km": 15.53,
-          "role": "level",
+          "id": "HQ-I-3-7",
+          "plan_eau": "",
+          "description": "Pointe-du-Buisson",
+          "lat": 45.3187,
+          "lon": -73.9739,
+          "distance_km": 9.62,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
@@ -1136,6 +1246,16 @@
           "distance_km": 1.82,
           "role": "both",
           "match_reason": "name"
+        },
+        {
+          "id": "392",
+          "plan_eau": "Rivière du Nord",
+          "description": "Au pont de la route 148 à Lachute",
+          "lat": 45.655691,
+          "lon": -74.340323,
+          "distance_km": 9.38,
+          "role": "level",
+          "match_reason": "name"
         }
       ],
       "primary_station_id": "040135",
@@ -1232,42 +1352,42 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-3076",
+          "plan_eau": "",
+          "description": "Rivière-des-Prairies Centrale aval",
+          "lat": 45.5901,
+          "lon": -73.6573,
+          "distance_km": 19.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-61",
+          "plan_eau": "",
+          "description": "Rivière-des-Prairies",
+          "lat": 45.5895,
+          "lon": -73.6571,
+          "distance_km": 19.5,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3075",
+          "plan_eau": "",
+          "description": "Rivière-des-Prairies Centrale amont",
+          "lat": 45.5899,
+          "lon": -73.6579,
+          "distance_km": 19.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "15780",
           "plan_eau": "Fleuve Saint-Laurent",
           "description": "À Contrecoeur",
           "lat": 45.832667,
           "lon": -73.283167,
           "distance_km": 20.21,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "15540",
-          "plan_eau": "Fleuve Saint-Laurent",
-          "description": "En bordure de la rue Frontenac à Montréal",
-          "lat": 45.528667,
-          "lon": -73.5425,
-          "distance_km": 21.21,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "02OA003",
-          "plan_eau": "Rivière des Mille Îles",
-          "description": "À Bois-des-Filion",
-          "lat": 45.6631,
-          "lon": -73.7525,
-          "distance_km": 21.83,
-          "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "15520",
-          "plan_eau": "Fleuve Saint-Laurent",
-          "description": "À la jetée 1 du port de Montréal",
-          "lat": 45.5035,
-          "lon": -73.5525,
-          "distance_km": 24.12,
           "role": "level",
           "match_reason": "geo"
         }
@@ -1326,10 +1446,10 @@
           "match_reason": "name"
         },
         {
-          "id": "382",
+          "id": "924",
           "plan_eau": "Rivière Noire",
           "description": "À St-Pie",
-          "lat": 45.488607,
+          "lat": 45.488608,
           "lon": -72.825269,
           "distance_km": 15.02,
           "role": "level",
@@ -1373,10 +1493,10 @@
           "match_reason": "name"
         },
         {
-          "id": "382",
+          "id": "924",
           "plan_eau": "Rivière Noire",
           "description": "À St-Pie",
-          "lat": 45.488607,
+          "lat": 45.488608,
           "lon": -72.825269,
           "distance_km": 5.38,
           "role": "level",
@@ -1420,10 +1540,10 @@
           "match_reason": "name"
         },
         {
-          "id": "382",
+          "id": "924",
           "plan_eau": "Rivière Noire",
           "description": "À St-Pie",
-          "lat": 45.488607,
+          "lat": 45.488608,
           "lon": -72.825269,
           "distance_km": 7.0,
           "role": "level",

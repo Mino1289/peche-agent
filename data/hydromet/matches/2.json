@@ -3,7 +3,7 @@
     "zone_id": 2,
     "radius_km": 25.0,
     "nb_with_coords": 55,
-    "nb_station_matched": 38
+    "nb_station_matched": 49
   },
   "matches": [
     {
@@ -58,6 +58,36 @@
           "distance_km": 19.46,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 21.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 21.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 21.79,
+          "role": "flow",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "011707",
@@ -75,9 +105,27 @@
       "plan_nom": "Lac Biencourt",
       "lat": 47.970833,
       "lon": -68.529722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 3.99,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 3.99
+      }
     },
     {
       "plan_id": 292,
@@ -111,9 +159,27 @@
       "plan_nom": "Lac de la Passe",
       "lat": 47.835,
       "lon": -68.694444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 20.94,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 20.94
+      }
     },
     {
       "plan_id": 307,
@@ -138,27 +204,81 @@
       "plan_nom": "Lac des Aigles",
       "lat": 47.95,
       "lon": -68.708611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 12.4,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 12.4
+      }
     },
     {
       "plan_id": 289,
       "plan_nom": "Lac des Bouleaux",
       "lat": 48.051667,
       "lon": -68.594167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 6.24,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 6.24
+      }
     },
     {
       "plan_id": 301,
       "plan_nom": "Lac du Pain de Sucre",
       "lat": 47.815278,
       "lon": -68.668056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 22.1,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 22.1
+      }
     },
     {
       "plan_id": 290,
@@ -213,6 +333,36 @@
       "lon": -68.573333,
       "stations": [
         {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 12.5,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 12.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 12.54,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "011707",
           "plan_eau": "Rivière Madawaska",
           "description": "À 6 km en aval du barrage Témiscouata",
@@ -223,14 +373,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "011707",
+      "primary_station_id": "HQ-S-1-3004",
       "station": {
-        "id": "011707",
-        "plan_eau": "Rivière Madawaska",
-        "description": "À 6 km en aval du barrage Témiscouata",
-        "lat": 47.5375,
-        "lon": -68.599722,
-        "distance_km": 15.2
+        "id": "HQ-S-1-3004",
+        "plan_eau": "",
+        "description": "Témiscouata Barrage amont",
+        "lat": 47.57,
+        "lon": -68.64,
+        "distance_km": 12.5
       }
     },
     {
@@ -275,6 +425,36 @@
           "distance_km": 18.61,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 19.15,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 19.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 19.23,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "011707",
@@ -294,6 +474,36 @@
       "lon": -68.772778,
       "stations": [
         {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 10.0,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 10.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 10.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "011707",
           "plan_eau": "Rivière Madawaska",
           "description": "À 6 km en aval du barrage Témiscouata",
@@ -304,14 +514,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "011707",
+      "primary_station_id": "HQ-I-3-13",
       "station": {
-        "id": "011707",
-        "plan_eau": "Rivière Madawaska",
-        "description": "À 6 km en aval du barrage Témiscouata",
-        "lat": 47.5375,
-        "lon": -68.599722,
-        "distance_km": 13.05
+        "id": "HQ-I-3-13",
+        "plan_eau": "",
+        "description": "Témiscouata",
+        "lat": 47.5707,
+        "lon": -68.6435,
+        "distance_km": 10.0
       }
     },
     {
@@ -348,6 +558,36 @@
       "lon": -68.716111,
       "stations": [
         {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 5.45,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 5.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 5.71,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "011707",
           "plan_eau": "Rivière Madawaska",
           "description": "À 6 km en aval du barrage Témiscouata",
@@ -358,14 +598,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "011707",
+      "primary_station_id": "HQ-I-3-13",
       "station": {
-        "id": "011707",
-        "plan_eau": "Rivière Madawaska",
-        "description": "À 6 km en aval du barrage Témiscouata",
-        "lat": 47.5375,
-        "lon": -68.599722,
-        "distance_km": 9.46
+        "id": "HQ-I-3-13",
+        "plan_eau": "",
+        "description": "Témiscouata",
+        "lat": 47.5707,
+        "lon": -68.6435,
+        "distance_km": 5.45
       }
     },
     {
@@ -464,9 +704,27 @@
       "plan_nom": "Lac Petit lac Squatec",
       "lat": 47.864722,
       "lon": -68.699722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 18.33,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 18.33
+      }
     },
     {
       "plan_id": 323,
@@ -547,9 +805,27 @@
       "plan_nom": "Lac Saint-Jean",
       "lat": 47.986111,
       "lon": -68.839167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14294",
+          "plan_eau": "",
+          "description": "Rivière Horton",
+          "lat": 48.0004,
+          "lon": -68.56,
+          "distance_km": 20.83,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14294",
+      "station": {
+        "id": "HQ-S-1-14294",
+        "plan_eau": "",
+        "description": "Rivière Horton",
+        "lat": 48.0004,
+        "lon": -68.56,
+        "distance_km": 20.83
+      }
     },
     {
       "plan_id": 304,
@@ -583,9 +859,47 @@
       "plan_nom": "Lac Témiscouata",
       "lat": 47.682222,
       "lon": -68.855833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 20.17,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 20.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 20.43,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-13",
+      "station": {
+        "id": "HQ-I-3-13",
+        "plan_eau": "",
+        "description": "Témiscouata",
+        "lat": 47.5707,
+        "lon": -68.6435,
+        "distance_km": 20.17
+      }
     },
     {
       "plan_id": 3046,
@@ -593,6 +907,36 @@
       "lat": 47.730556,
       "lon": -68.760278,
       "stations": [
+        {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 19.81,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 20.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 20.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
         {
           "id": "011707",
           "plan_eau": "Rivière Madawaska",
@@ -604,14 +948,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "011707",
+      "primary_station_id": "HQ-I-3-13",
       "station": {
-        "id": "011707",
-        "plan_eau": "Rivière Madawaska",
-        "description": "À 6 km en aval du barrage Témiscouata",
-        "lat": 47.5375,
-        "lon": -68.599722,
-        "distance_km": 24.61
+        "id": "HQ-I-3-13",
+        "plan_eau": "",
+        "description": "Témiscouata",
+        "lat": 47.5707,
+        "lon": -68.6435,
+        "distance_km": 19.81
       }
     },
     {
@@ -810,9 +1154,47 @@
       "plan_nom": "Rivière Kedgwick entre la frontière Québec - Nouveau-Brunswick",
       "lat": 48.000278,
       "lon": -67.945833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2929",
+          "plan_eau": "",
+          "description": "Mistigougèche Barrage amont",
+          "lat": 48.175,
+          "lon": -68.025,
+          "distance_km": 20.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-15",
+          "plan_eau": "",
+          "description": "Mistigougèche",
+          "lat": 48.1768,
+          "lon": -68.0247,
+          "distance_km": 20.48,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3039",
+          "plan_eau": "",
+          "description": "Mistigougèche Barrage aval",
+          "lat": 48.18,
+          "lon": -68.03,
+          "distance_km": 20.94,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2929",
+      "station": {
+        "id": "HQ-S-1-2929",
+        "plan_eau": "",
+        "description": "Mistigougèche Barrage amont",
+        "lat": 48.175,
+        "lon": -68.025,
+        "distance_km": 20.3
+      }
     },
     {
       "plan_id": 384,
@@ -927,9 +1309,87 @@
       "plan_nom": "Rivière Mistigougèche entre sa confluence avec la rivière Mitis",
       "lat": 48.448889,
       "lon": -68.002778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2930",
+          "plan_eau": "",
+          "description": "Mitis Barrage amont",
+          "lat": 48.3314,
+          "lon": -67.915,
+          "distance_km": 14.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3040",
+          "plan_eau": "",
+          "description": "Mitis Barrage aval",
+          "lat": 48.33,
+          "lon": -67.91,
+          "distance_km": 14.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-14",
+          "plan_eau": "",
+          "description": "Mitis",
+          "lat": 48.3255,
+          "lon": -67.9078,
+          "distance_km": 15.41,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 19.86,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 19.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 19.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 21.66,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2930",
+      "station": {
+        "id": "HQ-S-1-2930",
+        "plan_eau": "",
+        "description": "Mitis Barrage amont",
+        "lat": 48.3314,
+        "lon": -67.915,
+        "distance_km": 14.58
+      }
     },
     {
       "plan_id": 331,
@@ -937,6 +1397,56 @@
       "lat": 48.384444,
       "lon": -68.044722,
       "stations": [
+        {
+          "id": "HQ-S-1-2930",
+          "plan_eau": "",
+          "description": "Mitis Barrage amont",
+          "lat": 48.3314,
+          "lon": -67.915,
+          "distance_km": 11.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3040",
+          "plan_eau": "",
+          "description": "Mitis Barrage aval",
+          "lat": 48.33,
+          "lon": -67.91,
+          "distance_km": 11.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-14",
+          "plan_eau": "",
+          "description": "Mitis",
+          "lat": 48.3255,
+          "lon": -67.9078,
+          "distance_km": 12.05,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3039",
+          "plan_eau": "",
+          "description": "Mistigougèche Barrage aval",
+          "lat": 48.18,
+          "lon": -68.03,
+          "distance_km": 22.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-15",
+          "plan_eau": "",
+          "description": "Mistigougèche",
+          "lat": 48.1768,
+          "lon": -68.0247,
+          "distance_km": 23.14,
+          "role": "flow",
+          "match_reason": "geo"
+        },
         {
           "id": "021916",
           "plan_eau": "Rivière Petite Neigette",
@@ -946,16 +1456,26 @@
           "distance_km": 23.32,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2929",
+          "plan_eau": "",
+          "description": "Mistigougèche Barrage amont",
+          "lat": 48.175,
+          "lon": -68.025,
+          "distance_km": 23.33,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "021916",
+      "primary_station_id": "HQ-S-1-2930",
       "station": {
-        "id": "021916",
-        "plan_eau": "Rivière Petite Neigette",
-        "description": "À 0,5 km en aval  du lac à la Peinture",
-        "lat": 48.419722,
-        "lon": -68.356111,
-        "distance_km": 23.32
+        "id": "HQ-S-1-2930",
+        "plan_eau": "",
+        "description": "Mitis Barrage amont",
+        "lat": 48.3314,
+        "lon": -67.915,
+        "distance_km": 11.25
       }
     },
     {
@@ -964,6 +1484,46 @@
       "lat": 48.546389,
       "lon": -68.131389,
       "stations": [
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 6.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 6.38,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 6.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 8.41,
+          "role": "flow",
+          "match_reason": "geo"
+        },
         {
           "id": "021916",
           "plan_eau": "Rivière Petite Neigette",
@@ -975,14 +1535,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "021916",
+      "primary_station_id": "HQ-S-1-3042",
       "station": {
-        "id": "021916",
-        "plan_eau": "Rivière Petite Neigette",
-        "description": "À 0,5 km en aval  du lac à la Peinture",
-        "lat": 48.419722,
-        "lon": -68.356111,
-        "distance_km": 21.74
+        "id": "HQ-S-1-3042",
+        "plan_eau": "",
+        "description": "Mitis-1 Centrale aval",
+        "lat": 48.6035,
+        "lon": -68.1382,
+        "distance_km": 6.37
       }
     },
     {
@@ -1236,6 +1796,36 @@
       "lon": -68.788333,
       "stations": [
         {
+          "id": "HQ-I-3-13",
+          "plan_eau": "",
+          "description": "Témiscouata",
+          "lat": 47.5707,
+          "lon": -68.6435,
+          "distance_km": 16.25,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3004",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage amont",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 16.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3005",
+          "plan_eau": "",
+          "description": "Témiscouata Barrage aval",
+          "lat": 47.57,
+          "lon": -68.64,
+          "distance_km": 16.48,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "011707",
           "plan_eau": "Rivière Madawaska",
           "description": "À 6 km en aval du barrage Témiscouata",
@@ -1246,14 +1836,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "011707",
+      "primary_station_id": "HQ-I-3-13",
       "station": {
-        "id": "011707",
-        "plan_eau": "Rivière Madawaska",
-        "description": "À 6 km en aval du barrage Témiscouata",
-        "lat": 47.5375,
-        "lon": -68.599722,
-        "distance_km": 21.19
+        "id": "HQ-I-3-13",
+        "plan_eau": "",
+        "description": "Témiscouata",
+        "lat": 47.5707,
+        "lon": -68.6435,
+        "distance_km": 16.25
       }
     },
     {
@@ -1261,9 +1851,47 @@
       "plan_nom": "Ruisseau Quigley entre sa confluence avec la rivière Kedgwick",
       "lat": 48.026944,
       "lon": -67.986111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2929",
+          "plan_eau": "",
+          "description": "Mistigougèche Barrage amont",
+          "lat": 48.175,
+          "lon": -68.025,
+          "distance_km": 16.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-15",
+          "plan_eau": "",
+          "description": "Mistigougèche",
+          "lat": 48.1768,
+          "lon": -68.0247,
+          "distance_km": 16.91,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3039",
+          "plan_eau": "",
+          "description": "Mistigougèche Barrage aval",
+          "lat": 48.18,
+          "lon": -68.03,
+          "distance_km": 17.33,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2929",
+      "station": {
+        "id": "HQ-S-1-2929",
+        "plan_eau": "",
+        "description": "Mistigougèche Barrage amont",
+        "lat": 48.175,
+        "lon": -68.025,
+        "distance_km": 16.71
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
     "zone_id": 14,
     "radius_km": 25.0,
     "nb_with_coords": 71,
-    "nb_station_matched": 47
+    "nb_station_matched": 57
   },
   "matches": [
     {
@@ -87,6 +87,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 6.65,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "048603",
           "plan_eau": "Ruisseau Gordon",
           "description": "À la décharge du lac Tee à Kipawa",
@@ -149,9 +159,57 @@
       "plan_nom": "Lac Ab-Rono",
       "lat": 47.891111,
       "lon": -78.170278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 14.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 17.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 17.2,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 17.21,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 14.02
+      }
     },
     {
       "plan_id": 2706,
@@ -665,6 +723,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 8.64,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "02JE025",
           "plan_eau": "Rivière des Outaouais",
           "description": "À Témiscaming",
@@ -737,9 +805,57 @@
       "plan_nom": "Lac Florentien",
       "lat": 47.895556,
       "lon": -78.1725,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 14.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 17.44,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 17.5,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 17.51,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 14.28
+      }
     },
     {
       "plan_id": 2727,
@@ -1114,13 +1230,63 @@
           "match_reason": "geo"
         },
         {
-          "id": "02JE026",
-          "plan_eau": "Lac Témiscamingue",
-          "description": "Sur le lac Témiscamingue à la marina de Ville-Marie",
-          "lat": 47.329305,
-          "lon": -79.444616,
-          "distance_km": 21.24,
+          "id": "HQ-S-1-15371",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles Barrage amont",
+          "lat": 47.5757,
+          "lon": -79.3328,
+          "distance_km": 13.21,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3072",
+          "plan_eau": "",
+          "description": "Rapides-des-Quinze Centrale amont",
+          "lat": 47.5907,
+          "lon": -79.2941,
+          "distance_km": 13.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-31",
+          "plan_eau": "",
+          "description": "Rapides-des-Quinze",
+          "lat": 47.591,
+          "lon": -79.2939,
+          "distance_km": 13.83,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3073",
+          "plan_eau": "",
+          "description": "Rapides-des-Quinze Centrale aval",
+          "lat": 47.5911,
+          "lon": -79.2945,
+          "distance_km": 13.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3069",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles Centrale aval",
+          "lat": 47.5766,
+          "lon": -79.3548,
+          "distance_km": 14.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-32",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles",
+          "lat": 47.5768,
+          "lon": -79.3547,
+          "distance_km": 14.13,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
@@ -1158,6 +1324,16 @@
           "lon": -79.027867,
           "distance_km": 16.62,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 20.49,
+          "role": "flow",
           "match_reason": "geo"
         },
         {
@@ -1328,6 +1504,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 19.16,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "02JE025",
           "plan_eau": "Rivière des Outaouais",
           "description": "À Témiscaming",
@@ -1400,72 +1586,456 @@
       "plan_nom": "Lac Sans nom",
       "lat": 47.880833,
       "lon": -78.178056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 12.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 15.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 15.94,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 15.96,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 12.78
+      }
     },
     {
       "plan_id": 2704,
       "plan_nom": "Lac Sans nom",
       "lat": 47.882778,
       "lon": -78.181111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 12.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 15.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 15.98,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 15.99,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 12.79
+      }
     },
     {
       "plan_id": 2705,
       "plan_nom": "Lac Sans nom",
       "lat": 47.887222,
       "lon": -78.1725,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 13.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 16.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 16.76,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 16.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 13.58
+      }
     },
     {
       "plan_id": 3183,
       "plan_nom": "Lac Sans nom",
       "lat": 47.887778,
       "lon": -78.165833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 13.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 17.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 17.12,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 17.13,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 13.97
+      }
     },
     {
       "plan_id": 3185,
       "plan_nom": "Lac Sans nom",
       "lat": 47.887778,
       "lon": -78.178056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 13.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 16.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 16.56,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 16.57,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 13.35
+      }
     },
     {
       "plan_id": 3186,
       "plan_nom": "Lac Sans nom",
       "lat": 47.890556,
       "lon": -78.175278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 13.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 16.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 16.93,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 16.94,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 13.72
+      }
     },
     {
       "plan_id": 3182,
       "plan_nom": "Lac Sans nom",
       "lat": 47.902222,
       "lon": -78.160278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 15.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 18.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 18.64,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 18.65,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 15.43
+      }
     },
     {
       "plan_id": 3181,
       "plan_nom": "Lac Sans nom",
       "lat": 47.905,
       "lon": -78.166389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-6688",
+          "plan_eau": "",
+          "description": "Rapide Sept (CMRS)",
+          "lat": 47.7976,
+          "lon": -78.2962,
+          "distance_km": 15.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3065",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale aval",
+          "lat": 47.7689,
+          "lon": -78.3102,
+          "distance_km": 18.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-28",
+          "plan_eau": "",
+          "description": "Rapide-7",
+          "lat": 47.7684,
+          "lon": -78.3106,
+          "distance_km": 18.62,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3064",
+          "plan_eau": "",
+          "description": "Rapide-7 Centrale amont",
+          "lat": 47.768,
+          "lon": -78.3101,
+          "distance_km": 18.63,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-6688",
+      "station": {
+        "id": "HQ-S-1-6688",
+        "plan_eau": "",
+        "description": "Rapide Sept (CMRS)",
+        "lat": 47.7976,
+        "lon": -78.2962,
+        "distance_km": 15.38
+      }
     },
     {
       "plan_id": 3195,
@@ -1588,6 +2158,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 9.61,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "02JE025",
           "plan_eau": "Rivière des Outaouais",
           "description": "À Témiscaming",
@@ -1645,6 +2225,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 20.58,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "02JE025",
           "plan_eau": "Rivière des Outaouais",
           "description": "À Témiscaming",
@@ -1699,6 +2289,16 @@
           "lon": -78.983,
           "distance_km": 4.26,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 7.38,
+          "role": "flow",
           "match_reason": "geo"
         },
         {
@@ -1786,6 +2386,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-148",
+          "plan_eau": "",
+          "description": "Lumsden",
+          "lat": 46.7281,
+          "lon": -79.0899,
+          "distance_km": 22.57,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "02JE025",
           "plan_eau": "Rivière des Outaouais",
           "description": "À Témiscaming",
@@ -1859,6 +2469,36 @@
       "lon": -79.211389,
       "stations": [
         {
+          "id": "HQ-I-3-31",
+          "plan_eau": "",
+          "description": "Rapides-des-Quinze",
+          "lat": 47.591,
+          "lon": -79.2939,
+          "distance_km": 19.87,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3073",
+          "plan_eau": "",
+          "description": "Rapides-des-Quinze Centrale aval",
+          "lat": 47.5911,
+          "lon": -79.2945,
+          "distance_km": 19.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3072",
+          "plan_eau": "",
+          "description": "Rapides-des-Quinze Centrale amont",
+          "lat": 47.5907,
+          "lon": -79.2941,
+          "distance_km": 19.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "043004",
           "plan_eau": "Rivière des Outaouais",
           "description": "À la pointe du Pin Rouge",
@@ -1869,24 +2509,54 @@
           "match_reason": "geo"
         },
         {
-          "id": "043031",
-          "plan_eau": "Rivière des Outaouais",
-          "description": "Au barrage des Quinze, à proximité du bateau T. E. Draper",
-          "lat": 47.552,
-          "lon": -79.236,
-          "distance_km": 23.29,
+          "id": "HQ-S-1-15371",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles Barrage amont",
+          "lat": 47.5757,
+          "lon": -79.3328,
+          "distance_km": 22.5,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3068",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles Centrale amont",
+          "lat": 47.5774,
+          "lon": -79.3545,
+          "distance_km": 23.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-32",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles",
+          "lat": 47.5768,
+          "lon": -79.3547,
+          "distance_km": 23.11,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3069",
+          "plan_eau": "",
+          "description": "Rapides-des-Îles Centrale aval",
+          "lat": 47.5766,
+          "lon": -79.3548,
+          "distance_km": 23.13,
           "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "043004",
+      "primary_station_id": "HQ-I-3-31",
       "station": {
-        "id": "043004",
-        "plan_eau": "Rivière des Outaouais",
-        "description": "À la pointe du Pin Rouge",
-        "lat": 47.571474,
-        "lon": -79.175344,
-        "distance_km": 21.23
+        "id": "HQ-I-3-31",
+        "plan_eau": "",
+        "description": "Rapides-des-Quinze",
+        "lat": 47.591,
+        "lon": -79.2939,
+        "distance_km": 19.87
       }
     },
     {

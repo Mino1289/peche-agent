@@ -39,6 +39,16 @@
           "distance_km": 23.76,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15680",
+          "plan_eau": "",
+          "description": "Rivière Chochocouane (CM5U)",
+          "lat": 47.672054,
+          "lon": -77.077559,
+          "distance_km": 24.56,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "043030",

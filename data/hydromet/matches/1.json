@@ -3,7 +3,7 @@
     "zone_id": 1,
     "radius_km": 25.0,
     "nb_with_coords": 99,
-    "nb_station_matched": 62
+    "nb_station_matched": 65
   },
   "matches": [
     {
@@ -66,7 +66,7 @@
           "lat": 48.978,
           "lon": -64.7,
           "distance_km": 14.91,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -104,6 +104,46 @@
           "lon": -67.54,
           "distance_km": 23.86,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 24.41,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 24.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 24.77,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 24.82,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -150,7 +190,7 @@
           "lat": 48.978,
           "lon": -64.7,
           "distance_km": 17.22,
-          "role": "both",
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -794,7 +834,7 @@
           "lat": 48.978,
           "lon": -64.7,
           "distance_km": 7.23,
-          "role": "both",
+          "role": "level",
           "match_reason": "name"
         }
       ],
@@ -821,7 +861,7 @@
           "lat": 48.978,
           "lon": -64.7,
           "distance_km": 7.23,
-          "role": "both",
+          "role": "level",
           "match_reason": "name"
         }
       ],
@@ -848,7 +888,7 @@
           "lat": 48.978,
           "lon": -64.7,
           "distance_km": 7.84,
-          "role": "both",
+          "role": "level",
           "match_reason": "name"
         }
       ],
@@ -1323,27 +1363,171 @@
       "plan_nom": "Rivière Mitis a) entre son embouchure",
       "lat": 48.630833,
       "lon": -68.133611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 1.04,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 3.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 3.04,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 3.06,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-17",
+      "station": {
+        "id": "HQ-I-3-17",
+        "plan_eau": "",
+        "description": "Mitis-2",
+        "lat": 48.6219,
+        "lon": -68.1379,
+        "distance_km": 1.04
+      }
     },
     {
       "plan_id": 218,
       "plan_nom": "Rivière Mitis b) entre le côté en aval du pont de la route 132",
       "lat": 48.62,
       "lon": -68.139167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 0.23,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 1.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 1.83,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 1.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-17",
+      "station": {
+        "id": "HQ-I-3-17",
+        "plan_eau": "",
+        "description": "Mitis-2",
+        "lat": 48.6219,
+        "lon": -68.1379,
+        "distance_km": 0.23
+      }
     },
     {
       "plan_id": 219,
       "plan_nom": "Rivière Mitis c) entre la limite en amont de la propriété des Immeubles Boisbrillant",
       "lat": 48.62,
       "lon": -68.139167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 0.23,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 1.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 1.83,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 1.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-17",
+      "station": {
+        "id": "HQ-I-3-17",
+        "plan_eau": "",
+        "description": "Mitis-2",
+        "lat": 48.6219,
+        "lon": -68.1379,
+        "distance_km": 0.23
+      }
     },
     {
       "plan_id": 220,
@@ -1351,6 +1535,46 @@
       "lat": 48.546389,
       "lon": -68.131389,
       "stations": [
+        {
+          "id": "HQ-S-1-3042",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale aval",
+          "lat": 48.6035,
+          "lon": -68.1382,
+          "distance_km": 6.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-16",
+          "plan_eau": "",
+          "description": "Mitis-1",
+          "lat": 48.6036,
+          "lon": -68.1376,
+          "distance_km": 6.38,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3041",
+          "plan_eau": "",
+          "description": "Mitis-1 Centrale amont",
+          "lat": 48.6039,
+          "lon": -68.137,
+          "distance_km": 6.41,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-17",
+          "plan_eau": "",
+          "description": "Mitis-2",
+          "lat": 48.6219,
+          "lon": -68.1379,
+          "distance_km": 8.41,
+          "role": "flow",
+          "match_reason": "geo"
+        },
         {
           "id": "021916",
           "plan_eau": "Rivière Petite Neigette",
@@ -1362,14 +1586,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "021916",
+      "primary_station_id": "HQ-S-1-3042",
       "station": {
-        "id": "021916",
-        "plan_eau": "Rivière Petite Neigette",
-        "description": "À 0,5 km en aval  du lac à la Peinture",
-        "lat": 48.419722,
-        "lon": -68.356111,
-        "distance_km": 21.74
+        "id": "HQ-S-1-3042",
+        "plan_eau": "",
+        "description": "Mitis-1 Centrale aval",
+        "lat": 48.6035,
+        "lon": -68.1382,
+        "distance_km": 6.37
       }
     },
     {

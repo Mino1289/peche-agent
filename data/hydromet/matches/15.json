@@ -3,7 +3,7 @@
     "zone_id": 15,
     "radius_km": 25.0,
     "nb_with_coords": 44,
-    "nb_station_matched": 0
+    "nb_station_matched": 26
   },
   "matches": [
     {
@@ -11,9 +11,47 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie Adolphe-Poisson",
       "lat": 48.392778,
       "lon": -75.425278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15413",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Sud",
+          "lat": 48.4754,
+          "lon": -75.399,
+          "distance_km": 9.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 9.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2938",
+          "plan_eau": "",
+          "description": "Gouin Sud-Ouest (CMGS)",
+          "lat": 48.4502,
+          "lon": -75.3253,
+          "distance_km": 9.76,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15413",
+      "station": {
+        "id": "HQ-S-1-15413",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Sud",
+        "lat": 48.4754,
+        "lon": -75.399,
+        "distance_km": 9.39
+      }
     },
     {
       "plan_id": 1093,
@@ -47,9 +85,67 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Lion d'Or",
       "lat": 48.38,
       "lon": -74.331667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 17.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 17.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 17.5,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 18.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 22.84,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2984",
+      "station": {
+        "id": "HQ-S-1-2984",
+        "plan_eau": "",
+        "description": "Gouin BOGC",
+        "lat": 48.353,
+        "lon": -74.1007,
+        "distance_km": 17.32
+      }
     },
     {
       "plan_id": 2269,
@@ -65,45 +161,205 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie du Sud",
       "lat": 48.305,
       "lon": -75.091111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 17.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2938",
+          "plan_eau": "",
+          "description": "Gouin Sud-Ouest (CMGS)",
+          "lat": 48.4502,
+          "lon": -75.3253,
+          "distance_km": 23.66,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15511",
+      "station": {
+        "id": "HQ-S-1-15511",
+        "plan_eau": "",
+        "description": "de la Chance (CM4Q)",
+        "lat": 48.3819,
+        "lon": -75.2945,
+        "distance_km": 17.29
+      }
     },
     {
       "plan_id": 1101,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie Eskwaskwakamak",
       "lat": 48.743056,
       "lon": -74.831111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 15.32,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 15.32
+      }
     },
     {
       "plan_id": 1103,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie Mattawa",
       "lat": 48.358056,
       "lon": -75.372222,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 6.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2938",
+          "plan_eau": "",
+          "description": "Gouin Sud-Ouest (CMGS)",
+          "lat": 48.4502,
+          "lon": -75.3253,
+          "distance_km": 10.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15413",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Sud",
+          "lat": 48.4754,
+          "lon": -75.399,
+          "distance_km": 13.2,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15511",
+      "station": {
+        "id": "HQ-S-1-15511",
+        "plan_eau": "",
+        "description": "de la Chance (CM4Q)",
+        "lat": 48.3819,
+        "lon": -75.2945,
+        "distance_km": 6.32
+      }
     },
     {
       "plan_id": 1107,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie Piciw Minikanan",
       "lat": 48.42,
       "lon": -75.446944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15413",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Sud",
+          "lat": 48.4754,
+          "lon": -75.399,
+          "distance_km": 7.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2938",
+          "plan_eau": "",
+          "description": "Gouin Sud-Ouest (CMGS)",
+          "lat": 48.4502,
+          "lon": -75.3253,
+          "distance_km": 9.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 12.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15413",
+      "station": {
+        "id": "HQ-S-1-15413",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Sud",
+        "lat": 48.4754,
+        "lon": -75.399,
+        "distance_km": 7.1
+      }
     },
     {
       "plan_id": 1111,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Baie Saraana",
       "lat": 48.365833,
       "lon": -75.295556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 1.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2938",
+          "plan_eau": "",
+          "description": "Gouin Sud-Ouest (CMGS)",
+          "lat": 48.4502,
+          "lon": -75.3253,
+          "distance_km": 9.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15413",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Sud",
+          "lat": 48.4754,
+          "lon": -75.399,
+          "distance_km": 14.38,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15511",
+      "station": {
+        "id": "HQ-S-1-15511",
+        "plan_eau": "",
+        "description": "de la Chance (CM4Q)",
+        "lat": 48.3819,
+        "lon": -75.2945,
+        "distance_km": 1.79
+      }
     },
     {
       "plan_id": 1114,
@@ -173,27 +429,161 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Lac du Poète",
       "lat": 48.409722,
       "lon": -75.513889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15413",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Sud",
+          "lat": 48.4754,
+          "lon": -75.399,
+          "distance_km": 11.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2938",
+          "plan_eau": "",
+          "description": "Gouin Sud-Ouest (CMGS)",
+          "lat": 48.4502,
+          "lon": -75.3253,
+          "distance_km": 14.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 16.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15413",
+      "station": {
+        "id": "HQ-S-1-15413",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Sud",
+        "lat": 48.4754,
+        "lon": -75.399,
+        "distance_km": 11.19
+      }
     },
     {
       "plan_id": 1124,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Lac Duchet",
       "lat": 48.659167,
       "lon": -74.705278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 20.33,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 20.33
+      }
     },
     {
       "plan_id": 1105,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Lac Jean",
       "lat": 48.454444,
       "lon": -74.184722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 12.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 12.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 12.9,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10672",
+          "plan_eau": "",
+          "description": "Barrage Carpe-Rouge",
+          "lat": 48.4351,
+          "lon": -73.9846,
+          "distance_km": 14.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 15.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 17.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12315",
+          "plan_eau": "",
+          "description": "Rivière Wabano",
+          "lat": 48.5715,
+          "lon": -73.9497,
+          "distance_km": 21.66,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3277",
+      "station": {
+        "id": "HQ-S-1-3277",
+        "plan_eau": "",
+        "description": "Gouin Barrage amont",
+        "lat": 48.3597,
+        "lon": -74.0972,
+        "distance_km": 12.36
+      }
     },
     {
       "plan_id": 2267,
@@ -227,18 +617,54 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Lac Mikisiw Amirakanan",
       "lat": 48.511944,
       "lon": -74.831111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 18.69,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 18.69
+      }
     },
     {
       "plan_id": 1132,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Lac Miller",
       "lat": 48.649167,
       "lon": -75.166667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 13.61,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 13.61
+      }
     },
     {
       "plan_id": 1126,
@@ -263,45 +689,185 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Jean-Pierre",
       "lat": 48.309444,
       "lon": -74.239444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 11.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 11.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 11.55,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 11.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 15.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10672",
+          "plan_eau": "",
+          "description": "Barrage Carpe-Rouge",
+          "lat": 48.4351,
+          "lon": -73.9846,
+          "distance_km": 23.44,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2984",
+      "station": {
+        "id": "HQ-S-1-2984",
+        "plan_eau": "",
+        "description": "Gouin BOGC",
+        "lat": 48.353,
+        "lon": -74.1007,
+        "distance_km": 11.34
+      }
     },
     {
       "plan_id": 1145,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Kakospictikweak",
       "lat": 48.777778,
       "lon": -74.751944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 22.21,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 22.21
+      }
     },
     {
       "plan_id": 1140,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Némio",
       "lat": 48.433333,
       "lon": -74.931111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 24.1,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 24.1
+      }
     },
     {
       "plan_id": 1147,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Oskélanéo",
       "lat": 48.259722,
       "lon": -75.123889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15511",
+          "plan_eau": "",
+          "description": "de la Chance (CM4Q)",
+          "lat": 48.3819,
+          "lon": -75.2945,
+          "distance_km": 18.54,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15511",
+      "station": {
+        "id": "HQ-S-1-15511",
+        "plan_eau": "",
+        "description": "de la Chance (CM4Q)",
+        "lat": 48.3819,
+        "lon": -75.2945,
+        "distance_km": 18.54
+      }
     },
     {
       "plan_id": 1142,
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Rivière Toussaint",
       "lat": 48.704167,
       "lon": -74.950278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 6.71,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 6.71
+      }
     },
     {
       "plan_id": 1122,
@@ -317,63 +883,319 @@
       "plan_nom": "Aire Faunique Communautaire réservoir Gouin - Ruisseau de la Rencontre",
       "lat": 48.678333,
       "lon": -75.050278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15412",
+          "plan_eau": "",
+          "description": "Réservoir Gouin Nord",
+          "lat": 48.64748,
+          "lon": -74.98146,
+          "distance_km": 6.11,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15412",
+      "station": {
+        "id": "HQ-S-1-15412",
+        "plan_eau": "",
+        "description": "Réservoir Gouin Nord",
+        "lat": 48.64748,
+        "lon": -74.98146,
+        "distance_km": 6.11
+      }
     },
     {
       "plan_id": 828,
       "plan_nom": "Lac des Dix Milles",
       "lat": 47.899167,
       "lon": -74.806389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15533",
+          "plan_eau": "",
+          "description": "Parent HQ (CM1K)",
+          "lat": 47.9226,
+          "lon": -74.6236,
+          "distance_km": 13.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15533",
+      "station": {
+        "id": "HQ-S-1-15533",
+        "plan_eau": "",
+        "description": "Parent HQ (CM1K)",
+        "lat": 47.9226,
+        "lon": -74.6236,
+        "distance_km": 13.87
+      }
     },
     {
       "plan_id": 820,
       "plan_nom": "Lac du Marteau",
       "lat": 48.240833,
       "lon": -73.966667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 11.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 13.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 15.88,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 15.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 16.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10672",
+          "plan_eau": "",
+          "description": "Barrage Carpe-Rouge",
+          "lat": 48.4351,
+          "lon": -73.9846,
+          "distance_km": 21.64,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7726",
+      "station": {
+        "id": "HQ-S-1-7726",
+        "plan_eau": "",
+        "description": "La Loutre (CMUT)",
+        "lat": 48.3326,
+        "lon": -74.0309,
+        "distance_km": 11.26
+      }
     },
     {
       "plan_id": 826,
       "plan_nom": "Lac du Tabac",
       "lat": 47.6825,
       "lon": -74.423611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15513",
+          "plan_eau": "",
+          "description": "Lac Conrad (CM4U)",
+          "lat": 47.6072,
+          "lon": -74.2611,
+          "distance_km": 14.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14680",
+          "plan_eau": "",
+          "description": "Manouane A (CMIX)",
+          "lat": 47.5758,
+          "lon": -74.2525,
+          "distance_km": 17.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15957",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage aval",
+          "lat": 47.53708,
+          "lon": -74.18551,
+          "distance_km": 24.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-77",
+          "plan_eau": "",
+          "description": "Manouane-A",
+          "lat": 47.537,
+          "lon": -74.1849,
+          "distance_km": 24.12,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2994",
+          "plan_eau": "",
+          "description": "Manouane-A Barrage amont",
+          "lat": 47.5363,
+          "lon": -74.1852,
+          "distance_km": 24.16,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15513",
+      "station": {
+        "id": "HQ-S-1-15513",
+        "plan_eau": "",
+        "description": "Lac Conrad (CM4U)",
+        "lat": 47.6072,
+        "lon": -74.2611,
+        "distance_km": 14.78
+      }
     },
     {
       "plan_id": 816,
       "plan_nom": "Lac Foie",
       "lat": 48.316667,
       "lon": -74.285278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 14.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 14.44,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 14.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 14.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 18.89,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2984",
+      "station": {
+        "id": "HQ-S-1-2984",
+        "plan_eau": "",
+        "description": "Gouin BOGC",
+        "lat": 48.353,
+        "lon": -74.1007,
+        "distance_km": 14.23
+      }
     },
     {
       "plan_id": 818,
       "plan_nom": "Lac Guénette",
       "lat": 47.906111,
       "lon": -74.335,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15533",
+          "plan_eau": "",
+          "description": "Parent HQ (CM1K)",
+          "lat": 47.9226,
+          "lon": -74.6236,
+          "distance_km": 21.59,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15533",
+      "station": {
+        "id": "HQ-S-1-15533",
+        "plan_eau": "",
+        "description": "Parent HQ (CM1K)",
+        "lat": 47.9226,
+        "lon": -74.6236,
+        "distance_km": 21.59
+      }
     },
     {
       "plan_id": 830,
       "plan_nom": "Lac Head",
       "lat": 47.775833,
       "lon": -74.610278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15533",
+          "plan_eau": "",
+          "description": "Parent HQ (CM1K)",
+          "lat": 47.9226,
+          "lon": -74.6236,
+          "distance_km": 16.35,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15533",
+      "station": {
+        "id": "HQ-S-1-15533",
+        "plan_eau": "",
+        "description": "Parent HQ (CM1K)",
+        "lat": 47.9226,
+        "lon": -74.6236,
+        "distance_km": 16.35
+      }
     },
     {
       "plan_id": 2743,
@@ -389,18 +1211,134 @@
       "plan_nom": "Lac Peter",
       "lat": 48.239167,
       "lon": -74.205278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 13.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 14.83,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 15.0,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 15.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 16.57,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-10622",
+      "station": {
+        "id": "HQ-S-1-10622",
+        "plan_eau": "",
+        "description": "Gouin Bois (CM2T)",
+        "lat": 48.3327,
+        "lon": -74.09,
+        "distance_km": 13.45
+      }
     },
     {
       "plan_id": 824,
       "plan_nom": "Lac Vaillant",
       "lat": 48.160556,
       "lon": -74.225556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-10622",
+          "plan_eau": "",
+          "description": "Gouin Bois (CM2T)",
+          "lat": 48.3327,
+          "lon": -74.09,
+          "distance_km": 21.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2984",
+          "plan_eau": "",
+          "description": "Gouin BOGC",
+          "lat": 48.353,
+          "lon": -74.1007,
+          "distance_km": 23.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-76",
+          "plan_eau": "",
+          "description": "Gouin",
+          "lat": 48.3537,
+          "lon": -74.0981,
+          "distance_km": 23.46,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7726",
+          "plan_eau": "",
+          "description": "La Loutre (CMUT)",
+          "lat": 48.3326,
+          "lon": -74.0309,
+          "distance_km": 23.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3277",
+          "plan_eau": "",
+          "description": "Gouin Barrage amont",
+          "lat": 48.3597,
+          "lon": -74.0972,
+          "distance_km": 24.1,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-10622",
+      "station": {
+        "id": "HQ-S-1-10622",
+        "plan_eau": "",
+        "description": "Gouin Bois (CM2T)",
+        "lat": 48.3327,
+        "lon": -74.09,
+        "distance_km": 21.61
+      }
     }
   ]
 }

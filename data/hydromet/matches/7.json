@@ -245,6 +245,36 @@
       "lon": -72.614167,
       "stations": [
         {
+          "id": "HQ-I-3-89",
+          "plan_eau": "",
+          "description": "Grand-Mère",
+          "lat": 46.6137,
+          "lon": -72.6749,
+          "distance_km": 4.9,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7346",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale amont",
+          "lat": 46.6149,
+          "lon": -72.6772,
+          "distance_km": 5.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7348",
+          "plan_eau": "",
+          "description": "Rocher-de-Grand-Mère Centrale aval",
+          "lat": 46.6133,
+          "lon": -72.6765,
+          "distance_km": 5.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "050148",
           "plan_eau": "Rivière Shawinigan",
           "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
@@ -255,24 +285,54 @@
           "match_reason": "geo"
         },
         {
-          "id": "050304",
-          "plan_eau": "Rivière Batiscan",
-          "description": "À 3,4 km en aval de la rivière des Envies",
-          "lat": 46.586,
-          "lon": -72.405,
-          "distance_km": 16.64,
-          "role": "both",
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 15.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 15.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 15.44,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 15.63,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050148",
+      "primary_station_id": "HQ-I-3-89",
       "station": {
-        "id": "050148",
-        "plan_eau": "Rivière Shawinigan",
-        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-        "lat": 46.584987,
-        "lon": -72.756659,
-        "distance_km": 11.88
+        "id": "HQ-I-3-89",
+        "plan_eau": "",
+        "description": "Grand-Mère",
+        "lat": 46.6137,
+        "lon": -72.6749,
+        "distance_km": 4.9
       }
     },
     {
@@ -776,6 +836,36 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-91",
+          "plan_eau": "",
+          "description": "La Gabelle",
+          "lat": 46.4491,
+          "lon": -72.7395,
+          "distance_km": 21.48,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2996",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale amont",
+          "lat": 46.4493,
+          "lon": -72.7395,
+          "distance_km": 21.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2997",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale aval",
+          "lat": 46.4489,
+          "lon": -72.7384,
+          "distance_km": 21.51,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "03365",
           "plan_eau": "Fleuve Saint-Laurent",
           "description": "À Port-Saint-François",
@@ -1038,6 +1128,36 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2997",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale aval",
+          "lat": 46.4489,
+          "lon": -72.7384,
+          "distance_km": 11.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-91",
+          "plan_eau": "",
+          "description": "La Gabelle",
+          "lat": 46.4491,
+          "lon": -72.7395,
+          "distance_km": 12.06,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2996",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale amont",
+          "lat": 46.4493,
+          "lon": -72.7395,
+          "distance_km": 12.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "03365",
           "plan_eau": "Fleuve Saint-Laurent",
           "description": "À Port-Saint-François",
@@ -1058,13 +1178,23 @@
           "match_reason": "geo"
         },
         {
-          "id": "050148",
-          "plan_eau": "Rivière Shawinigan",
-          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-          "lat": 46.584987,
-          "lon": -72.756659,
-          "distance_km": 24.77,
-          "role": "both",
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 20.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 20.26,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1095,6 +1225,36 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2997",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale aval",
+          "lat": 46.4489,
+          "lon": -72.7384,
+          "distance_km": 11.98,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-91",
+          "plan_eau": "",
+          "description": "La Gabelle",
+          "lat": 46.4491,
+          "lon": -72.7395,
+          "distance_km": 12.06,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2996",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale amont",
+          "lat": 46.4493,
+          "lon": -72.7395,
+          "distance_km": 12.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "03365",
           "plan_eau": "Fleuve Saint-Laurent",
           "description": "À Port-Saint-François",
@@ -1115,13 +1275,23 @@
           "match_reason": "geo"
         },
         {
-          "id": "050148",
-          "plan_eau": "Rivière Shawinigan",
-          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-          "lat": 46.584987,
-          "lon": -72.756659,
-          "distance_km": 24.77,
-          "role": "both",
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 20.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 20.26,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1142,44 +1312,94 @@
       "lon": -72.739722,
       "stations": [
         {
-          "id": "050148",
-          "plan_eau": "Rivière Shawinigan",
-          "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-          "lat": 46.584987,
-          "lon": -72.756659,
-          "distance_km": 15.19,
+          "id": "HQ-I-3-91",
+          "plan_eau": "",
+          "description": "La Gabelle",
+          "lat": 46.4491,
+          "lon": -72.7395,
+          "distance_km": 0.03,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2996",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale amont",
+          "lat": 46.4493,
+          "lon": -72.7395,
+          "distance_km": 0.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2997",
+          "plan_eau": "",
+          "description": "La Gabelle Centrale aval",
+          "lat": 46.4489,
+          "lon": -72.7384,
+          "distance_km": 0.1,
           "role": "both",
           "match_reason": "geo"
         },
         {
-          "id": "03360",
-          "plan_eau": "Fleuve Saint-Laurent",
-          "description": "À Trois-Rivières",
-          "lat": 46.3405,
-          "lon": -72.539167,
-          "distance_km": 19.54,
+          "id": "HQ-S-1-3079",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale amont",
+          "lat": 46.5341,
+          "lon": -72.7633,
+          "distance_km": 9.65,
           "role": "level",
           "match_reason": "geo"
         },
         {
-          "id": "03365",
-          "plan_eau": "Fleuve Saint-Laurent",
-          "description": "À Port-Saint-François",
-          "lat": 46.2725,
-          "lon": -72.619333,
-          "distance_km": 21.68,
+          "id": "HQ-S-1-3078",
+          "plan_eau": "",
+          "description": "Shawinigan-3 Centrale aval",
+          "lat": 46.5337,
+          "lon": -72.7662,
+          "distance_km": 9.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-90",
+          "plan_eau": "",
+          "description": "Shawinigan",
+          "lat": 46.5338,
+          "lon": -72.7673,
+          "distance_km": 9.67,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3080",
+          "plan_eau": "",
+          "description": "Shawinigan-2 Centrale amont",
+          "lat": 46.5358,
+          "lon": -72.7647,
+          "distance_km": 9.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15745",
+          "plan_eau": "",
+          "description": "Melville amont",
+          "lat": 46.536,
+          "lon": -72.765,
+          "distance_km": 9.88,
           "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "050148",
+      "primary_station_id": "HQ-I-3-91",
       "station": {
-        "id": "050148",
-        "plan_eau": "Rivière Shawinigan",
-        "description": "à 6,5 km en amont de la confluence avec la rivière Saint-Maurice",
-        "lat": 46.584987,
-        "lon": -72.756659,
-        "distance_km": 15.19
+        "id": "HQ-I-3-91",
+        "plan_eau": "",
+        "description": "La Gabelle",
+        "lat": 46.4491,
+        "lon": -72.7395,
+        "distance_km": 0.03
       }
     }
   ]

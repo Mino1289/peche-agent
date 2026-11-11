@@ -3,7 +3,7 @@
     "zone_id": 25,
     "radius_km": 25.0,
     "nb_with_coords": 26,
-    "nb_station_matched": 5
+    "nb_station_matched": 7
   },
   "matches": [
     {
@@ -101,9 +101,27 @@
       "plan_nom": "Lac Nicole",
       "lat": 51.583333,
       "lon": -76.533333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-9706",
+          "plan_eau": "",
+          "description": "Lac Nemiscau HQP",
+          "lat": 51.443,
+          "lon": -76.7468,
+          "distance_km": 21.49,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-9706",
+      "station": {
+        "id": "HQ-S-1-9706",
+        "plan_eau": "",
+        "description": "Lac Nemiscau HQP",
+        "lat": 51.443,
+        "lon": -76.7468,
+        "distance_km": 21.49
+      }
     },
     {
       "plan_id": 1622,
@@ -326,9 +344,27 @@
       "plan_nom": "Ruisseau Bordeleau - La partie comprise entre le lac Bordeleau",
       "lat": 50.106944,
       "lon": -73.959444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15707",
+          "plan_eau": "",
+          "description": "Lac Winsh (CM5V)",
+          "lat": 50.03826,
+          "lon": -74.23014,
+          "distance_km": 20.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15707",
+      "station": {
+        "id": "HQ-S-1-15707",
+        "plan_eau": "",
+        "description": "Lac Winsh (CM5V)",
+        "lat": 50.03826,
+        "lon": -74.23014,
+        "distance_km": 20.77
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
     "zone_id": 10,
     "radius_km": 25.0,
     "nb_with_coords": 164,
-    "nb_station_matched": 147
+    "nb_station_matched": 151
   },
   "matches": [
     {
@@ -29,6 +29,16 @@
           "lat": 46.101,
           "lon": -75.648,
           "distance_km": 20.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 23.99,
           "role": "level",
           "match_reason": "geo"
         }
@@ -57,6 +67,36 @@
           "lon": -74.769957,
           "distance_km": 6.89,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6363",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale amont",
+          "lat": 45.7749,
+          "lon": -74.6858,
+          "distance_km": 13.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-58",
+          "plan_eau": "",
+          "description": "Chute-Bell",
+          "lat": 45.774,
+          "lon": -74.6844,
+          "distance_km": 13.27,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6364",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale aval",
+          "lat": 45.7737,
+          "lon": -74.6839,
+          "distance_km": 13.32,
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -98,26 +138,6 @@
           "distance_km": 22.69,
           "role": "level",
           "match_reason": "geo"
-        },
-        {
-          "id": "040406",
-          "plan_eau": "Rivière de la Petite Nation",
-          "description": "Au pont à 1,6 km en amont de Ripon",
-          "lat": 45.791,
-          "lon": -75.089,
-          "distance_km": 22.82,
-          "role": "both",
-          "match_reason": "geo"
-        },
-        {
-          "id": "486",
-          "plan_eau": "Rivière de la Petite Nation",
-          "description": "Au pont de la route 321 à Saint-André-Avellin",
-          "lat": 45.722879,
-          "lon": -75.056957,
-          "distance_km": 24.21,
-          "role": "level",
-          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040240",
@@ -136,6 +156,46 @@
       "lat": 45.948889,
       "lon": -75.846944,
       "stations": [
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 16.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 16.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 16.8,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 16.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040840",
           "plan_eau": "Rivière Picanoc",
@@ -157,14 +217,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040840",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "040840",
-        "plan_eau": "Rivière Picanoc",
-        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
-        "lat": 46.078,
-        "lon": -76.069,
-        "distance_km": 22.36
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 16.36
       }
     },
     {
@@ -200,6 +260,36 @@
           "lat": 46.090972,
           "lon": -74.426917,
           "distance_km": 20.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6363",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale amont",
+          "lat": 45.7749,
+          "lon": -74.6858,
+          "distance_km": 24.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-58",
+          "plan_eau": "",
+          "description": "Chute-Bell",
+          "lat": 45.774,
+          "lon": -74.6844,
+          "distance_km": 24.72,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6364",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale aval",
+          "lat": 45.7737,
+          "lon": -74.6839,
+          "distance_km": 24.75,
           "role": "level",
           "match_reason": "geo"
         }
@@ -250,6 +340,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 23.64,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040840",
           "plan_eau": "Rivière Picanoc",
           "description": "Sur le chemin du Lac-Cayamant à Gracefield",
@@ -284,6 +384,26 @@
           "lon": -75.803306,
           "distance_km": 5.37,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 11.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 16.36,
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -320,6 +440,16 @@
           "lat": 46.276417,
           "lon": -75.803306,
           "distance_km": 11.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 17.04,
           "role": "level",
           "match_reason": "geo"
         }
@@ -387,6 +517,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 14.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040602",
           "plan_eau": "Rivière du Lièvre",
           "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
@@ -394,6 +534,16 @@
           "lon": -75.648,
           "distance_km": 18.13,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 23.89,
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -412,9 +562,57 @@
       "plan_nom": "Lac Barnes",
       "lat": 45.748611,
       "lon": -76.343611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3090",
+          "plan_eau": "",
+          "description": "Village Bryson",
+          "lat": 45.68,
+          "lon": -76.62,
+          "distance_km": 22.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-46",
+          "plan_eau": "",
+          "description": "Bryson",
+          "lat": 45.6612,
+          "lon": -76.6317,
+          "distance_km": 24.39,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2964",
+          "plan_eau": "",
+          "description": "Bryson Centrale amont",
+          "lat": 45.6612,
+          "lon": -76.6327,
+          "distance_km": 24.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2965",
+          "plan_eau": "",
+          "description": "Bryson Centrale aval",
+          "lat": 45.66,
+          "lon": -76.6322,
+          "distance_km": 24.48,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3090",
+      "station": {
+        "id": "HQ-S-1-3090",
+        "plan_eau": "",
+        "description": "Village Bryson",
+        "lat": 45.68,
+        "lon": -76.62,
+        "distance_km": 22.77
+      }
     },
     {
       "plan_id": 2826,
@@ -466,6 +664,66 @@
           "lat": 45.839444,
           "lon": -76.743333,
           "distance_km": 20.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 20.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3090",
+          "plan_eau": "",
+          "description": "Village Bryson",
+          "lat": 45.68,
+          "lon": -76.62,
+          "distance_km": 21.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-46",
+          "plan_eau": "",
+          "description": "Bryson",
+          "lat": 45.6612,
+          "lon": -76.6317,
+          "distance_km": 24.21,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2964",
+          "plan_eau": "",
+          "description": "Bryson Centrale amont",
+          "lat": 45.6612,
+          "lon": -76.6327,
+          "distance_km": 24.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2965",
+          "plan_eau": "",
+          "description": "Bryson Centrale aval",
+          "lat": 45.66,
+          "lon": -76.6322,
+          "distance_km": 24.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15569",
+          "plan_eau": "",
+          "description": "Rocher Fendu amont (CM6B)",
+          "lat": 45.755813,
+          "lon": -76.765098,
+          "distance_km": 24.68,
           "role": "level",
           "match_reason": "geo"
         }
@@ -521,6 +779,16 @@
           "lon": -76.069,
           "distance_km": 9.85,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 19.46,
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -628,12 +896,42 @@
       "lon": -76.055,
       "stations": [
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 12.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040840",
           "plan_eau": "Rivière Picanoc",
           "description": "Sur le chemin du Lac-Cayamant à Gracefield",
           "lat": 46.078,
           "lon": -76.069,
           "distance_km": 16.26,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 18.95,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 19.57,
           "role": "both",
           "match_reason": "geo"
         },
@@ -648,14 +946,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040840",
+      "primary_station_id": "HQ-S-1-15712",
       "station": {
-        "id": "040840",
-        "plan_eau": "Rivière Picanoc",
-        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
-        "lat": 46.078,
-        "lon": -76.069,
-        "distance_km": 16.26
+        "id": "HQ-S-1-15712",
+        "plan_eau": "",
+        "description": "Maniwaki (CM3K)",
+        "lat": 46.2763,
+        "lon": -75.9053,
+        "distance_km": 12.9
       }
     },
     {
@@ -722,22 +1020,72 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 18.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 18.58,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2971",
+          "plan_eau": "",
+          "description": "Chelsea Centrale aval",
+          "lat": 45.5119,
+          "lon": -75.7769,
+          "distance_km": 18.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3070",
+          "plan_eau": "",
+          "description": "Rapides-Farmers Centrale amont",
+          "lat": 45.4991,
+          "lon": -75.7634,
+          "distance_km": 19.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-67",
+          "plan_eau": "",
+          "description": "Rapides-Farmers",
+          "lat": 45.4988,
+          "lon": -75.7633,
+          "distance_km": 19.71,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3071",
+          "plan_eau": "",
+          "description": "Rapides-Farmers Centrale aval",
+          "lat": 45.4986,
+          "lon": -75.7632,
+          "distance_km": 19.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "411",
           "plan_eau": "Rivière Gatineau",
           "description": "Rue Cartier",
           "lat": 45.48464,
           "lon": -75.74368,
           "distance_km": 20.91,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "412",
-          "plan_eau": "Rivière Gatineau",
-          "description": "Quai des Artistes",
-          "lat": 45.45739,
-          "lon": -75.69979,
-          "distance_km": 23.61,
           "role": "level",
           "match_reason": "geo"
         }
@@ -759,6 +1107,36 @@
       "lon": -76.090556,
       "stations": [
         {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 12.94,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 14.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 15.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
           "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
@@ -779,14 +1157,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-14591",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 22.08
+        "id": "HQ-S-1-14591",
+        "plan_eau": "",
+        "description": "Rivière de l'Aigle",
+        "lat": 46.3801,
+        "lon": -76.1723,
+        "distance_km": 12.94
       }
     },
     {
@@ -822,6 +1200,16 @@
           "lat": 45.722879,
           "lon": -75.056957,
           "distance_km": 16.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 18.25,
           "role": "level",
           "match_reason": "geo"
         },
@@ -901,6 +1289,16 @@
           "distance_km": 16.77,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 22.33,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040829",
@@ -967,6 +1365,46 @@
       "lon": -76.113889,
       "stations": [
         {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 14.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 14.81,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 14.91,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 15.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -977,14 +1415,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-3053",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 20.03
+        "id": "HQ-S-1-3053",
+        "plan_eau": "",
+        "description": "Paugan Centrale aval",
+        "lat": 45.8094,
+        "lon": -75.9321,
+        "distance_km": 14.73
       }
     },
     {
@@ -1085,6 +1523,46 @@
       "lon": -75.801111,
       "stations": [
         {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 12.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 12.95,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 12.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 12.99,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -1093,16 +1571,36 @@
           "distance_km": 13.48,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 24.94,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 24.98,
+          "role": "flow",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 13.48
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 12.7
       }
     },
     {
@@ -1452,6 +1950,26 @@
           "distance_km": 12.68,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 14.76,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 16.07,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040829",
@@ -1515,6 +2033,76 @@
           "distance_km": 14.27,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 14.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 14.73,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 14.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 14.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 24.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 24.21,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2971",
+          "plan_eau": "",
+          "description": "Chelsea Centrale aval",
+          "lat": 45.5119,
+          "lon": -75.7769,
+          "distance_km": 24.28,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "485",
@@ -1534,12 +2122,42 @@
       "lon": -76.075278,
       "stations": [
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 14.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040840",
           "plan_eau": "Rivière Picanoc",
           "description": "Sur le chemin du Lac-Cayamant à Gracefield",
           "lat": 46.078,
           "lon": -76.069,
           "distance_km": 15.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 19.79,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 20.44,
           "role": "both",
           "match_reason": "geo"
         },
@@ -1554,14 +2172,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040840",
+      "primary_station_id": "HQ-S-1-15712",
       "station": {
-        "id": "040840",
-        "plan_eau": "Rivière Picanoc",
-        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
-        "lat": 46.078,
-        "lon": -76.069,
-        "distance_km": 15.27
+        "id": "HQ-S-1-15712",
+        "plan_eau": "",
+        "description": "Maniwaki (CM3K)",
+        "lat": 46.2763,
+        "lon": -75.9053,
+        "distance_km": 14.73
       }
     },
     {
@@ -1588,6 +2206,46 @@
           "lon": -76.069,
           "distance_km": 20.8,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 21.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 22.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 22.35,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 22.41,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1763,6 +2421,26 @@
           "lon": -75.803306,
           "distance_km": 5.65,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 6.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 18.42,
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -2027,6 +2705,46 @@
       "lon": -75.795833,
       "stations": [
         {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 10.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 11.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 11.31,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 11.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -2037,14 +2755,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 24.09
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 10.72
       }
     },
     {
@@ -2061,6 +2779,66 @@
           "lon": -76.041,
           "distance_km": 19.89,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 22.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 24.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 24.45,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 24.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 24.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 24.68,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -2128,6 +2906,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 15.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "488",
           "plan_eau": "Rivière des Outaouais",
           "description": "À 500 m en amont du pont de la route 148 à Waltham",
@@ -2180,6 +2968,16 @@
           "lat": 46.101,
           "lon": -75.648,
           "distance_km": 19.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 24.2,
           "role": "level",
           "match_reason": "geo"
         }
@@ -2287,6 +3085,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 20.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040409",
           "plan_eau": "Rivière Suffolk",
           "description": "À 0,2 km en amont du pont-route à Cheneville",
@@ -2352,6 +3160,16 @@
           "distance_km": 18.51,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 18.51,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "488",
@@ -2381,6 +3199,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 13.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040602",
           "plan_eau": "Rivière du Lièvre",
           "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
@@ -2388,6 +3216,16 @@
           "lon": -75.648,
           "distance_km": 17.7,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 23.48,
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -2509,6 +3347,16 @@
           "lon": -76.069,
           "distance_km": 9.5,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 23.29,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -2633,6 +3481,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 21.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "488",
           "plan_eau": "Rivière des Outaouais",
           "description": "À 500 m en amont du pont de la route 148 à Waltham",
@@ -2737,6 +3595,46 @@
       "lon": -76.115,
       "stations": [
         {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 9.82,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 14.61,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 16.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12293",
+          "plan_eau": "",
+          "description": "Lac Gabrielle (CMFY)",
+          "lat": 46.5095,
+          "lon": -76.1589,
+          "distance_km": 23.42,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
           "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
@@ -2747,14 +3645,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-14591",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 24.11
+        "id": "HQ-S-1-14591",
+        "plan_eau": "",
+        "description": "Rivière de l'Aigle",
+        "lat": 46.3801,
+        "lon": -76.1723,
+        "distance_km": 9.82
       }
     },
     {
@@ -2861,6 +3759,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 24.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "502",
           "plan_eau": "Rivière de la Petite Nation",
           "description": "Parc National (amont)",
@@ -2935,6 +3843,16 @@
       "lon": -75.887222,
       "stations": [
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 3.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
           "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
@@ -2942,6 +3860,16 @@
           "lon": -75.803306,
           "distance_km": 7.35,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 16.5,
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -2965,14 +3893,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-15712",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 7.35
+        "id": "HQ-S-1-15712",
+        "plan_eau": "",
+        "description": "Maniwaki (CM3K)",
+        "lat": 46.2763,
+        "lon": -75.9053,
+        "distance_km": 3.78
       }
     },
     {
@@ -2992,12 +3920,72 @@
           "match_reason": "geo"
         },
         {
-          "id": "411",
-          "plan_eau": "Rivière Gatineau",
-          "description": "Rue Cartier",
-          "lat": 45.48464,
-          "lon": -75.74368,
-          "distance_km": 23.47,
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 21.58,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 21.61,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2971",
+          "plan_eau": "",
+          "description": "Chelsea Centrale aval",
+          "lat": 45.5119,
+          "lon": -75.7769,
+          "distance_km": 21.66,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3070",
+          "plan_eau": "",
+          "description": "Rapides-Farmers Centrale amont",
+          "lat": 45.4991,
+          "lon": -75.7634,
+          "distance_km": 22.5,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-67",
+          "plan_eau": "",
+          "description": "Rapides-Farmers",
+          "lat": 45.4988,
+          "lon": -75.7633,
+          "distance_km": 22.53,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3071",
+          "plan_eau": "",
+          "description": "Rapides-Farmers Centrale aval",
+          "lat": 45.4986,
+          "lon": -75.7632,
+          "distance_km": 22.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "478",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 3 km en amont de l'embouchure de la rivière Blanche à Gatineau",
+          "lat": 45.4819,
+          "lon": -75.576303,
+          "distance_km": 23.33,
           "role": "level",
           "match_reason": "geo"
         }
@@ -3086,6 +4074,36 @@
       "lon": -76.1425,
       "stations": [
         {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 13.28,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 18.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 19.05,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "040840",
           "plan_eau": "Rivière Picanoc",
           "description": "Sur le chemin du Lac-Cayamant à Gracefield",
@@ -3096,14 +4114,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040840",
+      "primary_station_id": "HQ-S-1-14591",
       "station": {
-        "id": "040840",
-        "plan_eau": "Rivière Picanoc",
-        "description": "Sur le chemin du Lac-Cayamant à Gracefield",
-        "lat": 46.078,
-        "lon": -76.069,
-        "distance_km": 21.28
+        "id": "HQ-S-1-14591",
+        "plan_eau": "",
+        "description": "Rivière de l'Aigle",
+        "lat": 46.3801,
+        "lon": -76.1723,
+        "distance_km": 13.28
       }
     },
     {
@@ -3112,6 +4130,46 @@
       "lat": 45.763333,
       "lon": -76.091111,
       "stations": [
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 13.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 13.43,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 13.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 14.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
@@ -3123,14 +4181,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-3053",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 18.17
+        "id": "HQ-S-1-3053",
+        "plan_eau": "",
+        "description": "Paugan Centrale aval",
+        "lat": 45.8094,
+        "lon": -75.9321,
+        "distance_km": 13.35
       }
     },
     {
@@ -3232,9 +4290,57 @@
       "plan_nom": "Lac Johnson",
       "lat": 45.778056,
       "lon": -76.3925,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3090",
+          "plan_eau": "",
+          "description": "Village Bryson",
+          "lat": 45.68,
+          "lon": -76.62,
+          "distance_km": 20.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-46",
+          "plan_eau": "",
+          "description": "Bryson",
+          "lat": 45.6612,
+          "lon": -76.6317,
+          "distance_km": 22.66,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2964",
+          "plan_eau": "",
+          "description": "Bryson Centrale amont",
+          "lat": 45.6612,
+          "lon": -76.6327,
+          "distance_km": 22.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2965",
+          "plan_eau": "",
+          "description": "Bryson Centrale aval",
+          "lat": 45.66,
+          "lon": -76.6322,
+          "distance_km": 22.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3090",
+      "station": {
+        "id": "HQ-S-1-3090",
+        "plan_eau": "",
+        "description": "Village Bryson",
+        "lat": 45.68,
+        "lon": -76.62,
+        "distance_km": 20.75
+      }
     },
     {
       "plan_id": 2879,
@@ -3249,6 +4355,26 @@
           "lat": 46.276417,
           "lon": -75.803306,
           "distance_km": 14.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 19.09,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 19.7,
           "role": "level",
           "match_reason": "geo"
         }
@@ -3599,6 +4725,66 @@
           "distance_km": 6.51,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 11.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 11.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 11.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 11.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 11.63,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12293",
+          "plan_eau": "",
+          "description": "Lac Gabrielle (CMFY)",
+          "lat": 46.5095,
+          "lon": -76.1589,
+          "distance_km": 15.56,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040841",
@@ -3617,6 +4803,16 @@
       "lat": 45.701944,
       "lon": -75.325,
       "stations": [
+        {
+          "id": "HQ-S-1-3087",
+          "plan_eau": "",
+          "description": "Thurso Quai",
+          "lat": 45.588617,
+          "lon": -75.241472,
+          "distance_km": 14.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040412",
           "plan_eau": "Ruisseau Schryer",
@@ -3668,14 +4864,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040412",
+      "primary_station_id": "HQ-S-1-3087",
       "station": {
-        "id": "040412",
-        "plan_eau": "Ruisseau Schryer",
-        "description": "575 m en amont du lac Schryer",
-        "lat": 45.843474,
-        "lon": -75.200618,
-        "distance_km": 18.46
+        "id": "HQ-S-1-3087",
+        "plan_eau": "",
+        "description": "Thurso Quai",
+        "lat": 45.588617,
+        "lon": -75.241472,
+        "distance_km": 14.18
       }
     },
     {
@@ -3730,6 +4926,76 @@
           "distance_km": 20.63,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 22.84,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 23.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 23.18,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 23.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 23.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 23.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2971",
+          "plan_eau": "",
+          "description": "Chelsea Centrale aval",
+          "lat": 45.5119,
+          "lon": -75.7769,
+          "distance_km": 23.34,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "485",
@@ -3749,6 +5015,46 @@
       "lon": -75.858611,
       "stations": [
         {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 6.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 6.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 6.84,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 6.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -3759,14 +5065,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 22.21
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 6.26
       }
     },
     {
@@ -3803,6 +5109,76 @@
       "lon": -75.646389,
       "stations": [
         {
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 19.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 19.04,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2971",
+          "plan_eau": "",
+          "description": "Chelsea Centrale aval",
+          "lat": 45.5119,
+          "lon": -75.7769,
+          "distance_km": 19.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3070",
+          "plan_eau": "",
+          "description": "Rapides-Farmers Centrale amont",
+          "lat": 45.4991,
+          "lon": -75.7634,
+          "distance_km": 19.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-67",
+          "plan_eau": "",
+          "description": "Rapides-Farmers",
+          "lat": 45.4988,
+          "lon": -75.7633,
+          "distance_km": 19.83,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3071",
+          "plan_eau": "",
+          "description": "Rapides-Farmers Centrale aval",
+          "lat": 45.4986,
+          "lon": -75.7632,
+          "distance_km": 19.84,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "478",
+          "plan_eau": "Rivière des Outaouais",
+          "description": "À 3 km en amont de l'embouchure de la rivière Blanche à Gatineau",
+          "lat": 45.4819,
+          "lon": -75.576303,
+          "distance_km": 20.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "411",
           "plan_eau": "Rivière Gatineau",
           "description": "Rue Cartier",
@@ -3811,46 +5187,16 @@
           "distance_km": 20.63,
           "role": "level",
           "match_reason": "geo"
-        },
-        {
-          "id": "485",
-          "plan_eau": "Rivière Gatineau",
-          "description": "Au pont de la route 366 à La Pêche",
-          "lat": 45.650007,
-          "lon": -75.922517,
-          "distance_km": 21.48,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "412",
-          "plan_eau": "Rivière Gatineau",
-          "description": "Quai des Artistes",
-          "lat": 45.45739,
-          "lon": -75.69979,
-          "distance_km": 22.61,
-          "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "410",
-          "plan_eau": "Rivière des Outaouais",
-          "description": "Traversier Masson",
-          "lat": 45.52658,
-          "lon": -75.41105,
-          "distance_km": 23.37,
-          "role": "level",
-          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "411",
+      "primary_station_id": "HQ-S-1-2970",
       "station": {
-        "id": "411",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Rue Cartier",
-        "lat": 45.48464,
-        "lon": -75.74368,
-        "distance_km": 20.63
+        "id": "HQ-S-1-2970",
+        "plan_eau": "",
+        "description": "Chelsea Centrale amont",
+        "lat": 45.513,
+        "lon": -75.7778,
+        "distance_km": 19.02
       }
     },
     {
@@ -3873,6 +5219,16 @@
           "id": "FOR_COUL.1",
           "plan_eau": "Rivière des Outaouais",
           "description": "À Fort-Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 19.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
           "lat": 45.839444,
           "lon": -76.743333,
           "distance_km": 19.47,
@@ -3932,9 +5288,57 @@
       "plan_nom": "Lac Mecham",
       "lat": 45.754167,
       "lon": -76.371667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3090",
+          "plan_eau": "",
+          "description": "Village Bryson",
+          "lat": 45.68,
+          "lon": -76.62,
+          "distance_km": 20.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-46",
+          "plan_eau": "",
+          "description": "Bryson",
+          "lat": 45.6612,
+          "lon": -76.6317,
+          "distance_km": 22.68,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2964",
+          "plan_eau": "",
+          "description": "Bryson Centrale amont",
+          "lat": 45.6612,
+          "lon": -76.6327,
+          "distance_km": 22.75,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2965",
+          "plan_eau": "",
+          "description": "Bryson Centrale aval",
+          "lat": 45.66,
+          "lon": -76.6322,
+          "distance_km": 22.78,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3090",
+      "station": {
+        "id": "HQ-S-1-3090",
+        "plan_eau": "",
+        "description": "Village Bryson",
+        "lat": 45.68,
+        "lon": -76.62,
+        "distance_km": 20.97
+      }
     },
     {
       "plan_id": 3116,
@@ -3950,6 +5354,26 @@
           "lon": -75.803306,
           "distance_km": 1.87,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 6.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 15.66,
+          "role": "both",
           "match_reason": "geo"
         },
         {
@@ -4130,6 +5554,46 @@
       "lon": -75.824722,
       "stations": [
         {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 8.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 8.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 9.07,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 9.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -4140,14 +5604,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 22.83
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 8.48
       }
     },
     {
@@ -4156,6 +5620,36 @@
       "lat": 45.809444,
       "lon": -74.762778,
       "stations": [
+        {
+          "id": "HQ-S-1-6363",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale amont",
+          "lat": 45.7749,
+          "lon": -74.6858,
+          "distance_km": 7.1,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-58",
+          "plan_eau": "",
+          "description": "Chute-Bell",
+          "lat": 45.774,
+          "lon": -74.6844,
+          "distance_km": 7.24,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-6364",
+          "plan_eau": "",
+          "description": "Chute-Bell Centrale aval",
+          "lat": 45.7737,
+          "lon": -74.6839,
+          "distance_km": 7.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040204",
           "plan_eau": "Rivière Rouge",
@@ -4187,6 +5681,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-3677",
+          "plan_eau": "",
+          "description": "Grenville",
+          "lat": 45.6311,
+          "lon": -74.6089,
+          "distance_km": 23.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "486",
           "plan_eau": "Rivière de la Petite Nation",
           "description": "Au pont de la route 321 à Saint-André-Avellin",
@@ -4197,14 +5701,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040204",
+      "primary_station_id": "HQ-S-1-6363",
       "station": {
-        "id": "040204",
-        "plan_eau": "Rivière Rouge",
-        "description": "En amont de la chute McNeil",
-        "lat": 45.738,
-        "lon": -74.689,
-        "distance_km": 9.79
+        "id": "HQ-S-1-6363",
+        "plan_eau": "",
+        "description": "Chute-Bell Centrale amont",
+        "lat": 45.7749,
+        "lon": -74.6858,
+        "distance_km": 7.1
       }
     },
     {
@@ -4221,6 +5725,16 @@
           "lon": -76.069,
           "distance_km": 6.36,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 19.36,
+          "role": "level",
           "match_reason": "geo"
         },
         {
@@ -4306,6 +5820,16 @@
           "distance_km": 24.49,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 24.57,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040602",
@@ -4324,6 +5848,46 @@
       "lat": 45.952222,
       "lon": -75.838611,
       "stations": [
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 16.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 17.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 17.39,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 17.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040602",
           "plan_eau": "Rivière du Lièvre",
@@ -4345,14 +5909,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040602",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "040602",
-        "plan_eau": "Rivière du Lièvre",
-        "description": "Au lac du Poisson Blanc à Notre-Dame-du-Laus",
-        "lat": 46.101,
-        "lon": -75.648,
-        "distance_km": 22.14
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 16.95
       }
     },
     {
@@ -4389,6 +5953,36 @@
       "lon": -76.080278,
       "stations": [
         {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 12.11,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 13.41,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 13.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
           "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
@@ -4407,16 +6001,26 @@
           "distance_km": 23.77,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12293",
+          "plan_eau": "",
+          "description": "Lac Gabrielle (CMFY)",
+          "lat": 46.5095,
+          "lon": -76.1589,
+          "distance_km": 24.96,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-14591",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 21.35
+        "id": "HQ-S-1-14591",
+        "plan_eau": "",
+        "description": "Rivière de l'Aigle",
+        "lat": 46.3801,
+        "lon": -76.1723,
+        "distance_km": 12.11
       }
     },
     {
@@ -4469,6 +6073,16 @@
           "lat": 46.276417,
           "lon": -75.803306,
           "distance_km": 12.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 20.06,
           "role": "level",
           "match_reason": "geo"
         },
@@ -4613,6 +6227,46 @@
       "lon": -75.864444,
       "stations": [
         {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 5.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 5.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 5.6,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 5.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -4623,14 +6277,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 20.39
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 5.01
       }
     },
     {
@@ -4639,6 +6293,16 @@
       "lat": 46.477222,
       "lon": -75.737222,
       "stations": [
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 20.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
         {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
@@ -4650,14 +6314,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-3033",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 22.9
+        "id": "HQ-S-1-3033",
+        "plan_eau": "",
+        "description": "Maniwaki (040805)",
+        "lat": 46.38278,
+        "lon": -75.96583,
+        "distance_km": 20.43
       }
     },
     {
@@ -4724,12 +6388,72 @@
           "match_reason": "geo"
         },
         {
-          "id": "411",
-          "plan_eau": "Rivière Gatineau",
-          "description": "Rue Cartier",
-          "lat": 45.48464,
-          "lon": -75.74368,
-          "distance_km": 23.64,
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 15.48,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 15.5,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 15.5,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 15.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2970",
+          "plan_eau": "",
+          "description": "Chelsea Centrale amont",
+          "lat": 45.513,
+          "lon": -75.7778,
+          "distance_km": 19.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-66",
+          "plan_eau": "",
+          "description": "Chelsea",
+          "lat": 45.5126,
+          "lon": -75.7775,
+          "distance_km": 19.94,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2971",
+          "plan_eau": "",
+          "description": "Chelsea Centrale aval",
+          "lat": 45.5119,
+          "lon": -75.7769,
+          "distance_km": 20.03,
           "role": "level",
           "match_reason": "geo"
         }
@@ -4749,9 +6473,57 @@
       "plan_nom": "Lac Rond",
       "lat": 45.873889,
       "lon": -75.774167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 13.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 13.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 14.1,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 14.18,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14652",
+      "station": {
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 13.52
+      }
     },
     {
       "plan_id": 461,
@@ -4787,6 +6559,46 @@
       "lon": -75.873333,
       "stations": [
         {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 5.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 6.0,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 6.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 6.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "485",
           "plan_eau": "Rivière Gatineau",
           "description": "Au pont de la route 366 à La Pêche",
@@ -4797,14 +6609,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "485",
+      "primary_station_id": "HQ-S-1-14652",
       "station": {
-        "id": "485",
-        "plan_eau": "Rivière Gatineau",
-        "description": "Au pont de la route 366 à La Pêche",
-        "lat": 45.650007,
-        "lon": -75.922517,
-        "distance_km": 14.29
+        "id": "HQ-S-1-14652",
+        "plan_eau": "",
+        "description": "Paugan (CM3X)",
+        "lat": 45.81196,
+        "lon": -75.92431,
+        "distance_km": 5.79
       }
     },
     {
@@ -5056,6 +6868,46 @@
           "distance_km": 23.58,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 23.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 23.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 24.0,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 24.06,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "485",
@@ -5075,12 +6927,52 @@
       "lon": -76.361944,
       "stations": [
         {
+          "id": "HQ-S-1-3090",
+          "plan_eau": "",
+          "description": "Village Bryson",
+          "lat": 45.68,
+          "lon": -76.62,
+          "distance_km": 20.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "504",
           "plan_eau": "Rivière Quyon                                                                                                                                                                                                                                                 ",
           "description": "Au pont de la rue Egan à Quyon",
           "lat": 45.521054,
           "lon": -76.236499,
           "distance_km": 20.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-46",
+          "plan_eau": "",
+          "description": "Bryson",
+          "lat": 45.6612,
+          "lon": -76.6317,
+          "distance_km": 21.15,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2965",
+          "plan_eau": "",
+          "description": "Bryson Centrale aval",
+          "lat": 45.66,
+          "lon": -76.6322,
+          "distance_km": 21.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2964",
+          "plan_eau": "",
+          "description": "Bryson Centrale amont",
+          "lat": 45.6612,
+          "lon": -76.6327,
+          "distance_km": 21.23,
           "role": "level",
           "match_reason": "geo"
         },
@@ -5095,14 +6987,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "504",
+      "primary_station_id": "HQ-S-1-3090",
       "station": {
-        "id": "504",
-        "plan_eau": "Rivière Quyon                                                                                                                                                                                                                                                 ",
-        "description": "Au pont de la rue Egan à Quyon",
-        "lat": 45.521054,
-        "lon": -76.236499,
-        "distance_km": 20.87
+        "id": "HQ-S-1-3090",
+        "plan_eau": "",
+        "description": "Village Bryson",
+        "lat": 45.68,
+        "lon": -76.62,
+        "distance_km": 20.06
       }
     },
     {
@@ -5165,6 +7057,46 @@
           "lon": -76.069,
           "distance_km": 22.6,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14652",
+          "plan_eau": "",
+          "description": "Paugan (CM3X)",
+          "lat": 45.81196,
+          "lon": -75.92431,
+          "distance_km": 22.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3052",
+          "plan_eau": "",
+          "description": "Paugan Centrale amont",
+          "lat": 45.8108,
+          "lon": -75.9303,
+          "distance_km": 23.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-65",
+          "plan_eau": "",
+          "description": "Paugan",
+          "lat": 45.8097,
+          "lon": -75.9312,
+          "distance_km": 23.35,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3053",
+          "plan_eau": "",
+          "description": "Paugan Centrale aval",
+          "lat": 45.8094,
+          "lon": -75.9321,
+          "distance_km": 23.41,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -5420,6 +7352,16 @@
           "distance_km": 15.99,
           "role": "level",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 21.45,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040602",
@@ -5455,6 +7397,16 @@
           "lat": 46.276417,
           "lon": -75.803306,
           "distance_km": 20.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 24.68,
           "role": "level",
           "match_reason": "geo"
         }
@@ -5779,6 +7731,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 18.0,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
           "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
@@ -5836,6 +7798,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-2983",
+          "plan_eau": "",
+          "description": "Fort Coulonge",
+          "lat": 45.839444,
+          "lon": -76.743333,
+          "distance_km": 16.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "679",
           "plan_eau": "Rivière Coulonge                                                                                                                                                                                                                                              ",
           "description": "Au pont de la route 148 à Mansfield et Pontefract",
@@ -5843,6 +7815,26 @@
           "lon": -76.72953,
           "distance_km": 16.58,
           "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15569",
+          "plan_eau": "",
+          "description": "Rocher Fendu amont (CM6B)",
+          "lat": 45.755813,
+          "lon": -76.765098,
+          "distance_km": 21.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3077",
+          "plan_eau": "",
+          "description": "Rocher-Fendu aval",
+          "lat": 45.750556,
+          "lon": -76.770278,
+          "distance_km": 22.03,
+          "role": "both",
           "match_reason": "geo"
         }
       ],
@@ -6007,6 +7999,36 @@
       "lon": -76.089444,
       "stations": [
         {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 12.08,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 14.2,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 14.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
           "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
@@ -6027,14 +8049,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-14591",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 22.03
+        "id": "HQ-S-1-14591",
+        "plan_eau": "",
+        "description": "Rivière de l'Aigle",
+        "lat": 46.3801,
+        "lon": -76.1723,
+        "distance_km": 12.08
       }
     },
     {
@@ -6043,6 +8065,16 @@
       "lat": 46.253333,
       "lon": -75.926389,
       "stations": [
+        {
+          "id": "HQ-S-1-15712",
+          "plan_eau": "",
+          "description": "Maniwaki (CM3K)",
+          "lat": 46.2763,
+          "lon": -75.9053,
+          "distance_km": 3.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040829",
           "plan_eau": "Lac des Trente et Un Milles",
@@ -6054,6 +8086,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-S-1-3033",
+          "plan_eau": "",
+          "description": "Maniwaki (040805)",
+          "lat": 46.38278,
+          "lon": -75.96583,
+          "distance_km": 14.71,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "040840",
           "plan_eau": "Rivière Picanoc",
           "description": "Sur le chemin du Lac-Cayamant à Gracefield",
@@ -6062,16 +8104,26 @@
           "distance_km": 22.38,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14591",
+          "plan_eau": "",
+          "description": "Rivière de l'Aigle",
+          "lat": 46.3801,
+          "lon": -76.1723,
+          "distance_km": 23.57,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040829",
+      "primary_station_id": "HQ-S-1-15712",
       "station": {
-        "id": "040829",
-        "plan_eau": "Lac des Trente et Un Milles",
-        "description": "Au lac des Trente et Un Milles à Sainte-Thérèse-de-la-Gatineau",
-        "lat": 46.276417,
-        "lon": -75.803306,
-        "distance_km": 9.8
+        "id": "HQ-S-1-15712",
+        "plan_eau": "",
+        "description": "Maniwaki (CM3K)",
+        "lat": 46.2763,
+        "lon": -75.9053,
+        "distance_km": 3.02
       }
     },
     {

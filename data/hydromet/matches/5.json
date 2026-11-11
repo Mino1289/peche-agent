@@ -150,6 +150,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-20",
+          "plan_eau": "",
+          "description": "Chute-Burroughs",
+          "lat": 45.1463,
+          "lon": -72.0184,
+          "distance_km": 22.26,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "030343",
           "plan_eau": "Rivière Yamaska Nord",
           "description": "À 0,1 km en aval du barrage du lac Waterloo",
@@ -555,6 +565,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-20",
+          "plan_eau": "",
+          "description": "Chute-Burroughs",
+          "lat": 45.1463,
+          "lon": -72.0184,
+          "distance_km": 22.77,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "030343",
           "plan_eau": "Rivière Yamaska Nord",
           "description": "À 0,1 km en aval du barrage du lac Waterloo",
@@ -816,6 +836,16 @@
           "match_reason": "geo"
         },
         {
+          "id": "HQ-I-3-20",
+          "plan_eau": "",
+          "description": "Chute-Burroughs",
+          "lat": 45.1463,
+          "lon": -72.0184,
+          "distance_km": 22.08,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "030332",
           "plan_eau": "Lac Waterloo",
           "description": "Au lac Waterloo à Waterloo",
@@ -853,16 +883,6 @@
           "lon": -72.517007,
           "distance_km": 23.05,
           "role": "level",
-          "match_reason": "geo"
-        },
-        {
-          "id": "030220",
-          "plan_eau": "Rivière Massawippi",
-          "description": "À 1,6 km en aval du lac Massawippi",
-          "lat": 45.284,
-          "lon": -71.963,
-          "distance_km": 23.66,
-          "role": "both",
           "match_reason": "geo"
         }
       ],

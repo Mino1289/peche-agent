@@ -3,7 +3,7 @@
     "zone_id": 11,
     "radius_km": 25.0,
     "nb_with_coords": 75,
-    "nb_station_matched": 73
+    "nb_station_matched": 75
   },
   "matches": [
     {
@@ -12,6 +12,56 @@
       "lat": 46.653331,
       "lon": -75.734181,
       "stations": [
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 20.27,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 20.28,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 20.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 20.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 20.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040841",
           "plan_eau": "Rivière Désert",
@@ -23,14 +73,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-I-3-63",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 24.47
+        "id": "HQ-I-3-63",
+        "plan_eau": "",
+        "description": "Mercier",
+        "lat": 46.7175,
+        "lon": -75.9829,
+        "distance_km": 20.27
       }
     },
     {
@@ -38,9 +88,87 @@
       "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Gens de Terre - La partie comprise entre le côté aval du pont Lépine",
       "lat": 46.919897,
       "lon": -76.117328,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 4.3,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15711",
+          "plan_eau": "",
+          "description": "Dépôt Venne (P9) (CM2Y)",
+          "lat": 46.8792,
+          "lon": -76.3915,
+          "distance_km": 21.32,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 24.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 24.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 24.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 24.72,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 24.77,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14264",
+      "station": {
+        "id": "HQ-S-1-14264",
+        "plan_eau": "",
+        "description": "Rivière Gens de Terre",
+        "lat": 46.902,
+        "lon": -76.0671,
+        "distance_km": 4.3
+      }
     },
     {
       "plan_id": 1084,
@@ -48,6 +176,56 @@
       "lat": 46.7192,
       "lon": -75.835806,
       "stations": [
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 11.22,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 11.25,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 11.29,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 11.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 11.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040841",
           "plan_eau": "Rivière Désert",
@@ -59,14 +237,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-I-3-63",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 21.25
+        "id": "HQ-I-3-63",
+        "plan_eau": "",
+        "description": "Mercier",
+        "lat": 46.7175,
+        "lon": -75.9829,
+        "distance_km": 11.22
       }
     },
     {
@@ -75,6 +253,56 @@
       "lat": 46.651944,
       "lon": -75.847222,
       "stations": [
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 12.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 12.66,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 12.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 12.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 12.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "040841",
           "plan_eau": "Rivière Désert",
@@ -86,14 +314,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-9146",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 16.32
+        "id": "HQ-S-1-9146",
+        "plan_eau": "",
+        "description": "Mercier Centrale aval",
+        "lat": 46.7169,
+        "lon": -75.9834,
+        "distance_km": 12.65
       }
     },
     {
@@ -130,6 +358,16 @@
       "lon": -75.910019,
       "stations": [
         {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 12.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "040830",
           "plan_eau": "Rivière Gatineau",
           "description": "À la tête des rapides Ceizur",
@@ -138,16 +376,66 @@
           "distance_km": 22.23,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 22.52,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 22.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 22.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 22.54,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 22.6,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040830",
+      "primary_station_id": "HQ-S-1-14264",
       "station": {
-        "id": "040830",
-        "plan_eau": "Rivière Gatineau",
-        "description": "À la tête des rapides Ceizur",
-        "lat": 47.083,
-        "lon": -75.754,
-        "distance_km": 22.23
+        "id": "HQ-S-1-14264",
+        "plan_eau": "",
+        "description": "Rivière Gens de Terre",
+        "lat": 46.902,
+        "lon": -76.0671,
+        "distance_km": 12.0
       }
     },
     {
@@ -192,9 +480,67 @@
       "plan_nom": "Aire Faunique Communautaire du réservoir Baskatong - Baie Windigo - La partie comprise entre une droite à son embouchure reliant les points 46°45'57.65'' N., 75°42'45.78'' O. et 46°46'4.07'' N., 75°42'40.49'' O. et l'embouchure du ruisseau Windigo",
       "lat": 46.766014,
       "lon": -75.712717,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 21.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 21.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 21.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 21.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 21.56,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-63",
+      "station": {
+        "id": "HQ-I-3-63",
+        "plan_eau": "",
+        "description": "Mercier",
+        "lat": 46.7175,
+        "lon": -75.9829,
+        "distance_km": 21.28
+      }
     },
     {
       "plan_id": 12189,
@@ -415,6 +761,56 @@
       "lon": -75.961389,
       "stations": [
         {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 2.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 2.09,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 2.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 2.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 2.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -423,16 +819,26 @@
           "distance_km": 14.24,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 23.25,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-9146",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 14.24
+        "id": "HQ-S-1-9146",
+        "plan_eau": "",
+        "description": "Mercier Centrale aval",
+        "lat": 46.7169,
+        "lon": -75.9834,
+        "distance_km": 2.08
       }
     },
     {
@@ -570,6 +976,56 @@
       "lon": -75.713333,
       "stations": [
         {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 22.94,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 22.95,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 23.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 23.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 23.23,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040605",
           "plan_eau": "Lac des Écorces",
           "description": "À Mont-Laurier",
@@ -580,14 +1036,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040605",
+      "primary_station_id": "HQ-I-3-63",
       "station": {
-        "id": "040605",
-        "plan_eau": "Lac des Écorces",
-        "description": "À Mont-Laurier",
-        "lat": 46.548417,
-        "lon": -75.418889,
-        "distance_km": 24.1
+        "id": "HQ-I-3-63",
+        "plan_eau": "",
+        "description": "Mercier",
+        "lat": 46.7175,
+        "lon": -75.9829,
+        "distance_km": 22.94
       }
     },
     {
@@ -906,6 +1362,66 @@
       "lon": -75.874444,
       "stations": [
         {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 10.32,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 10.37,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 10.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 10.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 10.52,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 20.5,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -916,14 +1432,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-I-3-63",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 23.99
+        "id": "HQ-I-3-63",
+        "plan_eau": "",
+        "description": "Mercier",
+        "lat": 46.7175,
+        "lon": -75.9829,
+        "distance_km": 10.32
       }
     },
     {
@@ -967,6 +1483,16 @@
           "lon": -75.312,
           "distance_km": 20.82,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15688",
+          "plan_eau": "",
+          "description": "Lac Sapin (CM5X)",
+          "lat": 47.15409,
+          "lon": -75.33459,
+          "distance_km": 22.82,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1021,6 +1547,56 @@
           "lon": -76.041,
           "distance_km": 17.12,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 18.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 18.41,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 18.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 18.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 18.65,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
@@ -1078,6 +1654,56 @@
       "lon": -76.019722,
       "stations": [
         {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 2.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 2.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 2.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 2.77,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 2.81,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -1086,16 +1712,26 @@
           "distance_km": 14.33,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 20.77,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-7724",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 14.33
+        "id": "HQ-S-1-7724",
+        "plan_eau": "",
+        "description": "Réservoir Baskatong (CMKG)",
+        "lat": 46.718,
+        "lon": -75.9868,
+        "distance_km": 2.51
       }
     },
     {
@@ -1162,6 +1798,56 @@
       "lon": -76.0125,
       "stations": [
         {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 1.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 1.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 2.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 2.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 2.26,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -1170,16 +1856,26 @@
           "distance_km": 14.31,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 20.96,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-7724",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 14.31
+        "id": "HQ-S-1-7724",
+        "plan_eau": "",
+        "description": "Réservoir Baskatong (CMKG)",
+        "lat": 46.718,
+        "lon": -75.9868,
+        "distance_km": 1.96
       }
     },
     {
@@ -1881,6 +2577,56 @@
       "lon": -75.866389,
       "stations": [
         {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 11.12,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 11.13,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 11.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 11.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 11.4,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -1891,14 +2637,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-9146",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 15.29
+        "id": "HQ-S-1-9146",
+        "plan_eau": "",
+        "description": "Mercier Centrale aval",
+        "lat": 46.7169,
+        "lon": -75.9834,
+        "distance_km": 11.12
       }
     },
     {
@@ -1971,6 +2717,56 @@
           "lat": 46.548417,
           "lon": -75.418889,
           "distance_km": 22.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 24.56,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 24.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 24.63,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 24.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 24.85,
           "role": "level",
           "match_reason": "geo"
         }
@@ -2321,6 +3117,16 @@
       "lon": -75.489722,
       "stations": [
         {
+          "id": "HQ-S-1-15688",
+          "plan_eau": "",
+          "description": "Lac Sapin (CM5X)",
+          "lat": 47.15409,
+          "lon": -75.33459,
+          "distance_km": 23.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040830",
           "plan_eau": "Rivière Gatineau",
           "description": "À la tête des rapides Ceizur",
@@ -2341,14 +3147,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040830",
+      "primary_station_id": "HQ-S-1-15688",
       "station": {
-        "id": "040830",
-        "plan_eau": "Rivière Gatineau",
-        "description": "À la tête des rapides Ceizur",
-        "lat": 47.083,
-        "lon": -75.754,
-        "distance_km": 23.43
+        "id": "HQ-S-1-15688",
+        "plan_eau": "",
+        "description": "Lac Sapin (CM5X)",
+        "lat": 47.15409,
+        "lon": -75.33459,
+        "distance_km": 23.26
       }
     },
     {
@@ -2422,6 +3228,56 @@
       "lon": -75.984167,
       "stations": [
         {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 0.03,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 0.1,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 0.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 0.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 0.2,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -2430,16 +3286,26 @@
           "distance_km": 14.86,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14264",
+          "plan_eau": "",
+          "description": "Rivière Gens de Terre",
+          "lat": 46.902,
+          "lon": -76.0671,
+          "distance_km": 21.43,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-9145",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 14.86
+        "id": "HQ-S-1-9145",
+        "plan_eau": "",
+        "description": "Mercier Centrale amont",
+        "lat": 46.7176,
+        "lon": -75.9839,
+        "distance_km": 0.03
       }
     },
     {
@@ -2568,6 +3434,26 @@
           "distance_km": 18.67,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15688",
+          "plan_eau": "",
+          "description": "Lac Sapin (CM5X)",
+          "lat": 47.15409,
+          "lon": -75.33459,
+          "distance_km": 23.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14325",
+          "plan_eau": "",
+          "description": "Lac de la Roche (CMFZ)",
+          "lat": 47.1547,
+          "lon": -75.1975,
+          "distance_km": 23.36,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "040624",
@@ -2587,6 +3473,56 @@
       "lon": -75.837222,
       "stations": [
         {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 14.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 14.71,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 14.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 14.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 14.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -2597,14 +3533,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-9146",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 16.21
+        "id": "HQ-S-1-9146",
+        "plan_eau": "",
+        "description": "Mercier Centrale aval",
+        "lat": 46.7169,
+        "lon": -75.9834,
+        "distance_km": 14.7
       }
     },
     {
@@ -2708,6 +3644,56 @@
       "lon": -75.818056,
       "stations": [
         {
+          "id": "HQ-S-1-9146",
+          "plan_eau": "",
+          "description": "Mercier Centrale aval",
+          "lat": 46.7169,
+          "lon": -75.9834,
+          "distance_km": 16.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-63",
+          "plan_eau": "",
+          "description": "Mercier",
+          "lat": 46.7175,
+          "lon": -75.9829,
+          "distance_km": 16.61,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9145",
+          "plan_eau": "",
+          "description": "Mercier Centrale amont",
+          "lat": 46.7176,
+          "lon": -75.9839,
+          "distance_km": 16.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7724",
+          "plan_eau": "",
+          "description": "Réservoir Baskatong (CMKG)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 16.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14543",
+          "plan_eau": "",
+          "description": "Barrage Mercier (CM3L)",
+          "lat": 46.718,
+          "lon": -75.9868,
+          "distance_km": 16.87,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "040841",
           "plan_eau": "Rivière Désert",
           "description": "Sur le chemin Lytton en amont de la chute Rouge",
@@ -2718,14 +3704,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "040841",
+      "primary_station_id": "HQ-S-1-9146",
       "station": {
-        "id": "040841",
-        "plan_eau": "Rivière Désert",
-        "description": "Sur le chemin Lytton en amont de la chute Rouge",
-        "lat": 46.59,
-        "lon": -76.041,
-        "distance_km": 17.36
+        "id": "HQ-S-1-9146",
+        "plan_eau": "",
+        "description": "Mercier Centrale aval",
+        "lat": 46.7169,
+        "lon": -75.9834,
+        "distance_km": 16.59
       }
     },
     {

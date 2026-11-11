@@ -3,7 +3,7 @@
     "zone_id": 19,
     "radius_km": 25.0,
     "nb_with_coords": 126,
-    "nb_station_matched": 46
+    "nb_station_matched": 93
   },
   "matches": [
     {
@@ -488,9 +488,57 @@
       "plan_nom": "Lac à Jules",
       "lat": 49.743333,
       "lon": -69.145833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 17.62,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 17.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 17.96,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 18.03,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12323",
+      "station": {
+        "id": "HQ-S-1-12323",
+        "plan_eau": "",
+        "description": "Chevalier (CMDV)",
+        "lat": 49.6649,
+        "lon": -68.933,
+        "distance_km": 17.62
+      }
     },
     {
       "plan_id": 12200,
@@ -534,6 +582,76 @@
           "distance_km": 8.6,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 14.33,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 14.33,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 14.36,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 14.51,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3025",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale amont",
+          "lat": 49.3212,
+          "lon": -68.3455,
+          "distance_km": 16.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 16.54,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-109",
+          "plan_eau": "",
+          "description": "Manic-2",
+          "lat": 49.3211,
+          "lon": -68.3471,
+          "distance_km": 16.56,
+          "role": "flow",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "071203",
@@ -551,54 +669,352 @@
       "plan_nom": "Lac Anne",
       "lat": 49.550278,
       "lon": -68.989167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 13.37,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 14.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 17.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 18.13,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 18.21,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 18.55,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 18.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 19.19,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12323",
+      "station": {
+        "id": "HQ-S-1-12323",
+        "plan_eau": "",
+        "description": "Chevalier (CMDV)",
+        "lat": 49.6649,
+        "lon": -68.933,
+        "distance_km": 13.37
+      }
     },
     {
       "plan_id": 978,
       "plan_nom": "Lac au Brochet",
       "lat": 49.666667,
       "lon": -69.6,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 12.08,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 12.08
+      }
     },
     {
       "plan_id": 1015,
       "plan_nom": "Lac aux Perles",
       "lat": 49.191667,
       "lon": -69.833611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 6.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 18.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2959",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale aval",
+          "lat": 49.293679,
+          "lon": -69.550964,
+          "distance_km": 23.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-98",
+          "plan_eau": "",
+          "description": "Bersimis-1",
+          "lat": 49.2953,
+          "lon": -69.5507,
+          "distance_km": 23.55,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 6.27
+      }
     },
     {
       "plan_id": 973,
       "plan_nom": "Lac Betchie",
       "lat": 49.670556,
       "lon": -69.984722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2921",
+          "plan_eau": "",
+          "description": "Bersimis 1 Est (CMBM)",
+          "lat": 49.6058,
+          "lon": -70.1111,
+          "distance_km": 11.6,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15510",
+          "plan_eau": "",
+          "description": "Lac Porto (CM4Z)",
+          "lat": 49.5842,
+          "lon": -70.2759,
+          "distance_km": 23.07,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2921",
+      "station": {
+        "id": "HQ-S-1-2921",
+        "plan_eau": "",
+        "description": "Bersimis 1 Est (CMBM)",
+        "lat": 49.6058,
+        "lon": -70.1111,
+        "distance_km": 11.6
+      }
     },
     {
       "plan_id": 975,
       "plan_nom": "Lac Boucher",
       "lat": 49.488889,
       "lon": -68.979722,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 15.72,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 19.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 19.86,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 19.98,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 20.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 20.45,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 20.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 24.24,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-10362",
+      "station": {
+        "id": "HQ-S-1-10362",
+        "plan_eau": "",
+        "description": "Outardes-3 Barrage amont",
+        "lat": 49.56418,
+        "lon": -68.79542,
+        "distance_km": 15.72
+      }
     },
     {
       "plan_id": 2774,
       "plan_nom": "Lac de la Montagne",
       "lat": 49.133611,
       "lon": -69.818889,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 11.53,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 24.32,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 11.53
+      }
     },
     {
       "plan_id": 2469,
@@ -642,117 +1058,591 @@
       "plan_nom": "Lac de l'Île",
       "lat": 49.164167,
       "lon": -69.905278,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 6.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 22.42,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 6.08
+      }
     },
     {
       "plan_id": 980,
       "plan_nom": "Lac des Caribous",
       "lat": 49.1425,
       "lon": -69.906944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 8.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 24.72,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 8.49
+      }
     },
     {
       "plan_id": 1010,
       "plan_nom": "Lac des Montagnais",
       "lat": 49.668333,
       "lon": -69.099167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 11.96,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 14.35,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 14.6,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 14.7,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 24.76,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12323",
+      "station": {
+        "id": "HQ-S-1-12323",
+        "plan_eau": "",
+        "description": "Chevalier (CMDV)",
+        "lat": 49.6649,
+        "lon": -68.933,
+        "distance_km": 11.96
+      }
     },
     {
       "plan_id": 984,
       "plan_nom": "Lac Dissimieux",
       "lat": 49.863889,
       "lon": -69.796944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7292",
+          "plan_eau": "",
+          "description": "Betsiamites (CMBS)",
+          "lat": 49.9766,
+          "lon": -69.9135,
+          "distance_km": 15.06,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7292",
+      "station": {
+        "id": "HQ-S-1-7292",
+        "plan_eau": "",
+        "description": "Betsiamites (CMBS)",
+        "lat": 49.9766,
+        "lon": -69.9135,
+        "distance_km": 15.06
+      }
     },
     {
       "plan_id": 987,
       "plan_nom": "Lac Dodier",
       "lat": 49.55,
       "lon": -69.4,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 8.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14274",
+          "plan_eau": "",
+          "description": "Rivière aux Brochets",
+          "lat": 49.3956,
+          "lon": -69.6078,
+          "distance_km": 22.81,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 8.61
+      }
     },
     {
       "plan_id": 982,
       "plan_nom": "Lac du Décès",
       "lat": 49.6375,
       "lon": -69.312222,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 16.17,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 16.17
+      }
     },
     {
       "plan_id": 2770,
       "plan_nom": "Lac du Grand Portage",
       "lat": 49.126389,
       "lon": -69.838333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 11.49,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 11.49
+      }
     },
     {
       "plan_id": 1017,
       "plan_nom": "Lac du Raccourci",
       "lat": 49.333333,
       "lon": -69.116667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2961",
+          "plan_eau": "",
+          "description": "Bersimis-2 Centrale aval",
+          "lat": 49.18,
+          "lon": -69.2,
+          "distance_km": 18.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-99",
+          "plan_eau": "",
+          "description": "Bersimis-2",
+          "lat": 49.1753,
+          "lon": -69.2261,
+          "distance_km": 19.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2960",
+          "plan_eau": "",
+          "description": "Bersimis-2 Centrale amont",
+          "lat": 49.178,
+          "lon": -69.2504,
+          "distance_km": 19.81,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2961",
+      "station": {
+        "id": "HQ-S-1-2961",
+        "plan_eau": "",
+        "description": "Bersimis-2 Centrale aval",
+        "lat": 49.18,
+        "lon": -69.2,
+        "distance_km": 18.09
+      }
     },
     {
       "plan_id": 1021,
       "plan_nom": "Lac du Retard",
       "lat": 49.69,
       "lon": -69.116944,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 13.53,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 15.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 15.41,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 15.5,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12323",
+      "station": {
+        "id": "HQ-S-1-12323",
+        "plan_eau": "",
+        "description": "Chevalier (CMDV)",
+        "lat": 49.6649,
+        "lon": -68.933,
+        "distance_km": 13.53
+      }
     },
     {
       "plan_id": 1025,
       "plan_nom": "Lac du Sault-aux-Cochons",
       "lat": 49.273611,
       "lon": -69.958611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 7.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 14.9,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 7.07
+      }
     },
     {
       "plan_id": 989,
       "plan_nom": "Lac Dubuc",
       "lat": 49.323056,
       "lon": -69.864167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 6.15,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 12.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14274",
+          "plan_eau": "",
+          "description": "Rivière aux Brochets",
+          "lat": 49.3956,
+          "lon": -69.6078,
+          "distance_km": 20.24,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-98",
+          "plan_eau": "",
+          "description": "Bersimis-1",
+          "lat": 49.2953,
+          "lon": -69.5507,
+          "distance_km": 22.93,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2959",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale aval",
+          "lat": 49.293679,
+          "lon": -69.550964,
+          "distance_km": 22.94,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2958",
+      "station": {
+        "id": "HQ-S-1-2958",
+        "plan_eau": "",
+        "description": "Bersimis-1 Centrale amont",
+        "lat": 49.3516,
+        "lon": -69.7914,
+        "distance_km": 6.15
+      }
     },
     {
       "plan_id": 992,
       "plan_nom": "Lac Édouard",
       "lat": 49.598056,
       "lon": -69.588056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 6.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14274",
+          "plan_eau": "",
+          "description": "Rivière aux Brochets",
+          "lat": 49.3956,
+          "lon": -69.6078,
+          "distance_km": 22.56,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 6.02
+      }
     },
     {
       "plan_id": 10860,
       "plan_nom": "Lac Fléché",
       "lat": 49.994722,
       "lon": -68.182778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7426",
+          "plan_eau": "",
+          "description": "Toulnustouc Centrale aval",
+          "lat": 49.9732,
+          "lon": -68.163,
+          "distance_km": 2.78,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-152",
+          "plan_eau": "",
+          "description": "Toulnustouc",
+          "lat": 49.9706,
+          "lon": -68.1593,
+          "distance_km": 3.16,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7424",
+          "plan_eau": "",
+          "description": "Toulnustouc Centrale amont",
+          "lat": 49.9948,
+          "lon": -68.0262,
+          "distance_km": 11.19,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-9328",
+          "plan_eau": "",
+          "description": "Toulnustouc Barrage amont",
+          "lat": 50.004,
+          "lon": -68.0264,
+          "distance_km": 11.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3003",
+          "plan_eau": "",
+          "description": "Lac-Sainte-Anne barrage amont (CMAF)",
+          "lat": 50.1033,
+          "lon": -67.9453,
+          "distance_km": 20.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-15507",
+          "plan_eau": "",
+          "description": "Lac Perdrix (CM4Y)",
+          "lat": 50.1295,
+          "lon": -67.9674,
+          "distance_km": 21.47,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-7298",
+          "plan_eau": "",
+          "description": "Rivière Isoukustouc (CM5Y)",
+          "lat": 49.806,
+          "lon": -68.2904,
+          "distance_km": 22.36,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7426",
+      "station": {
+        "id": "HQ-S-1-7426",
+        "plan_eau": "",
+        "description": "Toulnustouc Centrale aval",
+        "lat": 49.9732,
+        "lon": -68.163,
+        "distance_km": 2.78
+      }
     },
     {
       "plan_id": 1039,
@@ -786,27 +1676,211 @@
       "plan_nom": "Lac Kakuskanus",
       "lat": 49.220833,
       "lon": -69.986389,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 5.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 20.28,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 5.61
+      }
     },
     {
       "plan_id": 1003,
       "plan_nom": "Lac Kamiltaukas",
       "lat": 49.620833,
       "lon": -68.938056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 4.91,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 9.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 9.53,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 9.61,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 12.06,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 15.98,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 16.34,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 17.05,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12323",
+      "station": {
+        "id": "HQ-S-1-12323",
+        "plan_eau": "",
+        "description": "Chevalier (CMDV)",
+        "lat": 49.6649,
+        "lon": -68.933,
+        "distance_km": 4.91
+      }
     },
     {
       "plan_id": 1005,
       "plan_nom": "Lac Letemplier",
       "lat": 49.456111,
       "lon": -68.783611,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 6.27,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 11.99,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 11.99,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 12.04,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 12.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 13.69,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11122",
+      "station": {
+        "id": "HQ-S-1-11122",
+        "plan_eau": "",
+        "description": "Rivière Caouishtagamac",
+        "lat": 49.4469,
+        "lon": -68.6981,
+        "distance_km": 6.27
+      }
     },
     {
       "plan_id": 1043,
@@ -822,36 +1896,208 @@
       "plan_nom": "Lac Nid",
       "lat": 49.403889,
       "lon": -68.969167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 20.18,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 21.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 24.3,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 24.57,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 24.62,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11122",
+      "station": {
+        "id": "HQ-S-1-11122",
+        "plan_eau": "",
+        "description": "Rivière Caouishtagamac",
+        "lat": 49.4469,
+        "lon": -68.6981,
+        "distance_km": 20.18
+      }
     },
     {
       "plan_id": 1045,
       "plan_nom": "Lac Petit lac du Sault-aux Cochons",
       "lat": 49.245278,
       "lon": -69.914444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 2.97,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 14.81,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-14275",
+      "station": {
+        "id": "HQ-S-1-14275",
+        "plan_eau": "",
+        "description": "Sault aux Cochons Barrage amont",
+        "lat": 49.2188,
+        "lon": -69.9092,
+        "distance_km": 2.97
+      }
     },
     {
       "plan_id": 1008,
       "plan_nom": "Lac Petit lac Letemplier",
       "lat": 49.425556,
       "lon": -68.757778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 4.92,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 14.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 14.78,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 14.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 15.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 16.63,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11122",
+      "station": {
+        "id": "HQ-S-1-11122",
+        "plan_eau": "",
+        "description": "Rivière Caouishtagamac",
+        "lat": 49.4469,
+        "lon": -68.6981,
+        "distance_km": 4.92
+      }
     },
     {
       "plan_id": 1023,
       "plan_nom": "Lac Roy",
       "lat": 49.75,
       "lon": -69.9,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2921",
+          "plan_eau": "",
+          "description": "Bersimis 1 Est (CMBM)",
+          "lat": 49.6058,
+          "lon": -70.1111,
+          "distance_km": 22.09,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2921",
+      "station": {
+        "id": "HQ-S-1-2921",
+        "plan_eau": "",
+        "description": "Bersimis 1 Est (CMBM)",
+        "lat": 49.6058,
+        "lon": -70.1111,
+        "distance_km": 22.09
+      }
     },
     {
       "plan_id": 1047,
@@ -867,6 +2113,76 @@
           "lon": -68.157194,
           "distance_km": 5.06,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3025",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale amont",
+          "lat": 49.3212,
+          "lon": -68.3455,
+          "distance_km": 10.57,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 10.66,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-109",
+          "plan_eau": "",
+          "description": "Manic-2",
+          "lat": 49.3211,
+          "lon": -68.3471,
+          "distance_km": 10.68,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 14.16,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 14.17,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 14.22,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 14.23,
+          "role": "flow",
           "match_reason": "geo"
         }
       ],
@@ -885,36 +2201,148 @@
       "plan_nom": "Lac Sans nom",
       "lat": 49.630556,
       "lon": -69.344444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 13.75,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 13.75
+      }
     },
     {
       "plan_id": 3105,
       "plan_nom": "Lac Sans nom",
       "lat": 49.633333,
       "lon": -69.361111,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 12.85,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 12.85
+      }
     },
     {
       "plan_id": 3106,
       "plan_nom": "Lac Sans nom",
       "lat": 49.641667,
       "lon": -69.355556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 13.69,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 13.69
+      }
     },
     {
       "plan_id": 1027,
       "plan_nom": "Lac Sédillot",
       "lat": 49.527222,
       "lon": -69.111667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 20.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 23.18,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 24.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 24.68,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 24.78,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12323",
+      "station": {
+        "id": "HQ-S-1-12323",
+        "plan_eau": "",
+        "description": "Chevalier (CMDV)",
+        "lat": 49.6649,
+        "lon": -68.933,
+        "distance_km": 20.0
+      }
     },
     {
       "plan_id": 1029,
@@ -930,45 +2358,385 @@
       "plan_nom": "Lac Violette",
       "lat": 49.9125,
       "lon": -69.879444,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-7292",
+          "plan_eau": "",
+          "description": "Betsiamites (CMBS)",
+          "lat": 49.9766,
+          "lon": -69.9135,
+          "distance_km": 7.53,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-7292",
+      "station": {
+        "id": "HQ-S-1-7292",
+        "plan_eau": "",
+        "description": "Betsiamites (CMBS)",
+        "lat": 49.9766,
+        "lon": -69.9135,
+        "distance_km": 7.53
+      }
     },
     {
       "plan_id": 10862,
       "plan_nom": "Réservoir aux Outardes-2",
       "lat": 49.385278,
       "lon": -68.579167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 11.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-109",
+          "plan_eau": "",
+          "description": "Manic-2",
+          "lat": 49.3211,
+          "lon": -68.3471,
+          "distance_km": 18.26,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 18.28,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3025",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale amont",
+          "lat": 49.3212,
+          "lon": -68.3455,
+          "distance_km": 18.36,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 21.62,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 21.71,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 22.27,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 23.59,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11122",
+      "station": {
+        "id": "HQ-S-1-11122",
+        "plan_eau": "",
+        "description": "Rivière Caouishtagamac",
+        "lat": 49.4469,
+        "lon": -68.6981,
+        "distance_km": 11.0
+      }
     },
     {
       "plan_id": 10863,
       "plan_nom": "Réservoir aux Outardes-3",
       "lat": 49.584167,
       "lon": -68.765556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 2.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 3.09,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 3.68,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 4.32,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 4.43,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 15.04,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 16.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 16.55,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11232",
+      "station": {
+        "id": "HQ-S-1-11232",
+        "plan_eau": "",
+        "description": "Outardes-3 - Météo (CMGH)",
+        "lat": 49.57392,
+        "lon": -68.72851,
+        "distance_km": 2.9
+      }
     },
     {
       "plan_id": 10864,
       "plan_nom": "Réservoir aux Outardes-4",
       "lat": 49.738333,
       "lon": -68.906667,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3050",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale aval",
+          "lat": 49.7041,
+          "lon": -68.9025,
+          "distance_km": 3.82,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-100",
+          "plan_eau": "",
+          "description": "Outardes-4",
+          "lat": 49.7036,
+          "lon": -68.9037,
+          "distance_km": 3.87,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3049",
+          "plan_eau": "",
+          "description": "Outardes-4 Centrale amont",
+          "lat": 49.7017,
+          "lon": -68.9065,
+          "distance_km": 4.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-12323",
+          "plan_eau": "",
+          "description": "Chevalier (CMDV)",
+          "lat": 49.6649,
+          "lon": -68.933,
+          "distance_km": 8.38,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14334",
+          "plan_eau": "",
+          "description": "Rivière Vallant",
+          "lat": 49.7613,
+          "lon": -68.7104,
+          "distance_km": 14.33,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 20.96,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3027",
+          "plan_eau": "",
+          "description": "Manic-3 Centrale amont",
+          "lat": 49.7527,
+          "lon": -68.6033,
+          "distance_km": 21.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3028",
+          "plan_eau": "",
+          "description": "Manic-3 Centrale aval",
+          "lat": 49.7388,
+          "lon": -68.5984,
+          "distance_km": 22.15,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3050",
+      "station": {
+        "id": "HQ-S-1-3050",
+        "plan_eau": "",
+        "description": "Outardes-4 Centrale aval",
+        "lat": 49.7041,
+        "lon": -68.9025,
+        "distance_km": 3.82
+      }
     },
     {
       "plan_id": 10861,
       "plan_nom": "Réservoir Betsiamites",
       "lat": 49.207778,
       "lon": -69.287222,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2960",
+          "plan_eau": "",
+          "description": "Bersimis-2 Centrale amont",
+          "lat": 49.178,
+          "lon": -69.2504,
+          "distance_km": 4.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-99",
+          "plan_eau": "",
+          "description": "Bersimis-2",
+          "lat": 49.1753,
+          "lon": -69.2261,
+          "distance_km": 5.72,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2961",
+          "plan_eau": "",
+          "description": "Bersimis-2 Centrale aval",
+          "lat": 49.18,
+          "lon": -69.2,
+          "distance_km": 7.05,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-2959",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale aval",
+          "lat": 49.293679,
+          "lon": -69.550964,
+          "distance_km": 21.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-98",
+          "plan_eau": "",
+          "description": "Bersimis-1",
+          "lat": 49.2953,
+          "lon": -69.5507,
+          "distance_km": 21.46,
+          "role": "flow",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2960",
+      "station": {
+        "id": "HQ-S-1-2960",
+        "plan_eau": "",
+        "description": "Bersimis-2 Centrale amont",
+        "lat": 49.178,
+        "lon": -69.2504,
+        "distance_km": 4.26
+      }
     },
     {
       "plan_id": 10865,
@@ -977,24 +2745,94 @@
       "lon": -68.398611,
       "stations": [
         {
-          "id": "071203",
-          "plan_eau": "Rivière aux Anglais",
-          "description": "À la décharge du lac Inconnu à Baie-Comeau",
-          "lat": 49.322778,
-          "lon": -68.157194,
-          "distance_km": 19.45,
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 7.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 7.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 7.94,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 8.01,
           "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 9.02,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-109",
+          "plan_eau": "",
+          "description": "Manic-2",
+          "lat": 49.3211,
+          "lon": -68.3471,
+          "distance_km": 9.08,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3025",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale amont",
+          "lat": 49.3212,
+          "lon": -68.3455,
+          "distance_km": 9.14,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 10.6,
+          "role": "level",
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "071203",
+      "primary_station_id": "HQ-S-1-10862",
       "station": {
-        "id": "071203",
-        "plan_eau": "Rivière aux Anglais",
-        "description": "À la décharge du lac Inconnu à Baie-Comeau",
-        "lat": 49.322778,
-        "lon": -68.157194,
-        "distance_km": 19.45
+        "id": "HQ-S-1-10862",
+        "plan_eau": "",
+        "description": "Manic-1 amont",
+        "lat": 49.194444,
+        "lon": -68.334167,
+        "distance_km": 7.46
       }
     },
     {
@@ -1002,27 +2840,211 @@
       "plan_nom": "Réservoir Manic-2",
       "lat": 49.515,
       "lon": -68.3975,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-109",
+          "plan_eau": "",
+          "description": "Manic-2",
+          "lat": 49.3211,
+          "lon": -68.3471,
+          "distance_km": 21.87,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3025",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale amont",
+          "lat": 49.3212,
+          "lon": -68.3455,
+          "distance_km": 21.88,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 21.93,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 23.0,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 23.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 23.96,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 24.65,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 24.76,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-109",
+      "station": {
+        "id": "HQ-I-3-109",
+        "plan_eau": "",
+        "description": "Manic-2",
+        "lat": 49.3211,
+        "lon": -68.3471,
+        "distance_km": 21.87
+      }
     },
     {
       "plan_id": 10867,
       "plan_nom": "Réservoir Manic-3",
       "lat": 49.927778,
       "lon": -68.633333,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15484",
+          "plan_eau": "",
+          "description": "Lac Louis (CM4W)",
+          "lat": 49.8866,
+          "lon": -68.4897,
+          "distance_km": 11.26,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14334",
+          "plan_eau": "",
+          "description": "Rivière Vallant",
+          "lat": 49.7613,
+          "lon": -68.7104,
+          "distance_km": 19.32,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3027",
+          "plan_eau": "",
+          "description": "Manic-3 Centrale amont",
+          "lat": 49.7527,
+          "lon": -68.6033,
+          "distance_km": 19.59,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-107",
+          "plan_eau": "",
+          "description": "Manic-3",
+          "lat": 49.7393,
+          "lon": -68.5962,
+          "distance_km": 21.13,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3028",
+          "plan_eau": "",
+          "description": "Manic-3 Centrale aval",
+          "lat": 49.7388,
+          "lon": -68.5984,
+          "distance_km": 21.16,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15484",
+      "station": {
+        "id": "HQ-S-1-15484",
+        "plan_eau": "",
+        "description": "Lac Louis (CM4W)",
+        "lat": 49.8866,
+        "lon": -68.4897,
+        "distance_km": 11.26
+      }
     },
     {
       "plan_id": 2481,
       "plan_nom": "Réservoir Pipmuacan",
       "lat": 49.424167,
       "lon": -69.8925,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-2958",
+          "plan_eau": "",
+          "description": "Bersimis-1 Centrale amont",
+          "lat": 49.3516,
+          "lon": -69.7914,
+          "distance_km": 10.89,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14274",
+          "plan_eau": "",
+          "description": "Rivière aux Brochets",
+          "lat": 49.3956,
+          "lon": -69.6078,
+          "distance_km": 20.84,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-14275",
+          "plan_eau": "",
+          "description": "Sault aux Cochons Barrage amont",
+          "lat": 49.2188,
+          "lon": -69.9092,
+          "distance_km": 22.87,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-2958",
+      "station": {
+        "id": "HQ-S-1-2958",
+        "plan_eau": "",
+        "description": "Bersimis-1 Centrale amont",
+        "lat": 49.3516,
+        "lon": -69.7914,
+        "distance_km": 10.89
+      }
     },
     {
       "plan_id": 3352,
@@ -1030,6 +3052,46 @@
       "lat": 49.201111,
       "lon": -68.193889,
       "stations": [
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 9.88,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 9.92,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 9.93,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 10.22,
+          "role": "level",
+          "match_reason": "geo"
+        },
         {
           "id": "071203",
           "plan_eau": "Rivière aux Anglais",
@@ -1039,16 +3101,46 @@
           "distance_km": 13.79,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 15.38,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 15.55,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 15.57,
+          "role": "level",
+          "match_reason": "geo"
         }
       ],
-      "primary_station_id": "071203",
+      "primary_station_id": "HQ-S-1-3024",
       "station": {
-        "id": "071203",
-        "plan_eau": "Rivière aux Anglais",
-        "description": "À la décharge du lac Inconnu à Baie-Comeau",
-        "lat": 49.322778,
-        "lon": -68.157194,
-        "distance_km": 13.79
+        "id": "HQ-S-1-3024",
+        "plan_eau": "",
+        "description": "Manic-1 Centrale aval",
+        "lat": 49.1909,
+        "lon": -68.3289,
+        "distance_km": 9.88
       }
     },
     {
@@ -1085,6 +3177,76 @@
       "lon": -68.238214,
       "stations": [
         {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 6.6,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 6.67,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 6.67,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 7.02,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 11.79,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 11.97,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 12.01,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
           "id": "071203",
           "plan_eau": "Rivière aux Anglais",
           "description": "À la décharge du lac Inconnu à Baie-Comeau",
@@ -1095,14 +3257,14 @@
           "match_reason": "geo"
         }
       ],
-      "primary_station_id": "071203",
+      "primary_station_id": "HQ-S-1-3024",
       "station": {
-        "id": "071203",
-        "plan_eau": "Rivière aux Anglais",
-        "description": "À la décharge du lac Inconnu à Baie-Comeau",
-        "lat": 49.322778,
-        "lon": -68.157194,
-        "distance_km": 16.21
+        "id": "HQ-S-1-3024",
+        "plan_eau": "",
+        "description": "Manic-1 Centrale aval",
+        "lat": 49.1909,
+        "lon": -68.3289,
+        "distance_km": 6.6
       }
     },
     {
@@ -1110,9 +3272,77 @@
       "plan_nom": "Rivière au Loup Marin - La partie comprise entre la chute infranchissable du 13 km",
       "lat": 49.392222,
       "lon": -68.729167,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-11122",
+          "plan_eau": "",
+          "description": "Rivière Caouishtagamac",
+          "lat": 49.4469,
+          "lon": -68.6981,
+          "distance_km": 6.48,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3048",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale aval",
+          "lat": 49.5562,
+          "lon": -68.7218,
+          "distance_km": 18.24,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-101",
+          "plan_eau": "",
+          "description": "Outardes-3",
+          "lat": 49.5566,
+          "lon": -68.7233,
+          "distance_km": 18.28,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3047",
+          "plan_eau": "",
+          "description": "Outardes-3 Centrale amont",
+          "lat": 49.5591,
+          "lon": -68.7323,
+          "distance_km": 18.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10362",
+          "plan_eau": "",
+          "description": "Outardes-3 Barrage amont",
+          "lat": 49.56418,
+          "lon": -68.79542,
+          "distance_km": 19.71,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-11232",
+          "plan_eau": "",
+          "description": "Outardes-3 - Météo (CMGH)",
+          "lat": 49.57392,
+          "lon": -68.72851,
+          "distance_km": 20.2,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-11122",
+      "station": {
+        "id": "HQ-S-1-11122",
+        "plan_eau": "",
+        "description": "Rivière Caouishtagamac",
+        "lat": 49.4469,
+        "lon": -68.6981,
+        "distance_km": 6.48
+      }
     },
     {
       "plan_id": 1049,
@@ -1146,18 +3376,184 @@
       "plan_nom": "Rivière aux Outardes - La partie comprise entre une droite perpendiculaire au courant joignant les deux rives à partir du point 49°08'7,9\" N., 68°23'9,8\" O. et le côté aval du barrage Outardes-2, ainsi que tous ses tributaires.",
       "lat": 49.135528,
       "lon": -68.386056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 0.64,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 1.04,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 1.86,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 7.42,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 7.43,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 7.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 7.56,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 20.76,
+          "role": "both",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3046",
+      "station": {
+        "id": "HQ-S-1-3046",
+        "plan_eau": "",
+        "description": "Outardes-2 Centrale aval",
+        "lat": 49.1412,
+        "lon": -68.3845,
+        "distance_km": 0.64
+      }
     },
     {
       "plan_id": 3338,
       "plan_nom": "Rivière aux Rosiers Entre sa source et le côté aval du pont de la route 138",
       "lat": 49.060837,
       "lon": -68.584219,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 16.96,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 17.07,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 17.11,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 23.49,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 23.52,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 23.54,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 23.57,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-102",
+      "station": {
+        "id": "HQ-I-3-102",
+        "plan_eau": "",
+        "description": "Outardes-2",
+        "lat": 49.1446,
+        "lon": -68.3895,
+        "distance_km": 16.96
+      }
     },
     {
       "plan_id": 3378,
@@ -1200,9 +3596,27 @@
       "plan_nom": "Rivière Boucher - La partie comprise entre le lac du Décès",
       "lat": 49.628333,
       "lon": -69.3,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-12313",
+          "plan_eau": "",
+          "description": "Lac Cabituquimats (CMGF)",
+          "lat": 49.5735,
+          "lon": -69.5137,
+          "distance_km": 16.56,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-12313",
+      "station": {
+        "id": "HQ-S-1-12313",
+        "plan_eau": "",
+        "description": "Lac Cabituquimats (CMGF)",
+        "lat": 49.5735,
+        "lon": -69.5137,
+        "distance_km": 16.56
+      }
     },
     {
       "plan_id": 3320,
@@ -1218,9 +3632,47 @@
       "plan_nom": "Rivière de Papinachois Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°00'4,5\" N., 68°38'12,1\" O. , ainsi que tous ses tributaires.",
       "lat": 49.00125,
       "lon": -68.636694,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 24.05,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 24.08,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 24.3,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-102",
+      "station": {
+        "id": "HQ-I-3-102",
+        "plan_eau": "",
+        "description": "Outardes-2",
+        "lat": 49.1446,
+        "lon": -68.3895,
+        "distance_km": 24.05
+      }
     },
     {
       "plan_id": 1060,
@@ -1606,6 +4058,36 @@
           "distance_km": 10.65,
           "role": "both",
           "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3025",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale amont",
+          "lat": 49.3212,
+          "lon": -68.3455,
+          "distance_km": 22.8,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-109",
+          "plan_eau": "",
+          "description": "Manic-2",
+          "lat": 49.3211,
+          "lon": -68.3471,
+          "distance_km": 22.91,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3026",
+          "plan_eau": "",
+          "description": "Manic-2 Centrale aval",
+          "lat": 49.3205,
+          "lon": -68.3472,
+          "distance_km": 22.94,
+          "role": "both",
+          "match_reason": "geo"
         }
       ],
       "primary_station_id": "071203",
@@ -1749,9 +4231,87 @@
       "plan_nom": "Rivière Ragueneau Entre sa source et une droite perpendiculaire au courant joignant les deux rives à partir du point 49°04'24\" N., 68°31'33\" O. , ainsi que tous ses tributaires.",
       "lat": 49.073333,
       "lon": -68.525833,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 12.7,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 12.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 12.93,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 19.38,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 19.39,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 19.4,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 19.43,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-I-3-102",
+      "station": {
+        "id": "HQ-I-3-102",
+        "plan_eau": "",
+        "description": "Outardes-2",
+        "lat": 49.1446,
+        "lon": -68.3895,
+        "distance_km": 12.7
+      }
     },
     {
       "plan_id": 3374,
@@ -1785,9 +4345,87 @@
       "plan_nom": "Rivière Saint-Athanase Ouest Entre sa source et le côté amont du pont du chemin de la Baie Saint-Ludger",
       "lat": 49.094722,
       "lon": -68.310556,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 7.46,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 7.99,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 8.76,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 10.78,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 10.82,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 10.9,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 11.22,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3046",
+      "station": {
+        "id": "HQ-S-1-3046",
+        "plan_eau": "",
+        "description": "Outardes-2 Centrale aval",
+        "lat": 49.1412,
+        "lon": -68.3845,
+        "distance_km": 7.46
+      }
     },
     {
       "plan_id": 3354,
@@ -1821,9 +4459,87 @@
       "plan_nom": "Rivière Sans nom Entre sa source et une droite joignant le point 49°05'41\" N., 68°13'22\" O. au point 49°05'42\" N., 68°13'21\" O. , ainsi que tous ses tributaires.",
       "lat": 49.094722,
       "lon": -68.222778,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-3046",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale aval",
+          "lat": 49.1412,
+          "lon": -68.3845,
+          "distance_km": 12.85,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3024",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale aval",
+          "lat": 49.1909,
+          "lon": -68.3289,
+          "distance_km": 13.19,
+          "role": "both",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-110",
+          "plan_eau": "",
+          "description": "Manic-1",
+          "lat": 49.1912,
+          "lon": -68.3297,
+          "distance_km": 13.25,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3023",
+          "plan_eau": "",
+          "description": "Manic-1 Centrale amont",
+          "lat": 49.1919,
+          "lon": -68.3297,
+          "distance_km": 13.31,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-I-3-102",
+          "plan_eau": "",
+          "description": "Outardes-2",
+          "lat": 49.1446,
+          "lon": -68.3895,
+          "distance_km": 13.34,
+          "role": "flow",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-10862",
+          "plan_eau": "",
+          "description": "Manic-1 amont",
+          "lat": 49.194444,
+          "lon": -68.334167,
+          "distance_km": 13.73,
+          "role": "level",
+          "match_reason": "geo"
+        },
+        {
+          "id": "HQ-S-1-3045",
+          "plan_eau": "",
+          "description": "Outardes-2 Centrale amont",
+          "lat": 49.1514,
+          "lon": -68.3942,
+          "distance_km": 13.98,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-3046",
+      "station": {
+        "id": "HQ-S-1-3046",
+        "plan_eau": "",
+        "description": "Outardes-2 Centrale aval",
+        "lat": 49.1412,
+        "lon": -68.3845,
+        "distance_km": 12.85
+      }
     },
     {
       "plan_id": 3382,

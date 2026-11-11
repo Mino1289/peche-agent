@@ -3,7 +3,7 @@
     "zone_id": 33,
     "radius_km": 25.0,
     "nb_with_coords": 11,
-    "nb_station_matched": 0
+    "nb_station_matched": 1
   },
   "matches": [
     {
@@ -11,9 +11,27 @@
       "plan_nom": "Lac à la Croix",
       "lat": 51.264722,
       "lon": -70.218056,
-      "stations": [],
-      "primary_station_id": null,
-      "station": null
+      "stations": [
+        {
+          "id": "HQ-S-1-15325",
+          "plan_eau": "",
+          "description": "Lac à la Croix (CM2V)",
+          "lat": 51.3287,
+          "lon": -70.0794,
+          "distance_km": 11.98,
+          "role": "level",
+          "match_reason": "geo"
+        }
+      ],
+      "primary_station_id": "HQ-S-1-15325",
+      "station": {
+        "id": "HQ-S-1-15325",
+        "plan_eau": "",
+        "description": "Lac à la Croix (CM2V)",
+        "lat": 51.3287,
+        "lon": -70.0794,
+        "distance_km": 11.98
+      }
     },
     {
       "plan_id": 3098,
