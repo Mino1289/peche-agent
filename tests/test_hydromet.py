@@ -1,7 +1,12 @@
 """Tests pour peche.hydromet."""
 
+from unittest.mock import patch
+
+import pytest
+
 from peche.hydromet import (
-    _normalize_feature,
+    fetch_live_stations,
+    _normalize_station,
     _station_role,
     _water_names_match,
     haversine_km,
@@ -50,23 +55,32 @@ def test_search_stations_offline(mini_stations):
     assert len(hits) >= 1
 
 
-def test_normalize_feature_valid():
-    feature = {
-        "geometry": {"type": "Point", "coordinates": [-71.0, 48.5]},
-        "properties": {
-            "station": "TEST01",
-            "description": "Test",
-            "plan_deau": "Lac Test",
-        },
+def test_normalize_station_valid():
+    # Coordonnées EPSG:3857 de la station 061004 (lon ≈ -71.19, lat ≈ 48.4)
+    row = {
+        "id": 517,
+        "label": "061004",
+        "description": "Test",
+        "plan_deau": "Rivière Chicoutimi",
+        "geom_p": {"type": "Point", "coordinates": [-7925613.786008699, 6157914.152953517]},
+        "dern_valeur_niv": 151.012,
+        "dern_valeur_deb": 28.15,
+        "date_prise_valeur": "2026-11-13T23:00:00",
+        "refoule_niv": False,
+        "refoule_deb": False,
+        "etat_max": 1,
     }
-    out = _normalize_feature(feature)
+    out = _normalize_station(row)
     assert out is not None
-    assert out["station"] == "TEST01"
-    assert out["lat"] == 48.5
+    assert out["station"] == "061004"
+    assert out["url_vigilance"].endswith("/stations/517")
+    assert abs(out["lon"] - -71.19) < 0.01 and abs(out["lat"] - 48.4) < 0.1
+    assert out["niveau_m"] == 151.012
+    assert out["etat"] == "État normal"
 
 
-def test_normalize_feature_invalid_geometry():
-    assert _normalize_feature({"geometry": {"type": "LineString"}}) is None
+def test_normalize_station_invalid_geometry():
+    assert _normalize_station({"geom_p": {"type": "LineString"}}) is None
 
 
 def test_plan_station_list_geo_fallback_when_match_empty(monkeypatch):
@@ -85,3 +99,10 @@ def test_plan_station_list_geo_fallback_when_match_empty(monkeypatch):
     assert [s["station"] for s in stations] == ["HQ-S-1-2921"]
     assert stations[0]["role"] == "level"
     assert stations[0]["match_reason"] == "geo"
+
+
+def test_fetch_live_stations_rejects_wfs_exception_report():
+    xml = "<ows:ExceptionReport><ows:ExceptionText>Query error</ows:ExceptionText></ows:ExceptionReport>"
+    with patch("peche.hydromet.fetch_text", return_value=xml):
+        with pytest.raises(RuntimeError, match="inattendue"):
+            fetch_live_stations()

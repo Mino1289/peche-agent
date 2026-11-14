@@ -6,10 +6,10 @@ Offline (CLI) :
 
 Runtime (live) :
   fetch_live_stations() / get_live_station(station_id)
-    → Vigilance (WFS) ; points `HQ-…` depuis hydroquebec_points.json + refresh JSON HQ au clic.
+    → Vigilance (API) ; points `HQ-…` depuis hydroquebec_points.json + refresh JSON HQ au clic.
 
-Le WFS Vigilance accepte directement `srsName=EPSG:4326` ; pyproj est gardé
-dans `requirements.txt` comme filet de sécurité si l'API change.
+Conversion EPSG:3857 → WGS84 faite à la main ; pyproj reste dans
+`requirements.txt` comme filet de sécurité si l'API change.
 """
 
 from __future__ import annotations
@@ -26,11 +26,9 @@ from peche.hydroquebec_open import fetch_hydroquebec_open_stations, get_hydroque
 from peche.reglements.sync import DATA_DIR
 from peche.reglements.zones import ZONES
 
-VIGILANCE_WFS = (
-    "https://geoegl.msp.gouv.qc.ca/apis/mapserver-vigilance/ws/vigilance.fcgi"
-    "?service=wfs&version=1.1.0&request=GetFeature"
-    "&typename=stations_igo2_public&outputformat=geojson&srsName=EPSG:4326"
-)
+# API PostgREST du site Vigilance (l'ancien WFS geoegl est en panne SQL). `label` = ID station officiel.
+VIGILANCE_STATIONS_API = "https://inedit.geo.securite.gouv.qc.ca/station_details_metadata_api"
+VIGILANCE_STATION_PAGE = "https://vigilance.geo.securite.gouv.qc.ca/stations/{id}"
 
 HYDROMET_DIR = DATA_DIR / "hydromet"
 STATIONS_PATH = HYDROMET_DIR / "stations.json"
@@ -54,41 +52,47 @@ def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     return 2 * r * math.asin(math.sqrt(a))
 
 
-def _normalize_feature(feature: dict) -> dict | None:
-    """Aplati un Feature WFS Vigilance en dict station prête à stocker."""
-    geom = feature.get("geometry") or {}
+_ETAT_LABELS = {1: "État normal", 0: "État inconnu"}
+
+
+def _mercator_to_lonlat(x: float, y: float) -> tuple[float, float]:
+    """EPSG:3857 (Web Mercator, mètres) → (lon, lat) WGS84 en degrés."""
+    r = 6378137.0
+    return math.degrees(x / r), math.degrees(2 * math.atan(math.exp(y / r)) - math.pi / 2)
+
+
+def _normalize_station(row: dict) -> dict | None:
+    """Ligne de l'API Vigilance `station_details_metadata_api` → dict station prête à stocker."""
+    geom = row.get("geom_p") or {}
     coords = geom.get("coordinates")
     if geom.get("type") != "Point" or not coords or len(coords) < 2:
         return None
-    lon, lat = float(coords[0]), float(coords[1])
-    p = feature.get("properties") or {}
+    lon, lat = _mercator_to_lonlat(float(coords[0]), float(coords[1]))
     return {
-        "station": str(p.get("station", "")),
-        "description": p.get("description") or "",
-        "plan_eau": p.get("plan_deau") or "",
-        "fournisseur": p.get("fournisseur_nom") or "",
-        "fournisseur_url": p.get("fournisseur_url") or "",
-        "url_vigilance": p.get("url_vigilance") or "",
-        "etat": p.get("etat") or "",
-        "previsions": p.get("previsions") or "",
-        "refoulement": p.get("refoulement") or "",
-        "niveau_m": p.get("dern_valeur_niv"),
-        "debit_m3s": p.get("dern_valeur_deb"),
-        "observed_at": p.get("dern_date_prise_valeur_utc") or None,
+        "station": str(row.get("label", "")),
+        "description": row.get("description") or "",
+        "plan_eau": row.get("plan_deau") or "",
+        "fournisseur": row.get("fournisseur_nom") or "",
+        "fournisseur_url": row.get("fournisseur_url") or "",
+        "url_vigilance": VIGILANCE_STATION_PAGE.format(id=row.get("id")),
+        # etat_max=1 → normal, 0 → inconnu, null → désactivée (vérifié contre l'ancien champ WFS)
+        "etat": _ETAT_LABELS.get(row.get("etat_max"), "Désactivée"),
+        "previsions": "",
+        "refoulement": "oui" if (row.get("refoule_niv") or row.get("refoule_deb")) else "",
+        "niveau_m": row.get("dern_valeur_niv"),
+        "debit_m3s": row.get("dern_valeur_deb"),
+        "observed_at": row.get("date_prise_valeur") or None,
         "lat": round(lat, 6),
         "lon": round(lon, 6),
     }
 
 
 def fetch_live_stations(timeout: float = 30.0) -> list[dict]:
-    """Vigilance WFS + points Hydro-Québec issus du dernier `sync-stations` (si cache local)."""
-    raw = fetch_text(VIGILANCE_WFS, timeout=timeout)
-    data = json.loads(raw)
-    out = []
-    for feature in data.get("features", []):
-        normalized = _normalize_feature(feature)
-        if normalized:
-            out.append(normalized)
+    """Vigilance API + points Hydro-Québec issus du dernier `sync-stations` (si cache local)."""
+    raw = fetch_text(VIGILANCE_STATIONS_API, timeout=timeout)
+    if not raw.lstrip().startswith("["):
+        raise RuntimeError(f"Vigilance API: réponse inattendue ({raw.strip()[:300]})")
+    out = [s for s in (_normalize_station(row) for row in json.loads(raw)) if s]
     if HQ_POINTS_PATH.exists():
         try:
             cached = json.loads(HQ_POINTS_PATH.read_text(encoding="utf-8")).get("stations")
@@ -137,9 +141,9 @@ def save_stations(stations: list[dict], path: Path = STATIONS_PATH) -> Path:
             existing.add(sid)
     payload = {
         "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "source": VIGILANCE_WFS,
+        "source": VIGILANCE_STATIONS_API,
         "sources_note": (
-            "MSP Vigilance WFS + Hydro-Québec open JSON (hydroquebec_points.json)"
+            "Vigilance API (inedit) + Hydro-Québec open JSON (hydroquebec_points.json)"
             if hq
             else None
         ),
@@ -327,10 +331,11 @@ def search_stations_offline(
 
 
 def cmd_sync_stations(args: argparse.Namespace) -> int:
-    print(f"Téléchargement Vigilance WFS ({VIGILANCE_WFS[:80]}…)")
+    print(f"Téléchargement Vigilance API ({VIGILANCE_STATIONS_API})")
     stations = fetch_live_stations(timeout=args.timeout)
     path = save_stations(stations, args.out)
-    print(f"  {len(stations)} stations -> {path}")
+    total = json.loads(path.read_text(encoding="utf-8"))["nb_stations"]
+    print(f"  {total} stations -> {path}")
     return 0
 
 
