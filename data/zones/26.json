@@ -4,7 +4,7 @@
     "zone_nom": "Zone 23 nord",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:53:48+00:00",
+    "fetched_at": "2026-11-14T01:09:23+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26",
     "nb_endroits_total": 84,
     "nb_endroits_avec_id": 84
@@ -7817,11 +7817,11 @@
     },
     {
       "id": 1825,
-      "nom": "Rivière à la Baleine entre une ligne reliant le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
+      "nom": "Rivière à la Baleine La partie comprise entre le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1825&id_saisn=220",
       "segments": [
         {
-          "segment": "entre une ligne reliant le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
+          "segment": "La partie comprise entre le point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe et le point 56°37'24\" N., 66°12'00\" O. à l'embouchure du lac Ninawawe.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -7841,11 +7841,11 @@
     },
     {
       "id": 1824,
-      "nom": "Rivière à la Baleine entre une ligne reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. au point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe.",
+      "nom": "Rivière à la Baleine La partie comprise entre une droite reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. et le point 56°50'22'' N., 66°29'36'' O. en aval du lac Ninawawe",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1824&id_saisn=220",
       "segments": [
         {
-          "segment": "entre une ligne reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. au point 56°50'22\" N., 66°29'36\" O. en aval du lac Ninawawe.",
+          "segment": "La partie comprise entre une droite reliant les points 58°00'00\" N., 67°43'33\" O. et 58°00'00\" N., 67°42'18\" O. et le point 56°50'22'' N., 66°29'36'' O. en aval du lac Ninawawe",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -8350,11 +8350,11 @@
     },
     {
       "id": 1827,
-      "nom": "Rivière aux Feuilles entre une ligne reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une ligne reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
+      "nom": "Rivière aux Feuilles La partie comprise entre une droite reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une droite reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1827&id_saisn=220",
       "segments": [
         {
-          "segment": "entre une ligne reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une ligne reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
+          "segment": "La partie comprise entre une droite reliant les points 58°45'30\" N., 70°08'42\" O. et 58°46'56\" N., 70°07'57\" O. et une droite reliant les points 57°23'36\" N., 74°30'00\" O. et 57°25'34\" N., 74°30'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -8430,12 +8430,12 @@
       ]
     },
     {
-      "id": 1844,
-      "nom": "Rivière aux Mélèzes entre le point 57°12'00\" N., 71°38'00\" O. et une ligne reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
-      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1844&id_saisn=220",
+      "id": 1842,
+      "nom": "Rivière aux Mélèzes a) La partie comprise entre une droite reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et une droite reliant les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1842&id_saisn=220",
       "segments": [
         {
-          "segment": "entre le point 57°12'00\" N., 71°38'00\" O. et une ligne reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
+          "segment": "a) La partie comprise entre une droite reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et une droite reliant les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -8455,11 +8455,11 @@
     },
     {
       "id": 1843,
-      "nom": "Rivière aux Mélèzes entre les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
+      "nom": "Rivière aux Mélèzes b) La partie comprise entre une droite reliant les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et une droite reliant les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1843&id_saisn=220",
       "segments": [
         {
-          "segment": "entre les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
+          "segment": "b) La partie comprise entre une droite reliant les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O. et une droite reliant les points 57°12'10\" N., 71°38'02\" O. et 57°12'52\" N., 71°38'07\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -8587,12 +8587,12 @@
       ]
     },
     {
-      "id": 1842,
-      "nom": "Rivière aux Mélèzes entre une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
-      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1842&id_saisn=220",
+      "id": 1844,
+      "nom": "Rivière aux Mélèzes c) La partie comprise entre le point 57°12'00\" N., 71°38'00\" O. et une droite reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1844&id_saisn=220",
       "segments": [
         {
-          "segment": "entre une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O. et les points 57°23'11\" N., 70°39'00\" O. et 57°23'32\" N., 70°38'59\" O.",
+          "segment": "c) La partie comprise entre le point 57°12'00\" N., 71°38'00\" O. et une droite reliant les points 56°52'30\" N., 72°50'00\" O. et 56°52'20\" N., 72°50'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -8935,12 +8935,12 @@
       ]
     },
     {
-      "id": 1836,
-      "nom": "Rivière de Pas entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
-      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1836&id_saisn=220",
+      "id": 1835,
+      "nom": "Rivière de Pas a) La partie comprise entre sa confluence avec la rivière George, délimitée par une droite reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1835&id_saisn=220",
       "segments": [
         {
-          "segment": "entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
+          "segment": "a) La partie comprise entre sa confluence avec la rivière George, délimitée par une droite reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9068,12 +9068,12 @@
       ]
     },
     {
-      "id": 1835,
-      "nom": "Rivière de Pas entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
-      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1835&id_saisn=220",
+      "id": 1836,
+      "nom": "Rivière de Pas b) La partie comprise entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1836&id_saisn=220",
       "segments": [
         {
-          "segment": "entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 55°53'04\" N., 64°45'54\" O. et 55°53'04\" N., 64°45'18\" O. et le point 55°49'31\" N., 65°03'18\" O.",
+          "segment": "b) La partie comprise entre le point 55°28'30\" N., 65°07'00\" O. et le point 55°09'02\" N., 65°37'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9202,11 +9202,11 @@
     },
     {
       "id": 1848,
-      "nom": "Rivière Delay entre son point de confluence avec la rivière Du Gué délimité par une ligne reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une ligne reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
+      "nom": "Rivière Delay La partie comprise entre sa confluence avec la rivière Du Gué délimitée par une droite reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une droite reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1848&id_saisn=220",
       "segments": [
         {
-          "segment": "entre son point de confluence avec la rivière Du Gué délimité par une ligne reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une ligne reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
+          "segment": "La partie comprise entre sa confluence avec la rivière Du Gué délimitée par une droite reliant les points 56°56'42\" N., 71°28'18\" O. et 56°56'24\" N., 71°28'18\" O. et une droite reliant les points 56°14'59\" N., 70°50'19\" O. et 56°14'47\" N., 70°50'35\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9335,11 +9335,11 @@
     },
     {
       "id": 1846,
-      "nom": "Rivière du Gué entre son point de confluence avec la rivière aux Mélèzes délimité par une ligne reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une ligne reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
+      "nom": "Rivière du Gué La partie comprise entre sa confluence avec la rivière aux Mélèzes délimitée par une droite reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une droite reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1846&id_saisn=220",
       "segments": [
         {
-          "segment": "entre son point de confluence avec la rivière aux Mélèzes délimité par une ligne reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une ligne reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
+          "segment": "La partie comprise entre sa confluence avec la rivière aux Mélèzes délimitée par une droite reliant les points 57°21'00\" N., 70°43'54\" O. et 57°21'00\" N., 70°45'24\" O. et une droite reliant les points 56°37'06\" N., 72°20'00\" O. et 56°37'10\" N., 72°20'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9580,11 +9580,11 @@
     },
     {
       "id": 1838,
-      "nom": "Rivière Ford entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
+      "nom": "Rivière Ford La partie comprise entre sa confluence avec la rivière George, délimitée par une droite reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1838&id_saisn=220",
       "segments": [
         {
-          "segment": "entre son point de confluence avec la rivière George, délimité par une ligne reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
+          "segment": "La partie comprise entre sa confluence avec la rivière George, délimitée par une droite reliant les points 58°10'44\" N., 65°47'00\" O. et 58°10'34\" N., 65°47'00\" O. et le point 58°08'56\" N., 65°35'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9708,11 +9708,11 @@
     },
     {
       "id": 1831,
-      "nom": "Rivière George * entre une ligne reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
+      "nom": "Rivière George * entre une droite reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une droite reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1831&id_saisn=220",
       "segments": [
         {
-          "segment": "* entre une ligne reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
+          "segment": "* entre une droite reliant les points 58°41'59\" N., 66°03'00\" O. et 58°39'11\" N., 66°02'58\" O. et la limite nord de la zone 24 délimitée par une droite reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. * entre la limite sud de la zone 24 délimitée par une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O. et l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. * entre l'extrémité Nord de l'île située au confluent des rivières Georges et de Pas au point 55°53'04\" N., 64°45'38\" O. et le point 55°17'00\" N., 64°29'52\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9841,11 +9841,11 @@
     },
     {
       "id": 2315,
-      "nom": "Rivière Goudalie la partie de la rivière comprise entre son point de confluence avec la rivière aux Feuilles, délimité par une ligne reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une ligne reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
+      "nom": "Rivière Goudalie La partie de la rivière comprise entre sa confluence avec la rivière aux Feuilles, délimitée par une droite reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une droite reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=2315&id_saisn=220",
       "segments": [
         {
-          "segment": "la partie de la rivière comprise entre son point de confluence avec la rivière aux Feuilles, délimité par une ligne reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une ligne reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
+          "segment": "La partie de la rivière comprise entre sa confluence avec la rivière aux Feuilles, délimitée par une droite reliant les points 57°56'18\" N., 72°58'32\" O. et 57°55'44\" N., 72°58'44\" O. , et une droite reliant les points 58°02'42\" N., 73°19'00\" O. et 58°02'18\" N., 73°19'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -9922,11 +9922,11 @@
     },
     {
       "id": 1840,
-      "nom": "Rivière Koksoak entre une ligne reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
+      "nom": "Rivière Koksoak La partie comprise entre une droite reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une droite reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1840&id_saisn=220",
       "segments": [
         {
-          "segment": "entre une ligne reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une ligne reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
+          "segment": "La partie comprise entre une droite reliant les points 58°32'59\" N., 68°11'08\" O. et 58°31'50\" N., 68°07'32\" O. et une droite reliant les points 57°41'24\" N., 69°27'00\" O. et 57°41'00\" N., 69°27'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -10307,11 +10307,11 @@
     },
     {
       "id": 1850,
-      "nom": "Rivière Maricourt entre son point de confluence avec la rivière Delay délimité par une ligne reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
+      "nom": "Rivière Maricourt La partie comprise entre sa confluence avec la rivière Delay délimitée par une droite reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=26&id_endro=1850&id_saisn=220",
       "segments": [
         {
-          "segment": "entre son point de confluence avec la rivière Delay délimité par une ligne reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
+          "segment": "La partie comprise entre sa confluence avec la rivière Delay délimitée par une droite reliant les points 56°31'38\" N., 71°04'40\" O. et 56°31'42\" N., 71°04'40\" O. et le point 56°33'04\" N., 70°55'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",

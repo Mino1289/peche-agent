@@ -582,8 +582,8 @@
           "id": "392",
           "plan_eau": "Rivière du Nord",
           "description": "Au pont de la route 148 à Lachute",
-          "lat": 45.655691,
-          "lon": -74.340323,
+          "lat": 45.65569,
+          "lon": -74.340326,
           "distance_km": 14.02,
           "role": "level",
           "match_reason": "geo"
@@ -664,8 +664,8 @@
         "id": "392",
         "plan_eau": "Rivière du Nord",
         "description": "Au pont de la route 148 à Lachute",
-        "lat": 45.655691,
-        "lon": -74.340323,
+        "lat": 45.65569,
+        "lon": -74.340326,
         "distance_km": 14.02
       }
     },
@@ -1383,8 +1383,8 @@
           "id": "392",
           "plan_eau": "Rivière du Nord",
           "description": "Au pont de la route 148 à Lachute",
-          "lat": 45.655691,
-          "lon": -74.340323,
+          "lat": 45.65569,
+          "lon": -74.340326,
           "distance_km": 28.76,
           "role": "level",
           "match_reason": "name"

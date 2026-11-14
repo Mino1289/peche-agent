@@ -4,7 +4,7 @@
     "zone_nom": "Zone 13 ouest",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:43:27+00:00",
+    "fetched_at": "2026-11-14T00:59:48+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=14",
     "nb_endroits_total": 78,
     "nb_endroits_avec_id": 78
@@ -2793,6 +2793,18 @@
                   "note": ""
                 }
               ]
+            },
+            {
+              "periode": "Période Du 1 er mars 2027 au 31 mars 2027 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
             }
           ]
         }
@@ -2891,6 +2903,18 @@
             },
             {
               "periode": "Période Du 23 avril 2026 au 15 septembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "même que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er mars 2027 au 31 mars 2027 - Autres espèces",
               "especes": [
                 {
                   "espece": "Autres espèces",

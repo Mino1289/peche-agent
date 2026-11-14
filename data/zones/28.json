@@ -4,7 +4,7 @@
     "zone_nom": "Zone 24",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:55:14+00:00",
+    "fetched_at": "2026-11-14T01:10:48+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=28",
     "nb_endroits_total": 2,
     "nb_endroits_avec_id": 2
@@ -97,11 +97,11 @@
   "plans_eau": [
     {
       "id": 1153,
-      "nom": "Rivière de Pas la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+      "nom": "Rivière de Pas La partie comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=28&id_endro=1153&id_saisn=220",
       "segments": [
         {
-          "segment": "la partie de cette rivière comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
+          "segment": "La partie comprise dans la zone 24 entre les points 55°49'13\" N., 65°03'13\" O. et 55°28'30\" N., 65°07'00\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -230,11 +230,11 @@
     },
     {
       "id": 1151,
-      "nom": "Rivière George la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+      "nom": "Rivière George La partie comprise dans la zone 24 entre une droite reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une droite reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=28&id_endro=1151&id_saisn=220",
       "segments": [
         {
-          "segment": "la partie de cette rivière comprise dans la zone 24 entre une ligne reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une ligne reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
+          "segment": "La partie comprise dans la zone 24 entre une droite reliant les points 56°32'07\" N., 64°43'58\" O. et 56°30'57\" N., 64°45'41\" O. et une droite reliant les points 56°02'08\" N., 64°44'28\" O. et 56°01'52\" N., 64°44'54\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",

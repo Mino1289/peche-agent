@@ -4,7 +4,7 @@
     "zone_nom": "Zone 17",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:45:57+00:00",
+    "fetched_at": "2026-11-14T01:02:09+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=18",
     "nb_endroits_total": 32,
     "nb_endroits_avec_id": 32
@@ -2163,11 +2163,11 @@
     },
     {
       "id": 905,
-      "nom": "Rivière de l'Aigle entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O. .",
+      "nom": "Rivière de l'Aigle entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=18&id_endro=905&id_saisn=220",
       "segments": [
         {
-          "segment": "entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O. .",
+          "segment": "entre son embouchure dans le lac Doda et une droite située à 7 km en amont reliant les points 49°23'37\" N., 75°07'44\" O. et 49°23'27\" N., 75°07'27\" O.",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 23 avril 2026",

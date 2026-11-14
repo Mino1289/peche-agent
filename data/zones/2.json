@@ -4,10 +4,10 @@
     "zone_nom": "Zone 2",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:34:29+00:00",
+    "fetched_at": "2026-11-14T00:50:55+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=2",
-    "nb_endroits_total": 62,
-    "nb_endroits_avec_id": 62
+    "nb_endroits_total": 61,
+    "nb_endroits_avec_id": 61
   },
   "regles_generales": [
     {
@@ -1340,30 +1340,6 @@
                 {
                   "espece": "Toutes les espèces",
                   "limite_prise": "mêmes que la zone",
-                  "limite_longueur": "",
-                  "engin": "",
-                  "note": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2326,
-      "nom": "Réserve Faunique de Duchénier",
-      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=2&id_endro=2326&id_saisn=220",
-      "segments": [
-        {
-          "segment": "Réserve Faunique de Duchénier",
-          "periodes": [
-            {
-              "periode": "Période Du 15 mai 2026 au 10 septembre 2026",
-              "especes": [
-                {
-                  "espece": "Toutes les espèces",
-                  "limite_prise": "même que la zone",
                   "limite_longueur": "",
                   "engin": "",
                   "note": ""

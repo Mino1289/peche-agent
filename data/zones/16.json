@@ -4,7 +4,7 @@
     "zone_nom": "Zone 15",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:45:24+00:00",
+    "fetched_at": "2026-11-14T01:01:41+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=16",
     "nb_endroits_total": 22,
     "nb_endroits_avec_id": 22
@@ -248,7 +248,7 @@
                 },
                 {
                   "espece": "Touladi, moulac et lacmou",
-                  "limite_prise": "2 en tout",
+                  "limite_prise": "1 en tout",
                   "limite_longueur": "55 cm et plus",
                   "engin": "Pêche à la ligne seulement",
                   "note": ""
@@ -525,7 +525,7 @@
                 },
                 {
                   "espece": "Touladi, moulac et lacmou",
-                  "limite_prise": "2 en tout",
+                  "limite_prise": "1 en tout",
                   "limite_longueur": "55 cm et plus",
                   "engin": "Pêche à la ligne seulement",
                   "note": ""
@@ -796,7 +796,7 @@
               "especes": [
                 {
                   "espece": "Touladi, moulac et lacmou",
-                  "limite_prise": "2 en tout",
+                  "limite_prise": "1 en tout",
                   "limite_longueur": "55 cm et plus",
                   "engin": "Pêche à la ligne seulement",
                   "note": ""

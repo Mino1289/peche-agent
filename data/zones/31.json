@@ -4,7 +4,7 @@
     "zone_nom": "Zone 27",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:56:28+00:00",
+    "fetched_at": "2026-11-14T01:11:48+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31",
     "nb_endroits_total": 67,
     "nb_endroits_avec_id": 66
@@ -788,6 +788,161 @@
                   "limite_longueur": "",
                   "engin": "Pêche à la ligne seulement",
                   "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1990,
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier a) entre le côté aval du pont du chemin de fer du CN situé au point 46°40'18'' N., 71°44'47'' O. et le pont du Fort-Jacques-Cartier situé au point 46°40'43\" N., 71°45'05\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1990&id_saisn=220",
+      "segments": [
+        {
+          "segment": "a) entre le côté aval du pont du chemin de fer du CN situé au point 46°40'18'' N., 71°44'47'' O. et le pont du Fort-Jacques-Cartier situé au point 46°40'43\" N., 71°45'05\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1991,
+      "nom": "Eaux de la rivière Jacques-Cartier Rivière Jacques-Cartier b) entre le pont Fort-Jacques-Cartier situé au point 46°40'43\" N., 71°45'05\" O. et le barrage de Donnacona situé au point 46°40'39'' N., 71°44'46'' O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=1991&id_saisn=220",
+      "segments": [
+        {
+          "segment": "b) entre le pont Fort-Jacques-Cartier situé au point 46°40'43\" N., 71°45'05\" O. et le barrage de Donnacona situé au point 46°40'39'' N., 71°44'46'' O.",
+          "periodes": [
+            {
+              "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
+              "especes": [
+                {
+                  "espece": "Bar rayé",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                },
+                {
+                  "espece": "Saumon atlantique",
+                  "limite_prise": "Pêche interdite",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 10 mai 2026 au 9 juin 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "La pêche à toutes les espèces est interdite du 10 juin au 31 août."
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "La pêche à toutes les espèces est interdite du 10 juin au 31 août."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er septembre 2026 au 30 novembre 2026",
+              "especes": [
+                {
+                  "espece": "Brochets",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "La pêche à toutes les espèces est interdite du 10 juin au 31 août."
+                },
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "La pêche à toutes les espèces est interdite du 10 juin au 31 août."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 23 avril 2026 au 9 juin 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "La pêche à toutes les espèces est interdite du 10 juin au 31 août."
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 1 er septembre 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": "La pêche à toutes les espèces est interdite du 10 juin au 31 août."
                 }
               ]
             }
@@ -2134,11 +2289,11 @@
     },
     {
       "id": 12821,
-      "nom": "Rivière du Cabanage - La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+      "nom": "Rivière du Cabanage - La partie comprise entre son embouchure dans la rivière Petit Saguenay 48°13'04'' N., 70°04'44'' O. et un point en aval d'une chute ( 48°12'53'' N., 70°4'41'' O. )",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=31&id_endro=12821&id_saisn=220",
       "segments": [
         {
-          "segment": "- La partie comprise entre l'aval d'une chute située au point 48°12'53'' N., 70°04'41'' O. et une droite perpendiculaire située à l'embouchure du cours d'eau au point 48°13'04'' N., 70°04'44'' O.",
+          "segment": "- La partie comprise entre son embouchure dans la rivière Petit Saguenay 48°13'04'' N., 70°04'44'' O. et un point en aval d'une chute ( 48°12'53'' N., 70°4'41'' O. )",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",

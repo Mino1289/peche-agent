@@ -291,8 +291,8 @@
           "id": "478",
           "plan_eau": "Rivière des Outaouais",
           "description": "À 3 km en amont de l'embouchure de la rivière Blanche à Gatineau",
-          "lat": 45.4819,
-          "lon": -75.576303,
+          "lat": 45.481896,
+          "lon": -75.576304,
           "distance_km": 13.59,
           "role": "level",
           "match_reason": "geo"

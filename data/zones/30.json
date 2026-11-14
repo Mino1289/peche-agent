@@ -4,7 +4,7 @@
     "zone_nom": "Zone 26",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:55:26+00:00",
+    "fetched_at": "2026-11-14T01:10:57+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30",
     "nb_endroits_total": 56,
     "nb_endroits_avec_id": 56
@@ -1441,11 +1441,11 @@
     },
     {
       "id": 10480,
-      "nom": "Lac Édouard ( 47°36'44\" N., 72°21'43\" O. ) excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ).La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
+      "nom": "Lac Édouard ( 47°36'44\" N., 72°21'43\" O. ) excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ). La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=30&id_endro=10480&id_saisn=220",
       "segments": [
         {
-          "segment": "excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ).La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
+          "segment": "excluant La Grande Baie ( 47°30'56\" N., 72°23'16\" O. ). La partie au nord d'une droite reliant les points 47°32'18\" N., 72°22'55\" O. en rive ouest et 47°32'17'' N., 72°22'54'' O. en rive est.",
           "periodes": [
             {
               "periode": "Période Du 23 avril 2026 au 30 novembre 2026",

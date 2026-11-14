@@ -2822,9 +2822,9 @@
           "match_reason": "geo"
         },
         {
-          "id": "HQ-S-1-7724",
+          "id": "HQ-S-1-14543",
           "plan_eau": "",
-          "description": "Réservoir Baskatong (CMKG)",
+          "description": "Barrage Mercier (CM3L)",
           "lat": 46.718,
           "lon": -75.9868,
           "distance_km": 24.68,
@@ -2832,9 +2832,9 @@
           "match_reason": "geo"
         },
         {
-          "id": "HQ-S-1-14543",
+          "id": "HQ-S-1-7724",
           "plan_eau": "",
-          "description": "Barrage Mercier (CM3L)",
+          "description": "Réservoir Baskatong (CMKG)",
           "lat": 46.718,
           "lon": -75.9868,
           "distance_km": 24.68,
@@ -3983,8 +3983,8 @@
           "id": "478",
           "plan_eau": "Rivière des Outaouais",
           "description": "À 3 km en amont de l'embouchure de la rivière Blanche à Gatineau",
-          "lat": 45.4819,
-          "lon": -75.576303,
+          "lat": 45.481896,
+          "lon": -75.576304,
           "distance_km": 23.33,
           "role": "level",
           "match_reason": "geo"
@@ -4727,9 +4727,9 @@
           "match_reason": "geo"
         },
         {
-          "id": "HQ-S-1-7724",
+          "id": "HQ-S-1-14543",
           "plan_eau": "",
-          "description": "Réservoir Baskatong (CMKG)",
+          "description": "Barrage Mercier (CM3L)",
           "lat": 46.718,
           "lon": -75.9868,
           "distance_km": 11.47,
@@ -4737,9 +4737,9 @@
           "match_reason": "geo"
         },
         {
-          "id": "HQ-S-1-14543",
+          "id": "HQ-S-1-7724",
           "plan_eau": "",
-          "description": "Barrage Mercier (CM3L)",
+          "description": "Réservoir Baskatong (CMKG)",
           "lat": 46.718,
           "lon": -75.9868,
           "distance_km": 11.47,
@@ -5172,8 +5172,8 @@
           "id": "478",
           "plan_eau": "Rivière des Outaouais",
           "description": "À 3 km en amont de l'embouchure de la rivière Blanche à Gatineau",
-          "lat": 45.4819,
-          "lon": -75.576303,
+          "lat": 45.481896,
+          "lon": -75.576304,
           "distance_km": 20.24,
           "role": "level",
           "match_reason": "geo"

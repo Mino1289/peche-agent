@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "harvested_at": "2026-11-11T01:55:47Z",
+  "harvested_at": "2026-11-14T00:48:04Z",
   "basemaps": [
     {
       "id": "fond_quebec",
@@ -183,7 +183,7 @@
         },
         {
           "id": "chasse_interdite",
-          "title": "Chasse interdite",
+          "title": "Chasse/Pêche interdite",
           "group": "faune",
           "source_type": "wfs",
           "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows",
@@ -716,6 +716,31 @@
           "extra": {
             "proxy": true
           }
+        },
+        {
+          "id": "stf_unites_amenagement",
+          "title": "STF — unités d'aménagement",
+          "group": "territoire",
+          "source_type": "arcgis",
+          "url": "https://servicescarto.mrnf.gouv.qc.ca/pes/rest/services/Forets/STF_WMS/MapServer",
+          "layer_name": "44",
+          "curated": true,
+          "filter_spec": {
+            "kind": "none",
+            "attr": null,
+            "options": [],
+            "multi": true
+          },
+          "legend_url": null,
+          "min_zoom": 9,
+          "max_zoom": null,
+          "opacity": 1.0,
+          "visible_default": false,
+          "identify": true,
+          "attribution": "MRNF STF",
+          "queryable": true,
+          "color": "#0f766e",
+          "extra": {}
         }
       ]
     }
@@ -740,6 +765,7 @@
     "lidar_courbes_1m",
     "lidar_courbes_10m",
     "aq_reseau",
-    "aq_forestier"
+    "aq_forestier",
+    "stf_unites_amenagement"
   ]
 }

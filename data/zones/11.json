@@ -4,10 +4,10 @@
     "zone_nom": "Zone 11",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:41:32+00:00",
+    "fetched_at": "2026-11-14T00:57:53+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=11",
-    "nb_endroits_total": 79,
-    "nb_endroits_avec_id": 79
+    "nb_endroits_total": 80,
+    "nb_endroits_avec_id": 80
   },
   "regles_generales": [
     {
@@ -9095,6 +9095,70 @@
             },
             {
               "periode": "Période Du 15 mai 2026 au 30 novembre 2026 - Autres espèces",
+              "especes": [
+                {
+                  "espece": "Autres espèces",
+                  "limite_prise": "mêmes que la zone",
+                  "limite_longueur": "",
+                  "engin": "",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13041,
+      "nom": "Rivière Petawaga (réservoir Baskatong) - La baie délimitée au Nord par l'embouchure du cours d'eau sans nom reliant le réservoir au lac Usher ( 46°54'49,69\" N., 75°54'36,07\" O. ) et par l'embouchure du ruisseau Demerest ( 46°54'49,11\" N., 75°54'24,36\" O. ), à l'est dans la rivière Petawaga jusqu'à l\"embouchure du cours d'eau sans nom reliant le réservoir au lac Penny) et au sud par une droite reliant les points 46°51'46,73\" N., 75°53'52,38\" O. , 46°51'37,69\" N., 75°53'56,21\" O. et 46°52'5,46\"N., 75°52'21,09\" O.",
+      "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=11&id_endro=13041&id_saisn=220",
+      "segments": [
+        {
+          "segment": "- La baie délimitée au Nord par l'embouchure du cours d'eau sans nom reliant le réservoir au lac Usher ( 46°54'49,69\" N., 75°54'36,07\" O. ) et par l'embouchure du ruisseau Demerest ( 46°54'49,11\" N., 75°54'24,36\" O. ), à l'est dans la rivière Petawaga jusqu'à l\"embouchure du cours d'eau sans nom reliant le réservoir au lac Penny) et au sud par une droite reliant les points 46°51'46,73\" N., 75°53'52,38\" O. , 46°51'37,69\" N., 75°53'56,21\" O. et 46°52'5,46\"N., 75°52'21,09\" O.",
+          "periodes": [
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026",
+              "especes": [
+                {
+                  "espece": "Doré jaune et doré noir",
+                  "limite_prise": "6 en tout",
+                  "limite_longueur": "Doré jaune: 37 cm à 53 cm inclusivement Doré noir: Aucune limite de longueur",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Esturgeons",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Maskinongé et maskinongé tigré",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Ouananiche",
+                  "limite_prise": "3",
+                  "limite_longueur": "",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                },
+                {
+                  "espece": "Touladi, moulac et lacmou",
+                  "limite_prise": "1 en tout",
+                  "limite_longueur": "55 cm et plus",
+                  "engin": "Pêche à la ligne seulement",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "periode": "Période Du 15 juin 2026 au 15 septembre 2026 - Autres espèces",
               "especes": [
                 {
                   "espece": "Autres espèces",

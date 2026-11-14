@@ -5,9 +5,25 @@ cd "$(dirname "$0")/.."
 
 PYTHON="${PYTHON:-python3}"
 
-echo "==> Suppression des artefacts dérivés…"
-rm -rf data/locations data/hydromet/matches
-rm -f data/search_index.json data/hydromet/stations.json data/hydromet/hydroquebec_points.json
+# Artefacts régénérés ci-dessous. En cas d'échec, ils sont restaurés depuis la sauvegarde.
+ARTEFACTS=(data/locations data/hydromet/matches data/search_index.json data/hydromet/stations.json data/hydromet/hydroquebec_points.json)
+BACKUP="$(mktemp -d data/.refresh-backup.XXXXXX)"
+restore_on_error() {
+  local rc=$?
+  if [ "$rc" -ne 0 ]; then
+    echo "==> Échec (code $rc) : restauration des artefacts précédents…"
+    for p in "${ARTEFACTS[@]}"; do
+      if [ -e "$BACKUP/$p" ]; then rm -rf "$p"; mv "$BACKUP/$p" "$p"; fi
+    done
+  fi
+  rm -rf "$BACKUP"
+}
+trap restore_on_error EXIT
+
+echo "==> Suppression des artefacts dérivés (sauvegardés)…"
+for p in "${ARTEFACTS[@]}"; do
+  if [ -e "$p" ]; then mkdir -p "$BACKUP/$(dirname "$p")"; mv "$p" "$BACKUP/$p"; fi
+done
 
 echo "==> Extraction coords + index de recherche…"
 "$PYTHON" -m peche.coords extract --build-index

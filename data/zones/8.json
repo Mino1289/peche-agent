@@ -4,7 +4,7 @@
     "zone_nom": "Zone 8",
     "saison_id": 220,
     "saison": "Du 1er avril 2026 au 31 mars 2027",
-    "fetched_at": "2026-08-29T13:37:43+00:00",
+    "fetched_at": "2026-11-14T00:54:01+00:00",
     "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=8",
     "nb_endroits_total": 50,
     "nb_endroits_avec_id": 48
@@ -204,7 +204,7 @@
     },
     {
       "id": 12545,
-      "nom": "Canal de Chambly - La partie comprise entre l'écluse 1 à Chambly ( 45°26'53.43'' N., 73°17'1.15'' O. ) et Saint-Jean-sur-Richelieu ( 45°18'11.73'' N., 73°14'54.52'' O. ).",
+      "nom": "Eaux du canal de Chambly - La partie comprise entre l'écluse 1 à Chambly ( 45°26'53.43'' N., 73°17'1.15'' O. ) et Saint-Jean-sur-Richelieu ( 45°18'11.73'' N., 73°14'54.52'' O. ).",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=8&id_endro=12545&id_saisn=220",
       "segments": [
         {
@@ -354,11 +354,11 @@
     },
     {
       "id": 12543,
-      "nom": "Canal de Lachine ( 45°27'39,9\" N., 73°36'12,78\" O. )",
+      "nom": "Eaux du canal de Lachine ( 45°27'39,9\" N., 73°36'12,78\" O. )",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=8&id_endro=12543&id_saisn=220",
       "segments": [
         {
-          "segment": "Canal de Lachine ( 45°27'39,9\" N., 73°36'12,78\" O. )",
+          "segment": "Eaux du canal de Lachine ( 45°27'39,9\" N., 73°36'12,78\" O. )",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
@@ -5639,7 +5639,7 @@
                 },
                 {
                   "espece": "Touladi, moulac et lacmou",
-                  "limite_prise": "2 en tout",
+                  "limite_prise": "1 en tout",
                   "limite_longueur": "60 cm et plus",
                   "engin": "Pêche à la ligne seulement",
                   "note": ""
@@ -5691,7 +5691,7 @@
                 },
                 {
                   "espece": "Touladi, moulac et lacmou",
-                  "limite_prise": "2 en tout",
+                  "limite_prise": "1 en tout",
                   "limite_longueur": "60 cm et plus",
                   "engin": "Pêche à la ligne seulement",
                   "note": ""
@@ -6155,11 +6155,11 @@
     },
     {
       "id": 12542,
-      "nom": "Rivière Yamaska a) La partie comprise entre le pont de la route 132 à Yamaska et un point situé à 1 km en aval du pont de Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. )",
+      "nom": "Rivière Yamaska a) La partie comprise entre le pont de la route 132 à Yamaska ( 46°00'17'' N., 72°54'43'' O. ) et un point situé à 1 km en aval du pont de Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. )",
       "source_url": "https://peche.faune.gouv.qc.ca/RegPec/fr/Info/Reglements?id_zone=8&id_endro=12542&id_saisn=220",
       "segments": [
         {
-          "segment": "a) La partie comprise entre le pont de la route 132 à Yamaska et un point situé à 1 km en aval du pont de Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. )",
+          "segment": "a) La partie comprise entre le pont de la route 132 à Yamaska ( 46°00'17'' N., 72°54'43'' O. ) et un point situé à 1 km en aval du pont de Saint-Hugues ( 45°47'04'' N., 72°52'31'' O. )",
           "periodes": [
             {
               "periode": "Période Du 1 er avril 2026 au 31 mars 2027",
