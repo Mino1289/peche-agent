@@ -32,6 +32,7 @@ GRHQ_WMS = (
     "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/"
     "GRHQ_WMS/MapServer/WMSServer"
 )
+STF_WMS = "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Forets/STF_WMS/MapServer/WMSServer"
 AQRESEAU = (
     "https://servicescarto.mrnf.gouv.qc.ca/pes/services/Territoire/"
     "AQreseauPlus_WMS/MapServer/WMSServer"
@@ -113,7 +114,7 @@ def curated_layers() -> list[LayerDef]:
         ),
         LayerDef(
             id="chasse_interdite",
-            title="Chasse interdite",
+            title="Chasse/Pêche interdite",
             group="faune",
             source_type="wfs",
             url=SMARTFAUNE,
@@ -368,6 +369,23 @@ def curated_layers() -> list[LayerDef]:
             min_zoom=9,
             color="#a16207",
             attribution="MRNF Adresses Québec",
+            extra={"proxy": True},
+        ),
+        # STF (WMS) : sous-couche « Propriété privée ».
+        LayerDef(
+            id="stf_propriete_privee",
+            title="Propriété privée",
+            group="territoire",
+            source_type="wms",
+            url=STF_WMS,
+            layer_name="Propriété_privée40726",
+            curated=True,
+            filter_spec=FilterSpec(kind="none"),
+            legend_url=_legend(STF_WMS, "Propriété_privée40726"),
+            min_zoom=9,
+            opacity=0.5,
+            color="#0f766e",
+            attribution="MRNF STF",
             extra={"proxy": True},
         ),
     ]
