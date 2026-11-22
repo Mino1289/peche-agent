@@ -1593,9 +1593,27 @@ details > summary::-webkit-details-marker {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 6px;
   font-size: var(--text-sm);
   font-weight: 600;
   margin-bottom: 6px;
+}
+
+.pin-clear-all {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  padding: 2px 6px;
+}
+
+.pin-clear-all:hover {
+  color: var(--text);
+  background: var(--surface-raised);
+  border-color: var(--border-strong);
 }
 
 .pin-row {
@@ -2233,6 +2251,17 @@ details > summary::-webkit-details-marker {
 
   .pin-list-header {
     margin-bottom: 0;
+  }
+
+  .pin-clear-all {
+    min-height: 40px;
+    min-width: 36px;
+    padding: 0 10px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
   }
 
   .pin-list-title {

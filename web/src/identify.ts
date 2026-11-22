@@ -127,6 +127,10 @@ export class IdentifyOverlay {
     }
   }
 
+  hideIfPin(): void {
+    if (this.last?.layerId === PINS_LAYER_ID) this.hide();
+  }
+
   refreshLocale(): void {
     if (!this.last) return;
     if (this.last.layerId === PINS_LAYER_ID) {

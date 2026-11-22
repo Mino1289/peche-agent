@@ -769,6 +769,15 @@ export class MapController {
     this.identify.refreshFeaturePinButton();
   }
 
+  clearPins(): void {
+    if (!this.pins.length) return;
+    this.pins = [];
+    this.syncPinsLayer();
+    this.renderPinList();
+    this.identify.hideIfPin();
+    this.identify.refreshFeaturePinButton();
+  }
+
   setPins(pins: MapPin[]): void {
     this.pins = pins.slice(0, MAX_PINS);
     this.reindexPins();
@@ -807,6 +816,7 @@ export class MapController {
         <span>${escapeHtml(m.pointsLabel)}</span>
         <span class="badge">${this.pins.length}</span>
       </button>
+      <button type="button" class="pin-clear-all" title="${escapeHtml(m.clearAllPins)}" aria-label="${escapeHtml(m.clearAllPins)}">×</button>
     </div>
     <div class="pin-list-rows"></div>`;
     const toggle = el.querySelector<HTMLButtonElement>(".pin-list-toggle")!;
@@ -814,6 +824,10 @@ export class MapController {
       this.pinListOpen = !this.pinListOpen;
       el.classList.toggle("is-open", this.pinListOpen);
       toggle.setAttribute("aria-expanded", this.pinListOpen ? "true" : "false");
+    });
+    el.querySelector<HTMLButtonElement>(".pin-clear-all")!.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      this.clearPins();
     });
     const rowsEl = el.querySelector(".pin-list-rows")!;
     for (const pin of this.pins) {

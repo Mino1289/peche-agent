@@ -70,6 +70,7 @@ type Messages = {
   addPin: string;
   removeFeaturePin: string;
   removePin: string;
+  clearAllPins: string;
   showOnGmaps: string;
   zoneRegs: string;
   loadingAria: string;
@@ -239,6 +240,7 @@ const FR: Messages = {
   addPin: "Ajouter en point",
   removeFeaturePin: "Retirer le point",
   removePin: "Retirer",
+  clearAllPins: "Supprimer tous les points",
   showOnGmaps: "Afficher sur Google Maps",
   zoneRegs: "Voir la réglementation de la zone",
   loadingAria: "Chargement",
@@ -411,6 +413,7 @@ const EN: Messages = {
   addPin: "Add as pin",
   removeFeaturePin: "Remove pin",
   removePin: "Remove",
+  clearAllPins: "Clear all pins",
   showOnGmaps: "Open in Google Maps",
   zoneRegs: "View zone regulations",
   loadingAria: "Loading",
