@@ -132,6 +132,7 @@ type Messages = {
   hydroHistoryCeHQ: (days: number) => string;
   hydroHistoryHq: (days: number) => string;
   hydroHistoryCompareCeHQ: (days: number) => string;
+  allStations: string;
   missingTideCode: string;
   unknownZone: string;
   noZoneAtPoint: string;
@@ -304,6 +305,7 @@ const FR: Messages = {
     `Historique Hydro-Québec — ${days} jour(s)`,
   hydroHistoryCompareCeHQ: (days) =>
     `Historique CEHQ — ${days} derniers jours (comparaison, points horaires)`,
+  allStations: "Toutes",
   missingTideCode: "Code de station manquant",
   unknownZone: "Zone inconnue",
   noZoneAtPoint: "Aucune zone de pêche à cet endroit",
@@ -475,6 +477,7 @@ const EN: Messages = {
     `Hydro-Québec history — ${days} day(s)`,
   hydroHistoryCompareCeHQ: (days) =>
     `CEHQ history — last ${days} days (comparison, hourly points)`,
+  allStations: "All",
   missingTideCode: "Missing station code",
   unknownZone: "Unknown zone",
   noZoneAtPoint: "No fishing zone at this location",

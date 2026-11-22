@@ -1,4 +1,4 @@
-/** Tableau comparatif + graphiques niveau/débit (port Streamlit → uPlot). */
+/** Tableau comparatif + graphiques niveau/débit (uPlot). */
 
 import uPlot from "uplot";
 import "uplot/dist/uPlot.min.css";
@@ -10,6 +10,7 @@ import type {
   ToolEntry,
 } from "./types";
 import { t } from "./i18n";
+import { uninvertName } from "./names";
 
 const HYDRO_TOOLS = new Set([
   "get_hydromet",
@@ -28,7 +29,10 @@ const SERIES_COLORS = [
   "#e879f9",
 ];
 
+const NEAREST_SAMPLE_WINDOW_SEC = 3600;
+
 const plotsByRoot = new WeakMap<HTMLElement, uPlot[]>();
+const observersByRoot = new WeakMap<HTMLElement, ResizeObserver>();
 
 function escapeHtml(s: string): string {
   return s
@@ -45,26 +49,62 @@ function formatHydroValue(value: unknown): string {
   return String(value);
 }
 
-function hydroLabel(result: HydroResult): string {
-  const desc = result.description || "";
-  if (desc) {
-    if (desc.toLowerCase().includes("barrage")) {
-      const after = desc.split(/barrage/i).slice(1).join("barrage");
-      for (const part of after.split(/\s+/)) {
-        const cleaned = part.replace(/^[ .,\-]+|[ .,\-]+$/g, "");
-        if (cleaned && cleaned.length > 2) return cleaned;
+function truncateLabel(text: string, max: number): string {
+  const clean = text.trim().replace(/\s+/g, " ");
+  if (clean.length <= max) return clean;
+  return clean.slice(0, max - 1).trimEnd() + "…";
+}
+
+function shortDescriptionTag(desc: string): string {
+  const d = desc.trim();
+  if (!d) return "";
+  if (d.toLowerCase().includes("barrage")) {
+    const after = d.split(/barrage/i).slice(1).join("barrage");
+    const m = after.match(/\b(?:de\s+la\s+|du\s+|des\s+|de\s+|d['’])?([A-Za-zÀ-ÿ0-9][\wÀ-ÿ'-]*(?:-[\wÀ-ÿ']+)*)/u);
+    if (m && m[1] && m[1].length > 2) return truncateLabel(m[1], 22);
+  }
+  return truncateLabel(d, 22);
+}
+
+/** Libellé complet (tableau / infobulle HTML). */
+function hydroFullLabel(result: HydroResult): string {
+  const water = uninvertName(String(result.plan_nom || result.plan_eau || "")).trim();
+  const desc = (result.description || "").trim();
+  if (water && desc && !desc.toLowerCase().includes(water.toLowerCase())) {
+    return `${water} — ${desc}`;
+  }
+  return water || desc || (result.station_id != null ? String(result.station_id) : "Station");
+}
+
+/** Libellé court pour légende, pastilles et curseur graphique. */
+export function hydroShortLabel(result: HydroResult, disambiguate = false): string {
+  const water = uninvertName(String(result.plan_nom || result.plan_eau || "")).trim();
+  const desc = (result.description || "").trim();
+  if (water) {
+    if (disambiguate) {
+      const tag = shortDescriptionTag(desc) || (result.station_id != null ? String(result.station_id) : "");
+      if (tag && tag.toLowerCase() !== water.toLowerCase()) {
+        return truncateLabel(`${water} (${tag})`, 30);
       }
     }
-    if (desc.length <= 60) return desc;
-    return desc.slice(0, 57) + "…";
+    return truncateLabel(water, 26);
   }
-  const raw =
-    result.plan_nom ||
-    result.plan_eau ||
-    (result.station_id != null ? String(result.station_id) : "Station");
-  const text = String(raw);
-  if (text.includes(" - ")) return text.split(" - ", 1)[0].trim();
-  return text;
+  if (desc) {
+    const first = desc.includes(" - ") ? desc.split(" - ", 1)[0].trim() : desc;
+    return truncateLabel(first, 26);
+  }
+  return result.station_id != null ? String(result.station_id) : "Station";
+}
+
+function buildShortLabels(results: HydroResult[]): string[] {
+  const bases = results.map((r) => hydroShortLabel(r, false));
+  const counts = new Map<string, number>();
+  for (const b of bases) counts.set(b, (counts.get(b) || 0) + 1);
+  const used = new Set<string>();
+  return results.map((r, i) => {
+    const base = (counts.get(bases[i]) || 0) > 1 ? hydroShortLabel(r, true) : bases[i];
+    return uniqueChartLabel(base, used);
+  });
 }
 
 function flattenWaterbodyResult(wb: HydroResult): HydroResult[] {
@@ -169,6 +209,11 @@ function uniqueChartLabel(base: string, used: Set<string>): string {
 }
 
 function destroyPlots(root: HTMLElement): void {
+  const obs = observersByRoot.get(root);
+  if (obs) {
+    obs.disconnect();
+    observersByRoot.delete(root);
+  }
   const plots = plotsByRoot.get(root);
   if (plots) {
     for (const p of plots) {
@@ -198,9 +243,9 @@ function parseSeries(
       new Date(a.observed_at).getTime() - new Date(b.observed_at).getTime(),
   );
   for (const pt of sorted) {
-    const t = new Date(pt.observed_at).getTime() / 1000;
-    if (!Number.isFinite(t)) continue;
-    xs.push(t);
+    const ts = new Date(pt.observed_at).getTime() / 1000;
+    if (!Number.isFinite(ts)) continue;
+    xs.push(ts);
     niveaux.push(
       typeof pt.niveau_m === "number" && Number.isFinite(pt.niveau_m)
         ? pt.niveau_m
@@ -277,9 +322,18 @@ function formatCursorY(title: string, y: number): string {
   return `${n} m`;
 }
 
-function formatAxisY(title: string, y: number): string {
+function formatAxisY(_title: string, y: number): string {
   if (!Number.isFinite(y)) return "";
   return formatChartNumber(y);
+}
+
+function innerWidth(el: HTMLElement): number {
+  const cs = typeof getComputedStyle === "function" ? getComputedStyle(el) : null;
+  const pad = cs
+    ? (parseFloat(cs.paddingLeft) || 0) + (parseFloat(cs.paddingRight) || 0)
+    : 0;
+  const raw = Math.floor((el.clientWidth || el.parentElement?.clientWidth || 320) - pad);
+  return Math.max(220, raw);
 }
 
 function nearestDataIdx(u: uPlot, mouseLeft: number): number {
@@ -298,23 +352,64 @@ function nearestDataIdx(u: uPlot, mouseLeft: number): number {
   return best;
 }
 
-function snapCursorToData(
-  u: uPlot,
-  mouseLeft: number,
-  _mouseTop: number,
-): uPlot.Cursor.LeftTop {
-  const idx = nearestDataIdx(u, mouseLeft);
-  const x = u.data[0][idx] as number;
-  const left = u.valToPos(x, "x");
-  let top = _mouseTop;
-  for (let si = 1; si < u.data.length; si++) {
-    const v = u.data[si][idx] as number | null | undefined;
-    if (v != null && Number.isFinite(v)) {
-      top = u.valToPos(v, "y");
-      break;
+/** Valeur au point `idx` ou, en cas d'horodatages décalés, voisin le plus proche ≤ 1 h. */
+function valueNearIdx(
+  xs: number[],
+  vals: (number | null | undefined)[],
+  idx: number,
+): number | null {
+  const direct = vals[idx];
+  if (direct != null && Number.isFinite(direct)) return direct;
+  const t0 = xs[idx];
+  if (!Number.isFinite(t0)) return null;
+  let bestVal: number | null = null;
+  let bestDt = NEAREST_SAMPLE_WINDOW_SEC + 1;
+  for (let d = 1; d <= 4; d++) {
+    for (const j of [idx - d, idx + d]) {
+      if (j < 0 || j >= xs.length) continue;
+      const dt = Math.abs(xs[j] - t0);
+      if (dt >= bestDt) continue;
+      const v = vals[j];
+      if (v != null && Number.isFinite(v)) {
+        bestDt = dt;
+        bestVal = v;
+      }
     }
   }
-  return [left, top];
+  return bestVal;
+}
+
+export function snapCursorToData(
+  u: uPlot,
+  mouseLeft: number,
+  mouseTop: number,
+): uPlot.Cursor.LeftTop {
+  // Hors du tracé (initialisation / mouseleave) : ne jamais coller au point 0.
+  if (mouseLeft < 0 || mouseTop < 0 || !Number.isFinite(mouseLeft) || !Number.isFinite(mouseTop)) {
+    return [mouseLeft, mouseTop];
+  }
+  const xs = u.data[0] as number[];
+  if (!xs.length) return [mouseLeft, mouseTop];
+  const idx = nearestDataIdx(u, mouseLeft);
+  const x = xs[idx];
+  const left = u.valToPos(x, "x");
+  if (!Number.isFinite(left)) return [mouseLeft, mouseTop];
+
+  let bestTop = mouseTop;
+  let bestDist = Infinity;
+  for (let si = 1; si < u.data.length; si++) {
+    if (u.series[si]?.show === false) continue;
+    const v = valueNearIdx(xs, u.data[si] as (number | null | undefined)[], idx);
+    if (v == null) continue;
+    const pos = u.valToPos(v, "y");
+    if (!Number.isFinite(pos)) continue;
+    const dist = Math.abs(pos - mouseTop);
+    if (dist < bestDist) {
+      bestDist = dist;
+      bestTop = pos;
+    }
+  }
+  return [left, bestTop];
 }
 
 function resetChartZoom(u: uPlot): void {
@@ -330,7 +425,7 @@ function hydroChartCursor(): uPlot.Cursor {
     points: {
       show: true,
       one: true,
-      size: 9,
+      size: 8,
       stroke: "#f4f4f5",
       width: 2,
     },
@@ -343,51 +438,102 @@ function chartCursorLabelHooks(title: string): uPlot.Hooks.Arrays {
   let xLabel: HTMLDivElement | null = null;
   let yLabel: HTMLDivElement | null = null;
 
+  const hide = () => {
+    if (xLabel) xLabel.hidden = true;
+    if (yLabel) yLabel.hidden = true;
+  };
+
   const syncLabels = (u: uPlot) => {
     if (!xLabel || !yLabel) return;
     const { left, top, idx } = u.cursor;
-    if (left == null || top == null || left < 0 || top < 0) {
-      xLabel.hidden = true;
-      yLabel.hidden = true;
+    if (
+      left == null ||
+      top == null ||
+      !Number.isFinite(left) ||
+      !Number.isFinite(top) ||
+      left < 0 ||
+      top < 0
+    ) {
+      hide();
       return;
     }
-    const pickIdx =
-      idx != null && idx >= 0 ? idx : nearestDataIdx(u, left);
-    const xVal = u.data[0][pickIdx] as number;
+    const xs = u.data[0] as number[];
+    const pickIdx = idx != null && idx >= 0 ? idx : nearestDataIdx(u, left);
+    const xVal = xs[pickIdx];
     if (!Number.isFinite(xVal)) {
-      xLabel.hidden = true;
-      yLabel.hidden = true;
+      hide();
       return;
     }
 
-    const parts: string[] = [];
+    const visibleIndices: number[] = [];
     for (let si = 1; si < u.data.length; si++) {
-      const v = u.data[si][pickIdx] as number | null | undefined;
-      if (v != null && Number.isFinite(v)) {
-        const name = u.series[si].label ?? "";
-        parts.push(
-          u.data.length > 2
-            ? `${name}: ${formatCursorY(title, v)}`
-            : formatCursorY(title, v),
-        );
+      if (u.series[si]?.show !== false) visibleIndices.push(si);
+    }
+    const multi = visibleIndices.length > 1;
+
+    type Row = { si: number; label: string; color: string; value: string; dist: number };
+    const rows: Row[] = [];
+    for (const si of visibleIndices) {
+      const v = valueNearIdx(xs, u.data[si] as (number | null | undefined)[], pickIdx);
+      if (v == null) continue;
+      const pos = u.valToPos(v, "y");
+      const color = typeof u.series[si]?.stroke === "string"
+        ? (u.series[si].stroke as string)
+        : SERIES_COLORS[(si - 1) % SERIES_COLORS.length];
+      rows.push({
+        si,
+        label: String(u.series[si]?.label ?? ""),
+        color,
+        value: formatCursorY(title, v),
+        dist: Number.isFinite(pos) ? Math.abs(pos - top) : Infinity,
+      });
+    }
+
+    if (!rows.length) {
+      hide();
+      return;
+    }
+
+    let focusedSi = rows[0].si;
+    let minD = rows[0].dist;
+    for (const r of rows) {
+      if (r.dist < minD) {
+        minD = r.dist;
+        focusedSi = r.si;
       }
     }
 
     const plotLft = u.over.offsetLeft;
     const plotTop = u.over.offsetTop;
+    const plotW = u.over.clientWidth;
     const plotH = u.over.clientHeight;
 
     xLabel.textContent = fmtCursorTime(xVal);
-    xLabel.style.left = `${plotLft + left}px`;
+    const xLeft = Math.max(plotLft + 34, Math.min(plotLft + left, plotLft + plotW - 34));
+    xLabel.style.left = `${xLeft}px`;
     xLabel.style.top = `${plotTop + plotH + X_AXIS_CSS_PX / 2}px`;
     xLabel.removeAttribute("hidden");
 
-    yLabel.textContent = parts.length ? parts.join(" · ") : "—";
-    const plotW = u.over.clientWidth;
+    if (multi) {
+      yLabel.innerHTML = rows
+        .map(
+          (r) =>
+            `<div class="hydro-tip-row${r.si === focusedSi ? " is-focused" : ""}">` +
+            `<span class="hydro-tip-dot" style="background:${r.color}"></span>` +
+            `<span class="hydro-tip-name">${escapeHtml(r.label)}</span>` +
+            `<strong class="hydro-tip-val">${escapeHtml(r.value)}</strong>` +
+            `</div>`,
+        )
+        .join("");
+    } else {
+      yLabel.textContent = rows[0].value;
+    }
+
     const tipLeft = plotLft + left;
-    const flip = tipLeft > plotLft + plotW * 0.72;
+    const flip = tipLeft > plotLft + plotW * 0.58;
+    const clampedTop = Math.max(plotTop + 14, Math.min(plotTop + top, plotTop + plotH - 14));
     yLabel.style.left = `${tipLeft}px`;
-    yLabel.style.top = `${plotTop + top}px`;
+    yLabel.style.top = `${clampedTop}px`;
     yLabel.dataset.flip = flip ? "1" : "0";
     yLabel.removeAttribute("hidden");
   };
@@ -417,6 +563,16 @@ function chartCursorLabelHooks(title: string): uPlot.Hooks.Arrays {
   };
 }
 
+function yScaleRange(_u: uPlot, min: number, max: number): [number, number] {
+  if (!Number.isFinite(min) || !Number.isFinite(max)) return [0, 1];
+  if (min === max) {
+    const pad = Math.max(Math.abs(min) * 0.01, 0.1);
+    return [min - pad, max + pad];
+  }
+  const pad = (max - min) * 0.08;
+  return [min - pad, max + pad];
+}
+
 function makePlot(
   target: HTMLElement,
   title: string,
@@ -424,16 +580,19 @@ function makePlot(
   series: { label: string; values: (number | null)[]; color: string }[],
 ): uPlot | null {
   if (!xs.length || !series.length) return null;
-  const width = Math.max(240, Math.floor(target.clientWidth || target.parentElement?.clientWidth || 320));
+  const width = innerWidth(target);
   const isFlow = title.includes("Débit");
+  const bridgeGaps = series.length > 1;
+
   const opts: uPlot.Options = {
     width,
-    height: 160,
+    height: 165,
     title,
     class: "hydro-uplot",
     padding: [10, 10, 4, isFlow ? 6 : 4],
     scales: {
       x: { time: true },
+      y: { range: yScaleRange },
     },
     axes: [
       xAxisDaily(),
@@ -452,13 +611,13 @@ function makePlot(
       ...series.map((s) => ({
         label: s.label,
         stroke: s.color,
-        width: 1.5,
-        spanGaps: false,
+        width: 1.75,
+        spanGaps: bridgeGaps,
         points: { show: false },
       })),
     ],
     legend: {
-      show: series.length > 1,
+      show: false,
     },
     cursor: hydroChartCursor(),
     hooks: chartCursorLabelHooks(title),
@@ -467,16 +626,35 @@ function makePlot(
   return new uPlot(opts, data, target);
 }
 
+function attachResizeSync(root: HTMLElement, plots: uPlot[]): void {
+  const resizeAll = () => {
+    for (const p of plots) {
+      const host = p.root.parentElement;
+      if (!host || host.clientWidth <= 0) continue;
+      const w = innerWidth(host);
+      if (w !== p.width) p.setSize({ width: w, height: p.height });
+    }
+  };
+  requestAnimationFrame(resizeAll);
+  if (typeof ResizeObserver !== "undefined") {
+    const obs = new ResizeObserver(resizeAll);
+    obs.observe(root);
+    observersByRoot.set(root, obs);
+  }
+}
+
 function renderHydroSummaryTable(
   container: HTMLElement,
   results: HydroResult[],
 ): void {
   const metrics = hydroMetricsMode(results);
+  const shortLabels = buildShortLabels(results);
   const rows: Record<string, string>[] = [];
 
-  for (const result of results) {
-    const planLabel = result.plan_nom || hydroLabel(result);
-    const stationLabel = hydroLabel(result);
+  for (let i = 0; i < results.length; i++) {
+    const result = results[i];
+    const planLabel = uninvertName(String(result.plan_nom || result.plan_eau || "")).trim() || shortLabels[i];
+    const stationLabel = shortLabels[i];
     if (result.error_no_station) {
       rows.push({
         "Plan d'eau": planLabel,
@@ -538,7 +716,6 @@ function renderHydroSummaryTable(
   title.textContent = "Comparatif hydrométrique";
   container.appendChild(title);
 
-  // Colonnes stables dans un ordre lisible
   const preferred = [
     "Plan d'eau",
     "Station",
@@ -581,11 +758,12 @@ function renderHydroHistory(
   const series = history.series;
   if (!series?.length) return;
 
-  const label = hydroLabel(result);
+  const label = hydroShortLabel(result);
   if (label) {
     const h = document.createElement("div");
     h.className = "hydro-station-label";
     h.textContent = label;
+    h.title = hydroFullLabel(result);
     container.appendChild(h);
   }
 
@@ -624,7 +802,6 @@ function renderHydroHistory(
     ]);
     if (plot) plots.push(plot);
   }
-
 }
 
 function renderCombinedHydroCharts(
@@ -633,38 +810,59 @@ function renderCombinedHydroCharts(
   metrics: "level" | "flow" | "both",
   plots: uPlot[],
 ): void {
-  type SeriesBag = { label: string; xs: number[]; values: (number | null)[] };
+  type StationItem = {
+    key: number;
+    label: string;
+    fullTitle: string;
+    color: string;
+  };
+  type SeriesBag = {
+    stationKey: number;
+    label: string;
+    color: string;
+    xs: number[];
+    values: (number | null)[];
+  };
+
+  const shortLabels = buildShortLabels(results);
+  const stations: StationItem[] = [];
   const debitSeries: SeriesBag[] = [];
   const niveauSeries: SeriesBag[] = [];
-  const usedLabels = new Set<string>();
   let period: number | null = null;
 
-  for (const result of results) {
+  for (let i = 0; i < results.length; i++) {
+    const result = results[i];
     const history = result.history;
     if (!history || typeof history !== "object") continue;
     const series = history.series;
     if (!series?.length) continue;
 
-    const label = uniqueChartLabel(hydroLabel(result), usedLabels);
     period = history.period_days ?? period;
-
     const { xs, niveaux, debits } = parseSeries(series);
     if (!xs.length) continue;
 
-    if (
+    const hasFlow =
       (metrics === "flow" || metrics === "both") &&
-      history.has_debit &&
-      debits.some((v) => v != null)
-    ) {
-      debitSeries.push({ label, xs, values: debits });
-    }
-    if (
+      Boolean(history.has_debit) &&
+      debits.some((v) => v != null);
+    const hasLevel =
       (metrics === "level" || metrics === "both") &&
-      history.has_niveau &&
-      niveaux.some((v) => v != null)
-    ) {
-      niveauSeries.push({ label, xs, values: niveaux });
-    }
+      Boolean(history.has_niveau) &&
+      niveaux.some((v) => v != null);
+    if (!hasFlow && !hasLevel) continue;
+
+    const key = stations.length;
+    const color = SERIES_COLORS[key % SERIES_COLORS.length];
+    const label = shortLabels[i];
+    stations.push({
+      key,
+      label,
+      fullTitle: hydroFullLabel(result),
+      color,
+    });
+
+    if (hasFlow) debitSeries.push({ stationKey: key, label, color, xs, values: debits });
+    if (hasLevel) niveauSeries.push({ stationKey: key, label, color, xs, values: niveaux });
   }
 
   if (!debitSeries.length && !niveauSeries.length) return;
@@ -677,36 +875,93 @@ function renderCombinedHydroCharts(
     : t().hydroHistoryCompareCeHQ(period ?? 7);
   container.appendChild(caption);
 
-  function alignAndPlot(
-    title: string,
-    seriesList: SeriesBag[],
-  ): void {
+  const plotBindings: { plot: uPlot; stationKeys: number[] }[] = [];
+
+  // Barre de navigation par station : clic = isoler (recalibre l'axe Y), reclic / « Toutes » = tout afficher
+  let selectedKey: number | null = null;
+  if (stations.length >= 2) {
+    const bar = document.createElement("div");
+    bar.className = "hydro-station-bar";
+    bar.setAttribute("role", "tablist");
+
+    const buttons: { key: number | null; el: HTMLButtonElement }[] = [];
+    const syncSelection = () => {
+      for (const b of buttons) {
+        const active = b.key === selectedKey;
+        b.el.classList.toggle("is-active", active);
+        b.el.setAttribute("aria-selected", active ? "true" : "false");
+      }
+      for (const { plot, stationKeys } of plotBindings) {
+        const hasMatch =
+          selectedKey === null || stationKeys.includes(selectedKey);
+        const wrap = plot.root.parentElement;
+        if (wrap) wrap.hidden = !hasMatch;
+        if (!hasMatch) continue;
+        stationKeys.forEach((sk, idx) => {
+          plot.setSeries(idx + 1, { show: selectedKey === null || sk === selectedKey });
+        });
+      }
+    };
+
+    const allBtn = document.createElement("button");
+    allBtn.type = "button";
+    allBtn.className = "hydro-station-pill is-active";
+    allBtn.textContent = t().allStations;
+    allBtn.addEventListener("click", () => {
+      selectedKey = null;
+      syncSelection();
+    });
+    bar.appendChild(allBtn);
+    buttons.push({ key: null, el: allBtn });
+
+    for (const st of stations) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "hydro-station-pill";
+      btn.title = st.fullTitle;
+      btn.innerHTML = `<span class="hydro-tip-dot" style="background:${st.color}"></span><span>${escapeHtml(st.label)}</span>`;
+      btn.addEventListener("click", () => {
+        selectedKey = selectedKey === st.key ? null : st.key;
+        syncSelection();
+      });
+      bar.appendChild(btn);
+      buttons.push({ key: st.key, el: btn });
+    }
+    container.appendChild(bar);
+  }
+
+  function alignAndPlot(title: string, seriesList: SeriesBag[]): void {
     if (!seriesList.length) return;
-    // Union des timestamps, alignement avec nulls
     const allTs = new Set<number>();
-    for (const s of seriesList) for (const t of s.xs) allTs.add(t);
+    for (const s of seriesList) for (const ts of s.xs) allTs.add(ts);
     const xs = [...allTs].sort((a, b) => a - b);
-    const aligned = seriesList.map((s, i) => {
+    const aligned = seriesList.map((s) => {
       const map = new Map<number, number | null>();
-      s.xs.forEach((t, idx) => map.set(t, s.values[idx]));
+      s.xs.forEach((ts, idx) => map.set(ts, s.values[idx]));
       return {
         label: s.label,
-        values: xs.map((t) => (map.has(t) ? map.get(t)! : null)),
-        color: SERIES_COLORS[i % SERIES_COLORS.length],
+        values: xs.map((ts) => (map.has(ts) ? map.get(ts)! : null)),
+        color: s.color,
       };
     });
     const wrap = document.createElement("div");
     wrap.className = "hydro-chart-wrap";
     container.appendChild(wrap);
     const plot = makePlot(wrap, title, xs, aligned);
-    if (plot) plots.push(plot);
+    if (plot) {
+      plots.push(plot);
+      plotBindings.push({
+        plot,
+        stationKeys: seriesList.map((s) => s.stationKey),
+      });
+    }
   }
 
-  alignAndPlot("Niveau (m)", niveauSeries);
   alignAndPlot("Débit (m³/s)", debitSeries);
+  alignAndPlot("Niveau (m)", niveauSeries);
 }
 
-/** Orchestrateur : tableau + graphiques (même logique que Streamlit master). */
+/** Orchestrateur : tableau + graphiques. */
 export function renderVisibleHydroOutputs(
   el: HTMLElement,
   tools: ToolEntry[] | undefined,
@@ -745,13 +1000,7 @@ export function renderVisibleHydroOutputs(
     renderHydroHistory(el, withHistory[0], metrics, plots);
   }
 
-  // Redimensionner si le panneau change de largeur
-  requestAnimationFrame(() => {
-    const w = Math.max(240, Math.floor(el.clientWidth || 320));
-    for (const p of plots) {
-      if (p.width !== w) p.setSize({ width: w, height: p.height });
-    }
-  });
+  attachResizeSync(el, plots);
 }
 
 /** Graphiques d'une station pour le panneau détail carte. */
@@ -765,12 +1014,7 @@ export function renderStationHydroCharts(
   plotsByRoot.set(el, plots);
   const metrics = hydroMetricsMode([result]);
   renderHydroHistory(el, result, metrics, plots);
-  requestAnimationFrame(() => {
-    const w = Math.max(240, Math.floor(el.clientWidth || 320));
-    for (const p of plots) {
-      if (p.width !== w) p.setSize({ width: w, height: p.height });
-    }
-  });
+  attachResizeSync(el, plots);
 }
 
 export function renderTideChart(
@@ -791,10 +1035,7 @@ export function renderTideChart(
   ]);
   if (plot) {
     plotsByRoot.set(el, [plot]);
-    requestAnimationFrame(() => {
-      const w = Math.max(240, Math.floor(el.clientWidth || 320));
-      if (plot.width !== w) plot.setSize({ width: w, height: plot.height });
-    });
+    attachResizeSync(el, [plot]);
   }
 }
 
@@ -805,10 +1046,7 @@ function makeTidePlot(
   series: { label: string; values: (number | null)[]; color: string }[],
 ): uPlot | null {
   if (!xs.length || !series.length) return null;
-  const width = Math.max(
-    240,
-    Math.floor(target.clientWidth || target.parentElement?.clientWidth || 320),
-  );
+  const width = innerWidth(target);
   const labelHooks = chartCursorLabelHooks(title);
   const opts: uPlot.Options = {
     width,
@@ -817,6 +1055,7 @@ function makeTidePlot(
     class: "hydro-uplot-tide",
     scales: {
       x: { time: true },
+      y: { range: yScaleRange },
     },
     axes: [
       xAxisDaily(),
