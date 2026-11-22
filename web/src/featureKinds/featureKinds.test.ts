@@ -134,6 +134,24 @@ describe("popup → detail data reuse", () => {
       "/api/hydromet/061004?include_history=true",
     ]);
   });
+
+  it("hq weather station fetches live hydromet endpoint instead of using stale props", async () => {
+    const fetch = stubFetch({
+      station_id: "HQ-S-1-10097",
+      observed_at: "2026-11-21T21:00:00Z",
+      hq_metrics: [{ type_point_donnee: "Température Maximum", valeur: 2.5, nom_unite_mesure: "°C" }],
+    });
+    const h = hit("meteo_eccc", {
+      station: "HQ-S-1-10097",
+      ville: "Eastmain 1",
+      observed_at: "2026-11-09T12:00:00Z",
+    });
+    const html = await popupHtml(h);
+    expect(fetch).toHaveBeenCalledTimes(1);
+    expect(fetch.mock.calls[0][0]).toBe("/api/hydromet/HQ-S-1-10097");
+    expect(html).toContain("2026-11-21T21:00:00Z");
+    expect(html).not.toContain("2026-11-09T12:00:00Z");
+  });
 });
 
 describe("errors", () => {

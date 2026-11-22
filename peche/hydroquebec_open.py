@@ -30,7 +30,7 @@ HQ_JSON_SITES = (
     "json/Donnees_VUE_CENTRALES_ET_OUVRAGES.json"
 )
 
-_TS_RE = re.compile(r"^(\d{4})/(\d{2})/(\d{2})T(\d{2}):(\d{2}):(\d{2})Z$")
+_TS_RE = re.compile(r"^(\d{4})[/-](\d{2})[/-](\d{2})[T ](\d{2}):(\d{2}):(\d{2})Z?$")
 
 
 def _ts_sort_key(raw: str) -> tuple[int, ...]:
@@ -141,6 +141,12 @@ def _pick_primary_niveau_debit(
         elif u == "m" and "neige" not in (m.get("type_point_donnee") or "").lower():
             niveau_m = v
             observed_at = o or observed_at
+    if observed_at is None:
+        obs_dates = [
+            str(m["observed_at"]) for m in metrics if m.get("observed_at")
+        ]
+        if obs_dates:
+            observed_at = max(obs_dates)
     return niveau_m, debit_m3s, observed_at
 
 
@@ -252,7 +258,7 @@ def fetch_hydroquebec_open_stations(timeout: float = 120.0) -> list[dict[str, An
 _HQ_DETAIL_CACHE: tuple[float, tuple[list[dict[str, Any]], list[dict[str, Any]]]] | None = (
     None
 )
-_HQ_DETAIL_TTL_S = 3600.0
+_HQ_DETAIL_TTL_S = 1800.0
 
 
 def _load_hq_raw_pair(timeout: float) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:

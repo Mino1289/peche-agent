@@ -2,7 +2,7 @@
 
 import { escapeHtml } from "../regs";
 import { t } from "../i18n";
-import { dl, errorHtml, str } from "./html";
+import { dl, errorHtml, linksHtml, str } from "./html";
 import { hqMetricsTableHtml } from "./hydro";
 import { getJson, pick, type FeatureKind, type Loaded } from "./kind";
 
@@ -12,17 +12,26 @@ type Weather = Record<string, unknown>;
 const isHqStation = (p: Record<string, unknown>) =>
   str(p.station).toUpperCase().startsWith("HQ-");
 
-function hqStationBody(p: Record<string, unknown>): string {
+function hqStationBody(
+  p: Record<string, unknown>,
+  loaded?: Loaded<Weather>,
+): string {
   const m = t();
+  const live = loaded && !("status" in loaded) ? loaded.data : null;
+  const src = live ? { ...p, ...live } : p;
   const rows: [string, string][] = [
-    [m.station, str(p.station)],
+    [m.station, str(src.station_id || src.station)],
     [m.dataSource, "Hydro-Québec"],
   ];
-  const region = str(p.hq_region);
+  const region = str(src.hq_region);
   if (region) rows.push([m.hqRegion, region]);
-  const obs = str(p.observed_at);
+  const obs = str(src.observed_at);
   if (obs) rows.push([m.observed, obs]);
-  return dl(rows) + hqMetricsTableHtml(p.hq_metrics);
+  return (
+    dl(rows) +
+    hqMetricsTableHtml(src.hq_metrics) +
+    linksHtml(src.urls as Record<string, string> | undefined)
+  );
 }
 
 export const weatherKind: FeatureKind<Weather> = {
@@ -37,8 +46,10 @@ export const weatherKind: FeatureKind<Weather> = {
   },
 
   async load(p) {
-    // Station HQ : mesures déjà dans les props, pas de GeoMet.
-    if (isHqStation(p)) return undefined;
+    if (isHqStation(p)) {
+      const sid = str(p.station);
+      return sid ? getJson<Weather>(`/api/hydromet/${encodeURIComponent(sid)}`) : undefined;
+    }
     const lat = Number(p.lat);
     const lon = Number(p.lon);
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) return undefined;
@@ -48,14 +59,14 @@ export const weatherKind: FeatureKind<Weather> = {
   },
 
   popup(p, loaded) {
-    if (isHqStation(p)) return hqStationBody(p);
+    if (isHqStation(p)) return hqStationBody(p, loaded);
     if (!loaded) return dl([[t().name, str(p.ville)]]);
     return weatherBody(loaded, { hideEmpty: true });
   },
 
   detail(body, hit, loaded) {
     if (isHqStation(hit.props)) {
-      body.innerHTML = hqStationBody(hit.props);
+      body.innerHTML = hqStationBody(hit.props, loaded);
       return;
     }
     body.innerHTML = loaded

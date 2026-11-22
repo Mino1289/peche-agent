@@ -45,9 +45,18 @@ def hydromet_station(
     include_history: bool = Query(False),
 ) -> JSONResponse:
     sid = str(station_id)
-    s = next((row for row in _live_hydromet_stations() if row["station"] == sid), None)
-    if s is None:
-        s = get_live_station(sid)
+    if sid.upper().startswith("HQ-"):
+        # HQ-*: toujours lire le flux live (cache mémoire 30 min) avant le snapshot disque.
+        try:
+            s = get_live_station(sid)
+        except Exception:
+            s = None
+        if s is None:
+            s = next((row for row in _live_hydromet_stations() if row["station"] == sid), None)
+    else:
+        s = next((row for row in _live_hydromet_stations() if row["station"] == sid), None)
+        if s is None:
+            s = get_live_station(sid)
     if s is None:
         raise HTTPException(status_code=404, detail="Station introuvable")
     is_hq = sid.upper().startswith("HQ-") or s.get("source_sub") == "hydroquebec_open"

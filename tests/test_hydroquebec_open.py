@@ -159,3 +159,61 @@ def test_hq_tags_water_temperature_is_hydro_not_meteo():
 
     metrics = [_m("Niveau", "m"), _m("Température de l'eau", "°C")]
     assert hq_tags("station", metrics) == ["hydro"]
+
+
+def test_latest_in_donnees_accepts_space_separator():
+    val, ts = _latest_in_donnees(
+        {
+            "2026/11/11 16:00:00Z": "1.0",
+            "2026/11/21 21:00:00Z": "4.5",
+        }
+    )
+    assert val == 4.5
+    assert ts == "2026-11-21T21:00:00Z"
+
+
+def test_normalize_hq_meteo_only_populates_observed_at():
+    row = {
+        "identifiant": "1-10097",
+        "nom": "Eastmain 1 (CMEK)",
+        "xcoord": "-76.0",
+        "ycoord": "52.2",
+        "Composition": [
+            {
+                "type_point_donnee": "Température Maximum",
+                "nom_unite_mesure": "°C",
+                "Donnees": {
+                    "2026/11/11 16:00:00Z": "-2.0",
+                    "2026/11/21 21:00:00Z": "1.5",
+                },
+            }
+        ],
+    }
+    out = normalize_hq_records("station", [row])
+    assert len(out) == 1
+    assert out[0]["observed_at"] == "2026-11-21T21:00:00Z"
+
+
+def test_live_route_fetches_hq_live_instead_of_stale_snapshot(monkeypatch):
+    from fastapi.testclient import TestClient
+
+    from peche.api import create_app
+    from peche.api.routes import live as live_mod
+
+    stale = {
+        "station": "HQ-S-1-2902",
+        "description": "Caniapiscau",
+        "observed_at": "2026-11-09T12:00:00Z",
+        "niveau_m": 10.0,
+        "source_sub": "hydroquebec_open",
+    }
+    fresh = {**stale, "observed_at": "2026-11-21T20:00:00Z", "niveau_m": 12.5}
+    monkeypatch.setattr(live_mod, "_live_hydromet_stations", lambda: [stale])
+    monkeypatch.setattr(live_mod, "get_live_station", lambda sid: fresh if sid == "HQ-S-1-2902" else None)
+
+    client = TestClient(create_app())
+    resp = client.get("/api/hydromet/HQ-S-1-2902")
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["observed_at"] == "2026-11-21T20:00:00Z"
+    assert data["niveau_m"] == 12.5
