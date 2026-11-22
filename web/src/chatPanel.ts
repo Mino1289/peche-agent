@@ -23,6 +23,7 @@ import {
   type HealthInfo,
 } from "./settings";
 import { navigate, parseRoute } from "./router";
+import { escapeHtml, formatMarkdown } from "./markdown";
 
 const AI_STUDIO_URL = "https://aistudio.google.com/app/apikey";
 
@@ -404,7 +405,7 @@ export class ChatPanel {
     if (msg.text || msg.role !== "assistant") {
       const textEl = document.createElement("div");
       textEl.className = "msg-text";
-      textEl.innerHTML = formatMarkdownLite(
+      textEl.innerHTML = formatMarkdown(
         msg.text || (msg.role === "assistant" ? "" : ""),
       );
       body.appendChild(textEl);
@@ -586,7 +587,7 @@ export class ChatPanel {
         textEl.className = "msg-text";
         body.appendChild(textEl);
       }
-      textEl.innerHTML = formatMarkdownLite(assistant.text || "");
+      textEl.innerHTML = formatMarkdown(assistant.text || "");
       if (!assistant.text && this.running) this.setAssistantThinking(Boolean(assistant.tools?.length));
       box.scrollTop = box.scrollHeight;
     } else {
@@ -660,8 +661,10 @@ export class ChatPanel {
           assistant.tools.push({ name: ev.name, args: ev.args });
           this.updateAssistantTools(assistant);
         } else if (ev.type === "tool_result") {
-          const last = assistant.tools?.[assistant.tools.length - 1];
-          if (last && last.name === ev.name) last.result = ev.result;
+          const pending =
+            assistant.tools?.find((t) => t.name === ev.name && t.result === undefined) ??
+            [...(assistant.tools || [])].reverse().find((t) => t.name === ev.name);
+          if (pending) pending.result = ev.result;
           this.updateAssistantTools(assistant);
         } else if (ev.type === "map_action") {
           void this.map.applyMapAction(ev);
@@ -677,140 +680,6 @@ export class ChatPanel {
     this.renderMessages();
     void this.refreshHistoryList();
   }
-}
-
-function formatMarkdownLite(text: string): string {
-  const lines = text.split("\n");
-  const parts: string[] = [];
-  let i = 0;
-  while (i < lines.length) {
-    const table = parseMarkdownTable(lines, i);
-    if (table) {
-      parts.push(table.html);
-      i = table.next;
-      continue;
-    }
-    const chunk: string[] = [];
-    while (i < lines.length) {
-      if (parseMarkdownTable(lines, i)) break;
-      chunk.push(lines[i]);
-      i++;
-    }
-    if (chunk.length) {
-      parts.push(formatTextLines(chunk));
-    }
-  }
-  return parts.join("");
-}
-
-function formatTextLines(lines: string[]): string {
-  const out: string[] = [];
-  for (const line of lines) {
-    const heading = parseHeadingLine(line);
-    if (heading) {
-      out.push(
-        `<h${heading.level} class="chat-h${heading.level}">${formatInlineMarkdown(heading.text)}</h${heading.level}>`,
-      );
-      continue;
-    }
-    if (line === "") {
-      out.push("<br/>");
-      continue;
-    }
-    out.push(formatInlineMarkdown(line));
-  }
-  return out.join("<br/>");
-}
-
-function parseHeadingLine(line: string): { level: number; text: string } | null {
-  const m = line.trim().match(/^(#{1,5})\s+(.+)$/);
-  if (!m) return null;
-  return { level: m[1].length, text: m[2].trim() };
-}
-
-function formatInlineMarkdown(text: string): string {
-  let s = escapeHtml(text);
-  s = s.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
-  s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
-  s = s.replace(
-    /\[([^\]]+)\]\((https?:[^)]+)\)/g,
-    '<a href="$2" target="_blank" rel="noopener">$1</a>',
-  );
-  return s;
-}
-
-function splitTableCells(row: string): string[] {
-  const trow = row.trim();
-  const inner = trow.startsWith("|") ? trow.slice(1) : trow;
-  const body = inner.endsWith("|") ? inner.slice(0, -1) : inner;
-  return body.split("|").map((c) => c.trim());
-}
-
-function isTableRow(line: string): boolean {
-  const tline = line.trim();
-  return tline.includes("|") && (tline.startsWith("|") || tline.split("|").length >= 2);
-}
-
-function isTableSeparator(line: string): boolean {
-  if (!isTableRow(line)) return false;
-  const cells = splitTableCells(line);
-  return cells.length > 0 && cells.every((c) => /^:?-{3,}:?$/.test(c));
-}
-
-function tableCellAlign(cell: string): "left" | "center" | "right" | null {
-  const tcell = cell.trim();
-  const left = tcell.startsWith(":");
-  const right = tcell.endsWith(":");
-  if (left && right) return "center";
-  if (right) return "right";
-  if (left) return "left";
-  return null;
-}
-
-function parseMarkdownTable(
-  lines: string[],
-  start: number,
-): { html: string; next: number } | null {
-  if (start + 1 >= lines.length) return null;
-  const headerLine = lines[start];
-  const sepLine = lines[start + 1];
-  if (!isTableRow(headerLine) || !isTableSeparator(sepLine)) return null;
-
-  const headers = splitTableCells(headerLine);
-  const aligns = splitTableCells(sepLine).map(tableCellAlign);
-  let i = start + 2;
-  const rows: string[][] = [];
-  while (i < lines.length && isTableRow(lines[i]) && !isTableSeparator(lines[i])) {
-    rows.push(splitTableCells(lines[i]));
-    i++;
-  }
-
-  let html = '<table class="chat-table"><thead><tr>';
-  for (let c = 0; c < headers.length; c++) {
-    const align = aligns[c];
-    const style = align ? ` style="text-align:${align}"` : "";
-    html += `<th${style}>${formatInlineMarkdown(headers[c])}</th>`;
-  }
-  html += "</tr></thead><tbody>";
-  for (const row of rows) {
-    html += "<tr>";
-    for (let c = 0; c < headers.length; c++) {
-      const align = aligns[c];
-      const style = align ? ` style="text-align:${align}"` : "";
-      html += `<td${style}>${formatInlineMarkdown(row[c] ?? "")}</td>`;
-    }
-    html += "</tr>";
-  }
-  html += "</tbody></table>";
-  return { html: `<div class="table-scroll">${html}</div>`, next: i };
-}
-
-function escapeHtml(s: string): string {
-  return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
 }
 
 export type { MapState };
