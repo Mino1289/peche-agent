@@ -15,7 +15,8 @@ import {
 } from "./filters";
 import { registerProjections } from "./projections";
 import { loadStoredCustomLayers } from "./customLayers";
-import { IdentifyOverlay, pinMatchesFeature } from "./identify";
+import { IdentifyOverlay, isMobileViewport, pinMatchesFeature } from "./identify";
+import { t } from "./i18n";
 import { featurePinKey, isIdentifiable, type IdentifyHit } from "./featureKinds";
 import VectorLayer from "ol/layer/Vector";
 import type BaseLayer from "ol/layer/Base";
@@ -119,8 +120,10 @@ export class MapController {
   private lastFetch: Record<string, FetchCache> = {};
   private zoneFitPending: Record<string, boolean> = {};
   private pinListEl: HTMLElement | null = null;
+  private pinListOpen = false;
   private zoomHud: HTMLDivElement;
   private zoomListeners: Array<(z: number) => void> = [];
+  private layerListeners: Array<() => void> = [];
   private detailHandler: ((hit: IdentifyHit) => void) | null = null;
 
   constructor(target: HTMLElement) {
@@ -178,7 +181,10 @@ export class MapController {
       getFeaturePin: (layer, props, coordinate) =>
         this.findFeaturePins(layer, props, coordinate)[0] ?? null,
       onDeletePin: (id) => this.removePin(id),
-      onShowDetail: (hit) => this.detailHandler?.(hit),
+      onShowDetail: (hit) => {
+        if (isMobileViewport()) this.identify.hide();
+        this.detailHandler?.(hit);
+      },
     });
     this.zoomHud = document.createElement("div");
     this.zoomHud.className = "zoom-hud";
@@ -212,6 +218,23 @@ export class MapController {
     this.zoomListeners.push(cb);
   }
 
+  onLayersChange(cb: () => void): void {
+    this.layerListeners.push(cb);
+  }
+
+  private notifyLayersChange(): void {
+    for (const cb of this.layerListeners) cb();
+  }
+
+  visibleOverlayCount(): number {
+    let n = 0;
+    for (const id of Object.keys(this.layerIndex)) {
+      const layer = this.layerIndex[id];
+      if (!layer.get("basemap") && layer.getVisible()) n++;
+    }
+    return n;
+  }
+
   private handleClick(evt: { pixel: number[]; coordinate: number[] }): void {
     const pixel = evt.pixel;
     const coordinate = evt.coordinate;
@@ -239,7 +262,7 @@ export class MapController {
         return undefined;
       },
       {
-        hitTolerance: 10,
+        hitTolerance: window.matchMedia("(pointer: coarse)").matches ? 18 : 10,
         layerFilter: (layer) => {
           const lid = layer.get("id") as string | undefined;
           return lid === PINS_LAYER_ID || (Boolean(lid) && isIdentifiable(lid!));
@@ -412,6 +435,7 @@ export class MapController {
     const existing = this.layerIndex[def.id];
     if (existing) {
       existing.setVisible(true);
+      this.notifyLayersChange();
       return;
     }
     const layer = createOverlayLayer(def);
@@ -419,6 +443,7 @@ export class MapController {
     this.map.addLayer(layer);
     attachClipToNewLayer(layer as Layer);
     layer.setVisible(true);
+    this.notifyLayersChange();
   }
 
   removeCustomLayer(id: string): void {
@@ -429,6 +454,7 @@ export class MapController {
     }
     delete this.defs[id];
     delete this.lastFetch[id];
+    this.notifyLayersChange();
   }
 
   getCustomLayerDefs(): LayerDef[] {
@@ -441,6 +467,7 @@ export class MapController {
 
   refreshLocale(): void {
     this.identify.refreshLocale();
+    this.renderPinList();
   }
 
   ensureLayer(id: string): BaseLayer | null {
@@ -477,6 +504,7 @@ export class MapController {
   setLayerVisible(id: string, visible: boolean): void {
     const layer = this.ensureLayer(id);
     layer?.setVisible(visible);
+    this.notifyLayersChange();
     if (visible) {
       void this.refreshVectorLayer(id);
       return;
@@ -763,19 +791,42 @@ export class MapController {
     const el = this.pinListEl;
     if (!el) return;
     if (!this.pins.length) {
+      this.pinListOpen = false;
+      el.classList.remove("is-open");
       el.hidden = true;
       el.innerHTML = "";
       return;
     }
+    const m = t();
     el.hidden = false;
-    el.innerHTML = `<div class="pin-list-header">Points <span class="badge">${this.pins.length}</span></div>`;
+    el.classList.toggle("is-open", this.pinListOpen);
+    el.innerHTML = `<div class="pin-list-header">
+      <span class="pin-list-title">${escapeHtml(m.pointsLabel)} <span class="badge">${this.pins.length}</span></span>
+      <button type="button" class="pin-list-toggle" aria-expanded="${this.pinListOpen ? "true" : "false"}">
+        <span>${escapeHtml(m.pointsLabel)}</span>
+        <span class="badge">${this.pins.length}</span>
+      </button>
+    </div>
+    <div class="pin-list-rows"></div>`;
+    const toggle = el.querySelector<HTMLButtonElement>(".pin-list-toggle")!;
+    toggle.addEventListener("click", () => {
+      this.pinListOpen = !this.pinListOpen;
+      el.classList.toggle("is-open", this.pinListOpen);
+      toggle.setAttribute("aria-expanded", this.pinListOpen ? "true" : "false");
+    });
+    const rowsEl = el.querySelector(".pin-list-rows")!;
     for (const pin of this.pins) {
       const row = document.createElement("div");
       row.className = "pin-row";
       const label = pin.label || `${pin.lat.toFixed(3)}, ${pin.lon.toFixed(3)}`;
       row.innerHTML = `<button type="button" class="pin-goto">${escapeHtml(label)}</button>
-        <button type="button" class="pin-del" title="Retirer">×</button>`;
+        <button type="button" class="pin-del" title="${escapeHtml(m.removePin)}">×</button>`;
       row.querySelector(".pin-goto")!.addEventListener("click", () => {
+        if (isMobileViewport()) {
+          this.pinListOpen = false;
+          el.classList.remove("is-open");
+          toggle.setAttribute("aria-expanded", "false");
+        }
         this.map.getView().animate({
           center: fromLonLat([pin.lon, pin.lat]),
           zoom: Math.max(this.map.getView().getZoom() || 8, 11),
@@ -784,7 +835,7 @@ export class MapController {
         this.identify.showPin(pin, fromLonLat([pin.lon, pin.lat]));
       });
       row.querySelector(".pin-del")!.addEventListener("click", () => this.removePin(pin.id));
-      el.appendChild(row);
+      rowsEl.appendChild(row);
     }
   }
 

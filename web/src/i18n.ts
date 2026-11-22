@@ -41,6 +41,9 @@ type Messages = {
   msgs: string;
   // Carte — catalogue
   layersTitle: string;
+  pointsLabel: string;
+  expandPanel: string;
+  collapsePanel: string;
   searchPlaceholder: string;
   basemaps: string;
   addLayer: string;
@@ -205,6 +208,9 @@ const FR: Messages = {
   catalogError: "Erreur catalogue",
   msgs: "messages",
   layersTitle: "Couches",
+  pointsLabel: "Points",
+  expandPanel: "Agrandir",
+  collapsePanel: "Réduire",
   searchPlaceholder: "Rechercher…",
   basemaps: "Fonds de carte",
   addLayer: "Ajouter une couche",
@@ -373,6 +379,9 @@ const EN: Messages = {
   catalogError: "Catalog error",
   msgs: "messages",
   layersTitle: "Layers",
+  pointsLabel: "Pins",
+  expandPanel: "Expand",
+  collapsePanel: "Collapse",
   searchPlaceholder: "Search…",
   basemaps: "Basemaps",
   addLayer: "Add layer",

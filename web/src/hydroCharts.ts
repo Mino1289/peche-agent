@@ -564,7 +564,10 @@ function renderHydroSummaryTable(
     tbody.appendChild(tr);
   }
   table.appendChild(tbody);
-  container.appendChild(table);
+  const scrollWrap = document.createElement("div");
+  scrollWrap.className = "table-scroll";
+  scrollWrap.appendChild(table);
+  container.appendChild(scrollWrap);
 }
 
 function renderHydroHistory(

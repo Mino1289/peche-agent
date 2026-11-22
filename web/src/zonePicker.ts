@@ -164,8 +164,19 @@ export function mountZonePicker(
     }
   });
 
+  let touchingList = false;
+
+  list.addEventListener("touchstart", () => {
+    touchingList = true;
+  }, { passive: true });
+
   list.addEventListener("mousedown", (ev) => {
+    // Prevent input blur on desktop click without blocking touch scroll.
     ev.preventDefault();
+  });
+
+  list.addEventListener("click", (ev) => {
+    touchingList = false;
     const item = (ev.target as HTMLElement).closest<HTMLLIElement>(".zone-combo-item");
     if (!item) return;
     const zone = byId.get(Number(item.dataset.zoneId));
@@ -177,9 +188,13 @@ export function mountZonePicker(
 
   input.addEventListener("blur", () => {
     window.setTimeout(() => {
+      if (touchingList) {
+        touchingList = false;
+        return;
+      }
       closeList();
       const current = byId.get(currentId);
       if (current) setInputValue(current);
-    }, 120);
+    }, 150);
   });
 }

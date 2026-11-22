@@ -36,13 +36,23 @@ function renderAppShell(): void {
     <div class="map-wrap">
       <main id="map"></main>
       <div id="pin-list" class="pin-list" hidden></div>
+      <button type="button" id="mobile-layers-btn" class="mobile-fab mobile-only" aria-controls="catalog-panel" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+          <polyline points="2 17 12 22 22 17"/>
+          <polyline points="2 12 12 17 22 12"/>
+        </svg>
+        <span class="mobile-fab-label">${m.layersTitle}</span>
+        <span class="badge mobile-fab-count" hidden></span>
+      </button>
     </div>
     <aside class="detail-panel" id="detail-panel" hidden></aside>
   </div>
   <div class="tab-chat" id="tab-chat" hidden>
     <aside class="left-panel chat-sidebar" id="chat-sidebar"></aside>
     <div id="chat-panel"></div>
-  </div>`;
+  </div>
+  <div class="mobile-backdrop" id="mobile-backdrop" hidden></div>`;
 
   for (const btn of app.querySelectorAll<HTMLButtonElement>(".lang-btn")) {
     btn.addEventListener("click", () => {
@@ -56,11 +66,57 @@ function updateAppShellLocale(): void {
   const m = t();
   const mapBtn = app.querySelector<HTMLButtonElement>('[data-tab="map"]');
   const chatBtn = app.querySelector<HTMLButtonElement>('[data-tab="chat"]');
+  const layersFabLabel = app.querySelector<HTMLElement>("#mobile-layers-btn .mobile-fab-label");
   if (mapBtn) mapBtn.textContent = m.tabMap;
   if (chatBtn) chatBtn.textContent = m.tabChat;
+  if (layersFabLabel) layersFabLabel.textContent = m.layersTitle;
   for (const btn of app.querySelectorAll<HTMLButtonElement>(".lang-btn")) {
     btn.classList.toggle("active", btn.dataset.lang === getLocale());
   }
+}
+
+function closeMobileDrawers(): void {
+  const catalog = document.querySelector<HTMLElement>("#catalog-panel");
+  const chatSidebar = document.querySelector<HTMLElement>("#chat-sidebar");
+  const backdrop = document.querySelector<HTMLElement>("#mobile-backdrop");
+  catalog?.classList.remove("is-open");
+  chatSidebar?.classList.remove("is-open");
+  if (backdrop) backdrop.hidden = true;
+  document.querySelector("#mobile-layers-btn")?.setAttribute("aria-expanded", "false");
+  document.querySelector("#btn-mobile-history")?.setAttribute("aria-expanded", "false");
+}
+
+function toggleMobileDrawer(panel: HTMLElement | null, triggerSelector: string): void {
+  if (!panel) return;
+  const opening = !panel.classList.contains("is-open");
+  closeMobileDrawers();
+  if (!opening) return;
+  panel.classList.add("is-open");
+  const backdrop = document.querySelector<HTMLElement>("#mobile-backdrop");
+  if (backdrop) backdrop.hidden = false;
+  document.querySelector(triggerSelector)?.setAttribute("aria-expanded", "true");
+}
+
+function bindMobileDrawers(): void {
+  document.querySelector("#mobile-layers-btn")?.addEventListener("click", () => {
+    toggleMobileDrawer(document.querySelector<HTMLElement>("#catalog-panel"), "#mobile-layers-btn");
+  });
+  document.querySelector("#mobile-backdrop")?.addEventListener("click", closeMobileDrawers);
+  window.addEventListener("peche:close-drawers", closeMobileDrawers);
+  window.addEventListener("peche:toggle-chat-sidebar", () => {
+    toggleMobileDrawer(document.querySelector<HTMLElement>("#chat-sidebar"), "#btn-mobile-history");
+  });
+  window.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") closeMobileDrawers();
+  });
+}
+
+function updateMobileLayersBadge(): void {
+  const badge = document.querySelector<HTMLElement>("#mobile-layers-btn .mobile-fab-count");
+  if (!badge || !controllers) return;
+  const count = controllers.map.visibleOverlayCount();
+  badge.hidden = count === 0;
+  badge.textContent = String(count);
 }
 
 function bindTabs(): void {
@@ -118,6 +174,7 @@ function loadCatalog(): void {
     .loadCatalog()
     .then((catalog) => {
       controllers.catalogPanel.render(catalog);
+      updateMobileLayersBadge();
     })
     .catch((err) => {
       const catalogEl = document.querySelector<HTMLElement>("#catalog-panel")!;
@@ -136,6 +193,7 @@ function bindMapMoveRefresh(): void {
 }
 
 function showTab(tab: "map" | "chat"): void {
+  closeMobileDrawers();
   const tabMap = document.querySelector<HTMLElement>("#tab-map")!;
   const tabChat = document.querySelector<HTMLElement>("#tab-chat")!;
   const isMap = tab === "map";
@@ -155,7 +213,9 @@ function showTab(tab: "map" | "chat"): void {
 
 renderAppShell();
 bindTabs();
+bindMobileDrawers();
 controllers = initControllers();
+controllers.map.onLayersChange(updateMobileLayersBadge);
 if (import.meta.env.DEV) {
   (window as unknown as { pecheMap: typeof controllers.map.map }).pecheMap = controllers.map.map;
 }

@@ -1830,29 +1830,469 @@ details > summary::-webkit-details-marker {
   margin-left: auto;
 }
 
-@media (max-width: 800px) {
+.mobile-only {
+  display: none !important;
+}
+
+.mobile-backdrop {
+  display: none;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.panel-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.chat-header-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.pin-list-toggle {
+  display: none;
+}
+
+.pin-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 800px), (max-height: 500px) and (pointer: coarse) {
+  html,
+  body,
+  #app {
+    height: 100dvh;
+    overscroll-behavior: none;
+  }
+
+  #app {
+    grid-template-rows: 48px minmax(0, 1fr);
+  }
+
+  .mobile-only {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-backdrop:not([hidden]) {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 28;
+  }
+
+  .tab-btn {
+    padding: 0 16px;
+    min-height: 44px;
+  }
+
+  .lang-btn {
+    min-width: 38px;
+    min-height: 34px;
+  }
+
+  /* Full-screen map & chat on mobile; panels open as sheets/drawers. */
   .tab-map,
   .tab-map.has-detail {
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: minmax(0, 34vh) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
   }
-  .tab-map.has-detail {
-    grid-template-rows: minmax(0, 26vh) minmax(0, 1fr) minmax(0, 40vh);
-  }
+
   .tab-chat {
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: minmax(0, auto) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
   }
-  .chat-sidebar .history-list {
-    max-height: 24vh;
+
+  /* Floating layers button (thumb-friendly bottom-left). */
+  .mobile-fab {
+    position: absolute;
+    left: 12px;
+    bottom: calc(14px + env(safe-area-inset-bottom));
+    z-index: 10;
+    gap: 8px;
+    min-height: 44px;
+    padding: 0 14px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    font: inherit;
+    font-size: var(--text-md);
+    font-weight: 600;
+    cursor: pointer;
   }
-  .left-panel {
+
+  .mobile-fab:active {
+    background: var(--surface-raised);
+  }
+
+  .mobile-fab .badge {
+    margin-left: 0;
+    background: var(--accent-fill);
+    color: white;
+  }
+
+  /* Catalog bottom sheet */
+  #catalog-panel {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 78dvh;
+    max-height: calc(100dvh - 52px);
     border-right: none;
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
+    border-top: 1px solid var(--border-strong);
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 -12px 32px rgba(0, 0, 0, 0.55);
+    z-index: 30;
+    padding-bottom: env(safe-area-inset-bottom);
+    transform: translateY(105%);
+    visibility: hidden;
+    transition: transform 0.2s ease, visibility 0.2s ease;
   }
+
+  #catalog-panel.is-open {
+    transform: translateY(0);
+    visibility: visible;
+    transition: transform 0.2s ease, visibility 0s;
+  }
+
+  #catalog-panel .catalog-header {
+    padding: 10px 12px;
+    gap: 8px;
+  }
+
+  #catalog-panel .catalog-header h2 {
+    margin-right: auto;
+  }
+
+  #catalog-panel .catalog-header > .search-input {
+    flex: 1 1 160px;
+    width: auto;
+    order: 3;
+  }
+
+  #catalog-panel .catalog-add-btn {
+    width: auto;
+    flex: 0 0 auto;
+    order: 4;
+    padding: 8px 10px;
+    font-size: var(--text-sm);
+    white-space: nowrap;
+  }
+
+  /* Detail bottom sheet */
   .detail-panel {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 68dvh;
+    max-height: calc(100dvh - 48px);
     border-left: none;
+    border-top: 1px solid var(--border-strong);
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 -12px 32px rgba(0, 0, 0, 0.55);
+    z-index: 35;
+    padding-bottom: env(safe-area-inset-bottom);
+    transition: height 0.2s ease;
+  }
+
+  .detail-panel.detail-expanded {
+    height: calc(100dvh - 48px);
+    border-radius: 0;
+  }
+
+  .detail-header {
+    position: relative;
+    padding: 16px 12px 10px;
+  }
+
+  .detail-header::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 4px;
+    border-radius: 999px;
+    background: var(--border-strong);
+  }
+
+  .detail-header h2 {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Identify bottom card (replaces floating map overlay on mobile) */
+  .identify-popup.identify-mobile-card {
+    position: fixed;
+    left: 8px;
+    right: 8px;
+    bottom: calc(8px + env(safe-area-inset-bottom));
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    max-height: 46dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 25;
+    border-radius: 12px;
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.55);
+  }
+
+  .identify-popup.identify-mobile-card .identify-header {
+    flex-shrink: 0;
+    padding: 8px 10px 8px 12px;
+    align-items: center;
+  }
+
+  .identify-popup.identify-mobile-card .identify-body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .identify-popup.identify-mobile-card .identify-actions {
+    flex-shrink: 0;
+    padding: 8px 12px 10px;
     border-top: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  /* Collapsible pin list pill */
+  .pin-list {
+    top: 12px;
+    right: 12px;
+    width: auto;
+    max-width: min(260px, calc(100vw - 72px));
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .pin-list-header {
+    margin-bottom: 0;
+  }
+
+  .pin-list-title {
+    display: none;
+  }
+
+  .pin-list-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 40px;
+    padding: 0 12px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    font: inherit;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .pin-list-toggle .badge {
+    margin-left: 0;
+    background: var(--marker);
+    color: #09090b;
+    font-weight: 600;
+  }
+
+  .pin-list-rows {
+    display: none;
+  }
+
+  .pin-list.is-open .pin-list-rows {
+    display: block;
+    width: min(250px, calc(100vw - 24px));
+    max-height: 42dvh;
+    overflow: auto;
+    margin-top: 6px;
+    padding: 8px;
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Chat history left drawer */
+  .chat-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: min(300px, 86vw);
+    border-right: 1px solid var(--border-strong);
+    border-bottom: none;
+    box-shadow: 12px 0 32px rgba(0, 0, 0, 0.55);
+    z-index: 30;
+    padding-bottom: env(safe-area-inset-bottom);
+    transform: translateX(-105%);
+    visibility: hidden;
+    transition: transform 0.2s ease, visibility 0.2s ease;
+  }
+
+  .chat-sidebar.is-open {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.2s ease, visibility 0s;
+  }
+
+  .chat-sidebar .history-list {
+    max-height: none;
+  }
+
+  .chat-header {
+    padding: 8px 10px;
+  }
+
+  .chat-messages {
+    padding: 12px;
+  }
+
+  .chat-empty {
+    padding: 20px 0 12px;
+  }
+
+  .chat-form {
+    padding: 8px 10px calc(10px + env(safe-area-inset-bottom));
+  }
+
+  .api-key-banner {
+    margin: 10px 12px 0;
+  }
+
+  .msg-user {
+    max-width: 92%;
+  }
+
+  /* Prevent iOS Safari zoom on input focus (>= 16px). */
+  .search-input,
+  .filter-text,
+  #chat-input,
+  .modal-input,
+  .zone-combo-input {
+    font-size: 16px;
+  }
+
+  /* Touch-friendly hit targets */
+  .ol-zoom button {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+
+  .ol-attribution {
+    bottom: calc(6px + env(safe-area-inset-bottom));
+  }
+
+  .zoom-hud {
+    bottom: calc(30px + env(safe-area-inset-bottom));
+  }
+
+  .btn-icon,
+  .identify-close,
+  .modal-close,
+  .btn-msg-action {
+    min-width: 38px;
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catalog-body > details > summary {
+    min-height: 44px;
+  }
+
+  .layer-row {
+    min-height: 40px;
+    padding: 4px 0;
+  }
+
+  .filter-opt {
+    min-height: 36px;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .layer-color-picker {
+    width: 30px;
+    height: 30px;
+  }
+
+  .identify-actions .btn-secondary,
+  .identify-actions .btn-danger,
+  .identify-actions .gmaps-link {
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+  }
+
+  .pin-goto,
+  .pin-del {
+    min-height: 38px;
+  }
+
+  .history-item {
+    padding: 10px;
+  }
+
+  .history-delete {
+    min-width: 40px;
+  }
+}
+
+@media (max-height: 500px) and (pointer: coarse) {
+  #catalog-panel {
+    height: 90dvh;
+  }
+
+  .detail-panel {
+    height: 82dvh;
+  }
+
+  .identify-popup.identify-mobile-card {
+    max-height: 62dvh;
   }
 }
 

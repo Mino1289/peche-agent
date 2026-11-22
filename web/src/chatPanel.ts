@@ -100,14 +100,19 @@ export class ChatPanel {
     this.sidebar.innerHTML = `
       <div class="panel-header chat-sidebar-header">
         <h2>${m.conversations}</h2>
+        <button type="button" class="identify-close mobile-only" id="btn-chat-sidebar-close" title="${escapeHtml(m.close)}" aria-label="${escapeHtml(m.close)}">✕</button>
       </div>
       <div class="chat-sidebar-actions">
         <button type="button" id="btn-new-chat" class="btn-sidebar" title="${m.newChat}">${m.newChat}</button>
       </div>
       <div id="history-list" class="history-list"></div>`;
+    this.sidebar.querySelector("#btn-chat-sidebar-close")?.addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("peche:close-drawers"));
+    });
     this.sidebar.querySelector("#btn-new-chat")!.addEventListener("click", () => {
       navigate({ tab: "chat", id: null });
       this.resetChat();
+      window.dispatchEvent(new CustomEvent("peche:close-drawers"));
     });
     void this.refreshHistoryList({ showLoading: true });
   }
@@ -144,6 +149,7 @@ export class ChatPanel {
       btn.addEventListener("click", () => {
         navigate({ tab: "chat", id: c.id });
         void this.showConversation(c.id);
+        window.dispatchEvent(new CustomEvent("peche:close-drawers"));
       });
       const del = document.createElement("button");
       del.type = "button";
@@ -213,8 +219,12 @@ export class ChatPanel {
     const m = t();
     this.el.innerHTML = `
       <div class="panel-header chat-header">
-        <h2>${m.assistant}</h2>
+        <div class="chat-header-title">
+          <button type="button" id="btn-mobile-history" class="btn-icon mobile-only" title="${escapeHtml(m.conversations)}" aria-label="${escapeHtml(m.conversations)}" aria-controls="chat-sidebar" aria-expanded="false">☰</button>
+          <h2>${m.assistant}</h2>
+        </div>
         <div class="chat-header-actions">
+          <button type="button" id="btn-mobile-new-chat" class="btn-icon mobile-only" title="${escapeHtml(m.newChat)}" aria-label="${escapeHtml(m.newChat)}">＋</button>
           <button type="button" id="btn-settings" class="btn-icon" title="${m.settings}">⚙</button>
           <button type="button" id="btn-about" class="btn-icon" title="${m.about}">ℹ</button>
         </div>
@@ -242,6 +252,13 @@ export class ChatPanel {
         e.preventDefault();
         void this.send();
       }
+    });
+    this.el.querySelector("#btn-mobile-history")?.addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("peche:toggle-chat-sidebar"));
+    });
+    this.el.querySelector("#btn-mobile-new-chat")?.addEventListener("click", () => {
+      navigate({ tab: "chat", id: null });
+      this.resetChat();
     });
     this.el.querySelector("#btn-settings")!.addEventListener("click", () => {
       this.showSettingsDialog();
@@ -785,7 +802,7 @@ function parseMarkdownTable(
     html += "</tr>";
   }
   html += "</tbody></table>";
-  return { html, next: i };
+  return { html: `<div class="table-scroll">${html}</div>`, next: i };
 }
 
 function escapeHtml(s: string): string {

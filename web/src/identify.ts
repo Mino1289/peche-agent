@@ -21,6 +21,12 @@ import { stripGeom } from "./featureKinds/kind";
 const PINS_LAYER_ID = "__pins";
 /** Espace entre le point carte et le bas du popup (ancré par le haut). */
 const POPUP_GAP_PX = 14;
+export const MOBILE_MEDIA =
+  "(max-width: 800px), (max-height: 500px) and (pointer: coarse)";
+
+export function isMobileViewport(): boolean {
+  return typeof window !== "undefined" && window.matchMedia(MOBILE_MEDIA).matches;
+}
 
 type IdentifyHandlers = {
   onToggleFeaturePin: (args: {
@@ -41,14 +47,19 @@ type IdentifyHandlers = {
 export class IdentifyOverlay {
   private overlay: Overlay;
   private el: HTMLDivElement;
+  private mobileHost: HTMLElement | null;
+  private mobileMql: MediaQueryList;
   private handlers: IdentifyHandlers;
   private last: IdentifyHit | null = null;
+  private lastCoord: Coordinate | undefined;
   private lastPinOpts: { loading?: boolean } | undefined;
   private resizeObserver: ResizeObserver;
   private pinToggleMeasureBtn: HTMLButtonElement | null = null;
 
   constructor(map: OlMap, handlers: IdentifyHandlers) {
     this.handlers = handlers;
+    this.mobileHost = map.getTargetElement().parentElement;
+    this.mobileMql = window.matchMedia(MOBILE_MEDIA);
     this.el = document.createElement("div");
     this.el.className = "identify-popup";
     this.el.addEventListener("click", (ev) => this.onClick(ev));
@@ -63,12 +74,37 @@ export class IdentifyOverlay {
     map.addOverlay(this.overlay);
     this.resizeObserver = new ResizeObserver(() => this.syncOverlayOffset());
     this.resizeObserver.observe(this.el);
+    this.mobileMql.addEventListener("change", () => this.syncMount());
+  }
+
+  private showAt(coord: Coordinate): void {
+    this.lastCoord = coord;
+    if (this.mobileMql.matches && this.mobileHost) {
+      this.overlay.setPosition(undefined);
+      this.overlay.setElement(undefined);
+      this.el.classList.add("identify-mobile-card");
+      if (this.el.parentElement !== this.mobileHost) {
+        this.mobileHost.appendChild(this.el);
+      }
+      return;
+    }
+    this.el.classList.remove("identify-mobile-card");
+    if (this.overlay.getElement() !== this.el) {
+      this.overlay.setElement(this.el);
+    }
+    this.overlay.setPosition(coord);
+    this.syncOverlayOffset();
+  }
+
+  private syncMount(): void {
+    if (!this.lastCoord) return;
+    this.showAt(this.lastCoord);
   }
 
   private syncOverlayOffset(): void {
-    if (!this.overlay.getPosition()) return;
+    if (this.mobileMql.matches || !this.overlay.getPosition()) return;
     const apply = (): void => {
-      if (!this.overlay.getPosition()) return;
+      if (this.mobileMql.matches || !this.overlay.getPosition()) return;
       const h = this.el.offsetHeight;
       if (!h) return;
       this.overlay.setOffset([0, -(h + POPUP_GAP_PX)]);
@@ -81,10 +117,14 @@ export class IdentifyOverlay {
 
   hide(): void {
     this.last = null;
+    this.lastCoord = undefined;
     this.lastPinOpts = undefined;
     this.el.className = "identify-popup";
     this.el.innerHTML = "";
     this.overlay.setPosition(undefined);
+    if (this.mobileHost && this.el.parentElement === this.mobileHost) {
+      this.el.remove();
+    }
   }
 
   refreshLocale(): void {
@@ -115,14 +155,14 @@ export class IdentifyOverlay {
 
   showLoading(coord: Coordinate, title: string): void {
     const m = t();
+    this.el.className = "identify-popup";
     this.el.innerHTML = `
       <div class="identify-header">
         <h3>${escapeHtml(title)}</h3>
         <button type="button" class="identify-close" data-act="close" title="${escapeHtml(m.close)}">✕</button>
       </div>
       <div class="identify-body">${spinnerHtml()}</div>`;
-    this.overlay.setPosition(coord);
-    this.syncOverlayOffset();
+    this.showAt(coord);
   }
 
   async showFeature(hit: IdentifyHit): Promise<void> {
@@ -147,8 +187,7 @@ export class IdentifyOverlay {
         ${this.featurePinButtonHtml(hit)}
         ${gmapsButton(lat, lon)}
       </div>`;
-    this.overlay.setPosition(hit.coordinate);
-    this.syncOverlayOffset();
+    this.showAt(hit.coordinate);
   }
 
   showPin(
@@ -182,6 +221,7 @@ export class IdentifyOverlay {
     const label = pin.label || coordsLabel(pin.lon, pin.lat);
     const ctx = (pin.props || {}) as Record<string, unknown>;
     const ctxHtml = opts?.loading ? spinnerHtml() : pinContextHtml(ctx);
+    this.el.className = "identify-popup";
     this.el.innerHTML = `
       <div class="identify-header">
         <h3>${escapeHtml(label)}</h3>
@@ -198,8 +238,7 @@ export class IdentifyOverlay {
         ${gmapsButton(pin.lat, pin.lon)}
         <button type="button" class="btn-danger" data-act="del-pin" data-pin="${escapeHtml(pin.id)}">${escapeHtml(m.removePin)}</button>
       </div>`;
-    this.overlay.setPosition(coordinate);
-    this.syncOverlayOffset();
+    this.showAt(coordinate);
   }
 
   private onClick(ev: Event): void {

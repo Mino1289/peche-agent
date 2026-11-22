@@ -53,6 +53,16 @@ export class CatalogPanel {
     const header = document.createElement("div");
     header.className = "panel-header catalog-header";
     header.innerHTML = `<h2>${escapeHtml(m.layersTitle)}</h2>`;
+    const closeBtn = document.createElement("button");
+    closeBtn.type = "button";
+    closeBtn.className = "identify-close mobile-only";
+    closeBtn.title = m.close;
+    closeBtn.setAttribute("aria-label", m.close);
+    closeBtn.textContent = "✕";
+    closeBtn.addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent("peche:close-drawers"));
+    });
+    header.appendChild(closeBtn);
     const addBtn = document.createElement("button");
     addBtn.type = "button";
     addBtn.className = "btn-sidebar catalog-add-btn";
