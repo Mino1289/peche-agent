@@ -299,6 +299,28 @@ def curated_layers() -> list[LayerDef]:
             extra={"proxy": True, "no_color": True},
         ),
         LayerDef(
+            id="lidar_mhc",
+            title="Hauteur de canopée LiDAR (dégradé)",
+            group="lidar",
+            source_type="wms",
+            url=MFFP,
+            layer_name="lidar_mhc",
+            curated=True,
+            filter_spec=FilterSpec(kind="none"),
+            legend_url=_legend(MFFP, "lidar_mhc"),
+            min_zoom=11,
+            color="#22c55e",
+            attribution="MFFP LiDAR",
+            extra={
+                "proxy": True,
+                "no_color": True,
+                "dataset_url": (
+                    "https://www.donneesquebec.ca/recherche/dataset/"
+                    "produits-derives-de-base-du-lidar"
+                ),
+            },
+        ),
+        LayerDef(
             id="lidar_courbes_1m",
             title="Courbe de niveau lidar 1 m",
             group="lidar",

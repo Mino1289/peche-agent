@@ -40,7 +40,12 @@ def test_catalog_endpoint():
         if g["id"] == "lidar"
         for layer in g["layers"]
     ]
-    assert lidar_ids == ["lidar_pentes"]
+    assert lidar_ids == [
+        "lidar_pentes",
+        "lidar_mhc",
+        "lidar_courbes_1m",
+        "lidar_courbes_10m",
+    ]
 
 
 def test_zones_geojson_endpoint():
