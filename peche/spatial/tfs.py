@@ -22,6 +22,17 @@ WFS_URL = "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows"
 TYPE_NAME = "SmartFaunePub:TFS"
 TFS_PATH = DATA_DIR / "spatial" / "tfs.geojson"
 KEEP_PROPS = ("NOM", "DESCRIPTION", "DATE_MAJ")
+CHASSE_INTERDITE_TYPE_NAME = "SmartFaunePub:Chasse_Interdite"
+CHASSE_INTERDITE_PATH = DATA_DIR / "spatial" / "chasse_interdite.geojson"
+CHASSE_INTERDITE_PROPS = (
+    "OBJECTID",
+    "TOPONYME",
+    "NOM",
+    "DESIGNOM",
+    "DESIG_GR",
+    "RESPONSABL",
+    "LIEN",
+)
 STORE_TOLERANCE = 0.0005  # ~50 m, géométrie stockée
 MID_TOLERANCE = 0.002  # ~200 m, zoom moyen
 POINT_BELOW_ZOOM = 9  # sous ce zoom : centroïdes
@@ -38,7 +49,7 @@ def _round(obj: Any) -> Any:
     return obj
 
 
-def _fetch_all() -> list[dict[str, Any]]:
+def _fetch_all(type_name: str = TYPE_NAME) -> list[dict[str, Any]]:
     features: list[dict[str, Any]] = []
     start = 0
     while True:
@@ -46,7 +57,7 @@ def _fetch_all() -> list[dict[str, Any]]:
             "service": "WFS",
             "version": "2.0.0",
             "request": "GetFeature",
-            "typeNames": TYPE_NAME,
+            "typeNames": type_name,
             "outputFormat": "application/json",
             "srsName": "EPSG:4326",
             "count": str(_PAGE_SIZE),
@@ -61,37 +72,53 @@ def _fetch_all() -> list[dict[str, Any]]:
         start += _PAGE_SIZE
 
 
-def sync() -> int:
-    """Télécharge la couche, simplifie, écrit tfs.geojson. Retourne le nombre d'entités."""
+def _sync_layer(type_name: str, path: Any, keep_props: tuple[str, ...]) -> int:
     out = []
-    for feat in _fetch_all():
+    for feat in _fetch_all(type_name):
+        if not feat.get("geometry"):
+            continue
         props = feat.get("properties") or {}
         geom = shape(feat["geometry"]).simplify(STORE_TOLERANCE, preserve_topology=True)
         out.append(
             {
                 "type": "Feature",
-                "properties": {k: props.get(k) for k in KEEP_PROPS},
+                "properties": {k: props.get(k) for k in keep_props},
                 "geometry": _round(mapping(geom)),
             }
         )
-    TFS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     body = {"type": "FeatureCollection", "features": out}
-    TFS_PATH.write_text(json.dumps(body, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    path.write_text(json.dumps(body, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     _stored.cache_clear()
     _band.cache_clear()
     return len(out)
 
 
-@lru_cache(maxsize=1)
-def _stored() -> list[dict[str, Any]]:
-    return json.loads(TFS_PATH.read_text(encoding="utf-8"))["features"]
+def sync() -> int:
+    """Télécharge TFS, simplifie, écrit tfs.geojson. Retourne le nombre d'entités."""
+    return _sync_layer(TYPE_NAME, TFS_PATH, KEEP_PROPS)
 
 
-@lru_cache(maxsize=3)
-def _band(name: str) -> list[tuple[tuple[float, float, float, float], dict[str, Any]]]:
+def sync_chasse_interdite() -> int:
+    """Télécharge Chasse_Interdite, simplifie, écrit chasse_interdite.geojson."""
+    return _sync_layer(
+        CHASSE_INTERDITE_TYPE_NAME, CHASSE_INTERDITE_PATH, CHASSE_INTERDITE_PROPS
+    )
+
+
+@lru_cache(maxsize=2)
+def _stored(kind: str = "tfs") -> list[dict[str, Any]]:
+    path = CHASSE_INTERDITE_PATH if kind == "chasse_interdite" else TFS_PATH
+    return json.loads(path.read_text(encoding="utf-8"))["features"]
+
+
+@lru_cache(maxsize=6)
+def _band(
+    name: str, kind: str = "tfs"
+) -> list[tuple[tuple[float, float, float, float], dict[str, Any]]]:
     """Entités prêtes à servir pour une bande de zoom : (bounds, feature)."""
     out = []
-    for feat in _stored():
+    for feat in _stored(kind):
         geom = shape(feat["geometry"])
         if name == "points":
             geom = geom.representative_point()
@@ -110,6 +137,14 @@ def _band(name: str) -> list[tuple[tuple[float, float, float, float], dict[str, 
     return out
 
 
+def _zoom_band_name(zoom: int | None) -> str:
+    if zoom is None or zoom >= MID_BELOW_ZOOM:
+        return "full"
+    if zoom >= POINT_BELOW_ZOOM:
+        return "mid"
+    return "points"
+
+
 def tfs_geojson(
     bbox: tuple[float, float, float, float] | None,
     *,
@@ -120,16 +155,26 @@ def tfs_geojson(
 
     `descriptions` = None → pas de filtre. La couche est bornée (~550 entités) : pas de limite.
     """
-    if zoom is None or zoom >= MID_BELOW_ZOOM:
-        name = "full"
-    elif zoom >= POINT_BELOW_ZOOM:
-        name = "mid"
-    else:
-        name = "points"
+    name = _zoom_band_name(zoom)
     features = []
-    for (minx, miny, maxx, maxy), feat in _band(name):
+    for (minx, miny, maxx, maxy), feat in _band(name, "tfs"):
         if descriptions is not None and feat["properties"].get("DESCRIPTION") not in descriptions:
             continue
+        if bbox and (maxx < bbox[0] or minx > bbox[2] or maxy < bbox[1] or miny > bbox[3]):
+            continue
+        features.append(feat)
+    return {"type": "FeatureCollection", "features": features}
+
+
+def chasse_interdite_geojson(
+    bbox: tuple[float, float, float, float] | None,
+    *,
+    zoom: int | None,
+) -> dict[str, Any]:
+    """Zones de chasse/pêche interdite : mêmes seuils de zoom que TFS."""
+    name = _zoom_band_name(zoom)
+    features = []
+    for (minx, miny, maxx, maxy), feat in _band(name, "chasse_interdite"):
         if bbox and (maxx < bbox[0] or minx > bbox[2] or maxy < bbox[1] or miny > bbox[3]):
             continue
         features.append(feat)

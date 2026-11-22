@@ -33,6 +33,11 @@ def main(argv: list[str] | None = None) -> int:
         help="Snapshot simplifié des territoires fauniques (SmartFaune TFS → GeoJSON).",
     )
     tfs.set_defaults(func=_cmd_tfs_sync)
+    ci = sub.add_parser(
+        "chasse-interdite-sync",
+        help="Snapshot simplifié des zones chasse/pêche interdite (SmartFaune → GeoJSON).",
+    )
+    ci.set_defaults(func=_cmd_chasse_interdite_sync)
     argv = list(argv if argv is not None else sys.argv[1:])
     if not argv:
         argv = ["link"]
@@ -70,6 +75,13 @@ def _cmd_tfs_sync(_args: argparse.Namespace) -> int:
     from peche.spatial.tfs import sync
 
     print(f"TFS : {sync()} entités écrites")
+    return 0
+
+
+def _cmd_chasse_interdite_sync(_args: argparse.Namespace) -> int:
+    from peche.spatial.tfs import sync_chasse_interdite
+
+    print(f"Chasse interdite : {sync_chasse_interdite()} entités écrites")
     return 0
 
 

@@ -397,6 +397,10 @@ def get_features(
             data = tfs_geojson(
                 bbox_t, descriptions=set(matches) if matches else None, zoom=zoom
             )
+        elif kind == "local" and layer == "chasse_interdite":
+            from peche.spatial.tfs import chasse_interdite_geojson
+
+            data = chasse_interdite_geojson(bbox_t, zoom=zoom)
         elif kind == "local" and layer == "bassins_wms":
             # Niveaux cochés ; sinon le niveau implicite du zoom (même règle que le viewport agent).
             from peche.bassins import bassins_geojson_bytes

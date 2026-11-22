@@ -185,12 +185,12 @@
           "id": "chasse_interdite",
           "title": "Chasse/Pêche interdite",
           "group": "faune",
-          "source_type": "wfs",
-          "url": "https://servicesvecto3.mern.gouv.qc.ca/geoserver/SmartFaunePub/ows",
-          "layer_name": "SmartFaunePub:Chasse_Interdite",
+          "source_type": "local",
+          "url": "data/spatial/chasse_interdite.geojson",
+          "layer_name": null,
           "curated": true,
           "filter_spec": {
-            "kind": "cql",
+            "kind": "none",
             "attr": null,
             "options": [],
             "multi": true
@@ -793,10 +793,11 @@
     "milieux_humides",
     "bassins_wms",
     "lidar_pentes",
+    "lidar_mhc",
     "lidar_courbes_1m",
     "lidar_courbes_10m",
     "aq_reseau",
     "aq_forestier",
-    "stf_unites_amenagement"
+    "stf_propriete_privee"
   ]
 }

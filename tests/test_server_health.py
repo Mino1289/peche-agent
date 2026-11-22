@@ -48,6 +48,18 @@ def test_catalog_endpoint():
     ]
 
 
+def test_chasse_interdite_matches_tfs_zoom_bands():
+    client = TestClient(create_app())
+    low = client.get("/api/features", params={"layer": "chasse_interdite", "zoom": 6})
+    high = client.get("/api/features", params={"layer": "chasse_interdite", "zoom": 10})
+    assert low.status_code == 200 and high.status_code == 200
+    low_feats = low.json()["features"]
+    high_feats = high.json()["features"]
+    assert len(low_feats) > 0 and len(high_feats) > 0
+    assert low_feats[0]["geometry"]["type"] == "Point"
+    assert high_feats[0]["geometry"]["type"] in ("Polygon", "MultiPolygon")
+
+
 def test_zones_geojson_endpoint():
     client = TestClient(create_app())
     resp = client.get("/api/zones/geojson")
